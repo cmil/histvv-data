@@ -3,18 +3,11 @@
     xmlns:ns="http://hashtable.de/ns/histvv">
   <!--
      basiert auf HTML-Transkription
-
      http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html
 
-     - die im HTML gesperrt formatierten Textpartien wurden hier mit
-       <em>...</em> ausgezeichnet
-
-     - für im Original in Antiqua gesetzten Text wurde das <i>...</i>
-       der HTML-Version übernommen, sofern der Text nicht semantisch
-       ausgezeichenet wurde (z.B. dozent/grad)
-
-     - Zeitangaben sind noch nicht durchgängig ausgezeichnet, ebenso
-       das Thema einzelner Veranstaltungen (soweit vorhanden)
+     TODO: Zeitangaben sind noch nicht durchgängig ausgezeichnet,
+     ebensowenig das Thema einzelner Veranstaltungen (soweit
+     vorhanden).
   -->
 
   <kopf>
@@ -38,7 +31,7 @@
   <titel>Verzeichnis der im Sommerhalbjahre 1821 auf der Universität Leipzig
   zu haltenden Vorlesungen</titel>
 
-  <p>Der Anfang dieser Vorlesungen ist auf den 28. May festgesetzt.</p>
+  <absatz>Der Anfang dieser Vorlesungen ist auf den 28. May festgesetzt.</absatz>
 
   <sachgruppe>
     <titel>Allgemeine Encyclopädie.</titel>
@@ -63,7 +56,7 @@
           <veranstaltung><dozent><nachname>Winer</nachname>, <grad>D.</grad>
           <vorname>G. B.</vorname>, <funktion>Theol. P.
           E.</funktion></dozent>, <thema>Anfangsgründe der hebr. Sprache nach
-          <em>Gesenius</em> (4. Aufl. Halle 1820.)</thema> <zeit>2 T. in zu
+          <gesperrt>Gesenius</gesperrt> (4. Aufl. Halle 1820.)</thema> <zeit>2 T. in zu
           best St.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
           <sachgruppe>
@@ -102,9 +95,9 @@
           <titel>Grundsätze der Kritik und Hermeneutik.</titel>
 
           <veranstaltung><dozent><nachname>Beck</nachname>, <vorname>C.
-          D.</vorname>, <funktion><i>P. O.</i> d. Z.
-          Dech.</funktion></dozent>, nach s. <i>monogrammatt. artis crit. et
-          hermen.</i> 8 U. Dienst. u. Freit.</veranstaltung>
+          D.</vorname>, <funktion>P. O. d. Z.
+          Dech.</funktion></dozent>, nach s. <fremdsprache>monogrammatt. artis crit. et
+          hermen.</fremdsprache> 8 U. Dienst. u. Freit.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -117,13 +110,13 @@
 
           <veranstaltung><dozent><nachname>Beier</nachname>, <vorname>C.
           F.</vorname>, <funktion>P. E. des.</funktion></dozent>,
-          <thema>cursorische Erklärung der Bücher Plato's <i>de
-          republ</i></thema> <zeit>3 U. 2 T.</zeit>
+          <thema>cursorische Erklärung der Bücher Plato's <fremdsprache>de
+          republ</fremdsprache></thema> <zeit>3 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Otto</nachname>, <grad>D.</grad>
           <vorname>C. E.</vorname></dozent>, <thema>über des Demosthenes Rede
-          <i>in Spudiam de dote</i> (<i>Tom. IV.</i> der Tauchnitz.
+          <fremdsprache>in Spudiam de dote</fremdsprache> (<fremdsprache>Tom. IV.</fremdsprache> der Tauchnitz.
           Ausg.)</thema> <zeit>4 U. 2 T.</zeit> mit besonderer Rücksicht auf
           Juristen, <entgelt>unentgeltlich</entgelt>.</veranstaltung>
         </sachgruppe>
@@ -138,7 +131,7 @@
 
           <veranstaltung><dozent><nachname>Rost</nachname>, <vorname>F. W.
           E.</vorname>, <funktion>P. E.</funktion></dozent>, über den
-          <i>Trinumus</i> des Plautus, <zeit>5 U. 2 T.</zeit>
+          <fremdsprache>Trinumus</fremdsprache> des Plautus, <zeit>5 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Beier</nachname>, <vorname>C.
@@ -159,9 +152,9 @@
           <titel>Theorie des lateinischen Styls.</titel>
 
           <veranstaltung><dozent><nachname>Beck</nachname>, <vorname>C.
-          D.</vorname>, <funktion><i>P. O.</i> u. d. Z.
-          Dech.</funktion></dozent>, nach s. <i>Praeoeptt. artis lat.
-          scrib.</i> <zeit>8 U. Mont. u. Donnerst. 8 U. Dienst. u.
+          D.</vorname>, <funktion>P. O. u. d. Z.
+          Dech.</funktion></dozent>, nach s. <fremdsprache>Praeoeptt. artis lat.
+          scrib.</fremdsprache> <zeit>8 U. Mont. u. Donnerst. 8 U. Dienst. u.
           Freit.</zeit></veranstaltung>
         </sachgruppe>
 
@@ -185,7 +178,7 @@
           <titel>*) Philologische Uebungen.</titel>
 
           <veranstaltung><dozent><nachname>Beck</nachname>, <vorname>C.
-          D.</vorname>, <funktion><i>P. O.</i> u. d. Z.
+          D.</vorname>, <funktion>P. O. u. d. Z.
           Dech.</funktion></dozent>, philol. und didakt.<seite>3</seite>
           Uebungen im kön. philol. Seminar, 3 u. <zeit>4 U. 2 T.</zeit>
           <modus>öffentlich</modus></veranstaltung>
@@ -313,8 +306,8 @@
       Arithmetik und Geometrie, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Möbius</nachname>, <vorname>A.
-      F.</vorname>, <funktion><i>P. E.</i> u.
-      <i>Observ.</i></funktion></dozent>, theorische Astronomie, <zeit>4 U. 2
+      F.</vorname>, <funktion>P. E. u.
+      <fremdsprache>Observ.</fremdsprache></funktion></dozent>, theorische Astronomie, <zeit>4 U. 2
       T.</zeit> <modus>öffentlich</modus>; ingl. sphärische Trigonometrie,
       nebst Anwendung derselben auf prakt. Astronomie, <zeit>5 U. 2
       T.</zeit></veranstaltung>
@@ -324,7 +317,7 @@
       <titel>4) Anthropologie und Psychologie.</titel>
 
       <veranstaltung><dozent><nachname>Heinroth</nachname>, <grad>D.</grad>
-      <vorname>J. C. A.</vorname></dozent>, <i>Med. P. O. des.</i>,
+      <vorname>J. C. A.</vorname></dozent>, <fremdsprache>Med. P. O. des.</fremdsprache>,
       Anthropologie, <zeit>8 U. 4 T.</zeit>
       <modus>privatissime</modus>.</veranstaltung>
 
@@ -443,14 +436,14 @@
         <titel>Welt- Völker- und Staatengeschichte.</titel>
 
         <veranstaltung><dozent><nachname>Beck</nachname>, <vorname>C.
-        D.</vorname>, <funktion><i>P. O.</i> d. Z. Dech.</funktion></dozent>,
+        D.</vorname>, <funktion>P. O. d. Z. Dech.</funktion></dozent>,
         <thema>allgemeine Welt- und Völkergeschichte von Erschaffung der Welt
         bis <seite>6</seite> auf die Theilung der Caroling. Monarchie im J.
         843. nach s. kurzgefaßten Anleitung z. Welt- und
         Völkergeschichte</thema>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Beck</nachname>, <vorname>C.
-        D.</vorname>, <funktion><i>P. O.</i> d. Z. Dech.</funktion></dozent>,
+        D.</vorname>, <funktion>P. O. d. Z. Dech.</funktion></dozent>,
         <thema>allgemeine christl. Kirchengeschichte für Studirende aller
         Facultäten, nach s. Sätzen</thema>, <zeit>3 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -488,15 +481,15 @@
         <veranstaltung><dozent><nachname>Böttiger</nachname>, <vorname>C.
         W.</vorname>, <funktion>P. E. des.</funktion></dozent>, Statistik des
         Königr. Sachsen, 4 U. Dienst. u. Freit.; ingl. Statistik der
-        wichtigst. Staaten Europa's, n. <em>Meusel</em>,
-        <i>privatis.</i></veranstaltung>
+        wichtigst. Staaten Europa's, n. <gesperrt>Meusel</gesperrt>,
+        <modus>privatis.</modus></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
         <titel>Alterthumswissenschaft.</titel>
 
         <veranstaltung><dozent><nachname>Beck</nachname>, <vorname>C.
-        D.</vorname>, <funktion><i>P. O.</i> d. Z. Dech.</funktion></dozent>,
+        D.</vorname>, <funktion>P. O. d. Z. Dech.</funktion></dozent>,
         Archäologie der Kunst, <zeit>4 U. 4 T.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
 
@@ -588,13 +581,13 @@
       <veranstaltung><dozent><nachname>Pölitz</nachname>, <vorname>K. H.
       L.</vorname>, <funktion>P. O.</funktion></dozent>, Theorie der
       Dichtkunst u. Beredtsamkeit, mit steter Rücksicht auf die teutschen
-      Classiker, nach s. Comp. <em>die Sprache der Teutschen</em>, Lpz. 1820.
+      Classiker, nach s. Comp. <gesperrt>die Sprache der Teutschen</gesperrt>, Lpz. 1820.
       b. Weidmanns, 8 U. Dienst. u. Freit.
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><dozent><nachname>Wendt</nachname>,
       <vorname>A.</vorname>, <funktion>P. O. des.</funktion></dozent>,
-      Rhetorik nach <em>Schotts</em> Entwurf e. Theorie der Beredtsamkeit (2.
+      Rhetorik nach <gesperrt>Schotts</gesperrt> Entwurf e. Theorie der Beredtsamkeit (2.
       Afl. Lpz. 1815. 8.) <zeit>10 U. 4 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
@@ -758,7 +751,7 @@
           <veranstaltung><dozent><nachname>Höpfner</nachname>, <grad>D.</grad>
           <vorname>J. G. C.</vorname>, <funktion>Phil. P. E.
           des.</funktion></dozent>, Forts. und Beschluß der Erklär. s.
-          <i>epitome theol. christ.</i> 2te Ausg. <zeit>11 U. 2 T.</zeit>
+          <fremdsprache>epitome theol. christ.</fremdsprache> 2te Ausg. <zeit>11 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 
@@ -780,8 +773,8 @@
 
             <veranstaltung><dozent><nachname>Höpfner</nachname>,
             <grad>D.</grad> <vorname>J. G. C.</vorname>, <funktion>P. E.
-            des.</funktion></dozent>, nach s. <i>Introductio in theologiae
-            dogmaticae historiam literar.</i> (Lpz. b. Schwickert, 1821)
+            des.</funktion></dozent>, nach s. <fremdsprache>Introductio in theologiae
+            dogmaticae historiam literar.</fremdsprache> (Lpz. b. Schwickert, 1821)
             <zeit>2 U. 2 T.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -794,13 +787,13 @@
           <titel>Kirchengeschichte.</titel>
 
           <veranstaltung><dozent><nachname>Tzschirner</nachname>,
-          <grad>D.</grad> <vorname>H. G.</vorname>, <funktion><i>P. O.</i> z.
+          <grad>D.</grad> <vorname>H. G.</vorname>, <funktion>P. O. z.
           Dech.</funktion></dozent>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Illgen</nachname>, <vorname>C.
           F.</vorname>, <funktion>Phil. P. E. des. Th.
           Bacc.</funktion></dozent>, Kirchengeschichte der neuern Zeit nach
-          <em>Schmidts</em> Lehrbuche, <zeit>9 U. 6 T.</zeit>
+          <gesperrt>Schmidts</gesperrt> Lehrbuche, <zeit>9 U. 6 T.</zeit>
           <modus>öffentlich</modus> u.
           <entgelt>unentgeltlich</entgelt>.</veranstaltung>
         </sachgruppe>
@@ -836,7 +829,7 @@
           <titel>Pastoraltheologie.</titel>
 
           <veranstaltung><dozent><nachname>Tzschirner</nachname>,
-          <grad>D.</grad> <vorname>H. G.</vorname>, <funktion><i>P. O.</i> d.
+          <grad>D.</grad> <vorname>H. G.</vorname>, <funktion>P. O. d.
           z. Dech.</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
@@ -910,9 +903,9 @@
           <titel>Quellenkunde.</titel>
 
           <veranstaltung><dozent><nachname>Otto</nachname>, <grad>D.</grad>
-          <vorname>C. F.</vorname></dozent>, über das <i>Fragment.
-          Dosithem.</i> oder <i>vet. ICti de iuris specieb. et de
-          manumissionib.</i> nach der Ausgabe von <em>Schilling</em>, 4 U.
+          <vorname>C. F.</vorname></dozent>, über das <fremdsprache>Fragment.
+          Dosithem.</fremdsprache> oder <fremdsprache>vet. ICti de iuris specieb. et de
+          manumissionib.</fremdsprache> nach der Ausgabe von <gesperrt>Schilling</gesperrt>, 4 U.
           Sonnab. in lat. Sprache.</veranstaltung>
         </sachgruppe>
 
@@ -923,10 +916,10 @@
 
           <veranstaltung><dozent><nachname>Haubold</nachname>, <grad>D.</grad>
           <vorname>C. G.</vorname>, <funktion>P. O.</funktion></dozent>, in
-          Verbind. mit den Institutionen nach der 2. Ausg. s. <i>Institutt.
-          iuris Rom. hist. dogm.</i> (bei Hinrichs), <zeit>4 U. 6 T.</zeit>,
+          Verbind. mit den Institutionen nach der 2. Ausg. s. <fremdsprache>Institutt.
+          iuris Rom. hist. dogm.</fremdsprache> (bei Hinrichs), <zeit>4 U. 6 T.</zeit>,
           <zeit>11 U. 3 T.</zeit> (Dienst. Donnerst. u. Freit.) <zeit>8 U. 2
-          T. also <em>wöchentlich</em> 11 St.</zeit></veranstaltung>
+          T. also <gesperrt>wöchentlich</gesperrt> 11 St.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Otto</nachname>, <grad>D.</grad>
           <vorname>C. F.</vorname></dozent>, in eign. Sätzen doch mit
@@ -943,7 +936,7 @@
 
           <veranstaltung><dozent><nachname>Reichel</nachname>, <grad>M.</grad>
           <vorname>V. F.</vorname>, <funktion>I. V. B.</funktion></dozent>, n.
-          <em>Heineccius</em>, <zeit>8 U. 6 T.</zeit></veranstaltung>
+          <gesperrt>Heineccius</gesperrt>, <zeit>8 U. 6 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -955,7 +948,7 @@
 
           <veranstaltung><dozent><nachname>Reichel</nachname>, <grad>M.</grad>
           <vorname>V. F.</vorname>, <funktion>I. V. B.</funktion></dozent>, n.
-          <em>Hellfeld</em>, <zeit>7 u. 2 U. 6 T.</zeit></veranstaltung>
+          <gesperrt>Hellfeld</gesperrt>, <zeit>7 u. 2 U. 6 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -973,7 +966,7 @@
           <veranstaltung><dozent><nachname>Haubold</nachname>, <grad>D.</grad>
           <vorname>C. G.</vorname>, <funktion>P. O.</funktion></dozent>, als
           integrirender Theil s. histor. dogm. Vorträge über d. röm. Recht
-          nach der 2. Ausg. s. <i>Institutt. iuris rom. hist. dogm.</i>
+          nach der 2. Ausg. s. <fremdsprache>Institutt. iuris rom. hist. dogm.</fremdsprache>
           <zeit>7 U. 2 T.</zeit></veranstaltung>
         </sachgruppe>
 
@@ -991,7 +984,7 @@
 
           <veranstaltung><dozent><nachname>Langenn</nachname>, <vorname>F. A.
           v.</vorname>, <funktion>I. V. B.</funktion></dozent>, nach
-          <em>Haubolds</em> <i>lineam. doct. Pandect.</i>, <zeit>2 U. 4
+          <gesperrt>Haubolds</gesperrt> <fremdsprache>lineam. doct. Pandect.</fremdsprache>, <zeit>2 U. 4
           T.</zeit> <entgelt>unentgeltlich</entgelt>.</veranstaltung>
         </sachgruppe>
 
@@ -1000,7 +993,7 @@
 
           <veranstaltung><dozent><nachname>Hänel</nachname>, <grad>D.</grad>
           <vorname>F.</vorname>, <funktion>P. E. des.</funktion></dozent>,
-          nach <em>Günthers</em> <i>principis iuris rom. priv. noviss.</i> in
+          nach <gesperrt>Günthers</gesperrt> <fremdsprache>principis iuris rom. priv. noviss.</fremdsprache> in
           lat. Sprache, <zeit>10 U. 4 T.</zeit></veranstaltung>
         </sachgruppe>
 
@@ -1031,7 +1024,7 @@
         <veranstaltung><dozent><nachname>Weisse</nachname>, <grad>D.</grad>
         <vorname>C. F.</vorname>, <funktion>P. O.</funktion></dozent>,
         philosoph. Criminalrecht oder allgemeiner Theil des Criminalrechts n.
-        <em>Feuerbach</em>, <zeit>11 U. 4 T.</zeit>
+        <gesperrt>Feuerbach</gesperrt>, <zeit>11 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
@@ -1043,8 +1036,8 @@
         4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><dozent><nachname>Müller</nachname>, <grad>D.</grad>
-        <vorname>J. G.</vorname>, <funktion><i>P. O. des.</i> u. d. Z.
-        <i>Rect. Univ.</i></funktion></dozent> n. Böhmer, <zeit>7 U. 6
+        <vorname>J. G.</vorname>, <funktion>P. O. des. u. d. Z.
+        Rect. Univ.</funktion></dozent> n. Böhmer, <zeit>7 U. 6
         T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Wenck</nachname>, <grad>D.</grad>
@@ -1071,12 +1064,12 @@
 
         <veranstaltung><dozent><nachname>Weisse</nachname>, <grad>D.</grad>
         <vorname>C. F.</vorname>, <funktion>P. O.</funktion></dozent>, n.
-        <em>Böhmer</em>, <zeit>9 U. 4 T.</zeit></veranstaltung>
+        <gesperrt>Böhmer</gesperrt>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Müller</nachname>, <grad>D.</grad>
-        <vorname>J. G.</vorname>, <funktion><i>P. O. des.</i> u. d. Z.
+        <vorname>J. G.</vorname>, <funktion>P. O. des. u. d. Z.
         Dechant</funktion></dozent>, über summarische Prozesse nach s.
-        <i>Systema process. iudic.</i> vom 6. Kap. d. z. B. an <zeit>10 U. 4
+        <fremdsprache>Systema process. iudic.</fremdsprache> vom 6. Kap. d. z. B. an <zeit>10 U. 4
         T.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -1086,18 +1079,18 @@
         <veranstaltung><!--Veranstaltung fehlte im HTML --><dozent><nachname>Biener</nachname>,
         <grad>D.</grad> <vorname>E.</vorname>, <funktion>P. Primar. u. d. Z.
         Dechant</funktion></dozent>, über summarische Prozesse nach s.
-        <em>Systema process. indic.</em> vom 6. Kap. d. z. B. an <zeit>10 U. 4
+        <gesperrt>Systema process. indic.</gesperrt> vom 6. Kap. d. z. B. an <zeit>10 U. 4
         T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Klien</nachname>, <grad>D.</grad>
         <vorname>E.</vorname>, <funktion>P. O.</funktion></dozent>, ordentl.
-        Civilprozeß nach <em>Biener</em> u. unter Mitgebrauch eigner
+        Civilprozeß nach <gesperrt>Biener</gesperrt> u. unter Mitgebrauch eigner
         tabellarisch geordneter Uebersichten, <zeit>11 U. 6 Tage</zeit> u.
         <zeit>2 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Rüsser</nachname>, <grad>D.</grad>
         <vorname>K.</vorname></dozent>, ordentl. Civilprozeß nach
-        <em>Biener</em> nebst Mittheilung der bei gerichtl. und außergerichtl.
+        <gesperrt>Biener</gesperrt> nebst Mittheilung der bei gerichtl. und außergerichtl.
         Rechtsgeschäften vorkomm. prakt. Aufsätze, <zeit>2 U. 4
         T.</zeit></veranstaltung>
 
@@ -1165,7 +1158,7 @@
 
         <veranstaltung><dozent><nachname>Liekefett</nachname>, <vorname>S.
         G.</vorname>, <funktion>I. V. B.</funktion></dozent>, Uebungen in der
-        jurist. Praxis nach <em>Bischoffs</em> Kanzleipraxis, <zeit>10 U. 6
+        jurist. Praxis nach <gesperrt>Bischoffs</gesperrt> Kanzleipraxis, <zeit>10 U. 6
         T.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -1218,8 +1211,8 @@
           <titel>Ueber die Pandekten.</titel>
 
           <veranstaltung><dozent><nachname>Müller</nachname>, <grad>D.</grad>
-          <vorname>J. G.</vorname>, <funktion><i>P. O. des.</i> u. d. Z.
-          <i>Rect. Univ.</i></funktion></dozent>, 6 T. in z. best
+          <vorname>J. G.</vorname>, <funktion>P. O. des. u. d. Z.
+          Rect. Univ.</funktion></dozent>, 6 T. in z. best
           St.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Rüsser</nachname>, <grad>D.</grad>
@@ -1341,7 +1334,7 @@
         U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Leune</nachname>, <grad>D.</grad>
-        <vorname>J. C. F.</vorname></dozent>, nach <em>Burdach</em>, <zeit>3
+        <vorname>J. C. F.</vorname></dozent>, nach <gesperrt>Burdach</gesperrt>, <zeit>3
         U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Radius</nachname>, <grad>M.</grad>
@@ -1357,7 +1350,7 @@
           <titel>Therapeutischer Cursus.</titel>
 
           <veranstaltung><dozent><nachname>Haase</nachname>, <grad>D.</grad>
-          <vorname>W. A.</vorname>, <funktion><i>P. O.</i> d. Z.
+          <vorname>W. A.</vorname>, <funktion>P. O. d. Z.
           Dech.</funktion></dozent>, <thema>die gesammte specielle Therapie,
           in einem einjähr. Cursus, wovon in dem gegenwärt. Sommerhalbjahr die
           Fieberlehre</thema> <zeit>2 U. 4 T.</zeit>
@@ -1372,7 +1365,7 @@
 
           <veranstaltung><dozent><nachname>Hahnemann</nachname>,
           <grad>D.</grad> <vorname>S.</vorname></dozent>, <thema>die Kunst
-          Krankheiten zu heilen, nach s. <i>Organon</i> (2. Aufl.)</thema>
+          Krankheiten zu heilen, nach s. <fremdsprache>Organon</fremdsprache> (2. Aufl.)</thema>
           <zeit>2 U. 2 T.</zeit> <modus>privatiss.</modus></veranstaltung>
         </sachgruppe>
 
@@ -1433,7 +1426,7 @@
         <titel>6) Arzneimittellehre.</titel>
 
         <veranstaltung><dozent><nachname>Haase</nachname>, <grad>D.</grad>
-        <vorname>W. A.</vorname>, <funktion><i>P. O.</i> u. d. Z.
+        <vorname>W. A.</vorname>, <funktion>P. O. u. d. Z.
         Dech.</funktion></dozent>, <thema>nach eigner Ordnung</thema>,
         <zeit>11 U. 4 T.</zeit></veranstaltung>
 
@@ -1511,7 +1504,7 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Richter</nachname>, <grad>D.</grad>
-        <vorname>C. F.</vorname></dozent>, nach <em>Stein</em>'s Handb.
+        <vorname>C. F.</vorname></dozent>, nach <gesperrt>Stein</gesperrt>'s Handb.
         <zeit>3 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Haase</nachname>, <grad>D.</grad>
@@ -1559,7 +1552,7 @@
 
         <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
         <vorname>C. G.</vorname>, <funktion>P. O.</funktion></dozent>, nach
-        <em>Metzger</em>, <zeit>3 U. 4 T.</zeit></veranstaltung>
+        <gesperrt>Metzger</gesperrt>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Wendler</nachname>, <grad>D.</grad>
         <vorname>C. A.</vorname>, <funktion>P. E.</funktion></dozent>, nach s.
@@ -1595,20 +1588,20 @@
     </sachgruppe>
   </sachgruppe>
 
-  <p>Uebrigens wird der Stallmeister <em>Richter</em>, der Fechtmeister
-  <em>Werner</em>, ingleichen der Tanzmeister <em>Klemm</em>, und der
+  <absatz>Uebrigens wird der Stallmeister <gesperrt>Richter</gesperrt>, der Fechtmeister
+  <gesperrt>Werner</gesperrt>, ingleichen der Tanzmeister <gesperrt>Klemm</gesperrt>, und der
   Universitäts-Zeichenmeister, wie auch Zeichner für anatomische und
-  pathologische Ge-<seite>19</seite>genstände, <em>Joh. Friedr. Schröter</em>,
+  pathologische Ge-<seite>19</seite>genstände, <gesperrt>Joh. Friedr. Schröter</gesperrt>,
   auf Verlangen gehörigen Unterricht ertheilen. Auch können sich die
   Studirenden des Unterrichts der bei hiesiger Zeichnungs- Maler- und
-  Architektur-Akademie angestellten Lehrer bedienen.</p>
+  Architektur-Akademie angestellten Lehrer bedienen.</absatz>
 
-  <p>Zur höhern Ausbildung in der Tonkunst gibt die mit der Universität
+  <absatz>Zur höhern Ausbildung in der Tonkunst gibt die mit der Universität
   vereinigte und unter der Leitung des Hrn. Universitäts-Musikdirectors u.
-  Musiklehrers Schulz bestehende Singakademie Gelegenheit.</p>
+  Musiklehrers Schulz bestehende Singakademie Gelegenheit.</absatz>
 
-  <p>Wöchentliche zweimal, Mittwochs und Sonnabends, werden die öffentlichen
-  Bibliothekn, als die <em>Universitäts-Bibliothek</em> von 10 bis 12 Uhr, und
-  die <em>Raths-Bibliothek</em> von 2 bis 4 Uhr, erstere auch in der Messe
-  alle Tage, geöffnet.</p>
+  <absatz>Wöchentliche zweimal, Mittwochs und Sonnabends, werden die öffentlichen
+  Bibliothekn, als die <gesperrt>Universitäts-Bibliothek</gesperrt> von 10 bis 12 Uhr, und
+  die <gesperrt>Raths-Bibliothek</gesperrt> von 2 bis 4 Uhr, erstere auch in der Messe
+  alle Tage, geöffnet.</absatz>
 </vv>
