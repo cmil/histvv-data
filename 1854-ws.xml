@@ -39,11 +39,13 @@
 
   <absatz>Universitäts-Buchdrucker.</absatz>
 
-  <seite>2</seite>
+  <seite/>
 
-  <absatz><notiz>Seite ist leer.</notiz></absatz>
+  <!--2. Seite ist leer und nicht paginiert-->
 
-  <seite>3</seite>
+  <seite/>
+
+  <!--3. Seite ist nicht paginiert-->
 
   <sachgruppe>
     <titel>I. Allgemeine Studien.</titel>
@@ -73,7 +75,7 @@
       <sachgruppe>
         <titel>2. Systematische Philosophie.</titel>
 
-        <veranstaltung><thema>Logik</thema>: <dozent>D. ph.
+        <veranstaltung><thema>Logik</thema>: <dozent><grad>D. ph.</grad>
         <nachname>Hartenstein</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>5 U. 2 T.</zeit></veranstaltung>
 
@@ -90,11 +92,9 @@
         <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Dieselbe</thema><notiz> hier evtl. ein
-        &lt;dasselbe&gt;-Tag einführen, bezogen auf das vorher angegebene
-        Thema???</notiz>: <dozent><grad>D. ph.</grad>
-        <nachname>Hermann</nachname></dozent>, <zeit>8 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung><thema><notiz betreff="verweis">Dieselbe</notiz><!-- hier evtl. ein <dasselbe>-Tag einführen, bezogen auf das vorher angegebene Thema???--></thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Hermann</nachname></dozent>,
+        <zeit>8 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Naturphilosophie</thema>: <dozent>D. ph.
         <nachname>Fechner</nachname>, <funktion>P. O.</funktion></dozent>,
@@ -160,8 +160,9 @@
         <titel>1. Altclassische Sprachen.</titel>
 
         <veranstaltung><thema>Hermeneutik der griechischen und lateinischen
-        Schriftsteller in Beispielen (Forts.)</thema>: <dozent>D. ph. Nitzsch,
-        P. O.</dozent>, <zeit>in 1 zu best. St.</zeit>
+        Schriftsteller in Beispielen (Forts.)</thema>: <dozent><grad>D.
+        ph.</grad> <nachname>Nitzsch</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>in 1 zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Griechische u. Römische Metrik</thema>:
