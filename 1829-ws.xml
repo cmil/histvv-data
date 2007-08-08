@@ -1607,10 +1607,9 @@
 
               <veranstaltung><dozent><nachname>Hänel</nachname>,
               <grad>D.</grad> <vorname>G.</vorname>, <funktion>P. E.
-              des.</funktion></dozent>, <thema>über ausgewählte Kapitel
-              desselben</thema><scil text="bezieht sich auf Sachgruppe 6)"/>,
-              <zeit>11 U. 2 T.</zeit>
-              <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+              des.</funktion></dozent>, <thema>über ausgewählte Kapitel <scil
+              text="des Erbrechts">desselben</scil></thema>, <zeit>11 U. 2
+              T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
             </sachgruppe>
           </sachgruppe>
         </sachgruppe>
@@ -1638,11 +1637,10 @@
             <absatz><veranstaltung><dozent><nachname>Rüffer</nachname>,
             <grad>D.</grad> <vorname>K.</vorname></dozent>, <thema>ordentl.
             Civilproceß</thema>, <zeit>10 U. 6 T.</zeit></veranstaltung>,
-            <veranstaltung><ders> </ders> <thema>die summarischen
-            Proceßarten</thema>, <zeit>11 U. 4 T.</zeit>,</veranstaltung>
-            <notiz>beides nach <gesperrt>Biener</gesperrt>, unter Mittheilung
-            der im Processe vorkommenden praktischen
-            Aufsätze</notiz>.</absatz>
+            <veranstaltung><ders/><thema>die summarischen Proceßarten</thema>,
+            <zeit>11 U. 4 T.</zeit>,</veranstaltung> <notiz>beides nach
+            <gesperrt>Biener</gesperrt>, unter Mittheilung der im Processe
+            vorkommenden praktischen Aufsätze</notiz>.</absatz>
 
             <veranstaltung><dozent><nachname>Mertens</nachname>,
             <grad>D.</grad> <vorname>K. G. L.</vorname></dozent>,
@@ -1674,9 +1672,9 @@
 
             <absatz><veranstaltung><ders>Derselbe</ders>, <thema>ordinarischen
             Proceß nach <gesperrt>Biener</gesperrt></thema>, <zeit>11 U. 6
-            T.</zeit></veranstaltung>, und <veranstaltung><ders>
-            </ders><thema>summarischen Proceß</thema>, <zeit>2 U. 6
-            T.</zeit></veranstaltung></absatz>
+            T.</zeit></veranstaltung>, und
+            <veranstaltung><ders/><thema>summarischen Proceß</thema>, <zeit>2
+            U. 6 T.</zeit></veranstaltung></absatz>
           </sachgruppe>
 
           <sachgruppe>
@@ -1873,8 +1871,6 @@
       <titel>C) Heilkunde.</titel>
 
       <sachgruppe>
-        <titel/>
-
         <sachgruppe>
           <titel>Hodogetik der Heilkunde.</titel>
 
@@ -1927,8 +1923,7 @@
           St.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Cerruti</nachname>, <grad>D.</grad>
-          <vorname>L.</vorname>, <funktion><sic
-          beschreibung="P.F. ist richtig">P. F.</sic></funktion></dozent>,
+          <vorname>L.</vorname>, <funktion><sic>P. F.</sic><!--fehlt da nicht einfach nur ein Stück vom E?--></funktion></dozent>,
           <thema>patholog. Anatomie mit Vorzeigung der Präparate des anat.
           Theaters</thema>, <zeit>10 U. 2 T</zeit>.
           <modus>öffentl.</modus></veranstaltung>
@@ -2015,9 +2010,8 @@
 
             <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
             <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>über den grauen <sic
-            beschreibung="Staar ist richtig so">Staar</sic></thema>, <zeit>11
-            U. 2 T.</zeit> <modus>öffentl.</modus></veranstaltung>
+            <thema>über den grauen <sic>Staar</sic></thema>, <zeit>11 U. 2
+            T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
             <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
             <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
@@ -2162,8 +2156,8 @@
           <modus>öffentl.</modus></veranstaltung>
 
           <veranstaltung><dozent><nachname>Kleinert</nachname>,
-          <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <thema><verweis
-          ref="">s. Chemie</verweis></thema>.</veranstaltung>
+          <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <verweis>s.
+          Chemie</verweis>.</veranstaltung>
 
           <sachgruppe>
             <titel>*) Ueber die richtige Methode, Apotheken zu prüfen.</titel>
@@ -2181,9 +2175,8 @@
           T.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Kleinert</nachname>,
-          <grad>D.</grad> <vorname>K. F.</vorname></dozent>,
-          <thema><verweis>s.
-          Arzneimittellehre</verweis></thema>.</veranstaltung>
+          <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <verweis>s.
+          Arzneimittellehre</verweis>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -2195,7 +2188,7 @@
             <veranstaltung><dozent><nachname>Hasper</nachname>,
             <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
             E.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
-            <modus>öffentl</modus>.</veranstaltung>
+            <modus>öffentl.</modus></veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
@@ -2208,19 +2201,17 @@
             <veranstaltung><dozent><nachname>Clarus</nachname>,
             <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P. O.
             des.</funktion></dozent>, <thema>Forts. des einjähr. Kursus in
-            Verbindung mit Hrn.</thema> <dozent><grad>D.</grad>
-            <nachname>Cerruti</nachname></dozent>, <thema>über Fieber, Nerven-
-            und Seelenkrankheiten</thema>, <zeit>9 U. 4
+            Verbindung mit <notiz betreff="dozent?">Hrn. D. Cerruti</notiz>,
+            über Fieber, Nerven- und Seelenkrankheiten</thema>, <zeit>9 U. 4
             T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Cerruti</nachname>,
             <grad>D.</grad> <vorname>L</vorname>., <funktion>P.
             E.</funktion></dozent>, <thema>Kursus der spec. Therapie in
-            Verbindung mit Hrn. Hofr.</thema>
-            <dozent><nachname>Clarus</nachname></dozent>, <thema>Fortsetz. der
-            zweiten Hälfte desselben, über Profluvien, Retentionen,
-            chronologische Hautauschläge, Gicht, Scropheln, englische
-            Krankheit, Wurmkrankheiten, Verhärtungen, hektische und
+            Verbindung mit <notiz betreff="dozent?">Hrn. Hofr. Clarus</notiz>,
+            Fortsetz. der zweiten Hälfte desselben, über Profluvien,
+            Retentionen, chronologische Hautauschläge, Gicht, Scropheln,
+            englische Krankheit, Wurmkrankheiten, Verhärtungen, hektische und
             phthisische Krankheiten</thema>, <zeit>4 U. 4
             T.</zeit></veranstaltung>
 
@@ -2310,7 +2301,7 @@
         </sachgruppe>
 
         <sachgruppe>
-          <titel>8) Gerichtliche Arzneikunde. </titel>
+          <titel>8) Gerichtliche Arzneikunde.</titel>
 
           <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
           <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
@@ -2337,14 +2328,13 @@
 
           <sachgruppe>
             <titel>*) Praktische Uebungen in <scil
-            text="sachgruppe 8) Gerichtliche Arzneikunde">derselben</scil>.</titel>
+            text="der Gerichtlichen Arzneikunde">derselben</scil>.</titel>
 
             <veranstaltung><dozent><nachname>Wendler</nachname>,
             <grad>D.</grad> <vorname>C. A.</vorname>, <funktion>P. O.
             des.</funktion></dozent>, <zeit>zu beliebiger St.</zeit>,
-            <thema>um eine Gesellschaft zum <sic
-            beschreibung="so steht es, was ist das?">Behuf</sic> dieser
-            Uebungen zu begründen</thema>.</veranstaltung>
+            <thema>um eine Gesellschaft zum Behuf dieser Uebungen zu
+            begründen</thema>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
       </sachgruppe>
@@ -2417,5 +2407,5 @@
   öffentlichen Bibliotheken, als die
   <gesperrt>Universitäsbibliothek</gesperrt> von 10 bis 12 Uhr, und die
   <gesperrt>Rathsbibliothek</gesperrt> von 2 bis 4 Uhr, erstere in der Messe
-  auch alle Tage geöffnet. </absatz>
+  auch alle Tage geöffnet.</absatz>
 </vv>
