@@ -56,8 +56,6 @@
             <modus>privatissime</modus> aber
             <gebühr>unentgeldlich</gebühr>.</veranstaltung>
 
-            <!--Soll das "aber" mit markiert werden, stellt ja Verbindung zw. Beiden dar.-->
-
             <veranstaltung><dozent><nachname>Riedner</nachname>,
             <grad>M.</grad> <vorname>C. W.</vorname></dozent>, <zeit>Freit. 5
             U.</zeit> <gebühr>unentgeldlich</gebühr>.</veranstaltung>
@@ -178,12 +176,13 @@
           <sachgruppe>
             <titel>Philologische Uebungen.</titel>
 
-            <veranstaltung><dozent><nachname>Beck</nachname>, <grad>D.</grad>
-            <vorname>C. D.</vorname>, <funktion>P. O., Sem. phil. Direct., d.
-            Z. Dechant</funktion></dozent>, <thema>philologisch-kritische
-            Uebungen im Königl. philolog. Seminarium</thema>, <zeit>3 U. 2
-            T.</zeit>, <thema>didaktische</thema>, <zeit>4 U. 2 T.</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            <absatz><veranstaltung><dozent><nachname>Beck</nachname>,
+            <grad>D.</grad> <vorname>C. D.</vorname>, <funktion>P. O., Sem.
+            phil. Direct., d. Z. Dechant</funktion></dozent>,
+            <thema>philologisch-kritische Uebungen im Königl. philolog.
+            Seminarium</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>,
+            <veranstaltung><ders> </ders> <thema>didaktische</thema>, <zeit>4
+            U. 2 T.</zeit> <modus>öffentlich</modus></veranstaltung>.</absatz>
 
             <veranstaltung><dozent><nachname>Hermann</nachname>,
             <vorname>G.</vorname>, <funktion>P. O.</funktion></dozent>,
@@ -252,7 +251,7 @@
             deklam. Vortrags für geistl. Beredsamkeit</gesperrt> (Lpz. b.
             Liebeskind)</thema>, <zeit>5 U. Mont. u. Donn.</zeit>, <modus>für
             Studirende aus andern Fakultäten</modus> aber <zeit>5 U. Dienst.
-            u. Freit.</zeit><!--Ist das mit dem "aber" i.O. so?--></veranstaltung>
+            u. Freit.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
@@ -265,9 +264,9 @@
             U. Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><ders>Derselbe</ders>, <thema>Erklärung des
-            <gesperrt>Misanthrope</gesperrt> von Moliere, mit Beziehung auf
-            die Urtheile der Kritiker</thema>, <zeit>2 U. Freit.</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            <antiqua>Misanthrope</antiqua> von <gesperrt>Moliere</gesperrt>,
+            mit Beziehung auf die Urtheile der Kritiker</thema>, <zeit>2 U.
+            Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Dümas</nachname>,
             <vorname>T.</vorname></dozent>, <thema>über französische Sprache
@@ -310,9 +309,9 @@
 
             <veranstaltung><dozent><nachname>Schmidt</nachname>,
             <grad>M.</grad> <vorname>J. A. E.</vorname>, <funktion>Lect.
-            publ.</funktion></dozent>, <thema>die Anfangsgründe
-            derselben</thema>, <zeit>2 T.</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            publ.</funktion></dozent>, <thema>die Anfangsgründe <scil
+            text="der Russische und neugriechischen Sprache">derselben</scil></thema>,
+            <zeit>2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
       </sachgruppe>
@@ -333,7 +332,7 @@
         <veranstaltung><dozent><nachname>Beck</nachname>, <grad>D.</grad>
         <vorname>C. D.</vorname>, <funktion>P. O. d. Z.
         Dechant</funktion></dozent>, <thema>die ältere allgem. Geschichte von
-        Anfang bis auf das Ende des abendländ. Kaiserthu,s,
+        Anfang bis auf das Ende des abendländ. Kaiserthums,
         kritisch-pragmatisch, n. s. Entwurfe</thema>, <zeit>10 U. 6
         T.</zeit></veranstaltung>
 
@@ -436,8 +435,9 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><dozent><nachname>Riedner</nachname>, <grad>M.</grad>
-        <vorname>C. W.</vorname></dozent>, <thema>Geschichte der mittlern und
-        neuern Zeit, s. Dogmengeschichte</thema>.</veranstaltung>
+        <vorname>C. W.</vorname></dozent>, <thema>Geschichte der Philosophie
+        der mittlern und neuern Zeit</thema>, <verweis>s.
+        Dogmengeschichte</verweis>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -542,9 +542,9 @@
 
           <veranstaltung><dozent><nachname>Michaelis</nachname>,
           <grad>M.</grad> <vorname>C. F.</vorname></dozent>, <thema>Aesthetik
-          und Theorie der schönen Künste, n. s. Entwurfe oder nach Kant's
-          Kritik der Urtheilskraft</thema>, <zeit>2 T. in zu best.
-          St.</zeit></veranstaltung>
+          und Theorie der schönen Künste, n. s. Entwurfe oder nach
+          <gesperrt>Kant's</gesperrt> Kritik der Urtheilskraft</thema>,
+          <zeit>2 T. in zu best. St.</zeit></veranstaltung>
         </sachgruppe>
 
         <seite>7</seite>
@@ -584,7 +584,7 @@
         <veranstaltung><dozent><nachname>Pölitz</nachname>, <vorname>K. H.
         L.</vorname>, <funktion>P. O.</funktion>, </dozent><thema>nach s.
         Grundrisse zu encyklopäd. Vorträgen über d. gesammten
-        Staatswissenschaften (Lpz. 1825.8.)</thema>, <zeit>9 U. Mont. u.
+        Staatswissenschaften (Lpz. 1825. 8.)</thema>, <zeit>9 U. Mont. u.
         Donn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
@@ -592,8 +592,9 @@
         <titel>Volks-und Staatswirthschaftslehre.</titel>
 
         <veranstaltung><dozent><nachname>Pölitz</nachname>, <vorname>K. H.
-        L.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>nach
-        demselben Compendium</thema>, <zeit>9 U. Mittw. u. Sonnab.</zeit>
+        L.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>nach <scil
+        text="?demselben Compendium der Volks- und Staatswirthschaftslehre ?">demselben</scil>
+        Compendium</thema>, <zeit>9 U. Mittw. u. Sonnab.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
@@ -606,8 +607,8 @@
 
         <veranstaltung><dozent><nachname>Hänel</nachname>, <grad>D.</grad>
         <vorname>G.</vorname>, <funktion>P. E. des.</funktion></dozent>,
-        <thema>Diplomatik, n. Schönemann</thema>, <zeit>in bel.
-        St.</zeit></veranstaltung>
+        <thema>Diplomatik, n. <gesperrt>Schönemann</gesperrt></thema>,
+        <zeit>in bel. St.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -734,7 +735,8 @@
         <veranstaltung><dozent><nachname>Brandes</nachname>, <vorname>H.
         W.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>die ganze
         Experimental-Physik, mit Auschluß der Lehre von Licht und Wärme, nach
-        Schmidt</thema>, <zeit>11 U. 6 T.</zeit></veranstaltung>
+        <gesperrt>Schmidt</gesperrt></thema>, <zeit>11 U. 6
+        T.</zeit></veranstaltung>
 
         <seite>9</seite>
 
@@ -773,7 +775,7 @@
         Chemie</thema>, <zeit>5 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><ders>Derselbe</ders>, <thema>chemisch-praktische
-        Uebungen in s. Laboratorio</thema>, <zeit>3-5 U. Mittw. u.
+        Uebungen <ort>in s. Laboratorio</ort></thema>, <zeit>3-5 U. Mittw. u.
         Sonn.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Fechner</nachname>, <grad>M.</grad>
@@ -892,7 +894,7 @@
             Jonas u. Malachias</thema>, <zeit>2 U. 2 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Rindner</nachname>,
+            <veranstaltung><dozent><nachname>Riedner</nachname>,
             <grad>M.</grad> <vorname>C. W.</vorname></dozent>, <thema>über die
             für das N. T. wichtigern, besonders messianischen Stellen der
             kleinen Propheten</thema>, <zeit>11 U. 2 T.</zeit>
@@ -1002,7 +1004,8 @@
             Kirchengeschichte</thema>, <zeit>4 U. 6 T.</zeit></veranstaltung>
 
             <sachgruppe>
-              <titel>*) Examinatoria über dieselbe.</titel>
+              <titel>*) Examinatoria über <scil
+              text="über die Christliche Kirchengeschichte/Sachgruppe">dieselbe</scil>.</titel>
 
               <veranstaltung><dozent><nachname>Illgen</nachname>,
               <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P.
@@ -1035,7 +1038,8 @@
             <zeit>3 U. 6 T.</zeit></veranstaltung>
 
             <sachgruppe>
-              <titel>*) Examinatorium über dieselbe.</titel>
+              <titel>*) Examinatorium über <scil
+              text="über die Christliche Dogmengeschichte/Sachgruppe">dieselbe</scil>.</titel>
 
               <veranstaltung><dozent><nachname>Höpfner</nachname>,
               <grad>M.</grad> <vorname>E. F.</vorname></dozent>, <zeit>4 U. 4
@@ -1060,7 +1064,7 @@
               <veranstaltung><dozent><nachname>Illgen</nachname>,
               <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P.
               O.</funktion></dozent>, <thema>Erklärung der Selbstbekenntnisse
-              <gesperrt>Augustin's</gesperrt> (neueste Ausg. berlin 1823.)
+              <gesperrt>Augustin's</gesperrt> (neueste Ausg. Berlin 1823.)
               Forts. u. Beschl.</thema> <zeit>in den best.
               St.</zeit></veranstaltung>
             </sachgruppe>
@@ -1095,7 +1099,8 @@
             T.</zeit></veranstaltung>
 
             <sachgruppe>
-              <titel>*) Examinatoria über die diesselbe.</titel>
+              <titel>*) Examinatoria über die <scil
+              text="die Dogmatik/sachgruppe">diesselbe</scil>.</titel>
 
               <veranstaltung><dozent><nachname>Tittmann</nachname>,
               <grad>D.</grad> <vorname>J. A. H.</vorname>, <funktion>P. Prim.,
@@ -1192,6 +1197,14 @@
             <veranstaltung><dozent><nachname>Plato</nachname>, <grad>M.</grad>
             <vorname>G. J. K. L.</vorname></dozent>, <zeit>in den best.
             St.</zeit></veranstaltung>
+
+            <sachgruppe>
+              <titel>*) Katechetische u. pädagogische Gesellschaft.</titel>
+
+              <veranstaltung><dozent><nachname>Plato</nachname>,
+              <grad>M.</grad> <vorname>G. J. K. L.</vorname></dozent>,
+              <zeit>in den best. St.</zeit></veranstaltung>
+            </sachgruppe>
           </sachgruppe>
         </sachgruppe>
       </sachgruppe>
@@ -1201,41 +1214,37 @@
       <titel>B. Rechtswissenschaft.</titel>
 
       <sachgruppe>
-        <sachgruppe>
-          <titel>Encyklopädie und Methodologie.</titel>
+        <titel>Encyklopädie und Methodologie.</titel>
 
-          <veranstaltung><dozent><nachname>Otto</nachname>, <grad>D.</grad>
-          <vorname>K. E.</vorname>, <funktion>P. E.</funktion></dozent>,
-          <thema>n. s. Sätzen</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><dozent><nachname>Otto</nachname>, <grad>D.</grad>
+        <vorname>K. E.</vorname>, <funktion>P. E.</funktion></dozent>,
+        <thema>n. s. Sätzen</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Gretschel</nachname>,
-          <grad>M.</grad> <vorname>K. C. C.</vorname>, <funktion>J. U.
-          B.</funktion></dozent>, <zeit>5 U. Dienst. u. Freit.</zeit>
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
-        </sachgruppe>
+        <veranstaltung><dozent><nachname>Gretschel</nachname>, <grad>M.</grad>
+        <vorname>K. C. C.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+        <zeit>5 U. Dienst. u. Freit.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+      </sachgruppe>
 
-        <sachgruppe>
-          <titel>Rechtsgeschichte.</titel>
+      <sachgruppe>
+        <titel>Rechtsgeschichte.</titel>
 
-          <veranstaltung><dozent><nachname>Schilling</nachname>,
-          <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P. O.
-          des.</funktion></dozent>, <verweis>s.
-          Institutt.</verweis></veranstaltung>
+        <veranstaltung><dozent><nachname>Schilling</nachname>, <grad>D.</grad>
+        <vorname>F. A.</vorname>, <funktion>P. O. des.</funktion></dozent>,
+        <verweis>s. Institutt.</verweis></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Otto</nachname>, <grad>D.</grad>
-          <vorname>K. E.</vorname>, <funktion>P. E.</funktion></dozent>,
-          <verweis>s. Institutt.</verweis></veranstaltung>
+        <veranstaltung><dozent><nachname>Otto</nachname>, <grad>D.</grad>
+        <vorname>K. E.</vorname>, <funktion>P. E.</funktion></dozent>,
+        <verweis>s. Institutt.</verweis></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Heimbach</nachname>,
-          <grad>D.</grad> <vorname>K. W. E.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <verweis>s.
-          Institutt.</verweis></veranstaltung>
+        <veranstaltung><dozent><nachname>Heimbach</nachname>, <grad>D.</grad>
+        <vorname>K. W. E.</vorname>, <funktion>P. E.</funktion></dozent>,
+        <verweis>s. Institutt.</verweis></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Vogel</nachname>, <grad>M.</grad>
-          <vorname>E. F.</vorname>, <funktion>J. U. B.</funktion></dozent>,
-          <thema>Geschichte des röm. Rechts</thema>, <zeit>2 U 2 T.</zeit>
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
-        </sachgruppe>
+        <veranstaltung><dozent><nachname>Vogel</nachname>, <grad>M.</grad>
+        <vorname>E. F.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+        <thema>Geschichte des röm. Rechts</thema>, <zeit>2 U 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1297,8 +1306,8 @@
               <grad>D.</grad> <vorname>K. E.</vorname>, <funktion>P.
               E.</funktion></dozent>, <thema>nebst Rechtsgeschichte, nach
               <gesperrt>Haubolds</gesperrt> <antiqua>Institutt.
-              lineam.</antiqua> (b. Hinrichs 1826)</thema> <zeit>10 u. 11 U. 6
-              T.</zeit></veranstaltung>
+              lineam.</antiqua> (b. Hinrichs 1826.)</thema> <zeit>10 u. 11 U.
+              6 T.</zeit></veranstaltung>
 
               <veranstaltung><dozent><nachname>Heimbach</nachname>,
               <grad>D.</grad> <vorname>K. W. E.</vorname>, <funktion>P.
@@ -1319,6 +1328,10 @@
               nach <gesperrt>Schmalz</gesperrt> Handb. des röm. Privatrechts,
               (2. A. Königsb. 1801. 8. Leipz. b. Brockhaus)</thema> <zeit>3 U.
               6 T.</zeit></veranstaltung>
+            </sachgruppe>
+
+            <sachgruppe>
+              <titel>Pandekten.</titel>
 
               <veranstaltung><dozent><nachname>Müller</nachname>,
               <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P. O., d. Z.
@@ -1384,19 +1397,19 @@
 
             <veranstaltung><dozent><nachname>Wenck</nachname>, <grad>D.</grad>
             <vorname>K. F. C.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>Königl. sächs. Privatr. n. <gesperrt>Haubold</gesperrt>,
+            <thema>königl. sächs. Privatr. n. <gesperrt>Haubold</gesperrt>,
             Anfang eines einjährigen Kursus</thema>, <zeit>9 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Heimbach</nachname>,
             <grad>D.</grad> <vorname>K. W. E.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>Königl. sächs. Privatrecht n.
+            E.</funktion></dozent>, <thema>königl. sächs. Privatrecht n.
             <gesperrt>Haubold's</gesperrt> Lehrbuche</thema>, <zeit>9 U. 6
             T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Stieber</nachname>,
             <grad>D.</grad> <vorname>F. K. G.</vorname></dozent>,
-            <thema>Königl. sächs. Privatrecht, n.
+            <thema>königl. sächs. Privatrecht, n.
             <gesperrt>Haubold</gesperrt></thema>, <zeit>9 U. 6
             T.</zeit></veranstaltung>
 
@@ -1408,24 +1421,25 @@
 
             <veranstaltung><dozent><nachname>Bonnard</nachname>,
             <vorname>A.</vorname>, <funktion>J. U. B.</funktion></dozent>,
-            <thema>Königl. sächs. Privatrecht</thema>, <zeit>7 U. 6
+            <thema>königl. sächs. Privatrecht</thema>, <zeit>7 U. 6
             T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Held</nachname>, <vorname>G.
             F.</vorname>, <funktion>J. U. B.</funktion></dozent>,
-            <thema>Königl. sächs. Privatrecht</thema>, <zeit>7 U. 6
+            <thema>königl. sächs. Privatrecht</thema>, <zeit>7 U. 6
             T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Siebdrar</nachname>, <vorname>G.
             A.</vorname>, <funktion>J. U. B.</funktion></dozent>,
-            <thema>Königl. sächs. Privatrecht, nach
+            <thema>königl. sächs. Privatrecht, nach
             <gesperrt>Haubold</gesperrt></thema>, <zeit>2 U. 4
             T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Berger</nachname>,
             <grad>A.</grad>, <funktion>J. U. B.</funktion></dozent>,
-            <thema>Königl. sächs. Privatr. nach Haubold</thema>, <zeit>4
-            T.</zeit> <modus>unentgeltlich</modus>.</veranstaltung>
+            <thema>königl. sächs. Privatr. nach
+            <gesperrt>Haubold</gesperrt></thema>, <zeit>4 T.</zeit>
+            <modus>unentgeltlich</modus>.</veranstaltung>
 
             <sachgruppe>
               <titel>Einzelne Theile der Rechtswissenschaft.</titel>
@@ -1496,7 +1510,7 @@
 
                 <veranstaltung><dozent><nachname>Weiße</nachname>,
                 <grad>D.</grad> <vorname>C. E.</vorname>, <funktion>P. O., d.
-                z. Rector</funktion></dozent>, <thema>nach
+                Z. Rector</funktion></dozent>, <thema>nach
                 <gesperrt>Böhmer</gesperrt></thema>, <zeit>9 U. 4
                 T.</zeit></veranstaltung>
 
@@ -1518,14 +1532,29 @@
 
                 <veranstaltung><dozent><nachname>Schilling</nachname>,
                 <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P. E.
-                des.</funktion></dozent>, <thema>nach <gesperrt>Mühlenbruch's
-                Dotr. Pandect. (ed. II.)</gesperrt></thema>, <zeit>3 U. 5
-                T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+                des.</funktion></dozent>, <thema>nach
+                <gesperrt>Mühlenbruch's</gesperrt> <antiqua>Dotr. Pandect.
+                (ed. II.)</antiqua></thema>, <zeit>3 U. 5 T.</zeit>
+                <modus>öffentlich</modus>.</veranstaltung>
 
                 <veranstaltung><dozent><nachname>Rüffer</nachname>,
                 <grad>D.</grad> <vorname>K.</vorname></dozent>,
                 <thema>römisches u. sächsiches, nach s. Sätzen</thema>,
                 <zeit>11 U. 4 T.</zeit></veranstaltung>
+              </sachgruppe>
+
+              <sachgruppe>
+                <titel>5) Obligationenrecht.</titel>
+
+                <veranstaltung><dozent><nachname>Bonnard</nachname>,
+                <vorname>A.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+                <thema>nach röm. u. heutigen Grundsätzen</thema>, <zeit>1 U. 4
+                T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+                <veranstaltung><dozent><nachname>Vogel</nachname>,
+                <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
+                B</funktion>.</dozent>, <thema>praktisches</thema>, <zeit>4 U.
+                4 T.</zeit></veranstaltung>
               </sachgruppe>
 
               <sachgruppe>
@@ -1562,123 +1591,123 @@
             Entwurfe eines vollst. Kursus der gesammt. praktischen
             Rechtswissenschaften etc.</gesperrt> (Leipzig b. Vogel
             1826.</thema>) <zeit>in zu best. T. u. St.</zeit></veranstaltung>
+          </sachgruppe>
 
-            <seite>17</seite>
+          <seite>17</seite>
 
-            <sachgruppe>
-              <titel>1) Gerichtlicher Proceß.</titel>
+          <sachgruppe>
+            <titel>1) Gerichtlicher Proceß.</titel>
 
-              <veranstaltung><dozent><nachname>Klien</nachname>,
-              <grad>D.</grad> <vorname>K.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <thema>ordentlicher Civilproceß, nach
-              <gesperrt>Biener</gesperrt>, u. unter Mittheilung eigner zur
-              Erleichterung der Uebersicht ausgearbeitete Monogramme</thema>,
-              <zeit>11 U. 6 T. u. 10 U. 2 T.</zeit></veranstaltung>
+            <veranstaltung><dozent><nachname>Klien</nachname>, <grad>D.</grad>
+            <vorname>K.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <thema>ordentlicher Civilproceß, nach <gesperrt>Biener</gesperrt>,
+            u. unter Mittheilung eigner zur Erleichterung der Uebersicht
+            ausgearbeitete Monogramme</thema>, <zeit>11 U. 6 T. u. 10 U. 2
+            T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><nachname>Wenck</nachname>,
-              <grad>D.</grad> <vorname>K. F. C.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <thema>über die sächs. alte u.Erläuterte
-              Proceßordnung</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
+            <veranstaltung><dozent><nachname>Wenck</nachname>, <grad>D.</grad>
+            <vorname>K. F. C.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <thema>über die sächs. alte u.Erläuterte Proceßordnung</thema>,
+            <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><nachname>Heimbach</nachname>,
-              <grad>D.</grad> <vorname>K. W. E.</vorname>, <funktion>P.
-              E.</funktion></dozent>, <verweis>s.
-              Concursrecht</verweis>.</veranstaltung>
+            <veranstaltung><dozent><nachname>Heimbach</nachname>,
+            <grad>D.</grad> <vorname>K. W. E.</vorname>, <funktion>P.
+            E.</funktion></dozent>, <verweis>s.
+            Concursrecht</verweis>.</veranstaltung>
 
-              <veranstaltung><dozent><nachname>Diedemann</nachname>,
-              <grad>D.</grad> <vorname>J. F. A.</vorname></dozent>,
-              <thema>über summarischen Proceß</thema>, <zeit>10 U. 4
-              T.</zeit></veranstaltung>
+            <veranstaltung><dozent><nachname>Diedemann</nachname>,
+            <grad>D.</grad> <vorname>J. F. A.</vorname></dozent>, <thema>über
+            summarischen Proceß</thema>, <zeit>10 U. 4
+            T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><nachname>Rüffer</nachname>,
-              <grad>D.</grad> <vorname>K.</vorname></dozent>, <thema>über den
-              Appellations- u. Hülfsproceß, so wie über sämmtliche summarische
-              Processe, nach <gesperrt>Biener</gesperrt>, nebst Mittheilung
-              der bei gerichtl. u. außerordentl. Rechtsgeschäften vorkommenden
-              prakt. Aufsätzse</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
+            <veranstaltung><dozent><nachname>Rüffer</nachname>,
+            <grad>D.</grad> <vorname>K.</vorname></dozent>, <thema>über den
+            Appellations- u. Hülfsproceß, so wie über sämmtliche summarische
+            Processe, nach <gesperrt>Biener</gesperrt>, nebst Mittheilung der
+            bei gerichtl. u. außerordentl. Rechtsgeschäften vorkommenden
+            prakt. Aufsätze</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><nachname>Mertens</nachname>,
-              <grad>D.</grad> <vorname>K. G. L.</vorname></dozent>,
-              <thema>ordentl. Civilproceß, prakt. erläutert</thema>, <zeit>2
-              U. 6 T.</zeit></veranstaltung>
+            <veranstaltung><dozent><nachname>Mertens</nachname>,
+            <grad>D.</grad> <vorname>K. G. L.</vorname></dozent>,
+            <thema>ordentl. Civilproceß, prakt. erläutert</thema>, <zeit>2 U.
+            6 T.</zeit></veranstaltung>
 
-              <veranstaltung><ders>Derselbe</ders>, <thema>summarische
-              Processe</thema>, <zeit>3 U. 5 T.</zeit></veranstaltung>
+            <veranstaltung><ders>Derselbe</ders>, <thema>summarische
+            Processe</thema>, <zeit>3 U. 5 T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><nachname>Prasse</nachname>,
-              <grad>L.</grad>, <funktion>J. U. B.</funktion></dozent>,
-              <thema>ordentl. Civil-Proceß nach Anleit. s. Grundrisses, (b.
-              Reclam 1827.)</thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
+            <veranstaltung><dozent><nachname>Prasse</nachname>,
+            <grad>L.</grad>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>ordentl. Civil-Proceß nach Anleit. <gesperrt>s.
+            Grundrisses</gesperrt>, (b. Reclam 1827.)</thema>, <zeit>7 U. 6
+            T.</zeit></veranstaltung>
 
-              <veranstaltung><ders>Derselbe</ders>, <thema>summar.
-              Proceß-Arten, n. dem näml. Grundrisse</thema>, <zeit>2 U. 5 T.
-              (mit Ausschl. d. Sonnab.)</zeit></veranstaltung>
+            <veranstaltung><ders>Derselbe</ders>, <thema>summar. Proceß-Arten,
+            n. dem näml. <gesperrt>Grundrisse</gesperrt></thema>, <zeit>2 U. 5
+            T. (mit Ausschl. d. Sonnab.)</zeit></veranstaltung>
 
-              <veranstaltung><dozent><nachname>Planitz</nachname>, <vorname>K.
-              G. V.</vorname> <nachnamenpräfix>von</nachnamenpräfix>,
-              <funktion>J. U. B.</funktion></dozent>, <thema>über den ordentl.
-              u. summar. Proceß, nach eignen Lineamenten</thema>, <zeit>3 U. 6
-              T.</zeit></veranstaltung>
-
-              <sachgruppe>
-                <titel>*) Geschichte des gerichtlichen Processes.</titel>
-
-                <veranstaltung><dozent><nachname>Biener</nachname>,
-                <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P. Prim.,
-                Fac. Jur. Ord.</funktion></dozent>, <thema>n. s.
-                <antiqua>Systema processus jur. comm. et. Sax. (lib. I. cap.
-                I.</antiqua>)</thema>, <zeit>9 U. 3 T.</zeit>
-                <modus>öffentlich</modus>.</veranstaltung>
-              </sachgruppe>
-            </sachgruppe>
+            <veranstaltung><dozent><nachname>Planitz</nachname>, <vorname>K.
+            G. V.</vorname> <nachnamenpräfix>von</nachnamenpräfix>,
+            <funktion>J. U. B.</funktion></dozent>, <thema>über den ordentl.
+            u. summar. Proceß, nach eignen Lineamenten</thema>, <zeit>3 U. 6
+            T.</zeit></veranstaltung>
 
             <sachgruppe>
-              <titel>2) Referir- und Decretirkunst.</titel>
+              <titel>*) Geschichte des gerichtlichen Processes.</titel>
 
-              <veranstaltung><dozent><nachname>Klien</nachname>,
-              <grad>D.</grad> <vorname>K.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <thema>nebst vorausgeschickter
-              Einleitung über das Wesen u. den Umfang der prakt.
-              Jurisprudenz</thema>, <zeit>10 U. 4 T.</zeit></veranstaltung>
-
-              <veranstaltung><dozent><nachname>Beck</nachname>,
-              <grad>D.</grad> <vorname>J. L. W.</vorname>, <funktion>P. E.
-              des.</funktion></dozent>, <thema>unter Benutzung v.
-              Acten</thema>, <zeit>8 U. Dienst. Donn. u.
-              Sonn.</zeit></veranstaltung>
+              <veranstaltung><dozent><nachname>Biener</nachname>,
+              <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P. Prim.,
+              Fac. Jur. Ord.</funktion></dozent>, <thema>n. s.
+              <antiqua>Systema processus jur. comm. et. Sax. (lib. I. cap.
+              I.</antiqua>)</thema>, <zeit>9 U. 3 T.</zeit>
+              <modus>öffentlich</modus>.</veranstaltung>
             </sachgruppe>
+          </sachgruppe>
 
-            <sachgruppe>
-              <titel>3) Anleitung zur juristischen Praxis.</titel>
+          <sachgruppe>
+            <titel>2) Referir- und Decretirkunst.</titel>
 
-              <veranstaltung><dozent><nachname>Diedemann</nachname>,
-              <grad>D.</grad> <vorname>J. F. A.</vorname></dozent>,
-              <thema><antiqua>Collegium practicum</antiqua> <seite>18</seite>zur
-              Uebung in Abfassung aller im ordin. u. summar. Processe
-              vorkommenden Schriften</thema>, <zeit>9 U. 3
-              T.</zeit></veranstaltung>
+            <veranstaltung><dozent><nachname>Klien</nachname>, <grad>D.</grad>
+            <vorname>K.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <thema>nebst vorausgeschickter Einleitung über das Wesen u. den
+            Umfang der prakt. Jurisprudenz</thema>, <zeit>10 U. 4
+            T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><nachname>Günther</nachname>,
-              <grad>D.</grad> <vorname>K. J.</vorname></dozent>, <zeit>Mont.
-              u. Freit. in zu best. St.</zeit></veranstaltung>
+            <veranstaltung><dozent><nachname>Beck</nachname>, <grad>D.</grad>
+            <vorname>J. L. W.</vorname>, <funktion>P. E.
+            des.</funktion></dozent>, <thema>unter Benutzung v. Acten</thema>,
+            <zeit>8 U. Dienst. Donn. u. Sonn.</zeit></veranstaltung>
+          </sachgruppe>
 
-              <veranstaltung><dozent><nachname>Schellwitz</nachname>,
-              <grad>D.</grad> <vorname>H.</vorname>, </dozent><zeit>3 U. 2
-              T.</zeit></veranstaltung>
+          <sachgruppe>
+            <titel>3) Anleitung zur juristischen Praxis.</titel>
 
-              <veranstaltung><dozent><nachname>Schmidt</nachname>,
-              <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
-              B.</funktion></dozent>, <thema>praktische Uebungen zur
-              Vorbereitung für den künftigen Advokatenstand</thema>, <zeit>4
-              u. 4 T.</zeit></veranstaltung>
+            <veranstaltung><dozent><nachname>Diedemann</nachname>,
+            <grad>D.</grad> <vorname>J. F. A.</vorname></dozent>,
+            <thema><antiqua>Collegium practicum</antiqua> <seite>18</seite>zur
+            Uebung in Abfassung aller im ordin. u. summar. Processe
+            vorkommenden Schriften</thema>, <zeit>9 U. 3
+            T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><nachname>Vogel</nachname>,
-              <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
-              B.</funktion>, </dozent><thema>Disputir-Uebungen in lat. Spr.
-              über Gegenstände des Processes, verbunden mit praktischen
-              Ausarbeitungen</thema>, <zeit>4 U. 2 T.</zeit>
-              <modus>privatissime</modus>.</veranstaltung>
-            </sachgruppe>
+            <veranstaltung><dozent><nachname>Günther</nachname>,
+            <grad>D.</grad> <vorname>K. J.</vorname></dozent>, <zeit>Mont. u.
+            Freit. in zu best. St.</zeit></veranstaltung>
+
+            <veranstaltung><dozent><nachname>Schellwitz</nachname>,
+            <grad>D.</grad> <vorname>H.</vorname>,</dozent><zeit> 3 U. 2
+            T.</zeit></veranstaltung>
+
+            <veranstaltung><dozent><nachname>Schmidt</nachname>,
+            <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
+            B.</funktion></dozent>, <thema>praktische Uebungen zur
+            Vorbereitung für den künftigen Advokatenstand</thema>, <zeit>4 u.
+            4 T.</zeit></veranstaltung>
+
+            <veranstaltung><dozent><nachname>Vogel</nachname>, <grad>M.</grad>
+            <vorname>E. F.</vorname>, <funktion>J. U.
+            B.</funktion>,</dozent><thema>Disputir-Uebungen in lat. Spr. über
+            Gegenstände des Processes, verbunden mit praktischen
+            Ausarbeitungen</thema>, <zeit>4 U. 2 T.</zeit>
+            <modus>privatissime</modus>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -1690,9 +1719,9 @@
 
             <veranstaltung><dozent><nachname>Müller</nachname>,
             <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P. O., d. Z.
-            Dechant</funktion></dozent>, <thema>über Pandekten, 6 <sic
-            beschreibung="kein Punkt">T</sic> in den best. St.
-            </thema></veranstaltung>
+            Dechant</funktion></dozent>, <thema>über Pandekten</thema>,
+            <zeit>6 <sic beschreibung="kein Punkt nach T.">T</sic> in den
+            best. St.</zeit> </veranstaltung>
 
             <veranstaltung><dozent><nachname>Wenck</nachname>, <grad>D.</grad>
             <vorname>K. F. C.</vorname>, <funktion>P. O.</funktion></dozent>,
@@ -1777,8 +1806,8 @@
 
             <veranstaltung><dozent><nachname>Metzsch</nachname>, <vorname>L.
             A.</vorname> <nachnamenpräfix>von</nachnamenpräfix>, <funktion>J.
-            U. B.</funktion></dozent>, <thema>über Proceß</thema>, <zeit>in zu
-            best. St.</zeit></veranstaltung>
+            U. B.</funktion></dozent>, <thema>über Proceß und
+            Pandekten</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Krug</nachname>, <grad>M.</grad>
             <vorname>A. O.</vorname>, <funktion>J. U. B.</funktion></dozent>,
@@ -1869,30 +1898,28 @@
       <titel>C. Heilkunde.</titel>
 
       <sachgruppe>
-        <sachgruppe>
-          <titel>Encyklopädie und Methodologie.</titel>
+        <titel>Encyklopädie und Methodologie.</titel>
 
-          <veranstaltung><dozent><nachname>Braune</nachname>, <grad>D.</grad>
-          <vorname>A.</vorname></dozent>, <thema>nach
-          <gesperrt>Friedländer's</gesperrt> <antiqua>Institutiones ad
-          medicinam</antiqua></thema>, <zeit>3 U. 2 T.</zeit>
-          <gebühr>unentgeltl.</gebühr></veranstaltung>
+        <veranstaltung><dozent><nachname>Braune</nachname>, <grad>D.</grad>
+        <vorname>A.</vorname></dozent>, <thema>nach
+        <gesperrt>Friedländer's</gesperrt> <antiqua>Institutiones ad
+        medicinam</antiqua></thema>, <zeit>3 U. 2 T.</zeit>
+        <gebühr>unentgeltl.</gebühr></veranstaltung>
+      </sachgruppe>
 
-          <seite>20</seite>
-        </sachgruppe>
+      <seite>20</seite>
 
-        <sachgruppe>
-          <titel>Geschichte der Heilkunde.</titel>
+      <sachgruppe>
+        <titel>Geschichte der Heilkunde.</titel>
 
-          <veranstaltung><dozent><nachname>Hasper</nachname>, <grad>D.</grad>
-          <vorname>M.</vorname> <funktion>P. E.</funktion></dozent>,
-          <thema>pragmatische und Literärgeschichte der Medicin</thema>,
-          <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><dozent><nachname>Hasper</nachname>, <grad>D.</grad>
+        <vorname>M.</vorname> <funktion>P. E.</funktion></dozent>,
+        <thema>pragmatische und Literärgeschichte der Medicin</thema>,
+        <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Hänel</nachname>, <grad>D.</grad>
-          <vorname>A. F.</vorname></dozent>, <thema>Geschichte der
-          Medicin</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
-        </sachgruppe>
+        <veranstaltung><dozent><nachname>Hänel</nachname>, <grad>D.</grad>
+        <vorname>A. F.</vorname></dozent>, <thema>Geschichte der
+        Medicin</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1921,9 +1948,9 @@
           Abbildungen</thema>, <zeit>9 U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Bock</nachname>, <grad>D.</grad>
-          <vorname>A. K.</vorname></dozent>, <thema><antiqua>Prosect. theatr.
-          anat.</antiqua>, Knochen-, Bänder- u. Gefäßlehre für
-          Chirurgen</thema>, <zeit>5 U. 4 T.</zeit></veranstaltung>
+          <vorname>A. K.</vorname>, <funktion>Prosect. theatr.
+          anat.</funktion></dozent><thema>, Knochen-, Bänder- u. Gefäßlehre
+          für Chirurgen</thema>, <zeit>5 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung><ders>Derselbe</ders>, <thema>gesammte Anatomie nach
           der Lage der Theile</thema>, <zeit>4 U. 6 T.</zeit></veranstaltung>
@@ -1938,7 +1965,7 @@
           <titel>2) Physiologie.</titel>
 
           <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-          <vorname>K. G.</vorname>, <funktion>P. O. , d. Z.
+          <vorname>K. G.</vorname>, <funktion>P. O., d. Z.
           Dechant</funktion></dozent>, <thema>über ausgesuchte Lehren d.
           Physiologie</thema>, <zeit>11 U. 4 T.</zeit>
           <modus>öffentl.</modus></veranstaltung>
@@ -1982,14 +2009,14 @@
             <titel>Specielle Pathologie.</titel>
 
             <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-            <vorname>K. G.</vorname>, <funktion>P. O. , d. Z.
+            <vorname>K. G.</vorname>, <funktion>P. O., d. Z.
             Dechant</funktion></dozent>, <thema>über Augenentzündung</thema>,
             <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
             <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
             <thema>über die Krankheiten der Kinder nach s. Handb. zum Erkennen
-            u. heilen der Kinderkrankheiten (Lpz. 1826.)</thema>, <zeit>8 U. 2
+            u. Heilen der Kinderkrankheiten (Lpz. 1826.)</thema>, <zeit>8 U. 2
             T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Wendler</nachname>,
@@ -2201,23 +2228,25 @@
           <titel>5) Klinik.</titel>
 
           <veranstaltung><dozent><nachname>Clarus</nachname>, <grad>D.</grad>
-          <vorname>J. C. G.</vorname>, <funktion>P. O.
-          des.</funktion></dozent>, <thema>im Königl. Institute im
-          Jacobsspital</thema>, <zeit>9-11 U. 6 T.</zeit>
+          <vorname>J. C. A.</vorname>, <funktion>P. O.
+          des.</funktion></dozent>, <thema><ort>im königl. Institute im
+          Jacobsspital</ort></thema>, <zeit>9-11 U. 6 T.</zeit>
           <modus>öffentl.</modus></veranstaltung>
 
           <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
           <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>geburtshülfliche Klinik im Trierschen Institute</thema>,
-          <zeit>7 U. 6 T.</zeit></veranstaltung>
+          <thema><ort>geburtshülfliche Klinik im Trierschen
+          Institute</ort></thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Cerruti</nachname>, <grad>D.</grad>
           <vorname>L.</vorname>, <funktion>P. E.</funktion></dozent>,
-          <thema>Poliklinik</thema>, <zeit>2 U. 7 T.</zeit></veranstaltung>
+          <thema><ort>Poliklinik</ort></thema>, <zeit>2 U. 7
+          T.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Ritterich</nachname>,
-          <grad>D.</grad> <vorname>F. P.</vorname></dozent>, <thema>Ueb. in d.
-          Augenklinik</thema>, <zeit>8 U. 6 T.</zeit></veranstaltung>
+          <grad>D.</grad> <vorname>F. P.</vorname></dozent>, <thema><ort>Ueb.
+          in d. Augenklinik</ort></thema>, <zeit>8 U. 6
+          T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -2235,14 +2264,15 @@
 
           <veranstaltung><dozent><nachname>Lippert</nachname>, <grad>D.</grad>
           <vorname>L. B. G.</vorname></dozent>, <thema>medicin.
-          Rechtswissenschaft, für die Rechte Studirende, n. s. Sätzen</thema>,
-          <zeit>10 U. 6 T.</zeit></veranstaltung>
+          Rechtswissenschaft</thema>, <modus>für die Rechte
+          Studirende</modus>, <thema>n. s. Sätzen</thema>, <zeit>10 U. 6
+          T.</zeit></veranstaltung>
 
           <veranstaltung><ders>Derselbe</ders>, <thema>krit. Untersuchungen
           über einige wichtigere Kapitel der gerichtlichen Medicin, mit
-          Beifügung erläuternder Beispiele aus der gerichtsärztlichen Praxis,
-          für die Rechte u. Medicin Studirende</thema>, <zeit>4 U. 2
-          T.</zeit></veranstaltung>
+          Beifügung erläuternder Beispiele aus der gerichtsärztlichen
+          Praxis</thema>, <modus>für die Rechte u. Medicin Studirende</modus>,
+          <zeit>4 U. 2 T.</zeit></veranstaltung>
 
           <sachgruppe>
             <titel>*) Anleitung zur Ausübung der Staatsarzneikunde.</titel>
@@ -2295,7 +2325,7 @@
           naturhistor. anatom. u. patholog. Gegenständen</thema>, <zeit>in zu
           best. St.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Häuel</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent><nachname>Hänel</nachname>, <grad>D.</grad>
           <vorname>A. F.</vorname></dozent>, <thema>über theoret. u. prakt.
           Medicin</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
@@ -2312,6 +2342,10 @@
           <vorname>A.</vorname></dozent>, <thema>über verschiedene Gegenstände
           der praktischen Medicin</thema>, <zeit>in zu best.
           St.</zeit></veranstaltung>
+
+          <veranstaltung><dozent><nachname>Wiese</nachname>, <grad>D.</grad>
+          <vorname>F. A.</vorname></dozent>, <thema>über theoret. u. prakt.
+          Medicin</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Lippert</nachname>, <grad>D.</grad>
           <vorname>L. B. G.</vorname></dozent>, <thema>über theoret. u. prakt.
