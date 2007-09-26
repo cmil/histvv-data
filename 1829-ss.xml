@@ -26,7 +26,7 @@
       <korrigiert>
         <durch>frank</durch>
 
-        <am/>
+        <am>26.09.07</am>
       </korrigiert>
     </status>
   </kopf>
@@ -2315,12 +2315,12 @@
         <sachgruppe>
           <titel>4) Chirurgie.</titel>
 
-          <veranstaltung><dozent><nachname>Kuhl</nachname>, <grad>D.</grad>
-          <vorname>K. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>8 U. 4 T. öffentlich und 8 U. 2 T.
-          unentgeltlich</zeit>.</veranstaltung>
-
-          <!--Zeit, Modus und Gebühr überschneiden sich!-->
+          <veranstaltungsgruppe><dozent><nachname>Kuhl</nachname>,
+          <grad>D.</grad> <vorname>K. A.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <veranstaltung><zeit>8 U. 4 T.</zeit>
+          <modus>öffentlich</modus></veranstaltung> und <veranstaltung><zeit>8
+          U. 2 T.</zeit>
+          <gebühr>unentgeltlich</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung><ders>Derselbe</ders>, <thema>chirurg.
           Demonstrationen an Krankenbetten</thema>, <zeit>4 U. Dienst. u.
@@ -2348,13 +2348,13 @@
 
             <veranstaltung><dozent><grad>D.</grad>
             <nachname>Walther</nachname></dozent> u. <dozent><grad>D.</grad>
-            <nachname>Carus</nachname></dozent> <thema>werden Cosultationen
-            üb. chirurg. Krankheitsfälle halten</thema>, <zeit>in zu best.
+            <nachname>Carus</nachname></dozent> werden <thema>Consultationen
+            üb. chirurg. Krankheitsfälle</thema> halten, <zeit>in zu best.
             St.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
-            <titel>*) Entbindungskunst.</titel>
+            <titel>**) Entbindungskunst.</titel>
 
             <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
             <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
@@ -2375,7 +2375,7 @@
 
           <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
           <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema><ort>gebürtshülfliche Klinik im Trierschen
+          <thema><ort>geburtshülfliche Klinik im Trierschen
           Institute</ort></thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Cerutti</nachname>, <grad>D.</grad>
@@ -2457,8 +2457,8 @@
 
           <veranstaltung><dozent><nachname>Meurer</nachname>, <grad>D.</grad>
           <vorname>F.</vorname></dozent>, <thema>über Chemie, Pharmacie u.
-          Arzneimittellehre</thema>, <zeit>in zu best.
-          <korrektur>St.</korrektur></zeit></veranstaltung>
+          Arzneimittellehre</thema>, <zeit>in zu best. <korrektur
+          original="">St.</korrektur></zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Wiese</nachname>, <grad>D.</grad>
           <vorname>F. A.</vorname></dozent>, <thema>über theoret. u. prakt.
@@ -2502,7 +2502,7 @@
 
   <absatz>Wöchentlich zwei Mal, Mittwochs u. Sonnabends, werden die
   öffentlichen Bibliotheken, als die
-  <gesperrt>Universitäsbibliothek</gesperrt> von 10 bis 12 Uhr, und die
+  <gesperrt>Universitätsbibliothek</gesperrt> von 10 bis 12 Uhr, und die
   <gesperrt>Rathsbibliothek</gesperrt> von 2 bis 4 Uhr, erstere in der Messe
   auch alle Tage, geöffnet.</absatz>
 
