@@ -20,7 +20,7 @@
 
     <quelle/>
 
-    <status>
+    <status komplett="ja">
       <transkribent>florian</transkribent>
     </status>
   </kopf>
@@ -230,6 +230,10 @@
             Buchs der Anklage des C. Verres von Cicero</thema>, <zeit>in den
             best. St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
+            <!--Wie steht die Veranstaltung von Klotz 
+in Verbindung mit der Veranstaltung von Hermann? 
+Übernimmt er die Leitung im laufenden Semester???-->
+
             <veranstaltung><ders>Derselbe</ders>, <thema>Uebungen der philol.
             Abtheilung der lausitzer Prediger-Gesellschaft</thema>, <zeit>in
             den best. St.</zeit></veranstaltung>
@@ -310,9 +314,14 @@
 
             <veranstaltung><ders>Derselbe</ders>, <thema>Erklärung der
             altfranzösischen Gedichte nach der Ausg. von
-            <gesperrt>Orelli</gesperrt>, in Verbindung mit dem Obigen</thema>,
+            <gesperrt>Orelli</gesperrt></thema>, in Verbindung mit dem Obigen,
             <zeit>2 U. Freit.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+            <!--"in Verbindung mit dem Obigen" 
+- soll das extra ausgezeichnet werden? 
+Man könnte auch "scil" verwenden: in Verb. 
+mit der franz. Erkl. des Nibelungenliedes ?-->
           </sachgruppe>
 
           <sachgruppe>
@@ -643,12 +652,13 @@
     <sachgruppe>
       <titel>V. Mathematik und Astronomie.</titel>
 
-      <veranstaltung><dozent><nachname>Drobisch</nachname>, <vorname>M.
+      <veranstaltungsgruppe><dozent><nachname>Drobisch</nachname>, <vorname>M.
       W.</vorname>, <funktion>P. O.</funktion></dozent>, <thema><notiz
       betreff="fortsetzung">Fortsetzung</notiz> des einjährigen Cursus der
       höheren Mathematik (Anwenduung der Differential- und
-      Integral-Rechnung)</thema>, <zeit>10 U. 6 T.</zeit> (<modus>3 T.
-      öffentl.</modus>)</veranstaltung>
+      Integral-Rechnung)</thema>, <zeit>10 U. 6 T.
+      </zeit><veranstaltung>(<zeit>3 T.</zeit>
+      <modus>öffentl.</modus>)</veranstaltung></veranstaltungsgruppe>
 
       <veranstaltung><dozent><nachname>Möbius</nachname>, <vorname>A.
       F.</vorname>, <funktion>P. E. und Obs.</funktion></dozent>,
@@ -667,7 +677,8 @@
       <titel>VI. Naturwissenschaften.</titel>
 
       <sachgruppe>
-        <titel>Einleitung in das Studium derselben.</titel>
+        <titel>Einleitung in das Studium <scil
+        text="der Naturwissenschaften">derselben</scil>.</titel>
 
         <veranstaltung><dozent><nachname>Lehmann</nachname>, <grad>D.</grad>
         <vorname>K. G.</vorname></dozent>, <zeit>2 T. in zu best.
@@ -1176,9 +1187,11 @@
             <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung><ders>Derselbe</ders>, <thema>entweder über die
-            gesammte systematische Theologie zweistündig, oder über die
-            biblische Theologie dreistündig</thema>, <zeit>in zu best. T. u.
-            St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+            gesammte systematische Theologie <notiz
+            betreff="zeit">zweistündig</notiz>, oder über die biblische
+            Theologie <notiz betreff="zeit">dreistündig</notiz></thema>,
+            <zeit>in zu best. T. u. St.</zeit>
+            <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Fleck</nachname>, <vorname>F.
             F.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>über
@@ -1425,7 +1438,7 @@
               <grad>D.</grad> <vorname>J. G. M.</vorname></dozent>,
               <veranstaltung><thema>Institutionen und Rechtsgeschichte, nach
               s. Sätzen</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>,
-              <veranstaltung><thema>verbunden mit einem</thema>
+              <veranstaltung>verbunden mit einem
               <gebühr>unentgeltlich</gebühr>en <thema>Repititorium</thema>,
               <zeit>8 U. 2 T.</zeit></veranstaltung></veranstaltungsgruppe>
 
@@ -1502,10 +1515,9 @@
             <grad>D.</grad>
             <vorname>A.</vorname></dozent>,<veranstaltung><thema>königl.
             sächs. Privatrecht, nach <gesperrt>Haubold</gesperrt></thema>,
-            <zeit>2 U. 6
-            T.</zeit></veranstaltung>,<veranstaltung><thema>verbunden mit
-            einem</thema> <gebühr>unentgeltlich</gebühr>en <thema>Repititorium
-            des sächsischen u. gemeinen Privatrechts</thema>, <zeit>5 U. 6
+            <zeit>2 U. 6 T.</zeit></veranstaltung>,<veranstaltung>verbunden
+            mit einem <gebühr>unentgeltlich</gebühr>en <thema>Repititorium des
+            sächsischen u. gemeinen Privatrechts</thema>, <zeit>5 U. 6
             T.</zeit></veranstaltung></veranstaltungsgruppe>
           </sachgruppe>
 
@@ -1873,7 +1885,7 @@
           <veranstaltung><dozent><nachname>Heinroth</nachname>,
           <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P.
           O.</funktion></dozent>, <thema>über die Erkenntnis und Behandlung
-          der Seelsntörungen, nach s. Compendium</thema>, <zeit>3 U. Dienst.
+          der Seelenstörungen, nach s. Compendium</thema>, <zeit>3 U. Dienst.
           u. Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><ders>Derselbe</ders>, <thema>Geschichte der
@@ -2049,10 +2061,13 @@
         <sachgruppe>
           <titel>6) Entbindungskunst.</titel>
 
-          <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-          <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>n. s. Compendium</thema>, <zeit>9 U. 4
-          T.</zeit></veranstaltung>
+          <veranstaltungsgruppe><dozent><nachname>Jörg</nachname>,
+          <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>n. s.
+          Compendium</thema>,<veranstaltung><zeit>9 U. 4 T.</zeit>
+          <modus>öffentlich</modus></veranstaltung>und <veranstaltung><zeit>9
+          U. 2 T.</zeit>
+          <modus>privatim.</modus></veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung><ders>Derselbe</ders>, <thema>Phantomübungen</thema>,
           <zeit>Nachm. in einer noch zu best. St.</zeit>
@@ -2095,6 +2110,8 @@
           <nachname>Cerutti</nachname></dozent>, <zeit>2 U. 6 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
+          <!--Cerutti und Braune haben dieselbe Veranstaltung, gleiche Zeit-->
+
           <veranstaltung><dozent><nachname>Radius</nachname>, <grad>D.</grad>
           <vorname>J.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>klinische Demonstrationen am Krankenbette <ort>im
@@ -2125,6 +2142,8 @@
           <nachname>Walther</nachname></dozent>, <zeit>11 U. 6 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
+          <!--Walther und Carus haben dieselbe Veranstaltung, gleiche Zeit-->
+
           <veranstaltung><dozent><nachname>Schreber</nachname>,
           <grad>D.</grad> <vorname>M.</vorname></dozent>, <thema>Vorbereitung
           zur Klinik</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
@@ -2153,9 +2172,9 @@
           <veranstaltung><dozent><nachname>Clarus</nachname>, <grad>D.</grad>
           <vorname>J. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
           <thema>comparative Klinik der Krankheiten der Hausthiere</thema>,
-          <zeit>3 U. 2 T.</zeit> (<thema>in Verbindung mit Hrn. Thierarzt
-          <gesperrt>Böhme</gesperrt>, welcher die praktische Besorgung
-          übernehmen wird.</thema>)</veranstaltung>
+          <zeit>3 U. 2 T.</zeit> (in Verbindung mit <dozent>Hrn.
+          <funktion>Thierarzt</funktion> <nachname>Böhme</nachname></dozent>,
+          welcher die praktische Besorgung übernehmen wird.)</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
