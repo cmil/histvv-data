@@ -1,21 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<vv xmlns="http://hashtable.de/ns/histvv" xml:lang="de">
+<vv xml:lang="de" xmlns="http://hashtable.de/ns/histvv"
+    xmlns:ns="http://hashtable.de/ns/histvv">
   <kopf>
     <universität>Leipzig</universität>
+
     <semester>Sommer</semester>
+
     <beginn>
       <jahr>1843</jahr>
+
+      <monat>5</monat>
+
+      <tag>22</tag>
     </beginn>
+
     <ende>
       <jahr>1843</jahr>
     </ende>
+
     <quelle/>
-    <status><transkribent/></status>
+
+    <status>
+      <transkribent>anne</transkribent>
+    </status>
   </kopf>
-  <titel>Verzeichnis ...</titel>
-  <absatz/>
+
+  <titel>Verzeichniß der im Sommerhalbjahre 1843 auf der Universität Leipzig
+  zu haltenden Vorlesungen.</titel>
+
+  <trennlinie/>
+
+  <absatz>Der Anfang dieser Vorlesungen ist auf den 22. Mai
+  festgesetzt.</absatz>
+
+  <trennlinie/>
+
+  <absatz>Leipzig gedruckt bei Wilh. Stariß.</absatz>
+
   <sachgruppe>
-    <titel/>
-    <veranstaltung/>
+    <titel>I. Allgemeine Studien.</titel>
+
+    <veranstaltung><thema>Über den Zweck des akademischen Studiums</thema>:
+    <dozent><nachname>Hartenstein</nachname>, <funktion>P. O., d. Z.
+    Dechant</funktion></dozent>, <zeit>5 U. 2 T.</zeit>
+    <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+    <veranstaltung><thema>Ueber die Philosophie als akadem. Studiums</thema>:
+    <dozent><nachname>Drobisch</nachname>, <funktion>P.
+    O.</funktion></dozent>, <zeit>4 U. 2 T.</zeit>
+    <modus>öffentlich</modus>.</veranstaltung>
+  </sachgruppe>
+
+  <sachgruppe>
+    <titel>I. Philosophische Wissenschaften.</titel>
+
+    <!--Hierachie zu Allgemeine Studien richtig?-->
+
+    <sachgruppe>
+      <titel>1. Systematische Philosophie.</titel>
+
+      <veranstaltung>Logik u. encyklopädische Uebersicht der Philosophie: D.
+      Loße, 11 U. 2 T.</veranstaltung>
+
+      <veranstaltung>Logik: Drobisch, P. O., nach s. Lehrbuche (Lpz. 1836.) 8
+      U. 2 T.</veranstaltung>
+
+      <veranstaltung>Logik u. Psychologie: D. Weiße, 8 U. 4 T.</veranstaltung>
+
+      <veranstaltung>Metaphysik: Drobisch, P. O., 8 U. 4 T.</veranstaltung>
+
+      <veranstaltung>Psychologie: Hartenstein, P. O., d. Z. Dechant, 4 U. 4
+      T.</veranstaltung>
+
+      <veranstaltung>Naturrecht oder Rechtsphilospohie, mit Berücksichtiung
+      positiver Rechtsbestimmungen: D. Schilling, P. O., d. Z. Rector, 8 U. 4
+      T.</veranstaltung>
+
+      <veranstaltung>Naturrecht, D. Schletter, 9. U. 2 T.</veranstaltung>
+    </sachgruppe>
   </sachgruppe>
 </vv>
