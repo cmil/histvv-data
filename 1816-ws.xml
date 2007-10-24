@@ -21,7 +21,7 @@
     <quelle>Leipziger Literatur-Zeitung. Nr. 253 (12. Oktober 1816). Sp.
     2017-2024.</quelle>
 
-    <status>
+    <status komplett="ja">
       <transkribent>florian</transkribent>
     </status>
   </kopf>
@@ -68,7 +68,7 @@
 
           <veranstaltung><dozent>Hofr. u. <funktion>P. O.</funktion>
           <nachname>Beck</nachname></dozent>, <thema>über des Isokrates
-          Panegyrikus</thema>, <zeit>3 U. Montz u. Donn.</zeit>
+          Panegyrikus</thema>, <zeit>3 U. Mont. u. Donn.</zeit>
           <modus>öff.</modus></veranstaltung>
 
           <veranstaltung><dozent><funktion>P. O.</funktion>
@@ -153,11 +153,9 @@
         <sachgruppe>
           <titel>Uebungen im latein. Schreiben und Disputiren</titel>
 
-          <absatz>stellen an</absatz>
-
-          <veranstaltung><dozent>Hofr. u. <funktion>P. O.</funktion>
-          <nachname>Beck</nachname></dozent>, <zeit>4 U. Dienst. u.
-          Freyt.</zeit></veranstaltung>
+          <veranstaltung>stellen an <dozent>Hofr. u. <funktion>P.
+          O.</funktion> <nachname>Beck</nachname></dozent>, <zeit>4 U. Dienst.
+          u. Freyt.</zeit></veranstaltung>
 
           <veranstaltung><dozent><funktion>P. E.</funktion>
           <nachname>Rost</nachname></dozent>, <zeit>5 U. Mittw. u.
@@ -175,13 +173,17 @@
         <sachgruppe>
           <titel>a) Deutsche,</titel>
 
-          <absatz>ausser</absatz>
+          <veranstaltung>ausser <dozent><funktion>P. O.</funktion>
+          <nachname>Pölitz</nachname></dozent>, </veranstaltung>
 
-          <veranstaltung><dozent><funktion>P. O.</funktion>
-          <nachname>Pölitz</nachname></dozent>, <dozent><funktion>P.
-          E.</funktion> <nachname>Wendt</nachname></dozent>
-          <thema>Stilisticum</thema> <thema>in zu best.
-          St.</thema>;</veranstaltung>
+          <veranstaltung><dozent><funktion>P. E.</funktion>
+          <nachname>Wendt</nachname></dozent> <thema>Stilisticum</thema>
+          <thema>in zu best. St.</thema>;</veranstaltung>
+
+          <!--bezieht sich das "ausser" auf Pölitz und Wendt, 
+beide sind nur durch ein Komma getrennt 
+während ein Semikolon sie von Michaelis abtrennt? 
+Was bedeutet das "ausser"?-->
 
           <veranstaltung><dozent><grad>M.</grad>
           <nachname>Michaelis</nachname></dozent>, <thema>nach Adelungs
@@ -708,8 +710,9 @@ in der die Sachgruppentitel das Thema seien-->
 
             <veranstaltung><dozent><grad>M.</grad>
             <nachname>Spohn</nachname></dozent>, <thema>über die Vorstellungen
-            der Griechen u. Römer von der Erde, Beschluss</thema>, <zeit>9 U.
-            2 T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
+            der Griechen u. Römer von der Erde, <notiz
+            betreff="fortsetzung">Beschluss</notiz></thema>, <zeit>9 U. 2
+            T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
           </sachgruppe>
         </sachgruppe>
       </sachgruppe>
@@ -796,16 +799,20 @@ in der die Sachgruppentitel das Thema seien-->
               <thema>über den 1. Br. Pauli an die Korinthier</thema>, <zeit>2
               U. Dienst. u. Freyt.</zeit> <modus>öff.</modus></veranstaltung>
 
+              <!--"Korinthier" vielleicht Druckfehler? 
+Müsste doch eigentlich Korinther heißen...-->
+
               <veranstaltung><dozent>Hofr. u. <funktion>P. O.</funktion>
               <nachname>Beck</nachname></dozent>, <thema>über die Offenbarung
-              Johannis und die Briefe Petri und Judä, und, nach Beendigung des
-              Cursus, über den gegenwärtigen Zustand der Kritik und Hermenutik
-              des N.T.</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
+              Johannis und die Briefe Petri und Judä, und, nach <notiz
+              betreff="fortsetzung">Beendigung</notiz> des Cursus, über den
+              gegenwärtigen Zustand der Kritik und Hermenutik des
+              N.T.</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
 
               <veranstaltung><dozent><funktion>P. E.</funktion>
-              <grad>D.</grad> <nachname>Höpfner</nachname></dozent> wird
-              <thema>die Leidensgeschichte Jesu erklären und ihre
-              Nutzanwenduung auf der Kanzel durch Beyspiele</thema> erläutern,
+              <grad>D.</grad> <nachname>Höpfner</nachname></dozent>
+              <thema>wird die Leidensgeschichte Jesu erklären und ihre
+              Nutzanwenduung auf der Kanzel durch Beyspiele erläutern</thema>,
               <zeit>10 U. 2 T.</zeit></veranstaltung>
 
               <veranstaltung><dozent><funktion>P. E.</funktion>
@@ -898,7 +905,8 @@ in der die Sachgruppentitel das Thema seien-->
             <titel>a) Dogmatik.</titel>
 
             <sachgruppe>
-              <titel>aa) Einleitung in dieselbe.</titel>
+              <titel>aa) Einleitung in <scil
+              text="die Dogmatik">dieselbe</scil>.</titel>
 
               <veranstaltung><dozent><grad>M.</grad>
               <nachname>Wolf</nachname></dozent>, <zeit>8 U. 2
@@ -988,25 +996,25 @@ in der die Sachgruppentitel das Thema seien-->
         </sachgruppe>
 
         <sachgruppe>
-          <titel>2) Patoral-Wissenschaft.</titel>
+          <titel>2) Pastoral-Wissenschaft.</titel>
 
           <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
           <nachname>Tzschirner</nachname></dozent>, <thema><notiz
           betreff="fortsetzung">Forts.</notiz> u. Beschluss</thema>, <zeit>9
           U. 4 T.</zeit> <modus>öff.</modus></veranstaltung>
+        </sachgruppe>
 
-          <sachgruppe>
-            <titel>Theologische Uebungen überhaupt.</titel>
+        <sachgruppe>
+          <titel>Theologische Uebungen überhaupt.</titel>
 
-            <veranstaltung><dozent><funktion>P. E.</funktion>
-            <nachname>Plüschke</nachname></dozent>, <zeit>in best. u. noch zu
-            best. St.</zeit> <modus>privatiss.</modus></veranstaltung>
+          <veranstaltung><dozent><funktion>P. E.</funktion>
+          <nachname>Plüschke</nachname></dozent>, <zeit>in best. u. noch zu
+          best. St.</zeit> <modus>privatiss.</modus></veranstaltung>
 
-            <veranstaltung><dozent><grad>M.</grad>
-            <nachname>Wolf</nachname></dozent>, <thema>im latein. Disputiren
-            über Gegenstände der Gottesgelahrtheit</thema>, <zeit>in zu best.
-            St.</zeit></veranstaltung>
-          </sachgruppe>
+          <veranstaltung><dozent><grad>M.</grad>
+          <nachname>Wolf</nachname></dozent>, <thema>im latein. Disputiren
+          über Gegenstände der Gottesgelahrtheit</thema>, <zeit>in zu best.
+          St.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
@@ -1131,7 +1139,7 @@ in der die Sachgruppentitel das Thema seien-->
 
                 <veranstaltung><dozent>OHGR. <funktion>P. O.</funktion>
                 <grad>D.</grad> <nachname>Haubold</nachname></dozent>,
-                <thema>in systemat. Ordnung, nach s. Abrisse in Verbidung mit
+                <thema>in systemat. Ordnung, nach s. Abrisse in Verbindung mit
                 Hellfeld</thema>, <zeit>8 u. 10 U. 6 T.</zeit></veranstaltung>
 
                 <veranstaltung><dozent><funktion>Bacc.</funktion>
@@ -1204,7 +1212,8 @@ in der die Sachgruppentitel das Thema seien-->
 
             <veranstaltung><dozent><funktion>Bacc.</funktion>
             <nachname>Hösler</nachname></dozent>, <thema>die allgemeinen
-            Grundsätzen desselben, nach Feuerbach</thema>, <zeit>2 T.</zeit>
+            Grundsätzen <scil text="des Criminal-Rechts">desselben</scil>,
+            nach Feuerbach</thema>, <zeit>2 T.</zeit>
             <gebühr>unentg.</gebühr></veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -1277,7 +1286,7 @@ in der die Sachgruppentitel das Thema seien-->
           </sachgruppe>
 
           <sachgruppe>
-            <titel> b) Theorie <scil
+            <titel>b) Theorie <scil
             text="des gerichtlichen Processes">desselben</scil>.</titel>
 
             <veranstaltung><ders>Derselbe</ders>, <thema>gemeiner u.
@@ -1550,7 +1559,7 @@ in der die Sachgruppentitel das Thema seien-->
       <titel>C) Vorlesungen über die medicinischen Wissenschaften.</titel>
 
       <sachgruppe>
-        <titel>1) Rein-medicinische Wissenschaften.</titel>
+        <titel>I) Rein-medicinische Wissenschaften.</titel>
 
         <sachgruppe>
           <titel>Me<seite>2023</seite>thodologie,</titel>
@@ -1618,9 +1627,10 @@ in der die Sachgruppentitel das Thema seien-->
               <titel>aa) <scil
               text="Physiologie überhaupt">überhaupt</scil>.</titel>
 
-              <veranstaltung><dozent>Hofr. <funktion>Prof. prim.</funktion>
-              <grad>D.</grad> <nachname>Platner</nachname></dozent>, <zeit>5
-              U. Mont. u. Donn.</zeit> <modus>öff.</modus></veranstaltung>
+              <veranstaltung><dozent>Hofr. <funktion>Prof. <korrektur
+              original="p">P</korrektur>rim.</funktion> <grad>D.</grad>
+              <nachname>Platner</nachname></dozent>, <zeit>5 U. Mont. u.
+              Donn.</zeit> <modus>öff.</modus></veranstaltung>
 
               <veranstaltung><dozent><grad>D.</grad>
               <nachname>Leune</nachname></dozent>, <thema>nach eignen
@@ -1672,10 +1682,11 @@ in der die Sachgruppentitel das Thema seien-->
               <titel>aa) <scil
               text="Allgemeine Pathologie">Allgemeine</scil>.</titel>
 
-              <veranstaltung><dozent>Hofr. P. Prim. <grad>D.</grad>
-              <nachname>Platner</nachname></dozent>, <thema><notiz
-              betreff="fortsetzung">Forts</notiz>.</thema>, <zeit>5 U. Dienst.
-              u. Freyt.</zeit> <modus>öff.</modus></veranstaltung>
+              <veranstaltung><dozent>Hofr. <funktion>P. Prim.</funktion>
+              <grad>D.</grad> <nachname>Platner</nachname></dozent>,
+              <thema><notiz betreff="fortsetzung">Forts</notiz>.</thema>,
+              <zeit>5 U. Dienst. u. Freyt.</zeit>
+              <modus>öff.</modus></veranstaltung>
 
               <veranstaltung><dozent><funktion>P. O.</funktion>
               <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <thema>nach
@@ -1736,11 +1747,13 @@ in der die Sachgruppentitel das Thema seien-->
 
               <!--Haase der ältere! Ist P.E.!-->
 
-              <veranstaltung><dozent><funktion>P. E.</funktion>
+              <veranstaltungsgruppe><dozent><funktion>P. E.</funktion>
               <grad>D.</grad> <nachname>Puchelt</nachname></dozent>,
-              <thema>über thierischen Magnetismus, 11 U. Mont. u. Donn., und
-              über Hautkrankheiten</thema>, <zeit>3 U. 2 T.</zeit>
-              <modus>öff.</modus></veranstaltung>
+              <veranstaltung><thema>über thierischen Magnetismus</thema>,
+              <zeit>11 U. Mont. u. Donn.</zeit></veranstaltung>, und
+              <veranstaltung><thema>über Hautkrankheiten</thema>, <zeit>3 U. 2
+              T.</zeit>
+              <modus>öff.</modus></veranstaltung></veranstaltungsgruppe>
 
               <veranstaltung><dozent><funktion>P. E.</funktion>
               <grad>D.</grad> <nachname>Wendler</nachname></dozent>,
@@ -1835,68 +1848,264 @@ in der die Sachgruppentitel das Thema seien-->
           </sachgruppe>
 
           <sachgruppe>
-            <titel>b) Pharmaceutische Dynmiologie.</titel>
+            <titel>b) Pharmaceutische Dynamiologie.</titel>
 
             <veranstaltung><dozent><funktion>P. E.</funktion> <grad>D.</grad>
             <nachname>Wendler</nachname></dozent>, <thema>vom thierischen
             Magnetismus u. dessen Heilkraft in verschiedenen
-            Kranheiten</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
+            Krankheiten</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
 
             <seite>2024</seite>
 
-            <veranstaltung>D. Knoblauch, über die natürlichen Kräfte und
-            Heilkräfte des Lichts, der Wärme, Electricität und der Luft, in zu
-            best. St. 2 T. unentg.</veranstaltung>
+            <veranstaltung><dozent><grad>D.</grad>
+            <nachname>Knoblauch</nachname></dozent>, <thema>über die
+            natürlichen Kräfte und Heilkräfte des Lichts, der Wärme,
+            Electricität und der Luft</thema>, <zeit>in zu best. St. 2
+            T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
-            <titel>c) Receptirkunst oder Arzneyformal-Lehre.</titel>
+            <titel>c) Receptirkunst oder Arzneyformel-Lehre.</titel>
 
-            <veranstaltung>P. O. D. Eschenbach, in einer noch zu best.
-            St.</veranstaltung>
+            <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
+            <nachname>Eschenbach</nachname></dozent>, <zeit>in einer noch zu
+            best. St.</zeit></veranstaltung>
 
-            <veranstaltung>D. Knoblauch,</veranstaltung>
+            <veranstaltung><dozent><grad>D.</grad>
+            <nachname>Knoblauch</nachname></dozent>,</veranstaltung>
 
-            <veranstaltung>D. Schwartze.</veranstaltung>
+            <veranstaltung><dozent><grad>D.</grad>
+            <nachname>Schwartze</nachname></dozent>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
             <titel>d) Experimental-Pharmacie</titel>
 
-            <veranstaltung>P. O. D. Eschenbach, 1 U. 4 T.</veranstaltung>
+            <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
+            <nachname>Eschenbach</nachname></dozent>, <zeit>1 U. 4
+            T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
             <titel>e) Specielle Therapie,</titel>
 
-            <veranstaltung>P. O. D. Clarus, 11 U. 4 T.</veranstaltung>
+            <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
+            <nachname>Clarus</nachname></dozent>, <zeit>11 U. 4
+            T.</zeit></veranstaltung>
 
-            <veranstaltung>P. E. D. haase, über einige ausgewählte Capitel der
-            speciellen Therapie, 8 U. 2 T. öffentl.</veranstaltung>
+            <veranstaltung><dozent><funktion>P. E.</funktion> <grad>D.</grad>
+            <nachname>Haase</nachname></dozent>, <thema>über einige
+            ausgewählte Capitel der speciellen Therapie</thema>, <zeit>8 U. 2
+            T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
-            <veranstaltung>P. E. D. Puchelt, 5 U. 6 T.</veranstaltung>
+            <!--Haase senior-->
 
-            <veranstaltung>D. Müller, die Hauptlehren, 11 U. 4
-            T.</veranstaltung>
+            <veranstaltung><dozent><funktion>P. E.</funktion> <grad>D.</grad>
+            <nachname>Puchelt</nachname></dozent>, <zeit>5 U. 6
+            T.</zeit></veranstaltung>
 
-            <veranstaltung>D. Robbi, ausgewählte Anschnitte, 2 U. 4
-            T.</veranstaltung>
+            <veranstaltung><dozent><grad>D.</grad>
+            <nachname>Müller</nachname></dozent>, <thema>die
+            Hauptlehren</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+
+            <veranstaltung><dozent><grad>D.</grad>
+            <nachname>Robbi</nachname></dozent>, <thema>ausgewählte
+            Abschnitte</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
             <titel>f) Psychische Medicin,</titel>
 
-            <veranstaltung>P. E. D. Heinroth, in ihrem ganzen Umfange,
-            tehoretisch und praktisch, 4 U. 6 T.</veranstaltung>
+            <veranstaltung><dozent><funktion>P. E.</funktion> <grad>D.</grad>
+            <nachname>Heinroth</nachname></dozent>, <thema>in ihrem ganzen
+            Umfange, theoretisch und praktisch</thema>, <zeit>4 U. 6
+            T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
             <titel>g) Chirurgie.</titel>
 
-            <veranstaltung>P. O. D. Jörg, 2 U. 4 T.</veranstaltung>
+            <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
+            <nachname>Jörg</nachname></dozent>, <zeit>2 U. 4
+            T.</zeit></veranstaltung>
+
+            <veranstaltungsgruppe><dozent><grad>D.</grad>
+            <nachname>Siegel</nachname></dozent>, <veranstaltung><thema>Cursus
+            auf <notiz betreff="fortsetzung">ein ganzes Jahr</notiz>, nach s.
+            Heften</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>;
+            <veranstaltung>ingl. <thema>Verbandlehre</thema>, <zeit>11 U. 4
+            T.</zeit></veranstaltung></veranstaltungsgruppe>
+
+            <veranstaltung><dozent><grad>D.</grad>
+            <nachname>Robbi</nachname></dozent>, <thema>nach Legouas nouveaux
+            proncipes de chirurgie, Par. 1815.</thema>, <zeit>4 U. 2
+            T.</zeit></veranstaltung>
+
+            <sachgruppe>
+              <titel>Operative Chirurgie.</titel>
+
+              <veranstaltungsgruppe><dozent><grad>D.</grad>
+              <nachname>Kuhl</nachname></dozent>,
+              <veranstaltung><thema>Demonstr. chirurg., wird chirurgische
+              Anweisungen an den Krankenbetten <ort>im Jacobs-Spitale</ort>
+              geben</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>;
+              <veranstaltung>ingl. <thema>chrirugische Operationen an
+              Cadavern</thema> zeigen, <zeit>11 U. 4
+              T.</zeit></veranstaltung></veranstaltungsgruppe>
+
+              <veranstaltung><dozent><grad>D.</grad>
+              <nachname>Ritterich</nachname></dozent>, <zeit>4
+              T.</zeit></veranstaltung>
+            </sachgruppe>
+
+            <sachgruppe>
+              <titel>Operative Augenheilkunde.</titel>
+
+              <veranstaltung><dozent><grad>D.</grad>
+              <nachname>Kuhl</nachname></dozent>, <thema>Demonstr.
+              chirurg.</thema>, <zeit>2 T.</zeit>
+              <modus>privatiss.</modus></veranstaltung>
+
+              <veranstaltung><dozent><grad>D.</grad>
+              <nachname>Ritterich</nachname></dozent> <thema>wird alle
+              Augenoperationen an Cadavern zeigen</thema>, <zeit>in zu best.
+              T. u. St.</zeit></veranstaltung>
+            </sachgruppe>
+          </sachgruppe>
+
+          <sachgruppe>
+            <titel>h) Entbindungskunst.</titel>
+
+            <sachgruppe>
+              <titel>aa) Pragmatische Literargeschichte der
+              Entbindungskunst</titel>
+
+              <veranstaltung><dozent><grad>D.</grad>
+              <nachname>Voigt</nachname></dozent>, <zeit>11 U. 2 T.</zeit>
+              <gebühr>unentg.</gebühr></veranstaltung>
+            </sachgruppe>
+
+            <sachgruppe>
+              <titel>bb) Anweisung zur Entbindungskunst.</titel>
+
+              <veranstaltungsgruppe><dozent><funktion>P. O.</funktion>
+              <grad>D.</grad> <nachname>Jörg</nachname></dozent>,
+              <veranstaltung><thema>nach s. Lehrbuche</thema>, <zeit>11 U. 4
+              T.</zeit></veranstaltung>; <veranstaltung>ingl.
+              <thema>praktische Anweisung <ort>in der Trierschen
+              Anstalt</ort></thema>, <zeit>8 U. 6 T.</zeit>
+              <modus>öff.</modus></veranstaltung></veranstaltungsgruppe>
+
+              <veranstaltung><dozent><grad>D.</grad>
+              <nachname>Richter</nachname></dozent>, <thema>nach
+              Stein</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
+
+              <veranstaltung><dozent><grad>D.</grad>
+              <nachname>Haase</nachname> d. jüng.</dozent>, <thema>nach
+              Froriep</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
+
+              <!--Haase Junior-->
+
+              <veranstaltung><ders>Derselbe</ders> hält ein
+              <thema>Examinatorium über Entbindungskunst</thema>
+              <modus>privatiss.</modus></veranstaltung>
+            </sachgruppe>
+          </sachgruppe>
+
+          <sachgruppe>
+            <titel>i) Klinik.</titel>
+
+            <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
+            <nachname>Clarus</nachname></dozent>, <thema>im königl. klin.
+            Institute <ort>im Jacobs-Spitale</ort></thema>, <zeit>10 U. 6
+            T.</zeit> <modus>öff.</modus></veranstaltung>
+
+            <veranstaltung><dozent><funktion>P. E.</funktion> <grad>D.</grad>
+            <nachname>Puchelt</nachname></dozent>, <thema>poliklinische
+            Uebungen</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
+
+            <veranstaltung><dozent><funktion>P. E.</funktion> <grad>D.</grad>
+            <nachname>Wendler</nachname></dozent>, <thema><notiz
+            betreff="fortsetzung">Forts.</notiz> der klinischen Anweisungen an
+            den Krankenbetten in dem königl. klin. Institute</thema>, <zeit>3
+            U. 4 T.</zeit></veranstaltung>
+
+            <veranstaltung><dozent><grad>D.</grad>
+            <nachname>Robbi</nachname></dozent>, <thema>Poliklinicum</thema>,
+            <zeit>2 U. 4 T.</zeit></veranstaltung>
+          </sachgruppe>
+        </sachgruppe>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>II) Angewandte medicinische Wissenschaften.</titel>
+
+        <sachgruppe>
+          <titel>1) Staatsarzneykunde.</titel>
+
+          <sachgruppe>
+            <titel>a) Medicinische Polizeywissenschaft,</titel>
+
+            <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
+            <nachname>Kühn</nachname></dozent>, <zeit>3 U. 4
+            T.</zeit></veranstaltung>
+
+            <sachgruppe>
+              <titel>*) Uebungen der medicinisch-polizeylichen
+              Gesellschaft</titel>
+
+              <veranstaltung>hält <dozent><funktion>P. O.</funktion>
+              <grad>D.</grad> <nachname>Ludwig</nachname></dozent>,
+              <zeit>monatlich einmal</zeit>.</veranstaltung>
+            </sachgruppe>
+          </sachgruppe>
+
+          <sachgruppe>
+            <titel>b) Gerichtliche Arzneywissenschaft</titel>
+
+            <veranstaltung>trägt <ders>derselbe</ders> <thema>nach s.
+            Sätzen</thema> <zeit>10 U. 2 T.</zeit> vor.</veranstaltung>
+          </sachgruppe>
+
+          <sachgruppe>
+            <titel>Verschiedene Uebungen.</titel>
+
+            <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
+            <nachname>Eschenbach</nachname></dozent>, <thema>Disputatorium
+            über physisch-chemische Gegenstände</thema>, <zeit>4 U. Dienst. u.
+            Freyt.</zeit></veranstaltung>
+
+            <veranstaltung><dozent><funktion>P. E.</funktion> <grad>D.</grad>
+            <nachname>Puchelt</nachname></dozent>, <thema>Uebungen im
+            Disputiren</thema>, <zeit>in best. St.</zeit></veranstaltung>
+
+            <veranstaltung><dozent><grad>D.</grad>
+            <nachname>Leune</nachname></dozent>, <thema>Uebungen im Disputiren
+            und Schreiben über medicinische Gegenstände</thema>, <zeit>3 U. 2
+            T.</zeit></veranstaltung>
+
+            <veranstaltung><dozent><grad>D.</grad>
+            <nachname>Cerutti</nachname></dozent>, <thema>Examinatoria und
+            Disputatoria über verschiedene Gegenstände der Heilkunde</thema>,
+            <zeit>in bel. St.</zeit></veranstaltung>
+
+            <veranstaltung><dozent><grad>D.</grad>
+            <nachname>Robbi</nachname></dozent>, <thema>medic. Uebungen in
+            latein. Sprache</thema>, <zeit>4 U. Freyt.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
+
+  <absatz>Uebrigens wird der Stallmeister Richter, der Fechtmeister Köhler,
+  ingleichen der Tanzmeister Klemm und der Universitäts-Zeichenmeister, Joh.
+  Friedr. Schröter auf Verlangen gehörigen Unterricht ertheilen. Auch können
+  sich die Studirenden des Unterrichts der bey hiesiger Zeichnungs-, Maler-
+  und Architektur-Akademie angestellten Lehrer bedienen.</absatz>
+
+  <absatz>Wöchentlich zweymal, Mittwochs und Sonnabends, werden die
+  öffentlichen Bibliotheken, die Universitätsbibliothek von 10 bis 12 Uhr, und
+  die Raths-Bibliothek von 2 bis 4 Uhr, erstere auch in der Messe alle Tage,
+  geöffnet.</absatz>
 </vv>
