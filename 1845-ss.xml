@@ -20,7 +20,7 @@
 
     <quelle/>
 
-    <status>
+    <status komplett="ja">
       <transkribent>anne</transkribent>
     </status>
   </kopf>
@@ -50,10 +50,12 @@
       <sachgruppe>
         <titel>1. Encyklopädie und Geschichte der Philosophie.</titel>
 
-        <veranstaltung><thema>Grundlegung und Encyklopädie der
+        <veranstaltungsgruppe><thema>Grundlegung und Encyklopädie der
         Philosophie</thema>: <dozent><nachname>Drobisch</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>9 U. 4 T.</zeit> (<zeit>2
-        T.</zeit> <modus>öffentlich</modus>.)</veranstaltung>
+        <funktion>P. O.</funktion></dozent>, <zeit>9 U.</zeit>
+        <veranstaltung><zeit>4 T.</zeit></veranstaltung>
+        (<veranstaltung><zeit>2 T.</zeit>
+        <modus>öffentlich</modus></veranstaltung>.)</veranstaltungsgruppe>
 
         <veranstaltung><thema>Geschichte der Philosophie alter Zeit, besonders
         der Inder und Griechen</thema>: <dozent><grad>D.</grad>
@@ -233,7 +235,11 @@
         E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber Cicero's Topica</thema>:
+        <veranstaltung><thema>Ueber Cicero's Tusculanen</thema>:
+        <dozent><nachname>Nobbe</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Erklärung von Cicero's Topica</thema>:
         <dozent><grad>M.</grad> <nachname>Klee</nachname></dozent>, <zeit>3 U.
         2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -244,11 +250,12 @@
         <sachgruppe>
           <titel>Philologische Uebungen.</titel>
 
-          <veranstaltung><thema>Uebungen des Königl. philol. Seminars;
-          Fortsetzung der Erklärung von Plato's Gastmahl</thema>:
-          <dozent><grad>D.</grad> <nachname>Hermann</nachname>, <funktion>P.
-          O., Reg. Sem. philol. Dir.</funktion></dozent>, <zeit>Mittwochs von
-          5 U. an</zeit>.</veranstaltung>
+          <veranstaltung><thema>Uebungen des Königl. philol. Seminars; <notiz
+          betreff="fortsetzung">Fortsetzung</notiz> der Erklärung von Plato's
+          Gastmahl</thema>: <dozent><grad>D.</grad>
+          <nachname>Hermann</nachname>, <funktion>P. O., Reg. Sem. philol.
+          Dir.</funktion></dozent>, <zeit>Mittwochs von 5 U.
+          an</zeit>.</veranstaltung>
 
           <seite>5</seite>
 
@@ -411,7 +418,7 @@
           <titel>Sprachübungen.</titel>
 
           <veranstaltung><thema>Uebungen der Gesellschaft für deutsche Sprache
-          u. Litteratur</thema>: <dozent><grad>D.</grad>
+          u. Literatur</thema>: <dozent><grad>D.</grad>
           <nachname>Vogel</nachname></dozent>, <zeit>in den best. St. u.
           T.</zeit> <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
@@ -429,9 +436,10 @@
         Dech.</funktion></dozent>, <zeit>8 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Geschichte der Völker und der Civilisation
-        Europa's seit dem Anfange des 16. Jahrh. bis auf die Gegenwart.
-        Einjähriger Cursus. Erste Hälfte. Die Geschichte des 16. und 17.
-        Jahrh.</thema>: <dozent><nachname>Flathe</nachname>, <funktion>P.
+        Europa's seit dem Anfange des 16. Jahrh. bis auf die Gegenwart. <notiz
+        betreff="fortsetzung">Einjähriger Cursus. Erste Hälfte.</notiz> Die
+        Geschichte des 16. und 17. Jahrh.</thema>:
+        <dozent><nachname>Flathe</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>4 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
@@ -661,8 +669,6 @@
           <nachname>Lehmann</nachname></dozent>, <zeit>2 u. 3 U. Mont. u.
           Dienst.</zeit></veranstaltung>
 
-          <!--"beide Brüder" ohne Namen als Mit-Dozenten angegeben, habe daher als Dozent getaggt?!-->
-
           <veranstaltung><thema>Uebungen in galvanischen und magnetischen
           Beobachtungen</thema>: <dozent><grad>D.</grad>
           <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
@@ -790,6 +796,8 @@
     </sachgruppe>
   </sachgruppe>
 
+  <trennlinie/>
+
   <sachgruppe>
     <titel>II. Facultätsstudien.</titel>
 
@@ -897,8 +905,8 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen der exegetischen (neutestam.)
-          Gesellschaft</thema>: <ders>Derselbe</ders>, <zeit>in den best. St.
-          u. T.</zeit>, <modus>privatissime</modus> aber
+          Gesellschaft</thema>: <ders>Derselbe</ders>, <zeit>in den best.
+          St.</zeit>, <modus>privatissime</modus> aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen der exegetisch-dogmatischen
@@ -935,7 +943,7 @@
 
           <trennlinie/>
 
-          <veranstaltung><thema>Mittheilung von seiner theologischen
+          <veranstaltung><thema>Mittheilungen von seiner theologischen
           Reise</thema>: <dozent><grad>D.</grad>
           <nachname>Tischendorf</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>12 U. Mittwochs</zeit>,
@@ -951,23 +959,21 @@
         O.</funktion></dozent>, <zeit>12 U. 2 T. (Mont. u.
         Donn.)</zeit></veranstaltung>
 
-        <veranstaltung><thema>Christliche Kirchengeschichte, <notiz
+        <veranstaltungsgruppe><thema>Christliche Kirchengeschichte, <notiz
         betreff="fortsetzung">zweite Hälfte</notiz>, nach s. Lehrb.</thema>:
         <dozent><grad>D.</grad> <nachname>Niedner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>7 U. 6 T. u. 8 U. 2
-        T.</zeit></veranstaltung>
-
-        <!--Ist das eine Veranstaltungsgruppe?-->
+        O.</funktion></dozent>, <veranstaltung><zeit>7 U. 6
+        T.</zeit></veranstaltung> u. <veranstaltung><zeit>8 U. 2
+        T.</zeit></veranstaltung></veranstaltungsgruppe>
 
         <seite>11</seite>
 
-        <veranstaltung><thema>Kirchengeschichte, <notiz
+        <veranstaltungsgruppe><thema>Kirchengeschichte, <notiz
         betreff="fortsetzung">erster Theil</notiz></thema>:
         <dozent><grad>M.</grad> <nachname>Lindner</nachname>, <funktion>Theol.
-        Lic.</funktion></dozent>, <zeit>7 U. früh 6 T. u. 4 U. 4
-        T.</zeit></veranstaltung>
-
-        <!--Ist das eine Veranstaltungsgruppe?-->
+        Lic.</funktion></dozent>, <veranstaltung><zeit>7 U. früh 6
+        T.</zeit></veranstaltung> u. <veranstaltung><zeit>4 U. 4
+        T.</zeit></veranstaltung></veranstaltungsgruppe>
 
         <veranstaltung><thema>Charakteristik Jesu (über die Idealität seiner
         Person, seinen Plan und seine Lehre)</thema>: <dozent><grad>D.</grad>
@@ -1228,12 +1234,12 @@
           Sätzen</thema>: <dozent><grad>D.</grad>
           <nachname>Berger</nachname></dozent>, <zeit>6 T. in zu best.
           St.</zeit> <modus>theils privatim</modus>, <gebühr>theils
-          unentgeltlich</gebühr>. </veranstaltung>
+          unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Sächsisches Landwirthschaftsrecht</thema>:
           <dozent><grad>D.</grad> <nachname>Steinacker</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>8 U. 2 T.</zeit>
-          <modus>öffentlich</modus>. </veranstaltung>
+          <modus>öffentlich</modus>.</veranstaltung>
 
           <trennlinie/>
 
@@ -1342,7 +1348,7 @@
         <veranstaltung><thema>Sächsisches Kirchenrecht</thema>:
         <dozent><grad>D.</grad> <nachname>Großmann</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
-        <modus>öffentlich</modus>. </veranstaltung>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Entwickelung auserwählter Abschnitte aus d.
         Kirchengeschichte, besonders vom juristischen Standpunkte aus</thema>:
@@ -1427,7 +1433,7 @@
         <veranstaltung><thema>Uebungen der Otto'schen juristischen
         Gesellschaft</thema>: <dozent><grad>D.</grad>
         <nachname>Vogel</nachname></dozent>, <zeit>in den best. St.</zeit>
-        <modus>privatissime</modus>. </veranstaltung>
+        <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -1445,7 +1451,382 @@
         Halbjahres</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <seite>15</seite>
+
+        <veranstaltung><thema>Encyklopädie und Methodologie der
+        Medicin</thema>: <dozent><grad>D.</grad>
+        <nachname>Kneschke</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>2 U. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Abriß der Geschichte und Bücherkunde der
+        Medicin</thema>: <dozent><grad>D.</grad>
+        <nachname>Kneschke</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>2 T. in zu best. St.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Geschichte der Medicin u.
+        Volkskrankheiten</thema>: <dozent><grad>D.</grad>
+        <nachname>Merkel</nachname></dozent>, <zeit>5 U. 3 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>II. Anatomie.</titel>
+
+        <veranstaltung><thema>Allg. Anatomie und Geschichte der Bildung des
+        menschlichen und thierischen Körpers</thema>: <dozent><grad>D.</grad>
+        <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>9 u. 11 U. 2 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Knochen- und Bänderlehre</thema>:
+        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>Theat.
+        anat. Prosect.</funktion></dozent>, <zeit>9 U. 4
+        T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Anatomie, vergleichende Anatomie und Physiologie
+        der Sinnesorgane</thema>: <ders>Derselbe</ders>, <zeit>10 U. Mont. u.
+        Donn.</zeit> <modus>öffentlich</modus>. </veranstaltung>
+
+        <veranstaltung><thema>Topographisch-pathologische Anatomie der
+        Unterleibshöhle (<notiz betreff="fortsetzung">Fortsetzung</notiz>),
+        sowie Capitel aus der physiologischen Medicin</thema>:
+        <dozent><grad>D.</grad> <nachname>Bock</nachname></dozent>, <zeit>4 T.
+        in zu best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung><thema>Chir. u. system. Anatomie</thema>:
+        <ders>Derselbe</ders>, <zeit>in zu best. T. u.
+        St.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Vergleichende Anatomie der wirbellosen
+        Thiere</thema>: <ders>Derselbe</ders>, <zeit>7 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>. </veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>III. Physiologie.</titel>
+
+        <veranstaltung><thema>Physiologie</thema>: <dozent><grad>D.</grad>
+        <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>12 U. 6 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Pathologische Physiologie</thema>:
+        <dozent><grad>D.</grad> <nachname>Bock</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>in zu best. T. u.
+        St.</zeit></veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Praktische Uebungen im
+        physikalisch-physiologischen Institute</thema>:
+        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>P.
+        O.</funktion></dozent>, in Verbindung mit <dozent>seinen
+        Brüdern</dozent> und <dozent>Prof. <grad>D.</grad>
+        <nachname>Lehmann</nachname></dozent>, <zeit>2-4 U. Mont. u.
+        Dienst.</zeit></veranstaltung>
+
+        <!--mit seinen Brüdern als "Dozent" getaggt?!-->
+
+        <veranstaltung><thema>Examinatorium über Physiologie</thema>:
+        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>11 U. Mont. u. Dienst.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Repetitorium u. Examinatorium über Physiologie,
+        in latein. Sprache</thema>: <dozent><grad>D.</grad>
+        <nachname>Neubert</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>in zu best. T. u. St.</zeit></veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>IV. Allgemeine Pathologie und Therapie.</titel>
+
+        <veranstaltung><thema>Allgemeine Pathologie</thema>:
+        <dozent><grad>D.</grad> <nachname>Neubert</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>11 U. 4 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Repetitorium u. Examinatorium über alllgemeine
+        Pathologie in latein. Sprache</thema>: <ders>Derselbe</ders>, <zeit>in
+        zu best. St. u. T.</zeit></veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>V. Hygiene.</titel>
+
+        <veranstaltung><thema>Allgemeine und private
+        Gesundheitserhaltungslehre</thema>: <dozent><grad>D.</grad>
+        <nachname>Radius</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Ueber medicinische Symnastik, nebst praktischen
+        Erläuterungen</thema>: <dozent><grad>D.</grad>
+        <nachname>Schreber</nachname></dozent>, <zeit>6 U. Nachm., 2
+        T.</zeit></veranstaltung>
+      </sachgruppe>
+
+      <seite>16</seite>
+
+      <sachgruppe>
+        <titel>VI. Arzneimittellehre und Receptirkunst.</titel>
+
+        <veranstaltungsgruppe><thema>Die Arzneimittellehre, im halbjährigen
+        Cursus</thema>: <dozent><grad>D.</grad> <nachname>Braune</nachname>,
+        <funktion>P. O.</funktion></dozent>, <veranstaltung><zeit>5 U. 6
+        T.</zeit></veranstaltung> u. <veranstaltung><zeit>12 U. 2
+        T.</zeit></veranstaltung></veranstaltungsgruppe>
+
+        <veranstaltung><thema>Ueber Arzneimittellehre</thema>:
+        <dozent><grad>D.</grad> <nachname>Sonnenkalb</nachname></dozent>,
+        <zeit>in zu best. T. u. St.</zeit>
+        <modus>privatissime</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Ueber die wichtigsten Heilquellen, mit Vorlegung
+        von Proben derselben</thema>: <dozent><grad>D.</grad>
+        <nachname>Merkel</nachname></dozent>, <zeit>5 U. 3
+        T.</zeit></veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Receptitkunst</thema>: <dozent><grad>D.</grad>
+        <nachname>Kneschke</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>2 U. Dienst. u. Freit.</zeit></veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>VII. Specielle Pathologie und Therapie.</titel>
+
+        <veranstaltungsgruppe><thema><notiz betreff="fortsetzung">Erster
+        Theil</notiz> des in einem Jahre zu vollendenden Cursus der speciellen
+        Pathologie und Therapie (die acuten Krankheiten)</thema>:
+        <dozent><grad>D.</grad> <nachname>Cerutti</nachname>, <funktion>P.
+        O.</funktion></dozent>, <veranstaltung><zeit>4 U. 4 T.</zeit>
+        <modus>privatim</modus> (<thema>die
+        Entzündungen</thema>)</veranstaltung>, u. <veranstaltung><zeit>4 U. 2
+        T.</zeit> <modus>öffentlich</modus> (<thema>die
+        Fieber</thema>)</veranstaltung>.</veranstaltungsgruppe>
+
+        <veranstaltung><thema>Ueber die Krankheiten des weiblichen
+        Geschlechts</thema>: <dozent><grad>D.</grad>
+        <nachname>Grenser</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>4 T. in zu best. St.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Ueber Kinderkrankheiten, nach seinem Handbuche
+        dieser Krankheiten</thema>: <dozent><grad>D.</grad>
+        <nachname>Jörg</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>11 U. 4 T.</zeit> </veranstaltung>
+
+        <veranstaltung><thema>Ueber Augenkrankheiten</thema>:
+        <dozent><grad>D.</grad> <nachname>Radius</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>4 U. 2 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Ueber die wichtigsten Krankheiten des
+        Auges</thema>: <dozent><grad>D.</grad> <nachname>Kneschke</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>2 U. 2 T. (Mittw. u.
+        Sonn.)</zeit></veranstaltung>
+
+        <veranstaltung><thema>Ueber Augenkrankheiten</thema>:
+        <dozent><grad>D.</grad> <nachname>Winter</nachname></dozent>, <zeit>4
+        T. in zu best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung><thema>Ueber Ohrenkrankheiten</thema>:
+        <ders>Derselbe</ders>, <zeit>2 T. in zu best.
+        St.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Ueber Herzkrankheiten</thema>:
+        <dozent><grad>D.</grad> <nachname>Sonnenkalb</nachname></dozent>,
+        <zeit>4 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung><thema>Ueber die Krankheiten der Lungen und
+        Auscultiren</thema>: <dozent><grad>D.</grad> <vorname>J.</vorname>
+        <nachname>Clarus</nachname></dozent>, <zeit>3 U. 3 T. (Mont. Mittw. u.
+        Sonn.)</zeit></veranstaltung>
+
+        <veranstaltungsverweis><thema>Pathologische Anatomie der
+        Unterleibshöhle</thema>: <dozent><grad>D.</grad>
+        <nachname>Bock</nachname></dozent>, <siehe>s.
+        Anatomie</siehe>.</veranstaltungsverweis>
+
+        <veranstaltung><thema>Pathologie und Therapie der syphilitischen
+        Krankheitsformen</thema>: <dozent><grad>D.</grad>
+        <nachname>Walther</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <zeit>4 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Examinatorium über Pathologie und specielle
+        Therapie</thema>: <dozent><grad>D.</grad>
+        <nachname>Winter</nachname></dozent>, <zeit>in zu best. T. u.
+        St.</zeit></veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>VIII. Psychische Heilwissenschaft.</titel>
+
+        <veranstaltung><thema>Allgemeine und specielle Pathologie und Therapie
+        der psychischen Krankheiten</thema>: <dozent><grad>D.</grad>
+        <nachname>Hasper</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>3 U. 2 T.</zeit></veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>IX. Chirurgie.</titel>
+
+        <veranstaltung><thema>Allgemeine Chirurgie</thema>:
+        <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <zeit>5 U. 2 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Specielle Chirurgie, <notiz
+        betreff="fortsetzung">zweiter Theil</notiz></thema>:
+        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>6 U. früh, 4 T.</zeit></veranstaltung>
+
+        <seite>17</seite>
+
+        <veranstaltung><thema>Ueber Knochenbrüche, Verrenkungen und
+        Wunden</thema>: <ders>Derselbe</ders>, <zeit>6 U. früh, 2
+        T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Bandagenlehre</thema>: <dozent><grad>D.</grad>
+        <nachname>Franke</nachname></dozent>, <zeit>2 T. in zu best.
+        St.</zeit></veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Operationsübungen am Leichname</thema>:
+        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>4-6 U. 5 T.</zeit></veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>X. Geburtshilfe.</titel>
+
+        <veranstaltungsgruppe><thema>Geburtshilfe, nach s. Handbuche der
+        gebursthilfe und nach dem der speciellen Therapie für Aerzte am
+        Geburtsbette</thema>: <dozent><grad>D.</grad>
+        <nachname>Jörg</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>8 U.</zeit>,<veranstaltung><zeit>4 T.</zeit>
+        <modus>öffentlich</modus></veranstaltung> und <veranstaltung><zeit>2
+        T.</zeit>
+        <modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
+
+        <veranstaltung><thema>Practische Uebungen, besonders Einübungen der
+        geburtshilfl. Operationen am Phantom</thema>: <dozent><grad>D.</grad>
+        <nachname>Jörg</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>2 U. 2 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Repetitoria über Geburtshilfe in Verbindung mit
+        Einübungen der geburtshilfl. Operationen</thema>:
+        <dozent><grad>D.</grad> <nachname>Grenser</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>in zu best. St.</zeit>
+        <modus>privatissime</modus>.</veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>XI. Klinik.</titel>
+
+        <veranstaltungsgruppe><thema>Medicinische Klinik</thema>:
+        <dozent><grad>D.</grad> <nachname>Clarus</nachname>, <funktion>P. O.,
+        d. Z. Dechant</funktion></dozent>, <zeit>9-11 U. 6 T.</zeit>,
+        <veranstaltung><zeit>2 T.</zeit>
+        <modus>öffentlich</modus></veranstaltung> und <veranstaltung><zeit>4
+        T.</zeit>
+        <modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
+
+        <veranstaltung><thema>Medicinische Poliklinik</thema>:
+        <dozent><grad>D.</grad> <nachname>Cerutti</nachname>, <funktion>P.
+        O.</funktion></dozent>, in Verbindung mit <dozent><grad>D.</grad>
+        <nachname>Braune</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>2 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Klinische Demonstrationen am Krankenbette,
+        <ort>im Hospital zu St. Georgen</ort></thema>: <dozent><grad>D.</grad>
+        <nachname>Radius</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>11-1 U. 2 T.</zeit> <modus>privatissime</modus>, aber
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung><thema>Geburtshilfliche Klinik in der königlichen
+        Entbindungsschule <ort>im Trierschen Institute</ort></thema>:
+        <dozent><grad>D.</grad> <nachname>Jörg</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>7 U. 6 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Chirurgische Klinik</thema>:
+        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>11-12½ U. 6 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Chirurgische Poliklinik</thema>:
+        <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, in Verb. mit <dozent><grad>D.</grad>
+        <nachname>Franke</nachname></dozent>, <zeit>11 U. 6 T.</zeit>
+        <modus>öffentlich</modus> und
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung><thema>Repetitionen am Krankenbett im königl. klin.
+        Insitute <ort>im Jakobsspitale</ort></thema>: <dozent><grad>D.</grad>
+        <nachname>Clarus</nachname></dozent>, <zeit>zu den best. T. u.
+        St.</zeit></veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>XII. Gerichtliche Arzneiwissenschaft.</titel>
+
+        <veranstaltung><thema>Gerichtliche Medicin, für
+        Rechtsgelehrte</thema>: <dozent><grad>D.</grad>
+        <nachname>Wendler</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>11 U. 4 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Medicinische Polizeiwissenschaft mit besonderer
+        Bezugnahme auf die gegenwärtig in Sachsen geltenden Gesetze, für
+        Mediciner</thema>: <ders>Derselbe</ders>, <zeit>4 U. 4 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltungsverweis><thema>Forensische Chemie</thema>:
+        <dozent><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        O.</funktion></dozent>, <siehe>s. Chemie</siehe>.
+        </veranstaltungsverweis>
+
+        <veranstaltung><thema>Ueber Rettungsmittel beim Scheintode und in
+        plötzlichen Lebensgefahren</thema>: <dozent><grad>D.</grad>
+        <nachname>Walther</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <zeit>in zu best. St. u. T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Gerichtlich-medicinisches Relatorium mit
+        Ausarbeitungen nach Acten</thema>: <dozent><grad>D.</grad>
+        <nachname>Clarus</nachname>, <funktion>P. O., d. Z.
+        Dechant</funktion></dozent>, <zeit>4 U. Dienst. u.
+        Freit.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
+
+  <trennlinie/>
+
+  <absatz>Uebrigens wird der Stallmeister <gesperrt>A. Röhling</gesperrt>, der
+  Fechtmeister <gesperrt>G. Berndt</gesperrt>, und der Tanzmeister
+  <gesperrt>J. F. W. John</gesperrt>, auf Verlangen gehörigen Unterricht
+  ertheilen. Auch können sich die Studirenden des Unterrichts der bei hiesiger
+  Zeichnungs-, Maler- und Architektur-Akademie angestellten Lehrer
+  bedienen.</absatz>
+
+  <absatz>Die <gesperrt>Universitätsbibliothek</gesperrt> wird täglich 2
+  Stunden geöffnet, nämlich Mittw. und Sonnab. von 10 bis 12 Uhr und an den
+  übrigen Tagen von 2 bis 4 Uhr, die <gesperrt>Rathbibliothek</gesperrt> aber
+  Mont., Mittw. und Sonnab. von 2 bis 4 Uhr. </absatz>
+
+  <absatz>Die <gesperrt>archäologische Sammlung</gesperrt> ist Freitags von 2
+  bis 4 Uhr, und das <gesperrt>Brückner-Lampe'sche</gesperrt>
+  pharmakognostische Museum ist Donnerst. von 1 bis 3 Uhr geöffnet.</absatz>
+
+  <absatz>Die Bittschriften um die vom <gesperrt>akademischen
+  Senate</gesperrt> zu vergebenden Stipendien haben die Commilitonen im
+  vorletzten Monate jedes Halbjahres dem Actuarius der Universität zu
+  übergeben.</absatz>
+
+  <trennlinie/>
 </vv>
