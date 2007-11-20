@@ -18,13 +18,16 @@
       <jahr>1819</jahr>
     </ende>
 
-    <quelle>Leipziger Literatur-Zeitung. Nr. 113. + 114. (8. May 1819). Sp.
-    898-910.</quelle>
+    <quelle>Leipziger Literatur-Zeitung. Nr. 113. (8. May 1819). Sp. 898-904 +
+    Nr. 114. Sp. 905-910.</quelle>
 
-    <status>
+    <status komplett="ja">
       <transkribent>florian</transkribent>
     </status>
   </kopf>
+
+  <!--VV enthält keine Angaben von Zeiten. Zudem ist es auf zwei Literatur-Zeitschriften 
+verteilt, sollte noch kenntlich gemacht werden, an welcher Stelle der Bruch ist (904 zu 905)-->
 
   <titel>Verzeichniss der im Sommerhalbjahre 1819 auf der Universität Leipzig
   zu haltenden Vorlesungen.</titel>
@@ -66,7 +69,7 @@
           B.</vorname>, <funktion>Theol. P. E. des.</funktion></dozent>,
           <thema>Geschichte und höhere Grammatik der hebr. Sprache n. s.
           Sätzen, nebst historisch-linguistischer Uebersicht des gesammten
-          semitischen Sprachstamms</thema>.</veranstaltung>
+          semitischen Sprachstammes</thema>.</veranstaltung>
 
           <sachgruppe>
             <titel>*) Uebungen der hebräischen Gesellschaft.</titel>
@@ -134,7 +137,7 @@
 
             <veranstaltung><dozent><nachname>Weiske</nachname>, <vorname>B.
             G.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>über des
-            aristophanes Acharner</thema>,
+            Aristophanes Acharner</thema>,
             <gebühr>unentgeldlich</gebühr>.</veranstaltung>
           </sachgruppe>
 
@@ -152,7 +155,7 @@
 
             <veranstaltung><dozent><nachname>Beier</nachname>, <grad>M.</grad>
             <vorname>K. F. A.</vorname></dozent>, <thema>über Cicero's Bücher
-            von göttlichen Wesen</thema>,
+            vom göttlichen Wesen</thema>,
             <gebühr>unentgeldlich</gebühr>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -225,9 +228,12 @@
           -</veranstaltung>
 
           <veranstaltung><dozent><nachname>Yung</nachname>, <grad>M.</grad>
-          Phil., <funktion>Ling. angl. Lect. publ.</funktion></dozent>,
-          <thema>über die Anfangsgr. der englischen
+          <vorname>Phil.</vorname>, <funktion>Ling. angl. Lect.
+          publ.</funktion></dozent>, <thema>über die Anfangsgr. der englischen
           Sprache</thema>.</veranstaltung>
+
+          <!--Wobei ich nicht sicher bin, ob "Phil" für einen Vornamen 
+oder für ein Kürzel einer Funktion/ Titel steht-->
         </sachgruppe>
 
         <sachgruppe>
@@ -327,7 +333,7 @@
               <thema>Logik nach s. Sätzen</thema>. -</veranstaltung>
 
               <veranstaltung><dozent><nachname>Michaelis</nachname>,
-              <grad>M.</grad> <vorname>M. C. F.</vorname></dozent>,
+              <grad>M.</grad> <vorname>C. F.</vorname></dozent>,
               <thema>Metaphysik</thema>.</veranstaltung>
 
               <sachgruppe>
@@ -479,8 +485,8 @@
           <veranstaltungsgruppe><dozent><nachname>Möbius</nachname>,
           <vorname>A. F.</vorname>, <funktion>P. E. u.
           Obs.</funktion></dozent>, <veranstaltung><thema>theoretische
-          Astronomie</thema></veranstaltung>; <veranstaltung>ingl.
-          <thema>Anfangsgründe der Statik u.
+          Astronomie</thema></veranstaltung>; <veranstaltung>ingl. <thema>die
+          Anfangsgründe der Statik u.
           Mechanik</thema></veranstaltung>.</veranstaltungsgruppe>
         </sachgruppe>
       </sachgruppe>
@@ -548,11 +554,10 @@
             <grad>Dr.</grad> <vorname>J. G. C.</vorname>, <funktion>P. E.
             des.</funktion></dozent>, <thema>über die wichtigsten Pflanzen,
             besonders über Giftpflanzen und über die in den Lustgängen um
-            Leipzig wachsenden Pflanzen, die er durch die trruesten
-            Abbildungen und durch sein Herbarium vivum erläutern wird, für
-            künftige Erzieher der Jugend</thema>. -</veranstaltung>
-
-            <!--"trruesten" vielleicht treuesten?-->
+            Leipzig wachsenden Pflanzen, die er durch die tr<korrektur
+            original="r">e</korrektur>uesten Abbildungen und durch sein
+            Herbarium vivum erläutern wird, für künftige Erzieher der
+            Jugend</thema>. -</veranstaltung>
 
             <veranstaltungsgruppe><dozent><nachname>Reichenbach</nachname>,
             <grad>Dr.</grad> <vorname>H. G. L.</vorname>, <funktion>Med. P. E.
@@ -562,7 +567,7 @@
             -</veranstaltungsgruppe>
 
             <veranstaltung><ders>Derselbe</ders>, <thema>über die Gewächse der
-            Flora Sachsens mit Exkurs. in die Gegend um Leipzig</thema>,
+            Flora Sachsens mit Excurs. in die Gegend um Leipzig</thema>,
             <gebühr>unentgeldlich</gebühr>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -718,11 +723,13 @@
           <veranstaltung><dozent><nachname>Weiske</nachname>, <vorname>B.
           G.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>allgemeine
           Geschichte</thema>, <modus>öffentlich</modus> und
-          <gebühr>unentgeldlich</gebühr>. -</veranstaltung>
+          <gebühr>unentgeld.</gebühr> -</veranstaltung>
 
           <veranstaltungsgruppe><dozent><nachname>Schuffenhauer</nachname>,
           <grad>M.</grad> <vorname>J. C. A.</vorname></dozent>,
-          <veranstaltung> </veranstaltung> <veranstaltung>ingl.
+          <veranstaltung><thema><scil
+          text="Allgemeine Welt- und Völkergeschichte">
+          </scil></thema></veranstaltung> <veranstaltung>ingl.
           <thema>Geschichte der mittlern
           Zeiten</thema>.</veranstaltung></veranstaltungsgruppe>
 
@@ -806,8 +813,8 @@ wobei die erste den Sachguppentitel als Thema hat.-->
 
         <veranstaltung><dozent><nachname>Winer</nachname>, <vorname>G.
         B.</vorname>, <funktion>P. E. des.</funktion></dozent>, <thema>über
-        das akademische Studium der Theologie, in den ersten 3 Wochen</thema>,
-        <modus>öffentlich</modus>.</veranstaltung>
+        das akademische Studium der Theologie</thema>, <zeit>in den ersten 3
+        Wochen</zeit>, <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -940,6 +947,10 @@ wobei die erste den Sachguppentitel als Thema hat.-->
               Christusreligion und die Geschichte <seite>904</seite> ihrer
               Entstellung vortragen und die Beweisstellen erklären</thema>.
               -</veranstaltung>
+
+              <veranstaltung><dozent><nachname>Winer</nachname>, <vorname>G.
+              B.</vorname>, <funktion>P. E.
+              des.</funktion></dozent></veranstaltung>
             </sachgruppe>
 
             <sachgruppe>
@@ -1013,7 +1024,7 @@ wobei die erste den Sachguppentitel als Thema hat.-->
 
             <veranstaltung><dozent><nachname>Illgen</nachname>, <vorname>C.
             F.</vorname>, <funktion>P. Phil. E. des.</funktion></dozent>,
-            <thema>von der Reformationen bis auf unsere Zeit, nach Münsche's
+            <thema>von der Reformationen bis auf unsere Zeit, nach Münscher's
             Entwurf (Lehrb. d. christl. Dogmengesch.)</thema>
             <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
@@ -1279,8 +1290,8 @@ wobei die erste den Sachguppentitel als Thema hat.-->
             <veranstaltung><dozent><nachname>Haubold</nachname>,
             <grad>Dr.</grad> <vorname>C. G.</vorname>, <funktion>P.
             O.</funktion></dozent>, <thema>nach s. in der Hahn'-Verlagshandl.
-            herausgekommenden Lehrbuche des Königl. Sächs.
-            Privatrechts</thema>, <modus>öffentlich</modus>.</veranstaltung>
+            herauskommenden Lehrbuche des Königl. Sächs. Privatrechts</thema>,
+            <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
@@ -1498,7 +1509,7 @@ wobei die erste den Sachguppentitel als Thema hat.-->
 
               <veranstaltung><dozent><nachname>Reichel</nachname>,
               <grad>M.</grad> <vorname>V. F.</vorname>, <funktion>J. U.
-              B.</funktion></dozent>, <modus>Privatissime</modus>.
+              B.</funktion></dozent>, <modus>privatissime</modus>.
               -</veranstaltung>
 
               <veranstaltung><dozent><nachname>Funke</nachname>, <vorname>G.
@@ -1595,8 +1606,11 @@ wobei die erste den Sachguppentitel als Thema hat.-->
                   O.</funktion></dozent> -</veranstaltung>
 
                   <veranstaltung><dozent><nachname>Wenck</nachname>,
-                  <grad>Dr.</grad> <vorname>C. F. C.</vorname>, <funktion>P.
+                  <grad>Dr.</grad> <vorname><korrektur
+                  original="C">K</korrektur>. F. C.</vorname>, <funktion>P.
                   E.</funktion></dozent> -</veranstaltung>
+
+                  <!--ist es Wenck KFC oder gibt es auch einen CFC-Wenck?-->
 
                   <veranstaltung><dozent><nachname>Beck</nachname>,
                   <grad>Dr.</grad> <vorname>J. L. W.</vorname>, <funktion>P.
@@ -1618,6 +1632,11 @@ wobei die erste den Sachguppentitel als Thema hat.-->
                   <grad>Dr.</grad> <vorname>J. L. W.</vorname>, <funktion>P.
                   E. des.</funktion></dozent></veranstaltung>
                 </sachgruppe>
+
+                <!--Eigentlich müsste die Hierarchie von ***) und ****) 
+auf derselben Hierarchiestufe wie *) und **) stehen, 
+im VV stehen sie aber unter cc), daher habe ich sie 
+erstmal so abgeschrieben...-->
               </sachgruppe>
             </sachgruppe>
           </sachgruppe>
@@ -1682,7 +1701,7 @@ wobei die erste den Sachguppentitel als Thema hat.-->
 
               <veranstaltung><dozent><nachname>Cerutti</nachname>,
               <grad>Dr.</grad> <vorname>L.</vorname></dozent>, <thema>mit
-              Demonstrationen an den Präparaten des antom.
+              Demonstrationen an den Präparaten des anatom.
               Theaters</thema>.</veranstaltung>
             </sachgruppe>
           </sachgruppe>
@@ -1805,7 +1824,7 @@ wobei die erste den Sachguppentitel als Thema hat.-->
               die Krankheiten der Schwangern, Kindbetterinnen und
               Neugebornen</thema>. -</veranstaltung>
 
-              <veranstaltung><dozent><nachname>Ritterisch</nachname>,
+              <veranstaltung><dozent><nachname>Ritterich</nachname>,
               <grad>Dr.</grad> <vorname>F. Ph.</vorname></dozent>,
               <thema>Nosologie (und Therapie) des menschlichen Auges</thema>.
               -</veranstaltung>
@@ -1950,7 +1969,7 @@ wobei die erste den Sachguppentitel als Thema hat.-->
 
             <veranstaltung><dozent><nachname>Robbi</nachname>,
             <grad>Dr.</grad> <vorname>H.</vorname></dozent>, <thema>Chirurgie
-            nach Legonas</thema>.</veranstaltung>
+            nach Legouas</thema>.</veranstaltung>
 
             <sachgruppe>
               <titel>*) Allgemeine Chirurgie.</titel>
@@ -2067,38 +2086,49 @@ wobei die erste den Sachguppentitel als Thema hat.-->
         <sachgruppe>
           <titel>1) Gerichtliche Arzneywissenschaft.</titel>
 
-          <veranstaltung>Ludwig, Dr. C. F., P. O.</veranstaltung>
+          <veranstaltung><dozent><nachname>Ludwig</nachname>, <grad>Dr.</grad>
+          <vorname>C. F.</vorname>, <funktion>P.
+          O.</funktion></dozent></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
           <titel>2) Medicinische Polizeywissenschaft.</titel>
 
-          <veranstaltung>Voigt, Dr. G. C. G., nach
-          Hebenstreit.</veranstaltung>
+          <veranstaltung><dozent><nachname>Voigt</nachname>, <grad>Dr.</grad>
+          <vorname>G. C. G.</vorname></dozent>, <thema>nach
+          Hebenstreit</thema>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
           <titel>3) Medicinische Geographie.</titel>
 
-          <veranstaltung>Cerutti, Dr. L. medic. Geogr. des Königr. Sachsen,
-          unentgeldlich</veranstaltung>
+          <veranstaltung><dozent><nachname>Cerutti</nachname>,
+          <grad>Dr.</grad> <vorname>L.</vorname></dozent>, <thema>medic.
+          Geogr. des Königr. Sachsen</thema>,
+          <gebühr>unentgeldlich</gebühr></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
       <sachgruppe>
         <titel>III) Verschiedene Uebungen.</titel>
 
-        <veranstaltung>Eschenbach, Dr. C. G., P. O., Uebungen im Schreiben und
-        Disputiren über physisch-chemische und medicinische Gegenstände.
+        <veranstaltung><dozent><nachname>Eschenbach</nachname>,
+        <grad>Dr.</grad> <vorname>C. G.</vorname>, <funktion>P.
+        O.</funktion></dozent>, <thema>Uebungen im Schreiben und Disputiren
+        über physisch-chemische und medicinische Gegenstände</thema>.
         -</veranstaltung>
 
-        <veranstaltung>Haase, Dr. W. A., P. E., Examinat. über
-        Arzneymittellehre, specielle Nosologie und Therapie. -</veranstaltung>
+        <veranstaltung><dozent><nachname>Haase</nachname>, <grad>Dr.</grad>
+        <vorname>W. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+        <thema>Examinat. über Arzneymittellehre, specielle Nosologie und
+        Therapie</thema>. -</veranstaltung>
 
-        <veranstaltung>Puchelt, Dr. F. A. B., P. E., Disputirübungen.
-        -</veranstaltung>
+        <veranstaltung><dozent><nachname>Puchelt</nachname>, <grad>Dr.</grad>
+        <vorname>F. A. B.</vorname>, <funktion>P. E.</funktion></dozent>,
+        <thema>Disputirübungen</thema>. -</veranstaltung>
 
-        <veranstaltung>Robbi, Dr. H.</veranstaltung>
+        <veranstaltung><dozent><nachname>Robbi</nachname>, <grad>Dr.</grad>
+        <vorname>H.</vorname></dozent></veranstaltung>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
@@ -2106,5 +2136,39 @@ wobei die erste den Sachguppentitel als Thema hat.-->
   <absatz>Uebrigens wird der Stallmeister Richter, der Fechtmeister Köhler,
   ingleichen der Tanzmeister Klemm<korrektur original=".">,</korrektur> und
   der Universitäts-Zeichenmeister, wie auch Zeichner für anatomische und
-  pathologische Gegenstände, Joh. Friedr. Schröter, auf Verlangen</absatz>
+  pathologische Gegenstände, Joh. Friedr. Schröter, auf Verlangen gehörigen
+  Unterricht ertheilen. Auch können sich die Studirenden des Unterrichts der
+  bey hiesiger Zeichnungs- Maler- und Architektur-Akademie angestellten Lehrer
+  bedienen.</absatz>
+
+  <absatz>Zur höheren Ausbildung in der Tonkunst gibt die mit der Universität
+  vereinigte und unter der Leitung des Herrn Universitäts-Musikdirectors und
+  Musiklehrers Schulz bestehende Singakademie Gelegenheit.</absatz>
+
+  <absatz>Wöchentlich zweymal, Mittwochs und Sonnabends, werden die
+  öffentlichen Bibliotheken von 10 bis 12 Uhr, und die Rathsbibliothek von 2
+  bis 4 Uhr, erstere auch in der Messe alle Tage, geöffnet.</absatz>
+
+  <trennlinie/>
+
+  <absatz>Ankündigungen.</absatz>
+
+  <trennlinie/>
+
+  <absatz>In der Maurer'schen Buchhandlung in Berlin sind so eben erschienen
+  und in allen Buchh. zu haben:</absatz>
+
+  <absatz>Gebauer, Ch. E., Einige Worte über das, dem Entwurf zur neuen
+  Kirchenordnung anghängtte Caüitel von der Kirchenzucht. 8. geb. 4
+  gr.</absatz>
+
+  <absatz>Schmidt, Dr. Fr. W. V., über die Kirchentrennung von England,
+  Schauspiel des Don Pedro Calderon de la Barca u.s.w. geb. 8 gr.</absatz>
+
+  <absatz>Zarnack, A. (Erziehungs-Director des Königl. Potsdam'schen grossen
+  Militär-Waisenhauses), Dass zweckmässig eingerichtete Waisenhäuser die
+  vollkommensten und nützlichsten Anstalten für den Staat werden können. 8.
+  geb. 8 gr.</absatz>
+
+  <trennlinie/>
 </vv>
