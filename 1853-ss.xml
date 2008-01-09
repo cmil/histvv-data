@@ -527,8 +527,8 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
       <sachgruppe>
         <titel>Staatswissenschaftliche Uebungen.</titel>
 
-        <veranstaltungsverweis><siehe>S. historische und kameralistische
-        Uebungen</siehe>.</veranstaltungsverweis>
+        <absatz><siehe>S. historische und kameralistische
+        Uebungen</siehe>.</absatz>
       </sachgruppe>
     </sachgruppe>
 
@@ -646,10 +646,12 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Hantel</nachname>,
           <funktion>P. O.</funktion></dozent>, in Verbindung mit den Proff.
-          DD. E. H. und E. F. Weber und Lehmann, <zeit>in zu best. St. u.
-          T.</zeit></veranstaltung>
+          DD. E. H. und E. F. <dozent><nachname>Weber</nachname></dozent> und
+          <dozent><nachname>Lehmann</nachname></dozent>, <zeit>in zu best. St.
+          u. T.</zeit></veranstaltung>
 
-          <!--Problem die beiden Dozenten getrennt auszuzeichnen-->
+          <!--Problem die beiden Dozenten getrennt auszuzeichnen (Plural: Proff. / DD.) 
+Achtung: Vorname E.H. zu Weber! E.F. zu Lehmann!-->
 
           <veranstaltungsverweis><thema>Pädagogisches Seminar für künftige
           Lehrer der Naturwissenschaften</thema>: <dozent><grad>D. ph.</grad>
@@ -1167,8 +1169,6 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           ertheilt der <dozent><funktion>Universitäts-Organist</funktion>
           <nachname>Langer</nachname></dozent> <zeit>in zu best. St.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
-
-          <!--Organist als Dozent?-->
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
@@ -1176,9 +1176,7 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
     <sachgruppe>
       <titel>B. Rechtswissenschaft.</titel>
 
-      <sachgruppe>
-        <titel>Naturrecht <siehe>s. Philosophie</siehe>.</titel>
-      </sachgruppe>
+      <absatz>Naturrecht <siehe>s. Philosophie</siehe>.</absatz>
 
       <sachgruppe>
         <titel>Allgemeine juristische Uebungen.</titel>
@@ -1216,9 +1214,6 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           T. in zu best. St.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <!--Wenn Veranstaltungsgruppe, dann nicht möglich, 
-da Dozent mitten in der ersten Veranstaltung steht-->
-
           <veranstaltung><thema>Aeußere römische Rechtsgeschichte</thema>:
           <ders>Derselbe</ders>, <zeit>9 U. 2 T. (Dienst. u. Freit.)</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1245,11 +1240,13 @@ da Dozent mitten in der ersten Veranstaltung steht-->
           O., d. Z. Dech.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltungsverweis><thema>Römischer Civilproceß u. Klagsystem
-          der Römer</thema>: <dozent><grad>D.</grad>
-          <nachname>Müller</nachname>, <funktion>P. E.</funktion></dozent>, u.
-          <dozent><grad>D.</grad> <nachname>Voigt</nachname></dozent>,
-          <siehe>s. Proceßrecht</siehe>.</veranstaltungsverweis>
+          <veranstaltungsgruppe><thema>Römischer Civilproceß u. Klagsystem der
+          Römer</thema>: <veranstaltungsverweis><dozent><grad>D.</grad>
+          <nachname>Müller</nachname>, <funktion>P.
+          E.</funktion></dozent></veranstaltungsverweis>, u.
+          <veranstaltungsverweis><dozent><grad>D.</grad>
+          <nachname>Voigt</nachname></dozent></veranstaltungsverweis>,
+          <siehe>s. Proceßrecht</siehe>.</veranstaltungsgruppe>
 
           <veranstaltungsverweis><thema>Interpretation der <antiqua>Oratio pro
           Ballho</antiqua></thema>: <dozent><grad>D.</grad>
