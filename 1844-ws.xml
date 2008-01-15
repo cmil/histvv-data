@@ -1259,14 +1259,19 @@
           <zeit>sechszehnst., 10-12 U. 6 T. u. 3 U. 4 T.</zeit>, <modus>theils
           privatim theils öffentlich</modus>.</veranstaltung>
 
+          <!--Dies sind 2 Veranstaltungen, die deren Zeit-/Modus-Angaben
+aber verschachtelt sind, sodass sie im Moment nicht getaggt
+werden können.-->
+
           <trennlinie/>
 
-          <veranstaltung><thema>Die Lehre von den Forderungsrechten oder
-          Schuldverhältnissen (Obligationenrecht)</thema>:
+          <veranstaltungsgruppe><thema>Die Lehre von den Forderungsrechten
+          oder Schuldverhältnissen (Obligationenrecht)</thema>:
           <dozent><grad>D.</grad> <nachname>Schilling</nachname>, <funktion>P.
-          O.</funktion></dozent>, <modus>theils öffentlich</modus> <zeit>8 U.
-          4 T.</zeit>, <modus>theils privatim</modus> <zeit>8 U. 2
-          T.</zeit></veranstaltung>
+          O.</funktion></dozent>, <veranstaltung>theils
+          <modus>öffentlich</modus> <zeit>8 U. 4 T.</zeit></veranstaltung>,
+          <veranstaltung>theils <modus>privatim</modus> <zeit>8 U. 2
+          T.</zeit></veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung><thema>Erklärung der Justinianeischen Institutionen,
           nach der kleinern Ausgabe von <gesperrt>Schrader</gesperrt> (Berl.,
@@ -1341,7 +1346,7 @@
         <veranstaltung><thema>Das gemeine und sächsische Criminalrecht nach s.
         Lehrb.</thema>: <dozent><grad>D.</grad> <nachname>Marezoll</nachname>,
         <funktion>P. O., d. Z. Dechant</funktion></dozent>, <zeit>8 U. 6
-        T</zeit>.</veranstaltung>
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Gemeines und sächsisches Criminalrecht unter
         Zuziehung von Marezoll's Lehrbuch</thema>: <dozent><grad>D.</grad>
@@ -1377,15 +1382,15 @@
         <nachname>Günther</nachname>, <funktion>P. Prim., Fac. Iurid.
         Ordin.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema><scil
-        text="den Criminalproceß">Denselben</scil>, nach s. Sätzen</thema>:
-        <dozent><grad>D.</grad> <nachname>Berger</nachname></dozent>, <zeit>3
-        T. in zu best. St.</zeit></veranstaltung>
+        <veranstaltung><thema><scil text="Criminalproceß">Denselben</scil>,
+        nach s. Sätzen</thema>: <dozent><grad>D.</grad>
+        <nachname>Berger</nachname></dozent>, <zeit>3 T. in zu best.
+        St.</zeit></veranstaltung>
 
-        <veranstaltung><thema><scil
-        text="den Criminalproceß">Denselben</scil>, nach s. Sätzen</thema>:
-        <dozent><grad>D.</grad> <nachname>Höpfner</nachname></dozent>, <zeit>3
-        T. in zu best. St.</zeit></veranstaltung>
+        <veranstaltung><thema><scil text="Criminalproceß">Denselben</scil>,
+        nach s. Sätzen</thema>: <dozent><grad>D.</grad>
+        <nachname>Höpfner</nachname></dozent>, <zeit>3 T. in zu best.
+        St.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1401,8 +1406,8 @@
 
         <veranstaltung><thema>Kirchenrecht</thema>: <dozent><grad>D.</grad>
         <nachname>Albrecht</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>11 U. 6 T.</zeit>; <thema>als Anhang desselben</thema>
-        <modus>öffentlich</modus> <thema>das Eherecht, soweit es im
+        <zeit>11 U. 6 T.</zeit>; <thema>als Anhang desselben
+        <gesperrt>öffentlich</gesperrt> das Eherecht, soweit es im
         Kirchenrechte dargestellt zu werden pflegt</thema>.</veranstaltung>
 
         <veranstaltung><thema>Das gemeine in Deutschland geltende
@@ -1478,7 +1483,7 @@
         <veranstaltung><thema>Repetitorien über einzelne juristische
         Disciplinen</thema>: <dozent><grad>D.</grad>
         <nachname>Vogel</nachname></dozent>, <zeit>in den best. St.</zeit>
-        <modus>privatisssime</modus>.</veranstaltung>
+        <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Examinatorium über einzelne Theile des Römischen
         Rechts</thema>: <dozent><grad>D.</grad>
