@@ -20,7 +20,7 @@
 
     <quelle/>
 
-    <status>
+    <status komplett="ja">
       <transkribent>Beatrice</transkribent>
     </status>
   </kopf>
@@ -64,8 +64,9 @@
         <trennlinie/>
 
         <veranstaltungsverweis><thema>Geschichte der wichtigsten ethischen
-        Systeme</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Harstein</nachname>, <funktion>P. O.</funktion></dozent>,
+        Systeme</thema>: <dozent><grad>D. ph.</grad> <nachname><korrektur
+        original="Harstein">Hartenstein</korrektur></nachname>, <funktion>P.
+        O.</funktion></dozent><!--Ich vermute, dass <Harstein> <Hartenstein> ist!-->,
         <siehe>s. System. Phil.</siehe></veranstaltungsverweis>
       </sachgruppe>
 
@@ -258,7 +259,7 @@
           <modus>öffentlich</modus></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung><thema>Uebungen der Lausitzer Predigergesellschaft
-          durch Disputiren über lateinishce Ausarbeitungen und durch Erklärung
+          durch Disputiren über lateinische Ausarbeitungen und durch Erklärung
           der Antigone des Sophokles</thema>: <dozent><grad>D. ph.</grad>
           <nachname>Klotz</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Dienst. 4 U.</zeit></veranstaltung>
@@ -632,11 +633,11 @@
         <sachgruppe>
           <titel>Physikalische und chemische Uebungen.</titel>
 
-          <veranstaltung><thema>Chemisch-praktische Uebungen im Laboratorium
-          des Schlosses Pleißenburg</thema>: <dozent><grad>D.</grad>
-          <nachname>Kühn</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>9-5 U. an 2 oder mehreren Tagen</zeit>,
-          <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung><thema>Chemisch-praktische Uebungen <ort>im
+          Laboratorium des Schlosses Pleißenburg</ort></thema>:
+          <dozent><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>9-5 U. an 2 oder mehreren
+          Tagen</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Chemisches Praktikum</thema>:
           <dozent><grad>D.</grad> <nachname>Erdmann</nachname>, <funktion>P.
@@ -1008,7 +1009,7 @@
 
           <veranstaltungsverweis><thema>Exeget.-dogmat. Uebungen</thema>:
           <dozent><grad>D.</grad> <nachname>Winer</nachname>, <funktion>P.
-          O.</funktion></dozent>, <siehe>s. exeget.
+          O.</funktion></dozent>, <siehe>s. exeg.
           Ueb.</siehe></veranstaltungsverweis>
 
           <veranstaltung><thema>Dogmatisches Examinatorium</thema>:
@@ -1062,7 +1063,7 @@
           St.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><zeit>Homiletische Uebungen der Lausitzer</zeit>:
+          <veranstaltung><thema>Homiletische Uebungen der Lausitzer</thema>:
           <ders>Derselbe</ders>, <zeit>Mittw. 2-4 U.</zeit>
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1214,9 +1215,9 @@
           <titel>3. Sächsisches Recht.</titel>
 
           <veranstaltung><thema>K. Sächsisches Privatrecht, mit Ausschluß des
-          Erbrechts</thema><korrektur>:</korrektur> <dozent><grad>D.</grad>
-          <nachname>Steinacker</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>9 U. 6 T.</zeit><seite>14</seite></veranstaltung>
+          Erbrechts</thema><korrektur original=",">:</korrektur>
+          <dozent><grad>D.</grad> <nachname>Steinacker</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>9 U. 6 T.</zeit><seite>14</seite></veranstaltung>
 
           <veranstaltung><thema>K. Sächsisches Erbrecht</thema>:
           <ders>Derselbe</ders>, <zeit>10 U. 2 T. (Mittw. u. Sonn.)</zeit>
@@ -1246,7 +1247,7 @@
         <nachname>Günther</nachname>, <funktion>P. Prim., Fac. Iur. Ord., d.
         Z. Dech.</funktion></dozent>, <zeit>11 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Sächischer Civil-Proceß</thema>:
+        <veranstaltung><thema>Sächsischer Civil-Proceß</thema>:
         <dozent><grad>D.</grad> <nachname>Osterloh</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>11-1 U. 4 T.</zeit></veranstaltung>
 
@@ -1301,11 +1302,10 @@
         <zeit>11 U. 3 T. (Mont., Dienst. u. Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Uebungen im mündlichen Referiren</thema>:
-        <ders>Derselbe</ders>, <zeit>Donn. 11 U.</zeit> (<thema>für die
-        Theilnehmer an vorst. Relatorium</thema>
-        <gebühr>unentgeltl.</gebühr>)</veranstaltung>
+        <ders>Derselbe</ders>, <zeit>Donn. 11 U.</zeit> (<gebühr>für die
+        Theilnehmer an vorst. Relatorium unentgeltl.</gebühr>)</veranstaltung>
 
-        <!--Ich wusste nicht, wie ich den Ausdruck in der Klammer taggen soll. -->
+        <!--<vorst. Relatorium> konnte nicht als <siehe>-Tagg erfasst werden.-->
       </sachgruppe>
     </sachgruppe>
 
@@ -1474,8 +1474,6 @@
       <sachgruppe>
         <titel>V. Specielle Pathologie und Therapie.</titel>
 
-        <veranstaltungsgruppe/>
-
         <veranstaltungsgruppe><thema>Specielle Pathologie und
         Therapie</thema>: <dozent><grad>D.</grad>
         <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
@@ -1499,7 +1497,7 @@
         O.</funktion></dozent>, <zeit>11 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber Kinderkrankheiten</thema>:
-        <dozent><grad>D.</grad> <nachname>Henning</nachname></dozent>, <zeit>2
+        <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <zeit>2
         T. in zu best. St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Theoretische Augenheilkunde</thema>:
@@ -1594,9 +1592,9 @@
         <veranstaltungsgruppe><thema>Einüben der geburtshilflichen Operationen
         am Phantome</thema>: <dozent><grad>D.</grad>
         <nachname>Jörg</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>2 U. 4 T.</zeit>, theils
-        <veranstaltung><modus>öffentlich</modus></veranstaltung>, theils
-        <veranstaltung><modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
+        <zeit>2 U. 4 T.</zeit>, <veranstaltung>theils
+        <modus>öffentlich</modus></veranstaltung>, <veranstaltung>theils
+        <modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Geburtshilfliche Operationensübungen am
         Phantom</thema>: <dozent><grad>D.</grad>
@@ -1653,19 +1651,63 @@
         <dozent><grad>D.</grad> <nachname>Ruete</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>12 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung>Klinische Uebungen in der Behandlung der Augen- und
-        Ohrenkrankheiten in s. Poliklinik: D. Winter, Dienst., Donn. und Sonn.
-        in zu best. St.</veranstaltung>
+        <veranstaltung><thema>Klinische Uebungen in der Behandlung der Augen-
+        und Ohrenkrankheiten <ort>in s. Poliklinik</ort></thema>:
+        <dozent><grad>D.</grad> <nachname>Winter</nachname></dozent>,
+        <zeit>Dienst., Donn. und Sonn. in zu best. St.</zeit></veranstaltung>
 
-        <veranstaltung>Aerztlich-praktische Uebungen: D. Clarus, P. E., 5 U.
-        Mont.</veranstaltung>
+        <veranstaltung><thema>Aerztlich-praktische Uebungen</thema>:
+        <dozent><grad>D.</grad> <nachname>Clarus</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>5 U. Mont.</zeit></veranstaltung>
       </sachgruppe>
 
       <seite>18</seite>
 
       <sachgruppe>
         <titel>IX. Gerichtliche Arzneiwissenschaft.</titel>
+
+        <veranstaltung><thema>Gerichtliche Medicin für Juristen</thema>:
+        <dozent><grad>D.</grad> <nachname>Wendler</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema><scil
+        text="Gerichtliche Medicin">Dieselbe</scil> für Aerzte</thema>:
+        <ders>Derselbe</ders>, <zeit>4 U. 4 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Gerichtliche Medicin</thema>:
+        <dozent><grad>D.</grad> <nachname>Sonnenkalb</nachname>, <funktion>P.
+        E. des.</funktion></dozent>, <zeit>3 U. 4 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Ueber Vergiftungen</thema>:
+        <ders>Derselbe</ders>, <zeit>4 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltungsverweis><thema>Toxikologie mit gerichtlich chemischen
+        Experimenten</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Hirzel</nachname></dozent>, <siehe>s.
+        Arzneimittellehre</siehe>.</veranstaltungsverweis>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
+
+  <trennlinie/>
+
+  <absatz>Uebrigens wird der Stallmeister <gesperrt>A. Röhling</gesperrt>, der
+  Fechtmeister <gesperrt>G. Berndt</gesperrt>, und der Tanzmeister
+  <gesperrt>J. F. W. John</gesperrt>, auf Verlangen, gehörigen Unterricht
+  ertheilen. Auch können sich die Studirenden des Unterrichts der bei hiesiger
+  Zeichnungs-, Maler- und Architektur-Akademie angestellten Lehrer bedienen.
+  Die <gesperrt>Universitätsbibliothek</gesperrt> wird täglich 2 Stunden
+  geöffnet, nämlich Mittw. und Sonnab. von 10 bis 12 Uhr und an den übrigen
+  Tagen von 2 bis 4 Uhr; die <gesperrt>Stadtbibliothek</gesperrt> und die mit
+  derselben verbundene <gesperrt>Pölitz'sche</gesperrt> Bibliothek aber Mont.,
+  Mittw. und Sonnab. von 2 bis 4 Uhr. Das <gesperrt>zoologische</gesperrt>
+  Museum ist Mittw. u. Sonn. von 10 bis 12 Uhr, das
+  <gesperrt>Brückner-Lampe</gesperrt>'sche pharmakognostische Museum Donn. von
+  2 bis 4 Uhr, das <gesperrt>archäologische</gesperrt> Museum Sonntags von 11
+  bis 1 Uhr geöffnet.</absatz>
+
+  <trennlinie/>
 </vv>
