@@ -22,6 +22,12 @@
 
     <status komplett="ja">
       <transkribent>anne</transkribent>
+
+      <korrigiert>
+        <durch>frank</durch>
+
+        <am>17.01.2008</am>
+      </korrigiert>
     </status>
   </kopf>
 
@@ -1518,9 +1524,8 @@ werden können.-->
 
         <veranstaltung><thema>Anleitung zum Studium der Medicin</thema>:
         <dozent><grad>D.</grad> <nachname>Jörg</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>11 U. in den ersten 6 bis 8 T.</zeit>
-        <thema><notiz betreff="fortsetzung">d. halbjähr.
-        Cursus</notiz></thema> <gebühr>unentg.</gebühr></veranstaltung>
+        O.</funktion></dozent>, <zeit>11 U. in den ersten 6 bis 8 T. d.
+        halbjähr. Cursus</zeit> <gebühr>unentg.</gebühr></veranstaltung>
 
         <veranstaltung><thema>Encyklopädie und Methodologie der
         Medicin</thema>: <dozent><grad>D.</grad>
@@ -1603,7 +1608,7 @@ werden können.-->
         <nachname>Bock</nachname></dozent>, <zeit>in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Anthropophonetik, oder Theorie der menschlichen
+        <veranstaltung><thema>Anthropophonik, oder Theorie der menschlichen
         Stimme u. des Gesanges</thema>: <dozent><grad>D.</grad>
         <nachname>Merkel</nachname></dozent>, <zeit>11 U. 2
         T.</zeit></veranstaltung>
@@ -1622,8 +1627,7 @@ werden können.-->
 
         <veranstaltung><thema>Allgemeine Pathologie</thema>:
         <dozent><grad>D.</grad> <nachname>Radius</nachname>, <funktion>P.
-        O.</funktion></dozent><korrektur>,</korrektur> <zeit>11 U. 4
-        T.</zeit></veranstaltung>
+        O.</funktion></dozent> <zeit>11 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Allgemeine Pathologie in Verbindung mit
         Semiotik</thema>: <dozent><grad>D.</grad> <nachname>Hasper</nachname>,
@@ -1674,13 +1678,14 @@ werden können.-->
       <sachgruppe>
         <titel>VII. Specielle Pathologie und Therapie.</titel>
 
-        <veranstaltung><thema><notiz betreff="fortsetzung">Zweiter Theil des
-        in einem Jahre zu vollendenden Cursus</notiz> der speciellen
+        <veranstaltungsgruppe><thema><notiz betreff="fortsetzung">Zweiter
+        Theil des in einem Jahre zu vollendenden Cursus</notiz> der speciellen
         Pathologie und Therapie (die chronischen Krankheiten)</thema>:
         <dozent><grad>D.</grad> <nachname>Cerutti</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
-        <modus>öffentlich</modus> u. <zeit>3 U. 4 T.</zeit>
-        <modus>privatim</modus>.</veranstaltung>
+        O.</funktion></dozent>, <veranstaltung><zeit>3 U. 2 T.</zeit>
+        <modus>öffentlich</modus></veranstaltung> u. <veranstaltung><zeit>3 U.
+        4 T.</zeit>
+        <modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
 
         <seite>17</seite>
 
@@ -1773,22 +1778,24 @@ werden können.-->
       <sachgruppe>
         <titel>X. Geburtshilfe.</titel>
 
-        <veranstaltung><thema>Geburtshilfe</thema>: <dozent><grad>D.</grad>
-        <nachname>Jörg</nachname>, <funktion>P. O.</funktion></dozent>,
-        <thema>nach s. Handbuche</thema>, <zeit>9 U. 4 T.</zeit>
-        <modus>öffentlich</modus> und <zeit>2 T.</zeit>
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltungsgruppe><thema>Geburtshilfe</thema>:
+        <dozent><grad>D.</grad> <nachname>Jörg</nachname>, <funktion>P.
+        O.</funktion></dozent>, <thema>nach s. Handbuche</thema>,
+        <veranstaltung><zeit>9 U. 4 T.</zeit>
+        <modus>öffentlich</modus></veranstaltung> und <veranstaltung><zeit>2
+        T.</zeit>
+        <modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Einübungen der geburtshilfl.
-        Operationen</thema>: <ders>Ders.</ders>, <zeit>2 U. 2 T.
-        </zeit></veranstaltung>
+        Operationen</thema>: <ders>Ders.</ders>, <zeit>2 U. 2
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
         <titel>XI. Klinik.</titel>
 
         <veranstaltung><thema>Klinik im königl. klin. Institute <ort>im
-        Jakobshofspitale</ort></thema>: <dozent><grad>D.</grad>
+        Jakobshospitale</ort></thema>: <dozent><grad>D.</grad>
         <nachname>Clarus</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>9 U. 6 T.</zeit></veranstaltung>
 
@@ -1879,16 +1886,16 @@ werden können.-->
   Zeichnungs-, Maler- und Architektur-Akademie angestellten Lehrer
   bedienen.</absatz>
 
-  <absatz>Die <gesperrt>Universitäsbibliothek</gesperrt> wird täglich 2
+  <absatz>Die <gesperrt>Universitätsbibliothek</gesperrt> wird täglich 2
   Stunden geöffnet, nämlich Mittw. und Sonnab. von 10 bis 12 Uhr und an den
   übrigen Tagen von 2 bis 4 Uhr, die <gesperrt>Rathsbibliothek</gesperrt> aber
   Mont., Mittw. und Sonnab. von 2 bis 4 Uhr.</absatz>
 
   <absatz>Zu der <gesperrt>naturhistorischen Sammlung</gesperrt> der
   Universität findet Mittw. u. Sonnab. von 10 bis 12 Uhr freier Zutritt
-  <sic>Statt</sic>.</absatz>
+  Statt.</absatz>
 
-  <absatz>Das <gesperrt>Brückner-Lampe'sche</gesperrt> pharmakognostische
+  <absatz>Das <gesperrt>Brückner-Lampe</gesperrt>'sche pharmakognostische
   Museum ist Donnerst. von 1 bis 3 Uhr geöffnet.</absatz>
 
   <absatz>Die Bittschriften um die vom <gesperrt>akademischen
