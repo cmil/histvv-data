@@ -56,28 +56,32 @@
         <titel>1. Encyklopädie und Geschichte der Philosophie.</titel>
 
         <veranstaltung><thema>Grundlehren und Encyklopädie der
-        Philosophie</thema>: <dozent><grad>D. ph</grad>.
+        Philosophie</thema>: <dozent ref="drobisch_mw"><grad>D. ph</grad>.
         <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Einleitung in die Philosophie, nebst Uebersicht
-        der hauptsächlichsten philosophischen Systeme</thema>:
-        <dozent><grad>D.</grad> <nachname>Weisse</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>5 U. 4 T.</zeit></veranstaltung>
+        der hauptsächlichsten philosophischen Systeme</thema>: <dozent
+        ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>5 U. 4
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
         <titel>2. Systematische Philosophie.</titel>
 
-        <veranstaltung><thema>Logik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>12 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Logik</thema>: <dozent
+        ref="drobisch_mw"><grad>D. ph.</grad> <nachname>Drobisch</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 2
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Logik</thema>: <dozent><grad>D.</grad>
-        <nachname>Weisse</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>6 U. Ab. 2 T. (Mont. u. Donnerst.)</zeit></veranstaltung>
+        <veranstaltung><thema>Logik</thema>: <dozent
+        ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>6 U. Ab. 2 T. (Mont. u.
+        Donnerst.)</zeit></veranstaltung>
 
-        <veranstaltung><thema>Psychologie</thema>: <dozent><grad>D. ph.</grad>
+        <veranstaltung><thema>Psychologie</thema>: <dozent
+        ref="hartenstein_g"><grad>D. ph.</grad>
         <nachname>Hartenstein</nachname>, <funktion>P. O., d. Z.
         Dech.</funktion></dozent>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
@@ -98,9 +102,9 @@
 
         <veranstaltung><thema>Ueber einige Hauptlehren der
         Religionsphilosophie, mit Bezug auf die kirchliche Dogmatik</thema>:
-        <dozent><grad>D.</grad> <nachname>Weisse</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>6 U. Ab. 2 T. (Dienst. u. Freit.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>6 U. Ab. 2 T. (Dienst. u.
+        Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <sachgruppe>
           <titel>Naturrecht.</titel>
@@ -146,7 +150,7 @@
           E.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Mathematisch-physikalische
-          Lehrübungen</thema>: <dozent><grad>D. ph.</grad>
+          Lehrübungen</thema>: <dozent ref="marbach_go"><grad>D. ph.</grad>
           <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>2-5 U. 1 T.</zeit> <modus>privatissime</modus> aber
           <gebühr>unentgeltl.</gebühr></veranstaltung>
@@ -408,7 +412,7 @@
         Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte des Zeitalters der
-        Reformation</thema>: <dozent><grad>D.</grad>
+        Reformation</thema>: <dozent ref="wachsmuth_ewg"><grad>D.</grad>
         <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>7 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -447,7 +451,7 @@
         <!--als veranstaltungsgruppe taggen?-->
 
         <veranstaltung><thema>Geschichte Deutschlands im sechszehnten
-        Jahrhunderte</thema>: <dozent><grad>D. ph.</grad>
+        Jahrhunderte</thema>: <dozent ref="wenck_wb"><grad>D. ph.</grad>
         <nachname>Wenck</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>in 4 zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -566,9 +570,9 @@
 
       <trennlinie/>
 
-      <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
+      <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>: <dozent
+      ref="jacobi_vfl"><grad>D. ph.</grad> <nachname>Jacobi</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Die Lehre von landwirthschaftlichen
@@ -581,14 +585,15 @@
       2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Forstwirthschaftslehre für Cameralisten,
-      naturwissenschaftlicher Theil, mit Excursionen</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
+      naturwissenschaftlicher Theil, mit Excursionen</thema>: <dozent
+      ref="jacobi_vfl"><grad>D. ph.</grad> <nachname>Jacobi</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Technologie</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>8 U. 6 T.</zeit></veranstaltung>
+      <veranstaltung><thema>Technologie</thema>: <dozent
+      ref="marbach_go"><grad>D. ph.</grad> <nachname>Marbach</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>8 U. 6
+      T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Allgemeine Technologie, verb. mit Excursionen in
       technische Etablissements</thema>: <dozent><grad>D. ph.</grad>
@@ -631,9 +636,9 @@
       <zeit>4 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Differentialrechnung (<notiz
-      betreff="fortsetzung">Beschluss</notiz>)</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Drobisch</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
+      betreff="fortsetzung">Beschluss</notiz>)</thema>: <dozent
+      ref="drobisch_mw"><grad>D. ph.</grad> <nachname>Drobisch</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Integralrechnung</thema>: <ders>Derselbe</ders>,
@@ -660,7 +665,7 @@
       <trennlinie/>
 
       <veranstaltungsverweis><thema>Mathematisch-physikalische
-      Lehrübungen</thema>: <dozent><grad>D. phil.</grad>
+      Lehrübungen</thema>: <dozent ref="marbach_go"><grad>D. phil.</grad>
       <nachname>Marbach</nachname>, <grad>P. E.</grad></dozent>, <siehe>s.
       Pädagogik</siehe>.</veranstaltungsverweis>
     </sachgruppe>
@@ -746,7 +751,7 @@
           <seite>10</seite>
 
           <veranstaltungsverweis><thema>Mathematisch-physikalische
-          Lehrübungen</thema>: <dozent><grad>D. ph.</grad>
+          Lehrübungen</thema>: <dozent ref="marbach_go"><grad>D. ph.</grad>
           <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
           <siehe>s. Pädagogik</siehe>.</veranstaltungsverweis>
 
@@ -888,9 +893,9 @@
         <trennlinie/>
 
         <veranstaltung><thema>Historisch-kritische Einleitung in das N.
-        T.</thema>: <dozent><grad>D.</grad> <nachname>Tischendorf</nachname>,
-        <funktion>P. O. Hon.</funktion></dozent>, <zeit>9 U. 4
-        T.</zeit></veranstaltung>
+        T.</thema>: <dozent ref="tischendorf_lfk"><grad>D.</grad>
+        <nachname>Tischendorf</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -963,7 +968,7 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen der exegetischen
-          Gesellschaft</thema>: <dozent><grad>D.</grad>
+          Gesellschaft</thema>: <dozent ref="tischendorf_lfk"><grad>D.</grad>
           <nachname>Tischendorf</nachname>, <funktion>P. O.
           Hon.</funktion></dozent>, <zeit>zu den best. St.</zeit>
           <modus>privatissime</modus>, aber
@@ -1047,8 +1052,8 @@
 
         <veranstaltungsverweis><thema>Ueber einige Hauptlehren der
         Religionsphilosophie mit Bezug auf die kirchliche Dogmatik</thema>:
-        <dozent><grad>D.</grad> <nachname>Weisse</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s.
+        <dozent ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>P. O.</funktion></dozent>, <siehe>s.
         Philosophie</siehe>.</veranstaltungsverweis>
 
         <trennlinie/>

@@ -43,8 +43,8 @@
   <sachgruppe xml:id="sg-001">
     <titel>Allgemeine Encyklopädie.</titel>
 
-    <veranstaltung
-    xml:id="v-001-001"><dozent><nachname>Schuffenhauer</nachname>,
+    <veranstaltung xml:id="v-001-001"><dozent
+    ref="schuffenhauer_jca"><nachname>Schuffenhauer</nachname>,
     <grad>M.</grad> <vorname>J. K. A.</vorname></dozent>, <thema
     kontext="sachgruppe"><schrift>nach seinem Lehrbuche</schrift></thema>,
     <zeit>10 U. 4 T.</zeit></veranstaltung>
@@ -206,8 +206,8 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
             s. Sätzen</schrift></thema>, <zeit>11 U. 2
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-I.I.A.3.a-003"><dozent><nachname>Schuffenhauer</nachname>,
+            <veranstaltung xml:id="v-I.I.A.3.a-003"><dozent
+            ref="schuffenhauer_jca"><nachname>Schuffenhauer</nachname>,
             <grad>M.</grad> <vorname>J. K. A.</vorname></dozent>, <zeit>11 U.
             2 T.</zeit></veranstaltung>
 
@@ -242,9 +242,9 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
             <zeit>1 U. Dienst. u. Freit.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-I.I.A.3.b-003"><dozent><nachname>Wenck</nachname>,
-            <grad>D.</grad> <vorname>K. F. C.</vorname>, <funktion>P. E.
+            <veranstaltung xml:id="v-I.I.A.3.b-003"><dozent
+            ref="wenck_kfc"><nachname>Wenck</nachname>, <grad>D.</grad>
+            <vorname>K. F. C.</vorname>, <funktion>P. E.
             des.</funktion></dozent>, <zeit>3 U. 4 T.</zeit>
             <modus>öffentlich</modus> und
             <gebühr>unentgeldl.</gebühr></veranstaltung>
@@ -587,8 +587,8 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
             <sachgruppe xml:id="sg-I.II.B.1.a.aa">
               <titel>aa) ältere.</titel>
 
-              <veranstaltung
-              xml:id="v-I.II.B.1.a.aa-001"><dozent><nachname>Schuffenhauer</nachname>,
+              <veranstaltung xml:id="v-I.II.B.1.a.aa-001"><dozent
+              ref="schuffenhauer_jca"><nachname>Schuffenhauer</nachname>,
               <grad>M.</grad> <vorname>J. K. A.</vorname></dozent>,
               <thema>Geschichte der älteren Zeiten</thema>, <zeit>11 U. 4
               T.</zeit></veranstaltung>
@@ -599,16 +599,16 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
             <sachgruppe xml:id="sg-I.II.B.1.a.bb">
               <titel>bb) mittlere und neuere.</titel>
 
-              <veranstaltung
-              xml:id="v-I.II.B.1.a.bb-001"><dozent><nachname>Beck</nachname>,
-              <vorname>C. D.</vorname>, <funktion>P. O.</funktion></dozent>,
-              <thema>von der Theilung der Caroling. Monarchie bis zum
-              gegenwärtigen Jahre, <schrift>nach sein. Entwurfe der
-              Weltgeschichte der 3 letzten Perioden</schrift></thema>, <zeit>9
-              U. 6 T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-I.II.B.1.a.bb-001"><dozent
+              ref="beck_cd"><nachname>Beck</nachname>, <vorname>C.
+              D.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>von
+              der Theilung der Caroling. Monarchie bis zum gegenwärtigen
+              Jahre, <schrift>nach sein. Entwurfe der Weltgeschichte der 3
+              letzten Perioden</schrift></thema>, <zeit>9 U. 6
+              T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-I.II.B.1.a.bb-002"><dozent><nachname>Schuffenhauer</nachname>,
+              <veranstaltung xml:id="v-I.II.B.1.a.bb-002"><dozent
+              ref="schuffenhauer_jca"><nachname>Schuffenhauer</nachname>,
               <grad>M.</grad> <vorname>J. K. A.</vorname></dozent>, <zeit>10
               U. 2 T.</zeit></veranstaltung>
             </sachgruppe>
@@ -620,12 +620,12 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
             <sachgruppe xml:id="sg-I.II.B.1.b.alpha">
               <titel>α) der neueren Staaten.</titel>
 
-              <veranstaltung
-              xml:id="v-I.II.B.1.b.alpha-001"><dozent><nachname>Weisse</nachname>,
-              <grad>D.</grad> <vorname>C. E.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <thema><gesperrt>deutsche
-              Geschichte</gesperrt>, nach <autor>Pütter</autor></thema>,
-              <zeit>9 U. 6 T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-I.II.B.1.b.alpha-001"><dozent
+              ref="weisse_ce"><nachname>Weisse</nachname>, <grad>D.</grad>
+              <vorname>C. E.</vorname>, <funktion>P. O.</funktion></dozent>,
+              <thema><gesperrt>deutsche Geschichte</gesperrt>, nach
+              <autor>Pütter</autor></thema>, <zeit>9 U. 6
+              T.</zeit></veranstaltung>
 
               <veranstaltung
               xml:id="v-I.II.B.1.b.alpha-002"><dozent><nachname>Wieland</nachname>,
@@ -641,8 +641,8 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
               Portugall</gesperrt>, nach <autor>Meusel</autor></thema>,
               <zeit>11 U. 4 T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-I.II.B.1.b.alpha-004"><dozent><nachname>Schuffenhauer</nachname>,
+              <veranstaltung xml:id="v-I.II.B.1.b.alpha-004"><dozent
+              ref="schuffenhauer_jca"><nachname>Schuffenhauer</nachname>,
               <grad>M.</grad> <vorname>J. K. A.</vorname></dozent>,
               <thema><gesperrt>Geschichte der Deutschen</gesperrt></thema>,
               <zeit>2 U. 4 T.</zeit></veranstaltung>
@@ -670,11 +670,11 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
             <sachgruppe xml:id="sg-I.II.B.1.b.delta">
               <titel>δ) Literargeschichte.</titel>
 
-              <veranstaltung
-              xml:id="v-I.II.B.1.b.delta-001"><dozent><nachname>Beck</nachname>,
-              <vorname>C. D.</vorname>, <funktion>P. O.</funktion></dozent>,
-              <thema><notiz betreff="fortsetzung">Beschluß</notiz></thema>,
-              <zeit>11 U. Mittw. und Sonnab.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-I.II.B.1.b.delta-001"><dozent
+              ref="beck_cd"><nachname>Beck</nachname>, <vorname>C.
+              D.</vorname>, <funktion>P. O.</funktion></dozent>, <thema><notiz
+              betreff="fortsetzung">Beschluß</notiz></thema>, <zeit>11 U.
+              Mittw. und Sonnab.</zeit></veranstaltung>
             </sachgruppe>
           </sachgruppe>
         </sachgruppe>
@@ -761,15 +761,15 @@ werden in den entsprechenden Attributen mitgeführt!--></veranstaltung>
             <sachgruppe xml:id="sg-I.II.B.3.b.aa">
               <titel>aa) Erklärung griechischer Schriftsteller.</titel>
 
-              <veranstaltung
-              xml:id="v-I.II.B.3.b.aa-001"><dozent><nachname>Beck</nachname>,
-              <vorname>C. D.</vorname>, <funktion>P. O.</funktion></dozent>,
-              <thema>über <schrift><autor>Xenophon</autor>s
+              <veranstaltung xml:id="v-I.II.B.3.b.aa-001"><dozent
+              ref="beck_cd"><nachname>Beck</nachname>, <vorname>C.
+              D.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>über
+              <schrift><autor>Xenophon</autor>s
               <titel>Hellenika</titel></schrift></thema>, <zeit>3 U. Mont. und
               Donnerst.</zeit> <modus>öffentl.</modus></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-I.II.B.3.b.aa-002"><dozent><nachname>Hermann</nachname>,
+              <veranstaltung xml:id="v-I.II.B.3.b.aa-002"><dozent
+              ref="hermann_jgj"><nachname>Hermann</nachname>,
               <vorname>G.</vorname>, <funktion>P. O.</funktion></dozent>,
               <thema>über den Pindar</thema>, <zeit>11 U. 4 T.</zeit>
               <modus>öffentl.</modus></veranstaltung>
@@ -809,20 +809,20 @@ werden in den entsprechenden Attributen mitgeführt!--></veranstaltung>
               <sachgruppe xml:id="sg-I.II.B.3.b.aa.x">
                 <titel>*) Uebungen der griechischen Gesellschaft.</titel>
 
-                <veranstaltung
-                xml:id="v-I.II.B.3.b.aa.x-001"><dozent><nachname>Hermann</nachname>,
-                <vorname> G.</vorname>, <funktion>P. O.</funktion></dozent>,
-                <zeit>in den gewöhnlichen St.</zeit></veranstaltung>
+                <veranstaltung xml:id="v-I.II.B.3.b.aa.x-001"><dozent
+                ref="hermann_jgj"><nachname>Hermann</nachname>, <vorname>
+                G.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>in
+                den gewöhnlichen St.</zeit></veranstaltung>
               </sachgruppe>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-I.II.B.3.b.bb">
               <titel>bb) Erklärung römischer Schriftsteller.</titel>
 
-              <veranstaltung
-              xml:id="v-I.II.B.3.b.bb-001"><dozent><nachname>Beck</nachname>,
-              <vorname>C. D.</vorname>, <funktion>P. O.</funktion></dozent>,
-              <thema>über <schrift>einige Bücher des
+              <veranstaltung xml:id="v-I.II.B.3.b.bb-001"><dozent
+              ref="beck_cd"><nachname>Beck</nachname>, <vorname>C.
+              D.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>über
+              <schrift>einige Bücher des
               <autor>Livius</autor></schrift></thema>, <zeit>3 U. Dienst. und
               Freit.</zeit>, <modus>öffentl.</modus></veranstaltung>
 
@@ -854,10 +854,10 @@ Dozentennamen (Ouvrier, Michaelis) verbunden-->
               <sachgruppe xml:id="sg-I.II.B.3.b.bb.x">
                 <titel>*) Uebungen im Erklären der Classiker.</titel>
 
-                <veranstaltung
-                xml:id="v-I.II.B.3.b.bb.x-001"><dozent><nachname>Beck</nachname>,
-                <vorname>C. D.</vorname>, <funktion>P. O.</funktion></dozent>,
-                <thema kontext="sachgruppe">im königl. <antiqua>Seminario
+                <veranstaltung xml:id="v-I.II.B.3.b.bb.x-001"><dozent
+                ref="beck_cd"><nachname>Beck</nachname>, <vorname>C.
+                D.</vorname>, <funktion>P. O.</funktion></dozent>, <thema
+                kontext="sachgruppe">im königl. <antiqua>Seminario
                 philol.</antiqua></thema>, <zeit>3 - 5 U. Mittw. und
                 Sonnabends.</zeit></veranstaltung>
               </sachgruppe>
@@ -939,8 +939,8 @@ auf sich hatte. Vgl. auch WS 1818, S. 3.--></veranstaltungsgruppe>
               <schrift>Landprediger von Wakefield</schrift></thema>, <zeit>zu
               bel. Z.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-I.II.B.3.c.cc-002"><dozent><nachname>Schuffenhauer</nachname>,
+              <veranstaltung xml:id="v-I.II.B.3.c.cc-002"><dozent
+              ref="schuffenhauer_jca"><nachname>Schuffenhauer</nachname>,
               <grad>M.</grad> <vorname>J. K. A.</vorname></dozent>, <zeit>zu
               bel. St.</zeit></veranstaltung>
 
@@ -1042,11 +1042,11 @@ auf sich hatte. Vgl. auch WS 1818, S. 3.--></veranstaltungsgruppe>
               betreff="fortsetzung">Fortsetzung und
               Beschluß</notiz></thema>.</veranstaltung>
 
-              <veranstaltung
-              xml:id="v-II.A.I.1.b.beta-003"><dozent><nachname>Beck</nachname>,
-              <vorname>C. D.</vorname>, <funktion>P. O.</funktion></dozent>,
-              <thema> über die Apostelgeschichte und den Brief Jacobi</thema>,
-              <zeit>2 U. 6 T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-II.A.I.1.b.beta-003"><dozent
+              ref="beck_cd"><nachname>Beck</nachname>, <vorname>C.
+              D.</vorname>, <funktion>P. O.</funktion></dozent>, <thema> über
+              die Apostelgeschichte und den Brief Jacobi</thema>, <zeit>2 U. 6
+              T.</zeit></veranstaltung>
 
               <veranstaltungsgruppe><dozent><nachname>Höpfner</nachname>,
               <grad>D.</grad> <vorname>J. G. C.</vorname>, <funktion>P.
@@ -1090,12 +1090,12 @@ auf sich hatte. Vgl. auch WS 1818, S. 3.--></veranstaltungsgruppe>
             betreff="fortsetzung">Fortsetzung</notiz></thema>, <zeit>10 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-II.A.I.2.a-002"><dozent><nachname>Beck</nachname>,
-            <vorname>C. D.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema><notiz betreff="fortsetzung">Fortsetzung und
-            Beschluß</notiz>, nach <gesperrt>Schröckh</gesperrt></thema>,
-            <zeit>10 U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-II.A.I.2.a-002"><dozent
+            ref="beck_cd"><nachname>Beck</nachname>, <vorname>C. D.</vorname>,
+            <funktion>P. O.</funktion></dozent>, <thema><notiz
+            betreff="fortsetzung">Fortsetzung und Beschluß</notiz>, nach
+            <gesperrt>Schröckh</gesperrt></thema>, <zeit>10 U. 6
+            T.</zeit></veranstaltung>
 
             <veranstaltung
             xml:id="v-II.A.I.2.a-003"><dozent><nachname>Krüger</nachname>,
@@ -1203,11 +1203,10 @@ auf sich hatte. Vgl. auch WS 1818, S. 3.--></veranstaltungsgruppe>
           <grad>D.</grad> <vorname>H. G.</vorname>, <funktion>P.
           O.</funktion></dozent>, <zeit>zu bel. Z.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-II.A.II.1-002"><dozent><nachname>Bauer</nachname>,
-          <grad>D.</grad> <vorname>K. G.</vorname></dozent>, <thema>Uebungen
-          in Predigtausarbeitung</thema>, <zeit>11 U. 2
-          T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-II.A.II.1-002"><dozent
+          ref="bauer_kg"><nachname>Bauer</nachname>, <grad>D.</grad>
+          <vorname>K. G.</vorname></dozent>, <thema>Uebungen in
+          Predigtausarbeitung</thema>, <zeit>11 U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung
           xml:id="v-II.A.II.1-003"><dozent><nachname>Goldhorn</nachname>,
@@ -1277,11 +1276,11 @@ Letzteres entschieden.-->
       <sachgruppe xml:id="sg-II.B.001">
         <titel>Encyklopädie und Methodologie.</titel>
 
-        <veranstaltung
-        xml:id="v-II.B.001-001"><dozent><nachname>Wenck</nachname>,
-        <grad>D.</grad> <vorname>K. F. C.</vorname>, <funktion>P. E.
-        des.</funktion></dozent>, <thema>nach seinem Lehrbuche</thema>,
-        <zeit>4 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-II.B.001-001"><dozent
+        ref="wenck_kfc"><nachname>Wenck</nachname>, <grad>D.</grad>
+        <vorname>K. F. C.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+        <thema>nach seinem Lehrbuche</thema>, <zeit>4 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung
         xml:id="v-II.B.001-002"><dozent><nachname>Teucher</nachname>,
@@ -1327,20 +1326,20 @@ Letzteres entschieden.-->
               <sachgruppe xml:id="sg-II.B.II.A.1.a.aa">
                 <titel>aa) Hermeneutik des Römischen Rechts.</titel>
 
-                <veranstaltung
-                xml:id="v-II.B.II.A.1.a.aa-001"><dozent><nachname>Haubold</nachname>,
-                <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P. O. u.
-                d. Z. Dec.</funktion></dozent>, <thema>mit Zuziehung einer von
-                ihm herausgegebenen Beispielsammlung</thema>, <zeit>9 U. 2
+                <veranstaltung xml:id="v-II.B.II.A.1.a.aa-001"><dozent
+                ref="haubold_cg"><nachname>Haubold</nachname>, <grad>D.</grad>
+                <vorname>C. G.</vorname>, <funktion>P. O. u. d. Z.
+                Dec.</funktion></dozent>, <thema>mit Zuziehung einer von ihm
+                herausgegebenen Beispielsammlung</thema>, <zeit>9 U. 2
                 T.</zeit></veranstaltung>
               </sachgruppe>
 
               <sachgruppe xml:id="sg-II.B.II.A.1.a.bb">
                 <titel>bb) Geschichte des Röm. R.</titel>
 
-                <veranstaltung
-                xml:id="v-II.B.II.A.1.a.bb-001"><dozent><nachname>Wenck</nachname>,
-                <grad>D.</grad> <vorname>K. F. C.</vorname>, <funktion>P. E.
+                <veranstaltung xml:id="v-II.B.II.A.1.a.bb-001"><dozent
+                ref="wenck_kfc"><nachname>Wenck</nachname>, <grad>D.</grad>
+                <vorname>K. F. C.</vorname>, <funktion>P. E.
                 des.</funktion></dozent>, <thema>nach
                 <gesperrt>Hugo's</gesperrt> Lehrbuch, (Berl. 1810)</thema>,
                 <zeit>10 U. 6 T.</zeit></veranstaltung>
@@ -1373,9 +1372,9 @@ Letzteres entschieden.-->
                   E.</funktion></dozent>, <thema>nach Heineccius</thema>,
                   <zeit>8 U. 6 T.</zeit></veranstaltung>
 
-                  <veranstaltung
-                  xml:id="v-II.B.II.A.1.a.cc.alpha-003"><dozent><nachname>Wenck</nachname>,
-                  <grad>D.</grad> <vorname>K. F. C.</vorname>, <funktion>P. E.
+                  <veranstaltung xml:id="v-II.B.II.A.1.a.cc.alpha-003"><dozent
+                  ref="wenck_kfc"><nachname>Wenck</nachname>, <grad>D.</grad>
+                  <vorname>K. F. C.</vorname>, <funktion>P. E.
                   des.</funktion></dozent>, <thema>nach Heineccius</thema>,
                   <zeit>9 U. 6 T.</zeit></veranstaltung>
 
@@ -1410,8 +1409,8 @@ Klammer für alle Veranstaltungen da!-->
                 <sachgruppe xml:id="sg-II.B.II.A.1.a.cc.beta">
                   <titel>β) Pandekten.</titel>
 
-                  <veranstaltung
-                  xml:id="v-II.B.II.A.1.a.cc.beta-001"><dozent><nachname>Haubold</nachname>,<grad>
+                  <veranstaltung xml:id="v-II.B.II.A.1.a.cc.beta-001"><dozent
+                  ref="haubold_cg"><nachname>Haubold</nachname>,<grad>
                   D.</grad> <vorname>C. G.</vorname>, <funktion>P. O. u. d. Z.
                   Decan.</funktion></dozent>, <thema>in systematischer
                   Ordnung, nach s. Abrisse, (<antiqua>Doctrinae Pandectarum
@@ -1440,10 +1439,10 @@ Klammer für alle Veranstaltungen da!-->
             <sachgruppe xml:id="sg-II.B.II.A.1.b">
               <titel>b) Königl. Sächsisches Privatrecht.</titel>
 
-              <veranstaltung
-              xml:id="v-II.B.II.A.1.b-001"><dozent><nachname>Haubold</nachname>,
-              <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P. O. u. d.
-              Z Dec.</funktion></dozent>, <thema>nach eignen Sätzen</thema>,
+              <veranstaltung xml:id="v-II.B.II.A.1.b-001"><dozent
+              ref="haubold_cg"><nachname>Haubold</nachname>, <grad>D.</grad>
+              <vorname>C. G.</vorname>, <funktion>P. O. u. d. Z
+              Dec.</funktion></dozent>, <thema>nach eignen Sätzen</thema>,
               <zeit>9 U. 4 T.</zeit> <modus>öffentl.</modus></veranstaltung>
             </sachgruppe>
 
@@ -1539,29 +1538,29 @@ Gesetzen" als auch auf "2 T." beziehen--></veranstaltung>
               <sachgruppe xml:id="sg-II.B.II.A.2.a.bb">
                 <titel>bb) Sächsisches Staatsrecht.</titel>
 
-                <veranstaltung
-                xml:id="v-II.B.II.A.2.a.bb-001"><dozent><nachname>Weisse</nachname>,
-                <grad>D.</grad> <vorname>C. E.</vorname>, <funktion>P.
-                O.</funktion></dozent>, <zeit>8 U. 2 T.</zeit></veranstaltung>
+                <veranstaltung xml:id="v-II.B.II.A.2.a.bb-001"><dozent
+                ref="weisse_ce"><nachname>Weisse</nachname>, <grad>D.</grad>
+                <vorname>C. E.</vorname>, <funktion>P. O.</funktion></dozent>,
+                <zeit>8 U. 2 T.</zeit></veranstaltung>
               </sachgruppe>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-II.B.II.A.2.b">
               <titel>b) Criminalrecht.</titel>
 
-              <veranstaltung
-              xml:id="v-II.B.II.A.2.b-001"><dozent><nachname>Biener</nachname>,
-              <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P. Iur.
+              <veranstaltung xml:id="v-II.B.II.A.2.b-001"><dozent
+              ref="biener_cg"><nachname>Biener</nachname>, <grad>D.</grad>
+              <vorname>C. G.</vorname>, <funktion>P. Iur.
               Primar.</funktion></dozent>, <thema>nebst dem Processe, nach
               <gesperrt>Püttmanns</gesperrt> <antiqua>Elem. jur. crim. Lips.
               1802.</antiqua></thema> <zeit>10 U. 5 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-II.B.II.A.2.b-002"><dozent><nachname>Weisse</nachname>,
-              <grad>D.</grad> <vorname>C. E.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <thema>nebst dem Criminalprocesse,
-              <notiz betreff="fortsetzung">Fortsetzung</notiz></thema>,
-              <zeit>10 U. 4 T.</zeit> <modus>öffentl.</modus></veranstaltung>
+              <veranstaltung xml:id="v-II.B.II.A.2.b-002"><dozent
+              ref="weisse_ce"><nachname>Weisse</nachname>, <grad>D.</grad>
+              <vorname>C. E.</vorname>, <funktion>P. O.</funktion></dozent>,
+              <thema>nebst dem Criminalprocesse, <notiz
+              betreff="fortsetzung">Fortsetzung</notiz></thema>, <zeit>10 U. 4
+              T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
               <veranstaltung
               xml:id="v-II.B.II.A.2.b-003"><dozent><nachname>Diemer</nachname>,
@@ -1596,16 +1595,15 @@ Gesetzen" als auch auf "2 T." beziehen--></veranstaltung>
               O.</funktion></dozent>, <thema>nach G. L. Böhmer</thema>,
               <zeit>11 U. 4 T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-II.B.II.A.2.d-002"><dozent><nachname>Weisse</nachname>,
-              <grad>D.</grad> <vorname>C. E.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <thema kontext="sachgruppe">nach
-              Böhmer</thema>, <zeit>11 U. 5 T. mit Ausschluß des
-              Montags</zeit>.</veranstaltung>
+              <veranstaltung xml:id="v-II.B.II.A.2.d-002"><dozent
+              ref="weisse_ce"><nachname>Weisse</nachname>, <grad>D.</grad>
+              <vorname>C. E.</vorname>, <funktion>P. O.</funktion></dozent>,
+              <thema kontext="sachgruppe">nach Böhmer</thema>, <zeit>11 U. 5
+              T. mit Ausschluß des Montags</zeit>.</veranstaltung>
 
-              <veranstaltung
-              xml:id="v-II.B.II.A.2.d-003"><dozent><nachname>Wenck</nachname>,
-              <grad>D.</grad> <vorname>K. F. C.</vorname>, <funktion>P. E.
+              <veranstaltung xml:id="v-II.B.II.A.2.d-003"><dozent
+              ref="wenck_kfc"><nachname>Wenck</nachname>, <grad>D.</grad>
+              <vorname>K. F. C.</vorname>, <funktion>P. E.
               des.</funktion></dozent>, <thema kontext="sachgruppe">nach
               Böhmers <antiqua>principiis</antiqua></thema>, <zeit>11 U. 5 T.
               mit Ausschluß des Montags</zeit>.</veranstaltung>
@@ -1623,8 +1621,9 @@ auf beide bezogen-->
           <sachgruppe xml:id="sg-II.B.II.B.1">
             <titel>1) Proceß.</titel>
 
-            <veranstaltungsgruppe><dozent><nachname>Biener</nachname>,
-            <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P. Iur.
+            <veranstaltungsgruppe><dozent
+            ref="biener_cg"><nachname>Biener</nachname>, <grad>D.</grad>
+            <vorname>C. G.</vorname>, <funktion>P. Iur.
             Primar.</funktion></dozent>, <veranstaltungsverweis
             ref="v-II.B.II.A.2.b-001"><siehe ref="sg-II.B.II.A.2.b">siehe
             Criminalrecht</siehe></veranstaltungsverweis>; ingl.
@@ -1634,10 +1633,10 @@ auf beide bezogen-->
             8.)</antiqua></thema>, <zeit>11 U. 4 T.</zeit>
             <modus>öffentl.</modus></veranstaltung></veranstaltungsgruppe>
 
-            <veranstaltungsverweis
-            ref="v-II.B.II.A.2.b-002"><dozent><nachname>Weisse</nachname>,
-            <grad>D.</grad> <vorname>C. E.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <siehe ref="sg-II.B.II.A.2.b">siehe
+            <veranstaltungsverweis ref="v-II.B.II.A.2.b-002"><dozent
+            ref="weisse_ce"><nachname>Weisse</nachname>, <grad>D.</grad>
+            <vorname>C. E.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <siehe ref="sg-II.B.II.A.2.b">siehe
             Criminalrecht</siehe>.</veranstaltungsverweis>
 
             <veranstaltung
@@ -1757,9 +1756,9 @@ auf beide bezogen-->
                 <grad>D.</grad> <vorname>C.</vorname>, <funktion>P.
                 O.</funktion></dozent>, <zeit>2 U. 2 T.</zeit></veranstaltung>
 
-                <veranstaltung
-                xml:id="v-II.B.II.B.xx.1.a-002"><dozent><nachname>Wenck</nachname>,
-                <grad>D.</grad> <vorname>K. F. C.</vorname>, <funktion>P. E.
+                <veranstaltung xml:id="v-II.B.II.B.xx.1.a-002"><dozent
+                ref="wenck_kfc"><nachname>Wenck</nachname>, <grad>D.</grad>
+                <vorname>K. F. C.</vorname>, <funktion>P. E.
                 des.</funktion></dozent>, <zeit>zu bel.
                 Z.</zeit></veranstaltung>
 
@@ -1913,9 +1912,9 @@ auf beide bezogen-->
               <grad>D.</grad> <vorname>A. C.</vorname>, <funktion>P.
               O.</funktion></dozent>, <zeit>11 U. 2 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-II.B.II.B.xx.2-003"><dozent><nachname>Wenck</nachname>,
-              <grad>D.</grad> <vorname>K. F. C.</vorname>, <funktion>P. E.
+              <veranstaltung xml:id="v-II.B.II.B.xx.2-003"><dozent
+              ref="wenck_kfc"><nachname>Wenck</nachname>, <grad>D.</grad>
+              <vorname>K. F. C.</vorname>, <funktion>P. E.
               des.</funktion></dozent>, <zeit>zu bel.
               Z.</zeit></veranstaltung>
 
@@ -1939,10 +1938,10 @@ auf beide bezogen-->
       <sachgruppe xml:id="sg-II.C.001">
         <titel>Pragmatische Geschichte der Arzneikunst.</titel>
 
-        <veranstaltung
-        xml:id="v-II.C.001-001"><dozent><nachname>Hahnemann</nachname>,
-        <grad>D.</grad> <vorname>S.</vorname></dozent>, <zeit>2 U. Donerst. u.
-        Freitag, unentgeldl.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-II.C.001-001"><dozent
+        ref="hahnemann_cfs"><nachname>Hahnemann</nachname>, <grad>D.</grad>
+        <vorname>S.</vorname></dozent>, <zeit>2 U. Donerst. u. Freitag,
+        unentgeldl.</zeit></veranstaltung>
       </sachgruppe>
 
       <trennlinie/>
@@ -2108,8 +2107,8 @@ auf beide bezogen-->
             <thema>generelle und specielle</thema>, <zeit>11 und 5 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-II.C.II.1.a-002"><dozent><nachname>Hahnemann</nachname>,
+            <veranstaltung xml:id="v-II.C.II.1.a-002"><dozent
+            ref="hahnemann_cfs"><nachname>Hahnemann</nachname>,
             <grad>D.</grad> <vorname>S.</vorname></dozent>, <zeit>2 U. Mont.
             und Dienst.</zeit> <gebühr>unentgeldl.</gebühr></veranstaltung>
           </sachgruppe>
@@ -2117,9 +2116,9 @@ auf beide bezogen-->
           <sachgruppe xml:id="sg-II.C.II.1.b">
             <titel>b) specielle.</titel>
 
-            <veranstaltung
-            xml:id="v-II.C.II.1.b-001"><dozent><nachname>Clarus</nachname>,
-            <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P. O.
+            <veranstaltung xml:id="v-II.C.II.1.b-001"><dozent
+            ref="clarus_jca"><nachname>Clarus</nachname>, <grad>D.</grad>
+            <vorname>J. C. A.</vorname>, <funktion>P. O.
             des.</funktion></dozent>, <zeit>10 U. 4 T.</zeit></veranstaltung>
 
             <sachgruppe xml:id="sg-II.C.II.1.b.aa">
@@ -2206,9 +2205,9 @@ auf beide bezogen-->
         <sachgruppe xml:id="sg-II.C.II.2">
           <titel>2) Klinik.</titel>
 
-          <veranstaltung
-          xml:id="v-II.C.II.2-001"><dozent><nachname>Clarus</nachname>,
-          <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P. O.
+          <veranstaltung xml:id="v-II.C.II.2-001"><dozent
+          ref="clarus_jca"><nachname>Clarus</nachname>, <grad>D.</grad>
+          <vorname>J. C. A.</vorname>, <funktion>P. O.
           des.</funktion></dozent>, <thema><ort>im königl. klinischen Instit.
           im Jakobssp.</ort></thema> <zeit>9 U. 6 T.</zeit>
           <modus>öffentl.</modus></veranstaltung>
@@ -2244,9 +2243,9 @@ auf beide bezogen-->
           <sachgruppe xml:id="sg-II.C.II.2.x">
             <titel>*) Casuistik.</titel>
 
-            <veranstaltung
-            xml:id="v-II.C.II.2.x-001"><dozent><nachname>Clarus</nachname>,
-            <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P. O.
+            <veranstaltung xml:id="v-II.C.II.2.x-001"><dozent
+            ref="clarus_jca"><nachname>Clarus</nachname>, <grad>D.</grad>
+            <vorname>J. C. A.</vorname>, <funktion>P. O.
             des.</funktion></dozent>, <zeit>3 U. 2 T.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -2346,8 +2345,8 @@ auf beide bezogen-->
             <grad>D.</grad> <vorname>M. W.</vorname></dozent>, <zeit>11 U. 4
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-II.C.II.4.a-004"><dozent><nachname>Hahnemann</nachname>,
+            <veranstaltung xml:id="v-II.C.II.4.a-004"><dozent
+            ref="hahnemann_cfs"><nachname>Hahnemann</nachname>,
             <grad>D.</grad> <vorname>F.</vorname></dozent>, <zeit>11 U. 2
             T.</zeit> <gebühr>unentgeldl.</gebühr></veranstaltung>
           </sachgruppe>

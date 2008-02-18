@@ -51,7 +51,7 @@
     <titel>I. Allgemeine Studien.</titel>
 
     <veranstaltung><thema>Einleitung in das akademische Studium
-    (Hodegetik)</thema>: <dozent><grad>D. ph.</grad>
+    (Hodegetik)</thema>: <dozent ref="marbach_go"><grad>D. ph.</grad>
     <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
     <zeit>12 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -59,7 +59,7 @@
       <titel>I. Philosophische Wissenschaften.</titel>
 
       <veranstaltung><thema>Grundlehren und Encyklopädie der
-      Philosophie</thema>: <dozent><grad>D. ph.</grad>
+      Philosophie</thema>: <dozent ref="drobisch_mw"><grad>D. ph.</grad>
       <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>12 U. 4 T.</zeit></veranstaltung>
 
@@ -73,21 +73,23 @@
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der Philosophie seit Kant</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hartenstein</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>5 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="hartenstein_g"><grad>D. ph.</grad>
+        <nachname>Hartenstein</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>5 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
         <titel>2. Systematische Philosophie.</titel>
 
-        <veranstaltung><thema>Logik</thema>: <dozent><grad>D. ph.</grad>
+        <veranstaltung><thema>Logik</thema>: <dozent
+        ref="hartenstein_g"><grad>D. ph.</grad>
         <nachname>Hartenstein</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>4 U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Psychologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Weiße</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>7 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Psychologie</thema>: <dozent
+        ref="weisse_ch"><grad>D.</grad> <nachname>Weiße</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>7 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema><scil
         text="Psychologie">Dieselbe</scil></thema>: <dozent><grad>D.</grad>
@@ -123,7 +125,7 @@
           <titel>Aesthetik.</titel>
 
           <veranstaltung><thema>Einleitung in die Aesthetik u.
-          Kunstgeschichte</thema>: <dozent><grad>D.</grad>
+          Kunstgeschichte</thema>: <dozent ref="weisse_ch"><grad>D.</grad>
           <nachname>Weiße</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>7 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -145,9 +147,9 @@
           <titel>Pädagogische Uebungen.</titel>
 
           <veranstaltung><thema>Pädagogisches Seminar für künftige Lehrer der
-          Mathematik u. Naturwissenschaften</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Marbach</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>2 U. 2 T.</zeit>
+          Mathematik u. Naturwissenschaften</thema>: <dozent
+          ref="marbach_go"><grad>D. ph.</grad> <nachname>Marbach</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>2 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -367,13 +369,15 @@
       <sachgruppe>
         <titel>1. Weltgeschichte.</titel>
 
-        <veranstaltung><thema>Geschichte des Alterthums</thema>:
-        <dozent><grad>D.</grad> <nachname>Wachsmuth</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>7 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Geschichte des Alterthums</thema>: <dozent
+        ref="wachsmuth_ewg"><grad>D.</grad> <nachname>Wachsmuth</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>7 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Ueber Quellenschriftsteller der
-        Merowingischen u. Karolingischen Periode</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Wenck</nachname></dozent>, <siehe>s. histor.
+        Merowingischen u. Karolingischen Periode</thema>: <dozent
+        ref="wenck_wb"><grad>D. ph.</grad>
+        <nachname>Wenck</nachname></dozent>, <siehe>s. histor.
         Seminar</siehe>.</veranstaltungsverweis>
 
         <seite>6</seite>
@@ -391,26 +395,28 @@
         Seminar</siehe>.</veranstaltungsverweis>
 
         <veranstaltung><thema>Vergleichende Geschichte der politischen
-        Entwickelung Deutschlands, Frankreichs, Englands</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Biedermann</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>5 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Entwickelung Deutschlands, Frankreichs, Englands</thema>: <dozent
+        ref="biedermann_k"><grad>D. ph.</grad>
+        <nachname>Biedermann</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>5 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der Deutschen, von der Theilung von
-        Verdun bis zum Ausgange der Hohenstaufen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Wenck</nachname></dozent>, <zeit>2stündig in zu
-        best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        Verdun bis zum Ausgange der Hohenstaufen</thema>: <dozent
+        ref="wenck_wb"><grad>D. ph.</grad>
+        <nachname>Wenck</nachname></dozent>, <zeit>2stündig in zu best.
+        St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Sächsische Geschichte</thema>:
-        <dozent><grad>D.</grad> <nachname>Wachsmuth</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>7 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Sächsische Geschichte</thema>: <dozent
+        ref="wachsmuth_ewg"><grad>D.</grad> <nachname>Wachsmuth</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>7 U. 2
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema><scil
         text="Sächsische Geschichte">Dieselbe</scil>, mit besonderer
-        Berücksichtigung des culturgeschichtlichen Moments</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Biedermann</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>4 U. 2
-        T.</zeit></veranstaltung>
+        Berücksichtigung des culturgeschichtlichen Moments</thema>: <dozent
+        ref="biedermann_k"><grad>D. ph.</grad>
+        <nachname>Biedermann</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>4 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema><scil
         text="Sächsische Geschichte">Dieselbe</scil></thema>: <dozent><grad>D.
@@ -440,9 +446,9 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Römische Staatsalterthümer</thema>:
-        <dozent><grad>D.</grad> <nachname>Wachsmuth</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>8 U. 2 T.</zeit>
+        <veranstaltung><thema>Römische Staatsalterthümer</thema>: <dozent
+        ref="wachsmuth_ewg"><grad>D.</grad> <nachname>Wachsmuth</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>8 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
@@ -470,14 +476,16 @@
           Geschichte</thema>: <dozent><grad>D. ph.</grad>
           <nachname>Brandes</nachname></dozent></veranstaltung>; -
           <veranstaltung><thema>über Quellen-Schriftsteller der Merowingischen
-          und Karolingischen Periode</thema>: <dozent><grad>D. ph.</grad>
+          und Karolingischen Periode</thema>: <dozent ref="wenck_wb"><grad>D.
+          ph.</grad>
           <nachname>Wenck</nachname></dozent>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung><thema>Uebungen im Disputiren und im freien Vortrge
           über geschichtliche und staatswissenschaftliche Gegenstände</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Biedermann</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>2 mal wöchentlich, in zu
-          best. St.</zeit>, <modus>privatissime</modus>, aber
+          <dozent ref="biedermann_k"><grad>D. ph.</grad>
+          <nachname>Biedermann</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>2 mal wöchentlich, in zu best.
+          St.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -505,8 +513,8 @@
 d.h. "s. Rechtswissenschaft" steht nur einmal da-->
 
       <veranstaltungsverweis><thema>Vergleichende Geschichte der politischen
-      Entwickelung Deutschlands, Frankreichs, Englands</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Biedermann</nachname>,
+      Entwickelung Deutschlands, Frankreichs, Englands</thema>: <dozent
+      ref="biedermann_k"><grad>D. ph.</grad> <nachname>Biedermann</nachname>,
       <funktion>P. E.</funktion></dozent>, <siehe>s. histor.
       Wissenschaften</siehe>.</veranstaltungsverweis>
 
@@ -535,9 +543,10 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
     <sachgruppe>
       <titel>V. Mathematische Wissenschaften.</titel>
 
-      <veranstaltung><thema>Buchstabenrechnung und Algebra</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Marbach</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
+      <veranstaltung><thema>Buchstabenrechnung und Algebra</thema>: <dozent
+      ref="marbach_go"><grad>D. ph.</grad> <nachname>Marbach</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>9 U. 4
+      T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Theorie der Zahlen</thema>: <dozent><grad>D.
       ph.</grad> <nachname>Möbius</nachname>, <funktion>P.
@@ -549,17 +558,18 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Die Lehre von den höhern Gleichungen</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Drobisch</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit></veranstaltung>
+      <dozent ref="drobisch_mw"><grad>D. ph.</grad>
+      <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>10 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Differentialrechnung</thema>: <dozent><grad>D.
       ph.</grad> <nachname>Möbius</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Integralrechnung (<notiz
-      betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Drobisch</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
+      betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent
+      ref="drobisch_mw"><grad>D. ph.</grad> <nachname>Drobisch</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Abriß der Einrichtung des Weltgebäudes</thema>:
@@ -581,9 +591,10 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Pädagogisches Seminar für künftige
-        Lehrer der Mathematik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
-        <siehe>s. pädagogische Uebungen</siehe>.</veranstaltungsverweis>
+        Lehrer der Mathematik</thema>: <dozent ref="marbach_go"><grad>D.
+        ph.</grad> <nachname>Marbach</nachname>, <funktion>P.
+        E.</funktion></dozent>, <siehe>s. pädagogische
+        Uebungen</siehe>.</veranstaltungsverweis>
       </sachgruppe>
     </sachgruppe>
 
@@ -654,9 +665,10 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
 Achtung: Vorname E.H. zu Weber! E.F. zu Lehmann!-->
 
           <veranstaltungsverweis><thema>Pädagogisches Seminar für künftige
-          Lehrer der Naturwissenschaften</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
-          <siehe>s. pädagog. Uebungen</siehe>.</veranstaltungsverweis>
+          Lehrer der Naturwissenschaften</thema>: <dozent
+          ref="marbach_go"><grad>D. ph.</grad> <nachname>Marbach</nachname>,
+          <funktion>P. E.</funktion></dozent>, <siehe>s. pädagog.
+          Uebungen</siehe>.</veranstaltungsverweis>
 
           <trennlinie/>
 
@@ -799,7 +811,7 @@ Achtung: Vorname E.H. zu Weber! E.F. zu Lehmann!-->
       <trennlinie/>
 
       <veranstaltung><thema>Technologie, mit Vorzeigung und
-      Excursionen</thema>: <dozent><grad>D. ph.</grad>
+      Excursionen</thema>: <dozent ref="marbach_go"><grad>D. ph.</grad>
       <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>8 U. 6 T.</zeit></veranstaltung>
 
@@ -819,9 +831,9 @@ Achtung: Vorname E.H. zu Weber! E.F. zu Lehmann!-->
 
       <trennlinie/>
 
-      <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>2 T. in zu best. St.</zeit>
+      <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>: <dozent
+      ref="jacobi_vfl"><grad>D. ph.</grad> <nachname>Jacobi</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>2 T. in zu best. St.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Lehre von landwirthschaftl. Anschlägen</thema>:
@@ -939,7 +951,7 @@ Achtung: Vorname E.H. zu Weber! E.F. zu Lehmann!-->
         T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung des Briefes Pauli an die
-        Epheser</thema>: <dozent><grad>D.</grad>
+        Epheser</thema>: <dozent ref="tischendorf_lfk"><grad>D.</grad>
         <nachname>Tischendorf</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>8 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -1039,9 +1051,10 @@ Achtung: Vorname E.H. zu Weber! E.F. zu Lehmann!-->
         jun.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>8 U. 4
         T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Christliche Dogmengeschichte</thema>:
-        <dozent><grad>D.</grad> <nachname>Weisse</nachname>, <funktion>Phil.
-        P. O.</funktion></dozent>, <zeit>8 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Christliche Dogmengeschichte</thema>: <dozent
+        ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>Phil. P. O.</funktion></dozent>, <zeit>8 U. 6
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>

@@ -43,12 +43,12 @@
     <titel>I. Allgemeine Studien.</titel>
 
     <veranstaltung><thema>Über den Zweck des akademischen Studiums</thema>:
-    <dozent><nachname>Hartenstein</nachname>, <funktion>P. O., d. Z.
-    Dechant</funktion></dozent>, <zeit>5 U. 2 T.</zeit>
+    <dozent ref="hartenstein_g"><nachname>Hartenstein</nachname>, <funktion>P.
+    O., d. Z. Dechant</funktion></dozent>, <zeit>5 U. 2 T.</zeit>
     <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
     <veranstaltung><thema>Ueber die Philosophie als akadem. Studiums</thema>:
-    <dozent><nachname>Drobisch</nachname>, <funktion>P.
+    <dozent ref="drobisch_mw"><nachname>Drobisch</nachname>, <funktion>P.
     O.</funktion></dozent>, <zeit>4 U. 2 T.</zeit>
     <modus>öffentlich</modus>.</veranstaltung>
 
@@ -63,22 +63,23 @@
         <nachname>Lotze</nachname></dozent>, <zeit>11 U. 2
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Logik</thema>:
-        <dozent><nachname>Drobisch</nachname>, <funktion>P.
+        <veranstaltung><thema>Logik</thema>: <dozent
+        ref="drobisch_mw"><nachname>Drobisch</nachname>, <funktion>P.
         O.</funktion></dozent>, <thema>nach s. Lehrbuche (Lpz. 1836.)</thema>
         <zeit>8 U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Logik u. Psychologie</thema>:
-        <dozent><grad>D.</grad> <nachname>Weiße</nachname></dozent>, <zeit>8
-        U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Logik u. Psychologie</thema>: <dozent
+        ref="weisse_ch"><grad>D.</grad> <nachname>Weiße</nachname></dozent>,
+        <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Metaphysik</thema>:
-        <dozent><nachname>Drobisch</nachname>, <funktion>P.
+        <veranstaltung><thema>Metaphysik</thema>: <dozent
+        ref="drobisch_mw"><nachname>Drobisch</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Psychologie</thema>:
-        <dozent><nachname>Hartenstein</nachname>, <funktion>P. O., d. Z.
-        Dechant</funktion></dozent>, <zeit>4 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Psychologie</thema>: <dozent
+        ref="hartenstein_g"><nachname>Hartenstein</nachname>, <funktion>P. O.,
+        d. Z. Dechant</funktion></dozent>, <zeit>4 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Naturrecht oder Rechtsphilosophie, mit
         Berücksichtiung positiver Rechtsbestimmungen</thema>:
@@ -90,13 +91,14 @@
         <nachname>Schletter</nachname></dozent>, <zeit>9. U. 2
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Religionsphilosophie</thema>:
-        <dozent><nachname>Hartenstein</nachname>, <funktion>P. O., d. Z.
-        Dechant</funktion></dozent>, <zeit>11 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Religionsphilosophie</thema>: <dozent
+        ref="hartenstein_g"><nachname>Hartenstein</nachname>, <funktion>P. O.,
+        d. Z. Dechant</funktion></dozent>, <zeit>11 U. 2
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Religionsphilosophie</thema>:
-        <dozent><grad>D.</grad> <nachname>Weiße</nachname></dozent>, <zeit>7
-        U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Religionsphilosophie</thema>: <dozent
+        ref="weisse_ch"><grad>D.</grad> <nachname>Weiße</nachname></dozent>,
+        <zeit>7 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Philosophische Moral</thema>:
         <dozent><grad>D.</grad> <nachname>Fleck</nachname>, <funktion>P.
@@ -125,26 +127,30 @@
         <titel>2. Geschichte der Philosophie.</titel>
 
         <veranstaltung><thema>Geschichte der Philosophie bei den alten
-        Griechen u. Römern</thema>: <dozent><nachname>Hartenstein</nachname>,
-        <funktion>P. O., d. Z. Dechant</funktion></dozent>, <zeit>5 U. 4
-        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Griechen u. Römern</thema>: <dozent
+        ref="hartenstein_g"><nachname>Hartenstein</nachname>, <funktion>P. O.,
+        d. Z. Dechant</funktion></dozent>, <zeit>5 U. 4 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der alten Philosophie, vornehmlich
-        der indischen u. platonischen u. aristotelischen</thema>:
-        <dozent><grad>D.</grad> <nachname>Niedner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <thema>nach s. Lehrbuche (2. Ausg.)</thema>,
-        <zeit>8 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        der indischen u. platonischen u. aristotelischen</thema>: <dozent
+        ref="niedner_cw"><grad>D.</grad> <nachname>Niedner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <thema>nach s. Lehrbuche (2.
+        Ausg.)</thema>, <zeit>8 U. 4 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der griechischen Philosophie</thema>:
-        <dozent><grad>M.</grad> <nachname>Marbach</nachname></dozent>,
-        <thema>nach s. Lehrb. der Gesch. der Philos. (Lpz. b. O.
-        Wigand)</thema>, <zeit>4 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="marbach_go"><grad>M.</grad>
+        <nachname>Marbach</nachname></dozent>, <thema>nach s. Lehrb. der
+        Gesch. der Philos. (Lpz. b. O. Wigand)</thema>, <zeit>4 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Geschichte der alten Philosophie, vornehmlich
-        der indischen u. platonischen u. aristotelischen</thema>:
-        <dozent><grad>D.</grad> <nachname>Niedner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <thema>nach s. Lehrbuche (2. Ausg.)</thema>,
-        <zeit>8 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        der indischen u. platonischen u. aristotelischen</thema>: <dozent
+        ref="niedner_cw"><grad>D.</grad> <nachname>Niedner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <thema>nach s. Lehrbuche (2.
+        Ausg.)</thema>, <zeit>8 U. 4 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der Philosophie seit Kant</thema>:
         <dozent><grad>D.</grad> <nachname>Lotze</nachname></dozent>, <zeit>11
@@ -160,20 +166,21 @@
         <titel>Philosophische Uebungen.</titel>
 
         <veranstaltung><thema>Uebungen der philosophischen Abtheilung der
-        lausitzer homiletischen Gesellschaft</thema>:
-        <dozent><nachname>Hartenstein</nachname>, <funktion>P. O., d. Z.
-        Dechant</funktion></dozent>, <zeit>in den best. St.</zeit>
+        lausitzer homiletischen Gesellschaft</thema>: <dozent
+        ref="hartenstein_g"><nachname>Hartenstein</nachname>, <funktion>P. O.,
+        d. Z. Dechant</funktion></dozent>, <zeit>in den best. St.</zeit>
         <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Philosophische Uebungen</thema>:
-        <dozent><nachname>Drobisch</nachname>, <funktion>P.
+        <veranstaltung><thema>Philosophische Uebungen</thema>: <dozent
+        ref="drobisch_mw"><nachname>Drobisch</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>Mont. 5 U.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Philosophische Uebungen</thema>:
-        <dozent><grad>D.</grad> <nachname>Weiße</nachname></dozent>, <zeit>in
-        zu best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung><thema>Philosophische Uebungen</thema>: <dozent
+        ref="weisse_ch"><grad>D.</grad> <nachname>Weiße</nachname></dozent>,
+        <zeit>in zu best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -183,9 +190,10 @@
       <sachgruppe>
         <titel>1. Altclassische Sprachen.</titel>
 
-        <veranstaltung><thema>Philosophische Encyklopädie</thema>:
-        <dozent><grad>D.</grad> <nachname>Hermann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>11 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Philosophische Encyklopädie</thema>: <dozent
+        ref="hermann_jgj"><grad>D.</grad> <nachname>Hermann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>11 U. 2
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Lateinische Stilistik nebst einem kurzen
         Antibarbarus</thema>: <dozent><nachname>Klotz</nachname>, <funktion>P.
@@ -194,9 +202,10 @@
         <trennlinie/>
 
         <veranstaltung><thema>Ueber die hesiodische Theogonie u. die
-        <antiqua>΄Έϱγα хαί ήμέϱας</antiqua></thema>: <dozent><grad>D.</grad>
-        <nachname>Hermann</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <antiqua>΄Έϱγα хαί ήμέϱας</antiqua></thema>: <dozent
+        ref="hermann_jgj"><grad>D.</grad> <nachname>Hermann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>11 U. 4 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <!--griech. Buchstaben so richtig?-->
 
@@ -206,12 +215,12 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Aristoteles Poetik, philosophisch
-        erläutert</thema>: <dozent><grad>M.</grad>
+        erläutert</thema>: <dozent ref="marbach_go"><grad>M.</grad>
         <nachname>Marbach</nachname></dozent>, <zeit>2 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber den Eunuchus des Terenz</thema>:
-        <dozent><nachname>Becker</nachname>, <funktion>P.
+        <veranstaltung><thema>Ueber den Eunuchus des Terenz</thema>: <dozent
+        ref="becker_wa"><nachname>Becker</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
@@ -240,9 +249,10 @@
         <veranstaltung><thema>Uebungen der Mitglieder des königl. philol.
         Seminarium, <notiz betreff="fortsetzung">Fortsetzung</notiz> der
         Erklärung von Plato's <antiqua>Hippias maior</antiqua></thema>:
-        <dozent><grad>D.</grad> <nachname>Hermann</nachname>, <funktion>P. O.,
-        Reg. Semin. philol. Dir.</funktion></dozent>, <zeit>Mittwochs von 5 U.
-        an</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="hermann_jgj"><grad>D.</grad>
+        <nachname>Hermann</nachname>, <funktion>P. O., Reg. Semin. philol.
+        Dir.</funktion></dozent>, <zeit>Mittwochs von 5 U. an</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen der Mitglieder des königl. philol.
         Seminarium, <notiz betreff="fortsetzung">Fortsetzung</notiz> der
@@ -252,9 +262,9 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen der griechischen Gesellschaft</thema>:
-        <dozent><grad>D.</grad> <nachname>Hermann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Freitags von 5 U.
-        an</zeit>.</veranstaltung>
+        <dozent ref="hermann_jgj"><grad>D.</grad>
+        <nachname>Hermann</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Freitags von 5 U. an</zeit>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen im Latein-Schreiben und
         Sprechen</thema>: <dozent><nachname>Westermann</nachname>,
@@ -460,8 +470,8 @@
     <sachgruppe>
       <titel>1. Weltgeschichte.</titel>
 
-      <veranstaltung><thema>Allgemeine Weltgeschichte</thema>:
-      <dozent><nachname>Wachsmuth</nachname>, <funktion>P.
+      <veranstaltung><thema>Allgemeine Weltgeschichte</thema>: <dozent
+      ref="wachsmuth_ewg"><nachname>Wachsmuth</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>7 U. 6 T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Universalgeschichte</thema>:
@@ -470,8 +480,8 @@
 
       <seite>7</seite>
 
-      <veranstaltung><thema>Geschichte der Griechen und Römer</thema>:
-      <dozent><nachname>Wachsmuth</nachname>, <funktion>P.
+      <veranstaltung><thema>Geschichte der Griechen und Römer</thema>: <dozent
+      ref="wachsmuth_ewg"><nachname>Wachsmuth</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>8 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
@@ -522,7 +532,7 @@
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Geschichte der Kunst im Alterthume</thema>:
-      <dozent><nachname>Becker</nachname>, <funktion>P.
+      <dozent ref="becker_wa"><nachname>Becker</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
@@ -542,17 +552,19 @@
         <titel>Historische Uebungen.</titel>
 
         <veranstaltung><thema>Uebungen der historischen Gesellschaft</thema>:
-        <dozent><nachname>Wachsmuth</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>in zu best. St.</zeit></veranstaltung>
+        <dozent ref="wachsmuth_ewg"><nachname>Wachsmuth</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in zu best.
+        St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Uebungen in historischen Vorträgen</thema>:
         <dozent><grad>M.</grad> <nachname>Wuttke</nachname></dozent>,
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen der antiquarischen
-        Gesellschaft</thema>: <dozent><nachname>Becker</nachname>,
-        <funktion>P. O. Soc. archaeol. Dir.</funktion></dozent>, <zeit>zu den
-        best. T. u. St.</zeit></veranstaltung>
+        Gesellschaft</thema>: <dozent
+        ref="becker_wa"><nachname>Becker</nachname>, <funktion>P. O. Soc.
+        archaeol. Dir.</funktion></dozent>, <zeit>zu den best. T. u.
+        St.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -599,17 +611,18 @@
       <veranstaltung><thema>Nationalökonomie</thema>: <ders>Derselbe</ders>,
       <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Ueber den deutschen Zollverein</thema>:
-      <dozent><grad>M.</grad> <nachname>Biedermann</nachname></dozent>,
-      <zeit>7 U. 2 T.</zeit></veranstaltung>
+      <veranstaltung><thema>Ueber den deutschen Zollverein</thema>: <dozent
+      ref="biedermann_k"><grad>M.</grad>
+      <nachname>Biedermann</nachname></dozent>, <zeit>7 U. 2
+      T.</zeit></veranstaltung>
     </sachgruppe>
 
     <sachgruppe>
       <titel>V. Mathematische Wissenschaften.</titel>
 
       <veranstaltung><thema>Fortsetzung der Differentialrechnung mit
-      Grundlegung der Integralrechnung</thema>:
-      <dozent><nachname>Drobisch</nachname>, <funktion>P.
+      Grundlegung der Integralrechnung</thema>: <dozent
+      ref="drobisch_mw"><nachname>Drobisch</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>10 U. 6 T. (2 T.
       öff.)</zeit></veranstaltung>
 
@@ -964,9 +977,9 @@
 
       <veranstaltung><thema>Christliche Kirchengeschichte, <notiz
       betreff="fortsetzung">1. Theil</notiz>, nach s. Lehrbuche in zweiter
-      Ausgabe</thema>: <dozent><grad>D.</grad> <nachname>Niedner</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>7 U. 6 T. u. 8 U. 2
-      T.</zeit></veranstaltung>
+      Ausgabe</thema>: <dozent ref="niedner_cw"><grad>D.</grad>
+      <nachname>Niedner</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>7 U. 6 T. u. 8 U. 2 T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Kirchengeschichte der neuern Zeit</thema>:
       <dozent><grad>M.</grad> <nachname>Lindner</nachname>, <funktion>Theol.
@@ -1149,9 +1162,10 @@
         <trennlinie/>
 
         <veranstaltung><thema>Uebungen der Lausitzer Gesellschaft im
-        Disputiren und Extemporiren</thema>: <dozent><grad>D.</grad>
-        <nachname>Niedner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>9 U. Mont.</zeit> <modus>privatissime</modus>, aber
+        Disputiren und Extemporiren</thema>: <dozent
+        ref="niedner_cw"><grad>D.</grad> <nachname>Niedner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9 U. Mont.</zeit>
+        <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <trennlinie/>
@@ -1210,7 +1224,7 @@
 
           <veranstaltung><thema>Erklärung der Justinian. Institutionen nach
           der kleinern Ausg. von <gesperrt>Schrader</gesperrt> (Berl.
-          1840.)</thema>: <dozent><grad>D.</grad>
+          1840.)</thema>: <dozent ref="frege_w"><grad>D.</grad>
           <nachname>Frege</nachname></dozent>, <zeit>11 U. 2 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -1451,7 +1465,7 @@
         <seite>16</seite>
 
         <veranstaltung><thema>Examinatorium über einzelne Theile des römischen
-        Rechts</thema>: <dozent><grad>D.</grad>
+        Rechts</thema>: <dozent ref="frege_w"><grad>D.</grad>
         <nachname>Frege</nachname></dozent>, <zeit>11 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -1475,10 +1489,10 @@
       <sachgruppe>
         <titel>I. Propädeutik und Geschichte der Medicin.</titel>
 
-        <veranstaltung><thema>Studienplan für die Medicin</thema>:
-        <dozent><grad>D.</grad> <nachname>Clarus</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>8 U.</zeit> <thema>in den ersten 6 bis 8
-        Tagen des Halbjahres</thema>
+        <veranstaltung><thema>Studienplan für die Medicin</thema>: <dozent
+        ref="clarus_jca"><grad>D.</grad> <nachname>Clarus</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>8 U.</zeit> <thema>in den
+        ersten 6 bis 8 Tagen des Halbjahres</thema>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Encyklopädie und Methodologie der
@@ -1761,9 +1775,9 @@
         <titel>XI. Klinik.</titel>
 
         <veranstaltung><thema>Allgemeine klinische Beobachtungen über die
-        herrschende Witterungs- und Krankheitsconstitution</thema>:
-        <dozent><grad>D.</grad> <nachname>Clarus</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>½ 10 U. 4 T.</zeit>
+        herrschende Witterungs- und Krankheitsconstitution</thema>: <dozent
+        ref="clarus_jca"><grad>D.</grad> <nachname>Clarus</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>½ 10 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Klinik <ort>im königl. Institute am
