@@ -1599,8 +1599,7 @@ unterscheiden-->
         <thema>in lateinischen Vorträgen</thema>, <zeit>in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltungsverweis><thema>Physiologie der Sinnesorgane</thema>,
-        <siehe>s. Anatomie</siehe>.<!--(Grenzfall: 1 VA passt im Verweisbereich)--></veranstaltungsverweis>
+        <absatz>Physiologie der Sinnesorgane, <siehe>s. Anatomie</siehe>.<!--(Grenzfall: 1 VA passt im Verweisbereich)--></absatz>
       </sachgruppe>
 
       <sachgruppe>
@@ -1670,13 +1669,13 @@ unterscheiden-->
       <sachgruppe>
         <titel>VII. Specielle Pathologie und Therapie.</titel>
 
-        <veranstaltung><thema><notiz betreff="fortsetzung">Erster
+        <veranstaltungsgruppe><thema><notiz betreff="fortsetzung">Erster
         Theil</notiz> des in einem Jahre zu vollendenden Cursus der speciellen
         Pathologie und Therapie (Fieber und Entzündungen)</thema>:
         <dozent><grad>D.</grad> <nachname>Cerutti</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
-        <modus>öffentlich</modus> u. <zeit>4 U. 4 T.</zeit>
-        <modus>privatim</modus>.</veranstaltung>
+        O.</funktion></dozent>, <veranstaltung><zeit>11 U. 2 T.</zeit>
+        <modus>öffentlich</modus></veranstaltung> u. <veranstaltung><zeit>4 U.
+        4 T.</zeit> <modus>privatim<!--(Problem hier: die Zeiten ergänzen sich so, dass die privatim-Höhrer auch zu den öffentlichen Terminen gehen können, womit es für diese als  e i n e  VA zählen könnte.--></modus></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Ueber Kinderkrankheiten</thema>:
         <dozent><grad>D.</grad> <nachname>Jörg</nachname>, <funktion>P.
@@ -1721,8 +1720,8 @@ unterscheiden-->
         E.</funktion></dozent>, <zeit>10 U. Mont. u. Donn.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Geschichte der psychischen
-        Medicin</thema>: <siehe>s. Propädeutik und Geschichte</siehe>.<!--(Grenzfall: 1 VA im Verweisbereich)--></veranstaltungsverweis>
+        <absatz>Geschichte der psychischen Medicin: <siehe>s. Propädeutik und
+        Geschichte</siehe>.<!--(Grenzfall: 1 VA im Verweisbereich)--></absatz>
       </sachgruppe>
 
       <sachgruppe>
@@ -1743,7 +1742,7 @@ unterscheiden-->
         <nachname>Bock</nachname></dozent>, <zeit>in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Anleitung zur Augenoperation</thema>:
+        <veranstaltung><thema>Anleitung zu Augenoperationen</thema>:
         <dozent><grad>D.</grad> <nachname>Ritterich</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>in zu best. St.</zeit></veranstaltung>
 
@@ -1777,11 +1776,13 @@ unterscheiden-->
       <sachgruppe>
         <titel>X. Entbindungskunst.</titel>
 
-        <veranstaltung><thema>Entbindungskunst</thema>:
+        <veranstaltungsgruppe><thema>Entbindungskunst</thema>:
         <dozent><grad>D.</grad> <nachname>Jörg</nachname>, <funktion>P.
-        O.</funktion></dozent>, <thema>nach s. Compendium</thema>, <zeit>8 U.
-        4 T.</zeit> <modus>öffentlich</modus> und <zeit>8 U. 2 T.</zeit>
-        <modus>privatim</modus>.</veranstaltung>
+        O.</funktion></dozent>, <thema>nach s. Compendium</thema>,
+        <veranstaltung><zeit>8 U. 4 T.</zeit>
+        <modus>öffentlich</modus></veranstaltung> und <veranstaltung><zeit>8
+        U. 2 T.</zeit>
+        <modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Der erste oder physiologisch-diätetische Theil
         der Geburtshilfe</thema>: <dozent><grad>D.</grad>
@@ -1858,7 +1859,7 @@ Verweis zu Rechtswissenschaft?--></zeit></veranstaltung>
         <titel>XIII. Verschiedene Uebungen.</titel>
 
         <veranstaltung><thema>Examinirübungen über Anatomie und
-        Physiologie</thema>; <dozent><grad>D.</grad>
+        Physiologie</thema>: <dozent><grad>D.</grad>
         <nachname>Aßmann</nachname></dozent>, <zeit>in zu best. St.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
 
@@ -1883,9 +1884,9 @@ Verweis zu Rechtswissenschaft?--></zeit></veranstaltung>
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Leitung der ihm übertragenen Repetitionen im
-        königl. klinischen Institute</thema>: <dozent><grad>D.</grad>
-        <nachname>Hasse</nachname></dozent>, <zeit>zu den best.
-        St.</zeit></veranstaltung>
+        königl. klinischen Institute<!--(Ort noch verifizieren)--></thema>:
+        <dozent><grad>D.</grad> <nachname>Hasse</nachname></dozent>, <zeit>zu
+        den best. St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Examinir- und Repetirübungen über beliebige
         Zweige der Medicin</thema>: <dozent><grad>D.</grad>
@@ -1917,7 +1918,7 @@ Verweis zu Rechtswissenschaft?--></zeit></veranstaltung>
 
     <absatz>Zu der <gesperrt>naturhistorischen Sammlung</gesperrt> der
     Universität findet Mittw. und Sonnab. von 10 bis 12 Uhr freier Zutritt
-    <korrektur original="S">s</korrektur>tatt.</absatz>
+    Statt.</absatz>
 
     <absatz>Die Bittschriften um die vom <gesperrt>akademischen
     Senate</gesperrt> zu vergebenden Stipendien haben die Commilitonen im
