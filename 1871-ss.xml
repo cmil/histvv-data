@@ -24,7 +24,7 @@
 
     <quelle/>
 
-    <status>
+    <status komplett="ja">
       <transkribent>Beatrice</transkribent>
     </status>
   </kopf>
@@ -71,10 +71,10 @@
         E.</funktion></dozent>, <zeit>7 U. früh 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber die Fundamente von Kant's
-        Moralphilosophie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>4 U. 3 T. (Mont., Dienst. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Moralphilosophie</thema><korrektur>:</korrektur> <dozent><grad>D.
+        ph.</grad> <nachname>Drobisch</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>4 U. 3 T. (Mont., Dienst. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Ueber die Entwickelung der neuesten
         speculativen Theologie und Religionsphilosophie (seit Schleiermacher)
@@ -109,6 +109,9 @@
         <dozent><grad>D. ph.</grad> <nachname>Hermann</nachname>, <funktion>P.
         E.</funktion></dozent>, <siehe>s.
         Sprachwissenschaften</siehe>.</veranstaltungsverweis>
+
+        <!--Dieser Veranstaltungsverweis referiert auf eine Veranstaltung deren Titel weitaus komplexer ist als das Wort Sprachphilosophie!
+-->
 
         <veranstaltung><thema>Ueber die Hauptprobleme der philosophischen
         Sitten- und Rechtslehre</thema>: <dozent><grad>D. ph.</grad>
@@ -161,7 +164,7 @@
           <veranstaltung><thema>Cursus im Orgelspiele in mehreren
           Abtheilungen</thema>: <ders>Derselbe</ders>.</veranstaltung>
 
-          <veranstaltung><thema>Uebungen des Univeritäts-Gesangvereins der
+          <veranstaltung><thema>Uebungen des Universitäts-Gesangvereins der
           Pauliner</thema>: <ders>Derselbe</ders>, <zeit>an 2
           Abenden</zeit>.</veranstaltung>
 
@@ -238,8 +241,9 @@
           <veranstaltungsverweis><thema>Pädagogische Section des Seminars für
           praktische Theologie</thema>: <dozent><grad>D. th.</grad>
           <nachname>Hofmann</nachname>, <funktion>P. O.
-          Hon.</funktion></dozent>, <siehe>s. prakt.
-          Theol.</siehe></veranstaltungsverweis>
+          Hon.</funktion></dozent>, <siehe>s. prakt. Theol.</siehe><!--Dieser VV könnte auf zwei Veranstaltungen verweisen, eine V unter der prakt. Theol. und die 
+andere bei den Übungen der praktischen Theol.!
+--></veranstaltungsverweis>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
@@ -289,17 +293,17 @@
           <siehe>s. phil. Uebb.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Interpretationen von Euripides'
-          Iphgenia i. T.</thema>: <dozent><grad>D. ph.</grad>
+          Iphigenia i. T.</thema>: <dozent><grad>D. ph.</grad>
           <nachname>Curtius</nachname>, <funktion>P. O.</funktion></dozent>,
           <siehe>s. phil. Sem.</siehe></veranstaltungsverweis>
 
           <seite>6</seite>
 
-          <veranstaltung><thema>Die Herakleiden des Euripides, erklärt mit
-          Einleitung über den Werth dieser Tragödie</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Minckwitz</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>in 2 zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung><thema>Die Herakleiden des Euripides<korrektur
+          original=".">,</korrektur> erklärt mit Einleitung über den Werth
+          dieser Tragödie</thema>: <dozent><grad>D. ph.</grad>
+          <nachname>Minckwitz</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>in 2 zu best. St.</zeit></veranstaltung>
 
           <veranstaltung><thema>Aristophanes' Frösche und Geschichte der
           griechischen Komödie</thema>: <dozent><grad>D. jur. &amp; ph.</grad>
@@ -341,8 +345,8 @@
           <veranstaltungsverweis><thema>Interpretation ausgewählter Briefe
           Cicero's</thema>: <dozent><grad>D. ph.</grad>
           <nachname>Lange</nachname>, <funktion>P. O.
-          des.</funktion></dozent>, <siehe>s. phil.
-          Sem.</siehe></veranstaltungsverweis>
+          des.</funktion></dozent>, <siehe>s. phil. Sem<korrektur
+          original="..">.</korrektur></siehe></veranstaltungsverweis>
 
           <veranstaltung><thema>Erklärung von Cicero's 1. Buch über den
           Staat</thema>: <dozent><grad>D. ph.</grad>
@@ -2276,63 +2280,90 @@
 
         <seite>27</seite>
 
-        <veranstaltung>Chirurgische Klinik im
-        Jacobshospital<korrektur>:</korrektur> D. med. Thiersch, P. O., 9½-11
-        U. 6 T.</veranstaltung>
+        <veranstaltung><thema>Chirurgische Klinik <ort>im
+        Jacobshospital</ort></thema><korrektur>:</korrektur> <dozent><grad>D.
+        med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>9½-11 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung>Geburtshilfliche und gynäkologische Klinik und
-        Poliklinik (in der Entbindungsschule im Trierschen Institute): D. med.
-        Credé, P. O., 7 U. 6 T.</veranstaltung>
+        <veranstaltung><thema>Geburtshilfliche und gynäkologische Klinik und
+        Poliklinik <ort>(in der Entbindungsschule im Trierschen
+        Institute)</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Credé</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>7 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung>Medicinische Poliklinik: D. med. Wagner, P. O., 2 U. 5
-        T. (ausschl. Mittw.)</veranstaltung>
+        <veranstaltung><thema>Medicinische Poliklinik</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Wagner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>2 U. 5 T. (ausschl.
+        Mittw.)</zeit></veranstaltung>
 
-        <veranstaltung>Chirurgische Poliklinik: D. med. Schmidt, P. E., 11 U.
-        6 Tage.</veranstaltung>
+        <veranstaltung><thema>Chirurgische Poliklinik</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Schmidt</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 6
+        Tage</zeit>.</veranstaltung>
 
-        <veranstaltung>Districtspoliklinik: D. med. Thomas, P. E. des.,
-        Referatstunden in zu best. T. u. St., öffentlich.</veranstaltung>
+        <veranstaltung><thema>Districtspoliklinik</thema>: <dozent><grad>D.
+        med.</grad> <nachname>Thomas</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>Referatstunden in zu best. T. u.
+        St.</zeit>, <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung>Klinik für Augenkrankheiten (in der Augenheilanstalt):
-        D. med. Coccius, P. O., d. Z. Dech., 12 U. 6 T.</veranstaltung>
+        <veranstaltung><thema>Klinik für Augenkrankheiten <ort>(in der
+        Augenheilanstalt)</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Coccius</nachname>, <funktion>P. O., d. Z.
+        Dech.</funktion></dozent>, <zeit>12 U. 6 T.</zeit></veranstaltung>
 
         <trennlinie/>
 
-        <veranstaltung>Laryngologische Poliklinik: D. med. Merkel, P. E., 3 U.
-        3 T. (Mont., Mittw. u. Sonn.) privatissime, aber
-        unentgeltlich.</veranstaltung>
+        <veranstaltung><thema>Laryngologische Poliklinik</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Merkel</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>3 U. 3 T. (Mont., Mittw. u.
+        Sonn.)</zeit> <modus>privatissime</modus>, aber
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung>Otiatrische Poliklinik (Königsstr. 24 im
-        Gartengebäude): D. med. Hagen, 11-1 U. 6 T.
-        unentgeltlich.</veranstaltung>
+        <veranstaltung><thema>Otiatrische Poliklinik <ort>(Königsstr. 24 im
+        Gartengebäude)</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Hagen</nachname></dozent>, <zeit>11-1 U. 6 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung>Poliklinik für Ohrenkranke (im Vordergebäude des
-        Trier'schen Instituts): D. med. Wendt, 12-1½ U. 6 T.
-        unentgeltlich.</veranstaltung>
+        <veranstaltung><thema>Poliklinik für Ohrenkranke <ort>(im
+        Vordergebäude des Trier'schen Instituts)</ort></thema>:
+        <dozent><grad>D. med.</grad> <nachname>Wendt</nachname></dozent>,
+        <zeit>12-1½ U. 6 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung>Pädiatrische Poliklinik: D. med. Fürst, 4 U. 3 T.
-        (Dienst., Donn. u. Sonn.)</veranstaltung>
+        <veranstaltung><thema>Pädiatrische Poliklinik</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Fürst</nachname></dozent>,
+        <zeit>4 U. 3 T. (Dienst., Donn. u. Sonn.)</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
         <titel>XII. Gerichtliche Arzneiwissenschaft u.
         Staats-Arzneikunde.</titel>
 
-        <veranstaltung>Gerichtliche Medicin: D. med. Sonnenkalb, P. E., 4 U. 3
-        T. (Dienst., Donn. u. Freit.) öffentlich.</veranstaltung>
+        <veranstaltung><thema>Gerichtliche Medicin</thema>: <dozent><grad>D.
+        med.</grad> <nachname>Sonnenkalb</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>4 U. 3 T. (Dienst., Donn. u.
+        Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung>Repetitorium der Staatsarzneikunde: D. med. Siegel, in
-        zu best. St.</veranstaltung>
+        <veranstaltung><thema>Repetitorium der Staatsarzneikunde</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Siegel</nachname></dozent>,
+        <zeit>in zu best. St.</zeit></veranstaltung>
 
-        <veranstaltungsverweis>Ueber Epizootieen: D. med. Brauell, P. O. Hon.,
-        s. Landwirthsch.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Ueber Epizootieen</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Brauell</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <siehe>s.
+        Landwirthsch.</siehe></veranstaltungsverweis>
 
         <sachgruppe>
           <titel>Staats- und gerichtsärztliche Uebungen.</titel>
 
-          <veranstaltung/>
+          <veranstaltung><thema>Staatsärztliche praktische Uebungen</thema>:
+          <dozent><grad>D. med.</grad> <nachname>Sonnenkalb</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>4-5½ U. 2
+          T.</zeit></veranstaltung>
 
-          <veranstaltungsverweis/>
+          <veranstaltungsverweis><thema>Uebungen im Einimpfen der
+          Schutzpocken</thema>: <ders>Derselbe</ders>, <siehe>s. Spec.
+          Pathol.</siehe></veranstaltungsverweis>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
@@ -2340,5 +2371,21 @@
 
   <trennlinie/>
 
-  <absatz/>
+  <absatz>Uebrigens wird der Fechtmeister Roux und der Tanzmeister G. Friedel,
+  auf Verlangen, gehörigen Unterricht ertheilen. Auch können sich die
+  Studirenden des Unterrichts der bei hiesiger Zeichnungs-, Maler- und
+  Architektur-Akademie angestellten Lehrer bedienen.</absatz>
+
+  <seite>28</seite>
+
+  <absatz>Die Universitätsbibliothek wird täglich 2 Stunden geöffnet, nämlich
+  Mont., Mittw., Donn. und Sonnab. von 11 bis 1 Uhr, Dienst. und Freit. von 2
+  bis 4 Uhr<korrektur original=";">.</korrektur> Die Stadtbibliothek und die
+  mit derselben verbundene Pölitz'sche Bibliothek aber Mont., Mittw. u.
+  Sonnab. von 2 bis 4 Uhr. Das zoologische Museum ist Mittw. u. Sonnab. von 10
+  bis 12 Uhr, das Universitäts-Herbarium Dienst. u. Freit. früh von 9 bis 12
+  Uhr, das Brückner-Lampe'sche pharmakognostische Museum Donn. von 1 bis 3
+  Uhr, das archäologische Museum Sonntags von 10 bis 12 Uhr geöffnet.</absatz>
+
+  <trennlinie/>
 </vv>
