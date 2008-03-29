@@ -24,7 +24,7 @@
 
     <quelle/>
 
-    <status>
+    <status komplett="ja">
       <transkribent>Beatrice</transkribent>
     </status>
   </kopf>
@@ -162,7 +162,7 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Die Harmonik Seb. Bachs verglichen mit den
-          Tonsystemen Rameau's u. Hauptmann's, nebst akustischer Erörterungen
+          Tonsystemen Rameau's u. Hauptmann's, nebst akustischen Erörterungen
           und Betrachtungen der Helmholtz'schen "Theorie von den
           Tonempfindungen"</thema>: <ders>Derselbe</ders>, <zeit>in 2 zu best.
           St<korrektur original=",">.</korrektur></zeit></veranstaltung>
@@ -699,6 +699,9 @@
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
+          <!--S. 9 u. 10 beide VVe verweisen auf diese V.!
+-->
+
           <veranstaltung><thema>Historische Gesellschaft</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>,
@@ -711,6 +714,8 @@
           E.</funktion></dozent>, <zeit>5 U. Mittwoch</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+          <!--S. 7 und 9 beide VVe verweisen auf diese V.! -->
         </sachgruppe>
       </sachgruppe>
 
@@ -791,9 +796,11 @@
       <nachname>Knapp</nachname>, <funktion>P. E.</funktion></dozent> <zeit>4
       U. 2 T.</zeit></veranstaltung>
 
-      <absatz>Staatsrecht, <siehe>s. Rechtswissenschaft</siehe>.</absatz>
+      <veranstaltungsverweis><thema>Staatsrecht</thema>, <siehe>s.
+      Rechtswissenschaft</siehe>.</veranstaltungsverweis>
 
-      <absatz>Völkerrecht, <siehe>s. Rechtswissenschaft</siehe>.</absatz>
+      <veranstaltungsverweis><thema>Völkerrecht</thema>, <siehe>s.
+      Rechtswissenschaft</siehe>.</veranstaltungsverweis>
 
       <trennlinie/>
 
@@ -874,7 +881,7 @@
         <dozent><grad>D. ph.</grad> <nachname>Frank</nachname></dozent>,
         <zeit>8 U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Cultur der Handelgewächse</thema>:
+        <veranstaltung><thema>Cultur der Handelsgewächse</thema>:
         <dozent><grad>D. ph. &amp; jur.</grad> <nachname>Blomeyer</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>10 U. 2 T. (Dienst. u.
         Freit.)</zeit></veranstaltung>
@@ -2139,7 +2146,7 @@ Frank oder Schenk?
         <veranstaltung><thema>Examinatorien über Geburtshilfe nebst
         Phantomübungen</thema>: <dozent><grad>D. med.</grad>
         <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>4 U. 6 T.</zeit>, <modus>privatissime</modus>. </veranstaltung>
+        <zeit>4 U. 6 T.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Theoretische und praktische Operationslehre für
         Geburtshelfer</thema>: <dozent><grad>D. med.</grad>
@@ -2163,8 +2170,183 @@ Frank oder Schenk?
 
         <seite>26</seite>
 
-        <veranstaltung/>
+        <veranstaltung><thema>Ueber Frauenkrankheiten</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Germann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>7 U. Ab. an 3 zu best.
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+
+        <sachgruppe>
+          <titel>Geburtshilfliche Uebungen.</titel>
+
+          <veranstaltung><thema>Ueber geburtshilfliche Operationen mit
+          Einübung derselben am Phantom</thema>: <dozent><grad>D. med.</grad>
+          <nachname>Credé</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>4 U. 4 T.</zeit></veranstaltung>
+
+          <veranstaltungsverweis><thema>Phantomübungen</thema>:
+          <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>,
+          <funktion>P. E.</funktion></dozent>, <siehe>s.
+          Gynäkologie</siehe>.</veranstaltungsverweis>
+
+          <veranstaltung><thema>Einübung geburtshilflicher Operationen am
+          Phantom</thema>: <dozent><grad>D. med.</grad>
+          <nachname>Haake</nachname></dozent>, <zeit>4 U. 4
+          T.</zeit></veranstaltung>
+        </sachgruppe>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>XI. Klinik.</titel>
+
+        <veranstaltung><thema>Klinische Besprechungen</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Wunderlich</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>6 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Physikalisch-diagnostische Untersuchungen und
+        Besprechungen</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Thomas</nachname>, <funktion>P. E. des.</funktion></dozent>,
+        <zeit>in 2 zu best. Stunden</zeit>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Medicinische Klinik <ort>im
+        Jacobshospital</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>9-10½ U. 6 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Chirurgische Klinik <ort>im
+        Jacobshospital</ort></thema><korrektur
+        original=",">:</korrektur><dozent><grad>D. med.</grad>
+        <nachname>Thiersch</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>10½-12 U. 6 T.</zeit> </veranstaltung>
+
+        <veranstaltung><thema>Geburtshilfliche und gynäkologische Klinik und
+        Poliklinik <ort>(in der Entbindungsschule im Trierschen
+        Institute)</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Credé</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>8 U. 6 T.</zeit> </veranstaltung>
+
+        <veranstaltung><thema>Medicinische Poliklinik</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Wagner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>2 U. 5 T. (ausschl.
+        Mittw.)</zeit></veranstaltung>
+
+        <veranstaltung><thema>Chirurgische Poliklinik</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Schmidt</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 6
+        Tage</zeit>.</veranstaltung>
+
+        <veranstaltung><thema>Districtspoliklinik</thema>: <dozent><grad>D.
+        med.</grad> <nachname>Thomas</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>in zu best. T. u. St.</zeit>,
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Klinik für Augenkrankheiten <ort>(in der
+        Augenheilanstalt)</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Coccius</nachname>, <funktion>P. O., d. Z.
+        Dech.</funktion></dozent>, <zeit>12-1½ U. 6 T.</zeit></veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Poliklinik für Halskranke</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Merkel</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>3 U. 3 T. (Mont., Mittw. u.
+        Sonn.)</zeit> <modus>privatissime</modus>, aber
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung><thema>Otiatrische Poliklinik <ort>(Königsstr. 24, I.
+        im Gartengebäude)</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Hagen</nachname></dozent>, <zeit>11-1 U. 6 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung><thema>Poliklinik für Ohrenkranke <ort>(im
+        Vordergebäude des Trier'schen Instituts)</ort></thema>:
+        <dozent><grad>D. med.</grad> <nachname>Wendt</nachname></dozent>,
+        <zeit>12-1½ U. 6 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltungsverweis><thema>Pädiatrische Klinik <ort>(Carolinenstr.
+        16 II)</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>,
+        <siehe>s. Spec. Path. u. Ther.</siehe></veranstaltungsverweis>
+
+        <seite>27</seite>
+
+        <veranstaltung><thema>Pädiatrische Poliklinik</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Fürst</nachname></dozent>,
+        <zeit>3 U. 3 T. (Dienst., Donn. u. Sonn.)</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>XII. Gerichtliche Arzneiwissenschaft u.
+        Staats-Arzneikunde.</titel>
+
+        <veranstaltung><thema>Gerichtliche Medicin für Juristen</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Sonnenkalb</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>4 U. 3 T. (Dienst., Donn.
+        u. Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Gerichtliche Medicin, erläutert durch
+        Experimente</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Reclam</nachname>, <funktion>P. E. des.</funktion></dozent>,
+        <zeit>4 U. 3 T. (Dienst. Donn. u. Freit.)</zeit></veranstaltung>
+
+        <veranstaltung><thema>Die Lehre von den Giften</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Sonnenkalb</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>4 U. Mont.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Gerichtliche Geburtskunde</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Meissner</nachname></dozent>,
+        <zeit>6 U. Ab. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltungsverweis><thema>Gerichtliche Chemie</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Carstanjen</nachname></dozent>,
+        <siehe>s. Chemie</siehe>.</veranstaltungsverweis>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Repetitorium der Staatsarzneikunde</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Siegel</nachname></dozent>,
+        <zeit>in zu best. St.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Medicinalpolizei der Wohnungen, Städte und
+        öffentlichen Gebäude</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Reclam</nachname>, <funktion>P. E. des.</funktion></dozent>,
+        <zeit>5 U. 2 T. (Dienst. u. Freit.)</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltungsverweis><thema>Oeffentliche Hygieine</thema>, <siehe>s.
+        Hygieine</siehe>.</veranstaltungsverweis>
+
+        <sachgruppe>
+          <titel>Staats- und gerichtärztliche Uebungen.</titel>
+
+          <veranstaltung><thema>Staatsärztliches Prakticum für
+          Mediciner</thema>: <dozent><grad>D. med.</grad>
+          <nachname>Sonnenkalb</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>3-4½ U. 2 T.</zeit></veranstaltung>
+        </sachgruppe>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
+
+  <trennlinie/>
+
+  <absatz>Uebrigens wird der Fechtmeister Roux und der Tanzmeister G. Friedel,
+  auf Verlangen, gehörigen Unterricht ertheilen. Auch können sich die
+  Studirenden des Unterrichts der bei heisiger Zeichnungs-, Maler- und
+  Architektur-Akademie angestellten Leher bedienen. Die Universitätsbibliothek
+  wird täglich 2 Stunden geöffnet, nämlich Mont., Mittw., Donn. und Sonnab.
+  von 11 bis 1 Uhr, Dienst. und Freit. von 2 bis 4 Uhr; Die Stadtbibliothek
+  und die mit derselben verbundene Pölitz'sche Bibliothek aber Mont., Mittw.
+  u. Sonnab. von 2 bis 4 Uhr. Das zoologische Museum ist Mittw. u. Sonnab. von
+  10 bis 12 Uhr, das Universitäts-Herbarium Dienst. u. Freit. früh von 9 bis
+  12 Uhr, das Brückner-Lampe'sche pharmakognostische Museum Donn. von 1 bis 3
+  Uhr, geöffnet.</absatz>
+
+  <trennlinie/>
 </vv>
