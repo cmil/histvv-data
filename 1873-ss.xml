@@ -853,7 +853,7 @@
           <veranstaltung><thema>Deutsche Literaturgeschichte im 18. und 19.
           Jahrh.</thema><korrektur>:</korrektur><dozent><grad>D. ph.</grad>
           <nachname>Biedermann</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>7 U. früh 4 T.</zeit> </veranstaltung>
+          E.</funktion></dozent>, <zeit>7 U. früh 4 T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Die Lyrik der Deutschen in ihren Ursprüngen
           bis zu ihrer weltliterarhistorischen Entfaltung und Ausdehnung
@@ -1014,7 +1014,7 @@
       zugleich als Einleitung in das Studium der gesammten Staats- und
       Rechtswissenschaft</thema>: <dozent><grad>D. ph. &amp; jur.</grad>
       <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>3 U. 3 T.</zeit> <modus>öffentlich</modus>. </veranstaltung>
+      <zeit>3 U. 3 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Einleitung in das Studium der
       Cameralwissenschaften</thema>: <dozent><grad>D. ph.</grad>
@@ -1208,36 +1208,49 @@
       <funktion>P. O.</funktion></dozent>, <siehe>s.
       Naturwissenschaften</siehe>.</veranstaltungsverweis>
 
-      <veranstaltung>Ueber die hydrodynamischen Gleichungen: D. ph. Vonder
-      Mühll, P. E. des., 8 U. 2 T. (Freit. u. Sonn.)
-      unentgeltlich.</veranstaltung>
+      <veranstaltung><thema>Ueber die hydrodynamischen Gleichungen</thema>:
+      <dozent><grad>D. ph.</grad> <nachnamenpräfix>Vonder</nachnamenpräfix>
+      <nachname>Mühll</nachname>, <funktion>P. E. des.</funktion></dozent>,
+      <zeit>8 U. 2 T. (Freit. u. Sonn.)</zeit>
+      <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-      <veranstaltung>Ausgewählte Kapitel der mathematischen Physik: D. ph.
-      Neumann, P. O., 11 U. 2 T. (Donn. u. Freit.)</veranstaltung>
+      <veranstaltung><thema>Ausgewählte Kapitel der mathematischen
+      Physik</thema>: <dozent><grad>D. ph.</grad>
+      <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>11 U. 2 T. (Donn. u. Freit.)</zeit></veranstaltung>
 
       <trennlinie/>
 
-      <veranstaltung>Geographische Ortsbestimmungen mit Uebungen auf der
-      Sternwarte: D. ph. Bruhns, P. O., 4stündig, 10 U. u. 3 U. Dienst. u.
-      Freit.</veranstaltung>
+      <veranstaltung><thema>Geographische Ortsbestimmungen mit Uebungen auf
+      der Sternwarte</thema>: <dozent><grad>D. ph.</grad>
+      <nachname>Bruhns</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>4stündig, 10 U. u. 3 U. Dienst. u. Freit.</zeit></veranstaltung>
 
-      <veranstaltung>Ueber die Fixsterne: D. ph. Engelmann, 4 U. 2 T. (Dienst.
-      u. Freit.)</veranstaltung>
+      <veranstaltung><thema>Ueber die Fixsterne</thema>: <dozent><grad>D.
+      ph.</grad> <nachname>Engelmann</nachname></dozent>, <zeit>4 U. 2 T.
+      (Dienst. u. Freit.)</zeit></veranstaltung>
 
-      <veranstaltung>Theorie der hauptsächlichsten astronomischen Intrumente:
-      Derselbe, 3 U. Mont., nebst praktischen Uebungen in zu best. St.
-      unentgeltlich.</veranstaltung>
+      <veranstaltungsgruppe><thema>Theorie der hauptsächlichsten
+      astronomischen Intrumente</thema>: <ders>Derselbe</ders>,
+      <veranstaltung>3 U. Mont.</veranstaltung>, <veranstaltung><thema>nebst
+      praktischen Uebungen</thema> <zeit>in zu best.
+      St.</zeit></veranstaltung> <gebühr>unentgeltlich</gebühr><!--Ist das eine V-Gruppe und wenn ja, wie soll sie getaggt werden?-->.</veranstaltungsgruppe>
 
       <sachgruppe>
         <titel>Mathematische Uebungen.</titel>
 
-        <veranstaltung>Besprechung mathematischer und
-        mathematisch-physikalischer Aufgaben: D. ph. Neumann, P. O., 11 U.
-        Sonn., privatissime, aber unentgeltlich.</veranstaltung>
+        <veranstaltung><thema>Besprechung mathematischer und
+        mathematisch-physikalischer Aufgaben</thema>: <dozent><grad>D.
+        ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>11 U. Sonn.</zeit>,
+        <modus>privatissime</modus>, aber
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung>Mathematisch-physikalische Uebungen: D. ph. Vonder
-        Mühll, P. E. des., in 1 zu best. St., privatissime, aber
-        unentgeltlich.</veranstaltung>
+        <veranstaltung><thema>Mathematisch-physikalische Uebungen</thema>:
+        <dozent><grad>D. ph.</grad> <nachnamenpräfix>Vonder</nachnamenpräfix>
+        <nachname>Mühll</nachname>, <funktion>P. E. des.</funktion></dozent>,
+        <zeit>in 1 zu best. St.</zeit>, <modus>privatissime</modus>, aber
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -1247,16 +1260,608 @@
       <sachgruppe>
         <titel>1. Physik und Chemie.</titel>
 
-        <veranstaltung>Physik, 1. Th.: D. ph. &amp; med. Hankel, P. O., 11 U.
-        6 T.</veranstaltung>
+        <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">1.
+        Th.</notiz></thema>: <dozent><grad>D. ph. &amp; med.</grad>
+        <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>11 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung>Die Hauptkapitel der Experimentalphysik, verb. mit
-        praktischen Uebungen für Pädagogen etc.: D. ph. Weiske, in 2 zu best.
-        St. u. T.</veranstaltung>
+        <veranstaltung><thema>Die Hauptkapitel der Experimentalphysik, verb.
+        mit praktischen Uebungen für Pädagogen etc.</thema>: <dozent><grad>D.
+        ph.</grad> <nachname>Weiske</nachname></dozent>, <zeit>in 2 zu best.
+        St. u. T.</zeit></veranstaltung>
 
         <seite>16</seite>
 
-        <veranstaltung/>
+        <veranstaltung><thema>Mechanische Wärmetheorie</thema>:
+        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Hankel</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>3 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltungsverweis><thema>Ueber die hydrodynamischen
+        Gleichungen</thema>: <dozent><grad>D. ph.</grad>
+        <nachnamenpräfix>Vonder</nachnamenpräfix> <nachname>Mühll</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <siehe>s.
+        Math.</siehe></veranstaltungsverweis>
+
+        <veranstaltungsverweis><thema>Ausgewählte Kapitel der mathematischen
+        Physik</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. math. Wiss.</siehe></veranstaltungsverweis>
+
+        <veranstaltung><thema>Ueber Dampf und Dampfmaschinen</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Marbach</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Entwickelungsgeschichte der Weltkörper</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Zöllner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>4stünd., 5-7 U. Mont. u.
+        Dienst.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Meteorologie</thema>: <ders>Derselbe</ders>,
+        <zeit>2stündig, 5-7 U. Mittw.</zeit>,
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Physikalische Chemie</thema>: <dozent><grad>D.
+        ph. &amp; med.</grad> <nachname>Wiedemann</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>8 U. 4 T. (Dienst., Mittw., Donn. u.
+        Freit.)</zeit></veranstaltung>
+
+        <veranstaltung><thema>Anorganische Experimentalchemie</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Kolbe</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>8 U. 6 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Organische Experimentalchemie</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Carstanjen</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>5 U. 4
+        T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Agriculturchemie</thema>: <dozent><grad>D.
+        ph.</grad> <nachname>Knop</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>9 U. 4 T. (Mittw. bis
+        Sonn.)</zeit></veranstaltung>
+
+        <sachgruppe>
+          <titel>Physikalische und chemische Uebungen.</titel>
+
+          <veranstaltungsverweis><thema>Besprechung
+          mathematisch-physikalischer Aufgaben</thema>: <dozent><grad>D.
+          ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
+          O.</funktion></dozent>, <siehe>s. Mathem.
+          Uebb.</siehe></veranstaltungsverweis>
+
+          <veranstaltungsverweis><thema>Mathematisch-physikalische
+          Uebungen</thema>: <dozent><grad>D. ph.</grad>
+          <nachnamenpräfix>Vonder</nachnamenpräfix>
+          <nachname>Mühll</nachname>, <funktion>P. E.
+          des.</funktion></dozent>, <siehe>s. Mathem.
+          Uebb.</siehe></veranstaltungsverweis>
+
+          <trennlinie/>
+
+          <veranstaltungsgruppe><thema>Praktisch-chemische Uebungen und
+          Untersuchungen</thema>: <dozent><grad>D. ph.</grad>
+          <nachname>Kolbe</nachname>, <funktion>P. O.</funktion></dozent>,
+          <veranstaltung><thema>für Anfänger</thema> <zeit>an 5 Nachmittagen
+          je 2-3 St.</zeit></veranstaltung>, <veranstaltung><thema>für die
+          Geübteren</thema> <zeit>täglich von 9-11 U. und 2-5
+          U.</zeit></veranstaltung></veranstaltungsgruppe>
+
+          <veranstaltung><thema>Chemische und physikalische Arbeiten im
+          Laboratorium</thema>: <dozent><grad>D. ph. &amp; med.</grad>
+          <nachname>Wiedemann</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>täglich, ausser Sonn. Nachm., von 8-1 und 2-5
+          U.</zeit></veranstaltung>
+
+          <veranstaltung><thema>Physikalisch-chemisches Colloquium</thema>:
+          <ders>Derselbe</ders>, <zeit>in zu verabred. St.</zeit>
+          <modus>privatissime</modus>, aber
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+          <veranstaltung><thema>Chemisches Prakticum</thema>: <dozent><grad>D.
+          ph.</grad> <nachname>Knop</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>täglich</zeit>.</veranstaltung>
+
+          <veranstaltungsverweis><thema>Chemisch-physiologische
+          Arbeiten</thema>: <dozent><grad>D. ph.</grad>
+          <nachname>Stohmann</nachname>, <funktion>P. E.
+          des.</funktion></dozent>, <siehe>s. landwirthschaftl.
+          Uebungen</siehe>.</veranstaltungsverweis>
+        </sachgruppe>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>2. Naturgeschichte.</titel>
+
+        <veranstaltung><thema>Paläontologie (die Lehre von den
+        Leitfossilien)</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Credner</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>5 U. 4 T.</zeit></veranstaltung>
+
+        <seite>17</seite>
+
+        <veranstaltung><thema>Petrographie nebst mikroskopischen
+        Demonstrationen an Mineralien und Felsarten</thema>: <dozent><grad>D.
+        ph.</grad> <nachname>Zirkel</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>9 U. 5 T. (ausschl.
+        Sonn.)</zeit></veranstaltung>
+
+        <veranstaltung><thema>Ausgewählte Kapitel der Geologie</thema>:
+        <ders>Derselbe</ders>, <zeit>in 2 zu best. St.</zeit>
+        <modus>öffentlich</modus>. </veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Allgemeine Botanik</thema>: <dozent><grad>D. ph.
+        &amp; med.</grad> <nachname>Schenk</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>7 U. früh 6 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Pharmaceutische Botanik</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Luerssen</nachname></dozent>,
+        <zeit>6 U. 3 T. (Mont., Mittw. u. Freit.)</zeit></veranstaltung>
+
+        <veranstaltung><thema>Die Familien des Pflanzenreichs</thema>:
+        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Schenk</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Die Hauptgruppen des Pflanzenreichs</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Frank</nachname></dozent>,
+        <zeit>3 U. 2 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Morphologie, Physiologie und Systematik der
+        Gefäss-Kryptogamen</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Luerssen</nachname></dozent>, <zeit>6 U. 2 T. (Dienst. u.
+        Donn.)</zeit></veranstaltung>
+
+        <veranstaltungsverweis><thema>Ueber landwirthschaftliche Unkräuter,
+        mit Demonstrationen u. Excursionen</thema>: <dozent><grad>D.
+        ph.</grad> <nachname>Frank</nachname></dozent>, <siehe>s.
+        Landwirthschaftslehre</siehe>.</veranstaltungsverweis>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Allgemeine Naturgeschichte der Thiere</thema>:
+        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Leuckart</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 4
+        T.</zeit></veranstaltung>
+
+        <veranstaltungsverweis><thema>Innere und äussere Krankheiten der
+        Haussäugethiere</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Zürn</nachname>, <funktion>P. E. des.</funktion></dozent>,
+        <siehe>s. Landwirthschaftslehre</siehe>.</veranstaltungsverweis>
+
+        <veranstaltungsverweis><thema>Darwin's Theorie in ihrer Anwendung auf
+        Thierzucht</thema>: <ders>Derselbe</ders>, <siehe>s.
+        Landwirthschaftslehre</siehe>.</veranstaltungsverweis>
+
+        <veranstaltung><thema>Allgemeine u. specielle Naturgeschichte der
+        wirbellosen Thiere</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Nitsche</nachname></dozent>, <zeit>4 U. 4
+        T.</zeit></veranstaltung>
+
+        <veranstaltungsverweis><thema>Ueber die dem Landwirthe nützlichen und
+        schädlichen Insekten</thema>: <ders>Derselbe</ders>, <siehe>s.
+        Landwirthschaftslehre</siehe>.</veranstaltungsverweis>
+
+        <sachgruppe>
+          <titel>Geologische, botanische und zoologische Uebungen.</titel>
+
+          <veranstaltung><thema>Geologisch-paläontologisches
+          Prakticum</thema>: <dozent><grad>D. ph.</grad>
+          <nachname>Credner</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>2stünd., an zu verabred. St.</zeit>,
+          <modus>privatissime</modus>, aber
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+          <veranstaltung><thema>Uebungen in geologischen kartographischen
+          Aufnahmen für Vorgerücktere</thema>: <ders>Derselbe</ders>, <zeit>in
+          zu best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+
+          <trennlinie/>
+
+          <veranstaltung><thema>Uebungen und Arbeiten im botanischen
+          Laboratorium</thema>: <dozent><grad>D. ph. &amp; med.</grad>
+          <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>in zu best. St.</zeit></veranstaltung>
+
+          <veranstaltung><thema>Excursionen</thema>: <ders>Derselbe</ders>,
+          <zeit>in zu best. St.</zeit></veranstaltung>
+
+          <trennlinie/>
+
+          <veranstaltung><thema>Praktische Uebungen auf dem zoologischen
+          Institute</thema>: <dozent><grad>D. ph. &amp; med.</grad>
+          <nachname>Leuckart</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>täglich von 9 U. an</zeit>.</veranstaltung>
+
+          <trennlinie/>
+        </sachgruppe>
+      </sachgruppe>
+    </sachgruppe>
+  </sachgruppe>
+
+  <trennlinie/>
+
+  <seite nr="18"/>
+
+  <sachgruppe>
+    <titel>II. Facultätsstudien.</titel>
+
+    <sachgruppe>
+      <titel>A. Theologie.</titel>
+
+      <sachgruppe>
+        <titel>Theologische Uebungen.</titel>
+
+        <veranstaltung><thema>Leitung der Uebungen einer theologischen
+        Gesellschaft</thema>: <dozent><grad>D. th.</grad>
+        <nachname>Kahnis</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mittw. 7-9 U. Ab.</zeit>, <modus>privatissime</modus>, aber
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>I. Exegetische Theologie.</titel>
+
+        <veranstaltung><thema>Griechische Paläographie (für Philologen und
+        Theologen)</thema>: <dozent><grad>D. th.</grad>
+        <nachnamenpräfix>von</nachnamenpräfix>
+        <nachname>Tischendorf</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>3 U. 2 T.</zeit></veranstaltung>
+
+        <veranstaltungsverweis><thema>Geographie von Palästina</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Delitsch</nachname></dozent>,
+        <siehe>s. Geographie</siehe>.</veranstaltungsverweis>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Einleitung in das A. T.</thema>:
+        <dozent><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 4
+        Tage</zeit>.</veranstaltung>
+
+        <veranstaltung><thema>Ueber Wesen und Form der hebräischen
+        Poesie</thema>: <dozent><grad>D. th.</grad> <nachname>Baur</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>7 U. Mittw.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Auslegung des Hohen Liedes</thema>:
+        <dozent><grad>D. th.</grad> <nachname>Hölemann</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>10 U. 2
+        T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Erklärung der Psalmen</thema>: <dozent><grad>D.
+        th.</grad> <nachname>Baur</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>7 U. 4 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Erklärung des Jona, Amos, Hosea (der drei
+        Propheten des Nordreichs)</thema>: <dozent><grad>D. th.</grad>
+        <nachname>Delitzsch</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>6 U. 2 T. (Dienst. u. Freit.)</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Geschichte des N. T. Kanons</thema>:
+        <dozent><grad>D. th.</grad> <nachnamenpräfix>v.</nachnamenpräfix>
+        <nachname>Tischendorf</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>10 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Einleitung in das N. T.</thema>:
+        <dozent><grad>D. th.</grad> <nachname>Hofmann</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>9 U. 4 Tage</zeit>.</veranstaltung>
+
+        <trennlinie/>
+
+        <seite>19</seite>
+
+        <veranstaltung><thema>Charkteristik der N. T. Schriften</thema>:
+        <dozent><grad>D. th.</grad> <nachname>Luthardt</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>11 U. 2 St.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Auslegung des Evangeliums Matthäi</thema>:
+        <dozent><grad>D. ph. Lic. th.</grad> <nachname>Schmidt</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>10 U. 4
+        T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Erklärung des Römerbriefs</thema>:
+        <dozent><grad>D. th.</grad> <nachname>Luthardt</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 U. 4
+        T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Erklärung des Briefes Pauli an die
+        Galater</thema>: <dozent><grad>D. ph. Lic. th.</grad>
+        <nachname>Schürer</nachname></dozent>, <zeit>12 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung><thema>Lateinische Erklärung der beiden Briefe Pauli an
+        die Thessalonicher</thema>: <dozent><grad>D. th.</grad>
+        <nachname>Hölemann</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>11 U. 3 T.
+        (Mont<korrektur>.</korrektur>, Dienst., Donn.)</zeit>,
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Auslegung des Hebräerbriefes</thema>:
+        <dozent><grad>D. th.</grad> <nachname>Fricke</nachname>, <funktion>P.
+        O., d. Z. Dech.</funktion></dozent>, <zeit>10 U. 4
+        T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Erklärung des Briefes Jacobi</thema>:
+        <dozent><grad>D. th.</grad> <nachname>Lechler</nachname>, <funktion>P.
+        O.</funktion></dozent> <zeit>9 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <sachgruppe>
+          <titel>Exegetische Uebungen.</titel>
+
+          <veranstaltung><thema>Alttestamentliche Uebungen der Lausitzer
+          Prediger-Gesellschaft (Hebraicum I. u. II.)</thema>:
+          <dozent><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>in zu best. St.</zeit>,
+          <modus>privatissime</modus>, aber
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+          <veranstaltung><thema>Exegetische Gesellschaft des A. u. N.
+          T.</thema>: <dozent><grad>D. th.</grad> <nachname>Fricke</nachname>,
+          <funktion>P. O., d. Z. Dech.</funktion></dozent>, <zeit>Mittw. 5-7
+          U.</zeit>, <modus>privatissime</modus>, aber
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+          <veranstaltung><thema>Exegetischer Verein des A. u. N. T.: Alt- und
+          neutestamentliche Stellen zur biblischen Gotteslehre, lateinisch
+          erörtert, verbunden mit Ausarbeitungen, Disputationen und
+          selbständigen Interpretirübungen</thema>: <dozent><grad>D.
+          th.</grad> <nachname>Hölemann</nachname>, <funktion>P. O.
+          Hon.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>,
+          <modus>privatissime</modus>, aber
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        </sachgruppe>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>II. Historische Theologie.</titel>
+
+        <veranstaltung><thema>Kirchengeschichte, <notiz
+        betreff="fortsetzung">1. Theil</notiz></thema>: <dozent><grad>D.
+        th.</grad> <nachname>Kahnis</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>8 U. 6 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Kirchengeschichte des Mittelalters</thema>:
+        <dozent><grad>D. ph. Lic. th.</grad> <nachname>Brockhaus</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>7 U. früh 6
+        T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Reformationsgeschichte</thema>: <dozent><grad>D.
+        th.</grad> <nachname>Kahnis</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>6 U. 2 T. (Mont. u. Donn.)</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Christliche Dogmengeschichte, nach gedruckten
+        Paragraphen</thema>: <dozent><grad>D. th.</grad>
+        <nachname>Lechler</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>8 U. 6 T.</zeit></veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Christliche Sinnbilder</thema>: <dozent><grad>D.
+        ph. Lic. th.</grad> <nachname>Brockhaus</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. u. Freit.)</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+      </sachgruppe>
+
+      <seite>20</seite>
+
+      <sachgruppe>
+        <titel>III. Systematische Theologie.</titel>
+
+        <veranstaltung><thema>Dogmatik</thema>: <dozent><grad>D. th.</grad>
+        <nachname>Kahnis</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>9 U. 6 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Dogmatik, <notiz betreff="fortsetzung">1.
+        Th.</notiz></thema>: <dozent><grad>D. th.</grad>
+        <nachname>Fricke</nachname>, <funktion>P. O., d. Z.
+        Dech.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Ueber die wissenschaftlichen Grundlagen des
+        Glaubens an den persönlichen Gott (für die Studirenden aller
+        Facultäten)</thema>: <ders>Derselbe</ders>, <zeit>6 U. 2 T. (Dienst.
+        u. Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltungsverweis><thema>Biblische Theologie</thema>:
+        <dozent><grad>D. th.</grad> <nachname>Hölemann</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <siehe>s. Exeg.
+        Uebb.</siehe></veranstaltungsverweis>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Comparative Symbolik</thema>: <dozent><grad>D.
+        ph. Lic. th.</grad> <nachname>Delitzsch</nachname></dozent>, <zeit>7
+        U. 4 T.</zeit></veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Theologische Ethik</thema>: <dozent><grad>D.
+        th.</grad> <nachname>Luthardt</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+
+        <sachgruppe>
+          <titel>Systematisch-theologische Uebungen.</titel>
+
+          <veranstaltung><thema>Dogmatische Gesellschaft</thema>:
+          <dozent><grad>D. th.</grad> <nachname>Luthardt</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mont. Ab. 7-9 U.</zeit>,
+          <modus>privatissime</modus>, aber
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+          <veranstaltung><thema>Dogmatische Uebungen der Lausitzer
+          Predigergesellschaft</thema>: <ders>Derselbe</ders>, <zeit>in 1 zu
+          best. St.</zeit>, <modus>privatissime</modus>, aber
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+          <veranstaltung><thema>Uebungen der Lausitzer Predigergesellschaft
+          (Biblisch-theologische Abth.)</thema>: <dozent><grad>D. th.</grad>
+          <nachname>Fricke</nachname>, <funktion>P. O., d. Z.
+          Dech.</funktion></dozent>, <zeit>in zu best. St. u. T.</zeit>,
+          <modus>privatissime</modus>, aber
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        </sachgruppe>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>IV. Praktische Theologie.</titel>
+
+        <veranstaltung><thema>Praktische Theologie, <notiz
+        betreff="fortsetzung">2. Th.</notiz> (Homiletik, Liturgik, Theorie der
+        Seelsorge u. s. w.)</thema>: <dozent><grad>D. th.</grad>
+        <nachname>Baur</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>8 U. 5 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Praktische Theologie, <notiz
+        betreff="fortsetzung">1. Th.</notiz> (einschl. der
+        Katechetik)</thema>: <dozent><grad>D. th.</grad>
+        <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>12 U. 5 T.</zeit></veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Evangelische Katechetik</thema>:
+        <dozent><grad>D. ph. Lic. th.</grad> <nachname>Schmidt</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <sachgruppe>
+          <titel>Praktisch-theologische Uebungen.</titel>
+
+          <veranstaltungsgruppe><thema>Seminar für prakische
+          Theologie</thema>: <veranstaltung><thema>Homiletische
+          Section</thema>: <dozent><grad>D. th.</grad>
+          <nachname>Baur</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mittw. 3-5 U.</zeit></veranstaltung>;
+          <veranstaltung><thema>katechetische Section</thema>:
+          <dozent><grad>D. th.</grad> <nachname>Hofmann</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mont. 4-6
+          U.</zeit></veranstaltung>; <veranstaltung><thema>pädagogische
+          Section</thema>: <ders>Derselbe</ders>, <zeit>(jeden Mont. 3 U.
+          Besuch einer Lehr- und Erziehungsanstalt)</zeit></veranstaltung>
+          <modus>öffentlich</modus>. - <veranstaltung><thema>Die Gesangübungen
+          der liturgischen Section</thema> leitet <dozent><grad>D. ph.</grad>
+          <nachname>Langer</nachname>, <funktion>Lect.
+          publ.</funktion></dozent>, <thema>in verschiedenen
+          Abtheilungen</thema></veranstaltung>.</veranstaltungsgruppe>
+
+          <seite>21</seite>
+
+          <veranstaltung><thema>Uebungen der Lausitzer Predigergesellschaft
+          (homiletische Abth.)</thema>: <dozent><grad>D. th.</grad>
+          <nachname>Fricke</nachname>, <funktion>P. O., d. Z.
+          Dech.</funktion></dozent>, <zeit>in zu best. St. u. T.</zeit>,
+          <modus>privatissime</modus>, aber
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+          <veranstaltung><thema>Katechetische Uebungen der Lausitzer
+          Predigergesellschaft</thema>: <dozent><grad>D. ph. Lic. th.</grad>
+          <nachname>Schmidt</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Mittw. 5-7 U.</zeit>, <modus>privatissime</modus>, aber
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+          <veranstaltung><thema>Katechetische Gesellschaft</thema>:
+          <ders>Derselbe</ders>, <zeit>Sonn. 5-7 U.</zeit>
+          <modus>privatissime</modus>, aber
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        </sachgruppe>
+      </sachgruppe>
+    </sachgruppe>
+
+    <sachgruppe>
+      <titel>B. Rechtswissenschaft.</titel>
+
+      <absatz>Naturrecht, <siehe>s. Philosophie</siehe>.</absatz>
+
+      <sachgruppe>
+        <titel>I. Propädeutik und juristische Literaturgeschichte.</titel>
+
+        <veranstaltung><thema>Encyklopädie und Methodologie der
+        Rechtswissenschaft</thema>: <dozent><grad>D. jur.</grad>
+        <nachname>Lueder</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>10 U. 4 T.</zeit></veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Biographie berühmter Juristen seit Angelus
+        Politianus</thema>: <dozent><grad>D. jur.</grad>
+        <nachname>Hänel</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>5 U. 2 St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>II. Privatrecht.</titel>
+
+        <sachgruppe>
+          <titel>1. Römisches und gemeines Recht.</titel>
+
+          <veranstaltung><thema>Institutionen des römischen Rechts</thema>:
+          <dozent><grad>D. jur.</grad> <nachname>Kuntze</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>11 U. 6
+          T.</zeit></veranstaltung>
+
+          <veranstaltung><thema>Institutionen und römische
+          Rechtsgeschichte</thema>: <dozent><grad>D. jur.</grad>
+          <nachname>Voigt</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>9 U. 6 T. und 10 U. 4 T.</zeit></veranstaltung>
+
+          <veranstaltung><thema>Innere Geschichte des römischen Rechts
+          (Geschichte des römischen Privatrechts u. Processes)</thema>:
+          <dozent><grad>D. jur.</grad> <nachname>Schmidt</nachname>,
+          <funktion>P. O., d. Z. Dech.</funktion></dozent>, <zeit>5 U. 6
+          T.</zeit></veranstaltung>
+
+          <veranstaltung><thema>Aeussere römische Rechtsgeschichte</thema>:
+          <dozent><grad>D. jur.</grad> <nachname>Kuntze</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
+
+          <veranstaltung><thema>Geschichte des römischen
+          Civilprocesses</thema>: <dozent><grad>D. jur.</grad>
+          <nachname>Voigt</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>8 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+
+          <trennlinie/>
+
+          <veranstaltung><thema>Recht der Pandekten, mit Ausnahme des
+          Familien- u. des Erbrechts, (nach dem Lehrbuche von Arndts)</thema>:
+          <dozent><grad>D. jur.</grad> <nachname>Schmidt</nachname>,
+          <funktion>P. O., d. Z. Dech.</funktion></dozent>, <zeit>9-11 U. 6
+          Tage</zeit>.</veranstaltung>
+
+          <veranstaltung><thema>Familien- und Erbrecht als Theil der
+          Pandekten</thema>: <dozent><grad>D. jur.</grad>
+          <nachname>Müller</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>7-9 U. 2 T. u. einmal Nachm. 4-6 U.</zeit></veranstaltung>
+
+          <seite>22</seite>
+
+          <sachgruppe>
+            <titel>Exegese.</titel>
+
+            <veranstaltung/>
+
+            <veranstaltung/>
+          </sachgruppe>
+
+          <sachgruppe>
+            <titel>Civilistische Uebungen.</titel>
+          </sachgruppe>
+        </sachgruppe>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
