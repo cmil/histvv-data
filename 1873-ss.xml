@@ -24,7 +24,7 @@
 
     <quelle/>
 
-    <status>
+    <status komplett="ja">
       <transkribent>Beatrice</transkribent>
     </status>
   </kopf>
@@ -109,8 +109,7 @@
         <veranstaltung><thema>Die deutsche Philosophie der letzten vier
         Jahrzehnte</thema>: <dozent><grad>D. ph.</grad>
         <nachname>Seydel</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>7 U. früh 2 T.</zeit>
-        <modus>öffenttlich</modus>.</veranstaltung>
+        <zeit>7 U. früh 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -368,7 +367,7 @@
       <trennlinie/>
 
       <veranstaltung><thema>Logisch-etymologische Behandlung
-      naturgeschichtlicher und vorhistorischer, sowohl geo- las
+      naturgeschichtlicher und vorhistorischer, sowohl geo- als
       topographischer Namen, mit Berücksichtigung lautlicher
       Gesichtspunkte</thema>: <dozent><grad>D. ph.</grad>
       <nachname>Jacobi</nachname>, <funktion>P. E.</funktion></dozent>,
@@ -427,12 +426,13 @@
           <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname></dozent>,
           <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltungsverweis><thema>Aristoteles' Metaphysik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Fritzsche</nachname>,
-          <funktion>P. E.</funktion></dozent>, <siehe>s. philol.
-          Uebb.</siehe>, und <dozent><grad>D. ph.</grad>
+          <veranstaltungsgruppe><thema>Aristoteles' Metaphysik</thema>:
+          <veranstaltungsverweis><dozent><grad>D. ph.</grad>
+          <nachname>Fritzsche</nachname>, <funktion>P. E.</funktion></dozent>,
+          <siehe>s. philol. Uebb.</siehe></veranstaltungsverweis>, und
+          <veranstaltungsverweis><dozent><grad>D. ph.</grad>
           <nachname>Heinze</nachname></dozent>, <siehe>s. philos.
-          Uebb.</siehe><!--das sind zwei V-Verweise!--></veranstaltungsverweis>
+          Uebb.</siehe></veranstaltungsverweis></veranstaltungsgruppe>
 
           <veranstaltungsverweis><thema>Erklärung von Thukydides B.
           I.</thema>: <dozent><grad>D. ph.</grad>
@@ -937,12 +937,10 @@
         St. öffentlich.)</modus></veranstaltung>
 
         <veranstaltung><thema>Grundzüge römischer Topographie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Gardhausen</nachname></dozent>,
+        <dozent><grad>D. ph.</grad>
+        <nachname>Gard<korrektur>t</korrektur>hausen</nachname></dozent>,
         <zeit>in 1 zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
-
-        <!--Gardthausen oder Gardhausen?
--->
 
         <trennlinie/>
 
@@ -972,7 +970,7 @@
       </sachgruppe>
 
       <sachgruppe>
-        <titel>3. Historische Hülfswissenschaften</titel>
+        <titel>3. Historische Hülfswissenschaften.</titel>
 
         <veranstaltung><thema>Handschiftenkunde des Mittelalters mit Uebungen
         im Lesen lateinischer Schriftstücke</thema>: <dozent><grad>D.
@@ -1235,7 +1233,7 @@
       <ders>Derselbe</ders>, <zeit>3 U. Mont.</zeit></veranstaltung>,
       <veranstaltung><thema>nebst praktischen Uebungen</thema> <ders/>
       <zeit>in zu best. St.</zeit></veranstaltung>
-      <gebühr>unentgeltlich</gebühr><!--Ist das eine V-Gruppe und wenn ja, wie soll sie getaggt werden?-->.</veranstaltungsgruppe>
+      <gebühr>unentgeltlich</gebühr>.</veranstaltungsgruppe>
 
       <sachgruppe>
         <titel>Mathematische Uebungen.</titel>
@@ -1857,8 +1855,7 @@
             <veranstaltung><thema>Exegese ausgewählter
             Digestenstellen</thema>: <dozent><grad>D. jur.</grad>
             <nachname>Hänel</nachname>, <funktion>P. O.</funktion></dozent>,
-            <zeit>5 U. 2 St.</zeit> <modus>öffentlich</modus>.
-            </veranstaltung>
+            <zeit>5 U. 2 St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><thema>Exegese ausgewählter Digestenstellen,
             verbunden mit schriftlichen Uebungen</thema>: <dozent><grad>D.
@@ -2020,7 +2017,7 @@
       <sachgruppe>
         <titel>VI. Kirchenrecht.</titel>
 
-        <veranstaltung><thema>Katholisches und evnagelisches Kirchenrecht,
+        <veranstaltung><thema>Katholisches und evangelisches Kirchenrecht,
         einschl. des Eherechts</thema>: <dozent><grad>D. jur.</grad>
         <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>10 U. 5 T. (ausschl. Sonn.)</zeit></veranstaltung>
@@ -2141,8 +2138,8 @@
         <zeit>in 1 zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Pathologische Anatomie</thema>,
-        <siehe>s. allgemeine Pathologie</siehe>.</veranstaltungsverweis>
+        <absatz>Pathologische Anatomie, <siehe>s. allgemeine
+        Pathologie</siehe>.</absatz>
 
         <trennlinie/>
 
@@ -2326,64 +2323,311 @@
       <sachgruppe>
         <titel>VII. Specielle Pathologie und Therapie.</titel>
 
-        <veranstaltung>Specielle Pathologie und Therapie: 1. Th..
-        Constitutionskrankheiten: D. med. Friedländer, in 5 zu best.
-        St.</veranstaltung>
+        <veranstaltung><thema>Specielle Pathologie und Therapie: <notiz
+        betreff="fortsetzung">1. Th.</notiz>:
+        Constitutionskrankheiten</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Friedländer</nachname></dozent>, <zeit>in 5 zu best.
+        St.</zeit></veranstaltung>
 
-        <veranstaltung>Specielle Pathologie und Therapie der
-        Constitutionskrankheiten: D. med. Heubner, 5 U. 4 T.</veranstaltung>
+        <veranstaltung><thema>Specielle Pathologie und Therapie der
+        Constitutionskrankheiten</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Heubner</nachname></dozent>, <zeit>5 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung>Ueber Pocken, mit Uebungen im Einimpfen der
-        Schutzpocken: D. med. Sonnenkalb, P. E., 3-5 U. Mittwoch
-        öffentlich.</veranstaltung>
+        <veranstaltung><thema>Ueber Pocken, mit Uebungen im Einimpfen der
+        Schutzpocken</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Sonnenkalb</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>3-5 U. Mittwoch</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltungsverweis>Ueber Frauenkrankheiten, s.
-        Gynäkologie.</veranstaltungsverweis>
+        <absatz>Ueber Frauenkrankheiten, <siehe>s.
+        Gynäkologie</siehe>.</absatz>
 
-        <veranstaltung>Pathologie und Therapie der Kinderkrankheiten: D. med.
-        Fürst, 3 U. 2 T. (Mont. u. Mittw.) unentgeltlich.</veranstaltung>
+        <veranstaltung><thema>Pathologie und Therapie der
+        Kinderkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Fürst</nachname></dozent>, <zeit>3 U. 2 T. (Mont. u.
+        Mittw.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
         <titel>VIII. Chirurgie.</titel>
 
-        <veranstaltung>Chirurgie, 1. Th.: D. med. Thiersch, P. O., in 4 zu
-        best. St.</veranstaltung>
+        <veranstaltung><thema>Chirurgie, <notiz betreff="fortsetzung">1.
+        Th.</notiz></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Thiersch</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>in 4 zu best. St.</zeit></veranstaltung>
 
-        <veranstaltung>Anatomie am Lebenden: D. med. Schmidt, P. E., 3 U. 2 T.
-        (Mont. u. Donn.)</veranstaltung>
+        <veranstaltung><thema>Anatomie am Lebenden</thema>: <dozent><grad>D.
+        med.</grad> <nachname>Schmidt</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>3 U. 2 T. (Mont. u.
+        Donn.)</zeit></veranstaltung>
 
-        <veranstaltung>Chiurgische Krankheiten der Harnwerkzeuge: Derselbe, 4
-        U. Freit., öffentlich.</veranstaltung>
+        <veranstaltung><thema>Chirurgische Krankheiten der
+        Harnwerkzeuge</thema>: <ders>Derselbe</ders>, <zeit>4 U.
+        Freit.</zeit>, <modus>öffentlich</modus>.</veranstaltung>
 
         <sachgruppe>
           <titel>Chirurgische Uebungen.</titel>
 
-          <veranstaltung>Chirurgischer Op</veranstaltung>
+          <veranstaltung><thema>Chirurgischer Operationscursus</thema>:
+          <dozent><grad>D. med.</grad> <nachname>Thiersch</nachname>,
+          <funktion>P. O.</funktion></dozent>, in Verb. mit <dozent><grad>D.
+          med.</grad> <nachname>Braune</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>5-7 U. 6 T.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
       <sachgruppe>
         <titel>IX. Augen-, Ohren- und Kehlkopfheilkunde.</titel>
 
-        <veranstaltung/>
+        <veranstaltung><thema>Theoretische Augenheilkunde</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Michel</nachname></dozent>,
+        <zeit>4 U. 3 T. (Mont., Dienst. u. Donn.)</zeit>.,
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung/>
+        <veranstaltung><thema>Ueber innere und optische Krankheiten des
+        menschlichen Auges</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Coccius</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>6 U. Ab. 2 T. (Dienst. u. Freit.)</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung/>
+        <veranstaltung><thema>Ueber physikalische Instrumente in ihrer
+        Bedeutung für Behandlung und Operationen von Augenkrankheiten</thema>:
+        <ders>Derselbe</ders>, <zeit>7 U. Ab. 2 T. (Dienst. u. Freit.)</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung/>
+        <veranstaltung><thema>Untersuchungsmethoden des Auges</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Michel</nachname></dozent>,
+        <zeit>2 mal 2 St., an zu best. T.</zeit></veranstaltung>
 
-        <veranstaltung/>
+        <veranstaltung><thema>Augenoperationscursus</thema>:
+        <ders>Derselbe</ders>, <zeit>in 2 zu best. St.</zeit></veranstaltung>
 
         <trennlinie/>
 
-        <veranstaltung/>
+        <veranstaltung><thema>Cursus der Ohrenheilkunde</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Hagen</nachname></dozent>,
+        <zeit>6 U. Ab., 2 T.</zeit></veranstaltung>
 
         <seite>28</seite>
 
-        <veranstaltung/>
+        <veranstaltung><thema>Elektro-otiatischer Cursus</thema>:
+        <ders>Derselbe</ders>, <zeit>in 2 zu best. St.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Cursus der Laryngoskopie, Pharyngoskopie und
+        Rhinoskopie</thema>: <ders>Derselbe</ders>, <zeit>6 U. Ab., 2
+        T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Privatcurse über die wichtigsten Krankheiten des
+        Gehörorgans, der Nase, des Rachens und des Kehlkopfes, verb. mit
+        pathologisch-anatomischen Demonstrationen und Einübung der
+        diagnostischen u. therapeutischen Technik</thema>: <dozent><grad>D.
+        med.</grad> <nachname>Wendt</nachname></dozent>, <zeit>in zu best.
+        St.</zeit></veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>X. Gynäkologie.</titel>
+
+        <veranstaltung><thema>Theoretische u. praktische Geburtshilfe</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Germann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>7 U. 3 T.</zeit>,
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Examinatorium über Geburtshilfe und
+        Phantomübungen</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>5 U. 6 T.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Theoretische und praktische Operationslehre für
+        Geburtshelfer</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Meissner</nachname></dozent>, <zeit>in zu best. St.</zeit>,
+        <modus>privatissime</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Repetitorium der Gynäkologie</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Haake</nachname></dozent>,
+        <zeit>4 U. 2 T. (Dienst. u. Donn.)</zeit></veranstaltung>
+
+        <veranstaltung><thema>Geburtshilfliche Operationslehre am Phantom u.
+        am Spirituspräparate und Examinatorium der theoretischen
+        Geburtshilfe</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Kormann</nachname></dozent>, <zeit>6 St. (Privatcurse zu
+        30-36 Stunden.)</zeit></veranstaltung>
+
+        <veranstaltung><thema>Geburtshilfliche Propädeutik</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Fürst</nachname></dozent>,
+        <zeit>6 U. Sonn.</zeit>,
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Ueber Krankheiten der Frauen</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Credé</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>3 U. 2 T. (Dienst. u. Freit.)</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Ueber Frauenkrankheiten</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>4 U. 2 T. (Dienst. u.
+        Freit.)</zeit></veranstaltung>
+
+        <veranstaltung><thema>Ueber die Krankheiten der Schwangeren,
+        Gebärenden und Wöchnerinnen</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Meissner</nachname></dozent>, <zeit>6 U. Ab. 2 T.</zeit>,
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <sachgruppe>
+          <titel>Geburtshilfliche Uebungen.</titel>
+
+          <veranstaltung><thema>Ueber geburtshilfliche Operationen mit
+          Einübung derselben am Phantome</thema>: <dozent><grad>D. med.</grad>
+          <nachname>Credé</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>4 U. 4 T.</zeit></veranstaltung>
+
+          <veranstaltung><thema>Darstellung des Geburtsmechanismus mit
+          Demonstrationen am Phantom</thema>: <dozent><grad>D. med.</grad>
+          <nachname>Haake</nachname></dozent>, <zeit>4 U. 3 T. (Mont., Mittw.
+          u. Freit.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        </sachgruppe>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>XI. Klinik.</titel>
+
+        <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent><grad>D.
+        med.</grad> <nachname>Heubner</nachname></dozent>, <zeit>12 U. 3 T.
+        (Dienst., Mittw. u. Freit.)</zeit></veranstaltung>
+
+        <seite>29</seite>
+
+        <veranstaltung><thema>Praktische Uebungen</thema>: <dozent><grad>D.
+        med.</grad> <nachname>Wunderlich</nachname>, <funktion>P. O., d. Z.
+        Dech.</funktion></dozent>, <zeit>in einigen Abendst.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Medicinische Klinik <ort>im städtischen
+        Krankenhause</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Wunderlich</nachname>, <funktion>P. O., d. Z.
+        Dech.</funktion></dozent>, <zeit>8-9½ U. 6 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Chirurgische Klinik <ort>im städtischen
+        Krankenhause</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Thiersch</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>9½-11 U. 6 T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Geburtshilfliche und gynäkologische Klinik und
+        Poliklinik <ort>(in der Entbindungsschule im Trierschen
+        Institute)</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Credé</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>7 U. 6 T. u. 3 U. Mont.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Medicinische Poliklinik</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Wagner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>2 U. 5 T. (ausschl.
+        Mittw.)</zeit></veranstaltung>
+
+        <veranstaltung><thema>Chirurgische Poliklinik</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Schmidt</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 6
+        T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Districtspoliklinik</thema>: <dozent><grad>D.
+        med.</grad> <nachname>Thomas</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <gebühr>unentgeltlich</gebühr>,
+        <thema>Referatstunden</thema> <zeit>3 U. an zu best.
+        T.</zeit></veranstaltung>
+
+        <veranstaltung><thema>Klinik für Augenkrankheiten <ort>(in der
+        Augenheilanstalt)</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Coccius</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>12-1 U. 6 T.</zeit></veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Pädiatrische Klinik <ort>(in der
+        Kinderheilanstalt Carolinenstrasse 16, II.)</ort></thema>:
+        <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>9 U. 2 T. (Mont. u. Donn.)</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Laryngiatrische Poliklinik mit Anleitung zur
+        Laryngoskopie</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Merkel</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>3 U. 3 T. (Mont., Mittw. u. Sonn.)</zeit>,
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung><thema>Otiatrische Poliklinik <ort>(Königsstr. 24 im
+        Gartengebäude)</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Hagen</nachname></dozent>, <zeit>11-1 U. 6 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung><thema>Poliklinik für Ohrenkranke <ort>(im
+        Paulinum)</ort></thema>: <dozent><grad>D. med.</grad>
+        <nachname>Wendt</nachname></dozent>, <zeit>12-1½ U. 6 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung><thema>Pädiatrische Poliklinik</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Fürst</nachname></dozent>,
+        <zeit>3 U. 2 T. (Dienst.<korrektur original=","> </korrektur> u.
+        Sonn.)</zeit> <modus>privatissime</modus> aber
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+      </sachgruppe>
+
+      <sachgruppe>
+        <titel>XII. Gerichtliche Arzneiwissenschaft und
+        Staats-Arzneikunde.</titel>
+
+        <veranstaltung><thema>Gerichtliche Medicin für Juristen</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Sonnenkalb</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>4 U. 2 T. (Dienst. u.
+        Freit.)</zeit></veranstaltung>
+
+        <veranstaltung><thema>Gerichtliche Medicin</thema>: <dozent><grad>D.
+        med.</grad> <nachname>Siegel</nachname></dozent>, <zeit>3 U. 2 T.
+        (Dienst. u. Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Curse über Staatsarzneikunde</thema>:
+        <dozent><grad>D. med.</grad> <nachname>Siegel</nachname></dozent>,
+        <zeit>in zu best. T. u. St.</zeit>,
+        <modus>privatissime</modus>.</veranstaltung>
+
+        <seite>30</seite>
+
+        <veranstaltung><thema>Staatsärztliche praktische Uebungen (für
+        Mediciner)</thema>: <dozent><grad>D. med.</grad>
+        <nachname>Sonnenkalb</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>4-5½ U. 2 T.</zeit></veranstaltung>
+
+        <veranstaltungsverweis><thema>Uebungen im Einimpfen der
+        Schutzpocken</thema>: <ders>Derselbe</ders>, <siehe>s. Spec.
+        Pathol.</siehe></veranstaltungsverweis>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
+
+  <trennlinie/>
+
+  <absatz>Uebrigens wird der Fechtmeister <gesperrt>Roux</gesperrt> und der
+  Tanzmeister <gesperrt>G. Friedel</gesperrt>, auf Verlangen, gehörigen
+  Unterricht ertheilen. Auch können sich die Studirenden des Unterrichts der
+  bei hiesiger Zeichnungs-, Maler- und Architektur-Akademie angestellten
+  Lehrer bedienen. Die <gesperrt>Universitätsbibliothek</gesperrt> wird
+  täglich 2 Stunden geöffnet, nämlich Mont., Mittw., Donn. und Sonnab. von 11
+  bis 1 Uhr, Dienst. und Freit. von 2 bis 4 Uhr; Anträge auf Anschaffung von
+  Büchern werden jederzeit von dem der betreffenden Facultät angehörenden
+  Mitgliede der Bibliothek-Commission entgegen genommen. Die
+  <gesperrt>Stadtbibliothek</gesperrt> und die mit derselben verbundene
+  <gesperrt>Pölitz'sche</gesperrt> Bibliothek ist geöffnet Mont., Mittw. und
+  Sonnab. von 2 bis 4 Uhr. Das <gesperrt>zoologische</gesperrt> Museum ist
+  Mittw. und Sonnab. von 10 bis 12 Uhr, das
+  <gesperrt>Universitäts-Herbarium</gesperrt> Dienst. u. Freit. früh von 9 bis
+  12 Uhr, das <gesperrt>mineralogische Museum</gesperrt> Sonn. von 10-12 Uhr,
+  das <gesperrt>pharmakognostische</gesperrt> Museum Sonn. von 1 bis 3 Uhr
+  geöffnet.</absatz>
+
+  <trennlinie/>
 </vv>
