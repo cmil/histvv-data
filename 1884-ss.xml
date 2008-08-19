@@ -1205,9 +1205,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der alten Philosophie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Heinze</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 9-10
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="heinze_m"><grad>D. ph.</grad>
+        <nachname>Heinze</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. u. Freit. 9-10 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der neueren Philosphie, mit einer
         einleitenden Uebersicht über die Geschichte der älteren
@@ -1216,10 +1217,10 @@
         O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Geschichte der Philosophie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hermann</nachname>, <funktion>P.
-        O. Hon.</funktion></dozent>, <zeit>Mont. bis Freit. 9-10 U.</zeit>,
-        <modus>privatim</modus> (<modus>1 St. publice</modus><!--(VA-Gruppe?)-->).</veranstaltung>
+        <veranstaltung><thema>Geschichte der Philosophie</thema>: <dozent
+        ref="hermann_c"><grad>D. ph.</grad> <nachname>Hermann</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mont. bis Freit. 9-10
+        U.</zeit>, <modus>privatim</modus> (<modus>1 St. publice</modus><!--(VA-Gruppe?)-->).</veranstaltung>
 
         <veranstaltung><thema>Logik oder Erkenntnisslehre</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Seydel</nachname>, <funktion>P.
@@ -1237,10 +1238,10 @@
         Donnerst. u. Sonnab. 8-9 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Psychologie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Heinze</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit. 3-4 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Psychologie</thema>: <dozent
+        ref="heinze_m"><grad>D. ph.</grad> <nachname>Heinze</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
+        u. Freit. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Psychologie</thema>: <dozent><grad>D. ph.</grad>
         <nachname>Strümpell</nachname>, <funktion>P. O.
@@ -1361,7 +1362,7 @@
         <titel>B. Philologie.</titel>
 
         <veranstaltung><thema>Allgemeine Grammatik und
-        Sprachphilosophie</thema>: <dozent><grad>D. ph.</grad>
+        Sprachphilosophie</thema>: <dozent ref="hermann_c"><grad>D. ph.</grad>
         <nachname>Hermann</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 5-6 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
