@@ -63,9 +63,9 @@
         <siehe>s. systemat. Philos.</siehe></veranstaltungsverweis>
 
         <veranstaltung><thema>Allgemeine Geschichte der Philosophie</thema>:
-        <dozent><grad>D.</grad> <nachname>Weisse</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>6 T. (4 U. 4 T. u. 5 U. Dienst. u.
-        Freit.)</zeit></veranstaltung>
+        <dozent ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>6 T. (4 U. 4 T. u. 5 U.
+        Dienst. u. Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Vergleichende Auseinandersetzung der wichtigsten
         Systeme und Lehren der Philosophie</thema>: <dozent><grad>D.
@@ -102,9 +102,10 @@
         <nachname>Seydel</nachname></dozent>, <zeit>6 U. Ab. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Psychologie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Drobisch</nachname>, <funktion>P. O., d. Z.
-        Dech.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Psychologie</thema>: <dozent
+        ref="drobisch_mw"><grad>D. ph.</grad> <nachname>Drobisch</nachname>,
+        <funktion>P. O., d. Z. Dech.</funktion></dozent>, <zeit>12 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Elemente der mathematischen Psychologie</thema>:
         <ders>Derselbe</ders>, <zeit>10 U. 2 T.</zeit>
@@ -115,10 +116,10 @@
         T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Unsterblichkeitsfrage in philosophischer und
-        theologischer Entwickelung</thema>: <dozent><grad>D.</grad>
-        <nachname>Weisse</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>5 U. 2 T. (Mont. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        theologischer Entwickelung</thema>: <dozent
+        ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>5 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber das Verhältniss der Philosophie zur
         Theologie, mit besonderer Rücksicht auf die Geschichte dieses
@@ -189,7 +190,7 @@
           <titel>Philosophische und pädagogische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen der philosophischen
-          Gesellschaft</thema>: <dozent><grad>D.</grad>
+          Gesellschaft</thema>: <dozent ref="weisse_ch"><grad>D.</grad>
           <nachname>Weisse</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>in zu best. St.</zeit> <modus>privatissime</modus> aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -247,22 +248,23 @@
         <titel>1. Altclassische Sprachen.</titel>
 
         <veranstaltung><thema>Einleitung in das vergleichende Studium der
-        griechischen u. lateinischen Sprache</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Curtius</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>5 U. 2 T. (Mont. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        griechischen u. lateinischen Sprache</thema>: <dozent
+        ref="curtius_g"><grad>D. ph.</grad> <nachname>Curtius</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>5 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <sachgruppe>
           <titel>Griechische Sprache.</titel>
 
-          <veranstaltung><thema>Griechische Grammatik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Curtius</nachname>,
+          <veranstaltung><thema>Griechische Grammatik</thema>: <dozent
+          ref="curtius_g"><grad>D. ph.</grad> <nachname>Curtius</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>11 U. 4
           Tage</zeit>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Griechische Paläographie</thema>:
-          <dozent><grad>D.</grad> <nachname>Tischendorf</nachname>,
-          <funktion>P. O.</funktion></dozent>, <siehe>s. exeg.
+          <dozent ref="tischendorf_lfk"><grad>D.</grad>
+          <nachname>Tischendorf</nachname>, <funktion>P.
+          O.</funktion></dozent>, <siehe>s. exeg.
           Theol.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Griechische Inschriftenkunde</thema>:
@@ -288,7 +290,7 @@
           <zeit>3 U. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
 
           <veranstaltungsverweis><thema>Erklärung von Euripides' Iphigenia in
-          Tauris</thema>: <dozent><grad>D. ph.</grad>
+          Tauris</thema>: <dozent ref="curtius_g"><grad>D. ph.</grad>
           <nachname>Curtius</nachname>, <funktion>P. O.</funktion></dozent>,
           <siehe>s. phil. Uebb.</siehe></veranstaltungsverweis>
 
@@ -360,7 +362,7 @@
           <dozent><grad>D. ph.</grad> <nachname>Klotz</nachname>, <funktion>P.
           O., Sem. phil. Dir.</funktion></dozent></veranstaltung> -
           <veranstaltung><thema>im Erklären von Euripides' Iphigenia in
-          Tauris</thema>: <dozent><grad>D. ph.</grad>
+          Tauris</thema>: <dozent ref="curtius_g"><grad>D. ph.</grad>
           <nachname>Curtius</nachname>, <funktion>P. O., Sem. phil.
           Dir.</funktion></dozent></veranstaltung> - <thema>und im Disputiren
           über schriftliche Aufsätze</thema> (unter abwechselnder Leitung
@@ -586,9 +588,9 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der neuesten Zeit (seit
-        1848)</thema>: <dozent><grad>D.</grad> <nachname>Wachsmuth</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>2 U. 2 T. (Dienst. u.
-        Freit.)</zeit></veranstaltung>
+        1848)</thema>: <dozent ref="wachsmuth_ewg"><grad>D.</grad>
+        <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>2 U. 2 T. (Dienst. u. Freit.)</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -606,15 +608,16 @@
         Uebb.</siehe></veranstaltungsverweis>
 
         <veranstaltung><thema>Geschichte Deutschlands in der Zeit vom Passauer
-        Vertrage bis zum Westphälischen Frieden (1552-1648)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wenck</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
+        Vertrage bis zum Westphälischen Frieden (1552-1648)</thema>: <dozent
+        ref="wenck_wb"><grad>D. ph.</grad> <nachname>Wenck</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte Dänemarks seit König Christian
-        I.</thema>: <dozent><grad>D.</grad> <nachname>Wachsmuth</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>2 U. 2 T. (Mont. und
-        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        I.</thema>: <dozent ref="wachsmuth_ewg"><grad>D.</grad>
+        <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>2 U. 2 T. (Mont. und Donn.)</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -673,9 +676,9 @@
         T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Griechische Paläographie</thema>:
-        <dozent><grad>D.</grad> <nachname>Tischendorf</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. exeg.
-        Theologie</siehe>.</veranstaltungsverweis>
+        <dozent ref="tischendorf_lfk"><grad>D.</grad>
+        <nachname>Tischendorf</nachname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. exeg. Theologie</siehe>.</veranstaltungsverweis>
 
         <trennlinie/>
 
@@ -736,9 +739,10 @@
 
       <trennlinie/>
 
-      <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit></veranstaltung>
+      <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>: <dozent
+      ref="jacobi_vfl"><grad>D. ph.</grad> <nachname>Jacobi</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>in 2 zu best.
+      St.</zeit></veranstaltung>
 
       <veranstaltung><thema>Die Lehre von landwirthschaftlichen
       Ertragsanschlägen</thema>: <ders>Derselbe</ders>, <zeit>in 1 zu best.
@@ -753,14 +757,15 @@
       Tage</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Forstwirthschaftslehre für Cameralisten</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
+      <dozent ref="jacobi_vfl"><grad>D. ph.</grad>
+      <nachname>Jacobi</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>in 2 zu best. St.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Ueber Dampf u. Dampfmaschinen</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Marbach</nachname>, <funktion>P.
-      E.</funktion></dozent>, <siehe>s.
-      Physik</siehe>.</veranstaltungsverweis>
+      <dozent ref="marbach_go"><grad>D. ph.</grad>
+      <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
+      <siehe>s. Physik</siehe>.</veranstaltungsverweis>
 
       <veranstaltung><thema>Chemische Technologie</thema>: <dozent><grad>D.
       ph.</grad> <nachname>Kerndt</nachname></dozent>, <zeit>3 U. 6
@@ -780,9 +785,10 @@
     <sachgruppe>
       <titel>V. Mathematische Wissenschaften.</titel>
 
-      <veranstaltung><thema>Arithmetik</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>10 U. 4 T.</zeit></veranstaltung>
+      <veranstaltung><thema>Arithmetik</thema>: <dozent
+      ref="marbach_go"><grad>D. ph.</grad> <nachname>Marbach</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>10 U. 4
+      T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Theorie der Flächen der zweiten Ordnung</thema>:
       <dozent><grad>D. ph.</grad> <nachname>Möbius</nachname>, <funktion>P.
@@ -831,7 +837,7 @@
       <siehe>s. Physik</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Elemente der mathematischen
-      Psychologie</thema>: <dozent><grad>D. ph.</grad>
+      Psychologie</thema>: <dozent ref="drobisch_mw"><grad>D. ph.</grad>
       <nachname>Drobisch</nachname>, <funktion>P. O., d. Z.
       Dech.</funktion></dozent>, <siehe>s. philosoph.
       Wiss.</siehe></veranstaltungsverweis>
@@ -858,9 +864,9 @@
         O.</funktion></dozent>, <zeit>3 U. 2 T. (Mont. u. Donn.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber Dampf u. Dampfmaschinen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Marbach</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
+        <veranstaltung><thema>Ueber Dampf u. Dampfmaschinen</thema>: <dozent
+        ref="marbach_go"><grad>D. ph.</grad> <nachname>Marbach</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Elektrochemie (über die chemischen Wirkungen der
@@ -1017,8 +1023,9 @@
         <trennlinie/>
 
         <veranstaltung><thema>Grundzüge der griechischen Paläographie</thema>:
-        <dozent><grad>D.</grad> <nachname>Tischendorf</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>3 U. 2 T.</zeit></veranstaltung>
+        <dozent ref="tischendorf_lfk"><grad>D.</grad>
+        <nachname>Tischendorf</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>3 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Einleitung in das N. T.</thema>:
         <dozent><grad>D.</grad> <nachname>Hofmann</nachname>, <funktion>P.
@@ -1047,7 +1054,7 @@
         O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Erklärung des Briefes Pauli an die
-        Galater</thema>: <dozent><grad>D.</grad>
+        Galater</thema>: <dozent ref="tischendorf_lfk"><grad>D.</grad>
         <nachname>Tischendorf</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1130,9 +1137,9 @@
         <zeit>11 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Die Unsterblichkeitsfrage in
-        philosophischer u. theologischer Entwickelung</thema>:
-        <dozent><grad>D.</grad> <nachname>Weisse</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. philos.
+        philosophischer u. theologischer Entwickelung</thema>: <dozent
+        ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>P. O.</funktion></dozent>, <siehe>s. philos.
         Wissensch.</siehe></veranstaltungsverweis>
 
         <trennlinie/>
@@ -1623,8 +1630,8 @@
         O.</funktion></dozent>, <zeit>3 U. 3 T. (Mont., Donn.,
         Freit.)</zeit></veranstaltung>
 
-        <veranstaltung><thema>Pathologische Anatomie</thema>:
-        <dozent><grad>D.</grad> <nachname>Bock</nachname>, <funktion>P.
+        <veranstaltung><thema>Pathologische Anatomie</thema>: <dozent
+        ref="bock_ce"><grad>D.</grad> <nachname>Bock</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Pathologisch-anatomische u. physikalische

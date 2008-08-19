@@ -66,10 +66,10 @@
       O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12
       U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Genesis</thema>: <dozent><grad>D. th.</grad>
-      <nachname>Baur</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont., Dienst., Donnerst. u. Freitag 7-8 U. früh</zeit>
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Genesis</thema>: <dozent ref="baur_g"><grad>D.
+      th.</grad> <nachname>Baur</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freitag 7-8
+      U. früh</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Prediger Salomonis (Koheleth) nebst vergl. Blicken
       auf die Philosophie des Pessimismus</thema>: <dozent><grad>D. th.</grad>
@@ -154,8 +154,8 @@
       <nachname>Kahnis</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 9-10 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Symbolik</thema>: <dozent><grad>D. ph. Lic.
-      th.</grad> <nachname>Harnack</nachname>, <funktion>P.
+      <veranstaltung><thema>Symbolik</thema>: <dozent ref="harnack_a"><grad>D.
+      ph. Lic. th.</grad> <nachname>Harnack</nachname>, <funktion>P.
       E.</funktion></dozent>, <zeit>Mont. bis Freit. 12-1 U.</zeit>
       <modus>privatim</modus>, <modus>1 St. publice</modus>.</veranstaltung>
 
@@ -166,7 +166,7 @@
 
       <veranstaltung><thema>System der praktischen Theologie, <notiz
       betreff="fortsetzung">I. Theil</notiz> (Einleitung, Homiletik,
-      Katechetik)</thema>: <dozent><grad>D. th.</grad>
+      Katechetik)</thema>: <dozent ref="baur_g"><grad>D. th.</grad>
       <nachname>Baur</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont., Dienst., Mittw., Donnerst. u. Freit. 8-9 U.</zeit>
       <modus>privatim</modus>.</veranstaltung>
@@ -205,9 +205,9 @@
       (Hebraicum I) der Lausitzer Predigergesellschaft</thema>:
       <dozent><grad>D. th.</grad> <nachname>Delitzsch</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Donnerst. 5-6 U.</zeit></veranstaltung> u.
-      <veranstaltung><thema>(Hebraicum II)</thema> <dozent><grad>D. th.</grad>
-      <nachname>Baur</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Dienst. 5-6 U.</zeit></veranstaltung>,
+      <veranstaltung><thema>(Hebraicum II)</thema> <dozent
+      ref="baur_g"><grad>D. th.</grad> <nachname>Baur</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Dienst. 5-6 U.</zeit></veranstaltung>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltungsgruppe>
 
@@ -234,9 +234,9 @@
 
       <veranstaltung><thema>Kirchenhistorische Gesellschaft (Arbeiten über die
       Zeit des Decius u. Valerian; Euseb. h. e. VI. VII. Cyprian)</thema>:
-      <dozent><grad>D. ph. Lic. th.</grad> <nachname>Harnack</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. 7½-9½ U.
-      Abd.</zeit> <modus>privatissime</modus>, aber
+      <dozent ref="harnack_a"><grad>D. ph. Lic. th.</grad>
+      <nachname>Harnack</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Donnerst. 7½-9½ U. Abd.</zeit> <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Dogmatische Gesellschaft</thema>: <dozent><grad>D.
@@ -251,8 +251,8 @@
       <zeit>Mittw. 12-1 U.</zeit> <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
-      <veranstaltungsgruppe><thema>Homiletisches Seminar</thema>:
-      <dozent><grad>D. th.</grad> <nachname>Baur</nachname>, <funktion>P.
+      <veranstaltungsgruppe><thema>Homiletisches Seminar</thema>: <dozent
+      ref="baur_g"><grad>D. th.</grad> <nachname>Baur</nachname>, <funktion>P.
       O.</funktion></dozent>, <veranstaltung><thema>erste Abtheilung</thema>
       <zeit>Mittw. 3-4 U.</zeit></veranstaltung>, <veranstaltung><thema>zweite
       Abtheilung</thema> <zeit>Mittw. 4-5 U.</zeit></veranstaltung>,
@@ -510,7 +510,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Moral u. Rechtsphilosophie
-      (Naturrecht)</thema>: <dozent><grad>D. ph.</grad>
+      (Naturrecht)</thema>: <dozent ref="biedermann_k"><grad>D. ph.</grad>
       <nachname>Biedermann</nachname>, <funktion>P. O.
       Hon.</funktion></dozent> <siehe>Siehe philosophische
       Facultät.</siehe></veranstaltungsverweis>
@@ -1064,9 +1064,10 @@
         <titel>A. Philosophie.</titel>
 
         <veranstaltung><thema>Einleitung in die Philosophie und Logik</thema>:
-        <dozent><grad>D. ph. &amp; th.</grad> <nachname>Drobisch</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
-        u. Freit. 12-1 U.</zeit> <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="drobisch_mw"><grad>D. ph. &amp; th.</grad>
+        <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. u. Freit. 12-1 U.</zeit>
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einleitung in die Philosophie und Logik</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Göring</nachname>, <funktion>P.
@@ -1090,9 +1091,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der neueren Philosophie</thema>:
-        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Wundt</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
-        u. Freit. 5-6 U.</zeit> <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="wundt_w"><grad>D. ph. &amp; med.</grad>
+        <nachname>Wundt</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6 U.</zeit>
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der neueren Philosophie von Cartesius
         bis zur Gegenwart (mit specieller Berücksichtigung der Stellung<seite>14</seite>
@@ -1134,16 +1136,17 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Historisch-kritische Uebersicht der Principien
-        der Ethik</thema>: <dozent><grad>D. ph. &amp; th.</grad>
-        <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>
+        der Ethik</thema>: <dozent ref="drobisch_mw"><grad>D. ph. &amp;
+        th.</grad> <nachname>Drobisch</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Moral- und Rechtsphilosophie (Naturrecht) nebst
         einer Geschichte der moral- und rechtsphilosophischen Ideen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Biedermann</nachname>,
-        <funktion>P. O., Hon.</funktion></dozent>, <zeit>Mont. u. Donnerst.
-        7-8 U. früh</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="biedermann_k"><grad>D. ph.</grad>
+        <nachname>Biedermann</nachname>, <funktion>P. O.,
+        Hon.</funktion></dozent>, <zeit>Mont. u. Donnerst. 7-8 U. früh</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der Pädagogik, <notiz
         betreff="fortsetzung">I. Theil</notiz></thema>: <dozent><grad>D.
@@ -1196,10 +1199,10 @@
         <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Psychologische Gesellschaft</thema>:
-        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Wundt</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont. 7-9 U.</zeit>
-        <modus>privatissime</modus>, aber
+        <veranstaltung><thema>Psychologische Gesellschaft</thema>: <dozent
+        ref="wundt_w"><grad>D. ph. &amp; med.</grad>
+        <nachname>Wundt</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont. 7-9 U.</zeit> <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <seite>15</seite>
@@ -1240,16 +1243,17 @@
 
         <veranstaltung><thema>Elemente der vergleichenden Sprachwissenschaft
         mit besonderer Berücksichtigung der Aufgaben der classischen
-        Philologie</thema>: <dozent><grad>D. ph.</grad>
+        Philologie</thema>: <dozent ref="curtius_g"><grad>D. ph.</grad>
         <nachname>Curtius</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12 U.</zeit>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ausgewählte Capitel der Etymologie auf Grundlage
         des Verhältnisses zwischen Beschreibungsanlass und
-        Beschreibungsform</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Jacobi</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Sonnab. 6-7 U.</zeit> <modus>privatissime</modus>, aber
+        Beschreibungsform</thema>: <dozent ref="jacobi_vfl"><grad>D.
+        ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Sonnab. 6-7 U.</zeit>
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <trennlinie/>
@@ -1313,9 +1317,10 @@
 
           <veranstaltung><thema>Uebungen des Königlichen philologischen
           Seminars in der Interpretation von Homer's Ilias und im Disputiren
-          über schriftliche Arbeiten</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Curtius</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mittw. 11-1 U.</zeit> <modus>publice</modus>.</veranstaltung>
+          über schriftliche Arbeiten</thema>: <dozent ref="curtius_g"><grad>D.
+          ph.</grad> <nachname>Curtius</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mittw. 11-1 U.</zeit>
+          <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen des Königlichen philologischen
           Seminars im Interpretiren von Sophokles' Elektra und im Disputiren
@@ -1330,8 +1335,8 @@
           <nachname>Lipsius</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mittw. 5-7 U.</zeit> <modus>publice</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Grammatische Geselllschaft</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Curtius</nachname>,
+          <veranstaltung><thema>Grammatische Geselllschaft</thema>: <dozent
+          ref="curtius_g"><grad>D. ph.</grad> <nachname>Curtius</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Mont. 6-8 U.
           Abends</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1704,10 +1709,10 @@
 
         <veranstaltung><thema>Geschichte Deutschlands in der Zeit der
         Revolutionskriege, der Napoleonischen Herrschaft und der
-        Befreiungskämpfe (1790-1815)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Wenck</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5 U.</zeit>
-        <modus>privatim</modus>.</veranstaltung>
+        Befreiungskämpfe (1790-1815)</thema>: <dozent ref="wenck_wb"><grad>D.
+        ph.</grad> <nachname>Wenck</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5
+        U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte Europa's während der Jahre
         1763-1815</thema>: <dozent><grad>D. ph.</grad>
@@ -1717,10 +1722,11 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Geschichte von 1840 an, mit einem
-        einleitenden Rückblick auf die Zeit seit 1815</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Biedermann</nachname>,
-        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 7-8
-        U. früh</zeit> <modus>privatim</modus>.</veranstaltung>
+        einleitenden Rückblick auf die Zeit seit 1815</thema>: <dozent
+        ref="biedermann_k"><grad>D. ph.</grad>
+        <nachname>Biedermann</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 7-8 U. früh</zeit>
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Sächsische Geschichte</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Pückert</nachname>, <funktion>P.
@@ -1728,7 +1734,7 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Deutsche Culturgeschichte voom 30jährigen Kriege
-        an</thema>: <dozent><grad>D. ph.</grad>
+        an</thema>: <dozent ref="biedermann_k"><grad>D. ph.</grad>
         <nachname>Biedermann</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Dienst. u. Freit. 7-8 U.</zeit>
         <modus>publice</modus>.</veranstaltung>
@@ -1754,8 +1760,8 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Gesellschaft für deutsche Cultur- und
-        Literaturgeschichte</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Biedermann</nachname>, <funktion>P. O.
+        Literaturgeschichte</thema>: <dozent ref="biedermann_k"><grad>D.
+        ph.</grad> <nachname>Biedermann</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>in zu best. St.</zeit>
         <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1905,9 +1911,10 @@
         <titel>E. Staats- und Cameralwissenschaften.</titel>
 
         <veranstaltung><thema>Einleitung in das Studium der
-        Cameralwissenschaften</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Jacobi</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Donnerst. 5-6 U.</zeit> <modus>publice</modus>.</veranstaltung>
+        Cameralwissenschaften</thema>: <dozent ref="jacobi_vfl"><grad>D.
+        ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Donnerst. 5-6 U.</zeit>
+        <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichtliche Naturlehre des Staates
         (Monarchie, Aristokratie, Demokratie) als Vorschule jeder praktischen
@@ -1953,8 +1960,9 @@
         Sonnab. 10-11 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7 U.</zeit>
+        <dozent ref="jacobi_vfl"><grad>D. ph.</grad>
+        <nachname>Jacobi</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst. u. Freit. 6-7 U.</zeit>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Bodenkunde und Bonitiren</thema>:
@@ -2072,10 +2080,11 @@
         <nachname>Mayer</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>dreit. 11-12 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Höhere Optik</thema>: <dozent><grad>D.
-        ph.</grad> <nachnamenpräfix>von der</nachnamenpräfix>
-        <nachname>Mühll</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>täglich 8-9 U.</zeit> <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Höhere Optik</thema>: <dozent
+        ref="muehll_k"><grad>D. ph.</grad> <nachnamenpräfix>von
+        der</nachnamenpräfix> <nachname>Mühll</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>täglich 8-9 U.</zeit>
+        <modus>privatim</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -2099,9 +2108,10 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Mathematisch-physikalische Uebungen</thema>:
-        <dozent><grad>D. ph.</grad> <nachnamenpräfix>von der</nachnamenpräfix>
-        <nachname>Mühll</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>in einer zu best. St.</zeit>, <modus>privatissime</modus>, aber
+        <dozent ref="muehll_k"><grad>D. ph.</grad> <nachnamenpräfix>von
+        der</nachnamenpräfix> <nachname>Mühll</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>in einer zu best. St.</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
       </sachgruppe>
 

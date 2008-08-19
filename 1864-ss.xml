@@ -58,8 +58,8 @@
         <titel>1. Encyclopädie und Geschichte der Philosophie.</titel>
 
         <veranstaltungsverweis><thema>Philosophische Encyclopädie</thema>:
-        <dozent><grad>D.</grad> <nachname>Weisse</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. systemat.
+        <dozent ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>P. O.</funktion></dozent>, <siehe>s. systemat.
         Philos.</siehe></veranstaltungsverweis>
 
         <veranstaltung><thema>Geschichte der Philosophie</thema>:
@@ -72,16 +72,17 @@
         <titel>2. Systematische Philosophie.</titel>
 
         <veranstaltung><thema>Einleitung in die Philosophie und Logik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Drobisch</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 6 T.</zeit> (<modus>2
-        T. öffentlich</modus>.)</veranstaltung>
+        <dozent ref="drobisch_mw"><grad>D. ph.</grad>
+        <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>12 U. 6 T.</zeit> (<modus>2 T.
+        öffentlich</modus>.)</veranstaltung>
 
         <veranstaltung><thema>Logik und Metaphysik</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Ziller</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>6 U. 4 Tage</zeit>.</veranstaltung>
 
         <veranstaltung><thema>Metaphysik und philosophische
-        Encyclopädie</thema>: <dozent><grad>D.</grad>
+        Encyclopädie</thema>: <dozent ref="weisse_ch"><grad>D.</grad>
         <nachname>Weisse</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>4 U. 5 T.</zeit></veranstaltung>
 
@@ -103,10 +104,10 @@
         E.</funktion></dozent>, <siehe>s.
         Sprachwissenschaften</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Philosophie der Geschichte</thema>:
-        <dozent><grad>D.</grad> <nachname>Weisse</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>5 U. 3 T. (Mont., Dienst. u.
-        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Philosophie der Geschichte</thema>: <dozent
+        ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>5 U. 3 T. (Mont., Dienst.
+        u. Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Philosophische Ethik</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Seydel</nachname></dozent>, <zeit>7 U. früh 4
@@ -192,7 +193,7 @@
           <titel>Philosophische und pädagogische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen der philosophischen
-          Gesellschaft</thema>: <dozent><grad>D.</grad>
+          Gesellschaft</thema>: <dozent ref="weisse_ch"><grad>D.</grad>
           <nachname>Weisse</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>in zu best. St. u. T.
           </zeit><gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -240,9 +241,10 @@
         <titel>1. Altclassische Sprachen.</titel>
 
         <veranstaltung><thema>Encyclo<sic>d</sic>ädie und Methodologie der
-        classischen Philologie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Curtius</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>11 U. 2 T. (Mont. u. Dienst.)</zeit></veranstaltung>
+        classischen Philologie</thema>: <dozent ref="curtius_g"><grad>D.
+        ph.</grad> <nachname>Curtius</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>11 U. 2 T. (Mont. u.
+        Dienst.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Griechische und römische Metrik</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Fritzsche</nachname>,
@@ -258,14 +260,15 @@
           Freit.)</zeit></veranstaltung>
 
           <veranstaltung><thema>Erklärung von Sophocles' Antigone</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Curtius</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>3 St. (11 U. Donn. u.
-          Freit., 9 U. Sonnab.)</zeit></veranstaltung>
+          <dozent ref="curtius_g"><grad>D. ph.</grad>
+          <nachname>Curtius</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>3 St. (11 U. Donn. u. Freit., 9 U.
+          Sonnab.)</zeit></veranstaltung>
 
           <veranstaltungsverweis><thema>Erklärung von Sophocles' Ajax</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Curtius</nachname>,
-          <funktion>P. O.</funktion></dozent>, <siehe>s. phil.
-          Uebb.</siehe></veranstaltungsverweis>
+          <dozent ref="curtius_g"><grad>D. ph.</grad>
+          <nachname>Curtius</nachname>, <funktion>P. O.</funktion></dozent>,
+          <siehe>s. phil. Uebb.</siehe></veranstaltungsverweis>
 
           <veranstaltung><thema>Ueber Aristophanes Wolken</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Klotz</nachname>, <funktion>P.
@@ -335,12 +338,13 @@
           Augusti lib. I.</thema>: <dozent><grad>D. ph.</grad>
           <nachname>Klotz</nachname>, <funktion>P. O., Sem. phil.
           Dir.</funktion></dozent></veranstaltung> - <veranstaltung><thema>im
-          Erklären von Sophocles' Ajax</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Curtius</nachname>, <funktion>P. O., Sem. phil.
-          Dir.</funktion></dozent></veranstaltung> und <thema>im Disputiren
-          über schriftliche Arbeiten (unter abwechselnder Leitung</thema>
-          <dozent>sämmtlicher drei Directoren</dozent>): <zeit>Mittw. u. Sonn.
-          11-1 U.</zeit> <modus>öffentlich</modus>.</veranstaltungsgruppe>
+          Erklären von Sophocles' Ajax</thema>: <dozent
+          ref="curtius_g"><grad>D. ph.</grad> <nachname>Curtius</nachname>,
+          <funktion>P. O., Sem. phil. Dir.</funktion></dozent></veranstaltung>
+          und <thema>im Disputiren über schriftliche Arbeiten (unter
+          abwechselnder Leitung</thema> <dozent>sämmtlicher drei
+          Directoren</dozent>): <zeit>Mittw. u. Sonn. 11-1 U.</zeit>
+          <modus>öffentlich</modus>.</veranstaltungsgruppe>
 
           <seite>6</seite>
 
@@ -351,9 +355,9 @@
           <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Grammatische Uebungen für Geübtere</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Curtius</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Freit. 5-7 U.</zeit>
-          <modus>privatissime</modus> aber
+          <dozent ref="curtius_g"><grad>D. ph.</grad>
+          <nachname>Curtius</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Freit. 5-7 U.</zeit> <modus>privatissime</modus> aber
           <gebühr>unentgeltl.</gebühr></veranstaltung>
 
           <veranstaltung><thema>Lateinische Disputirübungen</thema>:
@@ -595,10 +599,10 @@
           <zeit>8 U. 4 T., und 9 U. 1 T. (Mittw.)</zeit></veranstaltung>
 
           <veranstaltung><thema>Geschichte der deutschen Nationalliteratur in
-          dem Zeitalter Lessings, Gothe's u. Schillers</thema>:
-          <dozent><grad>D.</grad> <nachname>Wachsmuth</nachname>, <funktion>P.
-          O., d. Z. Dech.</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          dem Zeitalter Lessings, Gothe's u. Schillers</thema>: <dozent
+          ref="wachsmuth_ewg"><grad>D.</grad> <nachname>Wachsmuth</nachname>,
+          <funktion>P. O., d. Z. Dech.</funktion></dozent>, <zeit>9 U. 4
+          T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der deutschen Nationalliteratur
           seit Klopstock (<notiz
@@ -686,9 +690,10 @@
 
       <trennlinie/>
 
-      <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit></veranstaltung>
+      <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>: <dozent
+      ref="jacobi_vfl"><grad>D. ph.</grad> <nachname>Jacobi</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>in 2 zu best.
+      St.</zeit></veranstaltung>
 
       <veranstaltung><thema>Die Lehre von landwirthschaftlichen
       Ertragsanschlägen</thema>: <ders>Derselbe</ders>, <zeit>in 1 zu best.
@@ -704,16 +709,17 @@
       Tage</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Forstwirth<sic>sah</sic>aftslehre für
-      Cameralisten</thema>: <dozent><grad>D. ph.</grad>
+      Cameralisten</thema>: <dozent ref="jacobi_vfl"><grad>D. ph.</grad>
       <nachname>Jacobi</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>in 2 zu best. St.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltungsgruppe><thema>Technologie</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Marbach</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>8 U. 6 T.</zeit> (<veranstaltung><zeit>2
-      St.</zeit> <modus>öffentlich</modus></veranstaltung>,
-      <veranstaltung><zeit>4 St.</zeit>
+      <veranstaltungsgruppe><thema>Technologie</thema>: <dozent
+      ref="marbach_go"><grad>D. ph.</grad> <nachname>Marbach</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>8 U. 6 T.</zeit>
+      (<veranstaltung><zeit>2 St.</zeit>
+      <modus>öffentlich</modus></veranstaltung>, <veranstaltung><zeit>4
+      St.</zeit>
       <modus>privatim</modus></veranstaltung>).</veranstaltungsgruppe>
 
       <veranstaltung><thema>Chemische Technologie</thema>: <dozent><grad>D.
@@ -747,7 +753,7 @@
       <zeit>4 U. 2 T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
       <veranstaltung><thema>Theorie der numerischen algebraischen
-      Gleichungen</thema>: <dozent><grad>D. ph.</grad>
+      Gleichungen</thema>: <dozent ref="drobisch_mw"><grad>D. ph.</grad>
       <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>4 U. 4 T.</zeit></veranstaltung>
 
@@ -985,9 +991,9 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Kritische Geschichte des N. T. Textes</thema>:
-        <dozent><grad>D.</grad> <nachname>Tischendorf</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>8 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="tischendorf_lfk"><grad>D.</grad>
+        <nachname>Tischendorf</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>8 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -1842,7 +1848,7 @@
         <veranstaltung><thema>Theoretische und paktische Operationslehre für
         Geburtshelfer</thema>: <dozent><grad>D.</grad>
         <nachname>Meissner</nachname></dozent>, <zeit>in 2 zu best. St.</zeit>
-        <modus>privatissime</modus>. </veranstaltung>
+        <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einübung geburtshilflicher Operationen am
         Phantom</thema>: <dozent><grad>D.</grad>

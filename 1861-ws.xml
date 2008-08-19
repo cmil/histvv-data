@@ -61,9 +61,9 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Geschichte der Philosophie</thema>:
-        <dozent><grad>D.</grad> <nachname>Weisse</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 U. 4 T. u. 5 U. 2 T. (Dienst. u.
-        Freit.)</zeit></veranstaltung>
+        <dozent ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. 4 T. u. 5 U. 2 T.
+        (Dienst. u. Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Geschichte der alten Philosophie</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Fritzsche</nachname>,
@@ -97,9 +97,10 @@
         <dozent><grad>D. ph.</grad> <nachname>Seydel</nachname></dozent>,
         <zeit>6 U. Ab. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Metaphysik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>4 U. 3 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Metaphysik</thema>: <dozent
+        ref="drobisch_mw"><grad>D. ph.</grad> <nachname>Drobisch</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. 3
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Metaphysik (Fundamentalphilosophie)</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Hermann</nachname>, <funktion>P.
@@ -110,9 +111,10 @@
         O.</funktion></dozent>, <zeit>2 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Psychologie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>12 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Psychologie</thema>: <dozent
+        ref="drobisch_mw"><grad>D. ph.</grad> <nachname>Drobisch</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Psychologie</thema>: <dozent><grad>D.</grad>
         <nachname>Ahrens</nachname>, <funktion>P. O.</funktion></dozent>,
@@ -124,7 +126,7 @@
         T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Philosophische und theologische
-        Unsterblichkeitslehre</thema>: <dozent><grad>D.</grad>
+        Unsterblichkeitslehre</thema>: <dozent ref="weisse_ch"><grad>D.</grad>
         <nachname>Weisse</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>5 U. 2 T. (Mont. u. Donn.)</zeit>
         <modus>öffentl.</modus></veranstaltung>
@@ -192,9 +194,9 @@
         <sachgruppe>
           <titel>Philosophische und pädagogische Uebungen.</titel>
 
-          <veranstaltung><thema>Philosophische Uebungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Weisse</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>in zu best. St.</zeit>
+          <veranstaltung><thema>Philosophische Uebungen</thema>: <dozent
+          ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>in zu best. St.</zeit>
           <modus>privatissime</modus> aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -475,10 +477,10 @@
         Freit.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Geschichte vom Ausgange K. Karl's V.
-        bis zum westphälischen Frieden</thema>: <dozent><grad>D.</grad>
-        <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>2 U. 2 T. (Mont. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        bis zum westphälischen Frieden</thema>: <dozent
+        ref="wachsmuth_ewg"><grad>D.</grad> <nachname>Wachsmuth</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>2 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Neuere Geschichte Europa's von der Mitte des 17.
         bis zur Mitte des 18. Jahrhunderts</thema>: <dozent><grad>D.
@@ -487,8 +489,8 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte Deutschlands von 1790-1830</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wenck</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
+        <dozent ref="wenck_wb"><grad>D. ph.</grad> <nachname>Wenck</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte Deutschlands seit den Wiener
@@ -499,9 +501,9 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Sächsische Geschichte</thema>:
-        <dozent><grad>D.</grad> <nachname>Wachsmuth</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>2 U. 2 T. (Dienst. u.
+        <veranstaltung><thema>Sächsische Geschichte</thema>: <dozent
+        ref="wachsmuth_ewg"><grad>D.</grad> <nachname>Wachsmuth</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>2 U. 2 T. (Dienst. u.
         Freit.)</zeit></veranstaltung>
 
         <sachgruppe>
@@ -651,9 +653,9 @@
 
       <seite>9</seite>
 
-      <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
+      <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>: <dozent
+      ref="jacobi_vfl"><grad>D. ph.</grad> <nachname>Jacobi</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Die Lehre von landwirthschaftlichen
@@ -670,18 +672,20 @@
       ph.</grad> <nachname>Knop</nachname></dozent>, <zeit>6 U. Ab. 3
       T.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Technologie</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>8 U. 6 T.</zeit></veranstaltung>
+      <veranstaltung><thema>Technologie</thema>: <dozent
+      ref="marbach_go"><grad>D. ph.</grad> <nachname>Marbach</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>8 U. 6
+      T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Allgemeine chemische Technologie, verb. mit
       Excursionen in technische Etablissements</thema>: <dozent><grad>D.
       ph.</grad> <nachname>Kerndt</nachname></dozent>, <zeit>4
       T.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Forstwirthschaft für Cameralisten</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit></veranstaltung>
+      <veranstaltung><thema>Forstwirthschaft für Cameralisten</thema>: <dozent
+      ref="jacobi_vfl"><grad>D. ph.</grad> <nachname>Jacobi</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>in 2 zu best.
+      St.</zeit></veranstaltung>
     </sachgruppe>
 
     <sachgruppe>
@@ -703,9 +707,9 @@
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Analytische Mechanik (<notiz
-      betreff="fortsetzung">Schluss</notiz>)</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Drobisch</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
+      betreff="fortsetzung">Schluss</notiz>)</thema>: <dozent
+      ref="drobisch_mw"><grad>D. ph.</grad> <nachname>Drobisch</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geometrische Entwickelung der Haupteigenschaften
@@ -757,10 +761,10 @@
 
         <seite>10</seite>
 
-        <veranstaltung><thema>Ueber Dampf und Dampfmaschinen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Marbach</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>9 U. 2 T. (Mont. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Ueber Dampf und Dampfmaschinen</thema>: <dozent
+        ref="marbach_go"><grad>D. ph.</grad> <nachname>Marbach</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>9 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -974,8 +978,9 @@
           <trennlinie/>
 
           <veranstaltung><thema>Die neutestamentlichen Apokryphen
-          historisch,apologetisch und polemisch</thema>:
-          <dozent><grad>D.</grad> <nachname>Tischendorf</nachname>,
+          historisch,apologetisch und polemisch</thema>: <dozent
+          ref="tischendorf_lfk"><grad>D.</grad>
+          <nachname>Tischendorf</nachname>,
           <funktion>P.O.</funktion></dozent>,<zeit>10 Uhr 2
           Tage</zeit>.</veranstaltung>
 

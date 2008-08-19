@@ -115,9 +115,9 @@
         <titel>2. Systematische Philosophie.</titel>
 
         <veranstaltung><thema>Einleitung in die Philosophie und Logik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Drobisch</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 5 T. (ausschliessl.
-        Sonnabend.)</zeit></veranstaltung>
+        <dozent ref="drobisch_mw"><grad>D. ph.</grad>
+        <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>12 U. 5 T. (ausschliessl. Sonnabend.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Logik und Erkenntnisslehre</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Seydel</nachname>, <funktion>P.
@@ -129,7 +129,7 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber den Naturmechanismus und die teleologische
-        Naturansicht</thema>: <dozent><grad>D. ph.</grad>
+        Naturansicht</thema>: <dozent ref="drobisch_mw"><grad>D. ph.</grad>
         <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>4 U. 3 T. (Mont., Dienst. u. Donn.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -340,7 +340,7 @@
 
       <veranstaltung><thema>Elemente der vergleichenden Sprachwissenschaft mit
       bes. Rücksicht auf die Aufgaben und Ziele der classischen
-      Philologie</thema>: <dozent><grad>D. ph.</grad>
+      Philologie</thema>: <dozent ref="curtius_g"><grad>D. ph.</grad>
       <nachname>Curtius</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>11 U. 4 T.</zeit></veranstaltung>
 
@@ -349,7 +349,7 @@
       <veranstaltung><thema>Logisch-etymologische Behandlung
       naturgeschichtlicher und vorhistorischer, sowohl geo- als
       topographischer Namen, mit Berücksichtigung lautlicher
-      Gesichtspunkte</thema>: <dozent><grad>D. ph.</grad>
+      Gesichtspunkte</thema>: <dozent ref="jacobi_vfl"><grad>D. ph.</grad>
       <nachname>Jacobi</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>6 U. Ab. Sonn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -471,8 +471,8 @@
           Dir.</funktion></dozent>, <zeit>Mittw. 5-7
           U.</zeit></veranstaltung></veranstaltungsgruppe>
 
-          <veranstaltung><thema>Grammatische Gesellschaft</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Curtius</nachname>,
+          <veranstaltung><thema>Grammatische Gesellschaft</thema>: <dozent
+          ref="curtius_g"><grad>D. ph.</grad> <nachname>Curtius</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>6-8 U. Ab. Mont.</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -775,9 +775,9 @@
 
         <veranstaltung><thema>Geschichte des Abendlandes (unter vorzügl.
         Berücks. des römisch-deutschen Reichs) von der Zeit Karl's d. Gr. bis
-        auf den Untergang des Hohenstaufischen Kaiserhausen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wenck</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>5 U. 4 T.</zeit>
+        auf den Untergang des Hohenstaufischen Kaiserhausen</thema>: <dozent
+        ref="wenck_wb"><grad>D. ph.</grad> <nachname>Wenck</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>5 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Deutsche Kaisergeschichte, 9. bis 13.
@@ -792,9 +792,9 @@
 
         <veranstaltung><thema>Deutsche Geschichte, politische u.
         Culturgeschichte, vom 30jähr. Kriege bis zu Friedrich d. Gr.</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Biedermann</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>6 U. 2
-        T.</zeit></veranstaltung>
+        <dozent ref="biedermann_k"><grad>D. ph.</grad>
+        <nachname>Biedermann</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>6 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Universalgeschichte des 18. Jahrh.</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Pückert</nachname>, <funktion>P.
@@ -803,13 +803,14 @@
 
         <veranstaltung><thema>Deutsche Geschichte, politische und
         Culturgeschichte, vom Untergang des alten bis zur Begründung des neuen
-        deutschen Reichs</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Biedermann</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>7 U. früh, 2 T.</zeit></veranstaltung>
+        deutschen Reichs</thema>: <dozent ref="biedermann_k"><grad>D.
+        ph.</grad> <nachname>Biedermann</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>7 U. früh, 2 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Sächsische Geschichte</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Wenck</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>4 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Sächsische Geschichte</thema>: <dozent
+        ref="wenck_wb"><grad>D. ph.</grad> <nachname>Wenck</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>4 U. 2
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Sächsische Geschichte</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Brandes</nachname>, <funktion>P.
@@ -841,9 +842,9 @@
 
           <veranstaltung><thema>Vergleichende Literaturgeschichte im 16., 17.
           u. 18. Jahrh. von Deutschland, England u. Frankreich</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Biedermann</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>7 U. früh, 4
-          T.</zeit></veranstaltung>
+          <dozent ref="biedermann_k"><grad>D. ph.</grad>
+          <nachname>Biedermann</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>7 U. früh, 4 T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Die Lyrik der Deutschen in ihren Ursprüngen
           bis zu ihrer weltliterarhistorischen Entfaltung und Ausdehnung
@@ -1009,9 +1010,9 @@
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Einleitung in das Studium der
-      Cameralwissenschaften</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Jacobi</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>in 1 zu best. St.</zeit>
+      Cameralwissenschaften</thema>: <dozent ref="jacobi_vfl"><grad>D.
+      ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>in 1 zu best. St.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <absatz>Staatsrecht, <siehe>s. Rechtswissenschaft</siehe>.</absatz>
@@ -1058,7 +1059,7 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Landwirthschaftliche Betriebslehre für
-        Cameralisten</thema>: <dozent><grad>D. ph.</grad>
+        Cameralisten</thema>: <dozent ref="jacobi_vfl"><grad>D. ph.</grad>
         <nachname>Jacobi</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>6 U. 2 T.</zeit></veranstaltung>
 
@@ -1141,7 +1142,7 @@
         <titel>Technologie.</titel>
 
         <veranstaltungsverweis><thema>Elemente der Mechanik und
-        Maschinenlehre</thema>: <dozent><grad>D. ph.</grad>
+        Maschinenlehre</thema>: <dozent ref="marbach_go"><grad>D. ph.</grad>
         <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
         <siehe>s. Physik</siehe>.</veranstaltungsverweis>
 
@@ -1209,9 +1210,10 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Mathematisch-physikalische Uebungen</thema>:
-        <dozent><grad>D. ph.</grad> <nachnamenpräfix>von der</nachnamenpräfix>
-        <nachname>Mühll</nachname>, <funktion>P. E. des.</funktion></dozent>,
-        <zeit>in 1 zu best. St.</zeit>, <modus>privatissime</modus>, aber
+        <dozent ref="muehll_k"><grad>D. ph.</grad> <nachnamenpräfix>von
+        der</nachnamenpräfix> <nachname>Mühll</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>in 1 zu best. St.</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
@@ -1235,10 +1237,10 @@
         <nachname>Zöllner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>5-7 U. (Mont. u. Donnerst.)</zeit></veranstaltung>
 
-        <veranstaltung><thema>Höhere Optik</thema>: <dozent><grad>D.
-        ph.</grad> <nachnamenpräfix>von der</nachnamenpräfix>
-        <nachname>Mühll</nachname>, <funktion>P. E. des.</funktion></dozent>,
-        <zeit>8 U. 6 Tage</zeit>.</veranstaltung>
+        <veranstaltung><thema>Höhere Optik</thema>: <dozent
+        ref="muehll_k"><grad>D. ph.</grad> <nachnamenpräfix>von
+        der</nachnamenpräfix> <nachname>Mühll</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>8 U. 6 Tage</zeit>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Analytische Mechanik</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
@@ -1246,7 +1248,7 @@
         Wiss.</siehe></veranstaltungsverweis>
 
         <veranstaltung><thema>Elemente der Mechanik und
-        Maschinenlehre</thema>: <dozent><grad>D. ph.</grad>
+        Maschinenlehre</thema>: <dozent ref="marbach_go"><grad>D. ph.</grad>
         <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>12 U. 4 T.</zeit></veranstaltung>
 
@@ -1480,7 +1482,7 @@
         Uebungen</siehe>.</veranstaltungsverweis>
 
         <veranstaltung><thema>Erklärung der vorexilischen kleinen
-        Propheten</thema>: <dozent><grad>D. th.</grad>
+        Propheten</thema>: <dozent ref="baur_g"><grad>D. th.</grad>
         <nachname>Baur</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>7 U. 4 T.</zeit></veranstaltung>
 
@@ -1678,9 +1680,10 @@
 
         <veranstaltung><thema>System der praktischen Theologie, <notiz
         betreff="fortsetzung">2. Th.</notiz> (Homiletik, Liturgik, Theorie der
-        Seelsorge, der Mission u. des Kirchenrechts)</thema>: <dozent><grad>D.
-        th.</grad> <nachname>Baur</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>8 U. 5 T.</zeit></veranstaltung>
+        Seelsorge, der Mission u. des Kirchenrechts)</thema>: <dozent
+        ref="baur_g"><grad>D. th.</grad> <nachname>Baur</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>8 U. 5
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Praktische Auslegung ausgewählter
         Perikopen</thema>: <dozent><grad>D. ph. Lic. th.</grad>
@@ -1699,7 +1702,7 @@
 
           <veranstaltungsgruppe><thema>Seminar für praktische
           Theologie</thema>: <veranstaltung><thema>Homiletische
-          Section</thema>: <dozent><grad>D. th.</grad>
+          Section</thema>: <dozent ref="baur_g"><grad>D. th.</grad>
           <nachname>Baur</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mittw. 3-5 U.</zeit></veranstaltung>;
           <veranstaltung><thema>katechetische Section</thema>:
@@ -2144,8 +2147,8 @@
         <veranstaltung><thema>Diagnostische Phänomenologie (Erklärung der
         Krankheitserscheinungen mit Hülfe der pathologischen Anatomie und
         physikalischen Diagnostik zur Erkennung der Krankheiten)</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Bock</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>in zu best. T. u.
+        <dozent ref="bock_ce"><grad>D. med.</grad> <nachname>Bock</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>in zu best. T. u.
         St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Untersuchungen und Besprechungen über

@@ -56,8 +56,8 @@
         <titel>1. Encyclopädie und Geschichte der Philosophie.</titel>
 
         <veranstaltungsverweis><thema>Philosophische Encyclopädie</thema>:
-        <dozent><grad>D.</grad> <nachname>Weisse</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. System.
+        <dozent ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>P. O.</funktion></dozent>, <siehe>s. System.
         Philos.</siehe></veranstaltungsverweis>
 
         <veranstaltung><thema>Vergleichende Auseinandersetzung der wichtigsten
@@ -72,9 +72,10 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber Platon's Schriften und philosophische
-        Lehre</thema>: <dozent><grad>D.</grad> <nachname>Weisse</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>2 U. 2 T. (Mont. u.
-        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Lehre</thema>: <dozent ref="weisse_ch"><grad>D.</grad>
+        <nachname>Weisse</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>2 U. 2 T. (Mont. u. Donn.)</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der Philosophie seit Kant</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Ziller</nachname>, <funktion>P.
@@ -105,7 +106,7 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Metaphysik und philosophische
-        Encyclopädie</thema>: <dozent><grad>D.</grad>
+        Encyclopädie</thema>: <dozent ref="weisse_ch"><grad>D.</grad>
         <nachname>Weisse</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>5 U. 4 T.</zeit></veranstaltung>
 
@@ -113,18 +114,21 @@
         <nachname>Fechner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>2 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Psychologie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>12 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Psychologie</thema>: <dozent
+        ref="drobisch_mw"><grad>D. ph.</grad> <nachname>Drobisch</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Psychologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Weisse</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>4 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Psychologie</thema>: <dozent
+        ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Einleitung in die Ethik und
-        Religionsphilosophie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Drobisch</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>12 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Religionsphilosophie</thema>: <dozent ref="drobisch_mw"><grad>D.
+        ph.</grad> <nachname>Drobisch</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Philosophische Ethik, nebst den Grundzügen der
         Religionsphilosophie</thema>: <dozent><grad>D.</grad>
@@ -178,9 +182,9 @@
         <sachgruppe>
           <titel>Philosophische und pädagogische Uebungen.</titel>
 
-          <veranstaltung><thema>Philosophische Uebungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Weisse</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>in zu best. St.</zeit>
+          <veranstaltung><thema>Philosophische Uebungen</thema>: <dozent
+          ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>in zu best. St.</zeit>
           <modus>privatissime</modus> aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -224,17 +228,17 @@
         <sachgruppe>
           <titel>Griechische Sprache.</titel>
 
-          <veranstaltung><thema>Griechische Grammatik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Curtius</nachname>,
+          <veranstaltung><thema>Griechische Grammatik</thema>: <dozent
+          ref="curtius_g"><grad>D. ph.</grad> <nachname>Curtius</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>11 U. 4
           T.</zeit></veranstaltung>
 
           <trennlinie/>
 
           <veranstaltungsverweis><thema>Erklärung von Homer's Ilias</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Curtius</nachname>,
-          <funktion>P. O.</funktion></dozent>, <siehe>s. phil.
-          Uebb.</siehe></veranstaltungsverweis>
+          <dozent ref="curtius_g"><grad>D. ph.</grad>
+          <nachname>Curtius</nachname>, <funktion>P. O.</funktion></dozent>,
+          <siehe>s. phil. Uebb.</siehe></veranstaltungsverweis>
 
           <veranstaltung><thema>Hesiod's Theogonie</thema>: <dozent><grad>D.
           ph.</grad> <nachname>Overbeck</nachname>, <funktion>P.
@@ -249,9 +253,9 @@
           <seite>5</seite>
 
           <veranstaltung><thema>Erklärung von Aeschylus' Agamemnon</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Curtius</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>5 U. 3 T. (Mont., Dienst.
-          u. Donn.)</zeit></veranstaltung>
+          <dozent ref="curtius_g"><grad>D. ph.</grad>
+          <nachname>Curtius</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>5 U. 3 T. (Mont., Dienst. u. Donn.)</zeit></veranstaltung>
 
           <veranstaltung><thema>Andokides' Rede von den Mysterien</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Westermann</nachname>,
@@ -316,8 +320,8 @@
           betreff="fortsetzung">Forts.</notiz>)</thema>: <dozent><grad>D.
           ph.</grad> <nachname>Klotz</nachname>, <funktion>P. O., Sem. phil.
           Dir.</funktion></dozent></veranstaltung> - <veranstaltung><thema>im
-          Erklären von Homer's Ilias</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Curtius</nachname>, <funktion>P. O., Sem. phil.
+          Erklären von Homer's Ilias</thema>: <dozent ref="curtius_g"><grad>D.
+          ph.</grad> <nachname>Curtius</nachname>, <funktion>P. O., Sem. phil.
           Dir.</funktion></dozent></veranstaltung> - und <thema>im Disputiren
           über schriftliche Aufsätze</thema> (unter abwechselnder Leitung
           sämmtlicher <dozent>drei Directoren</dozent>) - : <zeit>Mittw. u.
@@ -490,7 +494,7 @@
         Sem.</siehe></veranstaltungsverweis>
 
         <veranstaltung><thema>Allgemeine Geschichte der Zeit Friedrichs des
-        Grossen</thema>: <dozent><grad>D.</grad>
+        Grossen</thema>: <dozent ref="wachsmuth_ewg"><grad>D.</grad>
         <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>2 U. 2 T. (Dienst. u. Freit.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -503,8 +507,8 @@
 
         <veranstaltung><thema>Geschichte Deutschlands in den Zeiten der
         französischen Revolution und der Napoleonischen Herrschaft</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wenck</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
+        <dozent ref="wenck_wb"><grad>D. ph.</grad> <nachname>Wenck</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der französischen Staatsumwälzung bis
@@ -519,9 +523,9 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Sächsische Geschichte</thema>:
-        <dozent><grad>D.</grad> <nachname>Wachsmuth</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>2 U. 2 T. (Mont. u.
+        <veranstaltung><thema>Sächsische Geschichte</thema>: <dozent
+        ref="wachsmuth_ewg"><grad>D.</grad> <nachname>Wachsmuth</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>2 U. 2 T. (Mont. u.
         Donn.)</zeit></veranstaltung>
 
         <sachgruppe>
@@ -619,8 +623,9 @@
       <titel>IV. Staats- und Cameralwissenschaften.</titel>
 
       <veranstaltung><thema>Encyclopädie der Cameralwissenschaften</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
+      <dozent ref="jacobi_vfl"><grad>D. ph.</grad>
+      <nachname>Jacobi</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>in 2 zu best. St.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -655,9 +660,10 @@
 
       <trennlinie/>
 
-      <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Jacobi</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit></veranstaltung>
+      <veranstaltung><thema>Allgemeine Landwirthschaftslehre</thema>: <dozent
+      ref="jacobi_vfl"><grad>D. ph.</grad> <nachname>Jacobi</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>in 2 zu best.
+      St.</zeit></veranstaltung>
 
       <veranstaltung><thema>Die Lehre von landwirthschaftlichen
       Ertragsanschlägen</thema>: <ders>Derselbe</ders>, <zeit>in 1 zu best.
@@ -668,11 +674,12 @@
       des.</funktion></dozent>, <zeit>6 U. Ab. 2 T. (Dienst. u.
       Freit.)</zeit></veranstaltung>
 
-      <veranstaltungsgruppe><thema>Technologie</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Marbach</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>12 U. 6 T.</zeit> (<veranstaltung><zeit>4
-      St.</zeit> <modus>privat.</modus></veranstaltung>,
-      <veranstaltung><zeit>4 St.</zeit>
+      <veranstaltungsgruppe><thema>Technologie</thema>: <dozent
+      ref="marbach_go"><grad>D. ph.</grad> <nachname>Marbach</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>12 U. 6 T.</zeit>
+      (<veranstaltung><zeit>4 St.</zeit>
+      <modus>privat.</modus></veranstaltung>, <veranstaltung><zeit>4
+      St.</zeit>
       <modus>öffentlich</modus></veranstaltung>.)</veranstaltungsgruppe>
 
       <sachgruppe>
@@ -690,9 +697,9 @@
       <titel>V. Mathematische Wissenschaften.</titel>
 
       <veranstaltung><thema>Analytische Geometrie (<notiz
-      betreff="fortsetzung">Schluss</notiz>)</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Drobisch</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
+      betreff="fortsetzung">Schluss</notiz>)</thema>: <dozent
+      ref="drobisch_mw"><grad>D. ph.</grad> <nachname>Drobisch</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Analytische Sphärik</thema>: <dozent><grad>D.
@@ -706,7 +713,7 @@
       <zeit>9 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Arithmetik (Buchstabenrechnung und
-      Algebra)</thema> <dozent><grad>D. ph.</grad>
+      Algebra)</thema> <dozent ref="marbach_go"><grad>D. ph.</grad>
       <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>11 U. 4 T.</zeit></veranstaltung>
 
@@ -715,9 +722,10 @@
       O.</funktion></dozent>, <zeit>5 U. 2 T. u. 9 U.
       Mont.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Differentialrechnung</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Drobisch</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>10 U. 4 Tage</zeit>.</veranstaltung>
+      <veranstaltung><thema>Differentialrechnung</thema>: <dozent
+      ref="drobisch_mw"><grad>D. ph.</grad> <nachname>Drobisch</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>10 U. 4
+      Tage</zeit>.</veranstaltung>
 
       <veranstaltung><thema>Ueber die Differentialgleichungen der
       Mechanik</thema>: <dozent><grad>D. ph.</grad>
@@ -944,7 +952,7 @@
         <trennlinie/>
 
         <veranstaltung><thema>Synoptische Betrachtung der vier
-        Evangelien</thema>: <dozent><grad>D.</grad>
+        Evangelien</thema>: <dozent ref="tischendorf_lfk"><grad>D.</grad>
         <nachname>Tischendorf</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>8 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
