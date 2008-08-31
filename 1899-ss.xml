@@ -24,7 +24,7 @@
 
     <quelle/>
 
-    <status>
+    <status komplett="ja">
       <transkribent>florian</transkribent>
     </status>
   </kopf>
@@ -881,9 +881,9 @@
         <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 9-10
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Die Lehre vom menschlichen Stoffwechsel (im
-        Anschluss an die Vorlesung: Physiologie des Kreislaufs u.s.w. von D.
-        med. Hering, P. O.)</thema>: <dozent><grad>D. ph.</grad>
+        <veranstaltung><thema>Die Lehre vom menschlichen Stoffwechsel</thema>
+        (im Anschluss an die Vorlesung: Physiologie des Kreislaufs u.s.w. von
+        D. med. Hering, P. O.): <dozent><grad>D. ph.</grad>
         <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Sonnab. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1560,10 +1560,11 @@
             <modus>privatissime</modus>. (<ort>Nürnberger Str. 22.
             I.</ort>)</veranstaltung>
 
-            <veranstaltung><dozent><grad>D. med.</grad> Küster</dozent>,
-            <thema>für solche Herren, welche die Technik des Augenspiegelns
-            besitzen</thema>, <zeit>drei- bis viermal wöchentlich 11-12
-            U.</zeit>, <modus>privatissime</modus>. (<ort>Universitätsstr. 24.
+            <veranstaltung><dozent><grad>D. med.</grad>
+            <nachname>Küster</nachname></dozent>, <thema>für solche Herren,
+            welche die Technik des Augenspiegelns besitzen</thema>,
+            <zeit>drei- bis viermal wöchentlich 11-12 U.</zeit>,
+            <modus>privatissime</modus>. (<ort>Universitätsstr. 24.
             II.</ort>)</veranstaltung>
 
             <veranstaltung><dozent><grad>D. med.</grad>
@@ -3332,10 +3333,12 @@
 
               <seite>36</seite>
 
-              <veranstaltung>Die politischen und socialen Bewegungen des 18.
-              Jahrhunderts im Spiegelbilde der zeitgenössischen deutschen
-              Dichtung: D. ph. Witkowski, P. E. Siehe Philosophische Facultät
-              Be.</veranstaltung>
+              <veranstaltungsverweis><thema>Die politischen und socialen
+              Bewegungen des 18. Jahrhunderts im Spiegelbilde der
+              zeitgenössischen deutschen Dichtung</thema>: <dozent><grad>D.
+              ph.</grad> <nachname>Witkowski</nachname>, <funktion>P.
+              E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+              Be.</siehe></veranstaltungsverweis>
 
               <trennlinie/>
 
@@ -3354,11 +3357,18 @@
               <nachname>Lambert</nachname></dozent>: <thema>Technik der Bank-
               und Börsengeschäfte</thema>, <zeit>zu noch zu best. Zeit</zeit>,
               <modus>privatissime</modus>, aber
-              <gebühr>gratis</gebühr></veranstaltung>. - 2) D. ph. et oec.
-              publ. Stieda, P. O., Sonnab. 9-11 U., privatissime, aber gratis.
-              - 3) D. ph., jur. et oecon. publ. Fricker, P. O.:
-              Oeffentlich-rechtliche Uebungen, wöchentl. zwei Stunden,
-              privatissime, aber gratis.</veranstaltungsgruppe>
+              <gebühr>gratis</gebühr></veranstaltung>. - 2)
+              <veranstaltung><dozent><grad>D. ph. et oec. publ.</grad>
+              <nachname>Stieda</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>Sonnab. 9-11 U.</zeit>,
+              <modus>privatissime</modus>, aber
+              <gebühr>gratis</gebühr></veranstaltung>. - 3)
+              <veranstaltung><dozent><grad>D. ph., jur. et oecon. publ.</grad>
+              <nachname>Fricker</nachname>, <funktion>P.
+              O.</funktion></dozent>: <thema>Oeffentlich-rechtliche
+              Uebungen</thema>, <zeit>wöchentl. zwei Stunden</zeit>,
+              <modus>privatissime</modus>, aber
+              <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
               <veranstaltung><thema>Statistisches Seminar</thema>:
               <dozent><grad>D. ph.</grad> <nachname>Hasse</nachname>,
@@ -3537,7 +3547,7 @@
               <veranstaltung><dozent><grad>D. ph.</grad> <vorname>O.</vorname>
               <nachname>Hölder</nachname>, <funktion>P. O.
               des.</funktion></dozent>: <thema>Uebungen zur
-              Determinntentheorie und zur Theorie der gleichungen</thema>:
+              Determinantentheorie und zur Theorie der Gleichungen</thema>:
               <zeit>in je einer noch zu best. Stunde</zeit>,
               <modus>privatissime</modus> u.
               <gebühr>gratis</gebühr></veranstaltung>. 4)
@@ -3557,12 +3567,439 @@
 
             <trennlinie/>
 
+            <seite>38</seite>
+
             <sachgruppe>
-              <titel/>
+              <titel>G. Naturwissenschaften.</titel>
+
+              <veranstaltung><thema>Experimentalphysik (Allgemeine Physik,
+              Wärme, Schall)</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Wiener</nachname>, <funktion>P. O.
+              des.</funktion></dozent>, <zeit>täglich 11-12 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Theorie der Wärme</thema>:
+              <dozent><grad>D. ph.</grad> <nachname>Drude</nachname>,
+              <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Mittw.,
+              Donnerst. u. Freit. 7-8 U. Vorm.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Meteorologie</thema>: <dozent><grad>D.
+              ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+              <nachname>Oettingen</nachname>, <funktion>P. O.
+              Hon.</funktion></dozent>, <zeit>Mont. u. Dienst. 6-7 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Specielle Theile der Physik (für
+              Studirende aller Facultäten)</thema>: <dozent><grad>D.
+              ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+              <nachname>Oettingen</nachname>, <funktion>P. O.
+              Hon.</funktion></dozent>, <zeit>Mittw. u. Freit. 6-7 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Interferenz und Polarisation des Lichtes
+              (Krystalloptik), mit Demonstrationen</thema>: <dozent><grad>D.
+              ph.</grad> <nachname>Wiedeburg</nachname>, <funktion>P. E.
+              des.</funktion></dozent>, <zeit>Mont. u. Mittw. 6-7 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Elektrische Schwingungen (mit
+              Demonstrationen)</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Drude</nachname>, <funktion>P. E.</funktion></dozent>,
+              <zeit>Freit. 6-7 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Allgemeine und physikalische Chemie <notiz
+              betreff="fortsetzung">II.</notiz>, Verwandtschaftslehre</thema>:
+              <dozent><grad>D. ph. et med.</grad>
+              <nachname>Ostwald</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>Dienst. bis Freit. 8-9 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Anorganische Experimentalchemie</thema>:
+              <dozent><grad>D. ph. &amp; med.</grad>
+              <nachname>Wislicenus</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>täglich 8-9 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Ausgewählte Kapitel aus der Chemie der
+              Pflanzen Thierstoffe</thema>: <dozent><grad>D. ph. et
+              med.</grad> <nachname>Wislicenus</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>Dienst. 6-7½ U.</zeit>,
+              <modus>publice</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Technische Chemie (mit
+              Excursionen)</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Wedige</nachname>, <funktion>P.
+              E.</funktion></dozent>, <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Grundzüge der mathematischen
+              Chemie</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Knoblauch</nachname></dozent>, <zeit>Dienst. u. Freit.
+              5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Ueber Terpene und Kampher</thema>:
+              <dozent><grad>D. ph.</grad>
+              <nachname>Rassow</nachname></dozent>, <zeit>Mont. 12-1
+              U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Organische Chemie <notiz
+              betreff="fortsetzung">II. Theil</notiz>: Die aromatischen
+              Verbindungen mit besonderer Berücksichtigung der Derivate der
+              conjugirten und der condensirten Kohlenwasserstoffe</thema>:
+              <dozent><grad>D. ph.</grad>
+              <nachname>Stobbe</nachname></dozent>, <zeit>Mittw. u. Sonnab.
+              12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Organische Chemie mit besonderer
+              Berücksichtigung ihrer Anwednung</thema>: <dozent><grad>D.
+              ph.</grad> <nachname>Beckmann</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>Mont. bis Freit. 8-9 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Qualitative Analyse</thema>:
+              <dozent><grad>D. ph.</grad> <nachname>Euler</nachname></dozent>,
+              <zeit>Dienst. u. Freit. 5-6 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Maasanlyse</thema>: <dozent><grad>D.
+              ph.</grad> <nachname>Wagner</nachname></dozent>, <zeit>Mont. u.
+              Donnerst. 5-6 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <seite>39</seite>
+
+              <veranstaltung><thema>Erste Anleitung zu chemischen
+              Versuchen</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Wagner</nachname></dozent>, <zeit>in zu best. Stunden
+              (im Anfange des Semesters)</zeit>,
+              <modus>publice</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Präparative Methoden der Chemie</thema>:
+              <dozent><grad>D. ph.</grad>
+              <nachname>Wagner</nachname></dozent>, <zeit>Dienst. u. Freit.
+              12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Ueber synthetische Methoden der
+              organischen Chemie</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Rassow</nachname></dozent>, <zeit>Donnerst. 12-1
+              U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Petrographie</thema>: <dozent><grad>D.
+              ph.</grad> <nachname>Zirkel</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>täglich 9-10 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Krystallographie</thema>: <dozent><grad>D.
+              ph.</grad> <nachname>Zirkel</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 12-1
+              U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Geologischer Bau des Königreichs Sachsen
+              (Erzgebirgische Provinz)</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Credner</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>Donnerst. 6-7 U.</zeit>,
+              <modus>publice</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Palaeontologie</thema>: <dozent><grad>D.
+              ph.</grad> <nachname>Credner</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>Mittw., Donnerst. u. Freit. 5-6
+              U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Allgemeine Botanik</thema>:
+              <dozent><grad>D. ph., rer. nat. et med.</grad>
+              <nachname>Pfeffer</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>täglich 7-8 U. Vorm.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Systematische Botanik, mit
+              Berücksichtigung der officinellen Pflanzen</thema>:
+              <dozent><grad>D. ph.</grad> <vorname>A.</vorname>
+              <nachname>Fischer</nachname>, <funktion>P.
+              E.</funktion></dozent>, <zeit>Mittw. u. Freit. 6-7 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Besprechung pharmaceutisch-chemischer
+              Präparate (anorganische Präparate)</thema>: <dozent><grad>D.
+              ph.</grad> <nachname>Beckmann</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
+              <modus>publice</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Untersuchung der Pflanzen- und Thiergewebe
+              im polarisierten Lichte, mit Uebungen</thema>: <dozent><grad>D.
+              ph.</grad> <nachname>Anmbronn</nachname>, <funktion>P.
+              E.</funktion></dozent>, <zeit>zweistünd., zu noch zu best.
+              Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Cursus der allgemeinen
+              Bakteriologie</thema>: <dozent><grad>D. ph.</grad>
+              <vorname>A.</vorname> <nachname>Fischer</nachname>, <funktion>P.
+              E.</funktion></dozent>, <zeit>zweimal 2 Stunden in zu best.
+              Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Allgemeine Zoologie</thema>:
+              <dozent><grad>D. ph.</grad> <nachname>Chum</nachname>,
+              <funktion>P. O.</funktion></dozent>, <zeit>tägl. 12-1 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Specielle Zoologie, <notiz
+              betreff="fortsetzung">II. Hälfte</notiz>: Naturgeschichte der
+              Wirbelthiere</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Marschall</nachname>, <funktion>P.
+              E.</funktion></dozent>, <zeit>Mont. bis Donnerst. 6-7 U.
+              Ab.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Geographische Verbreitung der
+              Thiere</thema>: <dozent><grad>D. med., ph. et jur.</grad>
+              <nachname>Carus</nachname>, <funktion>P. E.</funktion></dozent>,
+              <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Die niederen Thiere der Heimath, mit
+              Excursionen (Sonnab. Nachm.)</thema>: <dozent><grad>D.
+              ph.</grad> <nachname>Simroth</nachname>, <funktion>P.
+              E.</funktion></dozent>, <zeit>Mittw. 4-5 u. Freit. 5-6 U.</zeit>
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Naturgeschichte der Insekten</thema>:
+              <dozent><grad>D. ph.</grad>
+              <nachnamenpräfix>zur</nachnamenpräfix>
+              <nachname>Strassen</nachname></dozent>, <zeit>Donnerst. 4-5
+              U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <seite>40</seite>
+
+              <veranstaltung><thema>Entwicklungsgeschichte der Erde und ihrer
+              Bewohner <notiz betreff="fortsetzung">I. Theil</notiz> (für
+              Studirende aller Facultäten)</thema>: <dozent><grad>D.
+              ph.</grad> <nachname>Felix</nachname>, <funktion>P.
+              E.</funktion></dozent>, <zeit>Mittw. 6-7 U. Nachm.</zeit>,
+              <modus>publice</modus>.</veranstaltung>
+
+              <veranstaltungsverweis><thema>Einführung in die mathematische
+              Behandlung der Naturwissenschaften</thema>: <dozent><grad>D.
+              med. et ph.</grad> <vorname>O.</vorname>
+              <nachname>Fischer</nachname>, <funktion>P.
+              E.</funktion></dozent> <siehe>Siehe Medicinische
+              Facultät</siehe>.</veranstaltungsverweis>
+
+              <veranstaltungsverweis><thema>Thatsachen und Theorien der
+              Farbenwahrnehmung</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Mentz</nachname></dozent>. <siehe>Siehe Abschnitt
+              A.</siehe></veranstaltungsverweis>
+
+              <veranstaltungsverweis><thema>Ausgewählte Kapitel der
+              construirenden Geometrie</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Neumann</nachname>, <funktion>P.
+              O.</funktion></dozent> <siehe>Siehe Abschnitt
+              F.</siehe></veranstaltungsverweis>
+
+              <veranstaltungsverweis><thema>Ausgleichungsrechnung und Methode
+              der kleinsten Quadrate</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Bruns</nachname>, <funktion>P. O.</funktion></dozent>
+              <siehe>Siehe Abshcnitt F.</siehe></veranstaltungsverweis>
+
+              <veranstaltungsverweis><thema>Theorie der Curven und
+              Flächen</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Hausdorff</nachname></dozent>. <siehe>Siehe Abschnitt
+              F.</siehe></veranstaltungsverweis>
+
+              <absatz>Allgemeine Astronomie und mathematische Geographie:
+              <siehe>Siehe Abschnitt F.</siehe></absatz>
+
+              <veranstaltungsverweis><thema>Entwickelungsgeschichte höherer
+              Thiere und des Menschen</thema>: <dozent><grad>D. med.</grad>
+              <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>
+              <siehe>Siehe Medicinische
+              Facultät</siehe>.</veranstaltungsverweis>
+
+              <trennlinie/>
+
+              <veranstaltung><thema>Selbstständige physikalische Arbeiten für
+              Vorgeschrittene</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Wiener</nachname>, <funktion>P. O.
+              des.</funktion></dozent> in Gemeinschaft mit <dozent><grad>D.
+              ph.</grad> <nachname>Drude</nachname>, <funktion>P.
+              E.</funktion></dozent>, <zeit>täglich 9-1 U. u. (ausser Sonnab.)
+              2-5 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Physikalisches Halbpraktikum</thema>:
+              <dozent><grad>D. ph.</grad> <nachname>Wiener</nachname>,
+              <funktion>P. O. des.</funktion></dozent>, <zeit>Mittw. u.
+              Donnerst. 2-5 U., Sonnab. 9-12 U., an einem oder zwei halben
+              Tagen</zeit>, <modus>privatissime</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Physikalisches Colloquium</thema>:
+              <dozent><grad>D. ph.</grad> <nachname>Wiener</nachname>,
+              <funktion>P. O. des.</funktion></dozent>, <zeit>Donnerst. 5-7
+              U.</zeit>, <modus>privatissime</modus>, aber
+              <gebühr>gratis</gebühr>.</veranstaltung>
+
+              <veranstaltung><thema>Chemisches Vollpraktikum</thema>:
+              <dozent><grad>D. ph. et med.</grad>
+              <nachname>Wislicenus</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>täglich 9-12 U. u. (ausser
+              Sonnab.) 2-6 U.</zeit>,
+              <modus>privatissime</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Chemisches Halbpraktikum</thema>:
+              <dozent><grad>D. ph. et med.</grad>
+              <nachname>Wislicenus</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>Mont. bis Freit. 9-12 U. oder 2-5
+              U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Chemisches Praktikum, ganz- und
+              halbtägig</thema>: <dozent><grad>D. ph. et med.</grad>
+              <nachname>Ostwald</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>tägl. 8-12 u. (ausser Sonnab.) 2-6
+              U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Physikalisch-chemisches Praktikum, ganz-
+              und halbtägig</thema>: <dozent><grad>D. ph. et med.</grad>
+              <nachname>Ostwald</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>täglich 8-12 U. u. (ausser
+              Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Besprechung wissenschaftlicher
+              Arbeiten</thema>: <dozent><grad>D. ph. et med.</grad>
+              <nachname>Ostwald</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
+              <modus>privatissime</modus>, aber
+              <gebühr>gratis</gebühr>.</veranstaltung>
+
+              <veranstaltung><thema>Chemisches Praktikum, ganz- und
+              halbtägig</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Beckmann</nachname>, <funktion>P. O.
+              des.</funktion></dozent>, <zeit>tägl. 8-12 u. (ausser Sonnab.)
+              2-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <seite>41</seite>
+
+              <veranstaltung><thema>Chemisches Praktikum für Mediner</thema>:
+              <dozent><grad>D. ph.</grad> <nachname>Beckmann</nachname>,
+              <funktion>P. O.</funktion></dozent>, <zeit>vierstünd. (zweimal
+              zwei Stund. in der Woche), nach Uebereinkunft</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Pharmaceutisches Praktikum</thema>:
+              <dozent><grad>D. ph.</grad> <nachname>Beckmann</nachname>,
+              <funktion>P. O.</funktion></dozent> <zeit>halbtäg., tägl. 8-12
+              u. (ausser Sonnab.) 2-6 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Praktikum für
+              Nahrungsmittel-Chemiker</thema>: <dozent><grad>D. med.</grad>
+              <nachname>Hofmann</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>tägl. 9-1 U. oder 3-6 U.</zeit>,
+              <modus>privatissime</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Arbeiten auf dem Gebiete der
+              Nahrungsmittel-Chemie</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Beckmann</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>tägl. 8-12 u. (ausser Sonnab.) 2-6
+              U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Mineralogische und geologische Arbeiten
+              und Untersuchungen im Institut</thema>: <dozent><grad>D.
+              ph.</grad> <nachname>Zirkel</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>Mont. bis Freit. 9-1 U.</zeit>,
+              <modus>privatissime</modus>, aber
+              <gebühr>gratis</gebühr>.</veranstaltung>
+
+              <veranstaltung><thema>Palaeontologisches und geologisches
+              Praktikum</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Credner</nachname>, <funktion>P.
+              O.</funktion></dozent> und <dozent><grad>D. ph.</grad>
+              <nachname>Felix</nachname>, <funktion>P. E.</funktion></dozent>,
+              <zeit>Sonnab. 10-1 U.</zeit>, <modus>privatisisme</modus>, aber
+              <gebühr>gratis</gebühr>.</veranstaltung>
+
+              <veranstaltung><thema>Mikroskopische Uebungen</thema>:
+              <dozent><grad>D. ph., rer. nat. et med.</grad>
+              <nachname>Pfeffer</nachname>, <funktion>P.
+              O.</funktion></dozent>, <zeit>Dienst. u. Freit. 9-11 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Botanisches
+              Laboratorium</thema><korrektur>:</korrektur> <dozent><grad>D.
+              ph., rer. nat. et med.</grad> <nachname>Pfeffer</nachname>,
+              <funktion>P. O.</funktion></dozent>, <zeit>täglich</zeit>,
+              <modus>privatissime</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Uebungen im bestimmern von
+              Blüthenpflanzen</thema>: <dozent><grad>D. ph.</grad>
+              <vorname>A.</vorname> <nachname>Fischer</nachname>, <funktion>P.
+              E.</funktion></dozent>, <zeit>Mont. 6-7½ U.</zeit>
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Botanische Excursionen</thema>:
+              <dozent><grad>D. ph.</grad> <vorname>A.</vorname>
+              <nachname>Fischer</nachname>, <funktion>P.
+              E.</funktion></dozent>, <zeit>Sonnab. Nachm.</zeit>,
+              <modus>publice</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Zoologisch-zootomisches Laboratorium für
+              Anfänger und Geübtere</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Chun</nachname>, <funktion>P. O.</funktion></dozent>,
+              <zeit>tägl. 9-1 U.</zeit>,
+              <modus>privatissime</modus>.</veranstaltung>
+
+              <veranstaltung><thema>Anthropologische Uebungen</thema>:
+              <dozent><grad>D. ph. et med.</grad> <vorname>E.</vorname>
+              <nachname>Schmidt</nachname>, <funktion>P. O.
+              Hon.</funktion></dozent>, <zeit>Mittw. 2-4 U.</zeit>,
+              <modus>privatim</modus>.</veranstaltung>
+
+              <veranstaltungsverweis><thema>Physiologisch-chemisches
+              Praktikum</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Siegfried</nachname>, <funktion>P.
+              E.</funktion></dozent> <siehe>Siehe Medicinische
+              Facultät</siehe>.</veranstaltungsverweis>
+
+              <veranstaltungsverweis><thema>Seminar für wissenschaftliches
+              Rechnen</thema>: <dozent><grad>D. ph.</grad>
+              <nachname>Bruns</nachname>, <funktion>P. O.</funktion></dozent>
+              <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
             </sachgruppe>
           </sachgruppe>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
+
+  <trennlinie/>
+
+  <absatz>Für Fechtunterricht: Der Univ.-Fechtmeister Roux.</absatz>
+
+  <absatz>Für Reitunterricht: Der Univ.-Stallmeister Sack.</absatz>
+
+  <trennlinie/>
+
+  <absatz>Die Universitätsbibliothek (Beethovenstr. 4) ist geöffnet: täglich
+  von 9-1 Uhr und (mit Ausnahme des Sonnabends) von 3-5 Uhr, der Lesesaal
+  derselben: täglich von 9-1 U. u. (mit Ausnahme des Sonnabends) von 3-6 Uhr,
+  die <seite>42</seite> Bücher-Ausgabe und -Annahme: täglich von 11-1 und (mit
+  Ausnahme des Sonnabends) von 3-5 Uhr.</absatz>
+
+  <absatz>Anträge auf Anschaffung von Büchern werden jederzeit von dem der
+  betreffenden Facultät anghörenden Mitgliede der Bibliothek-Commisiion
+  entgegen genommen.</absatz>
+
+  <absatz>Die Akademische Lesehalle (Universitätsstrasse Nr. 7/9) ist
+  Wochentags von 8 Uhr früh bis 8 Uhr Abends, Sonnatgs von 11 bis 3 Uhr
+  geöffnet.</absatz>
+
+  <absatz>Die Stadtbibliothek und die mit derselben verbundene Pölitz'sche
+  Bibliothek ist geöffnet Mont. u. Donnerst. 11-1 U., sonst. 3-5 Uhr.</absatz>
+
+  <absatz>Die Theologische Studentenbibliothek, Paulinum II. Geschoss
+  (Beguinenhaus), ist wöchentlich zweimal, Dienst. u. Freit. ¾2-¾3 Uhr,
+  geöffnet.</absatz>
+
+  <absatz>Das Antiken-Museum (Eingang Albertinum Nr. 1) ist Sonntags 11-1 dem
+  Publikum, an einem später zu bestimmenden Wochentage nur für Studirende, die
+  kirchlich-archaeologische Sammlung ist Mittw. 12-1 Uhr, das zoologische
+  Museum Mittw. 2-4 Uhr, das Universitäts-Herbarium täglich früh 9-12 Uhr, das
+  mineraologische Museum Sonnab. 11-1 Uhr geöffnet.</absatz>
 </vv>
