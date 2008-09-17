@@ -1502,9 +1502,10 @@
         <titel>A. Philosophie.</titel>
 
         <veranstaltung><thema>Einleitung in die Philosophie und Logik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hermann</nachname>, <funktion>P.
-        O. Hon.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
-        9 bis 10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="hermann_c"><grad>D. ph.</grad>
+        <nachname>Hermann</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 9
+        bis 10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einleitung in die Philosophie und Logik</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Külpe</nachname></dozent>,
@@ -1523,8 +1524,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber die Grundbegriffe der Aesthetik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hermann</nachname>, <funktion>P.
-        O. Hon.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 9-10 U.</zeit>,
+        <dozent ref="hermann_c"><grad>D. ph.</grad>
+        <nachname>Hermann</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 9-10 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Religionsphilosophie</thema>: <dozent><grad>D.
@@ -1539,10 +1541,10 @@
 
         <veranstaltung><thema>Geschichte der neueren Philosophie, mit einer
         einleitenden Uebersicht über die Geschichte der älteren
-        Philosophie</thema>: <dozent><grad>D. ph., jur. et med.</grad>
-        <nachname>Wundt</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Philosophie</thema>: <dozent ref="wundt_w"><grad>D. ph., jur. et
+        med.</grad> <nachname>Wundt</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Empirische Philosophie der Geschichte</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Barth</nachname></dozent>,
@@ -1599,8 +1601,8 @@
         Psychologie für Anfänger</thema>: <dozent><grad>D. ph.</grad>
         <nachname>Külpe</nachname></dozent>, <zeit>Sonnab. 11-1
         U.</zeit></veranstaltung>, <veranstaltung>b) <thema>Specielle Arbeiten
-        und Uebungen der Theilnehmer</thema>: <dozent><grad>D. ph., jur. &amp;
-        med.</grad> <nachname>Wundt</nachname>, <funktion>P.
+        und Uebungen der Theilnehmer</thema>: <dozent ref="wundt_w"><grad>D.
+        ph., jur. &amp; med.</grad> <nachname>Wundt</nachname>, <funktion>P.
         O.</funktion></dozent> u. <dozent><grad>D. ph.</grad>
         <nachname>Külpe</nachname></dozent>, <zeit>Mont. bis Freit. 11-1 u.
         2-7 U. u. Sonnab. 2-4 U.</zeit>, <modus>privatissime</modus>, aber
@@ -1667,7 +1669,7 @@
           <titel>a) Altclassische Philologie.</titel>
 
           <veranstaltung><thema>Geschichte der griechischen Litteratur seit
-          Alexander</thema>: <dozent><grad>D. ph.</grad>
+          Alexander</thema>: <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
           <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont. bis Freit. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2008,7 +2010,7 @@
           Donnerst. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der deutschen Litteratur im 19.
-          Jahrhundert</thema>: <dozent><grad>D. ph.</grad>
+          Jahrhundert</thema>: <dozent ref="biedermann_k"><grad>D. ph.</grad>
           <nachname>Biedermann</nachname>, <funktion>P. O.
           Hon.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2251,10 +2253,10 @@
         <funktion>P. E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 10-11
         U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Sächsische Geschichte</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Wenck</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 10-11 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        <veranstaltung><thema>Sächsische Geschichte</thema>: <dozent
+        ref="wenck_wb"><grad>D. ph.</grad> <nachname>Wenck</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mittw. u. Sonnab.
+        10-11 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der französischen Revolution</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Gess</nachname></dozent>,
@@ -2297,10 +2299,10 @@
           zweistündig</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung>b) <thema>Uebungen auf dem Gebiete der Geschichte der
-          römischen Republik und selbständige Arbeiten</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Wachsmuth</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. 6-8 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          römischen Republik und selbständige Arbeiten</thema>: <dozent
+          ref="wachsmuth_c"><grad>D. ph.</grad>
+          <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst. 6-8 U.</zeit>, <modus>publice</modus>.</veranstaltung>
         </sachgruppe>
 
         <seite>26</seite>
