@@ -1671,14 +1671,16 @@ dritten Sachgruppe anordnen!
         <titel>A. Philosophie.</titel>
 
         <veranstaltung><thema>Einleitung in die Philosophie u. Logik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Heinze</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="heinze_m"><grad>D. ph.</grad>
+        <nachname>Heinze</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Psychologie</thema>: <dozent><grad>D. ph., jur.
-        et med.</grad> <nachname>Wundt</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Psychologie</thema>: <dozent
+        ref="wundt_w"><grad>D. ph., jur. et med.</grad>
+        <nachname>Wundt</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <seite>20</seite>
 
@@ -1763,10 +1765,11 @@ dritten Sachgruppe anordnen!
         <nachname>Lange</nachname></dozent>. <siehe>Siehe Medicinische
         Facultät.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Naturphilosophie</thema>:
-        <dozent><grad>D. chem. et med.</grad> <nachname>Ostwald</nachname>,
-        <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische
-        Facultät G.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Naturphilosophie</thema>: <dozent
+        ref="ostwald_wilhelm"><grad>D. chem. et med.</grad>
+        <nachname>Ostwald</nachname>, <funktion>P. O.</funktion></dozent>
+        <siehe>Siehe Philosophische Facultät
+        G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geschichte der Pädagogik</thema>:
         <dozent><grad>D. th.</grad> <nachname>Rietschel</nachname>,
@@ -1782,16 +1785,16 @@ dritten Sachgruppe anordnen!
         <nachname>Wirth</nachname></dozent>, (im Auftrag des Directors),
         <seite>21</seite><zeit>Sonnab. 11-1 U.</zeit></veranstaltung>,
         <veranstaltung><thema>b) Specielle Arbeiten und Uebungen der
-        Theilnehmer</thema>: <dozent><grad>D. ph., jur. &amp; med.</grad>
-        <nachname>Wundt</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. bis Freit. 2-7 U. u. Sonnab. 2-4 U.</zeit>,
-        <modus>privatissime</modus>, aber <gebühr>gratis</gebühr>
+        Theilnehmer</thema>: <dozent ref="wundt_w"><grad>D. ph., jur. &amp;
+        med.</grad> <nachname>Wundt</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont. bis Freit. 2-7 U. u. Sonnab. 2-4
+        U.</zeit>, <modus>privatissime</modus>, aber <gebühr>gratis</gebühr>
         (ausschliessl.
         Institutsbeitrag)</veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltungsgruppe><thema>Philosophisches Seminar</thema>:
         <veranstaltung><thema>1) Besprechung ethischer Fragen; schriftliche
-        Arbeiten</thema>: <dozent><grad>D. ph.</grad>
+        Arbeiten</thema>: <dozent ref="heinze_m"><grad>D. ph.</grad>
         <nachname>Heinze</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. 8-10 U. Vorm.</zeit>,
         <modus>publice</modus>.</veranstaltung> - <thema>2) Erklärung des
@@ -1924,7 +1927,7 @@ dritten Sachgruppe anordnen!
           Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der griechischen Litteratur seit
-          Sulla</thema>: <dozent><grad>D. ph.</grad>
+          Sulla</thema>: <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
           <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont., Donnerst. u. Freit. 12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -1960,9 +1963,10 @@ dritten Sachgruppe anordnen!
           <siehe>Siehe Abschnitt D.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Römische Geschichte bis zum 2.
-          punischen Kriege</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>
-          <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
+          punischen Kriege</thema>: <dozent ref="wachsmuth_c"><grad>D.
+          ph.</grad> <nachname>Wachsmuth</nachname>, <funktion>P.
+          O.</funktion></dozent> <siehe>Siehe Abschnitt
+          C.</siehe></veranstaltungsverweis>
 
           <seite>23</seite>
 
@@ -1981,14 +1985,14 @@ dritten Sachgruppe anordnen!
 
           <veranstaltungsgruppe><thema>Philologisches Seminar</thema>:
           <veranstaltung><thema>1) Erklärung von Polybius' B. XII. und
+          Besprechung schriftlicher Arbeiten</thema>: <dozent
+          ref="wachsmuth_c"><grad>D. ph.</grad>
+          <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mittw. 11-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+          - <veranstaltung><thema>2) Interpretation der Tragoedie Octavia und
           Besprechung schriftlicher Arbeiten</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Wachsmuth</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mittw. 11-1 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung> - <veranstaltung><thema>2)
-          Interpretation der Tragoedie Octavia und Besprechung schriftlicher
-          Arbeiten</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Marx</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Sonnab. 11-1 U.</zeit>,
+          ph.</grad> <nachname>Marx</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Sonnab. 11-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Philologisches Proseminar</thema>:
@@ -2037,9 +2041,9 @@ dritten Sachgruppe anordnen!
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Altgeschichtliches Seminar</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Wachsmuth</nachname>,
-          <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
-          C.</siehe></veranstaltungsverweis>
+          <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
+          <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>
+          <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Altgeschichtliches Seminar</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Gardthausen</nachname>,
@@ -2589,7 +2593,7 @@ dritten Sachgruppe anordnen!
         9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Römische Geschichte bis zum 2. punischen
-        Kriege</thema>: <dozent><grad>D. ph.</grad>
+        Kriege</thema>: <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
         <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont. bis Freit. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2624,8 +2628,8 @@ dritten Sachgruppe anordnen!
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte des deutschen
-        Einheitsgedankens</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Biedermann</nachname>, <funktion>P. O.
+        Einheitsgedankens</thema>: <dozent ref="biedermann_k"><grad>D.
+        ph.</grad> <nachname>Biedermann</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Sonnab. 12-1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
@@ -2767,7 +2771,7 @@ dritten Sachgruppe anordnen!
 
             <veranstaltung><thema>a) Historische Uebungen im Anschluss an
             Theophrast's Charaktere und Besprechung schriftlicher
-            Arbeiten</thema>: <dozent><grad>D. ph.</grad>
+            Arbeiten</thema>: <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
             <nachname>Wachsmuth</nachname>, <funktion>P.
             O.</funktion></dozent>, <zeit>Dienst. 6-8 U.</zeit>,
             <modus>publice</modus>.</veranstaltung>
@@ -2981,14 +2985,14 @@ dritten Sachgruppe anordnen!
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Uebertragung von Tonweken der Palestrina-Epoche
-        in moderne Notenschrift</thema>: <dozent><grad>D. ph. et mus.</grad>
-        <nachname>Riemann</nachname></dozent>, <zeit>Mont. u. Donnerst. 9-10
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        in moderne Notenschrift</thema>: <dozent ref="riemann_h"><grad>D. ph.
+        et mus.</grad> <nachname>Riemann</nachname></dozent>, <zeit>Mont. u.
+        Donnerst. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Musikalische Kunstströmungen in der 2. Hälfte
-        des 19. Jahrhunderts</thema>: <dozent><grad>D. ph. et mus.</grad>
-        <nachname>Riemann</nachname></dozent>, <zeit>Dienst. 9-10 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        des 19. Jahrhunderts</thema>: <dozent ref="riemann_h"><grad>D. ph. et
+        mus.</grad> <nachname>Riemann</nachname></dozent>, <zeit>Dienst. 9-10
+        U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Zur Vorbereitung auf das 25jährige Jubiläum der
         Bühnenfestspiele in Bayreuth (1901): Der fliegende Holänder, Der Ring
@@ -3083,9 +3087,9 @@ dritten Sachgruppe anordnen!
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Historische Kammermusik-Uebungen (Collegium
-          musicum)</thema>: <dozent><grad>D. ph. et mus.</grad>
-          <nachname>Riemann</nachname></dozent>, <zeit>einmal wöchentl. 8-10
-          U. Ab.</zeit>, <modus>privatissime</modus>, aber
+          musicum)</thema>: <dozent ref="riemann_h"><grad>D. ph. et
+          mus.</grad> <nachname>Riemann</nachname></dozent>, <zeit>einmal
+          wöchentl. 8-10 U. Ab.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <trennlinie/>
@@ -3563,10 +3567,10 @@ dritten Sachgruppe anordnen!
       <sachgruppe>
         <titel>G. Naturwissenschaften.</titel>
 
-        <veranstaltung><thema>Naturphilosophie</thema>: <dozent><grad>D. chem.
-        et med.</grad> <nachname>Ostwald</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Sonnab. 8-9 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Naturphilosophie</thema>: <dozent
+        ref="ostwald_wilhelm"><grad>D. chem. et med.</grad>
+        <nachname>Ostwald</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Sonnab. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Experimentalphysik <notiz
         betreff="fortsetzung">I.</notiz> (Mechanik, Wärme, Schall)</thema>:
@@ -3824,10 +3828,10 @@ dritten Sachgruppe anordnen!
         oder 2-5 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum</thema>, <zeit>ganz- und
-        halbtägig</zeit>: <dozent><grad>D. chem. et med.</grad>
-        <nachname>Ostwald</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>tägl. 8-12 u. (ausser Sonnab.) 2-6 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        halbtägig</zeit>: <dozent ref="ostwald_wilhelm"><grad>D. chem. et
+        med.</grad> <nachname>Ostwald</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>tägl. 8-12 u. (ausser Sonnab.) 2-6
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum für Lehrer (Analyse und
         Schulversuche</thema>: <dozent><grad>D. ph.</grad>
@@ -3836,15 +3840,16 @@ dritten Sachgruppe anordnen!
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Physikalisch-chemisches Praktikum</thema>,
-        <zeit>ganz- und halbtägig</zeit>: <dozent><grad>D. chem. et
-        med.</grad> <nachname>Ostwald</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>tägl. 8-12 U. u. (ausser Sonnab.) 2-6
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <zeit>ganz- und halbtägig</zeit>: <dozent
+        ref="ostwald_wilhelm"><grad>D. chem. et med.</grad>
+        <nachname>Ostwald</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>tägl. 8-12 U. u. (ausser Sonnab.) 2-6 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Besprechung wissenschaftlicher Arbeiten</thema>:
-        <dozent><grad>D. chem. et med.</grad> <nachname>Ostwald</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont. 5-6 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        <dozent ref="ostwald_wilhelm"><grad>D. chem. et med.</grad>
+        <nachname>Ostwald</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum</thema>, <zeit>ganz- und
         halbtägig</zeit>: <dozent><grad>D. ph.</grad> <seite>42</seite><nachname>Beckmann</nachname>,
