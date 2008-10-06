@@ -386,9 +386,9 @@
       A.</siehe></veranstaltung>
 
       <veranstaltung><thema>Grundzüge der deutschen Kulturgeschichte</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
-      C.</siehe></veranstaltung>
+      <dozent ref="lamprecht_k"><grad>D. ph.</grad>
+      <nachname>Lamprecht</nachname>, <funktion>P. O.</funktion></dozent>
+      <siehe>Siehe Philosophische Facultät C.</siehe></veranstaltung>
 
       <veranstaltung><thema>Deutsche Geschichte im Zeitalter der Reformation
       und Gegenreformation</thema>: <dozent><grad>D. th.</grad>
@@ -679,7 +679,7 @@
       Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Grundzüge der deutschen
-      Kulturgeschichte</thema> <dozent><grad>D. ph.</grad>
+      Kulturgeschichte</thema> <dozent ref="lamprecht_k"><grad>D. ph.</grad>
       <nachname>Lamprecht</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe Philosophische Facultät C.</siehe></veranstaltungsverweis>
 
@@ -2238,12 +2238,13 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Grundzüge der deutschen
-        Kulturgeschichte</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Lamprecht</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mittw. 3-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Kulturgeschichte</thema>: <dozent ref="lamprecht_k"><grad>D.
+        ph.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mittw. 3-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Deutsche Geschichte vom 13. zum 16.
-        Jahrhundert</thema>: <dozent><grad>D. ph.</grad>
+        Jahrhundert</thema>: <dozent ref="lamprecht_k"><grad>D. ph.</grad>
         <nachname>Lamprecht</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst., Donnerst. u. Freit. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2335,7 +2336,8 @@
           Vorm.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung>b) <thema>Uebungen über Themata aus der
-          mittelalterlichen Geschichte</thema>: <dozent><grad>D. ph.</grad>
+          mittelalterlichen Geschichte</thema>: <dozent
+          ref="lamprecht_k"><grad>D. ph.</grad>
           <nachname>Lamprecht</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Sonnab. 8-10 U. Vorm.</zeit>, <modus>privatissime</modus>,
           aber <gebühr>gratis</gebühr>.</veranstaltung>
