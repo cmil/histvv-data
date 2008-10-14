@@ -22,6 +22,12 @@
 
     <status komplett="ja">
       <transkribent>Beatrice</transkribent>
+
+      <korrigiert>
+        <durch>frank</durch>
+
+        <am>14.10.2008</am>
+      </korrigiert>
     </status>
   </kopf>
 
@@ -1028,11 +1034,11 @@
             <modus>öffentlich</modus> u.
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltungsgruppe><dozent><nachname>Anger</nachname>,
-            <grad>M.</grad> <vorname>R.</vorname>, <funktion>Theol.
-            Lic.</funktion></dozent>, <thema>Erklärung des Ev. des Matthäus
-            bis zur Leidensgeschichte</thema>, <zeit>10 U. 4 T.</zeit>
-            (<gebühr>2 T. unentgeltlich</gebühr>).</veranstaltungsgruppe>
+            <veranstaltung><dozent><nachname>Anger</nachname>, <grad>M.</grad>
+            <vorname>R.</vorname>, <funktion>Theol. Lic.</funktion></dozent>,
+            <thema>Erklärung des Ev. des Matthäus bis zur
+            Leidensgeschichte</thema>, <zeit>10 U. 4 T.</zeit> (<gebühr>2 T.
+            unentgeltlich</gebühr>).</veranstaltung>
 
             <veranstaltung><dozent><nachname>Hänsel</nachname>,
             <grad>M.</grad> <vorname>F. M. A.</vorname>, <funktion>Theol.
@@ -1055,10 +1061,11 @@
 
             <seite>11</seite>
 
-            <veranstaltung><dozent><nachname>Winer</nachname>, <grad>D.</grad>
-            <vorname>J. F.</vorname>, <funktion>P. Prim.</funktion></dozent>,
-            <thema>Uebungen der Lausitzer Gesellschaft</thema>, <zeit>in den
-            best. T. u. St.</zeit> <modus>privatissime</modus>, aber
+            <veranstaltung><dozent><nachname>Winzer</nachname>,
+            <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P.
+            Prim.</funktion></dozent>, <thema>Uebungen der lausitzer
+            Gesellschaft</thema>, <zeit>in den best. T. u. St.</zeit>
+            <modus>privatissime</modus>, aber
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Theile</nachname>,
@@ -1114,13 +1121,13 @@
             <veranstaltung><modus>öffentlich</modus> <zeit>3 U. 2
             T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-            <veranstaltung><dozent><nachname>Theile</nachname>,
+            <veranstaltungsverweis><dozent><nachname>Theile</nachname>,
             <grad>D.</grad> <vorname>K. G. W.</vorname>, <funktion>P.
             E.</funktion></dozent>, <thema>Leidensgeschichte</thema>,
-            <siehe>s. Erklärung des N. T.</siehe></veranstaltung>
+            <siehe>s. Erklärung des N. T.</siehe></veranstaltungsverweis>
 
             <veranstaltung><dozent><nachname>Goldhorn</nachname>,
-            <grad>M.</grad> <vorname>D. J. G.</vorname>, <funktion>Theol.
+            <grad>M.</grad> <vorname>D. J. H.</vorname>, <funktion>Theol.
             Lic.</funktion></dozent>, <thema>kirchliche Literaturgeschichte,
             <notiz betreff="fortsetzung">erster Theil</notiz></thema>, <zeit>2
             T. in zu best. St.</zeit>
@@ -1137,7 +1144,7 @@
             <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Goldhorn</nachname>,
-            <grad>M.</grad> <vorname>D. J. G.</vorname>, <funktion>Theol.
+            <grad>M.</grad> <vorname>D. J. H.</vorname>, <funktion>Theol.
             Lic.</funktion></dozent>, <zeit>in zu best. St.</zeit>
             <modus>privatissime</modus>.</veranstaltung>
           </sachgruppe>
@@ -1260,10 +1267,9 @@
             <titel>Symbolik.</titel>
 
             <veranstaltung><dozent><nachname>Winer</nachname>, <grad>D.</grad>
-            <vorname>G. B<korrektur>.</korrektur></vorname>, <funktion>P. O.,
-            d. Z. Dechant</funktion></dozent>, <thema>Symbolik der
-            evangelischen Kirche</thema>, <zeit>9 U. 3
-            T.</zeit></veranstaltung>
+            <vorname>G. B.</vorname>, <funktion>P. O., d. Z.
+            Dechant</funktion></dozent>, <thema>Symbolik der evangelischen
+            Kirche</thema>, <zeit>9 U. 3 T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
@@ -1359,7 +1365,7 @@
             <veranstaltung><dozent><nachname>Hänsel</nachname>,
             <grad>M.</grad> <vorname>F. M. A.</vorname>, <funktion>Theol.
             Lic.</funktion></dozent>, <thema>homiletische Uebungen</thema>,
-            <thema>in den best. T. u. St.</thema> <modus>privatissime</modus>,
+            <zeit>in den best. T. u. St.</zeit> <modus>privatissime</modus>,
             aber <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
 
@@ -1424,7 +1430,7 @@
           <veranstaltung><dozent><nachname>Schletter</nachname>,
           <grad>D.</grad> <vorname>H. T.</vorname></dozent>, <thema>über das
           Fortschreiten der Rechtswissenschaft u. Gesetzgebung in Deutschland
-          während der letzen 3 Jahrhunderte</thema>, <zeit>4 U. 2 T.</zeit>
+          während der letzten 3 Jahrhunderte</thema>, <zeit>4 U. 2 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
 
@@ -1664,8 +1670,8 @@
             <veranstaltungsgruppe><dozent><nachname>Berger</nachname>,
             <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>königl.
             sächsisches Privatrecht, nach
-            <gesperrt>Haubold</gesperrt></thema>, <veranstaltung><zeit>6. T.
-            in zu best. St.</zeit></veranstaltung> mit einem
+            <gesperrt>Haubold</gesperrt></thema>, <veranstaltung><zeit>6 T. in
+            zu best. St.</zeit></veranstaltung> mit einem
             <veranstaltung><gebühr>unentgeltlich</gebühr>en
             <thema>Repetitorium</thema></veranstaltung>
             verbunden.</veranstaltungsgruppe>
@@ -1677,8 +1683,8 @@
             <veranstaltung><dozent><nachname>Steinacker</nachname>,
             <grad>D.</grad> <vorname>W. F.</vorname>, <funktion>P.
             O.</funktion></dozent>, <thema>königl. sächsisches Obligationen-
-            u. Erbrecht (<antiqua>Part. I. lib. III. et IV. §.
-            268-358</antiqua>)</thema>, <zeit>11 U. 2 T.</zeit>
+            u. Erbrecht (<antiqua>Part. I. lib. III. et IV.</antiqua> §.
+            268-358)</thema>, <zeit>11 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltungsverweis><dozent
@@ -1714,7 +1720,7 @@
         <titel>IV. Proceß.</titel>
 
         <sachgruppe>
-          <titel>Civilproceß</titel>
+          <titel>Civilproceß.</titel>
 
           <veranstaltung><dozent><nachname>Günther</nachname>, <grad>D.</grad>
           <vorname>K. F.</vorname>, <funktion>P. Prim., Fac. Iur.
@@ -1745,8 +1751,8 @@
           seinem Buche (Lpz. b. Fest. 1839.)</thema>, <zeit>2 T. in zu best.
           St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>Concurs-Recht
-          u.Proceß</thema>, <zeit>3 T. in zu best. St.</zeit></veranstaltung>
+          <veranstaltung><ders>Derselbe</ders>, <thema>Concurs-Recht u.
+          Proceß</thema>, <zeit>3 T. in zu best. St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -1911,10 +1917,10 @@
 
         <veranstaltung><dozent><nachname>Neubert</nachname>, <grad>D.</grad>
         <vorname>K. A.</vorname></dozent>, <thema>Erläuterung ausgewählter
-        Stellen aus Celsus und andern Schriftstellern, welche in der von
-        ihm<seite>19</seite> herausgegeb. <gesperrt>Chrestomathia
-        medica</gesperrt> (Lpz. b. Voß. 1839.) abgedruckt sind</thema>,
-        <zeit>11 U. 2 T.</zeit>
+        Stellen aus <antiqua>Celsus</antiqua> und andern Schriftstellern,
+        welche in der von ihm <seite>19</seite>herausgegeb.
+        <gesperrt>Chrestomathia medica</gesperrt> (Lpz. b. Voß, 1839.)
+        abgedruckt sind</thema>, <zeit>11 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><dozent><nachname>Lotze</nachname>, <grad>D.</grad>
@@ -1932,7 +1938,7 @@
           <veranstaltung><dozent><nachname>Weber</nachname>, <grad>D.</grad>
           <vorname>E. H.</vorname>, <funktion>P. O., d. Z. Dechant u.
           Rector</funktion></dozent>, <thema>Muskel- und
-          Eingeweidelehre</thema>, <zeit>10 U. 6 T.</zeit>
+          Eingeweidlehre</thema>, <zeit>10 U. 6 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><ders>Derselbe</ders>, <thema>Gefäß- und
@@ -2006,7 +2012,7 @@
         <sachgruppe>
           <titel>4) Allgemeine Therapie.</titel>
 
-          <veranstaltung><dozent><nachname>Kasper</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent><nachname>Hasper</nachname>, <grad>D.</grad>
           <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>11
           U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -2048,17 +2054,19 @@
 
           <veranstaltungsgruppe><dozent><nachname>Braune</nachname>,
           <grad>D.</grad> <vorname>A.</vorname>, <funktion>P. O.
-          des.</funktion></dozent>, <veranstaltung><thema>der erste Theil der
+          des.</funktion></dozent>, <veranstaltung><thema>der <notiz
+          betreff="fortsetzung">erste Theil</notiz> der
           Arzneimittellehre</thema>, <zeit>7 U. 4 T.</zeit>
           <modus>öffentlich</modus></veranstaltung>, <veranstaltung><thema>der
-          zweite Theil</thema>, <zeit>5 U. 6 T.</zeit>
+          <notiz betreff="fortsetzung">zweite Theil</notiz></thema>, <zeit>5
+          U. 6 T.</zeit>
           <modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung><dozent><nachname>Kunze</nachname>, <grad>D.</grad>
           <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>medicinische Botanik nach natürlichen Familien, mit
-          Erläuterung der Droguen aus dem Pflanzenreiche</thema>,
-          <zeit>8<korrektur original="."/> U. 4 T.</zeit></veranstaltung>
+          Erläuterung der Droguen aus dem Pflanzenreiche</thema>, <zeit>8 U. 4
+          T.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Radius</nachname>, <grad>D.</grad>
           <vorname>J.</vorname>, <funktion>P. E.</funktion></dozent>,
@@ -2124,10 +2132,11 @@
             symphathischen Augenentzündung</thema>, <zeit>11 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Ritterisch</nachname>,
-            <grad>D.</grad> <vorname>F. P.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>über Augenkrankheiten</thema>,
-            <zeit>7 U. 2 T.</zeit></veranstaltung>
+            <veranstaltung><dozent
+            ref="ritterich_fp"><nachname>Ritterich</nachname>, <grad>D.</grad>
+            <vorname>F. P.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>über Augenkrankheiten</thema>, <zeit>7 U. 2
+            T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Kneschke</nachname>,
             <grad>D.</grad> <vorname>E. H.</vorname></dozent>, <thema>über
@@ -2216,9 +2225,8 @@
           <veranstaltung><dozent ref="clarus_jca"><nachname>Clarus</nachname>,
           <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P.
           O.</funktion></dozent>, <thema>medicinische Klinik, <ort>im
-          königlichen klin. Institute im Jacobshospitale</ort></thema>,
-          <zeit>9 -11 U. 6 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          königlichen klin. Institute im Jakobshospitale</ort></thema>,
+          <zeit>9-11 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
           <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
@@ -2228,16 +2236,14 @@
 
           <veranstaltung><dozent><nachname>Cerutti</nachname>, <grad>D.</grad>
           <vorname>L.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>Poliklinik</thema>, in Verbindung mit Hrn.
-          <dozent><funktion>Prof.</funktion> <grad>D.</grad>
-          <nachname>Braune</nachname></dozent>, <zeit>2 U. 6 T.</zeit>
+          <thema>Poliklinik, in Verbindung mit Hrn. Prof.
+          <antiqua>D.</antiqua> Braune</thema>, <zeit>2 U. 6 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Braune</nachname>, <grad>D.</grad>
           <vorname>A.</vorname>, <funktion>P. O. des.</funktion></dozent>,
-          <thema>Poliklinik</thema> in Verbindung mit Hrn.
-          <dozent><funktion>Prof.</funktion> <grad>D.</grad>
-          <nachname>Cerutti</nachname></dozent>, <zeit>2 U. 6 T.</zeit>
+          <thema>Poliklinik in Verbindung mit Hrn. Prof. <antiqua>D.</antiqua>
+          Cerutti</thema>, <zeit>2 U. 6 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Radius</nachname>, <grad>D.</grad>
@@ -2258,22 +2264,19 @@
 
           <veranstaltung><dozent><nachname>Walther</nachname>, <grad>D.</grad>
           <vorname>J. K. W.</vorname>, <funktion>P. E.</funktion></dozent>,
-          <thema>chirurgische Poliklini<korrektur>k in</korrektur></thema>
-          Verbindung mit Hrn. <dozent><grad>D.</grad>
-          <nachname>Carus</nachname></dozent>, <zeit>11 U. 6 T.</zeit>
-          <modus>öffentlic<korrektur>h</korrektur></modus><korrektur>.</korrektur></veranstaltung>
+          <thema>chirurgische Poliklinik in Verbindung mit Hrn.
+          <antiqua>D.</antiqua> Carus</thema>, <zeit>11 U. 6 T.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Carus</nachname>, <grad>D.</grad>
-          <vorname>E. A.</vorname></dozent>, <thema>chirurgische
-          Poliklinik</thema> in Verbindung <korrektur>mit</korrektur> Hrn.
-          <dozent><funktion>Prof.</funktion> <grad>D.</grad>
-          <nachname>Walther</nachname></dozent>, <zeit>11 U. 6 T.</zeit>
-          <gebühr>unentgeltli<korrektur>ch</korrektur></gebühr><korrektur>.</korrektur></veranstaltung>
+          <vorname>E. A.</vorname></dozent>, <thema>chirurgische Poliklinik in
+          Verbindung mit Hrn. Prof. <antiqua>D.</antiqua> Walther</thema>,
+          <zeit>11 U. 6 T.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><ders>Derselbe</ders>, <thema>orthopädische Klinik,
-          <notiz betreff="ort">in seiner orthopädischen
-          H<korrektur>eil</korrektur>anstalt</notiz></thema>, <zeit>3 U. 3
-          T.</zeit></veranstaltung>
+          <ort>in seiner orthopädischen Heilanstalt</ort></thema>, <zeit>3 U.
+          3 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -2281,11 +2284,10 @@
 
           <veranstaltung><dozent><nachname>Wendler</nachname>, <grad>D.</grad>
           <vorname>C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>gerichtliche Medicin, nach <korrektur>s.</korrektur> Sätzen,
-          für Mediciner</thema>, <zeit>11 U. 4 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <thema>gerichtliche Medicin, nach s. Sätzen, für Mediciner</thema>,
+          <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>gerichtliche Medisin,
+          <veranstaltung><ders>Derselbe</ders>, <thema>gerichtliche Medicin,
           nach s. Sätzen, für Juristen</thema>, <zeit>3 U. 4
           T.</zeit></veranstaltung>
 
@@ -2349,14 +2351,13 @@
     und anatomischer Gegenstände, <gesperrt>Karl Gottlob Aulich</gesperrt>,
     auf Verlangen gehörigen Unterricht ertheilen. Auch können sich die
     Studirenden des Unterrichtes der bei hiesiger Zeichnungs-, Maler- und
-    Architektur-Akademie angestellten Lehrer bedienen. <seite>23</seite><korrektur>D</korrektur>ie
+    Architektur-Akademie angestellten Lehrer bedienen. <seite>23</seite>Die
     <gesperrt>Universitätsbibliothek</gesperrt> wird täglich zwei Stunden
-    geöffnet, nämlich Mittw. und Sonnab. von 10 bis 12 Uhr <korrektur>und
-    a</korrektur>n den übrigen Tagen von 2 bis 4 Uhr, die
-    <gesperrt>Rathsbi<korrektur>blio</korrektur>thek</gesperrt> aber Montags,
-    Mittwochs und Sonnabends von <korrektur>2 bis</korrektur> 4 Uhr. Zu der
+    geöffnet, nämlich Mittw. und Sonnab. von 10 bis 12 Uhr und an den übrigen
+    Tagen von 2 bis 4 Uhr, die <gesperrt>Rathsbibliothek</gesperrt> aber
+    Montags, Mittwochs und Sonnabends von 2 bis 4 Uhr. Zu der
     <gesperrt>naturhistorischen Sammlung</gesperrt> der Universität findet
-    Mittwochs und Sonnab. von 10 bis 12 Uhr freier Zutritt statt.</absatz>
+    Mittwochs und Sonnab. von 10 bis 12 Uhr freier Zutritt Statt.</absatz>
 
     <trennlinie/>
 
