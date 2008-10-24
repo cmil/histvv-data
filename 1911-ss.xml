@@ -70,7 +70,7 @@
 
     <trennlinie/>
 
-    <sachgruppe>
+    <sachgruppe fakultät="Theologie">
       <titel>I. Theologische Fakultät.</titel>
 
       <veranstaltung><thema>Enzyklopädie und Methodologie der
@@ -401,7 +401,7 @@
 
     <trennlinie/>
 
-    <sachgruppe>
+    <sachgruppe fakultät="Jura">
       <titel>II. Juristische Fakultät.</titel>
 
       <veranstaltung><thema>Einführung in die Rechtswissenschaft (juristische
@@ -554,8 +554,10 @@
       Fakultäten</thema></veranstaltung>: <dozent><grad>D. jur.</grad>
       <nachname>Jaeger</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Donnerst. 3-5 U.</zeit>, <modus>privatim</modus>.
-      <veranstaltungsverweis><thema>Nationalökonomischer Teil</thema> siehe S.
+      <veranstaltungsverweis>Nationalökonomischer Teil siehe S.
       40</veranstaltungsverweis>.</veranstaltungsgruppe>
+
+      <!--veranstaltungsverweis eigentlich 'absatz',ist aber insgesamt va-gruppe?!-->
 
       <trennlinie/>
 
@@ -615,7 +617,7 @@
 
     <trennlinie/>
 
-    <sachgruppe>
+    <sachgruppe fakultät="Medizin">
       <titel>III. Medizinische Fakultät*).</titel>
 
       <veranstaltung><thema>Geschichte der Medizin II (Mittelalter und
@@ -639,11 +641,11 @@
       <!--Fußnote nur provisorisch getaggt-->
 
       <veranstaltung><thema>Einführung in das Studium der Medizin</thema>:
-      <dozent><grad>D. med.</grad> et <grad>LL. D.</grad>
-      <nachname>Spalteholz</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>an einem der ersten Tage des Semesters</zeit>,
-      <modus>publice</modus>, <ort>im Anatomischen Institut, Liebigstr.
-      13</ort>. <thema>Näheres durch Anschlag</thema>.</veranstaltung>
+      <dozent><grad>D. med. et LL. D.</grad> <nachname>Spalteholz</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>an einem der ersten Tage des
+      Semesters</zeit>, <modus>publice</modus>, <ort>im Anatomischen Institut,
+      Liebigstr. 13</ort>. <thema>Näheres durch
+      Anschlag</thema>.</veranstaltung>
 
       <trennlinie/>
 
@@ -660,7 +662,7 @@
       Liebigstr. 13</ort>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Knochen und
-      Gelenke)</thema>: <dozent><grad>D. med.</grad> et <grad>LL. D.</grad>
+      Gelenke)</thema>: <dozent><grad>D. med. et LL. D.</grad>
       <nachname>Spalteholz</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Dienst., Donnerst. u. Sonnab. 10-11 U.</zeit>,
       <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
@@ -668,7 +670,7 @@
 
       <veranstaltung><thema>Allgemeine Gelenklehre (im Anschluß an die
       Vorlesung über systematische Anatomie des Menschen [Knochen und
-      Gelenke]</thema> <dozent>von <grad>D. med.</grad> et <grad>LL. D.</grad>
+      Gelenke]</thema> <dozent>von <grad>D. med. et LL. D.</grad>
       <nachname>Spalteholz</nachname>, <funktion>P. E.</funktion></dozent>):
       <dozent><grad>D. med. et ph.</grad> <vorname>O.</vorname>
       <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>,
@@ -676,8 +678,8 @@
       Institut, Liebigstr. 13</ort>.</veranstaltung>
 
       <veranstaltung><thema>Situsdemonstrationen</thema>: <dozent><grad>D.
-      med.</grad> et <grad>LL. D.</grad> <nachname>Spalteholz</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 2-4 U.</zeit>,
+      med. et LL. D.</grad> <nachname>Spalteholz</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Sonnab. 2-4 U.</zeit>,
       <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
       13</ort>.</veranstaltung>
 
@@ -718,20 +720,20 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltungsgruppe><thema>Histologische Übungen</thema>:
-      <dozent><grad>D. med.</grad> et <grad>LL. D.</grad>
-      <nachname>Spalteholz</nachname>, <funktion>P. E.</funktion></dozent>,
-      <dozent>und <grad>D. med.</grad> <nachname>Held</nachname>, <funktion>P.
-      E. des.</funktion></dozent>, <veranstaltung><thema>Gruppe I</thema>:
-      <zeit>Mont. u. Donnerst. 2-5 U.</zeit></veranstaltung>;
-      <veranstaltung><thema>Gruppe II</thema>: <zeit>Dienst. u. Freit. 2-5
-      U.</zeit></veranstaltung>, <modus>privatim</modus>, <ort>im Anatomischen
-      Institut, Liebigstr. 13</ort>.</veranstaltungsgruppe>
+      <dozent><grad>D. med. et LL. D.</grad> <nachname>Spalteholz</nachname>,
+      <funktion>P. E.</funktion></dozent>, <dozent>und <grad>D. med.</grad>
+      <nachname>Held</nachname>, <funktion>P. E. des.</funktion></dozent>,
+      <veranstaltung><thema>Gruppe I</thema>: <zeit>Mont. u. Donnerst. 2-5
+      U.</zeit></veranstaltung>; <veranstaltung><thema>Gruppe II</thema>:
+      <zeit>Dienst. u. Freit. 2-5 U.</zeit></veranstaltung>,
+      <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
+      13</ort>.</veranstaltungsgruppe>
 
       <veranstaltung><thema>Anatomische Besprechungen</thema>:
-      <dozent><grad>D. med.</grad> et <grad>LL. D.</grad>
-      <nachname>Spalteholz</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mittw. 2-4 U.</zeit>, <modus>privatim</modus>, <ort>im
-      Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
+      <dozent><grad>D. med. et LL. D.</grad> <nachname>Spalteholz</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 2-4 U.</zeit>,
+      <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
+      13</ort>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1605,11 +1607,14 @@
         nicht ausdrücklich anders bemerkt ist, <ort>im Zahnärztlichen
         Institut, Nürnberger Str. 57</ort>, abgehalten.)</absatz>
 
+        <!--Ort gilt für mehrere va-->
+
         <veranstaltung><thema>Vorlesung über Pathologie und Therapie der
         Zahnkrankheiten, mit Demonstrationen</thema>: <dozent>Im Auftrage des
         Direk-<seite>20</seite>tors des Zahnärztl. Instituts durch Hilfslehrer
-        Zahnarzt <nachname>Schuster</nachname></dozent>, <zeit>Dienst. u.
-        Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <funktion>Zahnarzt</funktion> <nachname>Schuster</nachname></dozent>,
+        <zeit>Dienst. u. Freit. 5-6 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Zahn- und Kieferanomalien mit Einschluß der
         Kieferbrüche und ihre Behandlung</thema>:
@@ -1619,19 +1624,21 @@
 
         <veranstaltung><thema>Über chirurgische Prothesen</thema>: <dozent>Im
         Auftrage des Direktors der techn. Abt. des Zahnärztl. Instituts durch
-        Zahnarzt <nachname>Nauenburg</nachname></dozent>, <zeit>in 1 noch zu
-        best. Stunde</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <funktion>Zahnarzt</funktion> <nachname>Nauenburg</nachname></dozent>,
+        <zeit>in 1 noch zu best. Stunde</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Über Kronen- und Brückenarbeiten</thema>:
         <dozent>Im Auftrage des Direktors der techn. Abt. des Zahnärztl.
-        Instituts durch Zahnarzt <nachname>Gitzen</nachname></dozent>,
-        <zeit>Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Instituts durch <funktion>Zahnarzt</funktion>
+        <nachname>Gitzen</nachname></dozent>, <zeit>Sonnab. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Bedeutung und Anwendung der Kataphorese in
         der Zahnheilkunde mit Übungen am Patienten</thema>: <dozent>Im
         Auftrage des Direktors des Zahnärztl. Instituts durch Hilfslehrer
-        Zahnarzt <nachname>Schuster</nachname></dozent>, <zeit>Donnerst. 9-10
-        U.</zeit>, <modus>privatissime</modus> et
+        <funktion>Zahnarzt</funktion> <nachname>Schuster</nachname></dozent>,
+        <zeit>Donnerst. 9-10 U.</zeit>, <modus>privatissime</modus> et
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Über zahnärztl. Materialienkunde mit
@@ -1643,24 +1650,25 @@
         <veranstaltungsgruppe><thema>Poliklinik für Zahnkrankheiten</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Dependorf</nachname>,
         <funktion>P. E.</funktion></dozent>: <veranstaltung>a) <thema>für
-        Anfänger</thema> (<dozent>durch Hilfslehrer Zahnarzt
-        <nachname>Schuster</nachname></dozent>), <zeit>Mittw. u. Sonnab. 8-9½
-        U.</zeit></veranstaltung>; <veranstaltung>b) <thema>für
-        Fortgeschrittene</thema>: <zeit>Mont., Dienst. u. Freit. 8-9½
-        U.</zeit></veranstaltung>,
+        Anfänger</thema> (<dozent>durch Hilfslehrer
+        <funktion>Zahnarzt</funktion> <nachname>Schuster</nachname></dozent>),
+        <zeit>Mittw. u. Sonnab. 8-9½ U.</zeit></veranstaltung>;
+        <veranstaltung>b) <thema>für Fortgeschrittene</thema>: <zeit>Mont.,
+        Dienst. u. Freit. 8-9½ U.</zeit></veranstaltung>,
         <modus>privatissime</modus>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Operativer Kursus der konservierenden
         Zahnheilkunde einschl. der Zahnfüllungsmethoden. (Für Anfänger: Kursus
         der konservierenden Zahnheilkunde am Phantom)</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Dependorf</nachname>,
-        <funktion>P. E.</funktion></dozent>, <dozent>mit Hilflehrer Zahnarzt
-        <nachname>Schuster</nachname></dozent>, <zeit>Mont. bis Freit. 2-5
-        U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+        <funktion>P. E.</funktion></dozent>, <dozent>mit Hilflehrer
+        <funktion>Zahnarzt</funktion> <nachname>Schuster</nachname></dozent>,
+        <zeit>Mont. bis Freit. 2-5 U.</zeit>,
+        <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Vorlesung über Zahnfüllungsmethoden im Anschluß
         an den Phantomkursus</thema>: <dozent>Im Auftrage des Direktors des
-        Zahnärztl. Instituts durch Hilfslehrer Zahnarzt
+        Zahnärztl. Instituts durch Hilfslehrer <funktion>Zahnarzt</funktion>
         <nachname>Schuster</nachname></dozent>, <zeit>in vorher angekündigten
         Stunden</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1740,7 +1748,7 @@
 
     <trennlinie/>
 
-    <sachgruppe>
+    <sachgruppe fakultät="Philosophie">
       <titel>IV. Philosophische Fakultät.</titel>
 
       <sachgruppe>
@@ -1850,16 +1858,17 @@
         <veranstaltungsgruppe><thema>Einleitung in die Geisteswissenschaften,
         für Studierende aller Fakultäten und insbesondere für jüngere
         Semester</thema>, <zeit>4stündig, Mont., Dienst., Donnerst. u. Freit.
-        4-5 U.</zeit>, <modus>privatim</modus>, <dozent>und zwar: <grad>D.
-        ph.</grad> et <grad>LL. D.</grad> <nachname>Lamprecht</nachname>,
-        <funktion>P. O.</funktion></dozent>:<veranstaltung> <thema>Überblick
-        über die Geschichte der Geisteswissenschaften in den letzten
-        Jahrhunderten</thema>, <zeit>Dienst. 4-5 U.</zeit></veranstaltung>;
-        <veranstaltung><dozent>in Gemeinschaft mit <grad>D. ph.</grad>
-        <nachname>Dittrich</nachname>, <funktion>P. E.</funktion></dozent>:
-        <thema>Systematik der Geisteswissenschaften mit besonderer Rücksicht
-        auf Philosophie und Sprachwissenschaft</thema>, <zeit>Mont. 4-5
-        U.</zeit></veranstaltung>; <veranstaltung><dozent><grad>D. ph.</grad>
+        4-5 U.</zeit>, <modus>privatim</modus>, <dozent>und
+        zwar:</dozent><veranstaltung><dozent> <grad>D. ph.</grad> et <grad>LL.
+        D.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
+        O.</funktion></dozent>: <thema>Überblick über die Geschichte der
+        Geisteswissenschaften in den letzten Jahrhunderten</thema>,
+        <zeit>Dienst. 4-5 U.</zeit></veranstaltung>; <veranstaltung><dozent>in
+        Gemeinschaft mit <grad>D. ph.</grad> <nachname>Dittrich</nachname>,
+        <funktion>P. E.</funktion></dozent>: <thema>Systematik der
+        Geisteswissenschaften mit besonderer Rücksicht auf Philosophie und
+        Sprachwissenschaft</thema>, <zeit>Mont. 4-5 U.</zeit></veranstaltung>;
+        <veranstaltung><dozent><grad>D. ph.</grad>
         <nachname>Kötzschke</nachname>, <funktion>P. E.</funktion></dozent>:
         <thema>Die historische Methode in den Geisteswissenschaften</thema>,
         <zeit>Donnerst. 4-5 U.</zeit></veranstaltung>
@@ -1920,8 +1929,9 @@
         Rousseaus Schriften (von 1750 an)</thema>, <zeit>Freit. 7½-9½
         U.</zeit></veranstaltung>; <veranstaltung>b)
         <thema>Experimentell-psychologische und pädagogische Arbeiten</thema>,
-        <zeit>in noch zu verabred. Zeit</zeit>, <modus>privatissime</modus>,
-        sed <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
+        <zeit>in noch zu verabred. Zeit</zeit></veranstaltung>,
+        <modus>privatissime</modus>, sed
+        <gebühr>gratis</gebühr>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Praktisch-pädagogisches Seminar</thema> (<ort>in
         den Räumen des König Albert-Gymnasiums, Parthenstr. 1, und des
@@ -1940,10 +1950,10 @@
 
         <veranstaltung><thema>Elemente der Sprachwissenschaft (Einführung in
         das wissenschaftliche Sprachstudium), besonders für klassische
-        Philologen, Germanisten und Romanisten</thema>: <dozent><grad>D.
-        ph.</grad> et <grad>LL. D.</grad> <nachname>Brugmann</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 8-9 U.
-        Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Philologen, Germanisten und Romanisten</thema>: <dozent><grad>D. ph.
+        et LL. D.</grad> <nachname>Brugmann</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 8-9 U. Vorm.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Rhythmik und Metrik</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Dittrich</nachname>,
@@ -2593,25 +2603,26 @@
           <veranstaltungsgruppe><thema>Romanisches Seminar</thema>:
           <dozent><grad>D. ph.</grad> <vorname>Ad.</vorname>
           <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
-          O.</funktion></dozent>: <veranstaltungsgruppe>I. Abteilung:
-          <veranstaltung><thema>1. Sektion: Lektüre und Erklärung von
-          Corneille's Cid, mit schriftlichen Arbeiten</thema>, <zeit>Donnerst.
-          8-9½ U. Ab.</zeit>, <modus>privatissime</modus>, aber
-          <gebühr>gratis</gebühr></veranstaltung>. -<veranstaltung><thema>2.
-          Sektion: Übungen über die altfranzösische Heldendichtung (Chanson de
-          Guillaume, ed. Suchier, Halle, 1911)</thema> <dozent>unter Leitung
-          von <grad>D. ph.</grad> <nachname>Friedmann</nachname></dozent>,
+          O.</funktion></dozent>: <veranstaltungsgruppe><thema>I.
+          Abteilung</thema>: <veranstaltung><thema>1. Sektion: Lektüre und
+          Erklärung von Corneille's Cid, mit schriftlichen Arbeiten</thema>,
           <zeit>Donnerst. 8-9½ U. Ab.</zeit>, <modus>privatissime</modus>,
-          aber <gebühr>gratis</gebühr></veranstaltung></veranstaltungsgruppe>.
-          -<veranstaltungsgruppe>II. Abteilung: <thema>Praktische Übungen in
-          der französischen Sprache</thema> <dozent>unter Leitung des
-          Assistenten Lektors <nachname>Monod</nachname></dozent>:
-          <veranstaltung><thema>1. Sektion</thema>: <zeit>Mittw. 11¼-12¾
-          U.</zeit></veranstaltung>; <veranstaltung><thema>2. Sektion</thema>:
-          <zeit>Dienst. u. Freit. 3-4 U.</zeit></veranstaltung>;
-          <veranstaltung><thema>3. Sektion</thema>: <seite>31</seite><zeit>Dienst.
-          8-9½ U. Ab.</zeit></veranstaltung>, <modus>privatissime</modus>,
-          aber
+          aber <gebühr>gratis</gebühr></veranstaltung>.
+          -<veranstaltung><thema>2. Sektion: Übungen über die altfranzösische
+          Heldendichtung (Chanson de Guillaume, ed. Suchier, Halle,
+          1911)</thema> <dozent>unter Leitung von <grad>D. ph.</grad>
+          <nachname>Friedmann</nachname></dozent>, <zeit>Donnerst. 8-9½ U.
+          Ab.</zeit>, <modus>privatissime</modus>, aber
+          <gebühr>gratis</gebühr></veranstaltung></veranstaltungsgruppe>.
+          -<veranstaltungsgruppe><thema>II. Abteilung</thema>:
+          <thema>Praktische Übungen in der französischen Sprache</thema>
+          <dozent>unter Leitung des Assistenten Lektors
+          <nachname>Monod</nachname></dozent>: <veranstaltung><thema>1.
+          Sektion</thema>: <zeit>Mittw. 11¼-12¾ U.</zeit></veranstaltung>;
+          <veranstaltung><thema>2. Sektion</thema>: <zeit>Dienst. u. Freit.
+          3-4 U.</zeit></veranstaltung>; <veranstaltung><thema>3.
+          Sektion</thema>: <seite>31</seite><zeit>Dienst. 8-9½ U.
+          Ab.</zeit></veranstaltung>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr></veranstaltungsgruppe>.</veranstaltungsgruppe>
 
           <veranstaltung><thema>Exercices pratiques de français
@@ -2809,6 +2820,8 @@
               <absatz>Einführung in die Kenntnis und Benutzung der Quellen und
               Behandlung einfacher methodischer Fragen.</absatz>
 
+              <!--Absatz bezieht sich auf die nachstehenden drei Parallelkurse-->
+
               <sachgruppe>
                 <titel>Drei Parallelkurse:</titel>
 
@@ -2970,19 +2983,22 @@
             <sachgruppe>
               <titel>B. Vergleichende Kurse.</titel>
 
-              <veranstaltung>1) <dozent><grad>D. ph.</grad>
+              <veranstaltung gebühr="gratis" modus="privatissime">1)
+              <dozent><grad>D. ph.</grad>
               <nachname>Kretzschmar</nachname></dozent>: <thema>Übungen zur
               vergleichenden Kinderpsychologie: Die geistige Entwicklung des
               Kindes bei Europäern und bei afrikanischen Negerstämmen</thema>.
               <zeit>Dienst. 6-7½ U.</zeit></veranstaltung>
 
-              <veranstaltung>2) <dozent><grad>D. ph.</grad> et <grad>LL.
-              D.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
+              <veranstaltung gebühr="gratis" modus="privatissime">2)
+              <dozent><grad>D. ph.</grad> et <grad>LL. D.</grad>
+              <nachname>Lamprecht</nachname>, <funktion>P.
               O.</funktion></dozent>: <thema>Übungen zur vergleichenden
               Geschichte der Mittelalter, insbesondere des deutschen</thema>.
               <zeit>Mittw. 11½-1 U.</zeit></veranstaltung>
 
-              <veranstaltung>3) <dozent><grad>D. ph.</grad>
+              <veranstaltung gebühr="gratis" modus="privatissime">3)
+              <dozent><grad>D. ph.</grad>
               <nachname>Schneider</nachname></dozent>: <thema>Übungen zur
               Geschichte der Begriffsbildung in höheren Kulturen: Ägypter,
               Babylonier, Juden</thema>. <zeit>Mittw. 8-9½ U.
@@ -3012,6 +3028,8 @@
               Übungen mitgeteilt werden. Abdrücke des Planes werden von der
               Institutsverwaltung unentgeltlich, auch auf dem Wege der
               Zusendung durch die Post, verabfolgt.</absatz>
+
+              <!--Absatz bezieht sich auf die vorherigen Übungen!-->
             </sachgruppe>
           </sachgruppe>
         </sachgruppe>
@@ -3146,8 +3164,9 @@
           <trennlinie/>
 
           <veranstaltung><thema>Übungen im Erklären antiker Denkmäler zur
-          Ergänzung der "Einleitung" (s. S. 36)</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Studniczka</nachname>, <funktion>P.
+          Ergänzung der "Einleitung" (<notiz betreff="siehe">s. S.
+          36</notiz>)</thema>: <dozent><grad>D. ph.</grad>
+          <nachname>Studniczka</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Mont. 12-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
         </sachgruppe>
@@ -3237,9 +3256,9 @@
             Ü<korrektur original="u">b</korrektur>ungen (nicht geschriebene
             Accidentalen und Musica ficta in der Musik des 15.-16.
             Jahrhunderts)</thema></veranstaltung>; <veranstaltung>b)
-            <thema>Vorträge und Referate der Mitglieder des Seminars</thema>,
-            <zeit>Sonnab. 10-12 U.</zeit>,
-            <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
+            <thema>Vorträge und Referate der Mitglieder des
+            Seminars</thema></veranstaltung>, <zeit>Sonnab. 10-12 U.</zeit>,
+            <modus>publice</modus>.</veranstaltungsgruppe>
 
             <veranstaltung><thema>Historische Kammermusikübungen</thema>:
             <dozent>Im Auftrage von <grad>D. ph. et mus.</grad>
@@ -3268,9 +3287,9 @@
             Arbeit</thema>, <zeit>Mittw. 8½-10 U.
             Vorm.</zeit></veranstaltung>; <veranstaltung>b) <thema>für
             Fortgeschrittene: Thema nach Übereinkunft</thema>, <zeit>zu noch
-            zu best. Zeit</zeit>, <modus>privat<seite>39</seite>issime</modus>,
+            zu best. Zeit</zeit></veranstaltung>, <modus>privat<seite>39</seite>issime</modus>,
             <ort>im Auditorium des Collegium musicum (Universitätsstr. 13.
-            Erdg. r.)</ort></veranstaltung>.</veranstaltungsgruppe>
+            Erdg. r.)</ort>.</veranstaltungsgruppe>
 
             <trennlinie/>
 
@@ -3297,6 +3316,8 @@
 
             <absatz>(Sämtliche Übungen für Studierende aller
             Fakultäten).</absatz>
+
+            <!--absatz bezieht sich auf die vorherigen va-->
           </sachgruppe>
         </sachgruppe>
       </sachgruppe>
@@ -3386,6 +3407,8 @@
         Teil</thema> <siehe>siehe Seite
         6</siehe></veranstaltungsverweis>.</veranstaltungsgruppe>
 
+        <!--va-verweis so sinnvoll getaggt?-->
+
         <trennlinie/>
 
         <veranstaltung><thema>Landwirtschaftliche Betriebslehre</thema>:
@@ -3445,56 +3468,143 @@
         <modus>privatim</modus>, <ort>im Landwirtsch. Institut, Johannisallee
         21</ort>.</veranstaltung>
 
-        <veranstaltung>Praktische Geometrie mit Übungen im Feldmessen und
-        Nivellieren: D. ph. Strecker, P. E., Mittw. 5-7 U., privatim, im
-        Landw. Institut, Johannisallee 21.</veranstaltung>
+        <veranstaltung><thema>Praktische Geometrie mit Übungen im Feldmessen
+        und Nivellieren</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mittw. 5-7 U.</zeit>, <modus>privatim</modus>, <ort>im Landw.
+        Institut, Johannisallee 21</ort>.</veranstaltung>
 
-        <veranstaltung>Bonitierung und Kartierung des Bodens: D. ph. Strecker,
-        P. E., Sonnab. 9-10 U., privatim, im Landw. Institut, Johannisallee
-        21.</veranstaltung>
+        <veranstaltung><thema>Bonitierung und Kartierung des Bodens</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Strecker</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 9-10 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
+        21</ort>.</veranstaltung>
 
-        <veranstaltung>Landwirtschaftliche Maschinenkunde mit Demonstrationen:
-        D. ph. Strecker, P. E., Mittw. u. Freit. 11-12 U., privatim, im Landw.
-        Institut, Johannisallee 21.</veranstaltung>
+        <veranstaltung><thema>Landwirtschaftliche Maschinenkunde mit
+        Demonstrationen</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mittw. u. Freit. 11-12 U.</zeit>, <modus>privatim</modus>,
+        <ort>im Landw. Institut, Johannisallee 21</ort>.</veranstaltung>
 
-        <veranstaltung>Spezielle Tierzuchtlehre (Pferdezucht und Schafzucht):
-        D. ph. Falke, P. E., Dienst., Mittw. u. Freit. 4-5 U., privatim, im
-        Landwirtsch. Institut, Johannisallee 21.</veranstaltung>
+        <veranstaltung><thema>Spezielle Tierzuchtlehre (Pferdezucht und
+        Schafzucht)</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Falke</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst., Mittw. u. Freit. 4-5 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Landwirtsch. Institut, Johannisallee
+        21</ort>.</veranstaltung>
 
-        <veranstaltung>Gewinnung und Verwertung der Milch: D. ph. Kirchner, P.
-        O., Mont. u. Donnerst. 11-12 U., privatim, im Landwirtschaftl.
-        Institut, Johannisallee 21.</veranstaltung>
+        <veranstaltung><thema>Gewinnung und Verwertung der Milch</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 11-12
+        U.</zeit>, <modus>privatim</modus>, <ort>im Landwirtschaftl. Institut,
+        Johannisallee 21</ort>.</veranstaltung>
 
-        <veranstaltung>Die Seuchen der landwirtschaftlichen Haustiere, ihre
-        Ursachen und ihre Bekämpfung: D. ph. Eber, P. E., Donnerst. u. Freit.
-        8-9 U., privatim, im Veterinärinstitut, Linnéstr. 11.</veranstaltung>
+        <veranstaltung><thema>Die Seuchen der landwirtschaftlichen Haustiere,
+        ihre Ursachen und ihre Bekämpfung</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Eber</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Donnerst. u. Freit. 8-9 U.</zeit>, <modus>privatim</modus>,
+        <ort>im Veterinärinstitut, Linnéstr. 11</ort>.</veranstaltung>
 
-        <veranstaltung>Zeugung und Geburt nebst Krankheiten der Zuchttiere und
-        der Neugeborenen: D. ph. Eber, P. E., Mont., Dienst. u. Mittw. 8-9 U.,
-        privatim, im Veterinärinstitut, Linnéstr. 11.</veranstaltung>
+        <veranstaltung><thema>Zeugung und Geburt nebst Krankheiten der
+        Zuchttiere und der Neugeborenen</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Eber</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont., Dienst. u. Mittw. 8-9 U.</zeit>, <modus>privatim</modus>,
+        <ort>im Veterinärinstitut, Linnéstr. 11</ort>.</veranstaltung>
 
-        <veranstaltung>Landwirtschaftliche Taxationslehre, verbunden mit
-        betriebswissenschaftlichen Übungen: D. ph. Falke, P. E., Dienst. 5-7
-        U., privatim, im Landw. Institut, Johannisallee 21.</veranstaltung>
+        <veranstaltung><thema>Landwirtschaftliche Taxationslehre, verbunden
+        mit betriebswissenschaftlichen Übungen</thema>: <dozent><grad>D.
+        ph.</grad> <nachname>Falke</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Dienst. 5-7 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
+        21</ort>.</veranstaltung>
 
-        <veranstaltung>Erfolge der angewandten exakten Rechnung in der
-        Landwirtschaft: D. ph. Howard, P. E., Mittw. u. Donnerst. 9-10 U.,
-        privatim, im Landw. Institut, Johannisallee 21.</veranstaltung>
+        <veranstaltung><thema>Erfolge der angewandten exakten Rechnung in der
+        Landwirtschaft</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Howard</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mittw. u. Donnerst. 9-10 U.</zeit>, <modus>privatim</modus>,
+        <ort>im Landw. Institut, Johannisallee 21</ort>.</veranstaltung>
 
-        <veranstaltung>Die historischen und pädagogischen Grundlagen der
-        landwirtschaftlichen Unterrichtsanstalten (für Mitglieder des
-        "Pädagogischen Seminares für Landwirtschaftslehrer"): Prof. D. ph.
-        John, Dienst. 8-9 U., gratis, im Landwirtschaftlichen Institute,
-        Johannisallee 21.</veranstaltung>
+        <veranstaltung><thema>Die historischen und pädagogischen Grundlagen
+        der landwirtschaftlichen Unterrichtsanstalten (für Mitglieder des
+        "Pädagogischen Seminares für Landwirtschaftslehrer")</thema>:
+        <dozent><funktion>Prof.</funktion> <grad>D. ph.</grad>
+        <nachname>John</nachname></dozent>, <zeit>Dienst. 8-9 U.</zeit>,
+        <gebühr>gratis</gebühr>, <ort>im Landwirtschaftlichen Institute,
+        Johannisallee 21</ort>.</veranstaltung>
 
-        <veranstaltung>Unterrichtslehre für Landwirtschaftslehrer (für
-        Mitglieder des "Pädagogischen Seminares für Landwirtschaftslehrer"):
-        Prof. D. ph. John, Freit. 8-9 U., gratis, im Landwirtschaftlichen
-        Institute Johannisallee 21.</veranstaltung>
+        <veranstaltung><thema>Unterrichtslehre für Landwirtschaftslehrer (für
+        Mitglieder des "Pädagogischen Seminares für
+        Landwirtschaftslehrer")</thema>: <dozent><funktion>Prof.</funktion>
+        <grad>D. ph.</grad> <nachname>John</nachname></dozent>, <zeit>Freit.
+        8-9 U.</zeit>, <gebühr>gratis</gebühr>, <ort>im Landwirtschaftlichen
+        Institute Johannisallee 21</ort>.</veranstaltung>
 
         <trennlinie/>
 
         <seite>42</seite>
+
+        <sachgruppe>
+          <titel>Vereinigte staatswissenschaftliche Seminare (Paulinum
+          III):</titel>
+
+          <sachgruppe>
+            <titel>Abteilung für Nationalökonomie.</titel>
+
+            <veranstaltung>D. ph. et jur. Bücher, P. O.: Kursus für
+            Vorgeschrittene, Dienst. 6-8 U., privatissime et gratis. -
+            Außerdem in seinem Auftrage: Vorbereitungskursus für Anfänger
+            (sämtlich privatissime et gratis):</veranstaltung>
+
+            <veranstaltung>1) D. ph. Plenge, P. E.: Theoretische Abteilung,
+            Mont. 7-9 U. Ab.</veranstaltung>
+
+            <veranstaltung>2) D. ph. Eulenburg, P. E.: Praktische Abteilung,
+            Sonnab. 8-10 U. Vorm.</veranstaltung>
+
+            <veranstaltung>3) D. ph. Plenge, P. E.: Finanzwissenschaftliche
+            Abteilung, Donnerst. 7-9 U. Ab.</veranstaltung>
+
+            <veranstaltung>4) Rechtsanwalt Professor D. jur. Wörner: Übungen
+            über deutsche Arbeiterversicherung, Mittw. 7-9 U.
+            Ab.</veranstaltung>
+
+            <veranstaltung>5) Handelslehrer D. ph. Pape: 1) Einführung in das
+            Verständnis der systematischen Buchhaltung, Freit. 7-9 U. Ab., 2)
+            Einführung in die Technik des Bankbetriebes, Dienst. 8-9 U.
+            Ab.</veranstaltung>
+          </sachgruppe>
+
+          <sachgruppe>
+            <titel>Abteilung für Statistik und Verwaltungslehre.</titel>
+
+            <veranstaltung>D. jur. Schmid, P. O.: Übungen, Mittw. 5-7 U.,
+            privatissime et gratis.</veranstaltung>
+          </sachgruppe>
+
+          <trennlinie/>
+
+          <sachgruppe>
+            <titel>Volkswirtschaftliches Seminar (Ritterstr. 24.)</titel>
+
+            <veranstaltung>1) D. ph. et oec. publ. Stieda, P. O.: a) Übungen
+            für Anfänger (geleitet vom Assistenten D. ph. Danner), Dienst. 6-8
+            U., privatissime, aber gratis, b) Übungen für Fortgeschrittene,
+            Sonnab. 9-11 U., privatissime, aber gratis.</veranstaltung>
+
+            <veranstaltung>2) D. ph. Biermann, P. E.: Übungen über Bank- und
+            Börsenwesen, Mont. 7½-9 U. Ab., privatissime, sed
+            gratis.</veranstaltung>
+
+            <trennlinie/>
+
+            <veranstaltung>Landwirtschaftliches Laboratorium: D. ph. Kirchner,
+            P. O.: A. Großes Praktikum, Mont. bis Freit. 8-1 u. 2 bis 5 U.; B.
+            Kleines Praktikum, Mont. bis Freit. 8-1 oder 2-5 U., privatissime,
+            im Landw. Institut, Johannisallee 21. </veranstaltung>
+
+            <seite>43</seite>
+          </sachgruppe>
+        </sachgruppe>
       </sachgruppe>
     </sachgruppe>
   </übersicht>
