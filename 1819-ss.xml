@@ -202,8 +202,8 @@ verteilt, sollte noch kenntlich gemacht werden, an welcher Stelle der Bruch ist 
           <veranstaltung><dozent><nachname>Rose</nachname>, <grad>M.</grad>
           <vorname>J. G. K.</vorname></dozent> -</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Nobbe</nachname>, <grad>M.</grad>
-          <vorname>K. F. A.</vorname></dozent></veranstaltung>
+          <veranstaltung><dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
+          <grad>M.</grad> <vorname>K. F. A.</vorname></dozent></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -554,7 +554,8 @@ oder für ein Kürzel einer Funktion/ Titel steht-->
             O.</funktion></dozent>, <thema>theoretische und systemat.
             Botanik</thema>. -</veranstaltung>
 
-            <veranstaltungsgruppe><ders>Derselbe</ders>,
+            <veranstaltungsgruppe><ders
+            ref="schwaegrichen_cf">Derselbe</ders>,
             <veranstaltung><thema>praktische Botanik</thema>,
             <modus>öffentlich</modus></veranstaltung>; <veranstaltung>ingl.
             <thema>Entomologie und Helminthologie</thema>,
@@ -673,9 +674,9 @@ oder für ein Kürzel einer Funktion/ Titel steht-->
           W.</vorname>, <funktion>P. E. des.</funktion></dozent>,
           <thema>Pädagogik und Didaktik</thema>. -</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Nobbe</nachname>, <grad>M.</grad>
-          <vorname>K. F. A.</vorname></dozent>, <thema>üb. die Methode des
-          Unterrichts und der Disciplin auf gelehrten
+          <veranstaltung><dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
+          <grad>M.</grad> <vorname>K. F. A.</vorname></dozent>, <thema>üb. die
+          Methode des Unterrichts und der Disciplin auf gelehrten
           Schulen</thema>.</veranstaltung>
 
           <sachgruppe>
@@ -1623,7 +1624,8 @@ es handelt sich aber um zwei Veranstaltungen (ingl.!)-->
               <sachgruppe>
                 <titel>cc) Ueber den Process.</titel>
 
-                <veranstaltung><ders>Derselbe</ders>.</veranstaltung>
+                <veranstaltung><ders
+                ref="bauer_hg">Derselbe</ders>.</veranstaltung>
 
                 <sachgruppe>
                   <titel>***) Disputirübungen.</titel>
@@ -1858,9 +1860,10 @@ erstmal so abgeschrieben...-->
               <thema>Nosologie (und Therapie) des menschlichen Auges</thema>.
               -</veranstaltung>
 
-              <veranstaltung><dozent><nachname>Robbie</nachname>,
-              <grad>Dr.</grad> <vorname>H.</vorname></dozent>, <thema>über die
-              syphilitischen Krankheiten, ihren Ursprung, Fortgang (und ihre
+              <veranstaltung><dozent
+              ref="robbi_jh"><nachname>Robbi</nachname>, <grad>Dr.</grad>
+              <vorname>H.</vorname></dozent>, <thema>über die syphilitischen
+              Krankheiten, ihren Ursprung, Fortgang (und ihre
               Heilung)</thema>.</veranstaltung>
             </sachgruppe>
           </sachgruppe>

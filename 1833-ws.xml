@@ -143,9 +143,9 @@
             E.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>über des
             Plautus Epidikus</thema>, <zeit>2 U. 2 T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Nobbe</nachname>, <vorname>K. F.
-            A.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>die
-            Germania des Tacitus</thema>, <zeit>2 U. 2 T.</zeit>
+            <veranstaltung><dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
+            <vorname>K. F. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>die Germania des Tacitus</thema>, <zeit>2 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Klotz</nachname>,
@@ -175,10 +175,10 @@
             <thema>philologische Uebungen mit der Lausitz.
             Gesellschaft</thema>, <zeit>Dienst. 5 U.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Nobbe</nachname>, <vorname>K. F.
-            A.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>Uebungen
-            im Latein-Schreiben Sprechen</thema>, <zeit>2 T. in zu best.
-            St.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
+            <vorname>K. F. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>Uebungen im Latein-Schreiben Sprechen</thema>, <zeit>2 T.
+            in zu best. St.</zeit></veranstaltung>
 
             <!--"und" fehlt im Original-->
 
@@ -276,10 +276,10 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
             XI.</antiqua></thema>, <zeit>2 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Anweisung zum
-            Uebersetzen aus dem Deutschen in das Französische, verbunden mit
-            praktischen Uebungen</thema>, <zeit>2 U. Freit.</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><ders ref="beck_jrw">Derselbe</ders>,
+            <thema>Anweisung zum Uebersetzen aus dem Deutschen in das
+            Französische, verbunden mit praktischen Uebungen</thema>, <zeit>2
+            U. Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Dümas</nachname>,
             <vorname>T.</vorname></dozent>, <thema>über französische Sprache
@@ -388,9 +388,9 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
         <thema>allgemeine Weltgeschichte, nach s. Leitfaden (Lpz. b. Hinrichs
         1833)</thema>, <zeit>3 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>neueste Geschichte vom
-        Beginn der französischen Revolution v. J. 1789</thema>, <zeit>2 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="wachsmuth_ewg">Derselbe</ders>,
+        <thema>neueste Geschichte vom Beginn der französischen Revolution v.
+        J. 1789</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Flathe</nachname>, <grad>M.</grad>
         <vorname>J. L.</vorname></dozent>, <thema>Geschichte des
@@ -413,8 +413,8 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
         <thema>Geschichte der europäischen Gesetzgebung</thema>, <zeit>10 U. 2
         T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>griechisches
-        Recht</thema>, <zeit>2 U. 2 T.</zeit>
+        <veranstaltung><ders ref="wachsmuth_ewg">Derselbe</ders>,
+        <thema>griechisches Recht</thema>, <zeit>2 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><dozent><nachname>Hasse</nachname>, <vorname>F. C.
@@ -805,12 +805,14 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
       <thema>Einleitung in die algebraische Analysis</thema>, <zeit>10 U. 4
       T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><ders>Derselbe</ders>, <thema>Elemente der Arithmetik und
-      Geometrie, mit Vorausschickung einer encyklopädischen Einleitung in die
-      gesammte Mathematik</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
+      <veranstaltung><ders ref="drobisch_mw">Derselbe</ders>, <thema>Elemente
+      der Arithmetik und Geometrie, mit Vorausschickung einer encyklopädischen
+      Einleitung in die gesammte Mathematik</thema>, <zeit>3 U. 4
+      T.</zeit></veranstaltung>
 
-      <veranstaltung><ders>Derselbe</ders>, <thema>analytische
-      Geometrie</thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
+      <veranstaltung><ders ref="drobisch_mw">Derselbe</ders>,
+      <thema>analytische Geometrie</thema>, <zeit>9 U. 4
+      T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Möbius</nachname>, <vorname>A.
       F.</vorname>, <funktion>P. E. u. Obs.</funktion></dozent>, <thema>über
@@ -839,8 +841,8 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
         O.</funktion></dozent>, <thema>nach s. Sätzen</thema>, <zeit>1 U. 4
         T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Mineralogie</thema>,
-        <zeit>2 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="schwaegrichen_cf">Derselbe</ders>,
+        <thema>Mineralogie</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Pöppig</nachname>,
         <vorname>E.</vorname>, <funktion>P. E.</funktion></dozent>,
@@ -1166,8 +1168,8 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
               Bacc.</funktion></dozent>, <zeit>6 T. 4 U.</zeit>
               <modus>privatissime</modus>.</veranstaltung>
 
-              <veranstaltung><ders>Derselbe</ders>, <zeit>6 T. 5 U.</zeit>
-              <modus>privatissime</modus>.</veranstaltung>
+              <veranstaltung><ders ref="niedner_cw">Derselbe</ders>, <zeit>6
+              T. 5 U.</zeit> <modus>privatissime</modus>.</veranstaltung>
             </sachgruppe>
           </sachgruppe>
 
@@ -1599,12 +1601,12 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
               Subsidien-Kunde</thema>, <zeit>2 U. 4 T.</zeit>
               <modus>öffentlich</modus>.</veranstaltung>
 
-              <veranstaltung><ders>Derselbe</ders>, <thema>das öffentliche und
-              Privat-Kirchenrecht der Katholiken und Protestanten nach den in
-              Deutschland und Sachsen geltenden Grundsätzen, unter Mitgebrauch
-              <gesperrt>Böhmer's</gesperrt>, jedoch mit den erforderliche
-              Zusätzen für die neueste Zeit</thema>, <zeit>10 U. 6
-              T.</zeit></veranstaltung>
+              <veranstaltung><ders ref="klien_c">Derselbe</ders>, <thema>das
+              öffentliche und Privat-Kirchenrecht der Katholiken und
+              Protestanten nach den in Deutschland und Sachsen geltenden
+              Grundsätzen, unter Mitgebrauch <gesperrt>Böhmer's</gesperrt>,
+              jedoch mit den erforderliche Zusätzen für die neueste
+              Zeit</thema>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
               <veranstaltung><dozent><nachname>Schilling</nachname>,
               <grad>D.</grad> <vorname>B.</vorname>, <funktion>P.
@@ -2002,14 +2004,14 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
           <zeit>2 T. in zu best. St.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>Knochen- und
-          Bänderlehre</thema>, <zeit>2 T. in zu best.
+          <veranstaltung><ders ref="bock_ce">Derselbe</ders>, <thema>Knochen-
+          und Bänderlehre</thema>, <zeit>2 T. in zu best.
           St.</zeit></veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>chirurgische Anatomie,
-          <notiz betreff="fortsetzung">in dies. Halbj.</notiz> über
-          Unterbindungen der Arterien</thema>, <zeit>in zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung><ders ref="bock_ce">Derselbe</ders>,
+          <thema>chirurgische Anatomie, <notiz betreff="fortsetzung">in dies.
+          Halbj.</notiz> über Unterbindungen der Arterien</thema>, <zeit>in zu
+          best. St.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Aßmann</nachname>, <grad>D.</grad>
           <vorname>F. W.</vorname>, <funktion>Theatri anat.

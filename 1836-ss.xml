@@ -115,9 +115,9 @@
           <sachgruppe>
             <titel>Erklärung römischer Schriftsteller.</titel>
 
-            <veranstaltung><dozent><nachname>Nobbe</nachname>, <vorname>K. F.
-            A.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>über
-            Ciceros Bücher vom Staate</thema>, <zeit>2 U. 2
+            <veranstaltung><dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
+            <vorname>K. F. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>über Ciceros Bücher vom Staate</thema>, <zeit>2 U. 2
             T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Klotz</nachname>,
@@ -152,12 +152,13 @@
             Gesellschaft</thema>, <zeit>in den best. T. u.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Uebungen des königl.
-            philolog. Seminars im Erklären von Platon's Phädrus und Cicero's
-            Büchern <antiqua>de divinatione</antiqua></thema>, <zeit>Mittw.
-            und Sonnab. von 5 Uhr an</zeit>. - Zu den Uebungen sowohl des
-            Seminars, als der griechischen Gesellschaft, steht jedem Zuhörer
-            der <modus>Zutritt frei</modus>.</veranstaltung>
+            <veranstaltung><ders ref="hermann_jgj">Derselbe</ders>,
+            <thema>Uebungen des königl. philolog. Seminars im Erklären von
+            Platon's Phädrus und Cicero's Büchern <antiqua>de
+            divinatione</antiqua></thema>, <zeit>Mittw. und Sonnab. von 5 Uhr
+            an</zeit>. - Zu den Uebungen sowohl des Seminars, als der
+            griechischen Gesellschaft, steht jedem Zuhörer der <modus>Zutritt
+            frei</modus>.</veranstaltung>
 
             <!--"Zutritt frei" muss auch auf die vorhergehende
 Veranstaltung bezogen werden!!-->
@@ -167,8 +168,8 @@ Veranstaltung bezogen werden!!-->
             <thema>Uebungen im Latein-Schreiben und Sprechen</thema>, <zeit>in
             den best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Nobbe</nachname>, <vorname>K. F.
-            A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <veranstaltung><dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
+            <vorname>K. F. A.</vorname>, <funktion>P. E.</funktion></dozent>,
             <thema>lateinisches Disputatorium</thema>, <zeit>4-6 U.
             Sonnabends</zeit>.</veranstaltung>
 
@@ -257,8 +258,8 @@ Veranstaltung bezogen werden!!-->
             <antiqua>Corneille's Polyeucte</antiqua></thema>, <zeit>2 U. 2
             T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>über Gallicismen und
-            Germanismen</thema>, <zeit>2 U. Freit.</zeit>
+            <veranstaltung><ders ref="beck_jrw">Derselbe</ders>, <thema>über
+            Gallicismen und Germanismen</thema>, <zeit>2 U. Freit.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
 
@@ -322,13 +323,13 @@ Veranstaltung bezogen werden!!-->
         Alterthums), nach s. Leitfaden (Lpz. b. Hinrichs 1833)</thema>,
         <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Geschichte des Alterthums
-        besonders</thema>, <zeit>8 U. Mittw. u. Sonn.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><ders ref="wachsmuth_ewg">Derselbe</ders>,
+        <thema>Geschichte des Alterthums besonders</thema>, <zeit>8 U. Mittw.
+        u. Sonn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>neuere Geschichte von
-        1789 an</thema>, <zeit>2 U. Mittw. u. Sonn.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><ders ref="wachsmuth_ewg">Derselbe</ders>,
+        <thema>neuere Geschichte von 1789 an</thema>, <zeit>2 U. Mittw. u.
+        Sonn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><dozent><nachname>Flathe</nachname>, <grad>M.</grad>
         <vorname>J. L. F.</vorname></dozent>, <thema>allgemeine
@@ -677,11 +678,11 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
       1834)</thema>, <zeit>10 U. Mont., Dienst. u. Mittw.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><ders>Derselbe</ders>, <thema>mathematische
-      Uebungen</thema>, <zeit>in zu best. St.</zeit>
+      <veranstaltung><ders ref="drobisch_mw">Derselbe</ders>,
+      <thema>mathematische Uebungen</thema>, <zeit>in zu best. St.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><ders>Derselbe</ders>,
+      <veranstaltung><ders ref="drobisch_mw">Derselbe</ders>,
       <thema>Differentialrechnung</thema>, <zeit>10 U. Donn., Freit. u.
       Sonnab.</zeit></veranstaltung>
 
@@ -712,11 +713,12 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
         Theil</thema>, <zeit>6 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>theoretische
-        Botanik</thema>, <zeit>7 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="schwaegrichen_cf">Derselbe</ders>,
+        <thema>theoretische Botanik</thema>, <zeit>7 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Demonstrationen und
-        Excursionen</thema>, <zeit>5 U. Mont. u.
+        <veranstaltung><ders ref="schwaegrichen_cf">Derselbe</ders>,
+        <thema>Demonstrationen und Excursionen</thema>, <zeit>5 U. Mont. u.
         Donnerst.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Pöppig</nachname>,
@@ -1743,12 +1745,13 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
           Anatomie nach der Lage der Theile</thema>, <zeit>6 T. in zu best.
           St.</zeit></veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>anatomisch-chirurgische
-          Vorträge über die Brüche der Unterleibshöhle</thema>, <zeit>4 U. 2
-          T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung><ders ref="bock_ce">Derselbe</ders>,
+          <thema>anatomisch-chirurgische Vorträge über die Brüche der
+          Unterleibshöhle</thema>, <zeit>4 U. 2 T.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
-          Chirurgie</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><ders ref="bock_ce">Derselbe</ders>,
+          <siehe>s. Chirurgie</siehe>.</veranstaltungsverweis>
 
           <veranstaltung><dozent><nachname>Aßmann</nachname>, <grad>D.</grad>
           <vorname>F. W.</vorname>, <funktion>Theatri anat.

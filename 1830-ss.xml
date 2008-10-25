@@ -147,11 +147,11 @@
             <titel>Curculio</titel></schrift></thema>, <zeit>4 U. Dienst. u.
             Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Nobbe</nachname>, <vorname>K. F.
-            A.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>über
-            <schrift><autor>Cicero</autor>'s erstes bis drittes B. <titel>de
-            Republica</titel></schrift></thema>, <zeit>2 U. 2 T.</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
+            <vorname>K. F. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>über <schrift><autor>Cicero</autor>'s erstes bis drittes B.
+            <titel>de Republica</titel></schrift></thema>, <zeit>2 U. 2
+            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Frotscher</nachname>,
             <grad>M.</grad> <vorname>K. H.</vorname></dozent> <thema>über die
@@ -191,9 +191,9 @@
             Gesellschaft</thema>, <zeit>in den best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Nobbe</nachname>, <vorname>K. F.
-            A.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>Uebungen
-            im Schreiben und Disputiren</thema>, <zeit>5 U. 2
+            <veranstaltung><dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
+            <vorname>K. F. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>Uebungen im Schreiben und Disputiren</thema>, <zeit>5 U. 2
             T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Frotscher</nachname>,
@@ -270,8 +270,8 @@
             Wörter</thema>, <zeit>2 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Erklärung des
-            <schrift><titel>Tartuffe</titel> von
+            <veranstaltung><ders ref="beck_jrw">Derselbe</ders>,
+            <thema>Erklärung des <schrift><titel>Tartuffe</titel> von
             <autor>Moliere</autor></schrift></thema>, <zeit>2 U. Freit.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
@@ -384,9 +384,9 @@
         Jahre</thema>, <zeit>8 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Geschichte des
-        siebzehnten Jahrhunderts</thema>, <zeit>8 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><ders ref="wachsmuth_ewg">Derselbe</ders>,
+        <thema>Geschichte des siebzehnten Jahrhunderts</thema>, <zeit>8 U. 2
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsverweis><dozent><nachname>Pölitz</nachname>,
         <vorname>K. H. L.</vorname>, <funktion>P. O.</funktion></dozent>,
@@ -748,11 +748,11 @@
       <thema>Integralrechnung</thema>, <zeit>10 U. 4 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><ders>Derselbe</ders>, <thema>Algebra und algebraische
-      Geometrie</thema>, <zeit>3 U. 5 T. mit Ausnahme des
+      <veranstaltung><ders ref="drobisch_mw">Derselbe</ders>, <thema>Algebra
+      und algebraische Geometrie</thema>, <zeit>3 U. 5 T. mit Ausnahme des
       Sonnab.</zeit></veranstaltung>
 
-      <veranstaltung><ders>Derselbe</ders>, <thema>populäre
+      <veranstaltung><ders ref="drobisch_mw">Derselbe</ders>, <thema>populäre
       Astronomie</thema>, <zeit>4 U. Mont. u. Donn.</zeit>
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -793,11 +793,12 @@
         O.</funktion></dozent>, <zeit>8 U. 4 T.</zeit>
         <modus>öffentl.</modus></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Botanik</thema>, <zeit>7
-        U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="schwaegrichen_cf">Derselbe</ders>,
+        <thema>Botanik</thema>, <zeit>7 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Exkursionen</thema>,
-        <zeit>5 U. Nachm. Mont. u. Donn.</zeit></veranstaltung>
+        <veranstaltung><ders ref="schwaegrichen_cf">Derselbe</ders>,
+        <thema>Exkursionen</thema>, <zeit>5 U. Nachm. Mont. u.
+        Donn.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Kunze</nachname>, <grad>D.</grad>
         <vorname>G.</vorname>, <funktion>P. E. des.</funktion></dozent>,
@@ -810,40 +811,44 @@
         <thema>vergleichende Anatomie</thema>, <zeit>10 U. 2
         T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Examinatorium über <scil
+        <veranstaltung><ders ref="tilesius_von_tilenau_wg">Derselbe</ders>,
+        <thema>Examinatorium über <scil
         text="vergleichende Anatomie">dieselbe</scil></thema>, <zeit>11 U. 2
         T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Zeichenübungen in <scil
+        <veranstaltung><ders ref="tilesius_von_tilenau_wg">Derselbe</ders>,
+        <thema>Zeichenübungen in <scil
         text="vergleichender Anatomie">derselben</scil>, in naturhistorischen
         u. pathologischen Gegenständen</thema>, <zeit>in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Naturgeschichte der
-        Fische, n. <schrift><autor>Blochii</autor> <titel>systema ichthyol.
-        ed. I. G. Schneid. Sax.</titel> (Berol. 1801.)</schrift>, u.
-        <schrift><autor>Cuvier</autor>'s neuem Werke</schrift></thema>,
-        <zeit>7 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="tilesius_von_tilenau_wg">Derselbe</ders>,
+        <thema>Naturgeschichte der Fische, n. <schrift><autor>Blochii</autor>
+        <titel>systema ichthyol. ed. I. G. Schneid. Sax.</titel> (Berol.
+        1801.)</schrift>, u. <schrift><autor>Cuvier</autor>'s neuem
+        Werke</schrift></thema>, <zeit>7 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Naturgeschichte der
-        Pflanzenthiere nach <autor>Lamouroux</autor></thema>, <zeit>8 U. 4
+        <veranstaltung><ders ref="tilesius_von_tilenau_wg">Derselbe</ders>,
+        <thema>Naturgeschichte der Pflanzenthiere nach
+        <autor>Lamouroux</autor></thema>, <zeit>8 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Naturgeschichte der
-        Thalassiophyten oder Pflanzen der Meere</thema>, <zeit>7 U. 2
+        <veranstaltung><ders ref="tilesius_von_tilenau_wg">Derselbe</ders>,
+        <thema>Naturgeschichte der Thalassiophyten oder Pflanzen der
+        Meere</thema>, <zeit>7 U. 2 T.</zeit></veranstaltung>
+
+        <veranstaltung><ders ref="tilesius_von_tilenau_wg">Derselbe</ders>,
+        <thema>Naturgeschichte der Krabben u. Krebse</thema>, <zeit>10 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Naturgeschichte der
-        Krabben u. Krebse</thema>, <zeit>10 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="tilesius_von_tilenau_wg">Derselbe</ders>,
+        <thema>Naturgeschichte der Mollusken, Echinodermen, und
+        Infusorien</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Naturgeschichte der
-        Mollusken, Echinodermen, und Infusorien</thema>, <zeit>2 U. 4
-        T.</zeit></veranstaltung>
-
-        <veranstaltung><ders>Derselbe</ders>, <thema>Reisekollegium, oder
-        geograph. physik. und naturhist. Commentar über Krusenstern's Reisen
-        um die Welt u. a. neuere Reisen</thema>, <zeit>1 U. 2
-        T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="tilesius_von_tilenau_wg">Derselbe</ders>,
+        <thema>Reisekollegium, oder geograph. physik. und naturhist. Commentar
+        über Krusenstern's Reisen um die Welt u. a. neuere Reisen</thema>,
+        <zeit>1 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Volkmann</nachname>, <grad>D.</grad>
         <vorname>A. W.</vorname></dozent>, <thema>vergleichende
@@ -2224,11 +2229,12 @@
           anat.</funktion></dozent>, <thema>Knochen-, Bänder- u. Gefäßlehre
           für Chirurgen</thema>, <zeit>5 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>gesammte Anatomie nach
-          der Lage der Theile</thema>, <zeit>4 U. 6 T.</zeit></veranstaltung>
+          <veranstaltung><ders ref="bock_ac">Derselbe</ders>, <thema>gesammte
+          Anatomie nach der Lage der Theile</thema>, <zeit>4 U. 6
+          T.</zeit></veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>Nervenlehre</thema>,
-          <zeit>3 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung><ders ref="bock_ac">Derselbe</ders>,
+          <thema>Nervenlehre</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Volkmann</nachname>,
           <grad>D.</grad> <vorname>A. W.</vorname></dozent>,
@@ -2449,7 +2455,8 @@
             Knochenkrankheiten u. Osteomalacie im Besondern nach neuern
             Entdeckungen</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>über
+            <veranstaltung><ders
+            ref="tilesius_von_tilenau_wg">Derselbe</ders>, <thema>über
             Augenkrankheiten, Hautkrankheiten und venerische
             Krankheiten</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 

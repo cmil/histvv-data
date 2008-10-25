@@ -160,10 +160,10 @@
           <sachgruppe>
             <titel>Erklärung römischer Schriftsteller.</titel>
 
-            <veranstaltung><dozent><nachname>Nobbe</nachname>, <vorname>K. F.
-            A.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>das 1.
-            und 2. Buch Cicero's über den Staat</thema>, <zeit>3 U. 2
-            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
+            <vorname>K. F. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>das 1. und 2. Buch Cicero's über den Staat</thema>, <zeit>3
+            U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Klotz</nachname>,
             <vorname>R.</vorname>, <funktion>P. E., Reg. Semin. philol.
@@ -222,10 +222,10 @@
             Gesellschaft</thema>, <zeit>in den best. T. u.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Uebungen des königl.
-            philolog. Seminars, Erklärung des Prometheus des Aeschylus
-            und</thema> (unter nächster Leitung des Hrn.
-            <dozent><funktion>Prof.</funktion>
+            <veranstaltung><ders ref="hermann_jgj">Derselbe</ders>,
+            <thema>Uebungen des königl. philolog. Seminars, Erklärung des
+            Prometheus des Aeschylus und</thema> (unter nächster Leitung des
+            Hrn. <dozent><funktion>Prof.</funktion>
             <nachname>Klotz</nachname></dozent>) <thema>der Sermonen des
             Horaz</thema>, <zeit>2 T. von 5 U. an</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
@@ -236,8 +236,8 @@
             im Latein-Schreiben und Sprechen</thema>, <zeit>in den best.
             St.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Nobbe</nachname>, <vorname>K. F.
-            A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <veranstaltung><dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
+            <vorname>K. F. A.</vorname>, <funktion>P. E.</funktion></dozent>,
             <thema>lateinische Disputir-Uebungen</thema>, <zeit>5 U. Mittw. u.
             Sonnab.</zeit> <modus>privatim.</modus></veranstaltung>
 
@@ -343,9 +343,9 @@
               Sprache</thema>, <zeit>2 U. 2 T.</zeit>
               <modus>öffentlich</modus>.</veranstaltung>
 
-              <veranstaltung><ders>Derselbe</ders>, <thema>Erklärung von
-              <antiqua>Lamartine's Meditations</antiqua>, in deutscher
-              Sprache</thema>, <zeit>2 U. Freit.</zeit>
+              <veranstaltung><ders ref="beck_jrw">Derselbe</ders>,
+              <thema>Erklärung von <antiqua>Lamartine's Meditations</antiqua>,
+              in deutscher Sprache</thema>, <zeit>2 U. Freit.</zeit>
               <gebühr>unentgeltlich</gebühr>.</veranstaltung>
             </sachgruppe>
 
@@ -734,8 +734,8 @@
       "Grundzüge" (Lpz. 1834. bei Voß)</thema>, <zeit>7 u. 10 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><ders>Derselbe</ders>, <thema>Statik</thema>, <zeit>10 U.
-      4 T.</zeit></veranstaltung>
+      <veranstaltung><ders ref="drobisch_mw">Derselbe</ders>,
+      <thema>Statik</thema>, <zeit>10 U. 4 T.</zeit></veranstaltung>
 
       <seite>8</seite>
 
@@ -766,8 +766,8 @@
         einjährigen Cursus</thema>, <zeit>7 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Botanik</thema>, <zeit>7
-        U. Vorm. 4 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="schwaegrichen_cf">Derselbe</ders>,
+        <thema>Botanik</thema>, <zeit>7 U. Vorm. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Kunze</nachname>, <grad>D.</grad>
         <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
@@ -892,8 +892,8 @@
         <thema>National-Oekonomie</thema>, <zeit>4 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>die Lehre vom
-        Pflanzenbau</thema>, <zeit>2 T. in zu best. St.</zeit>
+        <veranstaltung><ders ref="jacobi_vfl">Derselbe</ders>, <thema>die
+        Lehre vom Pflanzenbau</thema>, <zeit>2 T. in zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -1874,12 +1874,13 @@
           Anatomie nach der Lage der Theile</thema>, <zeit>6 T. in zu best.
           St.</zeit></veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>anatomisch-chirurgische
-          Vortäge über einzelne Theile des menschl. Körpers</thema>, <zeit>4
-          U. 2 T.</zeit> <gebühr>unentgeltl.</gebühr></veranstaltung>
+          <veranstaltung><ders ref="bock_ce">Derselbe</ders>,
+          <thema>anatomisch-chirurgische Vortäge über einzelne Theile des
+          menschl. Körpers</thema>, <zeit>4 U. 2 T.</zeit>
+          <gebühr>unentgeltl.</gebühr></veranstaltung>
 
-          <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
-          Chirurgie</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><ders ref="bock_ce">Derselbe</ders>,
+          <siehe>s. Chirurgie</siehe>.</veranstaltungsverweis>
 
           <veranstaltung><dozent><nachname>Aßmann</nachname>, <grad>D.</grad>
           <vorname>F. W.</vorname></dozent>, <thema>vergleichende Anantomie

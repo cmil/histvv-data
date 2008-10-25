@@ -154,11 +154,11 @@
             <titel>Menächmi</titel></schrift></thema>, <zeit>5 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Nobbe</nachname>, <vorname>K. F.
-            A.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>über
-            <schrift><autor>Cicero</autor>'s erstes Buch <titel>über den
-            Staat</titel></schrift></thema>, <zeit>2 U. 2 T.</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
+            <vorname>K. F. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>über <schrift><autor>Cicero</autor>'s erstes Buch
+            <titel>über den Staat</titel></schrift></thema>, <zeit>2 U. 2
+            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <!--gehört "erstes Buch" mit zum Titel?-->
 
@@ -213,9 +213,9 @@
             Gesellschaft</thema>, <zeit>in den best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Nobbe</nachname>, <vorname>K. F.
-            A.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>Uebungen
-            im Schreiben und Disputiren</thema>, <zeit>4 U. 2
+            <veranstaltung><dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
+            <vorname>K. F. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>Uebungen im Schreiben und Disputiren</thema>, <zeit>4 U. 2
             T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Klotz</nachname>,
@@ -301,9 +301,9 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl.
             neuesten franz. Dichter, in franz. Sprache</thema>, <zeit>2 U. 2
             T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>über die vornehmsten
-            Idiotismen der französischen Substantive und Adjective</thema>,
-            <zeit>2 U. Freit.</zeit>
+            <veranstaltung><ders ref="beck_jrw">Derselbe</ders>, <thema>über
+            die vornehmsten Idiotismen der französischen Substantive und
+            Adjective</thema>, <zeit>2 U. Freit.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Dümas</nachname>,
@@ -401,8 +401,9 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl.
         <thema>allgemeine Weltgeschichte, <schrift>nach s. Leitfaden (Lpz. b.
         Hinrichs 1833)</schrift></thema>, <zeit>8 U. 6 T.</zeit><!--Ist "Leitfaden" der Titel?--></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Geschichte der letzten 45
-        Jahre</thema>, <zeit>4 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="wachsmuth_ewg">Derselbe</ders>,
+        <thema>Geschichte der letzten 45 Jahre</thema>, <zeit>4 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><dozent><nachname>Hasse</nachname>, <vorname>F.
         C. A.</vorname>, <funktion>P. O.</funktion></dozent>, <siehe>s.
@@ -856,8 +857,8 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl.
       <autor>Poisson</autor></thema>, <zeit>10 U. 4 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><ders>Derselbe</ders>, <thema>ebene und sphärische
-      Trigonometrie</thema>, <zeit>4 U. 4 T.</zeit></veranstaltung>
+      <veranstaltung><ders ref="drobisch_mw">Derselbe</ders>, <thema>ebene und
+      sphärische Trigonometrie</thema>, <zeit>4 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Möbius</nachname>, <vorname>A.
       F.</vorname>, <funktion>P. E. u. Obs.</funktion></dozent>,
@@ -887,13 +888,14 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl.
         Privatsammlungen</thema>, <zeit>8 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Botanik</thema>, <zeit>7
-        U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="schwaegrichen_cf">Derselbe</ders>,
+        <thema>Botanik</thema>, <zeit>7 U. 4 T.</zeit></veranstaltung>
 
         <seite>9</seite>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Exkursionen</thema>,
-        <zeit>5 U. Nachm. Mont. u. Donn.</zeit></veranstaltung>
+        <veranstaltung><ders ref="schwaegrichen_cf">Derselbe</ders>,
+        <thema>Exkursionen</thema>, <zeit>5 U. Nachm. Mont. u.
+        Donn.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Kunze</nachname>, <grad>D.</grad>
         <vorname>G.</vorname></dozent>, <thema>pharmaceutische Botanik nach
@@ -2231,9 +2233,10 @@ Veranstaltung.--></veranstaltung>
           <thema>topographische Anatomie des Kopfes</thema>, <zeit>2 T. in zu
           best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>chirurgische Anatomie
-          (<notiz betreff="fortsetzung">in dies. Halbj.</notiz> über Fracturen
-          u. Luxationen)</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
+          <veranstaltung><ders ref="bock_ce">Derselbe</ders>,
+          <thema>chirurgische Anatomie (<notiz betreff="fortsetzung">in dies.
+          Halbj.</notiz> über Fracturen u. Luxationen)</thema>, <zeit>in zu
+          best. St.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Aßmann</nachname>, <grad>D.</grad>
           <vorname>F. W.</vorname></dozent>, <thema>allgemeine
