@@ -3550,35 +3550,60 @@
           <sachgruppe>
             <titel>Abteilung für Nationalökonomie.</titel>
 
-            <veranstaltung>D. ph. et jur. Bücher, P. O.: Kursus für
-            Vorgeschrittene, Dienst. 6-8 U., privatissime et gratis. -
-            Außerdem in seinem Auftrage: Vorbereitungskursus für Anfänger
-            (sämtlich privatissime et gratis):</veranstaltung>
+            <veranstaltungsgruppe><dozent><grad>D. ph. et jur.</grad>
+            <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>:
+            <veranstaltung><thema>Kursus für Vorgeschrittene</thema>,
+            <zeit>Dienst. 6-8 U.</zeit>, <modus>privatissime</modus> et
+            <gebühr>gratis</gebühr></veranstaltung>. -
+            <veranstaltung><thema>Außerdem in seinem Auftrage:
+            Vorbereitungskursus für Anfänger</thema> (sämtlich
+            <modus>privatissime</modus> et
+            <gebühr>gratis</gebühr>)</veranstaltung>:</veranstaltungsgruppe>
 
-            <veranstaltung>1) D. ph. Plenge, P. E.: Theoretische Abteilung,
-            Mont. 7-9 U. Ab.</veranstaltung>
+            <!--va-gruppe?!wie kann man es besser taggen?-->
 
-            <veranstaltung>2) D. ph. Eulenburg, P. E.: Praktische Abteilung,
-            Sonnab. 8-10 U. Vorm.</veranstaltung>
+            <veranstaltung gebühr="gratis" modus="privatissime">1)
+            <dozent><grad>D. ph.</grad> <nachname>Plenge</nachname>,
+            <funktion>P. E.</funktion></dozent>: <thema>Theoretische
+            Abteilung</thema>, <zeit>Mont. 7-9 U. Ab.</zeit></veranstaltung>
 
-            <veranstaltung>3) D. ph. Plenge, P. E.: Finanzwissenschaftliche
-            Abteilung, Donnerst. 7-9 U. Ab.</veranstaltung>
+            <veranstaltung gebühr="gratis" modus="privatissime">2)
+            <dozent><grad>D. ph.</grad> <nachname>Eulenburg</nachname>,
+            <funktion>P. E.</funktion></dozent>: <thema>Praktische
+            Abteilung</thema>, <zeit>Sonnab. 8-10 U.
+            Vorm.</zeit></veranstaltung>
 
-            <veranstaltung>4) Rechtsanwalt Professor D. jur. Wörner: Übungen
-            über deutsche Arbeiterversicherung, Mittw. 7-9 U.
-            Ab.</veranstaltung>
+            <veranstaltung gebühr="gratis" modus="privatissime">3)
+            <dozent><grad>D. ph.</grad> <nachname>Plenge</nachname>,
+            <funktion>P. E.</funktion></dozent>:
+            <thema>Finanzwissenschaftliche Abteilung</thema>, <zeit>Donnerst.
+            7-9 U. Ab.</zeit></veranstaltung>
 
-            <veranstaltung>5) Handelslehrer D. ph. Pape: 1) Einführung in das
-            Verständnis der systematischen Buchhaltung, Freit. 7-9 U. Ab., 2)
-            Einführung in die Technik des Bankbetriebes, Dienst. 8-9 U.
-            Ab.</veranstaltung>
+            <veranstaltung gebühr="gratis" modus="privatissime">4)
+            <dozent><funktion>Rechtsanwalt Professor</funktion> <grad>D.
+            jur.</grad> <nachname>Wörner</nachname></dozent>: <thema>Übungen
+            über deutsche Arbeiterversicherung</thema>, <zeit>Mittw. 7-9 U.
+            Ab.</zeit></veranstaltung>
+
+            <veranstaltungsgruppe>5)
+            <dozent><funktion>Handelslehrer</funktion> <grad>D. ph.</grad>
+            <nachname>Pape</nachname></dozent>: <veranstaltung gebühr="gratis"
+            modus="privatissime">1) <thema>Einführung in das Verständnis der
+            systematischen Buchhaltung</thema>, <zeit>Freit. 7-9 U.
+            Ab.</zeit></veranstaltung>, <veranstaltung gebühr="gratis"
+            modus="privatissime">2) <thema>Einführung in die Technik des
+            Bankbetriebes</thema>, <zeit>Dienst. 8-9 U.
+            Ab.</zeit></veranstaltung></veranstaltungsgruppe>
           </sachgruppe>
 
           <sachgruppe>
             <titel>Abteilung für Statistik und Verwaltungslehre.</titel>
 
-            <veranstaltung>D. jur. Schmid, P. O.: Übungen, Mittw. 5-7 U.,
-            privatissime et gratis.</veranstaltung>
+            <veranstaltung><dozent><grad>D. jur.</grad>
+            <nachname>Schmid</nachname>, <funktion>P. O.</funktion></dozent>:
+            <thema>Übungen</thema>, <zeit>Mittw. 5-7 U.</zeit>,
+            <modus>privatissime</modus> et
+            <gebühr>gratis</gebühr>.</veranstaltung>
           </sachgruppe>
 
           <trennlinie/>
@@ -3586,25 +3611,225 @@
           <sachgruppe>
             <titel>Volkswirtschaftliches Seminar (Ritterstr. 24.)</titel>
 
-            <veranstaltung>1) D. ph. et oec. publ. Stieda, P. O.: a) Übungen
-            für Anfänger (geleitet vom Assistenten D. ph. Danner), Dienst. 6-8
-            U., privatissime, aber gratis, b) Übungen für Fortgeschrittene,
-            Sonnab. 9-11 U., privatissime, aber gratis.</veranstaltung>
+            <veranstaltungsgruppe>1) <dozent><grad>D. ph. et oec. publ.</grad>
+            <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent>:
+            <veranstaltung>a) <thema>Übungen für Anfänger</thema>
+            (<dozent>geleitet vom <funktion>Assistenten</funktion> <grad>D.
+            ph.</grad> <nachname>Danner</nachname></dozent>), <zeit>Dienst.
+            6-8 U.</zeit>, <modus>privatissime</modus>, aber
+            <gebühr>gratis</gebühr></veranstaltung>, <veranstaltung>b)
+            <thema>Übungen für Fortgeschrittene</thema>, <zeit>Sonnab. 9-11
+            U.</zeit>, <modus>privatissime</modus>, aber
+            <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
-            <veranstaltung>2) D. ph. Biermann, P. E.: Übungen über Bank- und
-            Börsenwesen, Mont. 7½-9 U. Ab., privatissime, sed
-            gratis.</veranstaltung>
+            <veranstaltung>2) <dozent><grad>D. ph.</grad>
+            <nachname>Biermann</nachname>, <funktion>P.
+            E.</funktion></dozent>: <thema>Übungen über Bank- und
+            Börsenwesen</thema>, <zeit>Mont. 7½-9 U. Ab.</zeit>,
+            <modus>privatissime</modus>, sed
+            <gebühr>gratis</gebühr>.</veranstaltung>
 
             <trennlinie/>
 
-            <veranstaltung>Landwirtschaftliches Laboratorium: D. ph. Kirchner,
-            P. O.: A. Großes Praktikum, Mont. bis Freit. 8-1 u. 2 bis 5 U.; B.
-            Kleines Praktikum, Mont. bis Freit. 8-1 oder 2-5 U., privatissime,
-            im Landw. Institut, Johannisallee 21. </veranstaltung>
+            <veranstaltungsgruppe><thema>Landwirtschaftliches
+            Laboratorium</thema>: <dozent><grad>D. ph.</grad>
+            <nachname>Kirchner</nachname>, <funktion>P.
+            O.</funktion></dozent>: <veranstaltung>A. <thema>Großes
+            Praktikum</thema>, <zeit>Mont. bis Freit. 8-1 u. 2 bis 5
+            U.</zeit></veranstaltung>; <veranstaltung>B. <thema>Kleines
+            Praktikum</thema>, <zeit>Mont. bis Freit. 8-1 oder 2-5
+            U.</zeit></veranstaltung>, <modus>privatissime</modus>, <ort>im
+            Landw. Institut, Johannisallee 21</ort>.</veranstaltungsgruppe>
 
             <seite>43</seite>
+
+            <veranstaltungsgruppe><thema>Landwirtschaftlich-bakteriologisches
+            Laboratorium</thema>: <dozent><grad>D. ph.</grad>
+            <nachname>Kirchner</nachname>, <funktion>P.
+            O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
+            <nachname>Löhnis</nachname>:</dozent> <veranstaltung>A.
+            <thema>Großes Praktikum</thema>, <zeit>Mont. bis Freit. 8-1 und
+            2-5 U.</zeit></veranstaltung>; <veranstaltung>B. <thema>Kleines
+            Praktikum</thema>, <zeit>Mont. bis Freit. 8-1 oder 2-5
+            U.</zeit></veranstaltung>, <modus>privatissime</modus>, <ort>im
+            Landw. Institut, Johannisallee 21</ort>.</veranstaltungsgruppe>
+
+            <veranstaltung><thema>Demonstrationen auf dem Versuchsfelde des
+            Landwirtschaftlichen Instituts in Oberholz</thema>:
+            <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
+            <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. Nachm.</zeit>,
+            <modus>publice</modus>.</veranstaltung>
+
+            <veranstaltungsgruppe><thema>Übungen für Pflanzenzüchter</thema>:
+            <dozent><grad>D. ph.</grad> <nachname>Falke</nachname>,
+            <funktion>P. E.</funktion></dozent>, <veranstaltung>a) <thema>für
+            Anfänger</thema>, <zeit>Mittw. u. Freit. 5-7 U.</zeit>,
+            <modus>privatim</modus></veranstaltung>; <veranstaltung>b)
+            <thema>für Vorgeschrittene</thema>, <zeit>tägl. (außer Sonnab.)
+            8-1 u. 3-6 U.</zeit></veranstaltung>, <modus>privatim</modus>,
+            <ort>im Landw. Institut, Johannisallee
+            21</ort>.</veranstaltungsgruppe>
+
+            <veranstaltung><thema>Übungen im Seminar für angewandte
+            Tierzuchtlehre</thema> (<ort>Johannisallee 21</ort>):
+            <dozent><grad>D. ph.</grad> <nachname>Falke</nachname>,
+            <funktion>P. E.</funktion></dozent>, <zeit>Mont. 5-7 U.</zeit>,
+            <modus>privatim</modus>.</veranstaltung>
+
+            <veranstaltung><thema>Demonstrationen für Landwirte (unter
+            besonderer Berücksichtigung der bei Unglücksfällen und plötzlichen
+            Erkrankungen erforderlichen ersten Hilfeleistung)</thema>:
+            <dozent><grad>D. ph.</grad> <nachname>Eber</nachname>,
+            <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 8-10 U.</zeit>,
+            <modus>privatim</modus>, <ort>im Veterinärinstitut, Linnéstr.
+            11</ort>.</veranstaltung>
+
+            <veranstaltung><thema>Wissenschaftliche Arbeiten</thema> <ort>im
+            Veterinärinstitute (Linnéstr. 11)</ort>: <dozent><grad>D.
+            ph.</grad> <nachname>Eber</nachname>, <funktion>P.
+            E.</funktion></dozent>, <zeit>tägl.</zeit>,
+            <modus>privatissime</modus>.</veranstaltung>
+
+            <veranstaltung><thema>Praktische Übungen in der Übungsschule
+            (<gesperrt>Fachschule für Land- und Gartenbau</gesperrt>) des
+            "Pädagogischen Seminares für Landwirtschaftslehrer" (für dessen
+            Mitglieder)</thema>: <dozent><funktion>Prof.</funktion> <grad>D.
+            ph.</grad> <nachname>John</nachname></dozent>, <zeit>Dienst. u.
+            Freit. 5-8 U.</zeit>, <gebühr>gratis</gebühr>, <ort>im Gebäude der
+            1. Bezirksschule, Nürnberger Str. 53</ort>. <thema>Die Übungen
+            erstrecken sich für jeden Teilnehmer auf Hospitieren,
+            Besprechungen</thema> <zeit>und wöchentlich wenigstens 2 Stunden
+            eigenen Unterrichts und richten sich nach dem Stundenplane der
+            Fachschule</zeit>.</veranstaltung>
+
+            <veranstaltung><thema>Kulturtechnisches Praktikum</thema>:
+            <dozent><grad>D. ph.</grad> <nachname>Strecker</nachname>,
+            <funktion>P. E.</funktion></dozent>, <zeit>in noch zu best.
+            Zeit</zeit>, <modus>privatim</modus>, <ort>im Landwirtschaftl.
+            Institut, Johannisallee 21</ort>.</veranstaltung>
+
+            <veranstaltung><thema>Technische Exkursionen</thema>:
+            <dozent><grad>D. ph.</grad> <nachname>Strecker</nachname>,
+            <funktion>P. E.</funktion></dozent>, <zeit>an noch zu best.
+            Tagen</zeit>, <modus>publice</modus>.</veranstaltung>
+
+            <veranstaltung><thema>Landwirtschaftliche Exkursionen</thema>:
+            <dozent><grad>D. ph.</grad> <nachname>Falke</nachname>,
+            <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. an noch zu
+            best. Tagen</zeit>, <modus>publice</modus>. </veranstaltung>
           </sachgruppe>
         </sachgruppe>
+      </sachgruppe>
+
+      <trennlinie/>
+
+      <seite>44</seite>
+
+      <sachgruppe>
+        <titel>F. Mathematik und Astronomie.</titel>
+
+        <absatz>(Die mathematischen Vorlesungen und Übungen werden, soweit
+        nicht ausdrücklich anders bemerkt ist, im Mathematischen Institut,
+        Talstr. 35, abgehalten.)</absatz>
+
+        <veranstaltung><thema>Projektive Geometrie</thema>: <dozent><grad>D.
+        ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Dienst. u. Freit. 9-10 U.</zeit>,
+        <modus>privatim</modus>. </veranstaltung>
+
+        <veranstaltung><thema>Analytische Geometrie der Ebene</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont., Mittw., Donnerst. u. Sonnab. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Ausgewählte Kapitel der Differential- und
+        Integralrechnung (<notiz betreff="fortsetzung">Fortsetzung der
+        Wintervorlesung</notiz>)</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Herglotz</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Dienst. bis Freit. 11-12 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Gewöhnliche Differentialgleichungen</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Koebe</nachname>, <funktion>P.
+        E. des.</funktion></dozent>, <zeit>Dienst. bis Freit. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Algebraische Analysis</thema>: <dozent><grad>D.
+        ph.</grad> <nachname>Koebe</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>Mont. u. Donnerst. 10-11 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Algebraische Gleichungen</thema>:
+        <dozent><grad>D. ph. et scient. nat.</grad> <vorname>O.</vorname>
+        <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Dienst. u. Freit. 10-11 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Kegelschnitte und Flächen 2. Gr. vom
+        invarianten-theoretischen Standpunkt</thema>: <dozent><grad>D.
+        ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Dienst. u. Freit. 10-11 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Allgemeine Theorie der Funktionen einer
+        komplexen Veränderlichen</thema>: <dozent><grad>D. ph. et scient.
+        nat.</grad> <vorname>O.</vorname> <nachname>Hölder</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Mittw., Donnerst. u.
+        Sonnab. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Randwertaufgaben der Potentialtheorie</thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Herglotz</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mittw. u. Donnerst. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Sphärische Astronomie</thema>: <dozent><grad>D.
+        ph.</grad> <nachname>Bruns</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont. u. Sonnab. 11-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Theorische Astronomie (Planeten- und
+        Kometenbahnen)</thema>: <dozent><grad>D. ph.</grad>
+        <nachname>Peter</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. u. Donnerst. 5-6 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Praktische Analysis <notiz
+        betreff="fortsetzung">II. Teil</notiz></thema>: <dozent><grad>D.
+        ph.</grad> <nachname>Bruns</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Dienst. 4-6 U.</zeit>,
+        <modus>privatisisme</modus>, sed
+        <gebühr>gratis</gebühr>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung><thema>Geometrisch-perspektivisches Zeichnen</thema>:
+        <dozent><grad>D. ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+        <nachname>Oettingen</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>Dienst. 6-7 U.</zeit>,
+        <modus>publice</modus>, <ort>im
+        Universitätsgebäude</ort>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltungsgruppe><thema>Mathematisches Seminar</thema>:
+        <veranstaltung>1) <dozent><grad>D. ph. et scient. nat.</grad>
+        <vorname>O.</vorname> <nachname>Hölder</nachname>, <funktion>P.
+        O.</funktion></dozent>: <thema>Übungen in Funktionentheorie</thema>,
+        <zeit>Freit. 8-9 U.</zeit>, <modus>privatissime</modus> et
+        <gebühr>gratis</gebühr></veranstaltung>. - <veranstaltung>2)
+        <dozent><grad>D. ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
+        O.</funktion></dozent> (<dozent>mit <grad>D. ph.</grad>
+        <nachname>Koebe</nachname>, <funktion>P. E. des.</funktion></dozent>):
+        a) <thema>Übungen zur analytischen Geometrie der Ebene</thema>,
+        <zeit>Mont. 11-12 U.</zeit>, <modus>privatissime</modus>, <seite>45</seite>aber
+        <gebühr>gratis</gebühr></veranstaltung>. - <veranstaltung>3)
+        <dozent><grad>D. ph.</grad> <nachname>Herglotz</nachname>,
+        <funktion>P. O.</funktion></dozent> (<dozent>mit <grad>D. ph.</grad>
+        <nachname>Koebe</nachname>, <funktion>P. E. des.</funktion></dozent>):
+        <thema>Übungen zur Infinitesimalrechnung und zu den gewöhnlichen
+        Differentialgleichungen</thema>, <zeit>Sonnab. 12-1 U.</zeit>,
+        <modus>privatissime</modus>, sed
+        <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
       </sachgruppe>
     </sachgruppe>
   </übersicht>
