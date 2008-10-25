@@ -1092,8 +1092,8 @@
       <nachname>Nießl-Mayendorf</nachname></dozent>, <zeit>Sonnab. 2-4
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Neurologische Demonstrationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Klien</nachname></dozent>,
+      <veranstaltung><thema>Neurologische Demonstrationen</thema>: <dozent
+      ref="klien_h"><grad>D. med.</grad> <nachname>Klien</nachname></dozent>,
       <zeit>Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der
       Psychiatrischen und Nervenklinik, Windmühlenweg
       20</ort>.</veranstaltung>
@@ -1103,8 +1103,8 @@
       E. des.</funktion></dozent>, <zeit>Donnerst. 5-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Diagnostik der Nervenkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Klien</nachname></dozent>,
+      <veranstaltung><thema>Diagnostik der Nervenkrankheiten</thema>: <dozent
+      ref="klien_h"><grad>D. med.</grad> <nachname>Klien</nachname></dozent>,
       <zeit>Mittw. 6-7 U.</zeit>, <modus>publice</modus>, <ort>in der
       Psychiatrischen u. Nervenklinik, Windmühlenweg 20</ort>.</veranstaltung>
 
@@ -1772,10 +1772,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der neuesten Philosophie von Kant bis
-        zur Gegenwart</thema>: <dozent><grad>D. ph., jur. et med.</grad>
-        <nachname>Wundt</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        zur Gegenwart</thema>: <dozent ref="wundt_w"><grad>D. ph., jur. et
+        med.</grad> <nachname>Wundt</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ethik</thema>: <dozent><grad>D. ph.</grad>
         <nachname>Lipps</nachname>, <funktion>P. E.</funktion></dozent>,
@@ -1860,13 +1860,13 @@
         Instituts)</thema>: <dozent>Assistent <grad>D. ph.</grad>
         <nachname>Salow</nachname> (im Auftrag des Direktors)</dozent>,
         <zeit>Sonnab. 11-1 U.</zeit></veranstaltung>; <veranstaltung>b)
-        <thema>Spezielle Arbeiten und Übungen der Teilnehmer</thema>:
-        <dozent><grad>D. ph., jur. et med.</grad> <nachname>Wundt</nachname>,
-        <funktion>P. O.</funktion></dozent>, <dozent>gemeinschaftlich mit
-        <grad>D. ph.</grad> <nachname>Wirth</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont. bis Freit. 2-7 U. u. Sonnab. 2-4
-        U.</zeit>, <modus>privatissime</modus>, aber <gebühr>gratis
-        (ausschließl.
+        <thema>Spezielle Arbeiten und Übungen der Teilnehmer</thema>: <dozent
+        ref="wundt_w"><grad>D. ph., jur. et med.</grad>
+        <nachname>Wundt</nachname>, <funktion>P. O.</funktion></dozent>,
+        <dozent>gemeinschaftlich mit <grad>D. ph.</grad>
+        <nachname>Wirth</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. bis Freit. 2-7 U. u. Sonnab. 2-4 U.</zeit>,
+        <modus>privatissime</modus>, aber <gebühr>gratis (ausschließl.
         Institutsbeitrag)</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Psychologisch-pädagogisches Seminar</thema>:
@@ -2641,14 +2641,14 @@
 
         <veranstaltung><thema>Geschichte der Expansion der europäischen
         Mächte: Entdeckungen und Kolonisationen vom 15. Jahrhundert bis zur
-        Mitte des 18. Jahrhunderts</thema>: <dozent><grad>D. ph.</grad> et
-        <grad>LL. D.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Mitte des 18. Jahrhunderts</thema>: <dozent ref="lamprecht_k"><grad>D.
+        ph.</grad> et <grad>LL. D.</grad> <nachname>Lamprecht</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Deutsche Kulturgeschichte im Zeitalter des
-        Absolutismus</thema>: <dozent><grad>D. ph.</grad> et <grad>LL.
-        D.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
+        Absolutismus</thema>: <dozent ref="lamprecht_k"><grad>D. ph.</grad> et
+        <grad>LL. D.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 6-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -2682,9 +2682,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einführung in das politische Verständnis der
-        Gegenwart</thema>: <dozent><grad>D. ph.</grad> et <grad>LL. D.</grad>
-        <nachname>Lamprecht</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mittw. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Gegenwart</thema>: <dozent ref="lamprecht_k"><grad>D. ph.</grad> et
+        <grad>LL. D.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte des Verhältnisses von Staat und
         Kirche</thema>: <dozent><grad>D. ph.</grad>
@@ -2843,8 +2844,8 @@
             Anfänger und jüngere Teilnehmer des Vorkurses</thema>,
             <zeit>Mittw. 3-4 U.</zeit></veranstaltung>
 
-            <veranstaltung>2) <dozent><grad>D. ph.</grad> et <grad>LL.
-            D.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
+            <veranstaltung>2) <dozent ref="lamprecht_k"><grad>D. ph.</grad> et
+            <grad>LL. D.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
             O.</funktion></dozent>: <thema>Anleitung zum Quellenstudium der
             Geschichte überhaupt: Lektüre von Quellen zur Geschichte des
             deutschen Mittelalters, Einführung in die Elemente der
@@ -2899,10 +2900,10 @@
               Parteien</thema>, <zeit>Donnerst. 7¾-9¼ U.
               Ab.</zeit></veranstaltung>
 
-              <veranstaltung>5) <dozent><grad>D. ph.</grad> et <grad>LL.
-              D.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
-              O.</funktion></dozent>, <dozent>in Verbindung mit <grad>D.
-              ph.</grad> <nachname>Goldfriedrich</nachname></dozent>:
+              <veranstaltung>5) <dozent ref="lamprecht_k"><grad>D. ph.</grad>
+              et <grad>LL. D.</grad> <nachname>Lamprecht</nachname>,
+              <funktion>P. O.</funktion></dozent>, <dozent>in Verbindung mit
+              <grad>D. ph.</grad> <nachname>Goldfriedrich</nachname></dozent>:
               <thema>Übungen zur deutschen Kulturgeschichte des 19.
               Jhts.</thema>, <zeit>Dienst. 8½-10 U. Ab.</zeit></veranstaltung>
 
@@ -2955,8 +2956,8 @@
               Kinderzeichnungen</thema>, <zeit>Dienst. 3½-5
               Uhr</zeit>.</veranstaltung>
 
-              <veranstaltung gebühr="gratis" modus="privatissime">2)
-              <dozent><grad>D. ph.</grad> et <grad>LL. D.</grad>
+              <veranstaltung gebühr="gratis" modus="privatissime">2) <dozent
+              ref="lamprecht_k"><grad>D. ph.</grad> et <grad>LL. D.</grad>
               <nachname>Lamprecht</nachname>, <funktion>P.
               O.</funktion></dozent>: <thema>Übungen zur vergleichenden
               Geschichte höherer Kulturen</thema>, <zeit>Mittw. 11½-1
@@ -3796,11 +3797,11 @@
         <zeit>Mittw. 5-6 U.</zeit>, <modus>publice</modus>, <ort>im
         Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Physikalische Chemie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Le Blanc</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. bis Freit. 9-10 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Physikalisch-chemischen Institut,
-        Linnéstr. 2</ort>.</veranstaltung>
+        <veranstaltung><thema>Physikalische Chemie</thema>: <dozent
+        ref="leblanc_m"><grad>D. ph.</grad> <nachname>Le Blanc</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Freit. 9-10
+        U.</zeit>, <modus>privatim</modus>, <ort>im Physikalisch-chemischen
+        Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <seite>44</seite>
 
@@ -4032,7 +4033,7 @@
 
         <veranstaltung><thema>Kolloidchemie in elementarer Darstellung; mit
         besonderer Berücksichtigung ihrer Anwendung in Biologie, Medizin
-        etc.</thema>: <dozent><grad>D. ph.</grad>
+        etc.</thema>: <dozent ref="ostwald_wolfgang"><grad>D. ph.</grad>
         <nachname>Ostwald</nachname></dozent>, <zeit>Freit. 3-4 U.</zeit>,
         <modus>privatim</modus>, <ort>im Zoolog. Institut, Talstr.
         33</ort>.</veranstaltung>
@@ -4089,16 +4090,16 @@
         <ort>im Physikalischen Institut, Linnéstr. 5</ort>.</veranstaltung>
 
         <veranstaltung><thema>Physikalisch-chemischer Einführungskurs</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Le Blanc</nachname>,
-        <funktion>P. O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
-        <nachname>Schall</nachname>, <funktion>P. E. des.</funktion></dozent>,
-        <dozent>und <grad>D. ph.</grad> <nachname>Drucker</nachname></dozent>,
-        <zeit>Mont. od. Dienst., vier- od. achtstündig</zeit>,
-        <modus>privatim</modus>, <ort>im Physikalisch-chemischen Institut,
-        Linnéstr. 2</ort>.</veranstaltung>
+        <dozent ref="leblanc_m"><grad>D. ph.</grad> <nachname>Le
+        Blanc</nachname>, <funktion>P. O.</funktion></dozent>, <dozent>mit
+        <grad>D. ph.</grad> <nachname>Schall</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <dozent>und <grad>D. ph.</grad>
+        <nachname>Drucker</nachname></dozent>, <zeit>Mont. od. Dienst., vier-
+        od. achtstündig</zeit>, <modus>privatim</modus>, <ort>im
+        Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Übungen in Elektroanalyse</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Le Blanc</nachname>,
+        <veranstaltung><thema>Übungen in Elektroanalyse</thema>: <dozent
+        ref="leblanc_m"><grad>D. ph.</grad> <nachname>Le Blanc</nachname>,
         <funktion>P. O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
         <nachname>Böttger</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>halbtäg. zu noch zu best. Zeit</zeit>,
@@ -4106,8 +4107,8 @@
         Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung><thema>Physikalisch-chemisches Praktikum</thema>
-        (<zeit>ganztägig, für Anfänger ganz- und halbtägig</zeit>):
-        <dozent><grad>D. ph.</grad> <nachname>Le Blanc</nachname>,
+        (<zeit>ganztägig, für Anfänger ganz- und halbtägig</zeit>): <dozent
+        ref="leblanc_m"><grad>D. ph.</grad> <nachname>Le Blanc</nachname>,
         <funktion>P. O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
         <nachname>Drucker</nachname></dozent> <dozent>und <grad>D. ph.</grad>
         <nachname>Freundlich</nachname></dozent>, <zeit>tägl. 8-12½ U. u.
@@ -4115,11 +4116,12 @@
         Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung><thema>Physikalisch-chemisches Kolloquium</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Le Blanc</nachname>,
-        <funktion>P. O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
-        <nachname>Schaum</nachname>, <funktion>P. E.</funktion></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Böttger</nachname>, <funktion>P.
-        E. des.</funktion></dozent>, <dozent><grad>D. ph.</grad>
+        <dozent ref="leblanc_m"><grad>D. ph.</grad> <nachname>Le
+        Blanc</nachname>, <funktion>P. O.</funktion></dozent>, <dozent>mit
+        <grad>D. ph.</grad> <nachname>Schaum</nachname>, <funktion>P.
+        E.</funktion></dozent>, <dozent><grad>D. ph.</grad>
+        <nachname>Böttger</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <dozent><grad>D. ph.</grad>
         <nachname>Drucker</nachname></dozent> <dozent>und <grad>D. ph.</grad>
         <nachname>Freundlich</nachname></dozent>, <zeit>Donnerst. 5½-7
         U.</zeit>, <modus>privatissime</modus> et <gebühr>gratis</gebühr>,
@@ -4136,8 +4138,8 @@
 
         <seite>48</seite>
 
-        <veranstaltung><thema>Photographische Übungen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Le Blanc</nachname>,
+        <veranstaltung><thema>Photographische Übungen</thema>: <dozent
+        ref="leblanc_m"><grad>D. ph.</grad> <nachname>Le Blanc</nachname>,
         <funktion>P. O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
         <nachname>Schaum</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>vierstündig, nach Verabredung</zeit>, <modus>privatim</modus>,
