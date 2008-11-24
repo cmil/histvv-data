@@ -591,8 +591,10 @@
           <zeit>Mont. 5 U.</zeit></veranstaltung>
 
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
-          <ders>Derselbe</ders>, in Verbindung mit den Proff. DD. E. H. und E.
-          F.<dozent> <nachname>Weber</nachname></dozent> und
+          <ders>Derselbe</ders>, in Verbindung mit den Proff. DD. <dozent
+          ref="weber_eh"><vorname>E. H.</vorname><!--Weber--></dozent> und
+          <dozent ref="weber_eh"><vorname>E. F.</vorname>
+          <nachname>Weber</nachname></dozent> und
           <dozent><nachname>Lehmann</nachname></dozent>, <zeit>3 T. in den
           best. St. u. T.</zeit><!--doppelte Prof-namen!--></veranstaltung>
 
@@ -1411,22 +1413,25 @@
         <titel>II. Anatomie.</titel>
 
         <veranstaltung><thema>Allgemeine Anatomie u. Geschichte der Bildung
-        des menschl. und thierischen Körpers</thema>: <dozent><grad>D.</grad>
-        <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>10 u. 12 U. Donn. und Freit.</zeit></veranstaltung>
+        des menschl. und thierischen Körpers</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 u. 12 U. Donn. und
+        Freit.</zeit></veranstaltung>
 
         <veranstaltung><thema>Gesammte Geweblehre des menschlichen Körpers im
         gesunden und kranken Zustande</thema>: <dozent><grad>D.</grad>
         <nachname>Reclam</nachname></dozent>, <zeit>in zu best. St. und
         T.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Knochen- und Bänderlehre</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>Theat.
-        anat. Prosect., P. E. des.</funktion></dozent>, <zeit>9 U. Donnerst.,
-        Freit. u. Sonn.</zeit></veranstaltung>
+        <veranstaltung><thema>Knochen- und Bänderlehre</thema>: <dozent
+        ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>Theat. anat. Prosect.</funktion>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>9 U. Donnerst., Freit. u.
+        Sonn.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Nervenlehre</thema>: <ders>Derselbe</ders>,
-        <zeit>9 U. Mont., Dienst. u. Mittw.</zeit></veranstaltung>
+        <veranstaltung><thema>Nervenlehre</thema>: <ders
+        ref="weber_ef">Derselbe</ders>, <zeit>9 U. Mont., Dienst. u.
+        Mittw.</zeit></veranstaltung>
 
         <veranstaltung><thema>Systematische Anatomie</thema>: <dozent
         ref="bock_ce"><grad>D.</grad> <nachname>Bock</nachname>, <funktion>P.
@@ -1462,10 +1467,10 @@
       <sachgruppe>
         <titel>III. Physiologie.</titel>
 
-        <veranstaltung><thema>Physiologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>10 und 12 U. Mont. Dienst., Mittw. u.
-        Sonnab.</zeit></veranstaltung>
+        <veranstaltung><thema>Physiologie</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 und 12 U. Mont. Dienst.,
+        Mittw. u. Sonnab.</zeit></veranstaltung>
 
         <veranstaltung><thema>Physiologie des menschlichen Körpers mit der aus
         derselben hervorgehenden Gesundheitslehre (2. Abschn. Ernährung und
@@ -1488,9 +1493,9 @@
         <seite>16</seite>
 
         <veranstaltung><thema>Physisch-physiologische Uebungen</thema>:
-        <dozent><grad>D.</grad> <vorname>E. H.</vorname>
+        <dozent ref="weber_eh"><grad>D.</grad> <vorname>E. H.</vorname>
         <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
-        <dozent><grad>D.</grad> <vorname>Ed.</vorname>
+        <dozent ref="weber_ef"><grad>D.</grad> <vorname>Ed.</vorname>
         <nachname>Weber</nachname>, <funktion>P. E.</funktion></dozent>,
         <dozent><grad>D.</grad> <nachname>Lehmann</nachname>, <funktion>P.
         E.</funktion></dozent> u. <dozent><grad>D.</grad>

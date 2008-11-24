@@ -562,11 +562,11 @@
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Physisch-physiologische Uebungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>P.
-          O.</funktion></dozent>, in Verbindung mit seinem Bruder und
-          <dozent>Prof. <grad>D.</grad> <nachname>Lehmann</nachname></dozent>,
-          <zeit>2-4 U. Mont. u. Dienst.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <dozent ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+          <funktion>P. O.</funktion></dozent>, in Verbindung mit seinem Bruder
+          und <dozent>Prof. <grad>D.</grad>
+          <nachname>Lehmann</nachname></dozent>, <zeit>2-4 U. Mont. u.
+          Dienst.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Chemisch-praktische Uebungen</thema> <ort>im
           Laboratorium</ort>: <dozent><grad>D.</grad>
@@ -1305,15 +1305,15 @@
         <titel>II. Anatomie.</titel>
 
         <veranstaltung><thema>Allgemeine Anatomie und Geschichte der Bildung
-        des menschlichen und thierischen Körpers</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>11 und 2 U. Freitags und
+        des menschlichen und thierischen Körpers</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>11 und 2 U. Freitags und
         Sonnabends</zeit>.</veranstaltung>
 
-        <veranstaltung><thema>Knochen- und Bänderlehre</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>Theat.
-        anat. Prosect., P. E. des.</funktion></dozent>, <zeit>10 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung><thema>Knochen- und Bänderlehre</thema>: <dozent
+        ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>Theat. anat. Prosect.</funktion>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>10 U. 4 T.</zeit></veranstaltung>
 
         <seite>15</seite>
 
@@ -1344,9 +1344,10 @@
       <sachgruppe>
         <titel>III. Physiologie.</titel>
 
-        <veranstaltung><thema>Physiologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>9 U. 6 T. u. 10 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Physiologie</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9 U. 6 T. u. 10 U. 2
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Anthropophonik, <notiz>2. Theil</notiz>
         (Physiologie der Sprache)</thema>: <dozent><grad>D.</grad>
@@ -1359,14 +1360,12 @@
         <trennlinie/>
 
         <veranstaltung><thema>Physisch-physiologische Uebungen</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>P.
-        O.</funktion></dozent>, in Verbindung mit seinem Bruder und Herrn
+        <dozent ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, in Verbindung <dozent
+        ref="weber_ef">mit seinem Bruder</dozent> und Herrn
         <dozent><funktion>Prof.</funktion> <grad>D.</grad>
         <nachname>Lehmann</nachname></dozent>, <zeit>2-4 U. Mont. u.
         Dienst.</zeit> <modus>öffentlich</modus>.</veranstaltung>
-
-        <!--Wer ist der "Bruder" von Weber?
-Der müsste ggf. noch mit erfasst werden.-->
 
         <veranstaltungsverweis><thema>Examinatorien über Physiologie</thema>:
         <dozent><grad>D.</grad> <nachname>Aßmann</nachname></dozent>,

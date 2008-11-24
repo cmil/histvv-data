@@ -569,14 +569,11 @@ nur einmal da!-->
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>,
           <funktion>P. O.</funktion></dozent>, in Verbindung mit den Proff.
-          DD. E. H. und E. F. <dozent><nachname>Weber</nachname></dozent> und
+          DD. <dozent><vorname xml:id="weber_eh">E. H.</vorname></dozent> und
+          <dozent ref="weber_ef"><vorname>E. F.</vorname>
+          <nachname>Weber</nachname></dozent> und
           <dozent><nachname>Lehmann</nachname></dozent>, <zeit>in zu best. St.
           u. T.</zeit></veranstaltung>
-
-          <!--Problem: die drei Dozenten müssen getrennt ausgezeichnet
-werden (Plural: Proff. / DD.)
-Achtung: Es sind zwei Webers, einer E.H., der andere E.F.,
-und eben noch Lehmann.-->
 
           <veranstaltung><thema>Chemisch-praktische Uebungen <ort>im
           Laboratorium des Schlosses <seite>8</seite>Pleißenburg</ort></thema>:
@@ -1285,23 +1282,25 @@ und eben noch Lehmann.-->
         <titel>II. Anatomie.</titel>
 
         <veranstaltung><thema>Allgemeine Anatomie u. Geschichte der Bildung
-        des menschl. und thierischen Körpers</thema>: <dozent><grad>D.</grad>
-        <nachname>Weber</nachname>, <funktion>P. O., d. Z.
-        Dech.</funktion></dozent>, <zeit>10 und 12 U. Donn. und
-        Freit.</zeit></veranstaltung>
+        des menschl. und thierischen Körpers</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion>, <funktion>d. Z. Dech.</funktion></dozent>,
+        <zeit>10 und 12 U. Donn. und Freit.</zeit></veranstaltung>
 
         <veranstaltung><thema>Die gesammte Geweblehre des menschl. Körpers im
         gesunden und kranken Zustande</thema>: <dozent><grad>D.</grad>
         <nachname>Reclam</nachname></dozent>, <zeit>3 U. 2 T. (Mont. und
         Donn.)</zeit> <modus>privatissime</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Knochen- und Bänderlehre</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>Theat.
-        anat. Prosect., P. E. des.</funktion></dozent>, <zeit>9 U. Donnerst.,
-        Freit. u. Sonn.</zeit></veranstaltung>
+        <veranstaltung><thema>Knochen- und Bänderlehre</thema>: <dozent
+        ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>Theat. anat. Prosect.</funktion>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>9 U. Donnerst., Freit. u.
+        Sonn.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Nervenlehre</thema>: <ders>Derselbe</ders>,
-        <zeit>9 U. Mont., Dienst. u. Mittw.</zeit></veranstaltung>
+        <veranstaltung><thema>Nervenlehre</thema>: <ders
+        ref="weber_ef">Derselbe</ders>, <zeit>9 U. Mont., Dienst. u.
+        Mittw.</zeit></veranstaltung>
 
         <veranstaltung><thema>Systematische Anatomie</thema>: <dozent
         ref="bock_ce"><grad>D.</grad> <nachname>Bock</nachname>, <funktion>P.
@@ -1338,18 +1337,19 @@ und eben noch Lehmann.-->
       <sachgruppe>
         <titel>III. Physiologie.</titel>
 
-        <veranstaltung><thema>Physiologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Weber</nachname>, <funktion>P. O., d. Z.
-        Dech.</funktion></dozent>, <zeit>10 und 12 U. Mont., Dienst., Mittw.
-        u. Sonnab.</zeit></veranstaltung>
+        <veranstaltung><thema>Physiologie</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion>, <funktion>d. Z. Dech.</funktion></dozent>,
+        <zeit>10 und 12 U. Mont., Dienst., Mittw. u.
+        Sonnab.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Physiologische Chemie</thema>: <siehe>s.
         Chemie</siehe>.</veranstaltungsverweis>
 
         <veranstaltung><thema>Physisch-physiologische Uebungen</thema>:
-        <dozent><grad>D.</grad> <vorname>C. H.</vorname>
+        <dozent ref="weber_eh"><grad>D.</grad> <vorname>E. H.</vorname>
         <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
-        <dozent><grad>D.</grad> <vorname>Ed.</vorname>
+        <dozent ref="weber_ef"><grad>D.</grad> <vorname>Ed.</vorname>
         <nachname>Weber</nachname>, <funktion>P. E. des.</funktion></dozent>,
         <dozent><grad>D.</grad> <nachname>Lehmann</nachname>, <funktion>P.
         E.</funktion></dozent> und <dozent><grad>D.</grad>

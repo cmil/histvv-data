@@ -796,9 +796,10 @@
 
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
           <dozent><funktion>Professor</funktion> <grad>D.</grad>
-          <nachname>Hankel</nachname></dozent>, <dozent><grad>D.</grad>
-          <nachname>Weber sen.</nachname></dozent> u. <dozent><grad>D.</grad>
-          <nachname>Weber jun.</nachname></dozent>, <zeit>2 U.
+          <nachname>Hankel</nachname></dozent>, <dozent
+          ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
+          sen.</dozent> u. <dozent ref="weber_ef"><grad>D.</grad>
+          <nachname>Weber</nachname> jun.</dozent>, <zeit>2 U.
           Dienst.</zeit></veranstaltung>
 
           <absatz>Mathematisch-physikalische Lehrübungen, <siehe>s.
@@ -1528,18 +1529,18 @@
         <titel>II. Anatomie.</titel>
 
         <veranstaltung><thema>Allgemeine Anatomie und Geschichte der Bildung
-        des menschlichen und thierischen Körpers</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>P. O.,
-        d. Z. Dech.</funktion></dozent>, <zeit>10 u. 12 U. Donn. u.
-        Freit.</zeit></veranstaltung>
+        des menschlichen und thierischen Körpers</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
+        <zeit>10 u. 12 U. Donn. u. Freit.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Knochen- und Bänderlehre</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>Theat.
-        anat. Prosect., P. E.</funktion></dozent>, <zeit>9 U. 3
-        T.</zeit></veranstaltung>
+        <veranstaltung><thema>Knochen- und Bänderlehre</thema>: <dozent
+        ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>Theat. anat. Prosect.</funktion>, <funktion>P.
+        E.</funktion></dozent>, <zeit>9 U. 3 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Nervenlehre</thema>: <ders>Derselbe</ders>,
-        <zeit>9 U. 3 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Nervenlehre</thema>: <ders
+        ref="weber_ef">Derselbe</ders>, <zeit>9 U. 3 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Pathologische Anatomie mit Sectionen und
         mikroskopischen Demonstrationen</thema>: <dozent
@@ -1581,10 +1582,10 @@
       <sachgruppe>
         <titel>III. Physiologie.</titel>
 
-        <veranstaltung><thema>Physiologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Weber</nachname>, <funktion>P. O., d. Z.
-        Dech.</funktion></dozent>, <zeit>10 u. 12 U.
-        <korrektur>(</korrektur>Montag, Dienst., Mittw. u.
+        <veranstaltung><thema>Physiologie</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
+        <zeit>10 u. 12 U. <korrektur>(</korrektur>Montag, Dienst., Mittw. u.
         Sonnab.)</zeit></veranstaltung>
 
         <seite>18</seite>
@@ -1615,12 +1616,12 @@
 
         <veranstaltung><thema>Physikalisch-chemische und physiologische
         Uebungen <ort>im physiologischen Institute</ort></thema> von den
-        <dozent><funktion>Professor</funktion>en <grad>D.</grad>
-        <nachname>Hankel</nachname></dozent>, <dozent><grad>D.</grad>
-        <nachname>Weber sen.</nachname></dozent> und <dozent><grad>D.</grad>
-        <nachname>Weber jun.</nachname></dozent>, <zeit>an 3 T. 2
-        St.</zeit><!--Attribut Professoren lässt sich nicht auf alle Dozenten beziehen!
---></veranstaltung>
+        Professoren <dozent><grad>D.</grad>
+        <nachname>Hankel</nachname></dozent>, <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
+        sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
+        <nachname>Weber</nachname> jun.</dozent>, <zeit>an 3 T. 2
+        St.</zeit><!--vgl. S. 8; gleiche Veranstaltung?--></veranstaltung>
 
         <absatz>Physiologisch-chemisches Prakticum <siehe>s. Chem.
         Uebb.</siehe></absatz>
@@ -1715,9 +1716,10 @@
         <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>4 U. 3 T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
-        <veranstaltung><thema>Ueber Hautkrankheiten</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname></dozent>, <zeit>in
-        2 zu best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung><thema>Ueber Hautkrankheiten</thema>: <dozent
+        ref="weber_t"><grad>D.</grad> <nachname>Weber</nachname></dozent>,
+        <zeit>in 2 zu best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Ueber Syphilis</thema>: <dozent><grad>D.</grad>
         <nachname>Walther</nachname>, <funktion>P. O.
@@ -1880,8 +1882,8 @@
         <seite>21</seite>
 
         <veranstaltung><thema>Praktisch-poliklinische Uebungen</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname></dozent>, <zeit>7
-        T.</zeit></veranstaltung>
+        <dozent ref="weber_t"><grad>D.</grad>
+        <nachname>Weber</nachname></dozent>, <zeit>7 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Klinik <ort>im
         Jacobshospital</ort></thema>: <dozent><grad>D.</grad>

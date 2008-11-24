@@ -703,22 +703,14 @@ aber nicht im VV aufgeführt wurde-->
         <sachgruppe>
           <titel>Physikalische und chemiesche Uebungen.</titel>
 
-          <veranstaltungsgruppe><thema>Physikalisch-chemische u.
-          physiologische Uebungen im phy<seite>9</seite>siologischen
-          Institut</thema>: Proff. <veranstaltung><dozent><grad>D.</grad>
-          <nachname>Hankel</nachname></dozent></veranstaltung>,
-          <veranstaltung><dozent><grad>D.</grad>
-          <nachname>Lehmann</nachname></dozent></veranstaltung>,
-          <veranstaltung><dozent><grad>D.</grad> <nachname>Weber
-          sen.</nachname></dozent></veranstaltung> u.
-          <veranstaltung><dozent><grad>D.</grad> <nachname>Weber
-          jun.</nachname></dozent></veranstaltung>, an <zeit>3 T. 2
-          St.</zeit></veranstaltungsgruppe>
-
-          <!--"Proff." außerhalb der Veranstaltungen, da für alle Dozenten geltend; 
-Problem: Anzeige für alle Dozenten, da es nur einmal vorkommt; 
-Vielleicht: als "dozent" und "Proff." als "funktion" taggen 
-Frage des Overridings?-->
+          <veranstaltung><thema>Physikalisch-chemische u. physiologische
+          Uebungen im phy<seite>9</seite>siologischen Institut</thema>: Proff.
+          <dozent><grad>D.</grad> <nachname>Hankel</nachname></dozent>,
+          <dozent><grad>D.</grad> <nachname>Lehmann</nachname></dozent>,
+          <dozent ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
+          sen.</dozent> u. <dozent ref="weber_ef"><grad>D.</grad>
+          <nachname>Weber</nachname> jun.</dozent>, an <zeit>3 T. 2
+          St.</zeit></veranstaltung>
 
           <!--"physiologisches Institut" ein Ort?-->
 
@@ -1595,9 +1587,9 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
         <titel>II. Anatomie.</titel>
 
         <veranstaltung><thema>Allgemeine Anatomie und Geschichte der Bildung
-        des menschlichen und thierischen Körpers</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>10 u. 12 U. Donn. u.
+        des menschlichen und thierischen Körpers</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 u. 12 U. Donn. u.
         Freit.</zeit></veranstaltung>
 
         <veranstaltung><thema>Gewebelehre mit mikroskopischen
@@ -1605,13 +1597,15 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
         <nachname>Funke</nachname></dozent>, <zeit>2-4 U.
         Sonn.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Knochen- und Bänderlehre</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>Theat.
-        anat. Prosect., P. E. des.</funktion></dozent>, <zeit>9 U. Donn.,
-        Freit. u. Sonnab.</zeit></veranstaltung>
+        <veranstaltung><thema>Knochen- und Bänderlehre</thema>: <dozent
+        ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>Theat. anat. Prosect.</funktion>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>9 U. Donn., Freit. u.
+        Sonnab.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Nervenlehre</thema>: <ders>Derselbe</ders>,
-        <zeit>9 U. Mont., Dienst. u. Mittw.</zeit></veranstaltung>
+        <veranstaltung><thema>Nervenlehre</thema>: <ders
+        ref="weber_ef">Derselbe</ders>, <zeit>9 U. Mont., Dienst. u.
+        Mittw.</zeit></veranstaltung>
 
         <veranstaltung><thema>Systematische Anatomie</thema>: <dozent
         ref="bock_ce"><grad>D.</grad> <nachname>Bock</nachname></dozent>,
@@ -1659,26 +1653,23 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
       <sachgruppe>
         <titel>III. Physiologie.</titel>
 
-        <veranstaltung><thema>Physiologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>10 u. 12 U. Mont.<korrektur>,</korrektur> Dienst., Mittw. u.
+        <veranstaltung><thema>Physiologie</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 u. 12 U.
+        Mont.<korrektur>,</korrektur> Dienst., Mittw. u.
         Sonnab.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Physiologische Chemie</thema> <siehe>s.
         Chemie</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsgruppe><thema>Physikalisch-chemische u. physiologische
-        Uebungen im physiologischen Institute</thema> von den
-        <dozent><funktion>Professoren</funktion></dozent>
-        <veranstaltung><dozent><grad>D.</grad>
-        <nachname>Hankel</nachname></dozent></veranstaltung>,
-        <veranstaltung><dozent><grad>D.</grad>
-        <nachname>Lehmann</nachname></dozent></veranstaltung>,
-        <veranstaltung><dozent><grad>D.</grad> <nachname>Weber
-        sen.</nachname></dozent></veranstaltung> und
-        <veranstaltung><dozent><grad>D.</grad> <nachname>Weber
-        jun.</nachname></dozent></veranstaltung>, <zeit>an 3 T. 2
-        St.</zeit></veranstaltungsgruppe>
+        <veranstaltung><thema>Physikalisch-chemische u. physiologische
+        Uebungen im physiologischen Institute</thema> von den Professoren
+        <dozent><grad>D.</grad> <nachname>Hankel</nachname></dozent>,
+        <dozent><grad>D.</grad> <nachname>Lehmann</nachname></dozent>, <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
+        sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
+        <nachname>Weber</nachname> jun.</dozent>, <zeit>an 3 T. 2
+        St.</zeit></veranstaltung>
 
         <!--"Professoren" für alle Dozenten der Veranstaltungsgruppe
 "im physiologischen Institute" vielleicht Ort?-->

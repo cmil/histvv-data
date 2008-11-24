@@ -867,9 +867,9 @@
 
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
           <dozent><grad>D.</grad> <nachname>Hankel</nachname>, <funktion>P.
-          O.</funktion></dozent>, in Verbindung mit den Professoren
-          <dozent><grad>D.</grad> <vorname>E. H.</vorname></dozent> und
-          <dozent><grad>D.</grad> <vorname>Ed.</vorname>
+          O.</funktion></dozent>, in Verbindung mit den Professoren <dozent
+          ref="weber_eh"><grad>D.</grad> <vorname>E. H.</vorname></dozent> und
+          <dozent ref="weber_ef"><grad>D.</grad> <vorname>Ed.</vorname>
           <nachname>Weber</nachname></dozent>, <zeit>2-4 U. Dienst.</zeit><!--professoren konnten nur unzureichend getaggt werden--></veranstaltung>
 
           <veranstaltung><thema>Examinatorium über Physik</thema>:
@@ -1533,19 +1533,20 @@
       <sachgruppe>
         <titel>II. Anatomie.</titel>
 
-        <veranstaltungsverweis><thema>Mikroskopische Anatomie</thema>:
-        <dozent><grad>D.</grad> <vorname>E. H.</vorname>
-        <nachname>Weber</nachname>, <funktion>P. O., d. Z.
-        Dech.</funktion></dozent>, <siehe>s.
+        <veranstaltungsverweis><thema>Mikroskopische Anatomie</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <vorname>E. H.</vorname>
+        <nachname>Weber</nachname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Dech.</funktion></dozent>, <siehe>s.
         Physiologie</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Knochen- und Bänderlehre</thema>:
-        <dozent><grad>D.</grad> <vorname>Ed.</vorname>
-        <nachname>Weber</nachname>, <funktion>Theat. anat. Pros., P.
-        E.</funktion></dozent>, <zeit>9 U. 3 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Knochen- und Bänderlehre</thema>: <dozent
+        ref="weber_ef"><grad>D.</grad> <vorname>Ed.</vorname>
+        <nachname>Weber</nachname>, <funktion>Theat. anat. Pros.</funktion>,
+        <funktion>P. E.</funktion></dozent>, <zeit>9 U. 3
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Nervenlehre</thema>: <ders>Derselbe</ders>,
-        <zeit>9 U. 3 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Nervenlehre</thema>: <ders
+        ref="weber_ef">Derselbe</ders>, <zeit>9 U. 3 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Topographische Anatomie</thema>:
         <dozent><grad>D.</grad> <nachname>Braune</nachname></dozent>, <zeit>in
@@ -1581,9 +1582,9 @@
         <titel>III. Physiologie.</titel>
 
         <veranstaltung><thema>Physiologie und mikroskopische Anatomie</thema>:
-        <dozent><grad>D.</grad> <vorname>E. H.</vorname>
-        <nachname>Weber</nachname>, <funktion>P. O., d. Z.
-        Dech.</funktion></dozent>, <zeit>10 u. 12 U. 6
+        <dozent ref="weber_eh"><grad>D.</grad> <vorname>E. H.</vorname>
+        <nachname>Weber</nachname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Dech.</funktion></dozent>, <zeit>10 u. 12 U. 6
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Uebersicht über die Physiologie</thema>:
@@ -1620,10 +1621,11 @@
 
         <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema> von
         den Professoren <dozent><grad>D.</grad>
-        <nachname>Hankel</nachname></dozent>, <dozent><grad>D.</grad>
-        <nachname>Weber sen.</nachname></dozent> und <dozent><grad>D.</grad>
-        <nachname>Weber jun.</nachname></dozent>, <zeit>2-4 U. Dienst. u.
-        Freit.</zeit><!--das Wort "Professoren" nicht getaggt--></veranstaltung>
+        <nachname>Hankel</nachname></dozent>, <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
+        sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
+        <nachname>Weber</nachname> jun.</dozent>, <zeit>2-4 U. Dienst. u.
+        Freit.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>

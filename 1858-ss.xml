@@ -764,16 +764,13 @@
         <sachgruppe>
           <titel>Physikalische und chemische Uebungen.</titel>
 
-          <veranstaltungsgruppe><thema>Physikalisch-physiologische
-          Uebungen</thema>: Professoren <veranstaltung><dozent><grad>D.
-          ph.</grad> <nachname>Hankel</nachname></dozent></veranstaltung>,
-          <veranstaltung><dozent><grad>D.</grad> <nachname>Weber
-          sen.</nachname></dozent></veranstaltung> und
-          <veranstaltung><dozent><grad>D.</grad> <nachname>Weber
-          jun.</nachname></dozent></veranstaltung>, <zeit>2-4 U.
-          Dienst.</zeit></veranstaltungsgruppe>
-
-          <!--"Professoren" kann man nicht für alle Dozenten auszeichnen-->
+          <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
+          Professoren <dozent><grad>D. ph.</grad>
+          <nachname>Hankel</nachname></dozent>, <dozent
+          ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
+          sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
+          <nachname>Weber</nachname> jun.</dozent>, <zeit>2-4 U.
+          Dienst.</zeit></veranstaltung>
 
           <veranstaltung><thema>Uebungen im physikalischen Seminar</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>,
@@ -1577,18 +1574,18 @@
         <titel>II. Anatomie.</titel>
 
         <veranstaltung><thema>Allgemeine Anatomie und Geschichte der Bildung
-        des menschlichen und thierischen Körpers</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>10 und 12 U. Donn. u.
+        des menschlichen und thierischen Körpers</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 und 12 U. Donn. u.
         Freit.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Knochen- und Bänderlehre</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>Theat.
-        anat. Pros., P. E.</funktion></dozent>, <zeit>9 U. 3
-        T.</zeit></veranstaltung>
+        <veranstaltung><thema>Knochen- und Bänderlehre</thema>: <dozent
+        ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>Theat. anat. Pros.</funktion>, <funktion>P.
+        E.</funktion></dozent>, <zeit>9 U. 3 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Nervenlehre</thema>: <ders>Derselbe</ders>,
-        <zeit>9 U. 3 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Nervenlehre</thema>: <ders
+        ref="weber_ef">Derselbe</ders>, <zeit>9 U. 3 T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Pathologische Anatomie</thema>,
         <siehe>s. Pathologie</siehe>.</veranstaltungsverweis>
@@ -1609,10 +1606,10 @@
       <sachgruppe>
         <titel>III. Physiologie.</titel>
 
-        <veranstaltung><thema>Physiologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>10 u. 12 U. (Mont., Dienst., Mittw. u.
-        Sonnab.)</zeit></veranstaltung>
+        <veranstaltung><thema>Physiologie</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 u. 12 U. (Mont.,
+        Dienst., Mittw. u. Sonnab.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Die Lehre von der Zeugung und
         Entwickelung</thema>: <dozent><grad>D.</grad>
@@ -1629,15 +1626,13 @@
 
         <trennlinie/>
 
-        <veranstaltungsgruppe><thema>Physikalisch-chemische und physiologische
-        Uebungen</thema> von den Professoren
-        <veranstaltung><dozent><grad>D.</grad>
-        <nachname>Hankel</nachname></dozent></veranstaltung>,
-        <veranstaltung><dozent><grad>D.</grad> <nachname>Weber
-        sen.</nachname></dozent></veranstaltung> und
-        <veranstaltung><dozent><grad>D.</grad> <nachname>Weber
-        jun.</nachname></dozent></veranstaltung>, <zeit>an 3 T. 2
-        St.</zeit></veranstaltungsgruppe>
+        <veranstaltung><thema>Physikalisch-chemische und physiologische
+        Uebungen</thema> von den Professoren <dozent><grad>D.</grad>
+        <nachname>Hankel</nachname></dozent>, <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
+        sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
+        <nachname>Weber</nachname> jun.</dozent>, <zeit>an 3 T. 2
+        St.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Chemisches Prakticum</thema> <siehe>s.
         Chem. Uebb.</siehe></veranstaltungsverweis>
@@ -1735,9 +1730,9 @@
         <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>4 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber Brustkrankheiten</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname></dozent>, <zeit>5
-        U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung><thema>Ueber Brustkrankheiten</thema>: <dozent
+        ref="weber_t"><grad>D.</grad> <nachname>Weber</nachname></dozent>,
+        <zeit>5 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Ueber Frauenkrankheiten</thema>:
         <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <zeit>12
@@ -1883,17 +1878,17 @@
 
         <veranstaltung><thema>Medicinische Poliklinik</thema>:
         <dozent><grad>D.</grad> <nachname>Ruete</nachname>, <funktion>P.
-        O.</funktion></dozent>, in Verb. mit <dozent><grad>D.</grad>
-        <nachname>Weber</nachname></dozent>, <zeit>2 U. 5
-        T.</zeit></veranstaltung>
+        O.</funktion></dozent>, in Verb. mit <dozent
+        ref="weber_t"><grad>D.</grad> <nachname>Weber</nachname></dozent>,
+        <zeit>2 U. 5 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Pädiatrische Poliklinik <ort>im Vordergebäude
         des Trierschen Instituts</ort></thema>: <dozent><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <zeit>Mittw. 2 U.</zeit>
         <gebühr>unentgeltl.</gebühr></veranstaltung>
 
-        <veranstaltung><thema>Privatpoliklinik</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname></dozent>,
+        <veranstaltung><thema>Privatpoliklinik</thema>: <dozent
+        ref="weber_t"><grad>D.</grad> <nachname>Weber</nachname></dozent>,
         <zeit>täglich in zu best. St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Klinik <ort>im

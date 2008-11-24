@@ -774,14 +774,10 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>,
           <funktion>P. O.</funktion></dozent>, in Verbindung mit den
-          Professoren <dozent><grad>D.</grad> <nachname>Weber
-          sen.</nachname></dozent> und <dozent><grad>D.</grad> <nachname>Weber
-          jun.</nachname></dozent>, <zeit>2-4 U.
-          Dienst.</zeit></veranstaltung>
-
-          <!--Problemstelle "Professoren" - Weber jun. + sen.! 
-fast identisch mit gleichnamiger Veranstaltung auf S. 19, 
-es ist aber kein Verweis vorhanden-->
+          Professoren <dozent ref="weber_eh"><grad>D.</grad>
+          <nachname>Weber</nachname> sen.</dozent> und <dozent
+          ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>
+          jun.</dozent>, <zeit>2-4 U. Dienst.</zeit></veranstaltung>
 
           <veranstaltung><thema>Examinatorium über Physik</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Weiske</nachname></dozent>,
@@ -1570,17 +1566,18 @@ es ist aber kein Verweis vorhanden-->
       <titel>II. Anatomie.</titel>
 
       <veranstaltung><thema>Allgemeine Anatomie und Geschichte der Bildung des
-      menschlichen und thierischen Körpers</thema>: <dozent><grad>D.</grad>
-      <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>10 und 12 U. Donn. u. Freit.</zeit></veranstaltung>
+      menschlichen und thierischen Körpers</thema>: <dozent
+      ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>10 und 12 U. Donn. u.
+      Freit.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Knochen- und Bänderlehre</thema>:
-      <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>Theat.
-      anat. Pros., P. E.</funktion></dozent>, <zeit>9 U. 3
-      T.</zeit></veranstaltung>
+      <veranstaltung><thema>Knochen- und Bänderlehre</thema>: <dozent
+      ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>,
+      <funktion>Theat. anat. Pros.</funktion>, <funktion>P.
+      E.</funktion></dozent>, <zeit>9 U. 3 T.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Nervenlehre</thema>: <ders>Derselbe</ders>,
-      <zeit>9 U. 3 T.</zeit></veranstaltung>
+      <veranstaltung><thema>Nervenlehre</thema>: <ders
+      ref="weber_ef">Derselbe</ders>, <zeit>9 U. 3 T.</zeit></veranstaltung>
 
       <veranstaltungsverweis><thema>Pathologische Anatomie</thema>, <siehe>s.
       Pathologie</siehe>.</veranstaltungsverweis>
@@ -1598,9 +1595,9 @@ es ist aber kein Verweis vorhanden-->
     <sachgruppe>
       <titel>III. Physiologie.</titel>
 
-      <veranstaltung><thema>Physiologie</thema>: <dozent><grad>D.</grad>
-      <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>10 u. 12 U. (Mont., Dienst., Mittw. u.
+      <veranstaltung><thema>Physiologie</thema>: <dozent
+      ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>10 u. 12 U. (Mont., Dienst., Mittw. u.
       Sonnab.)</zeit></veranstaltung>
 
       <veranstaltung><thema>Ueber Zeugung und Entwickelung</thema>:
@@ -1625,10 +1622,10 @@ es ist aber kein Verweis vorhanden-->
 
       <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema> von
       den Professoren <dozent><grad>D. ph.</grad>
-      <nachname>Hankel</nachname></dozent>, <dozent><grad>D.</grad>
-      <nachname>Weber sen.</nachname></dozent> und <dozent><grad>D.</grad>
-      <nachname>Weber jun.</nachname></dozent>, an <zeit>3 T. 2
-      St.</zeit></veranstaltung>
+      <nachname>Hankel</nachname></dozent>, <dozent
+      ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname> sen.</dozent>
+      und <dozent ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>
+      jun.</dozent>, an <zeit>3 T. 2 St.</zeit></veranstaltung>
 
       <!--Problemstelle "Professoren"
 fast identisch mit gleichnamiger Veranstaltung auf S.11, 
@@ -1754,9 +1751,10 @@ es ist aber kein Verweis vorhanden-->
       Freit.)</zeit></veranstaltung>
 
       <veranstaltung><thema>Ueber die Krankheiten der
-      Respirationsorgane</thema>: <dozent><grad>D. Th.</grad>
-      <nachname>Weber</nachname>, <funktion>P. E. des.</funktion></dozent>,
-      <zeit>5 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+      Respirationsorgane</thema>: <dozent ref="weber_t"><grad>D.</grad>
+      <vorname>Th.</vorname> <nachname>Weber</nachname>, <funktion>P. E.
+      des.</funktion></dozent>, <zeit>5 U. 2 T.</zeit>
+      <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Ueber die Krankheiten der Schwangern, Gebärenden
       u. Wöchnerinnen</thema>: <dozent><grad>D.</grad>
@@ -1899,19 +1897,20 @@ es ist aber kein Verweis vorhanden-->
 
       <veranstaltung><thema>Medicinische Poliklinik</thema>:
       <dozent><grad>D.</grad> <nachname>Ruete</nachname>, <funktion>P.
-      O.</funktion></dozent>, in Verb. mit <dozent><grad>D.</grad>
-      <vorname>Th.</vorname> <nachname>Weber</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>2 U. 5 T.</zeit></veranstaltung>
+      O.</funktion></dozent>, in Verb. mit <dozent
+      ref="weber_t"><grad>D.</grad> <vorname>Th.</vorname>
+      <nachname>Weber</nachname>, <funktion>P. E. des.</funktion></dozent>,
+      <zeit>2 U. 5 T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Pädiatrische Poliklinik <ort>im Vordergebäude des
       Trierschen Instituts</ort></thema>: <dozent><grad>D.</grad>
       <nachname>Hennig</nachname></dozent>, <zeit>Mittw. 2 U.</zeit>
       <gebühr>unentgeltl.</gebühr></veranstaltung>
 
-      <veranstaltung><thema>Privatpoliklinik</thema>: <dozent><grad>D.</grad>
-      <vorname>Th.</vorname> <nachname>Weber</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>täglich in zu best.
-      St.</zeit></veranstaltung>
+      <veranstaltung><thema>Privatpoliklinik</thema>: <dozent
+      ref="weber_t"><grad>D.</grad> <vorname>Th.</vorname>
+      <nachname>Weber</nachname>, <funktion>P. E. des.</funktion></dozent>,
+      <zeit>täglich in zu best. St.</zeit></veranstaltung>
 
       <veranstaltung><thema>Chirurgische Klinik <ort>im
       Jacobshospital</ort></thema>: <dozent><grad>D.</grad>

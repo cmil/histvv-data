@@ -679,19 +679,14 @@ geschweifter Klammer auf beide Veranstaltungsverweise!-->
           <funktion>P. O.</funktion></dozent>, <zeit>2 U.
           Freit.</zeit></veranstaltung>
 
-          <veranstaltungsgruppe><thema>Physikalisch-chemische u.
-          physiologische Uebungen</thema>: Proff.
-          <veranstaltung><dozent><grad>D.</grad>
-          <nachname>Hankel</nachname></dozent></veranstaltung>,
-          <veranstaltung><dozent><grad>D.</grad>
-          <nachname>Lehmann</nachname></dozent></veranstaltung>,
-          <veranstaltung><dozent><grad>D.</grad> <nachname>Weber
-          sen.</nachname></dozent></veranstaltung> u.
-          <veranstaltung><dozent><grad>D.</grad> <nachname>Weber
-          jun.</nachname></dozent></veranstaltung>, <zeit>2 U. an zu best.
-          T.</zeit></veranstaltungsgruppe>
-
-          <!--Das "Proff." müsste noch auf alle Dozenten bezogen werden!-->
+          <veranstaltung><thema>Physikalisch-chemische u. physiologische
+          Uebungen</thema>: Proff. <dozent><grad>D.</grad>
+          <nachname>Hankel</nachname></dozent>, <dozent><grad>D.</grad>
+          <nachname>Lehmann</nachname></dozent>, <dozent
+          ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
+          sen.</dozent> u. <dozent ref="weber_ef"><grad>D.</grad>
+          <nachname>Weber</nachname> jun.</dozent>, <zeit>2 U. an zu best.
+          T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Chemisch-praktische Uebungen <ort>im
           Laboratorium des Schlosses Pleißenburg</ort></thema>:
@@ -1556,18 +1551,20 @@ sondern müsste diese eigentlich ergänzen!-->
         <titel>II. Anatomie.</titel>
 
         <veranstaltung><thema>Allgemeine Anatomie u. Geschichte der Bildung
-        des menschlichen und thierischen Körpers</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>10 u. 12 U. Donn. u.
+        des menschlichen und thierischen Körpers</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 u. 12 U. Donn. u.
         Freit.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Knochen- und Bänderlehre</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>Theat.
-        anat. Prosect., P. E. des.</funktion></dozent>, <zeit>9 U. Donn.,
-        Freit. u. Sonnab.</zeit></veranstaltung>
+        <veranstaltung><thema>Knochen- und Bänderlehre</thema>: <dozent
+        ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>Theat. anat. Prosect.</funktion>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>9 U. Donn., Freit. u.
+        Sonnab.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Nervenlehre</thema>: <ders>Derselbe</ders>,
-        <zeit>9 U. Mont., Dienst. u. Mittw.</zeit></veranstaltung>
+        <veranstaltung><thema>Nervenlehre</thema>: <ders
+        ref="weber_ef">Derselbe</ders>, <zeit>9 U. Mont., Dienst. u.
+        Mittw.</zeit></veranstaltung>
 
         <veranstaltung><thema>Pathologische Anatomie mit
         Leicheneröffnungen</thema>: <dozent ref="bock_ce"><grad>D.</grad>
@@ -1592,10 +1589,10 @@ sondern müsste diese eigentlich ergänzen!-->
       <sachgruppe>
         <titel>III. Physiologie.</titel>
 
-        <veranstaltung><thema>Physiologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>10 u. 12 U. Mont., Dienst., Mittw. u.
-        Sonnab.</zeit></veranstaltung>
+        <veranstaltung><thema>Physiologie</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 u. 12 U. Mont., Dienst.,
+        Mittw. u. Sonnab.</zeit></veranstaltung>
 
         <veranstaltung><thema>Auserwählte Lehren der Physiologie, durch
         Experimente erläutert</thema>: <dozent><grad>D.</grad>
@@ -1617,20 +1614,14 @@ sondern müsste diese eigentlich ergänzen!-->
         <veranstaltungsverweis><thema>Physiologische Chemie</thema> <siehe>s.
         Chemie</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsgruppe><thema>Physikalisch-chemische u. physiologische
+        <veranstaltung><thema>Physikalisch-chemische u. physiologische
         Uebungen im physiologischen Institute</thema> von den Professoren
-        <veranstaltung><dozent><grad>D.</grad>
-        <nachname>Hankel</nachname></dozent></veranstaltung>,
-        <veranstaltung><dozent><grad>D.</grad>
-        <nachname>Lehmann</nachname></dozent></veranstaltung>,
-        <veranstaltung><dozent><grad>D.</grad> <nachname>Weber
-        sen.</nachname></dozent></veranstaltung> und
-        <veranstaltung><dozent><grad>D.</grad> <nachname>Weber
-        jun.</nachname></dozent></veranstaltung>, an <zeit>3 T. 2
-        St.</zeit></veranstaltungsgruppe>
-
-        <!--Die Bezeichnung "Professoren" muss noch auf alle
-vier Dozenten bezogen werden!-->
+        <dozent><grad>D.</grad> <nachname>Hankel</nachname></dozent>,
+        <dozent><grad>D.</grad> <nachname>Lehmann</nachname></dozent>, <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
+        sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
+        <nachname>Weber</nachname> jun.</dozent>, <zeit>an 3 T. 2
+        St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Mikroskopische Uebungen</thema>:
         <dozent><grad>D.</grad> <nachname>Funke</nachname>, <funktion>P. E.

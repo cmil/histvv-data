@@ -665,14 +665,11 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>,
           <funktion>P. O.</funktion></dozent>, in Verbindung mit den Proff.
-          DD. E. H. und E. F. <dozent><nachname>Weber</nachname></dozent> und
+          DD. <dozent ref="weber_eh"><vorname>E. H.</vorname><!--Weber--></dozent>
+          und <dozent ref="weber_ef"><vorname>E. F.</vorname>
+          <nachname>Weber</nachname></dozent> und
           <dozent><nachname>Lehmann</nachname></dozent>, <zeit>in zu best. St.
           u. T.</zeit></veranstaltung>
-
-          <!--Problem: die drei Dozenten müssen getrennt ausgezeichnet
-werden (Plural: Proff. / DD.)
-Achtung: Es sind zwei Webers, einer E.H., der andere E.F.,
-und eben noch Lehmann.-->
 
           <veranstaltungsverweis><thema>Pädagogisches Seminar für künftige
           Lehrer der Naturwissenschaften</thema>: <dozent
@@ -1512,9 +1509,9 @@ und eben noch Lehmann.-->
         <titel>II. Anatomie.</titel>
 
         <veranstaltung><thema>Allgemeine Anatomie und Geschichte der Bildung
-        des menschlichen und thierischen Körpers</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>10 u. 12 U. Donn. und
+        des menschlichen und thierischen Körpers</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 u. 12 U. Donn. und
         Freit.</zeit></veranstaltung>
 
         <veranstaltung><thema>Geweblehre des menschl. Körpers im gesunden und
@@ -1527,13 +1524,15 @@ und eben noch Lehmann.-->
         <nachname>Funke</nachname></dozent>, <zeit>2-4 U.
         Sonn.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Knochen- und Bänderlehre</thema>:
-        <dozent><grad>D.</grad> <nachname>Weber</nachname>, <funktion>Theat.
-        anat. Prosect., P. E. des.</funktion></dozent>, <zeit>9 U. Donn.,
-        Freit. u. Sonnab.</zeit></veranstaltung>
+        <veranstaltung><thema>Knochen- und Bänderlehre</thema>: <dozent
+        ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>Theat. anat. Prosect.</funktion>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>9 U. Donn., Freit. u.
+        Sonnab.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Nervenlehre</thema>: <ders>Derselbe</ders>,
-        <zeit>9 U. Mont., Dienst. u. Mittw.</zeit></veranstaltung>
+        <veranstaltung><thema>Nervenlehre</thema>: <ders
+        ref="weber_ef">Derselbe</ders>, <zeit>9 U. Mont., Dienst. u.
+        Mittw.</zeit></veranstaltung>
 
         <veranstaltung><thema>Systematische Anatomie</thema>: <dozent
         ref="bock_ce"><grad>D.</grad> <nachname>Bock</nachname>, <funktion>P.
@@ -1573,26 +1572,27 @@ und eben noch Lehmann.-->
       <sachgruppe>
         <titel>III. Physiologie.</titel>
 
-        <veranstaltung><thema>Physiologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>10 u. 12 U. Mont., Dienst., Mittw. u.
-        Sonnab.</zeit></veranstaltung>
+        <veranstaltung><thema>Physiologie</thema>: <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 u. 12 U. Mont., Dienst.,
+        Mittw. u. Sonnab.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Physiologische Chemie</thema>: <siehe>s.
         Chemie</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsgruppe><thema>Physisch-physiologische Uebungen</thema>:
-        <veranstaltung><dozent><grad>D.</grad> <vorname>E. H.</vorname>
-        <nachname>Weber</nachname>, <funktion>P.
-        O.</funktion></dozent></veranstaltung>,
-        <veranstaltung><dozent><grad>D.</grad> <vorname>Ed.</vorname>
+        <veranstaltung><dozent ref="weber_eh"><grad>D.</grad> <vorname>E.
+        H.</vorname> <nachname>Weber</nachname>, <funktion>P.
+        O.</funktion></dozent></veranstaltung>, <veranstaltung><dozent
+        ref="weber_ef"><grad>D.</grad> <vorname>Ed.</vorname>
         <nachname>Weber</nachname>, <funktion>P. E.
         des.</funktion></dozent></veranstaltung>,
         <veranstaltung><dozent><grad>D.</grad> <nachname>Lehmann</nachname>,
         <funktion>P. E.</funktion></dozent></veranstaltung> u.
         <veranstaltung><dozent><grad>D.</grad> <nachname>Hankel</nachname>,
         <funktion>P. O.</funktion></dozent></veranstaltung>, <zeit>3 T. in den
-        best. St. u. T.</zeit></veranstaltungsgruppe>
+        best. St. u. T.</zeit><!--Sind das wirklich 4 Veranstaltungen? In vorherigen Semestern
+wurden diese Uebungen als eine Veranstaltung erfasst! --></veranstaltungsgruppe>
 
         <veranstaltung><thema>Uebungen in mikroskopischen
         Untersuchungen</thema>: <dozent><grad>D.</grad>
