@@ -233,9 +233,9 @@
           <zeit>3 U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Erklärung der Fasti des Ovidius</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Bursian</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <dozent ref="bursian_k"><grad>D. ph.</grad>
+          <nachname>Bursian</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>10 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Ueber Cicero's Disputationes
           Tusculanae</thema>: <dozent><grad>D. ph.</grad>
@@ -292,7 +292,7 @@
           <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Praktische Uebungen in philologischer Kritik
-          und Hermeneutik</thema>: <dozent><grad>D. ph.</grad>
+          und Hermeneutik</thema>: <dozent ref="bursian_k"><grad>D. ph.</grad>
           <nachname>Bursian</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>in zu best. St. u. T.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -315,17 +315,19 @@
 
           <veranstaltung><thema>Erklärung von Böhtlingk's
           Sanskrit-Chrestomathie, <notiz betreff="fortsetzung">1.
-          Cursus</notiz></thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Brockhaus</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>12 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          Cursus</notiz></thema>: <dozent ref="brockhaus_hermann"><grad>D.
+          ph.</grad> <nachname>Brockhaus</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>12 U. 4 T.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung der indischen Fabel-Sammlung
-          Pancatantra (ed. Kosegarten 1848)</thema>: <ders>Derselbe</ders>,
-          <zeit>12 U. 2 T.</zeit></veranstaltung>
+          Pancatantra (ed. Kosegarten 1848)</thema>: <ders
+          ref="brockhaus_hermann">Derselbe</ders>, <zeit>12 U. 2
+          T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Die Lieder des Hafis (nach seiner Ausgabe,
-          1854)</thema>: <ders>Derselbe</ders>, <zeit>11 U. 2
-          T.</zeit></veranstaltung>
+          1854)</thema>: <ders ref="brockhaus_hermann">Derselbe</ders>,
+          <zeit>11 U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Persische Grammatik und Leseübungen</thema>:
           <dozent><grad>D.</grad> <nachname>Fleischer</nachname>, <funktion>P.
@@ -443,7 +445,7 @@
         <seite>7</seite>
 
         <veranstaltung><thema>Geschichte Italiens seit der Zeit Karls des
-        Grossen</thema>: <dozent><grad>D. ph.</grad>
+        Grossen</thema>: <dozent ref="brandes_hbc"><grad>D. ph.</grad>
         <nachname>Brandes</nachname></dozent>, <zeit>2 U. 3 T. (Dienst.,
         Donn., Freit.)</zeit></veranstaltung>
 
@@ -524,7 +526,7 @@
         <titel>2. Alterthumskunde.</titel>
 
         <veranstaltung><thema>Geographie und Ethnographie von
-        Griechenland</thema>: <dozent><grad>D. ph.</grad>
+        Griechenland</thema>: <dozent ref="bursian_k"><grad>D. ph.</grad>
         <nachname>Bursian</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>11 U. 4 T.</zeit></veranstaltung>
 
@@ -544,7 +546,7 @@
 
         <veranstaltungsverweis><thema>Geschichte der germanischen
         Rechtsquellen u. Erklärung ausgewählter Stellen der leges
-        barbarorum</thema>: <dozent><grad>D. ph.</grad>
+        barbarorum</thema>: <dozent ref="brandes_hbc"><grad>D. ph.</grad>
         <nachname>Brandes</nachname></dozent>, <siehe>s.
         Rechtswissenschaft</siehe>.</veranstaltungsverweis>
 
@@ -900,8 +902,8 @@
         <funktion>P. E.</funktion></dozent>, <siehe>s. exeget.
         Uebb.</siehe></veranstaltungsverweis>
 
-        <veranstaltung><thema>Erklärung des Buches Hiob</thema>:
-        <dozent><grad>D.</grad> <nachname>Anger</nachname>, <funktion>P.
+        <veranstaltung><thema>Erklärung des Buches Hiob</thema>: <dozent
+        ref="anger_r"><grad>D.</grad> <nachname>Anger</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Erklärung des Buches Koheleth (Prediger
@@ -918,7 +920,7 @@
         <trennlinie/>
 
         <veranstaltung><thema>Charakteristiken neutestamentlicher
-        Persönlichkeiten</thema>: <dozent><grad>D.</grad>
+        Persönlichkeiten</thema>: <dozent ref="brueckner_bb"><grad>D.</grad>
         <nachname>Brückner</nachname>, <funktion>P. O.</funktion>, d. Z.
         <funktion>Dech.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -934,7 +936,7 @@
         <!--im Original sind die Zeilen verrutscht (korrektur "G" und "2")-->
 
         <veranstaltung><thema>Praktische Auslegung der
-        Apostelgeschichte</thema>: <dozent><grad>D.</grad>
+        Apostelgeschichte</thema>: <dozent ref="brueckner_bb"><grad>D.</grad>
         <nachname>Brückner</nachname>, <funktion>P. O.</funktion>, d. Z.
         <funktion>Dech.</funktion></dozent>, <zeit>9 U. 4
         T.</zeit></veranstaltung>
@@ -946,9 +948,10 @@
         <seite>12</seite>
 
         <veranstaltung><thema>Auslegung der Briefe an die Corinther</thema>:
-        <dozent><grad>D.</grad> <nachname>Brückner</nachname>, <funktion>P.
-        O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>10 U.
-        4 T.</zeit></veranstaltung>
+        <dozent ref="brueckner_bb"><grad>D.</grad>
+        <nachname>Brückner</nachname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Dech.</funktion></dozent>, <zeit>10 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Erklärung der zwei Briefe an den
         Timotheus</thema>: <dozent><grad>D. ph.</grad>
@@ -1065,15 +1068,15 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Biblische Theologie des A. T.</thema>:
-        <dozent><grad>D.</grad> <nachname>Anger</nachname>, <funktion>P.
+        <veranstaltung><thema>Biblische Theologie des A. T.</thema>: <dozent
+        ref="anger_r"><grad>D.</grad> <nachname>Anger</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>4 T. (8 U. Mont., Dienst., Donn., 12 U.
         Sonn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
         <veranstaltung><thema>Christliche Symbolik in comparativer
-        Darstellung</thema>: <dozent><grad>D.</grad>
+        Darstellung</thema>: <dozent ref="anger_r"><grad>D.</grad>
         <nachname>Anger</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>8 U. 3 T. (Mittw., Freit., Sonn.)</zeit></veranstaltung>
 
@@ -1081,14 +1084,15 @@
           <titel>Systematisch-theologische Uebungen.</titel>
 
           <veranstaltung><thema>Examinatorium über Dogmatik u.
-          Dogmengeschichte</thema>: <dozent><grad>D.</grad>
+          Dogmengeschichte</thema>: <dozent ref="anger_r"><grad>D.</grad>
           <nachname>Anger</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>4 T. in zu best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen der biblisch-theologischen Abtheilung
-          der Lausitzer Predigergesellschaft</thema>: <dozent><grad>D.</grad>
-          <nachname>Brückner</nachname>, <funktion>P. O.</funktion>, d. Z.
+          der Lausitzer Predigergesellschaft</thema>: <dozent
+          ref="brueckner_bb"><grad>D.</grad> <nachname>Brückner</nachname>,
+          <funktion>P. O.</funktion>, d. Z.
           <funktion>Dech.</funktion></dozent>, <zeit>Mont. 4 U.</zeit>
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1104,13 +1108,14 @@
         <zeit>9 U. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Praktische Auslegung der
-        Apostelgeschichte</thema>: <dozent><grad>D.</grad>
+        Apostelgeschichte</thema>: <dozent ref="brueckner_bb"><grad>D.</grad>
         <nachname>Brückner</nachname>, <funktion>P. O.</funktion>, d. Z.
         <funktion>Dech.</funktion></dozent>, <zeit>9 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Katechetik</thema>: <ders>Derselbe</ders>,
-        <zeit>6 U. Ab. 2 T. (Dienst. u. Mittw.)</zeit></veranstaltung>
+        <veranstaltung><thema>Katechetik</thema>: <ders
+        ref="brueckner_bb">Derselbe</ders>, <zeit>6 U. Ab. 2 T. (Dienst. u.
+        Mittw.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Christliche Katechetik</thema>:
         <dozent><grad>D.</grad> <nachname>Lindner</nachname>, <funktion>P. O.
@@ -1128,7 +1133,7 @@
 
           <veranstaltungsgruppe><thema>Seminar für praktische
           Theologie</thema>: <veranstaltung><thema>homiletische
-          Section</thema>: <dozent><grad>D.</grad>
+          Section</thema>: <dozent ref="brueckner_bb"><grad>D.</grad>
           <nachname>Brückner</nachname>, <funktion>P. O.</funktion>, d. Z.
           <funktion>Dech.</funktion></dozent>, <zeit>in den best. St. u.
           T.</zeit></veranstaltung> - <veranstaltung><thema>Katechetische
@@ -1136,10 +1141,11 @@
           <nachnamenpräfix>v.</nachnamenpräfix>
           <nachname>Zezschwitz</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>Donn. 5-7 U.</zeit></veranstaltung> -
-          <veranstaltung><thema>Liturgische Section</thema>:
-          <dozent><grad>D.</grad> <nachname>Brückner</nachname>, <funktion>P.
-          O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
-          <zeit>Mont. 3 U.</zeit> <modus>öffentlich</modus></veranstaltung>. -
+          <veranstaltung><thema>Liturgische Section</thema>: <dozent
+          ref="brueckner_bb"><grad>D.</grad> <nachname>Brückner</nachname>,
+          <funktion>P. O.</funktion>, d. Z.
+          <funktion>Dech.</funktion></dozent>, <zeit>Mont. 3 U.</zeit>
+          <modus>öffentlich</modus></veranstaltung>. -
           <veranstaltung><thema>Die Gesengsübungen der liturgischen
           Section</thema> leitet <dozent><funktion>Musikdirektor</funktion>
           <nachname>Langer</nachname></dozent> <zeit>in zu best. St.</zeit>
@@ -1309,13 +1315,13 @@
           T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Geschichte der germanischen Rechtsquellen bis
-          auf die Rechtsspiegel</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Brandes</nachname></dozent>, <zeit>9 U. 2 T.</zeit>
-          <gebühr>unentgeltl.</gebühr></veranstaltung>
+          auf die Rechtsspiegel</thema>: <dozent ref="brandes_hbc"><grad>D.
+          ph.</grad> <nachname>Brandes</nachname></dozent>, <zeit>9 U. 2
+          T.</zeit> <gebühr>unentgeltl.</gebühr></veranstaltung>
 
           <veranstaltung><thema>Erklärung ausgewählter Stellen der leges
-          barbarorum</thema>: <ders>Derselbe</ders>, <zeit>5 U. Freit.</zeit>
-          <modus>privatissime</modus>, aber
+          barbarorum</thema>: <ders ref="brandes_hbc">Derselbe</ders>, <zeit>5
+          U. Freit.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltl.</gebühr></veranstaltung>
 
           <veranstaltung><thema>Erklärung des Sachsenspiegels (<notiz

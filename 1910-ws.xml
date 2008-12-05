@@ -166,9 +166,10 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Kirchengeschichte des Mittelalters</thema>:
-      <dozent><grad>D. th et ph.</grad> <nachname>Brieger</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 9-10
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="brieger_jft"><grad>D. th et ph.</grad>
+      <nachname>Brieger</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. bis Freit. 9-10 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geschichte der abendländischen Mystik</thema>:
       <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
@@ -307,10 +308,10 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltungsgruppe><thema>Kirchengeschichtliches Seminar</thema>
-      (<ort>Paulinum II</ort>): <dozent><grad>D. th. et ph.</grad>
-      <nachname>Brieger</nachname>, <funktion>P. O.</funktion></dozent>,
-      <veranstaltung><thema>I. Abt.: Luthers Stellung zur heiligen
-      Schrift</thema>, <zeit>Mont. u. Freit. 4-5 U.</zeit>,
+      (<ort>Paulinum II</ort>): <dozent ref="brieger_jft"><grad>D. th. et
+      ph.</grad> <nachname>Brieger</nachname>, <funktion>P.
+      O.</funktion></dozent>, <veranstaltung><thema>I. Abt.: Luthers Stellung
+      zur heiligen Schrift</thema>, <zeit>Mont. u. Freit. 4-5 U.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr></veranstaltung>; <veranstaltung><thema>II. Abt.
       (Historicum der Lausitzer Predigergesellschaft): Presbyter und Episkopen
@@ -537,9 +538,10 @@
       11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches Reichs- und Landesstaatsrecht</thema>:
-      <dozent><grad>D. jur. et ph.</grad> <nachname>Binding</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 12-1
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="binding_kll"><grad>D. jur. et ph.</grad>
+      <nachname>Binding</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. bis Freit. 12-1 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Sächsisches Staatsrecht</thema>: <dozent><grad>D.
       jur.</grad> <vorname>Otto</vorname> <nachname>Mayer</nachname>,
@@ -580,7 +582,7 @@
 
       <veranstaltung><thema>Gemeines deutsches Strafprozeßrecht (nach seinem
       Grundriß des deutschen Strafprozeßrechts, 5. Aufl., Leipzig
-      1904)</thema>: <dozent><grad>D. jur. et ph.</grad>
+      1904)</thema>: <dozent ref="binding_kll"><grad>D. jur. et ph.</grad>
       <nachname>Binding</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. bis Freit. 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -605,7 +607,7 @@
       <trennlinie/>
 
       <veranstaltung><thema>Staats-Bürgerkunde (für Hörer aller
-      Fakultäten)</thema>: <dozent><grad>D. jur.</grad>
+      Fakultäten)</thema>: <dozent ref="beer_l"><grad>D. jur.</grad>
       <nachname>Beer</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mittw. 4-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -660,10 +662,10 @@
       <zeit>Mittw. 6-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Strafrechts-Praktikum, mit mündlichen und
-      schriftlichen Übungen der Teilnehmer</thema>: <dozent><grad>D. jur. et
-      ph.</grad> <nachname>Binding</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Freit. 6-8 U.</zeit>,
-      <modus>privatissime</modus>.</veranstaltung>
+      schriftlichen Übungen der Teilnehmer</thema>: <dozent
+      ref="binding_kll"><grad>D. jur. et ph.</grad>
+      <nachname>Binding</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Freit. 6-8 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
     </sachgruppe>
 
     <trennlinie/>
@@ -770,8 +772,8 @@
 
       <veranstaltung><thema>Physiologie des Nerven- und Muskelsystems</thema>:
       <dozent><grad>D. med. et ph.</grad> <nachname>Hering</nachname>,
-      <funktion>P. O.</funktion></dozent>, <dozent>mit <grad>D. med.</grad>
-      <nachnamenpräfix>von</nachnamenpräfix>
+      <funktion>P. O.</funktion></dozent>, <dozent ref="bruecke_et">mit
+      <grad>D. med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
       <nachname>Brücke</nachname></dozent>, <zeit>tägl. 9 bis 10 U.</zeit>,
       <modus>privatim</modus>, <ort>im Physiologischen Institut, Liebigstr.
       16</ort>.</veranstaltung>
@@ -812,8 +814,8 @@
 
       <veranstaltung><thema>Physiologisches Praktikum</thema>:
       <dozent><grad>D. ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
-      E.</funktion></dozent>, <dozent>mit <grad>D. med.</grad>
-      <nachnamenpräfix>von</nachnamenpräfix>
+      E.</funktion></dozent>, <dozent ref="bruecke_et">mit <grad>D.
+      med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
       <nachname>Brücke</nachname></dozent> und <dozent><grad>D. med.</grad>
       <nachname>Dittler</nachname></dozent>, <zeit>dreimal wöchentlich 4-6
       U.</zeit>, <modus>privatim</modus>, <ort>im Physiologischen Institut,
@@ -833,10 +835,11 @@
       Liebigstr. 16</ort>.</veranstaltung>
 
       <veranstaltung><thema>Chemisches Praktikum für Mediziner</thema>:
-      <dozent><grad>D. ph. et med.</grad> <nachname>Beckmann</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>sechsstündig nach
-      Vereinbarung</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f.
-      angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
+      <dozent ref="beckmann_eo"><grad>D. ph. et med.</grad>
+      <nachname>Beckmann</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>sechsstündig nach Vereinbarung</zeit>, <modus>privatim</modus>,
+      <ort>im Laboratorium f. angewandte Chemie, Brüderstr.
+      34</ort>.</veranstaltung>
 
       <veranstaltung><thema>Physikalisches Praktikum für Mediziner und
       Pharmazeuten</thema>: <dozent ref="wiener_oh"><grad>D. ph., nat. et
@@ -897,26 +900,27 @@
       <seite>11</seite>
 
       <veranstaltung><thema>Pharmakologie mit der
-      Arzneiverordnungslehre</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit.3-4 U.</zeit>, <modus>privatim</modus>, <ort>im
-      Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
+      Arzneiverordnungslehre</thema>: <dozent ref="boehm_r"><grad>D.
+      med.</grad> <nachname>Boehm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit.3-4 U.</zeit>,
+      <modus>privatim</modus>, <ort>im Pharmakolog. Institut, Liebigstr.
+      10</ort>.</veranstaltung>
 
       <veranstaltung><thema>Pharmakognosie des Pflanzenreichs und
-      Thierreichs</thema>: <dozent><grad>D. med.</grad>
+      Thierreichs</thema>: <dozent ref="boehm_r"><grad>D. med.</grad>
       <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. bis Freit. 12-1 U.</zeit>, <modus>privatim</modus>, <ort>im
       Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
 
       <veranstaltung><thema>Experimentelle Arbeiten im Pharmakologischen
       Institut</thema> (<ort>Liebigstr. 10</ort>) <thema>für
-      Fortgeschrittenere</thema>: <dozent><grad>D. med.</grad>
+      Fortgeschrittenere</thema>: <dozent ref="boehm_r"><grad>D. med.</grad>
       <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>tägl., ganztägig</zeit>, <modus>privatissime</modus>, sed
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Pharmazeutisch-chemisch-toxikologisches
-      Praktikum</thema>: <dozent><grad>D. ph. et med.</grad>
+      Praktikum</thema>: <dozent ref="beckmann_eo"><grad>D. ph. et med.</grad>
       <nachname>Beckmann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>ganz- u. halbtäg., tägl. 8-12½ U. und (außer Sonnab.) 2-6
       U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f. angewandte
@@ -1251,9 +1255,10 @@
       14</ort>.</veranstaltung>
 
       <veranstaltung><thema>Kolleg über die Beziehungen der Augenerkrankungen
-      zu Allgemeinleiden</thema>: <dozent><grad>D. med.</grad>
-      <vorname>Arth.</vorname> <nachname>Birch-Hirschfeld</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>Mont. 7-8 U. Ab.</zeit>,
+      zu Allgemeinleiden</thema>: <dozent ref="birch-hirschfeld_a"><grad>D.
+      med.</grad> <vorname>Arth.</vorname>
+      <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont. 7-8 U. Ab.</zeit>,
       <modus>publice</modus>, <ort>in der Heilanstalt für Augenkranke,
       Liebigstr. 14.</ort></veranstaltung>
 
@@ -1270,7 +1275,7 @@
       Königsstr. 14. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Augenspiegelübungen für Anfänger und
-      Geübtere</thema>: <dozent><grad>D. med.</grad>
+      Geübtere</thema>: <dozent ref="bielschowsky_a"><grad>D. med.</grad>
       <nachname>Bielschowsky</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>zweimal wöchentl. an noch zu verabred. Stunden</zeit>,
       <modus>privatim</modus>, <ort>in der Heilanstalt für Augenkranke,
@@ -1303,11 +1308,12 @@
       (Wohnung)</ort>.</veranstaltung>
 
       <veranstaltung><thema>Funktionsprüfung des Auges mit praktischen Übungen
-      im Brillenbestimmen usw.</thema>: <dozent><grad>D. med.</grad>
-      <vorname>Arth.</vorname> <nachname>Birch-Hirschfeld</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. 12-1 U. und an
-      einer noch zu best. Stunde</zeit>, <modus>privatim</modus>, <ort>in der
-      Heilanstalt für Augenkranke, Liebigstr. 14</ort>.</veranstaltung>
+      im Brillenbestimmen usw.</thema>: <dozent
+      ref="birch-hirschfeld_a"><grad>D. med.</grad> <vorname>Arth.</vorname>
+      <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Donnerst. 12-1 U. und an einer noch zu
+      best. Stunde</zeit>, <modus>privatim</modus>, <ort>in der Heilanstalt
+      für Augenkranke, Liebigstr. 14</ort>.</veranstaltung>
 
       <veranstaltung><thema>Die Refraktionsanomalien und Funktionskrankheiten
       <seite>16</seite>des Auges (Star, Glaukom usw.)</thema>:
@@ -1317,18 +1323,18 @@
       Augenkranke, Königsstr. 14. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Die Motilitätsstörungen der Augen (mit
-      Krankenvorstellungen)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Bielschowsky</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>in 1 noch zu verabred. Stunde</zeit>, <modus>publice</modus>,
-      <ort>in der Heilanstalt für Augenkranke, Liebigstr.
-      14</ort>.</veranstaltung>
+      Krankenvorstellungen)</thema>: <dozent ref="bielschowsky_a"><grad>D.
+      med.</grad> <nachname>Bielschowsky</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>in 1 noch zu verabred. Stunde</zeit>,
+      <modus>publice</modus>, <ort>in der Heilanstalt für Augenkranke,
+      Liebigstr. 14</ort>.</veranstaltung>
 
       <veranstaltung><thema>Untersuchungsmethoden und Praktikum der Ohren-,
-      Nasen- und Halskrankheiten</thema>: <dozent><grad>D. med.</grad>
-      <vorname>A.</vorname> <nachname>Barth</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>tägl. (außer Donnerst.) 10-11 U.</zeit>,
-      <modus>privatim</modus>, <ort>in der Klinik für Ohren-, Nasen- u.
-      Halskrankheiten, Liebigstr. 20</ort>.</veranstaltung>
+      Nasen- und Halskrankheiten</thema>: <dozent ref="barth_af"><grad>D.
+      med.</grad> <vorname>A.</vorname> <nachname>Barth</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>tägl. (außer Donnerst.) 10-11
+      U.</zeit>, <modus>privatim</modus>, <ort>in der Klinik für Ohren-,
+      Nasen- u. Halskrankheiten, Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung><thema>Übungen in der Untersuchung von Hals, Nase und Ohr
       (für Anfänger)</thema>: <dozent><grad>D. med.</grad>
@@ -1503,8 +1509,8 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Arbeiten im Laboratorium des Instituts für Ohren-,
-      Nasen- und Halskrankheiten</thema> (<ort>Liebigstr. 20</ort>.):
-      <dozent><grad>D. med.</grad> <vorname>A.</vorname>
+      Nasen- und Halskrankheiten</thema> (<ort>Liebigstr. 20</ort>.): <dozent
+      ref="barth_af"><grad>D. med.</grad> <vorname>A.</vorname>
       <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>nach Übereinkunft</zeit>, <modus>privatissime</modus> et
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1766,9 +1772,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Philosophie Spinozas und seiner
-        Zeit</thema>: <dozent><grad>D. ph.</grad> <vorname>P.</vorname>
-        <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mittw. u. Sonnab. 3-4 U.</zeit>,
+        Zeit</thema>: <dozent ref="barth_pee"><grad>D. ph.</grad>
+        <vorname>P.</vorname> <nachname>Barth</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der neuesten Philosophie von Kant bis
@@ -1831,7 +1837,7 @@
         4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Pädagogische Probleme der Gegenwart</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>P.</vorname>
+        <dozent ref="barth_pee"><grad>D. ph.</grad> <vorname>P.</vorname>
         <nachname>Barth</nachname></dozent>, <zeit>Sonnab. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -1844,9 +1850,10 @@
         <modus>privatissime</modus>, <gebühr>gratis</gebühr></veranstaltung> -
         <veranstaltung>2) <thema>Einführung in die Erkenntnistheorie,
         ausgehend von Humes Traktat über die menschliche Natur, I, übersetzt
-        von Th. Lipps, mit schriftlichen Arbeiten</thema>: <dozent><grad>D.
-        ph.</grad> <vorname>P.</vorname> <nachname>Barth</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Dienst. 8-9½ U. Ab.</zeit>,
+        von Th. Lipps, mit schriftlichen Arbeiten</thema>: <dozent
+        ref="barth_pee"><grad>D. ph.</grad> <vorname>P.</vorname>
+        <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst. 8-9½ U. Ab.</zeit>,
         <modus>privatissime</modus></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Philosophische Übungen über Schopenhauers Welt
@@ -2421,10 +2428,11 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der französischen Literatur im 16.
-          und 17. Jahrhundert</thema>: <dozent><grad>D. ph.</grad>
-          <vorname>Ad.</vorname> <nachname>Birch-Hirschfeld</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>tägl. (außer Sonnab.)
-          9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          und 17. Jahrhundert</thema>: <dozent
+          ref="birch-hirschfeld_ga"><grad>D. ph.</grad> <vorname>Ad.</vorname>
+          <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>tägl. (außer Sonnab.) 9-10 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>George Sand, Honoré de Balzac, Gustave
           Flaubert</thema>: <dozent><funktion>Lektor</funktion>
@@ -2445,10 +2453,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung von Dante's Divina Commedia</thema>:
-          <dozent><grad>D. ph.</grad> <vorname>Ad.</vorname>
-          <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Dienst. u. Freit. 4-5 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="birch-hirschfeld_ga"><grad>D. ph.</grad>
+          <vorname>Ad.</vorname> <nachname>Birch-Hirschfeld</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Freit. 4-5
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Vergleichende Formenlehre der slavischen
           Sprachen</thema>: <dozent><grad>D. ph.</grad>
@@ -2511,8 +2519,8 @@
           <gebühr>gratis</gebühr></veranstaltungsgruppe>.</veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Romanisches Seminar</thema>:
-          <veranstaltungsgruppe><thema>I. Abteilung</thema>: <dozent><grad>D.
-          ph.</grad> <vorname>Ad.</vorname>
+          <veranstaltungsgruppe><thema>I. Abteilung</thema>: <dozent
+          ref="birch-hirschfeld_ga"><grad>D. ph.</grad> <vorname>Ad.</vorname>
           <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
           O.</funktion></dozent>: <veranstaltung><thema>1. Lektüre und
           Erklärung der Chanson de Roland</thema>, <zeit>Donnerst. 8-9½ U.
@@ -2656,7 +2664,7 @@
 
         <veranstaltung><thema>Allgemeine Geschichte im Zeitalter der
         französischen <seite>31</seite>Revolution und Napoleons I.
-        (1774-1815)</thema>: <dozent><grad>D. ph.</grad>
+        (1774-1815)</thema>: <dozent ref="brandenburg_aoe"><grad>D. ph.</grad>
         <nachname>Brandenburg</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2678,7 +2686,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte des neuen Deutschen Reiches seit
-        1871</thema>: <dozent><grad>D. ph.</grad>
+        1871</thema>: <dozent ref="brandenburg_aoe"><grad>D. ph.</grad>
         <nachname>Brandenburg</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont. u. Donnerst. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2820,8 +2828,8 @@
                 Vorm.</zeit>, <modus>privatissime</modus>, sed
                 <gebühr>gratis</gebühr>.</veranstaltung>
 
-                <veranstaltung>4) <dozent><grad>D. ph.</grad>
-                <nachname>Brandenburg</nachname>, <funktion>P.
+                <veranstaltung>4) <dozent ref="brandenburg_aoe"><grad>D.
+                ph.</grad> <nachname>Brandenburg</nachname>, <funktion>P.
                 O.</funktion></dozent>: <thema>Übungen zur Geschichte der
                 modernen Verfassungsentwicklung</thema>, <zeit>Mittw. 8½-10 U.
                 Vorm.</zeit>, <modus>privatissime</modus>, sed
@@ -2895,7 +2903,7 @@
               Literatur</thema>, <zeit>Mittw. 8-9½ U.
               Ab.</zeit></veranstaltung>
 
-              <veranstaltung>4) <dozent><grad>D. ph.</grad>
+              <veranstaltung>4) <dozent ref="biermann_ew"><grad>D. ph.</grad>
               <nachname>Biermann</nachname>, <funktion>P.
               E.</funktion></dozent>: <thema>Übungen zur Sozialgeschichte des
               19. Jhts. mit besonderem Bezug auf die sozialen Theorien u.
@@ -3290,8 +3298,8 @@
         E.</funktion></dozent>, <zeit>Mittw. 3-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Handels- und Verkehrspolitik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Biermann</nachname>,
+        <veranstaltung><thema>Handels- und Verkehrspolitik</thema>: <dozent
+        ref="biermann_ew"><grad>D. ph.</grad> <nachname>Biermann</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Mont. 3-4 u. Freit. 6-7
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3521,7 +3529,7 @@
             U.</zeit>, <modus>privatissime</modus>, aber
             <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
-            <veranstaltung>2) <dozent><grad>D. ph.</grad>
+            <veranstaltung>2) <dozent ref="biermann_ew"><grad>D. ph.</grad>
             <nachname>Biermann</nachname>, <funktion>P.
             E.</funktion></dozent>: <thema>Übungen in der
             Finanzwissenschaft</thema>, <zeit>Mont. 7½-9 U. Ab.</zeit>,
@@ -3659,14 +3667,14 @@
         <zeit>Mont. bis Freit. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Himmlische Mechanik</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Bruns</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont. u. Sonnab. 11-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Himmlische Mechanik</thema>: <dozent
+        ref="bruns_eh"><grad>D. ph.</grad> <nachname>Bruns</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Sonnab. 11-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Praktische Analysis</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Bruns</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. 4-6 U.</zeit>,
+        <veranstaltung><thema>Praktische Analysis</thema>: <dozent
+        ref="bruns_eh"><grad>D. ph.</grad> <nachname>Bruns</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. 4-6 U.</zeit>,
         <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -3703,11 +3711,11 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Astronomisches Praktikum</thema> (<ort>in der
-        Sternwarte, Stephanstr. 3</ort>): <dozent><grad>D. ph.</grad>
-        <nachname>Bruns</nachname>, <funktion>P. O.</funktion></dozent>, und
-        <dozent><grad>D. ph.</grad> <nachname>Peter</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>in zu best. Stunden</zeit>,
-        <modus>privatissime</modus>, sed
+        Sternwarte, Stephanstr. 3</ort>): <dozent ref="bruns_eh"><grad>D.
+        ph.</grad> <nachname>Bruns</nachname>, <funktion>P.
+        O.</funktion></dozent>, und <dozent><grad>D. ph.</grad>
+        <nachname>Peter</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>in zu best. Stunden</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -3853,11 +3861,12 @@
         <ort>im Chemischen Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
         <veranstaltung><thema>Anorganische Chemie mit besonderer
-        Berücksichtigung ihrer Anwendung</thema>: <dozent><grad>D. ph. et
-        med.</grad> <nachname>Beckmann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont. bis Freit. 9-10 U. Vorm.</zeit>,
-        <modus>privatim</modus>, <ort>im Laboratorium für angew. Chemie,
-        Brüderstr. 34</ort>.</veranstaltung>
+        Berücksichtigung ihrer Anwendung</thema>: <dozent
+        ref="beckmann_eo"><grad>D. ph. et med.</grad>
+        <nachname>Beckmann</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont. bis Freit. 9-10 U. Vorm.</zeit>, <modus>privatim</modus>,
+        <ort>im Laboratorium für angew. Chemie, Brüderstr.
+        34</ort>.</veranstaltung>
 
         <veranstaltung><thema>Molekulargewichtsbestimmung und
         Molekulartheorie</thema>: <dozent><grad>D. ph.</grad>
@@ -3927,16 +3936,17 @@
         Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung><thema>Pharmakognosie des Pflanzenreichs und
-        Thierreichs</thema>: <dozent><grad>D. med.</grad>
+        Thierreichs</thema>: <dozent ref="boehm_r"><grad>D. med.</grad>
         <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont. bis Freit. 12-1 U.</zeit>, <modus>privatim</modus>,
         <ort>im Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
 
         <veranstaltung><thema>Pharmakologie mit der
-        Arzneiverordnungslehre</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. bis Freit. 3-4 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Pharmakolog, Institut, Liebigstr. 10</ort>.</veranstaltung>
+        Arzneiverordnungslehre</thema>: <dozent ref="boehm_r"><grad>D.
+        med.</grad> <nachname>Boehm</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont. bis Freit. 3-4 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Pharmakolog, Institut, Liebigstr.
+        10</ort>.</veranstaltung>
 
         <veranstaltung><thema>Mineralogie. Übersicht des
         Gesamtgebietes</thema>: <dozent><grad>D. ph.</grad>
@@ -3954,17 +3964,18 @@
 
         <veranstaltung><thema>Physikalisch-chemische Petrographie</thema>
         (<modus>privatim</modus>) <thema>mit Übungen</thema>
-        (<gebühr>gratis</gebühr>): <dozent><grad>D. ph.</grad>
+        (<gebühr>gratis</gebühr>): <dozent ref="boeke_he"><grad>D. ph.</grad>
         <nachname>Boeke</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. 6-8 U.</zeit>, <ort>im Mineralog. Institut, Talstr.
         35</ort>.</veranstaltung>
 
         <veranstaltung><thema>Erörterung und Demonstrationen neuerer
         mineralogischer <seite>46</seite>und petrographischer
-        Untersuchungsmethoden</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Boeke</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mittw. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Mineralog. Institut, Talstr. 35</ort>.</veranstaltung>
+        Untersuchungsmethoden</thema>: <dozent ref="boeke_he"><grad>D.
+        ph.</grad> <nachname>Boeke</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Mineralog. Institut, Talstr.
+        35</ort>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine und historische Geologie
         (Formationslehre)</thema>: <dozent><grad>D. ph. et sc.</grad>
@@ -4004,12 +4015,12 @@
         <modus>privatim</modus>, <ort>im Botanischen Institut, Linnéstr.
         1</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Vergleichende Anatomie</thema>: <dozent><grad>D.
-        ph. et med.</grad> <nachname>Chun</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont. bis Freit. 12-1 U.</zeit>
-        <thema>nebst Demonstrationen</thema>, <zeit>Freit. 6-7 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Zoologischen Institut, Talstr.
-        33</ort>.</veranstaltung>
+        <veranstaltung><thema>Vergleichende Anatomie</thema>: <dozent
+        ref="chun_c"><grad>D. ph. et med.</grad> <nachname>Chun</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 12-1
+        U.</zeit> <thema>nebst Demonstrationen</thema>, <zeit>Freit. 6-7
+        U.</zeit>, <modus>privatim</modus>, <ort>im Zoologischen Institut,
+        Talstr. 33</ort>.</veranstaltung>
 
         <veranstaltung><thema>Spezielle Zoologie: Wirbellose <notiz
         betreff="fortsetzung">I</notiz></thema>: <dozent><grad>D. ph.</grad>
@@ -4133,12 +4144,12 @@
         2</ort>.</veranstaltung>
 
         <veranstaltung><thema>Photochemisch-photographisches Praktikum</thema>
-        (<zeit>ganztägig</zeit>): <dozent><grad>D. ph.</grad> <nachname>Le
-        Blanc</nachname>, <funktion>P. O.</funktion></dozent>, <dozent>mit
-        <grad>D. ph.</grad> <nachname>Schaum</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>tägl. 8-12½ U. u. (außer Sonnab.) 2-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Physikal.-chem. Institut,
-        Linnéstr. 2</ort>.</veranstaltung>
+        (<zeit>ganztägig</zeit>): <dozent ref="leblanc_m"><grad>D. ph.</grad>
+        <nachname>Le Blanc</nachname>, <funktion>P. O.</funktion></dozent>,
+        <dozent>mit <grad>D. ph.</grad> <nachname>Schaum</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>tägl. 8-12½ U. u. (außer
+        Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Physikal.-chem. Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <seite>48</seite>
 
@@ -4157,16 +4168,16 @@
         Physikalisch-chem. Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Vollpraktikum für
-        Vorgerücktere</thema>: <dozent><grad>D. ph. et med.</grad>
-        <nachname>Beckmann</nachname>, <funktion>P. O.</funktion></dozent>,
-        <dozent>mit <grad>D. ph.</grad> <nachname>Heller</nachname></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Deußen</nachname></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Scheiber</nachname></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Sieverts</nachname></dozent>
-        <dozent>u. <grad>D. ph.</grad> <nachname>Waentig</nachname></dozent>,
-        <zeit>täglich 8-12½ U. u. (außer Sonnab.) 2-6 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Laboratorium f. angew. Chemie,
-        Brüderstr. 34</ort>.</veranstaltung>
+        Vorgerücktere</thema>: <dozent ref="beckmann_eo"><grad>D. ph. et
+        med.</grad> <nachname>Beckmann</nachname>, <funktion>P.
+        O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
+        <nachname>Heller</nachname></dozent>, <dozent><grad>D. ph.</grad>
+        <nachname>Deußen</nachname></dozent>, <dozent><grad>D. ph.</grad>
+        <nachname>Scheiber</nachname></dozent>, <dozent><grad>D. ph.</grad>
+        <nachname>Sieverts</nachname></dozent> <dozent>u. <grad>D. ph.</grad>
+        <nachname>Waentig</nachname></dozent>, <zeit>täglich 8-12½ U. u.
+        (außer Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Laboratorium f. angew. Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Vollpraktikum für
         Vorgerücktere</thema>: <dozent><grad>D. ph. et med.</grad>
@@ -4189,19 +4200,19 @@
         18</ort>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Chemisches Praktikum</thema>, <zeit>ganz- und
-        halbtägig</zeit>: <dozent><grad>D. ph. et med.</grad>
-        <nachname>Beckmann</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>tägl. 8-12½ u. (außer Sonnab.) 2-6 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Laboratorium f. angew. Chemie,
-        Brüderstr. 34</ort>.</veranstaltung>
+        halbtägig</zeit>: <dozent ref="beckmann_eo"><grad>D. ph. et
+        med.</grad> <nachname>Beckmann</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>tägl. 8-12½ u. (außer Sonnab.) 2-6
+        U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f. angew.
+        Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum</thema>, <zeit>ganz- und
-        halbtägig</zeit>: <dozent><grad>D. ph.</grad> <nachname>Le
-        Blanc</nachname>, <funktion>P. O.</funktion></dozent>, <dozent>mit
-        <grad>D. ph.</grad> <nachname>Böttger</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>tägl. 8 bis 12½ u. (außer Sonnab.) 2-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Physikalisch-chemischen
-        Institut, Linnéstr. 2</ort>.</veranstaltung>
+        halbtägig</zeit>: <dozent ref="leblanc_m"><grad>D. ph.</grad>
+        <nachname>Le Blanc</nachname>, <funktion>P. O.</funktion></dozent>,
+        <dozent>mit <grad>D. ph.</grad> <nachname>Böttger</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>tägl. 8 bis 12½ u.
+        (außer Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum für Lehrer (Schulversuche,
         Analyse und Präparate)</thema>: <dozent><grad>D. ph.</grad>
@@ -4219,12 +4230,12 @@
         Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung><thema>Chemisch-technisches Praktikum</thema>
-        (<zeit>ganz- u. halbtägig</zeit>): <dozent><grad>D. ph. et med.</grad>
-        <nachname>Beckmann</nachname>, <funktion>P. O.</funktion></dozent>,
-        <dozent>mit <grad>D. ph.</grad> <nachname>Heller</nachname></dozent>,
-        <zeit>tägl. 8-12½ U. und (außer Sonnab.) 2-6 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Laboratorium f. angewandte Chemie,
-        Brüderstr. 34</ort>.</veranstaltung>
+        (<zeit>ganz- u. halbtägig</zeit>): <dozent ref="beckmann_eo"><grad>D.
+        ph. et med.</grad> <nachname>Beckmann</nachname>, <funktion>P.
+        O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
+        <nachname>Heller</nachname></dozent>, <zeit>tägl. 8-12½ U. und (außer
+        Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium
+        f. angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <seite>49</seite>
 
@@ -4236,11 +4247,12 @@
         18</ort>.</veranstaltung>
 
         <veranstaltung><thema>Pharmazeutisch-chemisch-toxikologisches
-        Praktikum</thema>, <zeit>ganz- u. halbtäg.</zeit>: <dozent><grad>D.
-        ph. et med.</grad> <nachname>Beckmann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>tägl. 8-12½ U. u. (außer Sonnab.) 2-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für
-        angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
+        Praktikum</thema>, <zeit>ganz- u. halbtäg.</zeit>: <dozent
+        ref="beckmann_eo"><grad>D. ph. et med.</grad>
+        <nachname>Beckmann</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>tägl. 8-12½ U. u. (außer Sonnab.) 2-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Laboratorium für angewandte Chemie,
+        Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Pharmazeutisch-chemisch-toxikologisches
         Praktikum</thema>: <dozent><grad>D. ph. et med.</grad>
@@ -4253,17 +4265,18 @@
 
         <veranstaltung><thema>Experimentelle Arbeiten im Pharmakologischen
         Institut</thema> (<ort>Liebigstr. 10</ort>) <thema>für
-        Fortgeschrittenere</thema>: <dozent><grad>D. med.</grad>
+        Fortgeschrittenere</thema>: <dozent ref="boehm_r"><grad>D. med.</grad>
         <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>täglich ganztägig</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Arbeiten auf dem Gebiete der
         Nahrungsmittelchemie</thema>, <zeit>ganz- und halbtägig</zeit>:
-        <dozent><grad>D. ph. et med.</grad> <nachname>Beckmann</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>tägl. 8-12½ U. u. (außer
-        Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium
-        für angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
+        <dozent ref="beckmann_eo"><grad>D. ph. et med.</grad>
+        <nachname>Beckmann</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>tägl. 8-12½ U. u. (außer Sonnab.) 2-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Laboratorium für angewandte Chemie,
+        Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung><thema>Mineralogisches Praktikum für Anfänger (Ausübung
         krystallographischer, insbesondere optischer
@@ -4317,7 +4330,7 @@
         Botanischen Institut, Linnéstr. 1</ort>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Praktische Übungen im Zoologischen
-        Laboratorium</thema>: <dozent><grad>D. ph. et med.</grad>
+        Laboratorium</thema>: <dozent ref="chun_c"><grad>D. ph. et med.</grad>
         <nachname>Chun</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>sechstägig bezw. dreitägig</zeit>: <veranstaltung>a)
         <thema>Zootomischer Kurs für Anfänger</thema></veranstaltung>,

@@ -746,10 +746,10 @@
     <sachgruppe>
       <titel>V. Mathematik und Astronomie.</titel>
 
-      <veranstaltung><dozent><nachname>Brandes</nachname>, <vorname>H.
-      W.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>die
-      Anfangsgründe der Differentialrechnung</thema>, <zeit>3 U. 4 T.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      <veranstaltung><dozent ref="brandes_hw"><nachname>Brandes</nachname>,
+      <vorname>H. W.</vorname>, <funktion>P. O.</funktion></dozent>,
+      <thema>die Anfangsgründe der Differentialrechnung</thema>, <zeit>3 U. 4
+      T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><dozent ref="drobisch_mw"><nachname>Drobisch</nachname>,
       <vorname>M. W.</vorname>, <funktion>P. O.</funktion></dozent>,
@@ -867,11 +867,11 @@
       <sachgruppe>
         <titel>Physik.</titel>
 
-        <veranstaltung><dozent><nachname>Brandes</nachname>, <vorname>H.
-        W.</vorname>, <funktion>P. O.</funktion></dozent>, <thema><notiz
-        betreff="fortsetzung">der erste Theil</notiz> der Experimental-Physik,
-        die Lehre vom Gleichgewichte u. der Bewegung der Körper, vom
-        <autor>Schalle</autor> u. s. w.</thema>, <zeit>11 U. 6
+        <veranstaltung><dozent ref="brandes_hw"><nachname>Brandes</nachname>,
+        <vorname>H. W.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <thema><notiz betreff="fortsetzung">der erste Theil</notiz> der
+        Experimental-Physik, die Lehre vom Gleichgewichte u. der Bewegung der
+        Körper, vom <autor>Schalle</autor> u. s. w.</thema>, <zeit>11 U. 6
         T.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -1014,11 +1014,11 @@
           <sachgruppe>
             <titel>Neutestamentliche Grammatik.</titel>
 
-            <veranstaltung><dozent><nachname>Anger</nachname>, <grad>M.</grad>
-            <vorname>R.</vorname></dozent>, <thema kontext="sachgruppe">nach
-            <schrift><autor>Winer</autor>'s Grammat. des neutestamentl.
-            Sprachidioms (neueste Ausg.)</schrift></thema> <zeit>2 T. in zu
-            best<korrektur>.</korrektur> St.</zeit>
+            <veranstaltung><dozent ref="anger_r"><nachname>Anger</nachname>,
+            <grad>M.</grad> <vorname>R.</vorname></dozent>, <thema
+            kontext="sachgruppe">nach <schrift><autor>Winer</autor>'s Grammat.
+            des neutestamentl. Sprachidioms (neueste Ausg.)</schrift></thema>
+            <zeit>2 T. in zu best<korrektur>.</korrektur> St.</zeit>
             <modus>unentgeltlich</modus>.</veranstaltung>
           </sachgruppe>
 
@@ -1073,11 +1073,11 @@
             <zeit>2 U. 4 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Anger</nachname>, <grad>M.</grad>
-            <vorname>R.</vorname></dozent>, <thema>Erklärung der
-            <schrift><titel>Sprüchwörter Salomo</titel>'s</schrift></thema>,
-            <zeit>4 T. in zu best. St.</zeit>
-            <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+            <veranstaltung><dozent ref="anger_r"><nachname>Anger</nachname>,
+            <grad>M.</grad> <vorname>R.</vorname></dozent>, <thema>Erklärung
+            der <schrift><titel>Sprüchwörter
+            Salomo</titel>'s</schrift></thema>, <zeit>4 T. in zu best.
+            St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
@@ -1123,10 +1123,10 @@
             <schrift><titel>Brr. an die Korinthier</titel></schrift></thema>,
             <zeit>4 T. in zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Anger</nachname>, <grad>M.</grad>
-            <vorname>R.</vorname></dozent>, <thema>über die <schrift>Brr.
-            Pauli an Timotheus u. Titus</schrift></thema>, <zeit>4 T. in zu
-            best. St.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="anger_r"><nachname>Anger</nachname>,
+            <grad>M.</grad> <vorname>R.</vorname></dozent>, <thema>über die
+            <schrift>Brr. Pauli an Timotheus u. Titus</schrift></thema>,
+            <zeit>4 T. in zu best. St.</zeit></veranstaltung>
 
             <seite>11</seite>
 
@@ -1185,8 +1185,8 @@
             <modus>privatissime</modus> aber <gebühr>unentgeltlich</gebühr>
             <zeit>in den best. St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Anger</nachname>, <grad>M.</grad>
-            <vorname>R.</vorname></dozent>, <thema>hebräische
+            <veranstaltung><dozent ref="anger_r"><nachname>Anger</nachname>,
+            <grad>M.</grad> <vorname>R.</vorname></dozent>, <thema>hebräische
             Gesellschaft</thema>, <zeit>zu den best. T. u. St.</zeit>
             <modus>privatissime</modus>.</veranstaltung>
           </sachgruppe>
@@ -1694,7 +1694,7 @@
             <autor>Haubold</autor></thema>, <zeit>9 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Berger</nachname>,
+            <veranstaltung><dozent ref="berger_a"><nachname>Berger</nachname>,
             <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>das königl.
             sächs. Privatrecht, nach <autor>Haubold</autor></thema>, <zeit>11
             U. 4 T.</zeit></veranstaltung>
@@ -1760,10 +1760,10 @@
                 <autor>Feuerbach</autor></thema>, <zeit>11 U. 4 T.</zeit>
                 <modus>öffentlich</modus>.</veranstaltung>
 
-                <veranstaltung><dozent><nachname>Berger</nachname>,
-                <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>das
-                gesammte Criminalrecht</thema>, <zeit>9 U. 6
-                T.</zeit></veranstaltung>
+                <veranstaltung><dozent
+                ref="berger_a"><nachname>Berger</nachname>, <grad>D.</grad>
+                <vorname>A.</vorname></dozent>, <thema>das gesammte
+                Criminalrecht</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>
 
                 <veranstaltung><dozent><nachname>Held</nachname>,
                 <grad>D.</grad> <vorname>G. F.</vorname></dozent>, <thema>das
@@ -2040,7 +2040,8 @@
             <thema>über beliebige Theile der Rechtswissenschaft</thema>,
             <zeit>in zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Heinze</nachname>, <vorname>K.
+            <veranstaltung><dozent
+            ref="heinze_ke"><nachname>Heinze</nachname>, <vorname>K.
             E.</vorname>, <funktion>J. U. B.</funktion></dozent>, <thema>über
             alle Theile der Rechtswissenschaft</thema>, <zeit>in den best. u.
             zu best. St.</zeit></veranstaltung>
@@ -2190,9 +2191,9 @@
         <sachgruppe>
           <titel>*) Erläuterung griechischer Aerzte.</titel>
 
-          <veranstaltung><dozent><nachname>Braune</nachname>, <grad>D.</grad>
-          <vorname>A.</vorname></dozent>, <thema>über <schrift>das I. u. III.
-          Buch der Epidemieen des
+          <veranstaltung><dozent ref="braune_a"><nachname>Braune</nachname>,
+          <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>über
+          <schrift>das I. u. III. Buch der Epidemieen des
           <autor>Hippokrates</autor></schrift></thema>, <zeit>7 U. 2 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -2305,10 +2306,11 @@
           Pathologie</thema>, <zeit>8 U. 4 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Braune</nachname>, <grad>D.</grad>
-          <vorname>A.</vorname></dozent>, <thema>allgem. Pathologie, n.
-          <autor>Hartmann</autor>'s Theorie der Krankheit</thema>, <zeit>7 U.
-          4 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung><dozent ref="braune_a"><nachname>Braune</nachname>,
+          <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>allgem.
+          Pathologie, n. <autor>Hartmann</autor>'s Theorie der
+          Krankheit</thema>, <zeit>7 U. 4 T.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>

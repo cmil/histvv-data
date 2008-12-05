@@ -56,8 +56,8 @@
     <sachgruppe fakultät="Theologie">
       <titel>I. Theologische Facultät.</titel>
 
-      <veranstaltung><thema>Einleitung in das Alte Testament</thema>:
-      <dozent><grad>D. th. et ph.</grad> <nachname>Buhl</nachname>,
+      <veranstaltung><thema>Einleitung in das Alte Testament</thema>: <dozent
+      ref="buhl_f"><grad>D. th. et ph.</grad> <nachname>Buhl</nachname>,
       <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.,
       Freit. u. Sonnab. 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -72,10 +72,10 @@
       des.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 12-1
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Kleine Propheten</thema>: <dozent><grad>D. th. et
-      ph.</grad> <nachname>Buhl</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 12-1
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Kleine Propheten</thema>: <dozent
+      ref="buhl_f"><grad>D. th. et ph.</grad> <nachname>Buhl</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
+      Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Erklärung von Jesaia 1-39</thema>:
       <dozent><grad>D. th.</grad> <nachname>Guthe</nachname>, <funktion>P.
@@ -132,10 +132,11 @@
       <funktion>P. E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 12-1
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Geschichte der alten Kirche</thema>:
-      <dozent><grad>D. th. et ph.</grad> <nachname>Brieger</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Sonnab. 8-9
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Geschichte der alten Kirche</thema>: <dozent
+      ref="brieger_jft"><grad>D. th. et ph.</grad>
+      <nachname>Brieger</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. bis Sonnab. 8-9 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Kirchengeschichte seit der Reformation</thema>:
       <dozent><grad>D. th. et ph.</grad> <nachname>Hauck</nachname>,
@@ -152,15 +153,17 @@
       O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 12-1
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Dogmengeschichte</thema>: <dozent><grad>D. th. et
-      ph.</grad> <nachname>Brieger</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>tägl. (ausser Mittw.) 9-10 U.</zeit>,
+      <veranstaltung><thema>Dogmengeschichte</thema>: <dozent
+      ref="brieger_jft"><grad>D. th. et ph.</grad>
+      <nachname>Brieger</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. (ausser Mittw.) 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Ueber Albrecht Ritschl und die Hauptrichtungen in
-      der Theologie der Gegenwart</thema>: <dozent><grad>D. th. et ph.</grad>
-      <nachname>Brieger</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Donnerst. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      der Theologie der Gegenwart</thema>: <dozent ref="brieger_jft"><grad>D.
+      th. et ph.</grad> <nachname>Brieger</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Donnerst. 6-7 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Dogmatik, <notiz betreff="fortstezung">I.
       Theil</notiz></thema>: <dozent><grad>D. th. et ph.</grad>
@@ -225,8 +228,8 @@
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
-      <veranstaltung><thema>Alttestamentliche Gesellschaft</thema>:
-      <dozent><grad>D. the. et ph.</grad> <nachname>Buhl</nachname>,
+      <veranstaltung><thema>Alttestamentliche Gesellschaft</thema>: <dozent
+      ref="buhl_f"><grad>D. the. et ph.</grad> <nachname>Buhl</nachname>,
       <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. 7½-9 U. Ab.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -281,11 +284,11 @@
       <gebühr>gratis</gebühr>.</veranstaltungsgruppe>
 
       <veranstaltungsgruppe><thema>Kirchengeschichtliches Seminar</thema>:
-      <dozent><grad>D. th. &amp; ph.</grad> <nachname>Brieger</nachname>,
-      <funktion>P. O.</funktion></dozent>, <veranstaltung><thema><notiz
-      betreff="fortsetzung">I. Abth.</notiz>: Der Reichstag zu Worms 1521 und
-      die Sache Luthers</thema>, <zeit>Dienst. 5-7 U.</zeit>,
-      <modus>privatissime</modus>, aber
+      <dozent ref="brieger_jft"><grad>D. th. &amp; ph.</grad>
+      <nachname>Brieger</nachname>, <funktion>P. O.</funktion></dozent>,
+      <veranstaltung><thema><notiz betreff="fortsetzung">I. Abth.</notiz>: Der
+      Reichstag zu Worms 1521 und die Sache Luthers</thema>, <zeit>Dienst. 5-7
+      U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr></veranstaltung>; <veranstaltung><thema><notiz
       betreff="fortsetzung">II. Abth.</notiz> (Historicum der Lausitzer
       Predigergesellschaft): Zur Geschichte der Anfänge des
@@ -301,10 +304,10 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Historicum der Lausitzer Predigergeselslchaft (im
-      kirchengeschichtlichen Seminar)</thema>: <dozent><grad>D. th. &amp;
-      ph.</grad> <nachname>Brieger</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Freit. 6-7 U.</zeit>,
-      <modus>privatissime</modus>, aber
+      kirchengeschichtlichen Seminar)</thema>: <dozent
+      ref="brieger_jft"><grad>D. th. &amp; ph.</grad>
+      <nachname>Brieger</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Freit. 6-7 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Dogmatisches Seminar (Versöhnungslehre)</thema>:
@@ -469,9 +472,9 @@
       <funktion>P. O.</funktion></dozent>, <zeit>tägl. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Erklärung des Sachsenspiegels</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Burchard</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Donnerst. 9-10 U.</zeit>,
+      <veranstaltung><thema>Erklärung des Sachsenspiegels</thema>: <dozent
+      ref="burchard_k"><grad>D. jur.</grad> <nachname>Burchard</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geschichte der deutschen Rechtsquellen</thema>:
@@ -499,7 +502,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches bürgerliches Recht; Einleitung und
-      allgemeiner Theil</thema>: <dozent><grad>D. jur.</grad>
+      allgemeiner Theil</thema>: <dozent ref="burchard_k"><grad>D. jur.</grad>
       <nachname>Burchard</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont. bis Donnerst. 5-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -535,8 +538,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches Reichs- und Landesstaatsrecht</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Binding</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>tägl. (auser Freit.) 12-1 U.</zeit>,
+      <dozent ref="binding_kll"><grad>D. jur.</grad>
+      <nachname>Binding</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. (auser Freit.) 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Katholisches und Evangelisches Kirchenrecht mit
@@ -591,7 +595,7 @@
 
       <veranstaltung><thema>Gemeines deutsches Strafprocessrecht (nach seinem
       Grundriss des deutschen Strafprocessrechts, III. Aufl., Leipzig
-      1893)</thema>: <dozent><grad>D. jur.</grad>
+      1893)</thema>: <dozent ref="binding_kll"><grad>D. jur.</grad>
       <nachname>Binding</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich (ausser Freit.) 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -663,9 +667,9 @@
       <zeit>Freit. 6-8 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches Strafrechts-Praktikum mit schriftlichen
-      und mündlichen Uebungen der Theilnehmer</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Binding</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont. 6-8 U.</zeit>,
+      und mündlichen Uebungen der Theilnehmer</thema>: <dozent
+      ref="binding_kll"><grad>D. jur.</grad> <nachname>Binding</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont. 6-8 U.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Rechtsphilosophie (Naturrecht)</thema>:
@@ -890,22 +894,23 @@
       <seite>12</seite>
 
       <veranstaltung><thema>Arzneimittellehre mit der
-      Arzneiverordnungslehre</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 3-4 U.</zeit>,
+      Arzneiverordnungslehre</thema>: <dozent ref="boehm_r"><grad>D.
+      med.</grad> <nachname>Boehm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit. 3-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pharmakognosie des Pflanzenreichs und
-      Thierreichs</thema>: <dozent><grad>D. med.</grad>
+      Thierreichs</thema>: <dozent ref="boehm_r"><grad>D. med.</grad>
       <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. bis Freit. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Experimentelle Arbeiten im pharmakologischen
-      Institute für Fortgeschrittenere</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Sonnab. ganztägig</zeit>, <modus>privatissime</modus>,
-      aber <gebühr>gratis</gebühr>.</veranstaltung>
+      Institute für Fortgeschrittenere</thema>: <dozent ref="boehm_r"><grad>D.
+      med.</grad> <nachname>Boehm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Sonnab. ganztägig</zeit>,
+      <modus>privatissime</modus>, aber
+      <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Praktikum in der Anfertigung einfacher
       Arzneiformen und im Taxiren von Recepten (für Mediciner)</thema>:
@@ -929,14 +934,15 @@
       <trennlinie/>
 
       <veranstaltung><thema>Vorlesung und Demonstrationen über specielle
-      pathologische Anatomie</thema>: <dozent><grad>D. med.</grad>
+      pathologische Anatomie</thema>: <dozent
+      ref="birch-hirschfeld_fv"><grad>D. med.</grad>
       <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>täglich 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Praktischer Cursus der pathologischen
-      Geweblehre</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
+      Geweblehre</thema>: <dozent ref="birch-hirschfeld_fv"><grad>D.
+      med.</grad> <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Dienst. u. Freit. 2-4 U.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
 
@@ -946,7 +952,7 @@
       Sonnab. 9-½11 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung><thema>Arbeiten im pathologischen Institut für
-      Geübtere</thema>: <dozent><grad>D. med.</grad>
+      Geübtere</thema>: <dozent ref="birch-hirschfeld_fv"><grad>D. med.</grad>
       <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>tägl. 9-1 U. Vorm.</zeit>,
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1092,9 +1098,10 @@
       E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Orthopaedische Chirurgie</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Braun</nachname></dozent>, <zeit>Tag und Stunde
-      nach Verabredung</zeit>, <modus>publice</modus>.</veranstaltung>
+      <veranstaltung><thema>Orthopaedische Chirurgie</thema>: <dozent
+      ref="braun_h"><grad>D. med.</grad> <nachname>Braun</nachname></dozent>,
+      <zeit>Tag und Stunde nach Verabredung</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltungsgruppe><thema>Chirurgischer Operationscursus</thema>:
       <dozent><grad>D. med.</grad> <nachname>Tillmann</nachname>, <funktion>P.
@@ -1218,9 +1225,9 @@
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Untersuchungsmethoden und Diagnostik der Ohren-,
-      Nasen- und Halskrankheiten</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Barth</nachname>, <funktion>P. E. des.</funktion></dozent>,
-      <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
+      Nasen- und Halskrankheiten</thema>: <dozent ref="barth_af"><grad>D.
+      med.</grad> <nachname>Barth</nachname>, <funktion>P. E.
+      des.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <seite>16</seite>
@@ -1381,13 +1388,13 @@
       <veranstaltung><thema>Klinik und Poliklinik für Ohren-, Nasen- und
       Halskrankheiten: Praktikum für Geübtere (Vierteljahrescurs) in der
       Untersuchung und Behandlung von Kranken; Theilnehemerzahl auf 6
-      beschränkt, (dauert auch während der Ferien)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Barth</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>tägl. ½10-12 U.</zeit>,
+      beschränkt, (dauert auch während der Ferien)</thema>: <dozent
+      ref="barth_af"><grad>D. med.</grad> <nachname>Barth</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>tägl. ½10-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Arbeiten im Institut für Ohren-, Nasen- und
-      Halskrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Halskrankheiten</thema>: <dozent ref="barth_af"><grad>D. med.</grad>
       <nachname>Barth</nachname>, <funktion>P. E. des.</funktion></dozent>,
       <zeit>Zeit nach Verabredung</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1493,7 +1500,7 @@
           12-1 U.</zeit>, <modus>privatim</modus>. (<ort>Windmühlenstrasse
           35.</ort>)</veranstaltung>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="braun_h"><grad>D. med.</grad>
           <nachname>Braun</nachname></dozent>, <zeit>Mont. u. Donnerst. 4-5
           U.</zeit>, <modus>privatim</modus>. (<ort>Nürnberger Str. 22.
           I.</ort>)</veranstaltung>
@@ -1604,7 +1611,7 @@
           G.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Chemisches Praktikum für
-          Mediciner</thema>: <dozent><grad>D. ph.</grad>
+          Mediciner</thema>: <dozent ref="beckmann_eo"><grad>D. ph.</grad>
           <nachname>Beckmann</nachname>, <funktion>P. O.
           des.</funktion></dozent> <siehe>Siehe Philosophische Facultät
           G.</siehe></veranstaltungsverweis>
@@ -1738,9 +1745,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte und Kritik des Materialismus</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Barth</nachname></dozent>,
-        <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="barth_pee"><grad>D. ph.</grad>
+        <nachname>Barth</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die psychologischen und logischen Grundlagen der
         Pädagogik mit Berücksichtigung ihrer socialen Seite</thema>:
@@ -1750,9 +1757,9 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der neuesten Pädagogik von der
-        Aufklärung bis zur Gegenwart</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Barth</nachname></dozent>, <zeit>Mont. u. Donnerst. 6-7
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Aufklärung bis zur Gegenwart</thema>: <dozent ref="barth_pee"><grad>D.
+        ph.</grad> <nachname>Barth</nachname></dozent>, <zeit>Mont. u.
+        Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Didaktik der höheren Schule</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Richter</nachname>, <funktion>P.
@@ -1802,9 +1809,9 @@
         <modus>publice</modus></veranstaltung>. - 2)
         <veranstaltung><thema>(für Anfänger): Einführung in die Philosophie,
         ausgehend von Schopenhauers "Welt als Wille und Vorstellung", mit
-        schriftlichen Arbeiten</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Barth</nachname></dozent>, <zeit>Dienst. 7½-9 U. Ab.</zeit>,
-        <modus>privatissime</modus>, aber
+        schriftlichen Arbeiten</thema>: <dozent ref="barth_pee"><grad>D.
+        ph.</grad> <nachname>Barth</nachname></dozent>, <zeit>Dienst. 7½-9 U.
+        Ab.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Philosophisch-pädagogisches Seminar: Herbart's
@@ -2326,10 +2333,11 @@
           3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der französischen Litteratur im 18.
-          u. 19. Jahrhundert</thema>: <dozent><grad>D. ph.</grad>
-          <vorname>A.</vorname> <nachname>Birch-Hirschfeld</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
-          u. Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          u. 19. Jahrhundert</thema>: <dozent
+          ref="birch-hirschfeld_ga"><grad>D. ph.</grad> <vorname>A.</vorname>
+          <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
+          9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><zeit>Historische Grammatik des Rumänischen, II.
           Theil</zeit>: <dozent><grad>D. ph.</grad>
@@ -2398,10 +2406,11 @@
 
           <veranstaltungsgruppe><thema>Romanisches Seminar</thema>: I.
           Abtheilung: <veranstaltung><thema>Gegenstand der Uebungen wird
-          später bestimmt werden</thema>: <dozent><grad>D. ph.</grad>
-          <vorname>Ad.</vorname> <nachname>Birch-Hirschfeld</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. ¾8-½10
-          U.</zeit>, <modus>privatissime</modus>, aber
+          später bestimmt werden</thema>: <dozent
+          ref="birch-hirschfeld_ga"><grad>D. ph.</grad> <vorname>Ad.</vorname>
+          <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Donnerst. ¾8-½10 U.</zeit>,
+          <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr></veranstaltung>. - II. Abtheilung:
           <veranstaltung><thema>Neufranzösische Sprech- und
           Schreibübungen</thema>: <dozent><grad>D. ph.</grad>
@@ -2478,10 +2487,10 @@
         <zeit>Mittw. 9-10 U. Vorm.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Bibliothekkunde</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Buchholz</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>MIttw. 10-11 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Bibliothekkunde</thema>: <dozent
+        ref="buchholz_g"><grad>D. ph.</grad> <nachname>Buchholz</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>MIttw. 10-11
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der maurischen und christlichen
         Reiche Spaniens im Mittelalter</thema>: <dozent><grad>D. ph.</grad>
@@ -2489,7 +2498,7 @@
         U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Deutsche Geschichte im Zeitalter der
-        Staufer</thema>: <dozent><grad>D. ph.</grad>
+        Staufer</thema>: <dozent ref="buchholz_g"><grad>D. ph.</grad>
         <nachname>Buchholz</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>Dienst. u. Freit. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2529,9 +2538,10 @@
         Hon.</funktion></dozent>, <zeit>Sonnab. 12 bis 1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Sächsische Geschichte</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Brandenburg</nachname></dozent>, <zeit>Dienst. u.
-        Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Sächsische Geschichte</thema>: <dozent
+        ref="brandenburg_aoe"><grad>D. ph.</grad>
+        <nachname>Brandenburg</nachname></dozent>, <zeit>Dienst. u. Freit.
+        12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Preussische Geschichte</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Pückert</nachname>, <funktion>P.
@@ -2551,9 +2561,9 @@
         <zeit>einstünd.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die materialistische
-        Geschichtsauffassung</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Brandenburg</nachname></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        Geschichtsauffassung</thema>: <dozent ref="brandenburg_aoe"><grad>D.
+        ph.</grad> <nachname>Brandenburg</nachname></dozent>, <zeit>Mittw. 4-5
+        U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Religionsgeschichte</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Lindner</nachname>, <funktion>P.
@@ -2633,7 +2643,7 @@
               <veranstaltung><thema>Lektüre ausgewählter Geschichtsquellen des
               Mittelalters, Einführung in die Behandlung kritischer Fragen
               <seite>30</seite> vornehmlich an der Hand ottonischer
-              Quellen</thema>: <dozent><grad>D. ph.</grad>
+              Quellen</thema>: <dozent ref="buchholz_g"><grad>D. ph.</grad>
               <nachname>Buchholz</nachname>, <funktion>P. E.
               des.</funktion></dozent>, <zeit>Donnerst. 8-10 U. Ab.</zeit>,
               <modus>publice</modus>.</veranstaltung>
@@ -2763,9 +2773,9 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Geschichte der alten Kirche</thema>:
-          <dozent><grad>D. th. et ph.</grad> <nachname>Brieger</nachname>,
-          <funktion>P. O.</funktion></dozent> <siehe>Siehe Theologische
-          Facultät</siehe>.</veranstaltungsverweis>
+          <dozent ref="brieger_jft"><grad>D. th. et ph.</grad>
+          <nachname>Brieger</nachname>, <funktion>P. O.</funktion></dozent>
+          <siehe>Siehe Theologische Facultät</siehe>.</veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Kirchengeschichte seit der Reformation
           - Geschichte der kirchlichen Kunst</thema>: <dozent><grad>D. th. et
@@ -2774,9 +2784,9 @@
           Facultät</siehe>.</veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Erklärung des Sachsenspiegels</thema>:
-          <dozent><grad>D. jur.</grad> <nachname>Burchard</nachname>,
-          <funktion>P. E.</funktion></dozent> <siehe>Siehe Juristische
-          Facultät</siehe>.</veranstaltungsverweis>
+          <dozent ref="burchard_k"><grad>D. jur.</grad>
+          <nachname>Burchard</nachname>, <funktion>P. E.</funktion></dozent>
+          <siehe>Siehe Juristische Facultät</siehe>.</veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Geschichte der deutschen
           Rechtsquellen</thema>: <dozent><grad>D. jur. et ph.</grad>
@@ -3110,9 +3120,10 @@
         Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsche Reichs- und
-        Landesstaatsrecht</thema>: <dozent><grad>D. jur.</grad>
-        <nachname>Binding</nachname>, <funktion>P. O. Hon.</funktion></dozent>
-        <siehe>Siehe Juristische Facultät</siehe>.</veranstaltungsverweis>
+        Landesstaatsrecht</thema>: <dozent ref="binding_kll"><grad>D.
+        jur.</grad> <nachname>Binding</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent> <siehe>Siehe Juristische
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Rechtsstaat und parlamentarische
         Verfassung</thema>: <dozent><grad>D. jur.</grad>
@@ -3278,15 +3289,15 @@
         O.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u. Donnerst.
         10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Sphärische Astronomie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Bruns</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont. u. Sonnab. 11-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Sphärische Astronomie</thema>: <dozent
+        ref="bruns_eh"><grad>D. ph.</grad> <nachname>Bruns</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Sonnab. 11-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Theorie der optischen Instrumente</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Bruns</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>in zwei zu best. Stunden</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="bruns_eh"><grad>D. ph.</grad> <nachname>Bruns</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in zwei zu best.
+        Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einführung in die projective Geometrie (auch für
         Naturwissenschaftler)</thema>: <dozent><grad>D. ph.</grad>
@@ -3343,9 +3354,9 @@
         <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Seminar für wissenschaftliches Rechnen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Bruns</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>an zwei zu best. Stunden</zeit>,
-        <modus>privatissime</modus>, aber
+        <dozent ref="bruns_eh"><grad>D. ph.</grad> <nachname>Bruns</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>an zwei zu best.
+        Stunden</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -3390,8 +3401,8 @@
         <nachname>Wislicenus</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Dienst. 6-7½ U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Anorganische Experimentalchemie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Beckmann</nachname>,
+        <veranstaltung><thema>Anorganische Experimentalchemie</thema>: <dozent
+        ref="beckmann_eo"><grad>D. ph.</grad> <nachname>Beckmann</nachname>,
         <funktion>P. O. des.</funktion></dozent>, <zeit>Mont. bis Freit. 8-9
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3617,7 +3628,7 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum, ganz- und
-        halbtäg.</thema>: <dozent><grad>D. ph.</grad>
+        halbtäg.</thema>: <dozent ref="beckmann_eo"><grad>D. ph.</grad>
         <nachname>Beckmann</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>tägl. 8-12 u. (ausser Sonnab.) 2-6
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -3629,12 +3640,13 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum für Mediciner</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Beckmann</nachname>,
-        <funktion>P. O. des.</funktion></dozent>, <zeit>vierstünd. nach
-        Uebereinkunft</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="beckmann_eo"><grad>D. ph.</grad>
+        <nachname>Beckmann</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <zeit>vierstünd. nach Uebereinkunft</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Pharmaceutisches Praktikum</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Beckmann</nachname>,
+        <veranstaltung><thema>Pharmaceutisches Praktikum</thema>: <dozent
+        ref="beckmann_eo"><grad>D. ph.</grad> <nachname>Beckmann</nachname>,
         <funktion>P. O. des.</funktion></dozent> (in Gemeinschaft mit
         <dozent><grad>D. ph.</grad> <nachname>Paul</nachname></dozent>),
         <zeit>24stünd., nach Uebereinkunft</zeit>,
@@ -3659,8 +3671,8 @@
         Repetitorium</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Arbeiten auf dem Gebiete der
-        Nahrungsmittel-Chemie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Beckmann</nachname>, <funktion>P. O.
+        Nahrungsmittel-Chemie</thema>: <dozent ref="beckmann_eo"><grad>D.
+        ph.</grad> <nachname>Beckmann</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>tägl. 8-12 u. (ausser Sonnab.) 2-6
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 

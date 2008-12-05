@@ -844,12 +844,12 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl.
     <sachgruppe>
       <titel>V. Mathematik und Astronomie.</titel>
 
-      <veranstaltung><dozent><nachname>Brandes</nachname>, <vorname>H.
-      W.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>höhere
-      Geometrie</thema>, <zeit>4 U. 3 T.</zeit>
+      <veranstaltung><dozent ref="brandes_hw"><nachname>Brandes</nachname>,
+      <vorname>H. W.</vorname>, <funktion>P. O.</funktion></dozent>,
+      <thema>höhere Geometrie</thema>, <zeit>4 U. 3 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><ders>Derselbe</ders>,
+      <veranstaltung><ders ref="brandes_hw">Derselbe</ders>,
       <thema>Differentialrechnung</thema>, <zeit>5 U. 3 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
@@ -911,9 +911,9 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl.
       <sachgruppe>
         <titel>Physik.</titel>
 
-        <veranstaltung><dozent><nachname>Brandes</nachname>, <vorname>H.
-        W.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>der erste
-        Theil der Experimental-Physik</thema>, <zeit>11 U. 6
+        <veranstaltung><dozent ref="brandes_hw"><nachname>Brandes</nachname>,
+        <vorname>H. W.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <thema>der erste Theil der Experimental-Physik</thema>, <zeit>11 U. 6
         T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Fechner</nachname>, <grad>M.</grad>
@@ -1102,9 +1102,9 @@ daher kann auch kein Titel ausgezeichnet werden-->
             Theils des <titel>Jesaia</titel>s</schrift></thema>, <zeit>1 U. 2
             T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Anger</nachname>, <grad>M.</grad>
-            <vorname>R.</vorname></dozent>, <thema>Erklärung der Propheten
-            <schrift><titel>Nahum</titel></schrift>,
+            <veranstaltung><dozent ref="anger_r"><nachname>Anger</nachname>,
+            <grad>M.</grad> <vorname>R.</vorname></dozent>, <thema>Erklärung
+            der Propheten <schrift><titel>Nahum</titel></schrift>,
             <schrift><titel>Zacharias</titel></schrift>,
             <schrift><titel>Malachias</titel></schrift></thema>, <zeit>4 T. in
             zu best. St.</zeit>
@@ -1159,9 +1159,9 @@ siehe oben--></veranstaltung>
             <schrift><titel>Evang. Lucä</titel></schrift></thema>, <zeit>11 U.
             4 T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Anger</nachname>, <grad>M.</grad>
-            <vorname>R.</vorname></dozent>, <thema>Erklärung des
-            <schrift><titel>ersten Briefs Pauli an die
+            <veranstaltung><dozent ref="anger_r"><nachname>Anger</nachname>,
+            <grad>M.</grad> <vorname>R.</vorname></dozent>, <thema>Erklärung
+            des <schrift><titel>ersten Briefs Pauli an die
             Korinther</titel></schrift></thema>, <zeit>4 T. in zu best.
             St.</zeit></veranstaltung>
           </sachgruppe>
@@ -1194,10 +1194,10 @@ siehe oben--></veranstaltung>
             <modus>privatissime</modus>, aber
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Anger</nachname>, <grad>M.</grad>
-            <vorname>R.</vorname></dozent>, <thema>hebräisch-exegetische
-            Gesellschaft</thema>, <zeit>zu den best. T. u. St.</zeit>
-            <modus>privatissime</modus>, aber
+            <veranstaltung><dozent ref="anger_r"><nachname>Anger</nachname>,
+            <grad>M.</grad> <vorname>R.</vorname></dozent>,
+            <thema>hebräisch-exegetische Gesellschaft</thema>, <zeit>zu den
+            best. T. u. St.</zeit> <modus>privatissime</modus>, aber
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Redslob</nachname>,
@@ -1726,7 +1726,7 @@ Als zwei Schriften auszeichnen?-->
             <autor>Haubold</autor></thema>, <zeit>9 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Berger</nachname>,
+            <veranstaltung><dozent ref="berger_a"><nachname>Berger</nachname>,
             <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>königl.
             sächs. Privatrecht, nach <autor>Haubold</autor></thema>, <zeit>11
             U. 4 T.</zeit></veranstaltung>
@@ -1819,10 +1819,10 @@ Veranstaltung.--></veranstaltung>
               E.</funktion></dozent>, <thema>Strafrecht</thema>, <zeit>in zu
               best. St.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><nachname>Berger</nachname>,
-              <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>das
-              gesammte Criminalrecht</thema>, <zeit>10 U. 6
-              T.</zeit></veranstaltung>
+              <veranstaltung><dozent
+              ref="berger_a"><nachname>Berger</nachname>, <grad>D.</grad>
+              <vorname>A.</vorname></dozent>, <thema>das gesammte
+              Criminalrecht</thema>, <zeit>10 U. 6 T.</zeit></veranstaltung>
             </sachgruppe>
 
             <sachgruppe>
@@ -2177,10 +2177,10 @@ Veranstaltung.--></veranstaltung>
       <sachgruppe>
         <titel>Erläuterung griechischer Aerzte.</titel>
 
-        <veranstaltung><dozent><nachname>Braune</nachname>, <grad>D.</grad>
-        <vorname>A.</vorname></dozent>, <thema>über Hippokrates Buch de aere,
-        aquis et locis</thema>, <zeit>3 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung><dozent ref="braune_a"><nachname>Braune</nachname>,
+        <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>über
+        Hippokrates Buch de aere, aquis et locis</thema>, <zeit>3 U. 2
+        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <seite>20</seite>
@@ -2302,9 +2302,9 @@ Veranstaltung.--></veranstaltung>
           Symptomatologie</thema>, <zeit>8 U. 4 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Braune</nachname>, <grad>D.</grad>
-          <vorname>A.</vorname></dozent>, <thema>allgemeine Pathologie u.
-          Therapie</thema>, <zeit>7 U. 6 T.</zeit>
+          <veranstaltung><dozent ref="braune_a"><nachname>Braune</nachname>,
+          <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>allgemeine
+          Pathologie u. Therapie</thema>, <zeit>7 U. 6 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Funke</nachname>, <grad>D.</grad>
@@ -2320,8 +2320,9 @@ Veranstaltung.--></veranstaltung>
           <vorname>J.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>8
           U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltungsverweis><dozent><nachname>Braune</nachname>,
-          <grad>D.</grad> <vorname>A.</vorname></dozent>, <siehe>s. allgem.
+          <veranstaltungsverweis><dozent
+          ref="braune_a"><nachname>Braune</nachname>, <grad>D.</grad>
+          <vorname>A.</vorname></dozent>, <siehe>s. allgem.
           Pathologie</siehe>.</veranstaltungsverweis>
 
           <veranstaltung><dozent><nachname>Kneschke</nachname>,

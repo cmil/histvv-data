@@ -857,13 +857,13 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
     <sachgruppe>
       <titel>V. Mathematik und Astronomie.</titel>
 
-      <veranstaltung><dozent><nachname>Brandes</nachname>, <vorname>H.
-      W.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Trigonometrie
-      und die analytische Geometrie</thema>, <zeit>3 U. 4 T.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      <veranstaltung><dozent ref="brandes_hw"><nachname>Brandes</nachname>,
+      <vorname>H. W.</vorname>, <funktion>P. O.</funktion></dozent>,
+      <thema>Trigonometrie und die analytische Geometrie</thema>, <zeit>3 U. 4
+      T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><ders>Derselbe</ders>, <thema>Einleitung in die höhere
-      Analysis</thema>, <zeit>3 U. 2 T.</zeit>
+      <veranstaltung><ders ref="brandes_hw">Derselbe</ders>, <thema>Einleitung
+      in die höhere Analysis</thema>, <zeit>3 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><dozent ref="drobisch_mw"><nachname>Drobisch</nachname>,
@@ -935,8 +935,8 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
       <sachgruppe>
         <titel>Physik.</titel>
 
-        <veranstaltung><dozent><nachname>Brandes</nachname>, <vorname>H.
-        W.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <veranstaltung><dozent ref="brandes_hw"><nachname>Brandes</nachname>,
+        <vorname>H. W.</vorname>, <funktion>P. O.</funktion></dozent>,
         <thema>Experimental-Physik, <notiz betreff="fortsetzung">zweiter
         Theil</notiz> (die Lehren von der Elektricität, dem Magnetismus, der
         Wärme und dem Lichte)</thema>, <zeit>11 U. 6 T.</zeit></veranstaltung>
@@ -1088,15 +1088,16 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             Psalmen</thema>, <zeit>2 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Anger</nachname>, <grad>M.</grad>
-            <vorname>R.</vorname></dozent>, <thema>Erklärung des Buches Hiob,
-            <notiz betreff="fortsetzung">Forsetzung</notiz></thema>, <zeit>4
-            T. in zu best. St.</zeit>
-            <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+            <veranstaltung><dozent ref="anger_r"><nachname>Anger</nachname>,
+            <grad>M.</grad> <vorname>R.</vorname></dozent>, <thema>Erklärung
+            des Buches Hiob, <notiz
+            betreff="fortsetzung">Forsetzung</notiz></thema>, <zeit>4 T. in zu
+            best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Erklärung der
-            Propheten Micha und Nahum</thema>, <zeit>2 T. in zu best.
-            St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+            <veranstaltung><ders ref="anger_r">Derselbe</ders>,
+            <thema>Erklärung der Propheten Micha und Nahum</thema>, <zeit>2 T.
+            in zu best. St.</zeit>
+            <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
@@ -1134,10 +1135,11 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             T., welche von der Wiedererscheinung Christi handeln</thema>,
             <zeit>2 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Anger</nachname>, <grad>M.</grad>
-            <vorname>R.</vorname></dozent>, <thema>Erklärung der Briefe an die
-            Epheser, Kolosser, Philipper u. an Philemon</thema>, <zeit>4 T. in
-            zu best. St.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="anger_r"><nachname>Anger</nachname>,
+            <grad>M.</grad> <vorname>R.</vorname></dozent>, <thema>Erklärung
+            der Briefe an die Epheser, Kolosser, Philipper u. an
+            Philemon</thema>, <zeit>4 T. in zu best.
+            St.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Billroth</nachname>,
             <grad>M.</grad> <vorname>J. G. F.</vorname></dozent>, <thema>über
@@ -1182,10 +1184,10 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             <modus>privatissime</modus> aber
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Anger</nachname>, <grad>M.</grad>
-            <vorname>R.</vorname></dozent>, <thema>hebräisch-exegetische
-            Gesellschaft</thema>, <zeit>in den best. St.</zeit>
-            <modus>privatissime</modus> aber
+            <veranstaltung><dozent ref="anger_r"><nachname>Anger</nachname>,
+            <grad>M.</grad> <vorname>R.</vorname></dozent>,
+            <thema>hebräisch-exegetische Gesellschaft</thema>, <zeit>in den
+            best. St.</zeit> <modus>privatissime</modus> aber
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -1629,7 +1631,7 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             1829.)</thema>, <zeit>2 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Berger</nachname>,
+            <veranstaltung><dozent ref="berger_a"><nachname>Berger</nachname>,
             <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>königl.
             sächs. Privatrecht, nach <gesperrt>Haubold</gesperrt></thema>,
             <zeit>4 T. in zu best. St.</zeit></veranstaltung>
@@ -1696,10 +1698,11 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             <sachgruppe>
               <titel>2) Criminalrecht.</titel>
 
-              <veranstaltung><dozent><nachname>Berger</nachname>,
-              <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>das
-              Criminalrecht, verbunden mit Criminalproceß</thema>, <zeit>6 T.
-              in zu best. St.</zeit></veranstaltung>
+              <veranstaltung><dozent
+              ref="berger_a"><nachname>Berger</nachname>, <grad>D.</grad>
+              <vorname>A.</vorname></dozent>, <thema>das Criminalrecht,
+              verbunden mit Criminalproceß</thema>, <zeit>6 T. in zu best.
+              St.</zeit></veranstaltung>
 
               <seite>18</seite>
 
@@ -1928,7 +1931,7 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             das ganze Recht oder einzelne Theile desselben</thema>, <zeit>in
             zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Berger</nachname>,
+            <veranstaltung><dozent ref="berger_a"><nachname>Berger</nachname>,
             <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>über alle
             Theile des Rechts</thema>, <zeit>in den
             best<korrektur>.</korrektur> u. zu best.
@@ -2250,10 +2253,11 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
           <vorname>A. F.</vorname></dozent>, <zeit>8 oder 9 U. 4 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Braune</nachname>, <grad>D.</grad>
-          <vorname>A.</vorname></dozent>, <thema>die allgemeine Pathologie u.
-          Therapie nach eignen Heften</thema>, <zeit>6 T. in zu best.
-          St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung><dozent ref="braune_a"><nachname>Braune</nachname>,
+          <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>die
+          allgemeine Pathologie u. Therapie nach eignen Heften</thema>,
+          <zeit>6 T. in zu best. St.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><dozent><nachname>Wiese</nachname>,
           <grad>D.</grad> <vorname>F. A.</vorname></dozent>, <siehe>s.
@@ -2263,8 +2267,9 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
         <sachgruppe>
           <titel>4) Allgemeine Therapie.</titel>
 
-          <veranstaltungsverweis><dozent><nachname>Braune</nachname>,
-          <grad>D.</grad> <vorname>A.</vorname>,</dozent> <siehe>s. allgemeine
+          <veranstaltungsverweis><dozent
+          ref="braune_a"><nachname>Braune</nachname>, <grad>D.</grad>
+          <vorname>A.</vorname>,</dozent> <siehe>s. allgemeine
           Pathologie</siehe>.</veranstaltungsverweis>
         </sachgruppe>
 
