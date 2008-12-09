@@ -420,8 +420,8 @@
       <titel>IV. Staatswissenschaften.</titel>
 
       <veranstaltung><thema>Encyclopädie der Staatswissenschaften</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Bülau</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
+      <dozent ref="buelau_f"><grad>D. ph.</grad> <nachname>Bülau</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -1193,9 +1193,9 @@ nur einmal da!-->
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Praktisches europäisches Völkerrecht</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Bülau</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 U. Mont., Dienst. und Freit.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="buelau_f"><grad>D. ph.</grad> <nachname>Bülau</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. Mont., Dienst. und
+        Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1318,16 +1318,16 @@ nur einmal da!-->
         ref="bock_ce">Derselbe</ders>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Vergleichende Anatomie, <notiz
-        betreff="fortsetzung">1. Th.</notiz></thema>: <dozent><grad>D.</grad>
-        <nachname>Carus</nachname></dozent>, <zeit>3 U. 4 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        betreff="fortsetzung">1. Th.</notiz></thema>: <dozent
+        ref="carus_jv"><grad>D.</grad> <nachname>Carus</nachname></dozent>,
+        <zeit>3 U. 4 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Vergleichende Entwickelungsgeschichte</thema>:
-        <ders>Derselbe</ders>, <zeit>2-4 U. 2 T. (Dienst. u. Freit.)</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <ders ref="carus_jv">Derselbe</ders>, <zeit>2-4 U. 2 T. (Dienst. u.
+        Freit.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Anatomie oder Geweblehre der
-        Thiere</thema>: <ders>Derselbe</ders>, <zeit>7 U. 4
+        Thiere</thema>: <ders ref="carus_jv">Derselbe</ders>, <zeit>7 U. 4
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Vergleichende Anatomie der Wirbelthiere</thema>:
@@ -1373,8 +1373,9 @@ nur einmal da!-->
         <siehe>s. Arzneimittellehre</siehe>.</veranstaltungsverweis>
 
         <veranstaltung><thema>Allgemeine Pathologie und Therapie</thema>:
-        <dozent><grad>D.</grad> <nachname>Clarus</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>2 U. 3 T.</zeit></veranstaltung>
+        <dozent ref="clarus_hj"><grad>D.</grad> <nachname>Clarus</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>2 U. 3
+        T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Geweblehre des menschlichen Körpers im
         gesunden und kranken Zustande</thema>: <dozent><grad>D.</grad>
@@ -1414,8 +1415,9 @@ nur einmal da!-->
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Arzneimittellehre und Receptirkunde</thema>:
-        <dozent><grad>D.</grad> <nachname>Clarus</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>5 U. 3 T.</zeit></veranstaltung>
+        <dozent ref="clarus_hj"><grad>D.</grad> <nachname>Clarus</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>5 U. 3
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Toxikologie, mit besonderer Rücksicht auf die
         Erkennung der Gifte im Organismus</thema>: <dozent><grad>D. ph.</grad>
@@ -1487,7 +1489,7 @@ nur einmal da!-->
         <modus>öffentl.</modus></veranstaltung>
 
         <veranstaltung><thema>Specielle Krankheitslehre des menschl.
-        Auges</thema>: <dozent><grad>D.</grad>
+        Auges</thema>: <dozent ref="coccius_ea"><grad>D.</grad>
         <nachname>Coccius</nachname></dozent>, <zeit>3 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -1538,8 +1540,9 @@ nur einmal da!-->
         O.</funktion></dozent>, <zeit>4-6 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Cursus der operativen Augenheilkunde</thema>:
-        <dozent><grad>D.</grad> <nachname>Coccius</nachname></dozent>,
-        <zeit>in zu best. St.</zeit> <modus>privatissime</modus> aber
+        <dozent ref="coccius_ea"><grad>D.</grad>
+        <nachname>Coccius</nachname></dozent>, <zeit>in zu best. St.</zeit>
+        <modus>privatissime</modus> aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Ueber die chirurg. Behandlung der Harnblasen-
@@ -1593,11 +1596,11 @@ nur einmal da!-->
         <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>8-9½ U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Medicinische Poliklinik</thema>:
-        <dozent><grad>D.</grad> <nachname>Cerutti</nachname>, <funktion>P.
-        O.</funktion></dozent>, in Verb. mit <dozent><grad>D.</grad>
-        <nachname>Hennig</nachname></dozent>, <zeit>2 U. 6 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Medicinische Poliklinik</thema>: <dozent
+        ref="cerutti_fpl"><grad>D.</grad> <nachname>Cerutti</nachname>,
+        <funktion>P. O.</funktion></dozent>, in Verb. mit
+        <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <zeit>2
+        U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Klinische Demonstrationen <ort>im
         Georgenhospitale</ort></thema>: <dozent><grad>D.</grad>
@@ -1634,8 +1637,9 @@ nur einmal da!-->
 
         <veranstaltung><thema><scil
         text="Klinik d. Augenheilkunde in der Heilanstalt für Augenkranke">Dieselbe</scil></thema>:
-        <dozent><grad>D.</grad> <nachname>Coccius</nachname></dozent>, <zeit>4
-        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <dozent ref="coccius_ea"><grad>D.</grad>
+        <nachname>Coccius</nachname></dozent>, <zeit>4 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>

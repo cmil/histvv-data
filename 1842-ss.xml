@@ -562,7 +562,7 @@
       <titel>IV. Staatswissenschaften.</titel>
 
       <veranstaltung><thema>Encyklopädie der Staatswissenschaften</thema>:
-      <dozent><nachname>Bülau</nachname>, <funktion>P. O.
+      <dozent ref="buelau_f"><nachname>Bülau</nachname>, <funktion>P. O.
       des.</funktion></dozent>, <zeit>11 U. Mont. u. Donn.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
@@ -572,9 +572,10 @@
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Darstellung der Verfassung Deutschlands u. seiner
-      einzelnen Staaten</thema>: <dozent><nachname>Bülau</nachname>,
-      <funktion>P. O. des.</funktion></dozent>, <zeit>11 U. Dienst. u.
-      Freit.</zeit> <modus>öffentl.</modus></veranstaltung>
+      einzelnen Staaten</thema>: <dozent
+      ref="buelau_f"><nachname>Bülau</nachname>, <funktion>P. O.
+      des.</funktion></dozent>, <zeit>11 U. Dienst. u. Freit.</zeit>
+      <modus>öffentl.</modus></veranstaltung>
 
       <veranstaltung><thema>Darstellung der Entstehung u. Entwickelung der
       Verfassung in den Hauptstaaten Europas</thema>: <dozent><grad>M.</grad>
@@ -586,7 +587,7 @@
       Rechtswissenschaft</siehe>.</veranstaltungsverweis>
 
       <veranstaltung><thema>Praktisches europäisches Völkerrecht</thema>:
-      <dozent><nachname>Bülau</nachname>, <funktion>P. O.
+      <dozent ref="buelau_f"><nachname>Bülau</nachname>, <funktion>P. O.
       des.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -1686,7 +1687,7 @@
 
         <veranstaltungsgruppe><thema>Erster Theil des in einem Jahre zu
         vollendenden Cursus der speciellen Pathologie und Therapie (die acuten
-        Krankheiten)</thema>: <dozent><grad>D.</grad>
+        Krankheiten)</thema>: <dozent ref="cerutti_fpl"><grad>D.</grad>
         <nachname>Cerutti</nachname>, <funktion>P. O.</funktion></dozent>,
         <veranstaltung><zeit>11 U. 2 T.</zeit>
         <modus>öffentlich</modus></veranstaltung> u. <veranstaltung><zeit>4 U.
@@ -1773,9 +1774,9 @@
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>4 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Die gesammte Chirurgie</thema>:
-        <dozent><grad>D.</grad> <nachname>Carus</nachname></dozent>, <zeit>2
-        U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Die gesammte Chirurgie</thema>: <dozent
+        ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>,
+        <zeit>2 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Specielle Chirurgie, <notiz>2.
         Theil</notiz></thema>: <dozent><grad>D.</grad>
@@ -1806,13 +1807,13 @@
         St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Verbandlehre in Verbindung mit der
-        Lehre von den chirurgischen Instrumenten u. Maschinen</thema>:
-        <dozent><grad>D.</grad> <nachname>Carus</nachname></dozent>, <zeit>2
-        U. 2 T.</zeit></veranstaltung>
+        Lehre von den chirurgischen Instrumenten u. Maschinen</thema>: <dozent
+        ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>,
+        <zeit>2 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Orthopädie oder die Lehre von den
-        Verkrümmungen</thema>: <ders>Derselbe</ders>, <zeit>8 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        Verkrümmungen</thema>: <ders ref="carus_ea">Derselbe</ders>, <zeit>8
+        U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Operationscursus</thema>:
         <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P. O.
@@ -1844,11 +1845,12 @@
         <nachname>Clarus</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>6 T. 9 - 11 U.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Poliklinik</thema>: <dozent><grad>D.</grad>
-        <nachname>Cerutti</nachname>, <funktion>P. O.</funktion></dozent>, in
-        Verbindung mit <dozent ref="braune_a"><grad>D.</grad>
-        <nachname>Braune</nachname>, <funktion>P. O. des.</funktion></dozent>,
-        <zeit>2 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Poliklinik</thema>: <dozent
+        ref="cerutti_fpl"><grad>D.</grad> <nachname>Cerutti</nachname>,
+        <funktion>P. O.</funktion></dozent>, in Verbindung mit <dozent
+        ref="braune_a"><grad>D.</grad> <nachname>Braune</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>2 U. 6 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Klinische Demonstrationen am
         Krankenbette</thema>, <ort>im Hospital zu St. Georgen</ort>:
@@ -1873,9 +1875,9 @@
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>:
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, in verbindung mit <dozent><grad>D.</grad>
-        <nachname>Carus</nachname></dozent>, <zeit>11 U. 6 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        des.</funktion></dozent>, in verbindung mit <dozent
+        ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>,
+        <zeit>11 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>

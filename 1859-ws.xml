@@ -105,9 +105,9 @@
           E.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltungsverweis><thema>Philosophisches Staatsrecht</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Bülau</nachname>, <funktion>P.
-          O.</funktion></dozent> <siehe>s.
-          Staatswissenschaften</siehe>.</veranstaltungsverweis>
+          <dozent ref="buelau_f"><grad>D. ph.</grad>
+          <nachname>Bülau</nachname>, <funktion>P. O.</funktion></dozent>
+          <siehe>s. Staatswissenschaften</siehe>.</veranstaltungsverweis>
         </sachgruppe>
 
         <sachgruppe>
@@ -573,7 +573,7 @@
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Philosophisches Staatsrecht und Grundlehren der
-      Polittik</thema>: <dozent><grad>D. ph.</grad>
+      Polittik</thema>: <dozent ref="buelau_f"><grad>D. ph.</grad>
       <nachname>Bülau</nachname>, <funktion>P. O.</funktion></dozent>, <zeit>3
       U. 2 T. (Dienst<korrektur>.</korrektur> u. Freit.)</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
@@ -584,10 +584,10 @@
       <zeit>6 U. 2 T. (Mont. u. Donn.)</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Ueber die englische Verfassung</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Bülau</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>12 U. 2 T. (Mont. u. Donn.)</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      <veranstaltung><thema>Ueber die englische Verfassung</thema>: <dozent
+      ref="buelau_f"><grad>D. ph.</grad> <nachname>Bülau</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>12 U. 2 T. (Mont. u.
+      Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Vergleichende Geschichte des englischen und des
       französischen Staats</thema>: <dozent><grad>D. ph.</grad>
@@ -598,9 +598,9 @@
       <absatz>Deutsches und sächsisches Staatsrecht, <siehe>s.
       Rechtswissenschaft</siehe>.</absatz>
 
-      <veranstaltung><thema>Polizeiwissenschaft</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Bülau</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. u.
+      <veranstaltung><thema>Polizeiwissenschaft</thema>: <dozent
+      ref="buelau_f"><grad>D. ph.</grad> <nachname>Bülau</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. u.
       Freit.)</zeit></veranstaltung>
 
       <trennlinie/>
@@ -839,9 +839,10 @@
         O.</funktion></dozent>, <zeit>3-5 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Vergleichende Anatomie der Wirbelthiere
-        und vergleichende Knochenlehre</thema>: <dozent><grad>D.</grad>
-        <nachname>Carus</nachname>, <funktion>P. E.</funktion></dozent>,
-        <siehe>s. Anatomie</siehe>.</veranstaltungsverweis>
+        und vergleichende Knochenlehre</thema>: <dozent
+        ref="carus_jv"><grad>D.</grad> <nachname>Carus</nachname>,
+        <funktion>P. E.</funktion></dozent>, <siehe>s.
+        Anatomie</siehe>.</veranstaltungsverweis>
 
         <sachgruppe>
           <titel>Botanische und zoologische Uebungen.</titel>
@@ -1563,11 +1564,12 @@
         Chirurgie</siehe>.</veranstaltungsverweis>
 
         <veranstaltung><thema>Vergleichende Anatomie der Wirbelthiere</thema>:
-        <dozent><grad>D.</grad> <nachname>Carus</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>3 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="carus_jv"><grad>D.</grad> <nachname>Carus</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>3 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Vergleichende Knochenlehre</thema>:
-        <ders>Derselbe</ders>, <zeit>2 U. 2 T.</zeit>
+        <veranstaltung><thema>Vergleichende Knochenlehre</thema>: <ders
+        ref="carus_jv">Derselbe</ders>, <zeit>2 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
@@ -1613,8 +1615,8 @@
         <titel>IV. Allgemeine Pathologie und Therapie.</titel>
 
         <veranstaltung><thema>Allgemeine Pathologie und Therapie</thema>:
-        <dozent><grad>D.</grad> <nachname>Clarus</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>6 U. Ab. 5 T. (ausschl.
+        <dozent ref="clarus_hj"><grad>D.</grad> <nachname>Clarus</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>6 U. Ab. 5 T. (ausschl.
         Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Allgemeine Pathologie</thema>:
@@ -1780,13 +1782,14 @@
         T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Pathologie und Diagnostik der
-        Augenkrankheiten</thema>: <dozent><grad>D.</grad>
+        Augenkrankheiten</thema>: <dozent ref="coccius_ea"><grad>D.</grad>
         <nachname>Coccius</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>2 T. in zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Operations-Cursus der Augenkrankheiten</thema>:
-        <ders>Derselbe</ders>, <zeit>2 U. 3 T.</zeit></veranstaltung>
+        <ders ref="coccius_ea">Derselbe</ders>, <zeit>2 U. 3
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>

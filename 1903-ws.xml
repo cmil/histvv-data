@@ -763,9 +763,9 @@
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Spezielle
       Volkswirtschaftslehre</thema></veranstaltungsverweis> -
       <veranstaltungsverweis><thema>Finanzwissenschaft</thema></veranstaltungsverweis>:
-      <dozent><grad>D. ph.</grad> <nachname>Bücher</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
-      E.</siehe></veranstaltungsgruppe>
+      <dozent ref="buecher_kw"><grad>D. ph.</grad>
+      <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>
+      <siehe>Siehe Philosophische Fakultät E.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Volkswirtschaftliche Zeitfragen</thema>:
       <dozent><grad>D. ph.</grad> <nachname>Eulenburg</nachname></dozent>.
@@ -797,10 +797,10 @@
       <veranstaltungsverweis><thema>Vereinigte Staatswissenschaftliche
       Seminare</thema>: <dozent><grad>D. ph., jur. et oecon. publ.</grad>
       <nachname>Fricker</nachname>, <funktion>P. O.</funktion></dozent>,
-      <dozent><grad>D. ph.</grad> <nachname>Bücher</nachname>, <funktion>P.
-      O.</funktion></dozent>, <dozent><grad>D. ph.</grad>
-      <nachname>Eulenburg</nachname></dozent>. <siehe>Siehe Philosophische
-      Fakultät E.</siehe></veranstaltungsverweis>
+      <dozent ref="buecher_kw"><grad>D. ph.</grad>
+      <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>,
+      <dozent><grad>D. ph.</grad> <nachname>Eulenburg</nachname></dozent>.
+      <siehe>Siehe Philosophische Fakultät E.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Staatswissenschaftliche Übungen</thema>:
       <dozent><grad>D. ph. et oec. publ.</grad> <nachname>Stieda</nachname>,
@@ -3260,15 +3260,15 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Spezielle Volkswirtschaftslehre und
-        Wirtschaftspolitik (Praktische Nationalökonomie)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Bücher</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont. bis Freit. 8-9 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
-
-        <veranstaltung><thema>Finanzwissenschaft</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Bücher</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 9-10
+        Wirtschaftspolitik (Praktische Nationalökonomie)</thema>: <dozent
+        ref="buecher_kw"><grad>D. ph.</grad> <nachname>Bücher</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 8-9
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Finanzwissenschaft</thema>: <dozent
+        ref="buecher_kw"><grad>D. ph.</grad> <nachname>Bücher</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
+        u. Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Handelsgeschichte bis zur
         Gegenwart</thema>: <dozent><grad>D. ph.</grad>
@@ -3466,10 +3466,11 @@
         <trennlinie/>
 
         <veranstaltungsgruppe><thema>Vereinigte staatswissenschaftliche
-        Seminare</thema>: <veranstaltungsgruppe>1) <dozent><grad>D. ph.</grad>
-        <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>,
-        <veranstaltung><thema>Kursus für Vorgeschrittenere</thema>,
-        <zeit>Dienst. 6 bis 8 U.</zeit>, <modus>privatissime</modus>, sed
+        Seminare</thema>: <veranstaltungsgruppe>1) <dozent
+        ref="buecher_kw"><grad>D. ph.</grad> <nachname>Bücher</nachname>,
+        <funktion>P. O.</funktion></dozent>, <veranstaltung><thema>Kursus für
+        Vorgeschrittenere</thema>, <zeit>Dienst. 6 bis 8 U.</zeit>,
+        <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung> -
         <veranstaltungsgruppe>Ausserdem in seinem Auftrage: <thema>Kurse für
         Anfänger</thema>: <veranstaltung>a) <dozent><grad>D. ph.</grad>
@@ -3814,7 +3815,7 @@
 
         <veranstaltung><thema>Die Pilze, mit besonderer Berücksichtigung der
         schädlichen und nützlichen Arten (mit Ausschluss der
-        Bakterien)</thema>: <dozent><grad>D. ph.</grad>
+        Bakterien)</thema>: <dozent ref="correns_cfje"><grad>D. ph.</grad>
         <nachname>Correns</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>Donnerst. u. Freit. 6-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -4024,10 +4025,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Übungen im Untersuchen von Nahrungs- und
-        Genussmitteln mit dem Mikroskop</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Correns</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>Sonnab. 9-11 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Genussmitteln mit dem Mikroskop</thema>: <dozent
+        ref="correns_cfje"><grad>D. ph.</grad> <nachname>Correns</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>Sonnab. 9-11
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Experimentelle Arbeiten <ort>im
         pharmakologischen Institut</ort> <seite>43</seite>für

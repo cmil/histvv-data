@@ -629,9 +629,9 @@
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Allgemeine Staatslehre u. Hauptsätze der
-      Politik</thema>: <dozent><nachname>Bülau</nachname>, <funktion>P. O.
-      des.</funktion></dozent>, <zeit>11 U. Mont. u. Donn.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      Politik</thema>: <dozent ref="buelau_f"><nachname>Bülau</nachname>,
+      <funktion>P. O. des.</funktion></dozent>, <zeit>11 U. Mont. u.
+      Donn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Allgemeines u. sächsisches
       Staatsrecht</thema>: <siehe>s.
@@ -639,9 +639,9 @@
 
       <veranstaltung><thema>Oeffentliches Recht einiger <korrektur
       original="europäischen">europäischer</korrektur> Hauptstaaten</thema>:
-      <dozent><nachname>Bülau</nachname><korrektur original=":">,</korrektur>
-      <funktion>P. O. des.</funktion></dozent>, <zeit>11
-      <korrektur>U</korrektur> Dienst. u. Freit.</zeit>
+      <dozent ref="buelau_f"><nachname>Bülau</nachname><korrektur
+      original=":">,</korrektur> <funktion>P. O. des.</funktion></dozent>,
+      <zeit>11 <korrektur>U</korrektur> Dienst. u. Freit.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Constitutionelles Staatsrecht mit besonderer
@@ -651,12 +651,12 @@
       T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Ueber die Verfassungsurkunde des Königreichs
-      Sachsen</thema>: <dozent><nachname>Bülau</nachname>, <funktion>P. O.
-      des.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
+      Sachsen</thema>: <dozent ref="buelau_f"><nachname>Bülau</nachname>,
+      <funktion>P. O. des.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-      <veranstaltung><thema>Finanzwissenschaft</thema>: <ders>Derselbe</ders>,
-      <zeit>3 U. 2 T.</zeit></veranstaltung>
+      <veranstaltung><thema>Finanzwissenschaft</thema>: <ders
+      ref="buelau_f">Derselbe</ders>, <zeit>3 U. 2 T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Nationalökonomie</thema>:
       <dozent><nachname>Hanssen</nachname>, <funktion>P. O.
@@ -1707,11 +1707,11 @@
 
         <veranstaltungsgruppe><thema><notiz>Zweiter Theil</notiz> des in einem
         Jahre zu vollendenden Cursus der speciellen Pathologie und Therapie
-        (die chronischen Krankheiten)</thema>: <dozent><grad>D.</grad>
-        <nachname>Cerutti</nachname>, <funktion>P. O.</funktion></dozent>,
-        <veranstaltung><zeit>4 U. 4 T.</zeit>
-        <modus>privatim</modus></veranstaltung> und <veranstaltung><zeit>4 U.
-        2 T.</zeit>
+        (die chronischen Krankheiten)</thema>: <dozent
+        ref="cerutti_fpl"><grad>D.</grad> <nachname>Cerutti</nachname>,
+        <funktion>P. O.</funktion></dozent>, <veranstaltung><zeit>4 U. 4
+        T.</zeit> <modus>privatim</modus></veranstaltung> und
+        <veranstaltung><zeit>4 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung></veranstaltungsgruppe>
 
         <seite>18</seite>
@@ -1787,9 +1787,9 @@
         <nachname>Günther</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Die gesammte Chirurgie</thema>:
-        <dozent><grad>D.</grad> <nachname>Carus</nachname></dozent>, <zeit>2
-        U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Die gesammte Chirurgie</thema>: <dozent
+        ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>,
+        <zeit>2 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber Wunden</thema>: <dozent><grad>D.</grad>
         <nachname>Walther</nachname>, <funktion>P. O.
@@ -1807,14 +1807,14 @@
         St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Orthopädie oder die Lehre von den
-        Verkrümmungen</thema>: <dozent><grad>D.</grad>
+        Verkrümmungen</thema>: <dozent ref="carus_ea"><grad>D.</grad>
         <nachname>Carus</nachname></dozent>, <zeit>3 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Chirurgische Verbandlehre in Verbindung mit der
-        Lehre von den Knochenbrüchen und Verrenkungen</thema>:
-        <dozent><grad>D.</grad> <nachname>Carus</nachname></dozent>, <zeit>2
-        U. 2 T.</zeit></veranstaltung>
+        Lehre von den Knochenbrüchen und Verrenkungen</thema>: <dozent
+        ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>,
+        <zeit>2 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber einige Kapitel der Chirurgie</thema>:
         <dozent><grad>D.</grad> <nachname>Francke</nachname></dozent>, <zeit>2
@@ -1864,11 +1864,12 @@
         des.</funktion></dozent>, <zeit>6 T. von 8 ½ - 10
         U.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Poliklinik</thema>: <dozent><grad>D.</grad>
-        <nachname>Cerutti</nachname>, <funktion>P. O.</funktion></dozent>, in
-        Verbindung mit <dozent ref="braune_a"><grad>D.</grad>
-        <nachname>Braune</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>2 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Poliklinik</thema>: <dozent
+        ref="cerutti_fpl"><grad>D.</grad> <nachname>Cerutti</nachname>,
+        <funktion>P. O.</funktion></dozent>, in Verbindung mit <dozent
+        ref="braune_a"><grad>D.</grad> <nachname>Braune</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>2 U. 6 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Klinische Demonstrationen am
         Krankenbette</thema>, <ort>im Hospital zu St. Georgen</ort>:
@@ -1883,8 +1884,9 @@
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>:
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, in Verbindung mit <dozent><grad>D.</grad>
-        <nachname>Carus</nachname></dozent>, <zeit>11 U. 6 T.</zeit>
+        des.</funktion></dozent>, in Verbindung mit <dozent
+        ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>,
+        <zeit>11 U. 6 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 

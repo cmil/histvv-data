@@ -398,8 +398,8 @@
 
       <trennlinie/>
 
-      <veranstaltung><thema>Politik</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Bülau</nachname>, <funktion>P. O.</funktion>, d. Z.
+      <veranstaltung><thema>Politik</thema>: <dozent ref="buelau_f"><grad>D.
+      ph.</grad> <nachname>Bülau</nachname>, <funktion>P. O.</funktion>, d. Z.
       <funktion>Rector</funktion></dozent>, <zeit>3 U. 4 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
@@ -417,10 +417,10 @@
       <veranstaltung><thema>Finanzwissenschaft u. Finanzstatistik</thema>:
       <ders>Derselbe</ders>, <zeit>11 U. 2 oder 3 T.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Besteuerungslehre</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Bülau</nachname>, <funktion>P. O.</funktion>, d. Z.
-      <funktion>Rector</funktion></dozent>, <zeit>3 U. 2
-      T.</zeit></veranstaltung>
+      <veranstaltung><thema>Besteuerungslehre</thema>: <dozent
+      ref="buelau_f"><grad>D. ph.</grad> <nachname>Bülau</nachname>,
+      <funktion>P. O.</funktion>, d. Z. <funktion>Rector</funktion></dozent>,
+      <zeit>3 U. 2 T.</zeit></veranstaltung>
     </sachgruppe>
 
     <sachgruppe>
@@ -1281,17 +1281,17 @@
         <seite>15</seite>
 
         <veranstaltung><thema>Allgemeine Anatomie oder Geweblehre der
-        Thiere</thema>: <dozent><grad>D.</grad>
+        Thiere</thema>: <dozent ref="carus_jv"><grad>D.</grad>
         <nachname>Carus</nachname></dozent>, <zeit>4 T. in zu best.
         St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Vergleichende Anatomie (<notiz
-        betreff="fortsetzung">Forts.</notiz>)</thema>: <ders>Derselbe</ders>,
-        <zeit>4 T. in zu best. St.</zeit>
+        betreff="fortsetzung">Forts.</notiz>)</thema>: <ders
+        ref="carus_jv">Derselbe</ders>, <zeit>4 T. in zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Vergleichende Knochenlehre</thema>:
-        <ders>Derselbe</ders>, <zeit>2 T. in zu best. St.</zeit>
+        <veranstaltung><thema>Vergleichende Knochenlehre</thema>: <ders
+        ref="carus_jv">Derselbe</ders>, <zeit>2 T. in zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Vergleichende Anatomie der Wirbelthiere</thema>:
@@ -1324,8 +1324,8 @@
         <titel>III. Allgemeine Pathologie und Therapie.</titel>
 
         <veranstaltung><thema>Allgemeine Pathologie und Therapie</thema>:
-        <dozent><grad>D.</grad> <nachname>Clarus</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>2 U. 3 T. (Mont., Mittw. u.
+        <dozent ref="clarus_hj"><grad>D.</grad> <nachname>Clarus</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>2 U. 3 T. (Mont., Mittw. u.
         Sonnab.)</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Allgemeine Therapie und
@@ -1382,9 +1382,9 @@
         <seite>16</seite>
 
         <veranstaltung><thema>Arzneimittellehre und Receptirkunde</thema>:
-        <dozent><grad>D.</grad> <nachname>Clarus</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>5 U. Abends 3 T. (Dienst., Donn. u.
-        Sonn.)</zeit></veranstaltung>
+        <dozent ref="clarus_hj"><grad>D.</grad> <nachname>Clarus</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>5 U. Abends 3 T. (Dienst.,
+        Donn. u. Sonn.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Heilquellenlehre, nach s. Lehrbuche</thema>:
         <dozent><grad>D.</grad> <nachname>Schwartze</nachname>, <funktion>P.
@@ -1406,9 +1406,10 @@
       <sachgruppe>
         <titel>V. Specielle Pathologie und Therapie.</titel>
 
-        <veranstaltung><thema>Fieberlehre</thema>: <dozent><grad>D.</grad>
-        <nachname>Cerutti</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Fieberlehre</thema>: <dozent
+        ref="cerutti_fpl"><grad>D.</grad> <nachname>Cerutti</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Specielle Pathologie und Therapie der
         Krankheiten des Nervensystems</thema>: <dozent><grad>D.</grad>
@@ -1448,7 +1449,7 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Specielle Pathologie und Therapie des
-        menschlichen Auges</thema>: <dozent><grad>D.</grad>
+        menschlichen Auges</thema>: <dozent ref="coccius_ea"><grad>D.</grad>
         <nachname>Coccius</nachname></dozent>, <zeit>2 T. in zu best.
         St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -1555,9 +1556,9 @@
         <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11-1 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Medicinische Poliklinik</thema>:
-        <dozent><grad>D.</grad> <nachname>Cerutti</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>2 U. 6 T.</zeit>
+        <veranstaltung><thema>Medicinische Poliklinik</thema>: <dozent
+        ref="cerutti_fpl"><grad>D.</grad> <nachname>Cerutti</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>2 U. 6 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Klinische Demonstrationen <ort>im
@@ -1589,8 +1590,8 @@
 
         <veranstaltung><thema><scil
         text="Klinik über Augenkrankheiten in der Heilanstalt für Augenkranke">Dieselbe</scil></thema>:
-        <dozent><grad>D.</grad> <nachname>Coccius</nachname></dozent>,
-        <zeit>11 U. 4 T.</zeit>
+        <dozent ref="coccius_ea"><grad>D.</grad>
+        <nachname>Coccius</nachname></dozent>, <zeit>11 U. 4 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 

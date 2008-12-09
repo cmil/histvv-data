@@ -137,9 +137,9 @@
           <titel>Pädagogik.</titel>
 
           <veranstaltung><thema>Ueber das öffentlich Unterrichtswesen</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Bülau</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Donn. 12 U.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <dozent ref="buelau_f"><grad>D. ph.</grad>
+          <nachname>Bülau</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Donn. 12 U.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Christliche Pädagogik, verb. mit Didaktik,
           Methodik und Schulkunde</thema>: <dozent><grad>D.</grad>
@@ -588,9 +588,10 @@
       <titel>IV. Staats- und Cameralwissenschaften.</titel>
 
       <veranstaltung><thema>Encyclopädie der Staats- u.
-      Cameralwissenschaften</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Bülau</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>12 U. 3 T. (Mont., Dienst. und Freitags.)</zeit></veranstaltung>
+      Cameralwissenschaften</thema>: <dozent ref="buelau_f"><grad>D.
+      ph.</grad> <nachname>Bülau</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>12 U. 3 T. (Mont., Dienst. und
+      Freitags.)</zeit></veranstaltung>
 
       <trennlinie/>
 
@@ -831,7 +832,7 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
         O.</funktion></dozent>, <zeit>3-5 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Characteristik der Hauptgruppen des
-        Thierreichs</thema>: <dozent><grad>D.</grad>
+        Thierreichs</thema>: <dozent ref="carus_jv"><grad>D.</grad>
         <nachname>Carus</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>8 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -846,7 +847,7 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Pharmaceutisch-botanische
-          Excursionen</thema>: <dozent><grad>D.</grad>
+          Excursionen</thema>: <dozent ref="clarus_hj"><grad>D.</grad>
           <nachname>Clarus</nachname>, <funktion>P. E.</funktion></dozent>,
           <siehe>s. Med. Wiss.</siehe></veranstaltungsverweis>
 
@@ -1496,8 +1497,8 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
       <seite>18</seite>
 
       <veranstaltung><thema>Praktisches europäisches Völkerrecht</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Bülau</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>4 U. 2 T.</zeit>
+      <dozent ref="buelau_f"><grad>D. ph.</grad> <nachname>Bülau</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>4 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
     </sachgruppe>
 
@@ -1592,9 +1593,9 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
       <trennlinie/>
 
       <veranstaltung><thema>Vergleichende Anatomie der wirbellosen
-      Thiere</thema>: <dozent><grad>D.</grad> <nachname>Carus</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>10 U. 4
-      T.</zeit></veranstaltung>
+      Thiere</thema>: <dozent ref="carus_jv"><grad>D.</grad>
+      <nachname>Carus</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>10 U. 4 T.</zeit></veranstaltung>
     </sachgruppe>
 
     <seite>19</seite>
@@ -1659,8 +1660,8 @@ es ist aber kein Verweis vorhanden-->
       des.</funktion></dozent>, <zeit>3 U. 2 T. (Mittw. u.
       Freit.)</zeit></veranstaltung>
 
-      <veranstaltung><thema>Vergleichende Geweblehre</thema>:
-      <dozent><grad>D.</grad> <nachname>Carus</nachname>, <funktion>P.
+      <veranstaltung><thema>Vergleichende Geweblehre</thema>: <dozent
+      ref="carus_jv"><grad>D.</grad> <nachname>Carus</nachname>, <funktion>P.
       E.</funktion></dozent>, <zeit>10 U. 2 T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Physikalische Diagnostik</thema>: <dozent
@@ -1701,7 +1702,7 @@ es ist aber kein Verweis vorhanden-->
       T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Arzneimittellehre, Receptirkunde und Deutschlands
-      Heilquellen</thema>: <dozent><grad>D.</grad>
+      Heilquellen</thema>: <dozent ref="clarus_hj"><grad>D.</grad>
       <nachname>Clarus</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>6 U. Ab. 6 T.</zeit></veranstaltung>
 
@@ -1736,8 +1737,8 @@ es ist aber kein Verweis vorhanden-->
       O.</funktion></dozent>, <zeit>2-4 T. mehrstündig.</zeit></veranstaltung>
 
       <veranstaltung><thema>Pharmaceutisch-botanische Excursionen</thema>:
-      <dozent><grad>D.</grad> <nachname>Clarus</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>in zu best.
+      <dozent ref="clarus_hj"><grad>D.</grad> <nachname>Clarus</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>in zu best.
       Nachmittagsstunden</zeit>.</veranstaltung>
     </sachgruppe>
 
@@ -1852,10 +1853,10 @@ es ist aber kein Verweis vorhanden-->
       U. 6 T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Physikalische Untersuchung der Augenkranken (mit
-      prakt. Uebungen verbunden)</thema>: <dozent><grad>D.</grad>
-      <nachname>Coccius</nachname>, <funktion>P. E. des.</funktion></dozent>,
-      <zeit>2 T. (Dienst. u. Freit.) in zu best. St.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      prakt. Uebungen verbunden)</thema>: <dozent
+      ref="coccius_ea"><grad>D.</grad> <nachname>Coccius</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>2 T. (Dienst. u. Freit.)
+      in zu best. St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
     </sachgruppe>
 
     <sachgruppe>
@@ -1946,7 +1947,7 @@ es ist aber kein Verweis vorhanden-->
       <!--"Privarpoliklinik" Ort?-->
 
       <veranstaltung><thema>Propädeutische Klinik der
-      Augenkrankheiten</thema>: <dozent><grad>D.</grad>
+      Augenkrankheiten</thema>: <dozent ref="coccius_ea"><grad>D.</grad>
       <nachname>Coccius</nachname>, <funktion>P. E. des.</funktion></dozent>,
       <zeit>12 U. 2 T.</zeit> <modus>privatissime</modus>.</veranstaltung>
 

@@ -471,12 +471,12 @@
       <sachgruppe>
         <titel>Encyklopädie der Philosophie.</titel>
 
-        <veranstaltung><dozent><nachname>Clodius</nachname>, <vorname>C. A.
-        H.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Encyklop.
-        der Philosophie und der philos. Wissenschaften, nebst einer Uebersicht
-        der philos. Systeme, nach s. Stammtafel aller philos. Hauptansichten
-        aus dem Bewußtseyn (b. Reclam)</thema>, <zeit>8 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><dozent ref="clodius_cah"><nachname>Clodius</nachname>,
+        <vorname>C. A. H.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <thema>Encyklop. der Philosophie und der philos. Wissenschaften, nebst
+        einer Uebersicht der philos. Systeme, nach s. Stammtafel aller philos.
+        Hauptansichten aus dem Bewußtseyn (b. Reclam)</thema>, <zeit>8 U. 2
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -553,7 +553,8 @@
         <sachgruppe>
           <titel>5) Religionslehre.</titel>
 
-          <veranstaltung><dozent><nachname>Clodius</nachname>, <vorname>C. A.
+          <veranstaltung><dozent
+          ref="clodius_cah"><nachname>Clodius</nachname>, <vorname>C. A.
           H.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>die
           allgem. Religionslehre nach der Ordnung s. Grundrisses (Leipzig, b.
           Tauchnitz 1808)</thema>, <zeit>10 U. 2 T.</zeit>
@@ -688,13 +689,14 @@
         <thema>deutsches Staatsrecht</thema>, <zeit>in zu b.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><dozent><nachname>Bülau</nachname>, <grad>M.</grad>
-        <vorname>F.</vorname>, <funktion>J. U. B.</funktion></dozent>,
-        <thema>königl. sächs. Staatsrecht</thema>, <zeit>11 U. 2 T.</zeit>
+        <veranstaltung><dozent ref="buelau_f"><nachname>Bülau</nachname>,
+        <grad>M.</grad> <vorname>F.</vorname>, <funktion>J. U.
+        B.</funktion></dozent>, <thema>königl. sächs. Staatsrecht</thema>,
+        <zeit>11 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Grundzüge des positiven
-        europ. Staatsrechts</thema>, <zeit>10 U. 2 T.</zeit>
+        <veranstaltung><ders ref="buelau_f">Derselbe</ders>, <thema>Grundzüge
+        des positiven europ. Staatsrechts</thema>, <zeit>10 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><dozent><nachname>Stieglitz</nachname>, <grad>M.</grad>
@@ -2087,7 +2089,8 @@
           <thema>Gefäßlehre, Nervenlehre u. allgem. Anatomie</thema>, <zeit>9
           U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Cerutti</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>
           <vorname>L.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>pathologische Anatomie mit Vorzeigung der Präparate des
           anatom. Theaters</thema>, <zeit>10 U. 2 T.</zeit>
@@ -2339,15 +2342,16 @@
             <vorname>J. C. A.</vorname>, <funktion>P. O.
             des.</funktion></dozent>, <thema><notiz
             betreff="fortsetzung">einjähriger Kursus</notiz></thema> in
-            Verbindung mit Hrn. <dozent><grad>D.</grad>
+            Verbindung mit Hrn. <dozent ref="cerutti_fpl"><grad>D.</grad>
             <nachname>Cerutti</nachname></dozent>, <zeit>9 U. 4 T.</zeit>
             <thema>über Fieber, Nerven- u.
             Seelenkrankheiten</thema>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Cerutti</nachname>,
-            <grad>D.</grad> <vorname>L.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>Kursus der spec. Therapie</thema>,
-            <dozent ref="clarus_jca">in Verbindung mit Hrn. Hofr.
+            <veranstaltung><dozent
+            ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>
+            <vorname>L.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>Kursus der spec. Therapie</thema>, <dozent
+            ref="clarus_jca">in Verbindung mit Hrn. Hofr.
             <nachname>Clarus</nachname></dozent>, <thema>so daß er in
             die-</thema><thema><seite>23</seite>sem Jahre die <notiz
             betreff="fortsetzung#">zweite Hälfte</notiz> desselben (Proluvien,
@@ -2393,10 +2397,10 @@
             <titel>*) Praktisch-chirurgische Uebungen.</titel>
 
             <veranstaltung><dozent><grad>D.</grad>
-            <nachname>Walther</nachname></dozent> u. <dozent><grad>D.</grad>
-            <nachname>Carus</nachname></dozent> werden <thema>Consultationen
-            üb. chirurg. Krankheitsfälle</thema> halten, <zeit>in zu best.
-            St.</zeit></veranstaltung>
+            <nachname>Walther</nachname></dozent> u. <dozent
+            ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>
+            werden <thema>Consultationen üb. chirurg. Krankheitsfälle</thema>
+            halten, <zeit>in zu best. St.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
@@ -2424,7 +2428,8 @@
           <thema>geburtshülfliche Klinik <ort>im Trierschen
           Institute</ort></thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Cerutti</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>
           <vorname>L.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>Poliklinik</thema>, <zeit>2 U. 7 T.</zeit></veranstaltung>
 

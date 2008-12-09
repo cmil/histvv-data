@@ -792,7 +792,7 @@
       <sachgruppe>
         <titel>Praktisches europäisches Völkerrecht.</titel>
 
-        <veranstaltung><dozent><nachname>Bülau</nachname>,
+        <veranstaltung><dozent ref="buelau_f"><nachname>Bülau</nachname>,
         <vorname>F.</vorname>, <funktion>P. O. des.</funktion></dozent>,
         <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
@@ -800,7 +800,7 @@
       <sachgruppe>
         <titel>National-Oekonomie und Staatswirthschaftslehre.</titel>
 
-        <veranstaltung><dozent><nachname>Bülau</nachname>,
+        <veranstaltung><dozent ref="buelau_f"><nachname>Bülau</nachname>,
         <vorname>F.</vorname>, <funktion>P. O. des.</funktion></dozent>,
         <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
@@ -2177,12 +2177,12 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
         <sachgruppe>
           <titel>3) Specielle Therapie.</titel>
 
-          <veranstaltungsgruppe><dozent><nachname>Cerutti</nachname>,
-          <grad>D.</grad> <vorname>L.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema><notiz betreff="fortsetzung">der
-          erste Theil des in einem Jahre zu vollendenen Cursus</notiz> der
-          speciellen Therapie, Fieber und Entzündungen</thema>,
-          <veranstaltung><zeit>4 U. 4 T.</zeit>
+          <veranstaltungsgruppe><dozent
+          ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>
+          <vorname>L.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema><notiz betreff="fortsetzung">der erste Theil des in einem
+          Jahre zu vollendenen Cursus</notiz> der speciellen Therapie, Fieber
+          und Entzündungen</thema>, <veranstaltung><zeit>4 U. 4 T.</zeit>
           <modus>privatim</modus></veranstaltung> und <veranstaltung><zeit>11
           U. und 4 U. 2 T.</zeit>
           <modus>öffentlich</modus></veranstaltung>.<veranstaltung/></veranstaltungsgruppe>
@@ -2265,8 +2265,8 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
           Gesammt-Chirurgie</notiz></thema>, <zeit>3 U. 2 T.</zeit>
           <modus>öffentl.</modus></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Carus</nachname>, <grad>D.</grad>
-          <vorname>E. A.</vorname></dozent>, <thema>gesammte
+          <veranstaltung><dozent ref="carus_ea"><nachname>Carus</nachname>,
+          <grad>D.</grad> <vorname>E. A.</vorname></dozent>, <thema>gesammte
           Chirurgie</thema>, <zeit>2 U. 4 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -2294,13 +2294,15 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
             <thema>Anleitung zu Augenoperationen</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Carus</nachname>, <grad>D.</grad>
-            <vorname>E. A.</vorname></dozent>, <thema>chirurgische
-            Verbandlehre in Verbindung mit der Lehre von den Knochenbrüchen
-            und Verrenkungen</thema>, <zeit>2 U. 2 T.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="carus_ea"><nachname>Carus</nachname>,
+            <grad>D.</grad> <vorname>E. A.</vorname></dozent>,
+            <thema>chirurgische Verbandlehre in Verbindung mit der Lehre von
+            den Knochenbrüchen und Verrenkungen</thema>, <zeit>2 U. 2
+            T.</zeit></veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Orthopädie oder die
-            Lehre von den Verkrümmungen</thema>, <zeit>3 U. 2 T.</zeit>
+            <veranstaltung><ders ref="carus_ea">Derselbe</ders>,
+            <thema>Orthopädie oder die Lehre von den Verkrümmungen</thema>,
+            <zeit>3 U. 2 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <veranstaltung><dozent ref="bock_ce"><nachname>Bock</nachname>,
@@ -2356,7 +2358,8 @@ S. auch oben, S. 17)--></veranstaltungsgruppe>
           <thema>geburtshilfliche Klinik in der königl.
           Entbindungsschule</thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Cerutti</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>
           <vorname>L.</vorname>, <funktion>P. O.</funktion></dozent>,
           <thema>Poliklinik</thema> in Verbindung mit Herrn <dozent
           ref="braune_a"><funktion>Prof.</funktion> <grad>D.</grad>
@@ -2366,9 +2369,9 @@ S. auch oben, S. 17)--></veranstaltungsgruppe>
           <veranstaltung><dozent ref="braune_a"><nachname>Braune</nachname>,
           <grad>D.</grad> <vorname>A.</vorname>, <funktion>P. O.
           des.</funktion></dozent>, <thema>Poliklinik</thema>, in Verbindung
-          mit Herrn <dozent><funktion>Prof.</funktion> <grad>D.</grad>
-          <nachname>Cerutti</nachname></dozent>, <zeit>2 U. 6 T.</zeit>
-          <modus>öffentlich</modus>.<!--(Diese Veranstaltung ist mit der vorhergehenden 
+          mit Herrn <dozent ref="cerutti_fpl"><funktion>Prof.</funktion>
+          <grad>D.</grad> <nachname>Cerutti</nachname></dozent>, <zeit>2 U. 6
+          T.</zeit> <modus>öffentlich</modus>.<!--(Diese Veranstaltung ist mit der vorhergehenden 
 offensichtlich identisch. Wie kann man hier 
 doppelte Zählung verhindern?)--></veranstaltung>
 
@@ -2386,14 +2389,14 @@ doppelte Zählung verhindern?)--></veranstaltung>
 
           <veranstaltung><dozent><nachname>Walther</nachname>, <grad>D.</grad>
           <vorname>J. K. W.</vorname>, <funktion>P. E.</funktion></dozent>, in
-          Verbindung mit Herrn <dozent><grad>D.</grad>
+          Verbindung mit Herrn <dozent ref="carus_ea"><grad>D.</grad>
           <nachname>Carus</nachname></dozent>, <thema>chirurgische
           Poliklinik</thema>, <zeit>11 U. 6 T.</zeit>
           <modus>öffentl.</modus></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Carus</nachname>, <grad>D.</grad>
-          <vorname>E. A.</vorname></dozent>, in Verbindung mit Herrn
-          <dozent><funktion>Prof.</funktion> <grad>D.</grad>
+          <veranstaltung><dozent ref="carus_ea"><nachname>Carus</nachname>,
+          <grad>D.</grad> <vorname>E. A.</vorname></dozent>, in Verbindung mit
+          Herrn <dozent><funktion>Prof.</funktion> <grad>D.</grad>
           <nachname>Walther</nachname></dozent>, <thema>chirurgische
           Poliklinik</thema>, <zeit>11 U. 6 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.<!--(Diese Veranstaltung ist mit der vorhergehenden 

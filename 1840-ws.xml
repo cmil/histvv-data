@@ -713,7 +713,7 @@
       <sachgruppe>
         <titel>Ueber einige wichtige europ. Friedensschlüsse.</titel>
 
-        <veranstaltung><dozent><nachname>Bülau</nachname>,
+        <veranstaltung><dozent ref="buelau_f"><nachname>Bülau</nachname>,
         <vorname>F.</vorname>, <funktion>P. O. des.</funktion></dozent>,
         <zeit>11 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -732,7 +732,7 @@
       <sachgruppe>
         <titel>Finanzwissenschaft.</titel>
 
-        <veranstaltung><dozent><nachname>Bülau</nachname>,
+        <veranstaltung><dozent ref="buelau_f"><nachname>Bülau</nachname>,
         <vorname>F.</vorname>, <funktion>P. O. des.</funktion></dozent>,
         <zeit>11 U. Dienst. u. Freit.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -759,7 +759,7 @@
       <sachgruppe>
         <titel>Verwaltungspolitik.</titel>
 
-        <veranstaltung><dozent><nachname>Bülau</nachname>,
+        <veranstaltung><dozent ref="buelau_f"><nachname>Bülau</nachname>,
         <vorname>F.</vorname>, <funktion>P. O. des.</funktion></dozent>,
         <zeit>11 U. Mont. u. Donn.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -768,7 +768,7 @@
       <sachgruppe>
         <titel>Polizeiwissenschaft.</titel>
 
-        <veranstaltung><dozent><nachname>Bülau</nachname>,
+        <veranstaltung><dozent ref="buelau_f"><nachname>Bülau</nachname>,
         <vorname>F.</vorname>, <funktion>P. O. des.</funktion></dozent>,
         <zeit>3 U. 2 T.</zeit></veranstaltung>
       </sachgruppe>
@@ -2152,14 +2152,14 @@ siehe "Repetitoria über Moral"-->
           Hautausschläge</thema>, <zeit>3 U. Mont. u.
           Donn.</zeit></veranstaltung>
 
-          <veranstaltungsgruppe><dozent><nachname>Cerutti</nachname>,
-          <grad>D.</grad> <vorname>L.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema>der <notiz
-          betreff="fortsetzung">zweite Theil</notiz> des in einem Jahre zu
-          vollendenden Cursus der speciellen Pathologie u. Therapie,
-          chronische Krankheiten</thema>,<veranstaltung><zeit>4 U. 4 T.</zeit>
-          <modus>privatim</modus></veranstaltung> u. <veranstaltung><zeit>11
-          U. u. 4 U. 2 T.</zeit>
+          <veranstaltungsgruppe><dozent
+          ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>
+          <vorname>L.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema>der <notiz betreff="fortsetzung">zweite Theil</notiz> des in
+          einem Jahre zu vollendenden Cursus der speciellen Pathologie u.
+          Therapie, chronische Krankheiten</thema>,<veranstaltung><zeit>4 U. 4
+          T.</zeit> <modus>privatim</modus></veranstaltung> u.
+          <veranstaltung><zeit>11 U. u. 4 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <sachgruppe>
@@ -2224,8 +2224,8 @@ siehe "Repetitoria über Moral"-->
         <sachgruppe>
           <titel><sic>3</sic>) Chirurgie.</titel>
 
-          <veranstaltung><dozent><nachname>Carus</nachname>, <grad>D.</grad>
-          <vorname>E. A.</vorname></dozent>, <thema>gesammte
+          <veranstaltung><dozent ref="carus_ea"><nachname>Carus</nachname>,
+          <grad>D.</grad> <vorname>E. A.</vorname></dozent>, <thema>gesammte
           Chirurgie</thema>, <zeit>2 U. 4 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -2248,14 +2248,15 @@ siehe "Repetitoria über Moral"-->
             E.</funktion></dozent>, <thema>operative Chirurgie</thema>,
             <zeit>4 U. 4 T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Carus</nachname>, <grad>D.</grad>
-            <vorname>E. A.</vorname></dozent>, <thema>die chirurgische
-            Verbandlehre in Verbindung mit der Lehre von den Beinbrüchen und
-            Verrenkungen</thema>, <zeit>2 U. 2 T.</zeit></veranstaltung>
-
-            <veranstaltung><ders>Derselbe</ders>, <thema>Orthopädie oder die
-            Lehre von den Vertrümmerungen</thema>, <zeit>3 U. 2
+            <veranstaltung><dozent ref="carus_ea"><nachname>Carus</nachname>,
+            <grad>D.</grad> <vorname>E. A.</vorname></dozent>, <thema>die
+            chirurgische Verbandlehre in Verbindung mit der Lehre von den
+            Beinbrüchen und Verrenkungen</thema>, <zeit>2 U. 2
             T.</zeit></veranstaltung>
+
+            <veranstaltung><ders ref="carus_ea">Derselbe</ders>,
+            <thema>Orthopädie oder die Lehre von den Vertrümmerungen</thema>,
+            <zeit>3 U. 2 T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Francke</nachname>,
             <grad>D.</grad> <vorname>K. G.</vorname></dozent>, <thema>über
@@ -2303,7 +2304,8 @@ siehe "Repetitoria über Moral"-->
           Entbindungsschule</ort></thema>, <zeit>8 U. 6
           T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Cerutti</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>
           <vorname>L.</vorname>, <funktion>P. O.</funktion></dozent>,
           <thema>Poliklinik</thema>, in Verbindung mit <dozent
           ref="braune_a">Hrn. <funktion>Prof.</funktion> <grad>D.</grad>
@@ -2313,9 +2315,9 @@ siehe "Repetitoria über Moral"-->
           <veranstaltung><dozent ref="braune_a"><nachname>Braune</nachname>,
           <grad>D.</grad> <vorname>A.</vorname>, <funktion>P. O.
           des.</funktion></dozent>, <thema>Poliklinik</thema> in Verbindung
-          mit <dozent>Hrn. <funktion>Prof.</funktion> <grad>D.</grad>
-          <nachname>Cerutti</nachname></dozent>, <zeit>2 U. 6 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          mit <dozent ref="cerutti_fpl">Hrn. <funktion>Prof.</funktion>
+          <grad>D.</grad> <nachname>Cerutti</nachname></dozent>, <zeit>2 U. 6
+          T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <!--Cerutti und Braune haben dieselbe Veranstaltung-->
 
@@ -2336,14 +2338,15 @@ siehe "Repetitoria über Moral"-->
 
           <veranstaltung><dozent><nachname>Walther</nachname>, <grad>D.</grad>
           <vorname>J. K. W.</vorname>, <funktion>P. E.</funktion></dozent>,
-          <thema>chirurgische Poliklinik</thema> in Verbindung mit
-          <dozent>Hrn. <grad>D.</grad> <nachname>Carus</nachname></dozent>,
-          <zeit>11 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          <thema>chirurgische Poliklinik</thema> in Verbindung mit <dozent
+          ref="carus_ea">Hrn. <grad>D.</grad>
+          <nachname>Carus</nachname></dozent>, <zeit>11 U. 6 T.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Carus</nachname>, <grad>D.</grad>
-          <vorname>E. A.</vorname></dozent>, <thema>chirurgische
-          Poliklinik</thema> in Verbindung mit <dozent>Hrn.
-          <funktion>Prof.</funktion> <grad>D.</grad>
+          <veranstaltung><dozent ref="carus_ea"><nachname>Carus</nachname>,
+          <grad>D.</grad> <vorname>E. A.</vorname></dozent>,
+          <thema>chirurgische Poliklinik</thema> in Verbindung mit
+          <dozent>Hrn. <funktion>Prof.</funktion> <grad>D.</grad>
           <nachname>Walther</nachname></dozent>, <zeit>11 U. 6 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 

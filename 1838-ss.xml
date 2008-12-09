@@ -701,7 +701,7 @@
       <sachgruppe>
         <titel>Politik.</titel>
 
-        <veranstaltung><dozent><nachname>Bülau</nachname>,
+        <veranstaltung><dozent ref="buelau_f"><nachname>Bülau</nachname>,
         <vorname>F.</vorname>, <funktion>P. O. des.</funktion></dozent>,
         <thema>Hauptsätze der Politik</thema>, <zeit>11 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -710,7 +710,7 @@
       <sachgruppe>
         <titel>National-Oekonomie u. Staatswirthschaftslehre.</titel>
 
-        <veranstaltung><dozent><nachname>Bülau</nachname>,
+        <veranstaltung><dozent ref="buelau_f"><nachname>Bülau</nachname>,
         <vorname>F.</vorname>, <funktion>P. O. des.</funktion></dozent>,
         <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1973,7 +1973,8 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
           <thema>allgemeine Anatomie und Bildungsgeschichte des menschlichen
           Körpers</thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Cerutti</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>
           <vorname>L.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>pathol. Anatomie, mit Vorzeigung der Präparate des anat.
           Theaters</thema>, <zeit>11 U. 2 T.</zeit>
@@ -2145,7 +2146,8 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
         <sachgruppe>
           <titel>4) Specielle Pathologie und Therapie.</titel>
 
-          <veranstaltung><dozent><nachname>Cerutti</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>
           <vorname>L.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>specielle Pathologie und Therapie der Fieber</thema>, <zeit>4
           U. 4 T.</zeit> (<thema>als <notiz betreff="fortsetzung">erste
@@ -2165,8 +2167,8 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
           Entzündungen</thema>, <zeit>6 U. Vorm. 6 T.</zeit> (<thema>als
           <notiz betreff="fortsetzung">erste Abtehilung eines einjährigen
           Cursus</notiz> der gesammten speciellen Therapie</thema> in
-          Verbindung mit <dozent>Herrn <funktion>Prof.</funktion>
-          <grad>D.</grad>
+          Verbindung mit <dozent ref="cerutti_fpl">Herrn
+          <funktion>Prof.</funktion> <grad>D.</grad>
           <nachname>Cerutti</nachname></dozent>.)</veranstaltung>
 
           <sachgruppe>
@@ -2230,9 +2232,9 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
           <thema>medicinische Chirurgie</thema>, <zeit>5 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Carus</nachname>, <grad>D.</grad>
-          <vorname>E. A.</vorname></dozent>, <thema>die gesammte
-          Chirurgie</thema>, <zeit>2 U. 4 T.</zeit>
+          <veranstaltung><dozent ref="carus_ea"><nachname>Carus</nachname>,
+          <grad>D.</grad> <vorname>E. A.</vorname></dozent>, <thema>die
+          gesammte Chirurgie</thema>, <zeit>2 U. 4 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><dozent ref="bock_ce"><nachname>Bock</nachname>,
@@ -2255,13 +2257,14 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
             <thema>Anleitung zu Augenoperationen</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Carus</nachname>, <grad>D.</grad>
-            <vorname>E. A.</vorname></dozent>, <thema>chirurgische
-            Verbandlehre in Verbindung mit der Lehre von den Knochenbrüchen u.
-            Verrenkungen</thema>, <zeit>2 U. 2 T.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="carus_ea"><nachname>Carus</nachname>,
+            <grad>D.</grad> <vorname>E. A.</vorname></dozent>,
+            <thema>chirurgische Verbandlehre in Verbindung mit der Lehre von
+            den Knochenbrüchen u. Verrenkungen</thema>, <zeit>2 U. 2
+            T.</zeit></veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>die operative
-            Augenheikunde</thema>, <zeit>1 U. 2 T.</zeit>
+            <veranstaltung><ders ref="carus_ea">Derselbe</ders>, <thema>die
+            operative Augenheikunde</thema>, <zeit>1 U. 2 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -2301,7 +2304,8 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
           <thema>geburtshilfliche Klinik <ort>im Trierschen
           Institute</ort></thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Cerutti</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>
           <vorname>L.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>Poliklinik</thema>, in Verbindung mit <dozent
           ref="braune_a">Hrn. <funktion>Prof.</funktion> <grad>D.</grad>
@@ -2323,23 +2327,23 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
 
           <veranstaltung><dozent><nachname>Walther</nachname>, <grad>D.</grad>
           <vorname>J. K. W.</vorname>, <funktion>P. E.</funktion></dozent>, in
-          Verbindung mit <dozent>Hrn. <grad>D.</grad>
+          Verbindung mit <dozent ref="carus_ea">Hrn. <grad>D.</grad>
           <nachname>Carus</nachname></dozent>, <thema>chirurgische
           Poliklinik</thema>, <zeit>11 U. 6 T.</zeit> <modus>öffentl.<!--siehe unten Carus--></modus></veranstaltung>
 
           <veranstaltung><dozent ref="braune_a"><nachname>Braune</nachname>,
           <grad>D.</grad> <vorname>A.</vorname>, <funktion>P.
           E.</funktion></dozent>, <thema>Poliklinik</thema>, in Verbindung mit
-          <dozent>Hrn. <funktion>Prof.</funktion> <grad>D.</grad>
-          <nachname>Cerutti</nachname></dozent>, <zeit>2 U. 6 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <dozent ref="cerutti_fpl">Hrn. <funktion>Prof.</funktion>
+          <grad>D.</grad> <nachname>Cerutti</nachname></dozent>, <zeit>2 U. 6
+          T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <!--Cerutti und Braune haben dieselbe Veranstaltung, 
 gleiche Zeitangabe-->
 
-          <veranstaltung><dozent><nachname>Carus</nachname>, <grad>D.</grad>
-          <vorname>E. A.</vorname></dozent>, in Verbindung mit <dozent>Hrn.
-          <funktion>Prof.</funktion> <grad>D.</grad>
+          <veranstaltung><dozent ref="carus_ea"><nachname>Carus</nachname>,
+          <grad>D.</grad> <vorname>E. A.</vorname></dozent>, in Verbindung mit
+          <dozent>Hrn. <funktion>Prof.</funktion> <grad>D.</grad>
           <nachname>Walther</nachname></dozent>, <thema>chirurgische
           Poliklinik</thema>, <zeit>11 U. 6 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>

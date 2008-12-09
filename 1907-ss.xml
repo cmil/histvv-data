@@ -880,18 +880,18 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
       <trennlinie/>
 
-      <veranstaltung><dozent><funktion>Professor</funktion> <vorname>John
-      W.</vorname> <nachname>Burgess</nachname> von der Columbia University in
-      the city of New York</dozent> wird <zeit>vom 2.-7. juli 1907 von 12-1 U.
-      sechs Vorlesungen</zeit> halten über: <thema>Das gegenwärtige
-      Staatsrecht der Vereinigten Staaten von
+      <veranstaltung><dozent ref="burgess_jw"><funktion>Professor</funktion>
+      <vorname>John W.</vorname> <nachname>Burgess</nachname> von der Columbia
+      University in the city of New York</dozent> wird <zeit>vom 2.-7. juli
+      1907 von 12-1 U. sechs Vorlesungen</zeit> halten über: <thema>Das
+      gegenwärtige Staatsrecht der Vereinigten Staaten von
       Nordamerika</thema>.</veranstaltung>
 
       <!--Gastprofessor-->
 
       <veranstaltungsverweis><thema>Allgemeine Volkswirtschaftslehre
       (Theoretische Nationalökonomie). - Das Zeitalter des
-      Kapitalismus</thema>: <dozent><grad>D. ph.</grad>
+      Kapitalismus</thema>: <dozent ref="buecher_kw"><grad>D. ph.</grad>
       <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe Philosophische Fakultät E.</siehe></veranstaltungsverweis>
 
@@ -923,7 +923,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
       E.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Vereinigte Staatswissenschaftliche
-      Seminre</thema>: <dozent><grad>D. ph.</grad>
+      Seminre</thema>: <dozent ref="buecher_kw"><grad>D. ph.</grad>
       <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>,
       <dozent><grad>D. ph.</grad> <nachname>Eulenburg</nachname>, <funktion>P.
       E.</funktion></dozent>, <dozent><grad>D. ph.</grad>
@@ -2094,9 +2094,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
       <veranstaltungsverweis><thema>Systematische Botanik, mit
       Berücksichtigung der offizinellen Pflanzen. - Übungen im
-      Pflanzenbestimmen</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Correns</nachname>, <funktion>P. E.</funktion></dozent>
-      <siehe>Siehe Philosophische Fakultät G.</siehe></veranstaltungsverweis>
+      Pflanzenbestimmen</thema>: <dozent ref="correns_cfje"><grad>D.
+      ph.</grad> <nachname>Correns</nachname>, <funktion>P.
+      E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
+      G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Allgemeine Zoologie</thema>: <dozent
       ref="chun_c"><grad>D. ph.</grad> <nachname>Chun</nachname>, <funktion>P.
@@ -2295,7 +2296,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Platon. Einführung und
-        Interpretation</thema>: <dozent><grad>D. ph.</grad>
+        Interpretation</thema>: <dozent ref="bethe_e"><grad>D. ph.</grad>
         <nachname>Bethe</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Abschnitt B. a.</siehe></veranstaltungsverweis>
 
@@ -2546,9 +2547,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <!--Druckfehler Aischylos' Per rn-->
 
           <veranstaltung><thema>Platon. Einführung und Interpretation</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Bethe</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
-          9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="bethe_e"><grad>D. ph.</grad>
+          <nachname>Bethe</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mont., Dienst., Donnerst. u. Freit. 9-10 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <seite>29</seite>
 
@@ -2638,7 +2640,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <nachname>Heinze</nachname>, <funktion>P. O.</funktion></dozent>:
           <thema>Abteilung A. (für Amfänger): Polybios</thema>, <zeit>Freit.
           6-8 U.</zeit>, <gebühr>gratis</gebühr></veranstaltung>. - 2)
-          <veranstaltung><dozent><grad>D. ph.</grad>
+          <veranstaltung><dozent ref="bethe_e"><grad>D. ph.</grad>
           <nachname>Bethe</nachname>, <funktion>P. O.</funktion></dozent>:
           <thema>Abteilung B. (für Vorgeschrittene)</thema>: a)
           <thema>Interpretation von Euripides Alkestis</thema>; b)
@@ -2831,14 +2833,14 @@ lässt sich nicht gleichzeitig auszeichnen-->
           O.</funktion></dozent>, <zeit>Mittw. 11-12 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Chinesische Grammatik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Conrady</nachname>,
+          <veranstaltung><thema>Chinesische Grammatik</thema>: <dozent
+          ref="conrady_a"><grad>D. ph.</grad> <nachname>Conrady</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Mittw. u.
           Donnerst. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Chinesische Lektüre</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Conrady</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Donnerst. 9-10 U.</zeit>,
+          <veranstaltung><thema>Chinesische Lektüre</thema>: <dozent
+          ref="conrady_a"><grad>D. ph.</grad> <nachname>Conrady</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Geschichte und Kultur
@@ -3537,7 +3539,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <siehe>Siehe Abschnitt B. a.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Platon. Einführung und
-        Interpretation</thema>: <dozent><grad>D. ph.</grad>
+        Interpretation</thema>: <dozent ref="bethe_e"><grad>D. ph.</grad>
         <nachname>Bethe</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Abschnitt B. a.</siehe></veranstaltungsverweis>
 
@@ -3671,7 +3673,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
         <veranstaltungsverweis><thema>Allgemeine Volkswirtschaftslehre
         (Theoretische Nationalökonomie). - Das Zeitalter des
-        Kapitalismus</thema>: <dozent><grad>D. ph.</grad>
+        Kapitalismus</thema>: <dozent ref="buecher_kw"><grad>D. ph.</grad>
         <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Abschnitt E.</siehe></veranstaltungsverweis>
 
@@ -4241,9 +4243,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Volkswirtschaftslehre (Theoretische
-        Nationalökonomie)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. bis Freit. 7-8 U.</zeit>,
+        Nationalökonomie)</thema>: <dozent ref="buecher_kw"><grad>D.
+        ph.</grad> <nachname>Bücher</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont. bis Freit. 7-8 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Spezielle Volkswirtschaftslehre und
@@ -4252,9 +4254,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 8-9
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Das Zeitalter des Kapitalismus</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Bücher</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
+        <veranstaltung><thema>Das Zeitalter des Kapitalismus</thema>: <dozent
+        ref="buecher_kw"><grad>D. ph.</grad> <nachname>Bücher</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Finanzwissenschaft</thema>: <dozent><grad>D. ph.
@@ -4466,8 +4468,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Das gegenwärtige Staatsrecht der
-        Vereinigten Staaten von Nordamerika</thema>:
-        <dozent><funktion>Prof.</funktion>
+        Vereinigten Staaten von Nordamerika</thema>: <dozent
+        ref="burgess_jw"><funktion>Prof.</funktion>
         <nachname>Burgeß</nachname></dozent>. <siehe>Siehe Juristische
         Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -4659,9 +4661,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <trennlinie/>
 
         <veranstaltungsgruppe><thema>Vereinigte Staatswissenschaftliche
-        Seminare</thema> (<ort>Paulinum III</ort>): <dozent><grad>D.
-        ph.</grad> <nachname>Bücher</nachname>, <funktion>P.
-        O.</funktion></dozent>, <veranstaltung><thema>Kursus für
+        Seminare</thema> (<ort>Paulinum III</ort>): <dozent
+        ref="buecher_kw"><grad>D. ph.</grad> <nachname>Bücher</nachname>,
+        <funktion>P. O.</funktion></dozent>, <veranstaltung><thema>Kursus für
         Vorgeschrittene</thema>, <zeit>Dienst. 6-8 U.</zeit>,
         <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung>. - Außerdem in seinem
@@ -4827,9 +4829,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Übungen im Pflanzenbestimmen. -
-        Botanische Exkursionen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Correns</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
+        Botanische Exkursionen</thema>: <dozent ref="correns_cfje"><grad>D.
+        ph.</grad> <nachname>Correns</nachname>, <funktion>P.
+        E.</funktion></dozent> <siehe>Siehe Abschnitt
+        G.</siehe></veranstaltungsverweis>
       </sachgruppe>
 
       <trennlinie/>
@@ -5272,10 +5275,11 @@ lässt sich nicht gleichzeitig auszeichnen-->
         1</ort>.</veranstaltung>
 
         <veranstaltung><thema>Systematische Botanik, mit Berücksichtigung der
-        offizinellen Pflanzen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Correns</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mittw. u. Freit. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Botanischen Institut, Linnéstr. 1</ort>.</veranstaltung>
+        offizinellen Pflanzen</thema>: <dozent ref="correns_cfje"><grad>D.
+        ph.</grad> <nachname>Correns</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mittw. u. Freit. 6-7 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Botanischen Institut, Linnéstr.
+        1</ort>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Zoologie</thema>: <dozent
         ref="chun_c"><grad>D. ph.</grad> <nachname>Chun</nachname>,
@@ -5642,16 +5646,16 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <zeit>Mont. u. Sonnab. 3-5 U.</zeit>, <modus>privatim</modus>, <ort>im
         Botan. Institut, Linnéstr. 1</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Übungen im Pflanzenbestimmen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Correns</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Donnerst. 6-7½ U.</zeit>,
+        <veranstaltung><thema>Übungen im Pflanzenbestimmen</thema>: <dozent
+        ref="correns_cfje"><grad>D. ph.</grad> <nachname>Correns</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. 6-7½ U.</zeit>,
         <modus>privatim</modus>, <ort>im Botanischen Institut, Linnéstr.
         1</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Botanische Exkursionen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Correns</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>an bes. bekannt zu geb. Sonnab.
-        Nachm.</zeit>, <modus>publice</modus> und
+        <veranstaltung><thema>Botanische Exkursionen</thema>: <dozent
+        ref="correns_cfje"><grad>D. ph.</grad> <nachname>Correns</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>an bes. bekannt zu geb.
+        Sonnab. Nachm.</zeit>, <modus>publice</modus> und
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Zoologisches Praktikum</thema> (<ort>Talstr.

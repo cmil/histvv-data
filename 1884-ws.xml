@@ -742,22 +742,25 @@
 
       <veranstaltung><thema>Demonstrativer Cursus der allgemeinen Pathologie
       und der patholog. Anatomie, zugleich mit Sectionsübungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Cohnheim</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont., Mittw., Freit. u. Sonnab. 2-3½
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="cohnheim_jf"><grad>D. med.</grad>
+      <nachname>Cohnheim</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont., Mittw., Freit. u. Sonnab. 2-3½ U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Praktisch-mikroskopischer Cursus der
-      pathologischen Histologie</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Cohnheim</nachname>, <funktion>P. O.</funktion></dozent> und
-      <dozent><grad>D. med.</grad> <nachname>Weigert</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 2-4 U.</zeit>,
+      pathologischen Histologie</thema>: <dozent ref="cohnheim_jf"><grad>D.
+      med.</grad> <nachname>Cohnheim</nachname>, <funktion>P.
+      O.</funktion></dozent> und <dozent><grad>D. med.</grad>
+      <nachname>Weigert</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Dienst. u. Donnerst. 2-4 U.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung><thema>Experimentelle und mikroskopische Arbeiten im
-      pathologischen Institut</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Cohnheim</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>täglich Vor- und Nachmittags</zeit>, <modus>privatissime</modus>,
-      aber <gebühr>gratis</gebühr>.</veranstaltung>
+      pathologischen Institut</thema>: <dozent ref="cohnheim_jf"><grad>D.
+      med.</grad> <nachname>Cohnheim</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>täglich Vor- und Nachmittags</zeit>,
+      <modus>privatissime</modus>, aber
+      <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Specielle pathologische Anatomie</thema>:
       <dozent><grad>D. med.</grad> <nachname>Weigert</nachname>, <funktion>P.
@@ -883,9 +886,9 @@
       <trennlinie/>
 
       <veranstaltung><thema>Specielle Pathologie und Therapie der
-      Augapfelkrankheiten</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Coccius</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>in zu bestimm. Stunden</zeit>,
+      Augapfelkrankheiten</thema>: <dozent ref="coccius_ea"><grad>D.
+      med.</grad> <nachname>Coccius</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>in zu bestimm. Stunden</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pathologie und Therapie der
@@ -912,10 +915,10 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
       <dozent><grad>D. med.</grad> <nachname>Schröter</nachname></dozent>,
       <zeit>Mittw. 2-3 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Augenspiegelcursus</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Coccius</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      <veranstaltung><thema>Augenspiegelcursus</thema>: <dozent
+      ref="coccius_ea"><grad>D. med.</grad> <nachname>Coccius</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7
+      U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Augenspiegelcursus in sechswöchentlichen
       Cursen</thema>: <dozent><grad>D. med.</grad>
@@ -1048,9 +1051,9 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
       E.</funktion></dozent>, <zeit>täglich ½11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Klinik für Augenkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Coccius</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>täglich 12-1 U.</zeit>,
+      <veranstaltung><thema>Klinik für Augenkrankheiten</thema>: <dozent
+      ref="coccius_ea"><grad>D. med.</grad> <nachname>Coccius</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>täglich 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geburtshülfliche und gynäkologische Klinik und
@@ -2293,9 +2296,9 @@ im selben "gebühr"-Tag erfasst!-->
         Facultät G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Anatomie der Haussäugethiere</thema>:
-        <dozent><grad>D. med. &amp; ph. nec non jur. civ.</grad>
-        <nachname>Carus</nachname>, <funktion>P. E.</funktion></dozent>.
-        <siehe>Siehe Philosophische Facultät
+        <dozent ref="carus_jv"><grad>D. med. &amp; ph. nec non jur.
+        civ.</grad> <nachname>Carus</nachname>, <funktion>P.
+        E.</funktion></dozent>. <siehe>Siehe Philosophische Facultät
         G.</siehe></veranstaltungsverweis>
       </sachgruppe>
 
@@ -2493,14 +2496,14 @@ im selben "gebühr"-Tag erfasst!-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Anatomie und Physiologie der
-        Haussäugethiere</thema>: <dozent><grad>D. med. &amp; ph. nec non jur.
-        civ.</grad> <nachname>Carus</nachname>, <funktion>P.
+        Haussäugethiere</thema>: <dozent ref="carus_jv"><grad>D. med. &amp;
+        ph. nec non jur. civ.</grad> <nachname>Carus</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u. Donnerst.
         11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Entwickelungsvorgänge im
-        Thierreiche</thema>: <dozent><grad>D. med. &amp; ph. nec non jur.
-        civ.</grad> <nachname>Carus</nachname>, <funktion>P.
+        Thierreiche</thema>: <dozent ref="carus_jv"><grad>D. med. &amp; ph.
+        nec non jur. civ.</grad> <nachname>Carus</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 

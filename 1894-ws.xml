@@ -646,9 +646,9 @@
       <siehe>Siehe Philosophische Facultät E.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Theoretische Nationalökonomie</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Bücher</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
-      E.</siehe></veranstaltungsverweis>
+      <dozent ref="buecher_kw"><grad>D. ph.</grad>
+      <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>
+      <siehe>Siehe Philosophische Facultät E.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Specielle und praktische Nationalökonomie
       (Agrar-, Handels und Gewerbepolitik) - Finanzwissenschaft</thema>:
@@ -1729,7 +1729,7 @@
           D.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Geschichte des römischen
-          Militärwesens</thema>: <dozent><grad>D. ph.</grad>
+          Militärwesens</thema>: <dozent ref="cichorius_c"><grad>D. ph.</grad>
           <nachname>Cichorius</nachname></dozent>. <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
 
@@ -1917,15 +1917,17 @@
           <nachname>Socin</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>zweist.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Tibetische Lektüre</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Conrady</nachname></dozent>,
-          <zeit>einstünd.</zeit>, <modus>privatissime</modus>, aber
+          <veranstaltung><thema>Tibetische Lektüre</thema>: <dozent
+          ref="conrady_a"><grad>D. ph.</grad>
+          <nachname>Conrady</nachname></dozent>, <zeit>einstünd.</zeit>,
+          <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Chinesische Lektüre <notiz
-          betreff="fortsetzung">II</notiz></thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Conrady</nachname></dozent>,
-          <zeit>einstünd.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          betreff="fortsetzung">II</notiz></thema>: <dozent
+          ref="conrady_a"><grad>D. ph.</grad>
+          <nachname>Conrady</nachname></dozent>, <zeit>einstünd.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
         </sachgruppe>
 
         <seite>23</seite>
@@ -2210,8 +2212,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte des römischen Militärwesens</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Cichorius</nachname></dozent>,
-        <zeit>Mittw. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="cichorius_c"><grad>D. ph.</grad>
+        <nachname>Cichorius</nachname></dozent>, <zeit>Mittw. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chronologie des christlichen
         Mittelalters</thema>: <dozent ref="arndt_wf"><grad>D. ph.</grad>
@@ -2321,7 +2324,8 @@
             <modus>publice</modus>.</veranstaltung>
 
             <veranstaltung>b) <thema>Die Quellen zur Geschichte der Kaiser
-            Galba, Otho und Vitellius</thema>: <dozent><grad>D. ph.</grad>
+            Galba, Otho und Vitellius</thema>: <dozent
+            ref="cichorius_c"><grad>D. ph.</grad>
             <nachname>Cichorius</nachname></dozent>, <zeit>einmal wöchentlich,
             zweistündig</zeit>, <modus>publice</modus>.</veranstaltung>
           </sachgruppe>
@@ -2633,9 +2637,9 @@
         <titel>E. Staats- und Cameralwissenschaften.</titel>
 
         <veranstaltung><thema>Allgemeine Volkswirthschaftslehre (Theoretische
-        Nationalökonomie)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. bis Freit. 4-5 U.</zeit>,
+        Nationalökonomie)</thema>: <dozent ref="buecher_kw"><grad>D.
+        ph.</grad> <nachname>Bücher</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont. bis Freit. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Specielle und praktische Nationalökonomie
@@ -2672,10 +2676,10 @@
         <seite>31</seite>
 
         <veranstaltung><thema>Bevölkerungsstatistik und
-        Bevölkerungslehre</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Dienst. u. Donnerst. 5-6 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Bevölkerungslehre</thema>: <dozent ref="buecher_kw"><grad>D.
+        ph.</grad> <nachname>Bücher</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst. 5-6
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Deutsche Kolonialpolitik</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Hasse</nachname>, <funktion>P.
@@ -2844,7 +2848,7 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen im Volkswirthschaftlich-statistischen
-        Seminar</thema>: <dozent><grad>D. ph.</grad>
+        Seminar</thema>: <dozent ref="buecher_kw"><grad>D. ph.</grad>
         <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. 5-7 U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3164,15 +3168,16 @@
         <seite>36</seite>
 
         <veranstaltung><thema>Charakteristik der Hauptgruppen des
-        Thierreichs</thema>: <dozent><grad>D. med., ph. et jur.</grad>
-        <nachname>Carus</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Thierreichs</thema>: <dozent ref="carus_jv"><grad>D. med., ph. et
+        jur.</grad> <nachname>Carus</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geographische Verbreitung der Thiere</thema>:
-        <dozent><grad>D. med., ph. et jur.</grad> <nachname>Carus</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 4-5
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="carus_jv"><grad>D. med., ph. et jur.</grad>
+        <nachname>Carus</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mittw. u. Sonnab. 4-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Biologie der Thiere</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Simroth</nachname>,</dozent>

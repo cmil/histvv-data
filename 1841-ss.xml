@@ -582,13 +582,13 @@ unterscheiden-->
       Rechtswissenschaft</siehe>.</absatz>
 
       <veranstaltung><thema>Praktisches europäisches Völkerrecht</thema>:
-      <dozent><nachname>Bülau</nachname>, <funktion>P. O.
+      <dozent ref="buelau_f"><nachname>Bülau</nachname>, <funktion>P. O.
       des.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>National-Oekonomie und
-      Staatswirthschaftslehre</thema>: <ders>Derselbe</ders>, <zeit>11 U. 4
-      T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+      Staatswirthschaftslehre</thema>: <ders ref="buelau_f">Derselbe</ders>,
+      <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Finanzwissenschaft</thema>: <dozent
       ref="jacobi_vfl"><grad>M.</grad> <nachname>Jacobi</nachname></dozent>,
@@ -1689,11 +1689,11 @@ unterscheiden-->
 
         <veranstaltungsgruppe><thema><notiz betreff="fortsetzung">Erster
         Theil</notiz> des in einem Jahre zu vollendenden Cursus der speciellen
-        Pathologie und Therapie (Fieber und Entzündungen)</thema>:
-        <dozent><grad>D.</grad> <nachname>Cerutti</nachname>, <funktion>P.
-        O.</funktion></dozent>, <veranstaltung><zeit>11 U. 2 T.</zeit>
-        <modus>öffentlich</modus></veranstaltung> u. <veranstaltung><zeit>4 U.
-        4 T.</zeit> <modus>privatim<!--(Problem hier: die Zeiten ergänzen sich so, dass die privatim-Höhrer auch zu den öffentlichen Terminen gehen können, womit es für diese als  e i n e  VA zählen könnte.--></modus></veranstaltung>.</veranstaltungsgruppe>
+        Pathologie und Therapie (Fieber und Entzündungen)</thema>: <dozent
+        ref="cerutti_fpl"><grad>D.</grad> <nachname>Cerutti</nachname>,
+        <funktion>P. O.</funktion></dozent>, <veranstaltung><zeit>11 U. 2
+        T.</zeit> <modus>öffentlich</modus></veranstaltung> u.
+        <veranstaltung><zeit>4 U. 4 T.</zeit> <modus>privatim<!--(Problem hier: die Zeiten ergänzen sich so, dass die privatim-Höhrer auch zu den öffentlichen Terminen gehen können, womit es für diese als  e i n e  VA zählen könnte.--></modus></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Ueber Kinderkrankheiten</thema>:
         <dozent><grad>D.</grad> <nachname>Jörg</nachname>, <funktion>P.
@@ -1750,9 +1750,9 @@ unterscheiden-->
         <nachname>Walther</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>4 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Die gesammte Chirurgie</thema>:
-        <dozent><grad>D.</grad> <nachname>Carus</nachname></dozent>, <zeit>2
-        U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Die gesammte Chirurgie</thema>: <dozent
+        ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>,
+        <zeit>2 U. 2 T.</zeit></veranstaltung>
 
         <seite>18</seite>
 
@@ -1784,12 +1784,12 @@ unterscheiden-->
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Chirurgische Verbandlehre in Verbindung mit der
-        Lehre von den Knochenbrüchen und Verrenkungen</thema>:
-        <dozent><grad>D.</grad> <nachname>Carus</nachname></dozent>, <zeit>2
-        U. 2 T.</zeit></veranstaltung>
+        Lehre von den Knochenbrüchen und Verrenkungen</thema>: <dozent
+        ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>,
+        <zeit>2 U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Operative Orthopädie</thema>:
-        <ders>Derselbe</ders>, <zeit>8 U. 2 T.</zeit>
+        <veranstaltung><thema>Operative Orthopädie</thema>: <ders
+        ref="carus_ea">Derselbe</ders>, <zeit>8 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -1829,11 +1829,12 @@ eine Vorlesungsreihe.--></veranstaltung>
         <funktion>Dechant</funktion></dozent>, <zeit>6 T. 9-11
         U.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Poliklinik</thema>: <dozent><grad>D.</grad>
-        <nachname>Cerutti</nachname>, <funktion>P. O.</funktion></dozent>,
-        <dozent ref="braune_a">in Verbindung mit <grad>D.</grad>
-        <nachname>Braune</nachname>, <funktion>P. O. des.</funktion></dozent>,
-        <zeit>2 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Poliklinik</thema>: <dozent
+        ref="cerutti_fpl"><grad>D.</grad> <nachname>Cerutti</nachname>,
+        <funktion>P. O.</funktion></dozent>, <dozent ref="braune_a">in
+        Verbindung mit <grad>D.</grad> <nachname>Braune</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>2 U. 6 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Klinische Demonstrationen am Krankenbette,
         <ort>im Hospital zu St. Georgen</ort></thema>: <dozent><grad>D.</grad>
@@ -1853,9 +1854,9 @@ eine Vorlesungsreihe.--></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>:
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P.
-        E.</funktion></dozent>, <dozent>in Verbindung mit <grad>D.</grad>
-        <nachname>Carus</nachname></dozent>, <zeit>11 U. 6 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        E.</funktion></dozent>, <dozent ref="carus_ea">in Verbindung mit
+        <grad>D.</grad> <nachname>Carus</nachname></dozent>, <zeit>11 U. 6
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
