@@ -63,7 +63,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Hebräische Grammatik (mit Uebungen) </thema>:
-      <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
+      <dozent ref="dalmann_hg"><grad>Lic. th.</grad> <grad>D. ph.</grad>
       <nachname>Dalman</nachname>, <funktion>P. E. des.</funktion></dozent>,
       <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -89,8 +89,8 @@
       <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
       Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Messianische Weissagungen</thema>:
-      <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
+      <veranstaltung><thema>Messianische Weissagungen</thema>: <dozent
+      ref="dalmann_hg"><grad>Lic. th.</grad> <grad>D. ph.</grad>
       <nachname>Dalman</nachname>, <funktion>P. E. des.</funktion></dozent>,
       <zeit>Mittw., Freit. u. Sonnab. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -259,9 +259,9 @@
 
       <veranstaltung><thema>Alttestamentliche Gesellschaft (der Dekalog des
       Alten Testaments und des lutherischen Katechismus, in Verbindung mit
-      schriftlichen Arbeiten)</thema>: <dozent><grad>Lic. th.</grad> <grad>D.
-      ph.</grad> <nachname>Dalman</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Donnerst. ½8-9 U.</zeit>,
+      schriftlichen Arbeiten)</thema>: <dozent ref="dalmann_hg"><grad>Lic.
+      th.</grad> <grad>D. ph.</grad> <nachname>Dalman</nachname>, <funktion>P.
+      E. des.</funktion></dozent>, <zeit>Donnerst. ½8-9 U.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1241,10 +1241,10 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
       des.</funktion></dozent>, <zeit>Dienst., Mittw. u. Sonnab. 7-8 U.
       Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Medicinische Klinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Curschmann</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>tägl. 9½-11 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Medicinische Klinik</thema>: <dozent
+      ref="curschmann_hjw"><grad>D. med.</grad>
+      <nachname>Curschmann</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. 9½-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Referate und Besprechungen ausgewählter klinischer
       Fragen</thema>: <dozent><grad>D. med.</grad> <nachname>His</nachname>,
@@ -2093,8 +2093,8 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Hebräische Grammatik (mit
-          Uebungen)</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-          <nachname>Dalman</nachname>, <funktion>P. E.
+          Uebungen)</thema>: <dozent ref="dalmann_hg"><grad>Lic. th.</grad>
+          <grad>D. ph.</grad> <nachname>Dalman</nachname>, <funktion>P. E.
           des.</funktion></dozent> <siehe>Siehe Theologische
           Facultät.</siehe></veranstaltungsverweis>
 
@@ -3400,17 +3400,17 @@ Welche grundsätzliche Richtung bei diesen Dingen?)--></veranstaltung>
         <zeit>Mittw. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geologischer Bau des Königreichs Sachsen
-        (Erzgebirgische Provinz)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Credner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Donnerst. 6-7 U.</zeit>,
+        (Erzgebirgische Provinz)</thema>: <dozent ref="credner_khg"><grad>D.
+        ph.</grad> <nachname>Credner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Donnerst. 6-7 U.</zeit>,
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <seite>37</seite>
 
-        <veranstaltung><thema>Palaeontologie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Credner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mittw., Donnerst. u. Freit. 5-6
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Palaeontologie</thema>: <dozent
+        ref="credner_khg"><grad>D. ph.</grad> <nachname>Credner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mittw., Donnerst. u. Freit.
+        5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Botanik</thema>: <dozent><grad>D.
         ph., rer. nat. et med.</grad> <nachname>Pfeffer</nachname>,
@@ -3617,11 +3617,12 @@ Welche grundsätzliche Richtung bei diesen Dingen?)--></veranstaltung>
 
         <veranstaltung><thema>Palaeontologische Untersuchungen und
         Geologisches Praktikum (letzteres verbunden mit Excursionen)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Credner</nachname>, <funktion>P.
-        O.</funktion></dozent> und <dozent><grad>D. ph.</grad>
-        <nachname>Felix</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>in noch zu best. Stunden</zeit>, <modus>privatissime</modus>,
-        aber <gebühr>gratis</gebühr>.</veranstaltung>
+        <dozent ref="credner_khg"><grad>D. ph.</grad>
+        <nachname>Credner</nachname>, <funktion>P. O.</funktion></dozent> und
+        <dozent><grad>D. ph.</grad> <nachname>Felix</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>in noch zu best. Stunden</zeit>,
+        <modus>privatissime</modus>, aber
+        <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Mikroskopische Uebungen</thema>:
         <dozent><grad>D. ph., rer. nat. et med.</grad>

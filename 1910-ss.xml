@@ -1948,9 +1948,10 @@
       <ort>in der Medizinischen Klinik, Liebigstr. 22</ort>.</veranstaltung>
 
       <veranstaltung><thema>Medizinische Klinik (Liebigstr. 22.)</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Curschmann</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>tägl. (außer Donnerst.) 9½-11
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="curschmann_hjw"><grad>D. med.</grad>
+      <nachname>Curschmann</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. (außer Donnerst.) 9½-11 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Medizinische Poliklinik (Ambulanz)</thema>:
       <dozent><grad>D. med.</grad> <nachname>Hoffmann</nachname>, <funktion>P.
@@ -2036,7 +2037,7 @@
       Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung><thema>Zahnärztliche Poliklinik (Extraktionskursus) für
-      Mediziner</thema>: <dozent><grad>D. ph.</grad>
+      Mediziner</thema>: <dozent ref="dependorf_t"><grad>D. ph.</grad>
       <nachname>Dependorf</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Donnerst. 8-9 U.</zeit>, <modus>privatissime</modus>, <ort>im
       Zahnärztl. Institut, Nürnberger Str. 57</ort>.</veranstaltung>
@@ -2179,10 +2180,10 @@
 
         <veranstaltung><thema>Ausgewählte Kapitel der operativen
         Zahnheilkunde, mit Demonstrationen (für Fortgeschrittene)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Dependorf</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mont. 4½-5½ U.</zeit>,
-        <modus>privatissime</modus>, <ort>im Zahnärztl. Institut, Nürnberger
-        Str. 57</ort>.</veranstaltung>
+        <dozent ref="dependorf_t"><grad>D. ph.</grad>
+        <nachname>Dependorf</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. 4½-5½ U.</zeit>, <modus>privatissime</modus>, <ort>im
+        Zahnärztl. Institut, Nürnberger Str. 57</ort>.</veranstaltung>
 
         <veranstaltung><thema>Vorlesung über Pathologie und Therapie der
         Zahnkrankheiten, mit Demonstrationen</thema>: <dozent>Im Auftrage des
@@ -2216,8 +2217,8 @@
         <modus>privatim</modus>, <ort>im Zahnärztl. Institut, Nürnberger Str.
         57</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Poliklinik für Zahnkrankheiten</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Dependorf</nachname>,
+        <veranstaltung><thema>Poliklinik für Zahnkrankheiten</thema>: <dozent
+        ref="dependorf_t"><grad>D. ph.</grad> <nachname>Dependorf</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u.
         Freit. 8-9½ U.</zeit>, <modus>privatissime</modus>, <ort>im Zahnärztl.
         Institut, Nürnberger Str. 57</ort>.</veranstaltung>
@@ -2225,7 +2226,7 @@
         <veranstaltung><thema>Operativer Kursus der konservierenden
         Zahnheilkunde <seite>24</seite>einschl. der Zahnfüllungsmethoden. (Für
         Anfänger: Kursus der konservierenden Zahnheilkunde am
-        Phantom)</thema>: <dozent><grad>D. ph.</grad>
+        Phantom)</thema>: <dozent ref="dependorf_t"><grad>D. ph.</grad>
         <nachname>Dependorf</nachname>, <funktion>P. E.</funktion></dozent>,
         mit <dozent><funktion>Hilfslehrer Zahnarzt</funktion>
         <nachname>Schuster</nachname></dozent>, <zeit>Mont. bis Freit. 2-5
@@ -3924,9 +3925,10 @@ Deswegen bitte hier so stehen lassen.-->
         G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geologischer Bau des Königreichs Sachsen
-        (Erzgebirgische Provinz)</thema>: <dozent><grad>D. ph. et sc.</grad>
-        <nachname>Credner</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
+        (Erzgebirgische Provinz)</thema>: <dozent ref="credner_khg"><grad>D.
+        ph. et sc.</grad> <nachname>Credner</nachname>, <funktion>P.
+        O.</funktion></dozent> <siehe>Siehe Abschnitt
+        G.</siehe></veranstaltungsverweis>
 
         <trennlinie/>
 
@@ -5500,16 +5502,18 @@ Veranstaltungen bezogen werden!-->
         Universitätsgebäude</ort>.</veranstaltung>
 
         <veranstaltung><thema>Geologischer Bau des Königreichs Sachsen
-        (Erzgebirgische Provinz)</thema>: <dozent><grad>D. ph. et sc.</grad>
-        <nachname>Credner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Donnerst. 6-7 U.</zeit>, <modus>publice</modus>, <ort>im
-        Mineralog. Institut, Talstr. 35</ort>.</veranstaltung>
+        (Erzgebirgische Provinz)</thema>: <dozent ref="credner_khg"><grad>D.
+        ph. et sc.</grad> <nachname>Credner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Donnerst. 6-7 U.</zeit>,
+        <modus>publice</modus>, <ort>im Mineralog. Institut, Talstr.
+        35</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Paläontologie</thema>: <dozent><grad>D. ph. et
-        sc.</grad> <nachname>Credner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mittw., Donnerst. u. Freit. 5-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Mineralog. Institut,
-        Talstr. 35</ort>.</veranstaltung>
+        <veranstaltung><thema>Paläontologie</thema>: <dozent
+        ref="credner_khg"><grad>D. ph. et sc.</grad>
+        <nachname>Credner</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mittw., Donnerst. u. Freit. 5-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Mineralog. Institut, Talstr.
+        35</ort>.</veranstaltung>
 
         <veranstaltung><thema>Vulkanologie</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Felix</nachname>, <funktion>P.
@@ -5949,11 +5953,11 @@ Veranstaltungen bezogen werden!-->
         Mineralogischen Institut, Talstr. 35</ort>.</veranstaltung>
 
         <veranstaltung><thema>Geologisch-paläontologisches Kolloquium und
-        Prakti<seite>61</seite>kum</thema>: <dozent><grad>D. ph. et sc.</grad>
-        <nachname>Credner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Sonnab. 10-1 U.</zeit>, <modus>privatissime</modus>, sed
-        <gebühr>gratis</gebühr>, <ort>im Paläontolog. Institut, Talstr. 35.
-        II.</ort></veranstaltung>
+        Prakti<seite>61</seite>kum</thema>: <dozent ref="credner_khg"><grad>D.
+        ph. et sc.</grad> <nachname>Credner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Sonnab. 10-1 U.</zeit>,
+        <modus>privatissime</modus>, sed <gebühr>gratis</gebühr>, <ort>im
+        Paläontolog. Institut, Talstr. 35. II.</ort></veranstaltung>
 
         <veranstaltung><thema>Geologische und paläontologische Übungen mit
         Exkursionen</thema>: <dozent><grad>D. ph.</grad>

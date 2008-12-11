@@ -77,19 +77,19 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Erklärung der Propheten Haggai, Sacharia,
-      Maleachi</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-      <nachname>Dalman</nachname></dozent>, <zeit>Mittw. u. Sonnab. 11-12
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Maleachi</thema>: <dozent ref="dalmann_hg"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Dalman</nachname></dozent>, <zeit>Mittw.
+      u. Sonnab. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Die israelitischen Feste</thema>:
-      <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
+      <veranstaltung><thema>Die israelitischen Feste</thema>: <dozent
+      ref="dalmann_hg"><grad>Lic. th.</grad> <grad>D. ph.</grad>
       <nachname>Dalman</nachname></dozent>, <zeit>Mittw. 12-1 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Einleitung in die mittelalterliche jüdische
-      Litteratur</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-      <nachname>Dalman</nachname></dozent>, <zeit>Donnerst. 5-6 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      Litteratur</thema>: <dozent ref="dalmann_hg"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Dalman</nachname></dozent>,
+      <zeit>Donnerst. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Einleitung in das Neue Testament</thema>:
       <dozent><grad>D. th., jur. et ph.</grad> <nachname>Gregory</nachname>,
@@ -256,9 +256,9 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Aramäische Uebungen (Lektüre des
-      Onkelostargums)</thema>: <dozent><grad>Lic. th.</grad> <grad>D.
-      ph.</grad> <nachname>Dalman</nachname></dozent>, <zeit>Freit. ½8-9
-      U.</zeit>, <modus>privatissime</modus>, aber
+      Onkelostargums)</thema>: <dozent ref="dalmann_hg"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Dalman</nachname></dozent>, <zeit>Freit.
+      ½8-9 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Hebraicum der Lausitzer
@@ -1252,10 +1252,10 @@
       med.</grad> <nachname>His</nachname></dozent>, <zeit>Dienst., Mittw. u.
       Sonnab. 8-9 U. früh</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Medicinische Klinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Curschmann</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>tägl. 10½-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Medicinische Klinik</thema>: <dozent
+      ref="curschmann_hjw"><grad>D. med.</grad>
+      <nachname>Curschmann</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. 10½-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Cursus der Percussion und Auscultation für
       Anfänger</thema>: <dozent><grad>D. med.</grad>
@@ -1977,8 +1977,8 @@
           <nachname>Conrady</nachname></dozent>, <zeit>zweistünd.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltungsverweis><thema>Aramäische Uebungen</thema>:
-          <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
+          <veranstaltungsverweis><thema>Aramäische Uebungen</thema>: <dozent
+          ref="dalmann_hg"><grad>Lic. th.</grad> <grad>D. ph.</grad>
           <nachname>Dalman</nachname></dozent>. <siehe>Siehe Theologische
           Facultät</siehe>.</veranstaltungsverweis>
         </sachgruppe>
@@ -3139,8 +3139,8 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine und historische Geologie
-        (Formationslehre)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Credner</nachname>, <funktion>P. O.
+        (Formationslehre)</thema>: <dozent ref="credner_khg"><grad>D.
+        ph.</grad> <nachname>Credner</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
         5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3162,8 +3162,9 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Palaeontologie (Ausgewählte Kapitel)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Credner</nachname>, <funktion>P.
-        O. Hon.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
+        <dozent ref="credner_khg"><grad>D. ph.</grad>
+        <nachname>Credner</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Klimatologie</thema>: <dozent><grad>D.
