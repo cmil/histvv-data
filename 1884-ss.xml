@@ -107,9 +107,9 @@
       <seite>4</seite>
 
       <veranstaltung><thema>Die Lehre Jesu nach den Synoptikern, mit
-      Zugrundelegung der Bergpredigt</thema>: <dozent><grad>D. ph.</grad>
-      <grad>Lic.</grad> <nachname>Ewald</nachname></dozent>, <zeit>Mont.,
-      Dienst. u. Donnerst. 8-9 U.</zeit>,
+      Zugrundelegung der Bergpredigt</thema>: <dozent ref="ewald_p"><grad>D.
+      ph.</grad> <grad>Lic.</grad> <nachname>Ewald</nachname></dozent>,
+      <zeit>Mont., Dienst. u. Donnerst. 8-9 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Auslegung des Evangelium Matthäi</thema>:
@@ -247,7 +247,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Neutestamentlich-exegetische Gesellschaft</thema>:
-      <dozent><grad>D. ph.</grad> <grad>Lic.</grad>
+      <dozent ref="ewald_p"><grad>D. ph.</grad> <grad>Lic.</grad>
       <nachname>Ewald</nachname></dozent>, <zeit>Donnerst. 7-8 U. Ab.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -670,22 +670,23 @@
       <nachname>Frey</nachname></dozent>, <zeit>Mittw. 7-8 U. früh und Sonnab.
       9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Chemie der Eiweisskörper</thema>: <dozent><grad>D.
-      med. &amp; ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Chemie der Eiweisskörper</thema>: <dozent
+      ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+      <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Mittw. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Physiologisch-chemisches Praktikum</thema>:
-      <dozent><grad>D. med. &amp; ph.</grad> <nachname>Drechsel</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>täglich 9-1 U. und (ausser
-      Sonnab.) 2-5 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+      <dozent ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+      <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>täglich 9-1 U. und (ausser Sonnab.) 2-5 U.</zeit>,
+      <modus>privatissime</modus>.</veranstaltung>
 
       <seite>10</seite>
 
-      <veranstaltung><thema>Harnanalyse</thema>: <dozent><grad>D. med. &amp;
-      ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Sonnab. 3-4 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      <veranstaltung><thema>Harnanalyse</thema>: <dozent
+      ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+      <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Sonnab. 3-4 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Praktischer Cursus der qualitativen und
       quantitativen Harnanalyse</thema> (<zeit>sechswöchentlich<!--(ZEIT! Hier muss das Tag getrennt werden)--></zeit>):
@@ -1297,10 +1298,10 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Didaktik der Gymnasial-Lehrfächer <notiz
-        betreff="fortsetzung">II. Theil</notiz></thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Eckstein</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst. 6-7
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        betreff="fortsetzung">II. Theil</notiz></thema>: <dozent
+        ref="eckstein_fa"><grad>D. ph.</grad> <nachname>Eckstein</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst.
+        6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Theologische Ethik</thema>:
         <dozent><grad>D. th. &amp; ph.</grad> <nachname>Luthardt</nachname>,
@@ -1345,7 +1346,7 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen des Königlichen pädagogischen
-        Seminars</thema>: <dozent><grad>D. ph.</grad>
+        Seminars</thema>: <dozent ref="eckstein_fa"><grad>D. ph.</grad>
         <nachname>Eckstein</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Sonnab. 2-4 U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1422,9 +1423,9 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung de II. Buches des Herodot</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Ebers</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mont. u. Freit. 12-1 U.</zeit>,
-          <modus>privatim</modus>, aber
+          <dozent ref="ebers_gm"><grad>D. ph.</grad>
+          <nachname>Ebers</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mont. u. Freit. 12-1 U.</zeit>, <modus>privatim</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung von Platon's Symposion</thema>:
@@ -1592,10 +1593,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Demotische Grammatik und Einführung in die
-          Lectüre demotischer Texte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Ebers</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst., Mittw. u. Donnerst., in zu vereinb. Stunden</zeit>,
-          <modus>privatim</modus>, aber
+          Lectüre demotischer Texte</thema>: <dozent ref="ebers_gm"><grad>D.
+          ph.</grad> <nachname>Ebers</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Dienst., Mittw. u. Donnerst., in zu
+          vereinb. Stunden</zeit>, <modus>privatim</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der aethiopischen Sprache verbunden
@@ -1710,9 +1711,10 @@
 
           <veranstaltung><thema>Geschichte der französischen Literatur seit
           dem 14. Jahrhundert bis zum Zeitalter Ludwigs des XIV.</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Ebert</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 4-5
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="ebert_gwa"><grad>D. ph.</grad>
+          <nachname>Ebert</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst., Donnerst. u. Freit. 4-5 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Historische französische Syntax</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Settegast</nachname>,
@@ -1725,10 +1727,10 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Spanische Grammatik mit Leseübeungen (nach
-          Huber's spanischem Lesebuch)</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Ebert</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst. u. Freit. 8-9 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          Huber's spanischem Lesebuch)</thema>: <dozent
+          ref="ebert_gwa"><grad>D. ph.</grad> <nachname>Ebert</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Freit. 8-9
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der litauischen Sprache</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
@@ -2599,15 +2601,16 @@
         E.</funktion></dozent> <siehe>Siehe <gesperrt>Medicinische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Harnanlyse</thema>: <dozent><grad>D.
-        med. &amp; ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe <gesperrt>Medicinische
+        <veranstaltungsverweis><thema>Harnanlyse</thema>: <dozent
+        ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+        <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe <gesperrt>Medicinische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Chemie der Eiweisskörper</thema>:
-        <dozent><grad>D. med. &amp; ph.</grad> <nachname>Drechsel</nachname>,
-        <funktion>P. E.</funktion></dozent> <siehe>Siehe
-        <gesperrt>Medicinische
+        <dozent ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+        <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe <gesperrt>Medicinische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Fortschritte der Zellenlehre</thema>:
@@ -2696,9 +2699,9 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Physiolog.-chemisches Praktikum</thema>:
-        <dozent><grad>D. med. &amp; ph.</grad> <nachname>Drechsel</nachname>,
-        <funktion>P. E.</funktion></dozent> <siehe>Siehe
-        <gesperrt>Medicinische
+        <dozent ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+        <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe <gesperrt>Medicinische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Praktikum <ort>im Laboratorium des

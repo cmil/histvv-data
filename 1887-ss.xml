@@ -107,9 +107,9 @@
       <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
       Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Leben Jesu</thema>: <dozent><grad>D. ph.</grad>
-      <grad>Lic.</grad> <nachname>Ewald</nachname></dozent>, <zeit>Mont.,
-      Dienst., Donnerst. u. Freit. 8-9 U.</zeit>,
+      <veranstaltung><thema>Leben Jesu</thema>: <dozent ref="ewald_p"><grad>D.
+      ph.</grad> <grad>Lic.</grad> <nachname>Ewald</nachname></dozent>,
+      <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Die Urkunden und die Kritik des neutestamentlichen
@@ -243,7 +243,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Neutestamentlich-exegetische Gesellschaft</thema>:
-      <dozent><grad>D. ph.</grad> <grad>Lic.</grad>
+      <dozent ref="ewald_p"><grad>D. ph.</grad> <grad>Lic.</grad>
       <nachname>Ewald</nachname></dozent>, <zeit>Donnerst. 7-9 U. Ab.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -656,20 +656,21 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Organische Experimentalchemie für
-      Mediciner</thema>: <dozent><grad>D. med. &amp; ph.</grad>
-      <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont., Mittw., Donnerst. u. Freit. 5-6 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Mediciner</thema>: <dozent ref="drechsel_fhe"><grad>D. med. &amp;
+      ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont., Mittw., Donnerst. u. Freit. 5-6
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Physiologisch-chemisches Praktikum</thema>:
-      <dozent><grad>D. med. &amp; ph.</grad> <nachname>Drechsel</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>täglich. 9-1 U. und (ausser
-      Sonnab.) 2-5 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+      <dozent ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+      <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>täglich. 9-1 U. und (ausser Sonnab.) 2-5 U.</zeit>,
+      <modus>privatissime</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Harnanalyse</thema>: <dozent><grad>D. med. &amp;
-      ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Sonnab. 3-4 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      <veranstaltung><thema>Harnanalyse</thema>: <dozent
+      ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+      <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Sonnab. 3-4 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1198,9 +1199,9 @@ Verweisgruppe)-->: <dozent><grad>D. ph. &amp; med.</grad>
       G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Chemisches Praktikum für Anfänger</thema>:
-      <dozent><grad>D. med. &amp; ph.</grad> <nachname>Drechsel</nachname>,
-      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
-      G.</siehe></veranstaltungsverweis>
+      <dozent ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+      <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>
+      <siehe>Siehe Philosophische Facultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Zoologisch-zootomisches Praktikum</thema>:
       <dozent><grad>D. ph. &amp; med.</grad> <nachname>Leuckart</nachname>,
@@ -1738,7 +1739,7 @@ erkennbar)--></absatz>
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der italienischen
-          Literatur</thema>: <dozent><grad>D. ph.</grad>
+          Literatur</thema>: <dozent ref="ebert_gwa"><grad>D. ph.</grad>
           <nachname>Ebert</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Dienst. bis Freit. 5-6 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -1788,9 +1789,10 @@ erkennbar)--></absatz>
           <trennlinie/>
 
           <veranstaltung><thema>Romanische Gesellschaft: Uebungen im Lesen und
-          Erklären italienischer Texte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Ebert</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mittw. 9-10 U.</zeit>, <modus>privatissime</modus>, aber
+          Erklären italienischer Texte</thema>: <dozent
+          ref="ebert_gwa"><grad>D. ph.</grad> <nachname>Ebert</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 9-10 U.</zeit>,
+          <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen im schriftlichen Gebrauche der
@@ -1835,9 +1837,10 @@ erkennbar)--></absatz>
         <seite>22</seite>
 
         <veranstaltung><thema>Urgeschichte der germanischen und romanischen
-        Völker bis Ende der Karolinger</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Erler</nachname></dozent>, <zeit>Mont., Dienst., Donnerst.
-        u. Freit. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Völker bis Ende der Karolinger</thema>: <dozent ref="erler_g"><grad>D.
+        ph.</grad> <nachname>Erler</nachname></dozent>, <zeit>Mont., Dienst.,
+        Donnerst. u. Freit. 10-11 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Römische Kaisergeschichte mit besonderer
         Berücksichtigung des Augustinischen Zeitalters</thema>:
@@ -1925,9 +1928,9 @@ erkennbar)--></absatz>
         <seite>23</seite>
 
         <veranstaltung><thema>Urkundenlehre der päpstlichen Kanzlei</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Erler</nachname></dozent>,
-        <zeit>Dienst. u. Freit. 3-4 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        <dozent ref="erler_g"><grad>D. ph.</grad>
+        <nachname>Erler</nachname></dozent>, <zeit>Dienst. u. Freit. 3-4
+        U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einleitung in die allgemeine
         Religionsgeschichte</thema>: <dozent><grad>D. ph.</grad>
@@ -2373,9 +2376,10 @@ erkennbar)--></absatz>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Gewöhnliche lineare Differentialgleichungen, vom
-        functionentheoretischen Standpuncte</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Engel</nachname></dozent>, <zeit>zweistündig, an
-        noch zu best. Tagen</zeit>, <modus>privatim</modus>.</veranstaltung>
+        functionentheoretischen Standpuncte</thema>: <dozent
+        ref="engel_f"><grad>D. ph.</grad> <nachname>Engel</nachname></dozent>,
+        <zeit>zweistündig, an noch zu best. Tagen</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einleitung in die neuere Algebra und deren
         geometrische Anwendungen</thema>: <dozent><grad>D. ph.</grad>
@@ -2431,9 +2435,9 @@ erkennbar)--></absatz>
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen in Transformationsgruppen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Engel</nachname></dozent>,
-        <zeit>zweistündig, an zu best. Tagen</zeit>,
-        <modus>privatissime</modus>, aber
+        <dozent ref="engel_f"><grad>D. ph.</grad>
+        <nachname>Engel</nachname></dozent>, <zeit>zweistündig, an zu best.
+        Tagen</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -2644,15 +2648,16 @@ erkennbar)--></absatz>
         O.</funktion></dozent> <siehe>Siehe Medicinische
         Facultät.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Harnanalyse</thema>: <dozent><grad>D.
-        med. &amp; ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Medicinische
-        Facultät.</siehe></veranstaltungsverweis>
-
-        <veranstaltungsverweis><thema>Organische Experimentalchemie (für
-        Mediciner)</thema>: <dozent><grad>D. med. &amp; ph.</grad>
+        <veranstaltungsverweis><thema>Harnanalyse</thema>: <dozent
+        ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
         <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
+
+        <veranstaltungsverweis><thema>Organische Experimentalchemie (für
+        Mediciner)</thema>: <dozent ref="drechsel_fhe"><grad>D. med. &amp;
+        ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
+        E.</funktion></dozent> <siehe>Siehe Medicinische
+        Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Praktische Anleitung zu bakteriellen
         Untersuchungen</thema>: <dozent><grad>D. med.</grad>
@@ -2676,9 +2681,10 @@ erkennbar)--></absatz>
         U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum für Anfänger</thema>:
-        <dozent><grad>D. med. &amp; ph.</grad> <nachname>Drechsel</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>täglich 9-1 u. ausser
-        Sonnab. 2-5 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+        <dozent ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+        <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>täglich 9-1 u. ausser Sonnab. 2-5 U.</zeit>,
+        <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum</thema>: <dozent><grad>D.
         ph. &amp; med.</grad> <nachname>Wislicenus</nachname>, <funktion>P.
@@ -2748,9 +2754,9 @@ erkennbar)--></absatz>
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Physiolog.-chem. Praktikum</thema>:
-        <dozent><grad>D. med. &amp; ph.</grad> <nachname>Drechsel</nachname>,
-        <funktion>P. E.</funktion></dozent> <siehe>Siehe Medicinische
-        Facultät.</siehe></veranstaltungsverweis>
+        <dozent ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+        <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Praktikum <ort>im chem. Laboratorium des
         landw.-physiologischen Instituts</ort></thema>: <dozent><grad>D.

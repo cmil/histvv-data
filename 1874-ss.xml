@@ -302,8 +302,8 @@
           <nachname>Masius</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>2-4 U. Mittw.</zeit></veranstaltung>;
           <veranstaltung><thema>Uebungen</thema><korrektur
-          original=".">:</korrektur> <dozent><grad>D. ph.</grad>
-          <nachname>Eckstein</nachname>, <funktion>P. E.
+          original=".">:</korrektur> <dozent ref="eckstein_fa"><grad>D.
+          ph.</grad> <nachname>Eckstein</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>2-4 U. Sonn.</zeit></veranstaltung>,
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltungsgruppe>
@@ -419,9 +419,10 @@
           T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Cicero de Oratore, lateinisch erklärt</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Eckstein</nachname>,
-          <funktion>P. E. des.</funktion></dozent>, <zeit>6 U. 3 T. (Dienst.,
-          Donnerst. u. Freit.)</zeit></veranstaltung>
+          <dozent ref="eckstein_fa"><grad>D. ph.</grad>
+          <nachname>Eckstein</nachname>, <funktion>P. E.
+          des.</funktion></dozent>, <zeit>6 U. 3 T. (Dienst., Donnerst. u.
+          Freit.)</zeit></veranstaltung>
 
           <veranstaltung><thema>Cicero's Buch über den Staat</thema>: <dozent
           ref="nobbe_kfa"><grad>D. ph.</grad> <nachname>Nobbe</nachname>,
@@ -625,7 +626,7 @@
 
           <veranstaltung><thema>Schrift und Sprache der alten Aegypter. Für
           Anfänger. Mit Zugrundelegung der hieroglyphischen Grammatik von
-          Brugsch</thema>: <dozent><grad>D. ph.</grad>
+          Brugsch</thema>: <dozent ref="ebers_gm"><grad>D. ph.</grad>
           <nachname>Ebers</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>5 U. 3 T. (Mont., Mittw. u. Donn.)</zeit></veranstaltung>
         </sachgruppe>
@@ -699,10 +700,10 @@
           <titel>Romanische Sprachen.</titel>
 
           <veranstaltung><thema>Erklärung altfranzösischer Gedichte nach
-          Bartsch's altfranzösischer Chrestomathie</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Ebert</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>8 U. 2 T. (Dienst. u. Freit.)</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          Bartsch's altfranzösischer Chrestomathie</thema>: <dozent
+          ref="ebert_gwa"><grad>D. ph.</grad> <nachname>Ebert</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>8 U. 2 T. (Dienst. u.
+          Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -762,9 +763,9 @@
 
         <veranstaltung><thema>Aegyptische Geschichte und Archäologie, mit
         besonderer Berücksichtigung der auf Aegypten bezüglichen Stellen in
-        <seite>10</seite>den biblischen Büchern</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Ebers</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>3 U. 2 T. (Mont. u.
+        <seite>10</seite>den biblischen Büchern</thema>: <dozent
+        ref="ebers_gm"><grad>D. ph.</grad> <nachname>Ebers</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2 T. (Mont. u.
         Donnerst.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Griechische Geschichte</thema>: <dozent><grad>D.
@@ -863,7 +864,7 @@
           unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der italienischen
-          Literatur</thema>: <dozent><grad>D. ph.</grad>
+          Literatur</thema>: <dozent ref="ebert_gwa"><grad>D. ph.</grad>
           <nachname>Ebert</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Dienst., Mittw., Donn. u. Freit. 4 U.</zeit></veranstaltung>
         </sachgruppe>
@@ -2122,12 +2123,13 @@
 
           <veranstaltung><thema>Physiologisch chemische und analyt.
           Uebungen</thema>: <ders>Derselbe</ders>, <zeit>täglich 8-12 U. und
-          2-5 U.</zeit> in Verbindung mit <dozent>Hrn. <grad>D.</grad>
+          2-5 U.</zeit> in Verbindung mit <dozent ref="drechsel_fhe">Hrn.
+          <grad>D.</grad>
           <nachname>Drechsel</nachname></dozent>.</veranstaltung>
 
-          <veranstaltung><thema>Mikroskopische Uebungen</thema>:
-          <ders>Derselbe</ders>, <zeit>täglich 8-12 U. und 2-5 U.</zeit> in
-          Verbindung mit <dozent>Hrn. <grad>D.</grad>
+          <veranstaltung><thema>Mikroskopische Uebungen</thema>: <ders
+          ref="drechsel_fhe">Derselbe</ders>, <zeit>täglich 8-12 U. und 2-5
+          U.</zeit> in Verbindung mit <dozent>Hrn. <grad>D.</grad>
           <nachname>Flechsig</nachname></dozent>.</veranstaltung>
 
           <seite>24</seite>

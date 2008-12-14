@@ -1086,9 +1086,9 @@
       Psychiatrischen und Nervenklinik, Windmühlenweg
       20</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Kriminalpsychologie</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Döllken</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Dienst. 5-6 U.</zeit>,
+      <veranstaltung><thema>Kriminalpsychologie</thema>: <dozent
+      ref="doellken_a"><grad>D. med.</grad> <nachname>Döllken</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>Dienst. 5-6 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Psychologie und Psychopathologie des
@@ -1107,9 +1107,9 @@
       20</ort>.</veranstaltung>
 
       <veranstaltung><thema>Unfallneurosen und ihre Begutachtung</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Döllken</nachname>, <funktion>P.
-      E. des.</funktion></dozent>, <zeit>Donnerst. 5-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="doellken_a"><grad>D. med.</grad>
+      <nachname>Döllken</nachname>, <funktion>P. E. des.</funktion></dozent>,
+      <zeit>Donnerst. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Unfallnervenkrankheiten. Mit praktischen Übungen
       in der Begutachtung</thema>: <dozent><grad>D. med.</grad>
@@ -1823,9 +1823,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Elemente der Religionsphilosophie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Dittrich</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 3-4
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="dittrich_o"><grad>D. ph.</grad>
+        <nachname>Dittrich</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. u. Donnerst. 3-4 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Psychologie auf experimenteller
         Grundlage</thema>: <dozent><grad>D. ph.</grad>
@@ -1873,10 +1874,10 @@
         <nachname>Lamprecht</nachname>, <funktion>P. O.</funktion></dozent>:
         <thema>Überblick über die Geschichte der Geisteswissenschaften in den
         letzten Jahrhunderten</thema>, <zeit>Dienst. 4-5
-        U.</zeit></veranstaltung>; <veranstaltung><dozent>in Gemeinschaft mit
-        <grad>D. ph.</grad> <nachname>Dittrich</nachname>, <funktion>P.
-        E.</funktion></dozent>: <thema>Systematik der Geisteswissenschaften
-        mit besonderer Rücksicht auf Philosophie und
+        U.</zeit></veranstaltung>; <veranstaltung><dozent ref="dittrich_o">in
+        Gemeinschaft mit <grad>D. ph.</grad> <nachname>Dittrich</nachname>,
+        <funktion>P. E.</funktion></dozent>: <thema>Systematik der
+        Geisteswissenschaften mit besonderer Rücksicht auf Philosophie und
         Sprachwissenschaft</thema>, <zeit>Mont. 4-5 U.</zeit></veranstaltung>;
         <veranstaltung><dozent><grad>D. ph.</grad>
         <nachname>Kötzschke</nachname>, <funktion>P. E.</funktion></dozent>:
@@ -1966,8 +1967,8 @@
         <zeit>Mittw. u. Sonnab. 8-9 U. Vorm.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Allgemeine Rhythmik und Metrik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Dittrich</nachname>,
+        <veranstaltung><thema>Allgemeine Rhythmik und Metrik</thema>: <dozent
+        ref="dittrich_o"><grad>D. ph.</grad> <nachname>Dittrich</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 4-5
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2740,9 +2741,9 @@
         u. Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Blütezeit der Florentiner Kultur</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Doren</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Freit. 10-11 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="doren_aj"><grad>D. ph.</grad> <nachname>Doren</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Freit. 10-11
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der Nord- und Ostseereiche bis zum
         Niedergang der Hansa</thema>: <dozent><grad>D. ph.</grad>
@@ -2909,7 +2910,7 @@
             Teilnehmer des Vorkurses</thema>, <zeit>Mont. 8 bis 9½ U.
             Ab.</zeit></veranstaltung>
 
-            <veranstaltung>2) <dozent><grad>D. ph.</grad>
+            <veranstaltung>2) <dozent ref="doren_aj"><grad>D. ph.</grad>
             <nachname>Doren</nachname>, <funktion>P. E.</funktion></dozent>:
             <thema>Anleitung zum Quellenstudium der Geschichte überhaupt:
             Lektüre von Quellen zur Geschichte des deutschen Mittelalters,
@@ -2969,7 +2970,7 @@
 
               <seite>35</seite>
 
-              <veranstaltung>5) <dozent><grad>D. ph.</grad>
+              <veranstaltung>5) <dozent ref="doren_aj"><grad>D. ph.</grad>
               <nachname>Doren</nachname>, <funktion>P. E.</funktion></dozent>:
               <thema>Übungen zur Geschichte der Renaissance in
               Italien</thema>. <zeit>Donnerst. 7½-9 U.
@@ -3129,10 +3130,11 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Architektur und Plastik der romanischen
-        Epoche</thema>: <dozent><grad>D. ph.</grad>
-        <nachnamenpräfix>Graf</nachnamenpräfix> <nachname>Vitzthum von
-        Eckstädt</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>Mont.
-        u. Donnerst. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Epoche</thema>: <dozent ref="vitzthumvoneckstaedt_g"><grad>D.
+        ph.</grad> <nachnamenpräfix>Graf</nachnamenpräfix> <nachname>Vitzthum
+        von Eckstädt</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <seite>37</seite>
 
@@ -3205,10 +3207,11 @@
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen zur mittelalterlichen
-          Ikonographie</thema>: <dozent><grad>D. ph.</grad>
-          <nachnamenpräfix>Graf</nachnamenpräfix> <nachname>Vitzthum von
-          Eckstädt</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mittw. 4-6 U.</zeit>, <modus>privatissime</modus>, aber
+          Ikonographie</thema>: <dozent ref="vitzthumvoneckstaedt_g"><grad>D.
+          ph.</grad> <nachnamenpräfix>Graf</nachnamenpräfix>
+          <nachname>Vitzthum von Eckstädt</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>Mittw. 4-6 U.</zeit>,
+          <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <trennlinie/>
@@ -3510,16 +3513,18 @@
         Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung><thema>Die Seuchen der landwirtschaftlichen Haustiere,
-        ihre Ursachen und ihre Bekämpfung</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Eber</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Donnerst. u. Freit. 8-9 U.</zeit>, <modus>privatim</modus>,
-        <ort>im Veterinärinstitut, Linnéstr. 11</ort>.</veranstaltung>
+        ihre Ursachen und ihre Bekämpfung</thema>: <dozent
+        ref="eber_a"><grad>D. ph.</grad> <nachname>Eber</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 8-9
+        U.</zeit>, <modus>privatim</modus>, <ort>im Veterinärinstitut,
+        Linnéstr. 11</ort>.</veranstaltung>
 
         <veranstaltung><thema>Zeugung und Geburt nebst Krankheiten der
-        Zuchttiere und der Neugeborenen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Eber</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont., Dienst. u. Mittw. 8-9 U.</zeit>, <modus>privatim</modus>,
-        <ort>im Veterinärinstitut, Linnéstr. 11</ort>.</veranstaltung>
+        Zuchttiere und der Neugeborenen</thema>: <dozent ref="eber_a"><grad>D.
+        ph.</grad> <nachname>Eber</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont., Dienst. u. Mittw. 8-9 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Veterinärinstitut, Linnéstr.
+        11</ort>.</veranstaltung>
 
         <veranstaltung><thema>Landwirtschaftliche Taxationslehre, verbunden
         mit betriebswissenschaftlichen Übungen</thema>: <dozent><grad>D.
@@ -3689,16 +3694,16 @@
 
             <veranstaltung><thema>Demonstrationen für Landwirte (unter
             besonderer Berücksichtigung der bei Unglücksfällen und plötzlichen
-            Erkrankungen erforderlichen ersten Hilfeleistung)</thema>:
-            <dozent><grad>D. ph.</grad> <nachname>Eber</nachname>,
+            Erkrankungen erforderlichen ersten Hilfeleistung)</thema>: <dozent
+            ref="eber_a"><grad>D. ph.</grad> <nachname>Eber</nachname>,
             <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 8-10 U.</zeit>,
             <modus>privatim</modus>, <ort>im Veterinärinstitut, Linnéstr.
             11</ort>.</veranstaltung>
 
             <veranstaltung><thema>Wissenschaftliche Arbeiten</thema> <ort>im
-            Veterinärinstitute (Linnéstr. 11)</ort>: <dozent><grad>D.
-            ph.</grad> <nachname>Eber</nachname>, <funktion>P.
-            E.</funktion></dozent>, <zeit>tägl.</zeit>,
+            Veterinärinstitute (Linnéstr. 11)</ort>: <dozent
+            ref="eber_a"><grad>D. ph.</grad> <nachname>Eber</nachname>,
+            <funktion>P. E.</funktion></dozent>, <zeit>tägl.</zeit>,
             <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung><thema>Praktische Übungen in der Übungsschule

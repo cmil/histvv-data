@@ -384,10 +384,11 @@
       <sachgruppe>
         <titel>2) Experimental-Chemie.</titel>
 
-        <veranstaltungsgruppe><dozent><funktion>P. O.</funktion>
-        <grad>D.</grad> <nachname>Eschenbach</nachname></dozent>,
-        <veranstaltung><zeit>9 U. 4 T.</zeit></veranstaltung>;
-        ingl.<veranstaltung><thema>chemische Experimente</thema>, <zeit>9 U. 2
+        <veranstaltungsgruppe><dozent ref="eschenbach_cg"><funktion>P.
+        O.</funktion> <grad>D.</grad>
+        <nachname>Eschenbach</nachname></dozent>, <veranstaltung><zeit>9 U. 4
+        T.</zeit></veranstaltung>; ingl.<veranstaltung><thema>chemische
+        Experimente</thema>, <zeit>9 U. 2
         T.</zeit></veranstaltung></veranstaltungsgruppe>
 
         <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
@@ -408,8 +409,9 @@
         <sachgruppe>
           <titel>Examinatoria über Chemie.</titel>
 
-          <veranstaltung>halten <dozent><grad>Dr.</grad> u. <funktion>P.
-          O.</funktion> <nachname>Eschenbach</nachname></dozent>, <zeit>8 U. 2
+          <veranstaltung>halten <dozent ref="eschenbach_cg"><grad>Dr.</grad>
+          u. <funktion>P. O.</funktion>
+          <nachname>Eschenbach</nachname></dozent>, <zeit>8 U. 2
           T.</zeit></veranstaltung>
 
           <veranstaltung>und <dozent><grad>Dr.</grad> u. <funktion>P.
@@ -568,8 +570,8 @@
       <sachgruppe>
         <titel>2) Literargeschichte.</titel>
 
-        <veranstaltung><dozent>Cons. Ass. u. <funktion>P. E.</funktion>
-        <grad>D.</grad> <nachname>Diemer</nachname></dozent>,
+        <veranstaltung><dozent ref="diemer_hacl">Cons. Ass. u. <funktion>P.
+        E.</funktion> <grad>D.</grad> <nachname>Diemer</nachname></dozent>,
         <thema>Geschichte der Universität Leipzig von 1409. an bis auf unsre
         Zeiten, nach s. Sätzen</thema>, <zeit>3 U. Sonnab.</zeit>
         <gebühr>unentg.</gebühr></veranstaltung>
@@ -1115,10 +1117,11 @@
               Abrisse</scil></thema>, <zeit>7 U. 2
               T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-              <veranstaltung><dozent>Cons. Ass. <grad>Dr.</grad>
-              <nachname>Diemer</nachname></dozent>, <thema>Geschichte des röm.
-              Rechts von August bis auf unsere Zeiten, nach Bach's Ordnung ,
-              jedoch nach s. eignen Sätzen</thema>, <zeit>4 U. 2 T.</zeit>
+              <veranstaltung><dozent ref="diemer_hacl">Cons. Ass.
+              <grad>Dr.</grad> <nachname>Diemer</nachname></dozent>,
+              <thema>Geschichte des röm. Rechts von August bis auf unsere
+              Zeiten, nach Bach's Ordnung , jedoch nach s. eignen
+              Sätzen</thema>, <zeit>4 U. 2 T.</zeit>
               <modus>öff.</modus></veranstaltung>
             </sachgruppe>
 
@@ -1335,7 +1338,7 @@
           <thema>Civil-Process, nach Pfotenhauer</thema>, <zeit>9 U. 6
           T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent>Cons. Ass. <grad>Dr.</grad>
+          <veranstaltung><dozent ref="diemer_hacl">Cons. Ass. <grad>Dr.</grad>
           <nachname>Diemer</nachname></dozent>, <thema>sowohl über den Civil-
           als über den Criminal-Process, verbunden mit Ausarbeitungen</thema>,
           <zeit>4 U. 4 T.</zeit></veranstaltung>
@@ -1795,7 +1798,8 @@
             O.</funktion> <nachname>Ludwig</nachname></dozent>, <thema>von den
             Augenkrankheiten</thema>, <zeit>10 U. 2 T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><funktion>P. E.</funktion> <grad>D.</grad>
+            <veranstaltung><dozent ref="eisfeld_jfa"><funktion>P.
+            E.</funktion> <grad>D.</grad>
             <nachname>Eisfeld</nachname></dozent>, <thema>über die
             Wechselfieber u. ihre Heilart</thema>, <zeit>11 U. 2
             T.</zeit></veranstaltung>
@@ -1939,7 +1943,8 @@
         <sachgruppe>
           <titel>5) Arzneymittellehre.</titel>
 
-          <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
+          <veranstaltung><dozent ref="eschenbach_cg"><funktion>P.
+          O.</funktion> <grad>D.</grad>
           <nachname>Eschenbach</nachname></dozent>, <thema>über die chemischen
           Heilmittel</thema>, <zeit>3 U. 4 T.</zeit>
           <modus>öffentl.</modus></veranstaltung>
@@ -1948,15 +1953,15 @@
         <sachgruppe>
           <titel>6) Experimental-Pharmacie.</titel>
 
-          <veranstaltung><ders>Derselbe</ders>, <zeit>1 U. 4
-          T.</zeit></veranstaltung>
+          <veranstaltung><ders ref="eschenbach_cg">Derselbe</ders>, <zeit>1 U.
+          4 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
           <titel>7) Receptirkunst oder Arney-Formel-Lehre.</titel>
 
-          <veranstaltung><ders>Derselbe</ders>, <zeit>11 U. 4
-          T.</zeit></veranstaltung>
+          <veranstaltung><ders ref="eschenbach_cg">Derselbe</ders>, <zeit>11
+          U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung>und <dozent><grad>Dr.</grad>
           <nachname>Knoblauch</nachname></dozent> <zeit>z. ders.
@@ -1987,10 +1992,11 @@
             <thema>Uebungen der Linnéischen und der medicinisch-policeylichen
             Gesellschaft</thema>.</veranstaltung>
 
-            <veranstaltung><dozent><grad>Dr.</grad> u. <funktion>P.
-            O.</funktion> <nachname>Eschenbach</nachname></dozent>,
-            <thema>Disputatorium über physisch-chemische und medicinische
-            Gegenstände</thema>, <zeit>4 U. 2 T.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="eschenbach_cg"><grad>Dr.</grad> u.
+            <funktion>P. O.</funktion>
+            <nachname>Eschenbach</nachname></dozent>, <thema>Disputatorium
+            über physisch-chemische und medicinische Gegenstände</thema>,
+            <zeit>4 U. 2 T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><funktion>P. E.</funktion> <grad>D.</grad>
             <nachname>Haase</nachname></dozent>, <thema>Examinatorium über

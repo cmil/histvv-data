@@ -658,12 +658,12 @@ Et vice versa (s.o.): Ob es sich hier überhaupt um eine eigenständige Veransta
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung><thema>Physiologisch-chemische Uebungen</thema>:
-      <ders>Derselbe</ders>, <dozent>in Verbindung mit <grad>D.</grad>
-      <nachname>Drechsel</nachname></dozent>,
+      <ders>Derselbe</ders>, <dozent ref="drechsel_fhe">in Verbindung mit
+      <grad>D.</grad> <nachname>Drechsel</nachname></dozent>,
       <modus>privatissime</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Physiologische Besprechungen</thema>:
-      <ders>Derselbe</ders>, <zeit>1. wöchentlich</zeit>,
+      <veranstaltung><thema>Physiologische Besprechungen</thema>: <ders
+      ref="drechsel_fhe">Derselbe</ders>, <zeit>1. wöchentlich</zeit>,
       <modus>publice</modus>.<!--Kryptische Zeitangabe: erstwöchentlich oder einwöchenstlich?--></veranstaltung>
 
       <trennlinie/>
@@ -1208,10 +1208,10 @@ offensichtlich fehlerhaft. Lässt sich aber nicht ändern. --></veranstaltung>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen des Pädagogischen Seminars und Vorträge
-        über Organisation der Gymnasien</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Eckstein</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Sonnab. 2-4 U.</zeit> <modus>privatim</modus> und
-        <gebühr>gratis</gebühr>.</veranstaltung>
+        über Organisation der Gymnasien</thema>: <dozent
+        ref="eckstein_fa"><grad>D. ph.</grad> <nachname>Eckstein</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 2-4 U.</zeit>
+        <modus>privatim</modus> und <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Wissenschaftlich-pädagogoisches
         Practicum</thema>: <dozent><grad>D. ph.</grad>
@@ -1265,7 +1265,7 @@ offensichtlich fehlerhaft. Lässt sich aber nicht ändern. --></veranstaltung>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Lateinische Erklärung von Horatii
-          satirae</thema>: <dozent><grad>D. ph.</grad>
+          satirae</thema>: <dozent ref="eckstein_fa"><grad>D. ph.</grad>
           <nachname>Eckstein</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Dienst., Donnerst. u. Freit. 6-7 U.</zeit></veranstaltung>
 
@@ -1449,16 +1449,16 @@ offensichtlich fehlerhaft. Lässt sich aber nicht ändern. --></veranstaltung>
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Einführung in die hieratische Schrift; Syntax
-          und Analyse hieroglyphischer und hieratischer Texte</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Ebers</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mont., Mittw. u. Donnerst. 5-6
-          U.</zeit>, <modus>privatissime</modus>, aber
+          und Analyse hieroglyphischer und hieratischer Texte</thema>: <dozent
+          ref="ebers_gm"><grad>D. ph.</grad> <nachname>Ebers</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Mont., Mittw. u.
+          Donnerst. 5-6 U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Sitten und Gebräuche der Aegypter in Alterthum
-          und in neuerer Zeit</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Ebers</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mont. u. Donnerst. 3-4 U.</zeit>,
+          und in neuerer Zeit</thema>: <dozent ref="ebers_gm"><grad>D.
+          ph.</grad> <nachname>Ebers</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 3-4 U.</zeit>,
           <modus>öffentlich</modus>.</veranstaltung>
 
           <trennlinie/>
@@ -1499,16 +1499,16 @@ offensichtlich fehlerhaft. Lässt sich aber nicht ändern. --></veranstaltung>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Einleitung in das vergleichene Studium der
-          romanischen Sprachen</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Ebert</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst., Mittw., Donnerst. u. Freit. 4-5
-          U.</zeit></veranstaltung>
+          romanischen Sprachen</thema>: <dozent ref="ebert_gwa"><grad>D.
+          ph.</grad> <nachname>Ebert</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Dienst., Mittw., Donnerst. u. Freit.
+          4-5 U.</zeit></veranstaltung>
 
           <veranstaltung><thema>Provenzialische Grammatik nebst Erklärung von
-          Bartsch's Chrestom. provençale</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Ebert</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst. u. Freit. 9-10 U.</zeit>,
-          <modus>öffentlich</modus>.<!--Hier ist "öffentlich" übrigens ausnahmsweise 
+          Bartsch's Chrestom. provençale</thema>: <dozent
+          ref="ebert_gwa"><grad>D. ph.</grad> <nachname>Ebert</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Freit. 9-10
+          U.</zeit>, <modus>öffentlich</modus>.<!--Hier ist "öffentlich" übrigens ausnahmsweise 
 auch im Original kursiv.--></veranstaltung>
 
           <veranstaltung><thema>Altfranzösische Grammatik mit Einschluss des

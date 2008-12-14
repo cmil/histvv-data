@@ -25,6 +25,8 @@
     </status>
   </kopf>
 
+  <seite nr="1"/>
+
   <titel>Verzeichniß der im Sommerhalbjahre 1838 auf der Universität Leipzig
   zu haltenden Vorlesungen.</titel>
 
@@ -47,9 +49,9 @@
         <sachgruppe>
           <titel>Sanskrita-Sprache.</titel>
 
-          <veranstaltung><dozent><nachname>Ewald</nachname>, <grad>D.</grad>
-          <vorname>G. A. H.</vorname></dozent>, <zeit>in zu best. St.</zeit>
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung><dozent ref="ewald_gha"><nachname>Ewald</nachname>,
+          <grad>D.</grad> <vorname>G. A. H.</vorname></dozent>, <zeit>in zu
+          best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><dozent ref="beer_eff"><nachname>Beer</nachname>,
           <grad>M.</grad> <vorname>E. F. F.</vorname></dozent>,
@@ -867,18 +869,19 @@
         Uebungen <ort>in s. Laboratorio</ort></thema>, <zeit>2 St. hinter
         einander an 2 T.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
-        <veranstaltung><dozent><nachname>Erdmann</nachname>, <vorname>O.
-        L.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Cursus der
-        Experimental-Chemie, <notiz betreff="fortsetzung">auf ein Jahr
-        berechnet</notiz></thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><dozent ref="erdmann_ol"><nachname>Erdmann</nachname>,
+        <vorname>O. L.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <thema>Cursus der Experimental-Chemie, <notiz
+        betreff="fortsetzung">auf ein Jahr berechnet</notiz></thema>, <zeit>8
+        U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Anfangsgründe der
-        analytischen Chemie</thema>, <zeit>9 U. 4 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><ders ref="erdmann_ol">Derselbe</ders>,
+        <thema>Anfangsgründe der analytischen Chemie</thema>, <zeit>9 U. 4
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>chemisch-praktische
-        Uebungen <ort>im königlichen Laboratorio</ort></thema>, <zeit>2 - 5 U.
-        2 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="erdmann_ol">Derselbe</ders>,
+        <thema>chemisch-praktische Uebungen <ort>im königlichen
+        Laboratorio</ort></thema>, <zeit>2 - 5 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Lehmann</nachname>, <grad>D.</grad>
         <vorname>K. G.</vorname></dozent>, <thema>über die wichtigsten
@@ -1016,9 +1019,10 @@
             T.</zeit> <modus>öffentlich</modus> u.
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Ewald</nachname>, <grad>D.</grad>
-            <vorname>G. H. A.</vorname></dozent>, <thema>Erklärung des
-            Pentateuchs</thema>, <zeit>10 U.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="ewald_gha"><nachname>Ewald</nachname>,
+            <grad>D.</grad> <vorname>G. H. A.</vorname></dozent>,
+            <thema>Erklärung des Pentateuchs</thema>, <zeit>10
+            U.</zeit></veranstaltung>
 
             <veranstaltung><dozent ref="anger_r"><nachname>Anger</nachname>,
             <grad>M.</grad> <vorname>R.</vorname>, <funktion>Theol.
@@ -1274,9 +1278,10 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
             <vorname>F. F.</vorname>, <funktion>P. E.</funktion></dozent>,
             <siehe>s. Dogmatik</siehe>.</veranstaltungsverweis>
 
-            <veranstaltung><dozent><nachname>Ewald</nachname>, <grad>D.</grad>
-            <vorname>G. H. A.</vorname></dozent>, <thema>biblische Theologie
-            des A. u. N. T.</thema>, <zeit>2 U.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="ewald_gha"><nachname>Ewald</nachname>,
+            <grad>D.</grad> <vorname>G. H. A.</vorname></dozent>,
+            <thema>biblische Theologie des A. u. N. T.</thema>, <zeit>2
+            U.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe>

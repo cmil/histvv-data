@@ -361,9 +361,10 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
       <sachgruppe xml:id="sg-1821s-I.2.003">
         <titel>Chemie.</titel>
 
-        <veranstaltungsgruppe><dozent><nachname>Eschenbach</nachname>,
-        <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P.
-        O.</funktion></dozent>, <veranstaltung
+        <veranstaltungsgruppe><dozent
+        ref="eschenbach_cg"><nachname>Eschenbach</nachname>, <grad>D.</grad>
+        <vorname>C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <veranstaltung
         xml:id="v-1821s-I.2.003-001"><thema>Experimentalchemie</thema> <zeit>9
         U. 4 T.</zeit></veranstaltung> ingl. <veranstaltung
         xml:id="v-1821s-I.2.003-002"><thema>chemische Experimente</thema>,
@@ -676,10 +677,10 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
       <sachgruppe xml:id="sg-1821s-I.8.xx">
         <titel>**) Oeconomische Chemie.</titel>
 
-        <veranstaltung
-        xml:id="v-1821s-I.8.xx-001"><dozent><nachname>Eschenbach</nachname>,
-        <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>7 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1821s-I.8.xx-001"><dozent
+        ref="eschenbach_cg"><nachname>Eschenbach</nachname>, <grad>D.</grad>
+        <vorname>C. G.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>7
+        U. 4 T.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -1786,11 +1787,10 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
       <sachgruppe xml:id="sg-1821s-IV.6.x">
         <titel>*) Ueber die Heilkräfte der Metalle.</titel>
 
-        <veranstaltung
-        xml:id="v-1821s-IV.6.x-001"><dozent><nachname>Eschenbach</nachname>,
-        <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>3 U. 4 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1821s-IV.6.x-001"><dozent
+        ref="eschenbach_cg"><nachname>Eschenbach</nachname>, <grad>D.</grad>
+        <vorname>C. G.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>3
+        U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1821s-IV.6.xx">
@@ -1798,22 +1798,21 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
         Mißtrauen und allzugroßes Vertrauen der Ausübung der Heilkunst
         entgegenstellen.</titel>
 
-        <veranstaltung
-        xml:id="v-1821s-IV.6.xx-001"><dozent><nachname>Eisfeld</nachname>,
-        <grad>D.</grad> <vorname>J. F. A.</vorname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
-        <modus>öffentl.</modus></veranstaltung>
+        <veranstaltung xml:id="v-1821s-IV.6.xx-001"><dozent
+        ref="eisfeld_jfa"><nachname>Eisfeld</nachname>, <grad>D.</grad>
+        <vorname>J. F. A.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+        <zeit>11 U. 2 T.</zeit> <modus>öffentl.</modus></veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
     <sachgruppe xml:id="sg-1821s-IV.7">
       <titel>7) Pharmacie.</titel>
 
-      <veranstaltung
-      xml:id="v-1821s-IV.7-001"><dozent><nachname>Eschenbach</nachname>,
-      <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P.
-      O.</funktion></dozent>, <thema>Experimentalpharmacie</thema>, <zeit>1U.
-      4 T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1821s-IV.7-001"><dozent
+      ref="eschenbach_cg"><nachname>Eschenbach</nachname>, <grad>D.</grad>
+      <vorname>C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+      <thema>Experimentalpharmacie</thema>, <zeit>1U. 4
+      T.</zeit></veranstaltung>
     </sachgruppe>
 
     <sachgruppe xml:id="sg-1821s-IV.8">
@@ -1939,11 +1938,11 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
     <sachgruppe xml:id="sg-1821s-IV.14">
       <titel>14) Examinirübungen.</titel>
 
-      <veranstaltung
-      xml:id="v-1821s-IV.14-001"><dozent><nachname>Eschenbach</nachname>,
-      <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P.
-      O.</funktion></dozent>, <thema>über Chemie, Anatomie u.
-      Physiologie</thema>, <zeit>8 U. 2 T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1821s-IV.14-001"><dozent
+      ref="eschenbach_cg"><nachname>Eschenbach</nachname>, <grad>D.</grad>
+      <vorname>C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+      <thema>über Chemie, Anatomie u. Physiologie</thema>, <zeit>8 U. 2
+      T.</zeit></veranstaltung>
 
       <veranstaltung
       xml:id="v-1821s-IV.14-002"><dozent><nachname>Leune</nachname>,
@@ -1954,11 +1953,11 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
     <sachgruppe xml:id="sg-1821s-IV.15">
       <titel>15) Disputirübungen.</titel>
 
-      <veranstaltung
-      xml:id="v-1821s-IV.15-001"><dozent><nachname>Eschenbach</nachname>,
-      <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P.
-      O.</funktion></dozent>, <thema>über physische, chemische und medicin.
-      Gegenstände</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1821s-IV.15-001"><dozent
+      ref="eschenbach_cg"><nachname>Eschenbach</nachname>, <grad>D.</grad>
+      <vorname>C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+      <thema>über physische, chemische und medicin. Gegenstände</thema>,
+      <zeit>3 U. 2 T.</zeit></veranstaltung>
 
       <veranstaltung
       xml:id="v-1821s-IV.15-002"><dozent><nachname>Leune</nachname>,

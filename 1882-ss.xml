@@ -704,21 +704,23 @@
       <nachname>Frey</nachname></dozent>, <zeit>zweimal wöchentlich, an zu
       best. Tagen und Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Chemie der Eiweisskörper</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
+      <veranstaltung><thema>Chemie der Eiweisskörper</thema>: <dozent
+      ref="drechsel_fhe"><grad>D. ph.</grad> <nachname>Drechsel</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <seite>10</seite>
 
       <veranstaltung><thema>Physiologisch-chemisches Praktikum</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>täglich 9-1 U. und (excl. Sonnab.) 2-5
-      U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
-
-      <veranstaltung><thema>Harnanalyse</thema>: <dozent><grad>D. ph.</grad>
+      <dozent ref="drechsel_fhe"><grad>D. ph.</grad>
       <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Sonnab. 3-4 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      <zeit>täglich 9-1 U. und (excl. Sonnab.) 2-5 U.</zeit>,
+      <modus>privatissime</modus>.</veranstaltung>
+
+      <veranstaltung><thema>Harnanalyse</thema>: <dozent
+      ref="drechsel_fhe"><grad>D. ph.</grad> <nachname>Drechsel</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 3-4 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -838,13 +840,13 @@
 
       <veranstaltung><thema>Specielle Pathologie und Therapie <notiz
       betreff="fortsetzung">I. Theil</notiz> (Krankheiten der Respirations-,
-      Circulations- und Bewegungsorgane)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Erb</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont., Dienst., Donnerst. und Freit., 5-6 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Circulations- und Bewegungsorgane)</thema>: <dozent
+      ref="erb_wh"><grad>D. med.</grad> <nachname>Erb</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. und Freit., 5-6
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Neuropathologische Diagnostik</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Erb</nachname>, <funktion>P.
+      <veranstaltung><thema>Neuropathologische Diagnostik</thema>: <dozent
+      ref="erb_wh"><grad>D. med.</grad> <nachname>Erb</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Mittw. 2-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1088,8 +1090,8 @@
       O.</funktion></dozent>, <zeit>täglich 9½-11 U., und Dienst. u. Freit.,
       5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Medicinische Poliklinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Erb</nachname>, <funktion>P.
+      <veranstaltung><thema>Medicinische Poliklinik</thema>: <dozent
+      ref="erb_wh"><grad>D. med.</grad> <nachname>Erb</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>täglich ausser Mittw., 2-3 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1320,9 +1322,9 @@
         <zeit>Mittw. 8-9 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Methodik des lateinischen Unterrichts</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Eckstein</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Freit. 6-7 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        <dozent ref="eckstein_fa"><grad>D. ph.</grad>
+        <nachname>Eckstein</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Freit. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Theologische Ethik</thema>:
         <dozent><grad>D. th.</grad> <nachname>Luthardt</nachname>,
@@ -1379,7 +1381,7 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen des Königlichen pädagogischen
-        Seminars</thema>: <dozent><grad>D. ph.</grad>
+        Seminars</thema>: <dozent ref="eckstein_fa"><grad>D. ph.</grad>
         <nachname>Eckstein</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Sonnab. 2-4 U.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1467,7 +1469,7 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Horatii carmina selecta lateinisch
-          erklärt</thema>: <dozent><grad>D. ph.</grad>
+          erklärt</thema>: <dozent ref="eckstein_fa"><grad>D. ph.</grad>
           <nachname>Eckstein</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mont., Dienst. u. Donnerst., 6-7 U. Ab.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -1631,16 +1633,17 @@
           früh</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Die Denkmäler des alten Aegypten</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Ebers</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Dienst. u. Mittw., 12-1 U.</zeit>,
+          <dozent ref="ebers_gm"><grad>D. ph.</grad>
+          <nachname>Ebers</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst. u. Mittw., 12-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Interpretation von schwierigeren
           hieroglyphischen und hieratischen Texten, <notiz
           betreff="fortsetzung">Fortsetzung</notiz> (für
-          Vorgeschrittenere)</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Ebers</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>an zu best. Tagen u. Stunden</zeit>,
+          Vorgeschrittenere)</thema>: <dozent ref="ebers_gm"><grad>D.
+          ph.</grad> <nachname>Ebers</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>an zu best. Tagen u. Stunden</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Aethiopische Gra<korrektur
@@ -1725,10 +1728,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der französischen Literatur seit
-          dem 14. Jahrhundert bis zum Zeitalter Ludwig XIV.</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Ebert</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit., 4-5
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          dem 14. Jahrhundert bis zum Zeitalter Ludwig XIV.</thema>: <dozent
+          ref="ebert_gwa"><grad>D. ph.</grad> <nachname>Ebert</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
+          Freit., 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der französischen Literatur seit
           Ludwig XIV.</thema>: <dozent ref="birch-hirschfeld_ga"><grad>D.
@@ -1799,10 +1802,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Spanische Grammatik mit Leseübungen (nach
-          Huber's spanischem Lesebuch)</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Ebert</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst. u. Freit., 8-9 U. früh</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          Huber's spanischem Lesebuch)</thema>: <dozent
+          ref="ebert_gwa"><grad>D. ph.</grad> <nachname>Ebert</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Freit., 8-9 U.
+          früh</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der litauischen Sprache</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
@@ -2683,15 +2686,15 @@
         E.</funktion></dozent> <siehe>Siehe Medicinische
         Facultät.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Harnanalyse</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Medicinische
+        <veranstaltungsverweis><thema>Harnanalyse</thema>: <dozent
+        ref="drechsel_fhe"><grad>D. ph.</grad> <nachname>Drechsel</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Medicinische
         Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Chemie der Eiweisskörper</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Drechsel</nachname>,
-        <funktion>P. E.</funktion></dozent> <siehe>Siehe Medicinische
-        Facultät.</siehe></veranstaltungsverweis>
+        <dozent ref="drechsel_fhe"><grad>D. ph.</grad>
+        <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Zellenlehre</thema>: <dozent><grad>D.
         med.</grad> <nachname>Gaule</nachname></dozent>. <siehe>Siehe
@@ -2765,7 +2768,7 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Physiologisch-chemisches
-        Praktikum</thema>: <dozent><grad>D. ph.</grad>
+        Praktikum</thema>: <dozent ref="drechsel_fhe"><grad>D. ph.</grad>
         <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
 

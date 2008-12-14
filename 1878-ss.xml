@@ -633,7 +633,7 @@
       <zeit>täglich 9-1 U.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Physiologisch-chemisches
-      Practicum</thema>: <dozent><grad>D. med.</grad>
+      Practicum</thema>: <dozent ref="drechsel_fhe"><grad>D. med.</grad>
       <nachname>Drechsel</nachname></dozent>, <siehe>Siehe philosophische
       Facultät.</siehe></veranstaltungsverweis>
 
@@ -1168,9 +1168,10 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Lebensbilder hervorragender Humanisten</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Eckstein</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
-        Freit. 6-7 U.</zeit> <modus>publice</modus>.</veranstaltung>
+        <dozent ref="eckstein_fa"><grad>D. ph.</grad>
+        <nachname>Eckstein</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst., Donnerst. u. Freit. 6-7 U.</zeit>
+        <modus>publice</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Blicke auf die Philosophie des
         Pessimismus u. s. w.</thema>: <dozent><grad>D. th.</grad>
@@ -1217,9 +1218,9 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen des pädagogischen Seminars</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Eckstein</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 2-4 U.</zeit>
-        <gebühr>gratis</gebühr>.</veranstaltung>
+        <dozent ref="eckstein_fa"><grad>D. ph.</grad>
+        <nachname>Eckstein</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Sonnab. 2-4 U.</zeit> <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Wissenschaftlich-pädagogisches
         Practicum</thema>: <dozent><grad>D. ph.</grad>
@@ -1472,13 +1473,13 @@
           <zeit>Dienst. u. Freit. 9-10 U.</zeit>
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Geschichte des alten Aegypten</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Ebers</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mittw., Freit. u. Sonnab. 12-1
-          U.</zeit> <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung><thema>Geschichte des alten Aegypten</thema>: <dozent
+          ref="ebers_gm"><grad>D. ph.</grad> <nachname>Ebers</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mittw., Freit. u. Sonnab.
+          12-1 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Analyse hieroglyphischer und hieratischer
-          Texte</thema>: <dozent><grad>D. ph.</grad>
+          Texte</thema>: <dozent ref="ebers_gm"><grad>D. ph.</grad>
           <nachname>Ebers</nachname>, <funktion>P. O.</funktion></dozent>
           <zeit>Mont., Dienst. u. Donnerst. 5-6 U.</zeit>
           <modus>privatissime</modus>, aber
@@ -1569,16 +1570,16 @@
           <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Altfranzösische Grammatik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Ebert</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 8-9 U.
-          früh</zeit> <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung><thema>Altfranzösische Grammatik</thema>: <dozent
+          ref="ebert_gwa"><grad>D. ph.</grad> <nachname>Ebert</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 8-9
+          U. früh</zeit> <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der französischen Literatur seit
-          dem 14. Jahrh. bis zum Zeitalter Ludwig XIV.</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Ebert</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Dienst., Mittw. u. Donnerst. 4-5
-          U.</zeit> <modus>privatim</modus>.</veranstaltung>
+          dem 14. Jahrh. bis zum Zeitalter Ludwig XIV.</thema>: <dozent
+          ref="ebert_gwa"><grad>D. ph.</grad> <nachname>Ebert</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Mittw. u.
+          Donnerst. 4-5 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der französischen classischen
           Tragödie nebst Erklärung von Corneilles Cid und Racines
@@ -1812,8 +1813,9 @@
         Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geschichte des alten Aegypten</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Ebers</nachname></dozent>.
-        <siehe>Siehe oriental. Philologie.</siehe></veranstaltungsverweis>
+        <dozent ref="ebers_gm"><grad>D. ph.</grad>
+        <nachname>Ebers</nachname></dozent>. <siehe>Siehe oriental.
+        Philologie.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Kirchengeschichte</thema>:
         <dozent><grad>D. th.</grad> <nachname>Kahnis</nachname>, <funktion>P.
@@ -1842,7 +1844,7 @@
         <siehe>Siehe Neuere Philologie.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geschichte der französischen Literatur
-        u. s. w.</thema>: <dozent><grad>D. ph.</grad>
+        u. s. w.</thema>: <dozent ref="ebert_gwa"><grad>D. ph.</grad>
         <nachname>Ebert</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Neuere Philologie.</siehe></veranstaltungsverweis>
       </sachgruppe>
@@ -2184,7 +2186,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber thierische und pflanzliche
-        Fermente</thema>: <dozent><grad>D. ph.</grad>
+        Fermente</thema>: <dozent ref="drechsel_fhe"><grad>D. ph.</grad>
         <nachname>Drechsel</nachname></dozent>, <zeit>Sonnab. 3-4 U.</zeit>
         <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -2372,8 +2374,9 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Physiologisch-chemisches Practicum</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Drechsel</nachname></dozent>,
-        <zeit>täglich 9-1 U. und 2-5 U. ausser Sonnabend Nachm.</zeit>,
+        <dozent ref="drechsel_fhe"><grad>D. ph.</grad>
+        <nachname>Drechsel</nachname></dozent>, <zeit>täglich 9-1 U. und 2-5
+        U. ausser Sonnabend Nachm.</zeit>,
         <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>

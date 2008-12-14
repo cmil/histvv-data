@@ -708,8 +708,9 @@ angegeben. Der Schluss mit "Stallmeister" usw. fehlt!-->
         <veranstaltung><ders ref="schwaegrichen_cf">Ders.</ders>,
         <thema>Mineralogie u. Geognosie</thema>.</veranstaltung>
 
-        <veranstaltung><dozent><nachname>Erdmann</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <thema>Mineralogie</thema>.</veranstaltung>
+        <veranstaltung><dozent ref="erdmann_ol"><nachname>Erdmann</nachname>,
+        <funktion>P. O. des.</funktion></dozent>,
+        <thema>Mineralogie</thema>.</veranstaltung>
 
         <veranstaltung><dozent><nachname>Kunze</nachname>, <grad>Dr.</grad>,
         <funktion>P. E. des.</funktion></dozent>, <thema>Grundzüge zur
@@ -735,8 +736,9 @@ angegeben. Der Schluss mit "Stallmeister" usw. fehlt!-->
       <sachgruppe>
         <titel>Chemie.</titel>
 
-        <veranstaltungsgruppe><dozent><nachname>Eschenbach</nachname>,
-        <grad>Dr.</grad> <funktion>P. O.</funktion></dozent>,
+        <veranstaltungsgruppe><dozent
+        ref="eschenbach_cg"><nachname>Eschenbach</nachname>, <grad>Dr.</grad>
+        <funktion>P. O.</funktion></dozent>,
         <veranstaltung><thema>Experimental-Chemie</thema></veranstaltung>,
         ingl. <veranstaltung><thema>chemische
         Experimente</thema>.</veranstaltung></veranstaltungsgruppe>
@@ -754,12 +756,14 @@ angegeben. Der Schluss mit "Stallmeister" usw. fehlt!-->
         <veranstaltung><ders>Ders.</ders>, <thema>chemisch-prakt. Uebungen
         <ort>in s. Laboratorio</ort></thema>.</veranstaltung>
 
-        <veranstaltung><dozent><nachname>Erdmann</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <thema><notiz betreff="fortsetzung">Forts.
-        des Cursus</notiz> der Experimental-Chemie</thema>.</veranstaltung>
+        <veranstaltung><dozent ref="erdmann_ol"><nachname>Erdmann</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <thema><notiz
+        betreff="fortsetzung">Forts. des Cursus</notiz> der
+        Experimental-Chemie</thema>.</veranstaltung>
 
-        <veranstaltung><ders>Ders.</ders>, <thema>chemisch-prakt. Uebung.
-        <ort>im kön. Laboratorium</ort></thema>.</veranstaltung>
+        <veranstaltung><ders ref="erdmann_ol">Ders.</ders>,
+        <thema>chemisch-prakt. Uebung. <ort>im kön.
+        Laboratorium</ort></thema>.</veranstaltung>
 
         <veranstaltung><dozent><nachname>Kleiner<korrektur>t</korrektur></nachname>,
         <grad>Dr.</grad></dozent>, <thema><notiz
@@ -776,7 +780,8 @@ also nicht "Kleiner", sondern "Kleinert" gemeint ist-->
         <sachgruppe>
           <titel>*) Examinatorium über Chemie.</titel>
 
-          <veranstaltungsverweis><dozent><nachname>Eschenbach</nachname>,
+          <veranstaltungsverweis><dozent
+          ref="eschenbach_cg"><nachname>Eschenbach</nachname>,
           <grad>Dr.</grad>, <funktion>P. O.</funktion></dozent>, <siehe>s.
           Heilwissenschaft</siehe>.</veranstaltungsverweis>
         </sachgruppe>
@@ -1896,7 +1901,8 @@ bzw. bei der Zuweisung der Veranstaltung Probleme bereiten-->
         <sachgruppe>
           <titel>2) Pharmacie.</titel>
 
-          <veranstaltung><dozent><nachname>Eschenbach</nachname>,
+          <veranstaltung><dozent
+          ref="eschenbach_cg"><nachname>Eschenbach</nachname>,
           <grad>Dr.</grad>, <funktion>P. O.</funktion></dozent>,
           <thema>Experimental-Pharmacie</thema>.</veranstaltung>
 
@@ -1913,7 +1919,8 @@ bzw. bei der Zuweisung der Veranstaltung Probleme bereiten-->
         <sachgruppe>
           <titel>3) Receptirkunst.</titel>
 
-          <veranstaltung><dozent><nachname>Eschenbach</nachname>,
+          <veranstaltung><dozent
+          ref="eschenbach_cg"><nachname>Eschenbach</nachname>,
           <grad>Dr.</grad>, <funktion>P.
           O.</funktion></dozent></veranstaltung>
 
@@ -2098,7 +2105,8 @@ bzw. bei der Zuweisung der Veranstaltung Probleme bereiten-->
           <funktion>P. O.</funktion></dozent>, <thema>üb. Gegenstände d.
           Chirurgie</thema>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Eschenbach</nachname>,
+          <veranstaltung><dozent
+          ref="eschenbach_cg"><nachname>Eschenbach</nachname>,
           <grad>Dr.</grad>, <funktion>P. O.</funktion></dozent>,
           <thema>chemisch-pharmaceut. Examinatorium</thema>.</veranstaltung>
 

@@ -127,7 +127,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Biblische Theologe des Neuen Testaments</thema>:
-      <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
+      <dozent ref="ewald_p"><grad>Lic.</grad> <grad>D. ph.</grad>
       <nachname>Ewald</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont., Dienst., Donnerst. u. Freit. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -289,8 +289,8 @@ der genannten Gesellschaft abgehalten werden. --></veranstaltungsgruppe>
       <modus>privatissime</modus>, aber <gebühr>gratis</gebühr>.<!--"zeit" gehört zu VA Nr. 2; dort noch irgendwie 
 unterbringen!--></veranstaltungsgruppe>
 
-      <veranstaltung><thema>Katechetisches Seminar</thema>:
-      <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
+      <veranstaltung><thema>Katechetisches Seminar</thema>: <dozent
+      ref="ewald_p"><grad>Lic.</grad> <grad>D. ph.</grad>
       <nachname>Ewald</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mittw. 3-5 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -683,20 +683,22 @@ unterbringen!--></veranstaltungsgruppe>
       11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Organische Experimentalchemie für
-      Mediciner</thema>: <dozent><grad>D. med. &amp; ph.</grad>
-      <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont., Mittw., Donnerst. u. Freit., 5-6 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Mediciner</thema>: <dozent ref="drechsel_fhe"><grad>D. med. &amp;
+      ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont., Mittw., Donnerst. u. Freit., 5-6
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Physiologisch-chemisches Praktikum</thema>:
-      <dozent><grad>D. med. &amp; ph.</grad> <nachname>Drechsel</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>tägl. 9-1 U. und (ausser
-      Sonnab.) 2-5 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+      <dozent ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+      <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>tägl. 9-1 U. und (ausser Sonnab.) 2-5 U.</zeit>,
+      <modus>privatissime</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Chemisches Praktikum für Anfänger</thema>:
-      <dozent><grad>D. med. &amp; ph.</grad> <nachname>Drechsel</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>tägl. 9-1 U. und (ausser
-      Sonnab.) 2-5 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+      <veranstaltung><thema>Chemisches Praktikum für Anfänger</thema>: <dozent
+      ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+      <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>tägl. 9-1 U. und (ausser Sonnab.) 2-5 U.</zeit>,
+      <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Grundzüge der organischen Chemie mit
       besonderer Berücksichtigung der Arzneimittel</thema>: <dozent
@@ -1053,9 +1055,10 @@ bemerkung in VA #1 ratsam gewesen.--></veranstaltungsgruppe>
       <zeit>Mont. 4-5 U., Dienst. u. Freit. 3-4 U. u. Donnerst. 3-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Geburtshülfliche Propädeutik</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Döderlein</nachname></dozent>,
-      <zeit>Mont., Mittw. u. Donnerst. 5-6 U. u. Freit. 4-5 U.</zeit>,
+      <veranstaltung><thema>Geburtshülfliche Propädeutik</thema>: <dozent
+      ref="doederlein_asg"><grad>D. med.</grad>
+      <nachname>Döderlein</nachname></dozent>, <zeit>Mont., Mittw. u.
+      Donnerst. 5-6 U. u. Freit. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Einübung geburtshülflicher Operationen am
@@ -1811,9 +1814,9 @@ erfasst, über Volltextsuche suchbar!)-->: <veranstaltung><thema>Lateinische
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Ueber Gottfried von Strassburg</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Elster</nachname></dozent>,
-          <zeit>Dienst. u. Freit. 8-9 U. Vorm.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="elster_eaej"><grad>D. ph.</grad>
+          <nachname>Elster</nachname></dozent>, <zeit>Dienst. u. Freit. 8-9 U.
+          Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der deutschen Literatur im 18.
           Jahrhundert (von Lessing an bis zu Goethes Tode, mit einem Rückblick
@@ -1830,9 +1833,10 @@ erfasst, über Volltextsuche suchbar!)-->: <veranstaltung><thema>Lateinische
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Schillers Leben und Werke <notiz
-          betreff="fortsetzung">I. Theil</notiz></thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Elster</nachname></dozent>, <zeit>Donnerst. 8-9
-          U. Vorm.</zeit>, <modus>publice</modus>.</veranstaltung>
+          betreff="fortsetzung">I. Theil</notiz></thema>: <dozent
+          ref="elster_eaej"><grad>D. ph.</grad>
+          <nachname>Elster</nachname></dozent>, <zeit>Donnerst. 8-9 U.
+          Vorm.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Das deutsche Drama von Lessing bis
           Kleist</thema>: <dozent><grad>D. ph.</grad>
@@ -1858,8 +1862,8 @@ erfasst, über Volltextsuche suchbar!)-->: <veranstaltung><thema>Lateinische
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung><thema>Litterarhistorische Uebungen (im Anschluss an
-          Schillers Don Carlos)</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Elster</nachname></dozent>, <zeit>Mont. ½7-9 U.
+          Schillers Don Carlos)</thema>: <dozent ref="elster_eaej"><grad>D.
+          ph.</grad> <nachname>Elster</nachname></dozent>, <zeit>Mont. ½7-9 U.
           Ab.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
         </sachgruppe>
@@ -1907,10 +1911,10 @@ erfasst, über Volltextsuche suchbar!)-->: <veranstaltung><thema>Lateinische
           Freit. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der französischen Literatur seit
-          dem 14. Jahrhundert bis zum Zeitalter Louis' XIV.</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Ebert</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 5-6
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          dem 14. Jahrhundert bis zum Zeitalter Louis' XIV.</thema>: <dozent
+          ref="ebert_gwa"><grad>D. ph.</grad> <nachname>Ebert</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
+          Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Französische Rhythmik (Metrik)</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Koerting</nachname>,
@@ -1987,9 +1991,9 @@ erfasst, über Volltextsuche suchbar!)-->: <veranstaltung><thema>Lateinische
 
           <veranstaltung><thema>Romanische Gesellschaft (Lectüre der Gedichte
           der Troubadours nach Bartsch's Chrestomathie provençale)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Ebert</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mittw. 10-11 U.</zeit>,
-          <modus>privatissime</modus>, aber
+          <dozent ref="ebert_gwa"><grad>D. ph.</grad>
+          <nachname>Ebert</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mittw. 10-11 U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen im Lesen und Erklären slavischer
@@ -2045,7 +2049,7 @@ erfasst, über Volltextsuche suchbar!)-->: <veranstaltung><thema>Lateinische
         Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte des Mittelalters bis zum Tode Karls
-        des Grossen</thema>: <dozent><grad>D. ph.</grad>
+        des Grossen</thema>: <dozent ref="erler_g"><grad>D. ph.</grad>
         <nachname>Erler</nachname></dozent>, <zeit>Mont. u. Donnerst. 10-11
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2156,10 +2160,11 @@ auf dem Scan. Ist aber zur Autopsie notiert.)-->
         wöchentlich, zweistündig</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Diplomatische Uebungen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Erler</nachname></dozent>, <zeit>einmal
-        wöchentlich, in zu best. Stunden</zeit>, <modus>privatissime</modus>,
-        aber <gebühr>gratis</gebühr>.</veranstaltung>
+        <veranstaltung><thema>Diplomatische Uebungen</thema>: <dozent
+        ref="erler_g"><grad>D. ph.</grad> <nachname>Erler</nachname></dozent>,
+        <zeit>einmal wöchentlich, in zu best. Stunden</zeit>,
+        <modus>privatissime</modus>, aber
+        <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Im Königlichen geographischen Seminar
         (Geographische Uebungen und Arbeiten; Uebungen im Kartenzeichnen und
@@ -2606,7 +2611,7 @@ auf dem Scan. Ist aber zur Autopsie notiert.)-->
 vgl. nächste VA)-->, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Analytische Geometrie der Ebene und des
-        Raumes</thema>: <dozent><grad>D. ph.</grad>
+        Raumes</thema>: <dozent ref="engel_f"><grad>D. ph.</grad>
         <nachname>Engel</nachname>, <funktion>P. E. des.</funktion></dozent>,
         <zeit>Dienst. bis mit Freit. 8-9 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2635,14 +2640,14 @@ vgl. nächste VA)-->, <modus>privatim</modus>.</veranstaltung>
         Seminar</thema>: <veranstaltung>1) <dozent><grad>D. ph.</grad>
         <nachname>Mayer</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
         <zeit>in zu best. Stunden</zeit></veranstaltung>;<veranstaltung>2)
-        <dozent><grad>D. ph.</grad> <nachname>Engel</nachname>, <funktion>P.
-        E. des.</funktion></dozent> (<thema>Uebungen in der analytischen
-        Geometrie</thema>), <zeit>Dienst. 3-5 U.</zeit>,
+        <dozent ref="engel_f"><grad>D. ph.</grad> <nachname>Engel</nachname>,
+        <funktion>P. E. des.</funktion></dozent> (<thema>Uebungen in der
+        analytischen Geometrie</thema>), <zeit>Dienst. 3-5 U.</zeit>,
         <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Uebungen in Differentialgleichungen und
-        Gruppentheorie</thema>: <dozent><grad>D. ph.</grad>
+        Gruppentheorie</thema>: <dozent ref="engel_f"><grad>D. ph.</grad>
         <nachname>Engel</nachname>, <funktion>P. E. des.</funktion></dozent>,
         <zeit>an zu best. Tagen u. Stunden</zeit>,
         <modus>privatissime</modus>, aber
@@ -2871,9 +2876,9 @@ so richtig?)-->): <dozent><grad>D. ph.</grad>
         Sonnab. 8-9 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Organische Experimentalchemie (für
-        Mediciner)</thema>: <dozent><grad>D. med. et ph.</grad>
-        <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe <gesperrt>Medicinische
+        Mediciner)</thema>: <dozent ref="drechsel_fhe"><grad>D. med. et
+        ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
+        E.</funktion></dozent> <siehe>Siehe <gesperrt>Medicinische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Entwicklungsgeschiche höherer Thiere und
@@ -3028,9 +3033,10 @@ so richtig?)-->): <dozent><grad>D. ph.</grad>
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Chemisches Praktikum für Anfänger und
-        Physiologisch-chemisches Praktikum</thema>: <dozent><grad>D. med.
-        &amp; ph.</grad> <nachname>Drechsel</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe <gesperrt>Medicinische
+        Physiologisch-chemisches Praktikum</thema>: <dozent
+        ref="drechsel_fhe"><grad>D. med. &amp; ph.</grad>
+        <nachname>Drechsel</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe <gesperrt>Medicinische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
       </sachgruppe>
     </sachgruppe>

@@ -519,13 +519,14 @@
           <sachgruppe>
             <titel>b) Experimental-Chemie.</titel>
 
-            <veranstaltungsgruppe><dozent><funktion>P. O.</funktion>
-            <grad>D.</grad> <nachname>Eschenbach</nachname></dozent>,
-            <veranstaltung><zeit>9 U. 4 T.</zeit></veranstaltung>; ingl.
+            <veranstaltungsgruppe><dozent ref="eschenbach_cg"><funktion>P.
+            O.</funktion> <grad>D.</grad>
+            <nachname>Eschenbach</nachname></dozent>, <veranstaltung><zeit>9
+            U. 4 T.</zeit></veranstaltung>; ingl.
             <veranstaltung><thema>chemische Experimente</thema>, <zeit>9 U. 2
             T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-            <veranstaltungsgruppe><ders>Derselbe</ders>
+            <veranstaltungsgruppe><ders ref="eschenbach_cg">Derselbe</ders>
             <veranstaltung><thema>über die Salze und Erden in medicinischer
             Hinsicht</thema>, <zeit>3 U. 4 T.</zeit>
             <modus>öffentl.</modus></veranstaltung> <veranstaltung>Er hält
@@ -708,10 +709,11 @@ die letzte Veranstaltung gelten-->
               Königreichs Sachsen</thema>, <zeit>7 U. 4
               T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent>Cons. Ass. u. <funktion>P. E.</funktion>
-              <grad>D.</grad> <nachname>Diemer</nachname></dozent>,
-              <thema>Geschichte von Sachsen, nach Weisse</thema>, <zeit>3 - 5
-              U. Sonnab.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
+              <veranstaltung><dozent ref="diemer_hacl">Cons. Ass. u.
+              <funktion>P. E.</funktion> <grad>D.</grad>
+              <nachname>Diemer</nachname></dozent>, <thema>Geschichte von
+              Sachsen, nach Weisse</thema>, <zeit>3 - 5 U. Sonnab.</zeit>
+              <gebühr>unentg.</gebühr></veranstaltung>
 
               <veranstaltung><dozent ref="boettiger_kw"><grad>M.</grad>
               <nachname>Böttiger</nachname></dozent>, <thema>Geschichte des
@@ -1123,8 +1125,8 @@ die letzte Veranstaltung gelten-->
                 dogm.</thema> (<siehe>s.
                 vorher</siehe>)</veranstaltungsverweis>
 
-                <veranstaltungsgruppe><dozent>Cons. Ass. <funktion>P.
-                E.</funktion> <grad>D.</grad>
+                <veranstaltungsgruppe><dozent ref="diemer_hacl">Cons. Ass.
+                <funktion>P. E.</funktion> <grad>D.</grad>
                 <nachname>Diemer</nachname></dozent>,
                 <veranstaltung><thema>das Recht der Obligationen und der
                 Actionen</thema></veranstaltung>, ingl.
@@ -1378,11 +1380,11 @@ die letzte Veranstaltung gelten-->
         <sachgruppe>
           <titel>Uebungen in der rechtlichen Geschäftsführung</titel>
 
-          <veranstaltung>stellen ausser den genannten an: <dozent>Cons. Ass.
-          <funktion>P. E.</funktion> <grad>D.</grad>
-          <nachname>Diemer</nachname></dozent>, <thema>in Führung sowohl
-          gerichtlicher als aussergerichtlicher Rechtsgeschäfte</thema>,
-          <zeit>2 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung>stellen ausser den genannten an: <dozent
+          ref="diemer_hacl">Cons. Ass. <funktion>P. E.</funktion>
+          <grad>D.</grad> <nachname>Diemer</nachname></dozent>, <thema>in
+          Führung sowohl gerichtlicher als aussergerichtlicher
+          Rechtsgeschäfte</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung><dozent>Cons. Ass. <grad>D.</grad>
           <nachname>Junghans</nachname></dozent>, <thema>in Geschäften beym
@@ -1781,7 +1783,8 @@ Zusammenlegung für gerechtfertigt.--></titel>
             <grad>D.</grad> <nachname>Platner</nachname></dozent>, <zeit>9 U.
             4 T.</zeit> <modus>öff.</modus></veranstaltung>
 
-            <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
+            <veranstaltung><dozent ref="eschenbach_cg"><funktion>P.
+            O.</funktion> <grad>D.</grad>
             <nachname>Eschenbach</nachname></dozent>, <zeit>5 U. 4
             T.</zeit></veranstaltung>
 
@@ -1806,7 +1809,8 @@ Zusammenlegung für gerechtfertigt.--></titel>
             <notiz betreff="fortsetzung">Forts.</notiz></thema>, <zeit>11 U. 2
             T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><funktion>P. E.</funktion> <grad>D.</grad>
+            <veranstaltung><dozent ref="eisfeld_jfa"><funktion>P.
+            E.</funktion> <grad>D.</grad>
             <nachname>Eisfeld</nachname></dozent>, <thema>über die
             auserlesensten Arzneymittel und ihre Anwendung</thema>, <zeit>7 U.
             2 T.</zeit> <modus>öff.</modus></veranstaltung>
@@ -1862,7 +1866,8 @@ Zusammenlegung für gerechtfertigt.--></titel>
           <sachgruppe>
             <titel>c) Experimental-Pharmacie</titel>
 
-            <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
+            <veranstaltung><dozent ref="eschenbach_cg"><funktion>P.
+            O.</funktion> <grad>D.</grad>
             <nachname>Eschenbach</nachname></dozent>, <zeit>1 U. 4
             T.</zeit></veranstaltung>
           </sachgruppe>
@@ -2073,8 +2078,8 @@ obwohl kein "ingl." oder "derselbe" angeführt ist-->
         <sachgruppe>
           <titel>Disputir- u. Examinir-Uebungen</titel>
 
-          <veranstaltung>stellen (ausser den genannten) an:
-          <dozent><funktion>P. O.</funktion> <grad>D.</grad>
+          <veranstaltung>stellen (ausser den genannten) an: <dozent
+          ref="eschenbach_cg"><funktion>P. O.</funktion> <grad>D.</grad>
           <nachname>Eschenbach</nachname></dozent>, <zeit>4 U. Dienst. u.
           Freyt.</zeit></veranstaltung>
 

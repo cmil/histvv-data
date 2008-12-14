@@ -733,31 +733,31 @@ Veranstaltungstitel oder eine Ortsangabe?-->
       <sachgruppe>
         <titel>2) Chemie und Physik.</titel>
 
-        <veranstaltungsgruppe><dozent><nachname>Eschenbach</nachname>,
-        <grad>D.</grad> <vorname>Ch. G.</vorname>, <funktion>P.
-        O.</funktion></dozent>,
+        <veranstaltungsgruppe><dozent
+        ref="eschenbach_cg"><nachname>Eschenbach</nachname>, <grad>D.</grad>
+        <vorname>Ch. G.</vorname>, <funktion>P. O.</funktion></dozent>,
         <veranstaltung><thema>Experimentalchemie</thema>, <zeit>9 U. 4
         T.</zeit></veranstaltung> ingl. <veranstaltung><thema>chemische
         Experimente</thema>, <zeit>9 U. 2
         T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>von den natürlichen und
-        künstlichen Salzen, u. ihrer Anwendung in der Medicin und
-        Chirurgie</thema>, <zeit>1 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="eschenbach_cg">Derselbe</ders>, <thema>von
+        den natürlichen und künstlichen Salzen, u. ihrer Anwendung in der
+        Medicin und Chirurgie</thema>, <zeit>1 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Fechner</nachname>, <grad>M.</grad>
         <vorname>G. Th.</vorname>, <grad>Med. Bacc.</grad></dozent>,
         <thema>über den ersten Theil der Experimentalphysik</thema>, <zeit>11
         U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><dozent><nachname>Erdmann</nachname>, <grad>M.</grad>
-        <vorname>O. L.</vorname>, <grad>Med. Bacc.</grad></dozent>,
-        <thema>vollständiger Kursus der theoret. u. Experimentalchemie, mit
-        Einschluß derjenigen Lehren der Physik, die zum Verständniß der Chemie
-        erfordert werden, durch Experimente erläutert</thema>, <zeit>2 U. 6
-        T.</zeit></veranstaltung>
+        <veranstaltung><dozent ref="erdmann_ol"><nachname>Erdmann</nachname>,
+        <grad>M.</grad> <vorname>O. L.</vorname>, <grad>Med.
+        Bacc.</grad></dozent>, <thema>vollständiger Kursus der theoret. u.
+        Experimentalchemie, mit Einschluß derjenigen Lehren der Physik, die
+        zum Verständniß der Chemie erfordert werden, durch Experimente
+        erläutert</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>über
+        <veranstaltung><ders ref="erdmann_ol">Derselbe</ders>, <thema>über
         Stöchiometrie</thema>, <zeit>11 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
@@ -1913,7 +1913,8 @@ oder ist mit Folgendem verknüpft:-->
           <sachgruppe>
             <titel>*) Experimentalpharmacie.</titel>
 
-            <veranstaltung><dozent><nachname>Eschenbach</nachname>,
+            <veranstaltung><dozent
+            ref="eschenbach_cg"><nachname>Eschenbach</nachname>,
             <grad>D.</grad> <vorname>Ch. G.</vorname>, <funktion>P.
             O.</funktion></dozent>, <zeit>1 U. 4 T.</zeit></veranstaltung>
           </sachgruppe>
@@ -2045,18 +2046,19 @@ oder ist mit Folgendem verknüpft:-->
           <thema>über Pharmacologie, Pathologie und Therapie</thema>, <zeit>in
           zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Eschenbach</nachname>,
-          <grad>D.</grad> <vorname>Ch. G.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema>über Chemie, Anatomie und
-          Physiologie</thema>, <zeit>8 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung><dozent
+          ref="eschenbach_cg"><nachname>Eschenbach</nachname>, <grad>D.</grad>
+          <vorname>Ch. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema>über Chemie, Anatomie und Physiologie</thema>, <zeit>8 U. 2
+          T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
           <titel>2) Disputirübungen.</titel>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>über physisch-chemische
-          u. medicinische Theses</thema>, <zeit>4 U. Dienst. u.
-          Freit.</zeit></veranstaltung>
+          <veranstaltung><ders ref="eschenbach_cg">Derselbe</ders>,
+          <thema>über physisch-chemische u. medicinische Theses</thema>,
+          <zeit>4 U. Dienst. u. Freit.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Hacker</nachname>, <grad>D.</grad>
           <vorname>H. A.</vorname></dozent>, <zeit>in zu best.
