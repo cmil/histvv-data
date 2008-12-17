@@ -708,9 +708,10 @@
       Hon.</funktion></dozent>, <zeit>Di. bis Fr. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Völkerrecht</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Beer</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Di. u. Do. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Völkerrecht</thema>: <dozent ref="beer_l"><grad>D.
+      jur.</grad> <nachname>Beer</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Di. u. Do. 4-5 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Kolonialrecht</thema>: <dozent><grad>D. jur., th.
       et ph.</grad> <nachname>Holldack</nachname></dozent>, <zeit>Mo. u. Do.
@@ -847,10 +848,11 @@
         <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
-        <veranstaltung>b) von <dozent><funktion>Direktor</funktion> <grad>D.
-        jur.</grad> <nachname>Bischoff</nachname></dozent>: <thema>über die
-        Praxis der Lebensversicherung</thema>, <gebühr>unentgeltlich</gebühr>
-        <zeit>in später zu bestimmenden Stunden</zeit>.</veranstaltung>
+        <veranstaltung>b) von <dozent
+        ref="bischoff_d"><funktion>Direktor</funktion> <grad>D. jur.</grad>
+        <nachname>Bischoff</nachname></dozent>: <thema>über die Praxis der
+        Lebensversicherung</thema>, <gebühr>unentgeltlich</gebühr> <zeit>in
+        später zu bestimmenden Stunden</zeit>.</veranstaltung>
 
         <veranstaltung>c) von <dozent><grad>D. rer. pol.</grad>
         <nachname>Obst</nachname></dozent>: <thema>über Buchführung und Bilanz
@@ -944,11 +946,11 @@
         <veranstaltung><thema>Einführung in die mathematische Behandlung der
         Naturwissenschaften (Differential- und Integralrechnung) mit Übungen,
         für Studierende der Medizin und der Naturwissenschaften, insbesondere
-        der Chemie</thema>: <dozent><grad>D. med. et ph.</grad>
-        <vorname>O.</vorname> <nachname>Fischer</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mo., Mi. u. Do. 6-7 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
-        13</ort>.</veranstaltung>
+        der Chemie</thema>: <dozent ref="fischer_o"><grad>D. med. et
+        ph.</grad> <vorname>O.</vorname> <nachname>Fischer</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mo., Mi. u. Do. 6-7
+        U.</zeit>, <modus>privatim</modus>, <ort>im Anatomischen Institut,
+        Liebigstr. 13</ort>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum für Mediziner,
         halbtägig</thema>: <dozent><grad>D. med. et ph.</grad>
@@ -1010,11 +1012,11 @@
 
         <veranstaltung><thema>Über die Wirkung der Muskeln, im Anschluß an die
         Vorlesung über systematische Anatomie (Knochen, Gelenke und Muskeln)
-        von D. med. et LL. D. Spalteholz, P. E.</thema>: <dozent><grad>D. med.
-        et ph.</grad> <vorname>O.</vorname> <nachname>Fischer</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mo. 5-6 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
-        13</ort>.</veranstaltung>
+        von D. med. et LL. D. Spalteholz, P. E.</thema>: <dozent
+        ref="fischer_o"><grad>D. med. et ph.</grad> <vorname>O.</vorname>
+        <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mo. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im Anatomischen
+        Institut, Liebigstr. 13</ort>.</veranstaltung>
 
         <veranstaltung><thema>Über Zeugung und Vererbung</thema>:
         <dozent><grad>D. med.</grad> <nachname>Kaestner</nachname>,
@@ -1051,9 +1053,9 @@
 
         <veranstaltung><thema>Die Lehre von den Tonempfindungen (Physiologie
         des Gehörs, der Stimme und Sprache), für Studierende aller
-        Fakultäten</thema>: <dozent><grad>D. med. et ph.</grad>
-        <vorname>O.</vorname> <nachname>Fischer</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Fr. 6-8 U.</zeit>,
+        Fakultäten</thema>: <dozent ref="fischer_o"><grad>D. med. et
+        ph.</grad> <vorname>O.</vorname> <nachname>Fischer</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Fr. 6-8 U.</zeit>,
         <modus>privatim</modus>, <ort>im Physiologischen Institut, Liebigstr.
         16</ort>.</veranstaltung>
 
@@ -1171,21 +1173,22 @@
         <titel>Pharmakologie und Pharmazie.</titel>
 
         <veranstaltung><thema>Pharmakologie mit der
-        Arzneiverordnungslehre</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mo. bis Fr. 3-4 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
+        Arzneiverordnungslehre</thema>: <dozent ref="boehm_r"><grad>D.
+        med.</grad> <nachname>Boehm</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mo. bis Fr. 3-4 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Pharmakolog. Institut, Liebigstr.
+        10</ort>.</veranstaltung>
 
         <veranstaltung><thema>Pharmakognosie des Pflanzenreichs und
-        Tierreichs</thema>: <dozent><grad>D. med.</grad>
+        Tierreichs</thema>: <dozent ref="boehm_r"><grad>D. med.</grad>
         <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mo. bis Fr. 12-1 U.</zeit>, <modus>privatim</modus>, <ort>im
         Pharmakologischen Institut, Liebigstr. 10</ort>.</veranstaltung>
 
         <veranstaltung><thema>Experimentelle Arbeiten im Pharmakologischen
         Institut (<ort>Liebigstr. 10</ort>) für Fortgeschrittenere</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Boehm</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>tägl., ganztägig</zeit>,
+        <dozent ref="boehm_r"><grad>D. med.</grad> <nachname>Boehm</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>tägl., ganztägig</zeit>,
         <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1767,18 +1770,19 @@
       <sachgruppe>
         <titel>Ohren-, Nasen- und Halskrankheiten.</titel>
 
-        <veranstaltung><thema>Hörprüfung mit Übungen</thema>: <dozent><grad>D.
-        med.</grad> <vorname>A.</vorname> <nachname>Barth</nachname>,
-        <funktion>P. E.</funktion></dozent>, <thema>Mi. 6-7 U.</thema>,
-        <modus>publice</modus>, <ort>in der Klinik f. Ohren-, Nasen- u.
-        Halskrankheiten, Liebigstr. 18a</ort>.</veranstaltung>
+        <veranstaltung><thema>Hörprüfung mit Übungen</thema>: <dozent
+        ref="barth_af"><grad>D. med.</grad> <vorname>A.</vorname>
+        <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>,
+        <thema>Mi. 6-7 U.</thema>, <modus>publice</modus>, <ort>in der Klinik
+        f. Ohren-, Nasen- u. Halskrankheiten, Liebigstr.
+        18a</ort>.</veranstaltung>
 
         <veranstaltung><thema>Untersuchungsmethoden und Praktikum der Ohren-,
-        Nasen- u. Halskrankheiten</thema>: <dozent><grad>D. med.</grad>
-        <vorname>A.</vorname> <nachname>Barth</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>tägl. (außer Do.) 10-11 U.</zeit>,
-        <modus>privatim</modus>, <ort>in der Klinik für Ohren-, Nasen- u.
-        Halskrankheiten, Liebigstr. 18a</ort>.</veranstaltung>
+        Nasen- u. Halskrankheiten</thema>: <dozent ref="barth_af"><grad>D.
+        med.</grad> <vorname>A.</vorname> <nachname>Barth</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>tägl. (außer Do.) 10-11
+        U.</zeit>, <modus>privatim</modus>, <ort>in der Klinik für Ohren-,
+        Nasen- u. Halskrankheiten, Liebigstr. 18a</ort>.</veranstaltung>
 
         <veranstaltung><thema>Übungen in der Untersuchung von Hals, Nase und
         Ohr (für Anfänger)</thema>: <dozent><grad>D. med.</grad>
@@ -2166,7 +2170,7 @@
         <titel>A. Philosophie.</titel>
 
         <veranstaltung><thema>Logik und Einleitung in die Philosophie</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>P.</vorname>
+        <dozent ref="barth_pee"><grad>D. ph.</grad> <vorname>P.</vorname>
         <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mi. 3-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2281,8 +2285,8 @@
           <thema>Ästhetische Übungen im Anschluß an Kants "Kritik der
           Urteilskraft"</thema>, <zeit>Mi. 4-6 U.</zeit>,
           <modus>privatissime</modus>,
-          <gebühr>gratis</gebühr>.</veranstaltung> - <veranstaltung>2)
-          <dozent><grad>D. ph.</grad> <vorname>P.</vorname>
+          <gebühr>gratis</gebühr>.</veranstaltung> - <veranstaltung>2) <dozent
+          ref="barth_pee"><grad>D. ph.</grad> <vorname>P.</vorname>
           <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>:
           <thema>Einführung in Kants Ethik; ausgehend von seiner Grundlegung
           zur Metaphysik der Sitten, mit schriftlichen Arbeiten</thema>,
@@ -2608,9 +2612,9 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Palmyrenische, nabatäische und sinaitische
-          Inschriften</thema>: <dozent><grad>D. ph.</grad>
-          <vorname>Aug.</vorname> <nachname>Fischer</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Fr. 5-6 U.</zeit>,
+          Inschriften</thema>: <dozent ref="fischer_august"><grad>D.
+          ph.</grad> <vorname>Aug.</vorname> <nachname>Fischer</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Fr. 5-6 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Syrisch, <notiz
@@ -2645,15 +2649,16 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Kursorische Lektüre der 1001 Nacht</thema>:
-          <dozent><grad>D. ph.</grad> <vorname>Aug.</vorname>
-          <nachname>Fischer</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Fr. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="fischer_august"><grad>D. ph.</grad>
+          <vorname>Aug.</vorname> <nachname>Fischer</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Fr. 4-5 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Ausgewählte Stücke aus arabischen
           Bibelübersetzungen (nach Kahle, Die arabischen
-          Bibelübersetzungen)</thema>: <dozent><grad>D. ph.</grad>
-          <vorname>Aug.</vorname> <nachname>Fischer</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Di. 4-5 U.</zeit>,
+          Bibelübersetzungen)</thema>: <dozent ref="fischer_august"><grad>D.
+          ph.</grad> <vorname>Aug.</vorname> <nachname>Fischer</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Di. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Arabische Lektüre</thema>: <dozent><grad>D.
@@ -2661,8 +2666,8 @@
           Hon.</funktion></dozent>, <zeit>Di. u. Fr. 10-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Einführung in das Äthiopische</thema>:
-          <dozent><grad>D. ph.</grad> <vorname>Aug.</vorname>
+          <veranstaltung><thema>Einführung in das Äthiopische</thema>: <dozent
+          ref="fischer_august"><grad>D. ph.</grad> <vorname>Aug.</vorname>
           <nachname>Fischer</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Di. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2730,11 +2735,12 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Arabische Gesellschaft</thema>
-          (<ort>Semitistisches Institut, Paulinum I</ort>): <dozent><grad>D.
-          ph.</grad> <vorname>Aug.</vorname> <nachname>Fischer</nachname>,
-          <funktion>P. O.</funktion></dozent>: <thema>Interpretation
-          ausgewählter Kapitel aus Sibawaih's Grammatik</thema>, <zeit>Do.
-          6-7½ U.</zeit>, <modus>privatissime</modus>, sed
+          (<ort>Semitistisches Institut, Paulinum I</ort>): <dozent
+          ref="fischer_august"><grad>D. ph.</grad> <vorname>Aug.</vorname>
+          <nachname>Fischer</nachname>, <funktion>P. O.</funktion></dozent>:
+          <thema>Interpretation ausgewählter Kapitel aus Sibawaih's
+          Grammatik</thema>, <zeit>Do. 6-7½ U.</zeit>,
+          <modus>privatissime</modus>, sed
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Neuarabische Übungen</thema> (<ort>im
@@ -3976,11 +3982,11 @@
         21</ort>.</veranstaltung>
 
         <veranstaltung><thema>Spezielle Pflanzenbaulehre (Hackfrüchte,
-        Handelsgewächse und Futterpflanzen)</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Falke</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mo., Di., Do. u. Fr. 12-1 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
-        21</ort>.</veranstaltung>
+        Handelsgewächse und Futterpflanzen)</thema>: <dozent
+        ref="falke_f"><grad>D. ph.</grad> <nachname>Falke</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mo., Di., Do. u. Fr. 12-1
+        U.</zeit>, <modus>privatim</modus>, <ort>im Landw. Institut,
+        Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung><thema>Die Krankheiten der Kulturgewächse und ihre
         Bekämpfung</thema>: <dozent><grad>D. ph.</grad>
@@ -4036,19 +4042,20 @@
         21</ort>.</veranstaltung>
 
         <veranstaltung><thema>Spezielle Tierzuchtlehre (Schweine- und
-        Rinderzucht)</thema>: <dozent><grad>D. ph.</grad>
+        Rinderzucht)</thema>: <dozent ref="falke_f"><grad>D. ph.</grad>
         <nachname>Falke</nachname>, <funktion>P. E.</funktion></dozent>,
         <ort>Di., Do. u. Fr. 6-7 U.</ort>, <modus>privatim</modus>, <ort>im
         Landwirtsch. Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung><thema>Die Weidewirtschaft im intensiven
-        Landwirtschaftsbetriebe</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Falke</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Di. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Landwirtschaftl. Institut, Johannisallee 21</ort>.</veranstaltung>
+        Landwirtschaftsbetriebe</thema>: <dozent ref="falke_f"><grad>D.
+        ph.</grad> <nachname>Falke</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Di. 5-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Landwirtschaftl. Institut,
+        Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung><thema>Öffentliche Maßnahmen zur Förderung der
-        Tierzucht</thema>: <dozent><grad>D. ph.</grad>
+        Tierzucht</thema>: <dozent ref="falke_f"><grad>D. ph.</grad>
         <nachname>Falke</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Fr. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im Landw.
         Institut, Johannisallee 21</ort>.</veranstaltung>
@@ -4212,9 +4219,9 @@
         21</ort>.</veranstaltungsgruppe>
 
         <veranstaltungsgruppe><thema>Übungen für Pflanzenzüchter</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Falke</nachname>, <funktion>P.
-        E.</funktion></dozent>, <veranstaltung>a) <thema>für Anfänger</thema>,
-        <zeit>Di. u. Fr. 4-6 U.</zeit>,
+        <dozent ref="falke_f"><grad>D. ph.</grad> <nachname>Falke</nachname>,
+        <funktion>P. E.</funktion></dozent>, <veranstaltung>a) <thema>für
+        Anfänger</thema>, <zeit>Di. u. Fr. 4-6 U.</zeit>,
         <modus>privatim</modus></veranstaltung>; <veranstaltung>b) <thema>für
         Vorgeschrittene</thema>, <zeit>Mo. bis Fr. 9-1 u. 3-6 U.</zeit>,
         <modus>privatissime</modus></veranstaltung>, <ort>im Landw. Institut,
@@ -4252,10 +4259,10 @@
         E.</funktion></dozent>, <zeit>an noch zu best. Tagen</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Landwirtschaftliche Exkursionen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Falke</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>an noch zu best. Sonnabenden</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        <veranstaltung><thema>Landwirtschaftliche Exkursionen</thema>: <dozent
+        ref="falke_f"><grad>D. ph.</grad> <nachname>Falke</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>an noch zu best.
+        Sonnabenden</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Demonstrationen <ort>im Rassenstalle des
         Landwirtschaftlichen Instituts (Johannisallee 19)</ort></thema>:
@@ -4270,17 +4277,18 @@
         11</ort>.</veranstaltung>
 
         <veranstaltung><thema>Seminar für angewandte Tierzuchtlehre</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Falke</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mo. 5-7 U.</zeit>,
+        <dozent ref="falke_f"><grad>D. ph.</grad> <nachname>Falke</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mo. 5-7 U.</zeit>,
         <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
         21</ort>.</veranstaltung>
 
         <veranstaltung><thema>Übungen für Tierzüchter (nur für Mitglieder des
-        Seminars für angewandte Tierzuchtlehre)</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Falke</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>an noch zu best. Tagen</zeit>,
-        <modus>privatissime</modus>, sed <gebühr>gratis</gebühr>, <ort>im
-        Landw. Institut, Johannisallee 21</ort>.</veranstaltung>
+        Seminars für angewandte Tierzuchtlehre)</thema>: <dozent
+        ref="falke_f"><grad>D. ph.</grad> <nachname>Falke</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>an noch zu best.
+        Tagen</zeit>, <modus>privatissime</modus>, sed
+        <gebühr>gratis</gebühr>, <ort>im Landw. Institut, Johannisallee
+        21</ort>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Praktikum für landwirtschaftliche
         doppelte Buchführung</thema>, <veranstaltung><thema>I. Teil für
@@ -4391,11 +4399,11 @@
         <veranstaltung><thema>Einführung in die mathematische Behandlung der
         Naturwissenschaften (Differential- und Integralrechnung) mit Übungen,
         für Studierende der Medizin und der Naturwissenschaften, insbesondere
-        der Chemie</thema>: <dozent><grad>D. med. et ph.</grad>
-        <vorname>O.</vorname> <nachname>Fischer</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mo., Mi. u. Do. 6-7 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
-        13</ort>.</veranstaltung>
+        der Chemie</thema>: <dozent ref="fischer_o"><grad>D. med. et
+        ph.</grad> <vorname>O.</vorname> <nachname>Fischer</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mo., Mi. u. Do. 6-7
+        U.</zeit>, <modus>privatim</modus>, <ort>im Anatomischen Institut,
+        Liebigstr. 13</ort>.</veranstaltung>
 
         <veranstaltung><thema>Ausgewählte Kapitel aus dem Gebiete der exakten
         Naturwissenschaften</thema>: <dozent><grad>D. ph.</grad>
@@ -4604,16 +4612,17 @@
         Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung><thema>Pharmakognosie des Pflanzenreichs und
-        Tierreichs</thema>: <dozent><grad>D. med.</grad>
+        Tierreichs</thema>: <dozent ref="boehm_r"><grad>D. med.</grad>
         <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mo. bis Fr. 12-1 U.</zeit>, <modus>privatim</modus>, <ort>im
         Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
 
         <veranstaltung><thema>Pharmakologie mit der
-        Arzneiverordnungslehre</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mo. bis Fr. 3-4 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
+        Arzneiverordnungslehre</thema>: <dozent ref="boehm_r"><grad>D.
+        med.</grad> <nachname>Boehm</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mo. bis Fr. 3-4 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Pharmakolog. Institut, Liebigstr.
+        10</ort>.</veranstaltung>
 
         <veranstaltung><thema>Mineralogie. Übersioht des
         Gesamtgebietes</thema>: <dozent><grad>D. ph.</grad>
@@ -4665,7 +4674,7 @@
         (Talstr. 35. I)</ort>.</veranstaltung>
 
         <veranstaltung><thema>Paläontologie der Fische, Amphibien und
-        Reptilien</thema>: <dozent><grad>D. ph.</grad>
+        Reptilien</thema>: <dozent ref="felix_jp"><grad>D. ph.</grad>
         <nachname>Felix</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Fr. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im Paläontolog.
         Institut, Talstr. 35. II. l.</ort></veranstaltung>
@@ -5011,7 +5020,7 @@
 
         <veranstaltung><thema>Experimentelle Arbeiten <ort>im
         Pharmakologischen Institut (Liebigstr. 10)</ort> für
-        Fortgeschrittenere</thema>: <dozent><grad>D. med.</grad>
+        Fortgeschrittenere</thema>: <dozent ref="boehm_r"><grad>D. med.</grad>
         <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>täglich ganztägig</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung>

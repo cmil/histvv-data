@@ -427,9 +427,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Institutionen des römischen Privatrechts</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Degenkolb</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>täglich 11-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="degenkolb_kh"><grad>D. jur.</grad>
+      <nachname>Degenkolb</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>täglich 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Aeussere römische Rechtsgeschichte (Quellen,
       Literatur, Ueberblick über das Staatsrecht)</thema>: <dozent><grad>D.
@@ -535,7 +535,7 @@
       <zeit>täglich 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Civilprocessrecht (ordentliches
-      Verfahren)</thema>: <dozent><grad>D. jur.</grad>
+      Verfahren)</thema>: <dozent ref="degenkolb_kh"><grad>D. jur.</grad>
       <nachname>Degenkolb</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -695,7 +695,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie (Knochen, Gelenke, Muskeln
-      und Gefässe)</thema>: <dozent><grad>D. med.</grad>
+      und Gefässe)</thema>: <dozent ref="fick_ra"><grad>D. med.</grad>
       <nachname>Fick</nachname>, <funktion>P. E.</funktion></dozent> und
       <dozent><grad>D. med.</grad> <nachname>Spalteholz</nachname>,
       <funktion>P. E., des.</funktion></dozent>, <zeit>Mont. bis Freit. 5-6
@@ -739,7 +739,7 @@
       noch zu best. Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Praktischer Cursus der normalen
-      Histologie</thema>: <dozent><grad>D. med.</grad>
+      Histologie</thema>: <dozent ref="fick_ra"><grad>D. med.</grad>
       <nachname>Fick</nachname>, <funktion>P. E.</funktion></dozent> und
       <dozent><grad>D. med.</grad> <nachname>Held</nachname></dozent>:
       <zeit>Mont., Mittw. u. Freit. 6-8 U. Ab.</zeit>,
@@ -1396,9 +1396,9 @@
       <siehe>Siehe Philosophische Facultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Ueber Gelenkbewegungen des menschlichen
-      Körpers</thema>: <dozent><grad>D. ph.</grad> <vorname>O.</vorname>
-      <nachname>Fischer</nachname></dozent>. <siehe>Siehe Philosophische
-      Facultät G.</siehe></veranstaltungsverweis>
+      Körpers</thema>: <dozent ref="fischer_o"><grad>D. ph.</grad>
+      <vorname>O.</vorname> <nachname>Fischer</nachname></dozent>.
+      <siehe>Siehe Philosophische Facultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Organische Experimentalchemie</thema>:
       <dozent><grad>D. ph. &amp; med.</grad> <nachname>Wislicenus</nachname>,
@@ -3013,10 +3013,10 @@
         <veranstaltung><thema>Ueber Bewegungen, insbesondere Gelenkbewegungen
         des menschlichen und thierischen Körpers. In elementarer
         Behandlungsweise für Studirende der Medicin und der
-        Naturwissenschaften</thema>: <dozent><grad>D. ph.</grad>
-        <vorname>O.</vorname> <nachname>Fischer</nachname></dozent>,
-        <zeit>Dienst. 7-8 U. u. Donnerst. 6-7 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Naturwissenschaften</thema>: <dozent ref="fischer_o"><grad>D.
+        ph.</grad> <vorname>O.</vorname>
+        <nachname>Fischer</nachname></dozent>, <zeit>Dienst. 7-8 U. u.
+        Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Anorganische Experimentalchemie</thema>: <dozent
         ref="ostwald_wilhelm"><grad>D. ph.</grad>
@@ -3137,9 +3137,10 @@
         U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Morphologie und Physiologie der
-        Bakterien</thema>: <dozent><grad>D. ph.</grad> <vorname>A.</vorname>
-        <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Bakterien</thema>: <dozent ref="fischer_alfred"><grad>D. ph.</grad>
+        <vorname>A.</vorname> <nachname>Fischer</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Freit. 5-6 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Theorie des Mikroskops und der zugehörigen
         optischen Nebenapparate</thema>: <dozent ref="ambronn_h"><grad>D.
@@ -3147,10 +3148,10 @@
         E.</funktion></dozent>, <zeit>Mittw. u. Freit. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Paläontologie der Wirbeltiere</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Felix</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Paläontologie der Wirbeltiere</thema>: <dozent
+        ref="felix_jp"><grad>D. ph.</grad> <nachname>Felix</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Entwicklungsmechanik</thema>: <dozent><grad>D.
         ph. et med.</grad> <nachname>Fraisse</nachname>, <funktion>P.
@@ -3336,8 +3337,8 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen im mikroskopischen Untersuchen von
-        Nahrungs- und Genussmitteln aus dem Pflanzenreich</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>A.</vorname>
+        Nahrungs- und Genussmitteln aus dem Pflanzenreich</thema>: <dozent
+        ref="fischer_alfred"><grad>D. ph.</grad> <vorname>A.</vorname>
         <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Donnerst. 9-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>

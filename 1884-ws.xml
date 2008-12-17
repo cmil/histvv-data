@@ -76,14 +76,16 @@
       12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Biblische Theologie des Alten Testaments</thema>:
-      <dozent><grad>D. th. &amp; ph.</grad> <nachname>Delitzsch</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
-      Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="delitsch_fj"><grad>D. th. &amp; ph.</grad>
+      <nachname>Delitzsch</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont., Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Genesis</thema>: <dozent><grad>D. th. &amp;
-      ph.</grad> <nachname>Delitzsch</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Genesis</thema>: <dozent
+      ref="delitsch_fj"><grad>D. th. &amp; ph.</grad>
+      <nachname>Delitzsch</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Erklärung des Jesaia</thema>: <dozent
       ref="baur_g"><grad>D. th. &amp; ph.</grad> <nachname>Baur</nachname>,
@@ -208,9 +210,9 @@
 
       <veranstaltung><thema>Leitung des Hebraicum I der Lausitzer
       Predigergesellschaft (Ausgewählte Stücke des Buches Ezechiel)</thema>:
-      <dozent><grad>D. th. &amp; ph.</grad> <nachname>Delitzsch</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. 5-6 U.</zeit>,
-      <modus>privatissime</modus>, aber
+      <dozent ref="delitsch_fj"><grad>D. th. &amp; ph.</grad>
+      <nachname>Delitzsch</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Donnerst. 5-6 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <seite>5</seite>
@@ -223,17 +225,17 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Anglo-americanische exegetische Gesellschaft
-      (alttestamentliche kritische Fragen)</thema>: <dozent><grad>D. th. &amp;
-      ph.</grad> <nachname>Delitzsch</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Dienst. 8-9 U. Ab.</zeit>,
-      <modus>privatissime</modus>, aber
+      (alttestamentliche kritische Fragen)</thema>: <dozent
+      ref="delitsch_fj"><grad>D. th. &amp; ph.</grad>
+      <nachname>Delitzsch</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Dienst. 8-9 U. Ab.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Mischna Aboth (Pirke Aboth) <ort>in dem Institutum
       Judaicum (Abtheilung des akademischen Missionsvereins)</ort></thema>:
-      <dozent><grad>D. th. &amp; ph.</grad> <nachname>Delitzsch</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont. 5-6 U.</zeit>,
-      <modus>privatissime</modus>, aber
+      <dozent ref="delitsch_fj"><grad>D. th. &amp; ph.</grad>
+      <nachname>Delitzsch</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. 5-6 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Alttestamentliche Gesellschaft: Die Gesetzgebung
@@ -330,15 +332,15 @@
       <siehe>Siehe Philosophische Facultät C.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Das Alte Testament im Lichte der
-      Keilschriftforschung</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Delitzsch</nachname>, <funktion>P. E.</funktion></dozent>
-      <siehe>Siehe Philosophische Facultät B.
-      b.</siehe></veranstaltungsverweis>
-
-      <veranstaltungsverweis><thema>Hebräische Grammatik</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Delitzsch</nachname>, <funktion>P.
+      Keilschriftforschung</thema>: <dozent ref="delitzsch_fcg"><grad>D.
+      ph.</grad> <nachname>Delitzsch</nachname>, <funktion>P.
       E.</funktion></dozent> <siehe>Siehe Philosophische Facultät B.
       b.</siehe></veranstaltungsverweis>
+
+      <veranstaltungsverweis><thema>Hebräische Grammatik</thema>: <dozent
+      ref="delitzsch_fcg"><grad>D. ph.</grad> <nachname>Delitzsch</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      B. b.</siehe></veranstaltungsverweis>
     </sachgruppe>
 
     <sachgruppe fakultät="Jura">
@@ -1574,24 +1576,27 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Assyrisch <notiz betreff="fortsetzung">I.
-          Cursus</notiz>: Grammatik und Lectüre</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Delitzsch</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mont., Mittw. u. Sonnab. 4-5
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
-
-          <veranstaltung><thema>Das Alte Testament im Lichte der
-          Keilschriftforschung</thema>: <dozent><grad>D. ph.</grad>
+          Cursus</notiz>: Grammatik und Lectüre</thema>: <dozent
+          ref="delitzsch_fcg"><grad>D. ph.</grad>
           <nachname>Delitzsch</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>,
+          <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Hebräische Grammatik</thema>: <dozent><grad>D.
+          <veranstaltung><thema>Das Alte Testament im Lichte der
+          Keilschriftforschung</thema>: <dozent ref="delitzsch_fcg"><grad>D.
           ph.</grad> <nachname>Delitzsch</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
-          9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
+
+          <veranstaltung><thema>Hebräische Grammatik</thema>: <dozent
+          ref="delitzsch_fcg"><grad>D. ph.</grad>
+          <nachname>Delitzsch</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Mont., Dienst., Donnerst. u. Freit. 9-10 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung der 2. Hälfte des V. Bandes des
-          Londoner Inschriftenwerkes</thema>: <dozent><grad>D. ph.</grad>
+          Londoner Inschriftenwerkes</thema>: <dozent
+          ref="delitzsch_fcg"><grad>D. ph.</grad>
           <nachname>Delitzsch</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>in zwei zu best. Stunden</zeit>, <modus>privatissime</modus>,
           aber <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2538,9 +2543,9 @@ im selben "gebühr"-Tag erfasst!-->
         Tagen 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Paläontologie der wirbellosen Thiere</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Felix</nachname></dozent>,
-        <zeit>Dienst. u. Donnerst. 9-10 U., Sonnab. 2-4 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="felix_jp"><grad>D. ph.</grad>
+        <nachname>Felix</nachname></dozent>, <zeit>Dienst. u. Donnerst. 9-10
+        U., Sonnab. 2-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Ueber Anatomie, Physiologie und Diätetik
         des menschlichen Körpers</thema>: <dozent><grad>D. med.</grad>

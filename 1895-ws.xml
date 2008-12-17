@@ -386,8 +386,8 @@
 
       <veranstaltungsverweis><thema>Entwicklungsgeschichte der Erde und ihrer
       Bewohner, <notiz betreff="fortsetzung">II. Theil</notiz></thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Felix</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      <dozent ref="felix_jp"><grad>D. ph.</grad> <nachname>Felix</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Grundzüge der vergleichenden semitischen
@@ -474,9 +474,9 @@
       <titel>II. Juristische Facultät.</titel>
 
       <veranstaltung><thema>Institutionen des römischen Privatrechts</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Degenkolb</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>täglich 10-11 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="degenkolb_kh"><grad>D. jur.</grad>
+      <nachname>Degenkolb</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>täglich 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Innere Geschichte des römischen Rechts mit
       Einschluss des Civilprocesses</thema>: <dozent><grad>D. jur.</grad>
@@ -590,7 +590,7 @@
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Civilprocessrecht (ordentliches
-      Verfahren)</thema>: <dozent><grad>D. jur.</grad>
+      Verfahren)</thema>: <dozent ref="degenkolb_kh"><grad>D. jur.</grad>
       <nachname>Degenkolb</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -785,11 +785,12 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Knochen,
-      Gelenke, Muskeln und Gefässe)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Fick</nachname>, <funktion>P. E.</funktion></dozent> und
-      <dozent><grad>D. med.</grad> <nachname>Spalteholz</nachname>,
-      <funktion>P. E. des.</funktion></dozent>, <zeit>Mont. bis Freit. 2-3
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Gelenke, Muskeln und Gefässe)</thema>: <dozent ref="fick_ra"><grad>D.
+      med.</grad> <nachname>Fick</nachname>, <funktion>P.
+      E.</funktion></dozent> und <dozent><grad>D. med.</grad>
+      <nachname>Spalteholz</nachname>, <funktion>P. E.
+      des.</funktion></dozent>, <zeit>Mont. bis Freit. 2-3 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Präparirübungen</thema>: <dozent><grad>D.
       med.</grad> <nachname>His</nachname>, <funktion>P.
@@ -1462,9 +1463,10 @@
       <nachname>Wiedemann</nachname>, <funktion>P. O.</funktion></dozent>,
       <siehe>Siehe Philosophische Facultät G.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Muskelmechanik</thema>: <dozent><grad>D.
-      ph.</grad> <vorname>O.</vorname> <nachname>Fischer</nachname></dozent>.
-      <siehe>Siehe Philosophische Facultät G.</siehe></veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Muskelmechanik</thema>: <dozent
+      ref="fischer_o"><grad>D. ph.</grad> <vorname>O.</vorname>
+      <nachname>Fischer</nachname></dozent>. <siehe>Siehe Philosophische
+      Facultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Organische Experimentalchemie</thema>:
       <dozent><grad>D. ph. &amp; med.</grad> <nachname>Wislicenus</nachname>,
@@ -1525,9 +1527,9 @@
 
       <veranstaltungsverweis><thema>Morphologie und Physiologie der Bakterien
       - Uebungen im mikroskopischen Untersuchen von Nahrungs- u. Genussmitteln
-      aus dem Pflanzenreich</thema>: <dozent><grad>D. ph.</grad>
-      <vorname>A.</vorname> <nachname>Fischer</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      aus dem Pflanzenreich</thema>: <dozent ref="fischer_alfred"><grad>D.
+      ph.</grad> <vorname>A.</vorname> <nachname>Fischer</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Deutsch-europäische Geschichte im 19.
@@ -2527,7 +2529,7 @@
         </sachgruppe>
 
         <veranstaltungsverweis><thema>Entwicklungsgeschichte der Erde und
-        ihrer Bewohner</thema>: <dozent><grad>D. ph.</grad>
+        ihrer Bewohner</thema>: <dozent ref="felix_jp"><grad>D. ph.</grad>
         <nachname>Felix</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
 
@@ -3070,8 +3072,8 @@
         <zeit>Donnerst. 6-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Muskelmechanik</thema>: <dozent><grad>D.
-        ph.</grad> <vorname>O.</vorname>
+        <veranstaltung><thema>Muskelmechanik</thema>: <dozent
+        ref="fischer_o"><grad>D. ph.</grad> <vorname>O.</vorname>
         <nachname>Fischer</nachname></dozent>, <zeit>Mittw. 7-8 U. Ab.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -3159,8 +3161,8 @@
 
         <veranstaltung><thema>Entwicklungsgeschichte der Erde und ihrer
         Bewohner, <notiz betreff="fortsetzung">II. Theil</notiz></thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Felix</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+        <dozent ref="felix_jp"><grad>D. ph.</grad> <nachname>Felix</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Palaeontologie (Ausgewählte Kapitel)</thema>:
@@ -3190,9 +3192,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Morphologie und Physiologie der
-        Bakterien</thema>: <dozent><grad>D. ph.</grad> <vorname>A.</vorname>
-        <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Bakterien</thema>: <dozent ref="fischer_alfred"><grad>D. ph.</grad>
+        <vorname>A.</vorname> <nachname>Fischer</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Freit. 5-6 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Theorie des Mikroskops und der zugehörigen
         optischen Nebenapparate</thema>: <dozent ref="ambronn_h"><grad>D.
@@ -3201,10 +3204,10 @@
         Stunde</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Palaeontologie der Wirbelthiere</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Felix</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Palaeontologie der Wirbelthiere</thema>: <dozent
+        ref="felix_jp"><grad>D. ph.</grad> <nachname>Felix</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Zelle und ihr Leben</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Looss</nachname></dozent>,
@@ -3383,8 +3386,8 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen im mikroskopischen Untersuchen von
-        Nahrungs- und Genussmitteln aus dem Pflanzenreich</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>A.</vorname>
+        Nahrungs- und Genussmitteln aus dem Pflanzenreich</thema>: <dozent
+        ref="fischer_alfred"><grad>D. ph.</grad> <vorname>A.</vorname>
         <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Donnerst. 9-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>

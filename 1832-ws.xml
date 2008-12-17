@@ -397,17 +397,18 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
 
         <seite>5</seite>
 
-        <veranstaltung><dozent><nachname>Flathe</nachname>, <grad>M.</grad>
-        <vorname>J. L. F.</vorname></dozent>, <thema>Geschichte des
-        Mittelalters</thema>, <zeit>1 U. 4 T.</zeit>
+        <veranstaltung><dozent ref="flathe_jlf"><nachname>Flathe</nachname>,
+        <grad>M.</grad> <vorname>J. L. F.</vorname></dozent>,
+        <thema>Geschichte des Mittelalters</thema>, <zeit>1 U. 4 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Geschichte unserer
-        Zeit</thema>, <zeit>2 U. 4 T.</zeit>
+        <veranstaltung><ders ref="flathe_jlf">Derselbe</ders>,
+        <thema>Geschichte unserer Zeit</thema>, <zeit>2 U. 4 T.</zeit>
         <gebühr>unentg.</gebühr></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Geschichte des
-        Alterthums</thema>, <zeit>5 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="flathe_jlf">Derselbe</ders>,
+        <thema>Geschichte des Alterthums</thema>, <zeit>5 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Burckhardt</nachname>,
         <grad>M.</grad> <vorname>K. E.</vorname></dozent>, <thema>Geschichte
@@ -946,13 +947,14 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
         Theil</notiz> (die Lehren von der Elektricität, dem Magnetismus, der
         Wärme und dem Lichte)</thema>, <zeit>11 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><dozent><nachname>Fechner</nachname>, <grad>M.</grad>
-        <vorname>G. T.</vorname>, <funktion>Med. Bacc.</funktion></dozent>,
-        <thema>über die neuern Fortschritte der Physik</thema>, <zeit>3 U. 2
-        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung><dozent ref="fechner_gt"><nachname>Fechner</nachname>,
+        <grad>M.</grad> <vorname>G. T.</vorname>, <funktion>Med.
+        Bacc.</funktion></dozent>, <thema>über die neuern Fortschritte der
+        Physik</thema>, <zeit>3 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>über Galvanismus u.
-        Elektrochemie</thema>, <zeit>8 U. 2 T.</zeit>
+        <veranstaltung><ders ref="fechner_gt">Derselbe</ders>, <thema>über
+        Galvanismus u. Elektrochemie</thema>, <zeit>8 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -996,10 +998,10 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
         pharmaceutisch-medicinischen Experimental-Chemie</thema>, <zeit>3 U. 6
         T.</zeit></veranstaltung>
 
-        <veranstaltungsverweis><dozent><nachname>Fechner</nachname>,
-        <grad>M.</grad> <vorname>G. T.</vorname>, <funktion>Med.
-        Bacc.</funktion></dozent>, <siehe>s.
-        Physik</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><dozent
+        ref="fechner_gt"><nachname>Fechner</nachname>, <grad>M.</grad>
+        <vorname>G. T.</vorname>, <funktion>Med. Bacc.</funktion></dozent>,
+        <siehe>s. Physik</siehe>.</veranstaltungsverweis>
       </sachgruppe>
     </sachgruppe>
 

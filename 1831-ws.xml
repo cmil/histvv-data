@@ -344,15 +344,15 @@ angegeben. Der Schluss mit "Stallmeister" usw. fehlt!-->
         <grad>Dr.</grad> <vorname>J.</vorname></dozent>, <siehe>s.
         Staatswissenschaften</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><dozent><nachname>Flathe</nachname>,
+        <veranstaltung><dozent ref="flathe_jlf"><nachname>Flathe</nachname>,
         <grad>Mg.</grad></dozent>, <thema>Geschichte d. röm.
         Reichs</thema>.</veranstaltung>
 
-        <veranstaltung><ders>Ders.</ders>, <thema>Gesch. der
+        <veranstaltung><ders ref="flathe_jlf">Ders.</ders>, <thema>Gesch. der
         Kreuzzüge</thema>.</veranstaltung>
 
-        <veranstaltung><ders>Ders.</ders>, <thema>Gesch. Frankreichs in der
-        neuesten Zeit</thema>.</veranstaltung>
+        <veranstaltung><ders ref="flathe_jlf">Ders.</ders>, <thema>Gesch.
+        Frankreichs in der neuesten Zeit</thema>.</veranstaltung>
 
         <veranstaltung><dozent><nachname>Westermann</nachname>,
         <grad>Mg.</grad></dozent>, <thema>Gesch. Griechenlands von den
@@ -725,12 +725,12 @@ angegeben. Der Schluss mit "Stallmeister" usw. fehlt!-->
         betreff="fortsetzung">Experimental-Physik. 2. Thl.</notiz> (die Lehren
         von d. Elektricität, dem Lichte u. der Wärme)</thema>.</veranstaltung>
 
-        <veranstaltung><dozent><nachname>Fechner</nachname>, <grad>Mg.</grad>,
-        <funktion>Med. Bacc.</funktion></dozent>, <thema>üb.
+        <veranstaltung><dozent ref="fechner_gt"><nachname>Fechner</nachname>,
+        <grad>Mg.</grad>, <funktion>Med. Bacc.</funktion></dozent>, <thema>üb.
         Meteorologie</thema>.</veranstaltung>
 
-        <veranstaltung><ders>Ders.</ders>, <thema>üb. Galvanismus u.
-        Elektrochemie</thema>.</veranstaltung>
+        <veranstaltung><ders ref="fechner_gt">Ders.</ders>, <thema>üb.
+        Galvanismus u. Elektrochemie</thema>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -773,8 +773,9 @@ angegeben. Der Schluss mit "Stallmeister" usw. fehlt!-->
         <!--Ich nehme an, dass es sich bei der Korrektur um einen Druckfehler handelt, 
 also nicht "Kleiner", sondern "Kleinert" gemeint ist-->
 
-        <veranstaltungsverweis><dozent><nachname>Fechner</nachname>,
-        <grad>Mg.</grad>, <vorname>M. B.</vorname></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="fechner_gt"><nachname>Fechner</nachname>, <grad>Mg.</grad>,
+        <vorname>M. B.</vorname></dozent>, <siehe>s.
         Physik</siehe>.</veranstaltungsverweis>
 
         <sachgruppe>

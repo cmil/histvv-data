@@ -492,9 +492,10 @@
       <titel>II. Juristische Facultät.</titel>
 
       <veranstaltung><thema>Einführung in die Rechtswissenschaft</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Degenkolb</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst. u. Mittw. 12-1
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="degenkolb_kh"><grad>D. jur.</grad>
+      <nachname>Degenkolb</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont., Dienst. u. Mittw. 12-1 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Allgemeine Rechtslehre (zur Einführung in die
       Rechtswissenschaft für Nichtjuristen)</thema>: <dozent><grad>D. jur. et
@@ -645,8 +646,8 @@
       <nachname>Rieker</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Sonnab. 10-11 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Deutsches Civilprocessrecht</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Degenkolb</nachname>,
+      <veranstaltung><thema>Deutsches Civilprocessrecht</thema>: <dozent
+      ref="degenkolb_kh"><grad>D. jur.</grad> <nachname>Degenkolb</nachname>,
       <funktion>P. O.</funktion></dozent>, <zeit>tägl. 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -696,7 +697,7 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pandekten-Exegetikum mit schriftlichen
-      Arbeiten</thema>: <dozent><grad>D. jur.</grad>
+      Arbeiten</thema>: <dozent ref="degenkolb_kh"><grad>D. jur.</grad>
       <nachname>Degenkolb</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Freit. 6-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -881,7 +882,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Muskeln und
-      Gefässe)</thema>: <dozent><grad>D. med.</grad>
+      Gefässe)</thema>: <dozent ref="fick_ra"><grad>D. med.</grad>
       <nachname>Fick</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont., Mittw. u. Freit. ½3-½4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -896,10 +897,10 @@
 
       <veranstaltung><thema>Ueber die Wirkung der Muskeln mit Rücksicht auf
       menschliche Anatomie, für Studirende der Medicin und der
-      Naturwissenschaften in den ersten Semestern</thema>: <dozent><grad>D.
-      med. et ph.</grad> <vorname>O.</vorname> <nachname>Fischer</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. 6-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Naturwissenschaften in den ersten Semestern</thema>: <dozent
+      ref="fischer_o"><grad>D. med. et ph.</grad> <vorname>O.</vorname>
+      <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Die Theorien der Zeugung</thema>: <dozent><grad>D.
       med.</grad> <nachname>Kaestner</nachname>, <funktion>P.
@@ -912,10 +913,11 @@
       2-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Mikroskopischer Kurs der allgemeinen und
-      speziellen Gewebelehre</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Fick</nachname>, <funktion>P. E.</funktion></dozent> und
-      <dozent><grad>D. med.</grad> <nachname>Held</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 6-8 U.</zeit>,
+      speziellen Gewebelehre</thema>: <dozent ref="fick_ra"><grad>D.
+      med.</grad> <nachname>Fick</nachname>, <funktion>P.
+      E.</funktion></dozent> und <dozent><grad>D. med.</grad>
+      <nachname>Held</nachname>, <funktion>P. E. des.</funktion></dozent>,
+      <zeit>Mont., Mittw. u. Freit. 6-8 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <seite>12</seite>
@@ -935,7 +937,7 @@
 
       <veranstaltung><thema>Die Lehre von den Tonempfindungen (Physiologie des
       Gehörs, der Stimme und Sprache), für Studirende aller
-      Facultäten</thema>: <dozent><grad>D. med. et ph.</grad>
+      Facultäten</thema>: <dozent ref="fischer_o"><grad>D. med. et ph.</grad>
       <vorname>O.</vorname> <nachname>Fischer</nachname>, <funktion>P.
       E.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1883,8 +1885,8 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Die Lehre von den Tonempfindungen
-        (Physiologie des Gehörs, der Stimme und Sprache)</thema>:
-        <dozent><grad>D. med. et ph.</grad> <vorname>O.</vorname>
+        (Physiologie des Gehörs, der Stimme und Sprache)</thema>: <dozent
+        ref="fischer_o"><grad>D. med. et ph.</grad> <vorname>O.</vorname>
         <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
 
@@ -2144,10 +2146,11 @@ auch einer!--></thema>: <dozent><grad>D. ph.</grad>
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Arabische Grammatik, <notiz
-          betreff="fortsetzung">I. Cursus</notiz></thema>: <dozent><grad>D.
-          ph.</grad> <vorname>Aug.</vorname> <nachname>Fischer</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Freit. 4-5
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          betreff="fortsetzung">I. Cursus</notiz></thema>: <dozent
+          ref="fischer_august"><grad>D. ph.</grad> <vorname>Aug.</vorname>
+          <nachname>Fischer</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst. u. Freit. 4-5 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Arabische Syntax und Erklärung leichter
           Texte</thema>: <dozent><grad>D. ph.</grad>
@@ -2156,9 +2159,9 @@ auch einer!--></thema>: <dozent><grad>D. ph.</grad>
 
           <veranstaltung><thema>Interpretation ausgewählter Abschnitte aus Ibn
           Haldû's <!--Unter dem H ist ein Strich!
--->Prolegomena</thema>: <dozent><grad>D. ph.</grad> <vorname>Aug.</vorname>
-          <nachname>Fischer</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Sonnab. 11-12 U.</zeit>,
+-->Prolegomena</thema>: <dozent ref="fischer_august"><grad>D. ph.</grad>
+          <vorname>Aug.</vorname> <nachname>Fischer</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Sonnab. 11-12 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Altarabische Metrik und Geschichte der
@@ -2177,9 +2180,9 @@ auch einer!--></thema>: <dozent><grad>D. ph.</grad>
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Einführung in das Aethiopische</thema>:
-          <dozent><grad>D. ph.</grad> <vorname>Aug.</vorname>
-          <nachname>Fischer</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst. u. Freit. 5-6 U.</zeit>,
+          <dozent ref="fischer_august"><grad>D. ph.</grad>
+          <vorname>Aug.</vorname> <nachname>Fischer</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Dienst. u. Freit. 5-6 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Türkisch</thema>: <dozent><grad>D. ph.</grad>
@@ -2236,10 +2239,11 @@ auch einer!--></thema>: <dozent><grad>D. ph.</grad>
           <seite>25</seite>
 
           <veranstaltung><thema>Arabische Gesellschaft (Agurrūmīja)</thema>:
-          <dozent><grad>D. ph.</grad> <vorname>Aug.</vorname>
-          <nachname>Fischer</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Donnerst. 8-10 U. Ab.</zeit>, <modus>privatissime</modus>,
-          aber <gebühr>gratis</gebühr>.</veranstaltung>
+          <dozent ref="fischer_august"><grad>D. ph.</grad>
+          <vorname>Aug.</vorname> <nachname>Fischer</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Donnerst. 8-10 U. Ab.</zeit>,
+          <modus>privatissime</modus>, aber
+          <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Assyriologische Gesellschaft</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
@@ -2404,8 +2408,8 @@ auch einer!--></thema>: <dozent><grad>D. ph.</grad>
           A.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Die Lehre von den Tonempfindungen
-          (Physiologie des Gehörs, der Stimme und Sprache)</thema>:
-          <dozent><grad>D. med. et ph.</grad> <vorname>O.</vorname>
+          (Physiologie des Gehörs, der Stimme und Sprache)</thema>: <dozent
+          ref="fischer_o"><grad>D. med. et ph.</grad> <vorname>O.</vorname>
           <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>
           <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
 
@@ -2987,8 +2991,8 @@ nicht wie den Ausdruck auszeichnen soll!
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Die Lehre von den Tonempfindungen
-        (Physiologie des Gehörs, der Stimme und Sprache)</thema>:
-        <dozent><grad>D. med. et ph.</grad> <vorname>O.</vorname>
+        (Physiologie des Gehörs, der Stimme und Sprache)</thema>: <dozent
+        ref="fischer_o"><grad>D. med. et ph.</grad> <vorname>O.</vorname>
         <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medicinische Fakultät.</siehe></veranstaltungsverweis>
 
@@ -3168,10 +3172,10 @@ nicht wie den Ausdruck auszeichnen soll!
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Specielle Pflanzenbaulehre (Hackfrüchte,
-        Handelsgewächse, Futterbau)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Falke</nachname>, <funktion>P. E. des.</funktion></dozent>,
-        <zeit>Mont. u. Donnerst. 11-12 U. und Mittw. 10-11 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Handelsgewächse, Futterbau)</thema>: <dozent ref="falke_f"><grad>D.
+        ph.</grad> <nachname>Falke</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>Mont. u. Donnerst. 11-12 U. und Mittw.
+        10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Landwirthschaftlicher Obst- und
         Gartenbau</thema>: <dozent><grad>D. ph.</grad>
@@ -3179,8 +3183,8 @@ nicht wie den Ausdruck auszeichnen soll!
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Krankheiten der Kulturgewächse</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Falke</nachname>, <funktion>P.
-        E. des.</funktion></dozent>, <zeit>Dienst. 6-7 U.</zeit>,
+        <dozent ref="falke_f"><grad>D. ph.</grad> <nachname>Falke</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>Dienst. 6-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Schädlinge und Nützlinge der
@@ -3208,7 +3212,7 @@ nicht wie den Ausdruck auszeichnen soll!
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Specielle Thierzuchtlehre (Schweine- und
-        Rinderzucht)</thema>: <dozent><grad>D. ph.</grad>
+        Rinderzucht)</thema>: <dozent ref="falke_f"><grad>D. ph.</grad>
         <nachname>Falke</nachname>, <funktion>P. E. des.</funktion></dozent>,
         <zeit>Dienst., Donnerst. u. Freit. 5 bis 6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -3339,13 +3343,13 @@ nicht wie den Ausdruck auszeichnen soll!
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Seminar für angewandte Thierzuchtlehre</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Falke</nachname>, <funktion>P.
-        E. des.</funktion></dozent>, <zeit>Mont. 5-7 U.</zeit>,
+        <dozent ref="falke_f"><grad>D. ph.</grad> <nachname>Falke</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>Mont. 5-7 U.</zeit>,
         <modus>privatissime</modus> und
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen und Demonstrationen im
-        Pflanzenschutz</thema>: <dozent><grad>D. ph.</grad>
+        Pflanzenschutz</thema>: <dozent ref="falke_f"><grad>D. ph.</grad>
         <nachname>Falke</nachname>, <funktion>P. E. des.</funktion></dozent>,
         <zeit>Sonnab. 10-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -3639,10 +3643,10 @@ nicht wie den Ausdruck auszeichnen soll!
         des.</funktion></dozent>, <zeit>Freit. 6-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Palaeontologie der Wirbelthiere</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Felix</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont. u. Dienst. 6-7 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Palaeontologie der Wirbelthiere</thema>: <dozent
+        ref="felix_jp"><grad>D. ph.</grad> <nachname>Felix</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Dienst. 6-7
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Entwicklungsmechanik (Physiologie der
         Formbildung und Theorie der Vererbung)</thema>: <dozent><grad>D.
@@ -3694,7 +3698,7 @@ nicht wie den Ausdruck auszeichnen soll!
         <veranstaltungsverweis><thema>Ueber die Wirkung der Muskeln mit
         Rücksicht auf die menschliche Anatomie. - Die Lehre von den
         Tonempfindungen (Physiologie des Gehörs, der Stimme und
-        Sprache)</thema>: <dozent><grad>D. med. et ph.</grad>
+        Sprache)</thema>: <dozent ref="fischer_o"><grad>D. med. et ph.</grad>
         <vorname>O.</vorname> <nachname>Fischer</nachname>, <funktion>P.
         E.</funktion></dozent> <siehe>Siehe Medicinische
         Facultät.</siehe></veranstaltungsverweis>
@@ -3813,7 +3817,7 @@ nicht wie den Ausdruck auszeichnen soll!
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Geologische und palaeontologische
-        Uebungen</thema>: <dozent><grad>D. ph.</grad>
+        Uebungen</thema>: <dozent ref="felix_jp"><grad>D. ph.</grad>
         <nachname>Felix</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Freit. 2-5 U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>

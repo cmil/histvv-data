@@ -156,9 +156,9 @@
         <zeit>4 U. Mont. u. Dienst.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber psychophysische Messmethoden</thema>:
-        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Fechner</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="fechner_gt"><grad>D. ph. &amp; med.</grad>
+        <nachname>Fechner</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ethik</thema>: <dozent><grad>D. ph.</grad>
         <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
@@ -577,10 +577,10 @@
           Genesis</thema>: <ders>Derselbe</ders>, <zeit>4 U. 2 T. (Mont. u.
           Donn.)</zeit></veranstaltung>
 
-          <veranstaltungsverweis><thema>Paläst. Midrasch</thema>:
-          <dozent><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
-          <funktion>P. O.</funktion></dozent>, <siehe>s. exeget.
-          Theol.</siehe></veranstaltungsverweis>
+          <veranstaltungsverweis><thema>Paläst. Midrasch</thema>: <dozent
+          ref="delitsch_fj"><grad>D. th.</grad>
+          <nachname>Delitzsch</nachname>, <funktion>P. O.</funktion></dozent>,
+          <siehe>s. exeget. Theol.</siehe></veranstaltungsverweis>
 
           <veranstaltung><thema>Arabische Grammatik</thema>: <dozent><grad>D.
           ph.</grad> <nachname>Loth</nachname></dozent>, <zeit>5 U. 3 T.
@@ -983,7 +983,7 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Methodik des geographischen Studiums und
-        Unterrichtes</thema>: <dozent><grad>D. ph.</grad>
+        Unterrichtes</thema>: <dozent ref="delitsch_o"><grad>D. ph.</grad>
         <vorname>O.</vorname> <nachname>Delitsch</nachname></dozent>, <zeit>11
         U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -996,8 +996,8 @@
         Seminarübungen</thema>: <ders>Derselbe</ders>, <zeit>in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Geographisches Relatorium</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>O.</vorname>
+        <veranstaltung><thema>Geographisches Relatorium</thema>: <dozent
+        ref="delitsch_o"><grad>D. ph.</grad> <vorname>O.</vorname>
         <nachname>Delitsch</nachname></dozent>, <zeit>Mittw. Ab. 2 St.</zeit>,
         <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1473,9 +1473,9 @@
         <titel>I. Exegetische Theologie.</titel>
 
         <veranstaltung><thema>Biblische Theologie des Alten Test.</thema>:
-        <dozent><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 4
-        T.</zeit></veranstaltung>
+        <dozent ref="delitsch_fj"><grad>D. th.</grad>
+        <nachname>Delitzsch</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>12 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Alttestamentliche Weissagungen</thema>:
         <dozent><grad>D. th. &amp; ph.</grad> <nachname>Hölemann</nachname>,
@@ -1483,18 +1483,19 @@
         Uebungen</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Stücke aus Jerem. u. Ezech.</thema>:
-        <dozent><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
-        <funktion>P. O.</funktion></dozent>, <siehe>s. exeget.
-        Uebungen</siehe>.</veranstaltungsverweis>
+        <dozent ref="delitsch_fj"><grad>D. th.</grad>
+        <nachname>Delitzsch</nachname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. exeget. Uebungen</siehe>.</veranstaltungsverweis>
 
         <veranstaltung><thema>Erklärung der vorexilischen kleinen
         Propheten</thema>: <dozent ref="baur_g"><grad>D. th.</grad>
         <nachname>Baur</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>7 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Erklärung der Psalmen</thema>: <dozent><grad>D.
-        th.</grad> <nachname>Delitzsch</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>11 U. 4 Tage</zeit>.</veranstaltung>
+        <veranstaltung><thema>Erklärung der Psalmen</thema>: <dozent
+        ref="delitsch_fj"><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>11 U. 4
+        Tage</zeit>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung des Predigers Sal. (Koheleth) mit
         vergl. Blicken auf die neueste Philosophie (s. Gesch. der
@@ -1504,9 +1505,9 @@
         Donnerst.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung des ältesten palästin. Midrasch, der
-        Pesikta des Rab Cahana (herausg. von Buber)</thema>: <dozent><grad>D.
-        th.</grad> <nachname>Delitzsch</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>5-7 U. Mont.</zeit>
+        Pesikta des Rab Cahana (herausg. von Buber)</thema>: <dozent
+        ref="delitsch_fj"><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>5-7 U. Mont.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einleitung in das N. T.</thema>:
@@ -1564,7 +1565,7 @@
 
           <veranstaltung><thema>Leitung des I. und II. Hebraicums der
           Lausitzer Prediger-Gesellschaft (Ausgewählte Stücke aus Jeremia u.
-          Ezechiel)</thema>: <dozent><grad>D. th.</grad>
+          Ezechiel)</thema>: <dozent ref="delitsch_fj"><grad>D. th.</grad>
           <nachname>Delitzsch</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Donn., 6 St.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1613,7 +1614,7 @@
         <zeit>12 U. 2 T. (Dienst. u. Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Lehrsystem der katholischen Kirche</thema>:
-        <dozent><grad>D. ph. Lic. th.</grad>
+        <dozent ref="delitzsch_j"><grad>D. ph. Lic. th.</grad>
         <nachname>Delitzsch</nachname></dozent>, <zeit>11 U. 2
         T.</zeit></veranstaltung>
 

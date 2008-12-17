@@ -458,9 +458,10 @@
       <titel>II. Juristische Facultät.</titel>
 
       <veranstaltung><thema>Einführung in die Rechtswissenschaft</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Degenkolb</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst.
-      11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="degenkolb_kh"><grad>D. jur.</grad>
+      <nachname>Degenkolb</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont., Dienst. u. Donnerst. 11-12 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Einführung in die Rechtswissenschaft</thema>:
       <dozent><grad>D. jur.</grad> <nachname>Stintzing</nachname></dozent>,
@@ -584,7 +585,7 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Civilprocessrecht (ordentliches
-      Verfahren)</thema>: <dozent><grad>D. jur.</grad>
+      Verfahren)</thema>: <dozent ref="degenkolb_kh"><grad>D. jur.</grad>
       <nachname>Degenkolb</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -631,9 +632,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pandekten-Exegetikum und -Praktikum mit
-      schriftlichen Arbeiten</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Degenkolb</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Sonnab. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      schriftlichen Arbeiten</thema>: <dozent ref="degenkolb_kh"><grad>D.
+      jur.</grad> <nachname>Degenkolb</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Sonnab. 5-7 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pandekten-Lektüre</thema>: <dozent><grad>D.
       jur.</grad> <nachname>Götz</nachname>, <funktion>P.
@@ -789,18 +791,19 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Knochen,
-      Bänder, Muskeln und Gefässe)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Fick</nachname>, <funktion>P. E.</funktion></dozent> und
-      <dozent><grad>D. med.</grad> <nachname>Spalteholz</nachname>,
-      <funktion>P. E. des.</funktion></dozent>, <zeit>Mont. bis Freit. ½3-½4
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Bänder, Muskeln und Gefässe)</thema>: <dozent ref="fick_ra"><grad>D.
+      med.</grad> <nachname>Fick</nachname>, <funktion>P.
+      E.</funktion></dozent> und <dozent><grad>D. med.</grad>
+      <nachname>Spalteholz</nachname>, <funktion>P. E.
+      des.</funktion></dozent>, <zeit>Mont. bis Freit. ½3-½4 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Allgemeine Muskellehre</thema> (Im Anschluss an
       die Vorlesungen über Systematische Anatomie des Menschen von D. med.
-      Fick, P. E. und D. med. Spalteholz, P. E. des.): <dozent><grad>D. med.
-      et ph.</grad> <vorname>O.</vorname> <nachname>Fischer</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. ½3-½4 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Fick, P. E. und D. med. Spalteholz, P. E. des.): <dozent
+      ref="fischer_o"><grad>D. med. et ph.</grad> <vorname>O.</vorname>
+      <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Sonnab. ½3-½4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Hirnlehre mit Demonstrationen</thema>:
       <dozent><grad>D. med.</grad> <nachname>Flechsig</nachname>, <funktion>P.
@@ -827,7 +830,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Praktischer Cursus der normalen
-      Geweblehre</thema>: <dozent><grad>D. med.</grad>
+      Geweblehre</thema>: <dozent ref="fick_ra"><grad>D. med.</grad>
       <nachname>Fick</nachname>, <funktion>P. E.</funktion></dozent> und
       <dozent><grad>D. med.</grad> <nachname>Held</nachname></dozent>,
       <zeit>Mont., Mittw. u. Freit. 6-8 U.</zeit>,
@@ -843,8 +846,8 @@
 
       <veranstaltung><thema>Physiologie des Gehörs, der Stimme und
       Sprache</thema> (im Anschluss an die Vorlesung über Physiologie des
-      Nerven- und Muskelsystems von D. med. et ph. Hering, P. O.):
-      <dozent><grad>D. med. et ph.</grad> <vorname>O.</vorname>
+      Nerven- und Muskelsystems von D. med. et ph. Hering, P. O.): <dozent
+      ref="fischer_o"><grad>D. med. et ph.</grad> <vorname>O.</vorname>
       <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Sonnab. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1597,10 +1600,10 @@
 
           <veranstaltungsverweis><thema>Bakterien - Uebungen im
           mikroskopischen Untersuchungen von Nahrungsmitteln aus dem
-          Pflanzenreich</thema>: <dozent><grad>D. ph.</grad>
-          <vorname>A.</vorname> <nachname>Fischer</nachname>, <funktion>P.
-          E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
-          G.</siehe></veranstaltungsverweis>
+          Pflanzenreich</thema>: <dozent ref="fischer_alfred"><grad>D.
+          ph.</grad> <vorname>A.</vorname> <nachname>Fischer</nachname>,
+          <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische
+          Facultät G.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Praktischer Cursus der Harnanlyse -
           Untersuchung von Nahrungsmitteln und Gebrauchsgegenständen, <notiz
@@ -1795,7 +1798,7 @@
         Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Physiologie des Gehörs, der Stimme und
-        Sprache</thema>: <dozent><grad>D. med. et ph.</grad>
+        Sprache</thema>: <dozent ref="fischer_o"><grad>D. med. et ph.</grad>
         <vorname>O.</vorname> <nachname>Fischer</nachname>, <funktion>P.
         E.</funktion></dozent> <siehe>Siehe Medicinische
         Facultät</siehe>.</veranstaltungsverweis>
@@ -2917,7 +2920,7 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Physiologie des Gehörs, der Stimme und
-        Sprache</thema>: <dozent><grad>D. med. et ph.</grad>
+        Sprache</thema>: <dozent ref="fischer_o"><grad>D. med. et ph.</grad>
         <vorname>O.</vorname> <nachname>Fischer</nachname>, <funktion>P.
         E.</funktion></dozent> <siehe>Siehe Medicinische
         Facultät</siehe>.</veranstaltungsverweis>
@@ -3088,13 +3091,15 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Specieller Pflanzenbau und Pflanzenzüchtung
-        (Hackfrüchte und Handelsgewächse)</thema>: <dozent><grad>D. ph.</grad>
-        <grad>M.</grad> <nachname>Fischer</nachname>, <funktion>P. E.
+        (Hackfrüchte und Handelsgewächse)</thema>: <dozent
+        ref="fischer_m"><grad>D. ph.</grad> <vorname>M.</vorname>
+        <nachname>Fischer</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>Mont. u. Donnerst. 11-12 U. u. Mittw.
         u. Sonnab. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Samenkunde</thema>: <dozent><grad>D. ph.</grad>
-        <grad>M.</grad> <nachname>Fischer</nachname>, <funktion>P. E.
+        <veranstaltung><thema>Samenkunde</thema>: <dozent
+        ref="fischer_m"><grad>D. ph.</grad> <vorname>M.</vorname>
+        <nachname>Fischer</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>Mittw. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -3123,7 +3128,7 @@
         <seite>35</seite>
 
         <veranstaltung><thema>Specielle Thierzuchtlehre (Rindvieh- und
-        Schweinezucht)</thema>: <dozent><grad>D. ph.</grad>
+        Schweinezucht)</thema>: <dozent ref="fischer_m"><grad>D. ph.</grad>
         <vorname>M.</vorname> <nachname>Fischer</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst. 5-6
         U.</zeit>, <modus>privatim.</modus></veranstaltung>
@@ -3257,7 +3262,7 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Seminar für angewandte Thierzuchtlehre</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>M.</vorname>
+        <dozent ref="fischer_m"><grad>D. ph.</grad> <vorname>M.</vorname>
         <nachname>Fischer</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>Freit. 5-7 U.</zeit>,
         <modus>privatissime</modus>, und
@@ -3278,8 +3283,8 @@
         ph.</grad> <nachname>Strecker</nachname>, <funktion>P.
         E.</funktion></dozent>, <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Excursionen und Demonstrationen</thema>:
-        <dozent><grad>D. ph.</grad> <grad>M.</grad>
+        <veranstaltung><thema>Excursionen und Demonstrationen</thema>: <dozent
+        ref="fischer_m"><grad>D. ph.</grad> <vorname>M.</vorname>
         <nachname>Fischer</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>an näher zu best. Tagen</zeit>,
         <modus>publice</modus>.</veranstaltung>
@@ -3543,15 +3548,15 @@
         E.</funktion></dozent>, <zeit>zweistünd., in noch zu best.
         Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Bakterien</thema>: <dozent><grad>D. ph.</grad>
-        <vorname>A.</vorname> <nachname>Fischer</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Freit. 6-7 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Bakterien</thema>: <dozent
+        ref="fischer_alfred"><grad>D. ph.</grad> <vorname>A.</vorname>
+        <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Freit. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Palaeontologie der Wirbelthiere</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Felix</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Palaeontologie der Wirbelthiere</thema>: <dozent
+        ref="felix_jp"><grad>D. ph.</grad> <nachname>Felix</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Darwinische Theorie</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Marshall</nachname>, <funktion>P.
@@ -3699,7 +3704,7 @@
         <veranstaltung><thema>Palaeontologisches und geologisches
         Praktikum</thema>: <dozent ref="credner_khg"><grad>D. ph.</grad>
         <nachname>Credner</nachname>, <funktion>P. O.</funktion></dozent> in
-        Gemeinschaft mit <dozent><grad>D. ph.</grad>
+        Gemeinschaft mit <dozent ref="felix_jp"><grad>D. ph.</grad>
         <nachname>Felix</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Sonnab. 10-1 U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3717,10 +3722,11 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen im mikrokopischen Untersuchen von
-        Nahrungsmitteln aus dem Pflanzenreich</thema>: <dozent><grad>D.
-        ph.</grad> <vorname>A.</vorname> <nachname>Fischer</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>zweistünd., in zu best.
-        Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Nahrungsmitteln aus dem Pflanzenreich</thema>: <dozent
+        ref="fischer_alfred"><grad>D. ph.</grad> <vorname>A.</vorname>
+        <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>zweistünd., in zu best. Zeit</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Zoologisch-zootomisches Laboratorium</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Marshall</nachname>,
