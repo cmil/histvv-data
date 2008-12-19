@@ -224,8 +224,8 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Tibull's Elegieen, lateinisch erklärt</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Fritzsche</nachname></dozent>,
-          <zeit>3 U. 2 T.</zeit>
+          <dozent ref="fritzsche_ath"><grad>D. ph.</grad>
+          <nachname>Fritzsche</nachname></dozent>, <zeit>3 U. 2 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung der Epoden des Horaz</thema>:
@@ -296,17 +296,19 @@
           <funktion>P. E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Griechische Gesellschaft</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Fritzsche</nachname></dozent>,
-          <zeit>in zu best. St. u. T.</zeit></veranstaltung>
+          <veranstaltung><thema>Griechische Gesellschaft</thema>: <dozent
+          ref="fritzsche_ath"><grad>D. ph.</grad>
+          <nachname>Fritzsche</nachname></dozent>, <zeit>in zu best. St. u.
+          T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Lateinische Disputatorien</thema>:
-          <ders>Derselbe</ders>, <zeit>in zu best. St. u.
+          <veranstaltung><thema>Lateinische Disputatorien</thema>: <ders
+          ref="fritzsche_ath">Derselbe</ders>, <zeit>in zu best. St. u.
           T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Examinatorien über philologische
-          Disciplinen</thema>: <ders>Derselbe</ders>, <zeit>in zu best.
-          St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          Disciplinen</thema>: <ders ref="fritzsche_ath">Derselbe</ders>,
+          <zeit>in zu best. St.</zeit>
+          <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -332,8 +334,8 @@
           u. Freit.)</zeit></veranstaltung>
 
           <veranstaltung><thema>Erklärung der Narrationes persicae zu Rosen's
-          Elem. pers. (Berl. 1843)</thema>:
-          <dozent><nachname>Fleischer</nachname>, <funktion>P.
+          Elem. pers. (Berl. 1843)</thema>: <dozent
+          ref="fleischer_hl"><nachname>Fleischer</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u.
           Donnerst.)</zeit></veranstaltung>
         </sachgruppe>
@@ -344,7 +346,7 @@
           <titel>Semitische Sprachen.</titel>
 
           <veranstaltung><thema>Erklärung von Freitag's Chresto m. arab. (Bonn
-          1834)</thema>: <dozent><grad>D.</grad>
+          1834)</thema>: <dozent ref="fleischer_hl"><grad>D.</grad>
           <nachname>Fleischer</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>3 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -356,9 +358,9 @@
         <sachgruppe>
           <titel>Tatarische Sprachen.</titel>
 
-          <veranstaltung><thema>Türkische Grammatik</thema>:
-          <dozent><grad>D.</grad> <nachname>Fleischer</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>4 U. 2 T. (Dienst. u.
+          <veranstaltung><thema>Türkische Grammatik</thema>: <dozent
+          ref="fleischer_hl"><grad>D.</grad> <nachname>Fleischer</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>4 U. 2 T. (Dienst. u.
           Freit.)</zeit></veranstaltung>
         </sachgruppe>
 
@@ -366,9 +368,9 @@
           <titel>Sprachübungen.</titel>
 
           <veranstaltung><thema>Uebungen der arabischen Gesellschaft</thema>:
-          <dozent><grad>D.</grad> <nachname>Fleischer</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Donn. Ab. 6-8 U.</zeit>
-          <modus>privatissime</modus>, aber
+          <dozent ref="fleischer_hl"><grad>D.</grad>
+          <nachname>Fleischer</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Donn. Ab. 6-8 U.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Uebungen der hebräisch-exegetischen
@@ -500,8 +502,8 @@
         E.</funktion></dozent>, <zeit>9 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Griechische Inschriften- u.
-        Handschriftenkunde</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Fritzsche</nachname></dozent>, <zeit>11 U. 2
+        Handschriftenkunde</thema>: <dozent ref="fritzsche_ath"><grad>D.
+        ph.</grad> <nachname>Fritzsche</nachname></dozent>, <zeit>11 U. 2
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Geographie u. Ethnographie von
@@ -1749,9 +1751,10 @@
         <nachname>Schmidt</nachname></dozent>, <zeit>8 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Verbandlehre</thema>: <dozent><grad>D.</grad>
-        <nachname>Francke</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>2 T. in zu best. St.</zeit></veranstaltung>
+        <veranstaltung><thema>Verbandlehre</thema>: <dozent
+        ref="francke_kg"><grad>D.</grad> <nachname>Francke</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>2 T. in zu best.
+        St.</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -1858,9 +1861,10 @@
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>:
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, in Verbindung mit <dozent><grad>D.</grad>
-        <nachname>Francke</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>11-1 U. 6 T.</zeit> <modus>öffentl.</modus></veranstaltung>
+        Hon.</funktion></dozent>, in Verbindung mit <dozent
+        ref="francke_kg"><grad>D.</grad> <nachname>Francke</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>11-1 U. 6 T.</zeit>
+        <modus>öffentl.</modus></veranstaltung>
 
         <veranstaltung><thema>Klinik der Krankheiten der Augen und
         Ohren</thema>: <dozent><grad>D.</grad> <nachname>Ruete</nachname>,

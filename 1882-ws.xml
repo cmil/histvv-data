@@ -65,7 +65,7 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Einleitung in das Alte Testament</thema>: <dozent
-      ref="delitsch_fj"><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
+      ref="delitzsch_fj"><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
       <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
       Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -80,7 +80,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Erklärung des Jesaia</thema>: <dozent
-      ref="delitsch_fj"><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
+      ref="delitzsch_fj"><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
       <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
       Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -111,7 +111,7 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Auslegung der Briefe Pauli an die Galater und an
-      Philemon</thema>: <dozent><grad>D. th.</grad>
+      Philemon</thema>: <dozent ref="fricke_ga"><grad>D. th.</grad>
       <nachname>Fricke</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont., Dienst. u. Freit. 6-7 U.</zeit>, <modus>2 St. privatim, 1
       St. publice</modus>.</veranstaltung>
@@ -153,10 +153,10 @@
       <nachname>Luthardt</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Theologische Ethik</thema>: <dozent><grad>D.
-      th.</grad> <nachname>Fricke</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 10-11
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Theologische Ethik</thema>: <dozent
+      ref="fricke_ga"><grad>D. th.</grad> <nachname>Fricke</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
+      Freit. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Evangelische Katechetik</thema>: <dozent><grad>D.
       th.</grad> <nachname>Schmidt</nachname>, <funktion>P.
@@ -211,8 +211,8 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Exegetisches Seminar des N. und A. T.</thema>:
-      <dozent><grad>D. th.</grad> <nachname>Fricke</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>,
+      <dozent ref="fricke_ga"><grad>D. th.</grad> <nachname>Fricke</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -237,7 +237,7 @@
 
       <veranstaltungsgruppe><thema>Leitung</thema> <veranstaltung><thema>des
       Hebraicum I der Lausitzer Predigergesellschaft (Kleine
-      Propheten)</thema>: <dozent ref="delitsch_fj"><grad>D. th.</grad>
+      Propheten)</thema>: <dozent ref="delitzsch_fj"><grad>D. th.</grad>
       <nachname>Delitzsch</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Donnerst. 5-6 U.</zeit></veranstaltung>, und
       <veranstaltung><thema>des Hebraicum II</thema>: <dozent
@@ -248,13 +248,13 @@
       <veranstaltung><thema>Erklärung des Mischna-Traktats vom Laubenfeste
       (Succoth) mir dem Commentar Bertinoro's (für Mitglieder des
       studentischen Missionsvereins)</thema>: <dozent
-      ref="delitsch_fj"><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
+      ref="delitzsch_fj"><grad>D. th.</grad> <nachname>Delitzsch</nachname>,
       <funktion>P. O.</funktion></dozent>, <zeit>Mont. 5-6 U.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Englische exegetische Gesellschaft (Jüdische
-      Cultus-Alterthümer)</thema>: <dozent ref="delitsch_fj"><grad>D.
+      Cultus-Alterthümer)</thema>: <dozent ref="delitzsch_fj"><grad>D.
       th.</grad> <nachname>Delitzsch</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Dienst. 8-9 U. Ab.</zeit>,
       <modus>privatissime</modus>, aber
@@ -294,10 +294,11 @@
       <veranstaltungsgruppe><thema>Lausitzer Predigergesellschaft</thema>:
       <veranstaltung>a) <thema>biblisch.theologische Abtheilung des N.
       T.</thema></veranstaltung>, <veranstaltung>b) <thema>homiletische
-      Abtheilung</thema></veranstaltung>: <dozent><grad>D. th.</grad>
-      <nachname>Fricke</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>an zu best. Tagen u. Stunden</zeit>, <modus>privatissime</modus>,
-      aber <gebühr>gratis</gebühr>.</veranstaltungsgruppe>
+      Abtheilung</thema></veranstaltung>: <dozent ref="fricke_ga"><grad>D.
+      th.</grad> <nachname>Fricke</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>an zu best. Tagen u. Stunden</zeit>,
+      <modus>privatissime</modus>, aber
+      <gebühr>gratis</gebühr>.</veranstaltungsgruppe>
 
       <veranstaltung><thema>Katechetisches Seminar</thema>: <dozent><grad>D.
       th.</grad> <nachname>Hofmann</nachname>, <funktion>P.
@@ -349,8 +350,9 @@
       Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Kirchenrechtliche Gesellschaft</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Friedberg</nachname>,
-      <funktion>P. O.</funktion></dozent> <siehe>Siehe <gesperrt>Juristische
+      <dozent ref="friedberg_ea"><grad>D. jur.</grad>
+      <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>
+      <siehe>Siehe <gesperrt>Juristische
       Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Allgemeine Pädagogik</thema>:
@@ -437,9 +439,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsche Staats- und Rechtsgeschichte</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Friedberg</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 9-10
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="friedberg_ea"><grad>D. jur.</grad>
+      <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. bis Donnerst. 9-10 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches Privatrecht mit Einschluss des
       Lehnrechts</thema>: <dozent><grad>D. jur.</grad>
@@ -457,8 +460,8 @@
       <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 3-4
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Handels-, Wechsel- und Seerecht</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Friedberg</nachname>,
+      <veranstaltung><thema>Handels-, Wechsel- und Seerecht</thema>: <dozent
+      ref="friedberg_ea"><grad>D. jur.</grad> <nachname>Friedberg</nachname>,
       <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Mittw. 3-4
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -493,10 +496,10 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches Reichs- und
-      Landes<korrektur>s</korrektur>taatsrecht</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Friedberg</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Landes<korrektur>s</korrektur>taatsrecht</thema>: <dozent
+      ref="friedberg_ea"><grad>D. jur.</grad> <nachname>Friedberg</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 10-11
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches Reichsstaatsrecht</thema>: <dozent
       ref="binding_kll"><grad>D. jur.</grad> <nachname>Binding</nachname>,
@@ -575,7 +578,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Uebungen der kirchenrechtlichen
-      Gesellschaft</thema>: <dozent><grad>D. jur.</grad>
+      Gesellschaft</thema>: <dozent ref="friedberg_ea"><grad>D. jur.</grad>
       <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. 7-8 U. Ab.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -624,16 +627,17 @@
       Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Naturrecht (Rechtsphilosophie)</thema>:
-      <dozent><grad>D. ph., jur. et oecon. publ.</grad>
+      <dozent ref="fricker_cv"><grad>D. ph., jur. et oecon. publ.</grad>
       <nachname>Fricker</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe <gesperrt>Philosophische Facultät
       E</gesperrt></siehe>.</veranstaltungsverweis>
 
       <seite>9</seite>
 
-      <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent><grad>D. ph.,
-      jur. et oecon. publ.</grad> <nachname>Fricker</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe <gesperrt>Philosophische Facultät
+      <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent
+      ref="fricker_cv"><grad>D. ph., jur. et oecon. publ.</grad>
+      <nachname>Fricker</nachname>, <funktion>P. O.</funktion></dozent>
+      <siehe>Siehe <gesperrt>Philosophische Facultät
       E</gesperrt></siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Geschichte der germanischen Rechtsquellen
@@ -750,13 +754,14 @@
 
       <veranstaltung><thema>Physiologische
       Versuchsmethoden</thema>:<dozent><!--(noch zuordnen:)-->DD. med.
-      <nachname>Gaule</nachname></dozent> und
-      <dozent><nachnamenpräfix>v.</nachnamenpräfix>
+      <nachname>Gaule</nachname></dozent> und <dozent
+      ref="frey_mrf"><nachnamenpräfix>v.</nachnamenpräfix>
       <nachname>Frey</nachname></dozent>, <zeit>Sonnabend 2-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Ueber Verdauung und Resorption</thema>:
-      <dozent><grad>D. med.</grad> <nachnamenpräfix>v.</nachnamenpräfix>
+      <veranstaltung><thema>Ueber Verdauung und Resorption</thema>: <dozent
+      ref="frey_mrf"><grad>D. med.</grad>
+      <nachnamenpräfix>v.</nachnamenpräfix>
       <nachname>Frey</nachname></dozent>, <zeit>zweimal wöchentlich, an zu
       best. Tagen u. Stunden</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -1154,10 +1159,10 @@
       <zeit>Dienst. u. Freit. 2-3 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Psychiatrische Klinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Flechsig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Psychiatrische Klinik</thema>: <dozent
+      ref="flechsig_pe"><grad>D. med.</grad> <nachname>Flechsig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 12-1
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Otiatrische Poliklinik</thema>: <dozent><grad>D.
       med.</grad> <nachname>Hagen</nachname>, <funktion>P. E.
@@ -1347,10 +1352,10 @@
         <siehe>Siehe <gesperrt>Theologische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Naturrecht</thema>: <dozent><grad>D.
-        ph.<korrektur>,</korrektur> jur. &amp; oecon. publ.</grad>
-        <nachname>Fricker</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe <gesperrt>Philosophische Facultät
+        <veranstaltungsverweis><thema>Naturrecht</thema>: <dozent
+        ref="fricker_cv"><grad>D. ph.<korrektur>,</korrektur> jur. &amp;
+        oecon. publ.</grad> <nachname>Fricker</nachname>, <funktion>P.
+        O.</funktion></dozent> <siehe>Siehe <gesperrt>Philosophische Facultät
         E</gesperrt></siehe>.</veranstaltungsverweis>
 
         <trennlinie/>
@@ -1638,19 +1643,20 @@
           O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Erklärung der Hamâsa</thema>: <dozent><grad>D.
-          ph. &amp; th.</grad> <nachname>Fleischer</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Dienst. u. Freit. 3-4 U.</zeit>,
+          <veranstaltung><thema>Erklärung der Hamâsa</thema>: <dozent
+          ref="fleischer_hl"><grad>D. ph. &amp; th.</grad>
+          <nachname>Fleischer</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst. u. Freit. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung des Diwans von Hafiz</thema>:
-          <dozent><grad>D. ph. &amp; th.</grad>
+          <dozent ref="fleischer_hl"><grad>D. ph. &amp; th.</grad>
           <nachname>Fleischer</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mittw. u. Sonnab. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung des Koran nach Beidhâwi</thema>:
-          <dozent><grad>D. ph. &amp; th.</grad>
+          <dozent ref="fleischer_hl"><grad>D. ph. &amp; th.</grad>
           <nachname>Fleischer</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont. u. Donnerst. 3-4 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
@@ -1668,9 +1674,9 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung von Wickershauser's türkischer
-          Chrestomathie</thema>: <dozent><grad>D. ph. &amp; th.</grad>
-          <nachname>Fleischer</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mittw. u. Sonnab. 4-5 U.</zeit>,
+          Chrestomathie</thema>: <dozent ref="fleischer_hl"><grad>D. ph. &amp;
+          th.</grad> <nachname>Fleischer</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Altägyptische Grammatik (für
@@ -1695,7 +1701,7 @@
           <trennlinie/>
 
           <veranstaltung><thema>Uebungen der arabischen Gesellschaft</thema>:
-          <dozent><grad>D. ph. &amp; th.</grad>
+          <dozent ref="fleischer_hl"><grad>D. ph. &amp; th.</grad>
           <nachname>Fleischer</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mittw. 6-8 U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2069,9 +2075,9 @@
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsche Staats- und
-        Rechtsgeschichte</thema>: <dozent><grad>D. jur.</grad>
-        <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe <gesperrt>Juristische
+        Rechtsgeschichte</thema>: <dozent ref="friedberg_ea"><grad>D.
+        jur.</grad> <nachname>Friedberg</nachname>, <funktion>P.
+        O.</funktion></dozent> <siehe>Siehe <gesperrt>Juristische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Germanistische Uebungen</thema>:
@@ -2207,16 +2213,17 @@
       <sachgruppe>
         <titel>E. Staats- und Cameralwissenschaften.</titel>
 
-        <veranstaltung><thema>Naturrecht (Rechtsphilosophie)</thema>:
-        <dozent><grad>D. ph., jur. &amp; oecon. publ.</grad>
+        <veranstaltung><thema>Naturrecht (Rechtsphilosophie)</thema>: <dozent
+        ref="fricker_cv"><grad>D. ph., jur. &amp; oecon. publ.</grad>
         <nachname>Fricker</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Völkerrecht</thema>: <dozent><grad>D. ph., jur.
-        &amp; oecon. publ.</grad> <nachname>Fricker</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst. 5-6
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Völkerrecht</thema>: <dozent
+        ref="fricker_cv"><grad>D. ph., jur. &amp; oecon. publ.</grad>
+        <nachname>Fricker</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst. u. Donnerst. 5-6 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einleitung in das Studium der
         Cameralwissenschaften</thema>: <dozent ref="jacobi_vfl"><grad>D.
@@ -2242,14 +2249,16 @@
         <gebühr>für die Zuhörer der praktischen Nationalökonomik
         unentgeltlich</gebühr>, sonst <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Theoretische Nationalökonomik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Friedberg</nachname></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
+        <veranstaltung><thema>Theoretische Nationalökonomik</thema>: <dozent
+        ref="friedberg_r"><grad>D. ph.</grad>
+        <nachname>Friedberg</nachname></dozent>, <zeit>Mont., Dienst.,
+        Donnerst. u. Freit. 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Oekonomik des Eisenbahnwesens</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Friedberg</nachname></dozent>,
-        <zeit>Dienst. 5-6 U.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
+        <veranstaltung><thema>Oekonomik des Eisenbahnwesens</thema>: <dozent
+        ref="friedberg_r"><grad>D. ph.</grad>
+        <nachname>Friedberg</nachname></dozent>, <zeit>Dienst. 5-6 U.</zeit>,
+        <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte und Literatur der Land- und
         Volkswirthschaft mit Berücksichtigung der Tagesfragen</thema>: <dozent
@@ -2320,9 +2329,9 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Deutsches Reichs- und
-        Landesstaatsrecht</thema>: <dozent><grad>D. jur.</grad>
-        <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe <gesperrt>Juristische
+        Landesstaatsrecht</thema>: <dozent ref="friedberg_ea"><grad>D.
+        jur.</grad> <nachname>Friedberg</nachname>, <funktion>P.
+        O.</funktion></dozent> <siehe>Siehe <gesperrt>Juristische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent><grad>D.
@@ -2605,9 +2614,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Gewebelehre der Thiere mit Einschluss der
-        Zellenlehre</thema>: <dozent><grad>D. med. &amp; ph.</grad>
-        <nachname>Fraisse</nachname></dozent>, <zeit>Mont., Donnerst. u.
-        Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Zellenlehre</thema>: <dozent ref="fraisse_ph"><grad>D. med. &amp;
+        ph.</grad> <nachname>Fraisse</nachname></dozent>, <zeit>Mont.,
+        Donnerst. u. Freit. 5-6 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Anatomische Vorträge</thema>:
         <dozent><grad>D. med.</grad> <nachname>Wenzel</nachname>, <funktion>P.
@@ -2694,9 +2704,9 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Praktischer Cursus der thierischen
-        Gewebelehre</thema>: <dozent><grad>D. med. &amp; ph.</grad>
-        <nachname>Fraisse</nachname></dozent>, <zeit>Mittw. u. Sonnab. 4-6
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Gewebelehre</thema>: <dozent ref="fraisse_ph"><grad>D. med. &amp;
+        ph.</grad> <nachname>Fraisse</nachname></dozent>, <zeit>Mittw. u.
+        Sonnab. 4-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Physiologisch-chemisches
         Praktikum</thema>: <dozent ref="drechsel_fhe"><grad>D. ph.</grad>
