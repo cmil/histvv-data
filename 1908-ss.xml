@@ -1215,10 +1215,10 @@ Seite weiter!!!
       <veranstaltung><thema>Physiologie des Kreislaufs, der Atmung, Ernährung
       und Absonderung</thema>: <dozent><grad>D. med. et ph.</grad>
       <nachname>Hering</nachname>, <funktion>P. O.</funktion></dozent>,
-      <dozent>mit <grad>D. med.</grad> <nachname>Garten</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>tägl. 9-10 U.</zeit>,
-      <modus>privatim</modus>, <ort>im Physiologischen Institut, Liebigstr.
-      16</ort>.</veranstaltung>
+      <dozent ref="garten_ehs">mit <grad>D. med.</grad>
+      <nachname>Garten</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>tägl. 9-10 U.</zeit>, <modus>privatim</modus>, <ort>im
+      Physiologischen Institut, Liebigstr. 16</ort>.</veranstaltung>
 
       <veranstaltung><thema>Physiologische Chemie</thema> (<notiz
       betreff="dozent">im Anschluß an die Vorlesung: <seite>15</seite>Physiologie
@@ -1237,14 +1237,15 @@ Seite weiter!!!
 
       <veranstaltung><thema>Physiologisches Praktikum</thema>:
       <dozent><grad>D. ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
-      E.</funktion></dozent>, <dozent>mit <grad>D. med.</grad>
-      <nachname>Garten</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>dreimal wöchentlich 5-7 U.</zeit>, <modus>privatissime</modus>,
-      <ort>im Physiologischen Insitut, Liebigstr. 16</ort>.</veranstaltung>
+      E.</funktion></dozent>, <dozent ref="garten_ehs">mit <grad>D.
+      med.</grad> <nachname>Garten</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>dreimal wöchentlich 5-7 U.</zeit>,
+      <modus>privatissime</modus>, <ort>im Physiologischen Insitut, Liebigstr.
+      16</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Physiologische Besprechungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Garten</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. 2-4 U.</zeit>,
+      <veranstaltung><thema>Physiologische Besprechungen</thema>: <dozent
+      ref="garten_ehs"><grad>D. med.</grad> <nachname>Garten</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont. 2-4 U.</zeit>,
       <modus>privatim</modus>, <ort>im Physiolog. Insitut, Liebigstr.
       16</ort>.</veranstaltung>
 
@@ -2007,10 +2008,10 @@ Seite weiter!!!
         Goethestr. 5. I.</ort></veranstaltung>
 
         <veranstaltung><thema>Grundzüge der Physiologie des Menschen (auch für
-        Studierende der Naturwissenschaften)</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Garten</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont., Mittw. u. Donnerst. 12-1
-        U.</zeit>, <modus>privatim</modus>, <ort>im Physiolog. Institut,
+        Studierende der Naturwissenschaften)</thema>: <dozent
+        ref="garten_ehs"><grad>D. med.</grad> <nachname>Garten</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont., Mittw. u. Donnerst.
+        12-1 U.</zeit>, <modus>privatim</modus>, <ort>im Physiolog. Institut,
         Liebigstr. 16</ort>.</veranstaltung>
 
         <veranstaltung><thema>Krankheiten der Mund- und Rachenhöhle</thema>:
@@ -2720,10 +2721,11 @@ Seite weiter!!!
         <sachgruppe>
           <titel>a) Altklassische Philologie.</titel>
 
-          <veranstaltung><thema>Griechische Paläographie</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Gardthausen</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst. u.
-          Donnerst. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung><thema>Griechische Paläographie</thema>: <dozent
+          ref="gardthausen_ve"><grad>D. ph.</grad>
+          <nachname>Gardthausen</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst. 8-9
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Griechisch für Realgymnasialabiturienten u.
           a., <notiz betreff="fortsetzung">II. Kurs</notiz>. <seite>31</seite>Lektüre
@@ -2909,9 +2911,10 @@ Seite weiter!!!
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Übungen einer historischen
-          Gesellschaft (Erklärung des Monument. Ancyranum)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Gardthausen</nachname>,
-          <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
+          Gesellschaft (Erklärung des Monument. Ancyranum)</thema>: <dozent
+          ref="gardthausen_ve"><grad>D. ph.</grad>
+          <nachname>Gardthausen</nachname>, <funktion>P.
+          E.</funktion></dozent> <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Übungen der Kunsthistorischen
@@ -3659,10 +3662,11 @@ Seite weiter!!!
         <funktion>P. E.</funktion></dozent>, <zeit>Freit. 4-6 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Griechische Paläographie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Gardthausen</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst.
-        8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Griechische Paläographie</thema>: <dozent
+        ref="gardthausen_ve"><grad>D. ph.</grad>
+        <nachname>Gardthausen</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont., Dienst. u. Donnerst. 8-9 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der römischen Kaiserzeit</thema>:
         <dozent><grad>D. ph. et jur.</grad> <nachname>Wilcken</nachname>,
@@ -4246,8 +4250,9 @@ Seite weiter!!!
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Übungen einer Historischen Gesellschaft
-          (Erklärung des Monument. Ancyranum)</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Gardthausen</nachname>, <funktion>P.
+          (Erklärung des Monument. Ancyranum)</thema>: <dozent
+          ref="gardthausen_ve"><grad>D. ph.</grad>
+          <nachname>Gardthausen</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>Mittw. ½8-½10 U. Ab.</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -4460,9 +4465,9 @@ Seite weiter!!!
         <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Griechische Paläographie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Gardthausen</nachname>,
-        <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
-        C.</siehe></veranstaltungsverweis>
+        <dozent ref="gardthausen_ve"><grad>D. ph.</grad>
+        <nachname>Gardthausen</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Lateinische und deutsche
         Paläographie</thema>: <dozent><grad>D. ph.</grad>
@@ -4577,9 +4582,10 @@ Seite weiter!!!
           <siehe>Siehe Abschnitt B. a.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Übungen einer historischen
-          Gesellschaft (Erklärung des Monument. Ancyranum)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Gardthausen</nachname>,
-          <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
+          Gesellschaft (Erklärung des Monument. Ancyranum)</thema>: <dozent
+          ref="gardthausen_ve"><grad>D. ph.</grad>
+          <nachname>Gardthausen</nachname>, <funktion>P.
+          E.</funktion></dozent> <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Lektüre grichischer
@@ -5607,10 +5613,11 @@ Seite weiter!!!
         Laboratorium für angew. Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung><thema>Grundzüge der Physiologie des Menschen</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Garten</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont., Mittw. u. Donnerst. 12-1
-        U.</zeit>, <modus>privatim</modus>, <ort>im Physiologischen Institut,
-        Liebigstr. 16</ort>.</veranstaltung>
+        <dozent ref="garten_ehs"><grad>D. med.</grad>
+        <nachname>Garten</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont., Mittw. u. Donnerst. 12-1 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physiologischen Institut, Liebigstr.
+        16</ort>.</veranstaltung>
 
         <veranstaltung><thema>Pharmakologie mit der
         Arzneiverordnungslehre</thema>: <dozent ref="boehm_r"><grad>D.
@@ -5783,14 +5790,14 @@ Seite weiter!!!
         <veranstaltungsverweis><thema>Physiologie des Kreislaufs, der Atmung,
         Ernährung und Absonderung</thema>: <dozent><grad>D. med. et ph.</grad>
         <nachname>Hering</nachname>, <funktion>P. O.</funktion></dozent> u.
-        <dozent><grad>D. med.</grad> <nachname>Garten</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Medizinische
-        Fakultät.</siehe></veranstaltungsverweis>
+        <dozent ref="garten_ehs"><grad>D. med.</grad>
+        <nachname>Garten</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Physiologische Besprechungen</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Garten</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Medizinische
-        Fakultät.</siehe></veranstaltungsverweis>
+        <dozent ref="garten_ehs"><grad>D. med.</grad>
+        <nachname>Garten</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Physiologische Chemie</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
@@ -6154,9 +6161,10 @@ Seite weiter!!!
 
         <veranstaltungsverweis><thema>Physiologisches Praktikum</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
-        <funktion>P. E.</funktion></dozent> und <dozent><grad>D. med.</grad>
-        <nachname>Garten</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
+        <funktion>P. E.</funktion></dozent> und <dozent
+        ref="garten_ehs"><grad>D. med.</grad> <nachname>Garten</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Medizinische
+        Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Arbeiten für Geübtere im Physiologischen
         Institute</thema>: <dozent><grad>D. med. et ph.</grad>

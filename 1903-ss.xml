@@ -912,15 +912,15 @@
       <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
       <dozent><grad>D. med.</grad> <vorname>F. B.</vorname>
       <nachname>Hofmann</nachname>, <funktion>P. E. des.</funktion></dozent>,
-      <dozent><grad>D. med.</grad> <nachname>Garten</nachname></dozent> und
-      <dozent><grad>D. med.</grad> <nachname>Burian</nachname></dozent>,
-      <zeit>dreimal wöchentl. 5-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="garten_ehs"><grad>D. med.</grad>
+      <nachname>Garten</nachname></dozent> und <dozent><grad>D. med.</grad>
+      <nachname>Burian</nachname></dozent>, <zeit>dreimal wöchentl. 5-7
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Physiologische Besprechungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Garten</nachname></dozent>,
-      <zeit>zweistünd. an noch zu best. Tagen u. Stunden</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Physiologische Besprechungen</thema>: <dozent
+      ref="garten_ehs"><grad>D. med.</grad>
+      <nachname>Garten</nachname></dozent>, <zeit>zweistünd. an noch zu best.
+      Tagen u. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Physiologisch-chemisches Praktikum</thema>,
       <zeit>ganz- oder halbtägig</zeit>: <dozent><grad>D. ph.</grad>
@@ -1954,8 +1954,9 @@
           D.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Griechische Geschichte</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Gardthausen</nachname>,
-          <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
+          <dozent ref="gardthausen_ve"><grad>D. ph.</grad>
+          <nachname>Gardthausen</nachname>, <funktion>P.
+          E.</funktion></dozent> <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Geschichte der römischen
@@ -2023,8 +2024,9 @@
           <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Althistorisches Seminar</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Gardthausen</nachname>,
-          <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
+          <dozent ref="gardthausen_ve"><grad>D. ph.</grad>
+          <nachname>Gardthausen</nachname>, <funktion>P.
+          E.</funktion></dozent> <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Historisch-geographisches
@@ -2551,10 +2553,11 @@
         E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 6-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Griechische Geschichte</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Gardthausen</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Griechische Geschichte</thema>: <dozent
+        ref="gardthausen_ve"><grad>D. ph.</grad>
+        <nachname>Gardthausen</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Lateinische und deutsche Paläographie</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Seeliger</nachname>,
@@ -2742,7 +2745,8 @@ transkribiert!--></thema>: <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
             <modus>publice</modus>.</veranstaltung>
 
             <veranstaltung>b) <thema>Ausgewählte Fragen aus dem Gebiete der
-            griechischen Geschichte</thema>: <dozent><grad>D. ph.</grad>
+            griechischen Geschichte</thema>: <dozent
+            ref="gardthausen_ve"><grad>D. ph.</grad>
             <nachname>Gardthausen</nachname>, <funktion>P.
             E.</funktion></dozent>, <zeit>Mittw. ½8-½10 U. Ab.</zeit>,
             <modus>privatissime</modus>, aber
