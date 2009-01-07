@@ -65,10 +65,10 @@
     <sachgruppe fakultät="Theologie">
       <titel>I. Theologische Facultät.</titel>
 
-      <veranstaltung><thema>Einleitung in das Alte Testament</thema>:
-      <dozent><grad>Lic. th.</grad> <nachname>Guthe</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. bis Freit. 11-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Einleitung in das Alte Testament</thema>: <dozent
+      ref="guthe_fwlh"><grad>Lic. th.</grad> <nachname>Guthe</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont. bis Freit. 11-12
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Alttestamentliche Theologie</thema>: <dozent
       ref="buhl_f"><grad>D. th.</grad> <nachname>Buhl</nachname>, <funktion>P.
@@ -80,10 +80,10 @@
       O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 12-1
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Geschichte Israels</thema>: <dozent><grad>Lic.
-      th.</grad> <nachname>Guthe</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 10-11 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Geschichte Israels</thema>: <dozent
+      ref="guthe_fwlh"><grad>Lic. th.</grad> <nachname>Guthe</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 10-11
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Einleitung in das Neue Testament</thema>:
       <dozent><grad>D. th.</grad> <nachname>Zahn</nachname>, <funktion>P.
@@ -91,13 +91,13 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geschichte des neutestamentlichen Textes</thema>:
-      <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
+      <dozent ref="gregory_cr"><grad>Lic. th.</grad> <grad>D. ph.</grad>
       <nachname>Gregory</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Biblische Theologie des Neuen Testaments</thema>:
-      <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
+      <dozent ref="gregory_cr"><grad>Lic. th.</grad> <grad>D. ph.</grad>
       <nachname>Gregory</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont., Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -200,10 +200,11 @@
 
       <veranstaltung><thema>Alttestamentliche Gesellschaft (Messianische
       Weissagungen, <notiz betreff="fortsetzung">erste Hälfte</notiz>, mit
-      schriftlichen Arbeiten)</thema>: <dozent><grad>Lic.</grad>
-      <nachname>Guthe</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont. u. Dienst. 7½-9 U. Ab.</zeit>, <modus>privatissime</modus>,
-      aber <gebühr>gratis</gebühr>.</veranstaltung>
+      schriftlichen Arbeiten)</thema>: <dozent
+      ref="guthe_fwlh"><grad>Lic.</grad> <nachname>Guthe</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Dienst. 7½-9 U.
+      Ab.</zeit>, <modus>privatissime</modus>, aber
+      <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Exegetisches Seminar N. und A. T.</thema>: <dozent
       ref="fricke_ga"><grad>D. th. &amp; ph.</grad>
@@ -213,8 +214,8 @@
 
       <veranstaltung><thema>Hebraicum I. und II. der Lausitzer
       Predigergesellschaft (B. B. der Könige mit Vergl. der Chronik)</thema>:
-      <dozent><grad>Lic.</grad> <nachname>Guthe</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <dozent ref="guthe_fwlh"><grad>Lic.</grad> <nachname>Guthe</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -227,8 +228,8 @@
       <seite>5</seite>
 
       <veranstaltung><thema>Neutestamentlich-exegetische Gesellschaft (1.
-      Thessaloniker Brief, mit schriftlichen Arbeiten)</thema>:
-      <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
+      Thessaloniker Brief, mit schriftlichen Arbeiten)</thema>: <dozent
+      ref="gregory_cr"><grad>Lic. th.</grad> <grad>D. ph.</grad>
       <nachname>Gregory</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont. 7½-9 U. Ab.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2138,9 +2139,9 @@ bezogen werden.-->
         <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung></veranstaltungsgruppe>
 
-        <veranstaltungsverweis><thema>Geschichte Israel's</thema>:
-        <dozent><grad>Lic. th.</grad> <nachname>Guthe</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Theologische
+        <veranstaltungsverweis><thema>Geschichte Israel's</thema>: <dozent
+        ref="guthe_fwlh"><grad>Lic. th.</grad> <nachname>Guthe</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Theologische
         Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geschichte der alten Kirche</thema>:
