@@ -23,6 +23,12 @@
 
     <status komplett="ja">
       <transkribent>florian</transkribent>
+
+      <korrigiert>
+        <durch>frank</durch>
+
+        <am>07.01.2009</am>
+      </korrigiert>
     </status>
   </kopf>
 
@@ -1015,11 +1021,12 @@
       <veranstaltung><dozent ref="haubold_cg"><nachname>Haubold</nachname>,
       <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P.
       O.</funktion></dozent>, <thema>in Verbindung mit den Institutionen, nach
-      s. Epitome</thema>, <zeit>8 u. 10 U. 6 T.</zeit></veranstaltung>
+      s. <antiqua>Epitome</antiqua></thema>, <zeit>8 u. 10 U. 6
+      T.</zeit></veranstaltung>
 
       <veranstaltung><dozent ref="wenck_kfc"><nachname>Wenck</nachname>,
       <grad>D.</grad> <vorname>C. F. C.</vorname>, <funktion>P. O.
-      des.</funktion></dozent>, <thema>n. Hugo, <notiz
+      des.</funktion></dozent>, <thema>n. <gesperrt>Hugo</gesperrt>, <notiz
       betreff="fortsetzung">Forts. und Beschl.</notiz></thema> <zeit>2 U.
       Dienst. u. Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1028,9 +1035,10 @@
 
         <veranstaltung><dozent ref="haubold_cg"><nachname>Haubold</nachname>,
         <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P.
-        O.</funktion></dozent>, <thema>als integrierender Theil seiner
-        Vorträge über Geschichte und Institutionen des röm. Rechts, nach s.
-        Epitome</thema>, <zeit>7 U. 2 T.</zeit></veranstaltung>
+        O.</funktion></dozent>, <thema>als integrirender Theil seiner Vorträge
+        über Geschichte und Institutionen des röm. Rechts, nach s.
+        <antiqua>Epitome</antiqua></thema>, <zeit>7 U. 2
+        T.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -1038,45 +1046,49 @@
       <titel>3) Institutionen.</titel>
 
       <veranstaltung><ders ref="haubold_cg">Derselbe</ders>, <thema>in
-      Verbind. mit der Rechtsgeschichte, nach s. Epitome</thema>, <zeit>8 und
-      10 U. 6 T.</zeit></veranstaltung>
+      Verbind. mit der Rechtsgeschichte, nach s.
+      <antiqua>Epitome</antiqua></thema>, <zeit>8 und 10 U. 6
+      T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Reichel</nachname>, <grad>M.</grad>
       <vorname>V. F.</vorname>, <funktion>I. U. B.</funktion></dozent>,
-      <thema>nach Heineccius</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>
+      <thema>nach <gesperrt>Heineccius</gesperrt></thema>, <zeit>9 U. 6
+      T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Schmidt</nachname>, <grad>M.</grad>
       <vorname>A. W.</vorname>, <funktion>I. U. B.</funktion></dozent>,
-      <thema>nach Haubold</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>
+      <thema>nach <gesperrt>Haubold</gesperrt></thema>, <zeit>9 U. 6
+      T.</zeit></veranstaltung>
     </sachgruppe>
 
     <sachgruppe>
       <titel>4) Pandekten.</titel>
 
-      <veranstaltung><dozent><nachname>Müller</nachname>, <grad>D.</grad>
-      <vorname>J. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-      <thema>nach Heineccius</thema>, 8 u. 2 U. 6 T. öffentlich und
-      privatim.</veranstaltung>
+      <veranstaltungsgruppe><dozent><nachname>Müller</nachname>,
+      <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
+      O.</funktion></dozent>, <thema>nach
+      <gesperrt>Heineccius</gesperrt></thema>, 8 u. 2 U. 6 T. <veranstaltung
+      zeit="8 U. 6 T."><modus>öffentlich</modus></veranstaltung> und
+      <veranstaltung
+      zeit="2 U. 6 T."><modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
 
-      <!--öffentlich und privatim = zwei Veranstaltungen (?) 
-lässt sich nicht als zwei Veranstaltungen auszeichnen-->
+      <!--die beiden Zeiten für beide Veranstaltungen sind in
+die jeweiligen Veranstaltungs-Attribute eingetragen-->
 
       <veranstaltung><dozent><nachname>Otto</nachname>, <grad>D.</grad>
       <vorname>C. E.</vorname>, <funktion>P. E. des.</funktion></dozent>,
-      <thema>nach Haubold in lat. Sprache</thema>, <zeit>3 U. 6 T. u. 4 U. 2
-      T.</zeit></veranstaltung>
+      <thema>nach <gesperrt>Haubold</gesperrt> in lat. Sprache</thema>,
+      <zeit>3 U. 6 T. u. 4 U. 2 T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Liekefett</nachname>, <vorname>S.
-      G.</vorname>, <funktion>I. U. B.</funktion></dozent>, <thema>besonderer
-      <notiz betreff="fortsetzung">Theil</notiz>, nach s. Erläut. der
-      Hand.</thema> <zeit>9 u. 2 U. 6 T.</zeit>
+      G.</vorname>, <funktion>I. U. B.</funktion></dozent>, <thema><notiz
+      betreff="fortsetzung">besonderer Theil</notiz>, nach s. Erläut. der
+      Pand.</thema> <zeit>9 u. 2 U. 6 T.</zeit>
       <gebühr>unentgeltl.</gebühr></veranstaltung>
 
-      <!--Fortsetzung?-->
-
       <sachgruppe>
-        <titel>*) Ueber einige Denkmäler des röm. Rechts außer dem Corpus
-        iuris.</titel>
+        <titel>*) Ueber einige Denkmäler des röm. Rechts außer dem
+        <antiqua>Corpus iuris</antiqua>.</titel>
 
         <veranstaltung><dozent ref="wenck_kfc"><nachname>Wenck</nachname>,
         <grad>D.</grad> <vorname>C. F. C.</vorname>, <funktion>P. O.
@@ -1118,8 +1130,8 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
       <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P.
       O.</funktion></dozent>, <thema>Vergleichung des k. s. Privatrechts mit
       dem gemeinen Recht, nach der Ordnung seines Lehrb.</thema> <zeit>9 U. 4
-      T.</zeit> <modus>öffentlich</modus> (in latein. Sprache und auf ein
-      halbes Jahr.)</veranstaltung>
+      T.</zeit> <modus>öffentlich</modus> (<thema>in latein. Sprache und auf
+      ein halbes Jahr</thema>.)</veranstaltung>
     </sachgruppe>
 
     <sachgruppe>
@@ -1152,12 +1164,13 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
       <grad>D.</grad> <vorname>C. E.</vorname>, <funktion>P. O.</funktion> d.
       Z. <funktion>Dech.</funktion> u. <funktion>Rect.
       Univ.</funktion></dozent>, <thema>philosophisches Criminalrecht, n.
-      Feuerbach</thema>, <zeit>11 U. 4 T.</zeit>
+      <gesperrt>Feuerbach</gesperrt></thema>, <zeit>11 U. 4 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><dozent><nachname>Schmidt</nachname>, <grad>M.</grad>
       <vorname>A. W.</vorname>, <funktion>I. U. B.</funktion></dozent>,
-      <thema>nach Feuerbach</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
+      <thema>nach <gesperrt>Feuerbach</gesperrt></thema>, <zeit>2 U. 6
+      T.</zeit></veranstaltung>
     </sachgruppe>
 
     <sachgruppe>
@@ -1172,15 +1185,17 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
 
       <veranstaltung><dozent><nachname>Müller</nachname>, <grad>D.</grad>
       <vorname>J. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-      <thema>nach Böhmer</thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
+      <thema>nach <gesperrt>Böhmer</gesperrt></thema>, <zeit>7 U. 6
+      T.</zeit></veranstaltung>
 
       <veranstaltung><dozent ref="rueffer_c"><nachname>Rüffer</nachname>,
       <grad>D.</grad> <vorname>K.</vorname></dozent>, <thema>nach G. L.
-      Böhmer</thema>, <zeit>6 T. in zu best. St.</zeit></veranstaltung>
+      <gesperrt>Böhmer</gesperrt></thema>, <zeit>6 T. in zu best.
+      St.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Steinacker</nachname>, <grad>M.</grad>
       <vorname>W. F.</vorname>, <funktion>I. U. B.</funktion></dozent>,
-      <thema>nach Böhmer</thema>, <zeit>6 T. in bel.
+      <thema>nach <gesperrt>Böhmer</gesperrt></thema>, <zeit>6 T. in bel.
       St.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Schilling</nachname>,
@@ -1195,7 +1210,8 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
       <veranstaltung><dozent ref="weisse_ce"><nachname>Weiße</nachname>,
       <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P. O.</funktion> u.
       d. Z. <funktion>Dech.</funktion> u. <funktion>Rect.
-      Univ.</funktion></dozent>, <thema>nach Böhmer</thema>, <zeit>9 U. 4
+      Univ.</funktion></dozent>, <thema>nach
+      <gesperrt>Böhmer</gesperrt></thema>, <zeit>9 U. 4
       T.</zeit></veranstaltung>
     </sachgruppe>
 
@@ -1211,21 +1227,22 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
 
       <veranstaltung><dozent ref="klien_c"><nachname>Klien</nachname>,
       <grad>D.</grad> <vorname>C.</vorname>, <funktion>P.
-      O.</funktion></dozent>, <thema>ordentl. Civilproceß, nach Biener und
-      unter Mitgebrauch eigner tabellarisch geordneter Uebersichten</thema>,
-      <zeit>11 U. 6 T. und 2 U. 2 T.</zeit></veranstaltung>
+      O.</funktion></dozent>, <thema>ordentl. Civilproceß, nach
+      <gesperrt>Biener</gesperrt> und unter Mitgebrauch eigner tabellarisch
+      geordneter Uebersichten</thema>, <zeit>11 U. 6 T. und 2 U. 2
+      T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Hänel</nachname>, <grad>D.</grad>
       <vorname>F.</vorname>, <funktion>P. E.</funktion></dozent>,
       <thema>bürgerl. Proceß nach gemein. und sächs. Rechten, theils nach
-      eignen Sätzen, theils mit Hinweisung auf Biener's <antiqua>Systema
-      process iudicar.</antiqua> (3. Ausg. 1821.)</thema> <zeit>7 U. 4
-      T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+      eignen Sätzen, theils mit Hinweisung auf <gesperrt>Biener's</gesperrt>
+      <antiqua>Systema process. iudiciar.</antiqua> (3. Ausg. 1821.)</thema>
+      <zeit>7 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><dozent ref="rueffer_c"><nachname>Rüffer</nachname>,
       <grad>D.</grad> <vorname>K.</vorname></dozent>, <thema>ordentl.
-      Civilproceß nach Biener, nebst Mittheilung der bei gerichtl und
-      außergerichtl Rechtsgeschäften vorkommenden praktischen
+      Civilproceß nach <gesperrt>Biener</gesperrt>, nebst Mittheilung der bei
+      gerichtl. und außergerichtl. Rechtsgeschäften vorkommenden praktischen
       Aufsätze</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Liekefett</nachname>, <vorname>S.
@@ -1265,17 +1282,17 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
 
       <veranstaltung><dozent><nachname>Liekefett</nachname>, <vorname>S.
       G.</vorname>, <funktion>I. U. B.</funktion></dozent>, <thema>Uebungen in
-      der jurist. Praxis, nach Bischoffs Kanzleipraxis</thema>, <zeit>10 U. 6
-      T.</zeit></veranstaltung>
+      der jurist. Praxis, nach <gesperrt>Bischoffs</gesperrt>
+      Kanzleipraxis</thema>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Schellwitz</nachname>,
       <vorname>H.</vorname>, <funktion>I. U. B.</funktion></dozent>,
-      <thema>Uebungen in der gerichtl Beredsamkeit</thema>, <zeit>7 U. Dienst.
-      u. Freit.</zeit></veranstaltung>
+      <thema>Uebungen in der gerichtl. Beredtsamkeit</thema>, <zeit>7 U.
+      Dienst. u. Freit.</zeit></veranstaltung>
     </sachgruppe>
 
     <sachgruppe>
-      <titel>15) Examinatoria.</titel>
+      <titel>15) <antiqua>Examinatoria</antiqua>,</titel>
 
       <sachgruppe>
         <titel>a) über alle oder beliebige Theile der
@@ -1375,14 +1392,15 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
     </sachgruppe>
 
     <sachgruppe>
-      <titel>17) Beliebige Privatissima.</titel>
+      <titel>17) Beliebige <antiqua>Privatissima</antiqua>.</titel>
 
       <veranstaltung><dozent ref="beck_jlw"><nachname>Beck</nachname>,
       <grad>D.</grad> <vorname>J. L. W.</vorname>, <funktion>P. E.
       des.</funktion></dozent></veranstaltung>
 
       <veranstaltung><dozent><nachname>Liekefett</nachname>, <vorname>S.
-      G.</vorname>, <funktion>I. U. B.</funktion></dozent></veranstaltung>
+      G.</vorname>, <funktion>I. U. B.</funktion></dozent>, <zeit>in zu best.
+      St.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Mertens</nachname>, <vorname>C.
       L.</vorname>, <funktion>I. U. B.</funktion></dozent></veranstaltung>
@@ -1478,8 +1496,9 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
 
       <veranstaltung><dozent><nachname>Heinroth</nachname>, <grad>D.</grad>
       <vorname>J. C. A.</vorname>, <funktion>P. O. des.</funktion></dozent>,
-      <thema>medicinische Zeichenlehre, nach s. Ausg. des Danz</thema>,
-      <zeit>8 U. 2 T.</zeit></veranstaltung>
+      <thema>medicinische Zeichenlehre, nach s. Ausg. des
+      <gesperrt>Danz</gesperrt></thema>, <zeit>8 U. 2
+      T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Wendler</nachname>, <grad>D.</grad>
       <vorname>C. A.</vorname>, <funktion>P. E.</funktion></dozent>,
@@ -1487,7 +1506,8 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
 
       <veranstaltung><dozent><nachname>Leune</nachname>, <grad>D.</grad>
       <vorname>J. C. F.</vorname></dozent>, <thema>allgemeine Pathologie n.
-      Burbach</thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
+      <gesperrt>Burdach</gesperrt></thema>, <zeit>9 U. 4
+      T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Radius</nachname>, <grad>D.</grad>
       <vorname>J.</vorname></dozent>, <thema>über einige Abschnitte der
@@ -1501,7 +1521,7 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
         Menschen.</titel>
 
         <veranstaltung><dozent><nachname>Puchelt</nachname>, <grad>D.</grad>
-        <vorname>F. A. V.</vorname>, <funktion>P. O. des.</funktion></dozent>,
+        <vorname>F. A. B.</vorname>, <funktion>P. O. des.</funktion></dozent>,
         <zeit>3 U. Dienst. u. Freit.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
@@ -1535,7 +1555,7 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
 
       <veranstaltung><dozent><nachname>Ludwig</nachname>, <grad>D.</grad>
       <vorname>C. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-      <thema>über die natürlichenBlattern und die Schutzpocken, n. s.
+      <thema>über die natürlichen Blattern und die Schutzpocken, n. s.
       Sätzen</thema>, <zeit>9 U. 2 T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Haase</nachname>, <grad>D.</grad>
@@ -1546,10 +1566,9 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
 
       <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
       <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-      <thema>über die Krankheiten bei Weiber<korrektur>n</korrektur>,
-      Schwangern u. Kindbetterinnen, nach s. Handb. der Krankh. des Weibes (2.
-      verm. Afl. bey Cnobloch 1821.)</thema> <zeit>8 U. 2
-      T.</zeit></veranstaltung>
+      <thema>über die Krankheiten der Weiber, Schwangern u. Kindbetterinnen,
+      nach s. Handb. der Krankh. des Weibes (2. verm. Afl. bey Cnobloch
+      1821.)</thema> <zeit>8 U. 2 T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Wendler</nachname>, <grad>D.</grad>
       <vorname>C. A.</vorname>, <funktion>P. E.</funktion></dozent>,
@@ -1561,7 +1580,7 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
       Merkurialkrankheit</thema>, <zeit>11 U. 2 T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Haase</nachname>, <grad>D.</grad>
-      <vorname>K. F.</vorname></dozent>, <thema>über die Natur und Heilung bei
+      <vorname>K. F.</vorname></dozent>, <thema>über die Natur und Heilung der
       Kinderkrankheiten</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Radius</nachname>, <grad>D.</grad>
@@ -1570,7 +1589,7 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
     </sachgruppe>
 
     <sachgruppe>
-      <titel>9) Arzneimttellehre.</titel>
+      <titel>9) Arzneimittellehre.</titel>
 
       <veranstaltung><dozent><nachname>Haase</nachname>, <grad>D.</grad>
       <vorname>W. A.</vorname>, <funktion>P. O.</funktion></dozent>,
@@ -1620,13 +1639,14 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
       <thema>von den Knochenkrankheiten, nach eign. Sätzen</thema>, <zeit>4 U.
       4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><dozent><nachname>Kuhl</nachname>, <grad>D.</grad>
+      <veranstaltungsgruppe><dozent><nachname>Kuhl</nachname>, <grad>D.</grad>
       <vorname>C. A.</vorname>, <funktion>P. E. des.</funktion></dozent>,
-      <thema>über die Brüche, <notiz
+      <veranstaltung><thema>über die Brüche, <notiz
       betreff="fortsetzung">Forts.</notiz></thema> <zeit>11 U. 2 T.</zeit>
-      <modus>öffentlich</modus>; ingl. <thema>chirurgische Demonstrationen
-      <ort>im Jakobsspitale</ort></thema>, <zeit>3 U. 2
-      T.</zeit></veranstaltung>
+      <modus>öffentlich</modus></veranstaltung>; ingl.
+      <veranstaltung><thema>chirurgische Demonstrationen <ort>im
+      Jakobsspitale</ort></thema>, <zeit>3 U. 2
+      T.</zeit></veranstaltung></veranstaltungsgruppe>
 
       <veranstaltung><dozent ref="robbi_jh"><nachname>Robbi</nachname>,
       <grad>D.</grad> <vorname>H.</vorname></dozent>, <thema>allgemeine
@@ -1639,7 +1659,7 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
       <veranstaltung><dozent ref="clarus_jca"><nachname>Clarus</nachname>,
       <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P. O.
       des.</funktion></dozent>, <thema><ort>im königl. klin. Institute im
-      Jakobsspitale</ort></thema>, <zeit>9-11 U.</zeit>
+      Jakobsspitale</ort></thema>, <zeit>9-11 U. 6 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><dozent><nachname>Puchelt</nachname>, <grad>D.</grad>
@@ -1651,12 +1671,12 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
       <titel>14) Entbindungskunst.</titel>
 
       <veranstaltungsgruppe><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-      <vorname>J. C.</vorname>, <funktion>P.
-      O.</funktion></dozent>,<veranstaltung> <thema>nach s. Handb. der
-      Geburtshülfe (2te verm. Afl. Lpz. 1820 b. Hinrichs)</thema> <zeit>8 U. 4
-      T.</zeit> <modus>öffentlich</modus></veranstaltung>;
-      ingl.<veranstaltung> <thema>geburtshülfl. Klinik im Trierschen
-      Institute</thema>, <zeit>7 U. 6
+      <vorname>J. C.</vorname>, <funktion>P. O.</funktion></dozent>,
+      <veranstaltung><thema>nach s. Handb. der Geburtshülfe (2e verm. Afl.
+      Lpz. 1820 b. Hinrichs)</thema> <zeit>8 U. 4 T.</zeit>
+      <modus>öffentlich</modus></veranstaltung>; ingl.
+      <veranstaltung><thema>geburtshülfl. Klinik <ort>im Trierschen
+      Institute</ort></thema>, <zeit>7 U. 6
       T.</zeit></veranstaltung></veranstaltungsgruppe>
     </sachgruppe>
 
@@ -1670,11 +1690,12 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
     </sachgruppe>
 
     <sachgruppe>
-      <titel>16) Medicinische Polizeiwissenschaft.</titel>
+      <titel>16) Medicinische Polizeywissenschaft.</titel>
 
       <veranstaltung><dozent><nachname>Ludwig</nachname>, <grad>D.</grad>
       <vorname>C. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-      <thema>nach Hebenstreit</thema>, <zeit>10 U. 2 T.</zeit></veranstaltung>
+      <thema>nach <gesperrt>Hebenstreit</gesperrt></thema>, <zeit>10 U. 2
+      T.</zeit></veranstaltung>
     </sachgruppe>
 
     <seite>19</seite>
@@ -1707,7 +1728,7 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
       <veranstaltung><dozent ref="cerutti_fpl"><nachname>Cerutti</nachname>,
       <grad>D.</grad> <vorname>L.</vorname>, <funktion>P. E.
       des.</funktion></dozent>, <thema>Examinatorium über specielle Pathologie
-      und Thrapie</thema>.</veranstaltung>
+      und Therapie</thema>.</veranstaltung>
 
       <veranstaltungsgruppe><dozent><nachname>Leune</nachname>,
       <grad>D.</grad> <vorname>J. C. F.</vorname></dozent>,
@@ -1741,7 +1762,7 @@ lässt sich nicht als zwei Veranstaltungen auszeichnen-->
   anatomische und pathologische Gegenstände</funktion>, <vorname>Joh.
   Fried.</vorname> <nachname>Schröter</nachname></dozent>, auf Verlangen
   gehörigen Unterricht ertheilen. Auch können sich die Studirenden des
-  Unterrichts der bei hiesiger Zeichnungs-Maler- und Architektur-Akademie
+  Unterrichts der bei hiesiger Zeichnungs- Maler- und Architektur-Akademie
   angestellten Lehrer bedienen.</absatz>
 
   <seite>20</seite>
