@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><dozentenliste xmlns="http://histvv.uni-leipzig.de/ns/2007" xmlns:ns="http://histvv.uni-leipzig.de/ns/2007" xml:lang="de">
+<?xml version="1.0" encoding="UTF-8"?>
+<dozentenliste xml:lang="de" xmlns="http://histvv.uni-leipzig.de/ns/2007"
+               xmlns:ns="http://histvv.uni-leipzig.de/ns/2007">
   <universität>Leipzig</universität>
 
   <dozent eindeutig="ja" xml:id="ahlfeld_jf">
@@ -1705,37 +1707,9 @@ http://books.google.de/books?id=_USvypqaALUC&pg=PA118&lpg=PA118&dq=%22Arthur+Bir
     <geboren>
       <jahr>1880</jahr>
 
-      
-
-      
-
       <ort>Stavelot<!--(Quelle korrigert, Die Festschrift 1909, Bd. 4,1 schriebt "Staverlot")
  --> (Belgien)</ort>
     </geboren>
-
-    <gestorben>
-      <jahr/>
-
-      
-
-      
-
-      
-    </gestorben>
-
-    
-
-    
-
-    <absatz/>
-
-    
-
-    
-
-    
-
-    
   </dozent>
 
   <dozent xml:id="bock_ac">
@@ -3619,7 +3593,7 @@ Dissertation 1887 26 Jahre alt.-->
     <url>http://de.wikipedia.org/wiki/Ernst_Adolf_Coccius</url>
   </dozent>
 
-  <dozent xml:id="cohen_g">
+  <dozent eindeutig="ja" xml:id="cohen_g">
     <name>
       <nachname>Cohen</nachname>
 
@@ -3646,7 +3620,7 @@ Dissertation 1887 26 Jahre alt.-->
       <ort>Paris</ort>
     </gestorben>
 
-    <absatz/>
+    <absatz>Historiker, Mediävist</absatz>
 
     <!--Quelle: Matthias Middell, Weltgeschichtsschreibung im Zeitalter der Verfachlichung und Professionalisierung. 
 Das Leipziger Institut für Kultur- und Universalgeschichte. 1890-1990, S. 223, 544.-->
@@ -4722,7 +4696,7 @@ entscheiden (siehe URL vs. Lemma)-->
     <url>http://de.wikipedia.org/wiki/Paul_Drude</url>
   </dozent>
 
-  <dozent xml:id="duchesne_a">
+  <dozent eindeutig="ja" von="1899s" xml:id="duchesne_a">
     <name>
       <nachname>Duchesne</nachname>
 
@@ -4740,8 +4714,6 @@ entscheiden (siehe URL vs. Lemma)-->
     </gestorben>
 
     <pnd>136648134</pnd>
-
-    <absatz/>
   </dozent>
 
   <dozent bis="1897s" eindeutig="ja" xml:id="doederlein_asg">
@@ -8840,7 +8812,7 @@ http://mdz10.bib-bvb.de/~db/0001/bsb00016329/images/index.html?seite=719-->
     <url>http://www.leipzig-lexikon.de/PERSONEN/18100413.htm</url>
   </dozent>
 
-  <dozent eindeutig="ja" xml:id="monod_g">
+  <dozent eindeutig="ja" von="1909s" xml:id="monod_g">
     <name>
       <nachname>Monod</nachname>
 
@@ -8868,8 +8840,9 @@ http://mdz10.bib-bvb.de/~db/0001/bsb00016329/images/index.html?seite=719-->
     <absatz>Lektor an der Universität Leipzig</absatz>
 
     <absatz>Neffe des französischen Historikers Gabriel Monod, gefallen in
-    Lothringen auf französischer Seite<!--Quelle: Matthias Middell, Weltgeschichtsschreibung im Zeitalter der Verfachlichung und Professionalisierung. 
-Das Leipziger Institut für Kultur- und Universalgeschichte. 1890-1990, S. 478.--><!--
+    Lothringen auf französischer Seite<!--Quelle: Matthias Middell, Weltgeschichtsschreibung im Zeitalter der Verfachlichung und
+Professionalisierung. Das Leipziger Institut für Kultur- und Universalgeschichte.
+1890-1990, S. 478.--><!--
 Quelle: Horst Walter Blanke, Historiographiegeschichte bei Lamprecht und seinen Schülern, 
 in: ders. (Hrsg.), Transformation des Historismus, Waltrop 1994, S. 128.--></absatz>
 
@@ -9507,7 +9480,8 @@ http://books.google.de/books?id=IG3Rp8NAO8EC&pg=PA451&dq=ritterich-->
     <url>http://de.wikipedia.org/wiki/Konstantin_von_Tischendorf</url>
   </dozent>
 
-  <dozent bis="1911w" eindeutig="ja" von="1907w" xml:id="vitzthumvoneckstaedt_g">
+  <dozent bis="1911w" eindeutig="ja" von="1907w"
+          xml:id="vitzthumvoneckstaedt_g">
     <name>
       <nachname>Vitzthum von Eckstädt</nachname>
 
