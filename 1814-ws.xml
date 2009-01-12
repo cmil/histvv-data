@@ -253,9 +253,9 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
             <modus>öffentlich</modus> und
             <gebühr>unentgeldl.</gebühr></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1814w-I.I.A.3.b-004"><dozent><nachname>Günther</nachname>,
-            <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <zeit>3 U. 4
+            <veranstaltung xml:id="v-1814w-I.I.A.3.b-004"><dozent
+            ref="guenther_kf"><nachname>Günther</nachname>, <grad>D.</grad>
+            <vorname>K. F.</vorname></dozent>, <zeit>3 U. 4
             T.</zeit></veranstaltung>
           </sachgruppe>
 
@@ -2068,13 +2068,12 @@ auf beide bezogen-->
           <sachgruppe xml:id="sg-1814w-II.C.I.3.b">
             <titel>b) specielle.</titel>
 
-            <veranstaltung
-            xml:id="v-1814w-II.C.I.3.b-001"><dozent><nachname>Haase</nachname>,
-            <grad>D.</grad> <vorname>W. A.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>specielle Pathologie der
-            chronischen Krankheiten, verbunden mit der speciellen Therapie
-            derselben</thema>, <zeit>11 U. 6 T. und 3 U. 4
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1814w-II.C.I.3.b-001"><dozent
+            ref="haase_wa"><nachname>Haase</nachname>, <grad>D.</grad>
+            <vorname>W. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>specielle Pathologie der chronischen Krankheiten, verbunden
+            mit der speciellen Therapie derselben</thema>, <zeit>11 U. 6 T.
+            und 3 U. 4 T.</zeit></veranstaltung>
 
             <sachgruppe xml:id="sg-1814w-II.C.I.3.b.aa">
               <titel>aa) psychische.</titel>
@@ -2172,11 +2171,11 @@ auf beide bezogen-->
               ihre Heilung</thema>, <zeit>11 U. 2 T.</zeit>
               <modus>öffentl.</modus></veranstaltung>
 
-              <veranstaltungsverweis
-              ref="v-1814w-II.C.I.3.b-001"><dozent><nachname>Haase</nachname>,
-              <grad>D.</grad> <vorname>W. A.</vorname>, <funktion>P.
-              E.</funktion></dozent> (<siehe ref="sg-1814w-II.C.I.3.b">s.
-              specielle Pathologie</siehe>).</veranstaltungsverweis>
+              <veranstaltungsverweis ref="v-1814w-II.C.I.3.b-001"><dozent
+              ref="haase_wa"><nachname>Haase</nachname>, <grad>D.</grad>
+              <vorname>W. A.</vorname>, <funktion>P. E.</funktion></dozent>
+              (<siehe ref="sg-1814w-II.C.I.3.b">s. specielle
+              Pathologie</siehe>).</veranstaltungsverweis>
 
               <veranstaltung xml:id="v-1814w-II.C.II.1.b.bb-003"><dozent
               ref="ritterich_fp"><nachname>Ritterich</nachname>,
@@ -2230,11 +2229,11 @@ auf beide bezogen-->
           im Jakobssp.</ort></thema> <zeit>9 U. 6 T.</zeit>
           <modus>öffentl.</modus></veranstaltung>
 
-          <veranstaltungsverweis
-          ref="v-1814w-II.C.I.3.b-001"><dozent><nachname>Haase</nachname>,
-          <grad>D.</grad> <vorname>W. A.</vorname>, <funktion>P.
-          E.</funktion></dozent> (<siehe ref="sg-1814w-II.C.I.3.b">s.
-          specielle Pathologie</siehe>).</veranstaltungsverweis>
+          <veranstaltungsverweis ref="v-1814w-II.C.I.3.b-001"><dozent
+          ref="haase_wa"><nachname>Haase</nachname>, <grad>D.</grad>
+          <vorname>W. A.</vorname>, <funktion>P. E.</funktion></dozent>
+          (<siehe ref="sg-1814w-II.C.I.3.b">s. specielle
+          Pathologie</siehe>).</veranstaltungsverweis>
 
           <veranstaltungsgruppe><dozent><nachname>Wendler</nachname>,
           <grad>D.</grad> <vorname>C. A.</vorname></dozent>, <veranstaltung
@@ -2354,10 +2353,10 @@ auf beide bezogen-->
             O.</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
             <modus>öffentl.</modus></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1814w-II.C.II.4.a-002"><dozent><nachname>Haase</nachname>,
-            <grad>D.</grad> <vorname>W. A.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <zeit>3 U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1814w-II.C.II.4.a-002"><dozent
+            ref="haase_wa"><nachname>Haase</nachname>, <grad>D.</grad>
+            <vorname>W. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <zeit>3 U. 6 T.</zeit></veranstaltung>
 
             <veranstaltung
             xml:id="v-1814w-II.C.II.4.a-003"><dozent><nachname>Müller</nachname>,
@@ -2373,12 +2372,11 @@ auf beide bezogen-->
           <sachgruppe xml:id="sg-1814w-II.C.II.4.b">
             <titel>b) über einzelne Arzneimittel.</titel>
 
-            <veranstaltung
-            xml:id="v-1814w-II.C.II.4.b-001"><dozent><nachname>Haase</nachname>,
-            <grad>D.</grad> <vorname>W. A.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>über die Heilmittel aus dem
-            Mineralreich</thema>, <zeit>2 U. 2 T.</zeit>
-            <modus>öffentl.</modus></veranstaltung>
+            <veranstaltung xml:id="v-1814w-II.C.II.4.b-001"><dozent
+            ref="haase_wa"><nachname>Haase</nachname>, <grad>D.</grad>
+            <vorname>W. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>über die Heilmittel aus dem Mineralreich</thema>, <zeit>2
+            U. 2 T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
             <sachgruppe xml:id="sg-1814w-II.C.II.4.b.x">
               <titel>*) Experimentalpharmacie.</titel>

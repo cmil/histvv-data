@@ -769,7 +769,7 @@
         <titel>1. Physik und Chemie.</titel>
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">1.
-        Th.</notiz></thema>: <dozent><grad>D. ph.</grad>
+        Th.</notiz></thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 Uhr 6 Tage</zeit>.</veranstaltung>
 
@@ -778,10 +778,10 @@
         O.</funktion></dozent>, <zeit>in 2 zu best. T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber Erdmagnetismus</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Hankel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Ueber Erdmagnetismus</thema>: <dozent
+        ref="hankel_wg"><grad>D. ph.</grad> <nachname>Hankel</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber die chemischen Wirkungen des Lichts
         (Photochemie)</thema>: <dozent><grad>D. ph.</grad>
@@ -830,15 +830,16 @@
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen im physikalischen Seminar</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname></dozent>,
-          <zeit>4-6 U. Dienst.</zeit></veranstaltung>
+          <dozent ref="hankel_wg"><grad>D. ph.</grad>
+          <nachname>Hankel</nachname></dozent>, <zeit>4-6 U.
+          Dienst.</zeit></veranstaltung>
 
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
-          <ders>Derselbe</ders> in Verbindung mit den Professoren <dozent
-          ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
-          sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
-          <nachname>Weber</nachname> jun.</dozent>, <zeit>2-4 U.
-          Dienst.</zeit><!--Professoren konnte nicht getaggt werden--></veranstaltung>
+          <ders ref="hankel_wg">Derselbe</ders> in Verbindung mit den
+          Professoren <dozent ref="weber_eh"><grad>D.</grad>
+          <nachname>Weber</nachname> sen.</dozent> und <dozent
+          ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>
+          jun.</dozent>, <zeit>2-4 U. Dienst.</zeit><!--Professoren konnte nicht getaggt werden--></veranstaltung>
 
           <veranstaltung><thema>Chemisch-praktische Uebungen im Laboratorium
           des Schlosses Pleissenburg</thema>: <dozent><grad>D.</grad>
@@ -1326,8 +1327,9 @@
             <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><thema>Examinatorium über Civilrecht</thema>:
-            <dozent><grad>D.</grad> <nachname>Götz</nachname></dozent>,
-            <zeit>in zu best. St. u. T.</zeit></veranstaltung>
+            <dozent ref="goetz_o"><grad>D.</grad>
+            <nachname>Götz</nachname></dozent>, <zeit>in zu best. St. u.
+            T.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -1374,7 +1376,7 @@
           <zeit>7 U. 3 T. (Mont., Mittw. u. Sonn.)</zeit></veranstaltung>
 
           <veranstaltung><thema>Wechselrecht und andere Hauptpartien des
-          Handelsrechts</thema>: <dozent><grad>D.</grad>
+          Handelsrechts</thema>: <dozent ref="goetz_o"><grad>D.</grad>
           <nachname>Götz</nachname></dozent>, <zeit>12 U. 4
           T.</zeit></veranstaltung>
         </sachgruppe>
@@ -1388,8 +1390,8 @@
           <zeit>12 U. 6 T.</zeit> <modus>privatim</modus> und <zeit>in 2 noch
           zu best. St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Sächsisches Privatrecht</thema>:
-          <dozent><grad>D.</grad> <nachname>Götz</nachname></dozent>,
+          <veranstaltung><thema>Sächsisches Privatrecht</thema>: <dozent
+          ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname></dozent>,
           <zeit>8stündig in zu best. St.</zeit></veranstaltung>
 
           <trennlinie/>
@@ -1491,7 +1493,7 @@
         <zeit>10 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Sächsisches Staats- und
-        Verwaltungsrecht</thema>: <dozent><grad>D.</grad>
+        Verwaltungsrecht</thema>: <dozent ref="goetz_o"><grad>D.</grad>
         <nachname>Götz</nachname></dozent>, <zeit>11 U. 4
         T.</zeit></veranstaltung>
       </sachgruppe>
@@ -1621,8 +1623,8 @@
         <trennlinie/>
 
         <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema> von
-        den <dozent><funktion>Professor</funktion>en <grad>D. ph.</grad>
-        <nachname>Hankel</nachname></dozent>, <dozent
+        den <dozent ref="hankel_wg"><funktion>Professor</funktion>en <grad>D.
+        ph.</grad> <nachname>Hankel</nachname></dozent>, <dozent
         ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
         sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
         <nachname>Weber</nachname> jun.</dozent>, <zeit>an 3 T. 2
@@ -1761,9 +1763,9 @@
         <nachname>Meissner</nachname></dozent>, <zeit>5 U. Abends 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber Kinderkrankheiten</thema>:
-        <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <zeit>12
-        U. Mont. u. Donn.</zeit>
+        <veranstaltung><thema>Ueber Kinderkrankheiten</thema>: <dozent
+        ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname></dozent>,
+        <zeit>12 U. Mont. u. Donn.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -1778,13 +1780,14 @@
       <sachgruppe>
         <titel>IX. Chirurgie.</titel>
 
-        <veranstaltung><thema>Specielle Chirurgie</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>7 U. fr. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Specielle Chirurgie</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>7 U. fr. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Militärchirurgie, Amputationen und
-        Resectionen</thema>: <ders>Derselbe</ders>, <zeit>7 U. früh 2
-        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Resectionen</thema>: <ders ref="guenther_gb">Derselbe</ders>, <zeit>7
+        U. früh 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber Gefässkrankheiten und deren chirurgische
         Behandlung</thema>: <dozent><grad>D.</grad>
@@ -1804,9 +1807,10 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Operationscursus an der Leiche</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>3-5 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Operationscursus an der Leiche</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>3-5 U. 6
+        T.</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -1869,9 +1873,9 @@
         <zeit>in zu best. St. u. T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Uebungen am geburtshilflichen Phantome</thema>:
-        <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <zeit>7
-        U. früh (Dienst. u. Freit.)</zeit>
-        <modus>privatissime</modus>.</veranstaltung>
+        <dozent ref="hennig_c"><grad>D.</grad>
+        <nachname>Hennig</nachname></dozent>, <zeit>7 U. früh (Dienst. u.
+        Freit.)</zeit> <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Theoretische und praktische Operationslehre für
         Geburtshelfer</thema>: <dozent><grad>D.</grad>
@@ -1903,7 +1907,7 @@
         <zeit>2 U. 5 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Pädiatrische Poliklinik im Vordergebäude des
-        Trierschen Instituts</thema>: <dozent><grad>D.</grad>
+        Trierschen Instituts</thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <zeit>Mittw. 2 U.</zeit>
         <gebühr>unentgeltl.</gebühr></veranstaltung>
 
@@ -1913,8 +1917,9 @@
         <zeit>täglich in zu best. St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Klinik im Jacobshospital</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>8-9½ U. 6 T.</zeit></veranstaltung>
+        <dozent ref="guenther_gb"><grad>D.</grad>
+        <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>8-9½ U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>: <dozent
         ref="francke_kg"><grad>D.</grad> <nachname>Francke</nachname>,

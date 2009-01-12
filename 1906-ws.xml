@@ -638,9 +638,9 @@
       <siehe>Siehe Philosophische Fakultät D.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Exercises pratiques de francais</thema>:
-      <dozent><funktion>Lektor</funktion> <grad>D. jur. et ph.</grad>
-      <nachname>Cohen</nachname></dozent>. <siehe>Siehe Philosophische
-      Fakultät B. d.</siehe></veranstaltungsverweis>
+      <dozent ref="cohen_g"><funktion>Lektor</funktion> <grad>D. jur. et
+      ph.</grad> <nachname>Cohen</nachname></dozent>. <siehe>Siehe
+      Philosophische Fakultät B. d.</siehe></veranstaltungsverweis>
 
       <veranstaltung><thema>Englisches Praktikum</thema>:
       <dozent><funktion>Lektor</funktion>
@@ -668,7 +668,7 @@
       <titel>II. Juristische Fakultät.</titel>
 
       <veranstaltung><thema>Einführung in die Rechtswissenschaft (juristische
-      Encyklopädie)</thema>: <dozent><grad>D. jur.</grad>
+      Encyklopädie)</thema>: <dozent ref="hoelder_e"><grad>D. jur.</grad>
       <vorname>E.</vorname> <nachname>Hölder</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Sonnab. 12-1
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -679,8 +679,8 @@
       <zeit>Freit u. Sonnab. 10 bis 11 U. u. Sonnab. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Römische Rechtsgeschichte</thema>:
-      <dozent><grad>D. jur.</grad> <vorname>E.</vorname>
+      <veranstaltung><thema>Römische Rechtsgeschichte</thema>: <dozent
+      ref="hoelder_e"><grad>D. jur.</grad> <vorname>E.</vorname>
       <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -690,8 +690,8 @@
       <funktion>P. E.</funktion></dozent>, <zeit>in 3 noch zu best.
       Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>System des römischen Privatrechts</thema>:
-      <dozent><grad>D. jur.</grad> <vorname>E.</vorname>
+      <veranstaltung><thema>System des römischen Privatrechts</thema>: <dozent
+      ref="hoelder_e"><grad>D. jur.</grad> <vorname>E.</vorname>
       <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. bis Freit. 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1088,9 +1088,9 @@
       Fakultät B. d.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Exercices pratiques de francais</thema>:
-      <dozent><funktion>Lektor</funktion> <grad>D. jur. et ph.</grad>
-      <nachname>Cohen</nachname></dozent>. <siehe>Siehe Philosophische
-      Fakultät B. d.</siehe></veranstaltungsverweis>
+      <dozent ref="cohen_g"><funktion>Lektor</funktion> <grad>D. jur. et
+      ph.</grad> <nachname>Cohen</nachname></dozent>. <siehe>Siehe
+      Philosophische Fakultät B. d.</siehe></veranstaltungsverweis>
     </sachgruppe>
 
     <trennlinie/>
@@ -1601,11 +1601,11 @@
       U.</zeit>, <modus>privatim</modus>, <ort>in der
       Universitätsfrauenklinik, Stephanstr. 7</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Geburtshilfe mit Übungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 4-5
-      U.</zeit>, <modus>privatim</modus>, <ort>in der Wohnung, Rudolfstr. 2.
-      II</ort>.</veranstaltung>
+      <veranstaltung><thema>Geburtshilfe mit Übungen</thema>: <dozent
+      ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      4-5 U.</zeit>, <modus>privatim</modus>, <ort>in der Wohnung, Rudolfstr.
+      2. II</ort>.</veranstaltung>
 
       <veranstaltung><thema>Kurs geburtshilflicher Operationen</thema>:
       <dozent><grad>D. med.</grad> <nachname>Skutsch</nachname></dozent>,
@@ -1626,10 +1626,10 @@
       22</ort>.</veranstaltung>
 
       <veranstaltung><thema>Frauenkrankheiten, mit Demonstrationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 9-10 U.
-      Vorm.</zeit>, <modus>publice</modus>, <ort>in der Wohnung, Rudolfstr. 2.
-      II.</ort></veranstaltung>
+      <dozent ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      9-10 U. Vorm.</zeit>, <modus>publice</modus>, <ort>in der Wohnung,
+      Rudolfstr. 2. II.</ort></veranstaltung>
 
       <trennlinie/>
 
@@ -3175,9 +3175,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Le théâtre francais de Dumas à
-          Rostand</thema>: <dozent><funktion>Lektor</funktion> <grad>D. ph. et
-          jur.</grad> <nachname>Cohen</nachname></dozent>, <zeit>Dienst. u.
-          Freit. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          Rostand</thema>: <dozent ref="cohen_g"><funktion>Lektor</funktion>
+          <grad>D. ph. et jur.</grad> <nachname>Cohen</nachname></dozent>,
+          <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Historische Grammatik des Rumänischen, <notiz
           betreff="fortsetzung">I. Teil Lautlehre</notiz></thema>:
@@ -3250,8 +3251,8 @@
           Art poétique</thema>, <zeit>Donnerst. 8-½10 U. Ab.</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr></veranstaltung>. -
-          <veranstaltungsgruppe><thema>II. Abteilung</thema>, <dozent>unter
-          Leitung des <funktion>Assitenten</funktion>
+          <veranstaltungsgruppe><thema>II. Abteilung</thema>, <dozent
+          ref="cohen_g">unter Leitung des <funktion>Assitenten</funktion>
           <funktion>Lektor</funktion> <grad>D. ph. et jur.</grad>
           <nachname>Cohen</nachname></dozent>: <thema>Praktische Übungen im
           modernen Französische</thema>: <veranstaltung><thema>1.
@@ -3267,10 +3268,10 @@
 
           <veranstaltung><thema>Exercises pratiques de francais. (Diction.
           Lecture. Explications de textes. Conversation.) für Studierende
-          aller Fakultäten</thema>: <dozent><funktion>Lektor</funktion>
-          <grad>D. ph. et jur.</grad> <nachname>Cohen</nachname></dozent>,
-          <zeit>Mont. u. Mittw. 6-7 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          aller Fakultäten</thema>: <dozent
+          ref="cohen_g"><funktion>Lektor</funktion> <grad>D. ph. et
+          jur.</grad> <nachname>Cohen</nachname></dozent>, <zeit>Mont. u.
+          Mittw. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema><ort>Institut für rumänische Sprache (Querstr.
           5. II.)</ort>: Lesen und Erklären altrumänischer Texte</thema>:
@@ -3453,14 +3454,15 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Grundzüge der Anthropogeographie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Friedrich</nachname>,
-        <funktion>P. E. des.</funktion></dozent>, <zeit>Mont. 3-4 U.</zeit>,
+        <dozent ref="friedrich_e"><grad>D. ph.</grad>
+        <nachname>Friedrich</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>Mont. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die geographische Verbreitung der wichtigsten
         Produkte, <notiz betreff="fortsetzung">II.
-        Nutzpflanzen</notiz></thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Friedrich</nachname>, <funktion>P. E.
+        Nutzpflanzen</notiz></thema>: <dozent ref="friedrich_e"><grad>D.
+        ph.</grad> <nachname>Friedrich</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>Donnerst. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -3608,9 +3610,9 @@
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Römische Rechtsgeschichte. - System des
-        römischen Privatrechts</thema>: <dozent><grad>D. jur.</grad>
-        <vorname>E.</vorname> <nachname>Hölder</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe Jursitische
+        römischen Privatrechts</thema>: <dozent ref="hoelder_e"><grad>D.
+        jur.</grad> <vorname>E.</vorname> <nachname>Hölder</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe Jursitische
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Römische Rechtsgeschichte. - System des
@@ -3706,7 +3708,7 @@
         d.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Le théâtre francais de Dumas á
-        Rostand</thema>: <dozent><grad>D. ph. et jur.</grad>
+        Rostand</thema>: <dozent ref="cohen_g"><grad>D. ph. et jur.</grad>
         <nachname>Cohen</nachname></dozent>. <siehe>Siehe Abschnitt B.
         d.</siehe></veranstaltungsverweis>
 
@@ -3973,7 +3975,7 @@
           Anfänger</thema>, <zeit>Freit. 4 bis 5 U.</zeit></veranstaltung>,
           <modus>publice</modus>.</veranstaltungsgruppe>
 
-          <veranstaltungsgruppe><dozent><grad>D. ph.</grad>
+          <veranstaltungsgruppe><dozent ref="friedrich_e"><grad>D. ph.</grad>
           <nachname>Friedrich</nachname>, <funktion>P. E.
           des.</funktion></dozent>: <thema>Übungen für die Studierenden der
           Handelshochschule</thema>: a) <veranstaltung><thema>für Anfänger:
@@ -4525,8 +4527,8 @@
 
           <veranstaltungsverweis><thema>Die geographische Verbreitung der
           wichtigsten Produkte, <notiz betreff="fortsetzung">II.
-          Nutzpflanzen</notiz></thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Friedrich</nachname>, <funktion>P. E.
+          Nutzpflanzen</notiz></thema>: <dozent ref="friedrich_e"><grad>D.
+          ph.</grad> <nachname>Friedrich</nachname>, <funktion>P. E.
           des.</funktion></dozent> <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
 
@@ -4566,8 +4568,9 @@
           O.</funktion></dozent> <siehe>Siehe Abschnitt
           G.</siehe></veranstaltungsverweis>
 
-          <veranstaltungsverweis><thema>Meteorologie</thema>: <dozent><grad>D.
-          ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+          <veranstaltungsverweis><thema>Meteorologie</thema>: <dozent
+          ref="oettingen_aj"><grad>D. ph.</grad>
+          <nachnamenpräfix>von</nachnamenpräfix>
           <nachname>Oettingen</nachname>, <funktion>P. O.
           Hon.</funktion></dozent> <siehe>Siehe Abschnitt
           G.</siehe></veranstaltungsverweis>
@@ -4760,7 +4763,7 @@
           <veranstaltungsverweis><thema>Übungen für Studierende der
           Handelshochschule: Einführung in die allgemeine
           Wirtschaftsgeographie. - Wiederholungskursus der
-          Länderkunde</thema>: <dozent><grad>D. ph.</grad>
+          Länderkunde</thema>: <dozent ref="friedrich_e"><grad>D. ph.</grad>
           <nachname>Friedrich</nachname>, <funktion>P. E.
           des.</funktion></dozent> <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
@@ -4781,7 +4784,7 @@
           Mathematischen Institut, Talstr. 35</ort>, abgehalten.)</absatz>
 
           <veranstaltung><thema>Über die Grundlagen der Arithmetik und der
-          Größenlehre</thema>: <dozent><grad>D. ph.</grad>
+          Größenlehre</thema>: <dozent ref="hoelder_o"><grad>D. ph.</grad>
           <vorname>O.</vorname> <nachname>Hölder</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 12 bis 1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -4797,7 +4800,7 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Differential- und Integralrechnung</thema>:
-          <dozent><grad>D. ph.</grad> <vorname>O.</vorname>
+          <dozent ref="hoelder_o"><grad>D. ph.</grad> <vorname>O.</vorname>
           <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont. bis Freit. 11-12 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -4858,8 +4861,9 @@
 
           <seite>50</seite>
 
-          <veranstaltungsverweis><thema>Metereologie</thema>: <dozent><grad>D.
-          ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+          <veranstaltungsverweis><thema>Metereologie</thema>: <dozent
+          ref="oettingen_aj"><grad>D. ph.</grad>
+          <nachnamenpräfix>von</nachnamenpräfix>
           <nachname>Oettingen</nachname>, <funktion>P. O.
           Hon.</funktion></dozent> <siehe>Siehe Abschnitt
           G.</siehe></veranstaltungsverweis>
@@ -4871,8 +4875,8 @@
           <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>:
           <thema>Übungen zur analytischen Mechanik</thema>, <zeit>Mont. 10-11
           U.</zeit>, <modus>privatissime</modus> et
-          <gebühr>gratis</gebühr></veranstaltung>. 2)
-          <veranstaltung><dozent><grad>D. ph.</grad> <vorname>O.</vorname>
+          <gebühr>gratis</gebühr></veranstaltung>. 2) <veranstaltung><dozent
+          ref="hoelder_o"><grad>D. ph.</grad> <vorname>O.</vorname>
           <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>:
           <thema>Übungen in Differential- und Integralrechnung</thema>,
           <zeit>Sonnab. 11-12 U.</zeit>, <modus>privatissime</modus>, aber
@@ -4979,8 +4983,9 @@
           <modus>privatim</modus>, <ort>im Physikalisch-chemischen Institut,
           Linnéstr. 2</ort>.</veranstaltung>
 
-          <veranstaltung><thema>Metereologie</thema>: <dozent><grad>D.
-          ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+          <veranstaltung><thema>Metereologie</thema>: <dozent
+          ref="oettingen_aj"><grad>D. ph.</grad>
+          <nachnamenpräfix>von</nachnamenpräfix>
           <nachname>Oettingen</nachname>, <funktion>P. O.
           Hon.</funktion></dozent>, <zeit>Freit. 6-7 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
@@ -5292,7 +5297,7 @@
 
           <veranstaltungsverweis><thema>Differential- und Integralrechnung. -
           Über die Grundlagen der Arithmetik und der Größenlehre</thema>.
-          <dozent><grad>D. ph.</grad> <vorname>O.</vorname>
+          <dozent ref="hoelder_o"><grad>D. ph.</grad> <vorname>O.</vorname>
           <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>
           <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
 

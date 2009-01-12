@@ -669,9 +669,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Fakultät B. d.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Exercises pratiques de francais</thema>:
-      <dozent><funktion>Lektor</funktion> <grad>D. ph. et jur.</grad>
-      <nachname>Cohen</nachname></dozent>. <siehe>Siehe Philosophische
-      Fakultät B. d.</siehe></veranstaltungsverweis>
+      <dozent ref="cohen_g"><funktion>Lektor</funktion> <grad>D. ph. et
+      jur.</grad> <nachname>Cohen</nachname></dozent>. <siehe>Siehe
+      Philosophische Fakultät B. d.</siehe></veranstaltungsverweis>
     </sachgruppe>
 
     <trennlinie/>
@@ -689,8 +689,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
       jur. et ph.</grad> <nachname>Reichel</nachname></dozent>, <zeit>Dienst.
       11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Römische Rechtsgeschichte</thema>:
-      <dozent><grad>D. jur.</grad> <vorname>E.</vorname>
+      <veranstaltung><thema>Römische Rechtsgeschichte</thema>: <dozent
+      ref="hoelder_e"><grad>D. jur.</grad> <vorname>E.</vorname>
       <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. bis Donnerst. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -767,7 +767,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches bürgerliches Recht (Erbrecht)</thema>:
-      <dozent><grad>D. jur.</grad> <vorname>E.</vorname>
+      <dozent ref="hoelder_e"><grad>D. jur.</grad> <vorname>E.</vorname>
       <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Freit. 8-9 U. u. Sonnab. 7-9 U. Vorm.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -862,10 +862,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
       <zeit>Freit. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Mündliche und schriftliche Übungen im deutschen
-      bürgerlichen Recht für Anfänger</thema>: <dozent><grad>D. jur.</grad>
-      <vorname>E.</vorname> <nachname>Hölder</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont. 5-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      bürgerlichen Recht für Anfänger</thema>: <dozent
+      ref="hoelder_e"><grad>D. jur.</grad> <vorname>E.</vorname>
+      <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Mündliche und schriftliche Übungen im deutschen
       bürgerlichen Recht für Vorgerücktere</thema>: <dozent><grad>D.
@@ -1018,7 +1018,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Fakultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Die Häfen der Erde; Natur, Handel und
-      Verkehr</thema>: <dozent><grad>D. ph.</grad>
+      Verkehr</thema>: <dozent ref="friedrich_e"><grad>D. ph.</grad>
       <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>
       <siehe>Siehe Philosophische Fakultät C.</siehe></veranstaltungsverweis>
 
@@ -1054,9 +1054,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Fakultät B. d.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Exercises pratiques de francais</thema>:
-      <dozent><funktion>Lektor</funktion> <grad>D. jur. et ph.</grad>
-      <nachname>Cohen</nachname></dozent>. <siehe>Siehe Philosophische
-      Fakultät B. d.</siehe></veranstaltungsverweis>
+      <dozent ref="cohen_g"><funktion>Lektor</funktion> <grad>D. jur. et
+      ph.</grad> <nachname>Cohen</nachname></dozent>. <siehe>Siehe
+      Philosophische Fakultät B. d.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Praktischer Kursus in rednerischer
       Stimmbildung und Vortragskunst. - Übungen in deutscher Rede</thema>:
@@ -1658,10 +1658,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Medizinisch-poloklinischen Institut, Nürnberger Str.
       55</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Geburtshilfe mit Übungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 4-5
-      U.</zeit>, <modus>privatim</modus>, <ort>Funkenburgstr. 9.
+      <veranstaltung><thema>Geburtshilfe mit Übungen</thema>: <dozent
+      ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      4-5 U.</zeit>, <modus>privatim</modus>, <ort>Funkenburgstr. 9.
       Eg.</ort></veranstaltung>
 
       <veranstaltung><thema>Gynäkologische Diagnostik</thema>:
@@ -1671,9 +1671,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
       22</ort>.</veranstaltung>
 
       <veranstaltung><thema>Frauenkrankheiten, mit Demonstrationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 9-10 U.
-      Vorm.</zeit>, <modus>publice</modus>, <ort>Funkenburgstr. 9.
+      <dozent ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      9-10 U. Vorm.</zeit>, <modus>publice</modus>, <ort>Funkenburgstr. 9.
       Eg.</ort></veranstaltung>
 
       <trennlinie/>
@@ -3215,10 +3215,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
           bis 10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>La poésie francais contemporaine de leconte de
-          Lisle à Verlaine</thema>: <dozent><funktion>Lektor</funktion>
-          <grad>D. jur. et ph.</grad> <nachname>Cohen</nachname></dozent>,
-          <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          Lisle à Verlaine</thema>: <dozent
+          ref="cohen_g"><funktion>Lektor</funktion> <grad>D. jur. et
+          ph.</grad> <nachname>Cohen</nachname></dozent>, <zeit>Dienst. u.
+          Freit. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <seite>35</seite>
 
@@ -3300,7 +3300,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <zeit>Donnerst. ¾8-½10 U. Ab.</zeit>, <modus>privatissime</modus>,
           aber <gebühr>gratis</gebühr></veranstaltung>. -
           <veranstaltungsgruppe><thema>II. Abteilung: Praktische Übungen im
-          modernen Französisch</thema> <dozent>unter Leitung des
+          modernen Französisch</thema> <dozent ref="cohen_g">unter Leitung des
           <funktion>Assistenten</funktion>, <funktion>Lektor</funktion>
           <grad>D. ph. et jur.</grad> <nachname>Cohen</nachname></dozent>,
           <veranstaltung><thema>1. Sektion</thema>: <zeit>Mittw. ½12-1
@@ -3311,10 +3311,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
           <veranstaltung><thema>Exercises pratiques de francais. (Diction.
           Lecture. Explications de textes. Conversation.) für Studierende
-          aller Fakultäten</thema>: <dozent><funktion>Lektor</funktion>
-          <grad>D. ph. et jur.</grad> <nachname>Cohen</nachname></dozent>,
-          <zeit>Mittw. u. Donnerst. 6-7 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          aller Fakultäten</thema>: <dozent
+          ref="cohen_g"><funktion>Lektor</funktion> <grad>D. ph. et
+          jur.</grad> <nachname>Cohen</nachname></dozent>, <zeit>Mittw. u.
+          Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema><ort>Institut für rumänische Sprache (Querstr.
           5. III.)</ort></thema>: <thema>Lesen und Erklären volkstümlicher
@@ -3489,9 +3489,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Wirtschaftsgeographie von Amerika</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Friedrich</nachname>,
-        <funktion>P. E. des.</funktion></dozent>, <zeit>Mont. u. Donnerst. 3-4
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="friedrich_e"><grad>D. ph.</grad>
+        <nachname>Friedrich</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>Mont. u. Donnerst. 3-4 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Meereskunde (Natur und Verkehr)</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Partsch</nachname>, <funktion>P.
@@ -3499,14 +3500,15 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Häfen der Erde; Natur, Handel und
-        Verkehr</thema>: <dozent><grad>D. ph.</grad>
+        Verkehr</thema>: <dozent ref="friedrich_e"><grad>D. ph.</grad>
         <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die geographische Verbreitung der wichtigsten
         Produkte, <notiz betreff="fortsetzung">III. Nutztiere</notiz></thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Friedrich</nachname>,
-        <funktion>P. E. des.</funktion></dozent>, <zeit>Freit. 3-4 U.</zeit>,
+        <dozent ref="friedrich_e"><grad>D. ph.</grad>
+        <nachname>Friedrich</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>Freit. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <seite>28</seite>
@@ -3684,8 +3686,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
         d.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>La poésie francaise contemporaine de
-        Leconte de Lisle à Verlaine</thema>: <dozent><grad>D. ph. et
-        jur.</grad> <nachname>Cohen</nachname></dozent>. <siehe>Siehe
+        Leconte de Lisle à Verlaine</thema>: <dozent ref="cohen_g"><grad>D.
+        ph. et jur.</grad> <nachname>Cohen</nachname></dozent>. <siehe>Siehe
         Abschnitt B. d.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>English Drama und Dramatists of the
@@ -3732,7 +3734,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Römische Rechtsgeschichte</thema>:
-        <dozent><grad>D. jur.</grad> <vorname>E.</vorname>
+        <dozent ref="hoelder_e"><grad>D. jur.</grad> <vorname>E.</vorname>
         <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Juristische Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -3978,8 +3980,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <thema>Übungen für Anfänger</thema>, <zeit>Freit. 4-5 U.</zeit>,
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
-          <veranstaltungsgruppe>2) <dozent><grad>D. ph.</grad>
-          <nachname>Friedrich</nachname>, <funktion>P. E.
+          <veranstaltungsgruppe>2) <dozent ref="friedrich_e"><grad>D.
+          ph.</grad> <nachname>Friedrich</nachname>, <funktion>P. E.
           des.</funktion></dozent>: <thema>Übungen für die Studierenden der
           Handelshochschule</thema>: a) <veranstaltung><thema>für Anfänger:
           Einführung in die allgemeine
@@ -4822,9 +4824,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
         <veranstaltungsverweis><thema>Einführung in die allgemeine
         Wirtschaftsgeographie und Wiederholungskursus der Länderkunde (für
-        Studierende der Handelshochschule)</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Friedrich</nachname>, <funktion>P. E.
-        des.</funktion></dozent> <siehe>Siehe Abschnitt
+        Studierende der Handelshochschule)</thema>: <dozent
+        ref="friedrich_e"><grad>D. ph.</grad> <nachname>Friedrich</nachname>,
+        <funktion>P. E. des.</funktion></dozent> <siehe>Siehe Abschnitt
         C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Ethnologisches Koloquium</thema>:
@@ -4886,15 +4888,16 @@ lässt sich nicht gleichzeitig auszeichnen-->
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Theorie der Funktionen seiner
-        komplexen Veränderlichen</thema>: <dozent><grad>D. ph.</grad>
-        <vorname>O.</vorname> <nachname>Hölder</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. bis Freit. 11-12 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
-
-        <veranstaltung><thema>Bestimmte Integrale</thema>: <dozent><grad>D.
+        komplexen Veränderlichen</thema>: <dozent ref="hoelder_o"><grad>D.
         ph.</grad> <vorname>O.</vorname> <nachname>Hölder</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Dienst. 10-11
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Freit. 11-12
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+
+        <veranstaltung><thema>Bestimmte Integrale</thema>: <dozent
+        ref="hoelder_o"><grad>D. ph.</grad> <vorname>O.</vorname>
+        <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont. u. Dienst. 10-11 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Projektive Geometrie</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
@@ -4929,10 +4932,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geometrisch-perspektivisches Zeichen</thema>:
-        <dozent><grad>D. ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
-        <nachname>Oettingen</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>Mont. u. Mittw. 6-7 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        <dozent ref="oettingen_aj"><grad>D. ph.</grad>
+        <nachnamenpräfix>von</nachnamenpräfix> <nachname>Oettingen</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mont. u. Mittw. 6-7
+        U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Einfühurng in die mathematische
         Behandlung der Naturwissenschaften (Analytische Geometrie,
@@ -4954,11 +4957,11 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <trennlinie/>
 
         <veranstaltungsgruppe><thema>Mathematisches Seminar</thema>: 1)
-        <veranstaltung><dozent><grad>D. ph.</grad> <vorname>O.</vorname>
-        <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>:
-        <thema>Übungen für Vorgeschrittene in Funktionentheorie</thema>,
-        <zeit>Sonnab.<seite>51</seite>10-11 U.</zeit>,
-        <modus>privatissime</modus> und
+        <veranstaltung><dozent ref="hoelder_o"><grad>D. ph.</grad>
+        <vorname>O.</vorname> <nachname>Hölder</nachname>, <funktion>P.
+        O.</funktion></dozent>: <thema>Übungen für Vorgeschrittene in
+        Funktionentheorie</thema>, <zeit>Sonnab.<seite>51</seite>10-11
+        U.</zeit>, <modus>privatissime</modus> und
         <gebühr>gratis</gebühr></veranstaltung>. 2)
         <veranstaltung><dozent><grad>D. ph.</grad> <nachname>Rohn</nachname>,
         <funktion>P. O.</funktion></dozent>: <thema>Übungen zur analytischen
@@ -5439,8 +5442,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
         <veranstaltungsverweis><thema>Die geographische Verbreitung der
         wichtigsten Produkte, III. Nutztiere. - Die Häfen der Erde: Natur,
-        Handel und Verkehr</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Friedrich</nachname>, <funktion>P. E.
+        Handel und Verkehr</thema>: <dozent ref="friedrich_e"><grad>D.
+        ph.</grad> <nachname>Friedrich</nachname>, <funktion>P. E.
         des.</funktion></dozent> <siehe>Siehe Abschnitt
         C.</siehe></veranstaltungsverweis>
 

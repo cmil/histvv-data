@@ -831,8 +831,9 @@
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Differential- und Integralrechnung</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname></dozent>,
-      <zeit>8 U. 4 T. (Mont. bis Donn.)</zeit></veranstaltung>
+      <dozent ref="hankel_h"><grad>D. ph.</grad>
+      <nachname>Hankel</nachname></dozent>, <zeit>8 U. 4 T. (Mont. bis
+      Donn.)</zeit></veranstaltung>
 
       <veranstaltung><thema>Ueber einige Abschnitte der
       Integralrechnung</thema>: <dozent ref="drobisch_mw"><grad>D. ph.</grad>
@@ -840,9 +841,9 @@
       <zeit>10 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Theorie der algebraischen Integrale</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname></dozent>,
-      <zeit>8 U. 2 T. (Freit. u. Sonn.)</zeit>
-      <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+      <dozent ref="hankel_h"><grad>D. ph.</grad>
+      <nachname>Hankel</nachname></dozent>, <zeit>8 U. 2 T. (Freit. u.
+      Sonn.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Die Methoden der kleinesten Quadrate</thema>:
       <dozent ref="bruhns_kc"><grad>D. ph.</grad> <nachname>Bruhns</nachname>,
@@ -869,7 +870,7 @@
       St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Mathematische Theorie der
-      Wärmeerscheinungen</thema>: <dozent><grad>D.</grad>
+      Wärmeerscheinungen</thema>: <dozent ref="hankel_wg"><grad>D.</grad>
       <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>3 U. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
 
@@ -887,7 +888,7 @@
         <titel>1. Physik und Chemie.</titel>
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">1.
-        Th.</notiz></thema>: <dozent><grad>D.</grad>
+        Th.</notiz></thema>: <dozent ref="hankel_wg"><grad>D.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 6 T.</zeit></veranstaltung>
 
@@ -896,7 +897,7 @@
         <zeit>3 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Mathematische Theorie der
-        Wärmeerscheinungen</thema>: <dozent><grad>D.</grad>
+        Wärmeerscheinungen</thema>: <dozent ref="hankel_wg"><grad>D.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <siehe>s. Math. Wiss.</siehe></veranstaltungsverweis>
 
@@ -942,7 +943,7 @@
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Physikalische Uebungen für Studirende der
-          Medicin</thema>: <dozent><grad>D.</grad>
+          Medicin</thema>: <dozent ref="hankel_wg"><grad>D.</grad>
           <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Dienstags, 2-4 U.</zeit></veranstaltung>
 
@@ -1351,8 +1352,8 @@
 
             <veranstaltung><thema>Vorträge über den einen oder andern
             Haupttheil der Pandekten (je nach Wunsch Examinatorium)</thema>:
-            <dozent><grad>D.</grad> <nachname>Götz</nachname>, <funktion>P.
-            E.</funktion></dozent>, <zeit>in zu best.
+            <dozent ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname>,
+            <funktion>P. E.</funktion></dozent>, <zeit>in zu best.
             St.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -1386,9 +1387,10 @@
           E.</funktion></dozent>, <zeit>4-6 U. 3 T. (Dienst., Donn. u.
           Freit.)</zeit></veranstaltung>
 
-          <veranstaltung><thema>Wechselrecht</thema>: <dozent><grad>D.</grad>
-          <nachname>Götz</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>8 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung><thema>Wechselrecht</thema>: <dozent
+          ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>8 U. 2
+          T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -1872,14 +1874,14 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Privatcursus der Ohrenheilkunde</thema>:
-        <dozent><grad>D.</grad> <nachname>Hagen</nachname></dozent>, <zeit>in
-        zu best. St. u. T.</zeit></veranstaltung>
+        <veranstaltung><thema>Privatcursus der Ohrenheilkunde</thema>: <dozent
+        ref="hagen_er"><grad>D.</grad> <nachname>Hagen</nachname></dozent>,
+        <zeit>in zu best. St. u. T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Die Wirkungen des constanten galvanischen
-        Stromes auf den nervus acusticus, mit Experimenten</thema>:
-        <dozent><grad>D.</grad> <nachname>Hagen</nachname></dozent>, <zeit>in
-        zu best. St. u. T.</zeit>
+        Stromes auf den nervus acusticus, mit Experimenten</thema>: <dozent
+        ref="hagen_er"><grad>D.</grad> <nachname>Hagen</nachname></dozent>,
+        <zeit>in zu best. St. u. T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Privatcurse über Ohrenheilkunde</thema>:
@@ -1899,9 +1901,9 @@
         <nachname>Germann</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>7 U. Ab. 3 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Repetitorien über Geburtshilfe</thema>:
-        <dozent><grad>D.</grad> <nachname>Hennig</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>4 U. 6 T.</zeit>
+        <veranstaltung><thema>Repetitorien über Geburtshilfe</thema>: <dozent
+        ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>4 U. 6 T.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Vorträge über Geburtshilfe</thema>:
@@ -1983,9 +1985,9 @@
           <trennlinie/>
 
           <veranstaltung><thema>Kinder-Klinik und -Poliklinik (<ort>im
-          Vordergebäude des Trier'schen Instituts</ort>)</thema>:
-          <dozent><grad>D.</grad> <nachname>Hennig</nachname>, <funktion>P.
-          E.</funktion></dozent>, bei der Poliklinik <!--(wie auszeichnen?)-->in
+          Vordergebäude des Trier'schen Instituts</ort>)</thema>: <dozent
+          ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname>,
+          <funktion>P. E.</funktion></dozent>, bei der Poliklinik <!--(wie auszeichnen?)-->in
           Verbindung mit <dozent><grad>D.</grad> <vorname>B.</vorname>
           <nachname>Wagner</nachname></dozent>, <zeit>5stündig, 8 U. Mont. u.
           Freit. und 2 U. Dienst., Donn. u. Sonn.</zeit>
@@ -1996,8 +1998,8 @@
           <nachname>Merkel</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>12 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Otiatrische Poliklinik</thema>:
-          <dozent><grad>D.</grad> <nachname>Hagen</nachname></dozent>,
+          <veranstaltung><thema>Otiatrische Poliklinik</thema>: <dozent
+          ref="hagen_er"><grad>D.</grad> <nachname>Hagen</nachname></dozent>,
           <zeit>11-12½ U. 6 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 

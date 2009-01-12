@@ -574,9 +574,9 @@
       c.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Einleitung in die Philosophie und Logik. -
-      Philosophisches Seminar</thema>: <dozent><grad>D. ph. et th.</grad>
-      <vorname>M.</vorname> <nachname>Heinze</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
+      Philosophisches Seminar</thema>: <dozent ref="heinze_m"><grad>D. ph. et
+      th.</grad> <vorname>M.</vorname> <nachname>Heinze</nachname>,
+      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
       A.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Die Philosophie Spinozas und seiner Zeit.
@@ -676,22 +676,22 @@
       Fakultät B. d.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-      <dozent><grad>Lektor</grad> <nachname>Monod</nachname></dozent>.
-      <siehe>Siehe Philosophische Fakultät B.
-      d.</siehe></veranstaltungsverweis>
+      <dozent ref="monod_g"><grad>Lektor</grad>
+      <nachname>Monod</nachname></dozent>. <siehe>Siehe Philosophische
+      Fakultät B. d.</siehe></veranstaltungsverweis>
     </sachgruppe>
 
     <sachgruppe fakultät="Jura">
       <titel>II. Juristische Fakultät.</titel>
 
       <veranstaltung><thema>Einführung in die Rechtswissenschaft (juristische
-      Encyklopädie)</thema>: <dozent><grad>D. jur.</grad>
+      Encyklopädie)</thema>: <dozent ref="hoelder_e"><grad>D. jur.</grad>
       <vorname>E.</vorname> <nachname>Hölder</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Römische Rechtsgeschichte</thema>:
-      <dozent><grad>D. jur.</grad> <vorname>E.</vorname>
+      <veranstaltung><thema>Römische Rechtsgeschichte</thema>: <dozent
+      ref="hoelder_e"><grad>D. jur.</grad> <vorname>E.</vorname>
       <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. bis Donnerst. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -758,7 +758,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches bürgerliches Recht (Erbrecht)</thema>:
-      <dozent><grad>D. jur.</grad> <vorname>E.</vorname>
+      <dozent ref="hoelder_e"><grad>D. jur.</grad> <vorname>E.</vorname>
       <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mittw. 5-6, Freit. u. Sonnab. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -858,10 +858,10 @@
       <zeit>Freit. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Mündliche und schriftliche Übungen im deutschen
-      bürgerlichen Recht (für Anfänger)</thema>: <dozent><grad>D. jur.</grad>
-      <vorname>E.</vorname> <nachname>Hölder</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Dienst. 5-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      bürgerlichen Recht (für Anfänger)</thema>: <dozent
+      ref="hoelder_e"><grad>D. jur.</grad> <vorname>E.</vorname>
+      <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Dienst. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Mündliche und schriftliche Übungen im deutschen
       bürgerlichen Recht (für Vorgerücktere)</thema>: <dozent><grad>D.
@@ -1009,7 +1009,7 @@
       C.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Spezielle Wirtschaftsgeographie von
-      Amerika</thema>: <dozent><grad>D. ph.</grad>
+      Amerika</thema>: <dozent ref="friedrich_e"><grad>D. ph.</grad>
       <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>
       <siehe>Siehe Philosophische Fakultät C.</siehe></veranstaltungsverweis>
 
@@ -1070,9 +1070,9 @@
       Fakultät B. d.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-      <dozent><funktion>Lektor</funktion> <nachname>Monod</nachname></dozent>.
-      <siehe>Siehe Philosophische Fakultät B.
-      d.</siehe></veranstaltungsverweis>
+      <dozent ref="monod_g"><funktion>Lektor</funktion>
+      <nachname>Monod</nachname></dozent>. <siehe>Siehe Philosophische
+      Fakultät B. d.</siehe></veranstaltungsverweis>
     </sachgruppe>
 
     <trennlinie/>
@@ -1338,22 +1338,24 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
       <trennlinie/>
 
       <veranstaltung><thema>Pharmakologie mit der
-      Arzneiverordnungslehre</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 3-4 U.</zeit>, <modus>privatim</modus>, <ort>im
-      Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
+      Arzneiverordnungslehre</thema>: <dozent ref="boehm_r"><grad>D.
+      med.</grad> <nachname>Boehm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit. 3-4 U.</zeit>,
+      <modus>privatim</modus>, <ort>im Pharmakolog. Institut, Liebigstr.
+      10</ort>.</veranstaltung>
 
       <veranstaltung><thema>Praktische Übungen in der mikroskopischen Unter-
       suchung ofiizineller Drogen und Pflanzenpulver (Pharmakognostisches
-      Praktikum)</thema>: <dozent><grad>D<korrektur>.</korrektur> med.</grad>
+      Praktikum)</thema>: <dozent
+      ref="boehm_r"><grad>D<korrektur>.</korrektur> med.</grad>
       <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. bis Freit. 10-12 U.</zeit>, <modus>privatim</modus>,
       <ort>im Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
 
       <veranstaltung><thema>Experimentelle Arbeiten <ort>im Pharmakologischen
-      Institut (Liebigstr. 10)</ort> für Fortgeschrittenere</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Boehm</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>tägl., ganztägig</zeit>,
+      Institut (Liebigstr. 10)</ort> für Fortgeschrittenere</thema>: <dozent
+      ref="boehm_r"><grad>D. med.</grad> <nachname>Boehm</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>tägl., ganztägig</zeit>,
       <modus>privatissime</modus>, sed
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1678,10 +1680,10 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
       Medizinisch-poliklinischen Institut, Nürnberger Str.
       55</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Geburtshilfe mit Übungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 4-5
-      U.</zeit>, <modus>privatim</modus>,<ort> Funkenburgstr. 9.
+      <veranstaltung><thema>Geburtshilfe mit Übungen</thema>: <dozent
+      ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      4-5 U.</zeit>, <modus>privatim</modus>,<ort> Funkenburgstr. 9.
       Eg.</ort></veranstaltung>
 
       <veranstaltung><thema>Gynäkologische Propädeutik und Akiurgie, mit
@@ -1697,9 +1699,9 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
       Königsstr. 14</ort>.</veranstaltung>
 
       <veranstaltung><thema>Frauenkrankheiten, mit Demonstrationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 9-10 U.
-      Vorm.</zeit>, <modus>publice</modus>, <ort>Funkenburgstr. 9.
+      <dozent ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      9-10 U. Vorm.</zeit>, <modus>publice</modus>, <ort>Funkenburgstr. 9.
       Eg.</ort></veranstaltung>
 
       <trennlinie/>
@@ -2315,7 +2317,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         Fakultät B. d.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-        <dozent><funktion>Lektor</funktion>
+        <dozent ref="monod_g"><funktion>Lektor</funktion>
         <nachname>Monod</nachname></dozent>. <siehe>Siehe Philosophische
         Fakultät B. d.</siehe></veranstaltungsverweis>
 
@@ -2336,10 +2338,10 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         <titel>A. Philosophie.</titel>
 
         <veranstaltung><thema>Einleitung in die Philosophie und Logik</thema>:
-        <dozent><grad>D. ph. et th.</grad> <vorname>M.</vorname>
-        <nachname>Heinze</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="heinze_m"><grad>D. ph. et th.</grad>
+        <vorname>M.</vorname> <nachname>Heinze</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Das Denken der vorhellenischen Kulturvölker des
         Altertums (Ägypter, Babylonier, Juden)</thema>: <dozent><grad>D. ph.
@@ -2530,15 +2532,15 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
 
         <veranstaltungsgruppe><thema>Philosophisches Seminar</thema>:
         <veranstaltung>1) <thema>Besprechung erkenntnistheoretischer Fragen
-        und schriftliche Arbeiten</thema>: <dozent><grad>D. ph. et th.</grad>
-        <vorname>M.</vorname> <nachname>Heinze</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mittw. 9-10 U. Vorm.</zeit>,
-        <modus>publice</modus>.</veranstaltung> - <veranstaltung>2)
-        <thema>Erklärung von Descartes, De passionibus animae, mit
-        schriftlichen Arbeiten</thema>: <dozent ref="barth_pee"><grad>D.
-        ph.</grad> <vorname>P.</vorname> <nachname>Barth</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Dienst. 8 bis 9½ U.
-        Ab.</zeit>,
+        und schriftliche Arbeiten</thema>: <dozent ref="heinze_m"><grad>D. ph.
+        et th.</grad> <vorname>M.</vorname> <nachname>Heinze</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 9-10 U.
+        Vorm.</zeit>, <modus>publice</modus>.</veranstaltung> -
+        <veranstaltung>2) <thema>Erklärung von Descartes, De passionibus
+        animae, mit schriftlichen Arbeiten</thema>: <dozent
+        ref="barth_pee"><grad>D. ph.</grad> <vorname>P.</vorname>
+        <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst. 8 bis 9½ U. Ab.</zeit>,
         <modus>privatissime</modus>.</veranstaltung></veranstaltungsgruppe>
 
         <veranstaltung><thema>Philosophisch-pädagogisches Seminar: Goethes
@@ -2607,7 +2609,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         d.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-        <dozent><funktion>Lektor</funktion>
+        <dozent ref="monod_g"><funktion>Lektor</funktion>
         <nachname>Monod</nachname></dozent>. <siehe>Siehe Abschnitt B.
         d.</siehe></veranstaltungsverweis>
 
@@ -2731,7 +2733,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         neuere Philologie (d).</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-        <dozent><funktion>Lektor</funktion>
+        <dozent ref="monod_g"><funktion>Lektor</funktion>
         <nachname>Monod</nachname></dozent>. <siehe>Siehe Abschnitt über
         neuere Philologie (d).</siehe></veranstaltungsverweis>
 
@@ -2777,10 +2779,10 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der römischen Litteratur in
-          republikanischer Zeit</thema>: <dozent><grad>D. ph.</grad>
-          <vorname>R.</vorname> <nachname>Heinze</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
-          5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          republikanischer Zeit</thema>: <dozent ref="heinze_r"><grad>D.
+          ph.</grad> <vorname>R.</vorname> <nachname>Heinze</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
+          u. Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Catull, Tibull, Properz</thema>: <dozent
           ref="bethe_e"><grad>D. ph.</grad> <nachname>Bethe</nachname>,
@@ -2852,23 +2854,23 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
           <seite>32</seite>
 
           <veranstaltungsgruppe><thema>Philologisches Proseminar</thema>
-          (<ort>Bornerianum II</ort>): <veranstaltung>1) <dozent><grad>D.
-          ph.</grad> <vorname>R.</vorname> <nachname>Heinze</nachname>,
-          <funktion>P. O.</funktion></dozent>: <thema>Abt. A. (für Anfänger):
-          Lysias</thema>, <zeit>Freit. 6-8 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung> - <veranstaltung>2) <dozent
-          ref="bethe_e"><grad>D. ph.</grad> <nachname>Bethe</nachname>,
-          <funktion>P. O.</funktion></dozent>: <thema>Abt. B. (für
-          Vorgeschrittene): Interpretation von Platons Gorgias und
-          schriftliche Arbeiten</thema>, <zeit>Mont. 6-8 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung> - <veranstaltung>3)
-          <dozent><grad>D. ph.</grad> <nachname>Martini</nachname>,
-          <funktion>P. E.</funktion></dozent>: <thema>Abt. C.: Griechische
-          Stilübungen</thema>, <zeit>Dienst. 8-10 U. Ab.</zeit>,
-          <modus>publice</modus>.</veranstaltung> - <veranstaltung>4)
-          <dozent><funktion>Assistent</funktion> <grad>D. ph.</grad>
-          <nachname>Meister</nachname></dozent>: <thema>Abt. Lateinische
-          Stilübungen</thema>, <zeit>Mittw. 11-1 U.</zeit>,
+          (<ort>Bornerianum II</ort>): <veranstaltung>1) <dozent
+          ref="heinze_r"><grad>D. ph.</grad> <vorname>R.</vorname>
+          <nachname>Heinze</nachname>, <funktion>P. O.</funktion></dozent>:
+          <thema>Abt. A. (für Anfänger): Lysias</thema>, <zeit>Freit. 6-8
+          U.</zeit>, <modus>publice</modus>.</veranstaltung> -
+          <veranstaltung>2) <dozent ref="bethe_e"><grad>D. ph.</grad>
+          <nachname>Bethe</nachname>, <funktion>P. O.</funktion></dozent>:
+          <thema>Abt. B. (für Vorgeschrittene): Interpretation von Platons
+          Gorgias und schriftliche Arbeiten</thema>, <zeit>Mont. 6-8
+          U.</zeit>, <modus>publice</modus>.</veranstaltung> -
+          <veranstaltung>3) <dozent><grad>D. ph.</grad>
+          <nachname>Martini</nachname>, <funktion>P. E.</funktion></dozent>:
+          <thema>Abt. C.: Griechische Stilübungen</thema>, <zeit>Dienst. 8-10
+          U. Ab.</zeit>, <modus>publice</modus>.</veranstaltung> -
+          <veranstaltung>4) <dozent><funktion>Assistent</funktion> <grad>D.
+          ph.</grad> <nachname>Meister</nachname></dozent>: <thema>Abt.
+          Lateinische Stilübungen</thema>, <zeit>Mittw. 11-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung><thema>Übungen im Indogermanischen Institut
@@ -3458,9 +3460,10 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Le Roman naturaliste après Balzac</thema>:
-          <dozent><funktion>Lektor</funktion> <vorname>Gaston</vorname>
-          <nachname>Monod</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
-          U.</zeit>, <modus>privatim</modus>. .</veranstaltung>
+          <dozent ref="monod_g"><funktion>Lektor</funktion>
+          <vorname>Gaston</vorname> <nachname>Monod</nachname></dozent>,
+          <zeit>Dienst. u. Freit. 6-7 U.</zeit>, <modus>privatim</modus>.
+          .</veranstaltung>
 
           <veranstaltung><thema>Die schwierigsten Kapitel der neufranzösischen
           Syntax mit besonderer Rücksicht auf die Schulpraxis</thema>:
@@ -3575,10 +3578,10 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
 
           <veranstaltung><thema>Exercices pratiques de français
           (Prononciation, Lecture, Conversation) für Studierende aller
-          Fakultäten</thema>: <dozent><funktion>Lektor</funktion>
-          <vorname>Gaston</vorname> <nachname>Monod</nachname></dozent>,
-          <zeit>Mont. u. Mittw. 6-7 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          Fakultäten</thema>: <dozent
+          ref="monod_g"><funktion>Lektor</funktion> <vorname>Gaston</vorname>
+          <nachname>Monod</nachname></dozent>, <zeit>Mont. u. Mittw. 6-7
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Institut für rumänische Sprache (<ort>Querstr.
           5. III.</ort>): Interpretation altrumänischer Texte</thema>:
@@ -3606,7 +3609,8 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
           <veranstaltungsverweis><thema>Übungen zur französ. Kulturgeschichte:
           Die großen Historiker des 19. Jahrh. auf der Grundlage der
           gleichzeit. Kulturentwicklung (im Institut f. Kultur- u.
-          Universalgeschichte)</thema>: <dozent><funktion>Lektor</funktion>
+          Universalgeschichte)</thema>: <dozent
+          ref="monod_g"><funktion>Lektor</funktion>
           <nachname>Monod</nachname></dozent>. <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
         </sachgruppe>
@@ -3784,7 +3788,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Spezielle Wirtschaftsgeographie von
-        Amerika</thema>: <dozent><grad>D. ph.</grad>
+        Amerika</thema>: <dozent ref="friedrich_e"><grad>D. ph.</grad>
         <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mittw. u. Donnerst. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -4052,15 +4056,15 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
           <nachname>Mogk</nachname>, <funktion>P. E.</funktion></dozent>:
           <thema>Volkskundliche Übungen auf Grund deutscher
           Kirchenvisitationsakten</thema>, <zeit>Freit. ½8-9 U.
-          Ab.</zeit></veranstaltung> - <veranstaltung>2) <dozent><grad>D.
-          ph.</grad> <nachname>Goldfriedrich</nachname></dozent>:
-          <thema>Übungen. zur deutschen Kulturgeschichte des 17. und 18.
-          Jahrhunderts</thema>, <zeit>Mittw. ½9-10 U.
-          Ab.</zeit></veranstaltung> - <veranstaltung>3)
-          <dozent><funktion>Lektor</funktion> <vorname>Gaston</vorname>
-          <nachname>Monod</nachname></dozent>: <thema>Übungen zur
-          französischen Kulturgeschichte: Die großen Historiker des 19.
-          Jahrhunderts auf der Grundlage der gleichzeitigen
+          Ab.</zeit></veranstaltung> - <veranstaltung>2) <dozent
+          ref="goldfriedrich_j"><grad>D. ph.</grad>
+          <nachname>Goldfriedrich</nachname></dozent>: <thema>Übungen. zur
+          deutschen Kulturgeschichte des 17. und 18. Jahrhunderts</thema>,
+          <zeit>Mittw. ½9-10 U. Ab.</zeit></veranstaltung> - <veranstaltung>3)
+          <dozent ref="monod_g"><funktion>Lektor</funktion>
+          <vorname>Gaston</vorname> <nachname>Monod</nachname></dozent>:
+          <thema>Übungen zur französischen Kulturgeschichte: Die großen
+          Historiker des 19. Jahrhunderts auf der Grundlage der gleichzeitigen
           Kulturentwicklung</thema>, <seite>43</seite> <zeit>Mittw. 10-11½
           U.</zeit></veranstaltung> - <veranstaltung>4) <dozent
           ref="conrady_a"><grad>D. ph.</grad> <nachname>Conrady</nachname>,
@@ -4156,7 +4160,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
           d.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Exercices pratiques de
-          français</thema>: <dozent><funktion>Lektor</funktion>
+          français</thema>: <dozent ref="monod_g"><funktion>Lektor</funktion>
           <nachname>Monod</nachname></dozent>. <siehe>Siehe Abschnitt B.
           d.</siehe></veranstaltungsverweis>
 
@@ -4183,7 +4187,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
           <zeit>Freit. 4-5 U.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
-          <veranstaltungsgruppe><dozent><grad>D. ph.</grad>
+          <veranstaltungsgruppe><dozent ref="friedrich_e"><grad>D. ph.</grad>
           <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>:
           <thema>Übungen für die Studierenden der Handelshochschule</thema>:
           <veranstaltung>1) <thema>für Anfänger: Das Wichtigste aus der
@@ -4787,7 +4791,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Spezielle Wirtschaftsgeographie von
-        Amerika</thema>: <dozent><grad>D. ph.</grad>
+        Amerika</thema>: <dozent ref="friedrich_e"><grad>D. ph.</grad>
         <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
@@ -5078,8 +5082,8 @@ nnicht wie ich das auszeichnen sollte?
 
         <veranstaltungsverweis><thema>Das Wichtigste aus der physischen
         Geographie als Grundlage der Wirtschaft und Wiederholungskursus der
-        Länderkunde (für Studierende der Handelshochschule)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Friedrich</nachname>,
+        Länderkunde (für Studierende der Handelshochschule)</thema>: <dozent
+        ref="friedrich_e"><grad>D. ph.</grad> <nachname>Friedrich</nachname>,
         <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
         C.</siehe></veranstaltungsverweis>
 
@@ -5094,7 +5098,7 @@ nnicht wie ich das auszeichnen sollte?
         d.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-        <dozent><funktion>Lektor</funktion>
+        <dozent ref="monod_g"><funktion>Lektor</funktion>
         <nachname>Monod</nachname></dozent>. <siehe>Siehe Abschnitt B.
         d.</siehe></veranstaltungsverweis>
 
@@ -5158,10 +5162,11 @@ nnicht wie ich das auszeichnen sollte?
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Theorie der Funktionen einer
-        komplexen Veränderlichen</thema>: <dozent><grad>D. ph. et scient.
-        nat.</grad> <vorname>O.</vorname> <nachname>Hölder</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Freit. 10-11
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        komplexen Veränderlichen</thema>: <dozent ref="hoelder_o"><grad>D. ph.
+        et scient. nat.</grad> <vorname>O.</vorname>
+        <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Dienst. bis Freit. 10-11 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Gewöhnliche Differentialgleichungen</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
@@ -5169,10 +5174,10 @@ nnicht wie ich das auszeichnen sollte?
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Höhere Algebra, insbesondere Galois'sche Theorie
-        der Gleichungen</thema>: <dozent><grad>D. ph. et scient. nat.</grad>
-        <vorname>O.</vorname> <nachname>Hölder</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst. 8-9
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        der Gleichungen</thema>: <dozent ref="hoelder_o"><grad>D. ph. et
+        scient. nat.</grad> <vorname>O.</vorname> <nachname>Hölder</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst.
+        8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Zahlentheorie</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Hausdorff</nachname>, <funktion>P.
@@ -5227,11 +5232,11 @@ nnicht wie ich das auszeichnen sollte?
         <veranstaltung>1) <dozent><grad>D. ph.</grad>
         <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Sonnab. 10-11 U.</zeit>, <modus>privatissime</modus> et
-        <gebühr>gratis</gebühr>.</veranstaltung> <veranstaltung>2)
-        <dozent><grad>D. ph. et scient. nat.</grad> <vorname>O.</vorname>
-        <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>:
-        <thema>Übungen in Funktionentheorie</thema>, <zeit>Sonnab. 8-9
-        U.</zeit>, <modus>privatissime</modus> et
+        <gebühr>gratis</gebühr>.</veranstaltung> <veranstaltung>2) <dozent
+        ref="hoelder_o"><grad>D. ph. et scient. nat.</grad>
+        <vorname>O.</vorname> <nachname>Hölder</nachname>, <funktion>P.
+        O.</funktion></dozent>: <thema>Übungen in Funktionentheorie</thema>,
+        <zeit>Sonnab. 8-9 U.</zeit>, <modus>privatissime</modus> et
         <gebühr>gratis</gebühr>.</veranstaltung> <veranstaltung>3)
         <dozent><grad>D. ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
         O.</funktion></dozent>: <thema>Übungen zur Analytischen
@@ -5308,9 +5313,10 @@ nnicht wie ich das auszeichnen sollte?
         Institut, Linnéstr. 5</ort>.</veranstaltung>
 
         <veranstaltung><thema>Über zeichnerische Darstellung magnetischer und
-        elektrischer Felder</thema>: <dozent><grad>D. ph.</grad>
-        <nachnamenpräfix>von</nachnamenpräfix> <nachname>Oettingen</nachname>,
-        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Dienst. 6-7 U.</zeit>,
+        elektrischer Felder</thema>: <dozent ref="oettingen_aj"><grad>D.
+        ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+        <nachname>Oettingen</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>Dienst. 6-7 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einleitung in die theoretische Physik</thema>:
@@ -5471,10 +5477,11 @@ nnicht wie ich das auszeichnen sollte?
         Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung><thema>Pharmakologie mit der
-        Arzneiverordnungslehre</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. bis Freit. 3-4 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
+        Arzneiverordnungslehre</thema>: <dozent ref="boehm_r"><grad>D.
+        med.</grad> <nachname>Boehm</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont. bis Freit. 3-4 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Pharmakolog. Institut, Liebigstr.
+        10</ort>.</veranstaltung>
 
         <veranstaltung><thema>Grundzüge der Physiologie des Menschen</thema>:
         <dozent ref="bruecke_et"><grad>D. med.</grad>
@@ -5694,7 +5701,7 @@ nnicht wie ich das auszeichnen sollte?
         <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Spezielle Wirtschaftsgeographie von
-        Amerika</thema>: <dozent><grad>D. ph.</grad>
+        Amerika</thema>: <dozent ref="friedrich_e"><grad>D. ph.</grad>
         <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
@@ -5902,14 +5909,15 @@ nnicht wie ich das auszeichnen sollte?
 
         <veranstaltung><thema>Praktische Übungen in der mikroskopisohen
         Untersuchung offizineller Drogen- und Pflanzenpulver
-        (Pharmakognostisches Praktikum)</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Dienst. bis Freit. 10-12 U.</zeit>, <modus>privatim</modus>,
-        <ort>im Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
+        (Pharmakognostisches Praktikum)</thema>: <dozent
+        ref="boehm_r"><grad>D. med.</grad> <nachname>Boehm</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Freit. 10-12
+        U.</zeit>, <modus>privatim</modus>, <ort>im Pharmakolog. Institut,
+        Liebigstr. 10</ort>.</veranstaltung>
 
         <veranstaltung><thema>Experimentelle Arbeiten <ort>im
         Pharmakologischen Institut (Liebigstr. 10)</ort> für
-        Fortgeschrittenere</thema>: <dozent><grad>D. med.</grad>
+        Fortgeschrittenere</thema>: <dozent ref="boehm_r"><grad>D. med.</grad>
         <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>täglich ganztägig</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -6051,7 +6059,7 @@ nnicht wie ich das auszeichnen sollte?
         d.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-        <dozent><funktion>Lektor</funktion>
+        <dozent ref="monod_g"><funktion>Lektor</funktion>
         <nachname>Monod</nachname></dozent>. <siehe>Siehe Abschnitt B.
         d.</siehe></veranstaltungsverweis>
 

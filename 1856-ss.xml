@@ -708,10 +708,10 @@
       <zeit>4 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Mathematische Theorie der Elasticität, <notiz
-      betreff="fortsetzung">(Forts.)</notiz></thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Hankel</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u. Donn.)</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      betreff="fortsetzung">(Forts.)</notiz></thema>: <dozent
+      ref="hankel_wg"><grad>D. ph.</grad> <nachname>Hankel</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u.
+      Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Mathematisch-physikalische Lehrübungen</thema>:
       <dozent ref="marbach_go"><grad>D. ph.</grad>
@@ -727,7 +727,7 @@
         <titel>I. Physik und Chemie.</titel>
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">1.
-        Th.</notiz></thema>: <dozent><grad>D. ph.</grad>
+        Th.</notiz></thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 6 T.</zeit></veranstaltung>
 
@@ -743,7 +743,7 @@
         <siehe>s. Math. Wiss.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Mathematische Theorie der
-        Elasticität</thema>: <dozent><grad>D. ph.</grad>
+        Elasticität</thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <siehe>s. mathemat. Wiss.</siehe></veranstaltungsverweis>
 
@@ -803,13 +803,13 @@
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen im physikalischen Seminar</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>3-5 U.
-          Dienst.</zeit></veranstaltung>
+          <dozent ref="hankel_wg"><grad>D. ph.</grad>
+          <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>3-5 U. Dienst.</zeit></veranstaltung>
 
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
-          <dozent><funktion>Professor</funktion> <grad>D.</grad>
-          <nachname>Hankel</nachname></dozent>, <dozent
+          <dozent ref="hankel_wg"><funktion>Professor</funktion>
+          <grad>D.</grad> <nachname>Hankel</nachname></dozent>, <dozent
           ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
           sen.</dozent> u. <dozent ref="weber_ef"><grad>D.</grad>
           <nachname>Weber</nachname> jun.</dozent>, <zeit>2 U.
@@ -1434,10 +1434,10 @@
 
         <veranstaltung><thema>Theorie des sächsischen Criminalprocesses, wie
         sich derselbe nach der neuesten Gesetzgebung gestaltet</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        Prim., Fac. Jurid. Ord.</funktion>, d. Z.
-        <funktion>Dech.</funktion></dozent>, <zeit>11 U. 6
-        T.</zeit></veranstaltung>
+        <dozent ref="guenther_kf"><grad>D.</grad>
+        <nachname>Günther</nachname>, <funktion>P. Prim., Fac. Jurid.
+        Ord.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>11
+        U. 6 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1638,7 +1638,7 @@
 
         <veranstaltung><thema>Physikalisch-chemische und physiologische
         Uebungen <ort>im physiologischen Institute</ort></thema> von den
-        Professoren <dozent><grad>D.</grad>
+        Professoren <dozent ref="hankel_wg"><grad>D.</grad>
         <nachname>Hankel</nachname></dozent>, <dozent
         ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
         sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
@@ -1755,7 +1755,7 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber Frauenkrankheiten und Streitfragen der
-        Geburtshilfe</thema>: <dozent><grad>D.</grad>
+        Geburtshilfe</thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <zeit>4 U. Mont. u.
         Donn.</zeit></veranstaltung>
 
@@ -1772,20 +1772,21 @@
         <siehe>s. Geburtshilfe</siehe>.</veranstaltungsverweis>
 
         <veranstaltung><thema>Repetitorien über Kinderkrankheiten</thema>:
-        <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <zeit>in
-        zu best. St. u. T.</zeit> <modus>privatissime</modus>.</veranstaltung>
+        <dozent ref="hennig_c"><grad>D.</grad>
+        <nachname>Hennig</nachname></dozent>, <zeit>in zu best. St. u.
+        T.</zeit> <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
         <titel>VIII. Chirurgie.</titel>
 
         <veranstaltung><thema>Chirurgie <notiz betreff="fortsetzung">2.
-        Theil</notiz></thema>: <dozent><grad>D.</grad>
+        Theil</notiz></thema>: <dozent ref="guenther_gb"><grad>D.</grad>
         <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber Prolapsus und Hernien</thema>:
-        <ders>Derselbe</ders>, <zeit>in zu best. St.</zeit>
+        <veranstaltung><thema>Ueber Prolapsus und Hernien</thema>: <ders
+        ref="guenther_gb">Derselbe</ders>, <zeit>in zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber die chirurgischen Krankheiten der Brust
@@ -1795,9 +1796,10 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Operationscursus am Leichnam</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>3-5 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Operationscursus am Leichnam</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>3-5 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Verbandlehre</thema>: <dozent
         ref="francke_kg"><grad>D.</grad> <nachname>Francke</nachname>,
@@ -1867,7 +1869,7 @@
         T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Ueber Streitfragen der
-        Geburtshilfe</thema>: <dozent><grad>D.</grad>
+        Geburtshilfe</thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <siehe>s. spec.
         Pathologie</siehe>.</veranstaltungsverweis>
 
@@ -1900,9 +1902,10 @@
         O.</funktion></dozent>, <zeit>2 U. 5 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Poliklinik für Kinder, <ort>im Vordergebäude des
-        Trierschen Institutes</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Hennig</nachname></dozent>, <zeit> Mittw. 2 U. u. Sonnt. 11
-        U.</zeit>, <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        Trierschen Institutes</ort></thema>: <dozent
+        ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname></dozent>,
+        <zeit> Mittw. 2 U. u. Sonnt. 11 U.</zeit>,
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <seite>21</seite>
 
@@ -1911,9 +1914,10 @@
         <nachname>Weber</nachname></dozent>, <zeit>7 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Klinik <ort>im
-        Jacobshospital</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>9½-11 U. 6 T.</zeit></veranstaltung>
+        Jacobshospital</ort></thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9½-11 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>:
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.

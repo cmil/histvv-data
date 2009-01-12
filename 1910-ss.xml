@@ -706,9 +706,9 @@
       Fakultät D.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-      <dozent><grad>Lektor</grad> <nachname>Monod</nachname></dozent>.
-      <siehe>Siehe Philosophische Fakultät B.
-      d.</siehe></veranstaltungsverweis>
+      <dozent ref="monod_g"><grad>Lektor</grad>
+      <nachname>Monod</nachname></dozent>. <siehe>Siehe Philosophische
+      Fakultät B. d.</siehe></veranstaltungsverweis>
     </sachgruppe>
 
     <trennlinie/>
@@ -725,7 +725,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Römische Rechtsgeschichte mit Einschluß des
-      Zivilprozesses</thema>: <dozent><grad>D. jur.</grad>
+      Zivilprozesses</thema>: <dozent ref="hoelder_e"><grad>D. jur.</grad>
       <vorname>E.</vorname> <nachname>Hölder</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -786,7 +786,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches bürgerliches Recht
-      (Familienrecht)</thema>: <dozent><grad>D. jur.</grad>
+      (Familienrecht)</thema>: <dozent ref="hoelder_e"><grad>D. jur.</grad>
       <vorname>E.</vorname> <nachname>Hölder</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Freit. 11-1 u. Sonnab. 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -894,9 +894,10 @@
       <trennlinie/>
 
       <veranstaltung><thema>Pandekten-Exegese mit schriftlichen
-      Arbeiten</thema>: <dozent><grad>D. jur.</grad> <vorname>E.</vorname>
-      <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Freit. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Arbeiten</thema>: <dozent ref="hoelder_e"><grad>D. jur.</grad>
+      <vorname>E.</vorname> <nachname>Hölder</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Freit. 5-7 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Erklärung von Papyrusurkunden juristischen
       Inhalts</thema>: <dozent><grad>D. jur.</grad>
@@ -1003,9 +1004,9 @@
       Philosophische Fakultät C.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Allgemeine Wirtschaftsgeographie</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Friedrich</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
-      C.</siehe></veranstaltungsverweis>
+      <dozent ref="friedrich_e"><grad>D. ph.</grad>
+      <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>
+      <siehe>Siehe Philosophische Fakultät C.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Deutschlands Eisenindustrie</thema>:
       <dozent><grad>D. ph.</grad> <nachname>Rinne</nachname>, <funktion>P.
@@ -1174,9 +1175,9 @@
       Fakultät D.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-      <dozent><grad>Lektor</grad> <nachname>Monod</nachname></dozent>.
-      <siehe>Siehe Philosophische Fakultät B.
-      d.</siehe></veranstaltungsverweis>
+      <dozent ref="monod_g"><grad>Lektor</grad>
+      <nachname>Monod</nachname></dozent>. <siehe>Siehe Philosophische
+      Fakultät B. d.</siehe></veranstaltungsverweis>
     </sachgruppe>
 
     <trennlinie/>
@@ -1796,10 +1797,10 @@
       Medizinisch-poliklinischen Institut, Nürnberger Str.
       55</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Geburtshilfe mit Übungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 4-5
-      U.</zeit>, <modus>privatim</modus>, <ort>Funkenburgstr. 9.
+      <veranstaltung><thema>Geburtshilfe mit Übungen</thema>: <dozent
+      ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      4-5 U.</zeit>, <modus>privatim</modus>, <ort>Funkenburgstr. 9.
       Eg.</ort></veranstaltung>
 
       <veranstaltung><thema>Gynäkologische Diagnostik</thema>:
@@ -1808,10 +1809,10 @@
       Privatpoliklinik, Königsstr. 14</ort>.</veranstaltung>
 
       <veranstaltung><thema>Frauenkrankheiten, mit Demonstrationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 9-10
-      U.</zeit>, <modus>publice</modus>, <ort>in der Wohnung, Funkenburgstr.
-      9. Eg.</ort></veranstaltung>
+      <dozent ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      9-10 U.</zeit>, <modus>publice</modus>, <ort>in der Wohnung,
+      Funkenburgstr. 9. Eg.</ort></veranstaltung>
 
       <trennlinie/>
 
@@ -2445,9 +2446,9 @@
         <siehe>Siehe Theologische Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-        <dozent><grad>Lektor</grad> <nachname>Monod</nachname></dozent>.
-        <siehe>Siehe Philosophische Fakultät B.
-        d.</siehe></veranstaltungsverweis>
+        <dozent ref="monod_g"><grad>Lektor</grad>
+        <nachname>Monod</nachname></dozent>. <siehe>Siehe Philosophische
+        Fakultät B. d.</siehe></veranstaltungsverweis>
 
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Praktische Kurse
         in rednerischer Stimmbildung und Vortragskunst, in gesanglicher
@@ -2729,8 +2730,9 @@
         <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-        <dozent><grad>Lektor</grad> <nachname>Monod</nachname></dozent>.
-        <siehe>Siehe Abschnitt B. d.</siehe></veranstaltungsverweis>
+        <dozent ref="monod_g"><grad>Lektor</grad>
+        <nachname>Monod</nachname></dozent>. <siehe>Siehe Abschnitt B.
+        d.</siehe></veranstaltungsverweis>
 
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Praktische Kurse
         in rednerischer Stimmbildung und Vortragskunst, in gesanglicher
@@ -3508,7 +3510,8 @@ Deswegen bitte hier so stehen lassen.-->
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Le mouvement dramatique en France pendant la
-          2ième moitié du XIXième siècle</thema>: <dozent><grad>Lektor</grad>
+          2ième moitié du XIXième siècle</thema>: <dozent
+          ref="monod_g"><grad>Lektor</grad>
           <nachname>Monod</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3586,17 +3589,17 @@ Deswegen bitte hier so stehen lassen.-->
           8-9½ U. Ab.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr></veranstaltung>. -
           <veranstaltungsgruppe><thema>II. Abteilung: Praktische Übungen im
-          modernen Französisch</thema> <dozent>unter Leitung des Assistenten
-          <grad>Lektor</grad>s <nachname>Monod</nachname></dozent>:
-          <veranstaltung><thema>1. Sektion</thema>: <zeit>Mittw. 11¼-12¾
-          U.</zeit></veranstaltung>; <veranstaltung><thema>2. Sektion</thema>:
-          <zeit>Dienst. u. Freit. 3-4 U.</zeit></veranstaltung>,
-          <modus>privatissime</modus>, aber
+          modernen Französisch</thema> <dozent ref="monod_g">unter Leitung des
+          Assistenten <grad>Lektor</grad>s
+          <nachname>Monod</nachname></dozent>: <veranstaltung><thema>1.
+          Sektion</thema>: <zeit>Mittw. 11¼-12¾ U.</zeit></veranstaltung>;
+          <veranstaltung><thema>2. Sektion</thema>: <zeit>Dienst. u. Freit.
+          3-4 U.</zeit></veranstaltung>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr></veranstaltungsgruppe>.</veranstaltungsgruppe>
 
           <veranstaltung><thema>Exercices pratiques de français
           (Prononciation. Lecture. Conversation), für Studierende aller
-          Fakultäten</thema>: <dozent><grad>Lektor</grad>
+          Fakultäten</thema>: <dozent ref="monod_g"><grad>Lektor</grad>
           <nachname>Monod</nachname></dozent>, <zeit>Mittw. u. Donnerst. 6-7
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3802,9 +3805,10 @@ Deswegen bitte hier so stehen lassen.-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Wirtschaftsgeographie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Friedrich</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
-        u. Freit. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="friedrich_e"><grad>D. ph.</grad>
+        <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. u. Freit. 6-7 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die deutschen Kolonien: Land und Leute und ihre
         Kultur. Mit Demonstrationen und Rundgängen im Völkermuseum
@@ -4112,12 +4116,13 @@ werden!!!-->
               Geschichte des Mittelalters</thema>, <zeit>Sonnab. 11-12½
               U.</zeit></veranstaltung>
 
-              <veranstaltung>3) <dozent><grad>D. ph.</grad>
-              <nachname>Goldfriedrich</nachname></dozent>: <thema>Übungen zur
-              Geschichte der Unterdrückungs- und Gängelungsversuche des
-              deutschen Geisteslebens vom 15. zum 18. Jahrh. (Indices librorum
-              prohibitorum, staatliche Bücherzensur)</thema>, <zeit>Mittw.
-              8-9½ U. Ab.</zeit></veranstaltung>
+              <veranstaltung>3) <dozent ref="goldfriedrich_j"><grad>D.
+              ph.</grad> <nachname>Goldfriedrich</nachname></dozent>:
+              <thema>Übungen zur Geschichte der Unterdrückungs- und
+              Gängelungsversuche des deutschen Geisteslebens vom 15. zum 18.
+              Jahrh. (Indices librorum prohibitorum, staatliche
+              Bücherzensur)</thema>, <zeit>Mittw. 8-9½ U.
+              Ab.</zeit></veranstaltung>
 
               <veranstaltung>4) <dozent ref="biermann_ew"><grad>D. ph.</grad>
               <nachname>Biermann</nachname></dozent>: <thema>Übungen zur
@@ -4125,7 +4130,7 @@ werden!!!-->
               die sozialen Theorien und Parteien</thema>, <zeit>Donnerst. 7½-9
               U. Ab.</zeit></veranstaltung>
 
-              <veranstaltung>5) <dozent><grad>Lektor</grad>
+              <veranstaltung>5) <dozent ref="monod_g"><grad>Lektor</grad>
               <nachname>Monod</nachname></dozent>: <thema>Übungen zur
               französischen Kulturgeschichte: Die großen Historiker und die
               Auffassung der Geschichte in Frankreich im 17. u. 18.
@@ -4244,7 +4249,7 @@ werden!!!-->
           <seite>43</seite>
 
           <veranstaltungsverweis><thema>Exercices pratiques de
-          français</thema>: <dozent><grad>Lektor</grad>
+          français</thema>: <dozent ref="monod_g"><grad>Lektor</grad>
           <nachname>Monod</nachname></dozent>. <siehe>Siehe Abschnitt B.
           d.</siehe></veranstaltungsverweis>
 
@@ -4271,7 +4276,7 @@ werden!!!-->
           des Assistenten)</thema>, <zeit>Freit. 4-5 U.</zeit>,
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
-          <veranstaltungsgruppe><dozent><grad>D. ph.</grad>
+          <veranstaltungsgruppe><dozent ref="friedrich_e"><grad>D. ph.</grad>
           <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>:
           <thema>Übungen für die Studierenden der Handelshochschule</thema>:
           <veranstaltung>1) <thema>Für Anfänger: Das Wichtigste aus der
@@ -4490,7 +4495,8 @@ werden!!!-->
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Das duale Harmoniesystem</thema>:
-          <dozent><grad>D. ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+          <dozent ref="oettingen_aj"><grad>D. ph.</grad>
+          <nachnamenpräfix>von</nachnamenpräfix>
           <nachname>Oettingen</nachname>, <funktion>P. O.
           Hon.</funktion></dozent> <siehe>Siehe Abschnitt
           G.</siehe></veranstaltungsverweis>
@@ -4866,9 +4872,10 @@ ERGÄNZT den ersten Dozenten!-->
         Abschnitt C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Allgemeine
-        Wirtschaftsgeographie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
+        Wirtschaftsgeographie</thema>: <dozent ref="friedrich_e"><grad>D.
+        ph.</grad> <nachname>Friedrich</nachname>, <funktion>P.
+        E.</funktion></dozent> <siehe>Siehe Abschnitt
+        C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Chemische Technologie; Brenn- und
         Leuchtstoffe, sowie ausgewählte anorganische Betriebe; mit
@@ -5108,10 +5115,10 @@ Veranstaltungen bezogen werden!-->
 
           <veranstaltungsverweis><thema>Das Wichtigste aus der physischen
           Geographie als Grundlage der Wirtschaft und Wiederholungskursus der
-          Länderkunde (für Studierende der Handelshochschule)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Friedrich</nachname>,
-          <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
-          C.</siehe></veranstaltungsverweis>
+          Länderkunde (für Studierende der Handelshochschule)</thema>: <dozent
+          ref="friedrich_e"><grad>D. ph.</grad>
+          <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>
+          <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Ethnologisches Kolloquium</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Weule</nachname>, <funktion>P.
@@ -5125,7 +5132,7 @@ Veranstaltungen bezogen werden!-->
           <siehe>siehe Abschnitt G.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Exercices pratiques de
-          français</thema>: <dozent><grad>Lektor</grad>
+          français</thema>: <dozent ref="monod_g"><grad>Lektor</grad>
           <nachname>Monod</nachname></dozent>. <siehe>Siehe Abschnitt B.
           d.</siehe></veranstaltungsverweis>
 
@@ -5176,16 +5183,16 @@ Veranstaltungen bezogen werden!-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Anwendungen der elliptischen Funktionen</thema>:
-        <dozent><grad>D. ph. et scient. nat.</grad> <vorname>O.</vorname>
-        <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Dienst. u. Mittw. 10 bis 11 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="hoelder_o"><grad>D. ph. et scient. nat.</grad>
+        <vorname>O.</vorname> <nachname>Hölder</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont., Dienst. u. Mittw. 10 bis 11
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Elliptische Modulfunktionen</thema>:
-        <dozent><grad>D. ph. et scient. nat.</grad> <vorname>O.</vorname>
-        <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Donnerst., Freit. u. Sonnab. 10-11 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Elliptische Modulfunktionen</thema>: <dozent
+        ref="hoelder_o"><grad>D. ph. et scient. nat.</grad>
+        <vorname>O.</vorname> <nachname>Hölder</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Donnerst., Freit. u. Sonnab. 10-11
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ausgewählte Kapitel der Mechanik</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Herglotz</nachname>,
@@ -5244,10 +5251,11 @@ Veranstaltungen bezogen werden!-->
         <trennlinie/>
 
         <veranstaltungsgruppe><thema>Mathematisches Seminar</thema>:
-        <veranstaltung>1) <dozent><grad>D. ph. et scient. nat.</grad>
-        <vorname>O.</vorname> <nachname>Hölder</nachname>, <funktion>P.
-        O.</funktion></dozent>: <thema>Übungen für Vorgeschrittene</thema>,
-        <zeit>Freit. 3-5 U.</zeit>, <modus>privatissime</modus> et
+        <veranstaltung>1) <dozent ref="hoelder_o"><grad>D. ph. et scient.
+        nat.</grad> <vorname>O.</vorname> <nachname>Hölder</nachname>,
+        <funktion>P. O.</funktion></dozent>: <thema>Übungen für
+        Vorgeschrittene</thema>, <zeit>Freit. 3-5 U.</zeit>,
+        <modus>privatissime</modus> et
         <gebühr>gratis</gebühr></veranstaltung>. <veranstaltungsgruppe>2)
         <dozent><grad>D. ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
         O.</funktion></dozent>: <veranstaltung>a) <thema>Übungen zu den
@@ -5327,11 +5335,11 @@ Veranstaltungen bezogen werden!-->
 
         <seite>54</seite>
 
-        <veranstaltung><thema>Das duale Harmoniesystem</thema>:
-        <dozent><grad>D. ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
-        <nachname>Oettingen</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>Mont. u. Dienst. 6-7 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        <veranstaltung><thema>Das duale Harmoniesystem</thema>: <dozent
+        ref="oettingen_aj"><grad>D. ph.</grad>
+        <nachnamenpräfix>von</nachnamenpräfix> <nachname>Oettingen</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mont. u. Dienst. 6-7
+        U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Anwendungen der Vektor-Rechnung (Maxwell'sche u.
         Lorentz'sche Theorie)</thema>: <dozent><grad>D. ph.</grad>
@@ -6105,8 +6113,9 @@ Veranstaltungen bezogen werden!-->
         C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-        <dozent><grad>Lektor</grad> <nachname>Monod</nachname></dozent>.
-        <siehe>Siehe Abschnitt B. d.</siehe></veranstaltungsverweis>
+        <dozent ref="monod_g"><grad>Lektor</grad>
+        <nachname>Monod</nachname></dozent>. <siehe>Siehe Abschnitt B.
+        d.</siehe></veranstaltungsverweis>
 
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Praktische Kurse
         in rednerischer Stimmbildung und Vortragskunst, in gesanglicher

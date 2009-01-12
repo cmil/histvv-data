@@ -548,7 +548,7 @@
         <trennlinie/>
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">1.
-        Th.</notiz></thema>: <dozent><grad>D. ph.</grad>
+        Th.</notiz></thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 6 T.</zeit></veranstaltung>
 
@@ -558,8 +558,9 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Einige Abschnitte aus der Wärmelehre</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 U. Mont. u. Donn.</zeit>
+        <dozent ref="hankel_wg"><grad>D. ph.</grad>
+        <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>4 U. Mont. u. Donn.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
@@ -596,14 +597,14 @@
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen der physikalischen
-          Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
+          Gesellschaft</thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
           <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont. 5 U.</zeit></veranstaltung>
 
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
-          <ders>Derselbe</ders>, in Verbindung mit den Proff. DD. <dozent
-          ref="weber_eh"><vorname>E. H.</vorname><!--Weber--></dozent> und
-          <dozent ref="weber_eh"><vorname>E. F.</vorname>
+          <ders ref="hankel_wg">Derselbe</ders>, in Verbindung mit den Proff.
+          DD. <dozent ref="weber_eh"><vorname>E. H.</vorname><!--Weber--></dozent>
+          und <dozent ref="weber_eh"><vorname>E. F.</vorname>
           <nachname>Weber</nachname></dozent> und
           <dozent><nachname>Lehmann</nachname></dozent>, <zeit>3 T. in den
           best. St. u. T.</zeit><!--doppelte Prof-namen!--></veranstaltung>
@@ -1285,9 +1286,10 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Criminalproceß</thema>: <dozent><grad>D.</grad>
-        <nachname>Günther</nachname>, <funktion>P. Prim., Fac. Iur.
-        Ord.</funktion></dozent>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Criminalproceß</thema>: <dozent
+        ref="guenther_kf"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. Prim., Fac. Iur. Ord.</funktion></dozent>, <zeit>11 U. 4
+        T.</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -1344,9 +1346,9 @@
       <sachgruppe>
         <titel>VII. Concursrecht.</titel>
 
-        <veranstaltung><thema>Concursrecht und Concursproceß</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        Prim. Fac. Iur. Ordin.</funktion></dozent>, <zeit>11 U. 2
+        <veranstaltung><thema>Concursrecht und Concursproceß</thema>: <dozent
+        ref="guenther_kf"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. Prim. Fac. Iur. Ordin.</funktion></dozent>, <zeit>11 U. 2
         T.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -1513,7 +1515,7 @@
         <dozent ref="weber_ef"><grad>D.</grad> <vorname>Ed.</vorname>
         <nachname>Weber</nachname>, <funktion>P. E.</funktion></dozent>,
         <dozent><grad>D.</grad> <nachname>Lehmann</nachname>, <funktion>P.
-        E.</funktion></dozent> u. <dozent><grad>D.</grad>
+        E.</funktion></dozent> u. <dozent ref="hankel_wg"><grad>D.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>3 T. in den best. St.</zeit></veranstaltung>
 
@@ -1642,9 +1644,9 @@
 
         <veranstaltung><thema>Ueber die Krankheiten der weiblichen
         Sexualorgane <notiz betreff="fortsetzung">(Forts.)</notiz></thema>:
-        <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <zeit>2
-        T. in zu best. St.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <dozent ref="hennig_c"><grad>D.</grad>
+        <nachname>Hennig</nachname></dozent>, <zeit>2 T. in zu best.
+        St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Augenheilkunde als Einleit. in die
         Augenklinik</thema>: <dozent><grad>D.</grad>
@@ -1676,12 +1678,12 @@
         <titel>VIII. Chirurgie.</titel>
 
         <veranstaltung><thema>Spec. Chirurgie, <notiz betreff="fortsetzung">2.
-        Th.</notiz></thema>: <dozent><grad>D.</grad>
+        Th.</notiz></thema>: <dozent ref="guenther_gb"><grad>D.</grad>
         <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber Fracturen und Luxationen</thema>:
-        <ders>Derselbe</ders>, <zeit>12 U. 2 T.</zeit>
+        <veranstaltung><thema>Ueber Fracturen und Luxationen</thema>: <ders
+        ref="guenther_gb">Derselbe</ders>, <zeit>12 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber Hernien</thema>: <dozent><grad>D.</grad>
@@ -1702,8 +1704,9 @@
         <trennlinie/>
 
         <veranstaltung><thema>Uebungen im Operiren am Leichname</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4-6 U. 6 T.</zeit></veranstaltung>
+        <dozent ref="guenther_gb"><grad>D.</grad>
+        <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>4-6 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Die Lehre von den Augenoperationen mit Ueb. am
         Cadaver</thema>: <dozent ref="coccius_ea"><grad>D.</grad>
@@ -1756,9 +1759,9 @@
 
         <veranstaltung><thema>Medicinische Poliklinik</thema>: <dozent
         ref="cerutti_fpl"><grad>D.</grad> <nachname>Cerutti</nachname>,
-        <funktion>P. O.</funktion></dozent>, in Verb. mit
-        <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <zeit>2
-        U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <funktion>P. O.</funktion></dozent>, in Verb. mit <dozent
+        ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname></dozent>,
+        <zeit>2 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Klinische Demonstrationen im
         Georgenhospital</thema>: <dozent><grad>D.</grad>
@@ -1771,9 +1774,10 @@
         <dozent><grad>D.</grad> <nachname>Jörg</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>7 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Chirurgische Klinik</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9½-11 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Chirurgische Klinik</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9½-11 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>:
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.

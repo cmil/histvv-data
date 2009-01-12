@@ -722,7 +722,7 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
         <titel>1. Physik und Chemie.</titel>
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">1.
-        Th.</notiz></thema>: <dozent><grad>D. ph.</grad>
+        Th.</notiz></thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 Uhr, 6 Tage</zeit>.</veranstaltung>
 
@@ -733,8 +733,9 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Mathematische Theorie der Elasticität</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u. Donn.)</zeit>
+        <dozent ref="hankel_wg"><grad>D. ph.</grad>
+        <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>4 U. 2 T. (Mont. u. Donn.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Elemente der Machinenlehre</thema>:
@@ -784,12 +785,13 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>,
-          <funktion>P. O.</funktion></dozent>, in Verbindung mit den
-          Professoren <dozent ref="weber_eh"><grad>D.</grad>
-          <nachname>Weber</nachname> sen.</dozent> und <dozent
-          ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>
-          jun.</dozent>, <zeit>2-4 U. Dienst.</zeit></veranstaltung>
+          <dozent ref="hankel_wg"><grad>D. ph.</grad>
+          <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>, in
+          Verbindung mit den Professoren <dozent
+          ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
+          sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
+          <nachname>Weber</nachname> jun.</dozent>, <zeit>2-4 U.
+          Dienst.</zeit></veranstaltung>
 
           <veranstaltung><thema>Examinatorium über Physik</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Weiske</nachname></dozent>,
@@ -1323,9 +1325,9 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
           <nachname>Schilling</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>2 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Examinatorium über Civilrecht</thema>:
-          <dozent><grad>D.</grad> <nachname>Götz</nachname></dozent>, <zeit>in
-          zu best. St. u. T.</zeit></veranstaltung>
+          <veranstaltung><thema>Examinatorium über Civilrecht</thema>: <dozent
+          ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname></dozent>,
+          <zeit>in zu best. St. u. T.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -1378,9 +1380,9 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
         E.</funktion></dozent>, <zeit>sechsstündig (12 U. 4 T. u. in 2 noch zu
         best. St.)</zeit></veranstaltung>
 
-        <veranstaltung><thema>Sächsisches Privatrecht</thema>:
-        <dozent><grad>D.</grad> <nachname>Götz</nachname></dozent>, <zeit>9 U.
-        6 T. u. 8 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Sächsisches Privatrecht</thema>: <dozent
+        ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname></dozent>,
+        <zeit>9 U. 6 T. u. 8 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Sächsisches Obligationenrecht</thema>:
         <dozent><grad>D.</grad> <nachname>Steinacker</nachname>, <funktion>P.
@@ -1391,9 +1393,9 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
         <ders>Derselbe</ders>, <zeit>8 U. 2 T. (Dienst. u. Freit.)</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Sächsisches Lehnrecht</thema>:
-        <dozent><grad>D.</grad> <nachname>Götz</nachname></dozent>, <zeit>12
-        U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Sächsisches Lehnrecht</thema>: <dozent
+        ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname></dozent>,
+        <zeit>12 U. 2 T.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -1453,7 +1455,7 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
       <trennlinie/>
 
       <veranstaltung><thema>Theorie des sächsischen Criminalprocesses nach
-      Schwarze's Lehrbuch</thema>: <dozent><grad>D.</grad>
+      Schwarze's Lehrbuch</thema>: <dozent ref="guenther_kf"><grad>D.</grad>
       <nachname>Günther</nachname>, <funktion>P. Prim, Fac. Jurid.
       Ord.</funktion></dozent>, <zeit>11 U. 6 T.</zeit></veranstaltung>
 
@@ -1492,9 +1494,9 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
       <zeit>7 U. früh Dienst. Donn. u. Freit. u. 4 U.
       Mont.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Sächsisches Staatsrecht</thema>:
-      <dozent><grad>D.</grad> <nachname>Götz</nachname></dozent>, <zeit>12 U.
-      4 T.</zeit></veranstaltung>
+      <veranstaltung><thema>Sächsisches Staatsrecht</thema>: <dozent
+      ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname></dozent>,
+      <zeit>12 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Polizeirecht mit Berücksichtigung der sächsischen
       Gesetzgebung</thema>: <dozent><grad>D.</grad> <nachname>Höck</nachname>,
@@ -1638,7 +1640,7 @@ Veranstaltungsverweis "s. Rechtswissenschaft"-->
       <trennlinie/>
 
       <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema> von
-      den Professoren <dozent><grad>D. ph.</grad>
+      den Professoren <dozent ref="hankel_wg"><grad>D. ph.</grad>
       <nachname>Hankel</nachname></dozent>, <dozent
       ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname> sen.</dozent>
       und <dozent ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>
@@ -1779,9 +1781,9 @@ es ist aber kein Verweis vorhanden-->
       <nachname>Meissner</nachname></dozent>, <zeit>6 U. Abends 2 T.</zeit>
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-      <veranstaltung><thema>Ueber specielle Kinderheilkunde</thema>:
-      <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <zeit>12
-      U. Mont. u. Donn.</zeit></veranstaltung>
+      <veranstaltung><thema>Ueber specielle Kinderheilkunde</thema>: <dozent
+      ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname></dozent>,
+      <zeit>12 U. Mont. u. Donn.</zeit></veranstaltung>
 
       <trennlinie/>
 
@@ -1791,7 +1793,8 @@ es ist aber kein Verweis vorhanden-->
       Donn. u. Sonn.)</zeit> <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung><thema>Examinatorium über Frauenkrankheiten</thema>:
-      <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <siehe>s.
+      <dozent ref="hennig_c"><grad>D.</grad>
+      <nachname>Hennig</nachname></dozent>, <siehe>s.
       Gebirtshilfe</siehe>.</veranstaltung>
     </sachgruppe>
 
@@ -1805,13 +1808,14 @@ es ist aber kein Verweis vorhanden-->
 
       <trennlinie/>
 
-      <veranstaltung><thema>Specielle Chirurgie</thema>:
-      <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>7 U. fr. 4 T.</zeit></veranstaltung>
+      <veranstaltung><thema>Specielle Chirurgie</thema>: <dozent
+      ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>7 U. fr. 4
+      T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Ueber den Blasenstein und die dabei nothwendigen
-      Operationen</thema>: <ders>Derselbe</ders>, <zeit>7 U. früh 2 T.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      Operationen</thema>: <ders ref="guenther_gb">Derselbe</ders>, <zeit>7 U.
+      früh 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Ueber die chirurgischen Krankheiten der Harn- und
       Geschlechtswerkzeuge</thema>: <dozent><grad>D.</grad>
@@ -1825,9 +1829,10 @@ es ist aber kein Verweis vorhanden-->
 
       <trennlinie/>
 
-      <veranstaltung><thema>Operationscursus</thema>: <dozent><grad>D.</grad>
-      <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>3-5 U. 6 T.</zeit></veranstaltung>
+      <veranstaltung><thema>Operationscursus</thema>: <dozent
+      ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>3-5 U. 6
+      T.</zeit></veranstaltung>
 
       <trennlinie/>
 
@@ -1902,7 +1907,7 @@ es ist aber kein Verweis vorhanden-->
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Examinatorium über Geburtshilfe und
-      Frauenkrankheiten</thema>: <dozent><grad>D.</grad>
+      Frauenkrankheiten</thema>: <dozent ref="hennig_c"><grad>D.</grad>
       <nachname>Hennig</nachname></dozent>, <zeit>12 U. 2 T. (Dienst. u.
       Freit.)</zeit> <modus>privatissime</modus>.</veranstaltung>
     </sachgruppe>
@@ -1923,9 +1928,9 @@ es ist aber kein Verweis vorhanden-->
       <zeit>2 U. 5 T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Pädiatrische Poliklinik <ort>im Vordergebäude des
-      Trierschen Instituts</ort></thema>: <dozent><grad>D.</grad>
-      <nachname>Hennig</nachname></dozent>, <zeit>Mittw. 2 U.</zeit>
-      <gebühr>unentgeltl.</gebühr></veranstaltung>
+      Trierschen Instituts</ort></thema>: <dozent
+      ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname></dozent>,
+      <zeit>Mittw. 2 U.</zeit> <gebühr>unentgeltl.</gebühr></veranstaltung>
 
       <veranstaltung><thema>Privatpoliklinik</thema>: <dozent
       ref="weber_t"><grad>D.</grad> <vorname>Th.</vorname>
@@ -1933,7 +1938,7 @@ es ist aber kein Verweis vorhanden-->
       <zeit>täglich in zu best. St.</zeit></veranstaltung>
 
       <veranstaltung><thema>Chirurgische Klinik <ort>im
-      Jacobshospital</ort></thema>: <dozent><grad>D.</grad>
+      Jacobshospital</ort></thema>: <dozent ref="guenther_gb"><grad>D.</grad>
       <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>8-9½ U. 6 T.</zeit></veranstaltung>
 

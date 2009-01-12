@@ -630,12 +630,12 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">1.
-        Th.</notiz></thema>: <dozent><grad>D. ph.</grad>
+        Th.</notiz></thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber elektrische Induction</thema>:
-        <ders>Derselbe</ders>, <zeit>4 U. (Mont. u. Donn.)</zeit>
+        <veranstaltung><thema>Ueber elektrische Induction</thema>: <ders
+        ref="hankel_wg">Derselbe</ders>, <zeit>4 U. (Mont. u. Donn.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
@@ -674,10 +674,11 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>,
-          <funktion>P. O.</funktion></dozent>, in Verbindung mit den Proff.
-          DD. <dozent ref="weber_eh"><vorname>E. H.</vorname><!--Weber--></dozent>
-          und <dozent ref="weber_ef"><vorname>E. F.</vorname>
+          <dozent ref="hankel_wg"><grad>D. ph.</grad>
+          <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>, in
+          Verbindung mit den Proff. DD. <dozent ref="weber_eh"><vorname>E.
+          H.</vorname><!--Weber--></dozent> und <dozent
+          ref="weber_ef"><vorname>E. F.</vorname>
           <nachname>Weber</nachname></dozent> und
           <dozent><nachname>Lehmann</nachname></dozent>, <zeit>in zu best. St.
           u. T.</zeit></veranstaltung>
@@ -1314,10 +1315,10 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
         <sachgruppe>
           <titel>2. Deutsches Recht (und Lehnrecht).</titel>
 
-          <veranstaltung><thema>Deutsches Wechselrecht</thema>:
-          <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-          Prim., Fac. Jurid. Ord.</funktion></dozent>, <zeit>11 U. 4
-          T.</zeit></veranstaltung>
+          <veranstaltung><thema>Deutsches Wechselrecht</thema>: <dozent
+          ref="guenther_kf"><grad>D.</grad> <nachname>Günther</nachname>,
+          <funktion>P. Prim., Fac. Jurid. Ord.</funktion></dozent>, <zeit>11
+          U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Die Lehnsfolge des gemeinen und sächsischen
           Rechts, nach s. Sätzen</thema>: <dozent><grad>D.</grad>
@@ -1449,9 +1450,9 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
 
         <veranstaltung><thema>Concursrecht und Concursproceß, unter
         Zugrundlegung seiner Schrift "der Concurs der Gläubiger" (Leipz.
-        1852)</thema>: <dozent><grad>D.</grad> <nachname>Günther</nachname>,
-        <funktion>P. Prim., Fac. Iur. Ord.</funktion></dozent>, <zeit>11 U. 2
-        T.</zeit></veranstaltung>
+        1852)</thema>: <dozent ref="guenther_kf"><grad>D.</grad>
+        <nachname>Günther</nachname>, <funktion>P. Prim., Fac. Iur.
+        Ord.</funktion></dozent>, <zeit>11 U. 2 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1605,9 +1606,10 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
         des.</funktion></dozent></veranstaltung>,
         <veranstaltung><dozent><grad>D.</grad> <nachname>Lehmann</nachname>,
         <funktion>P. E.</funktion></dozent></veranstaltung> u.
-        <veranstaltung><dozent><grad>D.</grad> <nachname>Hankel</nachname>,
-        <funktion>P. O.</funktion></dozent></veranstaltung>, <zeit>3 T. in den
-        best. St. u. T.</zeit><!--Sind das wirklich 4 Veranstaltungen? In vorherigen Semestern
+        <veranstaltung><dozent ref="hankel_wg"><grad>D.</grad>
+        <nachname>Hankel</nachname>, <funktion>P.
+        O.</funktion></dozent></veranstaltung>, <zeit>3 T. in den best. St. u.
+        T.</zeit><!--Sind das wirklich 4 Veranstaltungen? In vorherigen Semestern
 wurden diese Uebungen als eine Veranstaltung erfasst! --></veranstaltungsgruppe>
 
         <veranstaltung><thema>Uebungen in mikroskopischen
@@ -1724,7 +1726,7 @@ wurden diese Uebungen als eine Veranstaltung erfasst! --></veranstaltungsgruppe>
         Hon.</funktion></dozent>, <zeit>4 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber die constitutionellen
-        Frauenkrankheiten</thema>: <dozent><grad>D.</grad>
+        Frauenkrankheiten</thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <zeit>5 U. 2 T. (Mont. u.
         Donn.)</zeit></veranstaltung>
 
@@ -1752,18 +1754,19 @@ wurden diese Uebungen als eine Veranstaltung erfasst! --></veranstaltungsgruppe>
       <sachgruppe>
         <titel>IX. Chirurgie.</titel>
 
-        <veranstaltung><thema>Spec. Chirurgie</thema>: <dozent><grad>D.</grad>
-        <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>12 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Spec. Chirurgie</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ausgewählte Kapitel der Chirurgie</thema>:
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>2 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber Fracturen und Luxationen</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
+        <veranstaltung><thema>Ueber Fracturen und Luxationen</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber Luxationen und Fracturen</thema>:
@@ -1783,9 +1786,10 @@ wurden diese Uebungen als eine Veranstaltung erfasst! --></veranstaltungsgruppe>
 
         <seite>19</seite>
 
-        <veranstaltung><thema>Operationsübungen an der Leiche</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>3-5 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Operationsübungen an der Leiche</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>3-5 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Examinatorium über die wichtigsten Capitel der
         Chirurgie</thema>: <dozent><grad>D.</grad>
@@ -1869,9 +1873,9 @@ wurden diese Uebungen als eine Veranstaltung erfasst! --></veranstaltungsgruppe>
 
         <veranstaltung><thema>Medicinische Poliklinik</thema>: <dozent
         ref="cerutti_fpl"><grad>D.</grad> <nachname>Cerutti</nachname>,
-        <funktion>P. O.</funktion></dozent>, in Verb. mit
-        <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <zeit>2
-        U. 6 T.</zeit> <modus>privatissime</modus>.</veranstaltung>
+        <funktion>P. O.</funktion></dozent>, in Verb. mit <dozent
+        ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname></dozent>,
+        <zeit>2 U. 6 T.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Klinische Demonstrationen <ort>im
         Georgenhospital</ort></thema>: <dozent><grad>D.</grad>
@@ -1892,9 +1896,10 @@ wurden diese Uebungen als eine Veranstaltung erfasst! --></veranstaltungsgruppe>
         <nachname>Germann</nachname></dozent>, <zeit>7 U. Ab. 5
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Chirurgische Klinik</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9½-11 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Chirurgische Klinik</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9½-11 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>:
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.

@@ -478,9 +478,9 @@
       <siehe>Siehe Philosophische Fakultät D.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-      <dozent><funktion>Lektor</funktion> <grad>D. ph.</grad>
-      <nachname>Blondeaux</nachname></dozent>. <siehe>Siehe Philosophische
-      Fakultät B. d.</siehe></veranstaltungsverweis>
+      <dozent ref="blondeaux_f"><funktion>Lektor</funktion> <grad>D.
+      ph.</grad> <nachname>Blondeaux</nachname></dozent>. <siehe>Siehe
+      Philosophische Fakultät B. d.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Englisches Praktikum</thema>:
       <dozent><funktion>Lektor</funktion>
@@ -511,10 +511,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Römische Rechtsgeschichte und System des römischen
-      Rechts mit Einschluss des Civilprozesses</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Hölder</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>tägl. 11-12 U. und Freit. u. Sonnab. 12-1
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Rechts mit Einschluss des Civilprozesses</thema>: <dozent
+      ref="hoelder_e"><grad>D. jur.</grad> <nachname>Hölder</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>tägl. 11-12 U. und Freit. u.
+      Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geschichte und System des römischen Rechts
       einschliesslich des römischen Civilprozesses</thema>: <dozent><grad>D.
@@ -581,7 +581,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches bürgerliches Recht
-      (Familienrecht)</thema>: <dozent><grad>D. jur.</grad>
+      (Familienrecht)</thema>: <dozent ref="hoelder_e"><grad>D. jur.</grad>
       <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. bis Donnerst. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -699,9 +699,9 @@
       des.</funktion></dozent>, <zeit>Donnerst. 6 bis 8 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Pandekten-Lektüre</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Götz</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Sonnab. 11 bis 12 U.</zeit>,
+      <veranstaltung><thema>Pandekten-Lektüre</thema>: <dozent
+      ref="goetz_o"><grad>D. jur.</grad> <nachname>Götz</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 11 bis 12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Romanistische Quellen- und Papyruslektüre</thema>:
@@ -716,9 +716,9 @@
       <zeit>Mittw. 6-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Praktikum des bürgerlichen Rechts für
-      Vorgerücktere mit schriftlichen Arbeiten</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Hölder</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont. 6 bis 8 U.</zeit>,
+      Vorgerücktere mit schriftlichen Arbeiten</thema>: <dozent
+      ref="hoelder_e"><grad>D. jur.</grad> <nachname>Hölder</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont. 6 bis 8 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Mündliche und schriftliche Übungen im deutschen
@@ -737,9 +737,10 @@
       <seite>10</seite>
 
       <veranstaltung><thema>Civilrechtliches Privatissimum
-      (Pandekten-Examinatorium)</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Götz</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>in
-      zu best. Stunden</zeit>.</veranstaltung>
+      (Pandekten-Examinatorium)</thema>: <dozent ref="goetz_o"><grad>D.
+      jur.</grad> <nachname>Götz</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>in zu best.
+      Stunden</zeit>.</veranstaltung>
 
       <!--Angabe "Privatissimum" im <thema> - wäre aber gleichzeitig auch <modus>!-->
 
@@ -842,9 +843,9 @@
       <siehe>Siehe Theologische Fakultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-      <dozent><funktion>Lektor</funktion> <grad>D. ph.</grad>
-      <nachname>Blondeaux</nachname></dozent>. <siehe>Siehe Philosophische
-      Fakultät B. d.</siehe></veranstaltungsverweis>
+      <dozent ref="blondeaux_f"><funktion>Lektor</funktion> <grad>D.
+      ph.</grad> <nachname>Blondeaux</nachname></dozent>. <siehe>Siehe
+      Philosophische Fakultät B. d.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Englisches Praktikum</thema>:
       <dozent><funktion>Lektor</funktion>
@@ -1305,15 +1306,15 @@
       med.</grad> <nachname>Füth</nachname></dozent>, <zeit>Mittw. u. Freit.
       6-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Geburtshilfe mit Übungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 4-5
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Geburtshilfe mit Übungen</thema>: <dozent
+      ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Frauenkrankheiten, mit Demonstrationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 9-10
-      U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      <dozent ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      9-10 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1668,7 +1669,7 @@
         <sachgruppe>
           <titel>f) Paediatrik.</titel>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="hennig_c"><grad>D. med.</grad>
           <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Carolinenstr. 31</ort>.)</veranstaltung>
 
@@ -1681,7 +1682,7 @@
         <sachgruppe>
           <titel>g) Gyaekologie.</titel>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="hennig_c"><grad>D. med.</grad>
           <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Carolinenstr. 31</ort>.)</veranstaltung>
 
@@ -1700,9 +1701,10 @@
       G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Spezielle Teile der Physik</thema>:
-      <dozent><grad>D. ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
-      <nachname>Oettingen</nachname>, <funktion>P. O. Hon.</funktion></dozent>
-      <siehe>Siehe Philosophische Fakultät G.</siehe></veranstaltungsverweis>
+      <dozent ref="oettingen_aj"><grad>D. ph.</grad>
+      <nachnamenpräfix>von</nachnamenpräfix> <nachname>Oettingen</nachname>,
+      <funktion>P. O. Hon.</funktion></dozent> <siehe>Siehe Philosophische
+      Fakultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Anorganische Chemie</thema>: <dozent
       ref="beckmann_eo"><grad>D. ph.</grad> <nachname>Beckmann</nachname>,
@@ -1771,7 +1773,7 @@
       <siehe>Siehe Theologische Fakultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-      <dozent><grad>Lektor D. ph.</grad>
+      <dozent ref="blondeaux_f"><grad>Lektor D. ph.</grad>
       <nachname>Blondeaux</nachname></dozent>. <siehe>Siehe Philosophische
       Fakultät B. d.</siehe></veranstaltungsverweis>
 
@@ -2559,7 +2561,7 @@
           9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>George Sand et le roman idéaliste en France au
-          19e siècle</thema>: <dozent><grad>D. ph.</grad>
+          19e siècle</thema>: <dozent ref="blondeaux_f"><grad>D. ph.</grad>
           <nachname>Blondeaux</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2648,8 +2650,8 @@
           <kursiv>Pantagruel</kursiv></thema>, <zeit>Mont., Dienst., Donnerst.
           u. Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
           <veranstaltungsgruppe><thema>II. Abteilung: Praktische Übungen im
-          modernen Französisch unter Leitung des</thema>:
-          <dozent><grad>Lektors D. ph.</grad>
+          modernen Französisch unter Leitung des</thema>: <dozent
+          ref="blondeaux_f"><grad>Lektors D. ph.</grad>
           <nachname>Blondeaux</nachname></dozent>, <veranstaltung><thema>1.
           Sektion</thema>: <zeit>Mittw. 10-½12 U.</zeit></veranstaltung>,
           <veranstaltung><thema>2. Sektion</thema>: <zeit>Dienst. u. Freit.
@@ -2862,7 +2864,7 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Wirtschaftsgeographie des Königreichs
-        Sachsen</thema>: <dozent><grad>D. ph.</grad>
+        Sachsen</thema>: <dozent ref="friedrich_e"><grad>D. ph.</grad>
         <nachname>Friedrich</nachname></dozent>, <zeit>Mont. u. Donnerst. 3-4
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3054,11 +3056,11 @@
           <thema>Besprechung selbständiger Arbeiten</thema>, <zeit>zu näher zu
           best. Stunden</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung></veranstaltungsgruppe> -
-          <veranstaltungsgruppe>Im Auftrag des Direktors: <dozent><grad>D.
-          ph.</grad> <nachname>Friedrich</nachname></dozent>:
-          <veranstaltung><thema>Übung im Lesen geographischer
-          Fremdnamen</thema>, <zeit>Mont. 4-5 U.</zeit>,
-          <modus>privatissime</modus>, aber
+          <veranstaltungsgruppe>Im Auftrag des Direktors: <dozent
+          ref="friedrich_e"><grad>D. ph.</grad>
+          <nachname>Friedrich</nachname></dozent>: <veranstaltung><thema>Übung
+          im Lesen geographischer Fremdnamen</thema>, <zeit>Mont. 4-5
+          U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr></veranstaltung>. -
           <veranstaltungsgruppe><thema>Übungen für die
           Handelshochschule</thema>: a) <veranstaltung><thema>Das Wichtigste
@@ -3467,7 +3469,7 @@
         <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Wirtschaftsgeographie des Königreichs
-        Sachsen</thema>: <dozent><grad>D. ph.</grad>
+        Sachsen</thema>: <dozent ref="friedrich_e"><grad>D. ph.</grad>
         <nachname>Friedrich</nachname></dozent>. <siehe>Siehe Abschnitt
         C.</siehe></veranstaltungsverweis>
 
@@ -3601,15 +3603,15 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Differential- und Integralrechnung</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>O.</vorname>
+        <dozent ref="hoelder_o"><grad>D. ph.</grad> <vorname>O.</vorname>
         <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst., Mittw., Donnerst. u. Freit. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ausgewählte Kapitel aus der Theorie der
-        elliptischen Modulfunktionen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. u. Sonnab. 12-1 U.</zeit>,
+        elliptischen Modulfunktionen</thema>: <dozent ref="hoelder_o"><grad>D.
+        ph.</grad> <nachname>Hölder</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont. u. Sonnab. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Funktionentheorie</thema>: <dozent
@@ -3662,9 +3664,9 @@
         <dozent><grad>D. ph.</grad> <nachname>Mayer</nachname>, <funktion>P.
         O.</funktion></dozent>, <thema>Übungen aus dem Gebiete der dynamischen
         Differentialgleichungen</thema>, <zeit>Sonnab. 10-11
-        U.</zeit></veranstaltung> <veranstaltung>3) <dozent><grad>D.
-        ph.</grad> <nachname>Hölder</nachname>, <funktion>P.
-        O.</funktion></dozent>, <thema>Übungen <seite>39</seite>in
+        U.</zeit></veranstaltung> <veranstaltung>3) <dozent
+        ref="hoelder_o"><grad>D. ph.</grad> <nachname>Hölder</nachname>,
+        <funktion>P. O.</funktion></dozent>, <thema>Übungen <seite>39</seite>in
         Differential- und Integralrechnung</thema>, <zeit>Sonnab. 10-11
         U.</zeit></veranstaltung> <veranstaltung>4) <dozent
         ref="engel_f"><grad>D. ph.</grad> <nachname>Engel</nachname>,
@@ -3729,11 +3731,11 @@
         ph.</grad> <nachname>Dahms</nachname></dozent>, <zeit>Mittw. 6-7
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Spezielle Teile der Physik</thema>:
-        <dozent><grad>D. ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
-        <nachname>Oettingen</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        <veranstaltung><thema>Spezielle Teile der Physik</thema>: <dozent
+        ref="oettingen_aj"><grad>D. ph.</grad>
+        <nachnamenpräfix>von</nachnamenpräfix> <nachname>Oettingen</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7
+        U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Stofflehre (Experimentelle Einführung
         in die Chemie, für Studirende aller Fakultäten)</thema>:

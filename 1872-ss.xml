@@ -1078,9 +1078,9 @@
       St.</zeit></veranstaltung>
 
       <veranstaltungsverweis><thema>Mathematische Elektricitätslehre</thema>:
-      <dozent><grad>D. ph. &amp; med.</grad> <nachname>Hankel</nachname>,
-      <funktion>P. O.</funktion></dozent>, <siehe>s.
-      Naturwissenschaften</siehe>.</veranstaltungsverweis>
+      <dozent ref="hankel_wg"><grad>D. ph. &amp; med.</grad>
+      <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
+      <siehe>s. Naturwissenschaften</siehe>.</veranstaltungsverweis>
 
       <veranstaltung><thema>Mathematische Theorie des Magnetismus und der
       elektrischen Ströme</thema>: <dozent><grad>D. ph.</grad>
@@ -1156,9 +1156,9 @@
         <trennlinie/>
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">1.
-        Th.</notiz></thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>11 U. 6 Tage</zeit>.</veranstaltung>
+        Th.</notiz></thema>: <dozent ref="hankel_wg"><grad>D. ph. &amp;
+        med.</grad> <nachname>Hankel</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>11 U. 6 Tage</zeit>.</veranstaltung>
 
         <veranstaltung><thema>Die Hauptkapitel der Experimentalphysik mit
         praktischen Uebungen für Pädagogen etc.</thema>: <dozent><grad>D.
@@ -1168,9 +1168,10 @@
         <seite>15</seite>
 
         <veranstaltung><thema>Mathematische Elektricitätslehre</thema>:
-        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Hankel</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>3 U. 2 T. (Mont. u.
-        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="hankel_wg"><grad>D. ph. &amp; med.</grad>
+        <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>3 U. 2 T. (Mont. u. Donn.)</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Mathematische Theorie des Magnetismus
         und der elektrischen Ströme</thema>: <dozent><grad>D. ph.</grad>
@@ -1221,9 +1222,9 @@
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen im physikalischen Seminar</thema>:
-          <dozent><grad>D. ph. &amp; med.</grad> <nachname>Hankel</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. 2
-          U.</zeit></veranstaltung>
+          <dozent ref="hankel_wg"><grad>D. ph. &amp; med.</grad>
+          <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst. 2 U.</zeit></veranstaltung>
 
           <veranstaltungsverweis><thema>Mathematisch-physikalische
           Uebungen</thema>: <dozent ref="muehll_k"><grad>D. ph.</grad>
@@ -1752,13 +1753,13 @@ Veranstaltung!
             <titel>Civilistische Uebungen.</titel>
 
             <veranstaltung><thema><scil text="modus">Privatissimum</scil> für
-            Civilrecht</thema>: <dozent><grad>D. jur.</grad>
+            Civilrecht</thema>: <dozent ref="goetz_o"><grad>D. jur.</grad>
             <nachname>Götz</nachname>, <funktion>P. E.</funktion></dozent>,
             <zeit>12 U. 2 T.</zeit></veranstaltung>
 
             <veranstaltung><thema>Examinatorium über einen der Haupttheile der
-            Pandekten</thema>: <ders>Derselbe</ders>, <zeit>in zu best.
-            St.</zeit></veranstaltung>
+            Pandekten</thema>: <ders ref="goetz_o">Derselbe</ders>, <zeit>in
+            zu best. St.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -1816,9 +1817,9 @@ Veranstaltung!
           Donn.)</zeit></veranstaltung>
 
           <veranstaltung><thema><scil text="modus">Privatissimum</scil> für
-          Wechsel- und Handelsrecht</thema>: <dozent><grad>D. jur.</grad>
-          <nachname>Götz</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>11 U. 2 T.</zeit></veranstaltung>
+          Wechsel- und Handelsrecht</thema>: <dozent ref="goetz_o"><grad>D.
+          jur.</grad> <nachname>Götz</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>11 U. 2 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <seite>22</seite>
@@ -2296,17 +2297,18 @@ bezieht sich die Zeit auch auf die 2. V.-->
 
         <trennlinie/>
 
-        <veranstaltung><thema>Cursus über Ohrenheilkunde</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Hagen</nachname></dozent>,
-        <zeit>in zu best. St. u. T.</zeit></veranstaltung>
+        <veranstaltung><thema>Cursus über Ohrenheilkunde</thema>: <dozent
+        ref="hagen_er"><grad>D. med.</grad>
+        <nachname>Hagen</nachname></dozent>, <zeit>in zu best. St. u.
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber die Wirkungen des galvanischen Stroms auf
-        die Gehörnerven</thema>: <ders>Derselbe</ders>, <zeit>in 2 zu best.
-        St.</zeit></veranstaltung>
+        die Gehörnerven</thema>: <ders ref="hagen_er">Derselbe</ders>,
+        <zeit>in 2 zu best. St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Cursus über Laryngoskopie, Pharyngoskopie und
-        Rhinoskopie</thema>: <ders>Derselbe</ders>, <zeit>in zu best. St. u.
-        T.</zeit></veranstaltung>
+        Rhinoskopie</thema>: <ders ref="hagen_er">Derselbe</ders>, <zeit>in zu
+        best. St. u. T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Anleitung zur Untersuchung des Kehlkopfs, des
         Rachens, der Nase und des Ohres, verbunden mit Besprechung der
@@ -2348,9 +2350,9 @@ bezieht sich die Zeit auch auf die 2. V.-->
         <zeit>7 U. Ab. 2 T. (Dienst. u. Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Repetitorium über Frauenkrankheiten</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>5 U. 2 T. (Mont. u.
-        Donn.)</zeit></veranstaltung>
+        <dozent ref="hennig_c"><grad>D. med.</grad>
+        <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>5 U. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber die Krankheiten der Schwangeren,
         Gebärenden und Wöchnerinnen</thema>: <dozent><grad>D. med.</grad>
@@ -2369,9 +2371,9 @@ bezieht sich die Zeit auch auf die 2. V.-->
           T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Geburtshilfliche Phantomübungen</thema>:
-          <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>4 U. 6 T.</zeit>,
-          <modus>privatissime</modus>.</veranstaltung>
+          <dozent ref="hennig_c"><grad>D. med.</grad>
+          <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>4 U. 6 T.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Repetitorium der Geburtshilfe, verb. mit
           Einübung geburtshilflicher Operationen am Phantom</thema>:
@@ -2435,10 +2437,10 @@ bezieht sich die Zeit auch auf die 2. V.-->
         <trennlinie/>
 
         <veranstaltung><thema>Pädiatrische Klinik <ort>(in der
-        Kinderheilanstalt Carolinenstrasse 16, II.)</ort></thema>:
-        <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>9 U. 2 T. (Mont. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Kinderheilanstalt Carolinenstrasse 16, II.)</ort></thema>: <dozent
+        ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>9 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Laryngiatrische Poliklinik mit Anleitung zur
         Laryngoskopie</thema>: <dozent><grad>D. med.</grad>
@@ -2447,9 +2449,9 @@ bezieht sich die Zeit auch auf die 2. V.-->
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Otiatrische Poliklinik <ort>(Königsstr. 24 im
-        Gartengebäude)</ort></thema>: <dozent><grad>D. med.</grad>
-        <nachname>Hagen</nachname></dozent>, <zeit>11-1 U. 6 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        Gartengebäude)</ort></thema>: <dozent ref="hagen_er"><grad>D.
+        med.</grad> <nachname>Hagen</nachname></dozent>, <zeit>11-1 U. 6
+        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Poliklinik für Ohrenkranke <ort>(im
         Paulinum)</ort></thema>: <dozent><grad>D. med.</grad>

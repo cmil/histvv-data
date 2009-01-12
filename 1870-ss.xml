@@ -989,7 +989,7 @@
         <titel>1. Physik und Chemie.</titel>
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">1.
-        Th.</notiz></thema>: <dozent><grad>D.</grad>
+        Th.</notiz></thema>: <dozent ref="hankel_wg"><grad>D.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 6 T.</zeit></veranstaltung>
 
@@ -1003,10 +1003,10 @@
         <nachname>Marbach</nachname>, <funktion>P. E.</funktion></dozent>,
         <siehe>s. Technologie</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Elektrodynamik und Induction</thema>:
-        <dozent><grad>D.</grad> <nachname>Hankel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>in 2 zu best. St. u. T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Elektrodynamik und Induction</thema>: <dozent
+        ref="hankel_wg"><grad>D.</grad> <nachname>Hankel</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in 2 zu best. St. u.
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Höhere Optik</thema>: <dozent
         ref="muehll_k"><grad>D. ph.</grad> <nachnamenpräfix>Von
@@ -1560,9 +1560,10 @@
           <dozent><grad>D.</grad> <nachname>Müller</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>4-6 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Pandekten-Erbrecht</thema>:
-          <dozent><grad>D.</grad> <nachname>Götz</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>5-7 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung><thema>Pandekten-Erbrecht</thema>: <dozent
+          ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>5-7 U. 2
+          T.</zeit></veranstaltung>
 
           <sachgruppe>
             <titel>Exegese.</titel>
@@ -1638,12 +1639,14 @@
           <siehe>s. Staats- u.
           Cameralwissensch.</siehe></veranstaltungsverweis>
 
-          <veranstaltung><thema>Handelsrecht</thema>: <dozent><grad>D.</grad>
-          <nachname>Götz</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>11 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung><thema>Handelsrecht</thema>: <dozent
+          ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>11 U. 2
+          T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Wechselrecht</thema>: <ders>Derselbe</ders>,
-          <zeit>10 U. 2 Tage</zeit>.</veranstaltung>
+          <veranstaltung><thema>Wechselrecht</thema>: <ders
+          ref="goetz_o">Derselbe</ders>, <zeit>10 U. 2
+          Tage</zeit>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -2126,12 +2129,14 @@
         <trennlinie/>
 
         <veranstaltung><thema>Privatcursus über Ohrenheilkunde</thema>:
-        <dozent><grad>D.</grad> <nachname>Hagen</nachname></dozent>, <zeit>in
-        zu best. St. u. T.</zeit></veranstaltung>
+        <dozent ref="hagen_er"><grad>D.</grad>
+        <nachname>Hagen</nachname></dozent>, <zeit>in zu best. St. u.
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber die Wirkungen des constanten galvanischen
-        Stroms auf die Gehörnerven</thema>: <ders>Derselbe</ders>, <zeit>in 2
-        zu best. Stunden</zeit>.</veranstaltung>
+        Stroms auf die Gehörnerven</thema>: <ders
+        ref="hagen_er">Derselbe</ders>, <zeit>in 2 zu best.
+        Stunden</zeit>.</veranstaltung>
 
         <veranstaltung><thema>Privatcurse über die wichtigsten Krankheiten des
         Gehörorgans</thema>: <dozent><grad>D.</grad>
@@ -2151,9 +2156,9 @@
         Hon.</funktion></dozent>, <zeit>in zu best. St. u.
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Rhinoskopischer Cursus</thema>:
-        <dozent><grad>D.</grad> <nachname>Hagen</nachname></dozent>, <zeit>7
-        U. Ab. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Rhinoskopischer Cursus</thema>: <dozent
+        ref="hagen_er"><grad>D.</grad> <nachname>Hagen</nachname></dozent>,
+        <zeit>7 U. Ab. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Anleitung zur Untersuchung des Rachens u.
         Kehlkopfs</thema>: <dozent><grad>D.</grad>
@@ -2170,7 +2175,7 @@
         <zeit>7 U. Ab. 3 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Examinatorien über Geburtshilfe mit
-        Phantomübungen</thema>: <dozent><grad>D.</grad>
+        Phantomübungen</thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>2 U. 6 T.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
@@ -2209,9 +2214,9 @@
           <funktion>P. O.</funktion></dozent>, <zeit>4 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltungsverweis><thema>Phantomübungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Hennig</nachname>, <funktion>P.
-          E.</funktion></dozent>, <siehe>s.
+          <veranstaltungsverweis><thema>Phantomübungen</thema>: <dozent
+          ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname>,
+          <funktion>P. E.</funktion></dozent>, <siehe>s.
           Geburtshilfe</siehe>.</veranstaltungsverweis>
 
           <veranstaltung><thema>Einübung geburtshilflicher Operationen am
@@ -2276,8 +2281,8 @@
         <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Otiatrische Poliklinik</thema>:
-        <dozent><grad>D.</grad> <nachname>Hagen</nachname></dozent>,
+        <veranstaltung><thema>Otiatrische Poliklinik</thema>: <dozent
+        ref="hagen_er"><grad>D.</grad> <nachname>Hagen</nachname></dozent>,
         <zeit>11-12½ U. 6 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 

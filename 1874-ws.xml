@@ -417,16 +417,16 @@ Z E I T abweichend. "siebenstündig" meint Mo. bis Sa., Sa. aber doppelt besetzt
       E.</funktion></dozent>, <zeit>täglich 3-4 U.</zeit></veranstaltung>
 
       <veranstaltung><thema><notiz betreff="modus">Privatissimum</notiz> über
-      Themata aus dem Handels- und Wechselrecht</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Götz</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>zweitägig 12-1 U.<!--
+      Themata aus dem Handels- und Wechselrecht</thema>: <dozent
+      ref="goetz_o"><grad>D. jur.</grad> <nachname>Götz</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>zweitägig 12-1 U.<!--
 "modus" innerhalb "thema" angegeben. Notiz betreff "modus" gesetzt. 
 Was heißt zweitägig? --></zeit></veranstaltung>
 
       <seite>7</seite>
 
       <veranstaltung><thema>Privatissimum über Themata aus dem
-      Civilrecht</thema>: <dozent><grad>D. jur.</grad>
+      Civilrecht</thema>: <dozent ref="goetz_o"><grad>D. jur.</grad>
       <nachname>Götz</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>zweitägig 12-1 U.</zeit></veranstaltung>
 
@@ -471,9 +471,9 @@ Was heißt zweitägig? --></zeit></veranstaltung>
       U.</zeit></veranstaltung>
 
       <veranstaltung><thema>Obligationsrecht nach dem bürgerl. G.-B. f.
-      S.</thema>: <dozent><grad>D. jur.</grad> <nachname>Götz</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>viertägig in zu best.
-      St.</zeit></veranstaltung>
+      S.</thema>: <dozent ref="goetz_o"><grad>D. jur.</grad>
+      <nachname>Götz</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>viertägig in zu best. St.</zeit></veranstaltung>
 
       <veranstaltung><thema>Sächsischer Civilprocess, im Anschluss an die
       Vorlesung über gem. deutschen Civilprocess</thema> (<siehe>siehe
@@ -784,8 +784,8 @@ Kein sic bei "hygieine", Schreibung regelmäßig von griech. hygieia.--></zeit><
       <nachname>Fürst</nachname></dozent>, <zeit>Mont. u. Mittw. 3-4 U.</zeit>
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Elektrotherapeutischer Cursus</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hagen</nachname></dozent>,
+      <veranstaltung><thema>Elektrotherapeutischer Cursus</thema>: <dozent
+      ref="hagen_er"><grad>D. med.</grad> <nachname>Hagen</nachname></dozent>,
       <zeit>7-8 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -846,14 +846,14 @@ nicht "dreitägig", was die Dauer der Veranstaltung insgesamt meinen würde. -->
       <dozent><grad>D. med.</grad> <nachname>Wendt</nachname>, <funktion>P. E.
       des.</funktion></dozent>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Otiatrischer Cursus</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hagen</nachname></dozent>, <zeit>2 Tage, 6-7
-      U.</zeit> <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Otiatrischer Cursus</thema>: <dozent
+      ref="hagen_er"><grad>D. med.</grad> <nachname>Hagen</nachname></dozent>,
+      <zeit>2 Tage, 6-7 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Laryngo-pharyngo-rhinoskopischer Cursus</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hagen</nachname></dozent>,
-      <zeit>zweitägig in sechswöchentlichen Cursen, 7-8 U.</zeit>
-      <modus>privatim</modus>.<!--"sechswöchentliche" Kurse werden wohl wiederum sechswöchige meinen.--></veranstaltung>
+      <dozent ref="hagen_er"><grad>D. med.</grad>
+      <nachname>Hagen</nachname></dozent>, <zeit>zweitägig in
+      sechswöchentlichen Cursen, 7-8 U.</zeit> <modus>privatim</modus>.<!--"sechswöchentliche" Kurse werden wohl wiederum sechswöchige meinen.--></veranstaltung>
 
       <trennlinie/>
 
@@ -916,7 +916,7 @@ nicht "dreitägig", was die Dauer der Veranstaltung insgesamt meinen würde. -->
       <zeit>sechsstündig</zeit>.</veranstaltung>
 
       <veranstaltung><thema>Repetitorien über Geburtshülfe mit
-      Phantomübungen</thema>: <dozent><grad>D. med.</grad>
+      Phantomübungen</thema>: <dozent ref="hennig_c"><grad>D. med.</grad>
       <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>täglich 5-6 U.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
@@ -981,10 +981,10 @@ Prof. Heubner"--></veranstaltung>
       <nachname>Credé</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 8-9 Morgens und Mont. 3-4 U.<!--Hier hingegen scheint es sich wieder auf die Disziplin zu beschränken, s. o.--></zeit></veranstaltung>
 
-      <veranstaltung><thema>Pädiatrische Klinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 9 U.</zeit>,
-      <modus>publice</modus>, (<ort>Karolinenstrasse 16,
+      <veranstaltung><thema>Pädiatrische Klinik</thema>: <dozent
+      ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 9
+      U.</zeit>, <modus>publice</modus>, (<ort>Karolinenstrasse 16,
       II.</ort>).</veranstaltung>
 
       <veranstaltung><thema>Pädiatrische Poliklinik</thema>: <dozent><grad>D.
@@ -1004,10 +1004,10 @@ Prof. Heubner"--></veranstaltung>
 
       <seite>13</seite>
 
-      <veranstaltung><thema>Otiatrische Poliklinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hagen</nachname></dozent>, <zeit>täglich 11-1
-      U.</zeit> <gebühr>unentgeltlich</gebühr>. <ort>Querstrasse 34,
-      I.</ort></veranstaltung>
+      <veranstaltung><thema>Otiatrische Poliklinik</thema>: <dozent
+      ref="hagen_er"><grad>D. med.</grad> <nachname>Hagen</nachname></dozent>,
+      <zeit>täglich 11-1 U.</zeit> <gebühr>unentgeltlich</gebühr>.
+      <ort>Querstrasse 34, I.</ort></veranstaltung>
 
       <trennlinie/>
 
@@ -1043,9 +1043,10 @@ Prof. Heubner"--></veranstaltung>
       U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Physikal. Uebungen für künftige Lehrer und
-      Mediciner</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-      <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>
-      <siehe>Siehe Naturwissenschaften</siehe>.</veranstaltungsverweis>
+      Mediciner</thema>: <dozent ref="hankel_wg"><grad>D. ph. &amp;
+      med.</grad> <nachname>Hankel</nachname>, <funktion>P.
+      O.</funktion></dozent> <siehe>Siehe
+      Naturwissenschaften</siehe>.</veranstaltungsverweis>
     </sachgruppe>
 
     <sachgruppe fakultät="Philosophie">
@@ -2019,7 +2020,7 @@ auch im Original kursiv.--></veranstaltung>
         <titel>G. Naturwissenschaften.</titel>
 
         <veranstaltung><thema>Physik, II. Theil (Magnetismus, Elektricität und
-        Wärme)</thema>: <dozent><grad>D. ph. &amp; med.</grad>
+        Wärme)</thema>: <dozent ref="hankel_wg"><grad>D. ph. &amp; med.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>täglich 11-12 U.</zeit></veranstaltung>
 
@@ -2134,15 +2135,17 @@ auch im Original kursiv.--></veranstaltung>
         <trennlinie/>
 
         <veranstaltung><thema>Physikalische Uebungen für künftige Lehrer und
-        Mediciner</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <nachname>Hankel</nachname>. <funktion>P. O.</funktion></dozent>,
-        <zeit>sechsstündig, je 3 Stunden an zwei Nachmittagen, Mont. u.
-        Donnerst., oder Dienst. u. Freit. 2-5 U.</zeit></veranstaltung>
+        Mediciner</thema>: <dozent ref="hankel_wg"><grad>D. ph. &amp;
+        med.</grad> <nachname>Hankel</nachname>. <funktion>P.
+        O.</funktion></dozent>, <zeit>sechsstündig, je 3 Stunden an zwei
+        Nachmittagen, Mont. u. Donnerst., oder Dienst. u. Freit. 2-5
+        U.</zeit></veranstaltung>
 
         <veranstaltung><thema>Physikalische Uebungen für
-        Fortgeschrittenere</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>täglich 9-5 U. ( Sonnab. nur bis 1 U.)</zeit></veranstaltung>
+        Fortgeschrittenere</thema>: <dozent ref="hankel_wg"><grad>D. ph. &amp;
+        med.</grad> <nachname>Hankel</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>täglich 9-5 U. ( Sonnab. nur bis 1
+        U.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Praktisch-chemische Uebungen und Untersuchungen
         im chemischen Laboratorium</thema>: <dozent><grad>D. ph.</grad>

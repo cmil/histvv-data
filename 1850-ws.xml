@@ -584,13 +584,13 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">2.
-        Th.</notiz></thema>: <dozent><grad>D. ph.</grad>
+        Th.</notiz></thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Mathematische Optik, <notiz
-        betreff="fortsetzung">2. Th.</notiz></thema>: <ders>Derselbe</ders>,
-        <zeit>4 U. Mont. u. Donn.</zeit>
+        betreff="fortsetzung">2. Th.</notiz></thema>: <ders
+        ref="hankel_wg">Derselbe</ders>, <zeit>4 U. Mont. u. Donn.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <seite>8</seite>
@@ -618,13 +618,13 @@
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen der physikalischen
-          Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
+          Gesellschaft</thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
           <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>in zu best. St. u. T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Physikalisch-physiologische Uebungen</thema>:
-          <ders>Derselbe</ders>, in Verbindung mit den H. H. Proff. DD.
-          <dozent ref="weber_eh"><vorname>E. H.</vorname><!--Weber--></dozent>
+          <ders ref="hankel_wg">Derselbe</ders>, in Verbindung mit den H. H.
+          Proff. DD. <dozent ref="weber_eh"><vorname>E. H.</vorname><!--Weber--></dozent>
           und <dozent ref="weber_ef"><vorname>E. F.</vorname>
           <nachname>Weber</nachname></dozent> und
           <dozent><nachname>Lehmann</nachname></dozent>, <zeit>in zu best. St.
@@ -1250,7 +1250,7 @@
         <titel>IV. Proceß.</titel>
 
         <veranstaltung><thema>Ordentlicher und summarischer
-        Civilproceß</thema>: <dozent><grad>D.</grad>
+        Civilproceß</thema>: <dozent ref="guenther_kf"><grad>D.</grad>
         <nachname>Günther</nachname>, <funktion>P. Prim., Fac. Iur.
         Ord.</funktion></dozent>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
@@ -1587,9 +1587,9 @@
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Ueber Krankheiten des Nervensystems</thema>:
-        <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <zeit>2
-        T. in zu best. St.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <dozent ref="hennig_c"><grad>D.</grad>
+        <nachname>Hennig</nachname></dozent>, <zeit>2 T. in zu best.
+        St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Pathologie und Therapie der syphilitischen
         Krankheitsformen</thema>: <dozent><grad>D.</grad>
@@ -1611,12 +1611,12 @@
         <titel>VII. Chirurgie.</titel>
 
         <veranstaltung><thema>Spec. Chirurgie, <notiz betreff="fortsetzung">1.
-        Th.</notiz></thema>: <dozent><grad>D.</grad>
+        Th.</notiz></thema>: <dozent ref="guenther_gb"><grad>D.</grad>
         <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>4 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Akiurgie und chir. Anatomie</thema>:
-        <ders>Ders.</ders>, <zeit>12 U. 2 T.</zeit>
+        <veranstaltung><thema>Akiurgie und chir. Anatomie</thema>: <ders
+        ref="guenther_gb">Ders.</ders>, <zeit>12 U. 2 T.</zeit>
         <modus>öffentl.</modus></veranstaltung>
 
         <veranstaltung><thema>Ausgewählte Capitel der Chirurgie</thema>:
@@ -1683,9 +1683,10 @@
         O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>8 U. 6
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Chirurgische Klinik</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9½-11 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Chirurgische Klinik</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9½-11 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>:
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.

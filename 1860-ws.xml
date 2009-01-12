@@ -723,8 +723,9 @@
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">2.
         Th.</notiz> (über Magnetismus, Elektricität und Wärme)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>11 U. 6 T.</zeit></veranstaltung>
+        <dozent ref="hankel_wg"><grad>D. ph.</grad>
+        <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>11 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Physische Geographie</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Naumann</nachname>, <funktion>P.
@@ -732,7 +733,7 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber Messung magnetischer und elektrischer
-        Kräfte</thema>: <dozent><grad>D. ph.</grad>
+        Kräfte</thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>4 U. 2 T. (Mont. und Donn.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -789,8 +790,9 @@
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen im physikalischen Seminar</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>,
-          <funktion>P. O.</funktion></dozent>,<zeit> 2-4 U. Dienst.</zeit>
+          <dozent ref="hankel_wg"><grad>D. ph.</grad>
+          <nachname>Hankel</nachname>, <funktion>P.
+          O.</funktion></dozent>,<zeit> 2-4 U. Dienst.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Examinatorium über Physik</thema>:
@@ -1154,9 +1156,9 @@
 
       <absatz>Naturrecht <siehe>s. Philosophie</siehe>.</absatz>
 
-      <veranstaltung><thema>Theorie der Gesetzgebungskunst</thema>:
-      <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-      Prim., Fac. jur. Ord.</funktion></dozent>, <zeit>11 U. 4
+      <veranstaltung><thema>Theorie der Gesetzgebungskunst</thema>: <dozent
+      ref="guenther_kf"><grad>D.</grad> <nachname>Günther</nachname>,
+      <funktion>P. Prim., Fac. jur. Ord.</funktion></dozent>, <zeit>11 U. 4
       T.</zeit></veranstaltung>
 
       <sachgruppe>
@@ -1272,8 +1274,8 @@
             <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><thema>Exminatorium über Civilrecht</thema>:
-            <dozent><grad>D.</grad> <nachname>Götz</nachname>, <funktion>P. E.
-            des.</funktion></dozent>, <zeit>in zu best.
+            <dozent ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname>,
+            <funktion>P. E. des.</funktion></dozent>, <zeit>in zu best.
             St.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -1320,12 +1322,13 @@
           Entwurfs)</thema>: <ders>Derselbe</ders>, <zeit>4 U. 3 T. (Dienst.,
           Donn., Sonn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Wechselrecht</thema>: <dozent><grad>D.</grad>
-          <nachname>Götz</nachname>, <funktion>P. E. des.</funktion></dozent>,
-          <zeit>3 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung><thema>Wechselrecht</thema>: <dozent
+          ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <zeit>3 U. 2
+          T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Gemeines und Sächsisches Lehnrecht</thema>:
-          <ders>Derselbe</ders>, <zeit>9 U. 2 T.</zeit>
+          <ders ref="goetz_o">Derselbe</ders>, <zeit>9 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 
@@ -1338,9 +1341,10 @@
           O.</funktion></dozent>, <zeit>9 U. 6 T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Sächsisches Privatrecht (mit Ausschluss des
-          Familien- u. Erbrechts)</thema>: <dozent><grad>D.</grad>
-          <nachname>Götz</nachname>, <funktion>P. E. des.</funktion></dozent>,
-          <zeit>8 U. 4 T.</zeit></veranstaltung>
+          Familien- u. Erbrechts)</thema>: <dozent
+          ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <zeit>8 U. 4
+          T.</zeit></veranstaltung>
 
           <veranstaltungsverweis><thema>K. Sächsisches Familienrecht und
           Erbrecht</thema>: <dozent><grad>D.</grad>
@@ -1391,12 +1395,12 @@
         <zeit>9 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Sächsisches Staats- und
-        Verwaltungsrecht</thema>: <dozent><grad>D.</grad>
+        Verwaltungsrecht</thema>: <dozent ref="goetz_o"><grad>D.</grad>
         <nachname>Götz</nachname>, <funktion>P. E. des.</funktion></dozent>,
         <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Sächsisches Finanzrecht</thema>:
-        <ders>Derselbe</ders>, <zeit>4 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Sächsisches Finanzrecht</thema>: <ders
+        ref="goetz_o">Derselbe</ders>, <zeit>4 U. 2 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1651,7 +1655,7 @@
         <trennlinie/>
 
         <veranstaltungsverweis><thema>Examinatorium über
-        Frauenkrankheiten</thema>: <dozent><grad>D.</grad>
+        Frauenkrankheiten</thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <siehe>s.
         Geburtshilfe</siehe>.</veranstaltungsverweis>
       </sachgruppe>
@@ -1666,14 +1670,15 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Allgemeine Chirurgie</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>5 Uhr 4 Tage</zeit>.</veranstaltung>
+        <veranstaltung><thema>Allgemeine Chirurgie</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>5 Uhr 4
+        Tage</zeit>.</veranstaltung>
 
         <veranstaltung><thema>Chirurgische Anatomie und Akiurgie</thema>:
-        <ders>Derselbe</ders> in Verbind. mit <dozent><grad>D.</grad>
-        <nachname>Kühn</nachname></dozent>, <zeit>8 U. 2 T.</zeit>
-        <modus>öffentl.</modus></veranstaltung>
+        <ders ref="guenther_gb">Derselbe</ders> in Verbind. mit
+        <dozent><grad>D.</grad> <nachname>Kühn</nachname></dozent>, <zeit>8 U.
+        2 T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Anatomie am Lebenden</thema>:
         <dozent><grad>D.</grad> <nachname>Schmidt</nachname></dozent>, <zeit>2
@@ -1755,7 +1760,7 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Examinatorium über Geburtshilfe und
-        Frauenkrankheiten</thema>: <dozent><grad>D.</grad>
+        Frauenkrankheiten</thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <zeit>in zu best. St.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
@@ -1775,7 +1780,7 @@
         des.</funktion></dozent>, <zeit>2 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Pädiatrische Poliklinik im Vordergebäude des
-        Trierschen Instituts</thema>: <dozent><grad>D.</grad>
+        Trierschen Instituts</thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <zeit>Mittw. 2 U.</zeit>
         <gebühr>unentgeltl.</gebühr></veranstaltung>
 
@@ -1786,8 +1791,9 @@
         St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Klinik im Jacobshospital</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9-10½ U. 6 T.</zeit></veranstaltung>
+        <dozent ref="guenther_gb"><grad>D.</grad>
+        <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>9-10½ U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>: <dozent
         ref="francke_kg"><grad>D.</grad> <nachname>Francke</nachname>,

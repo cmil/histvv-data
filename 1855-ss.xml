@@ -619,15 +619,15 @@ geschweifter Klammer auf beide Veranstaltungsverweise!-->
       <sachgruppe>
         <titel>1. Physik und Chemie.</titel>
 
-        <veranstaltung><thema>Geschichte der Physik</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Hankel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Geschichte der Physik</thema>: <dozent
+        ref="hankel_wg"><grad>D. ph.</grad> <nachname>Hankel</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">1.
-        Th.</notiz></thema>: <dozent><grad>D. ph.</grad>
+        Th.</notiz></thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 6 T.</zeit></veranstaltung>
 
@@ -683,12 +683,12 @@ geschweifter Klammer auf beide Veranstaltungsverweise!-->
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen im physikalischen Seminar</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>2 U.
-          Freit.</zeit></veranstaltung>
+          <dozent ref="hankel_wg"><grad>D. ph.</grad>
+          <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>2 U. Freit.</zeit></veranstaltung>
 
           <veranstaltung><thema>Physikalisch-chemische u. physiologische
-          Uebungen</thema>: Proff. <dozent><grad>D.</grad>
+          Uebungen</thema>: Proff. <dozent ref="hankel_wg"><grad>D.</grad>
           <nachname>Hankel</nachname></dozent>, <dozent><grad>D.</grad>
           <nachname>Lehmann</nachname></dozent>, <dozent
           ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
@@ -1448,10 +1448,10 @@ sondern müsste diese eigentlich ergänzen!-->
 
         <veranstaltung><thema>Theorie des gemeinen und sächsischen
         Criminalprocesses, mit Berücksichtigung der sämmtlichen beschlossenen
-        Veränderungen des sächsischen Criminalverfahrens</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        Prim., Fac. Jurid. Ord.</funktion></dozent>, <zeit>11 U. 6
-        T.</zeit></veranstaltung>
+        Veränderungen des sächsischen Criminalverfahrens</thema>: <dozent
+        ref="guenther_kf"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. Prim., Fac. Jurid. Ord.</funktion></dozent>, <zeit>11 U.
+        6 T.</zeit></veranstaltung>
 
         <veranstaltungsgruppe><thema>Gemeiner u. sächsischer
         Criminalproceß</thema>: <dozent><grad>D.</grad>
@@ -1636,8 +1636,9 @@ sondern müsste diese eigentlich ergänzen!-->
 
         <veranstaltung><thema>Physikalisch-chemische u. physiologische
         Uebungen im physiologischen Institute</thema> von den Professoren
-        <dozent><grad>D.</grad> <nachname>Hankel</nachname></dozent>,
-        <dozent><grad>D.</grad> <nachname>Lehmann</nachname></dozent>, <dozent
+        <dozent ref="hankel_wg"><grad>D.</grad>
+        <nachname>Hankel</nachname></dozent>, <dozent><grad>D.</grad>
+        <nachname>Lehmann</nachname></dozent>, <dozent
         ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
         sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
         <nachname>Weber</nachname> jun.</dozent>, <zeit>an 3 T. 2
@@ -1753,7 +1754,7 @@ sondern müsste diese eigentlich ergänzen!-->
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber Kinderkrankheiten (nach s.
-        Lehrbuch)</thema>: <dozent><grad>D.</grad>
+        Lehrbuch)</thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <zeit>2 St., nebst 1 St. prakt.
         Uebung., 4 U. Mont., Donn. u. Sonn.</zeit></veranstaltung>
 
@@ -1775,13 +1776,14 @@ sondern müsste diese eigentlich ergänzen!-->
       <sachgruppe>
         <titel>IX. Chirurgie.</titel>
 
-        <veranstaltung><thema>Specielle Chirurgie</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Specielle Chirurgie</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber einige wichtigere Abschnitte aus der
-        Chirurgie</thema>: <ders>Derselbe</ders>, <zeit>in 2 zu best.
-        St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Chirurgie</thema>: <ders ref="guenther_gb">Derselbe</ders>, <zeit>in 2
+        zu best. St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber die chirurgische Behandlung der
         Krankheiten der Harnwege</thema>: <dozent><grad>D.</grad>
@@ -1795,9 +1797,10 @@ sondern müsste diese eigentlich ergänzen!-->
 
         <trennlinie/>
 
-        <veranstaltung><thema>Operationscursus</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>3-5 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Operationscursus</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>3-5 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Uebungen im Bandagiren und
         Maschinen-Anlegen</thema>: <dozent ref="francke_kg"><grad>D.</grad>
@@ -1887,7 +1890,7 @@ sondern müsste diese eigentlich ergänzen!-->
         St. u. T.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Examinatorium über Frauenkrankheiten und
-        Geburtshilfe</thema>: <dozent><grad>D.</grad>
+        Geburtshilfe</thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <zeit>in zu best. St. u.
         T.</zeit> <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
@@ -1919,9 +1922,10 @@ sondern müsste diese eigentlich ergänzen!-->
         <seite>21</seite>
 
         <veranstaltung><thema>Chirurgische Klinik <ort>im
-        Jakobshospital</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>9½-12 U. 6 T.</zeit></veranstaltung>
+        Jakobshospital</ort></thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9½-12 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>:
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.

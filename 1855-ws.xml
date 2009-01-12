@@ -633,9 +633,9 @@
       Physik</siehe>.</absatz>
 
       <veranstaltung><thema>Mathematische Theorie der Elasticität</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u. Donn.)</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      <dozent ref="hankel_wg"><grad>D. ph.</grad> <nachname>Hankel</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u.
+      Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Mathematisch-physikalische Lehrübungen</thema>:
       <dozent ref="marbach_go"><grad>D. ph.</grad>
@@ -651,7 +651,7 @@
         <titel>1. Physik und Chemie.</titel>
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">2.
-        Th.</notiz></thema>: <dozent><grad>D. ph.</grad>
+        Th.</notiz></thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 6 T.</zeit></veranstaltung>
 
@@ -667,7 +667,7 @@
         Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Mathematische Theorie der
-        Elasticität</thema>: <dozent><grad>D. ph.</grad>
+        Elasticität</thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <siehe>s. mathem. Wissensch.</siehe></veranstaltungsverweis>
 
@@ -712,9 +712,9 @@
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen im physikalischen Seminar</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. 2
-          U.</zeit></veranstaltung>
+          <dozent ref="hankel_wg"><grad>D. ph.</grad>
+          <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst. 2 U.</zeit></veranstaltung>
 
           <veranstaltungsverweis><thema>Mathematisch-physikalische
           Lehrübungen</thema>, <siehe>s.
@@ -1403,7 +1403,7 @@
         <titel>IV. Proceßrecht.</titel>
 
         <veranstaltung><thema>Ordentlicher und summarischer
-        Civilproceß</thema>: <dozent><grad>D.</grad>
+        Civilproceß</thema>: <dozent ref="guenther_kf"><grad>D.</grad>
         <nachname>Günther</nachname>, <funktion>P. prim., Fac. Jurid.
         Ord.</funktion></dozent>, <zeit>11 U. 6 T.</zeit></veranstaltung>
 
@@ -1667,9 +1667,9 @@
         <dozent><grad>D.</grad> <nachname>Meißner</nachname></dozent>, <zeit>2
         U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber Kinderkrankheiten</thema>:
-        <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>, <zeit>4
-        U. Mont. u. Donn.</zeit></veranstaltung>
+        <veranstaltung><thema>Ueber Kinderkrankheiten</thema>: <dozent
+        ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname></dozent>,
+        <zeit>4 U. Mont. u. Donn.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber Syphilis</thema>: <dozent><grad>D.</grad>
         <nachname>Walther</nachname>, <funktion>P. O.
@@ -1688,7 +1688,7 @@
         Geburtshilfe</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Examinatorien über
-        Frauenkrankheiten</thema>: <dozent><grad>D.</grad>
+        Frauenkrankheiten</thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <siehe>s.
         Geburtshilfe</siehe>.</veranstaltungsverweis>
       </sachgruppe>
@@ -1705,12 +1705,13 @@
       <sachgruppe>
         <titel>VIII. Chirurgie.</titel>
 
-        <veranstaltung><thema>Allgemeine Chirurgie</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>5 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Allgemeine Chirurgie</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>5 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Chirurgische Anatomie</thema>:
-        <ders>Derselbe</ders>, <zeit>8 U. 2 T.</zeit>
+        <veranstaltung><thema>Chirurgische Anatomie</thema>: <ders
+        ref="guenther_gb">Derselbe</ders>, <zeit>8 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chirurgische Diagnostik</thema>:
@@ -1801,7 +1802,7 @@
         St. u. T.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Examinatorium über Geburtshilfe und
-        Frauenkrankheiten</thema>: <dozent><grad>D.</grad>
+        Frauenkrankheiten</thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <zeit>in zu best. St. u.
         T.</zeit> <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
@@ -1818,15 +1819,16 @@
         <dozent><grad>D.</grad> <nachname>Ruete</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>2 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Poliklinik für Kinder</thema>:
-        <dozent><grad>D.</grad> <nachname>Hennig</nachname></dozent>,
+        <veranstaltung><thema>Poliklinik für Kinder</thema>: <dozent
+        ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname></dozent>,
         <zeit>Mittw. 2 U. und an einem zu best. T. u. St.</zeit>, wo Patienten
         im Hause besucht werden.</veranstaltung>
 
         <veranstaltung><thema>Chirurgische Klinik <ort>im
-        Jakobshospital</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>9-10½ U. 6 T.</zeit></veranstaltung>
+        Jakobshospital</ort></thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9-10½ U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>:
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.

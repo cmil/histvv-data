@@ -703,7 +703,7 @@
         <titel>1. Physik und Chemie.</titel>
 
         <veranstaltung><thema>Physik, <notiz betreff="fortsetzung">2
-        Th.</notiz></thema>: <dozent><grad>D. ph.</grad>
+        Th.</notiz></thema>: <dozent ref="hankel_wg"><grad>D. ph.</grad>
         <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 6 T.</zeit></veranstaltung>
 
@@ -712,10 +712,10 @@
         O.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. und Freit.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Meteorologie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Hankel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Meteorologie</thema>: <dozent
+        ref="hankel_wg"><grad>D. ph.</grad> <nachname>Hankel</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -754,9 +754,9 @@
           <titel>Physikalische und chemische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen im physikalischen Seminar</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hankel</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. 2
-          U.</zeit></veranstaltung>
+          <dozent ref="hankel_wg"><grad>D. ph.</grad>
+          <nachname>Hankel</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst. 2 U.</zeit></veranstaltung>
 
           <veranstaltungsverweis><thema>Uebungen im Unterricht der Mathematik
           u. Naturlehre</thema> <siehe>s.
@@ -1332,7 +1332,7 @@
           E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Examinatorium über einige ausgewählte Lehren
-          des römischen Rechts</thema>: <dozent><grad>D.</grad>
+          des römischen Rechts</thema>: <dozent ref="goetz_o"><grad>D.</grad>
           <nachname>Götz</nachname></dozent>, <zeit>4 U. 2
           T.</zeit></veranstaltung>
         </sachgruppe>
@@ -1369,9 +1369,9 @@
         <nachname>Dietzel</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>3 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Handelsrecht</thema>: <dozent><grad>D.</grad>
-        <nachname>Götz</nachname></dozent>, <zeit>12 U. 3
-        T.</zeit></veranstaltung>
+        <veranstaltung><thema>Handelsrecht</thema>: <dozent
+        ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname></dozent>,
+        <zeit>12 U. 3 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Gemeines u. sächsisches Wechselrecht mit
         Zugrundlegung der deutschen Wechselordnung</thema>:
@@ -1379,15 +1379,16 @@
         E.</funktion></dozent>, <zeit>3 U. 3 T. (Dienst., Donn.,
         Freit.)</zeit></veranstaltung>
 
-        <veranstaltung><thema>Wechselrecht</thema>: <dozent><grad>D.</grad>
-        <nachname>Götz</nachname></dozent>, <zeit>8 U. 3
-        T.</zeit></veranstaltung>
+        <veranstaltung><thema>Wechselrecht</thema>: <dozent
+        ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname></dozent>,
+        <zeit>8 U. 3 T.</zeit></veranstaltung>
 
         <trennlinie/>
 
         <veranstaltung><thema>Gemeines u. sächsisches Lehnrecht</thema>:
-        <dozent><grad>D.</grad> <nachname>Götz</nachname></dozent>, <zeit>10
-        U. 2 T.</zeit></veranstaltung>
+        <dozent ref="goetz_o"><grad>D.</grad>
+        <nachname>Götz</nachname></dozent>, <zeit>10 U. 2
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1402,9 +1403,10 @@
         <ders>Ders.</ders>, <zeit>10 U. 2 T.</zeit>
         <modus>öffentl.</modus></veranstaltung>
 
-        <veranstaltung><thema>Sächsisches Immobiliarrecht</thema>:
-        <dozent><grad>D.</grad> <nachname>Götz</nachname></dozent>, <zeit>10
-        U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung><thema>Sächsisches Immobiliarrecht</thema>: <dozent
+        ref="goetz_o"><grad>D.</grad> <nachname>Götz</nachname></dozent>,
+        <zeit>10 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -1420,10 +1422,11 @@
       <trennlinie/>
 
       <veranstaltung><thema>Theorie des sächsischen ordentlichen und
-      summarischen Civilprocesses</thema>: <dozent><grad>D.</grad>
-      <nachname>Günther</nachname>, <funktion>P. Prim., Fac. Jurid.
-      Ord.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>11 U.
-      6 T.</zeit></veranstaltung>
+      summarischen Civilprocesses</thema>: <dozent
+      ref="guenther_kf"><grad>D.</grad> <nachname>Günther</nachname>,
+      <funktion>P. Prim., Fac. Jurid. Ord.</funktion>, d. Z.
+      <funktion>Dech.</funktion></dozent>, <zeit>11 U. 6
+      T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Gemeiner deutscher und sächsischer ordentlicher
       und summarischer Civilprocess</thema>: <dozent><grad>D.</grad>
@@ -1731,12 +1734,13 @@
       <sachgruppe>
         <titel>VIII. Chirurgie.</titel>
 
-        <veranstaltung><thema>Allgemeine Chirurgie</thema>:
-        <dozent><grad>D.</grad> <nachname>Günther</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>5 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Allgemeine Chirurgie</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>5 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Chirurgische Anatomie</thema>:
-        <ders>Ders.</ders>, <zeit>8 U. 2 T.</zeit>
+        <veranstaltung><thema>Chirurgische Anatomie</thema>: <ders
+        ref="guenther_gb">Ders.</ders>, <zeit>8 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chirurgische Diagnostik</thema>:
@@ -1843,22 +1847,24 @@
         O.</funktion></dozent>, <zeit>2 U. 5 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Klinik an den Kinderkrankenbetten <ort>im
-        Jakobshospitale</ort></thema>: <dozent><grad>D.</grad>
+        Jakobshospitale</ort></thema>: <dozent ref="hennig_c"><grad>D.</grad>
         <nachname>Hennig</nachname></dozent>, <zeit>11 U. 2 T. (Dienst. u.
         Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Paediatrische Poliklinik (<ort>im Vordergebäude
-        des Trierschen Instituts</ort>)</thema>: <ders>Derselbe</ders>,
-        <zeit>2 U. Mittw.</zeit>, <gebühr>unentgeltl.</gebühr></veranstaltung>
+        des Trierschen Instituts</ort>)</thema>: <ders
+        ref="hennig_c">Derselbe</ders>, <zeit>2 U. Mittw.</zeit>,
+        <gebühr>unentgeltl.</gebühr></veranstaltung>
 
         <veranstaltung><thema>Privatpoliklinik</thema>: <dozent
         ref="weber_t"><grad>D.</grad> <nachname>Weber</nachname></dozent>,
         <zeit>täglich in zu best. St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Klinik im
-        <ort>Jakobshospitale</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>9-10½ U. 6 T.</zeit></veranstaltung>
+        <ort>Jakobshospitale</ort></thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9-10½ U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Poliklinik</thema>:
         <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.

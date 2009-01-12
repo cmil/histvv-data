@@ -1053,9 +1053,9 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl.
             Abschnitte</thema>, <zeit>8 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Hahn</nachname>, <grad>D.</grad>
-            <vorname>A.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>Erklärung des <schrift>Propheten
+            <veranstaltung><dozent ref="hahn_a"><nachname>Hahn</nachname>,
+            <grad>D.</grad> <vorname>A.</vorname>, <funktion>P.
+            O.</funktion></dozent>, <thema>Erklärung des <schrift>Propheten
             <titel>Jeremias</titel></schrift></thema>, <zeit>8 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1299,7 +1299,7 @@ siehe oben--></veranstaltung>
             <sachgruppe>
               <titel>*) Examinatoria über Dogmatik.</titel>
 
-              <veranstaltung><dozent><nachname>Hahn</nachname>,
+              <veranstaltung><dozent ref="hahn_a"><nachname>Hahn</nachname>,
               <grad>D.</grad> <vorname>A.</vorname>, <funktion>P.
               O.</funktion></dozent>, <zeit>10 U. Mont., MIttw. u.
               Freit.</zeit> <modus>prvatissime</modus>.</veranstaltung>
@@ -1317,7 +1317,7 @@ siehe oben--></veranstaltung>
             <sachgruppe>
               <titel>Examinatorium über Moral.</titel>
 
-              <veranstaltung><dozent><nachname>Hahn</nachname>,
+              <veranstaltung><dozent ref="hahn_a"><nachname>Hahn</nachname>,
               <grad>D.</grad> <vorname>A.</vorname>, <funktion>P.
               O.</funktion></dozent>, <zeit>10 U. 2 T.</zeit></veranstaltung>
             </sachgruppe>
@@ -1364,10 +1364,10 @@ siehe oben--></veranstaltung>
         <sachgruppe>
           <titel>Homiletik.</titel>
 
-          <veranstaltung><dozent><nachname>Hahn</nachname>, <grad>D.</grad>
-          <vorname>A.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>Theorie der Homiletik</thema>, <zeit>8 U. 2
-          T.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="hahn_a"><nachname>Hahn</nachname>,
+          <grad>D.</grad> <vorname>A.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>Theorie der Homiletik</thema>,
+          <zeit>8 U. 2 T.</zeit></veranstaltung>
 
           <sachgruppe>
             <titel>Pastoral-Theologie.</titel>
@@ -1404,10 +1404,10 @@ siehe oben--></veranstaltung>
           <sachgruppe>
             <titel>Homiletische Uebungen.</titel>
 
-            <veranstaltung><dozent><nachname>Hahn</nachname>, <grad>D.</grad>
-            <vorname>A.</vorname>, <funktion>P. O.</funktion></dozent>, <thema
-            kontext="sachgruppe">im homilet. Seminar</thema>, <zeit>11 U.
-            Dienst u. Freit.</zeit>
+            <veranstaltung><dozent ref="hahn_a"><nachname>Hahn</nachname>,
+            <grad>D.</grad> <vorname>A.</vorname>, <funktion>P.
+            O.</funktion></dozent>, <thema kontext="sachgruppe">im homilet.
+            Seminar</thema>, <zeit>11 U. Dienst u. Freit.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <!--Könnte das homiletische Seminar vielleicht ein Ort sein?-->
@@ -1798,9 +1798,10 @@ Als zwei Schriften auszeichnen?-->
             <sachgruppe>
               <titel>2) Criminalrecht.</titel>
 
-              <veranstaltung><dozent><nachname>Günther</nachname>,
-              <grad>D.</grad> <vorname>K. F.</vorname>, <funktion>P. Prim.,
-              Fac. Jurid. Ordin.</funktion></dozent>, <thema>Criminalrecht u.
+              <veranstaltung><dozent
+              ref="guenther_kf"><nachname>Günther</nachname>, <grad>D.</grad>
+              <vorname>K. F.</vorname>, <funktion>P. Prim., Fac. Jurid.
+              Ordin.</funktion></dozent>, <thema>Criminalrecht u.
               Criminalproceß, <schrift>nach s. Sätzen</schrift> mit Rücksicht
               auf das <schrift>Lehrbuch des im Königr. Sachsen geltenden
               Criminalrechts v. <autor>D. Jul. Voltmann</autor>, (Lpz. b. Hahn
@@ -1878,10 +1879,11 @@ Veranstaltung.--></veranstaltung>
             <sachgruppe>
               <titel>5) Wechselrecht.</titel>
 
-              <veranstaltung><dozent><nachname>Günther</nachname>,
-              <grad>D.</grad> <vorname>K. F.</vorname>, <funktion>P. Prim.,
-              Fac. Jurid. Ordin.</funktion></dozent>, <thema>Wechselrecht,
-              nach seinen Sätzen</thema>, <zeit>10 U. 4 T.</zeit>
+              <veranstaltung><dozent
+              ref="guenther_kf"><nachname>Günther</nachname>, <grad>D.</grad>
+              <vorname>K. F.</vorname>, <funktion>P. Prim., Fac. Jurid.
+              Ordin.</funktion></dozent>, <thema>Wechselrecht, nach seinen
+              Sätzen</thema>, <zeit>10 U. 4 T.</zeit>
               <modus>öffentl.</modus></veranstaltung>
 
               <veranstaltungsverweis><dozent><nachname>Kind</nachname>,
@@ -1924,9 +1926,10 @@ Veranstaltung.--></veranstaltung>
           <sachgruppe>
             <titel>1) Gerichtlicher Proceß.</titel>
 
-            <veranstaltungsverweis><dozent><nachname>Günther</nachname>,
-            <grad>D.</grad> <vorname>K. F.</vorname>, <funktion>P. Prim., Fac.
-            Jurid. Ordin.</funktion></dozent>, <siehe>s.
+            <veranstaltungsverweis><dozent
+            ref="guenther_kf"><nachname>Günther</nachname>, <grad>D.</grad>
+            <vorname>K. F.</vorname>, <funktion>P. Prim., Fac. Jurid.
+            Ordin.</funktion></dozent>, <siehe>s.
             Criminalrecht</siehe>.</veranstaltungsverweis>
 
             <veranstaltungsgruppe><dozent
@@ -2351,11 +2354,11 @@ Veranstaltung.--></veranstaltung>
         <sachgruppe>
           <titel>1) Arzneimittellehre.</titel>
 
-          <veranstaltung><dozent><nachname>Haase</nachname>, <grad>D.</grad>
-          <vorname>W. A.</vorname>, <funktion>P. O.</funktion>, d. Z.
-          <funktion>Rector</funktion></dozent>, <zeit>12 St. wöchentlich,
-          nämlich 7 U. 6 T., 11 U. 4 T. u. 8 U. 2 T.</zeit> <modus>öffentlich
-          u. privatim.</modus></veranstaltung>
+          <veranstaltung><dozent ref="haase_wa"><nachname>Haase</nachname>,
+          <grad>D.</grad> <vorname>W. A.</vorname>, <funktion>P.
+          O.</funktion>, d. Z. <funktion>Rector</funktion></dozent>, <zeit>12
+          St. wöchentlich, nämlich 7 U. 6 T., 11 U. 4 T. u. 8 U. 2 T.</zeit>
+          <modus>öffentlich u. privatim.</modus></veranstaltung>
 
           <veranstaltung><dozent><nachname>Schwartze</nachname>,
           <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
@@ -2621,11 +2624,11 @@ oder ob nur für Jusisten dieses oder nächstes Semester...?--></veranstaltung>
           betreff="fortsetzung">Fortsetzung</notiz></thema>, <zeit>in den
           best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Haase</nachname>, <grad>D.</grad>
-          <vorname>W. A.</vorname>, <funktion>P. O.</funktion>, d. Z.
-          <funktion>Rector</funktion></dozent>, <thema>über die gesammte
-          praktische Medicin</thema>, <zeit>in zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="haase_wa"><nachname>Haase</nachname>,
+          <grad>D.</grad> <vorname>W. A.</vorname>, <funktion>P.
+          O.</funktion>, d. Z. <funktion>Rector</funktion></dozent>,
+          <thema>über die gesammte praktische Medicin</thema>, <zeit>in zu
+          best. St.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Hacker</nachname>, <grad>D.</grad>
           <vorname>H. A.</vorname></dozent>, <thema>über praktische

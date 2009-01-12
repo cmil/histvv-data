@@ -430,7 +430,7 @@
       <titel>II. Juristische Fakultät.</titel>
 
       <veranstaltung><thema>Einführung in die Rechtswissenschaft (juristische
-      Encyklopädie)</thema>: <dozent><grad>D. jur.</grad>
+      Encyklopädie)</thema>: <dozent ref="hoelder_e"><grad>D. jur.</grad>
       <vorname>E.</vorname> <nachname>Hölder</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Dienst. bis Donnerst. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -441,8 +441,8 @@
       <zeit>Dienst., Mittw. u. Donnerst. 8-9 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>System des römischen Privatrechts</thema>:
-      <dozent><grad>D. jur.</grad> <vorname>E.</vorname>
+      <veranstaltung><thema>System des römischen Privatrechts</thema>: <dozent
+      ref="hoelder_e"><grad>D. jur.</grad> <vorname>E.</vorname>
       <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. bis Freit. 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1209,11 +1209,11 @@
       <modus>privatim</modus>, <ort>in der Universitätsfrauenklinik,
       Stephanstr. 7</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Geburtshilfe und Phantomübungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 4-5
-      U.</zeit>, <modus>privatim</modus>, <ort>in der Wohnung, Funkenburgstr.
-      9 Eg. I.</ort></veranstaltung>
+      <veranstaltung><thema>Geburtshilfe und Phantomübungen</thema>: <dozent
+      ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      4-5 U.</zeit>, <modus>privatim</modus>, <ort>in der Wohnung,
+      Funkenburgstr. 9 Eg. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Kurs geburtshilflicher Operationen</thema>:
       <dozent><grad>D. med.</grad> <nachname>Skutsch</nachname></dozent>,
@@ -1231,10 +1231,10 @@
       Privatpoliklinik, Königsstr. 14</ort>.</veranstaltung>
 
       <veranstaltung><thema>Frauenkrankheiten, mit Demonstrationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hennig</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 9-10
-      U.</zeit>, <modus>publice</modus>, <ort>in der Wohnung, Funkenburgstr.
-      9. Eg. I.</ort></veranstaltung>
+      <dozent ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      9-10 U.</zeit>, <modus>publice</modus>, <ort>in der Wohnung,
+      Funkenburgstr. 9. Eg. I.</ort></veranstaltung>
 
       <trennlinie/>
 
@@ -2443,7 +2443,7 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>George Sand, Honoré de Balzac, Gustave
-          Flaubert</thema>: <dozent><funktion>Lektor</funktion>
+          Flaubert</thema>: <dozent ref="monod_g"><funktion>Lektor</funktion>
           <nachname>Monod</nachname></dozent>, <zeit>Mont. u. Mittw. 4-5
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2540,8 +2540,8 @@
           Ab.</zeit>, <modus>privatissime</modus>, sed
           <gebühr>gratis</gebühr></veranstaltung></veranstaltungsgruppe>. -
           <veranstaltungsgruppe><thema>II. Abteilung: Praktische Übungen im
-          modernen Französisch</thema> <dozent>unter Leitung des Assistenten
-          Lektors<!--(hier "funktion" nachtragen; problematisch aber durch Genitive)-->
+          modernen Französisch</thema> <dozent ref="monod_g">unter Leitung des
+          Assistenten Lektors<!--(hier "funktion" nachtragen; problematisch aber durch Genitive)-->
           <nachname>Monod</nachname></dozent>: <veranstaltung><thema>1.
           Sektion</thema>: <zeit>Mittw. 11¼-12¾ U.</zeit></veranstaltung>;
           <veranstaltung><thema>2. Sektion</thema>: <zeit>Dienst. u. Freit.
@@ -2550,7 +2550,8 @@
 
           <veranstaltung><thema>Exercices pratiques de français
           (Prononciation. Lecture. Conversation), für Studierende aller
-          Fakultäten</thema>: <dozent><funktion>Lektor</funktion>
+          Fakultäten</thema>: <dozent
+          ref="monod_g"><funktion>Lektor</funktion>
           <nachname>Monod</nachname></dozent>, <zeit>Mont. u. Mittw. 6-7
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2737,7 +2738,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Wirtschaftsgeographie von Afrika und
-        Australien</thema>: <dozent><grad>D. ph.</grad>
+        Australien</thema>: <dozent ref="friedrich_e"><grad>D. ph.</grad>
         <nachname>Friedrich</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont. u. Freit. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2905,11 +2906,11 @@
               Gildewesens</thema>, <zeit>Sonnab. 11-12½
               U.</zeit></veranstaltung>
 
-              <veranstaltung>3) <dozent><grad>D. ph.</grad>
-              <nachname>Goldfriedrich</nachname></dozent>: <thema>Übungen zur
-              Geschichte der Abwandlung des seelischen Lebens in Deutschland
-              vom 17. zum 19. Jht. auf Grund der periodischen
-              Literatur</thema>, <zeit>Mittw. 8-9½ U.
+              <veranstaltung>3) <dozent ref="goldfriedrich_j"><grad>D.
+              ph.</grad> <nachname>Goldfriedrich</nachname></dozent>:
+              <thema>Übungen zur Geschichte der Abwandlung des seelischen
+              Lebens in Deutschland vom 17. zum 19. Jht. auf Grund der
+              periodischen Literatur</thema>, <zeit>Mittw. 8-9½ U.
               Ab.</zeit></veranstaltung>
 
               <veranstaltung>4) <dozent ref="biermann_ew"><grad>D. ph.</grad>
@@ -2921,12 +2922,14 @@
 
               <veranstaltung>5) <dozent ref="lamprecht_k"><grad>D. ph.</grad>
               et <grad>LL. D.</grad> <nachname>Lamprecht</nachname>,
-              <funktion>P. O.</funktion></dozent>, <dozent>in Verbindung mit
-              <grad>D. ph.</grad> <nachname>Goldfriedrich</nachname></dozent>:
-              <thema>Übungen zur deutschen Kulturgeschichte des 19.
-              Jhts.</thema>, <zeit>Dienst. 8½-10 U. Ab.</zeit></veranstaltung>
+              <funktion>P. O.</funktion></dozent>, <dozent
+              ref="goldfriedrich_j">in Verbindung mit <grad>D. ph.</grad>
+              <nachname>Goldfriedrich</nachname></dozent>: <thema>Übungen zur
+              deutschen Kulturgeschichte des 19. Jhts.</thema>, <zeit>Dienst.
+              8½-10 U. Ab.</zeit></veranstaltung>
 
-              <veranstaltung>6) <dozent><funktion>Lektor</funktion>
+              <veranstaltung>6) <dozent
+              ref="monod_g"><funktion>Lektor</funktion>
               <nachname>Monod</nachname></dozent>: <thema>Übungen zur
               französischen Kulturgeschichte: Das gesellschaftliche Leben am
               Hofe Ludwig's XIV. Lehrsprache französisch</thema>. <zeit>Freit.
@@ -3032,8 +3035,8 @@
             <thema>Abteilung für Anfänger</thema>, <zeit>Freit. 4-5 U.</zeit>,
             <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
-            <veranstaltungsgruppe><dozent><grad>D. ph.</grad>
-            <nachname>Friedrich</nachname>, <funktion>P.
+            <veranstaltungsgruppe><dozent ref="friedrich_e"><grad>D.
+            ph.</grad> <nachname>Friedrich</nachname>, <funktion>P.
             E.</funktion></dozent>: <thema>Übungen für die Studierenden der
             Handelshochschule</thema>: <veranstaltung>1) <thema>Für Anfänger:
             Das Wichtigste aus der physischen Geographie als Grundlage der
@@ -3660,10 +3663,11 @@
         <funktion>P. E.</funktion></dozent>, <zeit>Mittw. u. Freit. 11-12
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Zahlentheorie</thema>: <dozent><grad>D. ph. et
-        scient. nat.</grad> <vorname>O.</vorname> <nachname>Hölder</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 11-12
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Zahlentheorie</thema>: <dozent
+        ref="hoelder_o"><grad>D. ph. et scient. nat.</grad>
+        <vorname>O.</vorname> <nachname>Hölder</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 11-12 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Elemente der Theorie der partiellen
         Differentialgleichungen</thema>: <dozent><grad>D. ph.</grad>
@@ -3676,10 +3680,10 @@
         O.</funktion></dozent>, <zeit>Dienst., Mittw. u. Donnerst. in noch zu
         best. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Analytische Mechanik</thema>: <dozent><grad>D.
-        ph. et scient. nat.</grad> <vorname>O.</vorname>
-        <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. bis Freit. 10-11 U.</zeit>,
+        <veranstaltung><thema>Analytische Mechanik</thema>: <dozent
+        ref="hoelder_o"><grad>D. ph. et scient. nat.</grad>
+        <vorname>O.</vorname> <nachname>Hölder</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont. bis Freit. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Himmlische Mechanik</thema>: <dozent
@@ -3701,12 +3705,12 @@
         <trennlinie/>
 
         <veranstaltungsgruppe><thema>Mathematisches Seminar</thema>:
-        <veranstaltung>1) <dozent><grad>D. ph. et scient. nat.</grad>
-        <vorname>O.</vorname> <nachname>Hölder</nachname>, <funktion>P.
-        O.</funktion></dozent>: <thema>Übungen in Mechanik</thema>
-        (<dozent>mit <grad>D. ph.</grad> <nachname>Liebmann</nachname>,
-        <funktion>P. E.</funktion></dozent>), <zeit>Sonnab. 10-11 U.</zeit>,
-        <modus>privatissime</modus>, aber
+        <veranstaltung>1) <dozent ref="hoelder_o"><grad>D. ph. et scient.
+        nat.</grad> <vorname>O.</vorname> <nachname>Hölder</nachname>,
+        <funktion>P. O.</funktion></dozent>: <thema>Übungen in
+        Mechanik</thema> (<dozent>mit <grad>D. ph.</grad>
+        <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>),
+        <zeit>Sonnab. 10-11 U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung>. <veranstaltung>2)
         <dozent><grad>D. ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
         O.</funktion></dozent>: <thema>Übungen zur Anwendung der
@@ -3750,7 +3754,7 @@
         Liebigstr. 13</ort>.</veranstaltung>
 
         <veranstaltung><thema>Elemente der Physik, für Studierende aller
-        Fakultäten</thema>: <dozent><grad>D. ph.</grad>
+        Fakultäten</thema>: <dozent ref="oettingen_aj"><grad>D. ph.</grad>
         <nachnamenpräfix>von</nachnamenpräfix> <nachname>Oettingen</nachname>,
         <funktion>P. O. Hon.</funktion></dozent>, <zeit>Dienst. u. Mittw. 6-7
         U.</zeit>, <modus>privatim</modus>, <ort>im
