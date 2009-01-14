@@ -238,8 +238,8 @@
         E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber Tacitus Germania</thema>:
-        <dozent><nachname>Haupt</nachname>, <funktion>P.
+        <veranstaltung><thema>Ueber Tacitus Germania</thema>: <dozent
+        ref="haupt_m"><nachname>Haupt</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -293,7 +293,8 @@
         <zeit>in den best. St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Uebungen seiner lateinischen
-        Gesellschaft</thema>: <dozent><nachname>Haupt</nachname>, <funktion>P.
+        Gesellschaft</thema>: <dozent
+        ref="haupt_m"><nachname>Haupt</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>in den best. St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Uebungen im Lateinisch-Schreiben u.
@@ -508,8 +509,9 @@
       <titel>2. Litteraturgeschichte.</titel>
 
       <veranstaltung><thema>Geschichte der altdeutschen Poesie</thema>:
-      <dozent><nachname>Haupt</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>10 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+      <dozent ref="haupt_m"><nachname>Haupt</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
+      <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung><thema>Beendigung von Widukind's <antiqua>res gestae
       saxonicae</antiqua> und Erklärung eines andern
@@ -1402,9 +1404,10 @@
         <veranstaltung><thema>Concursrecht u. Concursproceß</thema>:
         <ders>Derselbe</ders>, <zeit>9 U. 3 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Gemeiner deutscher Civilproceß</thema>:
-        <dozent><grad>D.</grad> <nachname>Heimbach</nachname></dozent>,
-        <zeit>6 T. in zu best. St.</zeit></veranstaltung>
+        <veranstaltung><thema>Gemeiner deutscher Civilproceß</thema>: <dozent
+        ref="heimbach_ge"><grad>D.</grad>
+        <nachname>Heimbach</nachname></dozent>, <zeit>6 T. in zu best.
+        St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Criminalproceß</thema>: <dozent
         ref="guenther_kf"><grad>D.</grad> <nachname>Günther</nachname>,
@@ -1438,7 +1441,7 @@
         <zeit>7 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Kirchenrecht der Katholiken u.
-        Protestanten</thema>: <dozent><grad>D.</grad>
+        Protestanten</thema>: <dozent ref="heimbach_ge"><grad>D.</grad>
         <nachname>Heimbach</nachname></dozent>, <zeit>4 T. in zu best.
         St.</zeit></veranstaltung>
       </sachgruppe>
@@ -1478,7 +1481,7 @@
         St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Examinatoria über beliebige
-        Rechtstheile</thema>: <dozent><grad>D.</grad>
+        Rechtstheile</thema>: <dozent ref="heimbach_ge"><grad>D.</grad>
         <nachname>Heimbach</nachname></dozent>, <zeit>in zu best.
         St.</zeit></veranstaltung>
 
@@ -1722,19 +1725,20 @@
         <titel>VIII. Psychische Heilwissenschaft.</titel>
 
         <veranstaltung><thema>System der Psychiatrie nach s. Lehrb. der
-        Seelenstörungen</thema>: <dozent><grad>D.</grad>
+        Seelenstörungen</thema>: <dozent ref="heinroth_jca"><grad>D.</grad>
         <nachname>Heinroth</nachname>, <funktion>P. O.</funktion>, d. Z.
         <funktion>Dechant</funktion></dozent>, <zeit>6 T. in zu best.
         St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Criminal-Psychologie, nach s. Lehrb. der
-        Criminal-Psychologie</thema>: <ders>Derselbe</ders>, <zeit>4 U. Mont.
-        u. Donn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Criminal-Psychologie</thema>: <ders
+        ref="heinroth_jca">Derselbe</ders>, <zeit>4 U. Mont. u. Donn.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Psychisch-gerichtliche Medicin, nach s. Lehrb.:
-        der Psychisch-gerichtl. Medicin</thema>: <ders>Derselbe</ders>,
-        <zeit>4 U. Dienst. u. Freit.</zeit>
-        <modus>öffentl.</modus></veranstaltung>
+        der Psychisch-gerichtl. Medicin</thema>: <ders
+        ref="heinroth_jca">Derselbe</ders>, <zeit>4 U. Dienst. u.
+        Freit.</zeit> <modus>öffentl.</modus></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1863,9 +1867,10 @@
         <titel>XII. Gerichtliche Arzneiwissenschaft.</titel>
 
         <veranstaltungsverweis><thema>Psychisch-gerichtliche Medicin</thema>:
-        <dozent><grad>D.</grad> <nachname>Heinroth</nachname>, <funktion>P.
-        O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>, <siehe>s.
-        Psychische Heilwissenschaft</siehe>.</veranstaltungsverweis>
+        <dozent ref="heinroth_jca"><grad>D.</grad>
+        <nachname>Heinroth</nachname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Dechant</funktion></dozent>, <siehe>s. Psychische
+        Heilwissenschaft</siehe>.</veranstaltungsverweis>
 
         <veranstaltung><thema>Medicin. Polizeiwissenschaft für
         Mediciner</thema>: <dozent><grad>D.</grad>

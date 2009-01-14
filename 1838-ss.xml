@@ -163,9 +163,9 @@
             <thema>Erklärung auserlesener Gedichte des Catullus</thema>,
             <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Haupt</nachname>, <grad>M.</grad>
-            <vorname>M.</vorname></dozent>, <thema>Erklärung der Gedichte des
-            Propertius</thema>, <zeit>4 U. 4 T.</zeit>
+            <veranstaltung><dozent ref="haupt_m"><nachname>Haupt</nachname>,
+            <grad>M.</grad> <vorname>M.</vorname></dozent>, <thema>Erklärung
+            der Gedichte des Propertius</thema>, <zeit>4 U. 4 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
 
@@ -236,7 +236,7 @@
             <sachgruppe>
               <titel>Historische deutsche Grammatik.</titel>
 
-              <veranstaltung><dozent><nachname>Haupt</nachname>,
+              <veranstaltung><dozent ref="haupt_m"><nachname>Haupt</nachname>,
               <grad>M.</grad> <vorname>M.</vorname></dozent>, <zeit>10 U. 5
               T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
             </sachgruppe>
@@ -581,11 +581,12 @@
         <sachgruppe>
           <titel>3) Psychologie.</titel>
 
-          <veranstaltung><dozent><nachname>Heinroth</nachname>,
-          <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema kontext="sachgruppe">nach seinen
-          Lehrbuche (Lpz. bei Wilh. Vogel)</thema>, <zeit>3 U. Mont. u.
-          Donn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung><dozent
+          ref="heinroth_jca"><nachname>Heinroth</nachname>, <grad>D.</grad>
+          <vorname>J. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema kontext="sachgruppe">nach seinen Lehrbuche (Lpz. bei Wilh.
+          Vogel)</thema>, <zeit>3 U. Mont. u. Donn.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -1507,7 +1508,8 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
         <grad>D.</grad> <vorname>J. G. M.</vorname></dozent>, <siehe>s.
         Institutionen</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><dozent><nachname>Heimbach</nachname>, <grad>D.</grad>
+        <veranstaltung><dozent
+        ref="heimbach_ge"><nachname>Heimbach</nachname>, <grad>D.</grad>
         <vorname>G. E.</vorname></dozent>, <thema>innere Geschichte des röm.
         Rechts</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
       </sachgruppe>
@@ -1588,10 +1590,11 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
               (Halle, 1837. 2. Aufl.)</thema>, <zeit>7 - 9 U. 6
               T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><nachname>Heimbach</nachname>,
-              <grad>D.</grad> <vorname>G. E.</vorname></dozent>,
-              <thema>Erklärung von ausgewählten Pandektentiteln</thema>,
-              <zeit>3 U. 2 T.</zeit></veranstaltung>
+              <veranstaltung><dozent
+              ref="heimbach_ge"><nachname>Heimbach</nachname>, <grad>D.</grad>
+              <vorname>G. E.</vorname></dozent>, <thema>Erklärung von
+              ausgewählten Pandektentiteln</thema>, <zeit>3 U. 2
+              T.</zeit></veranstaltung>
             </sachgruppe>
           </sachgruppe>
 
@@ -1886,9 +1889,10 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
             Theile der Rechtswissenschaft</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Heimbach</nachname>,
-            <grad>D.</grad> <vorname>G. E.</vorname></dozent>, <thema>über
-            Pandekten</thema>, <zeit>in den best. St.</zeit></veranstaltung>
+            <veranstaltung><dozent
+            ref="heimbach_ge"><nachname>Heimbach</nachname>, <grad>D.</grad>
+            <vorname>G. E.</vorname></dozent>, <thema>über Pandekten</thema>,
+            <zeit>in den best. St.</zeit></veranstaltung>
 
             <veranstaltung><dozent ref="frege_w"><nachname>Frege</nachname>,
             <grad>D.</grad> <vorname>W.</vorname></dozent>, <thema>über alle
@@ -1968,10 +1972,10 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
       <sachgruppe>
         <titel>Geschichte der Medicin.</titel>
 
-        <veranstaltungsverweis><dozent><nachname>Heinroth</nachname>,
-        <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. psychische
-        Heilwissenschaft</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><dozent
+        ref="heinroth_jca"><nachname>Heinroth</nachname>, <grad>D.</grad>
+        <vorname>J. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. psychische Heilwissenschaft</siehe>.</veranstaltungsverweis>
 
         <veranstaltung><dozent><nachname>Neubert</nachname>, <grad>D.</grad>
         <vorname>K. A.</vorname></dozent>, <thema>Abriß der Geschichte der
@@ -2080,12 +2084,14 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
         <sachgruppe>
           <titel>4) Psychische Heilwissenschaft.</titel>
 
-          <veranstaltung><dozent><nachname>Heinroth</nachname>,
-          <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema>Geschichte der psychischen Heikunde,
-          nach s. Sätzen</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
+          <veranstaltung><dozent
+          ref="heinroth_jca"><nachname>Heinroth</nachname>, <grad>D.</grad>
+          <vorname>J. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema>Geschichte der psychischen Heikunde, nach s. Sätzen</thema>,
+          <zeit>in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s. Gerichtliche
+          <veranstaltungsverweis><ders ref="heinroth_jca">Derselbe</ders>,
+          <siehe>s. Gerichtliche
           Arzneiwissenschaft</siehe>.</veranstaltungsverweis>
         </sachgruppe>
 
@@ -2377,12 +2383,12 @@ gleiche Zeitangabe-->
         <sachgruppe>
           <titel>8) Gerichtliche Arzneiwissenschaft.</titel>
 
-          <veranstaltung><dozent><nachname>Heinroth</nachname>,
-          <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema>psychisch-gerichtliche Medicin, nach
-          s. Lehrbuche: System der psychisch-gerichtlichen Medicin (Lpz. b.
-          Hartmann)</thema>, <zeit>3 U. Dienst. u. Freit.</zeit>
-          <modus>öffentl.</modus></veranstaltung>
+          <veranstaltung><dozent
+          ref="heinroth_jca"><nachname>Heinroth</nachname>, <grad>D.</grad>
+          <vorname>J. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema>psychisch-gerichtliche Medicin, nach s. Lehrbuche: System der
+          psychisch-gerichtlichen Medicin (Lpz. b. Hartmann)</thema>, <zeit>3
+          U. Dienst. u. Freit.</zeit> <modus>öffentl.</modus></veranstaltung>
 
           <veranstaltung><dozent><nachname>Wendler</nachname>, <grad>D.</grad>
           <vorname>C. A.</vorname>, <funktion>P. O.</funktion></dozent>,

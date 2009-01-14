@@ -78,9 +78,10 @@
         <dozent><grad>D.</grad> <nachname>Lotze</nachname></dozent>, <zeit>11
         U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Anthropologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Heinroth</nachname>, <funktion>P. O.</funktion></dozent>,
-        <thema>nach s. Lehrbuche</thema>, <zeit>4 U. Mont. und Donn.</zeit>
+        <veranstaltung><thema>Anthropologie</thema>: <dozent
+        ref="heinroth_jca"><grad>D.</grad> <nachname>Heinroth</nachname>,
+        <funktion>P. O.</funktion></dozent>, <thema>nach s. Lehrbuche</thema>,
+        <zeit>4 U. Mont. und Donn.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Allgemeine praktische Philosophie oder
@@ -262,8 +263,8 @@
         <funktion>P. E.</funktion></dozent>, <zeit>4 U. Mittw. u.
         Sonnab.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber die Gedichte des Catullus</thema>:
-        <dozent><nachname>Haupt</nachname>, <funktion>P.
+        <veranstaltung><thema>Ueber die Gedichte des Catullus</thema>: <dozent
+        ref="haupt_m"><nachname>Haupt</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
         <sachgruppe>
@@ -304,8 +305,8 @@
           <zeit>in den best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Lateinische Gesellschaft</thema>:
-          <dozent><nachname>Haupt</nachname>, <funktion>P.
+          <veranstaltung><thema>Lateinische Gesellschaft</thema>: <dozent
+          ref="haupt_m"><nachname>Haupt</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>5 U. Dienst.</zeit></veranstaltung>
 
           <veranstaltung><thema>Uebungen im Lateinisch-Sprechen u. Disputiren,
@@ -409,13 +410,13 @@
       <sachgruppe>
         <titel>3. Neuere Sprachen.</titel>
 
-        <veranstaltung><thema>Mittelhochdeutsche Grammatik</thema>:
-        <dozent><nachname>Haupt</nachname>, <funktion>P.
+        <veranstaltung><thema>Mittelhochdeutsche Grammatik</thema>: <dozent
+        ref="haupt_m"><nachname>Haupt</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung des Erec von Hartmann von Aue</thema>:
-        <ders>Derselbe</ders>, <zeit>10 U. 2 T.</zeit>
+        <ders ref="haupt_m">Derselbe</ders>, <zeit>10 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Anleitung zum geregelten mündlichen Vortrage für
@@ -1268,13 +1269,13 @@
           Rechts</thema>: <ders>Derselbe</ders>, <siehe>s.
           Institutionen</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung><thema>Aeußere Rechtsgeschichte</thema>:
-          <dozent><grad>D.</grad> <nachname>Heimbach</nachname></dozent>,
-          <zeit>9 U. 2 T.</zeit>
+          <veranstaltung><thema>Aeußere Rechtsgeschichte</thema>: <dozent
+          ref="heimbach_ge"><grad>D.</grad>
+          <nachname>Heimbach</nachname></dozent>, <zeit>9 U. 2 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltungsverweis><thema>Innere Rechtsgeschichte</thema>:
-          <ders>Derselbe</ders>, <siehe>s.
+          <veranstaltungsverweis><thema>Innere Rechtsgeschichte</thema>: <ders
+          ref="heimbach_ge">Derselbe</ders>, <siehe>s.
           Institutionen</siehe>.</veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Geschichte des römischen
@@ -1296,7 +1297,8 @@
 
           <veranstaltung><thema>Institutionen u. innere Geschichte des
           römischen Rechts nach <gesperrt>Marezoll</gesperrt>'s Lehrb. der
-          Institutionen (2. Ausg.)</thema>: <dozent><grad>D.</grad>
+          Institutionen (2. Ausg.)</thema>: <dozent
+          ref="heimbach_ge"><grad>D.</grad>
           <nachname>Heimbach</nachname></dozent>, <zeit>9 U. 4
           T.</zeit></veranstaltung>
 
@@ -1475,7 +1477,8 @@
         <thema>nach eigenen Sätzen</thema>, <zeit>8 U. 6
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Kirchenrecht</thema>: <dozent><grad>D.</grad>
+        <veranstaltung><thema>Kirchenrecht</thema>: <dozent
+        ref="heimbach_ge"><grad>D.</grad>
         <nachname>Heimbach</nachname></dozent>, <zeit>10 U. 4
         T.</zeit></veranstaltung>
 
@@ -1515,7 +1518,7 @@
         St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Examinatoria über Pandekten, sächsisches Recht,
-        Civilproceß</thema>: <dozent><grad>D.</grad>
+        Civilproceß</thema>: <dozent ref="heimbach_ge"><grad>D.</grad>
         <nachname>Heimbach</nachname></dozent>, <zeit>in zu best.
         St.</zeit></veranstaltung>
 
@@ -1555,9 +1558,10 @@
         Donn.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der psychischen Medicin</thema>:
-        <dozent><grad>D.</grad> <nachname>Heinroth</nachname>, <funktion>P.
-        O.</funktion></dozent>, <thema>nach s. Sätzen</thema>, <zeit>4 T. in
-        zu best. St.</zeit></veranstaltung>
+        <dozent ref="heinroth_jca"><grad>D.</grad>
+        <nachname>Heinroth</nachname>, <funktion>P. O.</funktion></dozent>,
+        <thema>nach s. Sätzen</thema>, <zeit>4 T. in zu best.
+        St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Geschichte der neuesten medicinischen
         Theorien</thema>: <dozent><grad>D.</grad>
@@ -1776,7 +1780,7 @@
         <titel>VIII. Psychische Heilwissenschaft.</titel>
 
         <veranstaltung><thema>Die Anfangsgründe der Psychatrie, nach zu
-        dictirenden Sätzen</thema>: <dozent><grad>D.</grad>
+        dictirenden Sätzen</thema>: <dozent ref="heinroth_jca"><grad>D.</grad>
         <nachname>Heinroth</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>4 U. Dienst. u. Freit.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>

@@ -201,13 +201,13 @@
 
             <seite>3</seite>
 
-            <veranstaltung><dozent><nachname>Haupt</nachname>, <grad>M.</grad>
-            <vorname>M.</vorname></dozent>, <thema>Erklärung des
-            Persius</thema>, <zeit>10 U. 2 T.</zeit>
+            <veranstaltung><dozent ref="haupt_m"><nachname>Haupt</nachname>,
+            <grad>M.</grad> <vorname>M.</vorname></dozent>, <thema>Erklärung
+            des Persius</thema>, <zeit>10 U. 2 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>über Tacitus
-            Germania</thema>, <zeit>3 T. in zu best.
+            <veranstaltung><ders ref="haupt_m">Derselbe</ders>, <thema>über
+            Tacitus Germania</thema>, <zeit>3 T. in zu best.
             St.</zeit></veranstaltung>
           </sachgruppe>
 
@@ -272,9 +272,9 @@
             Latein-Schreiben und Sprechen</thema>,
             <modus>privatissime</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Haupt</nachname>, <grad>M.</grad>
-            <vorname>M.</vorname></dozent>, <thema>Uebungen seiner
-            lateinischen Gesellschaft</thema>, <zeit>in den best.
+            <veranstaltung><dozent ref="haupt_m"><nachname>Haupt</nachname>,
+            <grad>M.</grad> <vorname>M.</vorname></dozent>, <thema>Uebungen
+            seiner lateinischen Gesellschaft</thema>, <zeit>in den best.
             St.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -285,10 +285,10 @@
           <sachgruppe>
             <titel>Deutsche Sprache.</titel>
 
-            <veranstaltung><dozent><nachname>Haupt</nachname>, <grad>M.</grad>
-            <vorname>M.</vorname></dozent>, <thema>Erklärung des
-            mittelhochdeutschen Gedichtes von Gudrun</thema>, <zeit>10 U. 4
-            T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+            <veranstaltung><dozent ref="haupt_m"><nachname>Haupt</nachname>,
+            <grad>M.</grad> <vorname>M.</vorname></dozent>, <thema>Erklärung
+            des mittelhochdeutschen Gedichtes von Gudrun</thema>, <zeit>10 U.
+            4 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <sachgruppe>
               <titel>Theorie der Declamation.</titel>
@@ -563,10 +563,11 @@
         <sachgruppe>
           <titel>1) Anthropologie.</titel>
 
-          <veranstaltung><dozent><nachname>Heinroth</nachname>,
-          <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema>nach s. Compendium</thema>, <zeit>3
-          U. Mont. u. Donn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung><dozent
+          ref="heinroth_jca"><nachname>Heinroth</nachname>, <grad>D.</grad>
+          <vorname>J. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema>nach s. Compendium</thema>, <zeit>3 U. Mont. u. Donn.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Lotze</nachname>, <grad>D.</grad>
           <vorname>H.</vorname></dozent>, <zeit>3 U. Mont. u. Donn.</zeit>
@@ -1620,20 +1621,21 @@ siehe "Repetitoria über Moral"-->
             (3. Ausg.) u. in Verbindung mit einem Praktikum</thema>,<zeit> 8
             u. 9 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Heimbach</nachname>,
-            <grad>D.</grad> <vorname>G. E.</vorname></dozent>, <thema>mit
-            Ausschluß des Obligationsrechts nach
-            <gesperrt>Thibaut's</gesperrt> System des Pandektenrechts (8.
-            Ausg. 1834.)</thema>, <zeit>zehnstündig</zeit><!--keine Angabe von Tagen-->.</veranstaltung>
+            <veranstaltung><dozent
+            ref="heimbach_ge"><nachname>Heimbach</nachname>, <grad>D.</grad>
+            <vorname>G. E.</vorname></dozent>, <thema>mit Ausschluß des
+            Obligationsrechts nach <gesperrt>Thibaut's</gesperrt> System des
+            Pandektenrechts (8. Ausg. 1834.)</thema>,
+            <zeit>zehnstündig</zeit><!--keine Angabe von Tagen-->.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
             <titel>Obligationsrecht.</titel>
 
-            <veranstaltung><dozent><nachname>Heimbach</nachname>,
-            <grad>D.</grad> <vorname>G. E.</vorname></dozent>, <zeit>4 T. in
-            zu best. St.</zeit>
-            <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+            <veranstaltung><dozent
+            ref="heimbach_ge"><nachname>Heimbach</nachname>, <grad>D.</grad>
+            <vorname>G. E.</vorname></dozent>, <zeit>4 T. in zu best.
+            St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
@@ -1890,7 +1892,8 @@ siehe "Repetitoria über Moral"-->
         <vorname>W. E.</vorname></dozent>, <thema>Kirchenrecht</thema>,
         <zeit>10 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><dozent><nachname>Heimbach</nachname>, <grad>D.</grad>
+        <veranstaltung><dozent
+        ref="heimbach_ge"><nachname>Heimbach</nachname>, <grad>D.</grad>
         <vorname>G. E.</vorname></dozent>, <thema>katholisches und
         protestantisches Kirchenrecht</thema>, <zeit>4 T. in zu best.
         St.</zeit></veranstaltung>
@@ -1934,10 +1937,11 @@ siehe "Repetitoria über Moral"-->
           als neuere Civilrecht</thema>, <zeit>in den best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Heimbach</nachname>,
-          <grad>D.</grad> <vorname>G. E.</vorname></dozent>, <thema>über
-          verschiedene Theile der Rechtswissenschaft</thema>, <zeit>in zu
-          best. St.</zeit></veranstaltung>
+          <veranstaltung><dozent
+          ref="heimbach_ge"><nachname>Heimbach</nachname>, <grad>D.</grad>
+          <vorname>G. E.</vorname></dozent>, <thema>über verschiedene Theile
+          der Rechtswissenschaft</thema>, <zeit>in zu best.
+          St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -2086,16 +2090,16 @@ siehe "Repetitoria über Moral"-->
         <sachgruppe>
           <titel>5) Psychische Heilwissenschaft.</titel>
 
-          <veranstaltung><dozent><nachname>Heinroth</nachname>,
-          <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema>über die Erkenntniß und Behandlung
-          der Seelenkrankheiten, nach zu dictirenden Sätzen</thema>, <zeit>3
-          U. Dienst. u. Freit.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung><dozent
+          ref="heinroth_jca"><nachname>Heinroth</nachname>, <grad>D.</grad>
+          <vorname>J. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema>über die Erkenntniß und Behandlung der Seelenkrankheiten,
+          nach zu dictirenden Sätzen</thema>, <zeit>3 U. Dienst. u.
+          Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>Geschichte der
-          psychischen Heilkunde, nach s. Sätzen</thema>, <zeit>4 T. in zu
-          best. St.</zeit></veranstaltung>
+          <veranstaltung><ders ref="heinroth_jca">Derselbe</ders>,
+          <thema>Geschichte der psychischen Heilkunde, nach s. Sätzen</thema>,
+          <zeit>4 T. in zu best. St.</zeit></veranstaltung>
         </sachgruppe>
 
         <seite>20</seite>

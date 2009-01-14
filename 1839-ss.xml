@@ -179,9 +179,9 @@
             Juvenal's Satiren</thema>, <zeit>3 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Haupt</nachname>, <grad>M.</grad>
-            <vorname>M.</vorname></dozent>, <thema>über des Tacitus
-            Germania</thema>, <zeit>9 U. 4 T.</zeit>
+            <veranstaltung><dozent ref="haupt_m"><nachname>Haupt</nachname>,
+            <grad>M.</grad> <vorname>M.</vorname></dozent>, <thema>über des
+            Tacitus Germania</thema>, <zeit>9 U. 4 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
 
@@ -263,10 +263,10 @@
             Latein-Schreiben und Sprechen</thema>, <zeit>in den best.
             St.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Haupt</nachname>, <grad>M.</grad>
-            <vorname>M.</vorname></dozent>, <thema>Uebungen seiner
-            lateinischen Gesellschaft</thema>, <zeit>Dienst. in den best.
-            St.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="haupt_m"><nachname>Haupt</nachname>,
+            <grad>M.</grad> <vorname>M.</vorname></dozent>, <thema>Uebungen
+            seiner lateinischen Gesellschaft</thema>, <zeit>Dienst. in den
+            best. St.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -279,7 +279,7 @@
             <sachgruppe>
               <titel>Geschichte der älteren deutschen Poesie.</titel>
 
-              <veranstaltung><dozent><nachname>Haupt</nachname>,
+              <veranstaltung><dozent ref="haupt_m"><nachname>Haupt</nachname>,
               <grad>M.</grad> <vorname>M.</vorname></dozent>, <thema>nebst
               Erklärung von Probestücken</thema>, <zeit>8 U. 6 T.</zeit>
               <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -589,11 +589,11 @@
         <sachgruppe>
           <titel>3) Psychologie.</titel>
 
-          <veranstaltung><dozent><nachname>Heinroth</nachname>,
-          <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema>Erfahrungs-Seelenlehre, nach s.
-          Sätzen</thema>, <zeit>3 U. Mont. u. Donn.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung><dozent
+          ref="heinroth_jca"><nachname>Heinroth</nachname>, <grad>D.</grad>
+          <vorname>J. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema>Erfahrungs-Seelenlehre, nach s. Sätzen</thema>, <zeit>3 U.
+          Mont. u. Donn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -1441,13 +1441,15 @@
         <grad>D.</grad> <vorname>J. G. M.</vorname></dozent>, <siehe>s.
         Institutionen</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><dozent><nachname>Heimbach</nachname>, <grad>D.</grad>
+        <veranstaltung><dozent
+        ref="heimbach_ge"><nachname>Heimbach</nachname>, <grad>D.</grad>
         <vorname>G. E.</vorname></dozent>, <thema>Geschichte des röm.
         Privatrechts seit Constantin bis auf die neuesten Zeiten</thema>,
         <zeit>3 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>röm. Proceß</thema>,
-        <zeit>4 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung><ders ref="heimbach_ge">Derselbe</ders>, <thema>röm.
+        Proceß</thema>, <zeit>4 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1803,9 +1805,10 @@
             Theile der Rechtswissenschaft</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Heimbach</nachname>,
-            <grad>D.</grad> <vorname>G. E.</vorname></dozent>, <thema>über
-            Pandekten</thema>, <zeit>in den best. St.</zeit></veranstaltung>
+            <veranstaltung><dozent
+            ref="heimbach_ge"><nachname>Heimbach</nachname>, <grad>D.</grad>
+            <vorname>G. E.</vorname></dozent>, <thema>über Pandekten</thema>,
+            <zeit>in den best. St.</zeit></veranstaltung>
 
             <veranstaltung><dozent ref="frege_w"><nachname>Frege</nachname>,
             <grad>D.</grad> <vorname>W.</vorname></dozent>, <thema>üb. alle
@@ -1995,18 +1998,20 @@
         <sachgruppe>
           <titel>5) Psychische Heilwissenschaft.</titel>
 
-          <veranstaltung><dozent><nachname>Heinroth</nachname>,
-          <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema>System der Seelenheilkunde</thema>,
-          <zeit>6 T. in zu best. St.</zeit></veranstaltung>
+          <veranstaltung><dozent
+          ref="heinroth_jca"><nachname>Heinroth</nachname>, <grad>D.</grad>
+          <vorname>J. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema>System der Seelenheilkunde</thema>, <zeit>6 T. in zu best.
+          St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
           <titel>6) Orthobiotik.</titel>
 
-          <veranstaltung><dozent><nachname>Heinroth</nachname>,
-          <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>3 U. Dienst. und Freitags</zeit>,
+          <veranstaltung><dozent
+          ref="heinroth_jca"><nachname>Heinroth</nachname>, <grad>D.</grad>
+          <vorname>J. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>3 U. Dienst. und Freitags</zeit>,
           <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 

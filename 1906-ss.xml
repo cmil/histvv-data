@@ -134,9 +134,10 @@
       zu best. Stunde</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Erklärung des Matthaeusevangeliums</thema>:
-      <dozent><grad>D. th. et ph.</grad> <nachname>Heinrici</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>tägl. (ausser Mittw.) 10-11
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="heinrici_g"><grad>D. th. et ph.</grad>
+      <nachname>Heinrici</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. (ausser Mittw.) 10-11 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Auslegung des Johannesevangeliums</thema>:
       <dozent><grad>Lic. th. D. ph.</grad> <nachname>Schnedermann</nachname>,
@@ -159,14 +160,15 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geschichte des apostolischen Zeitalters</thema>:
-      <dozent><grad>D. th. et ph.</grad> <nachname>Heinrici</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
-      Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
-
-      <veranstaltung><thema>Geschichte der alten Kirche</thema>:
-      <dozent><grad>D. th., jur. et ph.</grad> <nachname>Hauck</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>tägl. 8-9 U.</zeit>,
+      <dozent ref="heinrici_g"><grad>D. th. et ph.</grad>
+      <nachname>Heinrici</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont., Dienst., Donnerst. u. Freit. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
+
+      <veranstaltung><thema>Geschichte der alten Kirche</thema>: <dozent
+      ref="hauck_a"><grad>D. th., jur. et ph.</grad>
+      <nachname>Hauck</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Kirchengeschichte des Mittelalters</thema>:
       <dozent ref="brieger_jft"><grad>D. th. et ph.</grad>
@@ -188,8 +190,8 @@
       ph.</grad> <nachname>Leipoldt</nachname></dozent>, <zeit>Sonnab. 12-1
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Symbolik</thema>: <dozent><grad>D. th., jur. et
-      ph.</grad> <nachname>Hauck</nachname>, <funktion>P.
+      <veranstaltung><thema>Symbolik</thema>: <dozent ref="hauck_a"><grad>D.
+      th., jur. et ph.</grad> <nachname>Hauck</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Mont. bis Freit. 7-8 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -295,14 +297,16 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Neutestamentliches Seminar</thema>
-      (<ort>Universitätsstr. 13. I</ort>): <dozent><grad>D. th. et ph.</grad>
-      <nachname>Heinrici</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mittw. 5-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      (<ort>Universitätsstr. 13. I</ort>): <dozent ref="heinrici_g"><grad>D.
+      th. et ph.</grad> <nachname>Heinrici</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Biblico-theologicum der Lausitzer
-      Predigergesellschaft</thema>: <dozent><grad>D. th. et ph.</grad>
-      <nachname>Heinrici</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>in noch zu best. Stunden</zeit>, <modus>privatissime</modus>, aber
+      Predigergesellschaft</thema>: <dozent ref="heinrici_g"><grad>D. th. et
+      ph.</grad> <nachname>Heinrici</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>in noch zu best. Stunden</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Neutestamentlich-exegetische Gesellschaft
@@ -348,9 +352,10 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Archäologische Übungen (Erklärung altchristlicher
-      Inschriften</thema>: <dozent><grad>D. th., jur. et ph.</grad>
-      <nachname>Hauck</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Sonnab. 7-8 U. Vorm.</zeit>, <modus>privatissime</modus>, aber
+      Inschriften</thema>: <dozent ref="hauck_a"><grad>D. th., jur. et
+      ph.</grad> <nachname>Hauck</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Sonnab. 7-8 U. Vorm.</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Lektüre koptischer Schriften (im Ägyptologischen
@@ -1522,7 +1527,7 @@
       Liebigstr. 13</ort>.</veranstaltung>
 
       <veranstaltung><thema>Ausgewählte Kapitel der speziellen
-      Chirurgie</thema>: <dozent><grad>D. med.</grad>
+      Chirurgie</thema>: <dozent ref="heineke_h"><grad>D. med.</grad>
       <nachname>Heineke</nachname></dozent>, <zeit>einstündig, in noch zu
       best. Stunde</zeit>, <modus>privatim</modus>, <ort>in der Chirurgischen
       Klinik, Liebigstr. 20</ort>.</veranstaltung>
@@ -1534,7 +1539,7 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Verbandkurs mit Besprechung der Frakturen und
-      Luxationen</thema>: <dozent><grad>D. med.</grad>
+      Luxationen</thema>: <dozent ref="heineke_h"><grad>D. med.</grad>
       <nachname>Heineke</nachname></dozent>, <zeit>Mont., Dienst. u. Donnerst.
       4-5 U.</zeit>, <modus>privatim</modus>, <ort>in der Chirurg. Klinik,
       Liebigstr. 20</ort>.</veranstaltung>
@@ -2627,9 +2632,9 @@
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Archäologische Übungen</thema>:
-          <dozent><grad>D. th., jur. et ph.</grad> <nachname>Hauck</nachname>,
-          <funktion>P. O.</funktion></dozent> <siehe>Siehe Theologische
-          Fakultät</siehe>.</veranstaltungsverweis>
+          <dozent ref="hauck_a"><grad>D. th., jur. et ph.</grad>
+          <nachname>Hauck</nachname>, <funktion>P. O.</funktion></dozent>
+          <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Übungen der Kunstgeschichtlichen
           Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
@@ -2859,8 +2864,8 @@
           <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Archäologische Übungen (Erklärung
-          altchristlicher Inschriften)</thema>: <dozent><grad>D. th. et
-          jur.</grad> <nachname>Hauck</nachname>, <funktion>P.
+          altchristlicher Inschriften)</thema>: <dozent ref="hauck_a"><grad>D.
+          th. et jur.</grad> <nachname>Hauck</nachname>, <funktion>P.
           O.</funktion></dozent> <siehe>Siehe Theologische
           Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -3469,14 +3474,15 @@
         <siehe>Siehe Abschnitt B. a.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geschichte des apostolischen
-        Zeitalters</thema>: <dozent><grad>D. th. et ph.</grad>
-        <nachname>Heinrici</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltungsverweis>
+        Zeitalters</thema>: <dozent ref="heinrici_g"><grad>D. th. et
+        ph.</grad> <nachname>Heinrici</nachname>, <funktion>P.
+        O.</funktion></dozent> <siehe>Siehe Theologische
+        Fakultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Geschichte der alten Kirche</thema>:
-        <dozent><grad>D. th., jur. et ph.</grad> <nachname>Hauck</nachname>,
-        <funktion>P. O.</funktion></dozent> <siehe>Siehe Theologische
-        Fakultät</siehe>.</veranstaltung>
+        <veranstaltung><thema>Geschichte der alten Kirche</thema>: <dozent
+        ref="hauck_a"><grad>D. th., jur. et ph.</grad>
+        <nachname>Hauck</nachname>, <funktion>P. O.</funktion></dozent>
+        <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Kirchengeschichte des
         Mittelalters</thema>: <dozent ref="brieger_jft"><grad>D. th. et
@@ -3758,7 +3764,7 @@
             D.</siehe></veranstaltungsverweis>
 
             <veranstaltungsverweis><thema>Archäologische Übungen</thema>:
-            <dozent><grad>D. th., jur. et ph.</grad>
+            <dozent ref="hauck_a"><grad>D. th., jur. et ph.</grad>
             <nachname>Hauck</nachname>, <funktion>P. O.</funktion></dozent>
             <siehe>Siehe Theologische
             Fakultät</siehe>.</veranstaltungsverweis>
@@ -3993,8 +3999,8 @@
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Archäologische Übungen (Erklärung
-          altchristlicher Inschriften)</thema>: <dozent><grad>D. th., jur. et
-          ph.</grad> <nachname>Hauck</nachname>, <funktion>P.
+          altchristlicher Inschriften)</thema>: <dozent ref="hauck_a"><grad>D.
+          th., jur. et ph.</grad> <nachname>Hauck</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Sonnab. 7 bis 8 U.</zeit>,
           <modus>privatissime</modus>,
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -4663,9 +4669,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Gewöhnliche Differentialgleichungen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hausdorff</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Mittw., Donnerst.
-        u. Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="hausdorff_f"><grad>D. ph.</grad>
+        <nachname>Hausdorff</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst., Mittw., Donnerst. u. Freit. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Analytische Geometrie der Ebene</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
@@ -4750,9 +4757,10 @@
         <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Übungen zu gewöhnlichen
-        Differentialgleichungen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hausdorff</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Sonnab. 10-11 U.</zeit>, <modus>privatissime</modus>, aber
+        Differentialgleichungen</thema>: <dozent ref="hausdorff_f"><grad>D.
+        ph.</grad> <nachname>Hausdorff</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Sonnab. 10-11 U.</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Übungen zur analytischen Geometrie der
@@ -5104,9 +5112,10 @@
         <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Gewöhnliche
-        Differentialgleichungen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hausdorff</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
+        Differentialgleichungen</thema>: <dozent ref="hausdorff_f"><grad>D.
+        ph.</grad> <nachname>Hausdorff</nachname>, <funktion>P.
+        E.</funktion></dozent> <siehe>Siehe Abschnitt
+        F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Einführung in die algebraische
         Analysis</thema>: <dozent><grad>D. ph.</grad>

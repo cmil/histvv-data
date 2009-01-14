@@ -258,8 +258,8 @@
         O.</funktion></dozent>, <zeit>9 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Catullus</thema>:
-        <dozent><nachname>Haupt</nachname>, <funktion>P. O.
+        <veranstaltung><thema>Catullus</thema>: <dozent
+        ref="haupt_m"><nachname>Haupt</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Gedichte des Properz</thema>: <dozent
@@ -307,9 +307,9 @@
           <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen seiner lateinischen
-          Gesellschaft</thema>: <dozent><nachname>Haupt</nachname>,
-          <funktion>P. O. des.</funktion></dozent>, <zeit>5 U.
-          Dienst.</zeit></veranstaltung>
+          Gesellschaft</thema>: <dozent
+          ref="haupt_m"><nachname>Haupt</nachname>, <funktion>P. O.
+          des.</funktion></dozent>, <zeit>5 U. Dienst.</zeit></veranstaltung>
 
           <veranstaltung><thema>Lateinische Uebungen</thema>: <dozent
           ref="nobbe_kfa"><nachname>Nobbe</nachname>, <funktion>P.
@@ -385,8 +385,8 @@
       <sachgruppe>
         <titel>3. Neuere Sprachen.</titel>
 
-        <veranstaltung><thema>Deutsche Grammatik</thema>:
-        <dozent><nachname>Haupt</nachname>, <funktion>P. O.
+        <veranstaltung><thema>Deutsche Grammatik</thema>: <dozent
+        ref="haupt_m"><nachname>Haupt</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>10 U. 5 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1456,11 +1456,13 @@ werden können.-->
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Gemeines u. sächsisches Kirchenrecht</thema>:
-        <dozent><grad>D.</grad> <nachname>Heimbach</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>8 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="heimbach_ge"><grad>D.</grad>
+        <nachname>Heimbach</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Eherecht</thema>: <ders>Derselbe</ders>, <zeit>8
-        U. Mittwochs</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung><thema>Eherecht</thema>: <ders
+        ref="heimbach_ge">Derselbe</ders>, <zeit>8 U. Mittwochs</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1490,7 +1492,7 @@ werden können.-->
         in zu best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Proceßpraktikum unter Mittheilung von
-        Gerichtsacten</thema>: <dozent><grad>D.</grad>
+        Gerichtsacten</thema>: <dozent ref="heimbach_ge"><grad>D.</grad>
         <nachname>Heimbach</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>11 U. 2 T.</zeit></veranstaltung>
 
@@ -1510,8 +1512,9 @@ werden können.-->
         <zeit>2 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Examinatorium über das gesammte Recht</thema>:
-        <dozent><grad>D.</grad> <nachname>Heimbach</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>in zu best. T. und St.</zeit>
+        <dozent ref="heimbach_ge"><grad>D.</grad>
+        <nachname>Heimbach</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>in zu best. T. und St.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Examinir-Uebungen über sämmtliche Theile der
