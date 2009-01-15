@@ -645,9 +645,9 @@
       <trennlinie/>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Eingeweide,
-      Nerven und Sinnesorgane)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 2-4 U.</zeit>,
+      Nerven und Sinnesorgane)</thema>: <dozent ref="his_w"><grad>D.
+      med.</grad> <nachname>His</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit. 2-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Knochen,
@@ -656,11 +656,11 @@
       O.</funktion></dozent>, <zeit>Mont. bis Freit. 5-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Präparirübungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname></dozent> und <dozent
-      ref="braune_cw"><grad>D. med.</grad> <nachname>Braune</nachname>,
-      <funktion>PP. OO.</funktion></dozent>, <zeit>Mont. bis Sonnab. 9-1 U.
-      und (ausser Sonnab.) 2-6 U.</zeit>,
+      <veranstaltung><thema>Präparirübungen</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname></dozent> und
+      <dozent ref="braune_cw"><grad>D. med.</grad>
+      <nachname>Braune</nachname>, <funktion>PP. OO.</funktion></dozent>,
+      <zeit>Mont. bis Sonnab. 9-1 U. und (ausser Sonnab.) 2-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <!--doppelte Prof.-Angaben-->
@@ -854,7 +854,7 @@
 
       <veranstaltung><thema>Specielle Pathologie und Therapie der Krankheiten
       des Kindesalters, <notiz betreff="fortsetzung">II.
-      Theil</notiz></thema>: <dozent><grad>D. med.</grad>
+      Theil</notiz></thema>: <dozent ref="heubner_o"><grad>D. med.</grad>
       <nachname>Heubner</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
       <zeit>Mont. 6-8 U. Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -975,10 +975,10 @@
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Operative Zahnheilkunde</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hesse</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 3-4 U.</zeit>,
-      <modus>privatissime</modus>, aber
+      <veranstaltung><thema>Operative Zahnheilkunde</thema>: <dozent
+      ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 3-4
+      U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <trennlinie/>
@@ -1175,9 +1175,10 @@
       Sonnab. 2-3 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Paediatrische Klinik und Poliklinik (incl.
-      Distriktspoliklinik)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Heubner</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
-      <zeit>tägl. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Distriktspoliklinik)</thema>: <dozent ref="heubner_o"><grad>D.
+      med.</grad> <nachname>Heubner</nachname>, <funktion>P. O.
+      Hon.</funktion></dozent>, <zeit>tägl. 12-1 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgische Klinik</thema>: <dozent><grad>D.
       med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
@@ -1224,9 +1225,9 @@
       <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 12-1
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Zahnärztliches Praktikum</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hesse</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>täglich 1-5 U.</zeit>,
+      <veranstaltung><thema>Zahnärztliches Praktikum</thema>: <dozent
+      ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>täglich 1-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -2167,7 +2168,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geographie der Weltwirthschaft und des
-        Welthandels</thema>: <dozent><grad>D. ph.</grad>
+        Welthandels</thema>: <dozent ref="hettner_a"><grad>D. ph.</grad>
         <nachname>Hettner</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2262,9 +2263,10 @@
           <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
-          <veranstaltung><thema>Geographische Uebungen</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hettner</nachname></dozent>,
-          <zeit>Mittw. 6-7½ U.</zeit>, <modus>privatissime</modus>, aber
+          <veranstaltung><thema>Geographische Uebungen</thema>: <dozent
+          ref="hettner_a"><grad>D. ph.</grad>
+          <nachname>Hettner</nachname></dozent>, <zeit>Mittw. 6-7½ U.</zeit>,
+          <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Kirchengeschichte seit der
@@ -2592,7 +2594,7 @@
           <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Geographie der Weltwirthschaft und des
-          Welthandels</thema>: <dozent><grad>D. ph.</grad>
+          Welthandels</thema>: <dozent ref="hettner_a"><grad>D. ph.</grad>
           <nachname>Hettner</nachname></dozent>. <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
 

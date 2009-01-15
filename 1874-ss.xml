@@ -77,9 +77,9 @@
         <modus>(ausschl. Sonnab. - 1 St. öffentlich.)</modus></veranstaltung>
 
         <veranstaltung><thema>Geschichte der griechisch-römischen Philosophie
-        während der Kaiserzeit</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hirzel</nachname></dozent>, <zeit>4 U. 1 T. (Mittw.)</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        während der Kaiserzeit</thema>: <dozent ref="hirzel_r"><grad>D.
+        ph.</grad> <nachname>Hirzel</nachname></dozent>, <zeit>4 U. 1 T.
+        (Mittw.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Plato's Leben und Lehren</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Schuster</nachname></dozent>,
@@ -383,8 +383,9 @@
           St.</zeit></veranstaltung>
 
           <veranstaltung><thema>Erklärung von Plato's Symposion</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname></dozent>,
-          <zeit>9 U. 3 T. (Mont., Dienst. u. Donnerst.)</zeit></veranstaltung>
+          <dozent ref="hirzel_r"><grad>D. ph.</grad>
+          <nachname>Hirzel</nachname></dozent>, <zeit>9 U. 3 T. (Mont.,
+          Dienst. u. Donnerst.)</zeit></veranstaltung>
 
           <veranstaltungsverweis><thema>Demosthenes gegen Meidias</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Lipsius</nachname>,
@@ -672,16 +673,16 @@
           <seite>9</seite>
 
           <veranstaltung><thema>Erklärung der Gedichte Walther's v. d.
-          Vogelweide</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Hildebrand</nachname>, <funktion>P.
+          Vogelweide</thema>: <dozent ref="hildebrand_rudolf"><grad>D.
+          ph.</grad> <nachname>Hildebrand</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltungsverweis><thema>Hartmann's Gregorius</thema>,
           <siehe>s. sprachl. Uebungen</siehe>.</veranstaltungsverweis>
 
           <veranstaltung><thema>Ueber Schiller's und Goethe's philos.
-          Gedichte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Hildebrand</nachname>, <funktion>P.
+          Gedichte</thema>: <dozent ref="hildebrand_rudolf"><grad>D.
+          ph.</grad> <nachname>Hildebrand</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>9 U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Erklärung der Eyrbyggjasaga, (herausgegeben
@@ -2050,7 +2051,7 @@
 
         <veranstaltung><thema>Anatomie des Menschen, <notiz
         betreff="fortsetzung">2. Th.</notiz> (Nervensystem und
-        Sinnesorgane)</thema>: <dozent><grad>D. med.</grad>
+        Sinnesorgane)</thema>: <dozent ref="his_w"><grad>D. med.</grad>
         <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>
         <zeit>9-11 U. Dienst., Donnerst. u. Sonnab., 4-5 U.
         Mittw.</zeit></veranstaltung>
@@ -2092,9 +2093,10 @@
         Freit.)</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Entwickelungsgeschichte der höhern
-        Thiere und des Menschen</thema>: <dozent><grad>D. med.</grad>
-        <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
-        <siehe>s. Physiologie</siehe>.</veranstaltungsverweis>
+        Thiere und des Menschen</thema>: <dozent ref="his_w"><grad>D.
+        med.</grad> <nachname>His</nachname>, <funktion>P.
+        O.</funktion></dozent>, <siehe>s.
+        Physiologie</siehe>.</veranstaltungsverweis>
       </sachgruppe>
 
       <sachgruppe>
@@ -2111,7 +2113,7 @@
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Entwickelungsgeschichte der höheren Thiere und
-        des Menschen</thema>: <dozent><grad>D. med.</grad>
+        des Menschen</thema>: <dozent ref="his_w"><grad>D. med.</grad>
         <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>, <zeit>4
         U. 3 T. (Mont., Donnerst. u. Freit.)</zeit></veranstaltung>
 
@@ -2263,8 +2265,9 @@
         <zeit>4 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Pharmacie, (organische Präparate)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
+        <dozent ref="hirzel_ch"><grad>D. ph.</grad>
+        <nachname>Hirzel</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>in 2 zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
@@ -2277,12 +2280,13 @@
         St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Specielle Pathologie und Therapie der acuten und
-        chron. Constitutionskrankheiten</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Heubner</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>5 U. 4 T.</zeit></veranstaltung>
+        chron. Constitutionskrankheiten</thema>: <dozent
+        ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>5 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber dyskrasische Krankheiten</thema>:
-        <ders>Derselbe</ders>, <zeit>in zu best. St.</zeit>,
+        <veranstaltung><thema>Ueber dyskrasische Krankheiten</thema>: <ders
+        ref="heubner_o">Derselbe</ders>, <zeit>in zu best. St.</zeit>,
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber Pocken, mit Uebungen im Einimpfen der
@@ -2463,10 +2467,10 @@
       <sachgruppe>
         <titel>XI. Klinik.</titel>
 
-        <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Heubner</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>11 U. 3 T. (Dienst., Mittw. u.
-        Freit.)</zeit></veranstaltung>
+        <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent
+        ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>11 U. 3 T. (Dienst.,
+        Mittw. u. Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Praktische Uebungen</thema>: <dozent><grad>D.
         med.</grad> <nachname>Wunderlich</nachname>, <funktion>P.

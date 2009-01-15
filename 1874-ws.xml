@@ -563,8 +563,8 @@ Was heißt zweitägig? --></zeit></veranstaltung>
       <trennlinie/>
 
       <veranstaltung><thema>Anatomie des Menschen (mit Ausschluss der
-      Knochen-, Bänder-, sowie der Gefässlehre)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname>, <funktion>P.
+      Knochen-, Bänder-, sowie der Gefässlehre)</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>täglich 2-4 U.</zeit></veranstaltung>
 
       <veranstaltung><thema>Ausgewählte Capitel aus der topographischen
@@ -577,9 +577,10 @@ Was heißt zweitägig? --></zeit></veranstaltung>
       <funktion>P. O.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 12-1
       U.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Gefässlehre</thema>: <dozent><grad>D. med.</grad>
-      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. 10-11 U.</zeit> <modus>publice</modus>.</veranstaltung>
+      <veranstaltung><thema>Gefässlehre</thema>: <dozent ref="his_w"><grad>D.
+      med.</grad> <nachname>His</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. 10-11 U.</zeit>
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Anatomische Vorträge für Nichtmediciner, insbes.
       für Pädagogen, I. Thl. Bewegungsapparat und Nervenlehre</thema>:
@@ -602,17 +603,17 @@ Was heißt zweitägig? --></zeit></veranstaltung>
       <nachname>Wenzel</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont., Donnerst. u. Freit. 5-7 U.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Präparirübungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname>, <funktion>P.
+      <veranstaltung><thema>Präparirübungen</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
       O.</funktion></dozent>, <dozent>in Verbindung mit dem
       <funktion>Prosector Herrn Prof.</funktion>
       <nachname>Rauber</nachname></dozent>, <zeit>täglich 8-4 U.</zeit><!--2. Dozent. Bei diesem die Auszeichnung der Funktion beachten.
 Die Zeitangabe macht etwas argwöhnisch.--></veranstaltung>
 
-      <veranstaltung><thema>Präparirübungen</thema> <dozent>in Verbindung mit
-      <funktion>Herrn Prof.</funktion> <nachname>His</nachname></dozent>:
-      <dozent><grad>D. med.</grad> <nachname>Rauber</nachname>, <funktion>P.
-      E.<!--
+      <veranstaltung><thema>Präparirübungen</thema> <dozent ref="his_w">in
+      Verbindung mit <funktion>Herrn Prof.</funktion>
+      <nachname>His</nachname></dozent>: <dozent><grad>D. med.</grad>
+      <nachname>Rauber</nachname>, <funktion>P. E.<!--
 Et vice versa (s.o.): Ob es sich hier überhaupt um eine eigenständige Veranstaltung handelt?--></funktion></dozent></veranstaltung>
 
       <seite>9</seite>
@@ -715,7 +716,7 @@ Kein sic bei "hygieine", Schreibung regelmäßig von griech. hygieia.--></zeit><
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pharmacie (anorganische Präparate)</thema>:
-      <dozent><grad>D. ph.</grad> <vorname>Heinr.</vorname>
+      <dozent ref="hirzel_ch"><grad>D. ph.</grad> <vorname>Heinr.</vorname>
       <nachname>Hirzel</nachname></dozent>, <zeit>zweistündig</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
@@ -765,7 +766,7 @@ Kein sic bei "hygieine", Schreibung regelmäßig von griech. hygieia.--></zeit><
       <nachname>Baeltz</nachname></dozent>.</veranstaltung>
 
       <veranstaltung><thema>Specielle Pathologie und Therapie der
-      Localkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Localkrankheiten</thema>: <dozent ref="heubner_o"><grad>D. med.</grad>
       <nachname>Heubner</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>6stündig, 5-6 U.</zeit></veranstaltung>
 
@@ -936,10 +937,10 @@ nicht "dreitägig", was die Dauer der Veranstaltung insgesamt meinen würde. -->
 
       <trennlinie/>
 
-      <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Heubner</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Dienst., Mittw. u. Freit. 12-1
-      U.</zeit></veranstaltung>
+      <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>Dienst., Mittw. u.
+      Freit. 12-1 U.</zeit></veranstaltung>
 
       <veranstaltung><thema>Medicinische Klinik <ort>im städtischen
       Krankenhause</ort></thema>: <dozent><grad>D. med.</grad>
@@ -1111,7 +1112,7 @@ offensichtlich fehlerhaft. Lässt sich aber nicht ändern. --></veranstaltung>
         U.</zeit></veranstaltung>
 
         <veranstaltung><thema>Aristoteles' Leben, Schriften und Lehre</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>R.</vorname>
+        <dozent ref="hirzel_r"><grad>D. ph.</grad> <vorname>R.</vorname>
         <nachname>Hirzel</nachname></dozent>, <zeit>Mont., Dienst. u.
         Donnerst. 9-10 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
@@ -1163,7 +1164,8 @@ offensichtlich fehlerhaft. Lässt sich aber nicht ändern. --></veranstaltung>
         <modus>privatim</modus>, sed <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Ueber Schiller's und Goethe's philosophische
-        Dichtung (<notiz>Forts.</notiz>)</thema>: <dozent><grad>D. ph.</grad>
+        Dichtung (<notiz>Forts.</notiz>)</thema>: <dozent
+        ref="hildebrand_rudolf"><grad>D. ph.</grad>
         <nachname>Hildebrand</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Sonnab. 9-10 U.</zeit> <modus>publice</modus>.</veranstaltung>
 
@@ -1280,8 +1282,8 @@ offensichtlich fehlerhaft. Lässt sich aber nicht ändern. --></veranstaltung>
           Freit.) 10-11 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Einleitung in die philosophischen Schriften
-          Cicero's und Erklärung der Schrift de natura deorum</thema>:
-          <dozent><grad>D. ph.</grad> <vorname>R.</vorname>
+          Cicero's und Erklärung der Schrift de natura deorum</thema>: <dozent
+          ref="hirzel_r"><grad>D. ph.</grad> <vorname>R.</vorname>
           <nachname>Hirzel</nachname></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -1676,7 +1678,7 @@ auch im Original kursiv.--></veranstaltung>
         U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Deutsche Literaturgeschichte des 18.
-        Jahrh.</thema>: <dozent><grad>D. ph.</grad>
+        Jahrh.</thema>: <dozent ref="hildebrand_rudolf"><grad>D. ph.</grad>
         <nachname>Hildebrand</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont. bis Freit. 9-10 U.</zeit>
         <modus>privatim</modus>.</veranstaltung>

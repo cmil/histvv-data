@@ -609,9 +609,9 @@
       <trennlinie/>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Eingeweide,
-      Nerven und Sinnesorgane)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 2-4 U.</zeit>,
+      Nerven und Sinnesorgane)</thema>: <dozent ref="his_w"><grad>D.
+      med.</grad> <nachname>His</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit. 2-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Knochen,
@@ -620,12 +620,12 @@
       O.</funktion></dozent>, <zeit>Mont. bis Freit. 5-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Präparirübungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname></dozent> und <dozent
-      ref="braune_cw"><grad>D. med.</grad> <nachname>Braune</nachname>,
-      <funktion>PP.<!--(noch einzeln zuordnen!)--> OO.</funktion></dozent>,
-      <zeit>Mont. bis Sonnab. 9-1 U., Mont. bis Freit. 2-6 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Präparirübungen</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname></dozent> und
+      <dozent ref="braune_cw"><grad>D. med.</grad>
+      <nachname>Braune</nachname>, <funktion>PP.<!--(noch einzeln zuordnen!)-->
+      OO.</funktion></dozent>, <zeit>Mont. bis Sonnab. 9-1 U., Mont. bis
+      Freit. 2-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Hirn-Anatomie mit Demonstrationen</thema>: <dozent
       ref="flechsig_pe"><grad>D. med.</grad> <nachname>Flechsig</nachname>,
@@ -739,8 +739,8 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pharmacie (anorganische Präparate)</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. 10-12 U.</zeit>,
+      <dozent ref="hirzel_ch"><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont. 10-12 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Vorlesung über specielle pathologische
@@ -797,7 +797,7 @@
 
       <veranstaltung><thema>Vorlesung über specielle Pathologie und Therapie
       der Kinderkrankheiten, <notiz betreff="fortsetzung">II.
-      Theil</notiz></thema>: <dozent><grad>D. med.</grad>
+      Theil</notiz></thema>: <dozent ref="heubner_o"><grad>D. med.</grad>
       <nachname>Heubner</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
       <zeit>Mont. 6-8 U. Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -843,10 +843,10 @@
       <zeit>5-6 U.</zeit></veranstaltung>,
       <modus>privatim</modus>.</veranstaltungsgruppe>
 
-      <veranstaltung><thema>Operative Zahnheilkunde</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hesse</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Mont. u. Dienst. 4-5 U.</zeit>,
-      <modus>privatissime</modus>, aber
+      <veranstaltung><thema>Operative Zahnheilkunde</thema>: <dozent
+      ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>Mont. u. Dienst. 4-5
+      U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Ueber lebensrettende Operationen (Behandlung von
@@ -1012,14 +1012,14 @@
       <zeit>Mont., Dienst., Donnerst., Freit. u. Sonnab. 2-3 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Distriktspoliklinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Heubner</nachname>, <funktion>P. O.
-      Hon.</funktion></dozent>, <zeit>Referatstunden Mittw. u. Sonnab. 5-7
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Distriktspoliklinik</thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. O. Hon.</funktion></dozent>, <zeit>Referatstunden Mittw. u.
+      Sonnab. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Pädiatrische Poliklinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Heubner</nachname>, <funktion>P. O.
-      Hon.</funktion></dozent>, <zeit>täglich 9-10 U.</zeit>,
+      <veranstaltung><thema>Pädiatrische Poliklinik</thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. O. Hon.</funktion></dozent>, <zeit>täglich 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgische Klinik</thema>: <dozent><grad>D.
@@ -1071,9 +1071,9 @@
       <funktion>P. O.</funktion></dozent>, <zeit>12-1 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Zahnärztliches Praktikum</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hesse</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>täglich 1-5 U.</zeit>,
+      <veranstaltung><thema>Zahnärztliches Praktikum</thema>: <dozent
+      ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>täglich 1-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -1632,7 +1632,8 @@ die sonst nicht gekennzeichnet wird)--></ort></thema>: <dozent><grad>D.
           12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Das ältere Volkslied in seiner literar- und
-          culturgeschichtlichen Bedeutung</thema>: <dozent><grad>D. ph.</grad>
+          culturgeschichtlichen Bedeutung</thema>: <dozent
+          ref="hildebrand_rudolf"><grad>D. ph.</grad>
           <nachname>Hildebrand</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -1645,8 +1646,9 @@ die sonst nicht gekennzeichnet wird)--></ort></thema>: <dozent><grad>D.
           <modus>privatim</modus>. .</veranstaltung>
 
           <veranstaltung><thema>Ueber deutsche Etymologie und Wortforschung,
-          zugleich als Quelle für Culturgeschichte</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Hildebrand</nachname>, <funktion>P.
+          zugleich als Quelle für Culturgeschichte</thema>: <dozent
+          ref="hildebrand_rudolf"><grad>D. ph.</grad>
+          <nachname>Hildebrand</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Dienst. u. Freit. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 

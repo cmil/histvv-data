@@ -575,8 +575,8 @@
 
       <trennlinie/>
 
-      <veranstaltung><thema>Allgemeine Histologie</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname>, <funktion>P.
+      <veranstaltung><thema>Allgemeine Histologie</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Donnerst. bis Sonnab. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -601,8 +601,8 @@
       <nachname>Kräpelin</nachname></dozent>, <zeit>Dienst. und Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Mikroskopische Uebungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname>, <funktion>P.
+      <veranstaltung><thema>Mikroskopische Uebungen</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
       O.</funktion></dozent> und <dozent ref="altmann_r"><grad>D. med.</grad>
       <nachname>Altmann</nachname></dozent>, <zeit>Donnerst. bis Sonnab. 11-1
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -645,9 +645,10 @@
       <trennlinie/>
 
       <veranstaltung><thema>Entwickelungsgeschichte höherer Thiere und des
-      Menschen</thema>: <dozent><grad>D. med.</grad> <nachname>His</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Mittw. 4-5
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Menschen</thema>: <dozent ref="his_w"><grad>D. med.</grad>
+      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. bis Mittw. 4-5 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Embryologische Uebungen</thema>: <dozent
       ref="altmann_r"><grad>D. med.</grad>
@@ -760,9 +761,9 @@
       <zeit>Mittw. u. Sonnab. 5-6 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Pharmacie (organische Präparate)</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. 9-11 U.</zeit>,
+      <veranstaltung><thema>Pharmacie (organische Präparate)</thema>: <dozent
+      ref="hirzel_ch"><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont. 9-11 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Medicinisch-pharmaceutische
@@ -824,7 +825,7 @@
 
       <veranstaltung><thema>Specielle Pathologie und Therapie der Krankheiten
       <notiz betreff="fortsetzung">I. Theil</notiz>
-      (Lokalkrankheiten)</thema>: <dozent><grad>D. med.</grad>
+      (Lokalkrankheiten)</thema>: <dozent ref="heubner_o"><grad>D. med.</grad>
       <nachname>Heubner</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont. 6-8 U. Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -865,9 +866,10 @@
       med.</grad> <nachname>Huber</nachname></dozent>, <zeit>Mont. u.
       Donnerst. 7-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Zahnersatzkunde</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hesse</nachname></dozent>, <zeit>an zwei zu best.
-      Tagen und Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Zahnersatzkunde</thema>: <dozent
+      ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname></dozent>,
+      <zeit>an zwei zu best. Tagen und Stunden</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgische Anatomie an der Leiche, mit
       besonderer Berücksichtigung der chirurgischen Diagnostik und der
@@ -1064,10 +1066,10 @@
       des.</funktion></dozent>, <zeit>täglich ausser Mittw. 2-3 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema><ort>Distriktspoliklinik</ort></thema>:
-      <dozent><grad>D. med.</grad> <nachname>Heubner</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Referatstunden Mittw. u. Sonnab. 5-7
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema><ort>Distriktspoliklinik</ort></thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Referatstunden Mittw. u.
+      Sonnab. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgische Klinik</thema>: <dozent><grad>D.
       med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
@@ -1452,12 +1454,13 @@
           9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung von Aristophanes' Wolken</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
-          u. Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="hirzel_r"><grad>D. ph.</grad>
+          <nachname>Hirzel</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Mont., Dienst., Donnerst. u. Freit. 9-10 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Ueber Aristoteles' Poetik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
+          <veranstaltung><thema>Ueber Aristoteles' Poetik</thema>: <dozent
+          ref="hirzel_r"><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
@@ -1588,9 +1591,9 @@
           U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen einer philologischen Gesellschaft
-          (Interpretation von Platon's Phädrus</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Hirzel</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Sonnab. 9-11 U.</zeit>,
+          (Interpretation von Platon's Phädrus</thema>: <dozent
+          ref="hirzel_r"><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 9-11 U.</zeit>,
           <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
 
@@ -1766,10 +1769,11 @@
           <funktion>P. O.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 8-9
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Deutsche Metrik und Rhythmik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hildebrand</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst. u. Mittw.
-          9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung><thema>Deutsche Metrik und Rhythmik</thema>: <dozent
+          ref="hildebrand_rudolf"><grad>D. ph.</grad>
+          <nachname>Hildebrand</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mont., Dienst. u. Mittw. 9-10
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der Faustsage und Erklärung des
           Goetheschen Gedichtes</thema>: <dozent><grad>D. ph.</grad>
@@ -1779,8 +1783,8 @@
 
           <veranstaltung><thema>Goethes Lieder und Gedichte erklärt, zugleich
           als Einführung in das tiefere Verständniss seines Lebens und
-          Strebens</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Hildebrand</nachname>, <funktion>P.
+          Strebens</thema>: <dozent ref="hildebrand_rudolf"><grad>D.
+          ph.</grad> <nachname>Hildebrand</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Donnerst., Freit. u. Sonnab. 9-10
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2680,8 +2684,9 @@ Als solchen beibehalten?--></absatz>
         <seite>30</seite>
 
         <veranstaltungsverweis><thema>Entwickelungsgeschichte etc.</thema>:
-        <dozent><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe <gesperrt>Medicinische
+        <dozent ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe
+        <gesperrt>Medicinische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Entwickelungsgeschichtliches
@@ -2713,9 +2718,10 @@ Als solchen beibehalten?--></absatz>
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Anatomie und Physiologie des Gehirns
-        (für Nichtmediciner) etc<korrektur>.</korrektur></thema>:
-        <dozent><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe <gesperrt>Medicinische
+        (für Nichtmediciner) etc<korrektur>.</korrektur></thema>: <dozent
+        ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe
+        <gesperrt>Medicinische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <trennlinie/>

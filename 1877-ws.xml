@@ -589,9 +589,9 @@
       Semesters 4-5 U.</zeit> <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Eingeweide,
-      Nerven und Sinnesorgane)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 2-4 U.</zeit>
+      Nerven und Sinnesorgane)</thema>: <dozent ref="his_w"><grad>D.
+      med.</grad> <nachname>His</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit. 2-4 U.</zeit>
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie der Knochen, Gelenke,
@@ -609,8 +609,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Anatomie für Künstler. Muskellehre</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hesse</nachname></dozent>,
-      <zeit>Mittw. 6-7 U.</zeit> <modus>privatissime</modus>, aber
+      <dozent ref="hesse_fl"><grad>D. med.</grad>
+      <nachname>Hesse</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Anthropologie</thema>: <dozent><grad>D.
@@ -626,17 +627,17 @@
 
       <veranstaltung><thema>Präparir-Uebungen</thema>, in Verbindung mit Hrn.
       <dozent ref="braune_cw"><funktion>Prof.</funktion>
-      <nachname>Braune</nachname></dozent>: <dozent><grad>D. med.</grad>
-      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>täglich 9-1 U. und Mont. bis Freit. 2-6 U.</zeit>
-      <modus>privatim</modus>.</veranstaltung>
+      <nachname>Braune</nachname></dozent>: <dozent ref="his_w"><grad>D.
+      med.</grad> <nachname>His</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>täglich 9-1 U. und Mont. bis Freit. 2-6
+      U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Präparir-Uebungen</thema>, in Verbindung mit Hrn.
-      <dozent><funktion>Prof.</funktion> <nachname>His</nachname></dozent>:
-      <dozent ref="braune_cw"><grad>D. med.</grad>
-      <nachname>Braune</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>täglich 9-1 U. und Mont. bis Freit. 2-6 U.</zeit>
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="his_w"><funktion>Prof.</funktion>
+      <nachname>His</nachname></dozent>: <dozent ref="braune_cw"><grad>D.
+      med.</grad> <nachname>Braune</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>täglich 9-1 U. und Mont. bis Freit. 2-6
+      U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Anatomische Arbeiten</thema>: <dozent><grad>D.
       med.</grad> <nachname>Rauber</nachname>, <funktion>P.
@@ -644,8 +645,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Einrichtung und Gebrauch des Mikroskops</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hesse</nachname></dozent>,
-      <zeit>Sonnab. 2-4 U.</zeit> <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="hesse_fl"><grad>D. med.</grad>
+      <nachname>Hesse</nachname></dozent>, <zeit>Sonnab. 2-4 U.</zeit>
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Mikroskopisch-anatom. Uebungen</thema>: <dozent
       ref="flechsig_pe"><grad>D. med.</grad> <nachname>Flechsig</nachname>,
@@ -743,8 +745,8 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pharmacie (anorganische Präparate)</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Freit. 9-11 U.</zeit>
+      <dozent ref="hirzel_ch"><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Freit. 9-11 U.</zeit>
       <modus>publice</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -806,7 +808,7 @@
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung><thema>Specielle Pathologie und Therapie der
-      Localkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Localkrankheiten</thema>: <dozent ref="heubner_o"><grad>D. med.</grad>
       <nachname>Heubner</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>an zu best. T. u. St.</zeit>
       <modus>privatim</modus>.</veranstaltung>
@@ -1017,10 +1019,10 @@
 
       <trennlinie/>
 
-      <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Heubner</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Mittw. u. Freit. 12-1 U.</zeit>
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Mittw. u. Freit.
+      12-1 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Medicinische Klinik</thema>: <dozent><grad>D.
       med.</grad> <nachname>Wunderlich</nachname>, <funktion>P.
@@ -1032,10 +1034,11 @@
       O.</funktion></dozent>, <zeit>täglich, ausser Mittw., 2-3
       U.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Distriktspoliklinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Heubner</nachname>, <funktion>P.
-      E.</funktion></dozent>, <thema>Referatstunden</thema> <zeit>Mont.,
-      Mittw. u. Freit. 3-4 U.</zeit> <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Distriktspoliklinik</thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. E.</funktion></dozent>, <thema>Referatstunden</thema>
+      <zeit>Mont., Mittw. u. Freit. 3-4 U.</zeit>
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgische Klinik</thema>: <dozent><grad>D.
       med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
@@ -1379,7 +1382,7 @@
           U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Einleitung in den Aristophanes und Einleitung
-          der Acharner</thema>: <dozent><grad>D. ph.</grad>
+          der Acharner</thema>: <dozent ref="hirzel_r"><grad>D. ph.</grad>
           <nachname>Hirzel</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5 U.</zeit>
           <modus>privatim</modus>.</veranstaltung>
@@ -1691,7 +1694,7 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Die Kunstform der deutschen Dichtung (Metrik,
-          Poetik)</thema>: <dozent><grad>D. ph.</grad>
+          Poetik)</thema>: <dozent ref="hildebrand_rudolf"><grad>D. ph.</grad>
           <nachname>Hildebrand</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Mont., Dienst. u. Mittw. 9-10
           U.</zeit> <modus>privatim</modus>.</veranstaltung>
@@ -1713,8 +1716,9 @@
           <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mittw. u. Sonnab.
           12-1 U.</zeit> <modus>publice</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Schiller's W. Tell</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Hildebrand</nachname>, <funktion>P.
+          <veranstaltung><thema>Schiller's W. Tell</thema>: <dozent
+          ref="hildebrand_rudolf"><grad>D. ph.</grad>
+          <nachname>Hildebrand</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Donnerst., Freit. u. Sonnab. 9-10
           U.</zeit> <modus>privatim</modus>.</veranstaltung>
 

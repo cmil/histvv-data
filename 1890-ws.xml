@@ -599,9 +599,9 @@
       <trennlinie/>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Eingeweide,
-      Nerven und Sinnesorgane)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 2-4 U.</zeit>,
+      Nerven und Sinnesorgane)</thema>: <dozent ref="his_w"><grad>D.
+      med.</grad> <nachname>His</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit. 2-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Knochen,
@@ -610,8 +610,8 @@
       O.</funktion></dozent>, <zeit>Mont. bis Freit. 5-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Anatomische Präparirübungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>His</nachname></dozent> und
+      <veranstaltung><thema>Anatomische Präparirübungen</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname></dozent> und
       <dozent ref="braune_cw"><grad>D. med.</grad>
       <nachname>Braune</nachname>, <funktion>PP. OO.</funktion></dozent>,
       <zeit>Mont. bis Sonnab. 9-1 U., Mont. bis Freit. 2-5 U.</zeit>,
@@ -801,7 +801,7 @@
 
       <veranstaltung><thema>Specielle Pathologie und Therapie der Krankheiten
       des Kindesalters, <notiz betreff="fortsetzung">II.
-      Theil</notiz></thema>: <dozent><grad>D. med.</grad>
+      Theil</notiz></thema>: <dozent ref="heubner_o"><grad>D. med.</grad>
       <nachname>Heubner</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
       <zeit>Mont. 6-8 U. Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -904,10 +904,10 @@
       <zeit>zweimal wöchentlich an noch zu best. Tagen und Stunden</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Operative Zahnheilkunde</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hesse</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 3-4 U.</zeit>,
-      <modus>privatissime</modus>, aber
+      <veranstaltung><thema>Operative Zahnheilkunde</thema>: <dozent
+      ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 3-4
+      U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <trennlinie/>
@@ -1066,10 +1066,10 @@
 
       <veranstaltung><thema>Cursus der Auscultation und Percussion für
       Anfänger (im Auftrage des Directors der medicinischen Klinik)</thema>:
-      <dozent><grad>D. med.</grad> <nachname>His</nachname></dozent> und
-      <dozent><grad>D. med.</grad> <nachname>Romberg</nachname></dozent>,
-      <zeit>Mont., Donnerst. u. Freit. 8-9 U. Vorm.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="his_w_jr"><grad>D. med.</grad>
+      <nachname>His</nachname></dozent> und <dozent><grad>D. med.</grad>
+      <nachname>Romberg</nachname></dozent>, <zeit>Mont., Donnerst. u. Freit.
+      8-9 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <!--muss der Director in der veranstaltung auch getaggt werden?-->
 
@@ -1088,17 +1088,18 @@
       <zeit>Mont., Dienst., Donnerst., Freit. u. Sonnab. 2-3 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Distriktspoliklinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Heubner</nachname>, <funktion>P. O.
-      Hon.</funktion></dozent>, <thema>Referatstunden</thema>: <zeit>Mittw. u.
-      Sonnab. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Distriktspoliklinik</thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. O. Hon.</funktion></dozent>, <thema>Referatstunden</thema>:
+      <zeit>Mittw. u. Sonnab. 5-7 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <!--veranstaltungsgruppe? -->
 
-      <veranstaltung><thema>Universitäts-Kinderpoliklinik</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Heubner</nachname>, <funktion>P.
-      O. Hon.</funktion></dozent>, <zeit>täglich ½10-½11 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Universitäts-Kinderpoliklinik</thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. O. Hon.</funktion></dozent>, <zeit>täglich ½10-½11
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgische Klinik</thema>: <dozent><grad>D.
       med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
@@ -1149,9 +1150,9 @@
       <funktion>P. O.</funktion></dozent>, <zeit>Dienst. 12-1 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Zahnärztliches Praktikum</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hesse</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>täglich 1-5 U.</zeit>,
+      <veranstaltung><thema>Zahnärztliches Praktikum</thema>: <dozent
+      ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>täglich 1-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -2070,10 +2071,10 @@
         <zeit>Mont., Dienst., Donnerst. u. Sonnab. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Geographie von Südamerika</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hettner</nachname></dozent>,
-        <zeit>zweist., in zu best. Stunden</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Geographie von Südamerika</thema>: <dozent
+        ref="hettner_a"><grad>D. ph.</grad>
+        <nachname>Hettner</nachname></dozent>, <zeit>zweist., in zu best.
+        Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <trennlinie/>
 

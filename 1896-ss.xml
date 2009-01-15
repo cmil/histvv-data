@@ -777,8 +777,8 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
       E.</funktion></dozent>, <zeit>an 3 bis 4 Tagen zu Anfang des Semesters,
       3 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Allgemeine Histologie</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname>, <funktion>P.
+      <veranstaltung><thema>Allgemeine Histologie</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Mittw., Donnerst. u. Freit. 10-11
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -813,9 +813,10 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
       best. Zeit</zeit>, <modus>privatissime</modus>.<!--VA-Gruppe nur durch Auslassungen möglich. Noch besprechen!--></veranstaltungsgruppe>
 
       <veranstaltung><thema>Entwicklungsgeschichte höherer Thiere und des
-      Menschen</thema>: <dozent><grad>D. med.</grad> <nachname>His</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u.
-      Donnerst. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Menschen</thema>: <dozent ref="his_w"><grad>D. med.</grad>
+      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont., Dienst., Mittw. u. Donnerst. 4-5 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Embryologisches Praktikum (Wirbelthiere)</thema>:
       <dozent><grad>D. med.</grad> <nachname>Kaestner</nachname></dozent>,
@@ -833,21 +834,23 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
       <trennlinie/>
 
       <veranstaltung><thema>Physiologie des Kreislaufs, der Athmung, Ernährung
-      und Absonderung</thema>: <dozent><grad>D. med. et ph.</grad>
-      <nachname>Hering</nachname>, <funktion>P. O. des.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 9-10 U.</zeit>,
+      und Absonderung</thema>: <dozent ref="hering_kek"><grad>D. med. et
+      ph.</grad> <nachname>Hering</nachname>, <funktion>P. O.
+      des.</funktion></dozent>, <zeit>Mont. bis Freit. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Physiologische Besprechungen im Anschluss an die
-      Vorlesung über Physiologie</thema>: <dozent><grad>D. med. et ph.</grad>
-      <nachname>Hering</nachname>, <funktion>P. O. des.</funktion></dozent>,
-      <zeit>Dienst. 5-6 U.</zeit>, <modus>privatissime</modus>, aber
+      Vorlesung über Physiologie</thema>: <dozent ref="hering_kek"><grad>D.
+      med. et ph.</grad> <nachname>Hering</nachname>, <funktion>P. O.
+      des.</funktion></dozent>, <zeit>Dienst. 5-6 U.</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Arbeiten für Geübtere <ort>im physiologischen
-      Institute</ort></thema>: <dozent><grad>D. med. et ph.</grad>
-      <nachname>Hering</nachname>, <funktion>P. O. des.</funktion></dozent>,
-      <zeit>tägl. 10-1 u. 3-6 U.</zeit>, <modus>privatissime</modus>, aber
+      Institute</ort></thema>: <dozent ref="hering_kek"><grad>D. med. et
+      ph.</grad> <nachname>Hering</nachname>, <funktion>P. O.
+      des.</funktion></dozent>, <zeit>tägl. 10-1 u. 3-6 U.</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Physiologie des Centralnervensystems</thema>:
@@ -1142,10 +1145,10 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Funktionsprüfungen des Auges (Anomalien der
-      Accommodation und Refraction)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Hess</nachname>, <funktion>P. E. des.</funktion></dozent>,
-      <zeit>Donnerst. 3-4 U. u. Freit. 7-8 U. Vorm.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Accommodation und Refraction)</thema>: <dozent ref="hess_c"><grad>D.
+      med.</grad> <nachname>Hess</nachname>, <funktion>P. E.
+      des.</funktion></dozent>, <zeit>Donnerst. 3-4 U. u. Freit. 7-8 U.
+      Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pathologie u. Therapie der
       Augenkrankheiten</thema>: <dozent><grad>D. med.</grad>
@@ -1163,10 +1166,10 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
       med.</grad> <nachname>Schwarz</nachname></dozent>, <zeit>an 2 zu best.
       Tagen 5-6 oder 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Augenspiegel-Untersuchungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hess</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Mont. u. Mittw. 5-6 u. Dienst. 6-7
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Augenspiegel-Untersuchungen</thema>: <dozent
+      ref="hess_c"><grad>D. med.</grad> <nachname>Hess</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>Mont. u. Mittw. 5-6 u.
+      Dienst. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Augenoperationscursus </thema>: <dozent><grad>D.
       med.</grad> <nachname>Sattler</nachname>, <funktion>P.
@@ -1185,9 +1188,9 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
 
       <seite>15</seite>
 
-      <veranstaltung><thema>Ophthalmologische Besprechungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hess</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Sonnab. 8-9 U.</zeit>,
+      <veranstaltung><thema>Ophthalmologische Besprechungen</thema>: <dozent
+      ref="hess_c"><grad>D. med.</grad> <nachname>Hess</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>Sonnab. 8-9 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Cursus der Laryngoskopie und Rhinoskopie</thema>:
@@ -1250,10 +1253,10 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
 
       <trennlinie/>
 
-      <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Dienst., Mittw. u. Sonnab. 7-8 U.
-      Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent
+      ref="his_w_jr"><grad>D. med.</grad> <nachname>His</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>Dienst., Mittw. u.
+      Sonnab. 7-8 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Medicinische Klinik</thema>: <dozent
       ref="curschmann_hjw"><grad>D. med.</grad>
@@ -1261,15 +1264,16 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
       <zeit>tägl. 9½-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Referate und Besprechungen ausgewählter klinischer
-      Fragen</thema>: <dozent><grad>D. med.</grad> <nachname>His</nachname>,
-      <funktion>P. E. des.</funktion></dozent>, <zeit>nach
-      Uebereinkunft</zeit>, <modus>privatissime</modus>, aber
+      Fragen</thema>: <dozent ref="his_w_jr"><grad>D. med.</grad>
+      <nachname>His</nachname>, <funktion>P. E. des.</funktion></dozent>,
+      <zeit>nach Uebereinkunft</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Cursus der Percussion und Auscultation für
-      Anfänger</thema>: <dozent><grad>D. med.</grad> <nachname>His</nachname>,
-      <funktion>P. E. des.</funktion></dozent>, <zeit>Mont., Donnerst. u.
-      Freit. 7-8 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Anfänger</thema>: <dozent ref="his_w_jr"><grad>D. med.</grad>
+      <nachname>His</nachname>, <funktion>P. E. des.</funktion></dozent>,
+      <zeit>Mont., Donnerst. u. Freit. 7-8 U. Vorm.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Cursus der Percussion und Auscultation für
       Geübtere, <seite>16</seite>in mehreren Abtheilungen</thema>:
@@ -1366,10 +1370,10 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
 
         <seite>17</seite>
 
-        <veranstaltung><thema>Operative Zahnheilkunde</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Hesse</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Sonnab. 3-4
-        U.</zeit>, <modus>privatissime</modus>, aber
+        <veranstaltung><thema>Operative Zahnheilkunde</thema>: <dozent
+        ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
+        Sonnab. 3-4 U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Chirurgie unter besonderer Berücksichtigung der
@@ -1384,9 +1388,9 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
         <nachname>Kockel</nachname></dozent>, <zeit>Mittw. und Sonnab. 7-8 U.
         Vorm.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Zahnärztliches Praktikum</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Hesse</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>täglich 1-5 U.</zeit>,
+        <veranstaltung><thema>Zahnärztliches Praktikum</thema>: <dozent
+        ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>täglich 1-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Physiologie und Pathologie der Zahnung</thema>:
@@ -1824,9 +1828,9 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Sprachwissenschaftliche Erläuterungen zur
-          griechischen Schulgrammatik</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Hirt</nachname></dozent>, <zeit>Dienst. u. Freit. 3-4
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          griechischen Schulgrammatik</thema>: <dozent ref="hirt_h"><grad>D.
+          ph.</grad> <nachname>Hirt</nachname></dozent>, <zeit>Dienst. u.
+          Freit. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Griechische Bühnenalterthümer und Erklärung
           von Aischylos Persern</thema>: <dozent><grad>D. ph.</grad>
@@ -2133,8 +2137,8 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
           <zeit>Mont. u. Donnerst. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Altnordische Grammatik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hirt</nachname></dozent>,
+          <veranstaltung><thema>Altnordische Grammatik</thema>: <dozent
+          ref="hirt_h"><grad>D. ph.</grad> <nachname>Hirt</nachname></dozent>,
           <zeit>Dienst. u. Freit. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -2225,9 +2229,9 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
           <seite>25</seite>
 
           <veranstaltung><thema>Germanistische Gesellschaft
-          (Mittelhochdeutsche Lektüre)</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Hirt</nachname></dozent>, <zeit>Mont. 8-10 U.</zeit>,
-          <modus>privatissime</modus>, aber
+          (Mittelhochdeutsche Lektüre)</thema>: <dozent ref="hirt_h"><grad>D.
+          ph.</grad> <nachname>Hirt</nachname></dozent>, <zeit>Mont. 8-10
+          U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Gotische Uebungen</thema>: <dozent><grad>D.
@@ -2551,8 +2555,9 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geographie von Süd- und Osteuropa</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hettner</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont., Dienst. u. Freit. 6-7 U.</zeit>,
+        <dozent ref="hettner_a"><grad>D. ph.</grad>
+        <nachname>Hettner</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont., Dienst. u. Freit. 6-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Uebersicht der Litteratur der
@@ -2701,7 +2706,7 @@ Welche grundsätzliche Richtung bei diesen Dingen?)--></veranstaltung>
         <trennlinie/>
 
         <veranstaltung><thema>Geographische Uebungen
-        (Norddeutschland)</thema>: <dozent><grad>D. ph.</grad>
+        (Norddeutschland)</thema>: <dozent ref="hettner_a"><grad>D. ph.</grad>
         <nachname>Hettner</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Freit. 7-½9 U. Ab.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3528,7 +3533,7 @@ Welche grundsätzliche Richtung bei diesen Dingen?)--></veranstaltung>
         Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Entwickelungsgeschichte höherer Thiere
-        und des Menschen</thema>: <dozent><grad>D. med.</grad>
+        und des Menschen</thema>: <dozent ref="his_w"><grad>D. med.</grad>
         <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
 

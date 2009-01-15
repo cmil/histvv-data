@@ -717,8 +717,8 @@
       <funktion>P. E.</funktion></dozent>, <zeit>an den ersten 3 bis 4 Tagen
       des Semesters, 3 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Allgemeine Histologie</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname>, <funktion>P.
+      <veranstaltung><thema>Allgemeine Histologie</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Mittw., Donnerst. u. Freit. 10-11
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -760,12 +760,13 @@
       <modus>privatissime</modus>.</veranstaltungsgruppe>
 
       <veranstaltung><thema>Entwicklungsgeschichte höherer Thiere und des
-      Menschen</thema>: <dozent><grad>D. med.</grad> <nachname>His</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 4-5
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Menschen</thema>: <dozent ref="his_w"><grad>D. med.</grad>
+      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. bis Donnerst. 4-5 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Anatomische und entwicklungsgeschichtliche
-      Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+      Demonstrationen</thema>: <dozent ref="his_w"><grad>D. med.</grad>
       <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Freit. 4-5 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -785,9 +786,10 @@
 
       <veranstaltung><thema>Physiologie, <notiz betreff="fortsetzung">I.
       Theil</notiz> (Kreislauf Athmung, Ernährung, und Absonderung)</thema>:
-      <dozent><grad>D. med. et ph.</grad> <nachname>Hering</nachname>,
-      <funktion>P. O. des.</funktion></dozent>, <zeit>Mont. bis Freit. 9-10
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="hering_kek"><grad>D. med. et ph.</grad>
+      <nachname>Hering</nachname>, <funktion>P. O. des.</funktion></dozent>,
+      <zeit>Mont. bis Freit. 9-10 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Die Lehre vom menschlichen Stoffwechsel</thema>
       (im Anschluss an die Vorlesung: Physiologie, I. Theil von D. med.
@@ -797,7 +799,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Arbeiten für Geübtere im physiologischen
-      Institute</thema>: <dozent><grad>D. med. et ph.</grad>
+      Institute</thema>: <dozent ref="hering_kek"><grad>D. med. et ph.</grad>
       <nachname>Hering</nachname>, <funktion>P. O. des.</funktion></dozent>,
       <zeit>Mont. bis Freit. 10-1 u. 3-6 U.</zeit>,
       <modus>privatissime</modus>, aber
@@ -1227,10 +1229,10 @@
 
       <trennlinie/>
 
-      <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Mittw. u. Sonnab. 7-8 U.
-      Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent
+      ref="his_w_jr"><grad>D. med.</grad> <nachname>His</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Mittw. u. Sonnab.
+      7-8 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Medicinische Klinik</thema>: <dozent
       ref="curschmann_hjw"><grad>D. med.</grad>
@@ -1244,15 +1246,17 @@
       die Hörer der Klinik</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Referate und Besprechungen ausgewählter klinischer
-      Fragen</thema>: <dozent><grad>D. med.</grad> <nachname>His</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>an einem naoch zu best.
-      Wochentage 8-9½ U.</zeit>, <modus>privatissime</modus>, aber
+      Fragen</thema>: <dozent ref="his_w_jr"><grad>D. med.</grad>
+      <nachname>His</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>an
+      einem naoch zu best. Wochentage 8-9½ U.</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Cursus der Auscultation und Percussion für
-      Anfänger</thema>: <dozent><grad>D. med.</grad> <nachname>His</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>Mont., Donnerst. u. Freit.
-      7-8 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Anfänger</thema>: <dozent ref="his_w_jr"><grad>D. med.</grad>
+      <nachname>His</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Mont., Donnerst. u. Freit. 7-8 U. Vorm.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Cursus der Auscultation und Percussion für
       Geübtere in mehrern Abtheilungen</thema>: <dozent><grad>D. med.</grad>
@@ -1362,10 +1366,10 @@
         med.</grad> <nachname>Held</nachname></dozent>, <zeit>Dienst. bis
         Donnerst. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Operative Zahnheilkunde</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Hesse</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont., Mittw.- u. Freit. 3-4 U.</zeit>,
-        <modus>privatissime</modus>, aber
+        <veranstaltung><thema>Operative Zahnheilkunde</thema>: <dozent
+        ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont., Mittw.- u. Freit.
+        3-4 U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Chirurgie der Mund- und Rachenhöhle mit
@@ -1380,14 +1384,14 @@
         E. des.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 8-9 U.</zeit>,
         <modus>privatissime</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Zahnärztliches Praktikum</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Hesse</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>täglich 1-5 U.</zeit>,
+        <veranstaltung><thema>Zahnärztliches Praktikum</thema>: <dozent
+        ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>täglich 1-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Kursus der Metallarbeiten</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Hesse</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Freit. 5-7 U.</zeit>,
+        <veranstaltung><thema>Kursus der Metallarbeiten</thema>: <dozent
+        ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Freit. 5-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
       </sachgruppe>
 
@@ -1736,7 +1740,7 @@
           <titel>a) Altclassische Philologie.</titel>
 
           <veranstaltung><thema>Laut- und Formenlehre der griechischen
-          Sprache</thema>: <dozent><grad>D. ph.</grad>
+          Sprache</thema>: <dozent ref="hirt_h"><grad>D. ph.</grad>
           <nachname>Hirt</nachname>, <funktion>P. E. des.</funktion></dozent>,
           <zeit>Mont., Dienst., Donnerst. u. Freit. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -1850,10 +1854,10 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Sprachwissenschaftliche Uebungen für Anfänger
-          auf dem Gebiete des Griechischen</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Hirt</nachname>, <funktion>P. E.
-          des.</funktion></dozent>, <zeit>in zu best. Stunde</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          auf dem Gebiete des Griechischen</thema>: <dozent
+          ref="hirt_h"><grad>D. ph.</grad> <nachname>Hirt</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <zeit>in zu best.
+          Stunde</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen auf dem Gebiete der lateinischen
           Philologie</thema>: <dozent><grad>D. ph.</grad>
@@ -2102,7 +2106,7 @@
           <titel>c) Deutsche Philologie.</titel>
 
           <veranstaltung><thema>Ueber deutsche Wortforscung und
-          Etymologie</thema>: <dozent><grad>D. ph.</grad>
+          Etymologie</thema>: <dozent ref="hirt_h"><grad>D. ph.</grad>
           <nachname>Hirt</nachname>, <funktion>P. E. des.</funktion></dozent>,
           <zeit>Mont. u. Donnerst. 8-9 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -3395,7 +3399,7 @@
         <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Entwicklungsgeschichte höherer Thiere
-        und des Menschen</thema>: <dozent><grad>D. med.</grad>
+        und des Menschen</thema>: <dozent ref="his_w"><grad>D. med.</grad>
         <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Medicinische Facultät</siehe>.</veranstaltungsverweis>
 

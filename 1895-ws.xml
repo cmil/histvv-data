@@ -792,9 +792,9 @@
       <trennlinie/>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Eingeweide,
-      Nerven und Sinnesorgane)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 4-6 U.</zeit>,
+      Nerven und Sinnesorgane)</thema>: <dozent ref="his_w"><grad>D.
+      med.</grad> <nachname>His</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit. 4-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Knochen,
@@ -805,8 +805,8 @@
       des.</funktion></dozent>, <zeit>Mont. bis Freit. 2-3 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Präparirübungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname>, <funktion>P.
+      <veranstaltung><thema>Präparirübungen</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Mont. bis Sonnab. 9-1 und Mont. bis Freit.
       2-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -859,9 +859,10 @@
       <trennlinie/>
 
       <veranstaltung><thema>Physiologie der Empfindung und Bewegung</thema>:
-      <dozent><grad>D. med. et ph.</grad> <nachname>Hering</nachname>,
-      <funktion>P. O. des.</funktion></dozent>, <zeit>Mont. bis Freit. 3-4
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="hering_kek"><grad>D. med. et ph.</grad>
+      <nachname>Hering</nachname>, <funktion>P. O. des.</funktion></dozent>,
+      <zeit>Mont. bis Freit. 3-4 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Physiologie der Empfindungen und Gefühle</thema>:
       <dozent ref="frey_mrf"><grad>D. med.</grad>
@@ -1012,9 +1013,9 @@
       <nachname>Romberg</nachname></dozent>, <zeit>Donnerst. 5-6 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Krankheiten des Rückenmarks</thema>:
-      <dozent><grad>D. med.</grad> <nachname>His</nachname></dozent>, <zeit>an
-      noch zu best. Tage, einstünd.</zeit>,
+      <veranstaltung><thema>Krankheiten des Rückenmarks</thema>: <dozent
+      ref="his_w_jr"><grad>D. med.</grad> <nachname>His</nachname></dozent>,
+      <zeit>an noch zu best. Tage, einstünd.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Vorlesung über die Krankheiten des peripherischen
@@ -1135,16 +1136,16 @@
       wöchentlich an noch zu best. Tagen u. Stunden</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Operative Zahnheilkunde</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hesse</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Sonnab. 3-4
-      U.</zeit>, <modus>privatissime</modus>, aber
+      <veranstaltung><thema>Operative Zahnheilkunde</thema>: <dozent
+      ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Sonnab.
+      3-4 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <trennlinie/>
 
-      <veranstaltung><thema>Propädeutik der Augenheilkunde</thema>:
-      <dozent><grad>Dr. med.</grad> <nachname>Hess</nachname></dozent>,
+      <veranstaltung><thema>Propädeutik der Augenheilkunde</thema>: <dozent
+      ref="hess_c"><grad>Dr. med.</grad> <nachname>Hess</nachname></dozent>,
       <zeit>Dienst. u. Freit. 4-5 (oder 6-7) U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1183,7 +1184,7 @@
       Tagen 6-7 (oder 7-8 U.,)</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Augenspiegel-Untersuchungen</thema>
-      (<zeit>sechswöchig</zeit>): <dozent><grad>D. med.</grad>
+      (<zeit>sechswöchig</zeit>): <dozent ref="hess_c"><grad>D. med.</grad>
       <nachname>Hess</nachname></dozent>, <zeit>Mont., Mittw. u. Freit. 5-6
       (oder 6-7) U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1211,8 +1212,8 @@
 
       <seite>15</seite>
 
-      <veranstaltung><thema>Ophthalmologische Besprechungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hess</nachname></dozent>,
+      <veranstaltung><thema>Ophthalmologische Besprechungen</thema>: <dozent
+      ref="hess_c"><grad>D. med.</grad> <nachname>Hess</nachname></dozent>,
       <zeit>Donnerst. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Ueber Ohrenkrankheiten, mit besonderer
@@ -1266,9 +1267,10 @@
 
       <trennlinie/>
 
-      <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname></dozent>, <zeit>Dienst., Mittw. u.
-      Sonnab. 8-9 U. früh</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent
+      ref="his_w_jr"><grad>D. med.</grad> <nachname>His</nachname></dozent>,
+      <zeit>Dienst., Mittw. u. Sonnab. 8-9 U. früh</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Medicinische Klinik</thema>: <dozent
       ref="curschmann_hjw"><grad>D. med.</grad>
@@ -1281,7 +1283,7 @@
       8-9 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Cursus der Percussion und Auscultation für
-      Geübtere</thema>: <dozent><grad>D. med.</grad>
+      Geübtere</thema>: <dozent ref="his_w_jr"><grad>D. med.</grad>
       <nachname>His</nachname></dozent>, <zeit>Mittw. u. Sonnab. 5-6
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1341,9 +1343,9 @@
       <funktion>P. O.</funktion></dozent>, <zeit>Mittw. u. Freit. 11-12
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Zahnärztliches Praktikum</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hesse</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>täglich 1-5 U.</zeit>,
+      <veranstaltung><thema>Zahnärztliches Praktikum</thema>: <dozent
+      ref="hesse_fl"><grad>D. med.</grad> <nachname>Hesse</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>täglich 1-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -2034,7 +2036,7 @@
           <seite>23</seite>
 
           <veranstaltung><thema>Kudrun (Einleitung und Lektüre für
-          Anfänger)</thema>: <dozent><grad>D. ph.</grad>
+          Anfänger)</thema>: <dozent ref="hirt_h"><grad>D. ph.</grad>
           <nachname>Hirt</nachname></dozent>, <zeit>Mittw. u. Sonnab. 8-9
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2105,7 +2107,7 @@
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung><thema>Germanistische Gesellschaft (Nithart von
-          Riuwental)</thema>: <dozent><grad>D. ph.</grad>
+          Riuwental)</thema>: <dozent ref="hirt_h"><grad>D. ph.</grad>
           <nachname>Hirt</nachname></dozent>, <zeit>Mont. 8-10 U. Ab.</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2274,9 +2276,9 @@
         Geographie.</titel>
 
         <veranstaltung><thema>Urheimat und Urzeit der Indogermanen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hirt</nachname></dozent>,
-        <zeit>Mittw. u. Sonnab. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="hirt_h"><grad>D. ph.</grad>
+        <nachname>Hirt</nachname></dozent>, <zeit>Mittw. u. Sonnab. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Altägyptische Städte, Tempel und Gräber</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Steindorff</nachname>,
@@ -2400,10 +2402,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geographie von Westeuropa (Pyrenäenhalbinsel,
-        Frankreich, britische Inseln und Skandinavien)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hettner</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 6-7 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Frankreich, britische Inseln und Skandinavien)</thema>: <dozent
+        ref="hettner_a"><grad>D. ph.</grad> <nachname>Hettner</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 6-7
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Uebersicht der aussereuropäischen Staaten und
         Kolonialreiche</thema>: <dozent><grad>D. ph.</grad>
@@ -2425,8 +2427,9 @@
 
         <veranstaltung><thema>Grundzüge der Pflanzen- und Thiergeographie, mit
         besonderer Berücksichtigung der Kulturpflanzen und Hausthiere</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hettner</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
+        <dozent ref="hettner_a"><grad>D. ph.</grad>
+        <nachname>Hettner</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <trennlinie/>
@@ -2544,8 +2547,8 @@
 
           <trennlinie/>
 
-          <veranstaltung><thema>Geographische Uebungen</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hettner</nachname>,
+          <veranstaltung><thema>Geographische Uebungen</thema>: <dozent
+          ref="hettner_a"><grad>D. ph.</grad> <nachname>Hettner</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>Freit. ½8-9 U.
           Ab.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2905,9 +2908,10 @@
         G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Grundzüge der Pflanzen- und
-        Thiergeographie u. s. w.</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hettner</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
+        Thiergeographie u. s. w.</thema>: <dozent ref="hettner_a"><grad>D.
+        ph.</grad> <nachname>Hettner</nachname>, <funktion>P.
+        E.</funktion></dozent> <siehe>Siehe Abschnitt
+        C.</siehe></veranstaltungsverweis>
 
         <trennlinie/>
 
@@ -3291,7 +3295,7 @@
         <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Grundzüge der Pflanzen- und
-        Thiergeographie</thema>: <dozent><grad>D. ph.</grad>
+        Thiergeographie</thema>: <dozent ref="hettner_a"><grad>D. ph.</grad>
         <nachname>Hettner</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 

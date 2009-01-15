@@ -612,9 +612,9 @@
       <trennlinie/>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Eingeweide,
-      Nerven- und Sinnesorgane)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit., 2-4 U.</zeit>,
+      Nerven- und Sinnesorgane)</thema>: <dozent ref="his_w"><grad>D.
+      med.</grad> <nachname>His</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit., 2-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Knochen,
@@ -642,11 +642,11 @@
       E.</funktion></dozent>, <zeit>Mont. u. Donnerst., 3-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Präparirübungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname></dozent> u. <dozent
-      ref="braune_cw"><grad>D. med.</grad> <nachname>Braune</nachname>,
-      <funktion>PP. OO.</funktion></dozent>, <zeit>Mont. bis Sonnab., 9-1 U.
-      u. Mont. bis Freit., 2-6 U.</zeit>,
+      <veranstaltung><thema>Präparirübungen</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname></dozent> u.
+      <dozent ref="braune_cw"><grad>D. med.</grad>
+      <nachname>Braune</nachname>, <funktion>PP. OO.</funktion></dozent>,
+      <zeit>Mont. bis Sonnab., 9-1 U. u. Mont. bis Freit., 2-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <!--"PP. OO." muss noch auf beide Professoren bezogen werden!-->
@@ -763,8 +763,8 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pharmacie (anorganische Präparate)</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. 9-11 U.</zeit>,
+      <dozent ref="hirzel_ch"><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont. 9-11 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -823,7 +823,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Specielle Pathologie und Therapie der wichtigsten
-      Kinderkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Kinderkrankheiten</thema>: <dozent ref="heubner_o"><grad>D. med.</grad>
       <nachname>Heubner</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont. u. Donnerst., 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1065,10 +1065,10 @@
       O.</funktion></dozent>, <zeit>täglich ausser Mittw., 2-3 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Distriktspoliklinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Heubner</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Referatstunden Mittw. u. Sonnab., 5-7 U.
-      Ab.</zeit>, <modus>privatissime</modus>, aber
+      <veranstaltung><thema>Distriktspoliklinik</thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Referatstunden Mittw. u.
+      Sonnab., 5-7 U. Ab.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgische Klinik</thema>: <dozent><grad>D.
@@ -1239,9 +1239,10 @@
         <seite>16</seite>
 
         <veranstaltung><thema>Geschichte der griechischen Philosophie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. bis Freit.,
-        4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="hirzel_r"><grad>D. ph.</grad>
+        <nachname>Hirzel</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. bis Freit., 4-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der neueren Philosophie (von der
         Renaissance bis zur Gegenwart)</thema>: <dozent
@@ -1427,8 +1428,9 @@
           u. Freit., 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung von Aristoteles' Poëtik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname></dozent>,
-          <zeit>Mittw., 4-5 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+          <dozent ref="hirzel_r"><grad>D. ph.</grad>
+          <nachname>Hirzel</nachname></dozent>, <zeit>Mittw., 4-5 U.</zeit>,
+          <modus>publice</modus>.</veranstaltung>
 
           <seite>18</seite>
 
@@ -1735,15 +1737,16 @@
 
           <veranstaltung><thema>Ueber das Volkslied älterer und neuerer Zeit
           in seiner Bedeutung für unsere Literatur- und
-          Culturgeschichte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Hildebrand</nachname>, <funktion>P.
+          Culturgeschichte</thema>: <dozent ref="hildebrand_rudolf"><grad>D.
+          ph.</grad> <nachname>Hildebrand</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Mont., Dienst. u. Mittw., 9-10
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung Walthers von der Vogelweide</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hildebrand</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Donnerst., Freit. u.
-          Sonnab., 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="hildebrand_rudolf"><grad>D. ph.</grad>
+          <nachname>Hildebrand</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Donnerst., Freit. u. Sonnab., 9-10
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Ueber Göthe's Faust, mit einer Einleitung über
           die Faustsage</thema>: <dozent><grad>D. ph.</grad>

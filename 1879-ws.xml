@@ -549,9 +549,9 @@
       Sonnab., 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Eingeweide,
-      Nerven u. Sinnesorgane)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit., 2-4 U.</zeit>,
+      Nerven u. Sinnesorgane)</thema>: <dozent ref="his_w"><grad>D.
+      med.</grad> <nachname>His</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit., 2-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Systematische Anatomie des Menschen (Knochen,
@@ -585,15 +585,15 @@
       <funktion>P. E.</funktion></dozent>, <zeit>Mittw., 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Präparirübungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname>, <funktion>P.
+      <veranstaltung><thema>Präparirübungen</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
       O.</funktion></dozent> und <dozent ref="braune_cw"><grad>D. med.</grad>
       <nachname>Braune</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 9-1 U. und Mont. bis Freit. 2-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Anatomische Uebungen am Lebenden und an der
-      Leiche</thema>: <dozent><grad>D. med.</grad>
+      Leiche</thema>: <dozent ref="hesse_fl"><grad>D. med.</grad>
       <nachname>Hesse</nachname></dozent>, <zeit>wöchentlich zwei
       Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -703,8 +703,8 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pharmacie (anorganische Präparate)</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. 9-11 U.</zeit>,
+      <dozent ref="hirzel_ch"><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont. 9-11 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -771,10 +771,10 @@
       <nachname>Kries</nachname></dozent>, <zeit>in drei noch zu best.
       Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Physikalische Diagnostik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Heubner</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Freit. u. Sonnab., 3-4 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Physikalische Diagnostik</thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Freit. u. Sonnab., 3-4
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Ueber Vaccination, mit Impfübungen</thema>:
       <dozent><grad>D. med.</grad> <nachname>Fürst</nachname></dozent>,
@@ -994,15 +994,16 @@
       O.</funktion></dozent>, <zeit>täglich 10½-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Medicinische Poliklinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Heubner</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>täglich ausser Mittw., 2-3 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Medicinische Poliklinik</thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>täglich ausser Mittw., 2-3
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Districtspoliklinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Heubner</nachname>, <funktion>P.
-      E.</funktion></dozent>, <thema>Referatstunden</thema> <zeit>an zu best.
-      T. u. St.</zeit>, <modus>publice</modus>.</veranstaltung>
+      <veranstaltung><thema>Districtspoliklinik</thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. E.</funktion></dozent>, <thema>Referatstunden</thema>
+      <zeit>an zu best. T. u. St.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgische Klinik</thema>: <dozent><grad>D.
       med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
@@ -1351,10 +1352,10 @@
           <titel>a) Altclassische Philologie.</titel>
 
           <veranstaltung><thema>Geschichte der griechischen Literatur bis auf
-          die Zeit Alexanders des Grossen</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Hirzel</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mont., Dienst., Donnerst. u. Freit., 4-5 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          die Zeit Alexanders des Grossen</thema>: <dozent
+          ref="hirzel_r"><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
+          u. Freit., 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Vergleichende Grammatik der griechischen
           Sprache</thema>: <dozent ref="brugmann_k"><grad>D. ph.</grad>
@@ -1392,8 +1393,8 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Einleitung in die philosophischen Schriften
-          Cicero's und Erklärung der Schrift de natura deorum</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
+          Cicero's und Erklärung der Schrift de natura deorum</thema>: <dozent
+          ref="hirzel_r"><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
@@ -1655,8 +1656,8 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Deutsche Literaturgeschichte des 18.
-          Jahrhunderts</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Hildebrand</nachname>, <funktion>P.
+          Jahrhunderts</thema>: <dozent ref="hildebrand_rudolf"><grad>D.
+          ph.</grad> <nachname>Hildebrand</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Mont. bis Freit., 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -1701,9 +1702,10 @@
 
           <seite>20</seite>
 
-          <veranstaltung><thema>Ueber deutsche Etymologie</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hildebrand</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Sonnab., 9-10 U.</zeit>,
+          <veranstaltung><thema>Ueber deutsche Etymologie</thema>: <dozent
+          ref="hildebrand_rudolf"><grad>D. ph.</grad>
+          <nachname>Hildebrand</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Sonnab., 9-10 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Schiller's Leben und Werke</thema>:
@@ -2054,9 +2056,10 @@
         Philologie.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsche Literaturgeschichte des 18.
-        Jahrhunderts</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hildebrand</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Neuere Philologie.</siehe></veranstaltungsverweis>
+        Jahrhunderts</thema>: <dozent ref="hildebrand_rudolf"><grad>D.
+        ph.</grad> <nachname>Hildebrand</nachname>, <funktion>P.
+        O.</funktion></dozent> <siehe>Siehe Neuere
+        Philologie.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsche Literaturgeschichte im 19.
         Jahrhundert etc</thema>: <dozent ref="biedermann_k"><grad>D.

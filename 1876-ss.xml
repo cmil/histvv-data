@@ -605,8 +605,8 @@
       <nachname>Flechsig</nachname></dozent>, <zeit>Mittw. 2-4 U.</zeit>
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Allgemeine Histologie</thema>: <dozent><grad>D.
-      med.</grad> <nachname>His</nachname>, <funktion>P.
+      <veranstaltung><thema>Allgemeine Histologie</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Sonnab. 10-11
       U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
@@ -636,14 +636,14 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Mikroskopische Uebungen</thema> in Verbindung mit
-      Hrn. <dozent><funktion>Prosector</funktion> <grad>D.</grad>
-      <nachname>Hesse</nachname></dozent>: <dozent><grad>D. med.</grad>
-      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Dienst., Donnerst. u. Sonnab. 11-1 U.</zeit>
-      <modus>privatim</modus>.</veranstaltung>
+      Hrn. <dozent ref="hesse_fl"><funktion>Prosector</funktion>
+      <grad>D.</grad> <nachname>Hesse</nachname></dozent>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Sonnab. 11-1
+      U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Arbeiten für Vorgerücktere</thema>:
-      <dozent><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
+      <veranstaltung><thema>Arbeiten für Vorgerücktere</thema>: <dozent
+      ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>, <funktion>P.
       O.</funktion></dozent>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -660,9 +660,10 @@
       <trennlinie/>
 
       <veranstaltung><thema>Entwickelungsgeschichte der höheren Thiere und des
-      Menschen</thema>: <dozent><grad>D. med.</grad> <nachname>His</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 4-5
-      U.</zeit> <modus>privatim</modus>.</veranstaltung>
+      Menschen</thema>: <dozent ref="his_w"><grad>D. med.</grad>
+      <nachname>His</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont., Mittw. u. Freit. 4-5 U.</zeit>
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Physiologie der Ernährung</thema>:
       <dozent><grad>D. med.</grad> <nachname>Ludwig</nachname>, <funktion>P.
@@ -739,9 +740,9 @@
       <zeit>Mittw. u. Sonnab. 5-6 U.</zeit>
       <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Pharmacie (organische Präparate)</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Hirzel</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Freit. 9-11 U.</zeit>
+      <veranstaltung><thema>Pharmacie (organische Präparate)</thema>: <dozent
+      ref="hirzel_ch"><grad>D. ph.</grad> <nachname>Hirzel</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Freit. 9-11 U.</zeit>
       <modus>publice</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -813,9 +814,9 @@
       <zeit>Mittw. 3-5 U.</zeit> <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Specielle Pathologie und Therapie der acuten
-      Constitutionskrankheiten</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Heubner</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>viermal wöchentlich in zu best. St.</zeit>
+      Constitutionskrankheiten</thema>: <dozent ref="heubner_o"><grad>D.
+      med.</grad> <nachname>Heubner</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>viermal wöchentlich in zu best. St.</zeit>
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Specielle Pathologie und Therapie der
@@ -1016,10 +1017,10 @@
 
       <trennlinie/>
 
-      <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Heubner</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Mittw. u. Freit. 11-12 U.</zeit>
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Klinische Propädeutik</thema>: <dozent
+      ref="heubner_o"><grad>D. med.</grad> <nachname>Heubner</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Mittw. u. Freit.
+      11-12 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Augenärztliche propädeutische Klinik</thema>:
       <dozent><grad>D. med.</grad> <nachname>Schön</nachname></dozent>,
@@ -1178,7 +1179,7 @@
         u. Freit. 6-7 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der Philosphie bei den
-        Römern</thema>: <dozent><grad>D. ph.</grad>
+        Römern</thema>: <dozent ref="hirzel_r"><grad>D. ph.</grad>
         <nachname>Hirzel</nachname></dozent>, <zeit>Mittw. 4-5 U.</zeit>
         <modus>publice</modus>.</veranstaltung>
 
@@ -1425,10 +1426,10 @@
           <zeit>Mittw. u. Sonnab. 11-12 U.</zeit>
           <modus>publice</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Plato's Symposion</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Hirzel</nachname></dozent>, <zeit>Mont.,
-          Dienst. u. Donnerst. 9-10 U.</zeit>
-          <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung><thema>Plato's Symposion</thema>: <dozent
+          ref="hirzel_r"><grad>D. ph.</grad>
+          <nachname>Hirzel</nachname></dozent>, <zeit>Mont., Dienst. u.
+          Donnerst. 9-10 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der altitalischen Sprachen
           (Lateinisch, Oskisch, Umbrisch) auf vergleichend-historischer
@@ -1702,9 +1703,10 @@
           <seite>20</seite>
 
           <veranstaltung><thema>Walther von der Vogelweide, erklärt</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hildebrand</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. bis Sonnab.
-          9-10 U.</zeit> <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="hildebrand_rudolf"><grad>D. ph.</grad>
+          <nachname>Hildebrand</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Donnerst. bis Sonnab. 9-10 U.</zeit>
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der niederdeutschen Sprache und
           Literatur, nebst Erklärung des Hêliand (nach der Ausgabe von M.
@@ -1713,7 +1715,8 @@
           Sonnab. 8-9 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Schiller und Goethe in ihrem Verhältniss und
-          ihrem Zusammenwirken</thema>: <dozent><grad>D. ph.</grad>
+          ihrem Zusammenwirken</thema>: <dozent
+          ref="hildebrand_rudolf"><grad>D. ph.</grad>
           <nachname>Hildebrand</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Mont. bis Mittw. 9-10 U.</zeit>
           <modus>privatim</modus>.</veranstaltung>

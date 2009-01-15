@@ -780,9 +780,10 @@
       <trennlinie/>
 
       <veranstaltung><thema>Physiologie des Nerven- und Muskelsystems</thema>:
-      <dozent><grad>D. med. et ph.</grad> <nachname>Hering</nachname>,
-      <funktion>P. O.</funktion></dozent>, <dozent ref="bruecke_et">mit
-      <grad>D. med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+      <dozent ref="hering_kek"><grad>D. med. et ph.</grad>
+      <nachname>Hering</nachname>, <funktion>P. O.</funktion></dozent>,
+      <dozent ref="bruecke_et">mit <grad>D. med.</grad>
+      <nachnamenpräfix>von</nachnamenpräfix>
       <nachname>Brücke</nachname></dozent>, <zeit>tägl. 9 bis 10 U.</zeit>,
       <modus>privatim</modus>, <ort>im Physiologischen Institut, Liebigstr.
       16</ort>.</veranstaltung>
@@ -802,9 +803,9 @@
       Universitätsgebäude</ort>.</veranstaltung>
 
       <veranstaltung><thema>Anleitung zu physiologischen Untersuchungen für
-      Fortgeschrittene</thema>: <dozent><grad>D. med. et ph.</grad>
-      <nachname>Hering</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 10-12 u. 3-6 U.</zeit>,
+      Fortgeschrittene</thema>: <dozent ref="hering_kek"><grad>D. med. et
+      ph.</grad> <nachname>Hering</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit. 10-12 u. 3-6 U.</zeit>,
       <modus>privatissime</modus>, aber <gebühr>gratis</gebühr>, <ort>im
       Physiolog. Institut, Liebigstr. 16</ort>.</veranstaltung>
 
@@ -1031,11 +1032,11 @@
       Medizinischen Poliklinik, Nürnberger Str. 55</ort>.</veranstaltung>
 
       <veranstaltung><thema>Klinische Vorlesungen über Hautkrankheiten und
-      Syphilis, einschließlich Blennorrhöe und Komplikationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Rille</nachname>, <funktion>P. O.
-      Hon. des.</funktion></dozent>, <zeit>Dienst., Mittw. u. Freit. 3-4
-      U.</zeit>, <modus>privatim</modus>, <ort>in der Dermatolog. Klinik,
-      Liebigstr. 20</ort>.</veranstaltung>
+      Syphilis, einschließlich Blennorrhöe und Komplikationen</thema>: <dozent
+      ref="rille_jh"><grad>D. med.</grad> <nachname>Rille</nachname>,
+      <funktion>P. O. Hon. des.</funktion></dozent>, <zeit>Dienst., Mittw. u.
+      Freit. 3-4 U.</zeit>, <modus>privatim</modus>, <ort>in der Dermatolog.
+      Klinik, Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung><thema>Über die Funktions-Störungen der männlichen
       Genitalien</thema>: <dozent><grad>D. med.</grad>
@@ -1444,8 +1445,8 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Praktische Übungen in der Untersuchung der Haut-
-      und Sexualkrankheiten</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Rille</nachname>, <funktion>P. O. Hon.
+      und Sexualkrankheiten</thema>: <dozent ref="rille_jh"><grad>D.
+      med.</grad> <nachname>Rille</nachname>, <funktion>P. O. Hon.
       des.</funktion></dozent>, <zeit>Mont. u. Donnerst. 3-4 U.</zeit>,
       <modus>privatim</modus> (<gebühr>für Hörer der klinischen Vorlesung
       gratis</gebühr>), <ort>in der Dermatolog. Klinik, Liebigstr.
@@ -1918,14 +1919,14 @@
 
           <veranstaltung><thema>Griechisch für Realgymnasialabiturienten u.a.,
           2. Kurs. Lektüre leichter Texte und grammatische Übungen</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hirt</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>,
+          <dozent ref="hirt_h"><grad>D. ph.</grad> <nachname>Hirt</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Sprachwissenschaftliche Erläuterungen zur
-          griechischen Schulgrammatik</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Hirt</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mittw. u. Sonnab. 9-10 U.</zeit>,
+          griechischen Schulgrammatik</thema>: <dozent ref="hirt_h"><grad>D.
+          ph.</grad> <nachname>Hirt</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Griechische Metrik mit Übungen und Erklärung
@@ -2247,7 +2248,7 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Einführung in das Althochdeutsche mit Übungen
-          für Anfänger</thema>: <dozent><grad>D. ph.</grad>
+          für Anfänger</thema>: <dozent ref="hirt_h"><grad>D. ph.</grad>
           <nachname>Hirt</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mittw. u. Sonnab. 8-9 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2369,14 +2370,14 @@
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung><thema>Übungen über deutsche Etymologie und
-          Wortforschung</thema>: <dozent><grad>D. ph.</grad>
+          Wortforschung</thema>: <dozent ref="hirt_h"><grad>D. ph.</grad>
           <nachname>Hirt</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Freit. 6-7 U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Lektüre der gotischen Bibel</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hirt</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
+          <veranstaltung><thema>Lektüre der gotischen Bibel</thema>: <dozent
+          ref="hirt_h"><grad>D. ph.</grad> <nachname>Hirt</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen zur Geschichte der Deutschen
@@ -2690,7 +2691,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die politischen Probleme des 19.
-        Jahrhunderts</thema>: <dozent><grad>D. ph.</grad>
+        Jahrhunderts</thema>: <dozent ref="herre_p"><grad>D. ph.</grad>
         <nachname>Herre</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
@@ -2717,8 +2718,8 @@
         <nachname>Seeliger</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Geschichte des Papsttums</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Herre</nachname></dozent>,
+        <veranstaltung><thema>Geschichte des Papsttums</thema>: <dozent
+        ref="herre_p"><grad>D. ph.</grad> <nachname>Herre</nachname></dozent>,
         <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -2790,7 +2791,7 @@
               <sachgruppe>
                 <titel>Drei Parallelkurse:</titel>
 
-                <veranstaltung>1) <dozent><grad>D. ph.</grad>
+                <veranstaltung>1) <dozent ref="herre_p"><grad>D. ph.</grad>
                 <nachname>Herre</nachname></dozent>, <zeit>Mittw. 7¾-9¼ U.
                 Ab.</zeit>, <modus>privatissime</modus>, sed
                 <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3653,9 +3654,10 @@
         <seite>42</seite>
 
         <veranstaltung><thema>Differential- und Integralrechnung</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Herglotz</nachname>,
-        <funktion>P. O. des.</funktion></dozent>, <zeit>Mont. bis Freit. 11-12
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="herglotz_g"><grad>D. ph.</grad>
+        <nachname>Herglotz</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <zeit>Mont. bis Freit. 11-12 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Anwendung der Differentialrechnung auf Kurven
         und Flächen</thema>: <dozent><grad>D. ph.</grad>
@@ -3675,8 +3677,8 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Elemente der Theorie der partiellen
-        Differentialgleichungen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Herglotz</nachname>, <funktion>P. O.
+        Differentialgleichungen</thema>: <dozent ref="herglotz_g"><grad>D.
+        ph.</grad> <nachname>Herglotz</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>Mittw. u. Freit. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -3721,8 +3723,8 @@
         O.</funktion></dozent>: <thema>Übungen zur Anwendung der
         Differentialrechnung auf Kurven und Flächen</thema>, <zeit>Mont. 9-10
         U.</zeit>, <modus>privatissime</modus>, aber
-        <gebühr>gratis</gebühr></veranstaltung>. <veranstaltung>3)
-        <dozent><grad>D. ph.</grad> <nachname>Herglotz</nachname>,
+        <gebühr>gratis</gebühr></veranstaltung>. <veranstaltung>3) <dozent
+        ref="herglotz_g"><grad>D. ph.</grad> <nachname>Herglotz</nachname>,
         <funktion>P. O. des.</funktion></dozent>: <thema>Übungen zur
         Differential- und Integralrechnung</thema>, <zeit>Sonnab. 11-12
         U.</zeit>,
@@ -3904,7 +3906,7 @@
         <ort>im Chemischen Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine und angewandte Chemie. Organischer
-        Teil</thema>: <dozent><grad>D. ph.</grad>
+        Teil</thema>: <dozent ref="heller_g"><grad>D. ph.</grad>
         <nachname>Heller</nachname></dozent>, <zeit>Mont. u. Donnerst. 11-12
         U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für angew.
         Chemie, Brüderstr. 34</ort>.</veranstaltung>
@@ -4196,7 +4198,7 @@
         <veranstaltung><thema>Chemisches Vollpraktikum für
         Vorgerücktere</thema>: <dozent ref="beckmann_eo"><grad>D. ph. et
         med.</grad> <nachname>Beckmann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
+        O.</funktion></dozent>, <dozent ref="heller_g">mit <grad>D. ph.</grad>
         <nachname>Heller</nachname></dozent>, <dozent><grad>D. ph.</grad>
         <nachname>Deußen</nachname></dozent>, <dozent><grad>D. ph.</grad>
         <nachname>Scheiber</nachname></dozent>, <dozent><grad>D. ph.</grad>
@@ -4259,7 +4261,7 @@
         <veranstaltung><thema>Chemisch-technisches Praktikum</thema>
         (<zeit>ganz- u. halbtägig</zeit>): <dozent ref="beckmann_eo"><grad>D.
         ph. et med.</grad> <nachname>Beckmann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
+        O.</funktion></dozent>, <dozent ref="heller_g">mit <grad>D. ph.</grad>
         <nachname>Heller</nachname></dozent>, <zeit>tägl. 8-12½ U. und (außer
         Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium
         f. angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
