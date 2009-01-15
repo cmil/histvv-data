@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dozentenliste xml:lang="de" xmlns="http://histvv.uni-leipzig.de/ns/2007"
-               xmlns:ns="http://histvv.uni-leipzig.de/ns/2007">
+<?xml version="1.0" encoding="UTF-8"?><dozentenliste xmlns="http://histvv.uni-leipzig.de/ns/2007" xmlns:ns="http://histvv.uni-leipzig.de/ns/2007" xml:lang="de">
   <universität>Leipzig</universität>
 
   <dozent eindeutig="ja" xml:id="ahlfeld_jf">
@@ -361,6 +359,78 @@
     <url>http://www.uni-leipzig.de/unigeschichte/professorenkatalog/professor/Arndt_725.html</url>
   </dozent>
 
+  <dozent xml:id="assmann_fw">
+    <name>
+      <nachname>Assmann</nachname>
+
+      <vorname>Friedrich Wilhelm</vorname>
+    </name>
+
+    <!--Namensansetzung laut PND, wird WS 1832 bis WS 1854 "Aßmann" geschrieben,
+von SS 1856 bis SS 1857 "Assmann"; Achtung: ist im WS 1832 nicht eindeutig,
+es gibt da noch einen "F. G. Aßmann" (nichts über den gefunden, evtl. identisch?)-->
+
+    <geboren>
+      <jahr>1800</jahr>
+
+      <monat>7</monat>
+
+      <tag>21</tag>
+
+      <ort>Leipzig</ort>
+    </geboren>
+
+    <gestorben>
+      <jahr/>
+    </gestorben>
+
+    <pnd>104103914</pnd>
+
+    <absatz>Arzt</absatz>
+
+    <url>http://books.google.de/books?id=dYkEAAAAYAAJ&amp;pg=PA94</url>
+  </dozent>
+
+  <dozent bis="1914s" eindeutig="ja" von="1913s" xml:id="assmann_h">
+    <name>
+      <nachname>Assmann</nachname>
+
+      <vorname>Herbert</vorname>
+    </name>
+
+    <geboren>
+      <jahr>1882</jahr>
+
+      <monat>11</monat>
+
+      <tag>25</tag>
+
+      <ort>Danzig</ort>
+    </geboren>
+
+    <gestorben>
+      <jahr>1950</jahr>
+
+      <monat>2</monat>
+
+      <tag>27</tag>
+
+      <ort>Oldenburg</ort>
+    </gestorben>
+
+    <pnd>117765643</pnd>
+
+    <absatz>Arzt</absatz>
+
+    <ndb>
+      <band>1</band>
+
+      <seite>419-420</seite>
+
+      <url>http://mdz10.bib-bvb.de/~db/0001/bsb00016233/images/index.html?seite=439</url>
+    </ndb>
+  </dozent>
+
   <dozent eindeutig="ja" xml:id="avenarius_r">
     <name>
       <nachname>Avenarius</nachname>
@@ -409,6 +479,58 @@
     </ndb>
 
     <url>http://de.wikipedia.org/wiki/Richard_Avenarius</url>
+  </dozent>
+
+  <dozent xml:id="baelz_e">
+    <name>
+      <nachname>Bälz</nachname>
+
+      <vorname>Erwin</vorname>
+
+      <nachnamenpräfix>von</nachnamenpräfix>
+    </name>
+
+    <!--das ist unser "Baeltz", der nur einmal vorkommt (WS 1874), vgl. Wikipedia-->
+
+    <geboren>
+      <jahr>1849</jahr>
+
+      <monat>1</monat>
+
+      <tag>13</tag>
+
+      <ort>Bietigheim-Bissingen</ort>
+    </geboren>
+
+    <gestorben>
+      <jahr>1913</jahr>
+
+      <monat>8</monat>
+
+      <tag>31</tag>
+
+      <ort>Stuttgart</ort>
+    </gestorben>
+
+    <pnd>118651765</pnd>
+
+    
+
+    <absatz>Arzt; Anthropologe</absatz>
+
+    
+
+    <ndb>
+      <band>1</band>
+
+      <seite>520-521</seite>
+
+      <url>http://mdz10.bib-bvb.de/~db/0001/bsb00016233/images/index.html?seite=540</url>
+    </ndb>
+
+    
+
+    <url>http://de.wikipedia.org/wiki/Erwin_Bälz</url>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="bahder_k">
@@ -10928,8 +11050,7 @@ http://books.google.de/books?id=IG3Rp8NAO8EC&pg=PA451&dq=ritterich-->
     <url>http://de.wikipedia.org/wiki/Konstantin_von_Tischendorf</url>
   </dozent>
 
-  <dozent bis="1911w" eindeutig="ja" von="1907w"
-          xml:id="vitzthumvoneckstaedt_g">
+  <dozent bis="1911w" eindeutig="ja" von="1907w" xml:id="vitzthumvoneckstaedt_g">
     <name>
       <nachname>Vitzthum von Eckstädt</nachname>
 
