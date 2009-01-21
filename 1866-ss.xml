@@ -225,9 +225,9 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Pädagogische Gesellschaft</thema>:
-          <dozent><grad>D.</grad> <nachname>Hofmann</nachname>, <funktion>P.
-          E.</funktion></dozent>, <siehe>s. prakt.
-          Theologie</siehe>.</veranstaltungsverweis>
+          <dozent ref="hofmann_r"><grad>D.</grad>
+          <nachname>Hofmann</nachname>, <funktion>P. E.</funktion></dozent>,
+          <siehe>s. prakt. Theologie</siehe>.</veranstaltungsverweis>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
@@ -468,7 +468,7 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Uebungen der hebräisch-exegetischen
-          Gesellschaft</thema>: <dozent><grad>D.</grad>
+          Gesellschaft</thema>: <dozent ref="hoelemann_hg"><grad>D.</grad>
           <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
           <siehe>s. theologisch-exegetische
           Uebb.</siehe></veranstaltungsverweis>
@@ -912,9 +912,10 @@
         <veranstaltungsverweis>Gewerbschemie: <siehe>s. Staats- u.
         Cameralwissenschaften</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Chemische Diagnostik</thema>:
-        <dozent><grad>D.</grad> <nachname>Huppert</nachname></dozent>,
-        <siehe>s. Med. Wiss.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Chemische Diagnostik</thema>: <dozent
+        ref="huppert_kh"><grad>D.</grad>
+        <nachname>Huppert</nachname></dozent>, <siehe>s. Med.
+        Wiss.</siehe></veranstaltungsverweis>
 
         <sachgruppe>
           <titel>Physikalische und chemische Uebungen.</titel>
@@ -1034,7 +1035,7 @@
         <trennlinie/>
 
         <veranstaltungsverweis><thema>Auslegung alttestamentlicher
-        Perikopen</thema>: <dozent><grad>D.</grad>
+        Perikopen</thema>: <dozent ref="hoelemann_hg"><grad>D.</grad>
         <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
         <siehe>s. exeg. Uebb.</siehe></veranstaltungsverweis>
 
@@ -1048,9 +1049,10 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Erklärung der Propheten Jona, Micha, Nahum,
-        Habakuk, Zephanja und Haggai</thema>: <dozent><grad>D.</grad>
-        <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>12 U. 4 T.</zeit></veranstaltung>
+        Habakuk, Zephanja und Haggai</thema>: <dozent
+        ref="hoelemann_hg"><grad>D.</grad> <nachname>Hölemann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>12 U. 4
+        T.</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -1059,9 +1061,9 @@
         O.</funktion></dozent>, <zeit>8 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Einleitung in das N. T.</thema>:
-        <dozent><grad>D.</grad> <nachname>Hofmann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>4stünd., 11-1 U. 2
+        <veranstaltung><thema>Einleitung in das N. T.</thema>: <dozent
+        ref="hofmann_r"><grad>D.</grad> <nachname>Hofmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>4stünd., 11-1 U. 2
         T.</zeit></veranstaltung>
 
         <trennlinie/>
@@ -1071,14 +1073,16 @@
         <nachname>Brückner</nachname>, <funktion>P. O.</funktion></dozent>,
         <siehe>s. prakt. Theol.</siehe></veranstaltungsverweis>
 
-        <veranstaltung><thema>Synopse</thema>: <dozent><grad>D.</grad>
-        <nachname>Hofmann</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>8 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Synopse</thema>: <dozent
+        ref="hofmann_r"><grad>D.</grad> <nachname>Hofmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>8 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Die evangelischen Berichte von der
-        Auferstehung und Himmelfahrt</thema>: <dozent><grad>D.</grad>
-        <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
-        <siehe>s. exeget. Uebb.</siehe></veranstaltungsverweis>
+        Auferstehung und Himmelfahrt</thema>: <dozent
+        ref="hoelemann_hg"><grad>D.</grad> <nachname>Hölemann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <siehe>s. exeget.
+        Uebb.</siehe></veranstaltungsverweis>
 
         <veranstaltung><thema>Erklärung des Römerbriefs</thema>:
         <dozent><grad>D.</grad> <nachname>Luthardt</nachname>, <funktion>P.
@@ -1090,10 +1094,10 @@
         Uebb.</siehe></veranstaltungsverweis>
 
         <veranstaltung><thema>Lateinische Auslegung des 2. Briefes an
-        Timotheus <seite>14</seite>und des an Titus</thema>:
-        <dozent><grad>D.</grad> <nachname>Hölemann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>9 U. 2 T. (Dienst. u. Freit.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Timotheus <seite>14</seite>und des an Titus</thema>: <dozent
+        ref="hoelemann_hg"><grad>D.</grad> <nachname>Hölemann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>9 U. 2 T. (Dienst. u.
+        Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung des Briefes Jacobi</thema>:
         <dozent><grad>D.</grad> <nachname>Lechler</nachname>, <funktion>P.
@@ -1127,9 +1131,9 @@
           U.</zeit></veranstaltung> - <veranstaltung><thema>II.
           Neutestamentliche Abtheilung (Societas exegetica Lipsiensis):
           lateinische Interpretation der evangelischen Berichte von der
-          Auferstehung und Himmelfahrt</thema></veranstaltung>:
-          <dozent><grad>D.</grad> <nachname>Hölemann</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Freit. 5-7 U.</zeit>,
+          Auferstehung und Himmelfahrt</thema></veranstaltung>: <dozent
+          ref="hoelemann_hg"><grad>D.</grad> <nachname>Hölemann</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Freit. 5-7 U.</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltungsgruppe>
 
@@ -1258,9 +1262,9 @@
           ref="brueckner_bb"><grad>D.</grad> <nachname>Brückner</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>in den best. St. u.
           T.</zeit> <modus>öffentlich</modus></veranstaltung>;
-          <veranstaltung><thema>katechetische Section</thema>:
-          <dozent><grad>D.</grad> <nachname>Hofmann</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
+          <veranstaltung><thema>katechetische Section</thema>: <dozent
+          ref="hofmann_r"><grad>D.</grad> <nachname>Hofmann</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
           <modus>öffentlich</modus></veranstaltung>. <veranstaltung><thema>Die
           Gesangübungen der liturgischen Section leitet</thema>
           <dozent><funktion>Musikdirector</funktion> <grad>D. ph.</grad>
@@ -1271,7 +1275,7 @@
 
           <veranstaltung><thema>Pädagogische Gesellschaft, verbunden mit
           praktischen Uebungen und Besuchen von Lehr- und
-          Erziehungsanstalten</thema>: <dozent><grad>D.</grad>
+          Erziehungsanstalten</thema>: <dozent ref="hofmann_r"><grad>D.</grad>
           <nachname>Hofmann</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>3 U. 1 T.</zeit></veranstaltung>
         </sachgruppe>
@@ -1310,9 +1314,10 @@
           <titel>1. Römisches und gemeines Recht.</titel>
 
           <veranstaltung><thema>Quellenkunde des vorjustinianischen
-          Rechts</thema>: <dozent><grad>D.</grad> <nachname>Hänel</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u.
-          Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          Rechts</thema>: <dozent ref="haenel_g"><grad>D.</grad>
+          <nachname>Hänel</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>4 U. 2 T. (Mont. u. Donn.)</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Institutionen des römischen Rechts (nach
           seinem Lehrbuch der Institutionen) und römische
@@ -1333,10 +1338,10 @@
 
           <trennlinie/>
 
-          <veranstaltung><thema>Pandekten nach Puchta</thema>:
-          <dozent><grad>D.</grad> <nachname>Hänel</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>9-11 U. 6 T., u. 4 U. 2 T. (Dienst. u.
-          Freit.)</zeit></veranstaltung>
+          <veranstaltung><thema>Pandekten nach Puchta</thema>: <dozent
+          ref="haenel_g"><grad>D.</grad> <nachname>Hänel</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>9-11 U. 6 T., u. 4 U. 2
+          T. (Dienst. u. Freit.)</zeit></veranstaltung>
 
           <veranstaltung><thema>Pandekten mit Ausschluss des Erbrechts, (unter
           Verweisung auf Arndts' Lehrbuch der Pandekten)</thema>:
@@ -1408,13 +1413,14 @@
         <sachgruppe>
           <titel>2. Deutsches Recht und Lehnrecht.</titel>
 
-          <veranstaltung><thema>Erklärung des Sachsenspiegels</thema>:
-          <dozent><grad>D.</grad> <nachname>Höck</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
+          <veranstaltung><thema>Erklärung des Sachsenspiegels</thema>: <dozent
+          ref="hoeck_h"><grad>D.</grad> <nachname>Höck</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Deutsche Staats- und Rechtsgeschichte</thema>:
-          <ders>Derselbe</ders>, <zeit>11 U. 6 T.</zeit></veranstaltung>
+          <ders ref="hoeck_h">Derselbe</ders>, <zeit>11 U. 6
+          T.</zeit></veranstaltung>
 
           <trennlinie/>
 
@@ -1430,9 +1436,10 @@
           <zeit>11 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Deutsches Obligationenrecht mit Einschluss des
-          Handels-, Wechsel- und Seerechts</thema>: <dozent><grad>D.</grad>
-          <nachname>Höck</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>3 U. 6 Tage</zeit>.</veranstaltung>
+          Handels-, Wechsel- und Seerechts</thema>: <dozent
+          ref="hoeck_h"><grad>D.</grad> <nachname>Höck</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>3 U. 6
+          Tage</zeit>.</veranstaltung>
 
           <veranstaltung><thema>Deutsches Wechselrecht</thema>:
           <dozent><grad>D.</grad> <nachname>Kuntze</nachname>, <funktion>P.
@@ -1720,9 +1727,10 @@
         <nachname>Merkel</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>5 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Physiologische Chemie</thema>:
-        <dozent><grad>D.</grad> <nachname>Huppert</nachname></dozent>,
-        <zeit>11 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Physiologische Chemie</thema>: <dozent
+        ref="huppert_kh"><grad>D.</grad>
+        <nachname>Huppert</nachname></dozent>, <zeit>11 U. 2
+        T.</zeit></veranstaltung>
 
         <seite>20</seite>
 
@@ -1746,8 +1754,9 @@
           und Nachm.-St.</zeit></veranstaltung>
 
           <veranstaltung><thema>Physiologisch-chemisches Prakticum</thema>:
-          <dozent><grad>D.</grad> <nachname>Huppert</nachname></dozent>,
-          <zeit>2-4 U. 6 T.</zeit></veranstaltung>
+          <dozent ref="huppert_kh"><grad>D.</grad>
+          <nachname>Huppert</nachname></dozent>, <zeit>2-4 U. 6
+          T.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -1770,9 +1779,10 @@
         <dozent><grad>D.</grad> <nachname>Thomas</nachname></dozent>, <zeit>in
         zu best. St. u. T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Chemische Diagnostik</thema>:
-        <dozent><grad>D.</grad> <nachname>Huppert</nachname></dozent>, <zeit>2
-        U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Chemische Diagnostik</thema>: <dozent
+        ref="huppert_kh"><grad>D.</grad>
+        <nachname>Huppert</nachname></dozent>, <zeit>2 U. 2
+        T.</zeit></veranstaltung>
 
         <trennlinie/>
 

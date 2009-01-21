@@ -180,9 +180,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Kirchengeschichte des 19. Jahrhunderts</thema>:
-      <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad> <vorname>H.</vorname>
-      <nachname>Hoffmann</nachname></dozent>, <zeit>Mittw. 12-1 u. Sonnab. 8-9
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="hoffmann_h"><grad>Lic. th.</grad> <grad>D. ph.</grad>
+      <vorname>H.</vorname> <nachname>Hoffmann</nachname></dozent>,
+      <zeit>Mittw. 12-1 u. Sonnab. 8-9 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geschichte der Heidenmission</thema>:
       <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
@@ -325,8 +326,8 @@
       <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
       <veranstaltung><thema>Kirchengeschichtliche Übungen (Lektüre von Kants
-      Religion innerhalb der Grenzen der bloßen Vernunft)</thema>:
-      <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
+      Religion innerhalb der Grenzen der bloßen Vernunft)</thema>: <dozent
+      ref="hoffmann_h"><grad>Lic. th.</grad> <grad>D. ph.</grad>
       <nachname>Hoffmann</nachname></dozent>, <zeit>Freit. 7¾-9 U. Ab.</zeit>,
       <modus>privatissime</modus>, <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -515,11 +516,11 @@
       <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Gewerberecht</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Häpe</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Freit. 5-6 U.</zeit>, <modus>privatim</modus>, <gebühr>aber für
-      die Hörer des Deutschen u. sächs. Verwaltungsrechts
-      gratis</gebühr>.</veranstaltung>
+      <veranstaltung><thema>Gewerberecht</thema>: <dozent
+      ref="haepe_g"><grad>D. jur.</grad> <nachname>Häpe</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Freit. 5-6 U.</zeit>,
+      <modus>privatim</modus>, <gebühr>aber für die Hörer des Deutschen u.
+      sächs. Verwaltungsrechts gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Privatversicherungsrecht</thema>: <dozent><grad>D.
       jur.</grad> <nachname>Planitz</nachname></dozent>, <zeit>Sonnab. 12-1
@@ -566,10 +567,10 @@
 
       <veranstaltung><thema>Deutsches und sächsisches Verwaltungsrecht;
       Verwaltung des Innern, <notiz betreff="fortsetzung">II. Teil</notiz>
-      (nach einem für die Hörer gedruckten Grundrisse)</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Häpe</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst. bis Freit. 9-10 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      (nach einem für die Hörer gedruckten Grundrisse)</thema>: <dozent
+      ref="haepe_g"><grad>D. jur.</grad> <nachname>Häpe</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst. bis Freit. 9-10
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Völkerrecht</thema>: <dozent
       ref="friedberg_ea"><grad>D. jur. et th.</grad>
@@ -633,7 +634,7 @@
       <zeit>Mittw. 6-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Kursorische Lektüre der Institutionen
-      Justinians</thema>: <dozent><grad>D. jur.</grad>
+      Justinians</thema>: <dozent ref="haepe_g"><grad>D. jur.</grad>
       <nachname>Häpe</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Donnerst. 4-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -863,11 +864,11 @@
       <trennlinie/>
 
       <veranstaltung><thema>Über Nahrungsmittel und Ernährung des
-      Menschen</thema>: <dozent><grad>D. med.</grad> <vorname>F.</vorname>
-      <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Dienst., Donnerst. u. Freit. 3-4 U.</zeit>,
-      <modus>privatim</modus>, <ort>im Hygienischen Institut, Liebigstr.
-      24</ort>.</veranstaltung>
+      Menschen</thema>: <dozent ref="hofmann_f"><grad>D. med.</grad>
+      <vorname>F.</vorname> <nachname>Hofmann</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 3-4
+      U.</zeit>, <modus>privatim</modus>, <ort>im Hygienischen Institut,
+      Liebigstr. 24</ort>.</veranstaltung>
 
       <veranstaltung><thema>Über auserwählte Kapitel aus dem Gebiete der
       Hygiene</thema>: <dozent><grad>D. med.</grad>
@@ -875,21 +876,21 @@
       Stunde</zeit>, <modus>privatim</modus>, <ort>im Hygienischen Institut,
       Liebigstr. 24</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Hygienische Besprechungen</thema>:
-      <dozent><grad>D. med.</grad> <vorname>F.</vorname>
+      <veranstaltung><thema>Hygienische Besprechungen</thema>: <dozent
+      ref="hofmann_f"><grad>D. med.</grad> <vorname>F.</vorname>
       <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Freit. 5-6 U.</zeit>, <modus>publice</modus>, <ort>im Hygienischen
       Institut, Liebigstr. 24</ort>.</veranstaltung>
 
       <veranstaltung><thema>Arbeiten im Hygienischen Institut</thema>
-      (<ort>Liebigstr. 24</ort>) <thema>für Geübtere</thema>: <dozent><grad>D.
-      med.</grad> <vorname>F.</vorname> <nachname>Hofmann</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>tägl. 9-1 U.</zeit>,
-      <modus>privatissime</modus>, aber
+      (<ort>Liebigstr. 24</ort>) <thema>für Geübtere</thema>: <dozent
+      ref="hofmann_f"><grad>D. med.</grad> <vorname>F.</vorname>
+      <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. 9-1 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Schutzpockenimpfung und Impftechnik</thema>:
-      <dozent><grad>D. med.</grad> <vorname>F.</vorname>
+      <dozent ref="hofmann_f"><grad>D. med.</grad> <vorname>F.</vorname>
       <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. 11-12 U.</zeit>, <modus>privatim</modus>, <ort>im
       Hygienischen Institut, Liebigstr. 24</ort>.</veranstaltung>
@@ -982,11 +983,12 @@
       Stunden</zeit>, <modus>privatim</modus>, <ort>in der Medizinischen
       Klinik, Liebigstr. 22</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Spezielle Therapie</thema>: <dozent><grad>D.
-      med.</grad> <vorname>A.</vorname> <nachname>Hoffmann</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. 9-11 U.</zeit>,
-      <modus>privatim</modus>, <ort>im Medizinisch-poliklinischen Institut,
-      Nürnberger Str. 55</ort>.</veranstaltung>
+      <veranstaltung><thema>Spezielle Therapie</thema>: <dozent
+      ref="hoffmann_fa"><grad>D. med.</grad> <vorname>A.</vorname>
+      <nachname>Hoffmann</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Donnerst. 9-11 U.</zeit>, <modus>privatim</modus>, <ort>im
+      Medizinisch-poliklinischen Institut, Nürnberger Str.
+      55</ort>.</veranstaltung>
 
       <veranstaltung><thema>Bäderlehre</thema>: <dozent><grad>D. med.</grad>
       <nachname>Stadler</nachname></dozent>, <zeit>einstündig, in zu best.
@@ -1419,17 +1421,18 @@
       10½ bis 12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Medizinische Poliklinik (Ambulanz)</thema>:
-      <dozent><grad>D. med.</grad> <vorname>A.</vorname>
+      <dozent ref="hoffmann_fa"><grad>D. med.</grad> <vorname>A.</vorname>
       <nachname>Hoffmann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>tägl. (außer Mittw.) 2-3 U.</zeit>, <modus>privatim</modus>,
       <ort>im Medizinisch-poliklinischen Institut, Nürnberger Str.
       55</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Distrikts-Poliklinik</thema>: <dozent><grad>D.
-      med.</grad> <vorname>A.</vorname> <nachname>Hoffmann</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>tägl. 8-10 U.</zeit>,
-      <modus>privatim</modus>, <ort>im Medizinisch-poliklinischen Institut,
-      Nürnberger Str. 55</ort>.</veranstaltung>
+      <veranstaltung><thema>Distrikts-Poliklinik</thema>: <dozent
+      ref="hoffmann_fa"><grad>D. med.</grad> <vorname>A.</vorname>
+      <nachname>Hoffmann</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. 8-10 U.</zeit>, <modus>privatim</modus>, <ort>im
+      Medizinisch-poliklinischen Institut, Nürnberger Str.
+      55</ort>.</veranstaltung>
 
       <veranstaltung><thema>Klinik und Poliklinik für
       Kinderkrankheiten</thema>: <dozent><grad>D. med.</grad>
@@ -2262,9 +2265,9 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Mittel- und neuhochdeutsche Syntax</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Holz</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="holz_g"><grad>D. ph.</grad> <nachname>Holz</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 4-5
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Neuhochdeutsche Grammatik</thema>: <dozent
           ref="bahder_k"><grad>D. ph.</grad>
@@ -2285,14 +2288,14 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der Deutschen Literatur von Anfang
-          bis 1150</thema>: <dozent><grad>D. ph.</grad>
+          bis 1150</thema>: <dozent ref="holz_g"><grad>D. ph.</grad>
           <nachname>Holz</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mont., Mittw. u. Donnerst. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Kudrun (Einleitung und Lektüre)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Holz</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
+          <dozent ref="holz_g"><grad>D. ph.</grad> <nachname>Holz</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Die Gedichte Walthers von der
@@ -2359,11 +2362,11 @@
           <dozent><grad>D. ph.</grad> <vorname>A.</vorname>
           <nachname>Köster</nachname>, <funktion>P. O.</funktion></dozent>
           (<thema>neuere Abteilung</thema>), <zeit>Dienst. 11-12 U.</zeit>,
-          <modus>publice</modus></veranstaltung>. - <veranstaltung>3)
-          <dozent><grad>D. ph.</grad> <nachname>Holz</nachname>, <funktion>P.
-          E.</funktion></dozent> <thema>(mittelhochdeutsche Abteilung):
-          Lektüre von "Minnesangs Frühling"</thema>, <zeit>Mittw. 5-7
-          U.</zeit>, <modus>publice</modus></veranstaltung>. -
+          <modus>publice</modus></veranstaltung>. - <veranstaltung>3) <dozent
+          ref="holz_g"><grad>D. ph.</grad> <nachname>Holz</nachname>,
+          <funktion>P. E.</funktion></dozent> <thema>(mittelhochdeutsche
+          Abteilung): Lektüre von "Minnesangs Frühling"</thema>, <zeit>Mittw.
+          5-7 U.</zeit>, <modus>publice</modus></veranstaltung>. -
           <veranstaltung>4) <dozent><grad>D. ph.</grad>
           <nachname>Mogk</nachname>, <funktion>P. E.</funktion></dozent>
           <thema>(nordische Abteilung): Lektüre von Ares Isländerbuch</thema>,
@@ -2387,10 +2390,10 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im deutschen Stil (für
-          Fortgeschrittenere, besonders für Ausländer)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Holz</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>in zu verabred. Zeit</zeit>,
-          <modus>privatissime</modus>.</veranstaltung>
+          Fortgeschrittenere, besonders für Ausländer)</thema>: <dozent
+          ref="holz_g"><grad>D. ph.</grad> <nachname>Holz</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>in zu verabred.
+          Zeit</zeit>, <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
 
         <trennlinie/>
@@ -3476,10 +3479,11 @@
         <seite>40</seite>
 
         <veranstaltung><thema>Landwirtschaftliches Rechnungswesen, speziell
-        doppelte Buchhaltung</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Howard</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Donnerst. u. Freit. 9-10 U.</zeit>, <modus>privatim</modus>,
-        <ort>im Landw. Institut, Johannisallee 21</ort>.</veranstaltung>
+        doppelte Buchhaltung</thema>: <dozent ref="howard_h"><grad>D.
+        ph.</grad> <nachname>Howard</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 9-10 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
+        21</ort>.</veranstaltung>
 
         <sachgruppe>
           <titel>Vereinigte staatswissenschaftliche Seminare (Paulinum
@@ -3647,10 +3651,10 @@
         <funktion>P. E.</funktion></dozent>, <zeit>Dienst. bis Freit. 10-11
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Determinanten</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 12-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Determinanten</thema>: <dozent
+        ref="rohn_k"><grad>D. ph.</grad> <nachname>Rohn</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 12-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <seite>42</seite>
 
@@ -3661,7 +3665,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Anwendung der Differentialrechnung auf Kurven
-        und Flächen</thema>: <dozent><grad>D. ph.</grad>
+        und Flächen</thema>: <dozent ref="rohn_k"><grad>D. ph.</grad>
         <nachname>Rohn</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Dienst. bis Freit. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -3719,9 +3723,9 @@
         Mechanik</thema> (<dozent>mit <grad>D. ph.</grad>
         <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>),
         <zeit>Sonnab. 10-11 U.</zeit>, <modus>privatissime</modus>, aber
-        <gebühr>gratis</gebühr></veranstaltung>. <veranstaltung>2)
-        <dozent><grad>D. ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
-        O.</funktion></dozent>: <thema>Übungen zur Anwendung der
+        <gebühr>gratis</gebühr></veranstaltung>. <veranstaltung>2) <dozent
+        ref="rohn_k"><grad>D. ph.</grad> <nachname>Rohn</nachname>,
+        <funktion>P. O.</funktion></dozent>: <thema>Übungen zur Anwendung der
         Differentialrechnung auf Kurven und Flächen</thema>, <zeit>Mont. 9-10
         U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung>. <veranstaltung>3) <dozent

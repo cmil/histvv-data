@@ -1213,22 +1213,23 @@
         <titel>Innere Medizin.</titel>
 
         <veranstaltung><thema>Medizinische Poliklinik (Ambulanz)</thema>:
-        <dozent><grad>D. med.</grad> <vorname>A.</vorname>
+        <dozent ref="hoffmann_fa"><grad>D. med.</grad> <vorname>A.</vorname>
         <nachname>Hoffmann</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>tägl. (außer Mi.) 2-3 U.</zeit>, <modus>privatim</modus>,
         <ort>im Medizinisch-poliklinischen Institut, Nürnberger Str.
         55</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Distrikts-Poliklinik</thema>: <dozent><grad>D.
-        med.</grad> <vorname>A.</vorname> <nachname>Hoffmann</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>tägl. 8-10 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Medizinisch-poliklinischen Institut,
-        Nürnberger Str. 55</ort>.</veranstaltung>
+        <veranstaltung><thema>Distrikts-Poliklinik</thema>: <dozent
+        ref="hoffmann_fa"><grad>D. med.</grad> <vorname>A.</vorname>
+        <nachname>Hoffmann</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>tägl. 8-10 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Medizinisch-poliklinischen Institut, Nürnberger Str.
+        55</ort>.</veranstaltung>
 
         <seite>15</seite>
 
-        <veranstaltung><thema>Spezielle Therapie Teil I:</thema>
-        <dozent><grad>D. med.</grad> <vorname>A.</vorname>
+        <veranstaltung><thema>Spezielle Therapie Teil I</thema>: <dozent
+        ref="hoffmann_fa"><grad>D. med.</grad> <vorname>A.</vorname>
         <nachname>Hoffmann</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Do. 9-11 U.</zeit>, <modus>privatim</modus>, <ort>im
         Medizinisch-poliklinischen Institut, Nürnberger Str.
@@ -1901,10 +1902,10 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Für Nichtmediziner: Soziale Medizin des
-        Versicherungswesens</thema>: <dozent><grad>D. med.</grad> <vorname>F.
-        A.</vorname> <nachname>Hoffmann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Di. u. Fr. 3-4 U.</zeit>, <ort>im
-        Medizinisch-poliklinischen Institut, Nürnberger Str.
+        Versicherungswesens</thema>: <dozent ref="hoffmann_fa"><grad>D.
+        med.</grad> <vorname>F. A.</vorname> <nachname>Hoffmann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Di. u. Fr. 3-4 U.</zeit>,
+        <ort>im Medizinisch-poliklinischen Institut, Nürnberger Str.
         55</ort>.</veranstaltung>
       </sachgruppe>
 
@@ -2756,7 +2757,7 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Althochdeutsche Grammatik (für
-          Anfänger)</thema>: <dozent><grad>D. ph.</grad>
+          Anfänger)</thema>: <dozent ref="holz_g"><grad>D. ph.</grad>
           <nachname>Holz</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mo. u. Do. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2780,7 +2781,7 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der deutschen Literatur von
-          1050-1300</thema>: <dozent><grad>D. ph.</grad>
+          1050-1300</thema>: <dozent ref="holz_g"><grad>D. ph.</grad>
           <nachname>Holz</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mo., Mi. u. Do. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2855,8 +2856,8 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
             <funktion>P. O.</funktion></dozent>: <thema>Lektüre ausgewählter
             Prosatexte nach Braunes Althochd. Lesebuch</thema>, <zeit>So. 11-1
             U.</zeit>, <modus>publice</modus></veranstaltung>;
-            <veranstaltung>c) <thema>Mittelhochdeutscher Kurs</thema>:
-            <dozent><grad>D. ph.</grad> <nachname>Holz</nachname>,
+            <veranstaltung>c) <thema>Mittelhochdeutscher Kurs</thema>: <dozent
+            ref="holz_g"><grad>D. ph.</grad> <nachname>Holz</nachname>,
             <funktion>P. E.</funktion></dozent>: <thema>Lektüre von Hartmanns
             "Armem Heinrich"</thema>, <zeit>Mi. 5-7 U.</zeit>,
             <modus>publice</modus></veranstaltung>; <veranstaltung>d)
@@ -2880,9 +2881,9 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
             Dramen</thema>, <zeit>Mo. 6 bis 7 U.</zeit>,
             <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe></veranstaltungsgruppe>
 
-            <veranstaltung><thema>Gotische Übungen</thema>: <dozent><grad>D.
-            ph.</grad> <nachname>Holz</nachname>, <funktion>P.
-            E.</funktion></dozent>, <zeit>Mi. 4-5 U.</zeit>,
+            <veranstaltung><thema>Gotische Übungen</thema>: <dozent
+            ref="holz_g"><grad>D. ph.</grad> <nachname>Holz</nachname>,
+            <funktion>P. E.</funktion></dozent>, <zeit>Mi. 4-5 U.</zeit>,
             <modus>privatim</modus>.</veranstaltung>
 
             <veranstaltung><thema>Mittelhochdeutsche Übungen</thema>: <dozent
@@ -2893,8 +2894,8 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
             <gebühr>gratis</gebühr>.</veranstaltung>
 
             <veranstaltung><thema>Übungen im deutschen Stil (für
-            Fortgeschrittenere, besonders für Ausländer)</thema>:
-            <dozent><grad>D. ph.</grad> <nachname>Holz</nachname>,
+            Fortgeschrittenere, besonders für Ausländer)</thema>: <dozent
+            ref="holz_g"><grad>D. ph.</grad> <nachname>Holz</nachname>,
             <funktion>P. E.</funktion></dozent>, <zeit>Di. 8-10 U. ab.</zeit>,
             <modus>privatissime</modus>.</veranstaltung>
           </sachgruppe>
@@ -4202,10 +4203,11 @@ durch die student. Hilfskraft???-->
             11</ort>.</veranstaltung>
 
             <veranstaltung><thema>Erfolge der angewandten exakten Rechnung in
-            der Landwirtschaft</thema>: <dozent><grad>D. ph.</grad>
-            <nachname>Howard</nachname>, <funktion>P. E.</funktion></dozent>,
-            <zeit>Mi. u. Do. 9-10 U.</zeit>, <modus>privatim</modus>, <ort>im
-            Landw. Institut, Johannisallee 21</ort>.</veranstaltung>
+            der Landwirtschaft</thema>: <dozent ref="howard_h"><grad>D.
+            ph.</grad> <nachname>Howard</nachname>, <funktion>P.
+            E.</funktion></dozent>, <zeit>Mi. u. Do. 9-10 U.</zeit>,
+            <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
+            21</ort>.</veranstaltung>
 
             <veranstaltung><thema>Die historischen und pädagogischen
             Grundlagen der landwirtschaftlichen Unterrichtsanstalten (nur für
@@ -4295,9 +4297,9 @@ durch die student. Hilfskraft???-->
             <veranstaltungsgruppe><thema>Praktikum für landwirtschaftliche
             Buchführung</thema>, <veranstaltung>a) <thema>I.
             Teil</thema></veranstaltung>, <veranstaltung>b) <thema>II.
-            Teil</thema></veranstaltung>: <dozent><grad>D. ph.</grad>
-            <nachname>Howard</nachname>, <funktion>P. E.</funktion></dozent>,
-            <zeit>an noch zu vereinbar. Tagen</zeit>,
+            Teil</thema></veranstaltung>: <dozent ref="howard_h"><grad>D.
+            ph.</grad> <nachname>Howard</nachname>, <funktion>P.
+            E.</funktion></dozent>, <zeit>an noch zu vereinbar. Tagen</zeit>,
             <modus>privatissime</modus>.</veranstaltungsgruppe>
 
             <veranstaltungsgruppe><modus>Nur für Mitglieder des "Pädagogischen
@@ -4339,9 +4341,9 @@ durch die student. Hilfskraft???-->
         nicht ausdrücklich anders bemerkt ist, <ort>im Mathematischen
         Institut, Talstr. 35</ort>, abgehalten.)</absatz>
 
-        <veranstaltung><thema>Darstellende Geometrie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Di. u. Fr. 9-10 U.</zeit>,
+        <veranstaltung><thema>Darstellende Geometrie</thema>: <dozent
+        ref="rohn_k"><grad>D. ph.</grad> <nachname>Rohn</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Di. u. Fr. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Analytische Geometrie der Ebene</thema>: <dozent
@@ -4367,10 +4369,10 @@ durch die student. Hilfskraft???-->
         <zeit>Di. u. Fr. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Algebraische Kurven</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mo., Mi., Do. u. So. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Algebraische Kurven</thema>: <dozent
+        ref="rohn_k"><grad>D. ph.</grad> <nachname>Rohn</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mo., Mi., Do. u. So. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Differentialgleichungen (mit Übungen)</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Koebe</nachname>, <funktion>P.
@@ -4409,9 +4411,9 @@ durch die student. Hilfskraft???-->
         (mit <dozent><grad>D. ph.</grad> <nachname>König</nachname></dozent>),
         <zeit>So. 8-9 U.</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung> <veranstaltungsgruppe>2)
-        <dozent><grad>D. ph.</grad> <nachname>Rohn</nachname>, <funktion>P.
-        O.</funktion></dozent>: <veranstaltung>a) <thema>Übungen zur
-        darstellenden Geometrie</thema> (mit <dozent><grad>D. ph.</grad>
+        <dozent ref="rohn_k"><grad>D. ph.</grad> <nachname>Rohn</nachname>,
+        <funktion>P. O.</funktion></dozent>: <veranstaltung>a) <thema>Übungen
+        zur darstellenden Geometrie</thema> (mit <dozent><grad>D. ph.</grad>
         <nachname>König</nachname></dozent>). <zeit>Mo. 3-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung> - <veranstaltung>b)
         <thema>Übungen zu den algebraischen Kurven</thema>, <zeit>Mi. 8-9
@@ -5246,8 +5248,8 @@ durch die student. Hilfskraft???-->
 
         <veranstaltung><thema>Handfertigkeitsunterricht <ort>in der Werkstätte
         des Physikalischen Instituts (Linnéstr. 5)</ort></thema>: Im Auftrage
-        des Institutsdirektors durch
-        <dozent><funktion>Universitätsmechaniker</funktion>
+        des Institutsdirektors durch <dozent
+        ref="donner_g"><funktion>Universitätsmechaniker</funktion>
         <nachname>Donner</nachname></dozent>, <zeit>So. 3-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 

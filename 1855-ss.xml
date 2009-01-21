@@ -359,7 +359,7 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Uebungen der philhebräischen
-          Gesellschaft</thema>: <dozent><grad>D.</grad>
+          Gesellschaft</thema>: <dozent ref="hoelemann_hg"><grad>D.</grad>
           <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
           <siehe>s. theologische Uebungen</siehe>.</veranstaltungsverweis>
         </sachgruppe>
@@ -891,17 +891,17 @@ die bot. Uebungen.-->
         <titel>I. Exegetische Theologie.</titel>
 
         <veranstaltungsverweis><thema>Erklärung des Buchs der Richter</thema>:
-        <dozent><grad>D.</grad> <nachname>Hölemann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <siehe>s. exeget.
-        Uebb.</siehe></veranstaltungsverweis>
+        <dozent ref="hoelemann_hg"><grad>D.</grad>
+        <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
+        <siehe>s. exeget. Uebb.</siehe></veranstaltungsverweis>
 
         <veranstaltung><thema>Erklärung der Psalmen</thema>: <dozent
         ref="anger_r"><grad>D.</grad> <nachname>Anger</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Auslegung des Hohen Liedes</thema>:
-        <dozent><grad>D.</grad> <nachname>Hölemann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
+        <veranstaltung><thema>Auslegung des Hohen Liedes</thema>: <dozent
+        ref="hoelemann_hg"><grad>D.</grad> <nachname>Hölemann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung der Weissagungen Jesaia's</thema>:
@@ -930,8 +930,9 @@ die bot. Uebungen.-->
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Erklärung des Evangeliums Johannis</thema>:
-        <dozent><grad>D.</grad> <nachname>Hölemann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>10 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="hoelemann_hg"><grad>D.</grad>
+        <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>10 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Auslegung des Briefes Pauli an die
         Römer</thema>: <dozent ref="brueckner_bb"><grad>D. ph.</grad>
@@ -1006,9 +1007,9 @@ die bot. Uebungen.-->
           <veranstaltung><thema>Philhebräische Gesellschaft des A. T.:
           Lateinische Erklärung der schwierigeren Abschnitte des Buches der
           Richter, verbunden mit analytisch-stylistischen Uebungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Hölemann</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Dienst. 5-7 U.</zeit>
-          <modus>privatissime</modus>, aber
+          <dozent ref="hoelemann_hg"><grad>D.</grad>
+          <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Dienst. 5-7 U.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen der biblisch-theologischen Abtheilung
@@ -1257,14 +1258,15 @@ sondern müsste diese eigentlich ergänzen!-->
         <nachname>Dietzel</nachname></dozent>, <zeit>7 U. Mont., Mittw. u.
         Sonn.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Juristische Encyclopädie</thema>:
-        <dozent><grad>D.</grad> <nachname>Höck</nachname></dozent>, <zeit>7 U.
-        früh 3 T. (Dienst., Donn. u. Freit.)</zeit></veranstaltung>
+        <veranstaltung><thema>Juristische Encyclopädie</thema>: <dozent
+        ref="hoeck_h"><grad>D.</grad> <nachname>Höck</nachname></dozent>,
+        <zeit>7 U. früh 3 T. (Dienst., Donn. u. Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Lebensbeschreibung der neuern Juristen</thema>:
-        <dozent><grad>D.</grad> <nachname>Hänel</nachname>, <funktion>P.
-        O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>4 U. 2
-        T. in zu best. St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="haenel_g"><grad>D.</grad> <nachname>Hänel</nachname>,
+        <funktion>P. O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
+        <zeit>4 U. 2 T. in zu best. St.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1302,10 +1304,11 @@ sondern müsste diese eigentlich ergänzen!-->
           <nachname>Marezoll</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>11-1 U. 6 T. und in 2 noch zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Pandekten, nach Puchta</thema>:
-          <dozent><grad>D.</grad> <nachname>Hänel</nachname>, <funktion>P.
-          O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>7-9
-          U. 6 T.</zeit></veranstaltung>
+          <veranstaltung><thema>Pandekten, nach Puchta</thema>: <dozent
+          ref="haenel_g"><grad>D.</grad> <nachname>Hänel</nachname>,
+          <funktion>P. O.</funktion>, d. Z.
+          <funktion>Dech.</funktion></dozent>, <zeit>7-9 U. 6
+          T.</zeit></veranstaltung>
 
           <trennlinie/>
 
@@ -1369,8 +1372,9 @@ sondern müsste diese eigentlich ergänzen!-->
           <trennlinie/>
 
           <veranstaltung><thema>Deutsche Staats- u. Rechtsgeschichte</thema>:
-          <dozent><grad>D.</grad> <nachname>Höck</nachname></dozent>, <zeit>8
-          U. 4 T.</zeit></veranstaltung>
+          <dozent ref="hoeck_h"><grad>D.</grad>
+          <nachname>Höck</nachname></dozent>, <zeit>8 U. 4
+          T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Deutsches Privatrecht</thema>:
           <dozent><grad>D.</grad> <nachname>Weiske</nachname>, <funktion>P.
@@ -1490,9 +1494,9 @@ sondern müsste diese eigentlich ergänzen!-->
 
         <trennlinie/>
 
-        <veranstaltung><thema>Polizeirecht</thema>: <dozent><grad>D.</grad>
-        <nachname>Höck</nachname></dozent>, <zeit>9 U. 6
-        T.</zeit></veranstaltung>
+        <veranstaltung><thema>Polizeirecht</thema>: <dozent
+        ref="hoeck_h"><grad>D.</grad> <nachname>Höck</nachname></dozent>,
+        <zeit>9 U. 6 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>

@@ -180,9 +180,9 @@
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Evangelische Pädagogik</thema>:
-          <dozent><grad>D.</grad> <nachname>Hofmann</nachname>, <funktion>P.
-          E.</funktion></dozent>, <siehe>s. prakt.
-          Theologie</siehe>.</veranstaltungsverweis>
+          <dozent ref="hofmann_r"><grad>D.</grad>
+          <nachname>Hofmann</nachname>, <funktion>P. E.</funktion></dozent>,
+          <siehe>s. prakt. Theologie</siehe>.</veranstaltungsverweis>
 
           <veranstaltung><thema>Charakteristiken aus der
           Humanistenzeit</thema>: <dozent><grad>D. ph.</grad>
@@ -222,9 +222,9 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Pädagogische Gesellschaft</thema>:
-          <dozent><grad>D.</grad> <nachname>Hofmann</nachname>, <funktion>P.
-          E.</funktion></dozent>, <siehe>s. prakt.
-          Theologie</siehe>.</veranstaltungsverweis>
+          <dozent ref="hofmann_r"><grad>D.</grad>
+          <nachname>Hofmann</nachname>, <funktion>P. E.</funktion></dozent>,
+          <siehe>s. prakt. Theologie</siehe>.</veranstaltungsverweis>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
@@ -481,7 +481,7 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Uebungen der hebräisch-exegetischen
-          Gesellschaft</thema>: <dozent><grad>D.</grad>
+          Gesellschaft</thema>: <dozent ref="hoelemann_hg"><grad>D.</grad>
           <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
           <siehe>s. theologisch-exegetische
           Uebb.</siehe></veranstaltungsverweis>
@@ -871,9 +871,10 @@
         <nachname>Hirzel</nachname></dozent>, <siehe>s.
         Arzneimittellehre</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Chemische Diagnostik</thema>:
-        <dozent><grad>D.</grad> <nachname>Huppert</nachname></dozent>,
-        <siehe>s. Medic. Wiss.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Chemische Diagnostik</thema>: <dozent
+        ref="huppert_kh"><grad>D.</grad>
+        <nachname>Huppert</nachname></dozent>, <siehe>s. Medic.
+        Wiss.</siehe></veranstaltungsverweis>
 
         <sachgruppe>
           <titel>Physikalische und chemische Uebungen.</titel>
@@ -903,9 +904,10 @@
           <nachname>Hirzel</nachname></dozent>, <zeit>9-4 U. 5 T. (ausschl.
           Sonn.)</zeit></veranstaltung>
 
-          <veranstaltung><thema>Zoochemisches Prakticum</thema>:
-          <dozent><grad>D.</grad> <nachname>Huppert</nachname></dozent>,
-          <zeit>2-4 U. 6 T.</zeit></veranstaltung>
+          <veranstaltung><thema>Zoochemisches Prakticum</thema>: <dozent
+          ref="huppert_kh"><grad>D.</grad>
+          <nachname>Huppert</nachname></dozent>, <zeit>2-4 U. 6
+          T.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -962,9 +964,10 @@
     <sachgruppe fakultät="Theologie">
       <titel>A. Theologie.</titel>
 
-      <veranstaltung><thema>Encyclopädie der Theologie</thema>:
-      <dozent><grad>D.</grad> <nachname>Hofmann</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>8 U. 4 T.</zeit></veranstaltung>
+      <veranstaltung><thema>Encyclopädie der Theologie</thema>: <dozent
+      ref="hofmann_r"><grad>D.</grad> <nachname>Hofmann</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>8 U. 4
+      T.</zeit></veranstaltung>
 
       <sachgruppe>
         <titel>Theologische Uebungen.</titel>
@@ -987,7 +990,7 @@
         <trennlinie/>
 
         <veranstaltungsverweis><thema>Buch Hiob, Erklärung der Reden
-        Elihu's</thema>: <dozent><grad>D.</grad>
+        Elihu's</thema>: <dozent ref="hoelemann_hg"><grad>D.</grad>
         <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
         <siehe>s. exeg. Uebb.</siehe></veranstaltungsverweis>
 
@@ -996,9 +999,9 @@
         O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>12 U.
         4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Auslegung des hohen Liedes</thema>:
-        <dozent><grad>D.</grad> <nachname>Hölemann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>12 U. 2 T. (Mont. u.
+        <veranstaltung><thema>Auslegung des hohen Liedes</thema>: <dozent
+        ref="hoelemann_hg"><grad>D.</grad> <nachname>Hölemann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>12 U. 2 T. (Mont. u.
         Donn.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Erklärung der Weissagungen Jesaja's</thema>:
@@ -1030,10 +1033,10 @@
         O.</funktion></dozent>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Lateinische Erklärung der Briefe Pauli an die
-        Philipper u. an die Colosser</thema>: <dozent><grad>D.</grad>
-        <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>12 U. 2 T. (Dienst. u. Freit.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Philipper u. an die Colosser</thema>: <dozent
+        ref="hoelemann_hg"><grad>D.</grad> <nachname>Hölemann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. u.
+        Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung des Hebräerbriefes</thema>:
         <dozent><grad>D.</grad> <nachname>Luthardt</nachname>, <funktion>P.
@@ -1047,12 +1050,12 @@
         <seite>13</seite>
 
         <veranstaltung><thema>Erklärung der Briefe des Johannes</thema>:
-        <dozent><grad>D.</grad> <nachname>Hofmann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>7 U. 2 T.</zeit>
+        <dozent ref="hofmann_r"><grad>D.</grad> <nachname>Hofmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>7 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Offenbarung Johannis, Erklärung der 7
-        Sendschreiben</thema>: <dozent><grad>D.</grad>
+        Sendschreiben</thema>: <dozent ref="hoelemann_hg"><grad>D.</grad>
         <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
         <siehe>s. exeg. Uebb.</siehe></veranstaltungsverweis>
 
@@ -1079,14 +1082,14 @@
 
           <veranstaltung><thema>Hebräisch-exegetische Gesellschaft: die Reden
           Elihu's im Buche Hiob, lateinisch besprochen und erklärt</thema>:
-          <dozent><grad>D.</grad> <nachname>Hölemann</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Dienst. 5-7 U.</zeit>
-          <modus>privatissime</modus>, aber
+          <dozent ref="hoelemann_hg"><grad>D.</grad>
+          <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Dienst. 5-7 U.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Societas exegetica (N. T.) Lipsiensis: die 7
           apocalyptischen Sendschreiben lateinisch besprochen und
-          erklärt</thema>: <dozent><grad>D.</grad>
+          erklärt</thema>: <dozent ref="hoelemann_hg"><grad>D.</grad>
           <nachname>Hölemann</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Freit. 5-7 U.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1136,9 +1139,10 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Symbolik</thema>: <dozent><grad>D.</grad>
-        <nachname>Hofmann</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>7 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Symbolik</thema>: <dozent
+        ref="hofmann_r"><grad>D.</grad> <nachname>Hofmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>7 U. 4
+        T.</zeit></veranstaltung>
 
         <sachgruppe>
           <titel>Systematisch-theologische Uebungen.</titel>
@@ -1182,9 +1186,10 @@
         <trennlinie/>
 
         <veranstaltung><thema>Evangelische Pädagogik, mit besonderer Rücksicht
-        auf das Volksschulwesen</thema>: <dozent><grad>D.</grad>
-        <nachname>Hofmann</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>8 U. 2 T.</zeit></veranstaltung>
+        auf das Volksschulwesen</thema>: <dozent
+        ref="hofmann_r"><grad>D.</grad> <nachname>Hofmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>8 U. 2
+        T.</zeit></veranstaltung>
 
         <sachgruppe>
           <titel>Praktisch-theologische Uebungen.</titel>
@@ -1195,19 +1200,19 @@
           ref="brueckner_bb"><grad>D.</grad> <nachname>Brückner</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>in den best. St. u.
           T.</zeit> <modus>öffentlich</modus></veranstaltung>;
-          <veranstaltung><thema>katechetische Section</thema>:
-          <dozent><grad>D.</grad> <nachname>Hofmann</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit></veranstaltung>
-          <veranstaltung><thema>Die Gesangübungen der liturgischen Section
-          leitet Musikdirector</thema> <dozent><grad>D. ph.</grad>
-          <nachname>Langer</nachname>, <funktion>Lect.
-          publ.</funktion></dozent>, <zeit>in zu best. St.</zeit> und
-          <thema>Abtheilungen</thema>
+          <veranstaltung><thema>katechetische Section</thema>: <dozent
+          ref="hofmann_r"><grad>D.</grad> <nachname>Hofmann</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2
+          T.</zeit></veranstaltung> <veranstaltung><thema>Die Gesangübungen
+          der liturgischen Section leitet Musikdirector</thema>
+          <dozent><grad>D. ph.</grad> <nachname>Langer</nachname>,
+          <funktion>Lect. publ.</funktion></dozent>, <zeit>in zu best.
+          St.</zeit> und <thema>Abtheilungen</thema>
           <modus>öffentlich</modus></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung><thema>Pädagogische Gesellschaft, verbunden mit
           praktischen Uebungen und Besuchen von Lehr- und
-          Erziehungsanstalten</thema>: <dozent><grad>D.</grad>
+          Erziehungsanstalten</thema>: <dozent ref="hofmann_r"><grad>D.</grad>
           <nachname>Hofmann</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>3 U. 1 T.</zeit></veranstaltung>
         </sachgruppe>
@@ -1270,9 +1275,10 @@
 
           <trennlinie/>
 
-          <veranstaltung><thema>Pandekten nach Puchta</thema>:
-          <dozent><grad>D.</grad> <nachname>Hänel</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>9-11 U. 6 Tage</zeit>.</veranstaltung>
+          <veranstaltung><thema>Pandekten nach Puchta</thema>: <dozent
+          ref="haenel_g"><grad>D.</grad> <nachname>Hänel</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>9-11 U. 6
+          Tage</zeit>.</veranstaltung>
 
           <veranstaltung><thema>Römisch-deutsches Familienrecht</thema>:
           <dozent><grad>D.</grad> <nachnamenpräfix>v.</nachnamenpräfix>
@@ -1339,13 +1345,14 @@
           <titel>2. Deutsches Recht und Lehnrecht.</titel>
 
           <veranstaltung><thema>Erklärung des Sachsenspiegels (<notiz
-          betreff="fortzsetzung">Forts.</notiz>)</thema>:
-          <dozent><grad>D.</grad> <nachname>Höck</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
+          betreff="fortzsetzung">Forts.</notiz>)</thema>: <dozent
+          ref="hoeck_h"><grad>D.</grad> <nachname>Höck</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Deutsche Staats- und Rechtsgeschichte</thema>:
-          <ders>Derselbe</ders>, <zeit>10 U. 6 T.</zeit></veranstaltung>
+          <ders ref="hoeck_h">Derselbe</ders>, <zeit>10 U. 6
+          T.</zeit></veranstaltung>
 
           <trennlinie/>
 
@@ -1357,7 +1364,7 @@
           <zeit>9 U. 6 T. und 10 U. Sonn.</zeit></veranstaltung>
 
           <veranstaltung><thema>Deutsches Privatrecht mit Einschluss des
-          Lehnrechts</thema>: <dozent><grad>D.</grad>
+          Lehnrechts</thema>: <dozent ref="hoeck_h"><grad>D.</grad>
           <nachname>Höck</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>11 U. 6 T.</zeit></veranstaltung>
 
@@ -1434,10 +1441,10 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Römischer Criminalprocess</thema>:
-        <dozent><grad>D.</grad> <nachname>Hänel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>5 U. 2 T. (Dienst. u. Freit.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Römischer Criminalprocess</thema>: <dozent
+        ref="haenel_g"><grad>D.</grad> <nachname>Hänel</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>5 U. 2 T. (Dienst. u.
+        Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Gemeiner und sächsischer Criminalprocess (nach
         seinem Lehrbuch)</thema>: <dozent><grad>D.</grad>
@@ -1638,9 +1645,10 @@
 
         <veranstaltung><thema>Experimentalphysiologie des
         Stoffwechsels</thema>: <dozent ref="hering_kek"><grad>D.</grad>
-        <nachname>Hering</nachname></dozent> in Verb. mit
-        <dozent><grad>D.</grad> <nachname>Huppert</nachname></dozent>, <zeit>5
-        U. 4 T.</zeit> <gebühr>unentgeltl.</gebühr></veranstaltung>
+        <nachname>Hering</nachname></dozent> in Verb. mit <dozent
+        ref="huppert_kh"><grad>D.</grad>
+        <nachname>Huppert</nachname></dozent>, <zeit>5 U. 4 T.</zeit>
+        <gebühr>unentgeltl.</gebühr></veranstaltung>
 
         <trennlinie/>
 
@@ -1672,9 +1680,10 @@
         <nachname>Bock</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Chemische Diagnostik</thema>:
-        <dozent><grad>D.</grad> <nachname>Huppert</nachname></dozent>,
-        <zeit>11 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Chemische Diagnostik</thema>: <dozent
+        ref="huppert_kh"><grad>D.</grad>
+        <nachname>Huppert</nachname></dozent>, <zeit>11 U. 2
+        T.</zeit></veranstaltung>
 
         <trennlinie/>
 

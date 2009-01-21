@@ -1139,9 +1139,9 @@ es handelt sich aber um zwei Veranstaltungen (ingl.!)--></veranstaltung>,
         E.</funktion></dozent>, <thema>nach s. Lehrbuche</thema>.
         -</veranstaltung>
 
-        <veranstaltung><dozent><nachname>Hänel</nachname>, <grad>Dr.</grad>
-        <vorname>F.</vorname></dozent>, <gebühr>unentgeldl.</gebühr>
-        -</veranstaltung>
+        <veranstaltung><dozent ref="haenel_f"><nachname>Hänel</nachname>,
+        <grad>Dr.</grad> <vorname>F.</vorname></dozent>,
+        <gebühr>unentgeldl.</gebühr> -</veranstaltung>
 
         <veranstaltung><dozent><nachname>Otto</nachname>, <grad>M.</grad>
         <vorname>C. F.</vorname>, <funktion>J. U. B.</funktion></dozent>,
@@ -1207,8 +1207,9 @@ es handelt sich aber um zwei Veranstaltungen (ingl.!)--></veranstaltung>,
                 <titel>*) Uebungen im Erklären der römischen
                 Rechtsbücher.</titel>
 
-                <veranstaltung><dozent><nachname>Hänel</nachname>,
-                <grad>Dr.</grad> <vorname>F.</vorname></dozent>,
+                <veranstaltung><dozent
+                ref="haenel_f"><nachname>Hänel</nachname>, <grad>Dr.</grad>
+                <vorname>F.</vorname></dozent>,
                 <modus>privatissime</modus>.</veranstaltung>
               </sachgruppe>
             </sachgruppe>
@@ -1280,15 +1281,16 @@ es handelt sich aber um zwei Veranstaltungen (ingl.!)--></veranstaltung>,
             <sachgruppe>
               <titel>*) Pfandrecht.</titel>
 
-              <veranstaltung><dozent><nachname>Hänel</nachname>,
-              <grad>Dr.</grad> <vorname>G.</vorname></dozent></veranstaltung>
+              <veranstaltung><dozent
+              ref="haenel_g"><nachname>Hänel</nachname>, <grad>Dr.</grad>
+              <vorname>G.</vorname></dozent></veranstaltung>
             </sachgruppe>
 
             <sachgruppe>
               <titel>**) Erb-Recht.</titel>
 
-              <veranstaltung><ders>Derselbe</ders>, <thema><notiz
-              betreff="fortsetzung">Beschl.</notiz></thema>,
+              <veranstaltung><ders ref="haenel_g">Derselbe</ders>,
+              <thema><notiz betreff="fortsetzung">Beschl.</notiz></thema>,
               <gebühr>unentgeldlich</gebühr>. -</veranstaltung>
 
               <veranstaltung><dozent><nachname>Schilling</nachname>,
@@ -1498,7 +1500,7 @@ es handelt sich aber um zwei Veranstaltungen (ingl.!)--></veranstaltung>,
             <grad>Dr.</grad> <vorname>C. G. E.</vorname></dozent>,
             <thema>jruistische Stylübungen</thema>. -</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Hänel</nachname>,
+            <veranstaltung><dozent ref="haenel_f"><nachname>Hänel</nachname>,
             <grad>Dr.</grad> <vorname>F.</vorname></dozent>,
             <thema>Processpraxis mit schriftl. Ausarbeitungen</thema>.
             -</veranstaltung>
@@ -1530,9 +1532,9 @@ es handelt sich aber um zwei Veranstaltungen (ingl.!)--></veranstaltung>,
               <grad>Dr.</grad> <vorname>J. F.</vorname></dozent>
               -</veranstaltung>
 
-              <veranstaltung><dozent><nachname>Hänel</nachname>,
-              <grad>Dr.</grad> <vorname>G.</vorname></dozent>
-              -</veranstaltung>
+              <veranstaltung><dozent
+              ref="haenel_g"><nachname>Hänel</nachname>, <grad>Dr.</grad>
+              <vorname>G.</vorname></dozent> -</veranstaltung>
 
               <veranstaltung><dozent><nachname>Ranft</nachname>,
               <grad>Dr.</grad> <vorname>J.</vorname></dozent>

@@ -234,9 +234,10 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pädagogik und Geschichte derselben</thema>:
-      <dozent><grad>D. th. et ph.</grad> <nachname>Hofmann</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont<korrektur>.</korrektur>
-      bis Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="hofmann_r"><grad>D. th. et ph.</grad>
+      <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont<korrektur>.</korrektur> bis Freit. 9-10 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -407,9 +408,9 @@
       <veranstaltung>a) <thema>Praktische Uebungen</thema>, <zeit>in zu best.
       Stunden</zeit></veranstaltung>; <veranstaltung>b) <thema>Besuche von
       Lehr- und Erziehungs<seite>7</seite>anstalten</thema></veranstaltung>:
-      <dozent><grad>D. th. &amp; ph.</grad> <nachname>Hofmann</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont. 3-4 U.</zeit>,
-      <modus>privatissime</modus>, aber
+      <dozent ref="hofmann_r"><grad>D. th. &amp; ph.</grad>
+      <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. 3-4 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltungsgruppe>
 
       <veranstaltung><thema>Wissenschaftliche Uebungen des Theologischen
@@ -673,15 +674,16 @@
 
       <veranstaltung><thema>Das im Königreich Sachsen geltende
       Verwaltungsrecht; Verwaltung des Innern, <notiz
-      betreff="fortsetzung">II. Theil</notiz></thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Häpe</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst. bis einschl. Freit. 9-10 U.
-      Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      betreff="fortsetzung">II. Theil</notiz></thema>: <dozent
+      ref="haepe_g"><grad>D. jur.</grad> <nachname>Häpe</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst. bis einschl. Freit.
+      9-10 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Gewerberecht</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Häpe</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Donnerst. 5-6 U.</zeit>, <modus>privatim</modus>, <gebühr>aber für
-      die Hörer des sächs. Verwaltungsrechts gratis</gebühr>.</veranstaltung>
+      <veranstaltung><thema>Gewerberecht</thema>: <dozent
+      ref="haepe_g"><grad>D. jur.</grad> <nachname>Häpe</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. 5-6 U.</zeit>,
+      <modus>privatim</modus>, <gebühr>aber für die Hörer des sächs.
+      Verwaltungsrechts gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Evangelisches und Katholisches Kirchenrecht
       einschliesslich des Eherechts, verbunden mit Uebungen in der
@@ -726,9 +728,10 @@
       <seite>10</seite>
 
       <veranstaltung><thema>Kranken-, Unfall- und
-      Invalidenversicherungsrecht</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Häpe</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Freit. 4-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Invalidenversicherungsrecht</thema>: <dozent ref="haepe_g"><grad>D.
+      jur.</grad> <nachname>Häpe</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Freit. 4-6 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Völkerrecht</thema>: <dozent
       ref="friedberg_ea"><grad>D. jur.</grad> <nachname>Friedberg</nachname>,
@@ -985,7 +988,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Physiologie des Centralnervensystems</thema>:
-      <dozent><grad>D. med.</grad> <vorname>F. B.</vorname>
+      <dozent ref="hofmann_fb"><grad>D. med.</grad> <vorname>F. B.</vorname>
       <nachname>Hofmann</nachname></dozent>, <zeit>Freit. 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1007,8 +1010,9 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Physiologisches Praktikum aus der Muskel-, Nerven-
-      und Sinnesphysiologie</thema>: <dozent><grad>D. med.</grad> <vorname>F.
-      B.</vorname> <nachname>Hofmann</nachname></dozent> und <dozent
+      und Sinnesphysiologie</thema>: <dozent ref="hofmann_fb"><grad>D.
+      med.</grad> <vorname>F. B.</vorname>
+      <nachname>Hofmann</nachname></dozent> und <dozent
       ref="garten_ehs"><grad>D. med.</grad>
       <nachname>Garten</nachname></dozent>, <zeit>Sonnab. 4-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1040,24 +1044,24 @@
       <trennlinie/>
 
       <veranstaltung><thema>Ueber Ernährung und Nahrungsmittel des
-      Menschen</thema>: <dozent><grad>D. med.</grad>
+      Menschen</thema>: <dozent ref="hofmann_f"><grad>D. med.</grad>
       <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst., Donnerst. u. Freit. 3 bis 4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Hygienische Besprechungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hofmann</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Freit. 5-6 U.</zeit>,
+      <veranstaltung><thema>Hygienische Besprechungen</thema>: <dozent
+      ref="hofmann_f"><grad>D. med.</grad> <nachname>Hofmann</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Freit. 5-6 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Arbeiten im hygienischen Institute für
-      Geübtere</thema>: <dozent><grad>D. med.</grad>
+      Geübtere</thema>: <dozent ref="hofmann_f"><grad>D. med.</grad>
       <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 9-1 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Schutzpockenimpfung einschliesslich
-      Impftechnik</thema>: <dozent><grad>D. med.</grad>
+      Impftechnik</thema>: <dozent ref="hofmann_f"><grad>D. med.</grad>
       <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1122,10 +1126,10 @@
       <seite>14</seite>
 
       <veranstaltung><thema>Specielle Pathologie und Therapie <notiz
-      betreff="fortsetzung">I. Th.</notiz></thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hoffmann</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u. Donnerst. 8-9
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      betreff="fortsetzung">I. Th.</notiz></thema>: <dozent
+      ref="hoffmann_fa"><grad>D. med.</grad> <nachname>Hoffmann</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u.
+      Donnerst. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pathologische Anatomie der Knochen und
       Gelenke</thema>: <dozent><grad>D. med.</grad>
@@ -1431,13 +1435,14 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Medicinische Poliklinik (Ambulanz)</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Hoffmann</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst., Freit. u.
-      Sonnab. 2-3 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="hoffmann_fa"><grad>D. med.</grad>
+      <nachname>Hoffmann</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont., Dienst., Donnerst., Freit. u. Sonnab. 2-3 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Distrikts-Poliklinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Hoffmann</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>tägl. 9-10 U.</zeit>,
+      <veranstaltung><thema>Distrikts-Poliklinik</thema>: <dozent
+      ref="hoffmann_fa"><grad>D. med.</grad> <nachname>Hoffmann</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>tägl. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Klinik und Poliklinik der
@@ -1869,7 +1874,7 @@
         <siehe>Siehe Abschnitt E.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Pädagogik und Geschichte
-        derselben</thema>: <dozent><grad>D. th. et ph.</grad>
+        derselben</thema>: <dozent ref="hofmann_r"><grad>D. th. et ph.</grad>
         <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Theologische Facultät.</siehe></veranstaltungsverweis>
 
@@ -1947,10 +1952,10 @@
         U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Pädagogisches Seminar</thema>:
-        <dozent><grad>D. th. &amp; ph.</grad> <nachname>Hofmann</nachname>,
-        <funktion>P. O.</funktion></dozent> <siehe>Siehe Theologische
-        Facultät.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Pädagogisches Seminar</thema>: <dozent
+        ref="hofmann_r"><grad>D. th. &amp; ph.</grad>
+        <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>
+        <siehe>Siehe Theologische Facultät.</siehe></veranstaltungsverweis>
       </sachgruppe>
 
       <trennlinie/>
@@ -2351,7 +2356,7 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Mittelhochdeutsche Grammatik (für
-          Anfänger)</thema>: <dozent><grad>D. ph.</grad>
+          Anfänger)</thema>: <dozent ref="holz_g"><grad>D. ph.</grad>
           <nachname>Holz</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2363,7 +2368,7 @@
           Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der deutschen Litteratur im 13.
-          Jahrhundert</thema>: <dozent><grad>D. ph.</grad>
+          Jahrhundert</thema>: <dozent ref="holz_g"><grad>D. ph.</grad>
           <nachname>Holz</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mont., Mittw. u. Donnerst. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2410,8 +2415,8 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Aelteste germanische Kultur</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Holz</nachname>, <funktion>P.
-          E.</funktion></dozent> <siehe>Siehe Abschnitt
+          <dozent ref="holz_g"><grad>D. ph.</grad> <nachname>Holz</nachname>,
+          <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Jean Paul als Dichter und
@@ -2453,7 +2458,7 @@
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung><thema>Mittelhochdeutsche Uebungen (Hartmanns
-          Iwein)</thema>: <dozent><grad>D. ph.</grad>
+          Iwein)</thema>: <dozent ref="holz_g"><grad>D. ph.</grad>
           <nachname>Holz</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Sonnab. 3-4 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -2687,9 +2692,9 @@
         <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Aelteste germanische Kultur</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Holz</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Sonnab. 4-5 U.</zeit>,
+        <veranstaltung><thema>Aelteste germanische Kultur</thema>: <dozent
+        ref="holz_g"><grad>D. ph.</grad> <nachname>Holz</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Deutsche Geschichte im Zeitalter der Ottonen und
@@ -3382,8 +3387,8 @@
             <modus>privatim</modus>.</veranstaltung>
 
             <veranstaltung><thema>Landwirthschaftliches Rechnungswesen,
-            speciell doppelte Buchhaltung (Vorlesung)</thema>:
-            <dozent><grad>D. ph.</grad> <nachname>Howard</nachname>,
+            speciell doppelte Buchhaltung (Vorlesung)</thema>: <dozent
+            ref="howard_h"><grad>D. ph.</grad> <nachname>Howard</nachname>,
             <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. u. Freit.
             9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3424,9 +3429,10 @@
             <veranstaltungsverweis><thema>Das im Königreich Sachsen geltende
             Verwaltungsrecht <notiz betreff="fortsetzung">II. Theil</notiz> -
             Gewerberecht - Das Recht der Kranken-, Unfall- und
-            Invaliditäts-Versicherung</thema>: <dozent><grad>D. jur.</grad>
-            <nachname>Häpe</nachname>, <funktion>P. E.</funktion></dozent>
-            <siehe>Siehe Juristische Facultät.</siehe></veranstaltungsverweis>
+            Invaliditäts-Versicherung</thema>: <dozent ref="haepe_g"><grad>D.
+            jur.</grad> <nachname>Häpe</nachname>, <funktion>P.
+            E.</funktion></dozent> <siehe>Siehe Juristische
+            Facultät.</siehe></veranstaltungsverweis>
 
             <veranstaltungsverweis><thema>Repetitorium der anorganischen
             Chemie und Chemische Technologie <notiz
@@ -3503,8 +3509,8 @@
             <gebühr>gratis</gebühr>.</veranstaltung>
 
             <veranstaltung><thema>Praktikum für landwirthschaftliche doppelte
-            Buchhaltung (bei genügender Betheiligung)</thema>:
-            <dozent><grad>D. ph.</grad> <nachname>Howard</nachname>,
+            Buchhaltung (bei genügender Betheiligung)</thema>: <dozent
+            ref="howard_h"><grad>D. ph.</grad> <nachname>Howard</nachname>,
             <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst.,
             Donnerst. u. Freit. 3-6 U.</zeit>,
             <modus>privatissime</modus>.</veranstaltung>
