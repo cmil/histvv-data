@@ -207,9 +207,9 @@
             Horaz</thema>, <zeit>4 U. 4 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Jahn</nachname>, <grad>M.</grad>
-            <vorname>J. C.</vorname></dozent>, <thema>über Ovid's
-            Heroiden</thema>, <zeit>2 T. in zu best. St.</zeit>
+            <veranstaltung><dozent ref="jahn_jc"><nachname>Jahn</nachname>,
+            <grad>M.</grad> <vorname>J. C.</vorname></dozent>, <thema>über
+            Ovid's Heroiden</thema>, <zeit>2 T. in zu best. St.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <sachgruppe>
@@ -224,7 +224,7 @@
             <sachgruppe>
               <titel>**) Geschichte der römischen Literatur.</titel>
 
-              <veranstaltung><dozent><nachname>Jahn</nachname>,
+              <veranstaltung><dozent ref="jahn_jc"><nachname>Jahn</nachname>,
               <grad>M.</grad> <vorname>J. C.</vorname></dozent>, <zeit>2 T. in
               zu best. St.</zeit>
               <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -278,8 +278,8 @@
 
             <seite>4</seite>
 
-            <veranstaltung><dozent><nachname>Jahn</nachname>, <grad>M.</grad>
-            <vorname>J. C.</vorname></dozent>,
+            <veranstaltung><dozent ref="jahn_jc"><nachname>Jahn</nachname>,
+            <grad>M.</grad> <vorname>J. C.</vorname></dozent>,
             <thema>Disputir-Uebungen</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
           </sachgruppe>
@@ -955,9 +955,10 @@
             Lehrbegriffs</thema>, <zeit>3 U. 4 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Höpfner</nachname>,
-            <grad>M.</grad> <vorname>E. F.</vorname></dozent>, <thema>über den
-            Br. Pauli an die Römer</thema>, <zeit>11 U. 4 T.</zeit>
+            <veranstaltung><dozent
+            ref="hoepfner_ef"><nachname>Höpfner</nachname>, <grad>M.</grad>
+            <vorname>E. F.</vorname></dozent>, <thema>über den Br. Pauli an
+            die Römer</thema>, <zeit>11 U. 4 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Theile</nachname>,
@@ -1022,8 +1023,9 @@
             Prim.</funktion></dozent>, <thema>Geschichte der evangelischen
             Kirche</thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P. O.
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>C. F.</vorname>, <funktion>P. O.
             des.</funktion></dozent>, <thema>von Christus bis auf Gregor VII.
             nach <gesperrt>Schmidt's</gesperrt> Lehrb. (2. Aufl. Gieß.
             1808.)</thema> <zeit>9 U. 6 T. u. 11 U. 2 T.</zeit> (<thema><notiz
@@ -1056,8 +1058,9 @@
               <titel>*) Examinatoria über <scil
               text="christliche Kirchengeschichte">dieselbe</scil>.</titel>
 
-              <veranstaltung><dozent><nachname>Höpfner</nachname>,
-              <grad>M.</grad> <vorname>E. F.</vorname></dozent>, <zeit>5 U. 4
+              <veranstaltung><dozent
+              ref="hoepfner_ef"><nachname>Höpfner</nachname>, <grad>M.</grad>
+              <vorname>E. F.</vorname></dozent>, <zeit>5 U. 4
               T.</zeit></veranstaltung>
 
               <veranstaltung><dozent
@@ -1074,8 +1077,9 @@
           <sachgruppe>
             <titel>Christliche Dogmengeschichte.</titel>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P. O.
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>C. F.</vorname>, <funktion>P. O.
             des.</funktion></dozent>, <thema><notiz
             betreff="fortsetzung">Beschluß</notiz>, nach
             <gesperrt>Münscher's</gesperrt> Lehrb. (2. Aufl. Marburg
@@ -1108,8 +1112,9 @@
           <sachgruppe>
             <titel>Patristik.</titel>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P. O.
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>C. F.</vorname>, <funktion>P. O.
             des.</funktion></dozent>, <thema>allgemeine, nach s.
             Sätzen</thema>, <zeit>11 U. Dienst. u. Freit.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
@@ -1117,19 +1122,19 @@
             <sachgruppe>
               <titel>*) Erklärung der Kirchenväter.</titel>
 
-              <veranstaltung><ders>Derselbe</ders>, <thema>über <gesperrt>Joh.
-              Chrysostomus</gesperrt> vom Priesterthume, <notiz
-              betreff="fortsetzung">Fortsetzung</notiz> (nach der b. Tauchnitz
-              erschien. Ausg.)</thema> <zeit>in d. best.
-              St.</zeit></veranstaltung>
+              <veranstaltung><ders ref="illgen_cf">Derselbe</ders>,
+              <thema>über <gesperrt>Joh. Chrysostomus</gesperrt> vom
+              Priesterthume, <notiz betreff="fortsetzung">Fortsetzung</notiz>
+              (nach der b. Tauchnitz erschien. Ausg.)</thema> <zeit>in d.
+              best. St.</zeit></veranstaltung>
             </sachgruppe>
 
             <sachgruppe>
               <titel>**) Uebungen der historisch-theologischen
               Gesellschaft.</titel>
 
-              <veranstaltung><ders>Derselbe</ders>, <zeit>in den best.
-              St.</zeit></veranstaltung>
+              <veranstaltung><ders ref="illgen_cf">Derselbe</ders>, <zeit>in
+              den best. St.</zeit></veranstaltung>
             </sachgruppe>
           </sachgruppe>
         </sachgruppe>
@@ -1960,10 +1965,11 @@
             O.</funktion></dozent>, <thema>specielle Pathologie u. Therapie
             der Entzündungen</thema>, <zeit>10 U. 4 T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-            <vorname>J. E. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>über die Kinderkrankheiten, nach s. Handbuche (Lpz. b.
-            Cnobloch 1826.)</thema> <zeit>8 U. 2 T.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+            <grad>D.</grad> <vorname>J. E. G.</vorname>, <funktion>P.
+            O.</funktion></dozent>, <thema>über die Kinderkrankheiten, nach s.
+            Handbuche (Lpz. b. Cnobloch 1826.)</thema> <zeit>8 U. 2
+            T.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Wendler</nachname>,
             <grad>D.</grad> <vorname>C. A.</vorname>, <funktion>P.
@@ -2139,10 +2145,10 @@
           <sachgruppe>
             <titel>Entbindungskunst.</titel>
 
-            <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-            <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>nach s. Compendium</thema>, <zeit>8 U. 4 T.</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+            <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+            O.</funktion></dozent>, <thema>nach s. Compendium</thema>, <zeit>8
+            U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -2155,10 +2161,11 @@
           Jakobsspital</ort></thema>, <zeit>10 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-          <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>geburtshülfliche Klinik <ort>im Trierschen
-          Institute</ort></thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+          <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>geburtshülfliche Klinik <ort>im
+          Trierschen Institute</ort></thema>, <zeit>7 U. 6
+          T.</zeit></veranstaltung>
 
           <veranstaltung><dozent
           ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>

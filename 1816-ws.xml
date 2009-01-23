@@ -752,9 +752,10 @@ in der die Sachgruppentitel das Thema seien-->
             <sachgruppe>
               <titel>Uebersicht der Bücher des A. T.</titel>
 
-              <veranstaltung><dozent><funktion>P. E.</funktion>
-              <grad>D.</grad> <nachname>Höpfner</nachname></dozent>, <zeit>2
-              U. 2 T.</zeit> <modus>öff.</modus></veranstaltung>
+              <veranstaltung><dozent ref="hoepfner_jgc"><funktion>P.
+              E.</funktion> <grad>D.</grad>
+              <nachname>Höpfner</nachname></dozent>, <zeit>2 U. 2 T.</zeit>
+              <modus>öff.</modus></veranstaltung>
             </sachgruppe>
 
             <sachgruppe>
@@ -783,10 +784,11 @@ in der die Sachgruppentitel das Thema seien-->
               ausgewählte Psalmen</thema>, <zeit>1 U. Dienst. u. Freyt.</zeit>
               <modus>öffentl.</modus></veranstaltung>
 
-              <veranstaltung><dozent><funktion>P. E.</funktion>
-              <grad>D.</grad> <nachname>Höpfner</nachname></dozent>,
-              <thema>über das 1. B. der Könige, cursorisch</thema>, <zeit>10
-              U. 4 T.</zeit></veranstaltung>
+              <veranstaltung><dozent ref="hoepfner_jgc"><funktion>P.
+              E.</funktion> <grad>D.</grad>
+              <nachname>Höpfner</nachname></dozent>, <thema>über das 1. B. der
+              Könige, cursorisch</thema>, <zeit>10 U. 4
+              T.</zeit></veranstaltung>
 
               <veranstaltung><dozent><funktion>P. E.</funktion>
               <nachname>Plüschke</nachname></dozent>, <thema><notiz
@@ -798,9 +800,9 @@ in der die Sachgruppentitel das Thema seien-->
             <sachgruppe>
               <titel>β) Erklärung des N. T.</titel>
 
-              <veranstaltung><dozent>Domh. <grad>D.</grad> u. <funktion>P.
-              O.</funktion> <nachname>Keil</nachname></dozent>, <thema>über
-              das Evangelium Johannis, <notiz
+              <veranstaltung><dozent ref="keil_kag">Domh. <grad>D.</grad> u.
+              <funktion>P. O.</funktion> <nachname>Keil</nachname></dozent>,
+              <thema>über das Evangelium Johannis, <notiz
               betreff="fortsetzung">Forts.</notiz></thema>, <zeit>8 U. 4
               T.</zeit> <modus>öff.</modus></veranstaltung>
 
@@ -824,11 +826,12 @@ Müsste doch eigentlich Korinther heißen...-->
               über den gegenwärtigen Zustand der Kritik und Hermenutik des N.
               T.</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><funktion>P. E.</funktion>
-              <grad>D.</grad> <nachname>Höpfner</nachname></dozent>
-              <thema>wird die Leidensgeschichte Jesu erklären und ihre
-              Nutzanwenduung auf der Kanzel durch Beyspiele erläutern</thema>,
-              <zeit>10 U. 2 T.</zeit></veranstaltung>
+              <veranstaltung><dozent ref="hoepfner_jgc"><funktion>P.
+              E.</funktion> <grad>D.</grad>
+              <nachname>Höpfner</nachname></dozent> <thema>wird die
+              Leidensgeschichte Jesu erklären und ihre Nutzanwenduung auf der
+              Kanzel durch Beyspiele erläutern</thema>, <zeit>10 U. 2
+              T.</zeit></veranstaltung>
 
               <veranstaltung><dozent><funktion>P. E.</funktion>
               <nachname>Lindner</nachname></dozent>,
@@ -837,7 +840,7 @@ Müsste doch eigentlich Korinther heißen...-->
               Kirchen</thema>, <zeit>4 U. 4 T.</zeit>
               <modus>öffentl.</modus></veranstaltung>
 
-              <veranstaltung><dozent><grad>M.</grad>
+              <veranstaltung><dozent ref="illgen_cf"><grad>M.</grad>
               <nachname>Illgen</nachname></dozent>, <thema>über die Evangelien
               des Markus und Lukas</thema>,
               <modus>privatiss.</modus></veranstaltung>
@@ -845,8 +848,8 @@ Müsste doch eigentlich Korinther heißen...-->
               <sachgruppe>
                 <titel>Exegetisch-praktische Uebungen</titel>
 
-                <veranstaltung>stellen an <dozent>Domh. <funktion>P.
-                O.</funktion> <grad>D.</grad>
+                <veranstaltung>stellen an <dozent ref="keil_kag">Domh.
+                <funktion>P. O.</funktion> <grad>D.</grad>
                 <nachname>Keil</nachname></dozent>, <zeit>in noch zu best.
                 St.</zeit>, u.</veranstaltung>
 
@@ -855,7 +858,7 @@ Müsste doch eigentlich Korinther heißen...-->
                 U. Mont. u. Donn.</zeit>
                 <modus>privatiss.</modus></veranstaltung>
 
-                <veranstaltung><dozent><grad>M.</grad>
+                <veranstaltung><dozent ref="illgen_cf"><grad>M.</grad>
                 <nachname>Illgen</nachname></dozent> erklärt <thema>die
                 grössere Apologie Justins des Märtyrers und die Bittschrift
                 für die Christen von Athenagoras</thema>, <zeit>in den best.
@@ -898,17 +901,18 @@ Müsste doch eigentlich Korinther heißen...-->
             T.</zeit></veranstaltung>
 
             <veranstaltung><thema>Die christliche Dogmengeschichte</thema>
-            lehrt <dozent><grad>M.</grad> <nachname>Illgen</nachname></dozent>
-            <thema>nach "Münscher's Lehrbuch der christl. Dogmengeschichte"
-            (Marburg, 1811.)</thema> <zeit>in zu best. St. 4 T.</zeit>
+            lehrt <dozent ref="illgen_cf"><grad>M.</grad>
+            <nachname>Illgen</nachname></dozent> <thema>nach "Münscher's
+            Lehrbuch der christl. Dogmengeschichte" (Marburg, 1811.)</thema>
+            <zeit>in zu best. St. 4 T.</zeit>
             <gebühr>unentg.</gebühr></veranstaltung>
 
             <sachgruppe>
               <titel>Historisch-theologische Uebungen</titel>
 
-              <veranstaltung>stellt <ders>derselbe</ders> mit der histor.
-              theologischen Gesellschaft <zeit>in den best. St.</zeit>
-              an</veranstaltung>
+              <veranstaltung>stellt <ders ref="illgen_cf">derselbe</ders> mit
+              der histor. theologischen Gesellschaft <zeit>in den best.
+              St.</zeit> an</veranstaltung>
             </sachgruppe>
           </sachgruppe>
         </sachgruppe>
@@ -931,9 +935,10 @@ Müsste doch eigentlich Korinther heißen...-->
             <sachgruppe>
               <titel>bb) Ausführliche Abhandlung der Lehren.</titel>
 
-              <veranstaltung><dozent>Domh. <funktion>P. O.</funktion>
-              <grad>D.</grad> <nachname>Keil</nachname></dozent>, <thema>nach
-              s. Sätzen</thema>, <zeit>3 U. 6 T.</zeit> und <zeit>8 U. 2
+              <veranstaltung><dozent ref="keil_kag">Domh. <funktion>P.
+              O.</funktion> <grad>D.</grad>
+              <nachname>Keil</nachname></dozent>, <thema>nach s.
+              Sätzen</thema>, <zeit>3 U. 6 T.</zeit> und <zeit>8 U. 2
               T.</zeit></veranstaltung>
 
               <veranstaltung><dozent>Domh. <funktion>P. O.</funktion><seite>2021</seite>
@@ -957,7 +962,7 @@ Müsste doch eigentlich Korinther heißen...-->
               <nachname>Wolf</nachname></dozent>, <zeit>5 U. 4
               T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><grad>M.</grad>
+              <veranstaltung><dozent ref="illgen_cf"><grad>M.</grad>
               <nachname>Illgen</nachname></dozent> <zeit>zu bel. St. 4
               T.</zeit></veranstaltung>
             </sachgruppe>
@@ -1755,10 +1760,10 @@ Müsste doch eigentlich Korinther heißen...-->
               epidemische Krankheits-Constitution und besonders merkwürdige
               Fälle</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><funktion>P. O.</funktion>
-              <grad>D.</grad> <nachname>Jörg</nachname></dozent>, <thema>über
-              die Krankheiten der Weiber</thema>, <zeit>11 U. 2
-              T.</zeit></veranstaltung>
+              <veranstaltung><dozent ref="joerg_jcg"><funktion>P.
+              O.</funktion> <grad>D.</grad>
+              <nachname>Jörg</nachname></dozent>, <thema>über die Krankheiten
+              der Weiber</thema>, <zeit>11 U. 2 T.</zeit></veranstaltung>
 
               <veranstaltung><dozent ref="eisfeld_jfa"><funktion>P.
               E.</funktion> <grad>D.</grad>
@@ -1954,8 +1959,8 @@ Müsste doch eigentlich Korinther heißen...-->
           <sachgruppe>
             <titel>g) Chirurgie.</titel>
 
-            <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
-            <nachname>Jörg</nachname></dozent>, <zeit>2 U. 4
+            <veranstaltung><dozent ref="joerg_jcg"><funktion>P. O.</funktion>
+            <grad>D.</grad> <nachname>Jörg</nachname></dozent>, <zeit>2 U. 4
             T.</zeit></veranstaltung>
 
             <veranstaltungsgruppe><dozent><grad>D.</grad>
@@ -2018,11 +2023,11 @@ Müsste doch eigentlich Korinther heißen...-->
             <sachgruppe>
               <titel>bb) Anweisung zur Entbindungskunst.</titel>
 
-              <veranstaltungsgruppe><dozent><funktion>P. O.</funktion>
-              <grad>D.</grad> <nachname>Jörg</nachname></dozent>,
-              <veranstaltung><thema>nach s. Lehrbuche</thema>, <zeit>11 U. 4
-              T.</zeit></veranstaltung>; ingl.
-              <veranstaltung><thema>praktische Anweisung <ort>in der
+              <veranstaltungsgruppe><dozent ref="joerg_jcg"><funktion>P.
+              O.</funktion> <grad>D.</grad>
+              <nachname>Jörg</nachname></dozent>, <veranstaltung><thema>nach
+              s. Lehrbuche</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>;
+              ingl. <veranstaltung><thema>praktische Anweisung <ort>in der
               Trierschen Anstalt</ort></thema>, <zeit>8 U. 6 T.</zeit>
               <modus>öff.</modus></veranstaltung></veranstaltungsgruppe>
 

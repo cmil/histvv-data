@@ -186,14 +186,14 @@
         <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber Aristoteles' Politik, Buch 1 u. 2</thema>:
-        <dozent><nachname>Klotz</nachname>, <funktion>P.
+        <dozent ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit> <modus>privatim</modus>
         aber <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <trennlinie/>
 
-        <veranstaltung><thema>Lateinische Syntax</thema>:
-        <dozent><nachname>Klotz</nachname>, <funktion>P.
+        <veranstaltung><thema>Lateinische Syntax</thema>: <dozent
+        ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>4 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Erklärung der Satiren des Horaz</thema>:
@@ -202,12 +202,12 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung der Episteln des Horaz</thema>:
-        <dozent><nachname>Jahn</nachname>, <funktion>P. O.
+        <dozent ref="jahn_o"><nachname>Jahn</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. u. Freit.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung der Rede Cicero's für Milo</thema>:
-        <dozent><nachname>Klotz</nachname>, <funktion>P.
+        <dozent ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>2 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
@@ -236,10 +236,10 @@
           <zeit>Mittwochs von 5 Uhr an</zeit>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen des königl. philolog. Seminars im
-          Erklären von Horazens ausgewählten Briefen</thema>:
-          <dozent><nachname>Klotz</nachname>, <funktion>P. E.</funktion>,
-          <funktion>Reg. Semin. philol. Adiunct.</funktion></dozent>,
-          <zeit>Sonnab. von 5 U. an</zeit>,
+          Erklären von Horazens ausgewählten Briefen</thema>: <dozent
+          ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
+          E.</funktion>, <funktion>Reg. Semin. philol.
+          Adiunct.</funktion></dozent>, <zeit>Sonnab. von 5 U. an</zeit>,
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen der griechischen
@@ -265,9 +265,10 @@
           <gebühr>unentg.</gebühr></veranstaltung>
 
           <veranstaltung><thema>Uebungen seiner lateinischen
-          Gesellschaft</thema>: <dozent><nachname>Klotz</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>in zu best. St. u.
-          T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          Gesellschaft</thema>: <dozent
+          ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>in zu best. St. u. T.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen im Latein-Schreiben und
           Disputiren</thema>: <dozent><nachname>Stallbaum</nachname>,
@@ -440,8 +441,9 @@
         <titel>2. Alterthumskunde.</titel>
 
         <veranstaltung><thema>Geschichte der bildenden Kunst bei den
-        Alten</thema>: <dozent><nachname>Jahn</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>8 U. 4 T.</zeit></veranstaltung>
+        Alten</thema>: <dozent ref="jahn_o"><nachname>Jahn</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>8 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltungsgruppe><thema>Attische Staats- und
         Rechtsalterthümer</thema>: <dozent><nachname>Westermann</nachname>,
@@ -462,7 +464,7 @@
           <titel>Archäologische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen der archäol. Gesellschaft</thema>:
-          <dozent><nachname>Jahn</nachname>, <funktion>P. O.
+          <dozent ref="jahn_o"><nachname>Jahn</nachname>, <funktion>P. O.
           des.</funktion></dozent>, <zeit>Mont. von 5 U.
           an</zeit>.</veranstaltung>
         </sachgruppe>
@@ -1175,13 +1177,13 @@
         <titel>IV. Proceß.</titel>
 
         <veranstaltung><thema>Ordentlicher Civilproceß, gemeinen und sächs.
-        Rechts</thema>: <dozent><grad>D.</grad>
+        Rechts</thema>: <dozent ref="hoepfner_l"><grad>D.</grad>
         <nachname>Höpfner</nachname></dozent>, <zeit>6 T. in zu best.
         St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Summarische Processe, gemeinen und sächsisches
-        Rechts</thema>: <ders>Derselbe</ders>, <zeit>2 T. in zu best.
-        St.</zeit>, <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        Rechts</thema>: <ders ref="hoepfner_l">Derselbe</ders>, <zeit>2 T. in
+        zu best. St.</zeit>, <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Criminalproceß</thema>: <dozent
         ref="guenther_kf"><grad>D.</grad> <nachname>Günther</nachname>,
@@ -1226,7 +1228,8 @@
         <titel>VII. Concursrecht.</titel>
 
         <veranstaltung><thema>Concursrecht und Concursproceß, gemeinen und
-        sächsischen Rechts, nach s. Sätzen</thema>: <dozent><grad>D.</grad>
+        sächsischen Rechts, nach s. Sätzen</thema>: <dozent
+        ref="hoepfner_l"><grad>D.</grad>
         <nachname>Höpfner</nachname></dozent>, <zeit>3 T. in zu best.
         St.</zeit></veranstaltung>
       </sachgruppe>
@@ -1250,11 +1253,12 @@
         <veranstaltung><thema>Referir- u. Dekretirkunst, unter Mittheilung
         öffentlicher Acten und mit Rücksicht auf sein Buch: Zwölf Relationen
         nach verschiedenen Referirarten (Leipzig bei W. Kori, 1848)</thema>:
-        <dozent><grad>D.</grad> <nachname>Höpfner</nachname></dozent>, <zeit>3
-        T. in zu best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+        <dozent ref="hoepfner_l"><grad>D.</grad>
+        <nachname>Höpfner</nachname></dozent>, <zeit>3 T. in zu best.
+        St.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Civilproceßpraktikum</thema>:
-        <ders>Derselbe</ders>, <zeit>3 T. in zu best. St.</zeit>
+        <veranstaltung><thema>Civilproceßpraktikum</thema>: <ders
+        ref="hoepfner_l">Derselbe</ders>, <zeit>3 T. in zu best. St.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
 
@@ -1308,10 +1312,10 @@
         <titel>I. Propädeutik und Geschichte der Medicin.</titel>
 
         <veranstaltung><thema>Entwerfung und Auseinandersetzung des von den
-        Studirenden der Medicin zu befolgenden Studienplans</thema>:
-        <dozent><grad>D.</grad> <nachname>Jörg</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>6 U. Morg. in den ersten 6-8 Tagen des
-        Halbjahres</zeit>.</veranstaltung>
+        Studirenden der Medicin zu befolgenden Studienplans</thema>: <dozent
+        ref="joerg_jcg"><grad>D.</grad> <nachname>Jörg</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>6 U. Morg. in den ersten
+        6-8 Tagen des Halbjahres</zeit>.</veranstaltung>
 
         <veranstaltung><thema>Encyklopädie und Methodologie der
         Medicin</thema>: <dozent><grad>D.</grad>
@@ -1555,7 +1559,7 @@
         <titel>VIII. Geburtshilfe.</titel>
 
         <veranstaltungsgruppe><thema>Geburtshilfe, nach s. Handbuche der
-        Geburtshilfe</thema>: <dozent><grad>D.</grad>
+        Geburtshilfe</thema>: <dozent ref="joerg_jcg"><grad>D.</grad>
         <nachname>Jörg</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>8 U.</zeit>, <veranstaltung><zeit>4 T.</zeit>
         <modus>öffentlich</modus></veranstaltung> und <veranstaltung><zeit>2
@@ -1563,7 +1567,7 @@
         <modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Einübungen der geburtshilflichen Operationen am
-        Phantom</thema>: <ders>Derselbe</ders>, <zeit>2 U. 2
+        Phantom</thema>: <ders ref="joerg_jcg">Derselbe</ders>, <zeit>2 U. 2
         T.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -1590,9 +1594,10 @@
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Geburtshilfliche Klinik <ort>in der königlichen
-        Entbindungsschule im Trier'schen Institute</ort></thema>:
-        <dozent><grad>D.</grad> <nachname>Jörg</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>7 U. 6 T.</zeit></veranstaltung>
+        Entbindungsschule im Trier'schen Institute</ort></thema>: <dozent
+        ref="joerg_jcg"><grad>D.</grad> <nachname>Jörg</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>7 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Klinik</thema>: <dozent
         ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,

@@ -307,9 +307,9 @@
       <vorname>C. F.</vorname></dozent>, <thema>empir. Psychologie</thema>,
       <zeit>2 T. in zu best. St.</zeit></veranstaltung>
 
-      <veranstaltung><dozent><nachname>Klotz</nachname>, <grad>M.</grad>
-      <vorname>E.</vorname></dozent>, <thema>empirische Psychologie n. s.
-      Sätzen</thema>, <zeit>11 U. 2 T.</zeit>
+      <veranstaltung><dozent ref="klotz_e"><nachname>Klotz</nachname>,
+      <grad>M.</grad> <vorname>E.</vorname></dozent>, <thema>empirische
+      Psychologie n. s. Sätzen</thema>, <zeit>11 U. 2 T.</zeit>
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <sachgruppe>
@@ -442,9 +442,9 @@
 
         <seite>6</seite>
 
-        <veranstaltung><dozent><nachname>Klotz</nachname>, <grad>M.</grad>
-        <vorname>E.</vorname></dozent>, <thema>philsoph. Disputatorium und
-        Examinatorium</thema> <zeit>in zu best. St.</zeit>
+        <veranstaltung><dozent ref="klotz_e"><nachname>Klotz</nachname>,
+        <grad>M.</grad> <vorname>E.</vorname></dozent>, <thema>philsoph.
+        Disputatorium und Examinatorium</thema> <zeit>in zu best. St.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
@@ -615,10 +615,10 @@
     <sachgruppe>
       <titel>12) Schöne Künste.</titel>
 
-      <veranstaltung><dozent><nachname>Klotz</nachname>, <grad>M.</grad>
-      <vorname>E.</vorname></dozent>, <thema>Poetik n. s. Sätzen, nebst
-      Beispielen, Geschichte und Erklärung ausgewählter Gedichte</thema>,
-      <zeit>11 U. 4 T.</zeit></veranstaltung>
+      <veranstaltung><dozent ref="klotz_e"><nachname>Klotz</nachname>,
+      <grad>M.</grad> <vorname>E.</vorname></dozent>, <thema>Poetik n. s.
+      Sätzen, nebst Beispielen, Geschichte und Erklärung ausgewählter
+      Gedichte</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltungsgruppe><dozent><nachname>Kerndörffer</nachname>,
       <grad>M.</grad> <vorname>H. A.</vorname>, <funktion>Lect.
@@ -723,7 +723,8 @@
         <thema>über die Evang. des Matthäus und Markus, Anfang des exeg.
         Cursus</thema>, <zeit>8 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><dozent><nachname>Höpfner</nachname>, <grad>D.</grad>
+        <veranstaltung><dozent
+        ref="hoepfner_jgc"><nachname>Höpfner</nachname>, <grad>D.</grad>
         <vorname>J. G. C.</vorname>, <funktion>Phil. P. E.
         des.</funktion></dozent>, <thema>über das Evangelium des
         Markus</thema>, <zeit>11 U. Mont. u. Donnerst.</zeit></veranstaltung>
@@ -822,8 +823,8 @@
         <grad>D.</grad> <vorname>H. G.</vorname>, <funktion>P.
         O.</funktion></dozent>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><dozent><nachname>Illgen</nachname>, <vorname>C.
-        F.</vorname>, <funktion>Phil. P. E. des., Theol.
+        <veranstaltung><dozent ref="illgen_cf"><nachname>Illgen</nachname>,
+        <vorname>C. F.</vorname>, <funktion>Phil. P. E. des., Theol.
         Bacc.</funktion></dozent>, <thema>nach Schmidt's Lehrbuch (2. Afl.
         Gießen 1808.) <notiz betreff="fortsetzung">Forts</notiz>.</thema>
         <zeit>10 U. 6 T.</zeit></veranstaltung>
@@ -832,17 +833,18 @@
       <sachgruppe>
         <titel>Dogmengeschichte.</titel>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>n. Münscher's Lehrbuch
-        (2. Afl. Marburg 1819) von der mittlern bis auf die neueste
-        Zeit</thema>, <zeit>3 U. 4 T.</zeit>, <modus>öffentlich</modus> u.
+        <veranstaltung><ders ref="illgen_cf">Derselbe</ders>, <thema>n.
+        Münscher's Lehrbuch (2. Afl. Marburg 1819) von der mittlern bis auf
+        die neueste Zeit</thema>, <zeit>3 U. 4 T.</zeit>,
+        <modus>öffentlich</modus> u.
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
         <titel>Patristik.</titel>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Erklärung der
-        Kirchengeschichte des Eusebius (n. Zimmermanns Ausgabe)</thema>
+        <veranstaltung><ders ref="illgen_cf">Derselbe</ders>, <thema>Erklärung
+        der Kirchengeschichte des Eusebius (n. Zimmermanns Ausgabe)</thema>
         <zeit>in den best. Stunden.</zeit></veranstaltung>
 
         <veranstaltung><dozent
@@ -854,8 +856,8 @@
           <titel>*) Uebungen der historisch-theologischen
           Gesellschaft.</titel>
 
-          <veranstaltung><dozent><nachname>Illgen</nachname>, <vorname>C.
-          F.</vorname>, <funktion>Phil. P. E. Theol.
+          <veranstaltung><dozent ref="illgen_cf"><nachname>Illgen</nachname>,
+          <vorname>C. F.</vorname>, <funktion>Phil. P. E. Theol.
           Bacc.</funktion></dozent>, <zeit>in den best.
           St.</zeit></veranstaltung>
         </sachgruppe>
@@ -882,8 +884,9 @@
         O.</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltungsgruppe><dozent><nachname>Höpfner</nachname>,
-        <grad>D.</grad> <vorname>J. G. C.</vorname>, <funktion>Phil. P. E.
+        <veranstaltungsgruppe><dozent
+        ref="hoepfner_jgc"><nachname>Höpfner</nachname>, <grad>D.</grad>
+        <vorname>J. G. C.</vorname>, <funktion>Phil. P. E.
         des.</funktion></dozent>, <veranstaltung><thema><notiz
         betreff="fortsetzung">Forts. u. Beschluß</notiz></thema>, <zeit>11 U.
         2 T.</zeit> <modus>öffentlich</modus></veranstaltung>; ingl.
@@ -1455,10 +1458,10 @@
       betreff="fortsetzung">Forts.</notiz></thema> <zeit>3 U. 4 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-      <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-      <thema>über die Kinderkrankheiten</thema>, <zeit>8 U. 2
-      T.</zeit></veranstaltung>
+      <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+      <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+      O.</funktion></dozent>, <thema>über die Kinderkrankheiten</thema>,
+      <zeit>8 U. 2 T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Puchelt</nachname>, <grad>D.</grad>
       <vorname>F. A. B.</vorname>, <funktion>P. O. des.</funktion></dozent>,
@@ -1583,9 +1586,9 @@
     <sachgruppe>
       <titel>11) Entbindungskunst.</titel>
 
-      <veranstaltungsgruppe><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-      <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-      <veranstaltung><zeit>8 U. 4 T.</zeit>
+      <veranstaltungsgruppe><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+      <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+      O.</funktion></dozent>, <veranstaltung><zeit>8 U. 4 T.</zeit>
       <modus>öffentlich</modus></veranstaltung>. ingl.
       <veranstaltung><thema>geburtshülfliche Klinik <ort>im Trierschen
       Institute</ort></thema>, <zeit>7 U. 6

@@ -135,8 +135,8 @@
             lithographirten Tafeln</thema>, <zeit>9 U. Dienst. und
             Freit.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
-            <vorname>N.</vorname>, <funktion>P. E.</funktion>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
+            <vorname>R.</vorname>, <funktion>P. E.</funktion>,
             <funktion>Semin. philol. reg. Adiunct.</funktion></dozent>,
             <thema>über die Antigone des Sophokles</thema>, <zeit>3 U. Dienst.
             u. Freit.</zeit></veranstaltung>
@@ -150,8 +150,8 @@
             <thema>über Catull's kleinere Gedichte</thema>, <zeit>3 U. 2
             T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
-            <vorname>N.</vorname>, <funktion>P. E.</funktion>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
+            <vorname>R.</vorname>, <funktion>P. E.</funktion>,
             <funktion>Semin. philol. reg. Adiunct.</funktion></dozent>,
             <thema>über die Andrierin des Terenz</thema>, <zeit>3 U. Mont. u.
             Donn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -182,8 +182,8 @@
           <sachgruppe>
             <titel>Ueber lateinische Stilistik.</titel>
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
-            <vorname>N.</vorname>, <funktion>P. E.</funktion>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
+            <vorname>R.</vorname>, <funktion>P. E.</funktion>,
             <funktion>Semin. philol. reg. Adiunct.</funktion></dozent>,
             <zeit>3 U. Mittw. u. Sonnab.</zeit></veranstaltung>
           </sachgruppe>
@@ -227,21 +227,21 @@
             <thema>lateinische Disputir-Uebungen</thema>, <zeit>5 - 7 U.
             Sonnab.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
-            <vorname>N.</vorname>, <funktion>P. E.</funktion>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
+            <vorname>R.</vorname>, <funktion>P. E.</funktion>,
             <funktion>Semin. philol. reg. Adiunct.</funktion></dozent>,
             <thema>Uebungen der Mitglieder des königl. philol. Semin. in
             fortgesetzter Erklärung des 2. Buchs von Virgil's Aeneis</thema>,
             <zeit>in den best. St.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Uebungen der philol.
-            Abtheilung der Lausitzer Prediger-Gesellschaft in fortgesetzter
-            Erklärung von Pindar's Oden</thema>, <zeit>in den best.
-            St.</zeit></veranstaltung>
+            <veranstaltung><ders ref="klotz_r">Derselbe</ders>,
+            <thema>Uebungen der philol. Abtheilung der Lausitzer
+            Prediger-Gesellschaft in fortgesetzter Erklärung von Pindar's
+            Oden</thema>, <zeit>in den best. St.</zeit></veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Uebungen im
-            Latein-Schreiben und Sprechen</thema>,
+            <veranstaltung><ders ref="klotz_r">Derselbe</ders>,
+            <thema>Uebungen im Latein-Schreiben und Sprechen</thema>,
             <modus>privatissime</modus>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -1163,14 +1163,14 @@
           <sachgruppe>
             <titel>Christliche Kirchengeschichte.</titel>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>E. F.</vorname>, <funktion>P.
-            O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <thema>Geschichte der christlichen Kirche, erster Theil, von Jesus
-            bis auf Gregor VII.,<seite>12</seite> nach
-            <gesperrt>Schmidt's</gesperrt> Lehrbuche (3. Aufl. Gießen
-            1827)</thema>, <zeit>9 U. 6 T. u. 11 U. 2
-            T.</zeit></veranstaltung>
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>E. F.</vorname>, <funktion>P. O.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <thema>Geschichte der
+            christlichen Kirche, erster Theil, von Jesus bis auf Gregor
+            VII.,<seite>12</seite> nach <gesperrt>Schmidt's</gesperrt>
+            Lehrbuche (3. Aufl. Gießen 1827)</thema>, <zeit>9 U. 6 T. u. 11 U.
+            2 T.</zeit></veranstaltung>
 
             <veranstaltung><dozent
             ref="niedner_cw"><nachname>Niedner</nachname>, <grad>D.</grad>
@@ -1212,22 +1212,23 @@
           <sachgruppe>
             <titel>Patristik.</titel>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>E. F.</vorname>, <funktion>P.
-            O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <thema>Darstellung des Lebens, der Lehre und der Schriften der
-            apostolischen Väter</thema>, <zeit>3 U. 2 T.</zeit>
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>E. F.</vorname>, <funktion>P. O.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <thema>Darstellung des
+            Lebens, der Lehre und der Schriften der apostolischen
+            Väter</thema>, <zeit>3 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
             <titel>Historisch-theologische Gesellschaft.</titel>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>E. F.</vorname>, <funktion>P.
-            O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <zeit>in den best. St.</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>E. F.</vorname>, <funktion>P. O.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <zeit>in den best.
+            St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -1840,12 +1841,13 @@
             Grundsätze der Referirkunst</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Höpfner</nachname>,
-            <grad>D.</grad> <vorname>L.</vorname></dozent>, <thema>Referir-
-            und Decretirkunst nach seinen b. Güntz erschienenen Schriften:
-            <gesperrt>Leitfaden etc.</gesperrt> und <gesperrt>Zwölf Relationen
-            etc.</gesperrt>, unter Mittheilung öffentlicher Acten</thema>,
-            <zeit>11 U. 3 T.</zeit></veranstaltung>
+            <veranstaltung><dozent
+            ref="hoepfner_l"><nachname>Höpfner</nachname>, <grad>D.</grad>
+            <vorname>L.</vorname></dozent>, <thema>Referir- und Decretirkunst
+            nach seinen b. Güntz erschienenen Schriften: <gesperrt>Leitfaden
+            etc.</gesperrt> und <gesperrt>Zwölf Relationen etc.</gesperrt>,
+            unter Mittheilung öffentlicher Acten</thema>, <zeit>11 U. 3
+            T.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -2272,16 +2274,17 @@
         <sachgruppe>
           <titel>6) Entbindungskunst.</titel>
 
-          <veranstaltungsgruppe><dozent><nachname>Jörg</nachname>,
-          <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema>n. s. Compendium</thema>,
-          <veranstaltung><zeit>9 U. 4 T.</zeit> <modus>öffentlich</modus>,
-          </veranstaltung>und <veranstaltung><zeit>9 U. 2 T.</zeit>
+          <veranstaltungsgruppe><dozent
+          ref="joerg_jcg"><nachname>Jörg</nachname>, <grad>D.</grad>
+          <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema>n. s. Compendium</thema>, <veranstaltung><zeit>9 U. 4
+          T.</zeit> <modus>öffentlich</modus>, </veranstaltung>und
+          <veranstaltung><zeit>9 U. 2 T.</zeit>
           <modus>privatim</modus>.</veranstaltung></veranstaltungsgruppe>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>Anleitung zu
-          geburtshilflichen Operationen</thema>, <zeit>in zu best. St.</zeit>
-          <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung><ders ref="joerg_jcg">Derselbe</ders>,
+          <thema>Anleitung zu geburtshilflichen Operationen</thema>, <zeit>in
+          zu best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -2299,10 +2302,11 @@
           königlichen klin. Institute im Jacobshospitale</ort>, <zeit>9 - 11
           U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-          <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>geburtshilfliche Klinik</thema> <ort>im Trierschen
-          Institute</ort>, <zeit>8 U. 6 T.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+          <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>geburtshilfliche Klinik</thema>
+          <ort>im Trierschen Institute</ort>, <zeit>8 U. 6
+          T.</zeit></veranstaltung>
 
           <veranstaltung><dozent
           ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>

@@ -163,7 +163,7 @@
 
             <!--gehört "erstes Buch" mit zum Titel?-->
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
             <vorname>R.</vorname>, <funktion>P. E.</funktion></dozent>,
             <thema>über eine <schrift>beliebige Rede
             <autor>Cicero</autor>'s</schrift></thema>, <zeit>in zu best.
@@ -189,8 +189,8 @@
             <sachgruppe>
               <titel>*) Lateinische Syntax.</titel>
 
-              <veranstaltung><dozent><nachname>Klotz</nachname>,
-              <vorname>R.</vorname>, <funktion>P. O.</funktion></dozent>,
+              <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
+              <vorname>R.</vorname>, <funktion>P. E.</funktion></dozent>,
               <thema>über schwierigere Stellen <scil
               text="der lateinischen Syntax">derselben</scil> (vom
               <antiqua>Verbum</antiqua>)</thema>, <zeit>2 U. 2 T.</zeit>
@@ -219,7 +219,7 @@
             <thema>Uebungen im Schreiben und Disputiren</thema>, <zeit>4 U. 2
             T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
             <vorname>R.</vorname>, <funktion>P. E.</funktion></dozent>,
             <thema>Uebungen im Latein-Schreiben und Sprechen</thema>, <zeit>in
             zu best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
@@ -1083,7 +1083,8 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl.
 Auszeichnung ist aber nicht möglich, 
 daher kann auch kein Titel ausgezeichnet werden-->
 
-            <veranstaltung><dozent><nachname>Höpfner</nachname>, <vorname>E.
+            <veranstaltung><dozent
+            ref="hoepfner_ef"><nachname>Höpfner</nachname>, <vorname>E.
             F.</vorname>, <funktion>Theol. Bacc., Philos. P.
             E.</funktion></dozent>, <thema>Erklärung auserlesener
             <schrift><titel>Psalmen</titel></schrift></thema>, <zeit>11 U. 2
@@ -1156,7 +1157,8 @@ Philipper, Kolosser und Thessalonier gelten.--></veranstaltung>
             T.</zeit><!--Auszeichnung "Scrift" mit mehreren "Titeln" nicht möglich, 
 siehe oben--></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Höpfner</nachname>, <vorname>E.
+            <veranstaltung><dozent
+            ref="hoepfner_ef"><nachname>Höpfner</nachname>, <vorname>E.
             F.</vorname>, <funktion>Theol. Bacc., Philos. P.
             E.</funktion></dozent>, <thema>Erklärung des
             <schrift><titel>Evang. Lucä</titel></schrift></thema>, <zeit>11 U.
@@ -1217,13 +1219,13 @@ siehe oben--></veranstaltung>
           <sachgruppe>
             <titel>Christliche Kirchengeschichte.</titel>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P.
-            O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
-            <thema>den <schrift>ersten Theil, von Jesus bis zu Gregor VII.,
-            nach <autor>Schmidt</autor>'s Lehrb. (3. Aufl. Gießen,
-            1827.)</schrift></thema>, <zeit>9 U. 6 T.</zeit> u. <zeit>11 U. 2
-            T.</zeit></veranstaltung>
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>C. F.</vorname>, <funktion>P. O.</funktion>, d. Z.
+            <funktion>Dech.</funktion></dozent>, <thema>den <schrift>ersten
+            Theil, von Jesus bis zu Gregor VII., nach <autor>Schmidt</autor>'s
+            Lehrb. (3. Aufl. Gießen, 1827.)</schrift></thema>, <zeit>9 U. 6
+            T.</zeit> u. <zeit>11 U. 2 T.</zeit></veranstaltung>
 
             <veranstaltung><dozent
             ref="schuffenhauer_jca"><nachname>Schuffenhauer</nachname>,
@@ -1241,7 +1243,8 @@ siehe oben--></veranstaltung>
             <sachgruppe>
               <titel>*) Examinatorium über Kirchengeschichte.</titel>
 
-              <veranstaltung><dozent><nachname>Höpfner</nachname>, <vorname>E.
+              <veranstaltung><dozent
+              ref="hoepfner_ef"><nachname>Höpfner</nachname>, <vorname>E.
               F.</vorname>, <funktion>Theol. Bacc., Philos. P.
               E.</funktion></dozent>, <zeit>5 U. 4 T.</zeit></veranstaltung>
             </sachgruppe>
@@ -1262,12 +1265,13 @@ siehe oben--></veranstaltung>
           <sachgruppe>
             <titel>Christliche Dogmengeschichte.</titel>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P.
-            O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
-            <thema>nach <schrift><autor>Münscher</autor>'s Lehrbuche (3.
-            Auflage. v. Dan. v. Cölln, Cassel 1832.)</schrift></thema>,
-            <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>C. F.</vorname>, <funktion>P. O.</funktion>, d. Z.
+            <funktion>Dech.</funktion></dozent>, <thema>nach
+            <schrift><autor>Münscher</autor>'s Lehrbuche (3. Auflage. v. Dan.
+            v. Cölln, Cassel 1832.)</schrift></thema>, <zeit>11 U. 4 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltungsverweis><dozent><nachname>Winer</nachname>,
             <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
@@ -1278,10 +1282,11 @@ siehe oben--></veranstaltung>
           <sachgruppe>
             <titel>*) Historisch-theologische Gesellschaft.</titel>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P.
-            O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>in
-            den best. St.</zeit></veranstaltung>
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>C. F.</vorname>, <funktion>P. O.</funktion>, d. Z.
+            <funktion>Dech.</funktion></dozent>, <zeit>in den best.
+            St.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -2436,10 +2441,10 @@ Veranstaltung.--></veranstaltung>
             <thema>über den schwarzen Staar</thema>, <zeit>11 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-            <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>über die Weiberkrankheiten</thema>, <zeit>6 U. 2 T.
-            Vorm.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+            <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+            O.</funktion></dozent>, <thema>über die Weiberkrankheiten</thema>,
+            <zeit>6 U. 2 T. Vorm.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Radius</nachname>,
             <grad>D.</grad> <vorname>J.</vorname>, <funktion>P.
@@ -2510,14 +2515,15 @@ Veranstaltung.--></veranstaltung>
         <sachgruppe>
           <titel>6) Entbindungskunst.</titel>
 
-          <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-          <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>n. s. Handb. der Geburtshülfe (2. Aufl. Lpz. 1820.)</thema>,
-          <zeit>6 U. 4 T. Vorm.</zeit> <modus>öffentl.</modus></veranstaltung>
+          <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+          <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>n. s. Handb. der Geburtshülfe (2.
+          Aufl. Lpz. 1820.)</thema>, <zeit>6 U. 4 T. Vorm.</zeit>
+          <modus>öffentl.</modus></veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>Anleitung zu
-          Operationen</thema>, <zeit>in zu best. St.</zeit>
-          <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung><ders ref="joerg_jcg">Derselbe</ders>,
+          <thema>Anleitung zu Operationen</thema>, <zeit>in zu best.
+          St.</zeit> <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -2535,10 +2541,11 @@ Veranstaltung.--></veranstaltung>
           Jakobsspitale</ort></thema>, <zeit>von 9 - 11 U. 6 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-          <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>geburtshülfliche Klinik <ort>im Trierschen
-          Institute</ort></thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+          <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>geburtshülfliche Klinik <ort>im
+          Trierschen Institute</ort></thema>, <zeit>7 U. 6
+          T.</zeit></veranstaltung>
 
           <veranstaltung><dozent
           ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>

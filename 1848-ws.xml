@@ -180,7 +180,7 @@
         O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Erklärung von Lucians Hahn oder Traum</thema>:
-        <dozent><nachname>Klotz</nachname>, <funktion>P.
+        <dozent ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit> <modus>privatim</modus>
         aber <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -196,8 +196,8 @@
         <zeit>11 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Erklärung von Virgil's Gedicht über den
-        Landbau</thema>: <dozent><nachname>Klotz</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>2 U. 2 T.</zeit>
+        Landbau</thema>: <dozent ref="klotz_r"><nachname>Klotz</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>2 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung der Satiren des Horaz</thema>:
@@ -205,8 +205,8 @@
         E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber Cicero's Brutus</thema>:
-        <dozent><nachname>Jahn</nachname>, <funktion>P. O.
+        <veranstaltung><thema>Ueber Cicero's Brutus</thema>: <dozent
+        ref="jahn_o"><nachname>Jahn</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>8 U. 3 T. (Dienst. Donnerst. u.
         Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -227,10 +227,10 @@
 
           <veranstaltung><thema>Uebungen des königl. philolog. Seminars im
           Erklären von den Briefen des Horaz (<notiz
-          betreff="fortsetzung">Fortsetzung</notiz>)</thema>:
-          <dozent><nachname>Klotz</nachname>, <funktion>P. E.</funktion>,
-          <funktion>Reg. Semin. philol. Adiunct.</funktion></dozent>,
-          <zeit>Sonnab. von 5 U. an</zeit>,
+          betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent
+          ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
+          E.</funktion>, <funktion>Reg. Semin. philol.
+          Adiunct.</funktion></dozent>, <zeit>Sonnab. von 5 U. an</zeit>,
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen der griechischen
@@ -248,7 +248,8 @@
           <veranstaltung><thema>Uebungen seiner lateinischen
           Privatgesellschaft in Behandlung auserwählter Stücke der
           lateinischen Grammatik, unter selbstthätiger Theilnahme der
-          Mitglieder</thema>: <dozent><nachname>Klotz</nachname>, <funktion>P.
+          Mitglieder</thema>: <dozent
+          ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>in zu best. St. u. T.</zeit>
           <modus>privatissime</modus> aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -426,8 +427,9 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der bildenden Kunst bei den
-        Alten</thema>: <dozent><nachname>Jahn</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
+        Alten</thema>: <dozent ref="jahn_o"><nachname>Jahn</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>12 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Der Attischen Staats- und Rechtsalterthümer
         <notiz betreff="fortsetzung">zweiter Theil</notiz></thema>:
@@ -448,7 +450,7 @@
           <titel>Archäologische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen der archäol. Gesellschaft</thema>:
-          <dozent><nachname>Jahn</nachname>, <funktion>P. O.
+          <dozent ref="jahn_o"><nachname>Jahn</nachname>, <funktion>P. O.
           des.</funktion></dozent>, <zeit>Mont. von 5 U.
           an</zeit>.</veranstaltung>
         </sachgruppe>
@@ -1240,7 +1242,7 @@
         Ord.</funktion></dozent>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Gemeiner und sächs. Civilproceß, nach s.
-        Sätzen</thema>: <dozent><grad>D.</grad>
+        Sätzen</thema>: <dozent ref="hoepfner_l"><grad>D.</grad>
         <nachname>Höpfner</nachname></dozent>, <zeit>in zu best. T. u.
         St.</zeit></veranstaltung>
 
@@ -1507,7 +1509,7 @@
         <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber Kinderkrankheiten, nach seinem, 1836 neu
-        aufgelegten Handbuche</thema>: <dozent><grad>D.</grad>
+        aufgelegten Handbuche</thema>: <dozent ref="joerg_jcg"><grad>D.</grad>
         <nachname>Jörg</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 4 T.</zeit></veranstaltung>
 
@@ -1585,12 +1587,13 @@
         <veranstaltung><thema>Geburtshilfe, nach s. Handbuche der Geburtshilfe
         (3. Aufl. Lpz. 1833) und nach dem von ihm 1835 herausgegebenen
         Handbuche der spec. Therapie für Aerzte am Geburtsbette</thema>:
-        <dozent><grad>D.</grad> <nachname>Jörg</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>7 U. 6 T.</zeit></veranstaltung>
+        <dozent ref="joerg_jcg"><grad>D.</grad> <nachname>Jörg</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>7 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Einübungen der geburtshilflichen Operationen am
-        Phantom</thema>: <ders>Derselbe</ders>, <zeit>2 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Phantom</thema>: <ders ref="joerg_jcg">Derselbe</ders>, <zeit>2 U. 2
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -1610,9 +1613,10 @@
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Geburtshilfliche Klinik <ort>in der königlichen
-        Entbindungsschule im Trier'schen Institute</ort></thema>:
-        <dozent><grad>D.</grad> <nachname>Jörg</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>8 U. 6 T.</zeit></veranstaltung>
+        Entbindungsschule im Trier'schen Institute</ort></thema>: <dozent
+        ref="joerg_jcg"><grad>D.</grad> <nachname>Jörg</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>8 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Chirurgische Klinik</thema>: <dozent
         ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,

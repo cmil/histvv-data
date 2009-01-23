@@ -274,10 +274,10 @@
           <titel>Lateinische Sprache.</titel>
 
           <veranstaltung><thema>Lateinische Stilistik, mit Hinzufügung eines
-          lateinischen Antibarbarus</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Klotz</nachname>, <funktion>P. O.</funktion>, d. Z.
-          <funktion>Dech.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. u.
-          Freit.)</zeit></veranstaltung>
+          lateinischen Antibarbarus</thema>: <dozent ref="klotz_r"><grad>D.
+          ph.</grad> <nachname>Klotz</nachname>, <funktion>P. O.</funktion>,
+          d. Z. <funktion>Dech.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst.
+          u. Freit.)</zeit></veranstaltung>
 
           <trennlinie/>
 
@@ -288,18 +288,20 @@
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Ueber Cicero's Rede pro Caccina, mit
-          besonderer Rücksicht auf das Römische Gerichtswesen</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Klotz</nachname>, <funktion>P.
-          O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>12
-          U. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
+          besonderer Rücksicht auf das Römische Gerichtswesen</thema>: <dozent
+          ref="klotz_r"><grad>D. ph.</grad> <nachname>Klotz</nachname>,
+          <funktion>P. O.</funktion>, d. Z.
+          <funktion>Dech.</funktion></dozent>, <zeit>12 U. 2 T. (Mont. u.
+          Donn.)</zeit></veranstaltung>
 
           <veranstaltung><thema>Ueber Cicero's Disputationes
-          Tusculanae</thema>: <ders>Derselbe</ders>, <zeit>3 U. 2 T. (Mont. u.
-          Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          Tusculanae</thema>: <ders ref="klotz_r">Derselbe</ders>, <zeit>3 U.
+          2 T. (Mont. u. Donn.)</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Erklärung der Reden und Briefe aus den
-          Historien des Sallust</thema>: <ders>Derselbe</ders>, <siehe>s.
-          phil. Uebb.</siehe></veranstaltungsverweis>
+          Historien des Sallust</thema>: <ders ref="klotz_r">Derselbe</ders>,
+          <siehe>s. phil. Uebb.</siehe></veranstaltungsverweis>
 
           <veranstaltung><thema>Erklärung von Tacitus' Annalen IV.
           Buch</thema>: <dozent ref="nobbe_kfa"><grad>D. ph.</grad>
@@ -322,20 +324,20 @@
           <funktion>Sem. phil. Dir.</funktion></dozent></veranstaltung>, -
           <veranstaltung><thema>im Erklären der Reden und Briefe aus den
           Historien des Sallust (<notiz
-          betreff="fortsetzung">Forts.</notiz>)</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Klotz</nachname>, <funktion>P. O.</funktion>,
-          <funktion>Sem. phil. Dir.</funktion></dozent></veranstaltung> -
-          <veranstaltung><thema>im Erklären von Homer's Ilias</thema>: <dozent
-          ref="curtius_g"><grad>D. ph.</grad> <nachname>Curtius</nachname>,
+          betreff="fortsetzung">Forts.</notiz>)</thema>: <dozent
+          ref="klotz_r"><grad>D. ph.</grad> <nachname>Klotz</nachname>,
           <funktion>P. O.</funktion>, <funktion>Sem. phil.
-          Dir.</funktion></dozent></veranstaltung> - und <thema>im Disputiren
-          über schriftliche Aufsätze</thema> (unter abwechselnder Leitung
-          sämmtlicher <dozent>drei Directoren</dozent>) - : <zeit>Mittw. u.
-          Sonn. 11-1 U.</zeit>
+          Dir.</funktion></dozent></veranstaltung> - <veranstaltung><thema>im
+          Erklären von Homer's Ilias</thema>: <dozent ref="curtius_g"><grad>D.
+          ph.</grad> <nachname>Curtius</nachname>, <funktion>P. O.</funktion>,
+          <funktion>Sem. phil. Dir.</funktion></dozent></veranstaltung> - und
+          <thema>im Disputiren über schriftliche Aufsätze</thema> (unter
+          abwechselnder Leitung sämmtlicher <dozent>drei Directoren</dozent>)
+          - : <zeit>Mittw. u. Sonn. 11-1 U.</zeit>
           <modus>öffentlich</modus>.</veranstaltungsgruppe>
 
           <veranstaltung><thema>Lateinische Sprech- und
-          Schreibübungen</thema>: <dozent><grad>D. ph.</grad>
+          Schreibübungen</thema>: <dozent ref="klotz_r"><grad>D. ph.</grad>
           <nachname>Klotz</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>in zu best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
@@ -921,7 +923,7 @@
       <titel>A. Theologie.</titel>
 
       <veranstaltung><thema>Leitung der Uebungen einer theologischen
-      Gesellschaft</thema>: <dozent><grad>D.</grad>
+      Gesellschaft</thema>: <dozent ref="kahnis_kfa"><grad>D.</grad>
       <nachname>Kahnis</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mittw. 7-9 U. Ab.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1050,15 +1052,16 @@
         <titel>II. Historische Theologie.</titel>
 
         <veranstaltung><thema>Die Vorbereitung der alten Welt auf Jesum
-        Christum</thema>: <dozent><grad>D.</grad> <nachname>Kahnis</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Christum</thema>: <dozent ref="kahnis_kfa"><grad>D.</grad>
+        <nachname>Kahnis</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>12 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
-        <veranstaltung><thema>Kirchengeschichte</thema>:
-        <dozent><grad>D.</grad> <nachname>Kahnis</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>8 U. früh 6 Tage</zeit>.</veranstaltung>
+        <veranstaltung><thema>Kirchengeschichte</thema>: <dozent
+        ref="kahnis_kfa"><grad>D.</grad> <nachname>Kahnis</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>8 U. früh 6
+        Tage</zeit>.</veranstaltung>
 
         <trennlinie/>
 
@@ -1071,9 +1074,10 @@
       <sachgruppe>
         <titel>III. Systematische Theologie.</titel>
 
-        <veranstaltung><thema>Dogmatik</thema>: <dozent><grad>D.</grad>
-        <nachname>Kahnis</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>9 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Dogmatik</thema>: <dozent
+        ref="kahnis_kfa"><grad>D.</grad> <nachname>Kahnis</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Einleitung in die Dogmatik</thema>:
         <dozent><grad>D.</grad> <nachname>Luthardt</nachname>, <funktion>P.

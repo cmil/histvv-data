@@ -208,7 +208,7 @@
             <thema>Gedichte des Propertius</thema>, <zeit>3 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
             <vorname>R.</vorname>, <funktion>P. E.</funktion>, <funktion>Reg.
             Semin. philol. Adiunct.</funktion></dozent>, <thema>Erklärung von
             Cicero's Rede <gesperrt>Ueber sein Haus</gesperrt></thema>,
@@ -225,7 +225,7 @@
           <sachgruppe>
             <titel>Lateinische Stilistik.</titel>
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
             <vorname>R.</vorname>, <funktion>P. E.</funktion>, <funktion>Reg.
             Semin. philol. Adiunct.</funktion></dozent>, <zeit>3 U. Mont. und
             Donn.</zeit></veranstaltung>
@@ -244,7 +244,7 @@
             <veranstaltung><ders ref="hermann_jgj">Derselbe</ders>,
             <thema>Uebungen der Mitglieder des königl. philol. Seminars im
             Erklären von Aeschylus Prometheus und</thema> (unter nächster
-            Leitung des Herrn <dozent><funktion>Prof.</funktion>
+            Leitung des Herrn <dozent ref="klotz_r"><funktion>Prof.</funktion>
             <nachname>Klotz</nachname></dozent>) <thema>von Horazens Satiren,
             <notiz betreff="fortsetzung">Fortsetzung</notiz></thema>, <zeit>2
             T. von 5 U. an</zeit>, <modus>öffentlich</modus>.</veranstaltung>
@@ -260,7 +260,7 @@
             <thema>lateinische Disputir-Uebungen</thema>, <zeit>5-7 U.
             Mittw.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
             <vorname>R.</vorname>, <funktion>P. E.</funktion>, <funktion>Reg.
             Semin. philol. Adiunct.</funktion></dozent>, <thema>Uebungen der
             Mitglieder des königl. philol. Semin. in <notiz
@@ -268,16 +268,17 @@
             des Horatius</thema>, <zeit>in den best. St.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Uebungen der philol.
-            Abtheilung der lausitzer Prediger-Gesellschaft</thema>, <zeit>in
-            den best. St.</zeit></veranstaltung>
-
-            <veranstaltung><ders>Derselbe</ders>, <thema>Uebungen seiner
-            lateinischen Privatgesellschaft</thema>, <zeit>in den best.
+            <veranstaltung><ders ref="klotz_r">Derselbe</ders>,
+            <thema>Uebungen der philol. Abtheilung der lausitzer
+            Prediger-Gesellschaft</thema>, <zeit>in den best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Uebungen im
-            Latein-Schreiben und Sprechen</thema>,
+            <veranstaltung><ders ref="klotz_r">Derselbe</ders>,
+            <thema>Uebungen seiner lateinischen Privatgesellschaft</thema>,
+            <zeit>in den best. St.</zeit></veranstaltung>
+
+            <veranstaltung><ders ref="klotz_r">Derselbe</ders>,
+            <thema>Uebungen im Latein-Schreiben und Sprechen</thema>,
             <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung><dozent ref="haupt_m"><nachname>Haupt</nachname>,
@@ -1121,11 +1122,12 @@
           <sachgruppe>
             <titel>Christliche Kirchengeschichte.</titel>
 
-            <veranstaltungsgruppe><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <thema>Geschichte der christlichen Kirche,
-            <notiz betreff="fortsetzung">erster Theil</notiz>, von Jesus bis
-            auf Gregor VII., nach <gesperrt>Schmidt's</gesperrt> Lehrbuche (3.
+            <veranstaltungsgruppe><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>C. F.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <thema>Geschichte der christlichen Kirche, <notiz
+            betreff="fortsetzung">erster Theil</notiz>, von Jesus bis auf
+            Gregor VII., nach <gesperrt>Schmidt's</gesperrt> Lehrbuche (3.
             Aufl. Gießen, 1827)</thema>, <veranstaltung><zeit>11 U. 6
             T.</zeit></veranstaltung> u.
             <veranstaltung><modus>öffentlich</modus> <zeit>3 U. 2
@@ -1188,9 +1190,10 @@
           <sachgruppe>
             <titel>Historisch-theologische Gesellschaft.</titel>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <zeit>in den best. St.</zeit>
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>C. F.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <zeit>in den best. St.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -1751,7 +1754,8 @@
           <thema>summarische Proceßarten</thema>, <zeit>9 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Höpfner</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="hoepfner_l"><nachname>Höpfner</nachname>, <grad>D.</grad>
           <vorname>L.</vorname></dozent>, <thema>die Theorie der summarischen
           Processe, als <notiz betreff="fortsetzung">Fortsetzung</notiz>
           seiner im Sommerhalbjahre über den ordentlichen Proceß gehaltenen
@@ -1827,7 +1831,8 @@
           Gerichtsacten</thema>, <zeit>10 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Höpfner</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="hoepfner_l"><nachname>Höpfner</nachname>, <grad>D.</grad>
           <vorname>L.</vorname></dozent>, <zeit>3 T. in zu best.
           St.</zeit></veranstaltung>
         </sachgruppe>
@@ -2227,17 +2232,17 @@
         <sachgruppe>
           <titel>7) Entbindungskunst.</titel>
 
-          <veranstaltungsgruppe><dozent><nachname>Jörg</nachname>,
-          <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema>n. s. Compendium</thema>,
-          <veranstaltung><zeit>9 U. 4 T.</zeit>
-          <modus>öffentlich</modus></veranstaltung> und <veranstaltung><zeit>9
-          U. 2 T.</zeit>
+          <veranstaltungsgruppe><dozent
+          ref="joerg_jcg"><nachname>Jörg</nachname>, <grad>D.</grad>
+          <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema>n. s. Compendium</thema>, <veranstaltung><zeit>9 U. 4
+          T.</zeit> <modus>öffentlich</modus></veranstaltung> und
+          <veranstaltung><zeit>9 U. 2 T.</zeit>
           <modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>Uebungen in
-          geburtshilflichen Operationen</thema>, <zeit>2 T. in zu best.
-          St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung><ders ref="joerg_jcg">Derselbe</ders>,
+          <thema>Uebungen in geburtshilflichen Operationen</thema>, <zeit>2 T.
+          in zu best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -2254,8 +2259,9 @@
           königlichen klin. Institute im Jakobshospitale</ort></thema>,
           <zeit>9-11 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-          <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+          <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>,
           <thema>geburtshi<korrektur>l</korrektur>fliche Klinik <ort>in der
           königlichen Entbindungsschule</ort></thema>, <zeit>8 U. 6
           T.</zeit></veranstaltung>

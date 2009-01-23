@@ -63,8 +63,8 @@
     <sachgruppe fakultät="Theologie">
       <titel>I. Theologische Fakultät.</titel>
 
-      <veranstaltung><thema>Einleitung in das Alte Testament</thema>:
-      <dozent><grad>D. th. et ph.</grad> <nachname>Kittel</nachname>,
+      <veranstaltung><thema>Einleitung in das Alte Testament</thema>: <dozent
+      ref="kittel_r"><grad>D. th. et ph.</grad> <nachname>Kittel</nachname>,
       <funktion>P. O.</funktion></dozent>, <zeit>tägl. (ausser Mittw.) 12-1
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -78,8 +78,8 @@
       <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
       Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Erklärung der kleinen Propheten</thema>:
-      <dozent><grad>D. th. et ph.</grad> <nachname>Kittel</nachname>,
+      <veranstaltung><thema>Erklärung der kleinen Propheten</thema>: <dozent
+      ref="kittel_r"><grad>D. th. et ph.</grad> <nachname>Kittel</nachname>,
       <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
       Freit. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -129,10 +129,10 @@
       <zeit>Dienst. u. Freit. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Erklärung der Pastoralbriefe</thema>:
-      <dozent><grad>D. th.</grad> <nachname>Ihmels</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mittw. 11-12 u. Sonnab. 10-11 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Erklärung der Pastoralbriefe</thema>: <dozent
+      ref="ihmels_l"><grad>D. th.</grad> <nachname>Ihmels</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 11-12 u. Sonnab. 10-11
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Kirchengeschichte seit der Reformation</thema>:
       <dozent ref="hauck_a"><grad>D. th., jur. et ph.</grad>
@@ -174,20 +174,20 @@
       <zeit>tägl. (ausser Mittw.) 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Theologische Ethik</thema>: <dozent><grad>D.
-      th.</grad> <nachname>Ihmels</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>tägl. (ausser Mittw.) 11-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Theologische Ethik</thema>: <dozent
+      ref="ihmels_l"><grad>D. th.</grad> <nachname>Ihmels</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>tägl. (ausser Mittw.) 11-12
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Lehre von der christlichen Gewissheit (Grundlinien
-      der Apologetik)</thema>: <dozent><grad>D. th.</grad>
+      der Apologetik)</thema>: <dozent ref="ihmels_l"><grad>D. th.</grad>
       <nachname>Ihmels</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Unser Glaube an Jesus Christus</thema>:
-      <dozent><grad>D. th.</grad> <nachname>Ihmels</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mittw. 12-1 U.</zeit>,
+      <veranstaltung><thema>Unser Glaube an Jesus Christus</thema>: <dozent
+      ref="ihmels_l"><grad>D. th.</grad> <nachname>Ihmels</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 12-1 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Religionswissenschaft und Glaubenslehren (für
@@ -230,8 +230,8 @@
       <trennlinie/>
 
       <veranstaltungsgruppe><thema>AlttestamentlichesSeminar</thema>
-      (<ort>Universitätsstr. 13. III</ort>): <dozent><grad>D. th. et
-      ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
+      (<ort>Universitätsstr. 13. III</ort>): <dozent ref="kittel_r"><grad>D.
+      th. et ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
       O.</funktion></dozent>, a) <veranstaltung><thema>Abteilung für Anfänger:
       Hebräische Elementargrammatik als Vorbereitung auf das Hebraicum
       (Leiter: D. ph. Kramer)</thema>, <zeit>in noch zu best. Stunden</zeit>,
@@ -328,9 +328,10 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Seminar II für systematische Theologie (Paulinum
-      Treppe B I.) Christologie</thema>: <dozent><grad>D. th.</grad>
-      <nachname>Ihmels</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Dienst. 5-7 U.</zeit>, <modus>privatissime</modus>, aber
+      Treppe B I.) Christologie</thema>: <dozent ref="ihmels_l"><grad>D.
+      th.</grad> <nachname>Ihmels</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Dienst. 5-7 U.</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Dogmatische Gesellschaft (Besprechung
@@ -358,7 +359,7 @@
       aber <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Katechetische Übungen der Lausitzer
-      Predigergesellschaft</thema>: <dozent><grad>D. th.</grad>
+      Predigergesellschaft</thema>: <dozent ref="ihmels_l"><grad>D. th.</grad>
       <nachname>Ihmels</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Zeit nach Vereinbarung</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -390,9 +391,10 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Wissenschaftliche Übungen des Theologischen
-      Studentenvereins</thema>: <dozent><grad>D. th. et ph.</grad>
-      <nachname>Kittel</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>zu noch zu best. Zeit</zeit>, <modus>privatissime</modus>, aber
+      Studentenvereins</thema>: <dozent ref="kittel_r"><grad>D. th. et
+      ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>zu noch zu best. Zeit</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <seite>7</seite>
@@ -670,7 +672,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches bürgerliches Recht
-      (Sachenrecht)</thema>: <dozent><grad>D. jur.</grad>
+      (Sachenrecht)</thema>: <dozent ref="jaeger_e"><grad>D. jur.</grad>
       <nachname>Jaeger</nachname>, <funktion>P. O. des.</funktion></dozent>,
       <zeit>Mont. bis Donnerst. 3-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -777,9 +779,9 @@
       <zeit>Mont. bis Freit. 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Deutsches Zivilprozessrecht</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Jaeger</nachname>, <funktion>P.
-      O. des.</funktion></dozent>, <zeit>tägl. 12-1 U.</zeit>,
+      <veranstaltung><thema>Deutsches Zivilprozessrecht</thema>: <dozent
+      ref="jaeger_e"><grad>D. jur.</grad> <nachname>Jaeger</nachname>,
+      <funktion>P. O. des.</funktion></dozent>, <zeit>tägl. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Konkursprozess und summarische Prozesse
@@ -1073,9 +1075,9 @@
       <zeit>Mont., Mittw. u. Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>,
       <ort>im Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Die Theorien der Zeugung</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Kaestner</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. 6-7 U.</zeit>,
+      <veranstaltung><thema>Die Theorien der Zeugung</thema>: <dozent
+      ref="kaestner_s"><grad>D. med.</grad> <nachname>Kaestner</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont. 6-7 U.</zeit>,
       <modus>publice</modus>, <zeit>im Anatomischen Institut, Liebigstr.
       13</zeit>.</veranstaltung>
 
@@ -1140,7 +1142,7 @@
       Physiolog. Institut, Liebigstr. 16</zeit>.</veranstaltung>
 
       <veranstaltung><thema>Ausgewählte Kapitel der physikalischen Chemie, für
-      Mediziner</thema>: <dozent><grad>D. ph.</grad>
+      Mediziner</thema>: <dozent ref="beck_k"><grad>D. ph.</grad>
       <nachname>Beck</nachname></dozent>, <zeit>einstünd., an noch zu best.
       Tage</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f. angewandte
       Chemie, Brüderstr. 34</ort>.</veranstaltung>
@@ -2229,9 +2231,10 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Theologische Ethik. - Lehre von der
-        christlichen Gewissheit</thema>: <dozent><grad>D. th.</grad>
-        <nachname>Ihmels</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltungsverweis>
+        christlichen Gewissheit</thema>: <dozent ref="ihmels_l"><grad>D.
+        th.</grad> <nachname>Ihmels</nachname>, <funktion>P.
+        O.</funktion></dozent> <siehe>Siehe Theologische
+        Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Rechtsphilosophie in Grundzügen</thema>:
         <dozent><grad>D. jur. et ph.</grad>
@@ -2371,7 +2374,7 @@
 
         <veranstaltungsverweis><thema>Seminar <notiz
         betreff="fortsetzung">II</notiz> für systematische Theologie
-        (Christologie)</thema>: <dozent><grad>D. th.</grad>
+        (Christologie)</thema>: <dozent ref="ihmels_l"><grad>D. th.</grad>
         <nachname>Ihmels</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -2441,9 +2444,10 @@
           Zeit</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Die Rhetorik der Griechen und Römer</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Immisch</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
-          Freit. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="immisch_o"><grad>D. ph.</grad>
+          <nachname>Immisch</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Dienst., Donnerst. u. Freit. 3-4 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der griechischen Lyrik und
           Erklärung ausgewählter Gedichte von Pindar und Bakchylides</thema>:
@@ -2526,7 +2530,7 @@
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Philologisches Proseminar</thema>: 1)
-          <veranstaltungsgruppe><dozent><grad>D. ph.</grad>
+          <veranstaltungsgruppe><dozent ref="immisch_o"><grad>D. ph.</grad>
           <nachname>Immisch</nachname>, <funktion>P. E.</funktion></dozent>,
           a) <veranstaltung><thema>Epigramma Martials und Arbeiten über zur
           Wahl gestellte Themata</thema>, <zeit>Mittw. 5-7 U.</zeit>,
@@ -3332,7 +3336,7 @@
         a.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Die Rhetorik der Griechen und
-        Römer</thema>: <dozent><grad>D. ph.</grad>
+        Römer</thema>: <dozent ref="immisch_o"><grad>D. ph.</grad>
         <nachname>Immisch</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Abschnitt B. a.</siehe></veranstaltungsverweis>
 
@@ -3948,8 +3952,8 @@ Ankündigung von von zwei weiteren Veranstaltungen-->).</veranstaltungsgruppe>
 
         <trennlinie/>
 
-        <veranstaltung><thema>Allgemeine Ackerbaulehre</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
+        <veranstaltung><thema>Allgemeine Ackerbaulehre</thema>: <dozent
+        ref="kirchner_w"><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
         u. Freit. 10-11 U.</zeit>, <modus>privatim</modus>, <zeit>im
         Landwirtschaftlichen Institut, Johannisallee
@@ -4000,7 +4004,7 @@ Ankündigung von von zwei weiteren Veranstaltungen-->).</veranstaltungsgruppe>
         Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Züchtungs- und
-        Fütterungslehre</thema>: <dozent><grad>D. ph.</grad>
+        Fütterungslehre</thema>: <dozent ref="kirchner_w"><grad>D. ph.</grad>
         <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst. u. Donnerst. 11-12 U.</zeit>,
         <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
@@ -4033,10 +4037,11 @@ Ankündigung von von zwei weiteren Veranstaltungen-->).</veranstaltungsgruppe>
         11</ort>.</veranstaltung>
 
         <veranstaltung><thema>Landwirtschaftliches
-        Genossenschaftswesen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Dienst. 4-5 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Landwirtschaftl. Institut, Johannisallee 21</ort>.</veranstaltung>
+        Genossenschaftswesen</thema>: <dozent ref="kirchner_w"><grad>D.
+        ph.</grad> <nachname>Kirchner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Dienst. 4-5 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Landwirtschaftl. Institut,
+        Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung><thema>Landwirtschatliches Rechnungswesen, speziell
         doppelte Buchhaltung</thema>: <dozent ref="howard_h"><grad>D.
@@ -4243,19 +4248,20 @@ Ankündigung von von zwei weiteren Veranstaltungen-->).</veranstaltungsgruppe>
         <trennlinie/>
 
         <veranstaltungsgruppe><thema>Landwirtschaftliches Laboratorium</thema>
-        (<ort>Johannisallee 21</ort>): <dozent><grad>D. ph.</grad>
-        <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
-        A.<veranstaltung> <thema>Grosses Praktikum</thema>, <zeit>Mont. bis
-        Freit. 8-5 U.</zeit></veranstaltung>, B. <veranstaltung><thema>Kleines
+        (<ort>Johannisallee 21</ort>): <dozent ref="kirchner_w"><grad>D.
+        ph.</grad> <nachname>Kirchner</nachname>, <funktion>P.
+        O.</funktion></dozent>, A.<veranstaltung> <thema>Grosses
+        Praktikum</thema>, <zeit>Mont. bis Freit. 8-5
+        U.</zeit></veranstaltung>, B. <veranstaltung><thema>Kleines
         Praktikum</thema>, <zeit>Mont. bis Freit. 8 bis 1 U. oder 2-5
         U.</zeit></veranstaltung>,
         <modus>privatissime</modus>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Demonstrationen</thema> <ort>in der
         Versuchswirtschaft des Landwirtschaftlichen Instituts (Johannisallee
-        19)</ort>: <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. Nachm.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        19)</ort>: <dozent ref="kirchner_w"><grad>D. ph.</grad>
+        <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Sonnab. Nachm.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Demonstrationen für Landwirte</thema>: <dozent
         ref="eber_a"><grad>D. ph.</grad> <nachname>Eber</nachname>,
@@ -4614,7 +4620,7 @@ Ankündigung von von zwei weiteren Veranstaltungen-->).</veranstaltungsgruppe>
         Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung><thema>Ausgewählte Kapitel der physikalischen Chemie
-        für Mediziner</thema>: <dozent><grad>D. ph.</grad>
+        für Mediziner</thema>: <dozent ref="beck_k"><grad>D. ph.</grad>
         <nachname>Beck</nachname></dozent>, <zeit>einst., zu noch zu best.
         Zeit</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f.
         angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
@@ -4669,7 +4675,7 @@ Ankündigung von von zwei weiteren Veranstaltungen-->).</veranstaltungsgruppe>
         18</ort>.</veranstaltung>
 
         <veranstaltung><thema>Untersuchungs- und Arbeitsmethoden der
-        organischen Chemie</thema>: <dozent><grad>D. ph.</grad>
+        organischen Chemie</thema>: <dozent ref="beck_k"><grad>D. ph.</grad>
         <nachname>Beck</nachname></dozent>, <zeit>Dienst. u. Freit. 11-12
         U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f. angew.
         Chemie, Brüderstr. 34</ort>.</veranstaltung>
@@ -4841,9 +4847,9 @@ Ankündigung von von zwei weiteren Veranstaltungen-->).</veranstaltungsgruppe>
         <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Die Theorien der Zeugung</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Kaestner</nachname>,
-        <funktion>P. E.</funktion></dozent> <siehe>Siehe Mediznische
-        Fakultät</siehe>.</veranstaltungsverweis>
+        <dozent ref="kaestner_s"><grad>D. med.</grad>
+        <nachname>Kaestner</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Mediznische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Physikalisch-Chemisches aus der
         Physiologie. - Besprechungen über organische Chemie für
@@ -4954,7 +4960,7 @@ Ankündigung von von zwei weiteren Veranstaltungen-->).</veranstaltungsgruppe>
         <veranstaltung><thema>Chemisches Vollpraktikum für
         Vorgerücktere</thema>: <dozent ref="beckmann_eo"><grad>D. ph.</grad>
         <nachname>Beckmann</nachname>, <funktion>P. O.</funktion></dozent>,
-        <dozent>gemeinsam mit <grad>D. ph.</grad>
+        <dozent ref="beck_k">gemeinsam mit <grad>D. ph.</grad>
         <nachname>Beck</nachname></dozent>, <dozent><grad>D. ph.</grad>
         <nachname>Lockemann</nachname></dozent>, <dozent
         ref="heller_g"><grad>D. ph.</grad>

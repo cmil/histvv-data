@@ -81,8 +81,8 @@
       <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
       Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Geschichte des Volkes Israel</thema>:
-      <dozent><grad>D. th. et ph.</grad> <nachname>Kittel</nachname>,
+      <veranstaltung><thema>Geschichte des Volkes Israel</thema>: <dozent
+      ref="kittel_r"><grad>D. th. et ph.</grad> <nachname>Kittel</nachname>,
       <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
       Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -102,10 +102,10 @@
       <nachname>Seesemann</nachname></dozent>, <zeit>dreistünd. zu noch zu
       best. Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Erklärung der Psalmen</thema>: <dozent><grad>D.
-      th. et ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Erklärung der Psalmen</thema>: <dozent
+      ref="kittel_r"><grad>D. th. et ph.</grad> <nachname>Kittel</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
+      Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Einleitung in das Neue Testament</thema>: <dozent
       ref="hofmann_r"><grad>D. th. et ph.</grad> <nachname>Hofmann</nachname>,
@@ -235,9 +235,9 @@
 
       <veranstaltung><thema>Alttestamentliches Seminar (Das sogen.
       Heiligkeitsgesetz Lev. 17-26, mit schriftlichen Arbeiten)</thema>:
-      <dozent><grad>D. th. et ph.</grad> <nachname>Kittel</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 9-11 U.</zeit>,
-      <modus>privatissime</modus>, aber
+      <dozent ref="kittel_r"><grad>D. th. et ph.</grad>
+      <nachname>Kittel</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mittw. 9-11 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Alttestamentliche Gesellschaft (Ausgewählte
@@ -248,8 +248,8 @@
       aber <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Hebraicum I. u. II.<!--(Fortsetzung?)--> der
-      Lausitzer Predigergesellschaft</thema>: <dozent><grad>D. th. et
-      ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
+      Lausitzer Predigergesellschaft</thema>: <dozent ref="kittel_r"><grad>D.
+      th. et ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>in noch zu best. Zeit</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -935,7 +935,7 @@
       <zeit>Freit. 4-5 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Embryologisches Praktikum für Anfänger
-      (Wirbelthiere)</thema>: <dozent><grad>D. med.</grad>
+      (Wirbelthiere)</thema>: <dozent ref="kaestner_s"><grad>D. med.</grad>
       <nachname>Kaestner</nachname></dozent>, <zeit>Sonnab. 4-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1984,9 +1984,10 @@ in den Kontext eingebunden werden)-->
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Technik der griechischen Dichtkunst</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Immisch</nachname>,
-          <funktion>P. E. des.</funktion></dozent>, <zeit>Dienst. u. Freit.
-          4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="immisch_o"><grad>D. ph.</grad>
+          <nachname>Immisch</nachname>, <funktion>P. E.
+          des.</funktion></dozent>, <zeit>Dienst. u. Freit. 4-5 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der griechischen Litteratur in
           Alexandrinischer Zeit</thema>: <dozent ref="wachsmuth_c"><grad>D.
@@ -2015,9 +2016,10 @@ in den Kontext eingebunden werden)-->
           original=":">.</korrektur></veranstaltung>
 
           <veranstaltungsverweis><thema>Einleitung in das Studium der
-          Geschichte des Alterthums u. s. w.</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Kaerst</nachname></dozent>. <siehe>Siehe
-          Abschnitt C.</siehe></veranstaltungsverweis>
+          Geschichte des Alterthums u. s. w.</thema>: <dozent
+          ref="kaerst_j"><grad>D. ph.</grad>
+          <nachname>Kaerst</nachname></dozent>. <siehe>Siehe Abschnitt
+          C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Römische Staatsalterthümer</thema>:
           <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
@@ -2072,11 +2074,12 @@ in den Kontext eingebunden werden)-->
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Philologisches Proseminar</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Immisch</nachname>,
-          <funktion>P. E. des.</funktion></dozent>, <veranstaltung>a)
-          <thema>Babrius und Arbeiten über zur Wahl gestellte Themata</thema>,
-          <zeit>Mittw. 5-7 U.</zeit>, <modus>publice</modus></veranstaltung>.
-          - <veranstaltung>b) <thema>Lateinische und griechische
+          <dozent ref="immisch_o"><grad>D. ph.</grad>
+          <nachname>Immisch</nachname>, <funktion>P. E.
+          des.</funktion></dozent>, <veranstaltung>a) <thema>Babrius und
+          Arbeiten über zur Wahl gestellte Themata</thema>, <zeit>Mittw. 5-7
+          U.</zeit>, <modus>publice</modus></veranstaltung>. -
+          <veranstaltung>b) <thema>Lateinische und griechische
           Stilübungen</thema>, <zeit>Donnerst. 5-7 U.</zeit>,
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
@@ -2142,9 +2145,9 @@ in den Kontext eingebunden werden)-->
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Uebungen über die Geschichte der
-          Gracchischen Gesetzgebung</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Kaerst</nachname>.</dozent> <siehe>Siehe Abschnitt
-          C.</siehe></veranstaltungsverweis>
+          Gracchischen Gesetzgebung</thema>: <dozent ref="kaerst_j"><grad>D.
+          ph.</grad> <nachname>Kaerst</nachname>.</dozent> <siehe>Siehe
+          Abschnitt C.</siehe></veranstaltungsverweis>
         </sachgruppe>
 
         <trennlinie/>
@@ -2669,9 +2672,10 @@ in den Kontext eingebunden werden)-->
 
         <veranstaltung><thema>Einleitung in das Studium der Geschichte des
         Alterthums, mit besonderer Berücksichtigung allgemeiner
-        geschichtswissenschaftlicher Probleme</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Kaerst</nachname></dozent>, <zeit>Dienst. u.
-        Freit. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        geschichtswissenschaftlicher Probleme</thema>: <dozent
+        ref="kaerst_j"><grad>D. ph.</grad>
+        <nachname>Kaerst</nachname></dozent>, <zeit>Dienst. u. Freit. 10-11
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Aegyptische Geschichte mit besonderer
         Berücksichtigung der Kulturentwicklung</thema>: <dozent><grad>D.
@@ -2912,7 +2916,7 @@ in den Kontext eingebunden werden)-->
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen über die Geschichte der Gracchischen
-        Gesetzgebung</thema>: <dozent><grad>D. ph.</grad>
+        Gesetzgebung</thema>: <dozent ref="kaerst_j"><grad>D. ph.</grad>
         <nachname>Kaerst</nachname></dozent>, <zeit>zu noch zu best.
         Zeit</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2984,9 +2988,9 @@ in den Kontext eingebunden werden)-->
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Geschichte des Volkes Israel</thema>:
-        <dozent><grad>D. th. et ph.</grad> <nachname>Kittel</nachname>,
-        <funktion>P. O.</funktion></dozent> <siehe>Siehe
-        <gesperrt>Theologische
+        <dozent ref="kittel_r"><grad>D. th. et ph.</grad>
+        <nachname>Kittel</nachname>, <funktion>P. O.</funktion></dozent>
+        <siehe>Siehe <gesperrt>Theologische
         Facultät</gesperrt>.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Griechische Kunstgeschichte von der
@@ -3270,9 +3274,10 @@ in den Kontext eingebunden werden)-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Landwirthschaftliche Betriebslehre</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Freit. u.
-        Sonnab. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="kirchner_w"><grad>D. ph.</grad>
+        <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst., Freit. u. Sonnab. 9-10 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Mechanische Bodenbearbeitung</thema>: <dozent
         ref="fischer_m"><grad>D. ph.</grad> <vorname>M.</vorname>
@@ -3321,9 +3326,10 @@ in den Kontext eingebunden werden)-->
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Molkereiwesen mit Demonstrationen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. 4-5 U., Mittw. u.
-        Donnerst. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="kirchner_w"><grad>D. ph.</grad>
+        <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Dienst. 4-5 U., Mittw. u. Donnerst. 10-11 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Gesundheitspflege der landwirthschaftlichen
         Haussäugethiere</thema>: <dozent ref="eber_a"><grad>D. ph.</grad>
@@ -3447,7 +3453,7 @@ in den Kontext eingebunden werden)-->
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Landwirthschaftliches
-        Laboratorium</thema>: <dozent><grad>D. ph.</grad>
+        Laboratorium</thema>: <dozent ref="kirchner_w"><grad>D. ph.</grad>
         <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
         <veranstaltung>A. <thema>Grosses Praktikum</thema>, <zeit>Mont. bis
         Freit. 8-5 U.</zeit></veranstaltung>, <veranstaltung>B. <thema>Kleines
@@ -3462,8 +3468,8 @@ in den Kontext eingebunden werden)-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Demonstrationen <ort>auf dem Versuchsfelde des
-        landwirthschaftlichen Instituts</ort><!--(VA-Ort?)--></thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
+        landwirthschaftlichen Instituts</ort><!--(VA-Ort?)--></thema>: <dozent
+        ref="kirchner_w"><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. Nachm.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
@@ -4059,7 +4065,7 @@ evtl. Revision bei modus-Nachbearbeitung)-->,
         <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Embryologisches Praktikum für Anfänger
-        (Wirbelthiere)</thema>: <dozent><grad>D. med.</grad>
+        (Wirbelthiere)</thema>: <dozent ref="kaestner_s"><grad>D. med.</grad>
         <nachname>Kaestner</nachname></dozent>. <siehe>Siehe
         <gesperrt>Medicinische
         Facultät</gesperrt>.</siehe></veranstaltungsverweis>

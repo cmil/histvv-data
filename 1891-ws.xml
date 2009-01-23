@@ -868,13 +868,14 @@
       <nachname>Fürst</nachname></dozent>, <zeit>einmal wöchentl., an zu best.
       Tage u. zu best. Stunde</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Bacteriologischer Cursus</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Karg</nachname></dozent>, <zeit>in zu vereinb.
-      Stunden</zeit>, <modus>privatissime</modus>.</veranstaltung>
+      <veranstaltung><thema>Bacteriologischer Cursus</thema>: <dozent
+      ref="karg_h"><grad>D. med.</grad> <nachname>Karg</nachname></dozent>,
+      <zeit>in zu vereinb. Stunden</zeit>,
+      <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung><thema>Ueber Infectionskrankheiten, in Verbindung mit dem
-      bacteriologischen Cursus</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Karg</nachname></dozent>,
+      bacteriologischen Cursus</thema>: <dozent ref="karg_h"><grad>D.
+      med.</grad> <nachname>Karg</nachname></dozent>,
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Hautkrankheiten und Syphilis (mit
@@ -929,9 +930,9 @@
 
       <veranstaltung><thema>Chirurgische Propädeutik mit praktischen Uebungen
       in der Diagnose und Behandlung chirurgischer Krankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Karg</nachname></dozent>,
-      <zeit>Mont., Donnerst. u. Freit. 6-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="karg_h"><grad>D. med.</grad>
+      <nachname>Karg</nachname></dozent>, <zeit>Mont., Donnerst. u. Freit. 6-7
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Vorlesung über Chirurgie, <notiz
       betreff="fortsetzung">II. Theil</notiz></thema>: <dozent><grad>D.
@@ -1634,10 +1635,10 @@
           O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
           11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Griechische Dialektologie</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Immisch</nachname></dozent>,
-          <zeit>Mont., Donnerst. u. Freit. 5-6 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung><thema>Griechische Dialektologie</thema>: <dozent
+          ref="immisch_o"><grad>D. ph.</grad>
+          <nachname>Immisch</nachname></dozent>, <zeit>Mont., Donnerst. u.
+          Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung von Plutarchs Themistokles und
           Perikles</thema>: <dozent><grad>D. ph.</grad>
@@ -1680,7 +1681,8 @@
           Director</thema>: <dozent><grad>D. ph.</grad>
           <nachname>Ribbeck</nachname>, <funktion>P. O.</funktion></dozent>:
           1) <veranstaltung><thema>Erkläung von Buch VI der
-          Ilias.Textkritische Arbeiten</thema>: <dozent><grad>D. ph.</grad>
+          Ilias.Textkritische Arbeiten</thema>: <dozent
+          ref="immisch_o"><grad>D. ph.</grad>
           <nachname>Immisch</nachname></dozent>, <zeit>Mittw. 5-7 U.</zeit>,
           <modus>publice</modus></veranstaltung>. 2)
           <veranstaltung><thema>Latein-Schreiben und -Sprechen, damit
@@ -2509,8 +2511,8 @@
 
           <seite>28</seite>
 
-          <veranstaltung><thema>Allgemeine Ackerbaulehre</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
+          <veranstaltung><thema>Allgemeine Ackerbaulehre</thema>: <dozent
+          ref="kirchner_w"><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
           u. Freit. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2534,10 +2536,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Allgemeine Züchtungs- und
-          Fütterungslehre</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mont., Dienst., Donnerst. u. Freit. 11 bis 12 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          Fütterungslehre</thema>: <dozent ref="kirchner_w"><grad>D.
+          ph.</grad> <nachname>Kirchner</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 11
+          bis 12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Die Milchwirthschaft mit besonderer
           Berücksichtigung der Käserei</thema>: <dozent><grad>D. ph.</grad>
@@ -2629,20 +2631,22 @@
           <seite>29</seite>
 
           <veranstaltung><thema>Landwirthschaftliches Laboratorium</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 8-4
-          U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+          <dozent ref="kirchner_w"><grad>D. ph.</grad>
+          <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mont. bis Freit. 8-4 U.</zeit>,
+          <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Demonstrationen im Rassestalle des
-          landwirthschaftlichen Institutes</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Kirchner</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>in zu best. Stunden</zeit>,
-          <modus>publice</modus>.</veranstaltung>
-
-          <veranstaltung><thema>Landwirthschaftliche Excursionen</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
+          landwirthschaftlichen Institutes</thema>: <dozent
+          ref="kirchner_w"><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>in zu best.
           Stunden</zeit>, <modus>publice</modus>.</veranstaltung>
+
+          <veranstaltung><thema>Landwirthschaftliche Excursionen</thema>:
+          <dozent ref="kirchner_w"><grad>D. ph.</grad>
+          <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>in zu best. Stunden</zeit>,
+          <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Demonstrationen in der
           Veterinärklinik</thema>: <dozent><grad>D. med.</grad>

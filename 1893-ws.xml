@@ -754,7 +754,7 @@
       Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Entwicklungsgeschichte der
-      Selachier</thema>: <dozent><grad>D. med.</grad>
+      Selachier</thema>: <dozent ref="kaestner_s"><grad>D. med.</grad>
       <nachname>Kaestner</nachname></dozent>. <siehe>Siehe Philosophische
       Facultät G.</siehe></veranstaltungsverweis>
 
@@ -920,15 +920,15 @@
 
       <seite>12</seite>
 
-      <veranstaltung><thema>Bacteriologischer Cursus</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Karg</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>in zu vereinb. Stunden</zeit>,
-      <modus>privatissime</modus>.</veranstaltung>
+      <veranstaltung><thema>Bacteriologischer Cursus</thema>: <dozent
+      ref="karg_h"><grad>D. med.</grad> <nachname>Karg</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>in zu vereinb.
+      Stunden</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung><thema>Ueber Infectionskrankheiten (in Verbindung mit dem
-      bacteriologischen Cursus)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Karg</nachname>, <funktion>P. E. des.</funktion></dozent>,
-      <modus>privatissime</modus>, aber
+      bacteriologischen Cursus)</thema>: <dozent ref="karg_h"><grad>D.
+      med.</grad> <nachname>Karg</nachname>, <funktion>P. E.
+      des.</funktion></dozent>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Ueber Tuberculose</thema>: <dozent><grad>Dr.
@@ -972,9 +972,9 @@
 
       <veranstaltung><thema>Chirurgische Propädeutik mit praktischen Uebungen
       in der Diagnose und der Behandlung chirurgischer Krankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Karg</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Mont., Donnerst. u. Freit. 6-7
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="karg_h"><grad>D. med.</grad> <nachname>Karg</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>Mont., Donnerst. u.
+      Freit. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgie, <notiz betreff="fortsetzung">II.
       Theil</notiz></thema>: <dozent><grad>D. med.</grad>
@@ -1728,9 +1728,9 @@
 
           <veranstaltung><thema>Die antike Rhetorik. Darstellung des Systems
           und historische Uebersicht über die Fachschriftstellerei</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Immisch</nachname></dozent>,
-          <zeit>Dienst., Donnerst. u. Freit. 5-6 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="immisch_o"><grad>D. ph.</grad>
+          <nachname>Immisch</nachname></dozent>, <zeit>Dienst., Donnerst. u.
+          Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der lateinischen Sprache <notiz
           betreff="fortsetzung">II. Theil</notiz> (Syntax)</thema>: <dozent
@@ -1785,9 +1785,10 @@
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung><thema>Königliches philologisches Proseminar:
-          Xenophons Symposion und textkritische Arbeiten</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Immisch</nachname></dozent>,
-          <zeit>Mittw. 3-5 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+          Xenophons Symposion und textkritische Arbeiten</thema>: <dozent
+          ref="immisch_o"><grad>D. ph.</grad>
+          <nachname>Immisch</nachname></dozent>, <zeit>Mittw. 3-5 U.</zeit>,
+          <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Philologische Gesellschaft:
           Quellenuntersuchungen zur römischen Litteraturgeschichte, und
@@ -2679,8 +2680,8 @@
         E.</funktion></dozent>, <zeit>Mittw. 12-1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Allgemeine Ackerbaulehre</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
+        <veranstaltung><thema>Allgemeine Ackerbaulehre</thema>: <dozent
+        ref="kirchner_w"><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
         u. Freit. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2728,7 +2729,7 @@
         <seite>30</seite>
 
         <veranstaltung><thema>Allgemeine Züchtungs- und
-        Fütterungslehre</thema>: <dozent><grad>D. ph.</grad>
+        Fütterungslehre</thema>: <dozent ref="kirchner_w"><grad>D. ph.</grad>
         <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2843,15 +2844,16 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Landwirthschaftliches Laboratorium</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 8-4
-        U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+        <dozent ref="kirchner_w"><grad>D. ph.</grad>
+        <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont. bis Freit. 8-4 U.</zeit>,
+        <modus>privatissime</modus>.</veranstaltung>
 
         <seite>31</seite>
 
         <veranstaltung><thema>Demonstrationen im Rassestalle des
         landwirthschaftlichen Instituts und landwirthschaftliche
-        Excursionen</thema>: <dozent><grad>D. ph.</grad>
+        Excursionen</thema>: <dozent ref="kirchner_w"><grad>D. ph.</grad>
         <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. 3-4 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -3149,7 +3151,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Entwicklungsgeschichte der Selachier, mit
-        Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+        Demonstrationen</thema>: <dozent ref="kaestner_s"><grad>D. med.</grad>
         <nachname>Kaestner</nachname></dozent>, <zeit>einmal wöchentl.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 

@@ -337,10 +337,10 @@
       <vorname>C. F.</vorname></dozent>, <thema>Psychologie</thema>, <zeit>2
       T. in zu best. St.</zeit></veranstaltung>
 
-      <veranstaltung><dozent><nachname>Klotz</nachname>, <grad>M.</grad>
-      <vorname>E.</vorname></dozent>, <thema>empirische Psychologie, <notiz
-      betreff="fortsetzung">Forts.</notiz>, vom Denk- Gefühls- und
-      Entbehrungsvermögen</thema>, <zeit>11 U. 2 T.</zeit>
+      <veranstaltung><dozent ref="klotz_e"><nachname>Klotz</nachname>,
+      <grad>M.</grad> <vorname>E.</vorname></dozent>, <thema>empirische
+      Psychologie, <notiz betreff="fortsetzung">Forts.</notiz>, vom Denk-
+      Gefühls- und Entbehrungsvermögen</thema>, <zeit>11 U. 2 T.</zeit>
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <sachgruppe>
@@ -486,9 +486,9 @@
         und <veranstaltung><thema>über Moral</thema> <zeit>2
         T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-        <veranstaltung><dozent><nachname>Klotz</nachname>, <grad>M.</grad>
-        <vorname>E.</vorname></dozent>, <thema>Uebungen in der prakt.
-        Logik</thema>.</veranstaltung>
+        <veranstaltung><dozent ref="klotz_e"><nachname>Klotz</nachname>,
+        <grad>M.</grad> <vorname>E.</vorname></dozent>, <thema>Uebungen in der
+        prakt. Logik</thema>.</veranstaltung>
 
         <veranstaltung><dozent><nachname>Richter</nachname>, <grad>M.</grad>
         <vorname>H. F.</vorname></dozent>, <thema>philosoph.
@@ -609,9 +609,9 @@
       Geschichte</thema>, <zeit>2 U. 2
       T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-      <veranstaltung><dozent><nachname>Klotz</nachname>, <grad>M.</grad>
-      <vorname>F.</vorname></dozent>, <thema>Geschichte des Königr.
-      Sachsen</thema>, <zeit>2 U. 2 T.</zeit>
+      <veranstaltung><dozent ref="klotz_e"><nachname>Klotz</nachname>,
+      <grad>M.</grad> <vorname>F.</vorname></dozent>, <thema>Geschichte des
+      Königr. Sachsen</thema>, <zeit>2 U. 2 T.</zeit>
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
     </sachgruppe>
 
@@ -841,7 +841,8 @@
         <sachgruppe>
           <titel>*) Literargeschichte der Dogmatik.</titel>
 
-          <veranstaltung><dozent><nachname>Höpfner</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="hoepfner_jgc"><nachname>Höpfner</nachname>, <grad>D.</grad>
           <vorname>J. G. C.</vorname>, <funktion>Phil. P. E.
           des.</funktion></dozent>, <thema>nach s. <antiqua>Introductio in
           theolog. dogmat. histor. literar. (Lips. Schwickert 1821.
@@ -897,9 +898,9 @@
         <sachgruppe>
           <titel>*) Examinatorium über die Kirchengeschichte.</titel>
 
-          <veranstaltung><dozent><nachname>Illgen</nachname>, <vorname>C.
-          F.</vorname>, <funktion>Phil. P. E. des.</funktion> <grad>Theol.
-          Bacc.</grad></dozent>, <zeit>4 T. in zu best.
+          <veranstaltung><dozent ref="illgen_cf"><nachname>Illgen</nachname>,
+          <vorname>C. F.</vorname>, <funktion>Phil. P. E. des.</funktion>
+          <grad>Theol. Bacc.</grad></dozent>, <zeit>4 T. in zu best.
           St.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -907,8 +908,9 @@
       <sachgruppe>
         <titel>Patristik.</titel>
 
-        <veranstaltungsgruppe><ders>Derselbe</ders>, <veranstaltung><zeit>9 U.
-        2 T.</zeit> <modus>öffentlich</modus></veranstaltung>; ingl.
+        <veranstaltungsgruppe><ders ref="illgen_cf">Derselbe</ders>,
+        <veranstaltung><zeit>9 U. 2 T.</zeit>
+        <modus>öffentlich</modus></veranstaltung>; ingl.
         <veranstaltung><thema>Erklärung des christl. Religionsunterr. von
         <antiqua>Lactantius</antiqua>, <notiz betreff="fortsetzung">Forts. und
         Beschl.</notiz></thema> <zeit>in den best.
@@ -933,16 +935,17 @@
       <sachgruppe>
         <titel>Reformationsgeschichte.</titel>
 
-        <veranstaltung><dozent><nachname>Klotz</nachname>, <grad>M.</grad>
-        <vorname>E.</vorname></dozent>, <zeit>10 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung><dozent ref="klotz_e"><nachname>Klotz</nachname>,
+        <grad>M.</grad> <vorname>E.</vorname></dozent>, <zeit>10 U. 2
+        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <sachgruppe>
           <titel>*) Uebungen der histor. theol. Gesellschaft.</titel>
 
-          <veranstaltung><dozent><nachname>Illgen</nachname>, <vorname>C.
-          F.</vorname>, <funktion>Phil. P. E.</funktion> <grad>Theol.
-          Bacc.</grad></dozent>, <zeit>in den best. St.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="illgen_cf"><nachname>Illgen</nachname>,
+          <vorname>C. F.</vorname>, <funktion>Phil. P. E.</funktion>
+          <grad>Theol. Bacc.</grad></dozent>, <zeit>in den best.
+          St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -980,7 +983,8 @@
         <sachgruppe>
           <titel>*) Homilet. Erläuterung von Predigttexten.</titel>
 
-          <veranstaltung><dozent><nachname>Höpfner</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="hoepfner_jgc"><nachname>Höpfner</nachname>, <grad>D.</grad>
           <vorname>J. G. C.</vorname>, <funktion>Phil. P. E.
           des.</funktion></dozent>, <thema>über die neuern evangel. Perikopen,
           die statt einiger alten im Königr. Sachsen eingeführt sind, und
@@ -1567,11 +1571,12 @@ die jeweiligen Veranstaltungs-Attribute eingetragen-->
       topischen Entzündungen</thema>, <zeit>2 U. 4 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-      <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-      <thema>über die Krankheiten der Weiber, Schwangern u. Kindbetterinnen,
-      nach s. Handb. der Krankh. des Weibes (2. verm. Afl. bey Cnobloch
-      1821.)</thema> <zeit>8 U. 2 T.</zeit></veranstaltung>
+      <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+      <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+      O.</funktion></dozent>, <thema>über die Krankheiten der Weiber,
+      Schwangern u. Kindbetterinnen, nach s. Handb. der Krankh. des Weibes (2.
+      verm. Afl. bey Cnobloch 1821.)</thema> <zeit>8 U. 2
+      T.</zeit></veranstaltung>
 
       <veranstaltung><dozent><nachname>Wendler</nachname>, <grad>D.</grad>
       <vorname>C. A.</vorname>, <funktion>P. E.</funktion></dozent>,
@@ -1673,11 +1678,11 @@ die jeweiligen Veranstaltungs-Attribute eingetragen-->
     <sachgruppe>
       <titel>14) Entbindungskunst.</titel>
 
-      <veranstaltungsgruppe><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-      <vorname>J. C.</vorname>, <funktion>P. O.</funktion></dozent>,
-      <veranstaltung><thema>nach s. Handb. der Geburtshülfe (2e verm. Afl.
-      Lpz. 1820 b. Hinrichs)</thema> <zeit>8 U. 4 T.</zeit>
-      <modus>öffentlich</modus></veranstaltung>; ingl.
+      <veranstaltungsgruppe><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+      <grad>D.</grad> <vorname>J. C.</vorname>, <funktion>P.
+      O.</funktion></dozent>, <veranstaltung><thema>nach s. Handb. der
+      Geburtshülfe (2e verm. Afl. Lpz. 1820 b. Hinrichs)</thema> <zeit>8 U. 4
+      T.</zeit> <modus>öffentlich</modus></veranstaltung>; ingl.
       <veranstaltung><thema>geburtshülfl. Klinik <ort>im Trierschen
       Institute</ort></thema>, <zeit>7 U. 6
       T.</zeit></veranstaltung></veranstaltungsgruppe>

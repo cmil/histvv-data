@@ -140,9 +140,9 @@
       Freit. 6-7 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Der Kirchengeschichte erster Theil</thema>:
-      <dozent><grad>D. th.</grad> <nachname>Kahnis</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>täglich 8-9 U.</zeit>
-      <modus>privatim</modus>.<!--entspricht "Theil zwei" der nachfolgenden Veranstaltung?
+      <dozent ref="kahnis_kfa"><grad>D. th.</grad>
+      <nachname>Kahnis</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>täglich 8-9 U.</zeit> <modus>privatim</modus>.<!--entspricht "Theil zwei" der nachfolgenden Veranstaltung?
 Verweis auf "Theil zwei" extra?--></veranstaltung>
 
       <veranstaltung><thema>Kirchengeschic<korrektur>h</korrektur>te, II.
@@ -151,7 +151,7 @@ Verweis auf "Theil zwei" extra?--></veranstaltung>
       <zeit>täglich 8-9 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Kirchengeschichte des späteren
-      Mittelalters</thema>: <dozent><grad>D. th.</grad>
+      Mittelalters</thema>: <dozent ref="kahnis_kfa"><grad>D. th.</grad>
       <nachname>Kahnis</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mittw. u. Sonnab. 9-10 U.</zeit>
       <modus>publice</modus>.</veranstaltung>
@@ -182,10 +182,10 @@ nung werden? Wenn ja, wie? --></veranstaltung>
       <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
       Freit. 10-11 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Symbolik</thema>: <dozent><grad>D. th.</grad>
-      <nachname>Kahnis</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>viermal (Mont., Dienst., Donnerst. u. Freit.) 9-10 U.</zeit>
-      <modus>privatim</modus>.<!--Beachtlich: die Zeitangabe--></veranstaltung>
+      <veranstaltung><thema>Symbolik</thema>: <dozent
+      ref="kahnis_kfa"><grad>D. th.</grad> <nachname>Kahnis</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>viermal (Mont., Dienst.,
+      Donnerst. u. Freit.) 9-10 U.</zeit> <modus>privatim</modus>.<!--Beachtlich: die Zeitangabe--></veranstaltung>
 
       <veranstaltung><thema>Schleiermacher's Leben und Lehre</thema>:
       <dozent><grad>Lic. th. D. ph.</grad> <nachname>Schürer</nachname>,
@@ -233,7 +233,7 @@ Zeitangabe beachtlich. --></veranstaltung>
       <seite>5</seite>
 
       <veranstaltung><thema>Leitung von Uebungen einer theologischen
-      Gesellschaft</thema>: <dozent><grad>D. th.</grad>
+      Gesellschaft</thema>: <dozent ref="kahnis_kfa"><grad>D. th.</grad>
       <nachname>Kahnis</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mittw. 7-9 U. Abends</zeit>, <modus>privatissime</modus> und
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1746,10 +1746,11 @@ auch im Original kursiv.--></veranstaltung>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><siehe>S. auch Kirchengeschichte</siehe>:
-        <dozent><grad>D. th.</grad> <nachname>Kahnis</nachname>, <funktion>P.
-        O.</funktion></dozent> und <dozent><grad>D. th.</grad>
-        <nachname>Lechler</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>oben, Seite 4</siehe>.</veranstaltungsverweis>
+        <dozent ref="kahnis_kfa"><grad>D. th.</grad>
+        <nachname>Kahnis</nachname>, <funktion>P. O.</funktion></dozent> und
+        <dozent><grad>D. th.</grad> <nachname>Lechler</nachname>, <funktion>P.
+        O.</funktion></dozent> <siehe>oben, Seite
+        4</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><siehe>Dogmengeschichte</siehe>: <dozent
         ref="delitzsch_j"><grad>D. ph. Lic. theol.</grad>

@@ -818,9 +818,9 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Embryologisches Praktikum (Wirbelthiere)</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kaestner</nachname></dozent>,
-      <zeit>einmal wöchentl. 3 Stunden, Nm.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="kaestner_s"><grad>D. med.</grad>
+      <nachname>Kaestner</nachname></dozent>, <zeit>einmal wöchentl. 3
+      Stunden, Nm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <seite>11</seite>
 
@@ -1839,9 +1839,10 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Leben und Schriften des Aristoteles</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Immisch</nachname>,
-          <funktion>P. E. des.</funktion></dozent>, <zeit>Dienst., Donnerst.
-          u. Freit. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="immisch_o"><grad>D. ph.</grad>
+          <nachname>Immisch</nachname>, <funktion>P. E.
+          des.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 4-5
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Plautus' Leben, Werke, Sprache und Metrik, und
           Erklärung des Bacchides</thema>: <dozent><grad>D. ph.</grad>
@@ -1910,13 +1911,13 @@ für die ganze Gruppe gilt.--></veranstaltungsgruppe>
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Im Philologischen Proseminar</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Immisch</nachname>,
-          <funktion>P. E. des.</funktion></dozent> <veranstaltung>a)
-          <thema>Tibull und Arbeiten über zur Wahl gestellte Themata</thema>,
-          <zeit>Mittw. 3-5 U.</zeit>, <modus>publice</modus>.</veranstaltung>
-          <veranstaltung>b) <thema>Hauptfragen der lateinischen Stilistik und
-          lateinische Referate (Vitae Eruditorum)</thema>, <zeit>Donnerst.
-          5-½7 U.</zeit>,
+          <dozent ref="immisch_o"><grad>D. ph.</grad>
+          <nachname>Immisch</nachname>, <funktion>P. E.
+          des.</funktion></dozent> <veranstaltung>a) <thema>Tibull und
+          Arbeiten über zur Wahl gestellte Themata</thema>, <zeit>Mittw. 3-5
+          U.</zeit>, <modus>publice</modus>.</veranstaltung> <veranstaltung>b)
+          <thema>Hauptfragen der lateinischen Stilistik und lateinische
+          Referate (Vitae Eruditorum)</thema>, <zeit>Donnerst. 5-½7 U.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung><thema>In der Philologischen Gesellschaft:
@@ -3005,9 +3006,10 @@ Welche grundsätzliche Richtung bei diesen Dingen?)--></veranstaltung>
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Landwirthschaftliche Betriebslehre</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
-        u. Freit. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="kirchner_w"><grad>D. ph.</grad>
+        <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. u. Freit. 10-11 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeiner Acker- und Pflanzenbau</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Hucho</nachname></dozent>,
@@ -3052,9 +3054,10 @@ Welche grundsätzliche Richtung bei diesen Dingen?)--></veranstaltung>
         <zeit>Mont. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Molkereiwesen mit Demonstrationen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 11-12 U.
-        u. Dienst. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="kirchner_w"><grad>D. ph.</grad>
+        <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont. u. Donnerst. 11-12 U. u. Dienst. 4-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erfolge der angewandten exacten Rechnung in der
         Landwirthschaft</thema>: <dozent ref="howard_h"><grad>D. ph.</grad>
@@ -3166,7 +3169,7 @@ Welche grundsätzliche Richtung bei diesen Dingen?)--></veranstaltung>
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Landwirthschaftliches
-        Laboratorium</thema>: <dozent><grad>D. ph.</grad>
+        Laboratorium</thema>: <dozent ref="kirchner_w"><grad>D. ph.</grad>
         <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
         <veranstaltung>A., <thema>Grosses Praktikum</thema>, <zeit>Mont. bis
         Freit.8-5 U.</zeit></veranstaltung>, <veranstaltung>B., <thema>Kleines
@@ -3191,10 +3194,10 @@ Welche grundsätzliche Richtung bei diesen Dingen?)--></veranstaltung>
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Demonstrationen in der Versuchswirthschaft u.
-        landwirthschaftliche Excursionen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Sonnab. Nachm. von 3 U. an</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        landwirthschaftliche Excursionen</thema>: <dozent
+        ref="kirchner_w"><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. Nachm. von 3 U.
+        an</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Praktische Uebungen an der
         Samencontrole</thema>: <dozent><grad>D. ph.</grad>
@@ -3698,7 +3701,7 @@ Welche grundsätzliche Richtung bei diesen Dingen?)--></veranstaltung>
         <zeit>Mittw. 2-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Embryologisches Praktikum
-        (Wirbelthiere)</thema>: <dozent><grad>D. med.</grad>
+        (Wirbelthiere)</thema>: <dozent ref="kaestner_s"><grad>D. med.</grad>
         <nachname>Kaestner</nachname></dozent>. <siehe>Siehe Medicinische
         Facultät.</siehe></veranstaltungsverweis>
 

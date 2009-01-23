@@ -76,10 +76,10 @@
           Thucydides</thema>, <zeit>11 U. 4 T.</zeit>
           <modus>öff.</modus></veranstaltung>
 
-          <veranstaltung><dozent><funktion>P. E.</funktion> <grad>D.</grad>
-          <nachname>Höpfner</nachname></dozent>, <thema>über Aristophanes
-          Frösche, nach s. Ausgabe (Halle b. Gebauer 797.)</thema>, <zeit>2 U.
-          2 T.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="hoepfner_jgc"><funktion>P. E.</funktion>
+          <grad>D.</grad> <nachname>Höpfner</nachname></dozent>, <thema>über
+          Aristophanes Frösche, nach s. Ausgabe (Halle b. Gebauer
+          797.)</thema>, <zeit>2 U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung><dozent><funktion>P. E.</funktion>
           <nachname>Schäfer</nachname></dozent>, <thema>über Plutarchs Leben
@@ -795,10 +795,10 @@
             <sachgruppe>
               <titel>bb) Hermeneutik des N. T.</titel>
 
-              <veranstaltung><dozent>Domh. <funktion>P. O.</funktion>
-              <grad>D.</grad> <nachname>Keil</nachname></dozent>, <thema>nach
-              s. Lehrbuche, <notiz
-              betreff="fortsetzung">Forts.</notiz></thema> <zeit>8 U. 4
+              <veranstaltung><dozent ref="keil_kag">Domh. <funktion>P.
+              O.</funktion> <grad>D.</grad>
+              <nachname>Keil</nachname></dozent>, <thema>nach s. Lehrbuche,
+              <notiz betreff="fortsetzung">Forts.</notiz></thema> <zeit>8 U. 4
               T.</zeit> <modus>öff.</modus></veranstaltung>
             </sachgruppe>
           </sachgruppe>
@@ -857,7 +857,7 @@
               Religionslehrer</thema>, <zeit>2 U. 2 T.</zeit>
               <modus>öff.</modus></veranstaltung>
 
-              <veranstaltung><dozent><grad>M.</grad>
+              <veranstaltung><dozent ref="illgen_cf"><grad>M.</grad>
               <nachname>Illgen</nachname></dozent> <thema>über das Evangelium
               u. die Briefe des Johannes</thema>,
               <modus>privat.</modus></veranstaltung>
@@ -877,7 +877,7 @@
           <sachgruppe>
             <titel>c) Erklärung der Kirchenväter.</titel>
 
-            <veranstaltung><dozent><grad>M.</grad>
+            <veranstaltung><dozent ref="illgen_cf"><grad>M.</grad>
             <nachname>Illgen</nachname></dozent>, <thema>über zwey Homilien
             des Chrysostomns von Hiob's im Glück und Unglück bewiesener
             Tugend, und gegen die Vernachlässigung des Gottesdienstes wegen
@@ -907,7 +907,7 @@
           <sachgruppe>
             <titel>b) Patristik.</titel>
 
-            <veranstaltung><dozent><grad>M.</grad>
+            <veranstaltung><dozent ref="illgen_cf"><grad>M.</grad>
             <nachname>Illgen</nachname></dozent>, <thema>nach s.
             Sätzen</thema>, <zeit>in zu best. St. 2 T.</zeit>
             <gebühr>unentg.</gebühr></veranstaltung>
@@ -915,9 +915,9 @@
             <sachgruppe>
               <titel>*) Historisch theologische Uebungen</titel>
 
-              <veranstaltung>hält <ders>derselbe</ders> <thema>mit der hist.
-              theologischen Gesellschaft</thema> <zeit>in den best.
-              St.</zeit></veranstaltung>
+              <veranstaltung>hält <ders ref="illgen_cf">derselbe</ders>
+              <thema>mit der hist. theologischen Gesellschaft</thema> <zeit>in
+              den best. St.</zeit></veranstaltung>
             </sachgruppe>
           </sachgruppe>
         </sachgruppe>
@@ -928,9 +928,9 @@
           <sachgruppe>
             <titel>a) Dogmatik.</titel>
 
-            <veranstaltung><dozent>Domh. <funktion>P. O.</funktion>
-            <grad>D.</grad> <nachname>Keil</nachname></dozent>, <thema>nach
-            seinen Sätzen, <notiz
+            <veranstaltung><dozent ref="keil_kag">Domh. <funktion>P.
+            O.</funktion> <grad>D.</grad> <nachname>Keil</nachname></dozent>,
+            <thema>nach seinen Sätzen, <notiz
             betreff="fortsetzung">Forts.</notiz></thema>, <zeit>3 U. 6 T. u. 8
             U. 2 T.</zeit></veranstaltung>
 
@@ -943,19 +943,21 @@
             <nachname>Tzschirner</nachname></dozent>, <zeit>10 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltungsgruppe><dozent><funktion>P. E.</funktion>
-            <grad>D.</grad> <nachname>Höpfner</nachname></dozent>, <thema>nach
-            s. Epitome Theologiae Christianae, eb. Reinhardi
-            acroasibus</thema>, <veranstaltung><zeit>10 U. 4
-            T.</zeit></veranstaltung> (<veranstaltung><zeit>2 T.</zeit>
+            <veranstaltungsgruppe><dozent ref="hoepfner_jgc"><funktion>P.
+            E.</funktion> <grad>D.</grad>
+            <nachname>Höpfner</nachname></dozent>, <thema>nach s. Epitome
+            Theologiae Christianae, eb. Reinhardi acroasibus</thema>,
+            <veranstaltung><zeit>10 U. 4 T.</zeit></veranstaltung>
+            (<veranstaltung><zeit>2 T.</zeit>
             <modus>öff.</modus></veranstaltung>)</veranstaltungsgruppe>
 
             <sachgruppe>
               <titel>*) Examinatoria über die Dogmatik</titel>
 
-              <veranstaltung>halten <dozent>Domh. <funktion>P. O.</funktion>
-              <grad>D.</grad> <nachname>Keil</nachname></dozent>, <thema>nach
-              Ammon (Summa theol. Christ.), <notiz
+              <veranstaltung>halten <dozent ref="keil_kag">Domh. <funktion>P.
+              O.</funktion> <grad>D.</grad>
+              <nachname>Keil</nachname></dozent>, <thema>nach Ammon (Summa
+              theol. Christ.), <notiz
               betreff="fortsetzung">Forts.</notiz></thema>, <zeit>4 U. 4
               T.</zeit></veranstaltung>
 
@@ -963,7 +965,7 @@
               <grad>D.</grad> <nachname>Tittmann</nachname></dozent>, <zeit>9
               U. 4 T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><grad>M.</grad>
+              <veranstaltung><dozent ref="illgen_cf"><grad>M.</grad>
               <nachname>Illgen</nachname></dozent>, <zeit>zu bel. St. 4
               T.</zeit></veranstaltung>
             </sachgruppe>
@@ -1013,7 +1015,7 @@
           <nachname>Wolf</nachname></dozent> im <thema>Disputiren</thema>,
           <zeit>in den gewöhnl. St.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><grad>M.</grad>
+          <veranstaltung><dozent ref="illgen_cf"><grad>M.</grad>
           <nachname>Illgen</nachname></dozent>, <thema>Uebungen im latein.
           Disputiren über theolog. Gegenstände</thema>, <zeit>in zu best.
           St.</zeit>, an.</veranstaltung>
@@ -1590,9 +1592,10 @@
               <sachgruppe>
                 <titel>bb) Physiologie.</titel>
 
-                <veranstaltung><dozent><funktion>P. O.</funktion>
-                <grad>D.</grad> <nachname>Jörg</nachname></dozent>, <zeit>3 U.
-                4 T.</zeit></veranstaltung>
+                <veranstaltung><dozent ref="joerg_jcg"><funktion>P.
+                O.</funktion> <grad>D.</grad>
+                <nachname>Jörg</nachname></dozent>, <zeit>3 U. 4
+                T.</zeit></veranstaltung>
 
                 <veranstaltung><dozent><funktion>P. E.</funktion>
                 <grad>D.</grad> <nachname>Wendler</nachname></dozent>,
@@ -1681,9 +1684,10 @@
                   <thema>von den Augenkrankheiten, nach eignen Sätzen</thema>,
                   <zeit>11 U. 2 T.</zeit></veranstaltung>
 
-                  <veranstaltung><dozent><funktion>P. O.</funktion>
-                  <grad>D.</grad> <nachname>Jörg</nachname></dozent>,
-                  <thema>über Weiberkrankheiten</thema>, <zeit>11 U. 2
+                  <veranstaltung><dozent ref="joerg_jcg"><funktion>P.
+                  O.</funktion> <grad>D.</grad>
+                  <nachname>Jörg</nachname></dozent>, <thema>über
+                  Weiberkrankheiten</thema>, <zeit>11 U. 2
                   T.</zeit></veranstaltung>
 
                   <veranstaltung><dozent><funktion>P. E.</funktion>
@@ -1914,11 +1918,12 @@
             <sachgruppe>
               <titel>hh) Entbindungskunst.</titel>
 
-              <veranstaltungsgruppe><dozent><funktion>P. O.</funktion>
-              <grad>D.</grad> <nachname>Jörg</nachname></dozent>,
-              <veranstaltung><zeit>11 U. 4 T.</zeit></veranstaltung>, u.
-              <veranstaltung><thema>praktische Anweisung <ort>in der
-              Trierschen Anstalt</ort></thema>, <zeit>8 U. 6 T.</zeit>
+              <veranstaltungsgruppe><dozent ref="joerg_jcg"><funktion>P.
+              O.</funktion> <grad>D.</grad>
+              <nachname>Jörg</nachname></dozent>, <veranstaltung><zeit>11 U. 4
+              T.</zeit></veranstaltung>, u. <veranstaltung><thema>praktische
+              Anweisung <ort>in der Trierschen Anstalt</ort></thema>, <zeit>8
+              U. 6 T.</zeit>
               <modus>öff.</modus></veranstaltung></veranstaltungsgruppe>
 
               <veranstaltung><dozent><grad>D.</grad>

@@ -66,9 +66,9 @@
       <titel>I. Theologische Fakultät.</titel>
 
       <veranstaltung><thema>Einleitung ins Alte Testament (die Literatur des
-      Volkes Israel)</thema>: <dozent><grad>D. th. et ph.</grad>
-      <nachname>Kittel</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>tägl. (außer Mittw.) 12-1 U.</zeit>,
+      Volkes Israel)</thema>: <dozent ref="kittel_r"><grad>D. th. et
+      ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>tägl. (außer Mittw.) 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Biblische Theologie des Alten Testaments</thema>:
@@ -87,8 +87,8 @@
       Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Erklärung der sog. kleinen Propheten (Amos, Hosea,
-      Micha, Joel, Haggai, Sacharja)</thema>: <dozent><grad>D. th. et
-      ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
+      Micha, Joel, Haggai, Sacharja)</thema>: <dozent ref="kittel_r"><grad>D.
+      th. et ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -127,10 +127,10 @@
       <zeit>Mont., Dienst., Donnerst. u. Freit. 10 bis 11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Erklärung des Römerbriefes</thema>:
-      <dozent><grad>D. th.</grad> <nachname>Ihmels</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 10-11
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Erklärung des Römerbriefes</thema>: <dozent
+      ref="ihmels_l"><grad>D. th.</grad> <nachname>Ihmels</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
+      Freit. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Erklärung der Petrusbriefe u. des
       Judasbriefs</thema>: <dozent ref="heinrici_g"><grad>D. th. et ph.</grad>
@@ -180,7 +180,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Dogmatik. <notiz betreff="fortsetzung">II.
-      Teil</notiz></thema>: <dozent><grad>D. th.</grad>
+      Teil</notiz></thema>: <dozent ref="ihmels_l"><grad>D. th.</grad>
       <nachname>Ihmels</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>tägl. (außer Mittw.) 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -223,21 +223,21 @@
 
       <veranstaltung><thema>Hebräische Übungen für jüngere (auch erste)
       Semester: Kursorische Lektüre des I. u. II. Samuelbuches unter
-      grammatischem Gesichtspunkt</thema>: <dozent><grad>D. th. et ph.</grad>
-      <nachname>Kittel</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. 7¾-9¼ U. Ab.</zeit>, <modus>privatissime</modus> et
-      <gebühr>gratis</gebühr>.</veranstaltung>
+      grammatischem Gesichtspunkt</thema>: <dozent ref="kittel_r"><grad>D. th.
+      et ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. 7¾-9¼ U. Ab.</zeit>,
+      <modus>privatissime</modus> et <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltungsgruppe><thema>Alttestamentliches Seminar</thema>
       (<ort>Universitätsstr. 13. III</ort>), <modus>privatissime</modus> et
-      <gebühr>gratis</gebühr>: <dozent><grad>D. th. et ph.</grad>
-      <nachname>Kittel</nachname>, <funktion>P. O.</funktion></dozent>,
-      <veranstaltung>a) <thema>Seminar für Vorgeschrittenere:
-      Biblisch-theologische Fragen</thema>, <zeit>Mittw. 9-10½
-      U.</zeit></veranstaltung>, <veranstaltung>b) <thema>Hebräische Grammatik
-      für Anfänger als Vorbereitung auf das Hebraicum</thema>, <dozent>unter
-      Leitung von <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>,
-      <zeit>in noch zu best.
+      <gebühr>gratis</gebühr>: <dozent ref="kittel_r"><grad>D. th. et
+      ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
+      O.</funktion></dozent>, <veranstaltung>a) <thema>Seminar für
+      Vorgeschrittenere: Biblisch-theologische Fragen</thema>, <zeit>Mittw.
+      9-10½ U.</zeit></veranstaltung>, <veranstaltung>b) <thema>Hebräische
+      Grammatik für Anfänger als Vorbereitung auf das Hebraicum</thema>,
+      <dozent>unter Leitung von <grad>D. ph.</grad>
+      <nachname>Kramer</nachname></dozent>, <zeit>in noch zu best.
       Stunden</zeit></veranstaltung>.</veranstaltungsgruppe>
 
       <veranstaltung><thema>Alttestamentliche Gesellschaft: Die Gesetzgebung
@@ -296,9 +296,10 @@
 
       <veranstaltung><thema>Seminar <notiz betreff="fortsetzung">II</notiz>
       für systematische Theologie (<ort>Paulinum Treppe B I</ort>):
-      Grundfragen der Apologetik</thema>: <dozent><grad>D. th.</grad>
-      <nachname>Ihmels</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Dienst. 5-7 U.</zeit>, <modus>privatissime</modus>, sed
+      Grundfragen der Apologetik</thema>: <dozent ref="ihmels_l"><grad>D.
+      th.</grad> <nachname>Ihmels</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Dienst. 5-7 U.</zeit>,
+      <modus>privatissime</modus>, sed
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Dogmatisches Repetitorium</thema>:
@@ -541,10 +542,10 @@
       Fakultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Katholisches und evangelisches
-      Kirchenrecht mit Einschluß des Eherechts</thema>: <dozent><grad>D. jur.
-      et th.</grad> <nachname>Friedberg</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe Juristische
-      Fakultät.</siehe></veranstaltungsverweis>
+      Kirchenrecht mit Einschluß des Eherechts</thema>: <dozent
+      ref="friedberg_ea"><grad>D. jur. et th.</grad>
+      <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>
+      <siehe>Siehe Juristische Fakultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Geschichte der Rechtsphilosophie</thema>:
       <dozent><grad>D. jur. et ph.</grad>
@@ -560,8 +561,8 @@
 
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Religionsphilosophie</thema>.</veranstaltungsverweis>
       - <veranstaltungsverweis><thema>Philosophisches
-      Seminar</thema></veranstaltungsverweis>: <dozent><grad>D. ph. et
-      th.</grad> <vorname>M.</vorname> <nachname>Heinze</nachname>,
+      Seminar</thema></veranstaltungsverweis>: <dozent ref="heinze_m"><grad>D.
+      ph. et th.</grad> <vorname>M.</vorname> <nachname>Heinze</nachname>,
       <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
       A.</siehe></veranstaltungsgruppe>
 
@@ -715,10 +716,11 @@
       O.</funktion></dozent>, <zeit>Mont. bis Freit. 11-12 U. u. Sonnab. 11-1
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Deutsche Rechtsgeschichte</thema>:
-      <dozent><grad>D. jur. et th.</grad> <nachname>Friedberg</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 9-10
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Deutsche Rechtsgeschichte</thema>: <dozent
+      ref="friedberg_ea"><grad>D. jur. et th.</grad>
+      <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. bis Donnerst. 9-10 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Grundzüge des deutschen Privatrechts</thema>:
       <dozent><grad>D. jur., th. et ph.</grad> <nachname>Sohm</nachname>,
@@ -755,7 +757,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches bürgerliches Recht
-      (Familienrecht)</thema>: <dozent><grad>D. jur.</grad>
+      (Familienrecht)</thema>: <dozent ref="jaeger_e"><grad>D. jur.</grad>
       <nachname>Jaeger</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. bis Freit. 8-9 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -784,10 +786,11 @@
 
       <veranstaltung><thema>Katholisches und evangelisches Kirchenrecht
       einschließlich des Eherechts, verbunden mit Übungen in der
-      lnterpretation des Corpus juris canonici</thema>: <dozent><grad>D. jur.
-      et th.</grad> <nachname>Friedberg</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont. bis Freit. 4-5 U. u. Freit. 3-4
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      lnterpretation des Corpus juris canonici</thema>: <dozent
+      ref="friedberg_ea"><grad>D. jur. et th.</grad>
+      <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. bis Freit. 4-5 U. u. Freit. 3-4 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Allgemeine Staatslehre</thema>: <dozent><grad>D.
       jur.</grad> <nachname>Mayer</nachname>, <funktion>P.
@@ -821,9 +824,10 @@
       E.</funktion></dozent>, <zeit>Dienst. bis Freit. 4-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Völkerrecht</thema>: <dozent><grad>D. jur. et
-      th.</grad> <nachname>Friedberg</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont. u. Dienst. 3-4 U.</zeit>,
+      <veranstaltung><thema>Völkerrecht</thema>: <dozent
+      ref="friedberg_ea"><grad>D. jur. et th.</grad>
+      <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. u. Dienst. 3-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches Preßrecht</thema>: <dozent><grad>D.
@@ -850,9 +854,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Zivilprozeßrecht (nach einem für die Hörer
-      gedruckten Leitfaden)</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Jaeger</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>tägl. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      gedruckten Leitfaden)</thema>: <dozent ref="jaeger_e"><grad>D.
+      jur.</grad> <nachname>Jaeger</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>tägl. 9-10 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Besondere Zivilprozeßarten (Summarische Prozesse,
       Konkursprozeß etc.) nach für die Hörer gedrucktem Grundriß</thema>:
@@ -921,15 +926,16 @@
       <nachname>Wach</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. 6-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Übungen im Vollstreckungsrecht</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Jaeger</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Sonnab. 10-11 U.</zeit>,
+      <veranstaltung><thema>Übungen im Vollstreckungsrecht</thema>: <dozent
+      ref="jaeger_e"><grad>D. jur.</grad> <nachname>Jaeger</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Praktikum des Handels-, Wechsel- und Seerechts,
-      mit schriftlichen Arbeiten</thema>: <dozent><grad>D. jur. et th.</grad>
-      <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mittw. 6-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      mit schriftlichen Arbeiten</thema>: <dozent ref="friedberg_ea"><grad>D.
+      jur. et th.</grad> <nachname>Friedberg</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mittw. 6-8 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Strafrechts-Praktikum, mit mündlichen und
       schriftlichen Übungen der Teilnehmer</thema>: <dozent
@@ -1260,9 +1266,9 @@
       Liebigstr. 13</ort>.<!--Diese Veranstaltung wird durch den Absatz auseinander-
 gerissen.--></veranstaltung>
 
-      <veranstaltung><thema>Zeugung und Vererbung</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Kaestner</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst. 6-7 U.</zeit>,
+      <veranstaltung><thema>Zeugung und Vererbung</thema>: <dozent
+      ref="kaestner_s"><grad>D. med.</grad> <nachname>Kaestner</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst. 6-7 U.</zeit>,
       <modus>publice</modus>, <ort>im Anatomischen Institut, Liebigstr.
       13</ort>.</veranstaltung>
 
@@ -1801,9 +1807,10 @@ gerissen.--></veranstaltung>
       Augenkranke, Liebigstr. 14</ort>.</veranstaltung>
 
       <veranstaltung><thema>Kolleg über die Beziehungen der Augenerkrankungen
-      zu Allgemeinleiden</thema>: <dozent><grad>D. med.</grad>
-      <vorname>Arth.</vorname> <nachname>Birch-Hirschfeld</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>Mont. 7-8 U. Ab.</zeit>,
+      zu Allgemeinleiden</thema>: <dozent ref="birch-hirschfeld_a"><grad>D.
+      med.</grad> <vorname>Arth.</vorname>
+      <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont. 7-8 U. Ab.</zeit>,
       <modus>publice</modus>, <ort>in der Heilanstalt für Augenkranke,
       Liebigstr. 14</ort>.</veranstaltung>
 
@@ -1827,11 +1834,11 @@ gerissen.--></veranstaltung>
       14</ort>.</veranstaltung>
 
       <veranstaltung><thema>Augenspiegelübungen für Anfänger und
-      Geübtere</thema>: <dozent><grad>D. med.</grad> <vorname>Arth.</vorname>
-      <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>zweimal wöchentl. in zu best. Zeit (event.
-      in 2 Gruppen)</zeit>, <modus>privatim</modus>, <ort>in der Heilanstalt
-      für Augenkranke, Liebigstr. 14</ort>.</veranstaltung>
+      Geübtere</thema>: <dozent ref="birch-hirschfeld_a"><grad>D. med.</grad>
+      <vorname>Arth.</vorname> <nachname>Birch-Hirschfeld</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>zweimal wöchentl. in zu best.
+      Zeit (event. in 2 Gruppen)</zeit>, <modus>privatim</modus>, <ort>in der
+      Heilanstalt für Augenkranke, Liebigstr. 14</ort>.</veranstaltung>
 
       <veranstaltung><thema>Augenspiegelkursus</thema> (<ort>in sechswöchigen
       Kursen</ort>): <dozent><grad>D. med.</grad>
@@ -2573,10 +2580,11 @@ gerissen.--></veranstaltung>
         <zeit>Mittw. u. Sonnab. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Religionsphilosophie</thema>: <dozent><grad>D.
-        ph. et th.</grad> <vorname>M.</vorname> <nachname>Heinze</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst.
-        4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Religionsphilosophie</thema>: <dozent
+        ref="heinze_m"><grad>D. ph. et th.</grad> <vorname>M.</vorname>
+        <nachname>Heinze</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst. u. Donnerst. 4-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einführung in die Geschichtsphilosophie (mit
         Referaten und Besprechungen)</thema>: <dozent><grad>D. ph.</grad>
@@ -2635,9 +2643,9 @@ gerissen.--></veranstaltung>
         Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Dogmatik, <notiz
-        betreff="fortsetzung">II. Teil</notiz></thema>: <dozent><grad>D.
-        th.</grad> <nachname>Ihmels</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe Theologische
+        betreff="fortsetzung">II. Teil</notiz></thema>: <dozent
+        ref="ihmels_l"><grad>D. th.</grad> <nachname>Ihmels</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe Theologische
         Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Dogmengeschichte</thema>: <dozent
@@ -2761,8 +2769,8 @@ gerissen.--></veranstaltung>
 
         <veranstaltungsgruppe><thema>Philosophisches Seminar</thema>:
         <veranstaltung>1) <thema>Erklärung von Kants Grundlegung zur
-        Metaphysik der Sitten, mit schriftlichen Arbeiten</thema>:
-        <dozent><grad>D. ph. et th.</grad> <vorname>M.</vorname>
+        Metaphysik der Sitten, mit schriftlichen Arbeiten</thema>: <dozent
+        ref="heinze_m"><grad>D. ph. et th.</grad> <vorname>M.</vorname>
         <nachname>Heinze</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. 9-10 U. Vorm.</zeit>,
         <modus>publice</modus>.</veranstaltung> - <veranstaltung>2)
@@ -2833,9 +2841,10 @@ gerissen.--></veranstaltung>
 
         <veranstaltungsverweis><thema>Seminar <notiz
         betreff="fortsetzung">II</notiz> für systematische Theologie:
-        Grundfragen der Apologetik</thema>: <dozent><grad>D. th.</grad>
-        <nachname>Ihmels</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Theologische Fakultät.</siehe></veranstaltungsverweis>
+        Grundfragen der Apologetik</thema>: <dozent ref="ihmels_l"><grad>D.
+        th.</grad> <nachname>Ihmels</nachname>, <funktion>P.
+        O.</funktion></dozent> <siehe>Siehe Theologische
+        Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Übungen über die neutestamentl.
         Eschatologie</thema>: <dozent><grad>Lic. th.</grad> <grad>D.
@@ -2880,10 +2889,11 @@ gerissen.--></veranstaltung>
           <titel>a) Altklassische Philologie.</titel>
 
           <veranstaltung><thema>Einleitung in die klassische Philologie
-          (Geschichte und Enzyklopädie)</thema>: <dozent><grad>D. ph.</grad>
-          <vorname>R.</vorname> <nachname>Heinze</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
-          3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          (Geschichte und Enzyklopädie)</thema>: <dozent
+          ref="heinze_r"><grad>D. ph.</grad> <vorname>R.</vorname>
+          <nachname>Heinze</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mont., Dienst., Donnerst. u. Freit. 3-4 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <seite>29</seite>
 
@@ -2982,10 +2992,11 @@ gerissen.--></veranstaltung>
           <funktion>P. O.</funktion></dozent>: <thema>Erklärung von Properz
           und Besprechung der eingereichten Arbeiten</thema>, <zeit>Sonnab.
           11-1 U.</zeit>, <modus>publice</modus>.</veranstaltung> -
-          <veranstaltung>2) <dozent><grad>D. ph.</grad> <vorname>R.</vorname>
-          <nachname>Heinze</nachname>, <funktion>P. O.</funktion></dozent>:
-          <thema>Erklärung der Schrift "Über das Erhabene" und Besprechung von
-          Arbeiten</thema>, <zeit>Mittw. 11 bis 1 U.</zeit>,
+          <veranstaltung>2) <dozent ref="heinze_r"><grad>D. ph.</grad>
+          <vorname>R.</vorname> <nachname>Heinze</nachname>, <funktion>P.
+          O.</funktion></dozent>: <thema>Erklärung der Schrift "Über das
+          Erhabene" und Besprechung von Arbeiten</thema>, <zeit>Mittw. 11 bis
+          1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Philologisches Proseminar</thema>
@@ -2994,11 +3005,11 @@ gerissen.--></veranstaltung>
           <nachname>Bethe</nachname>, <funktion>P. O.</funktion></dozent>:
           <thema>Tibull</thema>, <zeit>Mont. 6 bis 8 U.</zeit>,
           <modus>publice</modus>.</veranstaltung> - <veranstaltung>2)
-          <thema>Abt. B. (für Vorgeschrittene)</thema>: <dozent><grad>D.
-          <seite>30</seite>ph.</grad> <vorname>R.</vorname>
-          <nachname>Heinze</nachname>, <funktion>P. O.</funktion></dozent>:
-          <thema>Erklärung von Terenz' Eunuchus und schriftliche
-          Arbeiten</thema>, <zeit>Freit. 6-8 U.</zeit>,
+          <thema>Abt. B. (für Vorgeschrittene)</thema>: <dozent
+          ref="heinze_r"><grad>D. <seite>30</seite>ph.</grad>
+          <vorname>R.</vorname> <nachname>Heinze</nachname>, <funktion>P.
+          O.</funktion></dozent>: <thema>Erklärung von Terenz' Eunuchus und
+          schriftliche Arbeiten</thema>, <zeit>Freit. 6-8 U.</zeit>,
           <modus>publice</modus>.</veranstaltung> - <veranstaltung>3)
           <thema>Abt. C.</thema>: <dozent><grad>D. ph.</grad>
           <nachname>Martini</nachname>, <funktion>P. E.</funktion></dozent>:
@@ -3234,10 +3245,10 @@ gerissen.--></veranstaltung>
           das Alte Testament (die Literatur des Volkes
           Israel)</thema>.</veranstaltungsverweis> -
           <veranstaltungsverweis><thema>Erklärung der sog. kleinen
-          Propheten</thema></veranstaltungsverweis>: <dozent><grad>D. th. et
-          ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
-          O.</funktion></dozent> <siehe>Siehe Theologische
-          Fakultät.</siehe></veranstaltungsgruppe>
+          Propheten</thema></veranstaltungsverweis>: <dozent
+          ref="kittel_r"><grad>D. th. et ph.</grad>
+          <nachname>Kittel</nachname>, <funktion>P. O.</funktion></dozent>
+          <siehe>Siehe Theologische Fakultät.</siehe></veranstaltungsgruppe>
 
           <veranstaltungsverweis><thema>Die Genesiserzählungen,
           religionsgeschichtl. erläutert</thema>: <dozent><grad>Lic. th. D.
@@ -3351,10 +3362,10 @@ gerissen.--></veranstaltung>
           Übungen für jüngere (auch erste)
           Semester</thema>.</veranstaltungsverweis> -
           <veranstaltungsverweis><thema>Alttestamentliches Seminar (hebräische
-          Grammatik für Anfänger)</thema></veranstaltungsverweis>:
-          <dozent><grad>D. th. et ph.</grad> <nachname>Kittel</nachname>,
-          <funktion>P. O.</funktion></dozent> <siehe>Siehe Theologische
-          Fakultät.</siehe></veranstaltungsgruppe>
+          Grammatik für Anfänger)</thema></veranstaltungsverweis>: <dozent
+          ref="kittel_r"><grad>D. th. et ph.</grad>
+          <nachname>Kittel</nachname>, <funktion>P. O.</funktion></dozent>
+          <siehe>Siehe Theologische Fakultät.</siehe></veranstaltungsgruppe>
 
           <veranstaltungsverweis><thema>Alttestamentliche
           Gesellschaft</thema>: <dozent ref="guthe_fwlh"><grad>D. th.</grad>
@@ -3581,17 +3592,18 @@ gerissen.--></veranstaltung>
           <nachname>Dantzler</nachname></dozent>, <zeit>Sonnab. 9-10
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Französische Metrik</thema>: <dozent><grad>D.
-          ph.</grad> <vorname>Ad.</vorname>
+          <veranstaltung><thema>Französische Metrik</thema>: <dozent
+          ref="birch-hirschfeld_ga"><grad>D. ph.</grad> <vorname>Ad.</vorname>
           <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Donnerst. 6-7 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der französischen Literatur im
-          Mittelalter</thema>: <dozent><grad>D. ph.</grad>
-          <vorname>Ad.</vorname> <nachname>Birch-Hirschfeld</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
-          u. Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          Mittelalter</thema>: <dozent ref="birch-hirschfeld_ga"><grad>D.
+          ph.</grad> <vorname>Ad.</vorname>
+          <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
+          9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Evolution du lyrisme en France dans la
           deuxième moitié du X1Xième<!--iéme ist hochgestellt
@@ -3669,8 +3681,8 @@ gerissen.--></veranstaltung>
           <gebühr>unentgeltlich</gebühr>.</veranstaltungsgruppe></veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Romanisches Seminar</thema>:
-          <veranstaltung><thema>I. Abteilung</thema>: <dozent><grad>D.
-          ph.</grad> <vorname>Ad.</vorname>
+          <veranstaltung><thema>I. Abteilung</thema>: <dozent
+          ref="birch-hirschfeld_ga"><grad>D. ph.</grad> <vorname>Ad.</vorname>
           <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
           O.</funktion></dozent>: <thema>Lektüre und Erklärung
           altfranzösischer Texte (nach Bartsch, Chrestomathie)</thema>,
@@ -4714,8 +4726,8 @@ bezieht.-->
 
         <trennlinie/>
 
-        <veranstaltung><thema>Allgemeine Ackerbaulehre</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
+        <veranstaltung><thema>Allgemeine Ackerbaulehre</thema>: <dozent
+        ref="kirchner_w"><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
         u. Freit. 10-11 U.</zeit>, <modus>privatim</modus>, <ort>im
         Landwirtschaftlichen Institut, Johannisallee 21</ort>.</veranstaltung>
@@ -4777,7 +4789,7 @@ bezieht.-->
         Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Züchtungs- und
-        Fütterungslehre</thema>: <dozent><grad>D. ph.</grad>
+        Fütterungslehre</thema>: <dozent ref="kirchner_w"><grad>D. ph.</grad>
         <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst. u. Donnerst. 11-12 U.</zeit>,
         <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
@@ -4837,10 +4849,10 @@ bezieht.-->
         <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
         21</ort>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent><grad>D.
-        jur. et th.</grad> <nachname>Friedberg</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe Juristische
-        Fakultät.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent
+        ref="friedberg_ea"><grad>D. jur. et th.</grad>
+        <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>
+        <siehe>Siehe Juristische Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsches Reichs- und
         Landesstaatsrecht</thema>: <dozent ref="binding_kll"><grad>D.
@@ -5031,8 +5043,8 @@ bezieht.-->
 
         <veranstaltungsgruppe><thema>Landwirtschaftliches und
         landwirtschaftlich-bakteriologisches Praktikum</thema> (<dozent>dieses
-        mit <grad>D. ph.</grad> <nachname>Löhnis</nachname></dozent>):
-        <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
+        mit <grad>D. ph.</grad> <nachname>Löhnis</nachname></dozent>): <dozent
+        ref="kirchner_w"><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>ganz- u. halbtäg.</zeit>:
         <veranstaltung>A. <thema>Großes Praktikum</thema>, <zeit>Mont. bis
         Freit. 8-1 und 2-5 U.</zeit></veranstaltung>; <veranstaltung>B.
@@ -5051,8 +5063,8 @@ bezieht.-->
 
         <veranstaltung><thema>Praktische Unterrichtsübungen in der
         Übungsschule (Fachschule für Land- und Gartenbau) des "Pädagogischen
-        Seminars für Landwirtschaftslehrer"</thema>:
-        <dozent><funktion>Prof.</funktion> <grad>D. ph.</grad>
+        Seminars für Landwirtschaftslehrer"</thema>: <dozent
+        ref="john_g"><funktion>Prof.</funktion> <grad>D. ph.</grad>
         <nachname>John</nachname></dozent>, <zeit>Dienst. u. Freit. 4-7
         U.</zeit>, <ort>im Gebäude der 1. Bezirksschule, Nürnberger Str.
         53.</ort> <gebühr>Die Übungen sind gratis, aber nur für
@@ -5071,8 +5083,8 @@ bezieht.-->
         Tagen</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Demonstrationen</thema> <ort>im Rassenstalle des
-        Landwirtschaftlichen Instituts (Johannisallee 19)</ort>:
-        <dozent><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
+        Landwirtschaftlichen Instituts (Johannisallee 19)</ort>: <dozent
+        ref="kirchner_w"><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. Nachm.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
@@ -5095,9 +5107,10 @@ bezieht.-->
         Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Praktikum des Handels-, Wechsel- und
-        Seerechts</thema>: <dozent><grad>D. jur. et th.</grad>
-        <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Juristische Fakultät.</siehe></veranstaltungsverweis>
+        Seerechts</thema>: <dozent ref="friedberg_ea"><grad>D. jur. et
+        th.</grad> <nachname>Friedberg</nachname>, <funktion>P.
+        O.</funktion></dozent> <siehe>Siehe Juristische
+        Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Übungen in Geschichte (einschl. Kultur-
         und Wirtschaftsgeschichte)</thema> <siehe>siehe Abschnitt
@@ -5549,11 +5562,11 @@ bezieht.-->
         <zeit>Mittw. u. Donnerst. 2-3 U.</zeit>, <modus>privatim</modus>,
         <ort>im Chemischen Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Praxis des Farbenchemikers</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Heller</nachname></dozent>,
-        <zeit>Mont. u. Donnerst. 11-12 U.</zeit>, <modus>privatim</modus>,
-        <ort>im Laboratorium für angew. Chemie, Brüderstr.
-        34</ort>.</veranstaltung>
+        <veranstaltung><thema>Praxis des Farbenchemikers</thema>: <dozent
+        ref="heller_g"><grad>D. ph.</grad>
+        <nachname>Heller</nachname></dozent>, <zeit>Mont. u. Donnerst. 11-12
+        U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für angew.
+        Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung><thema>Ausgewählte Kapitel der pharmazeutischen Chemie,
         <notiz betreff="fortsetzung">II. Teil</notiz></thema>:
@@ -5704,8 +5717,8 @@ bezieht.-->
         <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsgruppe>
 
-        <veranstaltungsverweis><thema>Zeugung und Vererbung</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Kaestner</nachname>,
+        <veranstaltungsverweis><thema>Zeugung und Vererbung</thema>: <dozent
+        ref="kaestner_s"><grad>D. med.</grad> <nachname>Kaestner</nachname>,
         <funktion>P. E.</funktion></dozent> <siehe>Siehe Medizinische
         Fakultät.</siehe></veranstaltungsverweis>
 
@@ -5896,13 +5909,13 @@ bezieht.-->
         <veranstaltung><thema>Chemisches Vollpraktikum für
         Vorgerücktere</thema>: <dozent ref="beckmann_eo"><grad>D. ph.</grad>
         <nachname>Beckmann</nachname>, <funktion>P. O.</funktion></dozent>,
-        mit <dozent><grad>D. ph.</grad> <nachname>Heller</nachname></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Deußen</nachname></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Scheiber</nachname></dozent> u.
-        <dozent><grad>D. ph.</grad> <nachname>Sieverts</nachname></dozent>,
-        <zeit>täglich 8-12½ U. u. (außer Sonnab.) 2-6 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Laboratorium für angew. Chemie,
-        Brüderstr. 34</ort>.</veranstaltung>
+        mit <dozent ref="heller_g"><grad>D. ph.</grad>
+        <nachname>Heller</nachname></dozent>, <dozent><grad>D. ph.</grad>
+        <nachname>Deußen</nachname></dozent>, <dozent><grad>D. ph.</grad>
+        <nachname>Scheiber</nachname></dozent> u. <dozent><grad>D. ph.</grad>
+        <nachname>Sieverts</nachname></dozent>, <zeit>täglich 8-12½ U. u.
+        (außer Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Laboratorium für angew. Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Vollpraktikum für
         Vorgerücktere</thema>: <dozent><grad>D. ph.</grad>
@@ -5958,7 +5971,7 @@ bezieht.-->
         <veranstaltung><thema>Chemisch-technisches Praktikum</thema>,
         <zeit>ganz- u. halbtägig</zeit>: <dozent ref="beckmann_eo"><grad>D.
         ph.</grad> <nachname>Beckmann</nachname>, <funktion>P.
-        O.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
+        O.</funktion></dozent>, mit <dozent ref="heller_g"><grad>D. ph.</grad>
         <nachname>Heller</nachname></dozent>, <zeit>tägl. 8 bis 12½ u. (außer
         Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im Laborat. f.
         angew. Chemie, Brüderstr. 34</ort>.</veranstaltung>

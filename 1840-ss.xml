@@ -171,7 +171,7 @@
             <zeit>9 U. Dienst. u. Freit.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
             <vorname>R.</vorname>, <funktion>P. E.</funktion>, <funktion>Reg.
             Semin. philol. Adiunct.</funktion></dozent>, <thema>über Sophokles
             Antigone</thema>, <zeit>3 U. Mont. u. Donn.</zeit>
@@ -198,7 +198,7 @@
 
             <seite>3</seite>
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
             <vorname>R.</vorname>, <funktion>P. E.</funktion>, <funktion>Reg.
             Semin. philol. Adiunct.</funktion></dozent>, <thema>über
             auserlesene Satiren des Horaz</thema>, <zeit>3 U. Dienst. und
@@ -237,7 +237,7 @@
             Demosthenes</thema>, <zeit>2 T. von 5 U. an</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
             <vorname>R.</vorname>, <funktion>P. E.</funktion>, <funktion>Reg.
             Semin. philol. Adiunct.</funktion></dozent>, <thema>Uebungen der
             Mitglieder im Erklären der Rede Cicero's für Cnej.
@@ -265,20 +265,21 @@
             <thema>lateinische Disputir-Uebungen</thema>, <zeit>4 U. 2
             T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Klotz</nachname>,
+            <veranstaltung><dozent ref="klotz_r"><nachname>Klotz</nachname>,
             <vorname>R.</vorname>, <funktion>P. E.</funktion>, <funktion>Reg.
             Semin. philol. Adiunct.</funktion></dozent>, <thema>Leitung der
             philologischen Beschäftigungen der Lausitzer
             Prediger-Gesellschaft</thema>, <zeit>in den best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Uebungen seiner
-            lateinischen Privat-Gesellschaft</thema>, <zeit>in den best.
-            St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+            <veranstaltung><ders ref="klotz_r">Derselbe</ders>,
+            <thema>Uebungen seiner lateinischen Privat-Gesellschaft</thema>,
+            <zeit>in den best. St.</zeit>
+            <modus>privatissime</modus>.</veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Uebungen im
-            Latein-Schreiben und Sprechen</thema>, <zeit>in den best.
-            St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+            <veranstaltung><ders ref="klotz_r">Derselbe</ders>,
+            <thema>Uebungen im Latein-Schreiben und Sprechen</thema>, <zeit>in
+            den best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung><dozent ref="haupt_m"><nachname>Haupt</nachname>,
             <grad>M.</grad> <vorname>M.</vorname></dozent>, <thema>Uebungen
@@ -1274,10 +1275,10 @@
           <sachgruppe>
             <titel>Examinatoria über Kirchengeschichte.</titel>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <zeit>4 T. in noch zu best.
-            St.</zeit></veranstaltung>
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>C. F.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <zeit>4 T. in noch zu best. St.</zeit></veranstaltung>
 
             <veranstaltung><dozent
             ref="goldhorn_jdh"><nachname>Goldhorn</nachname>, <grad>M.</grad>
@@ -1315,24 +1316,26 @@
           <sachgruppe>
             <titel>Patristik.</titel>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <thema>Darstellung des Lebens, der Lehre
-            und der Schriften der apostolischen Väter</thema>, <zeit>11 U. 2
-            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
-
-            <veranstaltung><ders>Derselbe</ders>, <thema>Erklärung der
-            Selbstbekenntnisse <gesperrt>Augustin's</gesperrt></thema>,
-            <zeit>in den best. St.</zeit>
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>C. F.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <thema>Darstellung des Lebens, der Lehre und der Schriften der
+            apostolischen Väter</thema>, <zeit>11 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
+
+            <veranstaltung><ders ref="illgen_cf">Derselbe</ders>,
+            <thema>Erklärung der Selbstbekenntnisse
+            <gesperrt>Augustin's</gesperrt></thema>, <zeit>in den best.
+            St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
             <titel>Historisch-theologische Gesellschaft.</titel>
 
-            <veranstaltung><dozent><nachname>Illgen</nachname>,
-            <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <zeit>in den best. St.</zeit>
+            <veranstaltung><dozent
+            ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
+            <vorname>C. F.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <zeit>in den best. St.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -1851,13 +1854,14 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
           Ordin.</funktion></dozent>, <siehe>s. römisches
           Recht</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung><dozent><nachname>Höpfner</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="hoepfner_l"><nachname>Höpfner</nachname>, <grad>D.</grad>
           <vorname>L.</vorname></dozent>, <thema>den ordentlichen gemeinen wie
           sächsischen Proceß</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>die summarischen
-          Processe, nach s. Sätzen</thema>, <zeit>10 U. 4 T.</zeit>
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung><ders ref="hoepfner_l">Derselbe</ders>, <thema>die
+          summarischen Processe, nach s. Sätzen</thema>, <zeit>10 U. 4
+          T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <seite>19</seite>
 
@@ -1925,7 +1929,8 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
           Mittheilung von Gerichtsacten</thema>, <zeit>10 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Höpfner</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="hoepfner_l"><nachname>Höpfner</nachname>, <grad>D.</grad>
           <vorname>L.</vorname></dozent>, <thema kontext="sachgruppe">nach s.
           Leitfaden, unter Actenmittheilung</thema>, <zeit>10 U. 2
           T.</zeit></veranstaltung>
@@ -2225,10 +2230,10 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
             des grauen Staars</thema>, <zeit>11 U. 2 T.</zeit>
             <modus>öffentl.</modus></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-            <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>über Kinderkrankheiten</thema>, <zeit>11 U. 4
-            T.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+            <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+            O.</funktion></dozent>, <thema>über Kinderkrankheiten</thema>,
+            <zeit>11 U. 4 T.</zeit></veranstaltung>
 
             <veranstaltung><dozent
             ref="ritterich_fp"><nachname>Ritterich</nachname>, <grad>D.</grad>
@@ -2345,18 +2350,20 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
         <sachgruppe>
           <titel>5) Entbindungskunst.</titel>
 
-          <veranstaltungsgruppe><dozent><nachname>Jörg</nachname>,
-          <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema kontext="sachgruppe">nach s.
-          Compendium</thema>, <veranstaltung><zeit>8 U. 4 T.</zeit>
+          <veranstaltungsgruppe><dozent
+          ref="joerg_jcg"><nachname>Jörg</nachname>, <grad>D.</grad>
+          <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema kontext="sachgruppe">nach s. Compendium</thema>,
+          <veranstaltung><zeit>8 U. 4 T.</zeit>
           <modus>öffentlich</modus></veranstaltung> und <veranstaltung><zeit>8
           U. 2 T.</zeit> <modus>privatim</modus></veranstaltung>.<!--Wahrscheinlich hörten Mo. und Die. die 
 Subskribenten mit den übrigen zusammen. 
 S. auch oben, S. 17)--></veranstaltungsgruppe>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>Uebungen in
-          geburtshilflichen Operationen</thema>, <modus>privatissime</modus>
-          <zeit>in zu best. St.</zeit></veranstaltung>
+          <veranstaltung><ders ref="joerg_jcg">Derselbe</ders>,
+          <thema>Uebungen in geburtshilflichen Operationen</thema>,
+          <modus>privatissime</modus> <zeit>in zu best.
+          St.</zeit></veranstaltung>
 
           <veranstaltung><dozent
           ref="grenser_wl"><nachname>Grenser</nachname>, <grad>D.</grad>
@@ -2381,10 +2388,11 @@ S. auch oben, S. 17)--></veranstaltungsgruppe>
           Jakobshospitale</ort></thema>, <zeit>4 T. 9-11 U. und 2 T. 3-5
           U.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Jörg</nachname>, <grad>D.</grad>
-          <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>geburtshilfliche Klinik in der königl.
-          Entbindungsschule</thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
+          <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>geburtshilfliche Klinik in der
+          königl. Entbindungsschule</thema>, <zeit>7 U. 6
+          T.</zeit></veranstaltung>
 
           <veranstaltung><dozent
           ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>
