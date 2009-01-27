@@ -2071,16 +2071,17 @@
         <grad>D.</grad> <vorname>A. F.</vorname></dozent>, <zeit>8 U. 2
         T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><dozent><nachname>Kneschke</nachname>, <grad>D.</grad>
+        <veranstaltung><dozent
+        ref="kneschke_eh"><nachname>Kneschke</nachname>, <grad>D.</grad>
         <vorname>E. H.</vorname></dozent>, <thema>nach
         <gesperrt>Conradi's</gesperrt> Einleitung in das Studium der Medicin
         (Marburg 1828.)</thema>, <zeit>2 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Einleitung in die
-        Bücherkunde der Medicin, nach eignen Heften und mit Vorzeigung der
-        vorzüglichsten Schriften</thema>, <zeit>2 U. Mont. u. Donn.</zeit>
-        <gebühr>unentgeltl.</gebühr></veranstaltung>
+        <veranstaltung><ders ref="kneschke_eh">Derselbe</ders>,
+        <thema>Einleitung in die Bücherkunde der Medicin, nach eignen Heften
+        und mit Vorzeigung der vorzüglichsten Schriften</thema>, <zeit>2 U.
+        Mont. u. Donn.</zeit> <gebühr>unentgeltl.</gebühr></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -2408,19 +2409,20 @@
           <veranstaltung><ders ref="ritterich_fp">Derselbe</ders>,
           <thema>Verbandlehre</thema>, <zeit>1 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Walther</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="walther_jkw"><nachname>Walther</nachname>, <grad>D.</grad>
           <vorname>J. K. W.</vorname></dozent>, <thema>allgemeine Chirurgie,
           oder der erste Theil der gesammten Chirurgie</thema>, <zeit>7 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>über die Brüche
-          (Hernien)</thema>, <zeit>7 U. 2 T.</zeit>
+          <veranstaltung><ders ref="walther_jkw">Derselbe</ders>, <thema>über
+          die Brüche (Hernien)</thema>, <zeit>7 U. 2 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <sachgruppe>
             <titel>*) Praktisch-chirurgische Uebungen.</titel>
 
-            <veranstaltung><dozent><grad>D.</grad>
+            <veranstaltung><dozent ref="walther_jkw"><grad>D.</grad>
             <nachname>Walther</nachname></dozent> u. <dozent
             ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>
             werden <thema>Consultationen üb. chirurg. Krankheitsfälle</thema>
@@ -2549,9 +2551,10 @@
           Repetitorien über die einzelnen med. Wissenschaften</thema>,
           <zeit>in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Kneschke</nachname>,
-          <grad>D.</grad> <vorname>E. H.</vorname></dozent>, <thema>über
-          praktische Theile der Arzneiwissenschaft</thema>, <zeit>in zu best.
+          <veranstaltung><dozent
+          ref="kneschke_eh"><nachname>Kneschke</nachname>, <grad>D.</grad>
+          <vorname>E. H.</vorname></dozent>, <thema>über praktische Theile der
+          Arzneiwissenschaft</thema>, <zeit>in zu best.
           St.</zeit></veranstaltung>
         </sachgruppe>
 

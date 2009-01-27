@@ -2079,7 +2079,8 @@
         <grad>D.</grad> <vorname>A. F.</vorname></dozent>, <zeit>8 U 2
         T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><dozent><nachname>Kneschke</nachname>, <grad>D.</grad>
+        <veranstaltung><dozent
+        ref="kneschke_eh"><nachname>Kneschke</nachname>, <grad>D.</grad>
         <vorname>E. H.</vorname></dozent>, <zeit>2 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
@@ -2097,7 +2098,8 @@
         Geschichte der Medicin</thema>, <zeit>4 T. 9 oder 11 U.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><dozent><nachname>Kneschke</nachname>, <grad>D.</grad>
+        <veranstaltung><dozent
+        ref="kneschke_eh"><nachname>Kneschke</nachname>, <grad>D.</grad>
         <vorname>E. H.</vorname></dozent>, <thema>Litterärgeschichte der
         Medicin</thema>, <zeit>2 U. 4 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -2254,10 +2256,10 @@
           <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>nach s.
           Heften</thema>, <zeit>4 U. 3 T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Kneschke</nachname>,
-          <grad>D.</grad> <vorname>E. H.</vorname></dozent>, <zeit>2 U.
-          Dienst. und Freit.</zeit>
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung><dozent
+          ref="kneschke_eh"><nachname>Kneschke</nachname>, <grad>D.</grad>
+          <vorname>E. H.</vorname></dozent>, <zeit>2 U. Dienst. und
+          Freit.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -2421,13 +2423,15 @@
           <thema>über Augenoperationen</thema>, <zeit>in zu best.
           St.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Walther</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="walther_jkw"><nachname>Walther</nachname>, <grad>D.</grad>
           <vorname>J. K. W.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>die Lehre von den Brüchen (Hernien)</thema>, <zeit>5 U. 2
           T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><ders>Derselbe</ders>, <thema>medicinische
-          Chirurgie</thema>, <zeit>5 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung><ders ref="walther_jkw">Derselbe</ders>,
+          <thema>medicinische Chirurgie</thema>, <zeit>5 U. 4
+          T.</zeit></veranstaltung>
 
           <veranstaltung><dozent ref="carus_ea"><nachname>Carus</nachname>,
           <grad>D.</grad> <vorname>E. A.</vorname></dozent>, <thema>die
@@ -2484,11 +2488,12 @@
           <thema>Uebungen <ort>in der Augenklinik</ort></thema>, <zeit>11 U. 6
           T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><grad>D.</grad> <nachname>Walther</nachname>,
-          <funktion>P. E.</funktion></dozent>, und <dozent
-          ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>
-          werden <thema>Consultationen über chirurg. Krankheitsfälle</thema>
-          halten, <zeit>11 U. 6 T.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="walther_jkw"><grad>D.</grad>
+          <nachname>Walther</nachname>, <funktion>P. E.</funktion></dozent>,
+          und <dozent ref="carus_ea"><grad>D.</grad>
+          <nachname>Carus</nachname></dozent> werden <thema>Consultationen
+          über chirurg. Krankheitsfälle</thema> halten, <zeit>11 U. 6
+          T.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Meißner</nachname>, <grad>D.</grad>
           <vorname>F. L.</vorname></dozent>, <thema><ort>Poliklinik</ort>, die
@@ -2568,9 +2573,10 @@
           Repetitoria über die theoret. u. prakt. med. Wissenschaften</thema>,
           <zeit>in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Kneschke</nachname>,
-          <grad>D.</grad> <vorname>E. H.</vorname></dozent>, <thema>über
-          praktische Theile der Arzneiwissenschaft</thema>, <zeit>in zu best.
+          <veranstaltung><dozent
+          ref="kneschke_eh"><nachname>Kneschke</nachname>, <grad>D.</grad>
+          <vorname>E. H.</vorname></dozent>, <thema>über praktische Theile der
+          Arzneiwissenschaft</thema>, <zeit>in zu best.
           St.</zeit></veranstaltung>
         </sachgruppe>
 

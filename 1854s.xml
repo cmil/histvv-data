@@ -771,8 +771,9 @@ aber nicht im VV aufgeführt wurde-->
         <zeit>7 U. Morgens 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Pflanzenphysiologie, chemischer Theil</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Knop</nachname></dozent>,
-        <zeit>in 2 zu best. St.</zeit></veranstaltung>
+        <dozent ref="knop_w"><grad>D. ph.</grad>
+        <nachname>Knop</nachname></dozent>, <zeit>in 2 zu best.
+        St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Kurzer Abriß der Geographie u. Geschichte der
         Pflanzen</thema>: <dozent><grad>D. ph.</grad>
@@ -1593,14 +1594,14 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
       <sachgruppe>
         <titel>I. Probädeutik und Geschichte der Medicin.</titel>
 
-        <veranstaltung><thema>Medicinische Hodegetik</thema>:
-        <dozent><grad>D.</grad> <nachname>Kneschke</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>2 U. 2 T. (Mont. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><thema>Medicinische Hodegetik</thema>: <dozent
+        ref="kneschke_eh"><grad>D.</grad> <nachname>Kneschke</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>2 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Abriß der Geschichte und Bücherkunde der
-        Medicin</thema>: <ders>Derselbe</ders>, <zeit>2 T. in zu best.
-        St.</zeit></veranstaltung>
+        Medicin</thema>: <ders ref="kneschke_eh">Derselbe</ders>, <zeit>2 T.
+        in zu best. St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Geschichte der Medicin</thema>:
         <dozent><grad>D.</grad> <nachname>Merkel</nachname></dozent>, <zeit>3
@@ -1796,7 +1797,7 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
         9 U. Sonnabends)</zeit>.</veranstaltung>
 
         <veranstaltung><thema>Receptirkunst mit Anleitung zum
-        Receptschreiben</thema>: <dozent><grad>D.</grad>
+        Receptschreiben</thema>: <dozent ref="kneschke_eh"><grad>D.</grad>
         <nachname>Kneschke</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>2 U. Dienstag und Freitag</zeit>.</veranstaltung>
 
@@ -1820,7 +1821,8 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
         <zeit>4 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber syphilitische Krankheitsformen</thema>:
-        <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.
+        <dozent ref="walther_jkw"><grad>D.</grad>
+        <nachname>Walther</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>4 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber Kinder- oder über
@@ -1872,7 +1874,8 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
         <seite>20</seite>
 
         <veranstaltung><thema>Ueber ausgewählte Kapitel der Chirurgie</thema>:
-        <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.
+        <dozent ref="walther_jkw"><grad>D.</grad>
+        <nachname>Walther</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>4 U. 2 T. (Dienst. u.
         Freit.)</zeit></veranstaltung>
 
@@ -1920,9 +1923,9 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
       <sachgruppe>
         <titel>X. Augen- und Ohrenheilkunde.</titel>
 
-        <veranstaltung><thema>Allgemeine Augenheilkunde</thema>:
-        <dozent><grad>D.</grad> <nachname>Kneschke</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>2 U. 2 T. (Mittw. u.
+        <veranstaltung><thema>Allgemeine Augenheilkunde</thema>: <dozent
+        ref="kneschke_eh"><grad>D.</grad> <nachname>Kneschke</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>2 U. 2 T. (Mittw. u.
         Sonnab.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Theoretische Augenheilkunde</thema>:
@@ -2012,9 +2015,9 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
         <funktion>P. O.</funktion></dozent>, <zeit>9½- 11 U. 6
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Chirurgische Poliklinik</thema>:
-        <dozent><grad>D.</grad> <nachname>Walther</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, in Verbindung mit <dozent
+        <veranstaltung><thema>Chirurgische Poliklinik</thema>: <dozent
+        ref="walther_jkw"><grad>D.</grad> <nachname>Walther</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, in Verbindung mit <dozent
         ref="francke_kg"><grad>D.</grad> <nachname>Francke</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>11-1 U. 6 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -2052,9 +2055,10 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
         <zeit>4 U. Sonn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber Scheintod und die Rettungsmittel bei
-        plötzlichen Lebensgefahren</thema>: <dozent><grad>D.</grad>
-        <nachname>Walther</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>Mont. 4 U.</zeit></veranstaltung>
+        plötzlichen Lebensgefahren</thema>: <dozent
+        ref="walther_jkw"><grad>D.</grad> <nachname>Walther</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mont. 4
+        U.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>

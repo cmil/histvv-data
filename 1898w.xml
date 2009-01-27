@@ -596,10 +596,10 @@
       <nachname>Degenkolb</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Deutsches Strafrecht</thema>: <dozent><grad>Dr.
-      jur.</grad> <nachname>Wach</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont. bis Freit. 5-6 U. u. Mont. 6-7
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Deutsches Strafrecht</thema>: <dozent
+      ref="wach_a"><grad>Dr. jur.</grad> <nachname>Wach</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 5-6 U. u.
+      Mont. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches Strafrecht</thema>: <dozent
       ref="engelmann_wa"><grad>D. jur.</grad>
@@ -607,9 +607,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Summarische Processe und Konkursprocess</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Wach</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Freit. u. Sonnab. 8-9 U. Vorm.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="wach_a"><grad>D. jur.</grad> <nachname>Wach</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Freit. u. Sonnab. 8-9 U.
+      Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Gemeines deutsches Strafprocessrecht (nach seinem
       Grundriss, III. Aufl., Leipzig 1893)</thema>: <dozent
@@ -673,7 +673,7 @@
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung><thema>Civilprocess-Praktikum, mit schriftlichen
-      Arbeiten</thema>: <dozent><grad>D. jur.</grad>
+      Arbeiten</thema>: <dozent ref="wach_a"><grad>D. jur.</grad>
       <nachname>Wach</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. 6-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -740,9 +740,9 @@
       <funktion>P. O.</funktion></dozent> <siehe>Siehe Medicinische
       Facultät</siehe>.</veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Gerichtliche Medicin</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kockel</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Medicinische
+      <veranstaltungsverweis><thema>Gerichtliche Medicin</thema>: <dozent
+      ref="kockel_r"><grad>D. med.</grad> <nachname>Kockel</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Medicinische
       Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Wissenschaftliche Grundlagen des Glaubens
@@ -983,7 +983,7 @@
       pathologisch-anatomischen Diagnostik</thema>: <dozent
       ref="birch-hirschfeld_fv"><grad>D. med.</grad>
       <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
-      O.</funktion></dozent> u. <dozent><grad>D.</grad>
+      O.</funktion></dozent> u. <dozent ref="kockel_r"><grad>D.</grad>
       <nachname>Kockel</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mittw. u. Sonnab. 9-½11 U.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
@@ -996,8 +996,8 @@
 
       <veranstaltung><thema>Gerichtliche Medicin (mit Ausschluss der
       forensischen Psychiatrie), mit Demonstrationen, für Juristen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kockel</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>zweimal wöchentl. in zu best.
+      <dozent ref="kockel_r"><grad>D. med.</grad> <nachname>Kockel</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>zweimal wöchentl. in zu best.
       Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Specielle Pathologie und Therapie</thema>: <dozent
@@ -1062,7 +1062,7 @@
 
       <veranstaltung><thema>Curs der Krankheiten der Harn- und männlichen
       Geschlechtsorgane mit Uebuungen im Gebrauch von Sonde, Katheter,
-      Endoskop u.s.w.</thema>: <dozent><grad>D. med.</grad>
+      Endoskop u.s.w.</thema>: <dozent ref="kollmann_a"><grad>D. med.</grad>
       <nachname>Kollmann</nachname></dozent>, (<zeit>II. Hälfte des
       Semesters</zeit>), <zeit>Mittw. 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1519,7 +1519,7 @@
           <titel>e) Hautkrankheiten, Syphilis und Krankheiten der
           Harnwege.</titel>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="kollmann_a"><grad>D. med.</grad>
           <nachname>Kollmann</nachname></dozent> (das ganze Semester),
           <zeit>Mont. u. Freit. 6-7 U.</zeit>, <modus>privatim</modus>.
           (<ort>Grimm. Steinweg 9. I.</ort>)</veranstaltung>
@@ -3391,9 +3391,9 @@
 
         <veranstaltungsverweis><thema>Einführung in die Differential- und
         Integralrechnung und deren Anwendungen in den
-        Naturwissenschaften</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Knoblauch</nachname></dozent>. <siehe>Siehe Abschnitt
-        G.</siehe></veranstaltungsverweis>
+        Naturwissenschaften</thema>: <dozent ref="knoblauch_o"><grad>D.
+        ph.</grad> <nachname>Knoblauch</nachname></dozent>. <siehe>Siehe
+        Abschnitt G.</siehe></veranstaltungsverweis>
 
         <trennlinie/>
 
@@ -3457,9 +3457,9 @@
 
         <veranstaltung><thema>Einführung in die Differential- und
         Integralrechnung und deren Anwendungen in den
-        Naturwissenschaften</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Knoblauch</nachname></dozent>, <zeit>Dienst. u. Freit. 5-6
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Naturwissenschaften</thema>: <dozent ref="knoblauch_o"><grad>D.
+        ph.</grad> <nachname>Knoblauch</nachname></dozent>, <zeit>Dienst. u.
+        Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine und physikalische Chemie <notiz
         betreff="fortsetzung">I. Theil</notiz>, Stöchiometrie</thema>: <dozent
@@ -3531,8 +3531,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chemische Industrie der Theerfarbstoffe</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Weddige</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
+        <dozent ref="weddige_a"><grad>D. ph.</grad>
+        <nachname>Weddige</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Untersuchung von Nahrungsmitteln sowie von

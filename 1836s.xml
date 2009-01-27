@@ -1703,7 +1703,8 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
       <sachgruppe>
         <titel>Encyklopädie und Methodologie der Medicin.</titel>
 
-        <veranstaltung><dozent><nachname>Kneschke</nachname>, <grad>D.</grad>
+        <veranstaltung><dozent
+        ref="kneschke_eh"><nachname>Kneschke</nachname>, <grad>D.</grad>
         <vorname>E. H.</vorname></dozent>, <zeit>2 U. 2
         T.</zeit></veranstaltung>
       </sachgruppe>
@@ -1711,7 +1712,8 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
       <sachgruppe>
         <titel>Litterargeschichte der Medicin.</titel>
 
-        <veranstaltung><dozent><nachname>Kneschke</nachname>, <grad>D.</grad>
+        <veranstaltung><dozent
+        ref="kneschke_eh"><nachname>Kneschke</nachname>, <grad>D.</grad>
         <vorname>E. H.</vorname></dozent>, <zeit>10 U. 4 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
@@ -1719,10 +1721,10 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
       <sachgruppe>
         <titel>Quellen-Studium.</titel>
 
-        <veranstaltung><dozent><nachname>Walther</nachname>, <grad>D.</grad>
-        <vorname>J. K. W.</vorname>, <funktion>P. E.</funktion></dozent>,
-        <thema>über Hippokrates Buch: Von den Kopfverletzungen</thema>,
-        <zeit>Mont. Ab. 5 U.</zeit>
+        <veranstaltung><dozent ref="walther_jkw"><nachname>Walther</nachname>,
+        <grad>D.</grad> <vorname>J. K. W.</vorname>, <funktion>P.
+        E.</funktion></dozent>, <thema>über Hippokrates Buch: Von den
+        Kopfverletzungen</thema>, <zeit>Mont. Ab. 5 U.</zeit>
         <gebühr>unentgeltl.</gebühr></veranstaltung>
 
         <veranstaltung><dozent ref="braune_a"><nachname>Braune</nachname>,
@@ -1955,10 +1957,10 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
           <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <siehe>s.
           Arzneimittellehre</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung><dozent><nachname>Kneschke</nachname>,
-          <grad>D.</grad> <vorname>E. H.</vorname></dozent>,
-          <thema>Receptirkunst</thema>, <zeit>2 U. Mont. u.
-          Donn.</zeit></veranstaltung>
+          <veranstaltung><dozent
+          ref="kneschke_eh"><nachname>Kneschke</nachname>, <grad>D.</grad>
+          <vorname>E. H.</vorname></dozent>, <thema>Receptirkunst</thema>,
+          <zeit>2 U. Mont. u. Donn.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -2028,9 +2030,10 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
             <zeit>4 T. in zu best. St.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Kneschke</nachname>,
-            <grad>D.</grad> <vorname>E. H.</vorname></dozent>, <thema>über
-            Augen- und Ohrenkrankheiten</thema>, <zeit>4 T. in zu best.
+            <veranstaltung><dozent
+            ref="kneschke_eh"><nachname>Kneschke</nachname>, <grad>D.</grad>
+            <vorname>E. H.</vorname></dozent>, <thema>über Augen- und
+            Ohrenkrankheiten</thema>, <zeit>4 T. in zu best.
             St.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -2045,7 +2048,8 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
           <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
           Klinik</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung><dozent><nachname>Walther</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="walther_jkw"><nachname>Walther</nachname>, <grad>D.</grad>
           <vorname>J. K. W.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>medicinische Chirurgie</thema>, <zeit>3 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
@@ -2135,7 +2139,8 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
           Augenkranke</ort></thema>, <zeit>8 U. 6 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Walther</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="walther_jkw"><nachname>Walther</nachname>, <grad>D.</grad>
           <vorname>J. K. W.</vorname>, <funktion>P. E.</funktion></dozent>, in
           Verbindung mit Hrn. <dozent ref="carus_ea"><grad>D.</grad>
           <nachname>Carus</nachname></dozent>, <thema>chirurgische
@@ -2153,8 +2158,8 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
 
           <veranstaltungsverweis><dozent
           ref="carus_ea"><nachname>Carus</nachname>, <grad>D.</grad>
-          <vorname>E. A.</vorname></dozent>, in Verbindung mit Hrn.
-          <dozent><funktion>Prof.</funktion> <grad>D.</grad>
+          <vorname>E. A.</vorname></dozent>, in Verbindung mit Hrn. <dozent
+          ref="walther_jkw"><funktion>Prof.</funktion> <grad>D.</grad>
           <nachname>Walther</nachname></dozent>, <thema>chirurgische
           ambulatorische Klinik</thema>, <zeit>11 U. 6 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltungsverweis>

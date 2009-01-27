@@ -794,8 +794,8 @@
       <nachname>Birnbaum</nachname></dozent>, <zeit>in 2 zu best. St.</zeit>
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-      <veranstaltung><thema>Agriculturchemie</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Knop</nachname>, <funktion>P.
+      <veranstaltung><thema>Agriculturchemie</thema>: <dozent
+      ref="knop_w"><grad>D. ph.</grad> <nachname>Knop</nachname>, <funktion>P.
       E.</funktion></dozent>, <zeit>in 3 zu best. St.</zeit></veranstaltung>
 
       <veranstaltung><thema>Agriculturchemie</thema>: <dozent><grad>D.
@@ -948,17 +948,19 @@
         <funktion>P. O.</funktion></dozent>, <zeit>4 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Anorganische Experimentalchemie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kolbe</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Anorganische Experimentalchemie</thema>: <dozent
+        ref="kolbe_h"><grad>D. ph.</grad> <nachname>Kolbe</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9 U. 6
+        T.</zeit></veranstaltung>
 
-        <veranstaltungsverweis><thema>Agriculturchemie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Knop</nachname>, <funktion>P.
-        E.</funktion></dozent>, <siehe>s. Staats- u.
+        <veranstaltungsverweis><thema>Agriculturchemie</thema>: <dozent
+        ref="knop_w"><grad>D. ph.</grad> <nachname>Knop</nachname>,
+        <funktion>P. E.</funktion></dozent>, <siehe>s. Staats- u.
         Cameralwissenschaften</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Chemische Methoden</thema>:
-        <ders>Derselbe</ders>, <zeit>in 2 zu best. St.</zeit></veranstaltung>
+        <veranstaltung><thema>Chemische Methoden</thema>: <ders
+        ref="knop_w">Derselbe</ders>, <zeit>in 2 zu best.
+        St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Elektrochemie (über die chemischen Wirkungen der
         Elektricität)</thema>: <dozent><grad>D. ph.</grad>
@@ -985,7 +987,7 @@
           U.)</zeit></veranstaltung>
 
           <veranstaltungsgruppe><thema>Praktisch-chemische Uebungen und
-          Untersuchungen</thema>: <dozent><grad>D. ph.</grad>
+          Untersuchungen</thema>: <dozent ref="kolbe_h"><grad>D. ph.</grad>
           <nachname>Kolbe</nachname>, <funktion>P. O.</funktion></dozent>,
           <veranstaltung><thema>für Anfänger</thema> <zeit>an 5 Vor- oder
           Nachmittagen, je 2-3 Stunden</zeit></veranstaltung>,
@@ -993,7 +995,7 @@
           9-1 und 2-5 U.</zeit></veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung><thema>Chemisches Prakticum (im Schloss
-          Pleissenburg)</thema>: <dozent><grad>D. ph.</grad>
+          Pleissenburg)</thema>: <dozent ref="knop_w"><grad>D. ph.</grad>
           <nachname>Knop</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>täglich</zeit>.</veranstaltung>
         </sachgruppe>
@@ -1632,7 +1634,7 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Formelle Encyklopädie der Medicin mit
-        Hodegetik</thema>: <dozent><grad>D.</grad>
+        Hodegetik</thema>: <dozent ref="kneschke_eh"><grad>D.</grad>
         <nachname>Kneschke</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>2 U. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
       </sachgruppe>
@@ -1842,7 +1844,7 @@
         <trennlinie/>
 
         <veranstaltung><thema>Receptirkunst mit Anleitung zum
-        Receptschreiben</thema>: <dozent><grad>D.</grad>
+        Receptschreiben</thema>: <dozent ref="kneschke_eh"><grad>D.</grad>
         <nachname>Kneschke</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>2 U. 2 T. (Dienst. u. Freit.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>

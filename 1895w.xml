@@ -612,14 +612,14 @@
       <nachname>Stein</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>täglich 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Deutsches Strafrecht</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Wach</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont. bis Freit. 5-6 U. und Mont. 6-7
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Deutsches Strafrecht</thema>: <dozent
+      ref="wach_a"><grad>D. jur.</grad> <nachname>Wach</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 5-6 U. und
+      Mont. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Summarische Processe und Konkursprocess</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Wach</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Donnerst. und Sonnab. 8-9 U.,
+      <dozent ref="wach_a"><grad>D. jur.</grad> <nachname>Wach</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. und Sonnab. 8-9 U.,
       Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches Strafprocessrecht (nach seinem Grundriss
@@ -701,9 +701,9 @@
       <zeit>Freit. 11-12 U.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Civilprocess-Praktikum</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Wach</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Dienst. 6-8 U.</zeit>,
+      <veranstaltung><thema>Civilprocess-Praktikum</thema>: <dozent
+      ref="wach_a"><grad>D. jur.</grad> <nachname>Wach</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Dienst. 6-8 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Uebungen im Civilprocess für
@@ -776,7 +776,7 @@
       Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Gerichtlich-medicinisches
-      Praktikum</thema>: <dozent><grad>D. med.</grad>
+      Praktikum</thema>: <dozent ref="kockel_r"><grad>D. med.</grad>
       <nachname>Kockel</nachname></dozent>. <siehe>Siehe Medicinische
       Facultät</siehe>.</veranstaltungsverweis>
     </sachgruppe>
@@ -969,7 +969,7 @@
       pathologisch-anatomischen Diagnostik</thema>: <dozent
       ref="birch-hirschfeld_fv"><grad>D. med.</grad>
       <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
-      O.</funktion></dozent> und <dozent><grad>D. med.</grad>
+      O.</funktion></dozent> und <dozent ref="kockel_r"><grad>D. med.</grad>
       <nachname>Kockel</nachname></dozent>, <zeit>Mittw. u. Sonnab. 9-½11
       U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
@@ -981,14 +981,14 @@
 
       <veranstaltung><thema>Gerichtlich-medicinisches Praktikum (Sektionen;
       mikroskopische, spektroskopische, chemische Untersuchungen)</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kockel</nachname></dozent>,
-      <zeit>in zwei zu best. Stunden</zeit>,
-      <modus>privatissime</modus>.</veranstaltung>
+      <dozent ref="kockel_r"><grad>D. med.</grad>
+      <nachname>Kockel</nachname></dozent>, <zeit>in zwei zu best.
+      Stunden</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung><thema>Praktischer Cursus der Bakteriologie</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kockel</nachname></dozent>,
-      <zeit>Dienst., Donnerst. u. Freit. 9-½11 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="kockel_r"><grad>D. med.</grad>
+      <nachname>Kockel</nachname></dozent>, <zeit>Dienst., Donnerst. u. Freit.
+      9-½11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Specielle Pathologie und Therapie <notiz
       betreff="fortsetzung">II. Th.</notiz></thema>: <dozent
@@ -1050,7 +1050,7 @@
 
       <veranstaltung><thema>Curs der Krankheiten von Harnröhre und Blase, mit
       Uebungen im Gebrauch von Bougie, Katheter, Urethroskop, Kystoskop u. s.
-      w.</thema>: <dozent><grad>D. med.</grad>
+      w.</thema>: <dozent ref="kollmann_a"><grad>D. med.</grad>
       <nachname>Kollmann</nachname></dozent> <zeit>(I. Hälfte des Semesters),
       Mittw. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1445,7 +1445,7 @@
           <titel>e) Hautkrankheiten, Syphilis und Krankheiten der
           Harnorgane.</titel>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="kollmann_a"><grad>D. med.</grad>
           <nachname>Kollmann</nachname></dozent>, (<thema>das ganze
           Semester</thema>), <zeit>Mont. und Freit. 6-7 U.</zeit>,
           <modus>privatim</modus>. (<ort>Grimm. Steinweg 9.
@@ -3158,8 +3158,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chemische Industrie der Theerfarbstoffe</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Weddige</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 12-1 U.</zeit>,
+        <dozent ref="weddige_a"><grad>D. ph.</grad>
+        <nachname>Weddige</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst. u. Donnerst. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Physiologische Chemie</thema>: <dozent><grad>D.

@@ -518,10 +518,10 @@
       <nachname>Sehling</nachname></dozent>, <zeit>Donnerst. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Strafrecht</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Wach</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 5-6 U. und Mont. auch von 6-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Strafrecht</thema>: <dozent ref="wach_a"><grad>D.
+      jur.</grad> <nachname>Wach</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit. 5-6 U. und Mont. auch von
+      6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutsches Civilprocessrecht</thema>: <dozent
       ref="buelow_o"><grad>D. jur.</grad> <nachname>Bülow</nachname>,
@@ -536,9 +536,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Summarische Processe und Konkursprocess</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Wach</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="wach_a"><grad>D. jur.</grad> <nachname>Wach</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Gemeiner deutscher Strafprocess</thema>: <dozent
       ref="binding_kll"><grad>D. jur.</grad> <nachname>Binding</nachname>,
@@ -590,9 +590,9 @@
       <funktion>P. O.</funktion></dozent>, <zeit>Mont. 6- 8 U. Ab.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Civilprocess-Praktikum</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Wach</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mittw. 6-8 U. Ab.</zeit>,
+      <veranstaltung><thema>Civilprocess-Praktikum</thema>: <dozent
+      ref="wach_a"><grad>D. jur.</grad> <nachname>Wach</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 6-8 U. Ab.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Gerichtliche Medicin für Juristen</thema>:
@@ -1225,9 +1225,9 @@
       des.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       G.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Chemisches Praktikum</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Knop</nachname>, <funktion>P. O.
-      Hon.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      <veranstaltungsverweis><thema>Chemisches Praktikum</thema>: <dozent
+      ref="knop_w"><grad>D. ph.</grad> <nachname>Knop</nachname>, <funktion>P.
+      O. Hon.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Vergleichende Anatomie</thema>:
@@ -1805,14 +1805,14 @@
           <veranstaltung><thema>Interpretation des Chevalier au Lyon des
           Crestien von Troies (ed. L. Holland, 2. Auflage 1880) nebst einer
           Einleitung über das Leben und die Werke des Dichters</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Koerting</nachname></dozent>,
-          <zeit>Mont. u. Donnerst. 4-5
+          <dozent ref="koerting_h"><grad>D. ph.</grad>
+          <nachname>Koerting</nachname></dozent>, <zeit>Mont. u. Donnerst. 4-5
           <korrektur>U.</korrektur></zeit><korrektur>,</korrektur>
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltungsgruppe><thema>Französische Stilistik nebst einer
           Anleitung zum schriftlichen Gebrauche der französischen
-          Sprache</thema>: <dozent><grad>D. ph.</grad>
+          Sprache</thema>: <dozent ref="koerting_h"><grad>D. ph.</grad>
           <nachname>Koerting</nachname></dozent>, <veranstaltung><zeit>Dienst
           u. Freit. 4-5 U.</zeit>, <modus>privatim</modus></veranstaltung>,
           <veranstaltung><zeit>Mittw. 4-5 U.</zeit>,
@@ -2330,9 +2330,9 @@
         <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Agriculturchemie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Knop</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent> <siehe>Siehe Abschnitt
+        <veranstaltungsverweis><thema>Agriculturchemie</thema>: <dozent
+        ref="knop_w"><grad>D. ph.</grad> <nachname>Knop</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent> <siehe>Siehe Abschnitt
         G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Landwirthschaftliche Samenkunde u. s.
@@ -2487,9 +2487,10 @@
         <nachname>Wislicenus</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Dienst. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Alkaloide</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Weddige</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Alkaloide</thema>: <dozent
+        ref="weddige_a"><grad>D. ph.</grad> <nachname>Weddige</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Freit. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Organische Experimentalchemie</thema>:
         <dozent><grad>D. ph. &amp; med.</grad>
@@ -2525,9 +2526,9 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Vorlesungen über Agriculturchemie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Knop</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>Mittw. bis Sonnab. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="knop_w"><grad>D. ph.</grad> <nachname>Knop</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mittw. bis Sonnab.
+        9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Mineralogie nebst repetitorischen
         Uebungen</thema>: <dozent><grad>D. ph.</grad>
@@ -2675,10 +2676,10 @@
 
         <seite>31</seite>
 
-        <veranstaltung><thema>Chemisches Praktikum</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Knop</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>täglich, halbtägig für Anfänger und
-        ganztägig für Geübtere</zeit>,
+        <veranstaltung><thema>Chemisches Praktikum</thema>: <dozent
+        ref="knop_w"><grad>D. ph.</grad> <nachname>Knop</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>täglich, halbtägig für
+        Anfänger und ganztägig für Geübtere</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Mineralogische und geologische Arbeiten und

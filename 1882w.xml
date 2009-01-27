@@ -410,9 +410,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geschichte des römischen Civilprocesses</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Wach</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Dienst. u. Freit. 5-6 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="wach_a"><grad>D. jur.</grad> <nachname>Wach</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Freit. 5-6
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pandekten <notiz betreff="fortsetzung">I.
       Theil</notiz> (mit Ausschluss des Familien- und Erbrechts) nach dem
@@ -514,10 +514,10 @@
       <zeit>4stündig, Mont. bis Donnerst. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Strafrecht</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Wach</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 4-5 U., und an einem zu best. Tage von 5-6
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Strafrecht</thema>: <dozent ref="wach_a"><grad>D.
+      jur.</grad> <nachname>Wach</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit. 4-5 U., und an einem zu
+      best. Tage von 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Deutscher Civilprocess</thema>: <dozent><grad>D.
       jur.</grad> <nachname>Osterloh</nachname>, <funktion>P.
@@ -596,9 +596,9 @@
       O.</funktion></dozent>, <zeit>Dienst. u. Freit. 4-6 U.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Civilprocesspraktikum</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Wach</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Donnerst. 5-7 U.</zeit>,
+      <veranstaltung><thema>Civilprocesspraktikum</thema>: <dozent
+      ref="wach_a"><grad>D. jur.</grad> <nachname>Wach</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. 5-7 U.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1231,16 +1231,16 @@
       O.</funktion></dozent> <siehe>Siehe <gesperrt>Philosophische Facultät
       G</gesperrt></siehe>.</veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Chemisches Praktikum</thema>:
-      <dozent><grad>D. ph. &amp; med.</grad> <nachname>Kolbe</nachname>,
+      <veranstaltungsverweis><thema>Chemisches Praktikum</thema>: <dozent
+      ref="kolbe_h"><grad>D. ph. &amp; med.</grad> <nachname>Kolbe</nachname>,
       <funktion>P. O.</funktion></dozent> <siehe>Siehe
       <gesperrt>Philosophische Facultät
       G</gesperrt></siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Praktisch.chem. Uebungen für
-      Fortgeschrittenere</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-      <nachname>Kolbe</nachname>, <funktion>P. O.</funktion></dozent>
-      <siehe>Siehe <gesperrt>Philosophische Facultät
+      Fortgeschrittenere</thema>: <dozent ref="kolbe_h"><grad>D. ph. &amp;
+      med.</grad> <nachname>Kolbe</nachname>, <funktion>P.
+      O.</funktion></dozent> <siehe>Siehe <gesperrt>Philosophische Facultät
       G</gesperrt></siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Chemische und physikalische Arbeiten im
@@ -1249,10 +1249,10 @@
       O.</funktion></dozent> <siehe>Siehe <gesperrt>Philosophische Facultät
       G</gesperrt></siehe>.</veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Chemisches Praktikum</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Knop</nachname>, <funktion>P. O.
-      Hon.</funktion></dozent> <siehe>Siehe <gesperrt>Philosophische Facultät
-      G</gesperrt></siehe>.</veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Chemisches Praktikum</thema>: <dozent
+      ref="knop_w"><grad>D. ph.</grad> <nachname>Knop</nachname>, <funktion>P.
+      O. Hon.</funktion></dozent> <siehe>Siehe <gesperrt>Philosophische
+      Facultät G</gesperrt></siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Vergleichende Anatomie</thema>:
       <dozent><grad>D. ph. &amp; med.</grad> <nachname>Leuckart</nachname>,
@@ -2543,10 +2543,11 @@
         <zeit>Mont. u. Donnerst. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Organische Experimentalchemie</thema>:
-        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Kolbe</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Mittw., Donnerst.
-        u. Freit. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Organische Experimentalchemie</thema>: <dozent
+        ref="kolbe_h"><grad>D. ph. &amp; med.</grad>
+        <nachname>Kolbe</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Dienst., Mittw., Donnerst. u. Freit. 8-9 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Anorganische Experimentalchemie</thema>:
         <dozent><grad>D. ph. &amp; med.</grad> G.
@@ -2567,8 +2568,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chemie der aromatischen Verbindungen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Weddige</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
+        <dozent ref="weddige_a"><grad>D. ph.</grad>
+        <nachname>Weddige</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Milch, ihre Production und
@@ -2583,9 +2585,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Vorlesungen über Agriculturchemie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Knop</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>Mittw., Donnerst., Freit. u. Sonnab.
-        9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="knop_w"><grad>D. ph.</grad> <nachname>Knop</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mittw., Donnerst.,
+        Freit. u. Sonnab. 9-10 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Mineralogie nebst repetitorischen
         Uebungen</thema>: <dozent><grad>D. ph.</grad>
@@ -2668,15 +2671,16 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum für Anfänger</thema>:
-        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Kolbe</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 2-5
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="kolbe_h"><grad>D. ph. &amp; med.</grad>
+        <nachname>Kolbe</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont. bis Freit. 2-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Praktisch-chemische Uebungen und Untersuchungen
-        für Fortgeschrittenere</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <nachname>Kolbe</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>täglich mit Ausnahme Sonnab. Nachmittag, 9-1 U., u. 2-5
-        U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+        für Fortgeschrittenere</thema>: <dozent ref="kolbe_h"><grad>D. ph.
+        &amp; med.</grad> <nachname>Kolbe</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>täglich mit Ausnahme Sonnab. Nachmittag,
+        9-1 U., u. 2-5 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><thema>Chemische und physikalische Arbeiten <notiz
         betreff="ort">im Laboratorium</notiz></thema>: <dozent><grad>D. ph.
@@ -2685,10 +2689,10 @@
         <zeit>täglich 9-1 U. u. Mont. bis Freit. 2-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Chemisches Praktikum</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Knop</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>täglich</zeit>, ganz- und
-        halbtägig<!--(?)-->, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Chemisches Praktikum</thema>: <dozent
+        ref="knop_w"><grad>D. ph.</grad> <nachname>Knop</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>täglich</zeit>, ganz-
+        und halbtägig<!--(?)-->, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Mineralogische und geologische Arbeiten und
         Untersuchungen <notiz betreff="ort">im Institut</notiz></thema>:

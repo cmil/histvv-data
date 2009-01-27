@@ -882,14 +882,14 @@
       O.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Neuere Statistik</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Knapp</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
+      <veranstaltung><thema>Neuere Statistik</thema>: <dozent
+      ref="knapp_gf"><grad>D. ph.</grad> <nachname>Knapp</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Anwendung der Mathematik auf
-      Bevölkerungsstatistik</thema>: <ders>Derselbe</ders>, <siehe>s. math.
-      Wiss.</siehe></veranstaltungsverweis>
+      Bevölkerungsstatistik</thema>: <ders ref="knapp_gf">Derselbe</ders>,
+      <siehe>s. math. Wiss.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Staatsrecht</thema>, <siehe>s.
       Rechtswissenschaft</siehe>.</veranstaltungsverweis>
@@ -955,12 +955,13 @@
         Donn.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Allgemeine Chemie für
-        Landwirthe</thema>: <dozent><grad>D. ph.</grad>
+        Landwirthe</thema>: <dozent ref="knop_w"><grad>D. ph.</grad>
         <nachname>Knop</nachname>, <funktion>P. E.</funktion></dozent>,
         <siehe>s. Chemie</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Agriculturchemie</thema>: <ders>Derselbe</ders>,
-        <zeit>9 U. 3 T. (Dienst., Donn. u. Freit.)</zeit></veranstaltung>
+        <veranstaltung><thema>Agriculturchemie</thema>: <ders
+        ref="knop_w">Derselbe</ders>, <zeit>9 U. 3 T. (Dienst., Donn. u.
+        Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Agriculturchemie</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Kerndt</nachname></dozent>, <zeit>2 U. 6
@@ -1089,9 +1090,9 @@
       Physik</thema>, <siehe>s. Physik</siehe>.</veranstaltungsverweis>
 
       <veranstaltung><thema>Anwendung der Mathematik auf
-      Bevölkerungsstatistik</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Knapp</nachname>, <funktion>P. E. des.</funktion></dozent>,
-      <zeit>in 2 zu best. St.</zeit></veranstaltung>
+      Bevölkerungsstatistik</thema>: <dozent ref="knapp_gf"><grad>D.
+      ph.</grad> <nachname>Knapp</nachname>, <funktion>P. E.
+      des.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit></veranstaltung>
 
       <sachgruppe>
         <titel>Mathematische Uebungen.</titel>
@@ -1159,18 +1160,19 @@
         <nachname>Carstanjen</nachname></dozent>, <zeit>in 4 zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Organische Experimentalchemie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kolbe</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Organische Experimentalchemie</thema>: <dozent
+        ref="kolbe_h"><grad>D. ph.</grad> <nachname>Kolbe</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Allgemeine Chemie für Landwirthe</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Knop</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>in 4 zu verabred.
+        <dozent ref="knop_w"><grad>D. ph.</grad> <nachname>Knop</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>in 4 zu verabred.
         St.</zeit></veranstaltung>
 
-        <veranstaltungsverweis><thema>Agriculturchemie</thema>:
-        <ders>Derselbe</ders>, <siehe>s. Staats- u. Cameralwissenschaften
-        (Landw.)</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Agriculturchemie</thema>: <ders
+        ref="knop_w">Derselbe</ders>, <siehe>s. Staats- u.
+        Cameralwissenschaften (Landw.)</siehe></veranstaltungsverweis>
 
         <veranstaltung><thema>Qualitative und quantitative Analyse und
         Titrirmethoden</thema>: <dozent ref="carstanjen_e"><grad>D. ph.</grad>
@@ -1194,7 +1196,7 @@
           <trennlinie/>
 
           <veranstaltungsgruppe><thema>Praktisch-chemische Uebungen und
-          Untersuchungen</thema>: <dozent><grad>D. ph.</grad>
+          Untersuchungen</thema>: <dozent ref="kolbe_h"><grad>D. ph.</grad>
           <nachname>Kolbe</nachname>, <funktion>P. O.</funktion></dozent>,
           <veranstaltung><thema>für Anfänger</thema> <zeit>2-5 U. 5
           T.</zeit></veranstaltung>, <veranstaltung><thema>für die
@@ -1202,9 +1204,9 @@
           U.</zeit></veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung><thema>Chemisches Prakticum <ort>(im Schloss
-          Pleissenburg)</ort></thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Knop</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>täglich</zeit>.</veranstaltung>
+          Pleissenburg)</ort></thema>: <dozent ref="knop_w"><grad>D.
+          ph.</grad> <nachname>Knop</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>täglich</zeit>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
