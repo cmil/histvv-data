@@ -43,11 +43,13 @@
   <trennlinie/>
 
   <absatz>LEIPZIG IN KOMMISSION BEI ALEXANDER EDELMANN,
-  UNIVERSITÄT-BUCHHÄNDLER.</absatz>
+  UNIVERSITÄTS-BUCHHÄNDLER.</absatz>
 
   <seite nr="b"/>
 
-  <!--Inhaltsverzeichnis!-->
+  <absatz>Inhalts-Verzeichnis.</absatz>
+
+  <absatz>[...]</absatz>
 
   <seite>1</seite>
 
@@ -71,11 +73,11 @@
       Verzeichnis unter dem Stichwort "Einführende und einleitende Vorlesungen
       und Übungen" zu entnehmen. Sämtliche Vorlesungen, Seminar- und
       Institutsübungen, bei denen nichts anderes vermerkt ist, werden im
-      Universitätsgebäude (Albertinum, Johanneum, Paulinum und Bornerianum)
-      abgehalten. Die Hörsäle und der Anfang der Vorlesungen werden von jedem
-      Dozenten in den ersten Tagen des Semesters durch Anschlag am Schwarzen
-      Brett im Albertinum bekannt gegeben. Unter "täglich" sind nur die
-      Wochentage zu verstehen.</absatz>
+      <ort>Universitätsgebäude</ort> (Albertinum, Johanneum, Paulinum und
+      Bornerianum) abgehalten. Die Hörsäle und der Anfang der Vorlesungen
+      werden von jedem Dozenten in den ersten Tagen des Semesters durch
+      Anschlag am Schwarzen Brett im Albertinum bekannt gegeben. Unter
+      "täglich" sind nur die Wochentage zu verstehen.</absatz>
     </sachgruppe>
 
     <trennlinie/>
@@ -425,8 +427,7 @@
       sed <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Katechetisches Seminar</thema>: <dozent>Der neu zu
-      berufende <funktion>Professor</funktion></dozent>.<!--Dozent ohne Namen!
---></veranstaltung>
+      berufende <funktion>Professor<!--(N.N.)--></funktion></dozent>.</veranstaltung>
 
       <veranstaltung><thema>Seminar für Pädagogik (für Studierende der
       Theologie zur Einführung in die Schulkunde und Schulpraxis): Praktische
@@ -439,17 +440,18 @@
       <modus>privatissime</modus>, sed
       <gebühr>gratis</gebühr>.</veranstaltung>
 
-      <veranstaltung><thema>Liturgische Übungen für Theologen</thema>:
+      <veranstaltungsgruppe><thema>Liturgische Übungen für Theologen</thema>:
       <dozent><funktion>Prof.</funktion> <grad>D. ph.</grad>
-      <nachname>Seydel</nachname></dozent>, <zeit>So. 8-9 U. Vorm.</zeit>,
-      <modus>privatim</modus> (<ort>im Musikübungssaal Ritterstr. 12. Erdg.
-      I.</ort>; <thema>mit einer fakultativen und <notiz
-      betreff="gebühr">unentgeltlichen</notiz>
-      Übungsstunde</thema>).</veranstaltung>
+      <nachname>Seydel</nachname></dozent>, <veranstaltung><zeit>So. 8-9 U.
+      Vorm.</zeit></veranstaltung>, <modus>privatim</modus> (<ort>im
+      Musikübungssaal Ritterstr. 12. Erdg. I.</ort>; <veranstaltung>mit einer
+      fakultativen und <gebühr>unentgeltlich</gebühr>en
+      <thema>Übungsstunde</thema></veranstaltung>).</veranstaltungsgruppe>
 
       <trennlinie/>
 
-      <absatz>Die Vorlesungen werden vom 22. Oktober an beginnen.</absatz>
+      <absatz>Die Vorlesungen werden vom 22. Oktober<!--(Zeit!)--> an
+      beginnen.</absatz>
 
       <trennlinie/>
 
@@ -838,6 +840,8 @@
         nach Vereinbarung</zeit>, <modus>privatim</modus>, <ort>im Chem.
         Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
+        <!--(VA doppelt sich, s. u. S. 23)-->
+
         <veranstaltung><thema>Chemisches Praktikum für Ärzte und
         Zahnärzte</thema>: <dozent><grad>D. ph.</grad>
         <nachname>Paal</nachname>, <funktion>P. O. des.</funktion></dozent>,
@@ -845,6 +849,8 @@
         <zeit>sechsstündig nach Vereinbarung</zeit>, <modus>privatim</modus>,
         <ort>im Laboratorium für angewandte Chemie, Brüderstr.
         34</ort>.</veranstaltung>
+
+        <!--(VA doppelt sich, s. u. S. 23)-->
 
         <veranstaltung><thema>Physikalisches Praktikum für Mediziner und
         Pharmazeuten</thema>: <dozent ref="wiener_oh"><grad>D. ph. nat. et
@@ -855,6 +861,8 @@
         <zeit>So. 9-12 U.</zeit>, <modus>privatim</modus>, <ort>im
         Physikalischen Institut, Linnéstr. 5</ort>.</veranstaltung>
 
+        <!--(VA doppelt sich, s. u. S. 12)-->
+
         <veranstaltung><thema>Einführung in die mathematische Behandlung der
         Naturwissenschaften (Analytische Geometrie, Differential- und
         Integralrechnung) mit Übungen, für Studierende der Medizin und der
@@ -862,7 +870,7 @@
         med. et ph.</grad> <vorname>O.</vorname> <nachname>Fischer</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Mo., Mi. u. Do. 6-7
         U.</zeit>, <modus>privatim</modus>, <ort>im Anatomischen Institut,
-        Liebigstr. 13</ort>.</veranstaltung>
+        Liebigstr. 13</ort>.<!--(VA doppelt sich, s. u. S. 47)--></veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum für Mediziner</thema>,
         <zeit>halbtägig</zeit>: <dozent><grad>D. med. et ph.</grad>
@@ -871,9 +879,8 @@
         <modus>privatim</modus>, <ort>im Physiolog. Institut, Liebigstr.
         16</ort>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Naturwissenschaften (Physik, Chemie,
-        Botanik, Zoologie etc.)</thema>: <siehe>S.
-        46-53</siehe>.</veranstaltungsverweis>
+        <absatz>Naturwissenschaften (Physik, Chemie, Botanik, Zoologie etc.):
+        <siehe>S. 46-53</siehe>.</absatz>
       </sachgruppe>
 
       <sachgruppe>
@@ -888,7 +895,7 @@
 
         <veranstaltung><thema>Präparierübungen</thema>: <dozent><grad>D.
         med.</grad> <nachname>Rabl</nachname>, <funktion>P.
-        O.</funktion></dozent> (<dozent>unter Teilnahme der Prosektoren
+        O.</funktion></dozent> (<dozent>unter Teilnahme der Prosektoren<!--(Funktion nachtragen!)-->
         <grad>D. med. et LL. D.</grad> <nachname>Spalteholz</nachname>,
         <funktion>P. E.</funktion></dozent>, und <dozent ref="held_h"><grad>D.
         med.</grad> <nachname>Held</nachname>, <funktion>P. E.
@@ -1095,7 +1102,7 @@
         <zeit>tägl., ganztägig</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Pharmazeutisch - chemisch - toxikologisches
+        <veranstaltung><thema>Pharmazeutisch-chemisch-toxikologisches
         Praktikum mit Sterilisierkurs</thema>: <dozent><grad>D. ph. et
         med.</grad> <nachname>Hantzsch</nachname>, <funktion>P.
         O.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
@@ -1103,7 +1110,7 @@
         8-12½ U. u. (außer So.) 2-6 U.</zeit>, <modus>privatim</modus>,
         <ort>im Chem. Laborator., Liebigstr. 18</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Pharmazeutisch - chemisch - toxikologisches
+        <veranstaltung><thema>Pharmazeutisch-chemisch-toxikologisches
         Praktikum</thema>: <dozent><grad>D. ph.</grad>
         <nachname>Paal</nachname>, <funktion>P. O. des.</funktion></dozent>,
         mit <dozent><grad>D. ph.</grad> <nachname>Deußen</nachname></dozent>
@@ -1128,6 +1135,8 @@
         <dozent><grad>D. ph.</grad> <nachname>Füchtbauer</nachname></dozent>,
         <zeit>So. 9-12 U.</zeit>, <modus>privatim</modus>, <ort>im Physikal.
         Institut, Linnéstr. 5</ort>.</veranstaltung>
+
+        <!--(VA doppelt sich, s. o. S. 9)-->
       </sachgruppe>
 
       <sachgruppe>
@@ -1236,10 +1245,10 @@
         <nachname>Albracht</nachname></dozent> (<thema>im Auftrage von <notiz
         betreff="dozent">D. med. von Strümpell, P.
         O.</notiz></thema>)</veranstaltung>
-        (<veranstaltung><thema>chirurgischer Teil</thema> durch
+        (<veranstaltungsverweis><thema>chirurgischer Teil</thema> durch
         <dozent><grad>D. med.</grad>
         <nachname>Frangenheim</nachname></dozent>, <siehe>s. S.
-        15</siehe></veranstaltung>), <zeit>Di. u. Do. 5-6 U.</zeit>,
+        15</siehe></veranstaltungsverweis>), <zeit>Di. u. Do. 5-6 U.</zeit>,
         <modus>privatim</modus>, <ort>in der Medizin. Klinik, Liebigstr.
         22</ort>.</veranstaltungsgruppe>
 
@@ -1385,12 +1394,14 @@
         Röntgendiagnostik</thema>, <veranstaltung><thema>chirurgischer
         Teil</thema>: <dozent><grad>D. med.</grad>
         <nachname>Frangenheim</nachname></dozent></veranstaltung>
-        (<veranstaltung><thema>interner Teil</thema> durch <dozent
+        (<veranstaltungsverweis><thema>interner Teil</thema> durch <dozent
         ref="albracht_k"><grad>D. med.</grad>
         <nachname>Albracht</nachname></dozent>, <siehe>s. S.
-        13</siehe></veranstaltung>), <zeit>Di. u. Do. 5-6 U.</zeit>,
+        13</siehe></veranstaltungsverweis>), <zeit>Di. u. Do. 5-6 U.</zeit>,
         <modus>privatim</modus>, <ort>in der Chirurg. Klinik, Liebigstr.
         20</ort>.</veranstaltungsgruppe>
+
+        <!--VA-Verweis innerhalb VA, Gegenstück siehe oben.-->
       </sachgruppe>
 
       <sachgruppe>
@@ -1484,8 +1495,8 @@
         <veranstaltung><thema>Augenspiegelkursus</thema>: <dozent><grad>D.
         med.</grad> <vorname>O.</vorname> <nachname>Schwarz</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>an zwei zu best. Tagen 6-7
-        U.</zeit>, <modus>privatim</modus>, <ort>im Medizinisch-
-        poliklinischeu Institut, Nürnberger Str. 55</ort>.</veranstaltung>
+        U.</zeit>, <modus>privatim</modus>, <ort>im Medizinisch-poliklinischen
+        Institut, Nürnberger Str. 55</ort>.</veranstaltung>
 
         <veranstaltung><thema>Die Beziehungen der Augenerkrankungen zu
         Allgemeinleiden (mit Krankenvorstellungen und
@@ -1505,7 +1516,7 @@
         Liebigstr. 14</ort>.</veranstaltung>
 
         <veranstaltung><thema>Die Motilitätsstörungen der Augen (mit
-        Krankenverstellungen)</thema>: <dozent ref="bielschowsky_a"><grad>D.
+        Krankenvorstellungen)</thema>: <dozent ref="bielschowsky_a"><grad>D.
         med.</grad> <nachname>Bielschowsky</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>zweistünd. an noch zu best. Tage</zeit>,
         <modus>publice</modus>, <ort>in der Heilanstalt für Augenkranke,
@@ -1526,7 +1537,7 @@
 
         <veranstaltung><thema>Ausgewählte Kapitel aus der
         Entwicklungsgeschichte und Anatomie des Auges</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Wolfram</nachname></dozent>,
+        <dozent><grad>D. med.</grad> <nachname>Wolfrum</nachname></dozent>,
         <zeit>Fr. 7-8 U.</zeit>, <modus>privatissime</modus> et
         <gebühr>gratis</gebühr>, <ort>in der Heilanstalt für Augenkranke,
         Liebigstr. 14</ort>.</veranstaltung>
@@ -1619,7 +1630,7 @@
 
         <veranstaltung><thema>Allgemeine Psychiatrie</thema>: <dozent><grad>D.
         med. et ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
-        <nachname>Nießl- Mayendorf</nachname></dozent>, <zeit>Mo. 5-6
+        <nachname>Nießl-Mayendorf</nachname></dozent>, <zeit>Mo. 5-6
         U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Gehirnpathologie mit klinischen Demonstrationen
@@ -1630,7 +1641,7 @@
         XI.</ort></veranstaltung>
 
         <veranstaltung><thema>Übungen in der Erkennung und Beurteilung
-        mikroskopischer Präparate des normalen und kranken Nerven <seite>18</seite>systems</thema>:
+        mikroskopischer Präparate des normalen und kranken Nerven<seite>18</seite>systems</thema>:
         <dozent><grad>D. med. et ph.</grad>
         <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Nießl-Mayendorf</nachname></dozent>, <zeit>an 2 noch zu
@@ -1705,7 +1716,7 @@
         Vorlesung gratis</gebühr>), <ort>in der Dermatolog. Klinik, Liebigstr.
         20</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Erklärung der klinischen Moulagensammlung
+        <veranstaltung><thema>Erklärung der klinischen Moulagensammlung<!--(Lehrmittel!)-->
         (Wachsabgüsse von selteneren Hautkrankheiten)</thema>: <dozent
         ref="rille_jh"><grad>D. med.</grad> <nachname>Rille</nachname>,
         <funktion>P. O. Hon. des.</funktion></dozent>, <zeit>Mo. 6-7
@@ -1785,9 +1796,8 @@
         <veranstaltungsverweis><thema>Physiologie des Gehörs, der Stimme u.
         Sprache</thema>: <siehe>S. 10</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Stimmbildung, Korrektur von
-        Sprachfehlern, Sprachgebrechen etc.</thema>: <siehe>S.
-        40</siehe>.</veranstaltungsverweis>
+        <absatz>Stimmbildung, Korrektur von Sprachfehlern, Sprachgebrechen
+        etc.: <siehe>S. 40</siehe>.</absatz>
       </sachgruppe>
 
       <sachgruppe>
@@ -1869,7 +1879,7 @@
       </sachgruppe>
 
       <sachgruppe>
-        <titel>Geschichte.</titel>
+        <titel kontext="sachgruppe"><!--(Kontextattribut hilfreich?)-->Geschichte.</titel>
 
         <veranstaltung><thema>Geschichte der Medizin im Altertum</thema>:
         <dozent><grad>D. med.</grad> <nachname>Sudhoff</nachname>,
@@ -2103,6 +2113,8 @@
         nach Vereinbarung</zeit>, <modus>privatim</modus>, <ort>im Chemischen
         Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
+        <!--(VA doppelt sich, s. o. S. 9)-->
+
         <veranstaltung><thema>Chemisches Praktikum für Ärzte und
         Zahnärzte</thema>: <dozent><grad>D. ph.</grad>
         <nachname>Paal</nachname>, <funktion>P. O. des.</funktion></dozent>,
@@ -2110,6 +2122,8 @@
         <zeit>sechsstündig nach Vereinbar.</zeit>, <modus>privatim</modus>,
         <ort>im Laboratorium f. angewandte Chemie, Brüderstr.
         34</ort>.</veranstaltung>
+
+        <!--(VA doppelt sich, s. o. S. 9)-->
 
         <trennlinie/>
 
@@ -4355,6 +4369,8 @@ und nicht nur auf diese Veranstaltung!
         <funktion>P. E.</funktion></dozent>, <zeit>Mo., Mi. u. Do. 6-7
         U.</zeit>, <modus>privatim</modus>, <ort>im Anatomischen Institut,
         Liebigstr. 13</ort>.</veranstaltung>
+
+        <!--(VA doppelt sich, s. o. S. 9)-->
 
         <veranstaltung><thema>Thermodynamik (Mechanische
         Wärmetheorie)</thema>: <dozent ref="descoudres_t"><grad>D. ph.</grad>
