@@ -42,8 +42,11 @@
 
   <trennlinie/>
 
-  <absatz>LEIPZIG IN KOMMISSION BEI ALEXANDER EDELMANN,
-  UNIVERSITÄTS-BUCHHÄNDLER.</absatz>
+  <absatz>LEIPZIG</absatz>
+
+  <absatz>IN KOMMISSION BEI ALEXANDER EDELMANN,</absatz>
+
+  <absatz>UNIVERSITÄTS-BUCHHÄNDLER.</absatz>
 
   <seite nr="b"/>
 
@@ -2001,8 +2004,8 @@
         Zahnarzt</funktion> <nachname>Schuster</nachname></dozent>, <zeit>Mo.
         bis Fr. 2-5 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Arbeiten für Geübtere im histologischen und
-        Röntgenlaboratorium</thema>: <dozent ref="dependorf_t"><grad>D.
+        <veranstaltung><thema>Arbeiten für Geübtere <ort>im histologischen und
+        Röntgenlaboratorium</ort></thema>: <dozent ref="dependorf_t"><grad>D.
         ph.</grad> <nachname>Dependorf</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>in noch zu best. Zeit</zeit>,
         <modus>privatissime</modus>.</veranstaltung>
@@ -2131,9 +2134,8 @@
         Strahlungen in der Medizin (Licht-, Röntgen-, Radiumstrahlen)</thema>:
         <siehe>S. 47</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Sonstige Vorlesungen über
-        Naturwissenschaft (Physik, Chemie, Botanik, Zoologie etc.)</thema>:
-        <siehe>S. 46-53</siehe>.</veranstaltungsverweis>
+        <absatz>Sonstige Vorlesungen über Naturwissenschaft (Physik, Chemie,
+        Botanik, Zoologie etc.): <siehe>S. 46-53</siehe>.</absatz>
       </sachgruppe>
     </sachgruppe>
 
@@ -2316,9 +2318,10 @@
 
             <veranstaltungsgruppe><zeit>Mo. bis Fr. 2-7 u. So. 2-4 U.</zeit>,
             <modus>privatissime</modus>, aber <gebühr>gratis (ausschl.
-            Institutsbeitrag)</gebühr>. <veranstaltung><thema>1. Abteilung:
-            Psychophysik</thema>, <dozent><funktion>Vorstand</funktion>
-            <grad>D. ph.</grad> <nachname>Wirth</nachname>, <funktion>P.
+            Institutsbeitrag)</gebühr>. <veranstaltung
+            dozent="wundt_w"><thema>1. Abteilung: Psychophysik</thema>,
+            <dozent><funktion>Vorstand</funktion> <grad>D. ph.</grad>
+            <nachname>Wirth</nachname>, <funktion>P.
             E.</funktion></dozent></veranstaltung> <veranstaltung><thema>2.
             Abteilung: Sinnespsychologie und Verwandtes</thema>,
             <dozent><funktion>Vorstand</funktion> <grad>D. ph.</grad>
@@ -2337,14 +2340,14 @@
             <titel>III. Abteilung für experimentelle Pädagogik
             (<ort>Schillerstr 7. II.</ort>):</titel>
 
-            <veranstaltungsgruppe><veranstaltung>1) <thema>Einführungskurs in
-            das pädagogische Experiment</thema>: <dozent><grad>D. ph.</grad>
-            <nachname>Brahn</nachname></dozent>, <zeit>Mo. 11-1
-            U.</zeit></veranstaltung> <veranstaltung>2)
-            <thema>Wissenschaftliche Arbeiten für Fortgeschrittenere</thema>:
+            <veranstaltungsgruppe><veranstaltung dozent="wundt_w">1)
+            <thema>Einführungskurs in das pädagogische Experiment</thema>:
             <dozent><grad>D. ph.</grad> <nachname>Brahn</nachname></dozent>,
-            <zeit>tägl. 9-12 u. 2-7 U.</zeit></veranstaltung>,
-            <modus>privatissime</modus> et
+            <zeit>Mo. 11-1 U.</zeit></veranstaltung> <veranstaltung
+            dozent="wundt_w">2) <thema>Wissenschaftliche Arbeiten für
+            Fortgeschrittenere</thema>: <dozent><grad>D. ph.</grad>
+            <nachname>Brahn</nachname></dozent>, <zeit>tägl. 9-12 u. 2-7
+            U.</zeit></veranstaltung>, <modus>privatissime</modus> et
             <gebühr>gratis</gebühr>.</veranstaltungsgruppe>
           </sachgruppe>
         </sachgruppe>
@@ -2427,7 +2430,7 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Einleitung in die homerischen Gedichte und
-          Erklärung von Ilias Buch B</thema>: <dozent
+          Erklärung von Ilias Buch <kursiv>B</kursiv></thema>: <dozent
           ref="brugmann_k"><grad>D. ph. et LL. D.</grad>
           <nachname>Brugmann</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mo., Di., Do. u. Fr. 8-9 U. Vorm.</zeit>,
@@ -2543,7 +2546,7 @@
         <sachgruppe>
           <titel>b) Orientalische Philologie.</titel>
 
-          <veranstaltung><thema>Interpretation der in Pischel's Elernentarbuch
+          <veranstaltung><thema>Interpretation der in Pischel's Elementarbuch
           des Sanskrit enthaltenen Lesestücke (für Anfänger)</thema>:
           <dozent><grad>D. ph. et th.</grad> <vorname>E.</vorname>
           <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
@@ -3004,8 +3007,8 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>L'évolution de la poésie lyrique en France
-          dans la seconde moitié du XIX<!--kleines e hochgestellt in der XIX!
---> siècle</thema>: <dozent><funktion>Lektor</funktion>
+          dans la seconde moitié du XIXe<!--(hochstellen!)--> siècle</thema>:
+          <dozent><funktion>Lektor</funktion>
           <nachname>Favre</nachname></dozent>, <zeit>Mo. u. Do. 6-7 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -3075,9 +3078,9 @@
           weniger Geübte)</thema>, <zeit>Mo. u. Do. 5-6
           U.</zeit></veranstaltung>, <modus>privatissime</modus>, sed
           <gebühr>gratis</gebühr>.</veranstaltungsgruppe> -
-          <veranstaltung><thema>Weitere Konversations- und Debattierkurse
-          werden nach Bedarf
-          eingerichtet</thema>.</veranstaltung></veranstaltungsgruppe>
+          <veranstaltung>Weitere <thema>Konversations- und
+          Debattierkurse</thema> werden nach Bedarf
+          eingerichtet.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Romanisches Seminar</thema>: <dozent
           ref="birch-hirschfeld_ga"><grad>D. ph.</grad> <vorname>Ad.</vorname>
@@ -3088,7 +3091,7 @@
           <gebühr>gratis</gebühr>.</veranstaltung> -
           <veranstaltungsgruppe><thema>II. Abteilung: Praktische Übungen in
           der französischen Sprache</thema> <dozent>unter Leitung des
-          <funktion>Assistenten Lektors</funktion><seite>33</seite><nachname>Favre</nachname></dozent>:
+          <funktion>Assistenten Lektors</funktion> <seite>33</seite><nachname>Favre</nachname></dozent>:
           <veranstaltung><thema>1. Sektion</thema>: <zeit>Mi. 11¼-12¾
           U.</zeit></veranstaltung>; <veranstaltung><thema>2. Sektion</thema>:
           <zeit>Di. u. Fr. 3-4 U.</zeit></veranstaltung>;
@@ -3255,8 +3258,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Geschichte Israels v. Tode Salomos bis
-        auf Alexander d. Gr.<korrektur>:</korrektur></thema> <siehe>S.
-        2</siehe>.</veranstaltungsverweis>
+        auf Alexander d. Gr.</thema><korrektur>:</korrektur>
+        <siehe>S.<korrektur original=": ">
+        </korrektur>2</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geschichte der muhammedan. Religion,
         etc.</thema>: <siehe>S. 28</siehe>.</veranstaltungsverweis>
@@ -3346,10 +3350,11 @@
               <dozent><grad>D. ph.</grad>
               <nachname>Schmeidler</nachname></dozent>, <zeit>Do. 7¾-9¼ U.
               Ab.</zeit>, <modus>privatissime</modus>, sed
-              <gebühr>gratis</gebühr>.</veranstaltung> <thema>Für die
+              <gebühr>gratis</gebühr>.</veranstaltung> <veranstaltung>Für die
               Teilnehmer an den Vorkursen wird ein gemeinsamer
-              bibliographischer Einführungskurs (<notiz betreff="zeit">in den
-              ersten 5-6 Wochen</notiz>) abgehalten.<!--Ich wusste nicht, wie ich diese Veranstaltungen taggen sollte!--></thema></veranstaltungsgruppe>
+              <thema>bibliographischer Einführungskurs</thema> (<zeit>in den
+              ersten 5-6 Wochen</zeit>)
+              abgehalten.</veranstaltung></veranstaltungsgruppe>
             </sachgruppe>
 
             <sachgruppe>
@@ -3395,8 +3400,8 @@
               <zeit>Mi. 8½-10 U. Vorm.</zeit>, <modus>privatissime</modus>,
               sed <gebühr>gratis</gebühr>.</veranstaltung>
 
-              <veranstaltungsgruppe><ort>Außerdem werden folgende Kurse im
-              Institut abgehalten</ort>: <veranstaltung>1) <dozent><grad>D.
+              <veranstaltungsgruppe>Außerdem werden folgende Kurse <ort>im
+              Institut</ort> abgehalten: <veranstaltung>1) <dozent><grad>D.
               ph.</grad> <nachname>Soerensen</nachname>, <funktion>P.
               E.</funktion></dozent>: <thema>Übungen zur osteuropäischen
               Geschichte</thema>, <zeit>Mo. 5-6½ U.</zeit>,
@@ -3431,15 +3436,17 @@
             jüngere Teilnehmer des Vorkurses</thema>, <zeit>Mo. 8-9½ U.
             Ab.</zeit></veranstaltung>
 
-            <veranstaltung>2) <dozent ref="lamprecht_k"><grad>D. ph. et LL.
-            D.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
+            <veranstaltungsgruppe>2) <dozent ref="lamprecht_k"><grad>D. ph. et
+            LL. D.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
             O.</funktion></dozent>: <thema>Anleitung zum Studium der
             Geschichte überhaupt: Lektüre von Quellen zur Geschichte des
             deutschen Mittelalters, Einführung in die Elemente der
-            Quellenforschung (sogenannter Vorkurs)</thema>, <zeit>So. 9½-11 U.
-            Vorm.</zeit> <thema>Mit dieser Übung sind mehrere
-            Quelleneinprägungskurse durch besondere Repetenten
-            verbunden.</thema></veranstaltung>
+            Quellenforschung (sogenannter Vorkurs)</thema>,
+            <veranstaltung><zeit>So. 9½-11 U. Vorm.</zeit></veranstaltung>
+            <veranstaltung>Mit dieser Übung sind <thema>mehrere
+            Quelleneinprägungskurse</thema> <dozent>durch besondere
+            Repetenten<!--(N.N.)--></dozent>
+            verbunden.</veranstaltung></veranstaltungsgruppe>
 
             <veranstaltung>3) <dozent ref="doren_aj"><grad>D. ph.</grad>
             <nachname>Doren</nachname>, <funktion>P. E.</funktion></dozent>:
@@ -3502,49 +3509,52 @@
             <sachgruppe>
               <titel>B. Vergleichende Kurse.</titel>
 
-              <veranstaltungsgruppe><veranstaltung>1) <dozent
-              ref="kretzschmar_jr"><grad>D. ph.</grad>
-              <nachname>Kretzschmar</nachname></dozent>: <thema>Übungen zur
-              genetischen Kinderpsychologie: Die Religion des Kindes in ihrem
-              Zusammenhang mit der religiösen Entwicklung des Volkes</thema>,
-              <zeit>Di. 6-7½ U.</zeit></veranstaltung> <veranstaltung>2)
-              <dozent><grad>D. ph.</grad>
+              <veranstaltungsgruppe><veranstaltung gebühr="gratis"
+              modus="privatissime">1) <dozent ref="kretzschmar_jr"><grad>D.
+              ph.</grad> <nachname>Kretzschmar</nachname></dozent>:
+              <thema>Übungen zur genetischen Kinderpsychologie: Die Religion
+              des Kindes in ihrem Zusammenhang mit der religiösen Entwicklung
+              des Volkes</thema>, <zeit>Di. 6-7½ U.</zeit></veranstaltung>
+              <!--(Absatz!)--><veranstaltung gebühr="gratis"
+              modus="privatissime">2) <dozent><grad>D. ph.</grad>
               <nachname>Dieterich</nachname></dozent>: <thema>Übungen zur
               Geschichte des früheren mittelalterlichen Hofzeremoniells mit
               besonderer Rücksicht auf byzantinische Einflüsse</thema>,
-              <zeit>Mi. 6 bis 7½ U.</zeit></veranstaltung> <veranstaltung>3)
-              <dozent><grad>D. jur. et ph.</grad>
-              <nachname>Holldack</nachname></dozent>: <thema>Übungen zur
-              vergleichenden Rechtsgeschichte der mittelalterlichen
-              Mittelmeerkulturen, für Juristen und Historiker</thema>,
-              <zeit>8-9½ U. Ab.</zeit></veranstaltung> <veranstaltung>4)
-              <dozent><grad>D. ph. et med.</grad>
+              <zeit>Mi. 6 bis 7½ U.</zeit></veranstaltung> <!--(Absatz!)--><veranstaltung
+              gebühr="gratis" modus="privatissime">3) <dozent><grad>D. jur. et
+              ph.</grad> <nachname>Holldack</nachname></dozent>:
+              <thema>Übungen zur vergleichenden Rechtsgeschichte der
+              mittelalterlichen Mittelmeerkulturen, für Juristen und
+              Historiker</thema>, <zeit>8-9½ U. Ab.</zeit></veranstaltung>
+              <!--(Absatz!)--><veranstaltung gebühr="gratis"
+              modus="privatissime">4) <dozent><grad>D. ph. et med.</grad>
               <nachname>Schneider</nachname>, <funktion>P.
               E.</funktion></dozent>: <thema>Übungen zur Geschichte der
               Begriffsbildung: Monisten</thema>, <zeit>Fr. 8-10 U.
-              Ab.</zeit></veranstaltung> Sämtliche Kurse werden
-              <gebühr>privatissime</gebühr>, sed <gebühr>gratis</gebühr>
-              abgehalten.</veranstaltungsgruppe>
-
+              Ab.</zeit></veranstaltung> <!--(Absatz!)-->Sämtliche Kurse
+              werden <modus>privatissime</modus>, sed <gebühr>gratis</gebühr>
+              abgehalten<!--(Durch die Position des Absatzes im Original darf dies hier streng genommen nur für "B. Vergleichende Kurse." gelten. 
+Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
               <veranstaltungsgruppe>Außer den genannten Kursen werden auch
               noch stattfinden: <veranstaltung>a) <thema>Übungen zur
               französischen Kulturgeschichte</thema> durch einen
-              <dozent>französischen Historiker</dozent>, <thema>Lehrsprache
-              französisch</thema></veranstaltung> und <veranstaltung>b)
-              <thema>Übungen zur englischen und amerikanischen
-              Kulturgeschichte</thema> durch einen <dozent>englischen</dozent>
-              und einen <dozent>amerikanischen Historiker</dozent>,
-              <thema>Lehrsprache englisch</thema></veranstaltung>.<!--???--></veranstaltungsgruppe>
-
-              <absatz>Das Institut veröffentlicht einen ausführlichen Lehr-
-              und Arbeitsplan mit besonderer Anweisung über den zweckmäßigen
-              Besuch der in ihm stattfindenden Übungen. In diesem Plane wird
-              auch das Genauere über die soeben unter a) und b) genannten
-              Übungen mitgeteilt werden. Abdrücke des Planes werden von der
-              Institutsverwaltung unentgeltlich, auch auf dem Wege der
-              Zusendung durch die Post, verabfolgt.<!--???--></absatz>
+              <dozent>französischen Historiker<!--(N.N.)--></dozent>,
+              <thema>Lehrsprache französisch</thema></veranstaltung> und
+              <veranstaltung>b) <thema>Übungen zur englischen und
+              amerikanischen Kulturgeschichte</thema> durch einen
+              <dozent>englischen</dozent> und einen <dozent>amerikanischen
+              Historiker<!--(N.N.)--></dozent>, <thema>Lehrsprache
+              englisch</thema></veranstaltung>.</veranstaltungsgruppe></veranstaltungsgruppe>
             </sachgruppe>
           </sachgruppe>
+
+          <absatz>Das Institut veröffentlicht einen ausführlichen Lehr- und
+          Arbeitsplan mit besonderer Anweisung über den zweckmäßigen Besuch
+          der in ihm stattfindenden Übungen. In diesem Plane wird auch das
+          Genauere über die soeben unter a) und b) genannten Übungen
+          mitgeteilt werden. Abdrücke des Planes werden von der
+          Institutsverwaltung unentgeltlich, auch auf dem Wege der Zusendung
+          durch die Post, verabfolgt.</absatz>
         </sachgruppe>
 
         <trennlinie/>
@@ -3584,10 +3594,11 @@
 
           <veranstaltungsgruppe><dozent><grad>D. ph. litt. et sc.</grad>
           <nachname>Partsch</nachname>, <funktion>P. O.</funktion></dozent>:
-          <veranstaltung><thema>1) Abteilung für Vorgeschrittene</thema>,
+          <veranstaltung>1) <thema>Abteilung für Vorgeschrittene</thema>,
           <zeit>Mi. 11-1 U.</zeit>, <modus>publice</modus>.</veranstaltung> -
-          <veranstaltung><thema>2) Abteilung für Anfänger (unter Mitwirkung
-          des Assistenten)</thema>, <zeit>Fr. 4-5 U.</zeit>,
+          <veranstaltung>2) <thema>Abteilung für Anfänger</thema> (<notiz
+          betreff="dozent">unter Mitwirkung des Assistenten<!--(Wegen Overriding hier ohnehin keine "Mitwirkung" als "dozent" auszeichenbar! Für das ref-attribut der Teil-VA: Assistent ist laut PV scheu_e [am 03.02.2009 noch nicht in Doz.xml])--></notiz>),
+          <zeit>Fr. 4-5 U.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltungsgruppe><dozent ref="friedrich_e"><grad>D. ph.</grad>
@@ -3612,8 +3623,10 @@
 
           <veranstaltung><thema>Leitung wissenschaftlicher Arbeiten</thema>
           <ort>im Museum für Völkerkunde (Königsplatz)</ort>,
-          <zeit>wochentägl. in zu best. Stunden, Meldung
-          daselbst</zeit>.</veranstaltung>
+          <zeit>wochentägl. in zu best. Stunden</zeit>, Meldung
+          daselbst.</veranstaltung>
+
+          <!--(Dozent: N.N.)-->
         </sachgruppe>
       </sachgruppe>
 
@@ -3697,7 +3710,7 @@
         <trennlinie/>
 
         <sachgruppe>
-          <titel>Kunsthistorisches institut (<ort>Albertinum
+          <titel>Kunsthistorisches Institut (<ort>Albertinum
           I.</ort>).</titel>
 
           <veranstaltung><thema>Forschungsabteilung: Einzelfragen und
@@ -3770,7 +3783,7 @@
           Seminar</thema>: <dozent ref="riemann_h"><grad>D. ph. et mus.</grad>
           <nachname>Riemann</nachname>, <funktion>P. O.
           Hon.</funktion></dozent>: <veranstaltung>A) <thema>(ältere
-          Abteilung): Paläogra <seite>40</seite>phische Übungen und Einführung
+          Abteilung): Paläogra<seite>40</seite>phische Übungen und Einführung
           in die Geschichte der Musiktheorie</thema>, <zeit>Di.
           10¼-11¾U.</zeit>, <modus>publice</modus>.</veranstaltung>
           <veranstaltung>B) <thema>(neuere Abteilung): Formal-technische
@@ -3794,7 +3807,7 @@
           jur. et ph.</grad> <nachname>Prüfer</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>Mi. 5-7 U.</zeit>,
           <modus>privatissime</modus>, aber <gebühr>gratis</gebühr>, <ort>im
-          Auditorium des Collegium musicum (Universitätsstr. 1 3. Eg.
+          Auditorium des Collegium musicum (Universitätsstr. 13. Eg.
           r.)</ort>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Übertragen und Einrichten von
@@ -3820,10 +3833,10 @@
           Fr. 6-7 U.</zeit>, <modus>privatim</modus></veranstaltung>. -
           <veranstaltung>Hierzu ein <thema>Parallelkursus</thema>, <zeit>Mo.
           u. Do. 5-6 U.</zeit>, <modus>privatim</modus></veranstaltung>
-          (<thema>für beide Kurse wird zu <notiz betreff="zeit">noch zu best.
-          Zeit</notiz> je eine fakultative und <notiz
-          betreff="gebühr">unentgeltliche</notiz> Übungsstunde
-          abgehalten</thema>).</veranstaltungsgruppe>
+          <veranstaltung>(für beide Kurse wird <zeit>zu noch zu best.
+          Zeit</zeit> je eine fakultative und <gebühr>unentgeltlich</gebühr>e
+          <thema>Übungsstunde<!--(hier VA-Zeit-Attribut "einstündig" zur Explizierung der in "thema" enthaltenen Zeit-Information?)--></thema>
+          abgehalten)</veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung><thema>Praktische Übung für pädagogisch-technische
           Korrektur von Sprachfehlern, Sprachgebrechen und besonderen
@@ -3835,10 +3848,10 @@
           Sprechen, Disputation und Debatte)</thema>:
           <dozent><funktion>Prof.</funktion> <grad>D. ph.</grad>
           <nachname>Seydel</nachname></dozent>, <zeit>Mo. 6 bis 7 U.</zeit>,
-          <modus>publice</modus>. (<thema>Sämtliche Übungen für Studierende
-          aller Fakultäten</thema>).<!--Der Klammerausdruck bezieht sich auf alle Übungen 
-und nicht nur auf diese Veranstaltung!
---></veranstaltung>
+          <modus>publice</modus>.</veranstaltung>
+
+          <absatz>(Sämtliche Übungen für Studierende aller
+          Fakultäten).</absatz>
 
           <trennlinie/>
 
