@@ -178,9 +178,9 @@
       Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Die drei sogenannten ökumenischen Symbole</thema>:
-      <dozent><grad>Lic. th. D. ph.</grad> <nachname>Kunze</nachname>,
-      <funktion>P. E. des.</funktion></dozent>, <zeit>Dienst. 6-7 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      <dozent ref="kunze_j"><grad>Lic. th. D. ph.</grad>
+      <nachname>Kunze</nachname>, <funktion>P. E. des.</funktion></dozent>,
+      <zeit>Dienst. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Dogmengeschichte</thema>: <dozent
       ref="brieger_jft"><grad>D. th. et ph.</grad>
@@ -189,9 +189,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Neueste Dogmengeschichte (von 1650 an)</thema>:
-      <dozent><grad>Lic. th. D. ph.</grad> <nachname>Kunze</nachname>,
-      <funktion>P. E. des.</funktion></dozent>, <zeit>Mont., Dienst. u.
-      Donnerst. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="kunze_j"><grad>Lic. th. D. ph.</grad>
+      <nachname>Kunze</nachname>, <funktion>P. E. des.</funktion></dozent>,
+      <zeit>Mont., Dienst. u. Donnerst. 4-5 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geschichte und Entwicklung der Lehre von der
       heiligen Schrift</thema>: <dozent><grad>Lic. th. D. ph.</grad>
@@ -390,7 +391,7 @@
       <veranstaltung><thema>Wissenschaftliche Uebungen des Theologischen
       Studentenvereins</thema>: <dozent><grad>D. th. et ph.</grad>
       <nachname>Kirn</nachname>, <funktion>P. O.</funktion></dozent> (in
-      Gemeinschaft mit <dozent><grad>Lic. th. D. ph.</grad>
+      Gemeinschaft mit <dozent ref="kunze_j"><grad>Lic. th. D. ph.</grad>
       <nachname>Kunze</nachname>, <funktion>P. E. des.</funktion></dozent>),
       <zeit>Dienst. ¾8-9 U. Ab.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -917,9 +918,9 @@
       <dozent><grad>D. med.</grad> <nachname>Ficker</nachname></dozent>,
       <zeit>Donnerst. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Schulhygiene</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Lange</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      <veranstaltung><thema>Schulhygiene</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
+      <zeit>Mittw. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Einführung in die für die ärztl. Praxis
       nothwendigen Gesetze (Medicinalgesetze, Krankenkasse u.s.w.)</thema>:
@@ -1003,13 +1004,15 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Specielle Pathologie und Therapie des Kindesalters
-      <notiz betreff="fortsetzung">I. Theil</notiz></thema>: <dozent><grad>D.
-      med.</grad> <nachname>Lange</nachname></dozent>, <zeit>Mont. u. freit.
-      6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <notiz betreff="fortsetzung">I. Theil</notiz></thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
+      <zeit>Mont. u. freit. 6-7 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Ernährung und Pflege des Säuglings</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
-      <zeit>Sonnab. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="lange_h"><grad>D. med.</grad>
+      <nachname>Lange</nachname></dozent>, <zeit>Sonnab. 5-6 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Ueber acute Infectionskrankheiten</thema>:
       <dozent><grad>D. med.</grad> <nachname>Romberg</nachname>, <funktion>P.
@@ -1121,9 +1124,9 @@
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Ueber Fracturen und Luxationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <veranstaltung><thema>Ueber Fracturen und Luxationen</thema>: <dozent
+      ref="koelliker_t"><grad>D. med.</grad> <nachname>Kölliker</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Ueber Unfallheikunde mit praktischen
@@ -1159,9 +1162,10 @@
       <seite>15</seite>
 
       <veranstaltung><thema>Augenärztliche Propädeutik mit
-      Krankendemonstrationen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Krückmann</nachname></dozent>, <zeit>zweimal wöchentl. nach
-      Verabredung</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Krankendemonstrationen</thema>: <dozent ref="krieckmann_e"><grad>D.
+      med.</grad> <nachname>Krückmann</nachname></dozent>, <zeit>zweimal
+      wöchentl. nach Verabredung</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Funktionsprüfungen des Auges mit praktischen
       Uebungen</thema>: <dozent><grad>D. med.</grad>
@@ -1186,7 +1190,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Augenspiegelübungen a) für Anfänger, b) für
-      Geübtere</thema>: <dozent><grad>D. med.</grad>
+      Geübtere</thema>: <dozent ref="krieckmann_e"><grad>D. med.</grad>
       <nachname>Krückmann</nachname></dozent>, <zeit>dreimal wöchentl. nach
       Verabredung</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
@@ -1363,8 +1367,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Poliklinik der orthopädischen Chirurgie</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst., Mittw. u. Sonnab. 4-5 U.</zeit>,
+      <dozent ref="koelliker_t"><grad>D. med.</grad>
+      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Dienst., Mittw. u. Sonnab. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Psychiatrische Klinik</thema>: <dozent
@@ -1456,7 +1461,7 @@
         <sachgruppe>
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="koelliker_t"><grad>D. med.</grad>
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10.</ort>)</veranstaltung>
 
@@ -1525,7 +1530,7 @@
           <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Carolinenstr. 31.</ort>)</veranstaltung>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="lange_h"><grad>D. med.</grad>
           <nachname>Lange</nachname></dozent>, <zeit>tägl. ½3-½4 U.</zeit>,
           <modus>privatim</modus>. (<ort>Nürnberger Str. 22.
           I.</ort>)</veranstaltung>
@@ -1541,7 +1546,8 @@
           (<ort>Carolinenstr. 31.</ort>)</veranstaltung>
 
           <veranstaltung><dozent><grad>D. med.</grad>
-          <nachname>Menge</nachname></dozent> und <dozent><grad>D. med.</grad>
+          <nachname>Menge</nachname></dozent> und <dozent
+          ref="kroenig_b"><grad>D. med.</grad>
           <nachname>Krönig</nachname></dozent>, <thema>Gynaekologische
           Diagnostik und Therapie</thema>, <zeit>Dienst., Mittw., Donnerst. u.
           Freit. ½3-½4 U.</zeit>, <modus>privatim</modus>. (<ort>Nürnberger
@@ -1709,9 +1715,10 @@
         <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Theologische Facultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Schulhygiene</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Lange</nachname></dozent>. <siehe>Siehe
-        Medicinische Facultät</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Schulhygiene</thema>: <dozent
+        ref="lange_h"><grad>D. med.</grad>
+        <nachname>Lange</nachname></dozent>. <siehe>Siehe Medicinische
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <trennlinie/>
 
@@ -2386,12 +2393,13 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der litauischen Sprache</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
-          Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="leskien_a"><grad>D. ph.</grad>
+          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Historische Grammatik der serbokroatischen
-          Sprache</thema>: <dozent><grad>D. ph.</grad>
+          Sprache</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2441,9 +2449,10 @@
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen im Lesen slavischer Texte (im
-          Indogermanischen Institut)</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mittw. 7-9 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+          Indogermanischen Institut)</thema>: <dozent ref="leskien_a"><grad>D.
+          ph.</grad> <nachname>Leskien</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mittw. 7-9 U.</zeit>,
+          <modus>publice</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 

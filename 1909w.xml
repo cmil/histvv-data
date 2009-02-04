@@ -654,8 +654,8 @@
       <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Schulhygiene und Schulkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Medizinische
+      <dozent ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Medizinische
       Fakultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Allgemeine Psychopathologie</thema>:
@@ -1421,9 +1421,9 @@ gerissen.--></veranstaltung>
       <zeit>Dienst, 11-12 U.</zeit>, <modus>privatim</modus>, <ort>im
       Hygienischen Institut, Liebigstr. 24</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Über Tropenhygiene und Tropenkrankheiten</thema>:
@@ -1526,11 +1526,11 @@ gerissen.--></veranstaltung>
       Medizinisch-poliklinischen Institut, Nürnberger Str.
       55</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Therapie der Kinderkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
-      <modus>privatim</modus>, <ort>in der Pädiatrischen Privat-Poliklinik,
-      Königsstr. 14. I.</ort></veranstaltung>
+      <veranstaltung><thema>Therapie der Kinderkrankheiten</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7
+      U.</zeit>, <modus>privatim</modus>, <ort>in der Pädiatrischen
+      Privat-Poliklinik, Königsstr. 14. I.</ort></veranstaltung>
 
       <seite>15</seite>
 
@@ -1716,15 +1716,15 @@ gerissen.--></veranstaltung>
       I.</ort></veranstaltung>
 
       <veranstaltung><thema>Demonstrationen und Besprechung
-      orthopädisch-chirurgischer Fälle</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Sonnab. 5-6 U.</zeit>, <modus>publice</modus>, <ort>in der
-      Poliklinik für orthopäd. Chirurgie, Nürnberger Str. 57, Gartengeb.
-      Erdg.</ort></veranstaltung>
+      orthopädisch-chirurgischer Fälle</thema>: <dozent
+      ref="koelliker_t"><grad>D. med.</grad> <nachname>Kölliker</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 5-6 U.</zeit>,
+      <modus>publice</modus>, <ort>in der Poliklinik für orthopäd. Chirurgie,
+      Nürnberger Str. 57, Gartengeb. Erdg.</ort></veranstaltung>
 
-      <veranstaltung><thema>Über Frakturen und Luxationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <veranstaltung><thema>Über Frakturen und Luxationen</thema>: <dozent
+      ref="koelliker_t"><grad>D. med.</grad> <nachname>Kölliker</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>privatim</modus>, <ort>in der Poliklinik für orthopäd. Chirurgie,
       Nürnberger Str. 57, Gartengeb. Erdg.</ort></veranstaltung>
 
@@ -1743,10 +1743,11 @@ gerissen.--></veranstaltung>
       Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung><thema>Kriegschirurgie und Feldsanitätsdienst</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. 6-7 U.</zeit>,
-      <modus>publice</modus>, <ort>in der Poliklinik für orthopäd. Chirurgie,
-      Nürnberger Str. 57, Gartengeb. Erdg.</ort></veranstaltung>
+      <dozent ref="koelliker_t"><grad>D. med.</grad>
+      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Mont. 6-7 U.</zeit>, <modus>publice</modus>, <ort>in der
+      Poliklinik für orthopäd. Chirurgie, Nürnberger Str. 57, Gartengeb.
+      Erdg.</ort></veranstaltung>
 
       <trennlinie/>
 
@@ -2044,10 +2045,10 @@ gerissen.--></veranstaltung>
       3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Poliklinik der orthopädischen Chirurgie</thema>
-      (<ort>Nürnberger Str. 57, Gartengeb. Erdg.</ort>): <dozent><grad>D.
-      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      (<ort>Nürnberger Str. 57, Gartengeb. Erdg.</ort>): <dozent
+      ref="koelliker_t"><grad>D. med.</grad> <nachname>Kölliker</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont., Mittw. u. Sonnab. 4-5
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geburtshilflich-gynäkologische Klinik und
       Poliklinik</thema>: <dozent><grad>D. med.</grad>
@@ -2588,9 +2589,9 @@ gerissen.--></veranstaltung>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einführung in die Geschichtsphilosophie (mit
-        Referaten und Besprechungen)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Krueger</nachname></dozent>, <zeit>Mont. u. Donnerst. 11-12
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Referaten und Besprechungen)</thema>: <dozent ref="krueger_f"><grad>D.
+        ph.</grad> <nachname>Krueger</nachname></dozent>, <zeit>Mont. u.
+        Donnerst. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erkenntnistheorie</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Lipps</nachname>, <funktion>P.
@@ -2695,7 +2696,7 @@ gerissen.--></veranstaltung>
         Fakultät.</siehe></veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
@@ -2812,9 +2813,10 @@ gerissen.--></veranstaltung>
 
         <veranstaltungsverweis><thema>Übungen zur Entwicklungspsychologie: Die
         Anfänge und die Hauptmotive der gesellschaftlichen Gliederung (im
-        Institut für Kultur- u. Universalgeschichte)</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Krueger</nachname></dozent>. <siehe>Siehe
-        Abschnitt C.</siehe></veranstaltungsverweis>
+        Institut für Kultur- u. Universalgeschichte)</thema>: <dozent
+        ref="krueger_f"><grad>D. ph.</grad>
+        <nachname>Krueger</nachname></dozent>. <siehe>Siehe Abschnitt
+        C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Die Entwicklungsstufen der
         zeichnerischen Darstellungsfähigkeit des Kindes, untersucht an
@@ -3637,13 +3639,13 @@ gerissen.--></veranstaltung>
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Ausgewählte Abschnitte aus der Syntax der
-          slavischen Sprachen</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          slavischen Sprachen</thema>: <dozent ref="leskien_a"><grad>D.
+          ph.</grad> <nachname>Leskien</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 12-1
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung der altrussischen (Nestor'schen)
-          Chronik</thema>: <dozent><grad>D. ph.</grad>
+          Chronik</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -3714,7 +3716,7 @@ gerissen.--></veranstaltung>
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen älterer slavischer
-          Texte</thema>: <dozent><grad>D. ph.</grad>
+          Texte</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mittw. 11-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -3944,9 +3946,9 @@ gerissen.--></veranstaltung>
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Einführung in die
-        Geschichtsphilosophie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Krueger</nachname></dozent>. <siehe>Siehe Abschnitt
-        A.</siehe></veranstaltungsverweis>
+        Geschichtsphilosophie</thema>: <dozent ref="krueger_f"><grad>D.
+        ph.</grad> <nachname>Krueger</nachname></dozent>. <siehe>Siehe
+        Abschnitt A.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Klassische Literaturgeschichte</thema>
         <siehe>siehe Abschnitt B. a</siehe>.</veranstaltungsverweis>
@@ -4183,7 +4185,7 @@ bezieht.-->
               Kulturen</thema>, <zeit>Dienst. 8-9½ U.
               Ab.</zeit></veranstaltung>
 
-              <veranstaltung>2) <dozent><grad>D. ph.</grad>
+              <veranstaltung>2) <dozent ref="krueger_f"><grad>D. ph.</grad>
               <nachname>Krueger</nachname></dozent>: <thema>Übungen über die
               Anfänge und die Hauptmotive der gesellschaftlichen
               Gliederung</thema>, <zeit>Mittw. 5½-7 U.</zeit></veranstaltung>
@@ -4976,7 +4978,7 @@ bezieht.-->
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
@@ -5161,9 +5163,10 @@ bezieht.-->
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Differential- und Integralrechnung</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Dienst. bis Freit. 12-1
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="liebmann_h"><grad>D. ph.</grad>
+        <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst. bis Freit. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Differentialgeometrie (Theorie der Kurven und
         Flächen)</thema>: <dozent ref="hausdorff_f"><grad>D. ph.</grad>
@@ -5257,7 +5260,7 @@ bezieht.-->
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
@@ -5325,9 +5328,10 @@ bezieht.-->
         zur Analytischen Geometrie</thema>, <zeit>Mont. 11-12 U.</zeit>,
         <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung>; <veranstaltung>b)
-        <thema>Übungen zur darstellenden Geometrie</thema> (<dozent>mit
-        <grad>D. ph.</grad> <nachname>Liebmann</nachname>, <funktion>P.
-        E.</funktion></dozent>), <zeit>Mont. 3-5 U.</zeit>,
+        <thema>Übungen zur darstellenden Geometrie</thema> (<dozent
+        ref="liebmann_h">mit <grad>D. ph.</grad>
+        <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>),
+        <zeit>Mont. 3-5 U.</zeit>,
         <modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
         <veranstaltung>4) <thema>Übungen in Mechanik</thema>: <dozent
         ref="herglotz_g"><grad>D. ph.</grad> <nachname>Herglotz</nachname>,
@@ -5343,7 +5347,7 @@ bezieht.-->
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Übungen zur Differential- und
-        Integralrechnung</thema>: <dozent><grad>D. ph.</grad>
+        Integralrechnung</thema>: <dozent ref="liebmann_h"><grad>D. ph.</grad>
         <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Sonnab. 12-1 U.</zeit>, <modus>privatissime</modus> et
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -5770,7 +5774,7 @@ bezieht.-->
         <siehe>Siehe Abschnitt E.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 

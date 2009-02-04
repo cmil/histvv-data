@@ -319,8 +319,9 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
         xml:id="v-1821s-I.2.001-003"><thema>Allgemeine Botanik</thema>,
         <zeit>7 U. 4 T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-        <veranstaltungsgruppe><dozent><nachname>Kunze</nachname>,
-        <grad>D.</grad> <vorname>G.</vorname></dozent>, <veranstaltung
+        <veranstaltungsgruppe><dozent
+        ref="kunze_g"><nachname>Kunze</nachname>, <grad>D.</grad>
+        <vorname>G.</vorname></dozent>, <veranstaltung
         xml:id="v-1821s-I.2.001-004"><thema>Naturgeschichte der
         cryptogamischen Gewächse, <notiz>Forts.</notiz></thema> <zeit>2 T. in
         zu best. St.</zeit> <gebühr>unentgeltlich</gebühr></veranstaltung>,
@@ -592,13 +593,13 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
       <sachgruppe xml:id="sg-1821s-I.6.002">
         <titel>Geographie und Statistik.</titel>
 
-        <veranstaltungsgruppe><dozent><nachname>Kruse</nachname>,
-        <vorname>C.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <veranstaltung xml:id="v-1821s-I.6.002-001"><thema>physische
-        Geographie</thema>, <zeit>2 U. 4 T.</zeit>
-        <modus>öffentlich</modus></veranstaltung>; ingl. <veranstaltung
-        xml:id="v-1821s-I.6.002-002"><thema>Geographie u. kurze Geschichte der
-        Juden</thema>, <zeit>3 U. 4
+        <veranstaltungsgruppe><dozent
+        ref="kruse_c"><nachname>Kruse</nachname>, <vorname>C.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <veranstaltung
+        xml:id="v-1821s-I.6.002-001"><thema>physische Geographie</thema>,
+        <zeit>2 U. 4 T.</zeit> <modus>öffentlich</modus></veranstaltung>;
+        ingl. <veranstaltung xml:id="v-1821s-I.6.002-002"><thema>Geographie u.
+        kurze Geschichte der Juden</thema>, <zeit>3 U. 4
         T.</zeit></veranstaltung></veranstaltungsgruppe>
 
         <veranstaltungsgruppe><dozent
@@ -712,10 +713,10 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
       <sachgruppe xml:id="sg-1821s-I.9.x">
         <titel>*) Uebungen der pädagogisch-didaktischen Gesellschaft.</titel>
 
-        <veranstaltung
-        xml:id="v-1821s-I.9.x-001"><dozent><nachname>Kruse</nachname>,
-        <vorname>C.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>in
-        den best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1821s-I.9.x-001"><dozent
+        ref="kruse_c"><nachname>Kruse</nachname>, <vorname>C.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in den best.
+        St.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -1742,11 +1743,11 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
 
         <seite>17</seite>
 
-        <veranstaltung
-        xml:id="v-1821s-IV.5.002-006"><dozent><nachname>Kuhl</nachname>,
-        <grad>D.</grad> <vorname>C. A.</vorname>, <funktion>P. E.
-        des.</funktion></dozent>, <thema>über einige Augenkrankheiten</thema>,
-        <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1821s-IV.5.002-006"><dozent
+        ref="kuhl_ka"><nachname>Kuhl</nachname>, <grad>D.</grad> <vorname>C.
+        A.</vorname>, <funktion>P. E. des.</funktion></dozent>, <thema>über
+        einige Augenkrankheiten</thema>, <zeit>11 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1821s-IV.5.002-007"><dozent><nachname>Leune</nachname>,
@@ -1834,9 +1835,10 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
       Krankheiten <schrift>nach eign. Sätzen</schrift></thema>, <zeit>4 U. 4
       T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltungsgruppe><dozent><nachname>Kuhl</nachname>, <grad>D.</grad>
-      <vorname>C. A.</vorname>, <funktion>P. E. des.</funktion></dozent>,
-      <veranstaltung xml:id="v-1821s-IV.9-002"><thema>Chirurgie,
+      <veranstaltungsgruppe><dozent ref="kuhl_ka"><nachname>Kuhl</nachname>,
+      <grad>D.</grad> <vorname>C. A.</vorname>, <funktion>P. E.
+      des.</funktion></dozent>, <veranstaltung
+      xml:id="v-1821s-IV.9-002"><thema>Chirurgie,
       <notiz>Forts.</notiz></thema> <zeit>11 U. 4 T.</zeit></veranstaltung>;
       ingl. <veranstaltung xml:id="v-1821s-IV.9-003"><thema>chirurgische
       Demonstrationen <ort>im Jakobsspitale</ort></thema>, <zeit>3 U. 2

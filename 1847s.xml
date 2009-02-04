@@ -555,8 +555,8 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Physiologische und pathologische Chemie</thema>:
-        <dozent><grad>D.</grad> <nachname>Lehmann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
+        <dozent ref="lehmann_cg"><grad>D.</grad> <nachname>Lehmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Forensische Chemie</thema>:
@@ -617,7 +617,7 @@
         <modus>öffentl.</modus></veranstaltung>
 
         <veranstaltung><thema>Encyklopädie der morphologischen u.
-        physiologischen Botanik</thema>: <dozent><grad>D.</grad>
+        physiologischen Botanik</thema>: <dozent ref="kunze_g"><grad>D.</grad>
         <nachname>Kunze</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>7 U. Morg. 4 T.</zeit></veranstaltung>
 
@@ -632,9 +632,9 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber natürliche Pflanzenfamilien</thema>:
-        <dozent><grad>D.</grad> <nachname>Kunze</nachname>, <funktion>P.
-        O.</funktion></dozent><korrektur>,</korrektur> <zeit>6 U. Morg. 2
-        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="kunze_g"><grad>D.</grad> <nachname>Kunze</nachname>,
+        <funktion>P. O.</funktion></dozent><korrektur>,</korrektur> <zeit>6 U.
+        Morg. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ueber die Familie der Gräser</thema>:
         <dozent><grad>M.</grad> <nachname>Petermann</nachname></dozent>,
@@ -656,13 +656,14 @@
 
           <veranstaltung><thema>Praktische botanische Uebungen</thema>,
           <zeit>früh 7 U. 2 T.</zeit>, <thema>oder Excursionen in den
-          Abendstunden</thema>: <dozent><grad>D.</grad>
+          Abendstunden</thema>: <dozent ref="kunze_g"><grad>D.</grad>
           <nachname>Kunze</nachname>, <funktion>P.
           O.</funktion></dozent></veranstaltung>
 
           <veranstaltung><thema>Demonstrationen u. Mittheilungen von Pflanzen
-          des botan. Gartens zum Untersuchen und Einlegen</thema>:
-          <ders>Derselbe</ders>, <zeit>Donn. in den Nachmittagsstunden</zeit>,
+          des botan. Gartens zum Untersuchen und Einlegen</thema>: <ders
+          ref="kunze_g">Derselbe</ders>, <zeit>Donn. in den
+          Nachmittagsstunden</zeit>,
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Botanische Excursionen u. Demonstrationen mit
@@ -1080,9 +1081,10 @@
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Homiletische Gesellschaft der Sachsen</thema>:
-          <dozent><grad>M.</grad> <nachname>Küchler</nachname>,
-          <funktion>Theol. Lic., Phil. P. E.</funktion></dozent>, <zeit>Mittw.
-          5-7 U.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          <dozent ref="kuechler_kg"><grad>M.</grad>
+          <nachname>Küchler</nachname>, <funktion>Theol. Lic., Phil. P.
+          E.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Homiletische Uebungen</thema>:
           <dozent><grad>M.</grad> <nachname>Hänsel</nachname>,
@@ -1473,7 +1475,7 @@
         Donn.</zeit><!--vgl. S. 7; gleiche Veranstaltung?--></veranstaltung>
 
         <veranstaltung><thema>Uebungen in Anstellung physiolog. Versuche, im
-        physiolog. Institute</thema>: <dozent><grad>D.</grad>
+        physiolog. Institute</thema>: <dozent ref="lehmann_cg"><grad>D.</grad>
         <nachname>Lehmann</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>3-5 U. Mont., Dienst. u. Donn.</zeit></veranstaltung>
 
@@ -1492,7 +1494,7 @@
         <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Benutzung des Mikroskops zur medicinischen
-        Diagnostik</thema>: <dozent><grad>D.</grad>
+        Diagnostik</thema>: <dozent ref="lehmann_cg"><grad>D.</grad>
         <nachname>Lehmann</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>10-12 U. 2 T.</zeit>
         <modus>privatissime</modus>.</veranstaltung>

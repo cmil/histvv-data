@@ -239,7 +239,7 @@ Was bedeutet das "ausser"?-->
           Unterhaltungen</thema></veranstaltung> geben
           wird</veranstaltungsgruppe>.
           <veranstaltung><dozent><nachname>Bouc</nachname></dozent></veranstaltung>;
-          <veranstaltung><dozent><grad>M.</grad>
+          <veranstaltung><dozent ref="kunze_kw"><grad>M.</grad>
           <nachname>Kunze</nachname></dozent></veranstaltung>;
           <veranstaltung><dozent><nachname>Paien</nachname></dozent></veranstaltung>.</veranstaltungsgruppe>
         </sachgruppe>
@@ -666,10 +666,11 @@ in der die Sachgruppentitel das Thema seien-->
             Grossbritannien, nach Meusel</thema>, <zeit>11 U. 4 T.</zeit>
             <modus>öff.</modus></veranstaltung>
 
-            <veranstaltung><dozent>Hofr. u. <funktion>P. O.</funktion>
-            <nachname>Kruse</nachname></dozent>, <thema>Geschichte, Geographie
-            und Statistik von Spanien und Portugal</thema>, <zeit>3 U. 4
-            T.</zeit> <modus>öff.</modus></veranstaltung>
+            <veranstaltung><dozent ref="kruse_c">Hofr. u. <funktion>P.
+            O.</funktion> <nachname>Kruse</nachname></dozent>,
+            <thema>Geschichte, Geographie und Statistik von Spanien und
+            Portugal</thema>, <zeit>3 U. 4 T.</zeit>
+            <modus>öff.</modus></veranstaltung>
 
             <veranstaltung><dozent ref="weisse_ce">OHGR. <grad>D.</grad> u.
             <funktion>P. O.</funktion> <nachname>Weisse</nachname></dozent>,
@@ -707,8 +708,8 @@ in der die Sachgruppentitel das Thema seien-->
         <sachgruppe>
           <titel>3) Geographie und Statistik.</titel>
 
-          <veranstaltung><dozent>Hofr. u. <funktion>P. O.</funktion>
-          <nachname>Kruse</nachname></dozent>, <thema>physische
+          <veranstaltung><dozent ref="kruse_c">Hofr. u. <funktion>P.
+          O.</funktion> <nachname>Kruse</nachname></dozent>, <thema>physische
           Geographie</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
 
           <sachgruppe>
@@ -881,9 +882,9 @@ Müsste doch eigentlich Korinther heißen...-->
             Donn.</zeit> <modus>öffentl.</modus></veranstaltung>
 
             <veranstaltung><thema>Die biblische Geographie u. Geschichte der
-            Juden</thema> trägt <dozent>Hofr. u. <funktion>P. O.</funktion>
-            <nachname>Kruse</nachname></dozent> <zeit>9 U. 4 T.</zeit>
-            vor.</veranstaltung>
+            Juden</thema> trägt <dozent ref="kruse_c">Hofr. u. <funktion>P.
+            O.</funktion> <nachname>Kruse</nachname></dozent> <zeit>9 U. 4
+            T.</zeit> vor.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
@@ -1978,7 +1979,7 @@ Müsste doch eigentlich Korinther heißen...-->
             <sachgruppe>
               <titel>Operative Chirurgie.</titel>
 
-              <veranstaltungsgruppe><dozent><grad>D.</grad>
+              <veranstaltungsgruppe><dozent ref="kuhl_ka"><grad>D.</grad>
               <nachname>Kuhl</nachname>, <funktion>Demonstr.
               chirurg.</funktion></dozent>, <veranstaltung><thema>wird
               chirurgische Anweisungen an den Krankenbetten <ort>im
@@ -1996,7 +1997,7 @@ Müsste doch eigentlich Korinther heißen...-->
             <sachgruppe>
               <titel>Operative Augenheilkunde.</titel>
 
-              <veranstaltung><dozent><grad>D.</grad>
+              <veranstaltung><dozent ref="kuhl_ka"><grad>D.</grad>
               <nachname>Kuhl</nachname>, <funktion>Demonstr.
               chirurg.</funktion></dozent>, <zeit>2 T.</zeit>
               <modus>privatiss.</modus></veranstaltung>

@@ -581,8 +581,8 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Physiologische und pathologische Chemie</thema>:
-        <dozent><grad>D.</grad> <nachname>Lehmann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>2 U. 2 T.</zeit>
+        <dozent ref="lehmann_cg"><grad>D.</grad> <nachname>Lehmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>2 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <sachgruppe>
@@ -603,9 +603,10 @@
           <seite>8</seite>
 
           <veranstaltung><thema>Uebungen in physiologisch- und
-          pathologisch-chemischen Untersuchungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Lehmann</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>3-5 U. 2 T.</zeit></veranstaltung>
+          pathologisch-chemischen Untersuchungen</thema>: <dozent
+          ref="lehmann_cg"><grad>D.</grad> <nachname>Lehmann</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>3-5 U. 2
+          T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Uebungen im Gebrauche des Mikroskops
           (<antiqua>a.</antiqua> Vorträge über den Bau der Instrumente,
@@ -636,18 +637,19 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Morphologie und Physiologie der kryptogamischen
-        Gewächse</thema>: <dozent><grad>D.</grad> <nachname>Kunze</nachname>,
-        <funktion>P. O.</funktion>, <funktion>Hort. Botan.
-        Dir.</funktion></dozent>, <zeit>9 U. 2 T.</zeit>
-        <modus>öffentlich</modus>. Damit verbunden: <thema>botanische
-        Excursionen oder Demonstrationen am Mikroskop</thema>, <zeit>Sonnab.
-        Nachmitt.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        Gewächse</thema>: <dozent ref="kunze_g"><grad>D.</grad>
+        <nachname>Kunze</nachname>, <funktion>P. O.</funktion>,
+        <funktion>Hort. Botan. Dir.</funktion></dozent>, <zeit>9 U. 2
+        T.</zeit> <modus>öffentlich</modus>. Damit verbunden:
+        <thema>botanische Excursionen oder Demonstrationen am
+        Mikroskop</thema>, <zeit>Sonnab. Nachmitt.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <!--Sind die "Excursionen" richtig getaggt als Teil der
 übergeordneten Veranstaltung?-->
 
         <veranstaltung><thema>Medicinische Botanik, mit Vorzeigung der
-        Droguen</thema>: <ders>Derselbe</ders>, <zeit>10 U. 6
+        Droguen</thema>: <ders ref="kunze_g">Derselbe</ders>, <zeit>10 U. 6
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Arzneiliche Botanik</thema>:
@@ -673,9 +675,10 @@
           <titel>Botanische und zoologische Uebungen.</titel>
 
           <veranstaltungsverweis><thema>Botanische Excursionen oder
-          Demonstrationen am Mikroskop</thema>: <dozent><grad>D.</grad>
-          <nachname>Kunze</nachname>, <funktion>P. O.</funktion></dozent>,
-          <siehe>s. vorst.</siehe></veranstaltungsverweis>
+          Demonstrationen am Mikroskop</thema>: <dozent
+          ref="kunze_g"><grad>D.</grad> <nachname>Kunze</nachname>,
+          <funktion>P. O.</funktion></dozent>, <siehe>s.
+          vorst.</siehe></veranstaltungsverweis>
 
           <veranstaltung><thema>Examinirübungen über theoretische und
           praktische Botanik</thema>: <dozent><grad>M.</grad>
@@ -1066,9 +1069,10 @@
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Homiletische Gesellschaft der Sachsen</thema>:
-          <dozent><grad>M.</grad> <nachname>Küchler</nachname>,
-          <funktion>Theol. Lic., Phil. P. E.</funktion></dozent>, <zeit>Mittw.
-          5-7 U.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          <dozent ref="kuechler_kg"><grad>M.</grad>
+          <nachname>Küchler</nachname>, <funktion>Theol. Lic., Phil. P.
+          E.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Homiletische Uebungen</thema>:
           <dozent><grad>M.</grad> <nachname>Hänsel</nachname>,
@@ -1435,9 +1439,10 @@
         <veranstaltungsverweis><thema>Pathologische Chemie</thema>: <siehe>s.
         Chemie</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Pathologische Geweblehre</thema>:
-        <dozent><grad>D.</grad> <nachname>Lehmann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>8 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Pathologische Geweblehre</thema>: <dozent
+        ref="lehmann_cg"><grad>D.</grad> <nachname>Lehmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>8 U. 2
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Die mikroskopische Anatomie für Pathologie, ein
         Cursus der Mikroskopie am kranken menschlichen Körper, für

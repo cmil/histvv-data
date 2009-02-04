@@ -1056,8 +1056,8 @@
       <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
+      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
       <zeit>Mittw. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -1131,9 +1131,9 @@
 
       <veranstaltung><thema>Spezielle Pathologie und Therapie der
       Kinderkrankheiten <notiz betreff="fortsetzung">I. Teil</notiz></thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
-      <zeit>Dienst. u. Freit. 6-7 (oder 7-8) U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="lange_h"><grad>D. med.</grad>
+      <nachname>Lange</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7 (oder
+      7-8) U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Die natürliche und künstliche Ernährung des
       Säuglings</thema>: <dozent><grad>D. med.</grad>
@@ -1253,9 +1253,9 @@
 
       <seite>15</seite>
 
-      <veranstaltung><thema>Über Frakturen und Luxationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <veranstaltung><thema>Über Frakturen und Luxationen</thema>: <dozent
+      ref="koelliker_t"><grad>D. med.</grad> <nachname>Kölliker</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgischer Verbandkursus mit besonderer
@@ -1272,9 +1272,9 @@
       <!--Name wird nicht genannt! Herausfinden und nachtragen?-->
 
       <veranstaltung><thema>Kriegschirurgie und Feldsanitätsdienst</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Freit. 4-5 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      <dozent ref="koelliker_t"><grad>D. med.</grad>
+      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Freit. 4-5 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Abriss der Kriegschirurgie</thema>:
       <dozent><grad>D. med.</grad> <nachnamenpräfix>Frhr.
@@ -1375,8 +1375,8 @@
       des.</funktion></dozent>, <zeit>an zwei zu best. Tagen 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltungsgruppe><thema>Augenspiegelübungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Krückmann</nachname>,
+      <veranstaltungsgruppe><thema>Augenspiegelübungen</thema>: <dozent
+      ref="krieckmann_e"><grad>D. med.</grad> <nachname>Krückmann</nachname>,
       <funktion>P. E. des.</funktion></dozent>, gemeinschaftlich mit <dozent
       ref="birch-hirschfeld_a"><grad>D. med.</grad>
       <nachname>Birch-Hirschfeld</nachname></dozent>, <zeit>vierstünd.</zeit>,
@@ -1529,8 +1529,9 @@
       <seite>18</seite>
 
       <veranstaltung><thema>Poliklinik der orthopädischen Chirurgie</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
+      <dozent ref="koelliker_t"><grad>D. med.</grad>
+      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Psychiatrische Klinik</thema>: <dozent
@@ -1619,7 +1620,7 @@
         <sachgruppe>
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="koelliker_t"><grad>D. med.</grad>
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10</ort>.)</veranstaltung>
 
@@ -1689,7 +1690,7 @@
           <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Carolinenstr. 31</ort>.)</veranstaltung>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="lange_h"><grad>D. med.</grad>
           <nachname>Lange</nachname></dozent>, <zeit>Mont. u. Donnerst. 2-3
           U.</zeit>, <modus>privatissime</modus>. (<ort>Königsstr. 14.
           I.</ort>)</veranstaltung>
@@ -1822,7 +1823,7 @@
         9 bis 10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Psychologie (mit experimentellen
-        Demonstrationen)</thema>: <dozent><grad>D. ph.</grad>
+        Demonstrationen)</thema>: <dozent ref="krueger_f"><grad>D. ph.</grad>
         <nachname>Krueger</nachname></dozent>, <zeit>Mont., Dienst., Donnerst.
         u. Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1886,7 +1887,7 @@
         <siehe>Siehe Theologische Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname></dozent>. <siehe>Siehe Medizinische
         Fakultät.</siehe></veranstaltungsverweis>
 
@@ -1909,8 +1910,8 @@
 
         <veranstaltungsgruppe><thema>Psychologisches Laboratorium</thema>:
         <veranstaltung>a) <thema>Einführungskursus zur experimentellen
-        Psychologie (nur für Mitglieder des Instituts)</thema>:
-        <dozent><funktion>Assistent</funktion> <grad>D. ph.</grad>
+        Psychologie (nur für Mitglieder des Instituts)</thema>: <dozent
+        ref="krueger_f"><funktion>Assistent</funktion> <grad>D. ph.</grad>
         <nachname>Krueger</nachname></dozent>, (im Auftrag des Direktors),
         <zeit>Sonnab. 11-1 U.</zeit></veranstaltung>, <veranstaltung>b)
         <thema>Spezielle Arbeiten und Übungen der Teilnehmer</thema>: <dozent
@@ -2632,13 +2633,13 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der altbulgarischen
-          (altkirchenslavischen) Sprache</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          (altkirchenslavischen) Sprache</thema>: <dozent
+          ref="leskien_a"><grad>D. ph.</grad> <nachname>Leskien</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
+          Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Dialektologie der südslavischen
-          Sprachen</thema>: <dozent><grad>D. ph.</grad>
+          Sprachen</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Dienst. u. Freit. 11-12 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
@@ -2697,13 +2698,13 @@
           Übereinkunft</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen altslavischer oder
-          dialektischer Texte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Donnerst. 11-12 U.</zeit>,
+          dialektischer Texte</thema>: <dozent ref="leskien_a"><grad>D.
+          ph.</grad> <nachname>Leskien</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Donnerst. 11-12 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen in litauischer und slavischer
-          Grammatik</thema>: <dozent><grad>D. ph.</grad>
+          Grammatik</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont. 11-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -3673,13 +3674,15 @@
         E.</funktion></dozent>, <zeit>Donnerst. 3-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Zahlentheorie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Liebmann</nachname></dozent>, <zeit>Dienst. u.
-        Freit. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Zahlentheorie</thema>: <dozent
+        ref="liebmann_h"><grad>D. ph.</grad>
+        <nachname>Liebmann</nachname></dozent>, <zeit>Dienst. u. Freit. 8-9
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Darstellende Geometrie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Liebmann</nachname></dozent>, <zeit>Dienst. u.
-        Mittw. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Darstellende Geometrie</thema>: <dozent
+        ref="liebmann_h"><grad>D. ph.</grad>
+        <nachname>Liebmann</nachname></dozent>, <zeit>Dienst. u. Mittw. 12-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -3715,8 +3718,9 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Übungen zur darstellenden Geometrie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Liebmann</nachname></dozent>,
-        <zeit>Donnerst. 12-1 U.</zeit>, <modus>privatissime</modus>, aber
+        <dozent ref="liebmann_h"><grad>D. ph.</grad>
+        <nachname>Liebmann</nachname></dozent>, <zeit>Donnerst. 12-1
+        U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
       </sachgruppe>
 

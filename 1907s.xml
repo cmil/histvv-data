@@ -686,8 +686,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Fakultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Schulkrankheiten und Schulhygiene</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>.
-      <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
+      <dozent ref="lange_h"><grad>D. med.</grad>
+      <nachname>Lange</nachname></dozent>. <siehe>Siehe Medizinische
+      Fakultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsgruppe><veranstaltung><thema>Praktischer Kursus in
       rednerischer Stimmbildung und Vortragskunst</thema>.</veranstaltung> -
@@ -1360,8 +1361,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
       <modus>privatim</modus>, <ort>im Hygienischen Institut, Liebigstr. 24.
       II.</ort></veranstaltung>
 
-      <veranstaltung><thema>Schulkrankheiten und Schulhygiene</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
+      <veranstaltung><thema>Schulkrankheiten und Schulhygiene</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
       <zeit>Mittw. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <seite>16</seite>
@@ -1502,9 +1503,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
       <veranstaltung><thema>Spezielle Pathologie und Therapie der
       Kinderkrankheiten, <notiz betreff="fortsetzung">I. Teil</notiz></thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
-      <zeit>Dienst. u. Donnerst. 6 bis 7 U.</zeit>, <modus>privatim</modus>,
-      <ort>in der Privat-Poliklinik, Königsstr. 14. I.</ort></veranstaltung>
+      <dozent ref="lange_h"><grad>D. med.</grad>
+      <nachname>Lange</nachname></dozent>, <zeit>Dienst. u. Donnerst. 6 bis 7
+      U.</zeit>, <modus>privatim</modus>, <ort>in der Privat-Poliklinik,
+      Königsstr. 14. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Krankheiten der Bauchhöhle im Kindesalter</thema>:
       <dozent><grad>D. med.</grad> <nachname>Soltmann</nachname>, <funktion>P.
@@ -1650,11 +1652,11 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung><thema>Verbandkurs mit allgemeiner Operations- und
-      Instrumentenlehre</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mittw. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der
-      Poliklinik für orthopädische Chirurgie, Universitätsstr. 13.
-      Eg.</ort></veranstaltung>
+      Instrumentenlehre</thema>: <dozent ref="koelliker_t"><grad>D.
+      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <modus>privatim</modus>, <ort>in der Poliklinik für orthopädische
+      Chirurgie, Universitätsstr. 13. Eg.</ort></veranstaltung>
 
       <veranstaltung><thema>Chirurgischer Verbandkursus mit besonderer
       Berücksichtigung der Knochenbrüche und der Verrenkungen</thema>
@@ -1665,10 +1667,11 @@ lässt sich nicht gleichzeitig auszeichnen-->
       chirurg. Kranke, Bayersche Str. 12. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Kriegschirurgie und Feldsanitätsdienst</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. 6-7 U.</zeit>,
-      <modus>publice</modus>, <ort>in der Poliklinik für orthopäd. Chirurgie,
-      Universitätsstr. 13. Erdg.</ort></veranstaltung>
+      <dozent ref="koelliker_t"><grad>D. med.</grad>
+      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Mont. 6-7 U.</zeit>, <modus>publice</modus>, <ort>in der
+      Poliklinik für orthopäd. Chirurgie, Universitätsstr. 13.
+      Erdg.</ort></veranstaltung>
 
       <veranstaltung><thema>Abriß der Kriegschirurgie</thema>:
       <dozent><grad>D. med.</grad> Frhr.
@@ -1799,11 +1802,11 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Augenkranke, Königsstr. 14. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Anomalien der Akkommodation und Refraktion nebst
-      Brillenbestimmungen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Krückmann</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Donnerst. 12-1 U. u. eine andere Stunde nach Verabredung</zeit>,
-      <modus>privatim</modus>, <ort>in der Heilanstalt für Augenkranke,
-      Liebigstr. 14. I.</ort></veranstaltung>
+      Brillenbestimmungen</thema>: <dozent ref="krieckmann_e"><grad>D.
+      med.</grad> <nachname>Krückmann</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Donnerst. 12-1 U. u. eine andere Stunde
+      nach Verabredung</zeit>, <modus>privatim</modus>, <ort>in der
+      Heilanstalt für Augenkranke, Liebigstr. 14. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Augenoperationskurs</thema>: <dozent
       ref="birch-hirschfeld_a"><grad>D. med.</grad>
@@ -1907,9 +1910,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Poliklinik der orthopädischen Chirurgie</thema>
-      (<ort>Universitätsstr. 13 Eg.</ort>): <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
+      (<ort>Universitätsstr. 13 Eg.</ort>): <dozent ref="koelliker_t"><grad>D.
+      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Klinischer Unterricht in der
@@ -2425,7 +2428,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulkrankheiten und
-        Schulhygiene</thema>: <dozent><grad>D. med.</grad>
+        Schulhygiene</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname></dozent>. <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -3327,9 +3330,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
           U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der litauischen Sprache</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
-          Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="leskien_a"><grad>D. ph.</grad>
+          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Russische Grammatik (für Anfänger)</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Scholvin</nachname>,
@@ -3413,13 +3417,15 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen altslavischer oder
-          dialektischer Texte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mittw. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+          dialektischer Texte</thema>: <dozent ref="leskien_a"><grad>D.
+          ph.</grad> <nachname>Leskien</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mittw. 12-1 U.</zeit>,
+          <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen litauischer Texte</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 11-12 U.</zeit>,
+          <dozent ref="leskien_a"><grad>D. ph.</grad>
+          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mittw. 11-12 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -5014,9 +5020,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         u. Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Gewöhnliche Differentialgleichungen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mont. bis Donnerst. 8-9
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="liebmann_h"><grad>D. ph.</grad>
+        <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. bis Donnerst. 8-9 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Theorie der Funktionen seiner
         komplexen Veränderlichen</thema>: <dozent ref="hoelder_o"><grad>D.
@@ -5101,10 +5108,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Übungen zu gewöhnlichen
-        Differentialgleichungen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Freit. 8-9 U.</zeit>, <modus>privatissime</modus>,
-        <gebühr>gratis</gebühr>.</veranstaltung>
+        Differentialgleichungen</thema>: <dozent ref="liebmann_h"><grad>D.
+        ph.</grad> <nachname>Liebmann</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Freit. 8-9 U.</zeit>,
+        <modus>privatissime</modus>, <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Übungen zur analytischen Dynamik</thema>:
         <dozent><grad>D. ph.</grad> <vorname>A.</vorname>
@@ -5484,9 +5491,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Gewöhnliche
-        Differentialgleichungen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
+        Differentialgleichungen</thema>: <dozent ref="liebmann_h"><grad>D.
+        ph.</grad> <nachname>Liebmann</nachname>, <funktion>P.
+        E.</funktion></dozent> <siehe>Siehe Abschnitt
+        F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Analytische Dynamik</thema>:
         <dozent><grad>D. ph.</grad> <vorname>A.</vorname>

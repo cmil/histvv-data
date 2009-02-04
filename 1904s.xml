@@ -469,8 +469,9 @@
       Fakultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Schulkrankheiten und Schulhygiene</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>.
-      <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
+      <dozent ref="lange_h"><grad>D. med.</grad>
+      <nachname>Lange</nachname></dozent>. <siehe>Siehe Medizinische
+      Fakultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Liturgische Übungen mit den Mitgliedern
       des homiletischen Seminars</thema>: <dozent
@@ -1007,8 +1008,8 @@
       <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Schulkrankheiten und Schulhygiene</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
+      <veranstaltung><thema>Schulkrankheiten und Schulhygiene</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
       <zeit>Mittw. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Arbeiten im hygienischen Institut für
@@ -1098,7 +1099,7 @@
       <modus>publice</modus> u. <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Pädiatrische Propädeutik mit poliklinischen
-      Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+      Demonstrationen</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
       <nachname>Lange</nachname></dozent>, <zeit>Mont. u. Donnerst. 2-3
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1210,9 +1211,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Verbandkurs mit Operations- und
-      Instrumentenlehre</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mittw. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Instrumentenlehre</thema>: <dozent ref="koelliker_t"><grad>D.
+      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgischer Verbandkursus mit besonderer
       Berücksichtigung der Knochenbrüche und der Verrenkungen</thema>:
@@ -1224,9 +1226,10 @@
       <seite>15</seite>
 
       <veranstaltung><thema>Poliklinische Demonstrationen aus dem Gebiet der
-      orthopädischen Chirurgie</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont. 4-5 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      orthopädischen Chirurgie</thema>: <dozent ref="koelliker_t"><grad>D.
+      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont. 4-5 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgische Anästhesierungsmethoden</thema>:
       <dozent ref="braun_h"><grad>D. med.</grad>
@@ -1234,9 +1237,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Kriegschirurgie und Feldsanitätsdienst</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. 6-7 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      <dozent ref="koelliker_t"><grad>D. ph.</grad>
+      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Mont. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Chirurgische Hilfen bei Lebensgefahr
       (lebensrettende Operationen)</thema>: <dozent><grad>D. med.</grad> Frhr.
@@ -1334,10 +1337,10 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Anomalien der Akkommodation und Refraktion mit
-      praktischen Übungen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Krückmann</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Sonnab. 12-1 U. und zwei andere Stunden nach Verabredung</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      praktischen Übungen</thema>: <dozent ref="krieckmann_e"><grad>D.
+      med.</grad> <nachname>Krückmann</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Sonnab. 12-1 U. und zwei andere Stunden
+      nach Verabredung</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Die Beziehungen der Augenerkrankungen zu
       Allgemeinleiden</thema>: <dozent ref="birch-hirschfeld_a"><grad>D.
@@ -1512,8 +1515,9 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Poliklinik der orthopädischen Chirurgie</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 4-5 U.</zeit>,
+      <dozent ref="koelliker_t"><grad>D. med.</grad>
+      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Mittw. u. Sonnab. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Psychiatrische Klinik</thema>: <dozent
@@ -1614,7 +1618,7 @@
         <sachgruppe>
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="koelliker_t"><grad>D. med.</grad>
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10.</ort>)</veranstaltung>
 
@@ -1678,7 +1682,7 @@
           <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Carolinenstr. 31</ort>.)</veranstaltung>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="lange_h"><grad>D. med.</grad>
           <nachname>Lange</nachname></dozent>, <zeit>Mont. u. Donnerst. 2-3
           U.</zeit>, <modus>privatim</modus>. (<ort>Königsstr. 14.
           I.</ort>)</veranstaltung>
@@ -1799,9 +1803,10 @@
         <nachname>Wirth</nachname></dozent>, <zeit>Mont. u. Donnerst. 11-12
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Geschichte der Ethik</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Krueger</nachname></dozent>, <zeit>Dienst. u.
-        Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Geschichte der Ethik</thema>: <dozent
+        ref="krueger_f"><grad>D. ph.</grad>
+        <nachname>Krueger</nachname></dozent>, <zeit>Dienst. u. Freit. 11-12
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Ästhetik des Dramas</thema>: <dozent><grad>D.
         ph.</grad> <nachname>Volkelt</nachname>, <funktion>P.
@@ -1862,7 +1867,7 @@
         G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulkrankheiten und
-        Schulhygiene</thema>: <dozent><grad>D. med.</grad>
+        Schulhygiene</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname></dozent>. <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -1935,9 +1940,9 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Besprechung ethischer Fragen im Anschluss an die
-        Moralphilosophie Kants</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Krueger</nachname></dozent>, <zeit>Mittw. 11-¾1 U.</zeit>,
-        <modus>privatissime</modus>, aber
+        Moralphilosophie Kants</thema>: <dozent ref="krueger_f"><grad>D.
+        ph.</grad> <nachname>Krueger</nachname></dozent>, <zeit>Mittw. 11-¾1
+        U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Pädagogisches Seminar</thema>: <dozent
@@ -2580,9 +2585,10 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der litauischen Sprache</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
-          Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="leskien_a"><grad>D. ph.</grad>
+          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Polnische Grammatik</thema>: <dozent><grad>D.
           ph.</grad> <nachname>Soerensen</nachname>, <funktion>P.
@@ -2590,7 +2596,7 @@
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Historische Grammatik der serbo-kroatischen
-          Sprache</thema>: <dozent><grad>D. ph.</grad>
+          Sprache</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Dienst., Donnerst. u. Freit. 11 bis 12 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2661,14 +2667,14 @@
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen altslavischer Texte</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mont. 11-12 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          <dozent ref="leskien_a"><grad>D. ph.</grad>
+          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mont. 11-12 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen litauischer Texte</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mont. 12-1 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          <dozent ref="leskien_a"><grad>D. ph.</grad>
+          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mont. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen russischer
           Handschriften</thema>: <dozent><grad>D. ph.</grad>
@@ -3547,9 +3553,10 @@
         <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. 3-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Differentialgeometrie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Liebmann</nachname></dozent>, <zeit>Dienst.,
-        Mittw., Donnerst. u. Freit. 8-9 U. Vorm.</zeit>,
+        <veranstaltung><thema>Differentialgeometrie</thema>: <dozent
+        ref="liebmann_h"><grad>D. ph.</grad>
+        <nachname>Liebmann</nachname></dozent>, <zeit>Dienst., Mittw.,
+        Donnerst. u. Freit. 8-9 U. Vorm.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Einführung in die mathematische
@@ -3598,8 +3605,9 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Übungen zur Differentialgeometrie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Liebmann</nachname></dozent>,
-        <zeit>Sonnab. 8-9 U.</zeit>, <modus>privatissime</modus>, aber
+        <dozent ref="liebmann_h"><grad>D. ph.</grad>
+        <nachname>Liebmann</nachname></dozent>, <zeit>Sonnab. 8-9 U.</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -4036,8 +4044,8 @@
         <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Kursus der Embryologie</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Kästner</nachname>,
+        <veranstaltungsverweis><thema>Kursus der Embryologie</thema>: <dozent
+        ref="kaestner_s"><grad>D. med.</grad> <nachname>Kästner</nachname>,
         <funktion>P. E.</funktion></dozent> <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsverweis>
       </sachgruppe>

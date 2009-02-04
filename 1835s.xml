@@ -738,10 +738,10 @@
         <veranstaltung><ders ref="schwaegrichen_cf">Derselbe</ders>,
         <thema>Exkursionen</thema>, <zeit>5 U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung><dozent><nachname>Kunze</nachname>, <grad>D.</grad>
-        <vorname>G.</vorname>, <funktion>P. E. des.</funktion></dozent>,
-        <thema>pharmaceutische Botanik</thema>, <zeit>7 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung><dozent ref="kunze_g"><nachname>Kunze</nachname>,
+        <grad>D.</grad> <vorname>G.</vorname>, <funktion>P. E.
+        des.</funktion></dozent>, <thema>pharmaceutische Botanik</thema>,
+        <zeit>7 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><nachname>Pöppig</nachname>,
         <vorname>E.</vorname>, <funktion>P. E.</funktion></dozent>,
@@ -962,7 +962,8 @@ Veranstaltung?) -->, <zeit>11 U. 4 T.</zeit></veranstaltung>
 
             <seite>10</seite>
 
-            <veranstaltung><dozent><nachname>Küchler</nachname>, <vorname>K.
+            <veranstaltung><dozent
+            ref="kuechler_kg"><nachname>Küchler</nachname>, <vorname>K.
             G.</vorname>, <funktion>P. E.</funktion></dozent>,
             <thema>Erklärung ausgewählter <schrift>Psalmen</schrift></thema>,
             <zeit>2 U. 4 T.</zeit> <modus>öffentlich</modus> und
@@ -1053,7 +1054,8 @@ Veranstaltung?) -->, <zeit>11 U. 4 T.</zeit></veranstaltung>
             <zeit>in den best. St.</zeit> <modus>privatissime</modus>, aber
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Küchler</nachname>, <vorname>K.
+            <veranstaltung><dozent
+            ref="kuechler_kg"><nachname>Küchler</nachname>, <vorname>K.
             G.</vorname>, <funktion>P. E.</funktion></dozent>,
             <thema>exegetisch-dogmatische Gesellschaft</thema>, <zeit>in den
             best. St.</zeit> <modus>privatissime</modus>, aber
@@ -1801,10 +1803,10 @@ http://histvv.uni-leipzig.de/scans/1873-ss/002.png.--></veranstaltung>
         <sachgruppe>
           <titel>Ueber alte Aerzte.</titel>
 
-          <veranstaltung><dozent><nachname>Kuhl</nachname>, <grad>D.</grad>
-          <vorname>K. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>über Hippokrates Buch: Von den Kopfverletzungen</thema>,
-          <zeit>Mont. Abends 5 U.</zeit>
+          <veranstaltung><dozent ref="kuhl_ka"><nachname>Kuhl</nachname>,
+          <grad>D.</grad> <vorname>K. A.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>über Hippokrates Buch: Von den
+          Kopfverletzungen</thema>, <zeit>Mont. Abends 5 U.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><dozent ref="braune_a"><nachname>Braune</nachname>,
@@ -1988,11 +1990,11 @@ http://histvv.uni-leipzig.de/scans/1873-ss/002.png.--></veranstaltung>
           <antiqua>fol.</antiqua>)</thema>, <zeit>3 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Kunze</nachname>, <grad>D.</grad>
-          <vorname>G.</vorname>, <funktion>P. E. des.</funktion></dozent>,
-          <thema>über die Heilkräfte der Pflanzen im Allgemeinen nach den
-          natürlichen Familien</thema>, <zeit>7 U. 2 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung><dozent ref="kunze_g"><nachname>Kunze</nachname>,
+          <grad>D.</grad> <vorname>G.</vorname>, <funktion>P. E.
+          des.</funktion></dozent>, <thema>über die Heilkräfte der Pflanzen im
+          Allgemeinen nach den natürlichen Familien</thema>, <zeit>7 U. 2
+          T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Kleinert</nachname>,
           <grad>D.</grad> <vorname>K. F.</vorname></dozent>,
@@ -2095,12 +2097,13 @@ http://histvv.uni-leipzig.de/scans/1873-ss/002.png.--></veranstaltung>
         <sachgruppe>
           <titel>5) Chirurgie</titel>
 
-          <veranstaltung><dozent><nachname>Kuhl</nachname>, <grad>D.</grad>
-          <vorname>K. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung><dozent ref="kuhl_ka"><nachname>Kuhl</nachname>,
+          <grad>D.</grad> <vorname>K. A.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>11 U. 4 T.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
-          Klinik</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><ders ref="kuhl_ka">Derselbe</ders>,
+          <siehe>s. Klinik</siehe>.</veranstaltungsverweis>
 
           <veranstaltung><dozent
           ref="walther_jkw"><nachname>Walther</nachname>, <grad>D.</grad>
@@ -2112,9 +2115,10 @@ http://histvv.uni-leipzig.de/scans/1873-ss/002.png.--></veranstaltung>
           <sachgruppe>
             <titel>Ueber einzelne Theile der Chirurgie.</titel>
 
-            <veranstaltung><dozent><nachname>Kuhl</nachname>, <grad>D.</grad>
-            <vorname>K. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>über Augenoperationen</thema>, <zeit>8 U. 2 T.</zeit>
+            <veranstaltung><dozent ref="kuhl_ka"><nachname>Kuhl</nachname>,
+            <grad>D.</grad> <vorname>K. A.</vorname>, <funktion>P.
+            O.</funktion></dozent>, <thema>über Augenoperationen</thema>,
+            <zeit>8 U. 2 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <veranstaltung><dozent
@@ -2149,10 +2153,11 @@ http://histvv.uni-leipzig.de/scans/1873-ss/002.png.--></veranstaltung>
         <sachgruppe>
           <titel>7) Klinik.</titel>
 
-          <veranstaltung><dozent><nachname>Kuhl</nachname>, <grad>D.</grad>
-          <vorname>K. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>chirurgische Demonstrationen an Krankenbetten<!-- (Hat das eine Ortsbedeutung?)--></thema>,
-          <zeit>4 U. Dienst. u. Freit.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="kuhl_ka"><nachname>Kuhl</nachname>,
+          <grad>D.</grad> <vorname>K. A.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>chirurgische Demonstrationen an
+          Krankenbetten<!-- (Hat das eine Ortsbedeutung?)--></thema>, <zeit>4
+          U. Dienst. u. Freit.</zeit></veranstaltung>
 
           <veranstaltung><dozent ref="clarus_jca"><nachname>Clarus</nachname>,
           <grad>D.</grad> <vorname>J. C. A.</vorname>, <funktion>P.

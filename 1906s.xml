@@ -627,9 +627,10 @@
       <nachname>Wundt</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe Philosophische Fakultät A.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Psychologie der Gefühle</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Krueger</nachname></dozent>.
-      <siehe>Siehe Philosophische Fakultät A.</siehe></veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Psychologie der Gefühle</thema>: <dozent
+      ref="krueger_f"><grad>D. ph.</grad>
+      <nachname>Krueger</nachname></dozent>. <siehe>Siehe Philosophische
+      Fakultät A.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Psychologische Massmethoden</thema>:
       <dozent><grad>D. ph.</grad> <nachname>Wirth</nachname></dozent>.
@@ -673,8 +674,9 @@
       Fakultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Schulkrankheiten und Schulhygiene</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>.
-      <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
+      <dozent ref="lange_h"><grad>D. med.</grad>
+      <nachname>Lange</nachname></dozent>. <siehe>Siehe Medizinische
+      Fakultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsgruppe><veranstaltung><thema>Praktischer Kursus in
       rednerischer Stimmbildung und Vortragskunst</thema>.</veranstaltung> -
@@ -1329,8 +1331,8 @@
       <modus>privatim</modus>, <ort>im hygienischen Institut, Liebigstr. 24.
       II.</ort></veranstaltung>
 
-      <veranstaltung><thema>Schulkrankheiten und Schulhygiene</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
+      <veranstaltung><thema>Schulkrankheiten und Schulhygiene</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
       <zeit>Mittw. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Arbeiten <ort>im Hygienischen Institut (Liebigstr.
@@ -1441,10 +1443,10 @@
 
       <veranstaltung><thema>Spezielle Pathologie und Therapie des
       Kindesalters, <notiz betreff="fortsetzung">II. Teil</notiz></thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
-      <zeit>Dienst. u. Donnerst. 6-7 U.</zeit>, <seite>17</seite>
-      <modus>privatim</modus>, <ort>in der Pädiatrischen Privat-Poliklinik,
-      Königsstr. 14. I.</ort></veranstaltung>
+      <dozent ref="lange_h"><grad>D. med.</grad>
+      <nachname>Lange</nachname></dozent>, <zeit>Dienst. u. Donnerst. 6-7
+      U.</zeit>, <seite>17</seite> <modus>privatim</modus>, <ort>in der
+      Pädiatrischen Privat-Poliklinik, Königsstr. 14. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Krankheiten der Neugeborenen und
       Säuglinge</thema>: <dozent><grad>D. med.</grad>
@@ -1600,11 +1602,11 @@
       Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung><thema>Verbandkurs mit allgemeiner Operations- und
-      Instrumentenlehre</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mittw. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der
-      Poliklinik für orthopäd. Chirurgie, Universitätsstr. 13.
-      Erdg.</ort></veranstaltung>
+      Instrumentenlehre</thema>: <dozent ref="koelliker_t"><grad>D.
+      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <modus>privatim</modus>, <ort>in der Poliklinik für orthopäd. Chirurgie,
+      Universitätsstr. 13. Erdg.</ort></veranstaltung>
 
       <veranstaltung><thema>Chirurgischer Verbandkursus mit besonderer
       Berücksichtigung der Knochenbrüche und der Verrenkungen</thema>:
@@ -1615,11 +1617,11 @@
       chirurg. Kranke, Bayersche Str. 12. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Über Kriegschirurgie und
-      Feldsanitätsdienst</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont. 6-7 U.</zeit>, <modus>publice</modus>, <ort>in der
-      Poliklinik für orthopädische Chirurgie, Universitätsstr. 13.
-      Erdg.</ort></veranstaltung>
+      Feldsanitätsdienst</thema>: <dozent ref="koelliker_t"><grad>D.
+      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont. 6-7 U.</zeit>,
+      <modus>publice</modus>, <ort>in der Poliklinik für orthopädische
+      Chirurgie, Universitätsstr. 13. Erdg.</ort></veranstaltung>
 
       <veranstaltung><thema>Abriss der Kriegschirurgie</thema>:
       <dozent><grad>D. med.</grad> <nachnamenpräfix>Frhr.
@@ -1753,11 +1755,11 @@
       Königsstr. 14. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Anaomalien der Akkomodation und Refraktion nebst
-      Brillenbestimmungen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Krückmann</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Donnerst. 12-1 U. und eine andere Stunde nach Verabredung</zeit>,
-      <modus>privatim</modus>, <ort>in der Heilanstalt für Augenkranke,
-      Liebigstr. 14. I.</ort></veranstaltung>
+      Brillenbestimmungen</thema>: <dozent ref="krieckmann_e"><grad>D.
+      med.</grad> <nachname>Krückmann</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Donnerst. 12-1 U. und eine andere Stunde
+      nach Verabredung</zeit>, <modus>privatim</modus>, <ort>in der
+      Heilanstalt für Augenkranke, Liebigstr. 14. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Augenärztliche Operationsübungen (an Leichen und
       Schweinsaugen)</thema>: <dozent ref="bielschowsky_a"><grad>D.
@@ -1872,9 +1874,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Poliklinik der orthopädischen Chirurgie</thema>
-      (<ort>Universitätsstr. 13 Eg.</ort>): <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
+      (<ort>Universitätsstr. 13 Eg.</ort>): <dozent ref="koelliker_t"><grad>D.
+      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Klinischer Unterricht in der Augenheilkunde:
@@ -1929,7 +1931,7 @@
         <sachgruppe>
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="koelliker_t"><grad>D. med.</grad>
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10</ort>.)</veranstaltung>
 
@@ -1982,7 +1984,7 @@
           <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Karolinenstr. 31</ort>.)</veranstaltung>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="lange_h"><grad>D. med.</grad>
           <nachname>Lange</nachname></dozent>. (<ort>Königsstr. 14.
           I.</ort>)</veranstaltung>
         </sachgruppe>
@@ -2193,7 +2195,7 @@
       <siehe>Siehe Philosophische Fakultät A.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Psychologie der Gefühle (mit theoretischen
-      Übungen)</thema>: <dozent><grad>D. ph.</grad>
+      Übungen)</thema>: <dozent ref="krueger_f"><grad>D. ph.</grad>
       <nachname>Krueger</nachname></dozent>. <siehe>Siehe Philosophische
       Fakultät A.</siehe></veranstaltungsverweis>
 
@@ -2286,7 +2288,7 @@
         <seite>26</seite>
 
         <veranstaltung><thema>Psychologie der Gefühle (mit theoretischen
-        Übungen)</thema>: <dozent><grad>D. ph.</grad>
+        Übungen)</thema>: <dozent ref="krueger_f"><grad>D. ph.</grad>
         <nachname>Krueger</nachname></dozent>, <zeit>Mittw. 11-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -2395,7 +2397,7 @@
         <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulkrankheiten und
-        Schulhygiene</thema>: <dozent><grad>D. med.</grad>
+        Schulhygiene</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname></dozent>. <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -3213,9 +3215,10 @@
           U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der litauischen Sprache</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
-          Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="leskien_a"><grad>D. ph.</grad>
+          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Čechische Grammatik</thema>: <dozent><grad>D.
           ph.</grad> <nachname>Scholvin</nachname>, <funktion>P.
@@ -3296,20 +3299,20 @@
           <zeit>Mittw. 7½-9 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen über altslavische oder dialektische
-          Texte</thema>: <dozent><grad>D. ph.</grad>
+          Texte</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mittw. 11-12 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen litauischer Texte</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 12-1 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          <dozent ref="leskien_a"><grad>D. ph.</grad>
+          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mittw. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen albanesischer Texte</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mont. 12-1 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          <dozent ref="leskien_a"><grad>D. ph.</grad>
+          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mont. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -4803,15 +4806,16 @@
         <zeit>Dienst., Mittw., Donnerst. u. Freit. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Analytische Geometrie der Ebene</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
+        <veranstaltung><thema>Analytische Geometrie der Ebene</thema>: <dozent
+        ref="liebmann_h"><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Dienst. bis Freit. 12-1
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einführung in die algebraische Analysis</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Sonnab. 11-12
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="liebmann_h"><grad>D. ph.</grad>
+        <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. u. Sonnab. 11-12 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <seite>49</seite>
 
@@ -4893,7 +4897,7 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Übungen zur analytischen Geometrie der
-        Ebene</thema>: <dozent><grad>D. ph.</grad>
+        Ebene</thema>: <dozent ref="liebmann_h"><grad>D. ph.</grad>
         <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Sonnab. 12-1 U.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -5248,7 +5252,7 @@
         F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Einführung in die algebraische
-        Analysis</thema>: <dozent><grad>D. ph.</grad>
+        Analysis</thema>: <dozent ref="liebmann_h"><grad>D. ph.</grad>
         <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
 

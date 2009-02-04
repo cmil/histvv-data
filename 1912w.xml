@@ -1302,22 +1302,23 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Poliklinik der orthopädischen Chirurgie</thema>
-        (<ort>Nürnberger Str. 57, Gartengeb. Erdg.</ort>): <dozent><grad>D.
-        med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mo., Mi. u. So. 4-5 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        (<ort>Nürnberger Str. 57, Gartengeb. Erdg.</ort>): <dozent
+        ref="koelliker_t"><grad>D. med.</grad> <nachname>Kölliker</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mo., Mi. u. So. 4-5
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Über Frakturen und Luxationen</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>,
+        <veranstaltung><thema>Über Frakturen und Luxationen</thema>: <dozent
+        ref="koelliker_t"><grad>D. med.</grad> <nachname>Kölliker</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Mi. 6-7 U.</zeit>,
         <modus>privatim</modus>, <ort>in der Poliklinik für orthopäd.
         Chirurgie, Nürnberger Str. 57, Gartengeb. Erdg.</ort></veranstaltung>
 
         <veranstaltung><thema>Kriegschirurgie und Feldsanitätsdienst</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mo. 6-7 U.</zeit>,
-        <modus>publice</modus>, <ort>in der Poliklinik für orthopäd.
-        Chirurgie, Nürnb. Str. 57, Gartengeb. Erdg.</ort></veranstaltung>
+        <dozent ref="koelliker_t"><grad>D. med.</grad>
+        <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mo. 6-7 U.</zeit>, <modus>publice</modus>, <ort>in der
+        Poliklinik für orthopäd. Chirurgie, Nürnb. Str. 57, Gartengeb.
+        Erdg.</ort></veranstaltung>
 
         <veranstaltung><thema>Zahnärztliche Poliklinik (Extraktionskursus) für
         Mediziner</thema>: <dozent ref="dependorf_t"><grad>D. ph.</grad>
@@ -1689,9 +1690,9 @@
         <modus>publice</modus>, <ort>im Kinderkrankenhause, Platzmannstr.
         1</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Therapie der Kinderkrankheiten</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Lange</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Di. u. Fr. 6-7 U.</zeit>,
+        <veranstaltung><thema>Therapie der Kinderkrankheiten</thema>: <dozent
+        ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Di. u. Fr. 6-7 U.</zeit>,
         <modus>privatim</modus>, <ort>in der Pädiatrischen Privat-Poliklinik,
         Königstr. 14. I.</ort></veranstaltung>
 
@@ -1842,8 +1843,8 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Lange</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mi. 6-7 U.</zeit>,
+        <dozent ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mi. 6-7 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Auserwählte Kapitel aus der allgemeinen
@@ -3045,7 +3046,7 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Vergleichende Formenlehre der slavischen
-          Sprachen</thema>: <dozent><grad>D. ph.</grad>
+          Sprachen</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mo., Di. u. Do. 12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -3139,7 +3140,7 @@
           U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen und Erklären slavischer
-          Texte</thema>: <dozent><grad>D. ph.</grad>
+          Texte</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mi. 11-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -4298,9 +4299,10 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einführung in die Zahlentheorie <notiz
-        betreff="fortsetzung">II. Teil</notiz></thema>: <dozent><grad>D.
-        ph.</grad> <nachname>König</nachname></dozent>, <zeit>Mi. u. Do. 12-1
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        betreff="fortsetzung">II. Teil</notiz></thema>: <dozent
+        ref="koenig_w"><grad>D. ph.</grad>
+        <nachname>König</nachname></dozent>, <zeit>Mi. u. Do. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Grundlagen der Arithmetik</thema>: <dozent
         ref="hoelder_o"><grad>D. ph. et scient. nat.</grad>
@@ -4346,9 +4348,10 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         <veranstaltungsgruppe><thema>Mathematisches Seminar</thema>:
         <veranstaltung>1) <dozent ref="hoelder_o"><grad>D. ph. et scient.
         nat.</grad> <nachname>Hölder</nachname>, <funktion>P.
-        O.</funktion></dozent>: <thema>Übungen in Mechanik</thema>
-        (<dozent>mit <grad>D. ph.</grad> <nachname>König</nachname></dozent>),
-        <zeit>So. 10-11 U.</zeit>, <modus>privatissime</modus>, aber
+        O.</funktion></dozent>: <thema>Übungen in Mechanik</thema> (<dozent
+        ref="koenig_w">mit <grad>D. ph.</grad>
+        <nachname>König</nachname></dozent>), <zeit>So. 10-11 U.</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung> <veranstaltungsgruppe>2)
         <dozent ref="rohn_k"><grad>D. ph.</grad> <nachname>Rohn</nachname>,
         <funktion>P. O.</funktion></dozent>: <veranstaltung>a) <thema>Übungen
@@ -4356,9 +4359,9 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         Flächen</thema>, <zeit>Mi. 12-1 U.</zeit>,
         <gebühr>gratis</gebühr></veranstaltung>; <veranstaltung>b)
         <thema>Übungen zur darstellenden Geometrie <notiz
-        betreff="fortsetzung">II. Teil</notiz></thema> <seite>46</seite>(<dozent>mit
-        <grad>D. ph.</grad> <nachname>König</nachname></dozent>), <zeit>Mo.
-        3-5 U.</zeit>,
+        betreff="fortsetzung">II. Teil</notiz></thema> <seite>46</seite>(<dozent
+        ref="koenig_w">mit <grad>D. ph.</grad>
+        <nachname>König</nachname></dozent>), <zeit>Mo. 3-5 U.</zeit>,
         <modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe> -
         <veranstaltung>3) <dozent ref="herglotz_g"><grad>D. ph.</grad>
         <nachname>Herglotz</nachname>, <funktion>P. O.</funktion></dozent>:

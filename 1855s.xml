@@ -651,9 +651,10 @@ geschweifter Klammer auf beide Veranstaltungsverweise!-->
         O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>5 T.
         in zu best. St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Physiologische Chemie</thema>:
-        <dozent><grad>D.</grad> <nachname>Lehmann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>12 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Physiologische Chemie</thema>: <dozent
+        ref="lehmann_cg"><grad>D.</grad> <nachname>Lehmann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 2
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber die Salze</thema>: <dozent><grad>D.</grad>
         <nachname>Kühn</nachname>, <funktion>P. O.</funktion>, d. Z.
@@ -691,7 +692,8 @@ geschweifter Klammer auf beide Veranstaltungsverweise!-->
 
           <veranstaltung><thema>Physikalisch-chemische u. physiologische
           Uebungen</thema>: Proff. <dozent ref="hankel_wg"><grad>D.</grad>
-          <nachname>Hankel</nachname></dozent>, <dozent><grad>D.</grad>
+          <nachname>Hankel</nachname></dozent>, <dozent
+          ref="lehmann_cg"><grad>D.</grad>
           <nachname>Lehmann</nachname></dozent>, <dozent
           ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
           sen.</dozent> u. <dozent ref="weber_ef"><grad>D.</grad>
@@ -711,7 +713,7 @@ geschweifter Klammer auf beide Veranstaltungsverweise!-->
           Uhr)</zeit>.</veranstaltung>
 
           <veranstaltung><thema>Praktische Uebungen in zoochemischen
-          Versuchen</thema>: <dozent><grad>D.</grad>
+          Versuchen</thema>: <dozent ref="lehmann_cg"><grad>D.</grad>
           <nachname>Lehmann</nachname>, <grad>P. O.</grad></dozent>, <zeit>2-6
           U. 5 T.</zeit></veranstaltung>
 
@@ -1106,10 +1108,10 @@ sondern müsste diese eigentlich ergänzen!-->
         <zeit>7-9 U. Sonn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Dogmatik (<notiz
-        betreff="fortsetzung">Schluß</notiz>)</thema>: <dozent><grad>D.</grad>
-        <nachname>Liebner</nachname>, <funktion>P. O.</funktion>, d. Z.
-        <funktion>Dech.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        betreff="fortsetzung">Schluß</notiz>)</thema>: <dozent
+        ref="liebner_a"><grad>D.</grad> <nachname>Liebner</nachname>,
+        <funktion>P. O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
+        <zeit>10 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Dogmatik</thema>: <dozent
         ref="kahnis_kfa"><grad>D.</grad> <nachname>Kahnis</nachname>,
@@ -1141,10 +1143,10 @@ sondern müsste diese eigentlich ergänzen!-->
 
         <trennlinie/>
 
-        <veranstaltung><thema>Christliche Ethik</thema>:
-        <dozent><grad>D.</grad> <nachname>Liebner</nachname>, <funktion>P.
-        O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>4 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung><thema>Christliche Ethik</thema>: <dozent
+        ref="liebner_a"><grad>D.</grad> <nachname>Liebner</nachname>,
+        <funktion>P. O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
+        <zeit>4 U. 4 T.</zeit></veranstaltung>
 
         <sachgruppe>
           <titel>Systematisch-theologische Uebungen.</titel>
@@ -1161,7 +1163,7 @@ sondern müsste diese eigentlich ergänzen!-->
         <titel>IV. Praktische Theologie.</titel>
 
         <veranstaltung><thema>Praktische Theologie mit besonderer Hervorhebung
-        der Homiletik</thema>: <dozent><grad>D.</grad>
+        der Homiletik</thema>: <dozent ref="liebner_a"><grad>D.</grad>
         <nachname>Liebner</nachname>, <funktion>P. O.</funktion>, d. Z.
         <funktion>Dech.</funktion></dozent>, <zeit>10 U. 4
         T.</zeit></veranstaltung>
@@ -1186,8 +1188,9 @@ sondern müsste diese eigentlich ergänzen!-->
           <titel>Praktisch-theologische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen des homiletischen Seminars</thema>:
-          <dozent><grad>D.</grad> <nachname>Liebner</nachname>, <funktion>P.
-          O.</funktion>, <funktion>Semin. homil. Dir.</funktion>, d. Z.
+          <dozent ref="liebner_a"><grad>D.</grad>
+          <nachname>Liebner</nachname>, <funktion>P. O.</funktion>,
+          <funktion>Semin. homil. Dir.</funktion>, d. Z.
           <funktion>Dech.</funktion></dozent> <zeit>Mittw. 3-5 U.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -1242,8 +1245,9 @@ sondern müsste diese eigentlich ergänzen!-->
         <titel>Allgemeine juristische Uebungen.</titel>
 
         <veranstaltung><thema>Uebungen der juristischen Gesellschaft</thema>:
-        <dozent><grad>D.</grad> <nachname>Kuntze</nachname></dozent>,
-        <zeit>5-7 U. Ab., Mont.</zeit>, <modus>privatissime</modus> aber
+        <dozent ref="kuntze_je"><grad>D.</grad>
+        <nachname>Kuntze</nachname></dozent>, <zeit>5-7 U. Ab., Mont.</zeit>,
+        <modus>privatissime</modus> aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Juristische Gesellschaft, <notiz
@@ -1285,7 +1289,7 @@ sondern müsste diese eigentlich ergänzen!-->
           T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Institutionen u. Geschichte des römischen
-          Rechts</thema>: <dozent><grad>D.</grad>
+          Rechts</thema>: <dozent ref="kuntze_je"><grad>D.</grad>
           <nachname>Kuntze</nachname></dozent>, <zeit>10 U. 4 T. u. 11 U. 6
           T.</zeit></veranstaltung>
 
@@ -1332,7 +1336,8 @@ sondern müsste diese eigentlich ergänzen!-->
           Proceßrecht</siehe>.</veranstaltung>
 
           <veranstaltung><thema>Vergleichende Charakteristik des römischen u.
-          des germanischen Rechts</thema>: <dozent><grad>D.</grad>
+          des germanischen Rechts</thema>: <dozent
+          ref="kuntze_je"><grad>D.</grad>
           <nachname>Kuntze</nachname></dozent>, <siehe>s. Deutsches
           Recht</siehe>.</veranstaltung>
 
@@ -1368,7 +1373,8 @@ sondern müsste diese eigentlich ergänzen!-->
           <titel>2. Deutsches Recht u. Lehnrecht.</titel>
 
           <veranstaltung><thema>Vergleichende Charakteristik des römischen u.
-          des germanischen Rechts</thema>: <dozent><grad>D.</grad>
+          des germanischen Rechts</thema>: <dozent
+          ref="kuntze_je"><grad>D.</grad>
           <nachname>Kuntze</nachname></dozent>, <zeit>12 U. 2 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -1646,7 +1652,8 @@ sondern müsste diese eigentlich ergänzen!-->
         <veranstaltung><thema>Physikalisch-chemische u. physiologische
         Uebungen im physiologischen Institute</thema> von den Professoren
         <dozent ref="hankel_wg"><grad>D.</grad>
-        <nachname>Hankel</nachname></dozent>, <dozent><grad>D.</grad>
+        <nachname>Hankel</nachname></dozent>, <dozent
+        ref="lehmann_cg"><grad>D.</grad>
         <nachname>Lehmann</nachname></dozent>, <dozent
         ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
         sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
@@ -1714,7 +1721,7 @@ sondern müsste diese eigentlich ergänzen!-->
         <seite>19</seite>
 
         <veranstaltung><thema>Pharmakologie, vom chemisch-physiologischen
-        Gesichtspunkte</thema>: <dozent><grad>D.</grad>
+        Gesichtspunkte</thema>: <dozent ref="lehmann_cg"><grad>D.</grad>
         <nachname>Lehmann</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 

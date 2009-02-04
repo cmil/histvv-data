@@ -974,9 +974,9 @@
       <zeit>Di. 11-12 U.</zeit>, <modus>privatim</modus>, <ort>im Hygienischen
       Institut, Liebigstr. 24</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mi. 6-7 U.</zeit>,
+      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mi. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Über Tropenhygiene und Tropenkrankheiten (mit
@@ -1120,9 +1120,9 @@
       <zeit>Mi. 5-6 U.</zeit>, <modus>publice</modus>, <ort>im
       Kinderkrankenhause, Platzmannstr. 1</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Therapie der Kinderkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Di. u. Fr. 6-7 U.</zeit>,
+      <veranstaltung><thema>Therapie der Kinderkrankheiten</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Di. u. Fr. 6-7 U.</zeit>,
       <modus>privatim</modus>, <ort>in der Pädiatrischen Privat-Poliklinik,
       Königstr. 14 I.</ort></veranstaltung>
 
@@ -1569,10 +1569,10 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Poliklinik der orthopädischen Chirurgie</thema>
-      (<ort>Nürnberger Str. 57, Gartengeb.Erdg.</ort>): <dozent><grad>D.
-      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mo., Mi. u. So. 4-5 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      (<ort>Nürnberger Str. 57, Gartengeb.Erdg.</ort>): <dozent
+      ref="koelliker_t"><grad>D. med.</grad> <nachname>Kölliker</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mo., Mi. u. So. 4-5
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geburtshilflich-gynäkologische Klinik und
       Poliklinik</thema>: <dozent><grad>D. med.</grad>
@@ -2676,9 +2676,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der litauischen Sprache</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mo., Di. u. Do. 12-1
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="leskien_a"><grad>D. ph.</grad>
+          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mo., Di. u. Do. 12-1 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Russische Grammatik. <notiz
           betreff="fortsetzung">III. Teil</notiz></thema>: <dozent><grad>D.
@@ -2779,13 +2780,13 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen und Erklären slavischer
-          Texte</thema>: <dozent><grad>D. ph.</grad>
+          Texte</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mo. u. Mi. 11-12 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen und Erklären litauischer
-          Texte</thema>: <dozent><grad>D. ph.</grad>
+          Texte</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mi. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
         </sachgruppe>
@@ -3924,7 +3925,7 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Lineare Differentialgleichungen im komplexen
-        Gebiet</thema>: <dozent><grad>D. ph.</grad>
+        Gebiet</thema>: <dozent ref="koenig_w"><grad>D. ph.</grad>
         <nachname>König</nachname></dozent>, <zeit>Mi. 12-1 u. So. 9-10
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3946,8 +3947,8 @@
         <gebühr>gratis</gebühr></veranstaltung>. <veranstaltungsgruppe>2)
         <dozent><grad>D. ph.</grad> <nachname>Bohn</nachname>, <funktion>P.
         O.</funktion></dozent>: <veranstaltung>a) <thema>Übungen zur
-        analytischen Geometrie</thema> (<dozent>mit <grad>D. ph.</grad>
-        <nachname>König</nachname></dozent>), <zeit>Di. 10-11
+        analytischen Geometrie</thema> (<dozent ref="koenig_w">mit <grad>D.
+        ph.</grad> <nachname>König</nachname></dozent>), <zeit>Di. 10-11
         U.</zeit></veranstaltung>; <veranstaltung>b) <thema>Übungen zu den
         Raumkurven und Flächen</thema>, <zeit>Mo. 3-4
         U.</zeit></veranstaltung>, <modus>privatissime</modus>, aber

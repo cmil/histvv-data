@@ -567,8 +567,9 @@
       A.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Schulkrankheiten und Schulhygiene</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>.
-      <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
+      <dozent ref="lange_h"><grad>D. med.</grad>
+      <nachname>Lange</nachname></dozent>. <siehe>Siehe Medizinische
+      Fakultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Gesundheitspflege des Auges</thema>:
       <dozent><grad>D. med.</grad> <nachname>Schwarz</nachname>, <funktion>P.
@@ -916,10 +917,10 @@
       <veranstaltung><thema>Geschichte Nordamerikas, insbesondere der
       Vereinigten Staaten</thema>.</veranstaltung> - <veranstaltung><thema>Im
       Histor. Seminar: Übungen zur Verfassungs- und Verwaltungsgeschichte des
-      aufgeklärten Absolutismus</thema></veranstaltung>: <dozent><grad>D. ph.
-      et LL.</grad> <nachname>Lamprecht</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
-      C.</siehe></veranstaltungsgruppe>
+      aufgeklärten Absolutismus</thema></veranstaltung>: <dozent
+      ref="lamprecht_k"><grad>D. ph. et LL.</grad>
+      <nachname>Lamprecht</nachname>, <funktion>P. O.</funktion></dozent>
+      <siehe>Siehe Philosophische Fakultät C.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsgruppe><veranstaltung><thema>Deutsche Sozial- und
       Verfassungsgeschichte von den ältesten Zeiten bis zur
@@ -1279,8 +1280,8 @@
       <zeit>Dienst. 11-12 U.</zeit>, <modus>privatim</modus>, <ort>im
       Hygienischen Institut, Liebigstr. 24</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
+      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
       <zeit>Mittw. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -1362,9 +1363,10 @@
 
       <veranstaltung><thema>Spezielle Pathologie und Therapie des
       Kindesalters, <notiz betreff="fortsetzung">I. Teil</notiz></thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
-      <zeit>Dienst. u. Freit. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in
-      der Pädiatrischen Poliklinik, Königsstr. 14. I.</ort></veranstaltung>
+      <dozent ref="lange_h"><grad>D. med.</grad>
+      <nachname>Lange</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
+      U.</zeit>, <modus>privatim</modus>, <ort>in der Pädiatrischen
+      Poliklinik, Königsstr. 14. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Syphilis hereditaria, Rachitis, Scrophulose und
       Tuberkulose</thema>: <dozent><grad>D. med.</grad>
@@ -1500,9 +1502,9 @@
       U.</zeit>, <modus>privatim</modus>, <ort>im Kinderkrankenhaus,
       Platzmannstr. 1.</ort></veranstaltung>
 
-      <veranstaltung><thema>Über Frakturen und Luxationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <veranstaltung><thema>Über Frakturen und Luxationen</thema>: <dozent
+      ref="koelliker_t"><grad>D. med.</grad> <nachname>Kölliker</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>privatim</modus>, <ort>in der Poliklinik für orthopädische
       Chirurgie, Universitätsstr. 13. pt.</ort></veranstaltung>
 
@@ -1522,10 +1524,11 @@
       Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung><thema>Kriegschirurgie und Feldsanitätsdienst</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. 6-7 U.</zeit>,
-      <modus>publice</modus>, <ort>in der Poliklinik für orthopädische
-      Chirurgie, Universitätsstr. 13. pt.</ort></veranstaltung>
+      <dozent ref="koelliker_t"><grad>D. med.</grad>
+      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Mont. 6-7 U.</zeit>, <modus>publice</modus>, <ort>in der
+      Poliklinik für orthopädische Chirurgie, Universitätsstr. 13.
+      pt.</ort></veranstaltung>
 
       <veranstaltung><thema>Chirurgische Hilfen bei Lebensgefahr</thema>:
       <dozent><grad>D. med.</grad> Frhr.
@@ -1643,7 +1646,7 @@
       Nürnberger Str. 55</ort>.</veranstaltung>
 
       <veranstaltung><thema>Ophthalmologische Besprechungen ausgewählter
-      Kapitel</thema>: <dozent><grad>D. med.</grad>
+      Kapitel</thema>: <dozent ref="krieckmann_e"><grad>D. med.</grad>
       <nachname>Krückmann</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>einstünd. nach Verabredung</zeit>, <modus>publice</modus>, <ort>in
       der Heilanstalt für Augenkranke, Liebigstr. 14. I.</ort></veranstaltung>
@@ -1806,10 +1809,10 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Poliklinik der orthopädischen Chirurgie</thema>
-      (<ort>Universitätsstr. 13. pt.</ort>): <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      (<ort>Universitätsstr. 13. pt.</ort>): <dozent
+      ref="koelliker_t"><grad>D. med.</grad> <nachname>Kölliker</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont., Mittw. u. Sonnab. 4-5
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geburtshilflich-gynäkologische Klinik und
       Poliklinik</thema>: <dozent><grad>D. med.</grad>
@@ -1832,9 +1835,9 @@
       <modus>privatissime</modus>, <ort>in der Privatheilanstalt f.
       Augenkranke, Universitätsstr. 24. II.</ort></veranstaltung>
 
-      <veranstaltung><thema>Propädeutische Augenklinik</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Krückmann</nachname>, P.
-      E.</dozent>, <zeit>zweistünd., nach Verabredung</zeit>,
+      <veranstaltung><thema>Propädeutische Augenklinik</thema>: <dozent
+      ref="krieckmann_e"><grad>D. med.</grad> <nachname>Krückmann</nachname>,
+      P. E.</dozent>, <zeit>zweistünd., nach Verabredung</zeit>,
       <modus>privatim</modus>, <ort>in der Heilanstalt für Augenkranke,
       Liebigstr. 14</ort>.</veranstaltung>
 
@@ -1916,7 +1919,7 @@
         <sachgruppe>
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung><dozent><grad>D. med.</grad>
+          <veranstaltung><dozent ref="koelliker_t"><grad>D. med.</grad>
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10</ort>.)</veranstaltung>
 
@@ -2149,10 +2152,11 @@
           <veranstaltung><thema>Deutsche Kultur- und Sittengeschichte der
           jüngsten Vergangenheit</thema>.</veranstaltung> -
           <veranstaltung><thema>Geschichte Nordamerikas, insbesondere der
-          Vereinigten Staaten</thema></veranstaltung>: <dozent><grad>D.
-          ph.</grad> et <grad>LL. D.</grad> <nachname>Lamprecht</nachname>,
-          <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische
-          Fakultät C.</siehe></veranstaltungsgruppe>
+          Vereinigten Staaten</thema></veranstaltung>: <dozent
+          ref="lamprecht_k"><grad>D. ph.</grad> et <grad>LL. D.</grad>
+          <nachname>Lamprecht</nachname>, <funktion>P. O.</funktion></dozent>
+          <siehe>Siehe Philosophische Fakultät
+          C.</siehe></veranstaltungsgruppe>
 
           <veranstaltungsverweis><thema>Moralstatistik und
           Kriminalpsychologie</thema>: <dozent><grad>D. ph.</grad>
@@ -2221,7 +2225,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Psychologie (mit experimentellen
-        Demonstrationen)</thema>: <dozent><grad>D. ph.</grad>
+        Demonstrationen)</thema>: <dozent ref="krueger_f"><grad>D. ph.</grad>
         <nachname>Krueger</nachname></dozent>, <zeit>Mont. u. Donnerst. 10-12
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2361,7 +2365,7 @@
         <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname></dozent>. <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -2375,15 +2379,15 @@
         <veranstaltungsgruppe><thema>Psychologisches Laboratorium (Paulinum
         III)</thema>: <veranstaltung>a) <thema>Einführungskursus zur
         experimentellen Psychologie (nur für Mitglieder des
-        Instituts)</thema>: <dozent><funktion>Assistent</funktion> <grad>D.
-        ph.</grad> <nachname>Krueger</nachname></dozent> (im Auftrag des
-        Direktors), <zeit>Sonnab. 11-1 U.</zeit></veranstaltung>,
-        <veranstaltung>b) <thema>Spezielle Arbeiten und Übungen des
-        Teilnehmer</thema>: <dozent ref="wundt_w"><grad>D. ph., jur. et
-        med.</grad> <nachname>Wundt</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont. bis Freit. 2-7 U. u. Sonnab. 2-4
-        U.</zeit>, <modus>privatissime</modus>, aber <gebühr>gratis
-        (Ausschliessl.
+        Instituts)</thema>: <dozent
+        ref="krueger_f"><funktion>Assistent</funktion> <grad>D. ph.</grad>
+        <nachname>Krueger</nachname></dozent> (im Auftrag des Direktors),
+        <zeit>Sonnab. 11-1 U.</zeit></veranstaltung>, <veranstaltung>b)
+        <thema>Spezielle Arbeiten und Übungen des Teilnehmer</thema>: <dozent
+        ref="wundt_w"><grad>D. ph., jur. et med.</grad>
+        <nachname>Wundt</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont. bis Freit. 2-7 U. u. Sonnab. 2-4 U.</zeit>,
+        <modus>privatissime</modus>, aber <gebühr>gratis (Ausschliessl.
         Institutsbeitrag)</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltungsgruppe><thema>Philosophisches Seminar</thema>:
@@ -3092,7 +3096,7 @@
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Vergleichende Grammatik der slavischen
-          Sprachen</thema>: <dozent><grad>D. ph.</grad>
+          Sprachen</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont., Dienst. u. Freit. 12 bis 1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -3163,15 +3167,15 @@
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen altslavischer oder
-          dialektischer Texte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst. u. Freit. 11-12 U.</zeit>,
+          dialektischer Texte</thema>: <dozent ref="leskien_a"><grad>D.
+          ph.</grad> <nachname>Leskien</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Dienst. u. Freit. 11-12 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen albanesischer Texte</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 12-1 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          <dozent ref="leskien_a"><grad>D. ph.</grad>
+          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mittw. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -4527,17 +4531,17 @@ Ankündigung von von zwei weiteren Veranstaltungen-->).</veranstaltungsgruppe>
         Freit. 10-11 U.</zeit>, <modus>privatim</modus>, <ort>im Mathemat.
         Institut, Talstr. 35</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Geographische Statistik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
+        <veranstaltung><thema>Geographische Statistik</thema>: <dozent
+        ref="liebmann_h"><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Mittw. u. Freit. 9-10
         U.</zeit>, <modus>privatim</modus>, <ort>im Mathemat. Institut,
         Talstr. 35</ort><korrektur original=",">.</korrektur></veranstaltung>
 
-        <veranstaltung><thema>Potentialtheorie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Liebmann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 9-10 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Mathemat. Institut, Talstr.
-        35</ort>.</veranstaltung>
+        <veranstaltung><thema>Potentialtheorie</thema>: <dozent
+        ref="liebmann_h"><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 9-10
+        U.</zeit>, <modus>privatim</modus>, <ort>im Mathemat. Institut,
+        Talstr. 35</ort>.</veranstaltung>
 
         <seite>47</seite>
 
@@ -4583,7 +4587,7 @@ Ankündigung von von zwei weiteren Veranstaltungen-->).</veranstaltungsgruppe>
         <gebühr>gratis</gebühr></veranstaltung></veranstaltungsgruppe>.
         <veranstaltung>4) <dozent ref="rohn_k"><grad>D. ph.</grad>
         <nachname>Rohn</nachname>, <funktion>P. O.</funktion></dozent>,
-        <dozent>gemeinsam mit <grad>D. ph.</grad>
+        <dozent ref="liebmann_h">gemeinsam mit <grad>D. ph.</grad>
         <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>:
         <thema>Übungen zur darstellenden Geometrie <notiz
         betreff="fortsetzung">II.</notiz></thema>, <zeit>Dienst. 3-5

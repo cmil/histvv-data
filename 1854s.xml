@@ -705,9 +705,10 @@ aber nicht im VV aufgeführt wurde-->
         <ders>Derselbe</ders>, <zeit>5 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Physiologische Chemie</thema>:
-        <dozent><grad>D.</grad> <nachname>Lehmann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>12 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Physiologische Chemie</thema>: <dozent
+        ref="lehmann_cg"><grad>D.</grad> <nachname>Lehmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>12 U. 2
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Toxikologie (Chemie der Gifte)</thema>: <dozent
         ref="hirzel_ch"><grad>D. ph.</grad>
@@ -720,7 +721,8 @@ aber nicht im VV aufgeführt wurde-->
           <veranstaltung><thema>Physikalisch-chemische u. physiologische
           Uebungen im phy<seite>9</seite>siologischen Institut</thema>: Proff.
           <dozent ref="hankel_wg"><grad>D.</grad>
-          <nachname>Hankel</nachname></dozent>, <dozent><grad>D.</grad>
+          <nachname>Hankel</nachname></dozent>, <dozent
+          ref="lehmann_cg"><grad>D.</grad>
           <nachname>Lehmann</nachname></dozent>, <dozent
           ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
           sen.</dozent> u. <dozent ref="weber_ef"><grad>D.</grad>
@@ -741,7 +743,7 @@ aber nicht im VV aufgeführt wurde-->
           Uhr)</zeit>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen in physiologisch-chemischen
-          Untersuchungen</thema>: <dozent><grad>D.</grad>
+          Untersuchungen</thema>: <dozent ref="lehmann_cg"><grad>D.</grad>
           <nachname>Lehmann</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>2-6 U. 5 T.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
@@ -1174,9 +1176,10 @@ aber nicht im VV aufgeführt wurde-->
         <titel>III. Systematische Theologie.</titel>
 
         <veranstaltung><thema>Dogmatik (<notiz
-        betreff="fortsetzung">Schluß</notiz>)</thema>: <dozent><grad>D.</grad>
-        <nachname>Liebner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>12 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        betreff="fortsetzung">Schluß</notiz>)</thema>: <dozent
+        ref="liebner_a"><grad>D.</grad> <nachname>Liebner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Christliche Apologetik, zugleich als Einleitung
         in die Dogmatik</thema>: <dozent><grad>D.</grad>
@@ -1191,9 +1194,10 @@ aber nicht im VV aufgeführt wurde-->
 
         <trennlinie/>
 
-        <veranstaltung><thema>Christliche Ethik</thema>:
-        <dozent><grad>D.</grad> <nachname>Liebner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Christliche Ethik</thema>: <dozent
+        ref="liebner_a"><grad>D.</grad> <nachname>Liebner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>11 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Moralische Pädeutik, oder die sittl. Mittel u.
         Uebungen des christlichen Lebens</thema>: <dozent><grad>D.</grad>
@@ -1224,9 +1228,10 @@ aber nicht im VV aufgeführt wurde-->
       <sachgruppe>
         <titel>IV. Praktische Theologie.</titel>
 
-        <veranstaltung><thema>Praktische Theologie</thema>:
-        <dozent><grad>D.</grad> <nachname>Liebner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Praktische Theologie</thema>: <dozent
+        ref="liebner_a"><grad>D.</grad> <nachname>Liebner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Katechetik der christlichen Kirche, in
         Verbindung mit populärer Dogmatik nach Luthers Katechismus</thema>:
@@ -1245,10 +1250,10 @@ aber nicht im VV aufgeführt wurde-->
           <titel>Praktisch-theologische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen des homiletischen Seminars</thema>:
-          <dozent><grad>D.</grad> <nachname>Liebner</nachname>, <funktion>P.
-          O.</funktion>, <funktion>Semin. homil. Dir.</funktion></dozent>,
-          <zeit>Mittw. 3-5 U.</zeit>
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <dozent ref="liebner_a"><grad>D.</grad>
+          <nachname>Liebner</nachname>, <funktion>P. O.</funktion>,
+          <funktion>Semin. homil. Dir.</funktion></dozent>, <zeit>Mittw. 3-5
+          U.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Homiletische Uebungen der Lausitzer</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Hänsel</nachname>,
@@ -1693,7 +1698,8 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
         <veranstaltung><thema>Physikalisch-chemische u. physiologische
         Uebungen im physiologischen Institute</thema> von den Professoren
         <dozent ref="hankel_wg"><grad>D.</grad>
-        <nachname>Hankel</nachname></dozent>, <dozent><grad>D.</grad>
+        <nachname>Hankel</nachname></dozent>, <dozent
+        ref="lehmann_cg"><grad>D.</grad>
         <nachname>Lehmann</nachname></dozent>, <dozent
         ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
         sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
@@ -1781,9 +1787,9 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
         T. in zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Kritik der Pharmakologie</thema>:
-        <dozent><grad>D.</grad> <nachname>Lehmann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
+        <veranstaltung><thema>Kritik der Pharmakologie</thema>: <dozent
+        ref="lehmann_cg"><grad>D.</grad> <nachname>Lehmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>

@@ -664,13 +664,14 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
         <ders>Derselbe</ders>, <zeit>5 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Physiologische Chemie</thema>:
-        <dozent><grad>D.</grad> <nachname>Lehmann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>12 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Physiologische Chemie</thema>: <dozent
+        ref="lehmann_cg"><grad>D.</grad> <nachname>Lehmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>12 U. 2
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Pathologische und pharmakologische
-        Chemie</thema>: <ders>Derselbe</ders>, <zeit>4 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Chemie</thema>: <ders ref="lehmann_cg">Derselbe</ders>, <zeit>4 U. 2
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <sachgruppe>
           <titel>Physikalische und chemische Uebungen.</titel>
@@ -681,9 +682,9 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           Verbindung mit den Proff. DD. <dozent ref="weber_eh"><vorname>E.
           H.</vorname><!--Weber--></dozent> und <dozent
           ref="weber_ef"><vorname>E. F.</vorname>
-          <nachname>Weber</nachname></dozent> und
-          <dozent><nachname>Lehmann</nachname></dozent>, <zeit>in zu best. St.
-          u. T.</zeit></veranstaltung>
+          <nachname>Weber</nachname></dozent> und <dozent
+          ref="lehmann_cg"><nachname>Lehmann</nachname></dozent>, <zeit>in zu
+          best. St. u. T.</zeit></veranstaltung>
 
           <veranstaltungsverweis><thema>Pädagogisches Seminar für künftige
           Lehrer der Naturwissenschaften</thema>: <dozent
@@ -705,10 +706,10 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           Uhr)</zeit>.</veranstaltung>
 
           <veranstaltung><thema>Praktische Uebungen in physiologisch- und
-          pathologisch-chemischen Untersuchungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Lehmann</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>9-12 und 3-6 U. 5 T.</zeit>
-          <modus>privatissime</modus>.</veranstaltung>
+          pathologisch-chemischen Untersuchungen</thema>: <dozent
+          ref="lehmann_cg"><grad>D.</grad> <nachname>Lehmann</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>9-12 und 3-6 U. 5
+          T.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Repetitorium und Examinatorium der gesammten
           Chemie</thema>: <dozent ref="hirzel_ch"><grad>D. ph.</grad>
@@ -1094,9 +1095,10 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Dogmatik (<notiz
-        betreff="fortsetzung">Schluß</notiz>)</thema>: <dozent><grad>D.</grad>
-        <nachname>Liebner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        betreff="fortsetzung">Schluß</notiz>)</thema>: <dozent
+        ref="liebner_a"><grad>D.</grad> <nachname>Liebner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Praktische Dogmatik, mit specieller Beziehung
         auf die Epitome der Concordienformel (für diesen Zweck abgedruckt in
@@ -1127,9 +1129,10 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
 
         <trennlinie/>
 
-        <veranstaltung><thema>Christliche Ethik</thema>:
-        <dozent><grad>D.</grad> <nachname>Liebner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Christliche Ethik</thema>: <dozent
+        ref="liebner_a"><grad>D.</grad> <nachname>Liebner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>11 U. 4
+        T.</zeit></veranstaltung>
 
         <sachgruppe>
           <titel>Systematisch-theologische Uebungen.</titel>
@@ -1161,8 +1164,9 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
 
         <veranstaltung><thema>Praktische Theologie, mit besonderer
         Hervorhebung der Homiletik und der Lehre von der Seelsorge</thema>:
-        <dozent><grad>D.</grad> <nachname>Liebner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="liebner_a"><grad>D.</grad> <nachname>Liebner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Homiletik</thema>: <dozent
         ref="krehl_alg"><grad>D.</grad> <nachname>Krehl</nachname>,
@@ -1185,9 +1189,10 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Homiletische Uebungen der Sachsen</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Küchler</nachname>,
-          <funktion>Theol. Lic., Phil. P. E.</funktion></dozent>, <zeit>Mittw.
-          5-7 U.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          <dozent ref="kuechler_kg"><grad>D. ph.</grad>
+          <nachname>Küchler</nachname>, <funktion>Theol. Lic., Phil. P.
+          E.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Homiletische Uebungen</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Hänsel</nachname>,
@@ -1225,8 +1230,9 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
         <titel>Allgemeine juristische Uebungen.</titel>
 
         <veranstaltung><thema>Uebungen der juristischen Gesellschaft</thema>:
-        <dozent><grad>D.</grad> <nachname>Kuntze</nachname></dozent>,
-        <zeit>5-7 U. Mittw.</zeit> <modus>privatissime</modus> aber
+        <dozent ref="kuntze_je"><grad>D.</grad>
+        <nachname>Kuntze</nachname></dozent>, <zeit>5-7 U. Mittw.</zeit>
+        <modus>privatissime</modus> aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -1251,7 +1257,7 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Institutionen und innere römische
-          Rechtsgeschichte</thema>: <dozent><grad>D.</grad>
+          Rechtsgeschichte</thema>: <dozent ref="kuntze_je"><grad>D.</grad>
           <nachname>Kuntze</nachname></dozent>, <seite>14</seite><zeit>8 U. 6
           T. u. 9 U. 2 T.</zeit> <modus>privatim</modus>, nebst
           <thema>Repetitorium über die vorgetragenen Lehren</thema>, <zeit>2
@@ -1259,8 +1265,8 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Aeußere römische Rechtsgeschichte</thema>:
-          <ders>Derselbe</ders>, <zeit>9 U. 2 T. (Dienst. u. Freit.)</zeit>
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <ders ref="kuntze_je">Derselbe</ders>, <zeit>9 U. 2 T. (Dienst. u.
+          Freit.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Pandekten, nach Puchta's Lehrbuch</thema>:
           <dozent><grad>D.</grad> <nachname>Marezoll</nachname>, <funktion>P.
@@ -1314,7 +1320,7 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
 
           <veranstaltung><thema>Examinatorium über ausgewählte Lehren des
           römischen Rechts, verbunden mit Exegese einzelner Stellen der
-          Digesten</thema>: <dozent><grad>D.</grad>
+          Digesten</thema>: <dozent ref="kuntze_je"><grad>D.</grad>
           <nachname>Kuntze</nachname></dozent>, <zeit>4 U. 4 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
@@ -1610,8 +1616,8 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
         O.</funktion></dozent></veranstaltung>, <veranstaltung><dozent
         ref="weber_ef"><grad>D.</grad> <vorname>Ed.</vorname>
         <nachname>Weber</nachname>, <funktion>P. E.
-        des.</funktion></dozent></veranstaltung>,
-        <veranstaltung><dozent><grad>D.</grad> <nachname>Lehmann</nachname>,
+        des.</funktion></dozent></veranstaltung>, <veranstaltung><dozent
+        ref="lehmann_cg"><grad>D.</grad> <nachname>Lehmann</nachname>,
         <funktion>P. E.</funktion></dozent></veranstaltung> u.
         <veranstaltung><dozent ref="hankel_wg"><grad>D.</grad>
         <nachname>Hankel</nachname>, <funktion>P.

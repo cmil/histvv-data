@@ -621,7 +621,7 @@
       <siehe>Siehe Philosophische Fakultät A.</siehe></veranstaltungsverweis>
 
       <veranstaltung><thema>Psychologie und Ethik des wirtschaftl.
-      Lebens</thema>: <dozent><grad>D. ph.</grad>
+      Lebens</thema>: <dozent ref="krueger_f"><grad>D. ph.</grad>
       <nachname>Krueger</nachname></dozent>. <siehe>Siehe Philosophische
       Fakultät A.</siehe></veranstaltung>
 
@@ -649,8 +649,8 @@
       E.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Schulhygiene und Schulkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Medizinische
+      <dozent ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Medizinische
       Fakultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Hygiene des Nervensystems</thema>:
@@ -1331,9 +1331,9 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
       <modus>privatim</modus>, <ort>im Hygienischen Institut, Liebigstr. 24.
       II.</ort></veranstaltung>
 
-      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Arbeiten im Hygienischen Institut (Liebigstr. 24)
@@ -1467,10 +1467,11 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
 
       <veranstaltung><thema>Spezielle Pathologie und Therapie der
       Kinderkrankheiten, <notiz betreff="fortsetzung">I. Teil</notiz>
-      (Infektionskrankheiten)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Lange</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Dienst. u. Freit. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in
-      der Privat-Poliklinik, Königsstr. 14. I.</ort></veranstaltung>
+      (Infektionskrankheiten)</thema>: <dozent ref="lange_h"><grad>D.
+      med.</grad> <nachname>Lange</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
+      <modus>privatim</modus>, <ort>in der Privat-Poliklinik, Königsstr. 14.
+      I.</ort></veranstaltung>
 
       <veranstaltung><thema>Spezielle Therapie der Kinderkrankheiten</thema>:
       <dozent><grad>D. med.</grad> <nachname>Hohlfeld</nachname></dozent>,
@@ -1636,11 +1637,11 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
       Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung><thema>Verbandkurs mit Operations- und
-      Instrumentenlehre</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mittw. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der
-      Poliklinik für orthopädische Chirurgie, Nürnberger Str. 57, Gartengeb.
-      Erdg.</ort></veranstaltung>
+      Instrumentenlehre</thema>: <dozent ref="koelliker_t"><grad>D.
+      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <modus>privatim</modus>, <ort>in der Poliklinik für orthopädische
+      Chirurgie, Nürnberger Str. 57, Gartengeb. Erdg.</ort></veranstaltung>
 
       <veranstaltung><thema>Chirurgischer Verbandkursus mit besonderer
       Berücksichtigung der Knochenbrüche und der Verrenkungen</thema>:
@@ -1660,11 +1661,11 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
       <seite>20</seite>
 
       <veranstaltung><thema>Über Kriegschirurgie und
-      Feldsanitätsdienst</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont. 6-7 U.</zeit>, <modus>publice</modus>, <ort>in der
-      Poliklinik für orthopäd. Chirurgie, Nürnberger Str. 57, Gartengeb.
-      Erdg.</ort></veranstaltung>
+      Feldsanitätsdienst</thema>: <dozent ref="koelliker_t"><grad>D.
+      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont. 6-7 U.</zeit>,
+      <modus>publice</modus>, <ort>in der Poliklinik für orthopäd. Chirurgie,
+      Nürnberger Str. 57, Gartengeb. Erdg.</ort></veranstaltung>
 
       <trennlinie/>
 
@@ -1915,10 +1916,10 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Poliklinik der orthopädischen Chirurgie</thema>
-      (<ort>Nürnberger Str. 57, Gartengeb. Erdg.</ort>): <dozent><grad>D.
-      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      (<ort>Nürnberger Str. 57, Gartengeb. Erdg.</ort>): <dozent
+      ref="koelliker_t"><grad>D. med.</grad> <nachname>Kölliker</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont., Mittw. u. Sonnab. 4-5
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Klinischer Unterricht in der
       Augenheilkunde</thema>: <dozent><grad>D. med.</grad>
@@ -2403,7 +2404,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Psychologie und Ethik des wirtschaftlichen
-        Lebens</thema>: <dozent><grad>D. ph.</grad>
+        Lebens</thema>: <dozent ref="krueger_f"><grad>D. ph.</grad>
         <nachname>Krueger</nachname></dozent>, <zeit>Mont. u. Donnerst. 11-12
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2488,7 +2489,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
@@ -2588,7 +2589,8 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
 
         <veranstaltungsverweis><thema>Übungen zur Psychologie des
         Wirtschaftslebens, insbes. der Arbeit</thema> (<ort>im Institut für
-        Kultur- und Universalgeschichte</ort>): <dozent><grad>D. ph.</grad>
+        Kultur- und Universalgeschichte</ort>): <dozent
+        ref="krueger_f"><grad>D. ph.</grad>
         <nachname>Krueger</nachname></dozent>. <siehe>Siehe Abschnitt
         C.</siehe></veranstaltungsverweis>
 
@@ -2680,7 +2682,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
@@ -3504,7 +3506,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
           U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Historische Grammatik der serbo-kroatischen
-          Sprache</thema>: <dozent><grad>D. ph.</grad>
+          Sprache</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -3616,15 +3618,15 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
           U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen und Erklären altslavischer
-          Texte</thema>: <dozent><grad>D. ph.</grad>
+          Texte</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont. u. Mittw. 11-12 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Übungen im Lesen litauischer Texte</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 12-1 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          <dozent ref="leskien_a"><grad>D. ph.</grad>
+          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mittw. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Übungen zur französ. Kulturgeschichte:
           Die großen Historiker des 19. Jahrh. auf der Grundlage der
@@ -3928,7 +3930,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         Abschnitt G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
@@ -4067,7 +4069,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
           Übungen an Kinderzeichnungen: Einführung in die Grundproblerne und
           in die Methode der vergleichenden Kinderpsychologie</thema>,
           <zeit>Dienst. ½9-10 U. Ab.</zeit></veranstaltung> -
-          <veranstaltung>2) <dozent><grad>D. ph.</grad>
+          <veranstaltung>2) <dozent ref="krueger_f"><grad>D. ph.</grad>
           <nachname>Krueger</nachname></dozent>: <thema>Übungen zur
           Psychologie des Wirtschaftslebens, insbesondere der Arbeit</thema>,
           <zeit>Mittw. 5-7 U.</zeit></veranstaltung></veranstaltungsgruppe> -
@@ -4803,9 +4805,9 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         c.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Psychologie und Ethik des
-        wirtschaftlichen Lebens</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Krueger</nachname></dozent>. <siehe>Siehe Abschnitt
-        A.</siehe></veranstaltungsverweis>
+        wirtschaftlichen Lebens</thema>: <dozent ref="krueger_f"><grad>D.
+        ph.</grad> <nachname>Krueger</nachname></dozent>. <siehe>Siehe
+        Abschnitt A.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geographie des Welthandels. - Geographie
         des Deutschen Reiches</thema>: <dozent><grad>D. ph.</grad>
@@ -4912,7 +4914,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
@@ -5087,9 +5089,10 @@ nnicht wie ich das auszeichnen sollte?
 
         <veranstaltungsverweis><thema>Übungen zur Psychologie des
         Wirtschaftslebens, insbesondere der Arbeit</thema> (<ort>im Institut
-        für Kultur- und Universa1geschichte</ort>): <dozent><grad>D.
-        ph.</grad> <nachname>Krueger</nachname></dozent>. <siehe>Siehe
-        Abschnitt C.</siehe></veranstaltungsverweis>
+        für Kultur- und Universa1geschichte</ort>): <dozent
+        ref="krueger_f"><grad>D. ph.</grad>
+        <nachname>Krueger</nachname></dozent>. <siehe>Siehe Abschnitt
+        C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Seminar für Landesgeschichte und
         Siedelungskunde</thema>: <dozent><grad>D. ph.</grad>
@@ -5191,9 +5194,10 @@ nnicht wie ich das auszeichnen sollte?
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Gewöhnliche Differentialgleichungen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Dienst. bis Freit. 9-10
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="liebmann_h"><grad>D. ph.</grad>
+        <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst. bis Freit. 9-10 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Höhere Algebra, insbesondere Galois'sche Theorie
         der Gleichungen</thema>: <dozent ref="hoelder_o"><grad>D. ph. et
@@ -5267,9 +5271,10 @@ nnicht wie ich das auszeichnen sollte?
         <gebühr>gratis</gebühr>.</veranstaltung></veranstaltungsgruppe>
 
         <veranstaltung><thema>Übungen zu den gewöhnlichen
-        Differentialgleichungen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Sonnab. 9-10 U.</zeit>, <modus>privatissime</modus> et
+        Differentialgleichungen</thema>: <dozent ref="liebmann_h"><grad>D.
+        ph.</grad> <nachname>Liebmann</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Sonnab. 9-10 U.</zeit>,
+        <modus>privatissime</modus> et
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <seite>54</seite>
@@ -5750,7 +5755,7 @@ nnicht wie ich das auszeichnen sollte?
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 

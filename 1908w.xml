@@ -658,8 +658,8 @@
       Fakultät B. d.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Schulkrankheiten und Schulhygiene</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname>, <funktion>P. E.
-      des.</funktion></dozent> <siehe>Siehe Medizinische
+      <dozent ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname>,
+      <funktion>P. E. des.</funktion></dozent> <siehe>Siehe Medizinische
       Fakultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Experimentelle Einführung in die Chemie
@@ -1361,9 +1361,9 @@
       <zeit>Dienst. 11-12 U.</zeit>, <modus>privatim</modus>, <ort>im
       Hygienischen Institut, Liebigstr. 24</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Über Tropenhygiene und Tropenkrankheiten</thema>:
@@ -1476,7 +1476,7 @@
       Kinderklinik, Platzmannstr. 1</ort>.</veranstaltung>
 
       <veranstaltung><thema>Therapie und Pathologie der
-      Kinderkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Kinderkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
       <nachname>Lange</nachname>, <funktion>P. E. des.</funktion></dozent>,
       <zeit>Dienst. u. Freit. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in
       der Pädiatrischen Privat-Poliklinik, Königsstr. 14.
@@ -1624,9 +1624,9 @@
       <zeit>Mont. u. Mittw. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im
       Kinderkrankenhaus, Platzmannstr. 1</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Über Frakturen und Luxationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <veranstaltung><thema>Über Frakturen und Luxationen</thema>: <dozent
+      ref="koelliker_t"><grad>D. med.</grad> <nachname>Kölliker</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>privatim</modus>, <ort>in der Poliklinik für orthopädische
       Chirurgie, Universitätsstr. 13. pt.</ort></veranstaltung>
 
@@ -1645,11 +1645,11 @@
       Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung><thema>Über Kriegschirurgie und
-      Feldsanitätsdienst</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont. 6-7 U.</zeit>, <modus>publice</modus>, <ort>in der
-      Poliklinik für orthopäd. Chirurgie, Universitätsstr. 13.
-      pt.</ort></veranstaltung>
+      Feldsanitätsdienst</thema>: <dozent ref="koelliker_t"><grad>D.
+      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont. 6-7 U.</zeit>,
+      <modus>publice</modus>, <ort>in der Poliklinik für orthopäd. Chirurgie,
+      Universitätsstr. 13. pt.</ort></veranstaltung>
 
       <veranstaltung><thema>Die chirurgischen Hilfen bei dringender
       Lebensgefahr</thema>: <dozent><grad>D. med.</grad>
@@ -1940,9 +1940,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Poliklinik der orthopädischen Chirurgie</thema>
-      (<ort>Universitätsstr. 13 pt.</ort>): <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
+      (<ort>Universitätsstr. 13 pt.</ort>): <dozent ref="koelliker_t"><grad>D.
+      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geburtshilflich-gynäkologische Klinik und
@@ -2460,7 +2460,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Vergleichende Psychologie der
-        Naturvölker</thema>: <dozent><grad>D. ph.</grad>
+        Naturvölker</thema>: <dozent ref="krueger_f"><grad>D. ph.</grad>
         <nachname>Krueger</nachname></dozent>, <zeit>Mont. u. Donnerst. 11-12
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2577,7 +2577,7 @@
         B.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname>, <funktion>P. E. des.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
@@ -2632,8 +2632,9 @@
         Institutsbeitrag)</gebühr>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Übungen zur Psychologie der Naturvölker</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Krueger</nachname></dozent>,
-        <zeit>Sonnab. 9-11 U.</zeit>, <modus>privatissime</modus> et
+        <dozent ref="krueger_f"><grad>D. ph.</grad>
+        <nachname>Krueger</nachname></dozent>, <zeit>Sonnab. 9-11 U.</zeit>,
+        <modus>privatissime</modus> et
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Philosophisches Seminar</thema>:
@@ -2739,7 +2740,7 @@
           Fakultät.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Schulhygiene und
-          Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+          Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
           <nachname>Lange</nachname>, <funktion>P. E. des.</funktion></dozent>
           <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
@@ -3481,7 +3482,7 @@
             <modus>publice</modus>.</veranstaltung>
 
             <veranstaltung><thema>Vergleichende Formenlehre der slavischen
-            Sprachen</thema>: <dozent><grad>D. ph.</grad>
+            Sprachen</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
             <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
             <zeit>Dienst., Donnerst. u. Freit. 11 bis 12 U.</zeit>,
             <modus>privatim</modus>.</veranstaltung>
@@ -3498,9 +3499,10 @@
             <modus>privatim</modus>.</veranstaltung>
 
             <veranstaltung><thema>Grammatik der litauischen Sprache</thema>:
-            <dozent><grad>D. ph.</grad> <nachname>Leskien</nachname>,
-            <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
-            Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+            <dozent ref="leskien_a"><grad>D. ph.</grad>
+            <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
+            <zeit>Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
+            <modus>privatim</modus>.</veranstaltung>
 
             <veranstaltungsverweis><thema>Geschichte der Vereinigten Staaten
             vornehmlich in den letzten Menschenaltern</thema>: <dozent
@@ -3582,7 +3584,7 @@
             Zeit</zeit>, <modus>publice</modus>.</veranstaltung>
 
             <veranstaltung><thema>Übungen im Lesen slavischer und litauischer
-            Texte</thema>: <dozent><grad>D. ph.</grad>
+            Texte</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
             <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
             <zeit>Mont. 11-1 U.</zeit>,
             <modus>publice</modus>.</veranstaltung>
@@ -3983,7 +3985,7 @@
           A.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Vergleichende Psychologie der
-          Naturvölker</thema>: <dozent><grad>D. ph.</grad>
+          Naturvölker</thema>: <dozent ref="krueger_f"><grad>D. ph.</grad>
           <nachname>Krueger</nachname></dozent>. <siehe>Siehe Abschnitt
           A.</siehe></veranstaltungsverweis>
 
@@ -4056,7 +4058,7 @@
           b.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Schulkrankheiten und
-          Schulhygiene</thema>: <dozent><grad>D. med.</grad>
+          Schulhygiene</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
           <nachname>Lange</nachname>, <funktion>P. E. des.</funktion></dozent>
           <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
@@ -4325,9 +4327,9 @@
                 gestattet.</thema>]</veranstaltung>
 
                 <veranstaltungsverweis><thema>Übungen zur Psychologie der
-                Naturvölker</thema>: <dozent><grad>D. ph.</grad>
-                <nachname>Krueger</nachname></dozent>. <siehe>Siehe Abschnitt
-                A.</siehe></veranstaltungsverweis>
+                Naturvölker</thema>: <dozent ref="krueger_f"><grad>D.
+                ph.</grad> <nachname>Krueger</nachname></dozent>. <siehe>Siehe
+                Abschnitt A.</siehe></veranstaltungsverweis>
               </sachgruppe>
             </sachgruppe>
           </sachgruppe>
@@ -5203,9 +5205,9 @@
           Mathematischen Institut, Talstr. 35</ort>, abgehalten.)</absatz>
 
           <veranstaltung><thema>Analytische Geometrie des Raumes</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Mittw.,
-          Donnerst. u. Freit. 10-11 U.</zeit>,
+          <dozent ref="liebmann_h"><grad>D. ph.</grad>
+          <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Dienst., Mittw., Donnerst. u. Freit. 10-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Differential- und Integralrechnung</thema>:
@@ -5286,7 +5288,7 @@
           <gebühr>gratis</gebühr>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung><thema>Übungen zur analytischen Geometrie des
-          Raumes</thema>: <dozent><grad>D. ph.</grad>
+          Raumes</thema>: <dozent ref="liebmann_h"><grad>D. ph.</grad>
           <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Sonnab. 10-11 U.</zeit>, <modus>privatissime</modus> et
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -5707,7 +5709,7 @@
           <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Analytische Geometrie des
-          Raumes</thema>: <dozent><grad>D. ph.</grad>
+          Raumes</thema>: <dozent ref="liebmann_h"><grad>D. ph.</grad>
           <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>
           <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
 
@@ -5722,7 +5724,7 @@
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Schulhygiene u.
-          Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+          Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
           <nachname>Lange</nachname>, <funktion>P. E. des.</funktion></dozent>
           <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 

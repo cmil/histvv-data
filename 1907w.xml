@@ -696,8 +696,9 @@
       Fakultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Schulkrankheiten und Schulhygiene</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>.
-      <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
+      <dozent ref="lange_h"><grad>D. med.</grad>
+      <nachname>Lange</nachname></dozent>. <siehe>Siehe Medizinische
+      Fakultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Gesundheitspflege des Auges</thema>:
       <dozent><grad>D. med.</grad> <nachname>Schwarz</nachname>, <funktion>P.
@@ -1361,8 +1362,8 @@
       <zeit>Dienst. 11-12 U.</zeit>, <modus>privatim</modus>, <ort>im
       Hygienischen Institut, Liebigstr. 24</ort>.</veranstaltung>
 
-      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
+      <veranstaltung><thema>Schulhygiene und Schulkrankheiten</thema>: <dozent
+      ref="lange_h"><grad>D. med.</grad> <nachname>Lange</nachname></dozent>,
       <zeit>Mittw. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -1472,10 +1473,10 @@
 
       <veranstaltung><thema>Spezielle Pathologie und Therapie des
       Kindesalters, <notiz betreff="fortsetzung">I. Teil</notiz>
-      (Infektionskrankheiten)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Lange</nachname></dozent>, <zeit>Dienst. u. Donnerst. 6-7
-      U.</zeit>, <modus>privatim</modus>, <ort>in der Pädiatrischen
-      Privat-Poliklinik, Königsstr. 14. I.</ort></veranstaltung>
+      (Infektionskrankheiten)</thema>: <dozent ref="lange_h"><grad>D.
+      med.</grad> <nachname>Lange</nachname></dozent>, <zeit>Dienst. u.
+      Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der
+      Pädiatrischen Privat-Poliklinik, Königsstr. 14. I.</ort></veranstaltung>
 
       <veranstaltung><thema>Über Kreislaufstörungen</thema>: <dozent><grad>D.
       med.</grad> <nachname>Stadler</nachname></dozent>, <zeit>einstünd., in
@@ -1590,7 +1591,7 @@
       Platzmannstr. 1</ort>.</veranstaltung>
 
       <veranstaltung><thema>Über Frakturen und Luxationen, mit poliklinischen
-      Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+      Demonstrationen</thema>: <dozent ref="koelliker_t"><grad>D. med.</grad>
       <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mittw. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der
       Poliklinik für orthopädische Chirurgie, Universitätsstr. 13.
@@ -1611,10 +1612,11 @@
       Liebigstr 20</ort>.</veranstaltung>
 
       <veranstaltung><thema>Kriegschirurgie und Feldsanitätsdienst</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. 6-7 U.</zeit>,
-      <modus>publice</modus>, <ort>in der Poliklinik für orthopäd. Chirurgie,
-      Universitätsstr. 13. pt.</ort></veranstaltung>
+      <dozent ref="koelliker_t"><grad>D. med.</grad>
+      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Mont. 6-7 U.</zeit>, <modus>publice</modus>, <ort>in der
+      Poliklinik für orthopäd. Chirurgie, Universitätsstr. 13.
+      pt.</ort></veranstaltung>
 
       <veranstaltung><thema>Chirurgische Hilfen bei Lebensgefahr</thema>:
       <dozent><grad>D. med.</grad> Frhr.
@@ -1881,9 +1883,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Poliklinik der orthopädischen Chirurgie</thema>
-      (<ort>Universitätsstr. 13 pt.</ort>): <dozent><grad>D. med.</grad>
-      <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
+      (<ort>Universitätsstr. 13 pt.</ort>): <dozent ref="koelliker_t"><grad>D.
+      med.</grad> <nachname>Kölliker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont., Mittw. u. Sonnab. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geburtshilflich-gynäkologische Klinik und
@@ -2443,7 +2445,7 @@
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene und
-        Schulkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Schulkrankheiten</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname></dozent>. <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -3261,15 +3263,15 @@
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der altbulgarischen
-          (kirchenslavischen) Sprache</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          (kirchenslavischen) Sprache</thema>: <dozent
+          ref="leskien_a"><grad>D. ph.</grad> <nachname>Leskien</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
+          Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Ausgewählte Abschnitte aus der Syntax der
-          slavischen Sprachen</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
+          slavischen Sprachen</thema>: <dozent ref="leskien_a"><grad>D.
+          ph.</grad> <nachname>Leskien</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Russische Grammatik, <notiz
@@ -3348,9 +3350,9 @@
           publice.</veranstaltung>
 
           <veranstaltung><thema>Übungen in slavischer Grammatik mit Erklärung
-          älterer oder dialektischer Texte</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Leskien</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mittw. 11-12 U.</zeit>,
+          älterer oder dialektischer Texte</thema>: <dozent
+          ref="leskien_a"><grad>D. ph.</grad> <nachname>Leskien</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 11-12 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -4984,13 +4986,13 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Theorie und Anwendung der
-          Determinanten</thema>: <dozent><grad>D. ph.</grad>
+          Determinanten</thema>: <dozent ref="liebmann_h"><grad>D. ph.</grad>
           <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Dienst. u. Mittw. 11-12 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Nichteuklidische Geometrie</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
+          <veranstaltung><thema>Nichteuklidische Geometrie</thema>: <dozent
+          ref="liebmann_h"><grad>D. ph.</grad> <nachname>Liebmann</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 12-1
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -5053,10 +5055,11 @@
           <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr></veranstaltung>. <veranstaltung>2) <dozent
           ref="rohn_k"><grad>D. ph.</grad> <seite>51</seite><nachname>Rohn</nachname>,
-          <funktion>P. O.</funktion></dozent> <dozent>mit <grad>D. ph.</grad>
-          <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>:
-          <thema>Übungen zur darstellenden Geometrie</thema>, <zeit>Mont. 3-5
-          U.</zeit>, <modus>privatim</modus>, aber
+          <funktion>P. O.</funktion></dozent> <dozent ref="liebmann_h">mit
+          <grad>D. ph.</grad> <nachname>Liebmann</nachname>, <funktion>P.
+          E.</funktion></dozent>: <thema>Übungen zur darstellenden
+          Geometrie</thema>, <zeit>Mont. 3-5 U.</zeit>,
+          <modus>privatim</modus>, aber
           <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung><thema>Übungen zur Differential- und
@@ -5507,7 +5510,7 @@
           F.</siehe></veranstaltungsgruppe>
 
           <veranstaltungsverweis><thema>Theorie und Anwendung von
-          Determinanten</thema>: <dozent><grad>D. ph.</grad>
+          Determinanten</thema>: <dozent ref="liebmann_h"><grad>D. ph.</grad>
           <nachname>Liebmann</nachname>, <funktion>P. E.</funktion></dozent>
           <siehe>Siehe Abschnitt F.</siehe></veranstaltungsverweis>
 
