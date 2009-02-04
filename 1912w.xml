@@ -26,6 +26,14 @@
 
     <status komplett="ja">
       <transkribent>Beatrice</transkribent>
+
+      <korrigiert>
+        <durch>Tobias</durch>
+
+        <am>04.02.2009</am>
+
+        <anmerkungen>Schnelldurchgang</anmerkungen>
+      </korrigiert>
     </status>
   </kopf>
 
@@ -3931,9 +3939,9 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         U.</zeit>, <modus>privatim</modus>.</veranstaltung> <veranstaltung>3)
         <thema>Die sozialen Aufgaben der modernen Städte (für Studierende
         aller Fakultäten und sonstige Hörer)</thema>, <zeit>So. 6-7 U.,
-        [verlegbar]</zeit>, <modus>privatim</modus>.</veranstaltung>
-        <thema>Diese Vorlesungen können zusammen oder einzeln belegt
-        werden.</thema></veranstaltungsgruppe>
+        [verlegbar]</zeit>, <modus>privatim</modus>.</veranstaltung> Diese
+        Vorlesungen können zusammen oder einzeln belegt
+        werden.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Volkswirtschaftliche Zeitfragen (Kapitalismus u.
         Sozialismus, Mittelstandsbewegung, Frauenarbeit, Kartelle u. Trusts,
@@ -4002,10 +4010,11 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         Landw. Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung><thema>Landwirtschaftliche Maschinenkunde mit
-        Demonstrationen und Lichtbildern</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mi. 5 bis 7 U.</zeit>, <modus>privatim</modus>, <ort>im Landw.
-        Institut, Johannisallee 21</ort>.</veranstaltung>
+        Demonstrationen und Lichtbildern<!--(Lehrmittel!)--></thema>:
+        <dozent><grad>D. ph.</grad> <nachname>Strecker</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mi. 5 bis 7 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
+        21</ort>.</veranstaltung>
 
         <veranstaltung><thema>Allgemeine Züchtungs- und
         Fütterungslehre</thema>: <dozent ref="kirchner_w"><grad>D. ph.</grad>
@@ -4267,7 +4276,8 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
 
         <absatz>(Die mathematischen Vorlesungen und Übungen werden, soweit
         nicht ausdrücklich anders bemerkt ist, <ort>im Mathematischen
-        Institut, Talstr. 35</ort>, abgehalten.)</absatz>
+        Institut, Talstr. 35<!--("ort" noch zuweisen)--></ort>,
+        abgehalten.)</absatz>
 
         <veranstaltung><thema>Analytische Geometrie des Raumes und
         Determinanten</thema>: <dozent ref="koebe_p"><grad>D. ph.</grad>
@@ -4404,8 +4414,8 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         <modus>privatim</modus>, <ort>im Physikalischen Institut, Linnéstr.
         5</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Mathematische Ergänzungen dazu für
-        Mathematiker</thema>: <dozent ref="wiener_oh"><grad>D. ph. nat. et
+        <veranstaltung><thema>Mathematische Ergänzungen dazu<!--(s. vorhergehende Vorlesung)-->
+        für Mathematiker</thema>: <dozent ref="wiener_oh"><grad>D. ph. nat. et
         med.</grad> <nachname>Wiener</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>So. 8-9 U.</zeit>,
         <modus>privatim</modus>, <ort>im Physikal. Institut, Linnéstr.
@@ -4654,7 +4664,7 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         ref="felix_jp"><grad>D. ph.</grad> <nachname>Felix</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Di. 6-7 U.</zeit>,
         <modus>privatim</modus>, <ort>im Paläontolog. Institut, Talstr. 35.
-        II. l.</ort></veranstaltung>
+        II. l<!--(Zeichen graphisch korrekt, Bedeutung unklar)-->.</ort></veranstaltung>
 
         <veranstaltung><thema>Experimentalphysiologie der Pflanzen</thema>:
         <dozent><grad>D. ph., rer. nat., med. et sc.</grad>
@@ -4907,7 +4917,7 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         mit <dozent ref="boettger_wc"><grad>D. ph.</grad>
         <nachname>Böttger</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>tägl. 8-12½ u. (außer So.) 2-6 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Physikalisch- chemischen Institut,
+        <modus>privatim</modus>, <ort>im Physikalisch-chemischen Institut,
         Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung><thema>Chemisches Praktikum für Lehrer (Schulversuche,
@@ -4940,7 +4950,7 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         <modus>privatissime</modus>, <ort>im Chem. Laboratorium, Liebigstr.
         18</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Pharmazeutisch - chemisch- toxikologisches
+        <veranstaltung><thema>Pharmazeutisch-chemisch-toxikologisches
         Praktikum mit Sterilisier-Kurs</thema>: <dozent><grad>D. ph. et
         med.</grad> <nachname>Hantzsch</nachname>, <funktion>P.
         O.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
@@ -4948,7 +4958,7 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         tägl. 8-12½ U. und (außer So.) 2-6 U.</zeit>, <modus>privatim</modus>,
         <ort>im Chemischen Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Pharmazeutisch — chemisch - toxikologisches
+        <veranstaltung><thema>Pharmazeutisch-chemisch-toxikologisches
         Praktikum</thema>: <zeit>ganz- u. halbtägig</zeit>: <dozent><grad>D.
         ph.</grad> <nachname>Paal</nachname>, <funktion>P. O.
         des.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
@@ -5014,7 +5024,7 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         Übungen</thema>: <dozent ref="felix_jp"><grad>D. ph.</grad>
         <nachname>Felix</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Fr. 2-5 U.</zeit>, <gebühr>gratis</gebühr>, <ort>im Paläontolog.
-        Institut, Talstr. 35. II. l.</ort></veranstaltung>
+        Institut, Talstr. 35. II. l<!--(Zeichen graphisch korrekt, Bedeutung unklar)-->.</ort></veranstaltung>
 
         <veranstaltung><thema>Mikroskopische Übungen für Anfänger</thema>:
         <dozent><grad>D. ph., rer. nat., med. et sc.</grad>
@@ -5048,82 +5058,84 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
 
         <veranstaltungsverweis><thema>Physiologisch-chemisches
         Praktikum</thema>: <siehe>S. 11</siehe>.</veranstaltungsverweis>
-
-        <trennlinie/>
-
-        <seite>54</seite>
-
-        <veranstaltung><thema>Über deutsche Stenographie-Systeme und die
-        fremdsprachigen Übertragungen des Gabelsbergerischen Systems</thema>:
-        <dozent><funktion>Lektor für Stenographie</funktion> <grad>D.
-        med.</grad> <nachname>Blachstein</nachname></dozent>, <zeit>Di. 6-7
-        U.</zeit>, <modus>publice</modus>.</veranstaltung>
-
-        <veranstaltungsgruppe><thema>Allgemeiner Akademischer Turnabend an der
-        Universität Leipzig (A.T.A.): In der gemieteten
-        <ort>Universitätsturnhalle (Dorotheenstr. 6)</ort>: Geräte- und
-        volkstümliches Turnen, schwedische Gymnastik, Frei-, Stab-, Hantel-,
-        Keulenübungen. Riegeneinteilung erfolgt auf Grund der persönlichen
-        Leistungsfähigkeit unter möglichster Berücksichtigung individueller
-        und korporativer Wünsche. Turn- und Gesellschaftsspiele in der Halle
-        und, bei genügender Beteiligung, auch auf dem gemieteten
-        <ort>Universitätsspielplatz (Sportplatz L.-Lindenau)</ort>, Hockey und
-        Fußball. Beitritt jederzeit möglich.</thema> <veranstaltung>a)
-        <thema>Damenabteilung</thema>: <zeit>Mo. u. Do. 5¾ bis 7¾ U.
-        Ab.</zeit></veranstaltung>, <veranstaltung>b)
-        <thema>Herrenabteilung</thema>: <zeit>Mi., Do. u. So. 5¾ bis 7¾ U., u.
-        Di. u. Fr. 8-9½ U. Ab.</zeit></veranstaltung>, <veranstaltung>c)
-        <thema>Praktische Lehrübungen der Akad. Wissensch.
-        Turnlehrervereinigung und Vorturnerkursus</thema>, <zeit>Mi. u. So.
-        5-6 U.</zeit></veranstaltung>, <gebühr>gratis</gebühr>. - <thema>Über
-        Sonderveranstaltungen (Ring-, Fechtkursus, Schauturnen usw.) erfolgt
-        alles Nähere am Schwarzen Brett (Eing. Univ.-Str. links) u. in den
-        "0ffiz. Mitteilungen des A.T.A."</thema> <dozent>Leiter:
-        <funktion>Universitäts- und Oberturnlehrer</funktion> <grad>D.
-        ph.</grad> <nachname>Kuhr</nachname></dozent>.</veranstaltungsgruppe>
-
-        <veranstaltung><thema>Turnen an Geräten und Freiübungen in mehreren
-        nach Fertigkeit geteilten Biegen</thema> unter Leitung von
-        <dozent><grad>D. ph.</grad> <nachname>Weigand</nachname>,
-        <funktion>Phil. P. E.</funktion></dozent>, <zeit>Di. u. Fr. 12-1
-        U.</zeit> <ort>in der Städt. Turnhalle, Turnerstr. 2</ort>.
-        <gebühr>Eintritt jederzeit ohne besondere Anmeldung. (Semesterkarten
-        3.50 M. in der Turnhalle)</gebühr>.</veranstaltung>
-
-        <veranstaltungsgruppe><thema>Der staatliche Turnlehrerkursus für
-        Studierende</thema> beginnt <zeit>in diesem Jahre am 3. November 1912
-        Ab. 7 Uhr</zeit> <ort>im Königlichen Lehrerseminar, Zimmer Nr.
-        82</ort>. <notiz betreff="fortsetzung">Er erstreckt sich auf zwei
-        Semester</notiz>. <thema>Am Ende des zweiten Semesters legen die
-        Teilnehmer ihre Prüfung an der Turnlehrerbildungs-Anstalt in Dresden
-        ab.</thema> <gebühr>Die Teilnahme am Kursus ist kostenlos.</gebühr>
-        <dozent>Leiter: <funktion>Seminaroberlehrer</funktion>
-        <nachname>Groh</nachname>,
-        <funktion>Oberturnlehrer</funktion></dozent>, <ort>Fichtestr. 31. II.
-        r.</ort> <veranstaltung>1) <thema>Unterricht in allen Übungsarten des
-        deutschen Turnens; Geschichte und Literatur, Systematik und Methodik
-        des Turnens; Lehrübungen in allen Jahrgängen; Gerätkunde</thema>,
-        <zeit>Mi. 7-10 U. Ab. u. So. 4-7 U.</zeit> <ort>im Kgl. Lehrerseminar,
-        Leipzig-Connewitz, Elisen <seite>55</seite>str.
-        150</ort>.</veranstaltung> - <veranstaltung>2) Durch <dozent><grad>D.
-        med.</grad> <nachname>Jäger</nachname></dozent>: <thema>Physiologische
-        Anatomie</thema>, <zeit>So. 8-9 U. Vorm.</zeit>, <ort>im Anatom.
-        Institut, Liebigstr. 13</ort>.</veranstaltung></veranstaltungsgruppe>
-
-        <veranstaltung>Hospitieren Studierender ist zu jeder Zeit gestattet.
-        Näheres wird einige Tage vor Beginn des Kursus am Schwarzen Brett und
-        in den Tageszeitungen bekannt gegeben.</veranstaltung>
-
-        <veranstaltung><thema>Fechtunterricht</thema>:
-        <dozent><funktion>Universitäts-Fechtmeister</funktion>
-        <nachname>Roux</nachname></dozent>. (<ort>Universitäts-Fechtboden
-        Ritterstr. 12. II.</ort>)</veranstaltung>
-
-        <veranstaltung><thema>Reitunterricht</thema>:
-        <dozent><funktion>Universitäts-Stallmeister</funktion>
-        <nachname>Sack</nachname></dozent>, <ort>Kramerstr. 5.
-        I.</ort></veranstaltung>
       </sachgruppe>
+    </sachgruppe>
+
+    <trennlinie/>
+
+    <seite>54</seite>
+
+    <sachgruppe>
+      <veranstaltung><thema>Über deutsche Stenographie-Systeme und die
+      fremdsprachigen Übertragungen des Gabelsbergerischen Systems</thema>:
+      <dozent><funktion>Lektor für Stenographie</funktion> <grad>D.
+      med.</grad> <nachname>Blachstein</nachname></dozent>, <zeit>Di. 6-7
+      U.</zeit>, <modus>publice</modus>.</veranstaltung>
+
+      <veranstaltungsgruppe><thema>Allgemeiner Akademischer Turnabend an der
+      Universität Leipzig (A.T.A.)</thema>: In der gemieteten
+      <ort>Universitätsturnhalle (Dorotheenstr. 6)</ort>: <thema>Geräte- und
+      volkstümliches Turnen, schwedische Gymnastik, Frei-, Stab-, Hantel-,
+      Keulenübungen</thema>. Riegeneinteilung erfolgt auf Grund der
+      persönlichen Leistungsfähigkeit unter möglichster Berücksichtigung
+      individueller und korporativer Wünsche. <thema>Turn- und
+      Gesellschaftsspiele</thema> in der Halle und, <ort>bei genügender
+      Beteiligung, auch auf dem gemieteten Universitätsspielplatz (Sportplatz
+      L.-Lindenau)</ort>, <thema>Hockey und Fußball</thema>. Beitritt
+      jederzeit möglich. <veranstaltung>a) <thema>Damenabteilung</thema>:
+      <zeit>Mo. u. Do. 5¾ bis 7¾ U. Ab.</zeit></veranstaltung>,
+      <veranstaltung>b) <thema>Herrenabteilung</thema>: <zeit>Mi., Do. u. So.
+      5¾ bis 7¾ U., u. Di. u. Fr. 8-9½ U. Ab.</zeit></veranstaltung>,
+      <veranstaltung>c) <thema>Praktische Lehrübungen der Akad. Wissensch.
+      Turnlehrervereinigung und Vorturnerkursus</thema>, <zeit>Mi. u. So. 5-6
+      U.</zeit></veranstaltung>, <gebühr>gratis</gebühr>. - Über
+      <thema>Sonderveranstaltungen (Ring-, Fechtkursus, Schauturnen
+      usw.)</thema> erfolgt alles Nähere am Schwarzen Brett (Eing. Univ.-Str.
+      links) u. in den "Offiz. Mitteilungen des A.T.A." <dozent>Leiter:
+      <funktion>Universitäts- und Oberturnlehrer</funktion> <grad>D.
+      ph.</grad> <nachname>Kuhr</nachname></dozent>.</veranstaltungsgruppe>
+
+      <veranstaltung><thema>Turnen an Geräten und Freiübungen in mehreren nach
+      Fertigkeit geteilten Riegen</thema> unter Leitung von <dozent><grad>D.
+      ph.</grad> <nachname>Weigand</nachname>, <funktion>Phil. P.
+      E.</funktion></dozent>, <zeit>Di. u. Fr. 12-1 U.</zeit> <ort>in der
+      Städt. Turnhalle, Turnerstr. 2</ort>. <gebühr>Eintritt jederzeit ohne
+      besondere Anmeldung. (Semesterkarten 3.50 M. in der
+      Turnhalle)</gebühr>.</veranstaltung>
+
+      <veranstaltungsgruppe><thema><gesperrt>Der staatliche
+      Turnlehrerkursus</gesperrt> für Studierende</thema> beginnt in diesem
+      Jahre <zeit>am 3. November 1912 Ab. 7 Uhr</zeit> <ort>im Königlichen
+      Lehrerseminar, Zimmer Nr. 82</ort>. Er <zeit>erstreckt sich auf zwei
+      Semester</zeit>. Am Ende des zweiten Semesters legen die Teilnehmer ihre
+      <thema>Prüfung <ort>an der Turnlehrerbildungs-Anstalt in
+      Dresden</ort></thema> ab. <gebühr>Die Teilnahme am Kursus ist
+      kostenlos.</gebühr> <dozent>Leiter:
+      <funktion>Seminaroberlehrer</funktion> <nachname>Groh</nachname>,
+      <funktion>Oberturnlehrer</funktion></dozent>, <ort>Fichtestr. 31. II.
+      r.</ort> <veranstaltung>1) <thema>Unterricht in allen Übungsarten des
+      deutschen Turnens; Geschichte und Literatur, Systematik und Methodik des
+      Turnens; Lehrübungen in allen Jahrgängen; Gerätkunde</thema>, <zeit>Mi.
+      7-10 U. Ab. u. So. 4-7 U.</zeit> <ort>im Kgl. Lehrerseminar,
+      Leipzig-Connewitz, Elisen<seite>55</seite>str.
+      150</ort>.</veranstaltung> - <veranstaltung>2) Durch <dozent><grad>D.
+      med.</grad> <nachname>Jäger</nachname></dozent>: <thema>Physiologische
+      Anatomie</thema>, <zeit>So. 8-9 U. Vorm.</zeit>, <ort>im Anatom.
+      Institut, Liebigstr. 13</ort>.</veranstaltung></veranstaltungsgruppe>
+
+      <absatz>Hospitieren Studierender ist zu jeder Zeit gestattet. Näheres
+      wird einige Tage vor Beginn des Kursus am Schwarzen Brett und in den
+      Tageszeitungen bekannt gegeben.</absatz>
+
+      <veranstaltung><thema>Fechtunterricht</thema>:
+      <dozent><funktion>Universitäts-Fechtmeister</funktion>
+      <nachname>Roux</nachname></dozent>. (<ort>Universitäts-Fechtboden
+      Ritterstr. 12. II.</ort>)</veranstaltung>
+
+      <veranstaltung><thema>Reitunterricht</thema>:
+      <dozent><funktion>Universitäts-Stallmeister</funktion>
+      <nachname>Sack</nachname></dozent>, <ort>Kramerstr. 5.
+      I.</ort></veranstaltung>
     </sachgruppe>
 
     <trennlinie/>
