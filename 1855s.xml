@@ -98,9 +98,9 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema><scil
-        text="Psychologie">Dieselbe</scil></thema>: <dozent><grad>D.</grad>
-        <nachname>Lindner sen.</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>12 U. 2 T. (Donn. u.
+        text="Psychologie">Dieselbe</scil></thema>: <dozent
+        ref="lindner_fw"><grad>D.</grad> <nachname>Lindner sen.</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>12 U. 2 T. (Donn. u.
         Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema><scil
@@ -148,9 +148,9 @@
           <titel>Pädagogik.</titel>
 
           <veranstaltung><thema>Christliche Pädagogik, verbunden mit Didaktik,
-          Methodik und Schulkunde</thema>: <dozent><grad>D.</grad>
-          <nachname>Lindner sen.</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>11 U. 2 T. (Mont. u.
+          Methodik und Schulkunde</thema>: <dozent
+          ref="lindner_fw"><grad>D.</grad> <nachname>Lindner sen.</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>11 U. 2 T. (Mont. u.
           Dienst.)</zeit></veranstaltung>
         </sachgruppe>
 
@@ -456,8 +456,8 @@
 
         <veranstaltung><thema><scil
         text="Sächsische Geschichte">Dieselbe</scil>, mit besonderer
-        Berücksichtigung der Kirchengeschichte für Theologen</thema>:
-        <dozent><grad>D.</grad> <nachname>Lindner jun.</nachname>,
+        Berücksichtigung der Kirchengeschichte für Theologen</thema>: <dozent
+        ref="lindner_wb"><grad>D.</grad> <nachname>Lindner jun.</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>9 U. 3 T. (Mont., Mittw. u.
         Sonn.)</zeit><seite>7</seite></veranstaltung>
 
@@ -646,8 +646,8 @@ geschweifter Klammer auf beide Veranstaltungsverweise!-->
         <funktion>Rector</funktion></dozent>, <zeit>8 U. 6
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Organische Chemie</thema>:
-        <dozent><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        <veranstaltung><thema>Organische Chemie</thema>: <dozent
+        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
         O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>5 T.
         in zu best. St.</zeit></veranstaltung>
 
@@ -656,10 +656,10 @@ geschweifter Klammer auf beide Veranstaltungsverweise!-->
         <funktion>P. O.</funktion></dozent>, <zeit>12 U. 2
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber die Salze</thema>: <dozent><grad>D.</grad>
-        <nachname>Kühn</nachname>, <funktion>P. O.</funktion>, d. Z.
-        <funktion>Dech.</funktion></dozent>, <zeit>2 T. in zu best.
-        St.</zeit></veranstaltung>
+        <veranstaltung><thema>Ueber die Salze</thema>: <dozent
+        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>2 T.
+        in zu best. St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber die chemischen Theorien</thema>: <dozent
         ref="hirzel_ch"><grad>D. ph.</grad>
@@ -701,10 +701,10 @@ geschweifter Klammer auf beide Veranstaltungsverweise!-->
           T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Chemisch-praktische Uebungen <ort>im
-          Laboratorium des Schlosses Pleißenburg</ort></thema>:
-          <dozent><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>9-5 U. an 2 oder mehrern Tagen</zeit>,
-          <modus>privatissime</modus>.</veranstaltung>
+          Laboratorium des Schlosses Pleißenburg</ort></thema>: <dozent
+          ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>9-5 U. an 2 oder mehrern
+          Tagen</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Chemisches Prakticum</thema>: <dozent
           ref="erdmann_ol"><grad>D.</grad> <nachname>Erdmann</nachname>,
@@ -928,9 +928,9 @@ die bot. Uebungen.-->
         <zeit>10 U. 3 T. (Dienst., Donn. u. Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Erklärung des Evangeliums Matthäi</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Lipsius</nachname>,
-        <funktion>Theol. Lic.</funktion></dozent>, <zeit>2 U. 4
-        T.</zeit></veranstaltung>
+        <dozent ref="lipsius_ra"><grad>D. ph.</grad>
+        <nachname>Lipsius</nachname>, <funktion>Theol.
+        Lic.</funktion></dozent>, <zeit>2 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Erklärung des Evangeliums Johannis</thema>:
         <dozent ref="hoelemann_hg"><grad>D.</grad>
@@ -1041,14 +1041,15 @@ die bot. Uebungen.-->
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Christliche Kirchengeschichte, <notiz
-        betreff="fortsetzung">2. Hälfte</notiz></thema>:
-        <dozent><grad>D.</grad> <nachname>Lindner jun.</nachname>,
+        betreff="fortsetzung">2. Hälfte</notiz></thema>: <dozent
+        ref="lindner_wb"><grad>D.</grad> <nachname>Lindner jun.</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>7 U. Morgens 5
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Geschichte des apostolischen Zeitalters</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Lipsius</nachname>,
-        <funktion>Theol. Lic.</funktion></dozent>, <zeit>7 U. 4 T.</zeit>
+        <dozent ref="lipsius_ra"><grad>D. ph.</grad>
+        <nachname>Lipsius</nachname>, <funktion>Theol.
+        Lic.</funktion></dozent>, <zeit>7 U. 4 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Sächsische Kirchengeschichte</thema>,
@@ -1064,8 +1065,8 @@ die bot. Uebungen.-->
 
         <trennlinie/>
 
-        <veranstaltungsgruppe><thema>Dogmengeschichte</thema>:
-        <dozent><grad>D.</grad> <nachname>Lindner jun.</nachname>,
+        <veranstaltungsgruppe><thema>Dogmengeschichte</thema>: <dozent
+        ref="lindner_wb"><grad>D.</grad> <nachname>Lindner jun.</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>6 U. Ab.</zeit> 6 T.
         (<veranstaltung><zeit>4 T.</zeit>
         <modus>privatim</modus></veranstaltung>, <veranstaltung><zeit>2
@@ -1080,17 +1081,19 @@ sondern müsste diese eigentlich ergänzen!-->
           <titel>Historisch-theologische Uebungen.</titel>
 
           <veranstaltung><thema>Uebungen der kirchenhistorischen
-          Gesellschaft</thema>: <dozent><grad>D.</grad> <nachname>Lindner
-          jun.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>in zu
-          best. St.</zeit> <modus>privatissime</modus>, aber
+          Gesellschaft</thema>: <dozent ref="lindner_wb"><grad>D.</grad>
+          <nachname>Lindner jun.</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>in zu best. St.</zeit>
+          <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <seite>13</seite>
 
           <veranstaltung><thema>Kirchengeschichtliches Examinatorium</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Lipsius</nachname>,
-          <funktion>Theol. Lic.</funktion></dozent>, <zeit>in zu best. St. u.
-          T.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          <dozent ref="lipsius_ra"><grad>D. ph.</grad>
+          <nachname>Lipsius</nachname>, <funktion>Theol.
+          Lic.</funktion></dozent>, <zeit>in zu best. St. u. T.</zeit>
+          <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Examinatorium über
           Dogmengeschichte</thema>: <dozent ref="anger_r"><grad>D.</grad>
@@ -1119,9 +1122,9 @@ sondern müsste diese eigentlich ergänzen!-->
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Vergleichende christliche Symbolik</thema>:
-        <dozent><grad>D.</grad> <nachname>Lindner sen.</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 2 T. (Donn. u.
-        Freit.)</zeit></veranstaltung>
+        <dozent ref="lindner_fw"><grad>D.</grad> <nachname>Lindner
+        sen.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>11 U. 2 T.
+        (Donn. u. Freit.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Christliche Symbolik</thema>: <dozent
         ref="anger_r"><grad>D.</grad> <nachname>Anger</nachname>, <funktion>P.
@@ -1175,9 +1178,9 @@ sondern müsste diese eigentlich ergänzen!-->
 
         <veranstaltung><thema>Katechetik der christlichen Kirche, in
         verbindung mit populärer Dogmatik nach Luthers Katechismus</thema>:
-        <dozent><grad>D.</grad> <nachname>Lindner sen.</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>12 U. 2 T. (Mont. u.
-        Dienst.)</zeit></veranstaltung>
+        <dozent ref="lindner_fw"><grad>D.</grad> <nachname>Lindner
+        sen.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>12 U. 2 T.
+        (Mont. u. Dienst.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Evangelische Katechetik</thema>: <dozent
         ref="brueckner_bb"><grad>D. ph.</grad> <nachname>Brückner</nachname>,
@@ -1195,9 +1198,9 @@ sondern müsste diese eigentlich ergänzen!-->
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen der sächsischen
-          Predigergesellschaft</thema>: <dozent><grad>D.</grad>
-          <nachname>Lindner jun.</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>in zu best. St.</zeit>
+          Predigergesellschaft</thema>: <dozent
+          ref="lindner_wb"><grad>D.</grad> <nachname>Lindner jun.</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>in zu best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Homiletische Uebungen des Lausitzer
@@ -1213,14 +1216,15 @@ sondern müsste diese eigentlich ergänzen!-->
           <zeit>3-5 U. Sonn.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Katechetische Uebungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Lindner sen.</nachname>,
+          <veranstaltung><thema>Katechetische Uebungen</thema>: <dozent
+          ref="lindner_fw"><grad>D.</grad> <nachname>Lindner sen.</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>3-5 U. Mont.</zeit>,
           <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Leitung der katechet. Uebungen der Lausitzer
-          Predigergesellschaft</thema>: <ders>Derselbe</ders>, <zeit>3-5 U.
-          Sonn.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          Predigergesellschaft</thema>: <ders
+          ref="lindner_fw">Derselbe</ders>, <zeit>3-5 U. Sonn.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <trennlinie/>
 
@@ -1727,18 +1731,18 @@ sondern müsste diese eigentlich ergänzen!-->
 
         <trennlinie/>
 
-        <veranstaltung><thema>Pharmacie</thema>: <dozent><grad>D.</grad>
-        <nachname>Kühn</nachname>, <funktion>P. O.</funktion>, d. Z.
-        <funktion>Dech.</funktion></dozent>, <zeit>3 T. in zu best.
-        St.</zeit></veranstaltung>
+        <veranstaltung><thema>Pharmacie</thema>: <dozent
+        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>3 T.
+        in zu best. St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Receptirkunst mit Anleitung zum
         Receptschreiben</thema>: <dozent ref="kneschke_eh"><grad>D.</grad>
         <nachname>Kneschke</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>2 U. Dienst. und Freitag</zeit>.</veranstaltung>
 
-        <veranstaltung><thema>Pharmaceutisches Praktikum</thema>:
-        <dozent><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        <veranstaltung><thema>Pharmaceutisches Praktikum</thema>: <dozent
+        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
         O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>an 2-4
         T. mehrstündig</zeit>.</veranstaltung>
 

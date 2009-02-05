@@ -467,7 +467,7 @@ Veranstaltung bezogen werden!!-->
       <sachgruppe>
         <titel>Encyklopädisch-philosophischer Cursus.</titel>
 
-        <veranstaltungsgruppe><dozent><nachname>Krug</nachname>,
+        <veranstaltungsgruppe><dozent ref="krug_wt"><nachname>Krug</nachname>,
         <grad>D.</grad> <vorname>W. T.</vorname>, <funktion>P.
         Hon.</funktion></dozent>, <thema kontext="sachgruppe">in zwei
         Abtheilungen</thema>, nämlich <veranstaltung><thema>1)
@@ -552,7 +552,8 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
         <sachgruppe>
           <titel>5) Pädagogik.</titel>
 
-          <veranstaltung><dozent><nachname>Lindner</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
           <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>allgemeine Didaktik und specielle Methodik für alle
           Schulwissenschaften</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
@@ -790,17 +791,19 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
       <sachgruppe>
         <titel>Chemie.</titel>
 
-        <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-        <vorname>O. B.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>allgemeine Chemie</thema>, <zeit>4 T. in zu best. St.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><dozent ref="kuehn_ob"><nachname>Kühn</nachname>,
+        <grad>D.</grad> <vorname>O. B.</vorname>, <funktion>P.
+        O.</funktion></dozent>, <thema>allgemeine Chemie</thema>, <zeit>4 T.
+        in zu best. St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Uebersicht der Chemie der
-        organischen Natur</thema>, <zeit>8 U. 5 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="kuehn_ob">Derselbe</ders>, <thema>Uebersicht
+        der Chemie der organischen Natur</thema>, <zeit>8 U. 5
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>chemisch-praktische
-        Uebungen <ort>in s. Laboratorio</ort></thema>, <zeit>2 T. hinter
-        einander an 2 T.</zeit> <modus>privatissime</modus>.</veranstaltung>
+        <veranstaltung><ders ref="kuehn_ob">Derselbe</ders>,
+        <thema>chemisch-praktische Uebungen <ort>in s.
+        Laboratorio</ort></thema>, <zeit>2 T. hinter einander an 2 T.</zeit>
+        <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -1217,7 +1220,8 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
         <sachgruppe>
           <titel>Katechik, Homiletik, Liturgik u. Seelsorge.</titel>
 
-          <veranstaltung><dozent><nachname>Lindner</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
           <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
           <zeit>7 U. 4 T.</zeit>, <modus>zwei Tage öffentlich, zwei Tage
           privatim</modus>.</veranstaltung>
@@ -1254,11 +1258,11 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
           <sachgruppe>
             <titel>Katechetische Uebungen.</titel>
 
-            <veranstaltung><dozent><nachname>Lindner</nachname>,
-            <grad>D.</grad> <vorname>F. W.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <ort>in der Bürgerschule</ort>,
-            <zeit>Dienst. u. Freit. 4-6 U.</zeit>
-            <modus>privatissime</modus>.</veranstaltung>
+            <veranstaltung><dozent
+            ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
+            <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <ort>in der Bürgerschule</ort>, <zeit>Dienst. u. Freit. 4-6
+            U.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Plato</nachname>, <vorname>G. J.
             K. L.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2
@@ -1817,10 +1821,10 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
           <thema>Physiologie</thema>, <zeit>6 U. Vorm. 6
           T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-          <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>die allgemeine Physiologie</thema>, <zeit>11 U. 4 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung><dozent ref="kuehn_cg"><nachname>Kühn</nachname>,
+          <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>die allgemeine Physiologie</thema>,
+          <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Volkmann</nachname>,
           <grad>D.</grad> <vorname>A. W.</vorname>, <funktion>P.
@@ -1939,9 +1943,9 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
         <sachgruppe>
           <titel>2) Pharmacie.</titel>
 
-          <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-          <vorname>O. B.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>3 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="kuehn_ob"><nachname>Kühn</nachname>,
+          <grad>D.</grad> <vorname>O. B.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Schwartze</nachname>,
           <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
@@ -1999,10 +2003,11 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
           <sachgruppe>
             <titel>Ueber einzelne Krankheiten.</titel>
 
-            <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-            <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>die Lehre von der Augenentzündung</thema>, <zeit>11 U. 2
-            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><dozent ref="kuehn_cg"><nachname>Kühn</nachname>,
+            <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P.
+            O.</funktion></dozent>, <thema>die Lehre von der
+            Augenentzündung</thema>, <zeit>11 U. 2 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent
             ref="clarus_jca"><nachname>Clarus</nachname>, <grad>D.</grad>

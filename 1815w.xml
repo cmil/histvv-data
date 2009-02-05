@@ -63,7 +63,7 @@
       <sachgruppe>
         <titel>3) Fundamentalphilosophie,</titel>
 
-        <veranstaltung><dozent><funktion>P. O.</funktion>
+        <veranstaltung><dozent ref="krug_wt"><funktion>P. O.</funktion>
         <nachname>Krug</nachname></dozent>, <zeit>8 U. Donn. u. Freit.</zeit>,
         <modus>öff.</modus></veranstaltung>
       </sachgruppe>
@@ -108,7 +108,7 @@
       <sachgruppe>
         <titel>7) Praktische Philosophie.</titel>
 
-        <veranstaltung><dozent><funktion>P. O.</funktion>
+        <veranstaltung><dozent ref="krug_wt"><funktion>P. O.</funktion>
         <nachname>Krug</nachname></dozent>, <zeit>11 U. 6 T.</zeit>, näml.
         <thema>a) Naturrecht mit Einschluss des Staats- und Völkerrechts, b)
         Moral und c) Religionsphilosophie</thema>.</veranstaltung>
@@ -131,7 +131,7 @@
           T.</zeit> <modus>öffentl.</modus> u.
           <gebühr>unentg.</gebühr></veranstaltung>
 
-          <veranstaltung><dozent><grad>D.</grad>
+          <veranstaltung><dozent ref="wiesand_cw"><grad>D.</grad>
           <nachname>Wiesand</nachname></dozent>, <zeit>4 U. 4
           T.</zeit></veranstaltung>
         </sachgruppe>
@@ -187,8 +187,8 @@
         T.</zeit> <thema>über die Erziehung der Jugend überhaupt, nach s.
         Entwurfe</thema>.</veranstaltung>
 
-        <veranstaltungsgruppe><dozent><funktion>P. E.</funktion>
-        <nachname>Lindner</nachname></dozent>,
+        <veranstaltungsgruppe><dozent ref="lindner_fw"><funktion>P.
+        E.</funktion> <nachname>Lindner</nachname></dozent>,
         <veranstaltung><thema>methodisch prakt. Uebungen in der Kunst zu
         unterrichten und zu erziehen, verbunden mit katechetischen und das
         gesammte Schulwesen betreffenden Arbeiten</thema>, <zeit>2 U. 4
@@ -476,7 +476,7 @@ die Astronomie-Veranstaltung schon mit einem "*)" versehen war.-->
       <sachgruppe>
         <titel>3) Geschichte der Philosophie.</titel>
 
-        <veranstaltung><dozent><funktion>P. O.</funktion>
+        <veranstaltung><dozent ref="krug_wt"><funktion>P. O.</funktion>
         <nachname>Krug</nachname></dozent>, <thema>Geschichte der alten
         Philosophie</thema>, <zeit>8 U. Mont. u. Dienst.</zeit>
         <modus>öff.</modus></veranstaltung>
@@ -740,9 +740,9 @@ gemeint ist aber Gottfried Hermann, siehe passim!-->
           <veranstaltung><dozent><funktion>Lect. publ.</funktion>
           <nachname>Dumas</nachname></dozent>, <thema>Cours théorique et
           pratique de langue française, verbunden mit Sprechübungen</thema>,
-          <zeit>in einer zu best. St.</zeit> <modus>öff.</modus> -
-          <dozent><nachname>Bouc</nachname>, <vorname>J. L.</vorname></dozent>
-          - <dozent ref="kunze_kw"><grad>M.</grad>
+          <zeit>in einer zu best. St.</zeit> <modus>öff.</modus> - <dozent
+          ref="bouc_jl"><nachname>Bouc</nachname>, <vorname>J.
+          L.</vorname></dozent> - <dozent ref="kunze_kw"><grad>M.</grad>
           <nachname>Kunze</nachname></dozent> -
           <dozent><nachname>Pajen</nachname></dozent> - und
           <dozent><nachnamenpräfix>de</nachnamenpräfix>
@@ -1037,7 +1037,7 @@ gemeint ist aber Gottfried Hermann, siehe passim!-->
                 <nachname>Wenck</nachname></dozent>, <zeit>8 U. 6
                 T.</zeit></veranstaltung>
 
-                <veranstaltung><dozent><grad>D.</grad>
+                <veranstaltung><dozent ref="wiesand_cw"><grad>D.</grad>
                 <nachname>Wiesand</nachname></dozent>, <zeit>3 U. 6 <korrektur
                 original="U">T</korrektur>.</zeit> <thema>nach
                 Heineccius</thema>.</veranstaltung>
@@ -1309,7 +1309,7 @@ gemeint ist aber Gottfried Hermann, siehe passim!-->
             <nachname>Beck</nachname></dozent>, <zeit>zu bel.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><grad>D.</grad>
+            <veranstaltung><dozent ref="wiesand_cw"><grad>D.</grad>
             <nachname>Wiesand</nachname></dozent>, <zeit>zu bel.
             Z.</zeit></veranstaltung>
 
@@ -1490,9 +1490,10 @@ gemeint ist aber Gottfried Hermann, siehe passim!-->
         Physiologie verbunden, in Examinirübungen</thema>, <zeit>5 U. 4
         T.</zeit> <modus>öff.</modus></veranstaltung>
 
-        <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
-        <nachname>Kühn</nachname></dozent>, <thema>allgemeine Pathologie, nach
-        Conradi</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><dozent ref="kuehn_cg"><funktion>P. O.</funktion>
+        <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <thema>allgemeine
+        Pathologie, nach Conradi</thema>, <zeit>8 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltungsgruppe><dozent><funktion>P. E.</funktion>
         <grad>D.</grad> <nachname>Haase</nachname></dozent>,
@@ -1593,9 +1594,10 @@ zweites Mal aufgeführt, die Zeitangaben sind genau gleich-->
           <nachname>Platner</nachname></dozent>, <thema>über
           Augenkrankheiten</thema>, <zeit>5 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
-          <nachname>Kühn</nachname></dozent>, <thema>über die Brüche</thema>,
-          <zeit>10 U. 4 T.</zeit> <modus>öffentl.</modus></veranstaltung>
+          <veranstaltung><dozent ref="kuehn_cg"><funktion>P. O.</funktion>
+          <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <thema>über die
+          Brüche</thema>, <zeit>10 U. 4 T.</zeit>
+          <modus>öffentl.</modus></veranstaltung>
 
           <veranstaltung><dozent ref="joerg_jcg"><funktion>P. O.</funktion>
           <grad>D.</grad> <nachname>Jörg</nachname></dozent>, <thema>über die
@@ -1767,9 +1769,9 @@ zweites Mal aufgeführt, die Zeitangaben sind genau gleich-->
       <sachgruppe>
         <titel>9) Gerichtliche Arzneywissenschaft.</titel>
 
-        <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
-        <nachname>Kühn</nachname></dozent>, <thema>nach Metzger</thema>,
-        <zeit>3 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><dozent ref="kuehn_cg"><funktion>P. O.</funktion>
+        <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <thema>nach
+        Metzger</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>

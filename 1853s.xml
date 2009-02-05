@@ -98,9 +98,9 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema><scil
-        text="Psychologie">Dieselbe</scil></thema>: <dozent><grad>D.</grad>
-        <nachname>Lindner sen.</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>12 U. 4 T.</zeit>
+        text="Psychologie">Dieselbe</scil></thema>: <dozent
+        ref="lindner_fw"><grad>D.</grad> <nachname>Lindner sen.</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>12 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema><scil
@@ -147,9 +147,9 @@
           <titel>Pädagogik.</titel>
 
           <veranstaltung><thema>Christliche Pädagogik, verbunden mit Didaktik
-          und Methodik</thema>: <dozent><grad>D.</grad> <nachname>Lindner
-          sen.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>9 U. 4
-          T.</zeit></veranstaltung>
+          und Methodik</thema>: <dozent ref="lindner_fw"><grad>D.</grad>
+          <nachname>Lindner sen.</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -656,12 +656,13 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
         ref="hirzel_ch">Derselbe</ders>, <zeit>3 U. 2 T. (Mont. u.
         Donn.)</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber die Salze</thema>: <dozent><grad>D.</grad>
-        <nachname>Kühn</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>2 T. in zu best. St.</zeit></veranstaltung>
+        <veranstaltung><thema>Ueber die Salze</thema>: <dozent
+        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>2 T. in zu best.
+        St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Organische Chemie</thema>:
-        <ders>Derselbe</ders>, <zeit>5 T. in zu best.
+        <veranstaltung><thema>Organische Chemie</thema>: <ders
+        ref="kuehn_ob">Derselbe</ders>, <zeit>5 T. in zu best.
         St.</zeit></veranstaltung>
 
         <veranstaltung><thema>Physiologische Chemie</thema>: <dozent
@@ -695,9 +696,9 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           <trennlinie/>
 
           <veranstaltung><thema>Chemisch-praktische Uebungen <ort>im
-          Laboratorium des Schlosses Pleißenburg</ort></thema>:
-          <dozent><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>9-5 U. an 2 oder mehreren
+          Laboratorium des Schlosses Pleißenburg</ort></thema>: <dozent
+          ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>9-5 U. an 2 oder mehreren
           Tagen</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Chemisches Praktikum</thema>: <dozent
@@ -972,9 +973,10 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
         T. (ausschl. d. Sonn.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Erklärung des Briefes Pauli an die
-        Galater</thema>: <dozent><grad>D.</grad> <nachname>Lindner
-        jun.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>8 U. 2
-        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Galater</thema>: <dozent ref="lindner_wb"><grad>D.</grad>
+        <nachname>Lindner jun.</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>8 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung des Briefes Pauli an die
         Epheser</thema>: <dozent ref="tischendorf_lfk"><grad>D.</grad>
@@ -1026,9 +1028,9 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Exeget. Gesellschaft des N. T.</thema>:
-          <dozent><grad>D.</grad> <nachname>Lindner jun.</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>in zu best. St.</zeit>
-          <modus>privatissime</modus>, aber
+          <dozent ref="lindner_wb"><grad>D.</grad> <nachname>Lindner
+          jun.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>in zu
+          best. St.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Leitung seiner philhebräischen Gesellschaft in
@@ -1052,14 +1054,14 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
 
         <trennlinie/>
 
-        <veranstaltung><thema>Kirchengeschichte</thema>:
-        <dozent><grad>D.</grad> <nachname>Lindner jun.</nachname>,
+        <veranstaltung><thema>Kirchengeschichte</thema>: <dozent
+        ref="lindner_wb"><grad>D.</grad> <nachname>Lindner jun.</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>7 U. 6
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Geschichte der apostolischen Zeit und
-        Literatur</thema>: <ders>Derselbe</ders>, <zeit>9 U. Sonn.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Literatur</thema>: <ders ref="lindner_wb">Derselbe</ders>, <zeit>9 U.
+        Sonn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -1076,9 +1078,10 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
 
         <veranstaltung><thema>Dogmengeschichte, <notiz
         betreff="fortsetzung">2. Hälfte</notiz> (Christologie u.
-        Pneumatologie)</thema>: <dozent><grad>D.</grad> <nachname>Lindner
-        jun.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>8 U. 4
-        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Pneumatologie)</thema>: <dozent ref="lindner_wb"><grad>D.</grad>
+        <nachname>Lindner jun.</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>8 U. 4 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Christliche Dogmengeschichte</thema>: <dozent
         ref="weisse_ch"><grad>D.</grad> <nachname>Weiße</nachname>,
@@ -1174,8 +1177,8 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
         T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Katechetik der christlichen Kirche, verbunden
-        mit populärer Dogmatik nach Luthers Katechismus</thema>:
-        <dozent><grad>D.</grad> <nachname>Lindner sen.</nachname>,
+        mit populärer Dogmatik nach Luthers Katechismus</thema>: <dozent
+        ref="lindner_fw"><grad>D.</grad> <nachname>Lindner sen.</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>8 U. 4
         T.</zeit></veranstaltung>
 
@@ -1205,9 +1208,9 @@ d.h. "s. Rechtswissenschaft" steht nur einmal da-->
           Tage Mittwoch 2-4 U.</zeit></veranstaltung>
 
           <veranstaltung><thema>Praktisch-katechetische Uebungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Lindner sen.</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>3-5 U. Mont. u.
-          Donn.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          <dozent ref="lindner_fw"><grad>D.</grad> <nachname>Lindner
+          sen.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>3-5 U.
+          Mont. u. Donn.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
           <trennlinie/>
 
@@ -1701,9 +1704,10 @@ wurden diese Uebungen als eine Veranstaltung erfasst! --></veranstaltungsgruppe>
         <nachname>Schwartze</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Pharmacie</thema>: <dozent><grad>D.</grad>
-        <nachname>Kühn</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>3 T. in zu best. St.</zeit></veranstaltung>
+        <veranstaltung><thema>Pharmacie</thema>: <dozent
+        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>3 T. in zu best.
+        St.</zeit></veranstaltung>
 
         <veranstaltung><thema><scil text="Pharmacie">Dieselbe</scil></thema>:
         <dozent ref="hirzel_ch"><grad>D. ph.</grad>
@@ -1715,8 +1719,8 @@ wurden diese Uebungen als eine Veranstaltung erfasst! --></veranstaltungsgruppe>
         <nachname>Kneschke</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>2 U. Dienstag und Freitag</zeit>.</veranstaltung>
 
-        <veranstaltung><thema>Pharmaceutisches Praktikum</thema>:
-        <dozent><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        <veranstaltung><thema>Pharmaceutisches Praktikum</thema>: <dozent
+        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>an 2-4 T.
         mehrstündig</zeit>.</veranstaltung>
       </sachgruppe>

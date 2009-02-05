@@ -1628,10 +1628,11 @@
         Windmühlenweg 20</ort>.</veranstaltung>
 
         <veranstaltung><thema>Elektrodiagnostik und -Therapie, mit praktischen
-        Übungen</thema>: <dozent><grad>D. med.</grad> <vorname>G.</vorname>
-        <nachname>Köster</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Do. 4-5 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Medizin.-poliklin. Institut, Nürnberger Str. 55</ort>.</veranstaltung>
+        Übungen</thema>: <dozent ref="koester_g"><grad>D. med.</grad>
+        <vorname>G.</vorname> <nachname>Köster</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Do. 4-5 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Medizin.-poliklin. Institut,
+        Nürnberger Str. 55</ort>.</veranstaltung>
 
         <veranstaltung><thema>Kriminalpsychologie</thema>: <dozent
         ref="doellken_a"><grad>D. med.</grad> <nachname>Döllken</nachname>,
@@ -1975,7 +1976,7 @@
         <sachgruppe>
           <titel>a) Innere Medizin.</titel>
 
-          <veranstaltungsgruppe><dozent><grad>D. med.</grad>
+          <veranstaltungsgruppe><dozent ref="koester_g"><grad>D. med.</grad>
           <vorname>G.</vorname> <nachname>Köster</nachname>, <funktion>P.
           E.</funktion></dozent>: <veranstaltung><ort>In der Privatpoliklinik
           für Nervenkrankheiten (Königstr. 14. I)</ort>:
@@ -2232,8 +2233,8 @@
         O.</funktion></dozent>, <zeit>Mo., Di., Do. u. Fr. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Immanuel Kants Leben und Lehre</thema>:
-        <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
+        <veranstaltung><thema>Immanuel Kants Leben und Lehre</thema>: <dozent
+        ref="lipsius_f"><grad>Lic. th.</grad> <grad>D. ph.</grad>
         <nachname>Lipsius</nachname></dozent>, <zeit>Do. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -2420,19 +2421,20 @@
           <veranstaltung><dozent ref="jungmann_e"><grad>D. ph.</grad>
           <nachname>Jungmann</nachname>, <funktion>P. O.
           Hon.</funktion></dozent>: <thema>Übungen</thema> unter Mitwirkung
-          von <dozent><funktion>Prof.</funktion> <grad>D.</grad>
-          <nachname>Lehmann</nachname></dozent> (für <thema>Mathematik und
-          Naturwissenschaften</thema>), und <dozent><funktion>Prof.</funktion>
-          <grad>D.</grad> <nachname>Hartmann</nachname></dozent> (für
-          <thema>Französisch und Englisch</thema>), <zeit>Mi. u. So. 2-4
-          U.</zeit>, <modus>privatissime</modus>, aber
+          von <dozent ref="lehmann_e"><funktion>Prof.</funktion>
+          <grad>D.</grad> <nachname>Lehmann</nachname></dozent> (für
+          <thema>Mathematik und Naturwissenschaften</thema>), und
+          <dozent><funktion>Prof.</funktion> <grad>D.</grad>
+          <nachname>Hartmann</nachname></dozent> (für <thema>Französisch und
+          Englisch</thema>), <zeit>Mi. u. So. 2-4 U.</zeit>,
+          <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
         </sachgruppe>
 
         <trennlinie/>
 
-        <veranstaltung><thema>Religionsphilosophische Übungen</thema>:
-        <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
+        <veranstaltung><thema>Religionsphilosophische Übungen</thema>: <dozent
+        ref="lipsius_f"><grad>Lic. th.</grad> <grad>D. ph.</grad>
         <nachname>Lipsius</nachname></dozent>, <zeit>zweistündig, zu noch zu
         bestimm. Zeit</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2461,10 +2463,11 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der griechischen
-          Beredsamkeit</thema>: <dozent><grad>D. ph. et jur.</grad>
-          <nachname>Lipsius</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mo., Di. u. Do. 11-12 U.</zeit>, <modus>privatim</modus>.
-          <thema>Geschichte der griechischen Poesie im Zeitalter des <seite>29</seite>Hellenismus</thema>:
+          Beredsamkeit</thema>: <dozent ref="lipsius_jh"><grad>D. ph. et
+          jur.</grad> <nachname>Lipsius</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mo., Di. u. Do. 11-12 U.</zeit>,
+          <modus>privatim</modus>. <thema>Geschichte der griechischen Poesie
+          im Zeitalter des <seite>29</seite>Hellenismus</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Martini</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>Mo. u. Do. 5-6 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2523,10 +2526,10 @@
             Besprechung schriftlicher Arbeiten</thema>, <zeit>So. 11-1
             U.</zeit>, <modus>privatissime</modus>, sed
             <gebühr>gratis</gebühr>.</veranstaltung> - <veranstaltung>2)
-            <dozent><grad>D. ph. et jur.</grad> <nachname>Lipsius</nachname>,
-            <funktion>P. O.</funktion></dozent>: <thema>Erklärung von Tacitus
-            Agricola und Besprechung von Arbeiten</thema>, <zeit>Mi. 11-1
-            U.</zeit>,
+            <dozent ref="lipsius_jh"><grad>D. ph. et jur.</grad>
+            <nachname>Lipsius</nachname>, <funktion>P. O.</funktion></dozent>:
+            <thema>Erklärung von Tacitus Agricola und Besprechung von
+            Arbeiten</thema>, <zeit>Mi. 11-1 U.</zeit>,
             <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
             <veranstaltungsgruppe>II. <thema>Philologisches Proseminar</thema>
@@ -2604,20 +2607,20 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Lektüre ausgewählter Stücke des
-          Avesta</thema>: <dozent><grad>D. ph.</grad>
+          Avesta</thema>: <dozent ref="lindner_b"><grad>D. ph.</grad>
           <nachname>Lindner</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>in noch zu best. Zeit</zeit>, <modus>privatissime</modus> und
           <gebühr>gratis</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Altarmenische Grammatik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Lindner</nachname>,
+          <veranstaltung><thema>Altarmenische Grammatik</thema>: <dozent
+          ref="lindner_b"><grad>D. ph.</grad> <nachname>Lindner</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>Mi. 11-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Armenische Lektüre</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Lindner</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>in noch zu best. Zeit</zeit>,
-          <modus>privatissime</modus> und
+          <veranstaltung><thema>Armenische Lektüre</thema>: <dozent
+          ref="lindner_b"><grad>D. ph.</grad> <nachname>Lindner</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>in noch zu best.
+          Zeit</zeit>, <modus>privatissime</modus> und
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Sumerisch, für weniger
@@ -2887,14 +2890,16 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Faustsage und Faustdichtung, mit
-          Interpretation von Goethes Faust</thema>: <dozent><grad>D.
-          ph.</grad> <vorname>A.</vorname> <nachname>Köster</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mo., Di. u. Do. 12-1
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          Interpretation von Goethes Faust</thema>: <dozent
+          ref="koester_a"><grad>D. ph.</grad> <vorname>A.</vorname>
+          <nachname>Köster</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mo., Di. u. Do. 12-1 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Schiller</thema>: <dozent><grad>D. ph.</grad>
-          <vorname>A.</vorname> <nachname>Köster</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mo. u. Do. 11 bis 12 U.</zeit>,
+          <veranstaltung><thema>Schiller</thema>: <dozent
+          ref="koester_a"><grad>D. ph.</grad> <vorname>A.</vorname>
+          <nachname>Köster</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mo. u. Do. 11 bis 12 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Repetitorium der deutschen Grammatik</thema>:
@@ -2924,7 +2929,7 @@
             th.</grad> <nachname>Sievers</nachname>, <funktion>P.
             O.</funktion></dozent> (<thema>ältere Abteilung</thema>),
             <zeit>Mi. 11-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
-            - <veranstaltung>2) <dozent><grad>D. ph.</grad>
+            - <veranstaltung>2) <dozent ref="koester_a"><grad>D. ph.</grad>
             <vorname>A.</vorname> <nachname>Köster</nachname>, <funktion>P.
             O.</funktion></dozent> (<thema>neuere Abteilung</thema>),
             <zeit>Mo. 8-10 U. ab.</zeit>,
@@ -2952,7 +2957,7 @@
             ab.</zeit>,
             <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe> -
             <veranstaltungsgruppe>2) <thema>Neuere Abteilung</thema>:
-            <veranstaltung>a) <dozent><grad>D. ph.</grad>
+            <veranstaltung>a) <dozent ref="koester_a"><grad>D. ph.</grad>
             <vorname>A.</vorname> <nachname>Köster</nachname>, <funktion>P.
             O.</funktion></dozent>: <thema>Höltys Gedichte</thema>, <zeit>Di.
             11-12 U.</zeit>, <modus>publice</modus></veranstaltung>;
@@ -3335,8 +3340,8 @@
         O.</funktion></dozent>, <zeit>Mi. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Kulturgeschichte Sachsens</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kötzschke</nachname>,
+        <veranstaltung><thema>Kulturgeschichte Sachsens</thema>: <dozent
+        ref="koetzschke_r"><grad>D. ph.</grad> <nachname>Kötzschke</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Mo. u. Do. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -3650,7 +3655,7 @@
           <titel>Seminar für Landesgeschichte und Siedelungskunde
           (<ort>Goldner Bär, Universitätsstr. 11</ort>).</titel>
 
-          <veranstaltung><dozent><grad>D. ph.</grad>
+          <veranstaltung><dozent ref="koetzschke_r"><grad>D. ph.</grad>
           <nachname>Kötzschke</nachname>, <funktion>P. E.</funktion></dozent>:
           <thema>Einführung in das Studium sächsischer Geschichte
           (Quellenkunde)</thema>, <zeit>Fr. 2½-4 U.</zeit>,

@@ -465,9 +465,9 @@ Veranstaltungstitel oder eine Ortsangabe?-->
       <sachgruppe>
         <titel>Geschichte der Philosophie.</titel>
 
-        <veranstaltung><dozent><nachname>Krug</nachname>, <vorname>W.
-        T.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Geschichte
-        der alten Philosophie, <notiz
+        <veranstaltung><dozent ref="krug_wt"><nachname>Krug</nachname>,
+        <vorname>W. T.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <thema>Geschichte der alten Philosophie, <notiz
         betreff="fortsetzung">Fortsetzung</notiz> von Aristoteles an, nach s.
         Lehrb.</thema>, <zeit>10 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -478,11 +478,11 @@ Veranstaltungstitel oder eine Ortsangabe?-->
       <sachgruppe>
         <titel>Philosophischer Kursus.</titel>
 
-        <veranstaltung><dozent><nachname>Krug</nachname>, <vorname>W.
-        T.</vorname>, <funktion>P. O.</funktion></dozent>, <thema><notiz
-        betreff="fortsetzung">zweite Abtheilung</notiz>, Aesthetik,
-        Naturrecht, Moral und Religionsphilosophie, nach s. Handb.</thema>,
-        <zeit>9 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><dozent ref="krug_wt"><nachname>Krug</nachname>,
+        <vorname>W. T.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <thema><notiz betreff="fortsetzung">zweite Abtheilung</notiz>,
+        Aesthetik, Naturrecht, Moral und Religionsphilosophie, nach s.
+        Handb.</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -622,7 +622,8 @@ Veranstaltungstitel oder eine Ortsangabe?-->
         <sachgruppe>
           <titel>10) Pädagogik und Didaktik.</titel>
 
-          <veranstaltung><dozent><nachname>Lindner</nachname>, <grad>M.</grad>
+          <veranstaltung><dozent
+          ref="lindner_fw"><nachname>Lindner</nachname>, <grad>M.</grad>
           <vorname>F. W.</vorname>, <funktion>P. E. des.</funktion></dozent>,
           <thema>nebst einer Anleitung zum Katechisiren und zur zweckmäßigen
           Führung der verschiedenen Schulämter</thema>, <zeit>3 U. 4
@@ -972,14 +973,15 @@ Veranstaltungstitel oder eine Ortsangabe?-->
             <thema><notiz betreff="fortsetzung">Fortsetzung</notiz></thema>,
             <zeit>10 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Lindner</nachname>,
-            <grad>M.</grad> <vorname>F. W.</vorname>, <funktion>P. E.
+            <veranstaltung><dozent
+            ref="lindner_fw"><nachname>Lindner</nachname>, <grad>M.</grad>
+            <vorname>F. W.</vorname>, <funktion>P. E.
             des.</funktion></dozent>, <thema>Kirchengeschichte vom J. 1073.
             bis auf die neuesten Zeiten</thema>, <zeit>2 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltung><ders>Derselbe</ders>, <thema>Geschichte der
-            Apostel</thema>, <zeit>3 U. 2 T.</zeit>
+            <veranstaltung><ders ref="lindner_fw">Derselbe</ders>,
+            <thema>Geschichte der Apostel</thema>, <zeit>3 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
@@ -1122,10 +1124,10 @@ oder ist mit Folgendem verknüpft:-->
         <sachgruppe>
           <titel>2) Katechetik.</titel>
 
-          <veranstaltungsverweis><dozent><nachname>Lindner</nachname>,
-          <grad>M.</grad> <vorname>F. W.</vorname>, <funktion>P. E.
-          des.</funktion></dozent>, <siehe>s.
-          Pädagogik</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><dozent
+          ref="lindner_fw"><nachname>Lindner</nachname>, <grad>M.</grad>
+          <vorname>F. W.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+          <siehe>s. Pädagogik</siehe>.</veranstaltungsverweis>
 
           <veranstaltung><dozent><nachname>Plato</nachname>, <grad>M.</grad>
           <vorname>G. J. K. L.</vorname></dozent>, <zeit>2 U. 2 T.</zeit>
@@ -1152,8 +1154,9 @@ oder ist mit Folgendem verknüpft:-->
           <sachgruppe>
             <titel>Katechetische Uebungen.</titel>
 
-            <veranstaltung><dozent><nachname>Lindner</nachname>,
-            <grad>M.</grad> <vorname>F. W.</vorname>, <funktion>P. E.
+            <veranstaltung><dozent
+            ref="lindner_fw"><nachname>Lindner</nachname>, <grad>M.</grad>
+            <vorname>F. W.</vorname>, <funktion>P. E.
             des.</funktion></dozent>, <thema><ort>in der Bürgerschule</ort>,
             verbunden mit praktisch-exegetischen Versuchen</thema>, <zeit>zu
             den best. St.</zeit></veranstaltung>
@@ -1818,10 +1821,10 @@ oder ist mit Folgendem verknüpft:-->
           <sachgruppe>
             <titel>Allgemeine Pathologie.</titel>
 
-            <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-            <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>über die vorzüglichsten Kapitel der allgem.
-            Pathologie</thema>, <zeit>11 U. 4 T.</zeit>
+            <veranstaltung><dozent ref="kuehn_cg"><nachname>Kühn</nachname>,
+            <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P.
+            O.</funktion></dozent>, <thema>über die vorzüglichsten Kapitel der
+            allgem. Pathologie</thema>, <zeit>11 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Wendler</nachname>,
@@ -1838,10 +1841,11 @@ oder ist mit Folgendem verknüpft:-->
           <sachgruppe>
             <titel>Specielle Pathologie.</titel>
 
-            <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-            <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>über die Krankheiten des Auges</thema>, <zeit>11 U. 2
-            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><dozent ref="kuehn_cg"><nachname>Kühn</nachname>,
+            <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P.
+            O.</funktion></dozent>, <thema>über die Krankheiten des
+            Auges</thema>, <zeit>11 U. 2 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltungsverweis><dozent
             ref="haase_wa"><nachname>Haase</nachname>, <grad>D.</grad>
@@ -2054,9 +2058,9 @@ oder ist mit Folgendem verknüpft:-->
         <sachgruppe>
           <titel>5) Gerichtliche Arzneikunde.</titel>
 
-          <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-          <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>3 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="kuehn_cg"><nachname>Kühn</nachname>,
+          <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung><dozent><nachname>Wendler</nachname>, <grad>D.</grad>
           <vorname>Ch. A.</vorname>, <funktion>P. E.</funktion></dozent>,

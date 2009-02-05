@@ -402,9 +402,9 @@
       b.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Allgemeine Religionsgeschichte</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Lindner</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
-      C.</siehe></veranstaltungsverweis>
+      <dozent ref="lindner_b"><grad>D. ph.</grad>
+      <nachname>Lindner</nachname>, <funktion>P. E.</funktion></dozent>
+      <siehe>Siehe Philosophische Facultät C.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Westeuropäische Geschichte im Zeitalter
       der Gegenreformation</thema>: <dozent><grad>D. ph.</grad>
@@ -1296,10 +1296,10 @@
       <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Geburtshilfliche Propaedeutik</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Kroenig</nachname></dozent>,
-      <zeit>Mont. u. Donnerst. 6-7 U.</zeit>
-      <modus>privatim</modus>.</veranstaltung>
+      <veranstaltung><thema>Geburtshilfliche Propaedeutik</thema>: <dozent
+      ref="kroenig_b"><grad>D. med.</grad>
+      <nachname>Kroenig</nachname></dozent>, <zeit>Mont. u. Donnerst. 6-7
+      U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geburtshilfliche Operationslehre mit Uebungen am
       Phantom</thema>: <dozent><grad>D. med.</grad>
@@ -1309,16 +1309,16 @@
 
       <veranstaltung><thema>Pathologische Anatomie der weiblichen
       Genitalorgane mit Demonstrationen im Skioptkon</thema>: <zeit>D. med.
-      Menge</zeit> und <dozent><grad>D. med.</grad>
+      Menge</zeit> und <dozent ref="kroenig_b"><grad>D. med.</grad>
       <nachname>Kroenig</nachname></dozent>, <zeit>einstünd., nach
       Verabredung</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geburtshilfliche Operationslehre mit Uebungen am
       Phantom (in der II. Hälfte des Semesters)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Menge</nachname></dozent> und <dozent><grad>D.
-      med.</grad> <nachname>Kroenig</nachname></dozent>, <zeit>Mont., Dienst.,
-      Donnerst. u. Freit. 5-6 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      med.</grad> <nachname>Menge</nachname></dozent> und <dozent
+      ref="kroenig_b"><grad>D. med.</grad>
+      <nachname>Kroenig</nachname></dozent>, <zeit>Mont., Dienst., Donnerst.
+      u. Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Geburtshilfe mit Uebungen</thema>: <dozent
       ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
@@ -1852,8 +1852,8 @@
         <veranstaltung><thema>Uebungen des praktisch-pädagogischen
         Seminars</thema>: <dozent><grad>D. ph.</grad>
         <nachname>Richter</nachname>, <funktion>P. O. Hon.
-        des.</funktion></dozent>, unter Mitwirkung von
-        <dozent><funktion>Prof.</funktion> <grad>D.</grad>
+        des.</funktion></dozent>, unter Mitwirkung von <dozent
+        ref="lehmann_e"><funktion>Prof.</funktion> <grad>D.</grad>
         <nachname>Lehmann</nachname></dozent> (für Mathematik und
         Naturwissenschaften) und <dozent><grad>D.</grad>
         <nachname>Hartmann</nachname></dozent> (für Französisch und English),
@@ -1902,8 +1902,8 @@
           <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Attische Staatsalterthümer</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Lipsius</nachname>,
+          <veranstaltung><thema>Attische Staatsalterthümer</thema>: <dozent
+          ref="lipsius_jh"><grad>D. ph.</grad> <nachname>Lipsius</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
           u. Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1971,13 +1971,14 @@
 
           <veranstaltungsgruppe><thema>Philologisches Seminar</thema>: 1)
           <veranstaltung><thema>Uebungen im Erklären von Tacitus' Agricola und
-          Disputiren über Abhandlungen</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Lipsius</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mittw. 11-1 U.</zeit>, <modus>publice</modus></veranstaltung>.
-          - 2) <veranstaltung><thema>Erklärung der Rede Antiphons von
-          Herodes's Todtschlag</thema>: <dozent ref="wachsmuth_c"><grad>D.
-          ph.</grad> <nachname>Wachsmuth</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Sonnab. 11-1 U.</zeit>,
+          Disputiren über Abhandlungen</thema>: <dozent
+          ref="lipsius_jh"><grad>D. ph.</grad> <nachname>Lipsius</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 11-1 U.</zeit>,
+          <modus>publice</modus></veranstaltung>. - 2)
+          <veranstaltung><thema>Erklärung der Rede Antiphons von Herodes's
+          Todtschlag</thema>: <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
+          <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Sonnab. 11-1 U.</zeit>,
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Philologisches Proseminar</thema>:
@@ -1997,9 +1998,9 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Griechisch-antiquarische Gesellschaft:
-          Uebungen über attische Inschriften</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Lipsius</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mont. 6 bis 8 U.</zeit>,
+          Uebungen über attische Inschriften</thema>: <dozent
+          ref="lipsius_jh"><grad>D. ph.</grad> <nachname>Lipsius</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mont. 6 bis 8 U.</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -2066,12 +2067,13 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Grammatik der avestischen Sprache</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Lindner</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 10-11
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="lindner_b"><grad>D. ph.</grad>
+          <nachname>Lindner</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Mittw. u. Sonnab. 10-11 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Lectüre ausgewählter Stücke des
-          Avesta</thema>: <dozent><grad>D. ph.</grad>
+          Avesta</thema>: <dozent ref="lindner_b"><grad>D. ph.</grad>
           <nachname>Lindner</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>in zu best. Zeit</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2079,7 +2081,7 @@
           <seite>24</seite>
 
           <veranstaltung><thema>Altpersische Grammatik und Erklärung der
-          Keilinschriften</thema>: <dozent><grad>D. ph.</grad>
+          Keilinschriften</thema>: <dozent ref="lindner_b"><grad>D. ph.</grad>
           <nachname>Lindner</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mittw. u. Sonnab. 11-12 U.</zeit>
           <modus>privatim</modus>.</veranstaltung>
@@ -2604,10 +2606,10 @@
         ph.</grad> <nachname>Brandenburg</nachname></dozent>, <zeit>Mittw. 4-5
         U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Allgemeine Religionsgeschichte</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Lindner</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst. 4-5
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Allgemeine Religionsgeschichte</thema>: <dozent
+        ref="lindner_b"><grad>D. ph.</grad> <nachname>Lindner</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst.
+        4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einleitung in das Studium der Geographie
         (Methodik; Geschichte; Geographie)</thema>: <dozent><grad>D.

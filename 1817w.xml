@@ -250,8 +250,9 @@
           <veranstaltung>Der <dozent>Pred. u. <funktion>Lect.</funktion>
           <nachname>Dumas</nachname></dozent> <thema>stellt einen cours de
           langue franςaise an, verbunden mit Uebungen im Sprechen u.
-          Schreiben</thema>, <modus>öff.</modus> -
-          <dozent><nachname>Bouc</nachname> <vorname>J. L.</vorname></dozent>
+          Schreiben</thema>, <modus>öff.</modus> - <dozent
+          ref="bouc_jl"><nachname>Bouc</nachname> <vorname>J.
+          L.</vorname></dozent>
           <dozent><nachname>Paien</nachname></dozent>.</veranstaltung>
 
           <veranstaltung><dozent><vorname>F.</vorname>
@@ -278,7 +279,7 @@
           <titel>1) Fundamental-Philosophie und philosophische
           Encyklopädie.</titel>
 
-          <veranstaltung><dozent><funktion>P. O.</funktion>
+          <veranstaltung><dozent ref="krug_wt"><funktion>P. O.</funktion>
           <nachname>Krug</nachname></dozent>, <zeit>8 U. 2
           T.</zeit></veranstaltung>
 
@@ -291,9 +292,9 @@
         <sachgruppe>
           <titel>2) Geschichte der älteren Philosophie</titel>
 
-          <veranstaltung>trägt <dozent><funktion>P. O.</funktion>
-          <nachname>Krug</nachname></dozent> <zeit>8 U. 4 T.</zeit>
-          <modus>öffentl.</modus> vor.</veranstaltung>
+          <veranstaltung>trägt <dozent ref="krug_wt"><funktion>P.
+          O.</funktion> <nachname>Krug</nachname></dozent> <zeit>8 U. 4
+          T.</zeit> <modus>öffentl.</modus> vor.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -352,7 +353,7 @@
         <sachgruppe>
           <titel>5) Praktische Philosophie</titel>
 
-          <veranstaltung><dozent><funktion>P. O.</funktion>
+          <veranstaltung><dozent ref="krug_wt"><funktion>P. O.</funktion>
           <nachname>Krug</nachname></dozent>, <thema>a) Natur-Recht, mit
           Einschluss des natürlichen Staats- u. Völkerrechts; b) Moral; c)
           Religions-Philosophie</thema>, <zeit>11 U. 6
@@ -438,7 +439,7 @@
           <sachgruppe>
             <titel>*) Pädagogik und Didaktik</titel>
 
-            <veranstaltung><dozent><funktion>P. E.</funktion>
+            <veranstaltung><dozent ref="lindner_fw"><funktion>P. E.</funktion>
             <nachname>Lindner</nachname></dozent>, verbunden <thema>mit
             methodisch-praktischen und katechetischen Uebungen</thema>,
             <zeit>4 U. 4 T.</zeit> <modus>öffentl.</modus></veranstaltung>
@@ -850,10 +851,10 @@
               und Epheser</thema>, <zeit>in zu best. St. 2
               T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-              <veranstaltung><dozent><funktion>P. E.</funktion>
-              <nachname>Lindner</nachname></dozent>, <thema><notiz
-              betreff="fortsetzung">Forts.</notiz> u. Beendigung der
-              praktischen Exegese über das Leben Jesu, für künftige
+              <veranstaltung><dozent ref="lindner_fw"><funktion>P.
+              E.</funktion> <nachname>Lindner</nachname></dozent>,
+              <thema><notiz betreff="fortsetzung">Forts.</notiz> u. Beendigung
+              der praktischen Exegese über das Leben Jesu, für künftige
               Religionslehrer</thema>, <zeit>2 U. 2 T.</zeit>
               <modus>öff.</modus></veranstaltung>
 
@@ -1534,9 +1535,9 @@
       <sachgruppe>
         <titel>I) Literargeschichte der Medicin.</titel>
 
-        <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
-        <nachname>Kühn</nachname></dozent>, <thema>nach Blumenbach</thema>,
-        <zeit>5 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><dozent ref="kuehn_cg"><funktion>P. O.</funktion>
+        <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <thema>nach
+        Blumenbach</thema>, <zeit>5 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent><funktion>P. E.</funktion> <grad>D.</grad>
         <nachname>Puchelt</nachname></dozent>, <thema>über die vorzüglichsten
@@ -1648,10 +1649,10 @@
                 <sachgruppe>
                   <titel>α) Allgemeine.</titel>
 
-                  <veranstaltung><dozent><funktion>P. O.</funktion>
-                  <grad>D.</grad> <nachname>Kühn</nachname></dozent>,
-                  <thema>nach Conradi</thema>, <zeit>8 U. 4
-                  T.</zeit></veranstaltung>
+                  <veranstaltung><dozent ref="kuehn_cg"><funktion>P.
+                  O.</funktion> <grad>D.</grad>
+                  <nachname>Kühn</nachname></dozent>, <thema>nach
+                  Conradi</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
                   <veranstaltung><dozent><funktion>P. E.</funktion>
                   <grad>D.</grad> <nachname>Puchelt</nachname></dozent>,
@@ -1768,7 +1769,7 @@
             <sachgruppe>
               <titel>aa) Arneymittelehre.</titel>
 
-              <veranstaltung><dozent><funktion>P. O.</funktion>
+              <veranstaltung><dozent ref="kuehn_cg"><funktion>P. O.</funktion>
               <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <thema>über
               physische Heilmittel, die Electricität, den Magnetismus und
               Galvanismus</thema>, <zeit>11 U. 2 T.</zeit></veranstaltung>
@@ -1897,9 +1898,10 @@
               <sachgruppe>
                 <titel>*) Ueber die Brüche.</titel>
 
-                <veranstaltung><dozent><funktion>P. O.</funktion>
-                <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <zeit>11
-                U. 4 T.</zeit> <modus>öff.</modus></veranstaltung>
+                <veranstaltung><dozent ref="kuehn_cg"><funktion>P.
+                O.</funktion> <grad>D.</grad>
+                <nachname>Kühn</nachname></dozent>, <zeit>11 U. 4 T.</zeit>
+                <modus>öff.</modus></veranstaltung>
               </sachgruppe>
 
               <sachgruppe>

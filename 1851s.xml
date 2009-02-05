@@ -77,8 +77,8 @@
           <nachname>Fechner</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Anthropologie und Psychologie</thema>:
-          <dozent><grad>D.</grad> <nachname>Lindner sen.</nachname>,
+          <veranstaltung><thema>Anthropologie und Psychologie</thema>: <dozent
+          ref="lindner_fw"><grad>D.</grad> <nachname>Lindner sen.</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>7 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
@@ -129,8 +129,8 @@
           <titel>Pädagogik.</titel>
 
           <veranstaltung><thema>Pädagogik, Didaktik u. Methodik</thema>:
-          <dozent><grad>D.</grad> <nachname>Lindner sen.</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>8 U. 4
+          <dozent ref="lindner_fw"><grad>D.</grad> <nachname>Lindner
+          sen.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>8 U. 4
           T.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -580,21 +580,22 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Organische Chemie, mit Versuchen</thema>:
-        <dozent><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>8 U. 5 T.</zeit></veranstaltung>
+        <dozent ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>8 U. 5
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Physiologische Chemie</thema>: <dozent
         ref="lehmann_cg"><grad>D.</grad> <nachname>Lehmann</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>4 U. 2
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Forensische Chemie</thema>:
-        <dozent><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        <veranstaltung><thema>Forensische Chemie</thema>: <dozent
+        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>2 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Stöchiometrie</thema>: <ders>Ders.</ders>,
-        <zeit>4 U. Mont. u. Donn.</zeit>
+        <veranstaltung><thema>Stöchiometrie</thema>: <ders
+        ref="kuehn_ob">Ders.</ders>, <zeit>4 U. Mont. u. Donn.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <sachgruppe>
@@ -614,10 +615,10 @@
           in den best. St. u. T.</zeit><!--doppelte Prof-namen!--></veranstaltung>
 
           <veranstaltung><thema>Chemisch-praktische Uebungen im Laboratorium
-          des Schlosses Pleißenburg</thema>: <dozent><grad>D.</grad>
-          <nachname>Kühn</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>9-5 U. an 2 oder mehr. Tagen</zeit>,
-          <modus>privatissime</modus>.</veranstaltung>
+          des Schlosses Pleißenburg</thema>: <dozent
+          ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>9-5 U. an 2 oder mehr.
+          Tagen</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Chemisches Praktikum</thema>: <dozent
           ref="erdmann_ol"><grad>D.</grad> <nachname>Erdmann</nachname>,
@@ -783,15 +784,15 @@
       <zeit>9 U. 2 T.</zeit></veranstaltung>
 
       <veranstaltung><thema>Theologische Hodegetik und Encyclopädie</thema>:
-      <dozent><grad>D.</grad> <nachname>Lindner jun.</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>8 U. 2 T.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      <dozent ref="lindner_wb"><grad>D.</grad> <nachname>Lindner
+      jun.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>8 U. 2
+      T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <sachgruppe>
         <titel>Allgemeine theologische Uebungen.</titel>
 
-        <veranstaltung><thema>Theologische Gesellschaft</thema>:
-        <dozent><grad>D.</grad> <nachname>Lindner jun.</nachname>,
+        <veranstaltung><thema>Theologische Gesellschaft</thema>: <dozent
+        ref="lindner_wb"><grad>D.</grad> <nachname>Lindner jun.</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>in zu best. St.</zeit>
         <modus>privatissime</modus> aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -852,8 +853,8 @@
         <zeit>11 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Historisch-kritische Einleitung in das N.
-        T.</thema>: <dozent><grad>D.</grad> <nachname>Lindner jun.</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 4
+        T.</thema>: <dozent ref="lindner_wb"><grad>D.</grad> <nachname>Lindner
+        jun.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>11 U. 4
         T.</zeit></veranstaltung>
 
         <trennlinie/>
@@ -925,9 +926,9 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Exegetische Gesellschaft des N. T.</thema>:
-          <dozent><grad>D.</grad> <nachname>Lindner jun.</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>in zu best. St. u.
-          T.</zeit> <modus>privatissime</modus>, aber
+          <dozent ref="lindner_wb"><grad>D.</grad> <nachname>Lindner
+          jun.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>in zu
+          best. St. u. T.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Exegetisch-dogmatische Gesellschaft</thema>:
@@ -967,9 +968,10 @@
 
         <veranstaltung><thema>Kirchengeschichte, <notiz
         betreff="fortsetzung">zweiter Theil</notiz> (800-1600), nach s.
-        Lehrbuche der Kirchengeschichte</thema>: <dozent><grad>D.</grad>
-        <nachname>Lindner jun.</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>12 U. 6 T.</zeit></veranstaltung>
+        Lehrbuche der Kirchengeschichte</thema>: <dozent
+        ref="lindner_wb"><grad>D.</grad> <nachname>Lindner jun.</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>12 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Kirchengeschichte, <notiz
         betreff="fortsetzung">erster Theil</notiz>, nach s.
@@ -1106,10 +1108,10 @@
         T.</zeit></veranstaltung>
 
         <veranstaltungsgruppe><veranstaltung><thema>Katechetik</thema></veranstaltung>:
-        <dozent><grad>D.</grad> <nachname>Lindner sen.</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>7 U. 2 T.</zeit>, verb. mit
-        <veranstaltung><thema>katechet. Uebungen</thema>: <zeit>3-5 U. 2 T.
-        Mont. u. Donn.</zeit>
+        <dozent ref="lindner_fw"><grad>D.</grad> <nachname>Lindner
+        sen.</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>7 U. 2
+        T.</zeit>, verb. mit <veranstaltung><thema>katechet. Uebungen</thema>:
+        <zeit>3-5 U. 2 T. Mont. u. Donn.</zeit>
         <modus>privatissime</modus></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung><thema>Katechetik</thema>: <dozent><grad>D. ph.</grad>
@@ -1137,8 +1139,8 @@
           St.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltungsverweis><thema>Katechet. Uebungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Lindner sen.</nachname>,
+          <veranstaltungsverweis><thema>Katechet. Uebungen</thema>: <dozent
+          ref="lindner_fw"><grad>D.</grad> <nachname>Lindner sen.</nachname>,
           <funktion>P. E.</funktion></dozent> <siehe>s.
           Katechetik</siehe>.</veranstaltungsverweis>
 
@@ -1606,17 +1608,17 @@
         <nachname>Schwartze</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Pharmacie</thema>: <dozent><grad>D.</grad>
-        <nachname>Kühn</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>10 U. 3 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Pharmacie</thema>: <dozent
+        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>10 U. 3 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Receptirkunst mit Anleitung zum
         Receptschreiben</thema>: <dozent ref="kneschke_eh"><grad>D.</grad>
         <nachname>Kneschke</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>2 U. Dienstag und Freitag</zeit>.</veranstaltung>
 
-        <veranstaltung><thema>Pharmaceut. Praktikum</thema>:
-        <dozent><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        <veranstaltung><thema>Pharmaceut. Praktikum</thema>: <dozent
+        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>an 3-4 T. mehrst.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -1825,8 +1827,8 @@
         O.</funktion></dozent>, <zeit>4 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Forensische Chemie</thema>:
-        <dozent><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        <veranstaltungsverweis><thema>Forensische Chemie</thema>: <dozent
+        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
         O.</funktion></dozent>, <siehe>s.
         Chemie</siehe>.</veranstaltungsverweis>
       </sachgruppe>

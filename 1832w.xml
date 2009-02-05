@@ -545,10 +545,10 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
       <sachgruppe>
         <titel>Geschichte der Philosophie.</titel>
 
-        <veranstaltung><dozent><nachname>Krug</nachname>, <grad>D.</grad>
-        <vorname>W. T.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>Geschichte d. alten Philosophie, von Aristoteles an, n. s.
-        Lehrb.</thema>, <zeit>10 U. 4 T.</zeit>
+        <veranstaltung><dozent ref="krug_wt"><nachname>Krug</nachname>,
+        <grad>D.</grad> <vorname>W. T.</vorname>, <funktion>P.
+        O.</funktion></dozent>, <thema>Geschichte d. alten Philosophie, von
+        Aristoteles an, n. s. Lehrb.</thema>, <zeit>10 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><dozent ref="weisse_ch"><nachname>Weiße</nachname>,
@@ -567,11 +567,11 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
       <sachgruppe>
         <titel>Philosophischer Kursus.</titel>
 
-        <veranstaltung><dozent><nachname>Krug</nachname>, <grad>D.</grad>
-        <vorname>W. T.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>zweite Abtheilung, Aesthetik, Natur-, Staats- und Völkerrecht,
-        Moral und Religionsphilosophie, n. s. Handb.</thema>, <zeit>9 U. 6
-        T.</zeit></veranstaltung>
+        <veranstaltung><dozent ref="krug_wt"><nachname>Krug</nachname>,
+        <grad>D.</grad> <vorname>W. T.</vorname>, <funktion>P.
+        O.</funktion></dozent>, <thema>zweite Abtheilung, Aesthetik, Natur-,
+        Staats- und Völkerrecht, Moral und Religionsphilosophie, n. s.
+        Handb.</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -710,7 +710,8 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
         <sachgruppe>
           <titel>8) Pädagogik.</titel>
 
-          <veranstaltung><dozent><nachname>Lindner</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
           <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>Pädagogik u. Didaktik nebst einer Anleitung zum Katechisiren
           und zur zweckmäßigen Einrichtung der verschiedenen Schulen und
@@ -965,21 +966,21 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
       <sachgruppe>
         <titel>Chemie.</titel>
 
-        <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-        <vorname>O. B.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>analytische Chemie</thema>, <zeit>4 T. in zu best. St.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung><dozent ref="kuehn_ob"><nachname>Kühn</nachname>,
+        <grad>D.</grad> <vorname>O. B.</vorname>, <funktion>P.
+        O.</funktion></dozent>, <thema>analytische Chemie</thema>, <zeit>4 T.
+        in zu best. St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Chemie der anorganischen
-        Körper, mit den nöthigen Versuchen</thema>, <zeit>8 U. 6
+        <veranstaltung><ders ref="kuehn_ob">Derselbe</ders>, <thema>Chemie der
+        anorganischen Körper, mit den nöthigen Versuchen</thema>, <zeit>8 U. 6
         T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>Chemie der organischen
-        Natur</thema>, <zeit>5 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="kuehn_ob">Derselbe</ders>, <thema>Chemie der
+        organischen Natur</thema>, <zeit>5 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>chemisch-praktische
-        Uebungen <ort>in s. Laboratorio</ort></thema>, <zeit>2 u. 3 U. 2
-        T.</zeit></veranstaltung>
+        <veranstaltung><ders ref="kuehn_ob">Derselbe</ders>,
+        <thema>chemisch-praktische Uebungen <ort>in s.
+        Laboratorio</ort></thema>, <zeit>2 u. 3 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung><dozent ref="erdmann_ol"><nachname>Erdmann</nachname>,
         <vorname>O. L.</vorname>, <funktion>P. O. des.</funktion></dozent>,
@@ -1130,12 +1131,12 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             <thema>Erklärung der katholischen Briefe</thema>, <zeit>9 U. 4
             T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Lindner</nachname>,
-            <grad>D.</grad> <vorname>F. W.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>praktische Erklärung der
-            Bergpredigt, verbunden mit einer Anleitung zu homiletischen und
-            katechetischen Entwürfen</thema>, <zeit>3 U. 2 T.</zeit>
-            <modus>öffentl.</modus></veranstaltung>
+            <veranstaltung><dozent
+            ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
+            <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>praktische Erklärung der Bergpredigt, verbunden mit einer
+            Anleitung zu homiletischen und katechetischen Entwürfen</thema>,
+            <zeit>3 U. 2 T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
             <veranstaltung><dozent><nachname>Theile</nachname>,
             <grad>D.</grad> <vorname>K. G. W.</vorname>, <funktion>P.
@@ -1175,12 +1176,13 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             best. T. u. St.</zeit> <modus>privatissime</modus> aber
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung><dozent><nachname>Lindner</nachname>,
-            <grad>D.</grad> <vorname>F. W.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>praktische Uebungen der
-            philobiblischen Gesellschaft, <notiz betreff="fortsetzung">für
-            dieses Halbjahr</notiz> in Erklärung der Pastoralbriefe</thema>,
-            <zeit>4 U. Mont.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><dozent
+            ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
+            <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>praktische Uebungen der philobiblischen Gesellschaft,
+            <notiz betreff="fortsetzung">für dieses Halbjahr</notiz> in
+            Erklärung der Pastoralbriefe</thema>, <zeit>4 U. Mont.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Theile</nachname>,
             <grad>D.</grad> <vorname>K. G. W.</vorname>, <funktion>P.
@@ -1410,11 +1412,11 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
           <sachgruppe>
             <titel>Katechetische Uebungen.</titel>
 
-            <veranstaltung><dozent><nachname>Lindner</nachname>,
-            <grad>D.</grad> <vorname>F. W.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema><ort>in der
-            Bürgerschule</ort></thema>, <zeit>Dienst. u. Freit. 4-6 U.</zeit>
-            <modus>privatissime</modus>.</veranstaltung>
+            <veranstaltung><dozent
+            ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
+            <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema><ort>in der Bürgerschule</ort></thema>, <zeit>Dienst. u.
+            Freit. 4-6 U.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Plato</nachname>, <vorname>G. J.
             K. L.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2
@@ -1741,7 +1743,7 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
               <grad>D.</grad> <vorname>J.</vorname></dozent>, <thema>das
               peinliche Recht</thema>, <zeit>11 U. 6 T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><nachname>Krug</nachname>,
+              <veranstaltung><dozent ref="krug_ao"><nachname>Krug</nachname>,
               <grad>D.</grad> <vorname>A. O.</vorname></dozent>,
               <thema>gemeines und sächsisches Criminalrecht nach
               <gesperrt>Volkmann's</gesperrt> Lehrb. des sächs.
@@ -1971,9 +1973,9 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             alle Theile des Rechts</thema>, <zeit>in den best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Krug</nachname>, <grad>D.</grad>
-            <vorname>A. O.</vorname></dozent>, <thema>über beliebige
-            Rechtstheile</thema>, <zeit>in den best. St.</zeit>
+            <veranstaltung><dozent ref="krug_ao"><nachname>Krug</nachname>,
+            <grad>D.</grad> <vorname>A. O.</vorname></dozent>, <thema>über
+            beliebige Rechtstheile</thema>, <zeit>in den best. St.</zeit>
             <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Petschke</nachname>,
@@ -2069,9 +2071,9 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             <thema>in lat. Sprache</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Krug</nachname>, <grad>D.</grad>
-            <vorname>A. O.</vorname></dozent>, <zeit>in zu best. St.</zeit>
-            <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+            <veranstaltung><dozent ref="krug_ao"><nachname>Krug</nachname>,
+            <grad>D.</grad> <vorname>A. O.</vorname></dozent>, <zeit>in zu
+            best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Petschke</nachname>,
             <grad>D.</grad> <vorname>H. T.</vorname></dozent>, <thema>über
@@ -2256,11 +2258,11 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
           O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
           <thema>Physiologie</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-          <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>über die vorzüglichsten Materien der Physiologie des
-          menschlichen Körpers</thema>, <zeit>11 U. 4 T.</zeit>
-          <modus>öffentl.</modus></veranstaltung>
+          <veranstaltung><dozent ref="kuehn_cg"><nachname>Kühn</nachname>,
+          <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>über die vorzüglichsten Materien der
+          Physiologie des menschlichen Körpers</thema>, <zeit>11 U. 4
+          T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
           <veranstaltung><dozent><nachname>Wiese</nachname>, <grad>D.</grad>
           <vorname>F. A.</vorname></dozent>, <thema>über einige Kapitel der
@@ -2412,10 +2414,10 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
         <sachgruppe>
           <titel>Ueber einzelne Krankheiten.</titel>
 
-          <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-          <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>über den grauen Staar</thema>, <zeit>11 U. 2 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung><dozent ref="kuehn_cg"><nachname>Kühn</nachname>,
+          <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>über den grauen Staar</thema>,
+          <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
           <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.
@@ -2570,9 +2572,9 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
         <sachgruppe>
           <titel>8) Gerichtliche Arzneiwissenschaft.</titel>
 
-          <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-          <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>4 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="kuehn_cg"><nachname>Kühn</nachname>,
+          <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>4 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltungsverweis><dozent
           ref="heinroth_jca"><nachname>Heinroth</nachname>, <grad>D.</grad>

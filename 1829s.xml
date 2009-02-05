@@ -486,8 +486,8 @@
       <sachgruppe>
         <titel>Geschichte der Philosophie.</titel>
 
-        <veranstaltung><dozent><nachname>Krug</nachname>, <vorname>W.
-        T.</vorname>, <funktion>P. O.</funktion> u. d. Z.
+        <veranstaltung><dozent ref="krug_wt"><nachname>Krug</nachname>,
+        <vorname>W. T.</vorname>, <funktion>P. O.</funktion> u. d. Z.
         <funktion>Dechant</funktion></dozent>, <thema>Geschichte der alten
         Philosophie, n. s. Lehrbuche</thema>, <zeit>10 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -508,8 +508,8 @@
       <sachgruppe>
         <titel>Philosophischer Kursus.</titel>
 
-        <veranstaltung><dozent><nachname>Krug</nachname>, <vorname>W.
-        T.</vorname>, <funktion>P. O.</funktion> u. d. Z.
+        <veranstaltung><dozent ref="krug_wt"><nachname>Krug</nachname>,
+        <vorname>W. T.</vorname>, <funktion>P. O.</funktion> u. d. Z.
         <funktion>Dechant</funktion></dozent>, <thema>in diesem Halbj.
         Fundamentalphilosophie, Logik und Metaphysik, nach s. Handb.</thema>,
         <zeit>9 U. 6 T.</zeit></veranstaltung>
@@ -548,10 +548,10 @@
         <sachgruppe>
           <titel>4) Anthropologie.</titel>
 
-          <veranstaltungsverweis><dozent><nachname>Lindner</nachname>,
-          <grad>D.</grad> <vorname>F. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <siehe>s. systemat.
-          Theologie</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><dozent
+          ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
+          <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <siehe>s. systemat. Theologie</siehe>.</veranstaltungsverweis>
         </sachgruppe>
 
         <sachgruppe>
@@ -618,7 +618,8 @@
         <sachgruppe>
           <titel>9) Pädagogik und Didaktik.</titel>
 
-          <veranstaltung><dozent><nachname>Lindner</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
           <vorname>F. W.</vorname>, <funktion>Catech. et Paedag. P.
           E.</funktion></dozent>, <thema>nebst einer Anweisung zum
           Katechisiren und zur Führung der verschiedenen Schulämter</thema>,
@@ -876,25 +877,27 @@
         Experimental-Chemie, den ersten Theil nach s. Sätzen</thema>, <zeit>3
         U. 4 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-        <vorname>O. B.</vorname></dozent>,<thema> Kursus der theoret. Chemie,
-        auf ein Jahr berechnet, in diesem Halbj. die sogenannte anorganische
-        Chemie</thema>, <zeit>8 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><dozent ref="kuehn_ob"><nachname>Kühn</nachname>,
+        <grad>D.</grad> <vorname>O. B.</vorname></dozent>,<thema> Kursus der
+        theoret. Chemie, auf ein Jahr berechnet, in diesem Halbj. die
+        sogenannte anorganische Chemie</thema>, <zeit>8 U. 6
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>über die
+        <veranstaltung><ders ref="kuehn_ob">Derselbe</ders>, <thema>über die
         chemisch-analytischen Methoden</thema>, <zeit>3 U. 4 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>gerichtliche Chemie, oder
-        Anweisung, die in gerichtlichen Fällen vorkommenden chemischen
-        Untersuchungen anzustellen, mit chemisch-praktischen Uebungen und der
-        Anleitung verbunden, die in den genannten Fällen erforderlichen
-        Aufsätze richtig abzufassen</thema>, <zeit>4 U. Mont. u.
-        Donn.</zeit></veranstaltung>
+        <veranstaltung><ders ref="kuehn_ob">Derselbe</ders>,
+        <thema>gerichtliche Chemie, oder Anweisung, die in gerichtlichen
+        Fällen vorkommenden chemischen Untersuchungen anzustellen, mit
+        chemisch-praktischen Uebungen und der Anleitung verbunden, die in den
+        genannten Fällen erforderlichen Aufsätze richtig abzufassen</thema>,
+        <zeit>4 U. Mont. u. Donn.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>chemisch-praktische
-        Uebungen <ort>in s. Laboratorio</ort></thema>, <zeit>3-5 U. Mittw. u.
-        Sonn.</zeit> <modus>privatissime</modus>.</veranstaltung>
+        <veranstaltung><ders ref="kuehn_ob">Derselbe</ders>,
+        <thema>chemisch-praktische Uebungen <ort>in s.
+        Laboratorio</ort></thema>, <zeit>3-5 U. Mittw. u. Sonn.</zeit>
+        <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><dozent ref="fechner_gt"><nachname>Fechner</nachname>,
         <grad>M.</grad> <vorname>G. T.</vorname>, <funktion>Med.
@@ -1088,10 +1091,11 @@
             O.</funktion></dozent>, <thema>über das Evang. des
             Johannes</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Lindner</nachname>,
-            <grad>D.</grad> <vorname>F. W.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>über die Bergpredigt</thema>,
-            <zeit>4 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><dozent
+            ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
+            <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>über die Bergpredigt</thema>, <zeit>4 U. 2 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Theile</nachname>,
             <grad>D.</grad> <vorname>K. G. W.</vorname>, <funktion>Philos. P.
@@ -1272,10 +1276,10 @@
           <sachgruppe>
             <titel>Biblische Anthropologie.</titel>
 
-            <veranstaltung><dozent><nachname>Lindner</nachname>,
-            <grad>D.</grad> <vorname>F. W.</vorname>, <funktion>Catech. et
-            Paedag. P. E.</funktion></dozent>, <zeit>7 U. 2
-            T.</zeit></veranstaltung>
+            <veranstaltung><dozent
+            ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
+            <vorname>F. W.</vorname>, <funktion>Catech. et Paedag. P.
+            E.</funktion></dozent>, <zeit>7 U. 2 T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
@@ -1395,7 +1399,8 @@
           des.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><dozent><nachname>Lindner</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
           <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
           <zeit>7 U. 4 T.</zeit></veranstaltung>
         </sachgruppe>
@@ -1433,11 +1438,11 @@
           <sachgruppe>
             <titel>Katechetische Uebungen.</titel>
 
-            <veranstaltung><dozent><nachname>Lindner</nachname>,
-            <grad>D.</grad> <vorname>F. W.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema><ort>in der
-            Bürgerschule</ort></thema>, <zeit>Mont. u. Freit. 4-6
-            U.</zeit></veranstaltung>
+            <veranstaltung><dozent
+            ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
+            <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema><ort>in der Bürgerschule</ort></thema>, <zeit>Mont. u.
+            Freit. 4-6 U.</zeit></veranstaltung>
 
             <veranstaltung><dozent><nachname>Plato</nachname>, <vorname>G. J.
             K. L.</vorname>, <funktion>Philos. P. E.</funktion></dozent>,
@@ -2161,11 +2166,11 @@
           betreff="fortsetzung">Beschluß</notiz></thema>, <zeit>6 U. Vorm. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-          <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>über ausgesuchte Kapitel der Physiologie des menschlichen
-          Körpers</thema>, <zeit>11 U. 4 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung><dozent ref="kuehn_cg"><nachname>Kühn</nachname>,
+          <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P.
+          O.</funktion></dozent>, <thema>über ausgesuchte Kapitel der
+          Physiologie des menschlichen Körpers</thema>, <zeit>11 U. 4
+          T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><dozent><nachname>Wiese</nachname>, <grad>D.</grad>
           <vorname>F. A.</vorname></dozent>, <thema>über schwierigere Kapitel
@@ -2205,10 +2210,11 @@
           <sachgruppe>
             <titel>Specielle Pathologie.</titel>
 
-            <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-            <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>über ophthalmologische Nosologie</thema>, <zeit>11 U. 2
-            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><dozent ref="kuehn_cg"><nachname>Kühn</nachname>,
+            <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P.
+            O.</funktion></dozent>, <thema>über ophthalmologische
+            Nosologie</thema>, <zeit>11 U. 2 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
             <grad>D.</grad> <vorname>J. C. G.</vorname>, <funktion>P.

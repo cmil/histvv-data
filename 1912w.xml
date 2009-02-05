@@ -1586,11 +1586,11 @@
         Windmühlenweg 20</ort>.</veranstaltung>
 
         <veranstaltung><thema>Elektrodiagnostik und -Therapie, mit praktischen
-        Übungen</thema>: <dozent><grad>D. med.</grad> <vorname>G.</vorname>
-        <nachname>Köster</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Do. 4-5 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Medizinisch-poliklin. Institut, Nürnberger Str.
-        55</ort>.</veranstaltung>
+        Übungen</thema>: <dozent ref="koester_g"><grad>D. med.</grad>
+        <vorname>G.</vorname> <nachname>Köster</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Do. 4-5 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Medizinisch-poliklin. Institut,
+        Nürnberger Str. 55</ort>.</veranstaltung>
 
         <veranstaltung><thema>Kriminalpsychologie</thema>: <dozent
         ref="doellken_a"><grad>D. med.</grad> <nachname>Döllken</nachname>,
@@ -1772,19 +1772,19 @@
       <sachgruppe>
         <titel>Ohren-, Nasen- und Halskrankheiten.</titel>
 
-        <veranstaltung><thema>Akustik, Stimme u. Sprache</thema>:
-        <dozent><grad>D. med.</grad> <vorname>A.</vorname>
+        <veranstaltung><thema>Akustik, Stimme u. Sprache</thema>: <dozent
+        ref="barth_af"><grad>D. med.</grad> <vorname>A.</vorname>
         <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mi. 6-7 U.</zeit>, <modus>publice</modus>, <ort>in der Klinik f.
         Ohren-, Nasen- u. Halskrankheiten, Liebigstr.
         18a</ort>.</veranstaltung>
 
         <veranstaltung><thema>Untersuchungsmethoden und Praktikum der Ohren-,
-        Nasen- und Halskrankheiten</thema>: <dozent><grad>D. med.</grad>
-        <vorname>A.</vorname> <nachname>Barth</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>tägl. (außer Do.) 10-11 U.</zeit>,
-        <modus>privatim</modus>, <ort>in der Klinik für Ohren-, Nasen- u.
-        Halskrankheiten, Liebigstr. 18a</ort>.</veranstaltung>
+        Nasen- und Halskrankheiten</thema>: <dozent ref="barth_af"><grad>D.
+        med.</grad> <vorname>A.</vorname> <nachname>Barth</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>tägl. (außer Do.) 10-11
+        U.</zeit>, <modus>privatim</modus>, <ort>in der Klinik für Ohren-,
+        Nasen- u. Halskrankheiten, Liebigstr. 18a</ort>.</veranstaltung>
 
         <veranstaltung><thema>Übungen in der Untersuchung von Hals, Nase und
         Ohr (für Anfänger)</thema>: <dozent><grad>D. med.</grad>
@@ -1913,13 +1913,13 @@
         <sachgruppe>
           <titel>a) Innere Medizin.</titel>
 
-          <veranstaltung><dozent><grad>D. med.</grad> <vorname>G.</vorname>
-          <nachname>Köster</nachname>, <funktion>P. E.</funktion></dozent>:
-          <ort>In der Privatpoliklinik für Nervenkrankheiten (Königstr. 14.
-          I.)</ort>: <thema>Neuropatholo<seite>21</seite>gische
-          Demonstrationen und Übungen in der Untersuchung
-          Nervenkranker</thema>, <zeit>tägl. 2-3½ U.</zeit>,
-          <modus>privatim</modus>, aber
+          <veranstaltung><dozent ref="koester_g"><grad>D. med.</grad>
+          <vorname>G.</vorname> <nachname>Köster</nachname>, <funktion>P.
+          E.</funktion></dozent>: <ort>In der Privatpoliklinik für
+          Nervenkrankheiten (Königstr. 14. I.)</ort>:
+          <thema>Neuropatholo<seite>21</seite>gische Demonstrationen und
+          Übungen in der Untersuchung Nervenkranker</thema>, <zeit>tägl. 2-3½
+          U.</zeit>, <modus>privatim</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><dozent><grad>D. med.</grad>
@@ -2182,9 +2182,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Philosophie Spinozas und seiner
-        Zeit</thema>: <dozent><grad>D. ph.</grad> <vorname>P.</vorname>
-        <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mi. u. So. 3-4 U.</zeit>,
+        Zeit</thema>: <dozent ref="barth_pee"><grad>D. ph.</grad>
+        <vorname>P.</vorname> <nachname>Barth</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mi. u. So. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Schopenhauer, Nietzsche und der moderne
@@ -2229,9 +2229,10 @@
         Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die Geschichte der Erziehung in soziologischer
-        und geistesgeschichtlicher Beleuchtung</thema>: <dozent><grad>D.
-        ph.</grad> <vorname>P.</vorname> <nachname>Barth</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mi. u. So. 4-5 U.</zeit>,
+        und geistesgeschichtlicher Beleuchtung</thema>: <dozent
+        ref="barth_pee"><grad>D. ph.</grad> <vorname>P.</vorname>
+        <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mi. u. So. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte des gelehrten Unterrichts seit der
@@ -2281,8 +2282,8 @@
           <thema>Erkenntnistheoretische und logische Übungen (in Anknüpfung an
           Lotze's "System der Philosophie")</thema>, <zeit>Mi. 4-6 U.</zeit>,
           <modus>privatissime</modus>,
-          <gebühr>gratis</gebühr>.</veranstaltung> - <veranstaltung>2)
-          <dozent><grad>D. ph.</grad> <vorname>P.</vorname>
+          <gebühr>gratis</gebühr>.</veranstaltung> - <veranstaltung>2) <dozent
+          ref="barth_pee"><grad>D. ph.</grad> <vorname>P.</vorname>
           <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>:
           <thema>Erklärung der Geschichtsphilosophie Hegels mit schriftlichen
           Arbeiten</thema>, <zeit>Di. 8-9½ U. Ab.</zeit>,
@@ -2385,9 +2386,9 @@
 
           <veranstaltung><dozent ref="jungmann_e"><grad>D. ph.</grad>
           <nachname>Jungmann</nachname>, <funktion>P. O.
-          Hon.</funktion></dozent>: <thema>Übungen</thema> <dozent>unter
-          Mitwirkung von <funktion>Prof.</funktion> <grad>D.</grad>
-          <nachname>Lehmann</nachname> (für Mathematik und
+          Hon.</funktion></dozent>: <thema>Übungen</thema> <dozent
+          ref="lehmann_e">unter Mitwirkung von <funktion>Prof.</funktion>
+          <grad>D.</grad> <nachname>Lehmann</nachname> (für Mathematik und
           Naturwissenschaften)</dozent>, und
           <dozent><funktion>Prof.</funktion> <grad>D.</grad>
           <nachname>Hartmann</nachname> (für Französisch und
@@ -2446,9 +2447,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Einführung in die altattische Komödie und
-          Erklärung von Aristophanes Acharnern</thema>: <dozent><grad>D. ph.
-          et jur.</grad> <nachname>Lipsius</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mo., Di., Do. u. Fr. 11-12 U.</zeit>,
+          Erklärung von Aristophanes Acharnern</thema>: <dozent
+          ref="lipsius_jh"><grad>D. ph. et jur.</grad>
+          <nachname>Lipsius</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mo., Di., Do. u. Fr. 11-12 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Die griechische Tragödie mit
@@ -2586,20 +2588,20 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Lektüre ausgewählter Stücke des
-          Avesta</thema>: <dozent><grad>D. ph.</grad>
+          Avesta</thema>: <dozent ref="lindner_b"><grad>D. ph.</grad>
           <nachname>Lindner</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>in noch zu best. Zeit</zeit>, <modus>privatissime</modus> und
           <gebühr>gratis</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Altarmenische Grammatik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Lindner</nachname>,
+          <veranstaltung><thema>Altarmenische Grammatik</thema>: <dozent
+          ref="lindner_b"><grad>D. ph.</grad> <nachname>Lindner</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>Mi. 11-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Armenische Lektüre</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Lindner</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>in noch zu best. Zeit</zeit>,
-          <modus>privatissime</modus> und
+          <veranstaltung><thema>Armenische Lektüre</thema>: <dozent
+          ref="lindner_b"><grad>D. ph.</grad> <nachname>Lindner</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>in noch zu best.
+          Zeit</zeit>, <modus>privatissime</modus> und
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Einführung ins Sumerische</thema>:
@@ -2846,7 +2848,7 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Geschichte der deutschen Literatur im 18.
-          Jahrhundert</thema>: <dozent><grad>D. ph.</grad>
+          Jahrhundert</thema>: <dozent ref="koester_a"><grad>D. ph.</grad>
           <vorname>A.</vorname> <nachname>Köster</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Mo., Di., Do. u. Fr. 12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2876,7 +2878,7 @@
             th.</grad> <nachname>Sievers</nachname>, <funktion>P.
             O.</funktion></dozent> (<thema>ältere Abteilung</thema>),
             <zeit>Mi. 11-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
-            - <veranstaltung>2) <dozent><grad>D. ph.</grad>
+            - <veranstaltung>2) <dozent ref="koester_a"><grad>D. ph.</grad>
             <vorname>A.</vorname> <nachname>Köster</nachname>, <funktion>P.
             O.</funktion></dozent> (<thema>neuere Abteilung</thema>),
             <zeit>Mo. 8-10 U. Ab.</zeit>,
@@ -2903,7 +2905,7 @@
             Ab.</zeit>,
             <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe> -
             <veranstaltungsgruppe>2) <thema>Neuere Abteilung</thema>:
-            <veranstaltung>a) <dozent><grad>D. ph.</grad>
+            <veranstaltung>a) <dozent ref="koester_a"><grad>D. ph.</grad>
             <vorname>A.</vorname> <nachname>Köster</nachname>, <funktion>P.
             O.</funktion></dozent>: <thema>Die Fremdwörterfrage in
             historischer u. künstlerischer Beleuchtung</thema>, <zeit>Di. 11
@@ -3261,7 +3263,7 @@
         <zeit>Mi. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Sächsische Geschichte im 18. und 19.
-        Jahrhundert</thema>: <dozent><grad>D. ph.</grad>
+        Jahrhundert</thema>: <dozent ref="koetzschke_r"><grad>D. ph.</grad>
         <nachname>Kötzschke</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mo. u. Do. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -3571,7 +3573,7 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
           <titel>Seminar für Landesgeschichte und Siedelungskunde
           (<ort>Goldner Bär, Universitätsstr. 11</ort>).</titel>
 
-          <veranstaltung><dozent><grad>D. ph.</grad>
+          <veranstaltung><dozent ref="koetzschke_r"><grad>D. ph.</grad>
           <nachname>Kötzschke</nachname>, <funktion>P. E.</funktion></dozent>:
           <thema>Einführung in das historische Verständnis des städtischen
           Siedlungs- und Wohnungswesens in Deutschland</thema>, <zeit>Fr. 2½-4

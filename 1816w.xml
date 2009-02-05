@@ -120,9 +120,9 @@
           Orator</thema>, <zeit>3 U. Dienst. u. Freyt.</zeit>
           <modus>öff.</modus></veranstaltung>
 
-          <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
-          <nachname>Kühn</nachname></dozent>, <thema>über den Celsus</thema>,
-          <zeit>11 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="kuehn_cg"><funktion>P. O.</funktion>
+          <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <thema>über den
+          Celsus</thema>, <zeit>11 U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung><dozent><funktion>P. E.</funktion>
           <nachname>Rost</nachname></dozent>, <thema>über des Plautus
@@ -213,8 +213,8 @@ Was bedeutet das "ausser"?-->
           Stöckhardt's ital. Sprachlehre u. über das Enchiridio da
           Mocenni</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><grad>M.</grad>
-          <nachname>Kuntze</nachname></dozent>.</veranstaltung>
+          <veranstaltung><dozent ref="kunze_kw"><grad>M.</grad>
+          <nachname>Kuntze<!-- Dass es sich hier um kunze_kw handelt, ergibt sich aus dem Catalogus lectionum, S. 22: "Italicam et Gallicam linguam discere cupientibus M. CAR. GUIL. KVNTZE operam suam offert."--></nachname></dozent>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -237,8 +237,8 @@ Was bedeutet das "ausser"?-->
           verstorb. Prof. Charles de Villers</thema></veranstaltung> - auch
           <veranstaltung><modus>privatiss.</modus> <thema>Abend -
           Unterhaltungen</thema></veranstaltung> geben
-          wird</veranstaltungsgruppe>.
-          <veranstaltung><dozent><nachname>Bouc</nachname></dozent></veranstaltung>;
+          wird</veranstaltungsgruppe>. <veranstaltung><dozent
+          ref="bouc_jl"><nachname>Bouc</nachname></dozent></veranstaltung>;
           <veranstaltung><dozent ref="kunze_kw"><grad>M.</grad>
           <nachname>Kunze</nachname></dozent></veranstaltung>;
           <veranstaltung><dozent><nachname>Paien</nachname></dozent></veranstaltung>.</veranstaltungsgruppe>
@@ -253,9 +253,10 @@ Was bedeutet das "ausser"?-->
         <titel>I) Philosophie.</titel>
 
         <veranstaltung>den Vortrag der <thema>Geschichte d. alt.
-        Philos.</thema> <notiz betreff="fortsetzung">beendigt</notiz>
-        <dozent><funktion>P. O.</funktion> <nachname>Krug</nachname></dozent>,
-        <zeit>8 U. 4 T.</zeit> <modus>öff.</modus> -</veranstaltung>
+        Philos.</thema> <notiz betreff="fortsetzung">beendigt</notiz> <dozent
+        ref="krug_wt"><funktion>P. O.</funktion>
+        <nachname>Krug</nachname></dozent>, <zeit>8 U. 4 T.</zeit>
+        <modus>öff.</modus> -</veranstaltung>
 
         <sachgruppe>
           <titel>System der Philosophie.</titel>
@@ -264,8 +265,8 @@ Was bedeutet das "ausser"?-->
             <titel>1) Fundamental-Philosophie und philosoph.
             Encyklopädie</titel>
 
-            <veranstaltung>trägt <ders>derselbe</ders>, <zeit>8 U. 2 T.</zeit>
-            vor.</veranstaltung>
+            <veranstaltung>trägt <ders ref="krug_wt">derselbe</ders>, <zeit>8
+            U. 2 T.</zeit> vor.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
@@ -300,7 +301,7 @@ Was bedeutet das "ausser"?-->
           <sachgruppe>
             <titel>3) Praktische Philosophie.</titel>
 
-            <veranstaltung><dozent><funktion>P. O.</funktion>
+            <veranstaltung><dozent ref="krug_wt"><funktion>P. O.</funktion>
             <nachname>Krug</nachname></dozent>, <thema>philos. Rechts-,
             Tugend- und Religions-Lehre</thema>, <zeit>11 U. 6
             T.</zeit></veranstaltung>
@@ -331,7 +332,7 @@ Was bedeutet das "ausser"?-->
               <nachname>Günther</nachname></dozent> <thema>Natur- u.
               Völkerrecht</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><grad>D.</grad>
+              <veranstaltung><dozent ref="wiesand_cw"><grad>D.</grad>
               <nachname>Wiesand</nachname></dozent> <thema>Naturrecht</thema>,
               <zeit>4 U. 4 T.</zeit></veranstaltung>
             </sachgruppe>
@@ -834,8 +835,8 @@ Müsste doch eigentlich Korinther heißen...-->
               Kanzel durch Beyspiele erläutern</thema>, <zeit>10 U. 2
               T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><funktion>P. E.</funktion>
-              <nachname>Lindner</nachname></dozent>,
+              <veranstaltung><dozent ref="lindner_fw"><funktion>P.
+              E.</funktion> <nachname>Lindner</nachname></dozent>,
               <thema>praktisch-religiöse Exegese über das Leben Jesu, nach den
               vier Evangelisten, für prakt. Religionslehrer in Schulen und
               Kirchen</thema>, <zeit>4 U. 4 T.</zeit>
@@ -1134,8 +1135,8 @@ Müsste doch eigentlich Korinther heißen...-->
                 T.</zeit></veranstaltung> <veranstaltung><dozent
                 ref="bauer_hg"><grad>D.</grad>
                 <nachname>Bauer</nachname></dozent>, <zeit>8 U. 6
-                T.</zeit></veranstaltung>
-                <veranstaltung><dozent><grad>D.</grad>
+                T.</zeit></veranstaltung> <veranstaltung><dozent
+                ref="wiesand_cw"><grad>D.</grad>
                 <nachname>Wiesand</nachname></dozent>, <zeit>3 U. 6
                 T.</zeit></veranstaltung>
                 <veranstaltung><dozent><grad>D.</grad>
@@ -1444,7 +1445,7 @@ Müsste doch eigentlich Korinther heißen...-->
             <nachname>Bauer</nachname></dozent></veranstaltung>,
             <veranstaltung><dozent ref="beck_jlw"><grad>D.</grad>
             <nachname>Beck</nachname></dozent></veranstaltung>,
-            <veranstaltung><dozent><grad>D.</grad>
+            <veranstaltung><dozent ref="wiesand_cw"><grad>D.</grad>
             <nachname>Wiesand</nachname></dozent></veranstaltung>,
             <veranstaltung><dozent><grad>D.</grad>
             <nachname>Hahmann</nachname></dozent></veranstaltung>,
@@ -1719,7 +1720,7 @@ Müsste doch eigentlich Korinther heißen...-->
               <zeit>5 U. Dienst. u. Freyt.</zeit>
               <modus>öff.</modus></veranstaltung>
 
-              <veranstaltung><dozent><funktion>P. O.</funktion>
+              <veranstaltung><dozent ref="kuehn_cg"><funktion>P. O.</funktion>
               <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <thema>nach
               Conradi</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
@@ -1750,7 +1751,7 @@ Müsste doch eigentlich Korinther heißen...-->
               <nachname>Platner</nachname></dozent>, <thema>über die
               Augenkrankheiten</thema>, <zeit>5 U. 2 T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><funktion>P. O.</funktion>
+              <veranstaltung><dozent ref="kuehn_cg"><funktion>P. O.</funktion>
               <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <thema>über
               die Brüche</thema>, <zeit>11 U. 4 T.</zeit>
               <modus>öff.</modus></veranstaltung>
@@ -2082,8 +2083,8 @@ Müsste doch eigentlich Korinther heißen...-->
           <sachgruppe>
             <titel>a) Medicinische Polizeywissenschaft,</titel>
 
-            <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
-            <nachname>Kühn</nachname></dozent>, <zeit>3 U. 4
+            <veranstaltung><dozent ref="kuehn_cg"><funktion>P. O.</funktion>
+            <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <zeit>3 U. 4
             T.</zeit></veranstaltung>
 
             <sachgruppe>

@@ -148,14 +148,14 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Kirchengeschichte <notiz betreff="fortsetzung">I.
-      Theil</notiz></thema>: <dozent><grad>D. ph.</grad> <grad>Lic.</grad>
-      <nachname>Loofs</nachname></dozent>, <zeit>täglich 8-9 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Theil</notiz></thema>: <dozent ref="loofs_f"><grad>D. ph.</grad>
+      <grad>Lic.</grad> <nachname>Loofs</nachname></dozent>, <zeit>täglich 8-9
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Reformationsgeschichte</thema>: <dozent><grad>D.
-      ph.</grad> <grad>Lic.</grad> <nachname>Loofs</nachname></dozent>,
-      <zeit>Mont. u. Donnerst. 6-7 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      <veranstaltung><thema>Reformationsgeschichte</thema>: <dozent
+      ref="loofs_f"><grad>D. ph.</grad> <grad>Lic.</grad>
+      <nachname>Loofs</nachname></dozent>, <zeit>Mont. u. Donnerst. 6-7
+      U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung><thema>Dogmatik</thema>: <dozent ref="fricke_ga"><grad>D.
       th. &amp; ph.</grad> <nachname>Fricke</nachname>, <funktion>P.
@@ -258,7 +258,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltungsgruppe><thema>Kirchenhistorische Gesellschaft</thema>:
-      <dozent><grad>D. ph.</grad> <grad>Lic.</grad>
+      <dozent ref="loofs_f"><grad>D. ph.</grad> <grad>Lic.</grad>
       <nachname>Loofs</nachname></dozent>, <veranstaltung>a) <thema>I.
       Abtheilung (Apostolische Väter)</thema>, <zeit>Donnerst. 7½-9 U.
       Ab.</zeit></veranstaltung>, <veranstaltung>b) <thema>II. Abtheilung
@@ -1462,10 +1462,10 @@ Innerhalb von Dozent1?))-->, <zeit>Mittw. 5-7 U. u. Sonnab. 3-5 U.</zeit>,
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung von Aeschylus Persern mit Einleitung
-          über das griechische Bühnenwesen</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Lipsius</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
-          12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          über das griechische Bühnenwesen</thema>: <dozent
+          ref="lipsius_jh"><grad>D. ph.</grad> <nachname>Lipsius</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
+          u. Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung des Theokrit, mit einer Einleitung
           über das Leben des Dichters und die Geschichte der idyllischen
@@ -1518,7 +1518,7 @@ Innerhalb von Dozent1?))-->, <zeit>Mittw. 5-7 U. u. Sonnab. 3-5 U.</zeit>,
 
           <veranstaltung><thema>Uebungen des Königlichen philologischen
           Seminars (Interpretation von Tacitus Agricola und Disputationen über
-          Arbeiten)</thema>: <dozent><grad>D. ph.</grad>
+          Arbeiten)</thema>: <dozent ref="lipsius_jh"><grad>D. ph.</grad>
           <nachname>Lipsius</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Sonnab. 11-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
@@ -1545,14 +1545,14 @@ Innerhalb von Dozent1?))-->, <zeit>Mittw. 5-7 U. u. Sonnab. 3-5 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen des Kaiserlich Russischen
-          philologischen Instituts</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Lipsius</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mittw. 10-12 U. u. Donnerst. 6-8 U. Ab.</zeit>,
-          <modus>privatissime</modus>.</veranstaltung>
+          philologischen Instituts</thema>: <dozent ref="lipsius_jh"><grad>D.
+          ph.</grad> <nachname>Lipsius</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mittw. 10-12 U. u. Donnerst. 6-8 U.
+          Ab.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen der griechisch-antiquarischen
           Gesellschaft (Fragen über das spartanische Staatswesen und
-          Arbeiten)</thema>: <dozent><grad>D. ph.</grad>
+          Arbeiten)</thema>: <dozent ref="lipsius_jh"><grad>D. ph.</grad>
           <nachname>Lipsius</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont. 6-8 U. Ab.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1599,18 +1599,20 @@ Innerhalb von Dozent1?))-->, <zeit>Mittw. 5-7 U. u. Sonnab. 3-5 U.</zeit>,
         <sachgruppe>
           <titel>b) Orientalische Philologie.</titel>
 
-          <veranstaltung><thema>Sanskrit-Grammatik</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Lindner</nachname></dozent>, <zeit>Mont.,
-          Dienst., Donnerst. u. Freit. 3-4 U.</zeit>,
+          <veranstaltung><thema>Sanskrit-Grammatik</thema>: <dozent
+          ref="lindner_b"><grad>D. ph.</grad>
+          <nachname>Lindner</nachname></dozent>, <zeit>Mont., Dienst.,
+          Donnerst. u. Freit. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <seite>19</seite>
 
           <veranstaltung><thema>Lektüre leichterer Sanskrittexte nach
           Böthlingk's Chrestomathie (Sankskrit <notiz
-          betreff="fortsetzung">II. Cursus</notiz>)</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Lindner</nachname></dozent>, <zeit>Mont. u.
-          Donnerst. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          betreff="fortsetzung">II. Cursus</notiz>)</thema>: <dozent
+          ref="lindner_b"><grad>D. ph.</grad>
+          <nachname>Lindner</nachname></dozent>, <zeit>Mont. u. Donnerst. 4-5
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Rig-Veda</thema>: <dozent><grad>D. ph.</grad>
           <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
@@ -1618,7 +1620,7 @@ Innerhalb von Dozent1?))-->, <zeit>Mittw. 5-7 U. u. Sonnab. 3-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Altpersische Grammatik und Erklärung der
-          Keilinschriften</thema>: <dozent><grad>D. ph.</grad>
+          Keilinschriften</thema>: <dozent ref="lindner_b"><grad>D. ph.</grad>
           <nachname>Lindner</nachname></dozent>, <zeit>Mittw. u. Sonnab. 10-11
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1976,9 +1978,9 @@ Innerhalb von Dozent1?))-->, <zeit>Mittw. 5-7 U. u. Sonnab. 3-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Einleitung in die allgemeine
-        Religionsgeschichte</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Lindner</nachname></dozent>, <zeit>Mittw. u. Sonnab. 11-12
-        U.</zeit>, <modus>publice</modus>.</veranstaltung>
+        Religionsgeschichte</thema>: <dozent ref="lindner_b"><grad>D.
+        ph.</grad> <nachname>Lindner</nachname></dozent>, <zeit>Mittw. u.
+        Sonnab. 11-12 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geographie von Asien</thema>: <dozent
         ref="richthofen_fpwd"><grad>D. ph.</grad> <nachnamenpräfix>Freiherr
@@ -2024,7 +2026,7 @@ Innerhalb von Dozent1?))-->, <zeit>Mittw. 5-7 U. u. Sonnab. 3-5 U.</zeit>,
 
         <absatz>Kirchengeschichte: <dozent ref="lechler_g"><grad>D. th. &amp;
         ph.</grad> <nachname>Lechler</nachname>, <funktion>P.
-        O.</funktion></dozent>, und <dozent><grad>D. ph.</grad>
+        O.</funktion></dozent>, und <dozent ref="loofs_f"><grad>D. ph.</grad>
         <grad>Lic.</grad> <nachname>Loofs</nachname></dozent>. <siehe>Siehe
         Theologische Facultät</siehe>.<!--(unter beide Dozenten sind jeweils mehr als 
 eine VA Kirchengeschichte zu finden)--></absatz>

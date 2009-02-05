@@ -810,11 +810,11 @@
 
       <veranstaltung><thema>Chemisches Praktikum für Mediziner</thema>:
       <dozent><grad>D. ph. et med.</grad> <nachname>Hantzsch</nachname>,
-      <funktion>P. O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
-      <nachname>Ley</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>sechsstünd., an 2 oder 3 Tagen, nach Vereinbarung</zeit>,
-      <modus>privatim</modus>, <ort>im Chemischen Laboratorium, Liebigstr.
-      18</ort>.</veranstaltung>
+      <funktion>P. O.</funktion></dozent>, <dozent ref="ley_h">mit <grad>D.
+      ph.</grad> <nachname>Ley</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>sechsstünd., an 2 oder 3 Tagen, nach
+      Vereinbarung</zeit>, <modus>privatim</modus>, <ort>im Chemischen
+      Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
       <seite>10</seite>
 
@@ -985,9 +985,9 @@
       22</ort>.</veranstaltung>
 
       <veranstaltung><thema>Elektrodiagnostik und -Therapie, mit praktischen
-      <seite>12</seite>Übungen</thema>: <dozent><grad>D. med.</grad>
-      <vorname>G.</vorname> <nachname>Köster</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Donnerst. 4-5 U.</zeit>,
+      <seite>12</seite>Übungen</thema>: <dozent ref="koester_g"><grad>D.
+      med.</grad> <vorname>G.</vorname> <nachname>Köster</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. 4-5 U.</zeit>,
       <modus>privatim</modus>, <ort>im Medizinisch-poliklin. Institut,
       Nürnerger Str. 55</ort>.</veranstaltung>
 
@@ -1544,12 +1544,12 @@
         <sachgruppe>
           <titel>a) Innere Medizin.</titel>
 
-          <veranstaltung><dozent><grad>D. med.</grad> <vorname>G.</vorname>
-          <nachname>Köster</nachname>, <funktion>P. E.</funktion></dozent>:
-          <thema>In der Privatpoliklinik für Nervenkrankheiten</thema>
-          (<ort>Königstr. 14. I.</ort>): <thema>Neuropathologische
-          Demonstrationen und Übungen in der Untersuchung
-          Nervenkranker</thema>, <zeit>tägl. 2½-4 U.</zeit>,
+          <veranstaltung><dozent ref="koester_g"><grad>D. med.</grad>
+          <vorname>G.</vorname> <nachname>Köster</nachname>, <funktion>P.
+          E.</funktion></dozent>: <thema>In der Privatpoliklinik für
+          Nervenkrankheiten</thema> (<ort>Königstr. 14. I.</ort>):
+          <thema>Neuropathologische Demonstrationen und Übungen in der
+          Untersuchung Nervenkranker</thema>, <zeit>tägl. 2½-4 U.</zeit>,
           <modus>privatim</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1800,10 +1800,10 @@
         <zeit>Dienst. u. Freit. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Hauptprobleme der Philosophie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Lipps</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Freit. 3-4 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Hauptprobleme der Philosophie</thema>: <dozent
+        ref="lipps_f"><grad>D. ph.</grad> <nachname>Lipps</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Freit. 3-4
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der griechischen Philosophie</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Brahn</nachname></dozent>,
@@ -1898,7 +1898,7 @@
         <funktion>P. E.</funktion></dozent>: <thema>Systematik der
         Geisteswissenschaften mit besonderer Rücksicht auf Philosophie und
         Sprachwissenschaft</thema>, <zeit>Mont. 4-5 U.</zeit></veranstaltung>;
-        <veranstaltung><dozent><grad>D. ph.</grad>
+        <veranstaltung><dozent ref="koetzschke_r"><grad>D. ph.</grad>
         <nachname>Kötzschke</nachname>, <funktion>P. E.</funktion></dozent>:
         <thema>Die historische Methode in den Geisteswissenschaften</thema>,
         <zeit>Donnerst. 4-5 U.</zeit></veranstaltung> und
@@ -1925,7 +1925,7 @@
 
         <veranstaltung><thema>Philosophische Übungen (Vorträge und
         Diskussionen) im Anschluß an Hegels Phänomenologie des
-        Geistes</thema>: <dozent><grad>D. ph.</grad>
+        Geistes</thema>: <dozent ref="lipps_f"><grad>D. ph.</grad>
         <nachname>Lipps</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mittw. 6-7 U.</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1967,9 +1967,10 @@
         den Räumen des König Albert-Gymnasiums, Parthenstr. 1, und des
         Thomasgymnasiums, Schreberstr. 9</ort>): <dozent
         ref="jungmann_e"><grad>D. ph.</grad> <nachname>Jungmann</nachname>,
-        <funktion>P. E.</funktion></dozent>, <dozent>unter Mitwirkung von
-        <grad>Prof. D.</grad> <nachname>Lehmann</nachname> (für Mathe-<seite>24</seite>matik
-        und Naturwissenschaften)</dozent>, <dozent>und <grad>Prof. D.</grad>
+        <funktion>P. E.</funktion></dozent>, <dozent ref="lehmann_e">unter
+        Mitwirkung von <funktion>Prof.</funktion> <grad>D.</grad>
+        <nachname>Lehmann</nachname> (für Mathe-<seite>24</seite>matik und
+        Naturwissenschaften)</dozent>, <dozent>und <grad>Prof. D.</grad>
         <nachname>Hartmann</nachname> (für Französisch und Englisch)</dozent>,
         <zeit>Mittw. u. Sonnab. 2-4 U.</zeit>, <modus>privatissime</modus>,
         aber <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2030,9 +2031,10 @@
 
           <veranstaltung><thema>Erklärung von Demosthenes Kranzrede mit
           Einleitung über Demosthenes und die zeitgenössischen Redner</thema>:
-          <dozent><grad>D. ph. et jur.</grad> <nachname>Lipsius</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
-          u. Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="lipsius_jh"><grad>D. ph. et jur.</grad>
+          <nachname>Lipsius</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Einführung in das hellenistische und
           byzantinische Griechisch mit Textinterpretationen</thema>:
@@ -2152,21 +2154,21 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Altpersische Grammatik und Erklärung der
-          Keilinschriften</thema>: <dozent><grad>D. ph.</grad>
+          Keilinschriften</thema>: <dozent ref="lindner_b"><grad>D. ph.</grad>
           <nachname>Lindner</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mittw. 11-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Lektüre ausgewählter Stücke des
-          Avesta</thema>: <dozent><grad>D. ph.</grad>
+          Avesta</thema>: <dozent ref="lindner_b"><grad>D. ph.</grad>
           <nachname>Lindner</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>in noch zu best. Zeit</zeit>, <modus>privatissime</modus> et
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <seite>26</seite>
 
-          <veranstaltung><thema>Altarmenische Lektüre</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Lindner</nachname>,
+          <veranstaltung><thema>Altarmenische Lektüre</thema>: <dozent
+          ref="lindner_b"><grad>D. ph.</grad> <nachname>Lindner</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>in noch zu best.
           Zeit</zeit>, <modus>privatissime</modus> et
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2400,24 +2402,25 @@
           <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Die Sturm- und Drangzeit</thema>:
-          <dozent><grad>D. ph.</grad> <vorname>A.</vorname>
+          <veranstaltung><thema>Die Sturm- und Drangzeit</thema>: <dozent
+          ref="koester_a"><grad>D. ph.</grad> <vorname>A.</vorname>
           <nachname>Köster</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Freit. 11-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Erklärung von Goethes Faust, <notiz
-          betreff="fortsetzung">II. Teil</notiz></thema>: <dozent><grad>D.
-          ph.</grad> <vorname>A.</vorname> <nachname>Köster</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. 11-12
-          U.</zeit>, <modus>privatim</modus> (<gebühr>für Hörer der
-          Faustvorlesung im Winter 1910/11 gratis</gebühr>).</veranstaltung>
+          betreff="fortsetzung">II. Teil</notiz></thema>: <dozent
+          ref="koester_a"><grad>D. ph.</grad> <vorname>A.</vorname>
+          <nachname>Köster</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Donnerst. 11-12 U.</zeit>, <modus>privatim</modus>
+          (<gebühr>für Hörer der Faustvorlesung im Winter 1910/11
+          gratis</gebühr>).</veranstaltung>
 
           <veranstaltung><thema>Geschichte der deutschen Literatur im
-          Zeitalter der Romantik</thema>: <dozent><grad>D. ph.</grad>
-          <vorname>A.</vorname> <nachname>Köster</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst. 12-1
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          Zeitalter der Romantik</thema>: <dozent ref="koester_a"><grad>D.
+          ph.</grad> <vorname>A.</vorname> <nachname>Köster</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst. u.
+          Donnerst. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Der deutsche Roman des 19.
           Jahrhunderts</thema>: <dozent><grad>D. ph.</grad>
@@ -2431,12 +2434,13 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung><thema>Die Entwicklung der Bühne vom 15.-20.
-          Jahrhundert, mit Anschauungsmaterial</thema>: <dozent><grad>D.
-          ph.</grad> <vorname>A.</vorname> <nachname>Köster</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 4-6 U.</zeit>,
-          <modus>privatim</modus>. <thema>[Für den Besuch dieser Vorlesung
-          werden Karten ausgegeben, über deren Aushändigung Näheres am
-          schwarzen Brett mitgeteilt wird]</thema>.</veranstaltung>
+          Jahrhundert, mit Anschauungsmaterial</thema>: <dozent
+          ref="koester_a"><grad>D. ph.</grad> <vorname>A.</vorname>
+          <nachname>Köster</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mittw. 4-6 U.</zeit>, <modus>privatim</modus>. <thema>[Für den
+          Besuch dieser Vorlesung werden Karten ausgegeben, über deren
+          Aushändigung Näheres am schwarzen Brett mitgeteilt
+          wird]</thema>.</veranstaltung>
 
           <trennlinie/>
 
@@ -2444,8 +2448,8 @@
           <veranstaltung>1) <dozent><grad>D. ph. et th.</grad>
           <nachname>Sievers</nachname>, <funktion>P. O.</funktion></dozent>
           <thema>(ältere Abteilung)</thema>, <zeit>Mittw. 11-1 U.</zeit>,
-          <modus>publice</modus></veranstaltung>. -<veranstaltung>2)
-          <dozent><grad>D. ph.</grad> <vorname>A.</vorname>
+          <modus>publice</modus></veranstaltung>. -<veranstaltung>2) <dozent
+          ref="koester_a"><grad>D. ph.</grad> <vorname>A.</vorname>
           <nachname>Köster</nachname>, <funktion>P. O.</funktion></dozent>
           <thema>(neuere Abteilung)</thema>, <zeit>Mont. 8-9½ U. Ab.</zeit>,
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
@@ -2456,9 +2460,10 @@
           O.</funktion></dozent> <thema>(mittelhochdeutsche Abteilung):
           Erklärung des Gregorius von Hartmann von Aue</thema>, <zeit>Sonnab.
           11-1 U.</zeit>, <modus>publice</modus></veranstaltung>.
-          -<veranstaltung>2) <dozent><grad>D. ph.</grad> <vorname>A.</vorname>
-          <nachname>Köster</nachname>, <funktion>P. O.</funktion></dozent>
-          <thema>(neuere Abteilung)</thema>, <zeit>Dienst. 11-12 U.</zeit>,
+          -<veranstaltung>2) <dozent ref="koester_a"><grad>D. ph.</grad>
+          <vorname>A.</vorname> <nachname>Köster</nachname>, <funktion>P.
+          O.</funktion></dozent> <thema>(neuere Abteilung)</thema>,
+          <zeit>Dienst. 11-12 U.</zeit>,
           <modus>publice</modus></veranstaltung>. - <veranstaltung>3) <dozent
           ref="holz_g"><grad>D. ph.</grad> <nachname>Holz</nachname>,
           <funktion>P. E.</funktion></dozent> <thema>(althochdeutsche
@@ -2697,10 +2702,10 @@
         ph.</grad> <nachname>Schulz</nachname></dozent>, <zeit>Mittw. 5 bis 6
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Allgemeine Religionsgeschichte</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Lindner</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont. Dienst. u. Donnerst. 4-5
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <veranstaltung><thema>Allgemeine Religionsgeschichte</thema>: <dozent
+        ref="lindner_b"><grad>D. ph.</grad> <nachname>Lindner</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont. Dienst. u. Donnerst.
+        4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte des alten Vorderasiens</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Weißbach</nachname>,
@@ -2741,10 +2746,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Die wirtschaftliche Entwicklung Deutschlands und
-        ihre kulturgeschichtliche Bedeutung</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Kötzschke</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 10-11 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        ihre kulturgeschichtliche Bedeutung</thema>: <dozent
+        ref="koetzschke_r"><grad>D. ph.</grad> <nachname>Kötzschke</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 10-11
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung><thema>Geschichte der Kolonisation des deutschen Ostens
         im Mittelalter</thema>: <dozent><grad>D. ph.</grad>
@@ -2944,7 +2949,7 @@
             Übung sind mehrere Quelleneinprägungskurse durch besondere
             Repetenten verbunden</thema>.</veranstaltung>
 
-            <veranstaltung>3) <dozent><grad>D. ph.</grad>
+            <veranstaltung>3) <dozent ref="koetzschke_r"><grad>D. ph.</grad>
             <nachname>Kötzschke</nachname>, <funktion>P.
             E.</funktion></dozent>: <thema>Einführung in das Studium der
             wirtschafts- und sozialgeschichtlichen Quellen</thema>.
@@ -3083,7 +3088,7 @@
           <titel>Seminar für Landesgeschichte und Siedelungskunde (Goldner
           Bär, Universitätsstr. 11).</titel>
 
-          <veranstaltung><dozent><grad>D. ph.</grad>
+          <veranstaltung><dozent ref="koetzschke_r"><grad>D. ph.</grad>
           <nachname>Kötzschke</nachname>, <funktion>P. E.</funktion></dozent>:
           <thema>Einführung in das historische Verständnis des
           Siedelungswesens</thema>, <zeit>Mittw. 2½-4 U.</zeit>,
@@ -4003,15 +4008,15 @@
         Donnerst. 9-10 U.</zeit>, <modus>privatim</modus>, <ort>im
         Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Valenz und Elektrovalenz</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Ley</nachname>, <funktion>P.
+        <veranstaltung><thema>Valenz und Elektrovalenz</thema>: <dozent
+        ref="ley_h"><grad>D. ph.</grad> <nachname>Ley</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>Dienst. 6-7 U.</zeit>,
         <modus>privatim</modus>, <ort>im Chemischen Laboratorium, Liebigstr.
         18</ort>.</veranstaltung>
 
         <veranstaltung><thema>Physikalisch-chemische Methoden der
-        Konstitutionsbestimmung bei organischen Verbindungen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Ley</nachname>, <funktion>P.
+        Konstitutionsbestimmung bei organischen Verbindungen</thema>: <dozent
+        ref="ley_h"><grad>D. ph.</grad> <nachname>Ley</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>Mont. 12-1 U.</zeit>,
         <modus>privatim</modus>, <ort>im Chemischen Laboratorium, Liebigstr.
         18</ort>.</veranstaltung>
@@ -4347,10 +4352,10 @@
         <dozent>mit <grad>D. ph.</grad> <nachname>Stobbe</nachname>,
         <funktion>P. E.</funktion></dozent>, <dozent><grad>D. ph.</grad>
         <nachname>Rassow</nachname>, <funktion>P. E.</funktion></dozent>
-        <dozent>u. <grad>D. ph.</grad> <nachname>Ley</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>täglich 8-12½ U. u. (außer Sonnab.) 2-6
-        U.</zeit>, <modus>privatissime</modus>, <ort>im Chemischen
-        Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
+        <dozent ref="ley_h">u. <grad>D. ph.</grad> <nachname>Ley</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>täglich 8-12½ U. u. (außer
+        Sonnab.) 2-6 U.</zeit>, <modus>privatissime</modus>, <ort>im
+        Chemischen Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Chemisches Praktikum für
         Analytiker</thema>: <dozent><grad>D. ph. et med.</grad>

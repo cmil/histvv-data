@@ -685,12 +685,12 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Analytische Chemie (Reagentienlehre)</thema>:
-        <dozent><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Anorgan. Chemie durch Versuche
-        erläutert</thema>: <ders>Ders.</ders>, <zeit>8 U. 6
+        erläutert</thema>: <ders ref="kuehn_ob">Ders.</ders>, <zeit>8 U. 6
         T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Organische Chemie</thema>: <dozent
@@ -702,10 +702,10 @@
           <titel>Chemische Uebungen.</titel>
 
           <veranstaltung><thema>Chemisch-praktische Uebungen im Laboratorium
-          des Schlosses Pleißenburg</thema>: <dozent><grad>D.</grad>
-          <nachname>Kühn</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>10-12 oder 2-4 U. oder in mehr St. hintereinander an 2 oder
-          mehr Tagen</zeit>.</veranstaltung>
+          des Schlosses Pleißenburg</thema>: <dozent
+          ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>10-12 oder 2-4 U. oder in
+          mehr St. hintereinander an 2 oder mehr Tagen</zeit>.</veranstaltung>
 
           <veranstaltung><thema>Chemisches Praktikum</thema>: <dozent
           ref="erdmann_ol"><grad>D.</grad> <nachname>Erdmann</nachname>,
@@ -877,7 +877,7 @@
         Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung der Briefe Pauli an die Philipper und
-        an Philemon</thema>: <dozent><grad>M.</grad>
+        an Philemon</thema>: <dozent ref="lindner_wb"><grad>M.</grad>
         <nachname>Lindner</nachname>, <funktion>Theol.
         Lic.</funktion></dozent>, <zeit>2 U. Dienst. u. Freit.</zeit>
         <gebühr>unentg.</gebühr></veranstaltung>
@@ -937,7 +937,7 @@
           <gebühr>unentgeltl.</gebühr></veranstaltung>
 
           <veranstaltung><thema>Uebungen der exegetischen
-          Gesellschaft</thema>: <dozent><grad>M.</grad>
+          Gesellschaft</thema>: <dozent ref="lindner_wb"><grad>M.</grad>
           <nachname>Lindner</nachname>, <funktion>Theol.
           Lic.</funktion></dozent>, <zeit>in zu best. T. u. St.</zeit>
           <modus>privatissime</modus>, aber
@@ -961,8 +961,9 @@
 
         <veranstaltung><thema>Kirchengeschichte, <notiz
         betreff="fortsetzung">zweiter Theil</notiz> (814-1648)</thema>:
-        <dozent><grad>M.</grad> <nachname>Lindner</nachname>, <funktion>Theol.
-        Lic.</funktion></dozent>, <zeit>3-5 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="lindner_wb"><grad>M.</grad> <nachname>Lindner</nachname>,
+        <funktion>Theol. Lic.</funktion></dozent>, <zeit>3-5 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltungsgruppe><thema>Christliche Dogmengeschichte, oder
         Theologie- und Philosophie-Geschichte (mit Ausnahme der Philosophie
@@ -990,7 +991,8 @@
           <seite>11</seite>
 
           <veranstaltung><thema>Examinatorium über Kirchengeschichte</thema>:
-          <dozent><grad>M.</grad> <nachname>Lindner</nachname>, <funktion>Th.
+          <dozent ref="lindner_wb"><grad>M.</grad>
+          <nachname>Lindner</nachname>, <funktion>Th.
           Lic.</funktion></dozent>, <zeit>in zu best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
@@ -1032,9 +1034,9 @@
         <veranstaltung><thema>Populäre Dogmatik, nebst einer Anleitung, die
         Dogmen unserer Kirche sowohl nach ihrer Stellung in der Heilsordnung
         als auch nach ihrer Bedeutung für das christliche Leben in Schule und
-        Kirche wieder zum klaren Bewußtsein zu bringen</thema>:
-        <dozent><grad>D.</grad> <nachname>Lindner</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>8 U. 4 T.</zeit>
+        Kirche wieder zum klaren Bewußtsein zu bringen</thema>: <dozent
+        ref="lindner_fw"><grad>D.</grad> <nachname>Lindner</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>8 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Evangelische Religionslehre (Dogmatik und Moral
@@ -1103,12 +1105,14 @@
       <sachgruppe>
         <titel>IV. Praktische Theologie.</titel>
 
-        <veranstaltung><thema>Pastoraltheologie</thema>:
-        <dozent><grad>D.</grad> <nachname>Lindner</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Pastoraltheologie</thema>: <dozent
+        ref="lindner_fw"><grad>D.</grad> <nachname>Lindner</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Katechetik</thema>: <ders>Derselbe</ders>,
-        <zeit>12 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Katechetik</thema>: <ders
+        ref="lindner_fw">Derselbe</ders>, <zeit>12 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Katechetik</thema>:
         <dozent><nachname>Plato</nachname>, <funktion>P.
@@ -1141,14 +1145,15 @@
           St.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Katechet.praktische Uebungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Lindner</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Dienst. u. Freit. 4-6 U.</zeit>
-          <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung><thema>Katechet.praktische Uebungen</thema>: <dozent
+          ref="lindner_fw"><grad>D.</grad> <nachname>Lindner</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Freit. 4-6
+          U.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Katechetische Studien mit der Lausitzer
-          Predigergesellschaft</thema>: <ders>Derselbe</ders>, <zeit>Donn. 4-6
-          U.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          Predigergesellschaft</thema>: <ders
+          ref="lindner_fw">Derselbe</ders>, <zeit>Donn. 4-6 U.</zeit>
+          <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Katechetische Uebungen</thema>:
           <dozent><nachname>Plato</nachname>, <funktion>P.
@@ -1608,7 +1613,7 @@
         <titel>V. Arzneimittellehre und Receptirkunst.</titel>
 
         <veranstaltung><thema>Pharmacie, Vorträge in Verbindung mit einem
-        praktischen Cursus</thema>: <dozent><grad>D.</grad>
+        praktischen Cursus</thema>: <dozent ref="kuehn_ob"><grad>D.</grad>
         <nachname>Kühn</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>10-12 U. 4 T.</zeit></veranstaltung>
 

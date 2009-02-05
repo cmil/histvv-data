@@ -124,9 +124,10 @@
           Virgils Eklogen</thema>, <zeit>3 U. Dienst. u. Freyt.</zeit>
           <modus>öffentl.</modus></veranstaltung>
 
-          <veranstaltung><dozent><grad>D.</grad> u. <funktion>P. O.</funktion>
-          <nachname>Kühn</nachname></dozent>, <thema>über den Celsus von der
-          Arzneykunst</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung><dozent ref="kuehn_cg"><grad>D.</grad> u.
+          <funktion>P. O.</funktion> <nachname>Kühn</nachname></dozent>,
+          <thema>über den Celsus von der Arzneykunst</thema>, <zeit>3 U. 2
+          T.</zeit></veranstaltung>
 
           <veranstaltungsgruppe><dozent><funktion>P. E.</funktion>
           <nachname>Rost</nachname></dozent>, <veranstaltung><thema>über des
@@ -216,7 +217,7 @@
           -</veranstaltung>
 
           <veranstaltung><dozent ref="kunze_kw"><grad>M.</grad>
-          <nachname>Kunze</nachname></dozent>.</veranstaltung>
+          <nachname>Kuntze<!-- Dass es sich hier um kunze_kw handelt, ergibt sich aus dem Catalogus lectionum, S. 22: "Italicam et Gallicam linguam discere cupientibus M. CAR. GUIL. KUNTZE operam suam offert."--></nachname></dozent>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -226,8 +227,8 @@
           <nachname>Dumas</nachname></dozent>, <thema>cours de langue
           française, verbunden mit Uebungen im Sprechen und Schreiben</thema>,
           <zeit>4 U. Dienst., Donnerst. u. Freyt.</zeit>
-          <modus>öffentl.</modus> -
-          <dozent><nachname>Bouc</nachname></dozent>. - <dozent
+          <modus>öffentl.</modus> - <dozent
+          ref="bouc_jl"><nachname>Bouc</nachname></dozent>. - <dozent
           ref="kunze_kw"><grad>M.</grad> <nachname>Kunze</nachname></dozent>.
           - <dozent><nachname>Paien</nachname></dozent>. -
           <dozent><vorname>F.</vorname> <nachnamenpräfix>de</nachnamenpräfix>
@@ -265,9 +266,9 @@
         <sachgruppe>
           <titel>2) Geschichte der alten Philosophie</titel>
 
-          <veranstaltung>lehrt <dozent><funktion>P. O.</funktion>
-          <nachname>Krug</nachname></dozent> <zeit>8 U. 4 T.</zeit>
-          <modus>öffentl.</modus></veranstaltung>
+          <veranstaltung>lehrt <dozent ref="krug_wt"><funktion>P.
+          O.</funktion> <nachname>Krug</nachname></dozent> <zeit>8 U. 4
+          T.</zeit> <modus>öffentl.</modus></veranstaltung>
         </sachgruppe>
 
         <sachgruppe>
@@ -312,13 +313,14 @@
           Sätzen</thema> <zeit>8 U. Dienst. u. Freyt.</zeit>
           <modus>öffentl.</modus></veranstaltung>
 
-          <veranstaltungsgruppe><dozent><funktion>P. E.</funktion>
-          <nachname>Lindner</nachname></dozent> will <thema>die vorzüglichsten
-          und bewährtesten Regeln der Erziehung und des Unterrichts nebst
-          einer methodisch-praktischen und katechetischen Anleitung</thema>,
-          <zeit>7 U.</zeit> <veranstaltung><zeit> 2 T.</zeit>
-          <modus>öffentl.</modus></veranstaltung> und <veranstaltung><zeit>2
-          T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
+          <veranstaltungsgruppe><dozent ref="lindner_fw"><funktion>P.
+          E.</funktion> <nachname>Lindner</nachname></dozent> will <thema>die
+          vorzüglichsten und bewährtesten Regeln der Erziehung und des
+          Unterrichts nebst einer methodisch-praktischen und katechetischen
+          Anleitung</thema>, <zeit>7 U.</zeit> <veranstaltung><zeit> 2
+          T.</zeit> <modus>öffentl.</modus></veranstaltung> und
+          <veranstaltung><zeit>2 T.</zeit>
+          <gebühr>unentg.</gebühr></veranstaltung>
           vortragen.</veranstaltungsgruppe>
         </sachgruppe>
 
@@ -344,7 +346,7 @@
           <nachname>Platner</nachname></dozent>, <thema>nach s.
           Lehrbuche</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><funktion>P. O.</funktion>
+          <veranstaltung><dozent ref="krug_wt"><funktion>P. O.</funktion>
           <nachname>Krug</nachname></dozent>, <zeit>11 U. 6
           T.</zeit></veranstaltung>
 
@@ -364,7 +366,7 @@
         <sachgruppe>
           <titel>8) Aesthetik.</titel>
 
-          <veranstaltung><dozent><funktion>P. O.</funktion>
+          <veranstaltung><dozent ref="krug_wt"><funktion>P. O.</funktion>
           <nachname>Krug</nachname></dozent>, <zeit>8 U. 2 T.</zeit>
           <modus>öff.</modus></veranstaltung>
 
@@ -447,7 +449,7 @@
             <thema>üb. die Hauptlehren d. allg. Staatsrechts</thema>, <zeit>3
             U. M. u. Donn.</zeit> <modus>öff.</modus></veranstaltung>
 
-            <veranstaltung><dozent><grad>D.</grad>
+            <veranstaltung><dozent ref="wiesand_cw"><grad>D.</grad>
             <nachname>Wiesandt</nachname></dozent>, <thema>Naturrecht</thema>,
             <zeit>4 U. 4 T.</zeit></veranstaltung>
           </sachgruppe>
@@ -848,11 +850,11 @@ die letzte Veranstaltung gelten-->
               Texte an den Festtagen, deren Nutzanwendung auf der Kanzel er
               zeigen wird</thema>, <zeit>2 U. 2 T.</zeit></veranstaltung>
 
-              <veranstaltung><dozent><funktion>P. E.</funktion>
-              <nachname>Lindner</nachname></dozent>, <thema>Exegese über das
-              Leben Jesu, nach den vier Evangelien, praktisch für künftige
-              Religionslehrer</thema>, <zeit>5 U. 4 T.</zeit>
-              <modus>öffentl.</modus> u.
+              <veranstaltung><dozent ref="lindner_fw"><funktion>P.
+              E.</funktion> <nachname>Lindner</nachname></dozent>,
+              <thema>Exegese über das Leben Jesu, nach den vier Evangelien,
+              praktisch für künftige Religionslehrer</thema>, <zeit>5 U. 4
+              T.</zeit> <modus>öffentl.</modus> u.
               <gebühr>unentg.</gebühr></veranstaltung>
 
               <veranstaltung><dozent ref="illgen_cf"><grad>M.</grad>
@@ -1117,7 +1119,7 @@ die letzte Veranstaltung gelten-->
               <titel>cc) System.</titel>
 
               <sachgruppe>
-                <titel>α) Institutioenen.</titel>
+                <titel>α) Institutionen.</titel>
 
                 <veranstaltung><dozent>Domh. <funktion>P. O.</funktion>
                 <grad>D.</grad> <nachname>Rau</nachname></dozent>, <thema>n.
@@ -1143,8 +1145,8 @@ die letzte Veranstaltung gelten-->
                 <veranstaltungsgruppe><veranstaltung><dozent
                 ref="bauer_hg"><grad>D.</grad>
                 <nachname>Bauer</nachname></dozent>, <zeit>7 U. 6
-                T.</zeit></veranstaltung>
-                <veranstaltung><dozent><grad>D.</grad>
+                T.</zeit></veranstaltung> <veranstaltung><dozent
+                ref="wiesand_cw"><grad>D.</grad>
                 <nachname>Wiesand</nachname></dozent>, <zeit>3 U. 6
                 T.</zeit></veranstaltung>
                 <veranstaltung><dozent><grad>D.</grad>
@@ -1430,7 +1432,7 @@ die letzte Veranstaltung gelten-->
             <veranstaltung><dozent ref="beck_jlw">RR. <grad>D.</grad>
             <nachname>Beck</nachname></dozent>,</veranstaltung>
 
-            <veranstaltung><dozent><grad>D.</grad>
+            <veranstaltung><dozent ref="wiesand_cw"><grad>D.</grad>
             <nachname>Wiesand</nachname></dozent>,</veranstaltung>
 
             <veranstaltung><dozent><grad>D.</grad>
@@ -1653,7 +1655,7 @@ Zusammenlegung für gerechtfertigt.--></titel>
             <sachgruppe>
               <titel>aa) überhaupt.</titel>
 
-              <veranstaltung><dozent><funktion>P. O.</funktion>
+              <veranstaltung><dozent ref="kuehn_cg"><funktion>P. O.</funktion>
               <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <thema>n.
               Hildebrandt</thema>, <zeit>8 U. 6 T.</zeit></veranstaltung>
 
@@ -1859,9 +1861,10 @@ Zusammenlegung für gerechtfertigt.--></titel>
           <sachgruppe>
             <titel>b) Pharmaceutische Dynamiologie.</titel>
 
-            <veranstaltung><dozent><funktion>P. O.</funktion> <grad>D.</grad>
-            <nachname>Kühn</nachname></dozent>, <thema>Lehre von den Giften,
-            n. Plenck</thema>, <zeit>11 U. 2 T.</zeit></veranstaltung>
+            <veranstaltung><dozent ref="kuehn_cg"><funktion>P. O.</funktion>
+            <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <thema>Lehre
+            von den Giften, n. Plenck</thema>, <zeit>11 U. 2
+            T.</zeit></veranstaltung>
 
             <veranstaltung><dozent ref="knoblauch_jw"><grad>D.</grad>
             <nachname>Knoblauch</nachname></dozent>, <thema>die Kenntnisse der
@@ -1942,7 +1945,7 @@ obwohl kein "ingl." oder "derselbe" angeführt ist-->
               <titel>aa) <scil
               text="Allgemeine Chirurgie">Allgemeine</scil>.</titel>
 
-              <veranstaltung><dozent><funktion>P. O.</funktion>
+              <veranstaltung><dozent ref="kuehn_cg"><funktion>P. O.</funktion>
               <grad>D.</grad> <nachname>Kühn</nachname></dozent>, <thema>nach
               Tittmann</thema>, <zeit>11 U. 4 T.</zeit>
               <modus>öff.</modus></veranstaltung>

@@ -541,10 +541,10 @@
       <sachgruppe>
         <titel>Philosophischer Cursus.</titel>
 
-        <veranstaltung><dozent><nachname>Krug</nachname>, <grad>D.</grad>
-        <vorname>W. T.</vorname>, <funktion>P. Honor.</funktion></dozent>,
-        <thema><notiz betreff="fortsetzung">Th. 1.</notiz>
-        Fundamentalphilosophie, Logik und Metaphysik, nach s.
+        <veranstaltung><dozent ref="krug_wt"><nachname>Krug</nachname>,
+        <grad>D.</grad> <vorname>W. T.</vorname>, <funktion>P.
+        Honor.</funktion></dozent>, <thema><notiz betreff="fortsetzung">Th.
+        1.</notiz> Fundamentalphilosophie, Logik und Metaphysik, nach s.
         Handbuche</thema>, <zeit>10 U. 6 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
@@ -641,7 +641,8 @@
         <sachgruppe>
           <titel>6) Pädagogik.</titel>
 
-          <veranstaltung><dozent><nachname>Lindner</nachname>, <grad>D.</grad>
+          <veranstaltung><dozent
+          ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
           <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>Pädagogik, Didaktik und Methodik nebst einer Anleitung zum
           Katechisiren und zum zweckmäßigen Organisiren und Inspiciren der
@@ -847,18 +848,19 @@
       <sachgruppe>
         <titel>Chemie.</titel>
 
-        <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-        <vorname>O. B.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>Stöchiometrie, und darauf über einige genauer durchzugehende
-        Gegenstände</thema>, <zeit>4 U. 2 T.</zeit>
+        <veranstaltung><dozent ref="kuehn_ob"><nachname>Kühn</nachname>,
+        <grad>D.</grad> <vorname>O. B.</vorname>, <funktion>P.
+        O.</funktion></dozent>, <thema>Stöchiometrie, und darauf über einige
+        genauer durchzugehende Gegenstände</thema>, <zeit>4 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>organische
+        <veranstaltung><ders ref="kuehn_ob">Derselbe</ders>, <thema>organische
         Chemie</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><ders>Derselbe</ders>, <thema>chemisch-praktische
-        Uebungen <ort>in s. Laboratorio</ort></thema>, <zeit>2 St. hinter
-        einander an 2 T.</zeit> <modus>privatissime</modus>.</veranstaltung>
+        <veranstaltung><ders ref="kuehn_ob">Derselbe</ders>,
+        <thema>chemisch-praktische Uebungen <ort>in s.
+        Laboratorio</ort></thema>, <zeit>2 St. hinter einander an 2 T.</zeit>
+        <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung><dozent ref="erdmann_ol"><nachname>Erdmann</nachname>,
         <vorname>O. L.</vorname>, <funktion>P. O.</funktion></dozent>,
@@ -1256,10 +1258,11 @@
             betreff="forsetzung">erste Hälfte</notiz></thema>, <zeit>10 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltung><dozent><nachname>Lindner</nachname>,
-            <grad>D.</grad> <vorname>F. W.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>populäre Dogmatik</thema>, <zeit>3
-            U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung><dozent
+            ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
+            <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>populäre Dogmatik</thema>, <zeit>3 U. 2 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe>
@@ -1348,11 +1351,11 @@
           <sachgruppe>
             <titel>Katechetische Uebungen.</titel>
 
-            <veranstaltung><dozent><nachname>Lindner</nachname>,
-            <grad>D.</grad> <vorname>F. W.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema><ort>in der
-            Bürgerschule</ort></thema>, <zeit>Dienst. und Freit. 4-6 U.</zeit>
-            <modus>privatissime</modus>.</veranstaltung>
+            <veranstaltung><dozent
+            ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
+            <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema><ort>in der Bürgerschule</ort></thema>, <zeit>Dienst. und
+            Freit. 4-6 U.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung><dozent><nachname>Plato</nachname>, <vorname>G. J.
             K. L.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2
@@ -1958,8 +1961,8 @@
           <funktion>Rector</funktion></dozent>, <thema>Physiologie</thema>,
           <zeit>6 U. Vorm. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-          <vorname>K. G.</vorname>, <funktion>P. O., Fac. Med.
+          <veranstaltung><dozent ref="kuehn_cg"><nachname>Kühn</nachname>,
+          <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P. O., Fac. Med.
           Sen.</funktion></dozent>, <thema>über vorzügliche Kapitel der
           Physiologie</thema>, <zeit>11 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
@@ -2109,10 +2112,10 @@
           <sachgruppe>
             <titel>Ueber einzelne Krankheiten.</titel>
 
-            <veranstaltung><dozent><nachname>Kühn</nachname>, <grad>D.</grad>
-            <vorname>K. G.</vorname>, <funktion>P. O., Fac. med.
-            Senior</funktion></dozent>, <thema>über die verschiedenen Arten
-            der Augenentzündung</thema>, <zeit>11 U. 2 T.</zeit>
+            <veranstaltung><dozent ref="kuehn_cg"><nachname>Kühn</nachname>,
+            <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P. O., Fac.
+            med. Senior</funktion></dozent>, <thema>über die verschiedenen
+            Arten der Augenentzündung</thema>, <zeit>11 U. 2 T.</zeit>
             <modus>öffentl.</modus></veranstaltung>
 
             <veranstaltung><dozent ref="joerg_jcg"><nachname>Jörg</nachname>,
