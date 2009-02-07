@@ -442,14 +442,14 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung><thema>Formenlehre des Ahd., Mhd. und Nhd.</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Zarncke</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9 U. 3 T.</zeit>
-        <modus>privatim</modus>, aber
+        <dozent ref="zarncke_f"><grad>D. ph.</grad>
+        <nachname>Zarncke</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>9 U. 3 T.</zeit> <modus>privatim</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Erklärung des Walther von der
-        Vogelweide</thema>: <ders>Derselbe</ders>, <zeit>9 U. 3 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Vogelweide</thema>: <ders ref="zarncke_f">Derselbe</ders>, <zeit>9 U.
+        3 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <sachgruppe>
           <titel>Sprachübungen.</titel>
@@ -1008,8 +1008,8 @@
         <dozent><grad>D.</grad> <nachname>Luthardt</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Erklärung des Römerbriefes</thema>:
-        <dozent><funktion>Lic.</funktion> <vorname>Th.</vorname>
+        <veranstaltung><thema>Erklärung des Römerbriefes</thema>: <dozent
+        ref="zezschwitz_g"><funktion>Lic.</funktion> <vorname>Th.</vorname>
         <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Zezschwitz</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>9 U. 4
         T.</zeit></veranstaltung>
@@ -1023,10 +1023,10 @@
 
         <veranstaltungsverweis><thema>Erklärung <scil
         text="des Briefes an die Galater">desselben</scil> Briefes</thema>:
-        <dozent><funktion>Lic.</funktion> <vorname>Th.</vorname>
-        <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Zezschwitz</nachname>,
-        <funktion>P. E.</funktion></dozent>, <siehe>s. Exegetische
-        Uebungen</siehe>.</veranstaltungsverweis>
+        <dozent ref="zezschwitz_g"><funktion>Lic.</funktion>
+        <vorname>Th.</vorname> <nachnamenpräfix>v.</nachnamenpräfix>
+        <nachname>Zezschwitz</nachname>, <funktion>P. E.</funktion></dozent>,
+        <siehe>s. Exegetische Uebungen</siehe>.</veranstaltungsverweis>
 
         <veranstaltung><thema>Erklärung des Briefes Pauli an die Philipper
         (lateinisch)</thema>: <dozent ref="hoelemann_hg"><grad>D.</grad>
@@ -1085,8 +1085,8 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Leitung der Societas Lipsiensis exegetica
-          (Galaterbrief und lateinische Disputationsübungen)</thema>:
-          <dozent><funktion>Lic.</funktion> <vorname>Th.</vorname>
+          (Galaterbrief und lateinische Disputationsübungen)</thema>: <dozent
+          ref="zezschwitz_g"><funktion>Lic.</funktion> <vorname>Th.</vorname>
           <nachnamenpräfix>v.</nachnamenpräfix>
           <nachname>Zezschwitz</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>in 3 zu best. St.</zeit>,
@@ -1202,8 +1202,8 @@
           Section</thema>: <dozent ref="brueckner_bb"><grad>D.</grad>
           <nachname>Brückner</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>in den best. St. u. T.</zeit></veranstaltung> -
-          <veranstaltung><thema>Katechetische Section</thema>:
-          <dozent><funktion>Lic.</funktion> <vorname>Th.</vorname>
+          <veranstaltung><thema>Katechetische Section</thema>: <dozent
+          ref="zezschwitz_g"><funktion>Lic.</funktion> <vorname>Th.</vorname>
           <nachnamenpräfix>v.</nachnamenpräfix>
           <nachname>Zezschwitz</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>3-5 U. Donn.</zeit></veranstaltung> -
@@ -1222,8 +1222,9 @@
           Spiel</thema></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung><thema>Uebungen der homiletischen Gesellschaft der
-          Sachsen</thema>: <dozent><funktion>Lic.</funktion>
-          <vorname>Th.</vorname> <nachnamenpräfix>v.</nachnamenpräfix>
+          Sachsen</thema>: <dozent
+          ref="zezschwitz_g"><funktion>Lic.</funktion> <vorname>Th.</vorname>
+          <nachnamenpräfix>v.</nachnamenpräfix>
           <nachname>Zezschwitz</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
           <modus>privatissime</modus>, aber

@@ -522,14 +522,14 @@
         <titel>3. Germanische Sprachen.</titel>
 
         <veranstaltung><thema>Erklärung der Heldengesänge der Edda</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Zarncke</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="zarncke_f"><grad>D. ph.</grad>
+        <nachname>Zarncke</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <seite>8</seite>
 
-        <veranstaltung><thema>Erklärung des Beovulf</thema>:
-        <ders>Derselbe</ders>, <zeit>Dienst. Ab. 7-9 U.</zeit>
+        <veranstaltung><thema>Erklärung des Beovulf</thema>: <ders
+        ref="zarncke_f">Derselbe</ders>, <zeit>Dienst. Ab. 7-9 U.</zeit>
         <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -655,7 +655,7 @@
           <zeit>4 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung><thema>Deutsche Literaturgeschichte bis zur
-          Reformation</thema>: <dozent><grad>D. ph.</grad>
+          Reformation</thema>: <dozent ref="zarncke_f"><grad>D. ph.</grad>
           <nachname>Zarncke</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>10 U. 5 T. (ausschl. Sonn.)</zeit></veranstaltung>
 
@@ -1914,13 +1914,15 @@
 
           <veranstaltung><thema>Repetitionscursus über allgemeine und
           specielle pathologische Anatomie, verbunden mit Demonstrationen an
-          frischen und Spiritus-Präparaten</thema>: <dozent><grad>D.</grad>
-          <nachname>Bayer</nachname></dozent>, <zeit>in zu best. St. u.
-          T.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          frischen und Spiritus-Präparaten</thema>: <dozent
+          ref="bayer_o"><grad>D.</grad> <nachname>Bayer</nachname></dozent>,
+          <zeit>in zu best. St. u. T.</zeit>
+          <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen in der Technik pathologischer
-          Sectionen</thema>: <ders>Derselbe</ders>, <thema>so oft Material
-          vorhanden ist</thema>, <modus>privatissime</modus>.</veranstaltung>
+          Sectionen</thema>: <ders ref="bayer_o">Derselbe</ders>, <thema>so
+          oft Material vorhanden ist</thema>,
+          <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
