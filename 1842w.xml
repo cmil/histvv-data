@@ -45,46 +45,52 @@
 
   <seite nr="3"/>
 
-  <sachgruppe fakultät="Philosophie">
+  <sachgruppe fakultät="Philosophie" xml:id="sg-1842w-I">
     <titel>I. Allgemeine Studien.</titel>
 
-    <sachgruppe>
+    <sachgruppe xml:id="sg-1842w-I.I">
       <titel>I. Philosophische Wissenschaften.</titel>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.I.1">
         <titel>1. Systematische Philosophie</titel>
 
         <veranstaltungsgruppe><thema>Grundlegung u. Encyklopädie der gesammten
         Philosophie</thema>: <dozent
         ref="hartenstein_g"><nachname>Hartenstein</nachname>, <funktion>P.
         O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-        <veranstaltung><zeit>3 U. 4 T.</zeit></veranstaltung>
-        <veranstaltung>(<zeit>2 T.</zeit>
+        <veranstaltung xml:id="v-1842w-I.I.1-001"><zeit>3 U. 4
+        T.</zeit></veranstaltung> <veranstaltung
+        xml:id="v-1842w-I.I.1-002">(<zeit>2 T.</zeit>
         <modus>öff.</modus>)</veranstaltung></veranstaltungsgruppe>
 
-        <veranstaltung><thema>Logik u. Encyklopädie der Philosophie</thema>:
-        <dozent><grad>D.</grad> <nachname>Lotze</nachname></dozent>, <zeit>3
-        U. 3 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.I.1-003"><thema>Logik u. Encyklopädie
+        der Philosophie</thema>: <dozent><grad>D.</grad>
+        <nachname>Lotze</nachname></dozent>, <zeit>3 U. 3
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Logik nebst einem Abrisse der Geschichte der
-        neuern Philosophie</thema>: <dozent ref="biedermann_k"><grad>M.</grad>
+        <veranstaltung xml:id="v-1842w-I.I.1-004"><thema>Logik nebst einem
+        Abrisse der Geschichte der neuern Philosophie</thema>: <dozent
+        ref="biedermann_k"><grad>M.</grad>
         <nachname>Biedermann</nachname></dozent>, <zeit>3 U. 2
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Logik</thema>: <dozent
-        ref="hartenstein_g"><nachname>Hartenstein</nachname>, <funktion>P.
-        O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>, <zeit>2 U.
-        2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.I.1-005"><thema>Logik</thema>:
+        <dozent ref="hartenstein_g"><nachname>Hartenstein</nachname>,
+        <funktion>P. O.</funktion>, d. Z.
+        <funktion>Dechant</funktion></dozent>, <zeit>2 U. 2
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Psychologie</thema>: <dozent
-        ref="drobisch_mw"><nachname>Drobisch</nachname>, <funktion>P.
+        <veranstaltung xml:id="v-1842w-I.I.1-006"><thema>Psychologie</thema>:
+        <dozent ref="drobisch_mw"><nachname>Drobisch</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Empirische u. speculative Psychologie</thema>:
-        <dozent><grad>D.</grad> <nachname>Lotze</nachname></dozent>, <zeit>11
-        U. 2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.I.1-007"><thema>Empirische u.
+        speculative Psychologie</thema>: <dozent><grad>D.</grad>
+        <nachname>Lotze</nachname></dozent>, <zeit>11 U. 2
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Anthropologie</thema>: <dozent
+        <veranstaltung
+        xml:id="v-1842w-I.I.1-008"><thema>Anthropologie</thema>: <dozent
         ref="heinroth_jca"><grad>D.</grad> <nachname>Heinroth</nachname>,
         <funktion>P. O.</funktion></dozent>, <thema>nach s. Lehrbuche</thema>,
         <zeit>4 U. Mont. und Donn.</zeit>
@@ -94,8 +100,9 @@
         Grundzüge der philosophischen Sitten- und Rechtslehre</thema>: <dozent
         ref="hartenstein_g"><nachname>Hartenstein</nachname>, <funktion>P.
         O.</funktion>, d. Z.
-        <funktion>Dechant</funktion></dozent>,<veranstaltung><zeit>4 U. 4
-        T.</zeit></veranstaltung> <veranstaltung>(<zeit>2 T.</zeit>
+        <funktion>Dechant</funktion></dozent>,<veranstaltung
+        xml:id="v-1842w-I.I.1-009"><zeit>4 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.I.1-010">(<zeit>2 T.</zeit>
         <modus>öffentlich</modus>)</veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Philosophische Sittenlehre</thema>:
@@ -108,78 +115,86 @@
         <funktion>P. O.</funktion></dozent>, <siehe>s.
         Theologie</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Naturrecht oder Rechtsphilosophie, mit
-        Berücksichtigung positiver Rechtsbestimmungen</thema>:
-        <dozent><grad>D.</grad> <nachname>Schilling</nachname>, <funktion>P.
-        O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>, <zeit>9 U.
-        4 T.</zeit></veranstaltung>
-
-        <veranstaltung><thema>Naturrecht</thema>: <dozent><grad>D.</grad>
-        <nachname>Schletter</nachname></dozent>, <zeit>8 U. 2
+        <veranstaltung xml:id="v-1842w-I.I.1-011"><thema>Naturrecht oder
+        Rechtsphilosophie, mit Berücksichtigung positiver
+        Rechtsbestimmungen</thema>: <dozent><grad>D.</grad>
+        <nachname>Schilling</nachname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Dechant</funktion></dozent>, <zeit>9 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Religionsphilosophie</thema>: <dozent
-        ref="marbach_go"><grad>M.</grad>
+        <veranstaltung xml:id="v-1842w-I.I.1-012"><thema>Naturrecht</thema>:
+        <dozent><grad>D.</grad> <nachname>Schletter</nachname></dozent>,
+        <zeit>8 U. 2 T.</zeit></veranstaltung>
+
+        <veranstaltung
+        xml:id="v-1842w-I.I.1-013"><thema>Religionsphilosophie</thema>:
+        <dozent ref="marbach_go"><grad>M.</grad>
         <nachname>Marbach</nachname></dozent>, <zeit>2 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Aesthetik</thema>: <dozent
-        ref="weisse_ch"><grad>D.</grad> <nachname>Weiße</nachname></dozent>,
-        <zeit>11 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.I.1-014"><thema>Aesthetik</thema>:
+        <dozent ref="weisse_ch"><grad>D.</grad>
+        <nachname>Weiße</nachname></dozent>, <zeit>11 U. 2
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Philosophie der Geschichte</thema>: <ders
-        ref="weisse_ch">Derselbe</ders>, <zeit>8 U. 2 T.</zeit>
-        <gebühr>unentg.</gebühr></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.I.1-015"><thema>Philosophie der
+        Geschichte</thema>: <ders ref="weisse_ch">Derselbe</ders>, <zeit>8 U.
+        2 T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
 
         <trennlinie/>
 
-        <veranstaltung><thema>Ueber die bedeutendsten Tragiker der neuern
-        Zeit</thema>: <dozent ref="flathe_jlf"><grad>M.</grad>
-        <nachname>Flathe</nachname></dozent>, <zeit>2 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.I.1-016"><thema>Ueber die
+        bedeutendsten Tragiker der neuern Zeit</thema>: <dozent
+        ref="flathe_jlf"><grad>M.</grad> <nachname>Flathe</nachname></dozent>,
+        <zeit>2 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber Göthe's Faust</thema>: <dozent
-        ref="marbach_go"><grad>M.</grad>
+        <veranstaltung xml:id="v-1842w-I.I.1-017"><thema>Ueber Göthe's
+        Faust</thema>: <dozent ref="marbach_go"><grad>M.</grad>
         <nachname>Marbach</nachname></dozent>, <zeit>2 U. 2
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Allgemeine Geschichte der Tonkunst</thema>:
-        <dozent><grad>M.</grad> <nachname>Fink</nachname></dozent>, <zeit>in
-        zu best. St.</zeit></veranstaltung>
-
-        <veranstaltung><thema>Musikalische Grammatik</thema>:
-        <ders>Derselbe</ders>, <zeit>in zu best. St.</zeit></veranstaltung>
-
-        <veranstaltung><thema>System der musikalischen Harmonielehre</thema>:
-        <ders>Derselbe</ders>, <zeit>in zu best. St.</zeit></veranstaltung>
-
-        <veranstaltung><thema>Compositionslehre, theoretische (nach s. Sätzen)
-        u. praktische</thema>: <ders>Derselbe</ders>, <zeit>in zu best.
+        <veranstaltung xml:id="v-1842w-I.I.1-018"><thema>Allgemeine Geschichte
+        der Tonkunst</thema>: <dozent><grad>M.</grad>
+        <nachname>Fink</nachname></dozent>, <zeit>in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber Fuge u. Canon</thema>:
+        <veranstaltung xml:id="v-1842w-I.I.1-019"><thema>Musikalische
+        Grammatik</thema>: <ders>Derselbe</ders>, <zeit>in zu best.
+        St.</zeit></veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-I.I.1-020"><thema>System der
+        musikalischen Harmonielehre</thema>: <ders>Derselbe</ders>, <zeit>in
+        zu best. St.</zeit></veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-I.I.1-021"><thema>Compositionslehre,
+        theoretische (nach s. Sätzen) u. praktische</thema>:
         <ders>Derselbe</ders>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Pädagogik, Didaktik und Methodik nebst einer
-        Anleitung zur Organisation und Beaufsichtigung der verschiedenen
-        Schulen u. zur zweckmäßigen Führung jedes Schulamtes</thema>: <dozent
-        ref="lindner_fw"><grad>D.</grad> <nachname>Lindner</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>3 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.I.1-022"><thema>Ueber Fuge u.
+        Canon</thema>: <ders>Derselbe</ders>, <zeit>in zu best.
+        St.</zeit></veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-I.I.1-023"><thema>Pädagogik, Didaktik
+        und Methodik nebst einer Anleitung zur Organisation und
+        Beaufsichtigung der verschiedenen Schulen u. zur zweckmäßigen Führung
+        jedes Schulamtes</thema>: <dozent ref="lindner_fw"><grad>D.</grad>
+        <nachname>Lindner</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>3 U. 4 T.</zeit></veranstaltung>
 
         <seite>4</seite>
 
-        <veranstaltung><thema>Anleitung zur Erziehungs- und Unterrichtskunst
-        für künftige Hauslehrer</thema>: <dozent><nachname>Plato</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1842w-I.I.1-024"><thema>Anleitung zur
+        Erziehungs- und Unterrichtskunst für künftige Hauslehrer</thema>:
+        <dozent><nachname>Plato</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.I.2">
         <titel>2. Geschichte der Philosophie.</titel>
 
-        <veranstaltung><thema>Geschichte der alten Philosophie, bei den
-        Indiern, Griechen und Römern</thema>: <dozent
+        <veranstaltung xml:id="v-1842w-I.I.2-001"><thema>Geschichte der alten
+        Philosophie, bei den Indiern, Griechen und Römern</thema>: <dozent
         ref="niedner_cw"><grad>D.</grad> <nachname>Niedner</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>11 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -193,59 +208,63 @@
         <nachname>Biedermann</nachname></dozent>, <siehe>s.
         Logik</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Ueber Hegel's System der Philosophie</thema>:
-        <dozent ref="weisse_ch"><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-I.I.2-002"><thema>Ueber Hegel's System
+        der Philosophie</thema>: <dozent ref="weisse_ch"><grad>D.</grad>
         <nachname>Weiße</nachname></dozent>, <zeit>3 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Umriß der Hegel'schen Philosophie</thema>:
-        <dozent ref="marbach_go"><grad>M.</grad>
+        <veranstaltung xml:id="v-1842w-I.I.2-003"><thema>Umriß der Hegel'schen
+        Philosophie</thema>: <dozent ref="marbach_go"><grad>M.</grad>
         <nachname>Marbach</nachname></dozent>, <zeit>3 U. 4
         T.</zeit></veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.I.001">
         <titel>Philosophische Uebungen.</titel>
 
-        <veranstaltung><thema>Uebungen der philosophischen Abtheilung der
-        Lausitzer Prediger-Gesellschaft</thema>: <dozent
+        <veranstaltung xml:id="v-1842w-I.I.001-001"><thema>Uebungen der
+        philosophischen Abtheilung der Lausitzer
+        Prediger-Gesellschaft</thema>: <dozent
         ref="hartenstein_g"><nachname>Hartenstein</nachname>, <funktion>P.
         O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
         <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Philosophische Uebungen</thema>: <dozent
+        <veranstaltung xml:id="v-1842w-I.I.001-002"><thema>Philosophische
+        Uebungen</thema>: <dozent
         ref="drobisch_mw"><nachname>Drobisch</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>in zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
-    <sachgruppe>
+    <sachgruppe xml:id="sg-1842w-I.II">
       <titel>II. Sprachwissenschaft.</titel>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.II.1">
         <titel>1. Altclassische Sprachen.</titel>
 
-        <veranstaltung><thema>Griechische Syntax mit Vergleichung der
-        lateinischen Syntax</thema>: <dozent ref="hermann_jgj"><grad>D.</grad>
-        <nachname>Hermann</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>11 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.II.1-001"><thema>Griechische Syntax
+        mit Vergleichung der lateinischen Syntax</thema>: <dozent
+        ref="hermann_jgj"><grad>D.</grad> <nachname>Hermann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>11 U. 2
+        T.</zeit></veranstaltung>
 
         <trennlinie/>
 
-        <veranstaltung><thema>Ueber die Wespen des Aristophanes</thema>:
-        <dozent ref="hermann_jgj"><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-I.II.1-002"><thema>Ueber die Wespen des
+        Aristophanes</thema>: <dozent ref="hermann_jgj"><grad>D.</grad>
         <nachname>Hermann</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber Plutarch's Biographien des Solon und
-        Lykurgus</thema>: <dozent><nachname>Westermann</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
+        <veranstaltung xml:id="v-1842w-I.II.1-003"><thema>Ueber Plutarch's
+        Biographien des Solon und Lykurgus</thema>:
+        <dozent><nachname>Westermann</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber die Vögel des Aristophanes,
-        <notiz>Fortsetzung u. Beschluß</notiz></thema>:
+        <veranstaltung xml:id="v-1842w-I.II.1-004"><thema>Ueber die Vögel des
+        Aristophanes, <notiz>Fortsetzung u. Beschluß</notiz></thema>:
         <dozent><nachname>Stallbaum</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>4 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -254,33 +273,35 @@
         <dozent><grad>M.</grad> <nachname>Klee</nachname></dozent>, <siehe>s.
         Geographie</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Ueber Juvenal's Satiren</thema>: <dozent
-        ref="becker_wa"><nachname>Becker</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1842w-I.II.1-005"><thema>Ueber Juvenal's
+        Satiren</thema>: <dozent ref="becker_wa"><nachname>Becker</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber das 2. B. der Elegieen des
-        Properz</thema>: <dozent ref="nobbe_kfa"><nachname>Nobbe</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1842w-I.II.1-006"><thema>Ueber das 2. B. der
+        Elegieen des Properz</thema>: <dozent
+        ref="nobbe_kfa"><nachname>Nobbe</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber Cicero's Rede für T. Annius Milo, mit
-        besonderer Berücksichtigung des Rechtsverhältnisses und der
-        Rechtsausdrücke</thema>: <dozent
+        <veranstaltung xml:id="v-1842w-I.II.1-007"><thema>Ueber Cicero's Rede
+        für T. Annius Milo, mit besonderer Berücksichtigung des
+        Rechtsverhältnisses und der Rechtsausdrücke</thema>: <dozent
         ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>4 U. Mittw. u. Sonnab.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber die Gedichte des Catullus</thema>: <dozent
+        <veranstaltung xml:id="v-1842w-I.II.1-008"><thema>Ueber die Gedichte
+        des Catullus</thema>: <dozent
         ref="haupt_m"><nachname>Haupt</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-I.II.1.001">
           <titel>Philologische Uebungen.</titel>
 
-          <veranstaltung><thema>Fortgesetzte Uebungen der Mitglieder des
-          königl. philolog. Seminarium im Erklären von Plato's
-          <antiqua>Hippias maior</antiqua></thema>: <dozent
+          <veranstaltung xml:id="v-1842w-I.II.1.001-001"><thema>Fortgesetzte
+          Uebungen der Mitglieder des königl. philolog. Seminarium im Erklären
+          von Plato's <antiqua>Hippias maior</antiqua></thema>: <dozent
           ref="hermann_jgj"><grad>D.</grad> <nachname>Hermann</nachname>,
           <funktion>P. O.</funktion>, <funktion>Reg. Semin. philol.
           Dir.</funktion></dozent>, <zeit>Mittwochs von 5 U. an</zeit>
@@ -288,97 +309,107 @@
 
           <seite>5</seite>
 
-          <veranstaltung><thema>Uebungen der Mitglieder des königl. philolog.
-          Sem. im Erklären der Briefe des Horaz</thema>: <dozent
-          ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
-          E.</funktion>, <funktion>Reg. Sem. philol.
+          <veranstaltung xml:id="v-1842w-I.II.1.001-002"><thema>Uebungen der
+          Mitglieder des königl. philolog. Sem. im Erklären der Briefe des
+          Horaz</thema>: <dozent ref="klotz_r"><nachname>Klotz</nachname>,
+          <funktion>P. E.</funktion>, <funktion>Reg. Sem. philol.
           Adjunct.</funktion></dozent>, <zeit>2 T. in den best. St.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Uebungen der griech. Gesellschaft</thema>:
-          <dozent ref="hermann_jgj"><grad>D.</grad>
-          <nachname>Hermann</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Freitags von 5 U. an</zeit>.</veranstaltung>
+          <veranstaltung xml:id="v-1842w-I.II.1.001-003"><thema>Uebungen der
+          griech. Gesellschaft</thema>: <dozent
+          ref="hermann_jgj"><grad>D.</grad> <nachname>Hermann</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Freitags von 5 U.
+          an</zeit>.</veranstaltung>
 
-          <veranstaltung><thema>Uebungen im Latein-Schreiben und
-          Sprechen</thema>: <dozent ref="klotz_r"><nachname>Klotz</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>in den best. St.</zeit>
+          <veranstaltung xml:id="v-1842w-I.II.1.001-004"><thema>Uebungen im
+          Latein-Schreiben und Sprechen</thema>: <dozent
+          ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>in den best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Uebungen seiner lateinischen
-          Privatgesellschaft</thema>: <ders ref="klotz_r">Derselbe</ders>,
-          <zeit>in den best. St.</zeit>
-          <modus>privatissime</modus>.</veranstaltung>
-
-          <veranstaltung><thema>Leitung der philologischen Beschäftigungen der
-          Lauistzer Prediger-Gesellschaft</thema>: <ders
+          <veranstaltung xml:id="v-1842w-I.II.1.001-005"><thema>Uebungen
+          seiner lateinischen Privatgesellschaft</thema>: <ders
           ref="klotz_r">Derselbe</ders>, <zeit>in den best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Lateinische Gesellschaft</thema>: <dozent
+          <veranstaltung xml:id="v-1842w-I.II.1.001-006"><thema>Leitung der
+          philologischen Beschäftigungen der Lauistzer
+          Prediger-Gesellschaft</thema>: <ders ref="klotz_r">Derselbe</ders>,
+          <zeit>in den best. St.</zeit>
+          <modus>privatissime</modus>.</veranstaltung>
+
+          <veranstaltung xml:id="v-1842w-I.II.1.001-007"><thema>Lateinische
+          Gesellschaft</thema>: <dozent
           ref="haupt_m"><nachname>Haupt</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>5 U. Dienst.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Uebungen im Lateinisch-Sprechen u. Disputiren,
-          unter Entlehnung des Stoffes aus der Philosophie des
-          Alterthums</thema>: <dozent><nachname>Stallbaum</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>5 U. 2 T.</zeit>
+          <veranstaltung xml:id="v-1842w-I.II.1.001-008"><thema>Uebungen im
+          Lateinisch-Sprechen u. Disputiren, unter Entlehnung des Stoffes aus
+          der Philosophie des Alterthums</thema>:
+          <dozent><nachname>Stallbaum</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>5 U. 2 T.</zeit>
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.II.2">
         <titel>2. Morgenländische Sprachen.</titel>
 
-        <veranstaltung><thema>Elemente der Sanskrit-Sprachenach
-        <gesperrt>Bopp's</gesperrt> Grammatik (Berlin, 1834)</thema>: <dozent
+        <veranstaltung xml:id="v-1842w-I.II.2-001"><thema>Elemente der
+        Sanskrit-Sprachenach <gesperrt>Bopp's</gesperrt> Grammatik (Berlin,
+        1834)</thema>: <dozent
         ref="brockhaus_hermann"><nachname>Brockhaus</nachname>, <funktion>P.
         E. des.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
         <modus>öffentl.</modus></veranstaltung>
 
-        <veranstaltung><thema>Erklärung von <antiqua>Kalidasas</antiqua>
-        Wolfenboten (<antiqua>Meghaduta, ed. Gildemeister. Bonnae</antiqua>,
-        1841)</thema>: <ders ref="brockhaus_hermann">Derselbe</ders>, <zeit>11
-        U. Dienst. u. Freit.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.II.2-002"><thema>Erklärung von
+        <antiqua>Kalidasas</antiqua> Wolfenboten (<antiqua>Meghaduta, ed.
+        Gildemeister. Bonnae</antiqua>, 1841)</thema>: <ders
+        ref="brockhaus_hermann">Derselbe</ders>, <zeit>11 U. Dienst. u.
+        Freit.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Erklärung des allegorischen Dramas
-        <antiqua>Prabodha Chandroya</antiqua> nach s. Ausg. (Leipz.
-        1835)</thema>: <ders ref="brockhaus_hermann">Derselbe</ders>, <zeit>10
-        U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.II.2-003"><thema>Erklärung des
+        allegorischen Dramas <antiqua>Prabodha Chandroya</antiqua> nach s.
+        Ausg. (Leipz. 1835)</thema>: <ders
+        ref="brockhaus_hermann">Derselbe</ders>, <zeit>10 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Koptische Grammatik</thema>:
-        <dozent><nachname>Seyffarth</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>2 T. in zu best.
+        <veranstaltung xml:id="v-1842w-I.II.2-004"><thema>Koptische
+        Grammatik</thema>: <dozent><nachname>Seyffarth</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>2 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Erklärung des Koran,
+        <veranstaltung xml:id="v-1842w-I.II.2-005"><thema>Erklärung des Koran,
         <notiz>Fortsetzung</notiz></thema>: <dozent
         ref="fleischer_hl"><nachname>Fleischer</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>3 U. Mont. u. Donn.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Vulgär-Arabisch, nach
-        <gesperrt>Cauffin's</gesperrt> <antiqua>Grammaire
+        <veranstaltung xml:id="v-1842w-I.II.2-006"><thema>Vulgär-Arabisch,
+        nach <gesperrt>Cauffin's</gesperrt> <antiqua>Grammaire
         arabe-vulgaire</antiqua> (Paris, 1824), u. Erklärung der ihr
         angehängten Gespräche</thema>: <ders
         ref="fleischer_hl">Derselbe</ders>, <zeit>3 U. Dienst. u.
         Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Erklärung des arabischen <antiqua>Enchiridion
-        Studiosi</antiqua> in der Ausg. von <gesperrt>Caspari</gesperrt>
-        (Leipz. 1838. b. Baumgärtner)</thema>: <ders
-        ref="fleischer_hl">Derselbe</ders>, <zeit>3 U. Mittw. und
+        <veranstaltung xml:id="v-1842w-I.II.2-007"><thema>Erklärung des
+        arabischen <antiqua>Enchiridion Studiosi</antiqua> in der Ausg. von
+        <gesperrt>Caspari</gesperrt> (Leipz. 1838. b. Baumgärtner)</thema>:
+        <ders ref="fleischer_hl">Derselbe</ders>, <zeit>3 U. Mittw. und
         Sonnab.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Erklärung von Mirchond's persischer Geschichte
-        der Geldschulen, <notiz>Fortsetzung</notiz></thema>: <ders
+        <veranstaltung xml:id="v-1842w-I.II.2-008"><thema>Erklärung von
+        Mirchond's persischer Geschichte der Geldschulen,
+        <notiz>Fortsetzung</notiz></thema>: <ders
         ref="fleischer_hl">Derselbe</ders>, <zeit>11 U. Mont. und
         Donn.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Hebräische Grammatik,
-        <notiz>Fortsetzung</notiz></thema>: <dozent><nachname>Tuch</nachname>,
-        <funktion>P. E. des.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1842w-I.II.2-009"><thema>Hebräische
+        Grammatik, <notiz>Fortsetzung</notiz></thema>:
+        <dozent><nachname>Tuch</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Hebr. Grammatik</thema>: <dozent
@@ -386,11 +417,12 @@
         <funktion>Theol. Lic.</funktion></dozent>, <siehe>s.
         Theol.</siehe></veranstaltungsverweis>
 
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-I.II.2.001">
           <titel>Sprachübungen.</titel>
 
-          <veranstaltung><thema><notiz>Fortsetzung</notiz> der Uebungen der
-          arabischen Gesellschaft</thema>: <dozent
+          <veranstaltung
+          xml:id="v-1842w-I.II.2.001-001"><thema><notiz>Fortsetzung</notiz>
+          der Uebungen der arabischen Gesellschaft</thema>: <dozent
           ref="fleischer_hl"><nachname>Fleischer</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>6-8 U. Mittw. Abends</zeit>
           <modus>privatissime</modus>, aber
@@ -398,100 +430,109 @@
 
           <seite>6</seite>
 
-          <veranstaltung><thema>Uebungen der hebräischen Gesellschaft</thema>:
-          <dozent><grad>D.</grad> <nachname>Theile</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>zu den best. T. u. St.</zeit>
+          <veranstaltung xml:id="v-1842w-I.II.2.001-002"><thema>Uebungen der
+          hebräischen Gesellschaft</thema>: <dozent><grad>D.</grad>
+          <nachname>Theile</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>zu den best. T. u. St.</zeit> <modus>privatissime</modus>,
+          aber <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+          <veranstaltung xml:id="v-1842w-I.II.2.001-003"><thema>Uebungen der
+          hebräischen Gesellschaft</thema>: <dozent><nachname>Tuch</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <zeit>4-6 U. Mittw.</zeit>
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Uebungen der hebräischen Gesellschaft</thema>:
-          <dozent><nachname>Tuch</nachname>, <funktion>P. E.
-          des.</funktion></dozent>, <zeit>4-6 U. Mittw.</zeit>
-          <modus>privatissime</modus>, aber
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
-
-          <veranstaltung><thema>Uebungen im Lesen des A. T. in sprachlicher
-          Beziehung</thema>: <dozent><grad>M.</grad>
-          <nachname>Fürst</nachname></dozent>, <zeit>in zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1842w-I.II.2.001-004"><thema>Uebungen im
+          Lesen des A. T. in sprachlicher Beziehung</thema>:
+          <dozent><grad>M.</grad> <nachname>Fürst</nachname></dozent>,
+          <zeit>in zu best. St.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.II.3">
         <titel>3. Neuere Sprachen.</titel>
 
-        <veranstaltung><thema>Mittelhochdeutsche Grammatik</thema>: <dozent
-        ref="haupt_m"><nachname>Haupt</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
+        <veranstaltung xml:id="v-1842w-I.II.3-001"><thema>Mittelhochdeutsche
+        Grammatik</thema>: <dozent ref="haupt_m"><nachname>Haupt</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Erklärung des Erec von Hartmann von Aue</thema>:
-        <ders ref="haupt_m">Derselbe</ders>, <zeit>10 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1842w-I.II.3-002"><thema>Erklärung des Erec
+        von Hartmann von Aue</thema>: <ders ref="haupt_m">Derselbe</ders>,
+        <zeit>10 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Anleitung zum geregelten mündlichen Vortrage für
-        künftige Religionslehrer</thema>: <dozent><grad>M.</grad>
-        <nachname>Kerndörffer</nachname>, <funktion>Lect.
-        publ.</funktion></dozent>, <thema>nach s. Handbuche (Leipz. 1832. b.
-        Cnobloch)</thema>, <zeit>in zu best. T. u. St.</zeit></veranstaltung>
-
-        <veranstaltung><thema>Anleitung zum geregelten rednerischen Vortrage
-        für Nichttheologen</thema>: <ders>Derselbe</ders>, <thema>nach s.
-        Handbuche (Lpz. b. Steinacker)</thema>, <zeit>in zu best. T. u.
+        <veranstaltung xml:id="v-1842w-I.II.3-003"><thema>Anleitung zum
+        geregelten mündlichen Vortrage für künftige Religionslehrer</thema>:
+        <dozent><grad>M.</grad> <nachname>Kerndörffer</nachname>,
+        <funktion>Lect. publ.</funktion></dozent>, <thema>nach s. Handbuche
+        (Leipz. 1832. b. Cnobloch)</thema>, <zeit>in zu best. T. u.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Theorie der Declamation mit erläuternden
-        Beispielen aus deutschen Classikern</thema>: <ders>Derselbe</ders>,
-        <thema>unter Benutzung s. Handbuches: <gesperrt>Teone</gesperrt>
-        (Leipz. b. Hinrichs)</thema>, <zeit>2 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.II.3-004"><thema>Anleitung zum
+        geregelten rednerischen Vortrage für Nichttheologen</thema>:
+        <ders>Derselbe</ders>, <thema>nach s. Handbuche (Lpz. b.
+        Steinacker)</thema>, <zeit>in zu best. T. u.
+        St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Anfangsgründe der italienischen Sprache, nach
-        <gesperrt>Ife's</gesperrt> Lesebuch mit Grammatik und Wörterbuch
-        (Leipz. 1823. b. Köhler), in lat. Sprache</thema>:
-        <dozent><grad>M.</grad> <nachname>Rathgeber</nachname>,
-        <funktion>Lect. publ.</funktion></dozent>, <zeit>1 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1842w-I.II.3-005"><thema>Theorie der
+        Declamation mit erläuternden Beispielen aus deutschen
+        Classikern</thema>: <ders>Derselbe</ders>, <thema>unter Benutzung s.
+        Handbuches: <gesperrt>Teone</gesperrt> (Leipz. b. Hinrichs)</thema>,
+        <zeit>2 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-I.II.3-006"><thema>Anfangsgründe der
+        italienischen Sprache, nach <gesperrt>Ife's</gesperrt> Lesebuch mit
+        Grammatik und Wörterbuch (Leipz. 1823. b. Köhler), in lat.
+        Sprache</thema>: <dozent><grad>M.</grad>
+        <nachname>Rathgeber</nachname>, <funktion>Lect.
+        publ.</funktion></dozent>, <zeit>1 U. 2 T.</zeit>
         <modus>öffentl.</modus></veranstaltung>
 
-        <veranstaltung><thema>Anfangsgründe der spanischen Sprache nach
-        <gesperrt>Franceson's</gesperrt> Grammatik nebst Lesestücken (2. Aufl.
-        Lpz. 1843. b. Fr. Fleischer), verbunden mit praktischen Uebungen, in
-        lat. Sprache</thema>: <ders>Derselbe</ders>, <zeit>1 U. Dienst. u.
-        Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
-
-        <veranstaltung><thema>Anfangsgründe der portugiesischen Sprache nach
-        <gesperrt>Jos. Alboni's</gesperrt> Grammatik (Leipz. 1813. b.
-        Hinrichs), in Verbindung mit <gesperrt>Ahlwardt's</gesperrt> portug.
-        Chrestomathie nebst Wörterbuch (Lpz. 1808. b. Schwickert), in lat.
-        Sprache</thema>: <ders>Derselbe</ders>, <zeit>Donn. 1 U.</zeit>
+        <veranstaltung xml:id="v-1842w-I.II.3-007"><thema>Anfangsgründe der
+        spanischen Sprache nach <gesperrt>Franceson's</gesperrt> Grammatik
+        nebst Lesestücken (2. Aufl. Lpz. 1843. b. Fr. Fleischer), verbunden
+        mit praktischen Uebungen, in lat. Sprache</thema>:
+        <ders>Derselbe</ders>, <zeit>1 U. Dienst. u. Freit.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Cursus über Aussprache, Formenlehre u. Syntax
-        der englischen Sprache</thema>: <dozent><grad>M.</grad>
-        <nachname>Feller</nachname>, <funktion>Lect.
+        <veranstaltung xml:id="v-1842w-I.II.3-008"><thema>Anfangsgründe der
+        portugiesischen Sprache nach <gesperrt>Jos. Alboni's</gesperrt>
+        Grammatik (Leipz. 1813. b. Hinrichs), in Verbindung mit
+        <gesperrt>Ahlwardt's</gesperrt> portug. Chrestomathie nebst Wörterbuch
+        (Lpz. 1808. b. Schwickert), in lat. Sprache</thema>:
+        <ders>Derselbe</ders>, <zeit>Donn. 1 U.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-I.II.3-009"><thema>Cursus über
+        Aussprache, Formenlehre u. Syntax der englischen Sprache</thema>:
+        <dozent><grad>M.</grad> <nachname>Feller</nachname>, <funktion>Lect.
         publ.</funktion></dozent>, <zeit>1 U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber englische Litteratur</thema>:
-        <ders>Derselbe</ders>, <zeit>2 T. in zu best. St.</zeit>
+        <veranstaltung xml:id="v-1842w-I.II.3-010"><thema>Ueber englische
+        Litteratur</thema>: <ders>Derselbe</ders>, <zeit>2 T. in zu best.
+        St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-I.II.3-011"><thema>Anfangsgründe der
+        russischen und neugriechischen Sprache</thema>:
+        <dozent><grad>M.</grad> <nachname>Schmidt</nachname>, <funktion>Lect.
+        publ.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Anfangsgründe der russischen und neugriechischen
-        Sprache</thema>: <dozent><grad>M.</grad> <nachname>Schmidt</nachname>,
-        <funktion>Lect. publ.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
-
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-I.II.3.001">
           <titel>Sprachünungen.</titel>
 
-          <veranstaltung><thema>Anleitung zum geregelten schriftlichen
-          Vortrage in eignen freien Ausarbeitungen</thema>:
-          <dozent><grad>M.</grad> <nachname>Kerndörffer</nachname>,
-          <funktion>Lect. publ.</funktion></dozent>, <zeit>in zu best.
+          <veranstaltung xml:id="v-1842w-I.II.3.001-001"><thema>Anleitung zum
+          geregelten schriftlichen Vortrage in eignen freien
+          Ausarbeitungen</thema>: <dozent><grad>M.</grad>
+          <nachname>Kerndörffer</nachname>, <funktion>Lect.
+          publ.</funktion></dozent>, <zeit>in zu best.
           St.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Uebungen der Gesellschaft für deutsche Sprache
-          u. Litteratur</thema>: <dozent><grad>D.</grad>
-          <nachname>Vogel</nachname></dozent>, <zeit>in den best. St.</zeit>
+          <veranstaltung xml:id="v-1842w-I.II.3.001-002"><thema>Uebungen der
+          Gesellschaft für deutsche Sprache u. Litteratur</thema>:
+          <dozent><grad>D.</grad> <nachname>Vogel</nachname></dozent>,
+          <zeit>in den best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
           <seite>7</seite>
@@ -499,29 +540,32 @@
       </sachgruppe>
     </sachgruppe>
 
-    <sachgruppe>
+    <sachgruppe xml:id="sg-1842w-I.III">
       <titel>III. Historische Wissenschaften.</titel>
 
-      <veranstaltung><thema>Propädeutik des Geschichtsstudiums</thema>:
-      <dozent><grad>M.</grad> <nachname>Buttke</nachname></dozent>, <zeit>in
-      zu best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+      <veranstaltung xml:id="v-1842w-I.III-001"><thema>Propädeutik des
+      Geschichtsstudiums</thema>: <dozent><grad>M.</grad>
+      <nachname>Buttke</nachname></dozent>, <zeit>in zu best. St.</zeit>
+      <modus>privatissime</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Elemente der Diplomatik, Sphragistik, Genealogie
-      u. Heraldik</thema>: <dozent><nachname>Hasse</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>10 U. Mont. u. Dienst.</zeit>
+      <veranstaltung xml:id="v-1842w-I.III-002"><thema>Elemente der
+      Diplomatik, Sphragistik, Genealogie u. Heraldik</thema>:
+      <dozent><nachname>Hasse</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>10 U. Mont. u. Dienst.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.III.1">
         <titel>1. Weltgeschichte.</titel>
 
-        <veranstaltung><thema>Allgemeine Geschichte unserer Zeit vom J. 1789
-        an</thema>: <dozent
+        <veranstaltung xml:id="v-1842w-I.III.1-001"><thema>Allgemeine
+        Geschichte unserer Zeit vom J. 1789 an</thema>: <dozent
         ref="wachsmuth_ewg"><nachname>Wachsmuth</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>2 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Geschichte d. deutschen Volkes u.
-        Reiches</thema>: <ders ref="wachsmuth_ewg">Derselbe</ders>, <zeit>9 U.
-        4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.III.1-002"><thema>Geschichte d.
+        deutschen Volkes u. Reiches</thema>: <ders
+        ref="wachsmuth_ewg">Derselbe</ders>, <zeit>9 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Geschichte Skandinaviens, der
         Niederlande, Belgiens u. der pyrenäischen Halbinsel</thema>:
@@ -529,86 +573,91 @@
         O.</funktion></dozent>, <siehe>s.
         Staatswissenschaften</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Allgemeine Weltgeschichte vom Untergange des
-        weströmischen Reichs an bis auf unsere Tage</thema>: <dozent
-        ref="flathe_jlf"><grad>M.</grad> <nachname>Flathe</nachname></dozent>,
-        <zeit>8 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.III.1-003"><thema>Allgemeine
+        Weltgeschichte vom Untergange des weströmischen Reichs an bis auf
+        unsere Tage</thema>: <dozent ref="flathe_jlf"><grad>M.</grad>
+        <nachname>Flathe</nachname></dozent>, <zeit>8 U. 6
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Geschichte des Alterthums</thema>: <ders
-        ref="flathe_jlf">Derselbe</ders>, <zeit>4 U. 2 T.</zeit>
-        <gebühr>unentg.</gebühr></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.III.1-004"><thema>Geschichte des
+        Alterthums</thema>: <ders ref="flathe_jlf">Derselbe</ders>, <zeit>4 U.
+        2 T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
 
-        <veranstaltung><thema>Ueber Deutschland im 18. Jahrh., den Untergang
-        Polens u. die französische Revolution (<notiz>Beendigung der
-        Geschichte des 18. Jahrh.</notiz>)</thema>: <dozent><grad>M.</grad>
-        <nachname>Buttke</nachname></dozent>, <zeit>11 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.III.1-005"><thema>Ueber Deutschland
+        im 18. Jahrh., den Untergang Polens u. die französische Revolution
+        (<notiz>Beendigung der Geschichte des 18. Jahrh.</notiz>)</thema>:
+        <dozent><grad>M.</grad> <nachname>Buttke</nachname></dozent>, <zeit>11
+        U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.III.2">
         <titel>2. Litteraturgeschichte.</titel>
 
-        <veranstaltung><thema>Lateinische Litteraturgeschichte</thema>:
-        <dozent ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
+        <veranstaltung xml:id="v-1842w-I.III.2-001"><thema>Lateinische
+        Litteraturgeschichte</thema>: <dozent
+        ref="klotz_r"><nachname>Klotz</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>2 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Geschichte der jüdischen Litteratur</thema>:
-        <dozent><grad>M.</grad> <nachname>Fürst</nachname></dozent>, <zeit>in
-        zu best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.III.2-002"><thema>Geschichte der
+        jüdischen Litteratur</thema>: <dozent><grad>M.</grad>
+        <nachname>Fürst</nachname></dozent>, <zeit>in zu best.
+        St.</zeit></veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.III.3">
         <titel>3. Alterthumskunde.</titel>
 
-        <veranstaltung><thema>Deutsche Alterthümer</thema>: <dozent
+        <veranstaltung xml:id="v-1842w-I.III.3-001"><thema>Deutsche
+        Alterthümer</thema>: <dozent
         ref="wachsmuth_ewg"><nachname>Wachsmuth</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>9 U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Die römische Staatsverfassung von den Zeiten der
-        Könige bis auf Augustus</thema>: <dozent
-        ref="becker_wa"><nachname>Becker</nachname>, <funktion>P. O.
+        <veranstaltung xml:id="v-1842w-I.III.3-002"><thema>Die römische
+        Staatsverfassung von den Zeiten der Könige bis auf Augustus</thema>:
+        <dozent ref="becker_wa"><nachname>Becker</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
         <modus>öffentl.</modus></veranstaltung>
 
-        <veranstaltung><thema>Griechische Vasenkunde</thema>: <ders
-        ref="becker_wa">Derselbe</ders>, <zeit>3 U. 2
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.III.3-003"><thema>Griechische
+        Vasenkunde</thema>: <ders ref="becker_wa">Derselbe</ders>, <zeit>3 U.
+        2 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Archäologie des A. und N. T.</thema>:
-        <dozent><nachname>Seyffarth</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>4 T. in zu best. St.</zeit>
+        <veranstaltung xml:id="v-1842w-I.III.3-004"><thema>Archäologie des A.
+        und N. T.</thema>: <dozent><nachname>Seyffarth</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>4 T. in zu best. St.</zeit>
         <modus>öffentlich</modus> u.
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.III.4">
         <titel>4. Chronologie und Geographie.</titel>
 
-        <veranstaltung><thema>Chronologie der Griechen</thema>:
-        <dozent><nachname>Westermann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9 U. Dienst. u.
+        <veranstaltung xml:id="v-1842w-I.III.4-001"><thema>Chronologie der
+        Griechen</thema>: <dozent><nachname>Westermann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9 U. Dienst. u.
         Freit.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Topogographie von Attika</thema>:
-        <ders>Derselbe</ders>, <zeit>9 U. Mont. u.
+        <veranstaltung xml:id="v-1842w-I.III.4-002"><thema>Topogographie von
+        Attika</thema>: <ders>Derselbe</ders>, <zeit>9 U. Mont. u.
         Donn.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Geographie von Alt-Italien mit Erklärung des 5.
-        u. 6. B. des Strabo</thema>: <dozent><grad>M.</grad>
-        <nachname>Klee</nachname></dozent>, <zeit>3 U. Dienst. u.
-        Freit.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.III.4-003"><thema>Geographie von
+        Alt-Italien mit Erklärung des 5. u. 6. B. des Strabo</thema>:
+        <dozent><grad>M.</grad> <nachname>Klee</nachname></dozent>, <zeit>3 U.
+        Dienst. u. Freit.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-I.III.4.001">
           <titel>Historische Uebungen.</titel>
 
-          <veranstaltung><thema>Uebungen der historischen
-          Gesellschaft</thema>: <dozent
+          <veranstaltung xml:id="v-1842w-I.III.4.001-001"><thema>Uebungen der
+          historischen Gesellschaft</thema>: <dozent
           ref="wachsmuth_ewg"><nachname>Wachsmuth</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>in den best.
           St.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Uebungen der antiquarischen
-          Gesellschaft</thema>: <dozent
+          <veranstaltung xml:id="v-1842w-I.III.4.001-002"><thema>Uebungen der
+          antiquarischen Gesellschaft</thema>: <dozent
           ref="becker_wa"><nachname>Becker</nachname>, <funktion>P. O.
           des.</funktion></dozent>, <zeit>in den best.
           St.</zeit></veranstaltung>
@@ -618,243 +667,263 @@
       </sachgruppe>
     </sachgruppe>
 
-    <sachgruppe>
+    <sachgruppe xml:id="sg-1842w-I.IV">
       <titel>IV. Staatswissenschaften.</titel>
 
-      <veranstaltung><thema>Geschichte der Staatenverhältnisse von Europa seit
-      dem Wiener Congresse bis zu der jüngsten gegenseitigen Verpflichtung der
-      Staaten, den afrikanischen Sklavenhandel abzuschaffen</thema>:
-      <dozent><nachname>Hasse</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>10 U. 2 T.</zeit></veranstaltung>
-
-      <veranstaltung><thema>Geschichte und Staatskunde des Königreichs
-      Sachsen</thema>: <ders>Derselbe</ders>, <zeit>4 U. 2
+      <veranstaltung xml:id="v-1842w-I.IV-001"><thema>Geschichte der
+      Staatenverhältnisse von Europa seit dem Wiener Congresse bis zu der
+      jüngsten gegenseitigen Verpflichtung der Staaten, den afrikanischen
+      Sklavenhandel abzuschaffen</thema>: <dozent><nachname>Hasse</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>10 U. 2
       T.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Allgemeine Statistik</thema>:
-      <dozent><nachname>Hanssen</nachname>, <funktion>P. O.
+      <veranstaltung xml:id="v-1842w-I.IV-002"><thema>Geschichte und
+      Staatskunde des Königreichs Sachsen</thema>: <ders>Derselbe</ders>,
+      <zeit>4 U. 2 T.</zeit></veranstaltung>
+
+      <veranstaltung xml:id="v-1842w-I.IV-003"><thema>Allgemeine
+      Statistik</thema>: <dozent><nachname>Hanssen</nachname>, <funktion>P. O.
       des.</funktion></dozent>, <zeit>3 U. 4 T.</zeit>
       <modus>öff.</modus></veranstaltung>
 
-      <veranstaltung><thema>Statistik und Geschichte Skandinaviens, der
-      Niederlande, Belgiens u. der pyrenäischen Halbinsel</thema>:
-      <dozent><nachname>Hasse</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>10 U. Dienst. u. Freit.</zeit>
+      <veranstaltung xml:id="v-1842w-I.IV-004"><thema>Statistik und Geschichte
+      Skandinaviens, der Niederlande, Belgiens u. der pyrenäischen
+      Halbinsel</thema>: <dozent><nachname>Hasse</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>10 U. Dienst. u. Freit.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Allgemeine Staatslehre u. Hauptsätze der
-      Politik</thema>: <dozent ref="buelau_f"><nachname>Bülau</nachname>,
-      <funktion>P. O. des.</funktion></dozent>, <zeit>11 U. Mont. u.
-      Donn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+      <veranstaltung xml:id="v-1842w-I.IV-005"><thema>Allgemeine Staatslehre
+      u. Hauptsätze der Politik</thema>: <dozent
+      ref="buelau_f"><nachname>Bülau</nachname>, <funktion>P. O.
+      des.</funktion></dozent>, <zeit>11 U. Mont. u. Donn.</zeit>
+      <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Allgemeines u. sächsisches
       Staatsrecht</thema>: <siehe>s.
       Rechtswissenschaften</siehe>.</veranstaltungsverweis>
 
-      <veranstaltung><thema>Oeffentliches Recht einiger europäischen
-      Hauptstaaten</thema>: <dozent
+      <veranstaltung xml:id="v-1842w-I.IV-006"><thema>Oeffentliches Recht
+      einiger europäischen Hauptstaaten</thema>: <dozent
       ref="buelau_f"><nachname>Bülau</nachname><korrektur
       original=":">,</korrektur> <funktion>P. O. des.</funktion></dozent>,
       <zeit>11 Dienst. u. Freit.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Constitutionelles Staatsrecht mit besonderer
-      Rücksicht auf die verschiedenen deutsch. Verfassungen</thema>: <dozent
-      ref="biedermann_k"><grad>M.</grad>
+      <veranstaltung xml:id="v-1842w-I.IV-007"><thema>Constitutionelles
+      Staatsrecht mit besonderer Rücksicht auf die verschiedenen deutsch.
+      Verfassungen</thema>: <dozent ref="biedermann_k"><grad>M.</grad>
       <nachname>Biedermann</nachname></dozent>, <zeit>4 U. 2
       T.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Ueber die Verfassungsurkunde des Königreichs
-      Sachsen</thema>: <dozent ref="buelau_f"><nachname>Bülau</nachname>,
-      <funktion>P. O. des.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
+      <veranstaltung xml:id="v-1842w-I.IV-008"><thema>Ueber die
+      Verfassungsurkunde des Königreichs Sachsen</thema>: <dozent
+      ref="buelau_f"><nachname>Bülau</nachname>, <funktion>P. O.
+      des.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-      <veranstaltung><thema>Finanzwissenschaft</thema>: <ders
+      <veranstaltung
+      xml:id="v-1842w-I.IV-009"><thema>Finanzwissenschaft</thema>: <ders
       ref="buelau_f">Derselbe</ders>, <zeit>3 U. 2 T.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Nationalökonomie</thema>:
+      <veranstaltung
+      xml:id="v-1842w-I.IV-010"><thema>Nationalökonomie</thema>:
       <dozent><nachname>Hanssen</nachname>, <funktion>P. O.
       des.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
     </sachgruppe>
 
-    <sachgruppe>
+    <sachgruppe xml:id="sg-1842w-I.V">
       <titel>V. Mathematische Wissenschaften.</titel>
 
       <veranstaltungsgruppe><thema>Cursus der höheren Mathematik, in diesem
       Halbjahre analytische Geometrie und Differentialrechnung</thema>:
       <dozent ref="drobisch_mw"><nachname>Drobisch</nachname>, <funktion>P.
-      O.</funktion></dozent>,<veranstaltung><zeit>10 U. 6
-      T.</zeit></veranstaltung> <veranstaltung>( <zeit>2 T.</zeit>
+      O.</funktion></dozent>,<veranstaltung xml:id="v-1842w-I.V-001"><zeit>10
+      U. 6 T.</zeit></veranstaltung> <veranstaltung xml:id="v-1842w-I.V-002">(
+      <zeit>2 T.</zeit>
       <modus>öffentlich</modus>.)</veranstaltung></veranstaltungsgruppe>
 
-      <veranstaltung><thema>Theorie der Kegelschnitte</thema>:
-      <dozent><nachname>Möbius</nachname>, <funktion>P. E. et
-      Observ.</funktion></dozent>, <zeit>8 U. 2 T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1842w-I.V-003"><thema>Theorie der
+      Kegelschnitte</thema>: <dozent><nachname>Möbius</nachname>, <funktion>P.
+      E. et Observ.</funktion></dozent>, <zeit>8 U. 2
+      T.</zeit></veranstaltung>
 
-      <veranstaltung><thema>Sphärische Astronomie, <notiz>Fortsetzung u.
-      Beschluß</notiz></thema>: <ders>Derselbe</ders>, <zeit>4 U. 2 T.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      <veranstaltung xml:id="v-1842w-I.V-004"><thema>Sphärische Astronomie,
+      <notiz>Fortsetzung u. Beschluß</notiz></thema>: <ders>Derselbe</ders>,
+      <zeit>4 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Einrichtung des Weltgebäudes (nach seinem Buche:
-      Die Hauptsätze der Astronomie. Leipz. b. Bösenberg)</thema>:
-      <ders>Derselbe</ders>, <zeit>5 U. 2 T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1842w-I.V-005"><thema>Einrichtung des
+      Weltgebäudes (nach seinem Buche: Die Hauptsätze der Astronomie. Leipz.
+      b. Bösenberg)</thema>: <ders>Derselbe</ders>, <zeit>5 U. 2
+      T.</zeit></veranstaltung>
     </sachgruppe>
 
-    <sachgruppe>
+    <sachgruppe xml:id="sg-1842w-I.VI">
       <titel>VI. Naturwissenschaften.</titel>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.VI.1">
         <titel>1. Physik und Chemie.</titel>
 
-        <veranstaltung><thema>Experimentalphysik, <notiz>zweiter
-        Theil</notiz></thema>: <dozent
+        <veranstaltung xml:id="v-1842w-I.VI.1-001"><thema>Experimentalphysik,
+        <notiz>zweiter Theil</notiz></thema>: <dozent
         ref="fechner_gt"><nachname>Fechner</nachname>, <funktion>P.
         O.</funktion></dozent>, unter Assistenz des <dozent
         ref="brandes_cwh"><grad>M.</grad>
         <nachname>Brandes</nachname></dozent>, <zeit>11 U. 6
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Anorganische Chemie, durch Versuche
-        erläutert</thema>: <dozent ref="kuehn_ob"><grad>D.</grad>
-        <nachname>Kühn</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>8 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.VI.1-002"><thema>Anorganische Chemie,
+        durch Versuche erläutert</thema>: <dozent
+        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>8 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Analytische Chemie</thema>: <ders
-        ref="kuehn_ob">Derselbe</ders>, <zeit>4 U. Mont. u. Donn.</zeit>
-        <modus>öff.</modus></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.VI.1-003"><thema>Analytische
+        Chemie</thema>: <ders ref="kuehn_ob">Derselbe</ders>, <zeit>4 U. Mont.
+        u. Donn.</zeit> <modus>öff.</modus></veranstaltung>
 
-        <veranstaltung><thema>Organische Chemie</thema>: <dozent
-        ref="erdmann_ol"><nachname>Erdmann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>8 U. 4 T.</zeit>
+        <veranstaltung xml:id="v-1842w-I.VI.1-004"><thema>Organische
+        Chemie</thema>: <dozent ref="erdmann_ol"><nachname>Erdmann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>8 U. 4 T.</zeit>
         <modus>öffentl.</modus></veranstaltung>
 
         <seite>9</seite>
 
-        <veranstaltung><thema>Physiologische und pathologische Chemie</thema>:
-        <dozent ref="lehmann_cg"><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-I.VI.1-005"><thema>Physiologische und
+        pathologische Chemie</thema>: <dozent ref="lehmann_cg"><grad>D.</grad>
         <nachname>Lehmann</nachname></dozent>, <zeit>2 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Gerichtliche Medicin</thema>: <ders
-        ref="lehmann_cg">Derselbe</ders>, <zeit>11 U. 2
+        <veranstaltung xml:id="v-1842w-I.VI.1-006"><thema>Gerichtliche
+        Medicin</thema>: <ders ref="lehmann_cg">Derselbe</ders>, <zeit>11 U. 2
         T.</zeit></veranstaltung>
 
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-I.VI.1.001">
           <titel>Physische und chemische Uebungen.</titel>
 
-          <veranstaltung><thema>Chemisch-praktische Uebungen</thema><korrektur
-          original=",">:</korrektur> <dozent ref="kuehn_ob"><grad>D.</grad>
-          <nachname>Kühn</nachname>, <funktion>P. O.</funktion></dozent>,
-          <ort>in s. Privat-Laboratorium</ort>, <zeit>2 St. hinter einander an
-          2 T.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung
+          xml:id="v-1842w-I.VI.1.001-001"><thema>Chemisch-praktische
+          Uebungen</thema><korrektur original=",">:</korrektur> <dozent
+          ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>,
+          <funktion>P. O.</funktion></dozent>, <ort>in s.
+          Privat-Laboratorium</ort>, <zeit>2 St. hinter einander an 2
+          T.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Chemisch-praktische Uebungen</thema> <ort>im
-          königlichen Laboratorium</ort>: <dozent
+          <veranstaltung
+          xml:id="v-1842w-I.VI.1.001-002"><thema>Chemisch-praktische
+          Uebungen</thema> <ort>im königlichen Laboratorium</ort>: <dozent
           ref="erdmann_ol"><nachname>Erdmann</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>9-12 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Privatissima über Physik und Chemie</thema>:
-          <dozent ref="lehmann_cg"><grad>D.</grad>
+          <veranstaltung xml:id="v-1842w-I.VI.1.001-003"><thema>Privatissima
+          über Physik und Chemie</thema>: <dozent
+          ref="lehmann_cg"><grad>D.</grad>
           <nachname>Lehmann</nachname></dozent>, <zeit>in zu best.
           St.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.VI.2">
         <titel>2. Naturgeschichte.</titel>
 
-        <veranstaltung><thema>Naturgeschichte der drei Reiche</thema>: <dozent
-        ref="schwaegrichen_cf"><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-I.VI.2-001"><thema>Naturgeschichte der
+        drei Reiche</thema>: <dozent ref="schwaegrichen_cf"><grad>D.</grad>
         <nachname>Schwägrichen</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>8 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Anfangsgründe der Geologie</thema>:
-        <dozent><nachname>Naumann</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>2 T. in zu best. St.</zeit>
+        <veranstaltung xml:id="v-1842w-I.VI.2-002"><thema>Anfangsgründe der
+        Geologie</thema>: <dozent><nachname>Naumann</nachname>, <funktion>P.
+        E. des.</funktion></dozent>, <zeit>2 T. in zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Mineralogie</thema>: <dozent
-        ref="schwaegrichen_cf"><nachname>Schwägrichen</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>in zu best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.VI.2-003"><thema>Mineralogie</thema>:
+        <dozent ref="schwaegrichen_cf"><nachname>Schwägrichen</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in zu best.
+        St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Krystallographie nebst den erforderlichen Lehren
-        der analytischen Geometrie</thema>:
+        <veranstaltung xml:id="v-1842w-I.VI.2-004"><thema>Krystallographie
+        nebst den erforderlichen Lehren der analytischen Geometrie</thema>:
         <dozent><nachname>Naumann</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>4 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Morphologie und Psysiologie der kryptogamischen
-        Gewächse</thema>: <dozent ref="kunze_g"><grad>D.</grad>
-        <nachname>Kunze</nachname>, <funktion>P. E.</funktion>,
-        <funktion>Horti botan. Dir.</funktion></dozent>, <zeit>9 U. 2
-        T.</zeit> <modus>öffentlich</modus>. <thema>Damit verbunden:
-        Excursionen oder Demonstrationen</thema>, <zeit>bei günstigem Wetter,
-        Sonnab. in den Nachmittagsstunden</zeit>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.VI.2-005"><thema>Morphologie und
+        Psysiologie der kryptogamischen Gewächse</thema>: <dozent
+        ref="kunze_g"><grad>D.</grad> <nachname>Kunze</nachname>, <funktion>P.
+        E.</funktion>, <funktion>Horti botan. Dir.</funktion></dozent>,
+        <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>. <thema>Damit
+        verbunden: Excursionen oder Demonstrationen</thema>, <zeit>bei
+        günstigem Wetter, Sonnab. in den
+        Nachmittagsstunden</zeit>.</veranstaltung>
 
-        <veranstaltung><thema>Gewächskunde, nach s. Taschenbuche der Botanik
-        (Leipz. b. Volkmar 1812.)</thema>: <dozent><grad>M.</grad>
-        <nachname>Petermann</nachname></dozent>, <zeit>8 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-I.VI.2-006"><thema>Gewächskunde, nach
+        s. Taschenbuche der Botanik (Leipz. b. Volkmar 1812.)</thema>:
+        <dozent><grad>M.</grad> <nachname>Petermann</nachname></dozent>,
+        <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber die europäischen Getraide- und
-        Wiesen-Gräser</thema>: <ders>Derselbe</ders>, <zeit>8 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1842w-I.VI.2-007"><thema>Ueber die
+        europäischen Getraide- und Wiesen-Gräser</thema>:
+        <ders>Derselbe</ders>, <zeit>8 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Specielle Zoologie, <notiz>zweiter
-        Theil</notiz></thema>: <dozent><nachname>Pöppig</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1842w-I.VI.2-008"><thema>Specielle Zoologie,
+        <notiz>zweiter Theil</notiz></thema>:
+        <dozent><nachname>Pöppig</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-I.VI.2.001">
           <titel>Mineralogische, botanische u. zoologische Uebungen.</titel>
 
-          <veranstaltung><thema>Praktische Uebungen im Bestimmen der
-          Mineralien, besonders mit Hilfe des Löthrohrs</thema>:
-          <dozent><grad>D.</grad> <nachname>Weinlig</nachname></dozent>,
-          <zeit>2 T. in zu best. St</zeit>.
+          <veranstaltung xml:id="v-1842w-I.VI.2.001-001"><thema>Praktische
+          Uebungen im Bestimmen der Mineralien, besonders mit Hilfe des
+          Löthrohrs</thema>: <dozent><grad>D.</grad>
+          <nachname>Weinlig</nachname></dozent>, <zeit>2 T. in zu best.
+          St</zeit>. <modus>privatissime</modus>.</veranstaltung>
+
+          <veranstaltung
+          xml:id="v-1842w-I.VI.2.001-002"><thema>Examinirübungen über
+          theoretische und praktische Gewächskunde</thema>:
+          <dozent><grad>M.</grad> <nachname>Petermann</nachname></dozent>,
+          <zeit>in zu best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Examinirübungen über theoretische und
-          praktische Gewächskunde</thema>: <dozent><grad>M.</grad>
-          <nachname>Petermann</nachname></dozent>, <zeit>in zu best.
-          St.</zeit> <modus>privatissime</modus>.</veranstaltung>
-
-          <veranstaltung><thema>Zoologische Demonstrationen</thema>:
-          <dozent><nachname>Pöppig</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>4 U. 2 T.</zeit><gebühr>
+          <veranstaltung xml:id="v-1842w-I.VI.2.001-003"><thema>Zoologische
+          Demonstrationen</thema>: <dozent><nachname>Pöppig</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>4 U. 2 T.</zeit><gebühr>
           unentgeltlich.</gebühr></veranstaltung>
 
-          <veranstaltung><thema>Leitung zoologischer Uebungen</thema>:
-          <ders>Derselbe</ders>, <zeit>11 U. Sonnab.</zeit>
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1842w-I.VI.2.001-004"><thema>Leitung
+          zoologischer Uebungen</thema>: <ders>Derselbe</ders>, <zeit>11 U.
+          Sonnab.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
 
-    <sachgruppe>
+    <sachgruppe xml:id="sg-1842w-I.VII">
       <titel>VII. Kameralwissenschaften.</titel>
 
-      <veranstaltung><thema>Allgemeine Technologie</thema>:
-      <dozent><grad>D.</grad> <nachname>Weinlig</nachname></dozent>, <zeit>4
-      T. in zu best. St.</zeit>
+      <veranstaltung xml:id="v-1842w-I.VII-001"><thema>Allgemeine
+      Technologie</thema>: <dozent><grad>D.</grad>
+      <nachname>Weinlig</nachname></dozent>, <zeit>4 T. in zu best. St.</zeit>
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <seite>10</seite>
 
-      <veranstaltung><thema>Encyklopädie der speciellen Technologie, nach s.
-      Lehrbuche der Technologie</thema>: <dozent><nachname>Pohl</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>2 U. 4 T.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      <veranstaltung xml:id="v-1842w-I.VII-002"><thema>Encyklopädie der
+      speciellen Technologie, nach s. Lehrbuche der Technologie</thema>:
+      <dozent><nachname>Pohl</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>2 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Landwirthschaftslehre n. s. Heften</thema>:
-      <ders>Derselbe</ders>, <zeit>9 U. 4 T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1842w-I.VII-003"><thema>Landwirthschaftslehre
+      n. s. Heften</thema>: <ders>Derselbe</ders>, <zeit>9 U. 4
+      T.</zeit></veranstaltung>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-I.VII.001">
         <titel>Kameralistische Uebungen.</titel>
 
-        <veranstaltung><thema>Uebungen der kameralistischen
-        Gesellschaft</thema>: <dozent><nachname>Pohl</nachname>, <funktion>P.
+        <veranstaltung xml:id="v-1842w-I.VII.001-001"><thema>Uebungen der
+        kameralistischen Gesellschaft</thema>:
+        <dozent><nachname>Pohl</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>in den best. St.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
@@ -862,135 +931,146 @@
 
   <trennlinie/>
 
-  <sachgruppe>
+  <sachgruppe xml:id="sg-1842w-II">
     <titel>II. Facultätsstudien.</titel>
 
-    <sachgruppe fakultät="Theologie">
+    <sachgruppe fakultät="Theologie" xml:id="sg-1842w-II.A">
       <titel>A. Theologie.</titel>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.A.I">
         <titel>I. Exegetische Theologie.</titel>
 
-        <veranstaltung><thema>Historisch-kritische Einleitung in die
-        Apokryphen u. die wichtigeren Pseudepigraphen des A. T.</thema>:
-        <dozent ref="anger_r"><grad>M.</grad> <nachname>Anger</nachname>,
-        <funktion>Theol. Lic.</funktion></dozent>, <zeit>2 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.A.I-001"><thema>Historisch-kritische
+        Einleitung in die Apokryphen u. die wichtigeren Pseudepigraphen des A.
+        T.</thema>: <dozent ref="anger_r"><grad>M.</grad>
+        <nachname>Anger</nachname>, <funktion>Theol. Lic.</funktion></dozent>,
+        <zeit>2 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Historisch-kritische Einleitung in das N.
-        T.</thema>: <dozent ref="fleck_ff"><grad>D.</grad>
-        <nachname>Fleck</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>9 U. 2 T. und 3 U. 4 T. oder zu einer andern
-        St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.A.I-002"><thema>Historisch-kritische
+        Einleitung in das N. T.</thema>: <dozent
+        ref="fleck_ff"><grad>D.</grad> <nachname>Fleck</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>9 U. 2 T. und 3 U. 4 T.
+        oder zu einer andern St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Historisch-kritische Einleitung in das N. T., 2.
-        Thl.</thema>: <dozent><nachname>Tuch</nachname><korrektur
-        original=":">,</korrektur> <funktion>P. E. des.</funktion></dozent>,
-        <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
-
-        <trennlinie/>
-
-        <veranstaltung><thema>Erklärung der Weissagungen des Jesaias</thema>:
-        <dozent><nachname>Tuch</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>2 U. 5 T.</zeit></veranstaltung>
-
-        <veranstaltung><thema>Erklärung der Weissagungen des Joel und
-        Amos</thema>: <dozent ref="kuechler_kg"><nachname>Küchler</nachname>,
-        <funktion>Theol. Lic., Philos. P. E.</funktion></dozent>, <zeit>1 U. 2
-        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
-
-        <veranstaltung><thema>Erklärung des Propheten Habakuk mit besonderer
-        Berücksichtigung der hebräischen Grammatik</thema>: <dozent
-        ref="delitzsch_fj"><grad>M.</grad> <nachname>Delitzsch</nachname>,
-        <funktion>Theol. Lic.</funktion></dozent>, <zeit>in einer zu best.
-        St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
-
-        <veranstaltung><thema>Erklärung der Psalmen</thema>:
-        <dozent><grad>D.</grad> <nachname>Winzer</nachname>, <funktion>P.
-        Prim.</funktion></dozent>, <zeit>11 U. 4 T.</zeit>
+        <veranstaltung xml:id="v-1842w-II.A.I-003"><thema>Historisch-kritische
+        Einleitung in das N. T., 2. Thl.</thema>:
+        <dozent><nachname>Tuch</nachname><korrektur original=":">,</korrektur>
+        <funktion>P. E. des.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Erklärung der Psalmen</thema>: <dozent
-        ref="delitzsch_fj"><grad>M.</grad> <nachname>Delitzsch</nachname>,
-        <funktion>Theol. Lic.</funktion></dozent>, <zeit>4 T. in zu best.
-        St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
-
-        <veranstaltung><thema>Erklärung des Buches Hiob</thema>: <dozent
-        ref="anger_r"><grad>M.</grad> <nachname>Anger</nachname>,
-        <funktion>Theol. Lic.</funktion></dozent>, <zeit>4 T. in zu best.
-        St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
-
         <trennlinie/>
 
-        <veranstaltung><thema>Das Evangelium des Matthäus</thema><korrektur
-        original=",">:</korrektur> <dozent ref="fleck_ff"><grad>D.</grad>
-        <nachname>Fleck</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>9 U. 4 T.</zeit></veranstaltung>
-
-        <veranstaltung><thema>Das Evangelium des Matthäus</thema>: <dozent
-        ref="anger_r"><grad>M.</grad> <nachname>Anger</nachname>,
-        <funktion>Theol. Lic.</funktion></dozent>, <zeit>8 U. 4
+        <veranstaltung xml:id="v-1842w-II.A.I-004"><thema>Erklärung der
+        Weissagungen des Jesaias</thema>: <dozent><nachname>Tuch</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>2 U. 5
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Johannes (nebst den parallelen Abschnitten des
-        Matthäus in der Leidensgeschichte)</thema>: <dozent><grad>D.</grad>
-        <nachname>Theile</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>9 U. 2 T. und 10 U. Dienst. u. Freit.</zeit>
+        <veranstaltung xml:id="v-1842w-II.A.I-005"><thema>Erklärung der
+        Weissagungen des Joel und Amos</thema>: <dozent
+        ref="kuechler_kg"><nachname>Küchler</nachname>, <funktion>Theol. Lic.,
+        Philos. P. E.</funktion></dozent>, <zeit>1 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Praktische Erklärung der Parabeln des N. T.,
-        hauptsächlich für den Predigtzweck</thema>: <dozent
-        ref="krehl_alg"><grad>D.</grad> <nachname>Krehl</nachname>,
+        <veranstaltung xml:id="v-1842w-II.A.I-006"><thema>Erklärung des
+        Propheten Habakuk mit besonderer Berücksichtigung der hebräischen
+        Grammatik</thema>: <dozent ref="delitzsch_fj"><grad>M.</grad>
+        <nachname>Delitzsch</nachname>, <funktion>Theol.
+        Lic.</funktion></dozent>, <zeit>in einer zu best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-II.A.I-007"><thema>Erklärung der
+        Psalmen</thema>: <dozent><grad>D.</grad> <nachname>Winzer</nachname>,
+        <funktion>P. Prim.</funktion></dozent>, <zeit>11 U. 4 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-II.A.I-008"><thema>Erklärung der
+        Psalmen</thema>: <dozent ref="delitzsch_fj"><grad>M.</grad>
+        <nachname>Delitzsch</nachname>, <funktion>Theol.
+        Lic.</funktion></dozent>, <zeit>4 T. in zu best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-II.A.I-009"><thema>Erklärung des Buches
+        Hiob</thema>: <dozent ref="anger_r"><grad>M.</grad>
+        <nachname>Anger</nachname>, <funktion>Theol. Lic.</funktion></dozent>,
+        <zeit>4 T. in zu best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+
+        <trennlinie/>
+
+        <veranstaltung xml:id="v-1842w-II.A.I-010"><thema>Das Evangelium des
+        Matthäus</thema><korrektur original=",">:</korrektur> <dozent
+        ref="fleck_ff"><grad>D.</grad> <nachname>Fleck</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>9 U. 4
+        T.</zeit></veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-II.A.I-011"><thema>Das Evangelium des
+        Matthäus</thema>: <dozent ref="anger_r"><grad>M.</grad>
+        <nachname>Anger</nachname>, <funktion>Theol. Lic.</funktion></dozent>,
+        <zeit>8 U. 4 T.</zeit></veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-II.A.I-012"><thema>Johannes (nebst den
+        parallelen Abschnitten des Matthäus in der Leidensgeschichte)</thema>:
+        <dozent><grad>D.</grad> <nachname>Theile</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>9 U. 2 T. und 10 U. Dienst. u.
+        Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-II.A.I-013"><thema>Praktische Erklärung
+        der Parabeln des N. T., hauptsächlich für den Predigtzweck</thema>:
+        <dozent ref="krehl_alg"><grad>D.</grad> <nachname>Krehl</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
         <modus>öffentl.</modus></veranstaltung>
 
         <seite>11</seite>
 
-        <veranstaltung><thema>Erklärung der beiden Briefe Pauli an die
-        Korinther</thema>: <dozent><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.A.I-014"><thema>Erklärung der beiden
+        Briefe Pauli an die Korinther</thema>: <dozent><grad>D.</grad>
         <nachname>Winzer</nachname>, <funktion>P. Prim.</funktion></dozent>,
         <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Auslegung des 1. Briefes an die
-        Korinther</thema>: <dozent><grad>M.</grad>
+        <veranstaltung xml:id="v-1842w-II.A.I-015"><thema>Auslegung des 1.
+        Briefes an die Korinther</thema>: <dozent><grad>M.</grad>
         <nachname>Hänsel</nachname>., <funktion>Theol.
         Lic.</funktion></dozent>, <zeit>1 U. Mont., Dienst. u. Donn.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Erklärung der Brr. des Paulus an die Galater u.
-        des Jakobus, mit Rücksicht auf den angeblichen Unterschied zwischen
-        beiden</thema>: <dozent ref="lindner_wb"><grad>M.</grad>
-        <nachname>Lindner</nachname>, <funktion>Theol.
-        Lic.</funktion></dozent>, <zeit>2 U. 4 T.</zeit>
+        <veranstaltung xml:id="v-1842w-II.A.I-016"><thema>Erklärung der Brr.
+        des Paulus an die Galater u. des Jakobus, mit Rücksicht auf den
+        angeblichen Unterschied zwischen beiden</thema>: <dozent
+        ref="lindner_wb"><grad>M.</grad> <nachname>Lindner</nachname>,
+        <funktion>Theol. Lic.</funktion></dozent>, <zeit>2 U. 4 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Erklärung des Briefes an die Hebräer</thema>:
-        <dozent ref="grossmann_cgl"><grad>D.</grad>
-        <nachname>Großmann</nachname>, <funktion>P. O.</funktion>, d. Z.
+        <veranstaltung xml:id="v-1842w-II.A.I-017"><thema>Erklärung des
+        Briefes an die Hebräer</thema>: <dozent
+        ref="grossmann_cgl"><grad>D.</grad> <nachname>Großmann</nachname>,
+        <funktion>P. O.</funktion>, d. Z.
         <funktion>Dechant</funktion></dozent>, <zeit>8 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Erklärung des Briefes an die Hebräer</thema>:
-        <dozent><grad>D.</grad> <nachname>Winer</nachname>, <funktion>P.
-        O.</funktion>, d. Z. <funktion>Rector</funktion></dozent>, <zeit>9 U.
-        2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.A.I-018"><thema>Erklärung des
+        Briefes an die Hebräer</thema>: <dozent><grad>D.</grad>
+        <nachname>Winer</nachname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Rector</funktion></dozent>, <zeit>9 U. 2
+        T.</zeit></veranstaltung>
 
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-II.A.I.001">
           <titel>Exegetische Uebungen.</titel>
 
-          <veranstaltung><thema>Exegetische Uebungen der Lausitzer
-          Gesellschaft</thema>: <dozent><grad>D.</grad>
+          <veranstaltung xml:id="v-1842w-II.A.I.001-001"><thema>Exegetische
+          Uebungen der Lausitzer Gesellschaft</thema>: <dozent><grad>D.</grad>
           <nachname>Winzer</nachname>, <funktion>P. Prim.</funktion></dozent>,
           <zeit>zu den best. T. u. St.</zeit> <modus>privatissime</modus>,
           aber <gebühr>unentg.</gebühr></veranstaltung>
 
-          <veranstaltung><thema>Exegetische Uebungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Winer</nachname>, <funktion>P.
-          O.</funktion>, d. Z. <funktion>Rector</funktion></dozent>, <zeit>in
-          zu best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.A.I.001-002"><thema>Exegetische
+          Uebungen</thema>: <dozent><grad>D.</grad>
+          <nachname>Winer</nachname>, <funktion>P. O.</funktion>, d. Z.
+          <funktion>Rector</funktion></dozent>, <zeit>in zu best. St.</zeit>
+          <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Exegetische Gesellschaft des A. T.</thema>:
-          <dozent ref="anger_r"><grad>M.</grad> <nachname>Anger</nachname>,
+          <veranstaltung xml:id="v-1842w-II.A.I.001-003"><thema>Exegetische
+          Gesellschaft des A. T.</thema>: <dozent
+          ref="anger_r"><grad>M.</grad> <nachname>Anger</nachname>,
           <funktion>Theol. Lic.</funktion></dozent>, <zeit>in den best.
           St.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1000,239 +1080,262 @@
           E.</funktion></dozent>, <siehe>s.
           Sprachwissenschaft</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung><thema>Uebungen der exegetischen Gesellschaft des N.
-          T.</thema>: <ders>Derselbe</ders>, <zeit>zu den best. T. u.
-          St.</zeit> <modus>privatissime</modus>, aber
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.A.I.001-004"><thema>Uebungen der
+          exegetischen Gesellschaft des N. T.</thema>: <ders>Derselbe</ders>,
+          <zeit>zu den best. T. u. St.</zeit> <modus>privatissime</modus>,
+          aber <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Exegetische Gesellschaft des N. T.</thema>:
-          <dozent ref="anger_r"><grad>M.</grad> <nachname>Anger</nachname>,
+          <veranstaltung xml:id="v-1842w-II.A.I.001-005"><thema>Exegetische
+          Gesellschaft des N. T.</thema>: <dozent
+          ref="anger_r"><grad>M.</grad> <nachname>Anger</nachname>,
           <funktion>Theol. Lic.</funktion></dozent>, <zeit>zu den best. T. u.
           St.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Uebungen der exegetischen
-          Gesellschaft</thema>: <dozent ref="lindner_wb"><grad>M.</grad>
-          <nachname>Lindner</nachname>, <funktion>Theol.
-          Lic.</funktion></dozent>, <zeit>in zu best. St.</zeit>
-          <modus>privatissime</modus>, aber
+          <veranstaltung xml:id="v-1842w-II.A.I.001-006"><thema>Uebungen der
+          exegetischen Gesellschaft</thema>: <dozent
+          ref="lindner_wb"><grad>M.</grad> <nachname>Lindner</nachname>,
+          <funktion>Theol. Lic.</funktion></dozent>, <zeit>in zu best.
+          St.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Uebungen der exegetisch-dogmatischen
-          Gesellschaft</thema>: <dozent ref="fleck_ff"><grad>D.</grad>
-          <nachname>Fleck</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>in den best. St.</zeit> <modus>privatissime</modus>, aber
+          <veranstaltung xml:id="v-1842w-II.A.I.001-007"><thema>Uebungen der
+          exegetisch-dogmatischen Gesellschaft</thema>: <dozent
+          ref="fleck_ff"><grad>D.</grad> <nachname>Fleck</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>in den best. St.</zeit>
+          <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.A.II">
         <titel>II. Historische Theologie.</titel>
 
-        <veranstaltung><thema>Christliche Kirchengeschichte, <notiz>1.
-        Theil</notiz>, bis auf Gregor VII., nach Schmidt's Lehrb. (3. Aufl.
-        Gießen, 1827.)</thema>: <dozent ref="illgen_cf"><grad>D.</grad>
-        <nachname>Illgen</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>11 U. 6 T. u. 3 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.A.II-001"><thema>Christliche
+        Kirchengeschichte, <notiz>1. Theil</notiz>, bis auf Gregor VII., nach
+        Schmidt's Lehrb. (3. Aufl. Gießen, 1827.)</thema>: <dozent
+        ref="illgen_cf"><grad>D.</grad> <nachname>Illgen</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>11 U. 6 T. u. 3 U. 2
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Kirchengeschichte, <notiz>2. Theil</notiz>, nach
-        s. Heften</thema>: <dozent ref="lindner_wb"><grad>M.</grad>
-        <nachname>Lindner</nachname>, <funktion>Theol.
-        Lic.</funktion></dozent>, <zeit>3 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.A.II-002"><thema>Kirchengeschichte,
+        <notiz>2. Theil</notiz>, nach s. Heften</thema>: <dozent
+        ref="lindner_wb"><grad>M.</grad> <nachname>Lindner</nachname>,
+        <funktion>Theol. Lic.</funktion></dozent>, <zeit>3 U. 6
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Christliche Dogmengeschichte oder Theologie- u.
-        Philosophie-Geschichte, allgemeine u. besondere, nach s.
-        Lehrbuche</thema>: <dozent ref="niedner_cw"><grad>D.</grad>
-        <nachname>Niedner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>8 U. 6 T. u. 11 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.A.II-003"><thema>Christliche
+        Dogmengeschichte oder Theologie- u. Philosophie-Geschichte, allgemeine
+        u. besondere, nach s. Lehrbuche</thema>: <dozent
+        ref="niedner_cw"><grad>D.</grad> <nachname>Niedner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>8 U. 6 T. u. 11 U. 2
+        T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Christliche Dogmengeschichte</thema>:
         <dozent><grad>D.</grad> <nachname>Theile</nachname>, <funktion>P.
         E.</funktion></dozent>, <siehe>s.
         Dogmatik</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Christlich-kirchliche Alterthümer</thema>:
-        <dozent ref="goldhorn_jdh"><grad>M.</grad>
+        <veranstaltung
+        xml:id="v-1842w-II.A.II-004"><thema>Christlich-kirchliche
+        Alterthümer</thema>: <dozent ref="goldhorn_jdh"><grad>M.</grad>
         <nachname>Goldhorn</nachname>, <funktion>Theol.
         Lic.</funktion></dozent>, <zeit>2 T. in zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <seite>12</seite>
 
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-II.A.II.001">
           <titel>Historisch-theologische Uebungen.</titel>
 
-          <veranstaltung><thema>Historisch-theologische Gesellschaft</thema>:
-          <dozent ref="illgen_cf"><grad>D.</grad> <nachname>Illgen</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>in den best. St.</zeit>
+          <veranstaltung
+          xml:id="v-1842w-II.A.II.001-001"><thema>Historisch-theologische
+          Gesellschaft</thema>: <dozent ref="illgen_cf"><grad>D.</grad>
+          <nachname>Illgen</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>in den best. St.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Kirchenhistorische Gesellschaft</thema>:
-          <dozent ref="lindner_wb"><grad>M.</grad>
+          <veranstaltung
+          xml:id="v-1842w-II.A.II.001-002"><thema>Kirchenhistorische
+          Gesellschaft</thema>: <dozent ref="lindner_wb"><grad>M.</grad>
           <nachname>Lindner</nachname>, <funktion>Theol.
           Lic.</funktion></dozent>, <zeit>in zu best. St.</zeit>
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Examinatorium über christliche
-          Kirchengeschichte</thema>: <dozent ref="niedner_cw"><grad>D.</grad>
-          <nachname>Niedner</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>10 U. 6 T.</zeit> <modus>privatissime</modus>.</veranstaltung>
-
-          <veranstaltung><thema>Examinatorium über Kirchengeschichte</thema>:
-          <dozent ref="goldhorn_jdh"><grad>M.</grad>
-          <nachname>Goldhorn</nachname>, <funktion>Theol.
-          Lic.</funktion></dozent>, <zeit>4 T. in zu best. St.</zeit>
+          <veranstaltung xml:id="v-1842w-II.A.II.001-003"><thema>Examinatorium
+          über christliche Kirchengeschichte</thema>: <dozent
+          ref="niedner_cw"><grad>D.</grad> <nachname>Niedner</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>10 U. 6 T.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Examinatorium über Kirchengeschichte</thema>:
-          <dozent ref="lindner_wb"><grad>M.</grad>
-          <nachname>Lindner</nachname>, <funktion>Theol.
-          Lic.</funktion></dozent>, <zeit>5 T. in zu best. St.</zeit>
-          <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.A.II.001-004"><thema>Examinatorium
+          über Kirchengeschichte</thema>: <dozent
+          ref="goldhorn_jdh"><grad>M.</grad> <nachname>Goldhorn</nachname>,
+          <funktion>Theol. Lic.</funktion></dozent>, <zeit>4 T. in zu best.
+          St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+
+          <veranstaltung xml:id="v-1842w-II.A.II.001-005"><thema>Examinatorium
+          über Kirchengeschichte</thema>: <dozent
+          ref="lindner_wb"><grad>M.</grad> <nachname>Lindner</nachname>,
+          <funktion>Theol. Lic.</funktion></dozent>, <zeit>5 T. in zu best.
+          St.</zeit> <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.A.III">
         <titel>III. Systematische Theologie.</titel>
 
-        <veranstaltung><thema>Ueber Ursprung, Wesen u. Würde des
-        Protestantismus mit Rücksicht auf die neuesten Bestreitungen
-        desselben, nach s. Sätzen</thema>: <dozent><grad>D.</grad>
-        <nachname>Winer</nachname>, <funktion>P. O.</funktion>, d. Z.
-        <funktion>Rector</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.A.III-001"><thema>Ueber Ursprung,
+        Wesen u. Würde des Protestantismus mit Rücksicht auf die neuesten
+        Bestreitungen desselben, nach s. Sätzen</thema>:
+        <dozent><grad>D.</grad> <nachname>Winer</nachname>, <funktion>P.
+        O.</funktion>, d. Z. <funktion>Rector</funktion></dozent>, <zeit>9 U.
+        4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Apologetik nach s. Buche: Die Vertheidigung des
-        Christenthums mit Hinblick auf Strauß (Lpzg. 1842.)</thema>: <dozent
-        ref="fleck_ff"><grad>D.</grad> <nachname>Fleck</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>8 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.A.III-002"><thema>Apologetik nach s.
+        Buche: Die Vertheidigung des Christenthums mit Hinblick auf Strauß
+        (Lpzg. 1842.)</thema>: <dozent ref="fleck_ff"><grad>D.</grad>
+        <nachname>Fleck</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>8 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Biblische Theologie</thema>:
         <dozent><grad>D.</grad> <nachname>Theile</nachname>, <funktion>P.
         E.</funktion></dozent>, <siehe>s.
         Dogmatik</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Christlich-protestantische Dogmatik,
-        <notiz>zweite Hälfte</notiz></thema>: <dozent><grad>D.</grad>
-        <nachname>Winer</nachname>, <funktion>P. O.</funktion>, d. Z.
-        <funktion>Rector</funktion></dozent>, <zeit>10 U. 6
+        <veranstaltung
+        xml:id="v-1842w-II.A.III-003"><thema>Christlich-protestantische
+        Dogmatik, <notiz>zweite Hälfte</notiz></thema>:
+        <dozent><grad>D.</grad> <nachname>Winer</nachname>, <funktion>P.
+        O.</funktion>, d. Z. <funktion>Rector</funktion></dozent>, <zeit>10 U.
+        6 T.</zeit></veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-II.A.III-004"><thema>Dogmatik nebst
+        biblisch. Theologie u. kurzer Dogmengeschichte, <notiz>1.
+        Hälfte</notiz>, mit Rücksicht auf die <antiqua>Tabulas rerum
+        dogmaticarum compendiarias</antiqua></thema>: <dozent><grad>D.</grad>
+        <nachname>Theile</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>10 U. Mont., Mittw., Donn. u. Sonn.</zeit></veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-II.A.III-005"><thema>Christliche Moral
+        in Verbindung mit der philosophischen</thema>: <dozent
+        ref="krehl_alg"><grad>D.</grad> <nachname>Krehl</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>11 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Dogmatik nebst biblisch. Theologie u. kurzer
-        Dogmengeschichte, <notiz>1. Hälfte</notiz>, mit Rücksicht auf die
-        <antiqua>Tabulas rerum dogmaticarum compendiarias</antiqua></thema>:
-        <dozent><grad>D.</grad> <nachname>Theile</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>10 U. Mont., Mittw., Donn. u.
-        Sonn.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.A.III-006"><thema>Christliche
+        Moral</thema>: <dozent><grad>D.</grad> <nachname>Theile</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Christliche Moral in Verbindung mit der
-        philosophischen</thema>: <dozent ref="krehl_alg"><grad>D.</grad>
-        <nachname>Krehl</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>11 U. 4 T.</zeit></veranstaltung>
-
-        <veranstaltung><thema>Christliche Moral</thema>:
-        <dozent><grad>D.</grad> <nachname>Theile</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>11 U. 4 T.</zeit></veranstaltung>
-
-        <veranstaltung><thema>Christliche Sittenlehre mit dem philosophischen
-        Theile u. der Geschichte</thema>: <dozent
-        ref="fleck_ff"><grad>D.</grad> <nachname>Fleck</nachname>,
+        <veranstaltung xml:id="v-1842w-II.A.III-007"><thema>Christliche
+        Sittenlehre mit dem philosophischen Theile u. der Geschichte</thema>:
+        <dozent ref="fleck_ff"><grad>D.</grad> <nachname>Fleck</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>2 U. 5 T. nebst einer
         Stunde der Wiederholung</zeit>.</veranstaltung>
 
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-II.A.III.001">
           <titel>Systematisch-theologische Uebungen.</titel>
 
-          <veranstaltung><thema>Examinatorium über Dogmatik</thema>:
-          <dozent><grad>D.</grad> <nachname>Theile</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>4 T. in zu best. St.</zeit>
+          <veranstaltung
+          xml:id="v-1842w-II.A.III.001-001"><thema>Examinatorium über
+          Dogmatik</thema>: <dozent><grad>D.</grad>
+          <nachname>Theile</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>4 T. in zu best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Uebersichtlich-biblisches Examinatorium über
-          Dogmatik und Moral</thema>: <ders>Derselbe</ders>, <zeit>2 T. in zu
-          best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung
+          xml:id="v-1842w-II.A.III.001-002"><thema>Uebersichtlich-biblisches
+          Examinatorium über Dogmatik und Moral</thema>:
+          <ders>Derselbe</ders>, <zeit>2 T. in zu best. St.</zeit>
+          <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Examinatorium über Dogmatik oder cursorisches
-          Examinatorium über die gesammte Theologie</thema>: <dozent
-          ref="fleck_ff"><grad>D.</grad> <nachname>Fleck</nachname>,
+          <veranstaltung
+          xml:id="v-1842w-II.A.III.001-003"><thema>Examinatorium über Dogmatik
+          oder cursorisches Examinatorium über die gesammte Theologie</thema>:
+          <dozent ref="fleck_ff"><grad>D.</grad> <nachname>Fleck</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>in zu best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Examinatorium über Dogmatik</thema>: <dozent
-          ref="anger_r"><grad>M.</grad> <nachname>Anger</nachname>,
-          <funktion>Theol. Lic.</funktion></dozent>, <zeit>4 T. in zu best.
-          St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung
+          xml:id="v-1842w-II.A.III.001-004"><thema>Examinatorium über
+          Dogmatik</thema>: <dozent ref="anger_r"><grad>M.</grad>
+          <nachname>Anger</nachname>, <funktion>Theol.
+          Lic.</funktion></dozent>, <zeit>4 T. in zu best. St.</zeit>
+          <modus>privatissime</modus>.</veranstaltung>
 
           <seite>13</seite>
         </sachgruppe>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.A.IV">
         <titel>IV. Praktische Theologie.</titel>
 
-        <veranstaltung><thema>Katechetik</thema>: <dozent
-        ref="lindner_fw"><grad>D.</grad> <nachname>Lindner</nachname>,
+        <veranstaltung xml:id="v-1842w-II.A.IV-001"><thema>Katechetik</thema>:
+        <dozent ref="lindner_fw"><grad>D.</grad> <nachname>Lindner</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Katechetik</thema>:
+        <veranstaltung xml:id="v-1842w-II.A.IV-002"><thema>Katechetik</thema>:
         <dozent><nachname>Plato</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>2 U. 2 T.</zeit></veranstaltung>
 
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-II.A.IV.001">
           <titel>Praktisch-theologische Uebungen.</titel>
 
-          <veranstaltung><thema>Homiletisches Seminar</thema>: <dozent
-          ref="krehl_alg"><grad>D.</grad> <nachname>Krehl</nachname>,
-          <funktion>P. O.</funktion>, <funktion>Semin. homil.
-          Dir.</funktion></dozent>, <zeit>2-4 U. Mittw.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.A.IV.001-001"><thema>Homiletisches
+          Seminar</thema>: <dozent ref="krehl_alg"><grad>D.</grad>
+          <nachname>Krehl</nachname>, <funktion>P. O.</funktion>,
+          <funktion>Semin. homil. Dir.</funktion></dozent>, <zeit>2-4 U.
+          Mittw.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Homiletische Uebungen der Sachsen</thema>:
-          <dozent ref="bauer_kg"><grad>D.</grad>
+          <veranstaltung xml:id="v-1842w-II.A.IV.001-002"><thema>Homiletische
+          Uebungen der Sachsen</thema>: <dozent ref="bauer_kg"><grad>D.</grad>
           <nachname>Bauer</nachname></dozent>, <zeit>zu den ebst. T. u.
           St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Leitung einer homiletisch-praktischen
-          Gesellschaft</thema>: <dozent><grad>D.</grad>
-          <nachname>Siegel</nachname></dozent>, <zeit>zu den best. T. u.
-          St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
-
-          <veranstaltung><thema>Leitung zweier homiletisch-praktischen
-          Gesellschaften</thema>: <dozent ref="kuechler_kg"><grad>M.</grad>
-          <nachname>Küchler</nachname>, <funktion>Theol. Lic., Philos. P.
-          E.</funktion></dozent>, <zeit>5-7 U. Mont. u. Dienst.</zeit>
+          <veranstaltung xml:id="v-1842w-II.A.IV.001-003"><thema>Leitung einer
+          homiletisch-praktischen Gesellschaft</thema>:
+          <dozent><grad>D.</grad> <nachname>Siegel</nachname></dozent>,
+          <zeit>zu den best. T. u. St.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Homiletische Uebungen</thema>:
-          <dozent><grad>M.</grad> <nachname>Hänsel</nachname>,
-          <funktion>Theol. Lic.</funktion></dozent>, <zeit>in den best.
-          St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.A.IV.001-004"><thema>Leitung
+          zweier homiletisch-praktischen Gesellschaften</thema>: <dozent
+          ref="kuechler_kg"><grad>M.</grad> <nachname>Küchler</nachname>,
+          <funktion>Theol. Lic., Philos. P. E.</funktion></dozent>, <zeit>5-7
+          U. Mont. u. Dienst.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Katechetische Uebungen in der
-          Bürgerschule</thema>: <dozent ref="lindner_fw"><grad>D.</grad>
-          <nachname>Lindner</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Dienst. u. Freit., 4-6 U.</zeit>
-          <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.A.IV.001-005"><thema>Homiletische
+          Uebungen</thema>: <dozent><grad>M.</grad>
+          <nachname>Hänsel</nachname>, <funktion>Theol.
+          Lic.</funktion></dozent>, <zeit>in den best. St.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Katechetische Uebungen</thema>:
-          <dozent><nachname>Plato</nachname>, <funktion>P.
+          <veranstaltung xml:id="v-1842w-II.A.IV.001-006"><thema>Katechetische
+          Uebungen in der Bürgerschule</thema>: <dozent
+          ref="lindner_fw"><grad>D.</grad> <nachname>Lindner</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Freit., 4-6
+          U.</zeit> <modus>privatissime</modus>.</veranstaltung>
+
+          <veranstaltung xml:id="v-1842w-II.A.IV.001-007"><thema>Katechetische
+          Uebungen</thema>: <dozent><nachname>Plato</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Katechetisch-pädagogischer Verein</thema>:
-          <ders>Derselbe</ders>, <zeit>in den best. St.</zeit>
+          <veranstaltung
+          xml:id="v-1842w-II.A.IV.001-008"><thema>Katechetisch-pädagogischer
+          Verein</thema>: <ders>Derselbe</ders>, <zeit>in den best. St.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <trennlinie/>
 
-          <veranstaltung><thema>Uebungen der Lausitzer Gesellschaft im
-          Disputiren und Ertemporiren</thema>: <dozent
-          ref="niedner_cw"><grad>D.</grad> <nachname>Niedner</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>3 U. Donn.</zeit>
-          <modus>privatissime</modus>, aber
+          <veranstaltung xml:id="v-1842w-II.A.IV.001-009"><thema>Uebungen der
+          Lausitzer Gesellschaft im Disputiren und Ertemporiren</thema>:
+          <dozent ref="niedner_cw"><grad>D.</grad>
+          <nachname>Niedner</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>3 U. Donn.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -1240,35 +1343,36 @@
 
     <trennlinie/>
 
-    <sachgruppe fakultät="Jura">
+    <sachgruppe fakultät="Jura" xml:id="sg-1842w-II.B">
       <titel>B. Rechtswissenschaft.</titel>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.B.I">
         <titel>I. Allgemeine Gegenstände.</titel>
 
         <veranstaltungsverweis><thema>Naturrecht und Philosophie des
         Rechts</thema>: <siehe>s. Philosophie</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung><thema>Encyklopädie u. Methodologie der
-        Rechtswissenschaft, nach s. "Einleitung in das akademische Studium der
-        Rechtswissenschaft" (Lpzg. 1840)</thema>: <dozent><grad>D.</grad>
-        <nachname>Vogel</nachname></dozent>, <zeit>3 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.B.I-001"><thema>Encyklopädie u.
+        Methodologie der Rechtswissenschaft, nach s. "Einleitung in das
+        akademische Studium der Rechtswissenschaft" (Lpzg. 1840)</thema>:
+        <dozent><grad>D.</grad> <nachname>Vogel</nachname></dozent>, <zeit>3
+        U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Lebensbeschreibungen der neuern
-        Juristen</thema>: <dozent ref="haenel_g"><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.B.I-002"><thema>Lebensbeschreibungen
+        der neuern Juristen</thema>: <dozent ref="haenel_g"><grad>D.</grad>
         <nachname>Hänel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>10 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.B.II">
         <titel>II. Privatrecht.</titel>
 
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-II.B.II.1">
           <titel>1. Römisches Recht.</titel>
 
-          <veranstaltung><thema>Aeußere römische Rechtsgeschichte</thema>:
-          <dozent ref="haenel_g"><grad>D.</grad> <nachname>Hänel</nachname>,
+          <veranstaltung xml:id="v-1842w-II.B.II.1-001"><thema>Aeußere
+          römische Rechtsgeschichte</thema>: <dozent
+          ref="haenel_g"><grad>D.</grad> <nachname>Hänel</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1278,8 +1382,8 @@
           Rechtsgeschichte</thema>: <ders ref="haenel_g">Derselbe</ders>,
           <siehe>s. Institutionen</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung><thema>Aeußere Geschichte des römisches
-          Rechts</thema>: <dozent><grad>D.</grad>
+          <veranstaltung xml:id="v-1842w-II.B.II.1-002"><thema>Aeußere
+          Geschichte des römisches Rechts</thema>: <dozent><grad>D.</grad>
           <nachname>Schneider</nachname>, <funktion>P. E.
           des.</funktion></dozent> , <zeit>2 T. in zu best. St.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
@@ -1288,8 +1392,8 @@
           Rechts</thema>: <ders>Derselbe</ders>, <siehe>s.
           Institutionen</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung><thema>Aeußere Rechtsgeschichte</thema>: <dozent
-          ref="heimbach_ge"><grad>D.</grad>
+          <veranstaltung xml:id="v-1842w-II.B.II.1-003"><thema>Aeußere
+          Rechtsgeschichte</thema>: <dozent ref="heimbach_ge"><grad>D.</grad>
           <nachname>Heimbach</nachname></dozent>, <zeit>9 U. 2 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -1304,48 +1408,52 @@
 
           <trennlinie/>
 
-          <veranstaltung><thema>Institutionen u. innere römische
-          Rechtsgeschichte</thema>: <dozent ref="haenel_g"><grad>D.</grad>
-          <nachname>Hänel</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>9 U. 6 T. u. 10 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.B.II.1-004"><thema>Institutionen
+          u. innere römische Rechtsgeschichte</thema>: <dozent
+          ref="haenel_g"><grad>D.</grad> <nachname>Hänel</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>9 U. 6 T. u. 10 U. 2
+          T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Institutionen in Verbindung mit der innern
-          Geschichte des römischen Rechts</thema>: <dozent><grad>D.</grad>
+          <veranstaltung xml:id="v-1842w-II.B.II.1-005"><thema>Institutionen
+          in Verbindung mit der innern Geschichte des römischen
+          Rechts</thema>: <dozent><grad>D.</grad>
           <nachname>Schneider</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Institutionen u. innere Geschichte des
-          römischen Rechts nach <gesperrt>Marezoll</gesperrt>'s Lehrb. der
-          Institutionen (2. Ausg.)</thema>: <dozent
-          ref="heimbach_ge"><grad>D.</grad>
+          <veranstaltung xml:id="v-1842w-II.B.II.1-006"><thema>Institutionen
+          u. innere Geschichte des römischen Rechts nach
+          <gesperrt>Marezoll</gesperrt>'s Lehrb. der Institutionen (2.
+          Ausg.)</thema>: <dozent ref="heimbach_ge"><grad>D.</grad>
           <nachname>Heimbach</nachname></dozent>, <zeit>9 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Institutionen u. Geschichte des römischen
-          Rechts</thema>: <dozent ref="frege_w"><grad>D.</grad>
-          <nachname>Frege</nachname></dozent>, <zeit>10 U. 6 T. u. 11 U. 2
-          T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.B.II.1-007"><thema>Institutionen
+          u. Geschichte des römischen Rechts</thema>: <dozent
+          ref="frege_w"><grad>D.</grad> <nachname>Frege</nachname></dozent>,
+          <zeit>10 U. 6 T. u. 11 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Erklärung des Titels der Institutionen
-          <antiqua>de actionibus</antiqua> (IV, 6.) in lat. Sprache</thema>:
-          <dozent><grad>D.</grad> <nachname>Busse</nachname></dozent>, <zeit>2
-          U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.B.II.1-008"><thema>Erklärung des
+          Titels der Institutionen <antiqua>de actionibus</antiqua> (IV, 6.)
+          in lat. Sprache</thema>: <dozent><grad>D.</grad>
+          <nachname>Busse</nachname></dozent>, <zeit>2 U. 2 T.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <trennlinie/>
 
-          <veranstaltung><thema>Pandekten (mit Rücksicht auf
-          <gesperrt>Mühlenbruch</gesperrt>'s Lehrb.)</thema>:
+          <veranstaltung xml:id="v-1842w-II.B.II.1-009"><thema>Pandekten (mit
+          Rücksicht auf <gesperrt>Mühlenbruch</gesperrt>'s Lehrb.)</thema>:
           <dozent><grad>D.</grad> <nachname>Marezoll</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>10-12 U. 6 T. u. 3 U. 3
           T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Pandektenrecht nach eignen Sätzen</thema>:
-          <dozent><grad>D.</grad> <nachname>Schilling</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>11 U. u. 2 U. 6
-          T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.B.II.1-010"><thema>Pandektenrecht
+          nach eignen Sätzen</thema>: <dozent><grad>D.</grad>
+          <nachname>Schilling</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>11 U. u. 2 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Pandekten nach s. Sätzen (jedoch mit Rücksicht
-          auf <gesperrt>Mühlenbruch</gesperrt>'s Lehrb.)</thema>:
+          <veranstaltung xml:id="v-1842w-II.B.II.1-011"><thema>Pandekten nach
+          s. Sätzen (jedoch mit Rücksicht auf
+          <gesperrt>Mühlenbruch</gesperrt>'s Lehrb.)</thema>:
           <dozent><grad>D.</grad> <nachname>Busse</nachname></dozent>,
           <zeit>8-10 U. 6 T</zeit></veranstaltung>
 
@@ -1354,72 +1462,83 @@
           <veranstaltungsgruppe><thema>Obligationenrecht</thema>:
           <dozent><grad>D.</grad> <nachname>Schilling</nachname>, <funktion>P.
           O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>8 U.
-          6 T.</zeit> <veranstaltung><modus>theils
-          öffentlich</modus>,</veranstaltung> <veranstaltung><modus>theils
+          6 T.</zeit> <veranstaltung
+          xml:id="v-1842w-II.B.II.1-012"><modus>theils
+          öffentlich</modus>,</veranstaltung> <veranstaltung
+          xml:id="v-1842w-II.B.II.1-013"><modus>theils
           privatim</modus>.</veranstaltung></veranstaltungsgruppe>
 
-          <veranstaltung><thema>Die Lehre von dem Pfandrechte</thema>:
-          <dozent><grad>D.</grad> <nachname>Marezoll</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>3 U. Dienst. u. Donn.</zeit>
+          <veranstaltung xml:id="v-1842w-II.B.II.1-014"><thema>Die Lehre von
+          dem Pfandrechte</thema>: <dozent><grad>D.</grad>
+          <nachname>Marezoll</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>3 U. Dienst. u. Donn.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Erbrechte</thema>: <dozent><grad>D.</grad>
-          <nachname>Busse</nachname></dozent>, <zeit>3 U. 3 T.</zeit>
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung
+          xml:id="v-1842w-II.B.II.1-015"><thema>Erbrechte</thema>:
+          <dozent><grad>D.</grad> <nachname>Busse</nachname></dozent>, <zeit>3
+          U. 3 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
 
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-II.B.II.2">
           <titel>2. Deutsches Recht.</titel>
 
-          <veranstaltung><thema>Deutsche Rechtsgeschichte</thema>:
-          <dozent><grad>D.</grad> <nachname>Weiske</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>8 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.B.II.2-001"><thema>Deutsche
+          Rechtsgeschichte</thema>: <dozent><grad>D.</grad>
+          <nachname>Weiske</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>8 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Deutsche Staats- und Rechtsgeschichte</thema>:
-          <dozent><grad>D.</grad> <nachname>Schletter</nachname></dozent>,
-          <zeit>8 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.B.II.2-002"><thema>Deutsche
+          Staats- und Rechtsgeschichte</thema>: <dozent><grad>D.</grad>
+          <nachname>Schletter</nachname></dozent>, <zeit>8 U. 4
+          T.</zeit></veranstaltung>
 
           <trennlinie/>
 
-          <veranstaltung><thema>Deutsches Privatrecht</thema>:
-          <dozent><grad>D.</grad> <nachname>Weiske</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.B.II.2-003"><thema>Deutsches
+          Privatrecht</thema>: <dozent><grad>D.</grad>
+          <nachname>Weiske</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Das gemeine u. sächsische Lehnrecht</thema>:
-          <dozent><grad>D.</grad> <nachname>Schilling</nachname>, <funktion>P.
-          E.</funktion></dozent>, <thema>nach eigenen Sätzen</thema>, <zeit>9
-          U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
-
-          <veranstaltung><thema>Das gemeine u. sächsische Lehnrecht</thema>:
-          <dozent><grad>D.</grad> <nachname>Weiske</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>9 U. 2 T.</zeit>
+          <veranstaltung xml:id="v-1842w-II.B.II.2-004"><thema>Das gemeine u.
+          sächsische Lehnrecht</thema>: <dozent><grad>D.</grad>
+          <nachname>Schilling</nachname>, <funktion>P. E.</funktion></dozent>,
+          <thema>nach eigenen Sätzen</thema>, <zeit>9 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
+
+          <veranstaltung xml:id="v-1842w-II.B.II.2-005"><thema>Das gemeine u.
+          sächsische Lehnrecht</thema>: <dozent><grad>D.</grad>
+          <nachname>Weiske</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <seite>15</seite>
         </sachgruppe>
 
-        <sachgruppe>
+        <sachgruppe xml:id="sg-1842w-II.B.II.3">
           <titel>3. Sächsisches Recht.</titel>
 
-          <veranstaltung><thema>Gemeines Sachsenrecht</thema>:
-          <dozent><grad>D.</grad> <nachname>Weiske</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>8 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.B.II.3-001"><thema>Gemeines
+          Sachsenrecht</thema>: <dozent><grad>D.</grad>
+          <nachname>Weiske</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Königl. sächsisches Privatrecht, jedoch mit
-          Ausschluß des Obligationen- und Erbrechts</thema>:
-          <dozent><grad>D.</grad> <nachname>Steinacker</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>9 U. 4
-          T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1842w-II.B.II.3-002"><thema>Königl.
+          sächsisches Privatrecht, jedoch mit Ausschluß des Obligationen- und
+          Erbrechts</thema>: <dozent><grad>D.</grad>
+          <nachname>Steinacker</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Königl. sächsisches Obligationen- und
-          Erbrecht</thema>: <ders>Derselbe</ders>, <zeit>9 U. 2 T.</zeit>
+          <veranstaltung xml:id="v-1842w-II.B.II.3-003"><thema>Königl.
+          sächsisches Obligationen- und Erbrecht</thema>:
+          <ders>Derselbe</ders>, <zeit>9 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltungsgruppe><thema>Sächsisches Privatrecht, nach s.
           Sätzen</thema>: <dozent ref="berger_a"><grad>D.</grad>
-          <nachname>Berger</nachname></dozent>, <veranstaltung><zeit>4 T. in
-          zu best. St.</zeit>,</veranstaltung> verbunden mit einem
-          <veranstaltung><gebühr>unentgeltlichen</gebühr>
+          <nachname>Berger</nachname></dozent>, <veranstaltung
+          xml:id="v-1842w-II.B.II.3-004"><zeit>4 T. in zu best.
+          St.</zeit>,</veranstaltung> verbunden mit einem <veranstaltung
+          xml:id="v-1842w-II.B.II.3-005"><gebühr>unentgeltlichen</gebühr>
           <thema>Repetitorium</thema>, <zeit>4
           T.</zeit></veranstaltung></veranstaltungsgruppe>
 
@@ -1428,560 +1547,604 @@
         </sachgruppe>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.B.III">
         <titel>III. Proceß.</titel>
 
-        <veranstaltung><thema>Ordentlicher Civilproceß</thema>: <dozent
-        ref="guenther_kf"><grad>D.</grad> <nachname>Günther</nachname>,
-        <funktion>P. Prim., Fac. Iur. Ordin.</funktion></dozent>, <zeit>10 U.
-        6 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.B.III-001"><thema>Ordentlicher
+        Civilproceß</thema>: <dozent ref="guenther_kf"><grad>D.</grad>
+        <nachname>Günther</nachname>, <funktion>P. Prim., Fac. Iur.
+        Ordin.</funktion></dozent>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Criminalproceß</thema>: <ders
+        <veranstaltung
+        xml:id="v-1842w-II.B.III-002"><thema>Criminalproceß</thema>: <ders
         ref="guenther_kf">Derselbe</ders>, <zeit>9 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Summarische Processe</thema>: <ders
-        ref="guenther_kf">Derselbe</ders>, <zeit>9 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.B.III-003"><thema>Summarische
+        Processe</thema>: <ders ref="guenther_kf">Derselbe</ders>, <zeit>9 U.
+        2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Gemeiner u. sächsischer ordentlicher
-        Civilproceß</thema>: <dozent><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.B.III-004"><thema>Gemeiner u.
+        sächsischer ordentlicher Civilproceß</thema>: <dozent><grad>D.</grad>
         <nachname>Schneider</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>11 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Die gemeinen u. sächsischen summarischen
-        Processe</thema>: <ders>Derselbe</ders>, <zeit>2 T. in zu best.
-        St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.B.III-005"><thema>Die gemeinen u.
+        sächsischen summarischen Processe</thema>: <ders>Derselbe</ders>,
+        <zeit>2 T. in zu best. St.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Criminalproceß</thema>: <dozent
+        <veranstaltung
+        xml:id="v-1842w-II.B.III-006"><thema>Criminalproceß</thema>: <dozent
         ref="berger_a"><grad>D.</grad> <nachname>Berger</nachname></dozent>,
         <thema>nach s. Sätzen</thema>, <zeit>2 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ordentlicher Proceß</thema>: <dozent
-        ref="hoepfner_l"><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.B.III-007"><thema>Ordentlicher
+        Proceß</thema>: <dozent ref="hoepfner_l"><grad>D.</grad>
         <nachname>Höpfner</nachname></dozent>, <zeit>6 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Summarische Processe</thema>: <ders
-        ref="hoepfner_l">Derselbe</ders>, <zeit>2 T. in zu best.
-        St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.B.III-008"><thema>Summarische
+        Processe</thema>: <ders ref="hoepfner_l">Derselbe</ders>, <zeit>2 T.
+        in zu best. St.</zeit></veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.B.IV">
         <titel>IV. Staatsrecht.</titel>
 
-        <veranstaltung><thema>Deutsches Staatsrecht</thema>: <dozent
-        ref="albrecht_we"><grad>D.</grad> <nachname>Albrecht</nachname>,
-        <funktion>P. O. des.</funktion></dozent>, <zeit>11 U. 6
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.B.IV-001"><thema>Deutsches
+        Staatsrecht</thema>: <dozent ref="albrecht_we"><grad>D.</grad>
+        <nachname>Albrecht</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <zeit>11 U. 6 T.</zeit></veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.B.V">
         <titel>V. Kirchenrecht.</titel>
 
-        <veranstaltung><thema>Sächsisches Kirchenrecht</thema>: <dozent
-        ref="grossmann_cgl"><grad>D.</grad> <nachname>Großmann</nachname>,
-        <funktion>P. O.</funktion>, d. Z.
+        <veranstaltung xml:id="v-1842w-II.B.V-001"><thema>Sächsisches
+        Kirchenrecht</thema>: <dozent ref="grossmann_cgl"><grad>D.</grad>
+        <nachname>Großmann</nachname>, <funktion>P. O.</funktion>, d. Z.
         <funktion>Dechant</funktion></dozent>, <zeit>9 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Kirchenrecht</thema>: <dozent
+        <veranstaltung
+        xml:id="v-1842w-II.B.V-002"><thema>Kirchenrecht</thema>: <dozent
         ref="albrecht_we"><grad>D.</grad> <nachname>Albrecht</nachname>,
         <funktion>P. O. des.</funktion></dozent>, <zeit>10 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Das gemeine in Deutschland geltende
-        Kirchenrecht</thema>: <dozent><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.B.V-003"><thema>Das gemeine in
+        Deutschland geltende Kirchenrecht</thema>: <dozent><grad>D.</grad>
         <nachname>Schilling</nachname>, <funktion>P. E.</funktion></dozent>,
         <thema>nach eigenen Sätzen</thema>, <zeit>8 U. 6
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Kirchenrecht</thema>: <dozent
+        <veranstaltung
+        xml:id="v-1842w-II.B.V-004"><thema>Kirchenrecht</thema>: <dozent
         ref="heimbach_ge"><grad>D.</grad>
         <nachname>Heimbach</nachname></dozent>, <zeit>10 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Eherecht, so weit es zum Kirchenrechte
-        gehört</thema>: <dozent ref="albrecht_we"><grad>D.</grad>
-        <nachname>Albrecht</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1842w-II.B.V-005"><thema>Eherecht, so weit es
+        zum Kirchenrechte gehört</thema>: <dozent
+        ref="albrecht_we"><grad>D.</grad> <nachname>Albrecht</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.B.VI">
         <titel>VI. Praxis.</titel>
 
-        <veranstaltung><thema>Referir- und Decretirkunst unter Vorlegung von
-        Gerichtsacten</thema>: <dozent><grad>D.</grad>
-        <nachname>Steinacker</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>10 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.B.VI-001"><thema>Referir- und
+        Decretirkunst unter Vorlegung von Gerichtsacten</thema>:
+        <dozent><grad>D.</grad> <nachname>Steinacker</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber die Referir- und Decretirkunst</thema>:
-        <dozent ref="hoepfner_l"><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.B.VI-002"><thema>Ueber die Referir-
+        und Decretirkunst</thema>: <dozent ref="hoepfner_l"><grad>D.</grad>
         <nachname>Höpfner</nachname></dozent>, <zeit>Dienst. Donn. u. Sonn. in
         zu best. St.</zeit></veranstaltung>
 
         <seite>16</seite>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.B.VII">
         <titel>VII. Verschiedene Uebungen.</titel>
 
-        <veranstaltung><thema>Examinatoria über alle Theile der theoretischen
-        Rechtswissenschaft</thema>: <dozent><grad>D.</grad>
-        <nachname>Schilling</nachname>, <funktion>P. E.</funktion></dozent>,
+        <veranstaltung xml:id="v-1842w-II.B.VII-001"><thema>Examinatoria über
+        alle Theile der theoretischen Rechtswissenschaft</thema>:
+        <dozent><grad>D.</grad> <nachname>Schilling</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>in zu best. St.</zeit></veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-II.B.VII-002"><thema>Examinir-Uebungen
+        über sämmtliche Theile der Rechtswissenschaft</thema>: <dozent
+        ref="berger_a"><grad>D.</grad> <nachname>Berger</nachname></dozent>,
         <zeit>in zu best. St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Examinir-Uebungen über sämmtliche Theile der
-        Rechtswissenschaft</thema>: <dozent ref="berger_a"><grad>D.</grad>
-        <nachname>Berger</nachname></dozent>, <zeit>in zu best.
-        St.</zeit></veranstaltung>
-
-        <veranstaltung><thema>Examinatoria über Pandekten, sächsisches Recht,
-        Civilproceß</thema>: <dozent ref="heimbach_ge"><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.B.VII-003"><thema>Examinatoria über
+        Pandekten, sächsisches Recht, Civilproceß</thema>: <dozent
+        ref="heimbach_ge"><grad>D.</grad>
         <nachname>Heimbach</nachname></dozent>, <zeit>in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Examinatorium über einzelne Theile der
-        Institutionen</thema>: <dozent ref="frege_w"><grad>D.</grad>
-        <nachname>Frege</nachname></dozent>, <zeit>11 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1842w-II.B.VII-004"><thema>Examinatorium über
+        einzelne Theile der Institutionen</thema>: <dozent
+        ref="frege_w"><grad>D.</grad> <nachname>Frege</nachname></dozent>,
+        <zeit>11 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Uebungen der <gesperrt>Otto</gesperrt>'schen
-        juristischen Gesellschaft</thema>: <dozent><grad>D.</grad>
-        <nachname>Vogel</nachname></dozent>, <zeit>in den best. St.</zeit>
-        <modus>privatissime</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.B.VII-005"><thema>Uebungen der
+        <gesperrt>Otto</gesperrt>'schen juristischen Gesellschaft</thema>:
+        <dozent><grad>D.</grad> <nachname>Vogel</nachname></dozent>, <zeit>in
+        den best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
     <trennlinie/>
 
-    <sachgruppe fakultät="Medizin">
+    <sachgruppe fakultät="Medizin" xml:id="sg-1842w-II.C">
       <titel>C. Heilwissenschaft.</titel>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.I">
         <titel>I. Propädeutik und Geschichte der Medicin.</titel>
 
-        <veranstaltung><thema>Anleitung zum Studium der Medicin</thema>:
-        <dozent ref="joerg_jcg"><grad>Dr.</grad> <nachname>Jörg</nachname>,
-        <funktion>P. O.</funktion>, d. Z.
+        <veranstaltung xml:id="v-1842w-II.C.I-001"><thema>Anleitung zum
+        Studium der Medicin</thema>: <dozent ref="joerg_jcg"><grad>Dr.</grad>
+        <nachname>Jörg</nachname>, <funktion>P. O.</funktion>, d. Z.
         <funktion>Dechant</funktion></dozent>, <zeit>9 U. in den ersten 6 bis
         8 Tagen des Semesters</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Encyklopädie und Methodologie der
-        Medicin</thema>: <dozent ref="kneschke_eh"><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.C.I-002"><thema>Encyklopädie und
+        Methodologie der Medicin</thema>: <dozent
+        ref="kneschke_eh"><grad>D.</grad>
         <nachname>Kneschke</nachname></dozent>, <zeit>2 U. 2
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Abriß der Geschichte und Bücherkunde der
-        Medicin</thema>: <ders ref="kneschke_eh">Derselbe</ders>, <zeit>2 U.
-        Mont. u. Donn.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.I-003"><thema>Abriß der Geschichte
+        und Bücherkunde der Medicin</thema>: <ders
+        ref="kneschke_eh">Derselbe</ders>, <zeit>2 U. Mont. u. Donn.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Geschichte der psychischen Medicin</thema>:
-        <dozent ref="heinroth_jca"><grad>D.</grad>
-        <nachname>Heinroth</nachname>, <funktion>P. O.</funktion></dozent>,
-        <thema>nach s. Sätzen</thema>, <zeit>4 T. in zu best.
-        St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.I-004"><thema>Geschichte der
+        psychischen Medicin</thema>: <dozent
+        ref="heinroth_jca"><grad>D.</grad> <nachname>Heinroth</nachname>,
+        <funktion>P. O.</funktion></dozent>, <thema>nach s. Sätzen</thema>,
+        <zeit>4 T. in zu best. St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Geschichte der neuesten medicinischen
-        Theorien</thema>: <dozent><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.C.I-005"><thema>Geschichte der
+        neuesten medicinischen Theorien</thema>: <dozent><grad>D.</grad>
         <nachname>Lotze</nachname></dozent>, <zeit>2 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.II">
         <titel>II. Anatomie.</titel>
 
-        <veranstaltung><thema>Muskel- und Eingeweidelehre</thema>: <dozent
-        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>10 U. 6 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.II-001"><thema>Muskel- und
+        Eingeweidelehre</thema>: <dozent ref="weber_eh"><grad>D.</grad>
+        <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>10 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Gefäß- und Nervenlehre</thema>: <ders
-        ref="weber_eh">Derselbe</ders>, <zeit>9 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.II-002"><thema>Gefäß- und
+        Nervenlehre</thema>: <ders ref="weber_eh">Derselbe</ders>, <zeit>9 U.
+        4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Knochen- und Bänderlehre</thema>: <dozent
-        ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>,
-        <funktion>Theat. anatom. Prosect.</funktion></dozent>, <zeit>9 U. 2
-        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.II-003"><thema>Knochen- und
+        Bänderlehre</thema>: <dozent ref="weber_ef"><grad>D.</grad>
+        <nachname>Weber</nachname>, <funktion>Theat. anatom.
+        Prosect.</funktion></dozent>, <zeit>9 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Gesammte Anatomie nach der Lage der Theile,
-        <notiz>Fortsetzung</notiz></thema>: <dozent
+        <veranstaltung xml:id="v-1842w-II.C.II-004"><thema>Gesammte Anatomie
+        nach der Lage der Theile, <notiz>Fortsetzung</notiz></thema>: <dozent
         ref="bock_ce"><grad>D.</grad> <nachname>Bock</nachname></dozent>,
         <zeit>6 T. in zu best. St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Knochen- u. Bänderlehre</thema>: <ders
-        ref="bock_ce">Derselbe</ders>, <zeit>2 T. in zu best. St.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.II-005"><thema>Knochen- u.
+        Bänderlehre</thema>: <ders ref="bock_ce">Derselbe</ders>, <zeit>2 T.
+        in zu best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Vergleichende Anatomie und Physiologie,
-        <notiz>Fortsetzung</notiz></thema>: <dozent
+        <veranstaltung xml:id="v-1842w-II.C.II-006"><thema>Vergleichende
+        Anatomie und Physiologie, <notiz>Fortsetzung</notiz></thema>: <dozent
         ref="assmann_fw"><grad>D.</grad> <nachname>Aßmann</nachname></dozent>,
         <zeit>11 U. 4 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Anatomie der Haussäugethiere mit
-        Sectionsübungen</thema>: <ders ref="assmann_fw">Derselbe</ders>,
-        <zeit>4 T. in den best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.II-007"><thema>Anatomie der
+        Haussäugethiere mit Sectionsübungen</thema>: <ders
+        ref="assmann_fw">Derselbe</ders>, <zeit>4 T. in den best.
+        St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Pathologische Anatomie</thema>:
-        <dozent><grad>D.</grad> <nachname>Hasse</nachname></dozent>, <zeit>2
-        T. in zu best. St.</zeit>
+        <veranstaltung xml:id="v-1842w-II.C.II-008"><thema>Pathologische
+        Anatomie</thema>: <dozent><grad>D.</grad>
+        <nachname>Hasse</nachname></dozent>, <zeit>2 T. in zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <seite>17</seite>
 
-        <veranstaltung><thema>Chirurgische Anatomie</thema>: <dozent
-        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
-        <funktion>P. O. des.</funktion></dozent>, <zeit>3 U. Sonnab.</zeit>
+        <veranstaltung xml:id="v-1842w-II.C.II-009"><thema>Chirurgische
+        Anatomie</thema>: <dozent ref="guenther_gb"><grad>D.</grad>
+        <nachname>Günther</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <zeit>3 U. Sonnab.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Chirurgische Anatomie</thema>: <dozent
-        ref="bock_ce"><grad>D.</grad> <nachname>Bock</nachname></dozent>,
-        <zeit>in zu best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.II-010"><thema>Chirurgische
+        Anatomie</thema>: <dozent ref="bock_ce"><grad>D.</grad>
+        <nachname>Bock</nachname></dozent>, <zeit>in zu best.
+        St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Chirurgische Anatomie</thema>:
-        <dozent><grad>D.</grad> <nachname>Hasse</nachname></dozent>, <zeit>in
-        zu best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.II-011"><thema>Chirurgische
+        Anatomie</thema>: <dozent><grad>D.</grad>
+        <nachname>Hasse</nachname></dozent>, <zeit>in zu best.
+        St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Anatomische Uebungen</thema>: <dozent
-        ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>1-3 U. 6
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.II-012"><thema>Anatomische
+        Uebungen</thema>: <dozent ref="weber_eh"><grad>D.</grad>
+        <nachname>Weber</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>1-3 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Anatomische Uebungen</thema>: <dozent
-        ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>,
-        <funktion>Theat. anat. Prosect.</funktion></dozent>, <zeit>1-3 U. 6
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.II-013"><thema>Anatomische
+        Uebungen</thema>: <dozent ref="weber_ef"><grad>D.</grad>
+        <nachname>Weber</nachname>, <funktion>Theat. anat.
+        Prosect.</funktion></dozent>, <zeit>1-3 U. 6 T.</zeit></veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.III">
         <titel>III. Physiologie.</titel>
 
-        <veranstaltung><thema>Physiologie des Menschen, in freien latein.
-        Vorträgen</thema>: <dozent ref="assmann_fw"><grad>D.</grad>
-        <nachname>Aßmann</nachname></dozent>, <zeit>6 T. in zu best.
-        St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.III-001"><thema>Physiologie des
+        Menschen, in freien latein. Vorträgen</thema>: <dozent
+        ref="assmann_fw"><grad>D.</grad> <nachname>Aßmann</nachname></dozent>,
+        <zeit>6 T. in zu best. St.</zeit></veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.IV">
         <titel>IV. Diätetik.</titel>
 
-        <veranstaltung><thema>Diätetik</thema>: <dozent><grad>D.</grad>
-        <nachname>Radius</nachname>, <funktion>P. O. des.</funktion></dozent>,
-        <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.IV-001"><thema>Diätetik</thema>:
+        <dozent><grad>D.</grad> <nachname>Radius</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Diätetik</thema>: <dozent><grad>D.</grad>
-        <nachname>Schreber</nachname></dozent>, <zeit>2 T. in zu best.
-        St.</zeit> <gebühr>unentgeltl.</gebühr></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.IV-002"><thema>Diätetik</thema>:
+        <dozent><grad>D.</grad> <nachname>Schreber</nachname></dozent>,
+        <zeit>2 T. in zu best. St.</zeit>
+        <gebühr>unentgeltl.</gebühr></veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.V">
         <titel>V. Allgemeine Pathologie und Therapie.</titel>
 
-        <veranstaltung><thema>Allgemeine Pathologie in Verbindung mit
-        Semiotik</thema>: <dozent><grad>D.</grad> <nachname>Hasper</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 4 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.V-001"><thema>Allgemeine
+        Pathologie in Verbindung mit Semiotik</thema>: <dozent><grad>D.</grad>
+        <nachname>Hasper</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Allgemeine Pathologie, nach s. Compendium: Die
-        Hauptpunkte der allgemeinen Pathologie und Therapie (Leipz.
-        1841.)</thema>: <dozent><grad>D.</grad>
-        <nachname>Neubert</nachname></dozent>, <zeit>11 U. 4
+        <veranstaltung xml:id="v-1842w-II.C.V-002"><thema>Allgemeine
+        Pathologie, nach s. Compendium: Die Hauptpunkte der allgemeinen
+        Pathologie und Therapie (Leipz. 1841.)</thema>:
+        <dozent><grad>D.</grad> <nachname>Neubert</nachname></dozent>,
+        <zeit>11 U. 4 T.</zeit></veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-II.C.V-003"><thema>Allgemeine
+        Pathologie u. Therapie</thema>: <dozent><grad>D.</grad>
+        <nachname>Lotze</nachname></dozent>, <zeit>3 U. 3
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Allgemeine Pathologie u. Therapie</thema>:
-        <dozent><grad>D.</grad> <nachname>Lotze</nachname></dozent>, <zeit>3
-        U. 3 T.</zeit></veranstaltung>
-
-        <veranstaltung><thema>Allgemeine Therapie</thema>: <dozent
-        ref="braune_a"><grad>D.</grad> <nachname>Braune</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>8 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.V-004"><thema>Allgemeine
+        Therapie</thema>: <dozent ref="braune_a"><grad>D.</grad>
+        <nachname>Braune</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>8 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.VI">
         <titel>VI. Arzneimittellehre und Receptirkunst.</titel>
 
-        <veranstaltung><thema>Arzneimittellehre, <notiz>2.
-        Theil</notiz></thema>: <dozent ref="braune_a"><grad>D.</grad>
-        <nachname>Braune</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>5 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.VI-001"><thema>Arzneimittellehre,
+        <notiz>2. Theil</notiz></thema>: <dozent
+        ref="braune_a"><grad>D.</grad> <nachname>Braune</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>5 U. 6
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Arzneimittellehre, in lat. Sprache u. <notiz>in
-        einem Semester zu vollenden</notiz></thema>: <dozent><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.C.VI-002"><thema>Arzneimittellehre,
+        in lat. Sprache u. <notiz>in einem Semester zu
+        vollenden</notiz></thema>: <dozent><grad>D.</grad>
         <nachname>Merkel</nachname></dozent>, <zeit>4 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Medinische Botanik, mit Vorzeigung der
-        Droguen</thema>: <dozent ref="kunze_g"><grad>D.</grad>
-        <nachname>Kunze</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>8 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.VI-003"><thema>Medinische Botanik,
+        mit Vorzeigung der Droguen</thema>: <dozent
+        ref="kunze_g"><grad>D.</grad> <nachname>Kunze</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber die Heilquellen</thema>:
-        <dozent><grad>D.</grad> <nachname>Merkel</nachname></dozent>, <zeit>2
-        T. in zu best. St.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.VI-004"><thema>Ueber die
+        Heilquellen</thema>: <dozent><grad>D.</grad>
+        <nachname>Merkel</nachname></dozent>, <zeit>2 T. in zu best.
+        St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Pharmacie</thema>: <dozent
-        ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 T. in zu best.
+        <veranstaltung xml:id="v-1842w-II.C.VI-005"><thema>Pharmacie</thema>:
+        <dozent ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Receptirkunst</thema>: <dozent
+        <veranstaltung
+        xml:id="v-1842w-II.C.VI-006"><thema>Receptirkunst</thema>: <dozent
         ref="kneschke_eh"><grad>D.</grad>
         <nachname>Kneschke</nachname></dozent>, <zeit>2 U. Dienst. u.
         Freit.</zeit></veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.VII">
         <titel>VII. Specielle Pathologie und Therapie.</titel>
 
-        <veranstaltung><thema>Ueber Weiber- und Kinderkrankheiten, auf
-        Verlangen</thema>: <dozent ref="joerg_jcg"><grad>D.</grad>
-        <nachname>Jörg</nachname>, <funktion>P. O.</funktion>, d. Z.
-        <funktion>Dech.</funktion></dozent>, <zeit>in zu best.
-        St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.VII-001"><thema>Ueber Weiber- und
+        Kinderkrankheiten, auf Verlangen</thema>: <dozent
+        ref="joerg_jcg"><grad>D.</grad> <nachname>Jörg</nachname>,
+        <funktion>P. O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
+        <zeit>in zu best. St.</zeit></veranstaltung>
 
         <veranstaltungsgruppe><thema><notiz>Zweiter Theil</notiz> des in einem
         Jahre zu vollendenden Cursus der speciellen Pathologie und Therapie
         (die chronischen Krankheiten)</thema>: <dozent
         ref="cerutti_fpl"><grad>D.</grad> <nachname>Cerutti</nachname>,
-        <funktion>P. O.</funktion></dozent>, <veranstaltung><zeit>4 U. 4
-        T.</zeit> <modus>privatim</modus></veranstaltung> und
-        <veranstaltung><zeit>4 U. 2 T.</zeit>
+        <funktion>P. O.</funktion></dozent>, <veranstaltung
+        xml:id="v-1842w-II.C.VII-002"><zeit>4 U. 4 T.</zeit>
+        <modus>privatim</modus></veranstaltung> und <veranstaltung
+        xml:id="v-1842w-II.C.VII-003"><zeit>4 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung></veranstaltungsgruppe>
 
         <seite>18</seite>
 
-        <veranstaltung><thema>Erkenntnis u. Heilung der Kacherieen</thema>:
-        <dozent ref="braune_a"><grad>D.</grad> <nachname>Braune</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>6 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.VII-004"><thema>Erkenntnis u.
+        Heilung der Kacherieen</thema>: <dozent ref="braune_a"><grad>D.</grad>
+        <nachname>Braune</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>6 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber Nervenkrankheiten</thema>:
-        <dozent><grad>D.</grad> <nachname>Radius</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>4 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.VII-005"><thema>Ueber
+        Nervenkrankheiten</thema>: <dozent><grad>D.</grad>
+        <nachname>Radius</nachname>, <funktion>P. O. des.</funktion></dozent>,
+        <zeit>4 U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber Entzündungen</thema>: <dozent
-        ref="walther_jkw"><grad>D.</grad> <nachname>Walther</nachname>,
-        <funktion>P. O. des.</funktion></dozent>, <zeit>4 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.VII-006"><thema>Ueber
+        Entzündungen</thema>: <dozent ref="walther_jkw"><grad>D.</grad>
+        <nachname>Walther</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <zeit>4 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Pathologie u. Therapie der syphilistischen
-        Krankheitsformen</thema>: <ders ref="walther_jkw">Derselbe</ders>,
-        <zeit>4 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
-
-        <veranstaltung><thema>Ueber die Krankheiten des menschl.
-        Auges</thema>: <dozent ref="ritterich_fp"><grad>D.</grad>
-        <nachname>Ritterich</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>3 U. Mont. u. Donn.</zeit>
+        <veranstaltung xml:id="v-1842w-II.C.VII-007"><thema>Pathologie u.
+        Therapie der syphilistischen Krankheitsformen</thema>: <ders
+        ref="walther_jkw">Derselbe</ders>, <zeit>4 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema><scil
+        <veranstaltung xml:id="v-1842w-II.C.VII-008"><thema>Ueber die
+        Krankheiten des menschl. Auges</thema>: <dozent
+        ref="ritterich_fp"><grad>D.</grad> <nachname>Ritterich</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>3 U. Mont. u. Donn.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-II.C.VII-009"><thema><scil
         text="die Krankheiten des menschlichen Auges">Ueber
         dieselben</scil></thema>: <dozent ref="kneschke_eh"><grad>D.</grad>
         <nachname>Kneschke</nachname></dozent>, <zeit>4 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Erkenntniß und Heilung der Kinderkrankheiten,
-        mit klinischen Uebungen</thema> <ort>in den Wohnungen der kranken
-        Kinder</ort> <thema>verbunden</thema>: <dozent><grad>D.</grad>
-        <nachname>Schreber</nachname></dozent>, <zeit>6 T. in zu best.
-        St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.VII-010"><thema>Erkenntniß und
+        Heilung der Kinderkrankheiten, mit klinischen Uebungen</thema> <ort>in
+        den Wohnungen der kranken Kinder</ort> <thema>verbunden</thema>:
+        <dozent><grad>D.</grad> <nachname>Schreber</nachname></dozent>,
+        <zeit>6 T. in zu best. St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber die Krankheiten des weiblichen
-        Geschlechts</thema>: <dozent ref="grenser_wl"><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.C.VII-011"><thema>Ueber die
+        Krankheiten des weiblichen Geschlechts</thema>: <dozent
+        ref="grenser_wl"><grad>D.</grad>
         <nachname>Grenser</nachname></dozent>, <zeit>2 T. in zu best.
         St.</zeit> <gebühr>unetgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Erkenntniß und Behandlung der Krankheiten der
-        Haussäugethiere</thema>: <dozent ref="assmann_fw"><grad>D.</grad>
-        <nachname>Aßmann</nachname></dozent>, <zeit>4 T. in zu best.
-        St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.VII-012"><thema>Erkenntniß und
+        Behandlung der Krankheiten der Haussäugethiere</thema>: <dozent
+        ref="assmann_fw"><grad>D.</grad> <nachname>Aßmann</nachname></dozent>,
+        <zeit>4 T. in zu best. St.</zeit></veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.VIII">
         <titel>VIII. Psychische Heilwissenschaft.</titel>
 
-        <veranstaltung><thema>Die Anfangsgründe der Psychatrie, nach zu
-        dictirenden Sätzen</thema>: <dozent ref="heinroth_jca"><grad>D.</grad>
-        <nachname>Heinroth</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>4 U. Dienst. u. Freit.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.VIII-001"><thema>Die Anfangsgründe
+        der Psychatrie, nach zu dictirenden Sätzen</thema>: <dozent
+        ref="heinroth_jca"><grad>D.</grad> <nachname>Heinroth</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. Dienst. u.
+        Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Die Lehre von den Geisteskrankheiten</thema>:
-        <dozent><grad>D.</grad> <nachname>Neubert</nachname></dozent>, <zeit>4
-        U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.VIII-002"><thema>Die Lehre von den
+        Geisteskrankheiten</thema>: <dozent><grad>D.</grad>
+        <nachname>Neubert</nachname></dozent>, <zeit>4 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Geschichte der psych. Medicin</thema>:
         <siehe>s. Propädeutik u. Geschichte</siehe>.</veranstaltungsverweis>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.IX">
         <titel>IX. Chirurgie.</titel>
 
-        <veranstaltung><thema>Allgemeine Chirurgie, <notiz>1.
-        Theil</notiz></thema>: <dozent ref="guenther_gb"><grad>D.</grad>
-        <nachname>Günther</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>3 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.IX-001"><thema>Allgemeine
+        Chirurgie, <notiz>1. Theil</notiz></thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>3 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Die gesammte Chirurgie</thema>: <dozent
-        ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>,
-        <zeit>2 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.IX-002"><thema>Die gesammte
+        Chirurgie</thema>: <dozent ref="carus_ea"><grad>D.</grad>
+        <nachname>Carus</nachname></dozent>, <zeit>2 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Ueber Wunden</thema>: <dozent
-        ref="walther_jkw"><grad>D.</grad> <nachname>Walther</nachname>,
-        <funktion>P. O. des.</funktion></dozent>, <zeit>2 T. in zu best.
-        St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.IX-003"><thema>Ueber
+        Wunden</thema>: <dozent ref="walther_jkw"><grad>D.</grad>
+        <nachname>Walther</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <zeit>2 T. in zu best. St.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Anleitungen zu Operationen am Leichname</thema>:
-        <dozent ref="guenther_gb"><grad>D.</grad>
-        <nachname>Günther</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>3 U. Mittw.</zeit>
+        <veranstaltung xml:id="v-1842w-II.C.IX-004"><thema>Anleitungen zu
+        Operationen am Leichname</thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>3 U. Mittw.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Anleitung zu Augenoperationen</thema>: <dozent
-        ref="ritterich_fp"><grad>D.</grad> <nachname>Ritterich</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>in zu best.
-        St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.IX-005"><thema>Anleitung zu
+        Augenoperationen</thema>: <dozent ref="ritterich_fp"><grad>D.</grad>
+        <nachname>Ritterich</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>in zu best. St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Orthopädie oder die Lehre von den
-        Verkrümmungen</thema>: <dozent ref="carus_ea"><grad>D.</grad>
-        <nachname>Carus</nachname></dozent>, <zeit>3 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
-
-        <veranstaltung><thema>Chirurgische Verbandlehre in Verbindung mit der
-        Lehre von den Knochenbrüchen und Verrenkungen</thema>: <dozent
+        <veranstaltung xml:id="v-1842w-II.C.IX-006"><thema>Orthopädie oder die
+        Lehre von den Verkrümmungen</thema>: <dozent
         ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>,
-        <zeit>2 U. 2 T.</zeit></veranstaltung>
+        <zeit>3 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Ueber einige Kapitel der Chirurgie</thema>:
-        <dozent ref="francke_kg"><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.C.IX-007"><thema>Chirurgische
+        Verbandlehre in Verbindung mit der Lehre von den Knochenbrüchen und
+        Verrenkungen</thema>: <dozent ref="carus_ea"><grad>D.</grad>
+        <nachname>Carus</nachname></dozent>, <zeit>2 U. 2
+        T.</zeit></veranstaltung>
+
+        <veranstaltung xml:id="v-1842w-II.C.IX-008"><thema>Ueber einige
+        Kapitel der Chirurgie</thema>: <dozent
+        ref="francke_kg"><grad>D.</grad>
         <nachname>Francke</nachname></dozent>, <zeit>2 T. in zu best.
         St.</zeit></veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.X">
         <titel>X. Entbindungskunst.</titel>
 
         <veranstaltungsgruppe><thema>Entbindungskunst</thema>: <dozent
         ref="joerg_jcg"><grad>D.</grad> <nachname>Jörg</nachname>,
         <funktion>P. O.</funktion>, d. Z.
         <funktion>Dechant</funktion></dozent>, <thema>nach s.
-        Compendium</thema>, <veranstaltung><zeit>11 U. 4 T.</zeit>
-        <modus>öffentlich</modus></veranstaltung> und <veranstaltung><zeit>11
-        U. 2 T.</zeit>
+        Compendium</thema>, <veranstaltung
+        xml:id="v-1842w-II.C.X-001"><zeit>11 U. 4 T.</zeit>
+        <modus>öffentlich</modus></veranstaltung> und <veranstaltung
+        xml:id="v-1842w-II.C.X-002"><zeit>11 U. 2 T.</zeit>
         <modus>privatim</modus>.</veranstaltung></veranstaltungsgruppe>
 
         <seite>19</seite>
 
-        <veranstaltung><thema>Uebungen am Phantom</thema>: <ders
-        ref="joerg_jcg">Derselbe</ders>, <zeit>2 U. Dienst. u. Freit.</zeit>
-        <modus>privatissime</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.X-003"><thema>Uebungen am
+        Phantom</thema>: <ders ref="joerg_jcg">Derselbe</ders>, <zeit>2 U.
+        Dienst. u. Freit.</zeit> <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.XI">
         <titel>XI. Klinik.</titel>
 
-        <veranstaltung><thema>Geburtshilfliche Klinik <ort>in der königlichen
-        Entbindungsschule im Trierschen Institute</ort></thema>: <dozent
-        ref="joerg_jcg"><grad>D.</grad> <nachname>Jörg</nachname>,
-        <funktion>P. O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
-        <zeit>8 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.XI-001"><thema>Geburtshilfliche
+        Klinik <ort>in der königlichen Entbindungsschule im Trierschen
+        Institute</ort></thema>: <dozent ref="joerg_jcg"><grad>D.</grad>
+        <nachname>Jörg</nachname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Dech.</funktion></dozent>, <zeit>8 U. 6
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Allgemeine klinische Beobachtungen über die
-        herrschende Witterungs- und Krankheitsconstitution</thema>:
-        <dozent><grad>D.</grad> <nachname>Claris</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.XI-002"><thema>Allgemeine
+        klinische Beobachtungen über die herrschende Witterungs- und
+        Krankheitsconstitution</thema>: <dozent><grad>D.</grad>
+        <nachname>Claris</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>10 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Klinik</thema> <ort>im königl. Institute am
-        Jakobshospitale</ort>: <ders>Derselbe</ders>, <zeit>11 U. 6 T. und 10
-        U. 2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.XI-003"><thema>Klinik</thema>
+        <ort>im königl. Institute am Jakobshospitale</ort>:
+        <ders>Derselbe</ders>, <zeit>11 U. 6 T. und 10 U. 2
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Chirurgische Klinik</thema> <ort>im königl.
-        Institute am Jakobshospitale</ort>: <dozent
-        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
-        <funktion>P. O. des.</funktion></dozent>, <zeit>6 T. von 8½-10
+        <veranstaltung xml:id="v-1842w-II.C.XI-004"><thema>Chirurgische
+        Klinik</thema> <ort>im königl. Institute am Jakobshospitale</ort>:
+        <dozent ref="guenther_gb"><grad>D.</grad>
+        <nachname>Günther</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <zeit>6 T. von 8½-10
         U.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Poliklinik</thema>: <dozent
-        ref="cerutti_fpl"><grad>D.</grad> <nachname>Cerutti</nachname>,
-        <funktion>P. O.</funktion></dozent>, in Verbindung mit <dozent
-        ref="braune_a"><grad>D.</grad> <nachname>Braune</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>2 U. 6 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.XI-005"><thema>Poliklinik</thema>:
+        <dozent ref="cerutti_fpl"><grad>D.</grad>
+        <nachname>Cerutti</nachname>, <funktion>P. O.</funktion></dozent>, in
+        Verbindung mit <dozent ref="braune_a"><grad>D.</grad>
+        <nachname>Braune</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>2 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Klinische Demonstrationen am
-        Krankenbette</thema>, <ort>im Hospital zu St. Georgen</ort>:
-        <dozent><grad>D.</grad> <nachname>Radius</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>11-1 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.XI-006"><thema>Klinische
+        Demonstrationen am Krankenbette</thema>, <ort>im Hospital zu St.
+        Georgen</ort>: <dozent><grad>D.</grad> <nachname>Radius</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>11-1 U. 2
+        T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Uebungen in der Augenklinik</thema> <ort>in der
-        Heilanstalt für Augenkranke</ort>: <dozent
-        ref="ritterich_fp"><grad>D.</grad> <nachname>Ritterich</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 6 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.XI-007"><thema>Uebungen in der
+        Augenklinik</thema> <ort>in der Heilanstalt für Augenkranke</ort>:
+        <dozent ref="ritterich_fp"><grad>D.</grad>
+        <nachname>Ritterich</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>11 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Chirurgische Poliklinik</thema>: <dozent
-        ref="walther_jkw"><grad>D.</grad> <nachname>Walther</nachname>,
-        <funktion>P. O. des.</funktion></dozent>, in Verbindung mit <dozent
+        <veranstaltung xml:id="v-1842w-II.C.XI-008"><thema>Chirurgische
+        Poliklinik</thema>: <dozent ref="walther_jkw"><grad>D.</grad>
+        <nachname>Walther</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, in Verbindung mit <dozent
         ref="carus_ea"><grad>D.</grad> <nachname>Carus</nachname></dozent>,
         <zeit>11 U. 6 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.XII">
         <titel>XII. Gerichtliche Arzneiwissenschaft.</titel>
 
-        <veranstaltung><thema>Gerichtliche Medicin für Rechtsgelehrte</thema>:
-        <dozent><grad>D.</grad> <nachname>Wendler</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.XII-001"><thema>Gerichtliche
+        Medicin für Rechtsgelehrte</thema>: <dozent><grad>D.</grad>
+        <nachname>Wendler</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>11 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Gerichtliche Medicin für Mediciner</thema>:
-        <ders>Derselbe</ders>, <zeit>4 U. 4 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.XII-002"><thema>Gerichtliche
+        Medicin für Mediciner</thema>: <ders>Derselbe</ders>, <zeit>4 U. 4
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Anleitung, <antiqua>visa reperta</antiqua> nach
-        den gesetzlichen Bestimmungen anzufertigen</thema>:
-        <ders>Derselbe</ders>, <zeit>11 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.XII-003"><thema>Anleitung,
+        <antiqua>visa reperta</antiqua> nach den gesetzlichen Bestimmungen
+        anzufertigen</thema>: <ders>Derselbe</ders>, <zeit>11 U. 2
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
-      <sachgruppe>
+      <sachgruppe xml:id="sg-1842w-II.C.XIII">
         <titel>XIII. Verschiedene Uebungen.</titel>
 
-        <veranstaltung><modus>Privatissima</modus> <thema>über Anatomie,
-        Physiologie und Chirurgie</thema>: <dozent
+        <veranstaltung
+        xml:id="v-1842w-II.C.XIII-001"><modus>Privatissima</modus> <thema>über
+        Anatomie, Physiologie und Chirurgie</thema>: <dozent
         ref="bock_ce"><grad>D.</grad> <nachname>Bock</nachname></dozent>,
         <zeit>in zu best. St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Examinatoria und Repetitoria über Physiologie
-        des Menschen</thema>: <dozent ref="assmann_fw"><grad>D.</grad>
-        <nachname>Aßmann</nachname></dozent>, <zeit>in zu best. St.</zeit>
+        <veranstaltung xml:id="v-1842w-II.C.XIII-002"><thema>Examinatoria und
+        Repetitoria über Physiologie des Menschen</thema>: <dozent
+        ref="assmann_fw"><grad>D.</grad> <nachname>Aßmann</nachname></dozent>,
+        <zeit>in zu best. St.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Examinirübungen über allgemeine oder specielle
-        Medicin</thema>: <dozent><grad>D.</grad>
-        <nachname>Merkel</nachname></dozent>, <zeit>in zu best. St.</zeit>
-        <modus>privatissime</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.XIII-003"><thema>Examinirübungen
+        über allgemeine oder specielle Medicin</thema>:
+        <dozent><grad>D.</grad> <nachname>Merkel</nachname></dozent>, <zeit>in
+        zu best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Examinir-Uebungen über einige Doctrinen der
-        Medicin</thema>: <dozent ref="grenser_wl"><grad>D.</grad>
+        <veranstaltung xml:id="v-1842w-II.C.XIII-004"><thema>Examinir-Uebungen
+        über einige Doctrinen der Medicin</thema>: <dozent
+        ref="grenser_wl"><grad>D.</grad>
         <nachname>Grenser</nachname></dozent>, <zeit>in zu best. St.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Leitungen der ihm übertragenen
-        Repetitionen</thema> <ort>im königl. klinischen Institute</ort>:
-        <dozent><grad>D.</grad> <nachname>Hasse</nachname></dozent>, <zeit>zu
-        den best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1842w-II.C.XIII-005"><thema>Leitungen der ihm
+        übertragenen Repetitionen</thema> <ort>im königl. klinischen
+        Institute</ort>: <dozent><grad>D.</grad>
+        <nachname>Hasse</nachname></dozent>, <zeit>zu den best.
+        St.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Disputir-Uebungen über Gegenstände der
-        theoretischen und<seite>20</seite>praktischen Medicin</thema>:
-        <dozent><grad>D.</grad> <nachname>Neubert</nachname></dozent>,
-        <zeit>in den best. St.</zeit> <gebühr>unentgeltlich</gebühr>, aber
+        <veranstaltung xml:id="v-1842w-II.C.XIII-006"><thema>Disputir-Uebungen
+        über Gegenstände der theoretischen und<seite>20</seite>praktischen
+        Medicin</thema>: <dozent><grad>D.</grad>
+        <nachname>Neubert</nachname></dozent>, <zeit>in den best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>, aber
         <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
