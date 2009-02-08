@@ -491,8 +491,9 @@
           <nachname>Fleischer</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>3 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltung><thema>Persisch</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Loth</nachname></dozent>, <zeit>in 2 zu best. St.</zeit>
+          <veranstaltung><thema>Persisch</thema>: <dozent
+          ref="loth_o"><grad>D. ph.</grad> <nachname>Loth</nachname></dozent>,
+          <zeit>in 2 zu best. St.</zeit>
           <gebühr>unentgeltl.</gebühr></veranstaltung>
         </sachgruppe>
 
@@ -529,8 +530,8 @@
 
           <trennlinie/>
 
-          <veranstaltung><thema>Arabische Encyklopädie</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Loth</nachname></dozent>,
+          <veranstaltung><thema>Arabische Encyklopädie</thema>: <dozent
+          ref="loth_o"><grad>D. ph.</grad> <nachname>Loth</nachname></dozent>,
           <zeit>in 2 zu best. St.</zeit></veranstaltung>
 
           <veranstaltung><thema>Erklärung des Koran nach Beidhâwi</thema>:
@@ -988,10 +989,10 @@
         <funktion>P. E.</funktion></dozent>, <zeit>4 U. 3
         T.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Landwirthschaftsrecht</thema>: <dozent><grad>D.
-        jur.</grad> <nachname>Lueder</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>3 T. (Donn. u. Sonn. 4 U. und in einer
-        dritten zu best. St.)</zeit></veranstaltung>
+        <veranstaltung><thema>Landwirthschaftsrecht</thema>: <dozent
+        ref="lueder_k"><grad>D. jur.</grad> <nachname>Lueder</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>3 T. (Donn. u. Sonn. 4 U.
+        und in einer dritten zu best. St.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Ueber Pachtrecht und Pachtverträge</thema>:
         <dozent ref="blomeyer_a"><grad>D. ph. &amp; jur.</grad>
@@ -1425,9 +1426,9 @@
         <seite>18</seite>
 
         <veranstaltung><thema>Erklärung des Johannesevangeliums</thema>:
-        <dozent><grad>D. th.</grad> <nachname>Luthardt</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>10 U. 4
-        T.</zeit></veranstaltung>
+        <dozent ref="luthardt_e"><grad>D. th.</grad>
+        <nachname>Luthardt</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>10 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung><thema>Auslegung des Römerbriefes</thema>: <dozent
         ref="tischendorf_lfk"><grad>D. th.</grad>
@@ -1552,13 +1553,14 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Einleitung in die Dogmatik</thema>:
-        <dozent><grad>D. th.</grad> <nachname>Luthardt</nachname>,
+        <veranstaltung><thema>Einleitung in die Dogmatik</thema>: <dozent
+        ref="luthardt_e"><grad>D. th.</grad> <nachname>Luthardt</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>10 U. Sonn.</zeit>,
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung><thema>Dogmatik</thema>: <ders>Derselbe</ders>,
-        <zeit>11 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung><thema>Dogmatik</thema>: <ders
+        ref="luthardt_e">Derselbe</ders>, <zeit>11 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Biblische Theologie des A. T.</thema>:
         <dozent ref="delitzsch_fj"><grad>D. th.</grad>
@@ -1587,15 +1589,16 @@
         <sachgruppe>
           <titel>Systematisch-theologische Uebungen.</titel>
 
-          <veranstaltung><thema>Dogmatische Gesellschaft</thema>:
-          <dozent><grad>D. th.</grad> <nachname>Luthardt</nachname>,
+          <veranstaltung><thema>Dogmatische Gesellschaft</thema>: <dozent
+          ref="luthardt_e"><grad>D. th.</grad> <nachname>Luthardt</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Mont. Ab. 7-9 U.</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Dogmatische Uebungen der Lausitzer
-          Predigergesellschaft</thema>: <ders>Derselbe</ders>, <zeit>in 1 zu
-          best. St.</zeit>, <modus>privatissime</modus>, aber
+          Predigergesellschaft</thema>: <ders
+          ref="luthardt_e">Derselbe</ders>, <zeit>in 1 zu best. St.</zeit>,
+          <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen der Lausitzer Predigergesellschaft
@@ -1823,8 +1826,8 @@
 
           <seite>22</seite>
 
-          <veranstaltungsverweis><thema>Landwirthschaftsrecht</thema>:
-          <dozent><grad>D. jur.</grad> <nachname>Lueder</nachname>,
+          <veranstaltungsverweis><thema>Landwirthschaftsrecht</thema>: <dozent
+          ref="lueder_k"><grad>D. jur.</grad> <nachname>Lueder</nachname>,
           <funktion>P. E.</funktion></dozent>, <siehe>s. Staats- u.
           Cameralwissenschaft</siehe>.</veranstaltungsverweis>
 
@@ -1870,9 +1873,10 @@
         <funktion>P. O.</funktion></dozent>, <zeit>8 U. 6 T. und 6 U. Ab.
         Mont.</zeit></veranstaltung>
 
-        <veranstaltung><thema>Strafrecht</thema>: <dozent><grad>D. jur.</grad>
-        <nachname>Lueder</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>11 U. 6 T. und 12 U. Mont.</zeit></veranstaltung>
+        <veranstaltung><thema>Strafrecht</thema>: <dozent
+        ref="lueder_k"><grad>D. jur.</grad> <nachname>Lueder</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 6 T. und 12 U.
+        Mont.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe>
@@ -2065,9 +2069,10 @@
         <trennlinie/>
 
         <veranstaltung><thema>Physiologie der Empfindungs- und
-        Bewegungswerkzeuge</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Ludwig</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>4 U. 5 T. (ausschl. Sonn.)</zeit></veranstaltung>
+        Bewegungswerkzeuge</thema>: <dozent ref="ludwig_c"><grad>D.
+        med.</grad> <nachname>Ludwig</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>4 U. 5 T. (ausschl.
+        Sonn.)</zeit></veranstaltung>
 
         <veranstaltung><thema>Physiologie der menschlichen Sprache (zunächst
         für Philologen)</thema>: <dozent><grad>D. med.</grad>
@@ -2085,14 +2090,15 @@
         <sachgruppe>
           <titel>Physiologische Uebungen.</titel>
 
-          <veranstaltung><thema>Physiologische Besprechungen</thema>:
-          <dozent><grad>D. med.</grad> <nachname>Ludwig</nachname>,
+          <veranstaltung><thema>Physiologische Besprechungen</thema>: <dozent
+          ref="ludwig_c"><grad>D. med.</grad> <nachname>Ludwig</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>in 2 zu verabred.
           St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung><thema>Uebungen im physiologischen Versuch für
-          Fortgeschrittenere</thema>: <ders>Derselbe</ders>, <zeit>in zu best.
-          St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          Fortgeschrittenere</thema>: <ders ref="ludwig_c">Derselbe</ders>,
+          <zeit>in zu best. St.</zeit>
+          <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung><thema>Mikroskopische Uebungen in 6stündigen
           Cursen</thema>: <dozent><grad>D. med.</grad>

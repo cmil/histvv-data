@@ -2105,7 +2105,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
         <veranstaltung><thema>Zahnärztliches Praktikum</thema>:
         <dozent><grad>D. med.</grad> <nachname>Zimmermann</nachname></dozent>,
-        <dozent><funktion>Zahnarzt</funktion>
+        <dozent ref="berry_k"><funktion>Zahnarzt</funktion>
         <nachname>Berry</nachname></dozent> und
         <dozent><funktion>Zahnarzt</funktion> <nachname>Schwarze</nachname>
         (in Vertretung)</dozent>, <zeit>täglich 1-5 U.</zeit>,
@@ -2152,9 +2152,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
       G.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Repetitorium der physikalischen
-      Chemie</thema>: <dozent><grad>D. ph.</grad> <nachname>Luther</nachname>,
-      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
-      G.</siehe></veranstaltungsverweis>
+      Chemie</thema>: <dozent ref="luther_r"><grad>D. ph.</grad>
+      <nachname>Luther</nachname>, <funktion>P. E.</funktion></dozent>
+      <siehe>Siehe Philosophische Fakultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Anaorganische Chemie</thema>:
       <dozent><grad>D. ph.</grad> <nachname>Hantzsch</nachname>, <funktion>P.
@@ -5294,7 +5294,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
         für angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung><thema>Repetitorium der physikalischen Chemie (mit
-        Seminar)</thema>: <dozent><grad>D. ph.</grad>
+        Seminar)</thema>: <dozent ref="luther_r"><grad>D. ph.</grad>
         <nachname>Luther</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. ½6-7 U.</zeit>, <modus>privatim</modus>, <ort>im
         Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
@@ -5729,7 +5729,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <veranstaltung><thema>Physikalisch-chemisches Praktikum</thema>
         (<zeit>ganz- und halbtägig</zeit>): <dozent ref="leblanc_m"><grad>D.
         ph.</grad> <nachname>Le Blanc</nachname>, <funktion>P.
-        O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
+        O.</funktion></dozent>, <dozent ref="luther_r">mit <grad>D. ph.</grad>
         <nachname>Luther</nachname>, <funktion>P. E.</funktion></dozent>,
         <dozent><grad>D. ph.</grad> <nachname>Drucker</nachname></dozent> u.
         <dozent><grad>D. ph.</grad> <nachname>Freundlich</nachname></dozent>,
@@ -5739,9 +5739,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
         <veranstaltung><thema>Physikalisch-chemisches Kolloquium</thema>:
         <dozent ref="leblanc_m"><grad>D. ph.</grad> <nachname>Le
-        Blanc</nachname>, <funktion>P. O.</funktion></dozent>, <dozent>mit
-        <grad>D. ph.</grad> <nachname>Luther</nachname>, <funktion>P.
-        E.</funktion></dozent>, <dozent ref="boettger_wc"><grad>D. ph.</grad>
+        Blanc</nachname>, <funktion>P. O.</funktion></dozent>, <dozent
+        ref="luther_r">mit <grad>D. ph.</grad> <nachname>Luther</nachname>,
+        <funktion>P. E.</funktion></dozent>, <dozent
+        ref="boettger_wc"><grad>D. ph.</grad>
         <nachname>Böttger</nachname></dozent>, <dozent><grad>D. ph.</grad>
         <nachname>Drucker</nachname></dozent> u. <dozent><grad>D. ph.</grad>
         <nachname>Freundlich</nachname></dozent>, <zeit>Donnerst. 5½-7
