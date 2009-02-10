@@ -1449,10 +1449,11 @@ Seite weiter!!!
       <trennlinie/>
 
       <veranstaltung xml:id="v-1908s-III-043"><thema>Allgemeine Pathologie und
-      pathologische Anatomie</thema>: <dozent><grad>D. med. et ph.</grad>
-      <nachname>Marchand</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Sonnab. 11 bis 12 U.</zeit>, <modus>privatim</modus>,
-      <ort>im Pathologischen Insitut, Liebigstr. 26</ort>.</veranstaltung>
+      pathologische Anatomie</thema>: <dozent ref="marchand_f"><grad>D. med.
+      et ph.</grad> <nachname>Marchand</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Sonnab. 11 bis 12 U.</zeit>,
+      <modus>privatim</modus>, <ort>im Pathologischen Insitut, Liebigstr.
+      26</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1908s-III-044"><thema>Übungen in der
       mikroskopischen Diagnostik der Geschwülste</thema>: <dozent><grad>D.
@@ -1461,31 +1462,34 @@ Seite weiter!!!
       Liebigstr. 26</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1908s-III-045"><thema>Praktischer Kurs der
-      pathologischen Gewebelehre</thema>:<seite>17</seite> <dozent><grad>D.
-      med. et ph.</grad> <nachname>Marchand</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Dienst. u. Freit. 2 bis 4 U.</zeit>,
+      pathologischen Gewebelehre</thema>:<seite>17</seite> <dozent
+      ref="marchand_f"><grad>D. med. et ph.</grad>
+      <nachname>Marchand</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Dienst. u. Freit. 2 bis 4 U.</zeit>, <modus>privatim</modus>,
+      <ort>im Pathologischen Insitut, Liebigstr. 26</ort>.</veranstaltung>
+
+      <veranstaltung xml:id="v-1908s-III-046"><thema>Pathologisch-anatomischer
+      Demonstrations- und Sektionskurs</thema>: <dozent
+      ref="marchand_f"><grad>D. med. et ph.</grad>
+      <nachname>Marchand</nachname>, <funktion>P. O.</funktion></dozent>,
+      <dozent>mit <grad>D. med.</grad> <nachname>Versé</nachname></dozent>,
+      <zeit>Mittw., Donnerst. u. Sonnab. 8-½10 U. Vorm.</zeit>,
       <modus>privatim</modus>, <ort>im Pathologischen Insitut, Liebigstr.
       26</ort>.</veranstaltung>
 
-      <veranstaltung xml:id="v-1908s-III-046"><thema>Pathologisch-anatomischer
-      Demonstrations- und Sektionskurs</thema>: <dozent><grad>D. med. et
-      ph.</grad> <nachname>Marchand</nachname>, <funktion>P.
-      O.</funktion></dozent>, <dozent>mit <grad>D. med.</grad>
-      <nachname>Versé</nachname></dozent>, <zeit>Mittw., Donnerst. u. Sonnab.
-      8-½10 U. Vorm.</zeit>, <modus>privatim</modus>, <ort>im Pathologischen
-      Insitut, Liebigstr. 26</ort>.</veranstaltung>
-
       <veranstaltung xml:id="v-1908s-III-047"><thema>Arbeiten im
       Pathologischen Insitut (<ort>Liebigstr. 26</ort>) für Geübtere</thema>:
-      <dozent><grad>D. med. et ph.</grad> <nachname>Marchand</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>tägl. 8-1 u. (außer Sonnab.)
-      2-6 U.</zeit>, <modus>privatissime</modus>, aber
+      <dozent ref="marchand_f"><grad>D. med. et ph.</grad>
+      <nachname>Marchand</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. 8-1 u. (außer Sonnab.) 2-6 U.</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1908s-III-048"><thema>Ausgewählte Kapitel aus
-      der Aetiologie der Infektionskrankheiten</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Löhlein</nachname></dozent>, <zeit>Mont. u. Mittw.
-      3-4 U.</zeit>, <modus>privatim</modus>, <ort>im Pathologischen Insitut,
+      der Aetiologie der Infektionskrankheiten</thema>: <dozent
+      ref="loehlein_m"><grad>D. med.</grad>
+      <nachname>Löhlein</nachname></dozent>, <zeit>Mont. u. Mittw. 3-4
+      U.</zeit>, <modus>privatim</modus>, <ort>im Pathologischen Insitut,
       Liebigstr. 26</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1908s-III-049"><thema>Die akuten
@@ -1495,7 +1499,7 @@ Seite weiter!!!
       Medizinischen Klinik, Liebigstr. 22</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1908s-III-050"><thema>Bakteriologische
-      Übungen</thema>: <dozent><grad>D. med.</grad>
+      Übungen</thema>: <dozent ref="loehlein_m"><grad>D. med.</grad>
       <nachname>Löhlein</nachname></dozent>, <zeit>dreimal wöchentl. 3-5
       U.</zeit>, <modus>privatissime</modus>, <ort>im Pathologischen Insitut,
       Liebigstr. 26</ort>.</veranstaltung>
@@ -5138,7 +5142,8 @@ Seite weiter!!!
         Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1908s-IV.E-027"><thema>Die Entwicklung der
-        Landwirtschaft im 19. Jahrhundert</thema>: <dozent><grad>D. ph.</grad>
+        Landwirtschaft im 19. Jahrhundert</thema>: <dozent
+        ref="loehnis_f"><grad>D. ph.</grad>
         <nachname>Löhnis</nachname></dozent>, <zeit>Sonnab. 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -5390,7 +5395,7 @@ Seite weiter!!!
 
         <veranstaltungsgruppe><thema>Landwirtschaftliches Praktikum mit
         Seminar und landwirtschaftlich-bakteriologisches Praktikum</thema>
-        (<dozent>dieses mit <grad>D. ph.</grad>
+        (<dozent ref="loehnis_f">dieses mit <grad>D. ph.</grad>
         <nachname>Löhnis</nachname></dozent>) (<ort>Johannisallee 21</ort>):
         <dozent ref="kirchner_w"><grad>D. ph.</grad>
         <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>:
@@ -6102,9 +6107,9 @@ Seite weiter!!!
         Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Ausgewählte Kapitel aus der Aetiologie
-        der Infektionskrankheiten</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Löhlein</nachname></dozent>. <siehe>Siehe Medizinische
-        Fakultät.</siehe></veranstaltungsverweis>
+        der Infektionskrankheiten</thema>: <dozent ref="loehlein_m"><grad>D.
+        med.</grad> <nachname>Löhlein</nachname></dozent>. <siehe>Siehe
+        Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Über die Bekämpfung der
         Tropenkrankheiten</thema>: <dozent><grad>D. med.</grad>
@@ -6114,7 +6119,7 @@ Seite weiter!!!
         <seite>60</seite>
 
         <veranstaltungsverweis><thema>Landwirtschaftliche
-        Bakteriologie</thema>: <dozent><grad>D. ph.</grad>
+        Bakteriologie</thema>: <dozent ref="loehnis_f"><grad>D. ph.</grad>
         <nachname>Löhnis</nachname></dozent>. <siehe>Siehe Abschnitt
         E.</siehe></veranstaltungsverweis>
 
@@ -6451,8 +6456,9 @@ Seite weiter!!!
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Bakteriologische Übungen</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Löhlein</nachname></dozent>.
-        <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
+        <dozent ref="loehlein_m"><grad>D. med.</grad>
+        <nachname>Löhlein</nachname></dozent>. <siehe>Siehe Medizinische
+        Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Chemisches Praktikum für
         Mediziner</thema>: <dozent ref="beckmann_eo"><grad>D. ph.</grad>

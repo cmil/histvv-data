@@ -1253,30 +1253,33 @@
 
         <veranstaltung xml:id="v-1913s-III.004-001"><thema>Allgemeine
         Pathologie und pathologische Anatomie mit Ausschluß der
-        Ätiologie</thema>: <dozent><grad>D. med. et ph.</grad>
-        <nachname>Marchand</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>tägl. (außer So.) 11-12 U.</zeit>, <modus>privatim</modus>,
-        <ort>im Pathologischen Institut, Liebigstr. 26</ort>.</veranstaltung>
-
-        <veranstaltung xml:id="v-1913s-III.004-002"><thema>Praktischer Kurs
-        der pathologischen Histologie</thema>: <dozent><grad>D. med. et
+        Ätiologie</thema>: <dozent ref="marchand_f"><grad>D. med. et
         ph.</grad> <nachname>Marchand</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Di. u. Fr. 2-4 U.</zeit>,
+        O.</funktion></dozent>, <zeit>tägl. (außer So.) 11-12 U.</zeit>,
         <modus>privatim</modus>, <ort>im Pathologischen Institut, Liebigstr.
         26</ort>.</veranstaltung>
 
+        <veranstaltung xml:id="v-1913s-III.004-002"><thema>Praktischer Kurs
+        der pathologischen Histologie</thema>: <dozent
+        ref="marchand_f"><grad>D. med. et ph.</grad>
+        <nachname>Marchand</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Di. u. Fr. 2-4 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Pathologischen Institut, Liebigstr. 26</ort>.</veranstaltung>
+
         <veranstaltung
         xml:id="v-1913s-III.004-003"><thema>Pathologisch-anatomischer
-        Demonstrationskurs</thema>: <dozent><grad>D. med. et ph.</grad>
-        <nachname>Marchand</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mi. u. So. 8-9½ U.</zeit>, <modus>privatim</modus>, <ort>im
-        Pathologischen Institut, Liebigstr. 26</ort>.</veranstaltung>
+        Demonstrationskurs</thema>: <dozent ref="marchand_f"><grad>D. med. et
+        ph.</grad> <nachname>Marchand</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mi. u. So. 8-9½ U.</zeit>,
+        <modus>privatim</modus>, <ort>im Pathologischen Institut, Liebigstr.
+        26</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.004-004"><thema>Arbeiten <ort>im
         Pathologischen Institut (Liebigstr. 26)</ort> für Geübtere</thema>:
-        <dozent><grad>D. med. et ph.</grad> <nachname>Marchand</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>tägl. (außer So. nachm.)
-        8-6 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+        <dozent ref="marchand_f"><grad>D. med. et ph.</grad>
+        <nachname>Marchand</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>tägl. (außer So. nachm.) 8-6 U.</zeit>,
+        <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1913s-III.004-005"><thema>Mißbildungen</thema>: <dozent
@@ -1286,14 +1289,14 @@
         13</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.004-006"><thema>Allgemeine
-        Ätiologie und Ätiologie der Infektionskrankheiten</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Löhlein</nachname>,
+        Ätiologie und Ätiologie der Infektionskrankheiten</thema>: <dozent
+        ref="loehlein_m"><grad>D. med.</grad> <nachname>Löhlein</nachname>,
         <funktion>P. E. des.</funktion></dozent>, <zeit>So. 11-12 U.</zeit>,
         <modus>privatim</modus>, <zeit>im Pathologischen Institut, Liebigstr.
         26</zeit>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.004-007"><thema>Pathologie der
-        Harnorgane</thema>: <dozent><grad>D. med.</grad>
+        Harnorgane</thema>: <dozent ref="loehlein_m"><grad>D. med.</grad>
         <nachname>Löhlein</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>Do. 4-5 U.</zeit>,
         <modus>privatim</modus>, <ort>im Pathologischen Institut, Liebigstr.
@@ -4330,7 +4333,7 @@
 
         <veranstaltung xml:id="v-1913s-IV.E-012"><thema>Landwirtschaftliche
         Produktionslehre (für Studierende aller Fakultäten, speziell für
-        Juristen)</thema>: <dozent><grad>D. ph.</grad>
+        Juristen)</thema>: <dozent ref="loehnis_f"><grad>D. ph.</grad>
         <nachname>Löhnis</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mi. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -4561,7 +4564,7 @@
         Institut, Johannisallee 21.</ort></veranstaltungsgruppe>
 
         <veranstaltungsgruppe><thema>Landwirtschaftlich-bakteriologisches
-        Laboratorium</thema>: <dozent><grad>D. ph.</grad>
+        Laboratorium</thema>: <dozent ref="loehnis_f"><grad>D. ph.</grad>
         <nachname>Löhnis</nachname>, <funktion>P. E.</funktion></dozent>:
         <veranstaltung xml:id="v-1913s-IV.E-032">A. <thema>Großes
         Praktikum</thema>, <zeit>Mo. bis Fr. 9 bis 5
@@ -4574,7 +4577,7 @@
 
         <veranstaltung xml:id="v-1913s-IV.E-034"><thema>Mikroskopische Übungen
         für Landwirte (Pflanzenkrankheiten, Futtermittelkontrolle
-        etc.)</thema>: <dozent><grad>D. ph.</grad>
+        etc.)</thema>: <dozent ref="loehnis_f"><grad>D. ph.</grad>
         <nachname>Löhnis</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mi. 10-12 U.</zeit>, <modus>privatissime</modus>, <zeit>im
         Landw. Institut, Johannisallee 21.</zeit></veranstaltung>
