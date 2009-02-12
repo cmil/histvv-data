@@ -1286,15 +1286,15 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1901s-III-071"><thema>Geburtshilfliche
-      Propaedeutik</thema>: <dozent><grad>D. med.</grad>
+      Propaedeutik</thema>: <dozent ref="menge_c"><grad>D. med.</grad>
       <nachname>Menge</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1901s-III-072"><thema>Geburtshilfliche
       Operationslehre mit Uebungen am Phantom (im Auftrag von <notiz
-      betreff="fortsetzung">D. med. Zweifel, P. O.</notiz>)</thema>,
-      <dozent><grad>DD. med.</grad> <nachname>Menge</nachname></dozent> und
-      <dozent><grad>Krönig</grad></dozent>, <zeit>Mont. 4-5 U., Dienst. u.
+      betreff="fortsetzung">D. med. Zweifel, P. O.</notiz>)</thema>, <dozent
+      ref="menge_c"><grad>DD. med.</grad> <nachname>Menge</nachname></dozent>
+      und <dozent><grad>Krönig</grad></dozent>, <zeit>Mont. 4-5 U., Dienst. u.
       Freit. 5-6 U. und Donnerstag. 4-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1310,8 +1310,8 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1901s-III-075"><thema>Pathologische Anatomie
-      der weiblichen Geschlechtsorgane mit Demonstrationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Menge</nachname></dozent>,
+      der weiblichen Geschlechtsorgane mit Demonstrationen</thema>: <dozent
+      ref="menge_c"><grad>D. med.</grad> <nachname>Menge</nachname></dozent>,
       <zeit>Freit. 7 bis 8 U. Ab.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1716,8 +1716,9 @@
           <funktion>P. E.</funktion></dozent> (<ort>Carolinenstr.
           31</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1901s-III.002.g-002"><dozent><grad>D.
-          med.</grad> <nachname>Menge</nachname></dozent> und <dozent
+          <veranstaltung xml:id="v-1901s-III.002.g-002"><dozent
+          ref="menge_c"><grad>D. med.</grad>
+          <nachname>Menge</nachname></dozent> und <dozent
           ref="kroenig_b"><grad>D. med.</grad>
           <nachname>Krönig</nachname></dozent>, <zeit>Mont., Dienst.,
           Donnerst. u. Freit. 2-3 U.</zeit>, <modus>privatissime</modus>.
@@ -1777,9 +1778,9 @@
       G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Specielle Zoologie <notiz
-      betreff="fortsetzung">II. Hälfte</notiz></thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Marshall</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      betreff="fortsetzung">II. Hälfte</notiz></thema>: <dozent
+      ref="marshall_w"><grad>D. ph.</grad> <nachname>Marshall</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Einführung in das kulturgeschichtliche
@@ -2088,7 +2089,8 @@ dritten Sachgruppe anordnen!
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1901s-IV.B.a-010"><thema>Abriss der
-          römischen Litteraturgeschichte</thema>: <dozent><grad>D. ph.</grad>
+          römischen Litteraturgeschichte</thema>: <dozent
+          ref="martini_e"><grad>D. ph.</grad>
           <nachname>Martini</nachname></dozent>, <zeit>Mittw. u. Sonnab. 6-7
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2160,7 +2162,7 @@ dritten Sachgruppe anordnen!
           -Sprechübungen</thema>, <zeit>Donnerst. 5-7 U.</zeit>,
           <modus>publice</modus>.</veranstaltung> - <veranstaltung
           xml:id="v-1901s-IV.B.a-015"><thema>c) Griechische
-          Stilübungen</thema>: <dozent><grad>D. ph.</grad>
+          Stilübungen</thema>: <dozent ref="martini_e"><grad>D. ph.</grad>
           <nachname>Martini</nachname></dozent>, <zeit>Freit. 6-8 U.
           Ab.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
@@ -4056,7 +4058,7 @@ getaggt? --></veranstaltung>
         <veranstaltung xml:id="v-1901s-IV.G-032"><thema>Specielle Zoologie,
         <notiz betreff="fortsetzung">II. Hälfte</notiz>: Wirbelthiere, unter
         besonderer Berücksichtigung der biologischen Verhältnisse (mit
-        Demonstrationen)</thema>: <dozent><grad>D. ph.</grad>
+        Demonstrationen)</thema>: <dozent ref="marshall_w"><grad>D. ph.</grad>
         <nachname>Marshall</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont. bis Donnerst. 6-7 U. Ab.</zeit>,
         <modus>privatim</modus>.</veranstaltung>

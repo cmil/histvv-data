@@ -1339,9 +1339,10 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
           <siehe>Siehe Philosophische Facultät
           G.</siehe></veranstaltungsverweis>
 
-          <veranstaltungsverweis><thema>Darwin'sche Theorie</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Marshall</nachname></dozent>.
-          <siehe>Siehe Philos. Facult. G.</siehe></veranstaltungsverweis>
+          <veranstaltungsverweis><thema>Darwin'sche Theorie</thema>: <dozent
+          ref="marshall_w"><grad>D. ph.</grad>
+          <nachname>Marshall</nachname></dozent>. <siehe>Siehe Philos. Facult.
+          G.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Gewebelehre der Thiere mit Einschluss
           der Zellenlehre</thema>: <dozent ref="fraisse_ph"><grad>D. med.
@@ -1455,12 +1456,13 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
 
         <veranstaltung xml:id="v-1884w-IV.A-016"><thema>Geschichte der
         Pädagogik <notiz betreff="fortsetzung">II. Theil</notiz></thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Masius</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="masius_h"><grad>D. ph.</grad>
+        <nachname>Masius</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884w-IV.A-017"><thema>Charakteristiken aus
-        der Humanistenzeit</thema>: <dozent><grad>D. ph.</grad>
+        der Humanistenzeit</thema>: <dozent ref="masius_h"><grad>D. ph.</grad>
         <nachname>Masius</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. 8-9 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -1499,7 +1501,7 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
 
         <veranstaltung xml:id="v-1884w-IV.A-020"><thema>Uebungen des
         Königlichen pädagogischen Seminars nebst Vorträgen über
-        Methodik</thema>: <dozent><grad>D. ph.</grad>
+        Methodik</thema>: <dozent ref="masius_h"><grad>D. ph.</grad>
         <nachname>Masius</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. 2-4 U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2045,7 +2047,8 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884w-IV.C-007"><thema>Einleitung in das
-        Studium der Neueren Geschichte</thema>: <dozent><grad>D. ph.</grad>
+        Studium der Neueren Geschichte</thema>: <dozent
+        ref="maurenbrecher_w"><grad>D. ph.</grad>
         <nachname>Maurenbrecher</nachname>, <funktion>P. O.
         design.</funktion></dozent>, <zeit>Mont. u. Donnerst. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2063,10 +2066,11 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884w-IV.C-010"><thema>Geschichte der
-        neuesten Zeit: (1814-1870)</thema>: <dozent><grad>D. ph.</grad>
-        <seite>22</seite><nachname>Maurenbrecher</nachname>, <funktion>P. O.
-        design.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
-        6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        neuesten Zeit: (1814-1870)</thema>: <dozent
+        ref="maurenbrecher_w"><grad>D. ph.</grad> <seite>22</seite><nachname>Maurenbrecher</nachname>,
+        <funktion>P. O. design.</funktion></dozent>, <zeit>Mont., Dienst.,
+        Donnerst. u. Freit. 6-7 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884w-IV.C-011"><thema>Geschichte der
         deutschen Städte</thema>: <dozent><grad>D. ph.</grad>
@@ -2117,7 +2121,8 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
         <trennlinie/>
 
         <veranstaltung xml:id="v-1884w-IV.C-018"><thema>Uebungen des
-        Königlichen historischen Seminars</thema>: <dozent><grad>D. ph.</grad>
+        Königlichen historischen Seminars</thema>: <dozent
+        ref="maurenbrecher_w"><grad>D. ph.</grad>
         <nachname>Maurenbrecher</nachname>, <funktion>P. O.
         design.</funktion></dozent>, <zeit>Dienst. 7½ U. Ab.</zeit>,
         <modus>publice</modus>.</veranstaltung>
@@ -2722,13 +2727,14 @@ im selben "gebühr"-Tag erfasst!-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884w-IV.G-022"><thema>Darwin'sche Theorie
-        (für Studirende aller Facultäten)</thema>: <dozent><grad>D. ph.</grad>
+        (für Studirende aller Facultäten)</thema>: <dozent
+        ref="marshall_w"><grad>D. ph.</grad>
         <nachname>Marshall</nachname></dozent>, <zeit>Mont. u. Donnerst. 7-8
         U. Ab.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884w-IV.G-023"><thema>Specielle Zoologie,
         <notiz betreff="fortsetzung">2. Hälfte</notiz>: Naturgeschichte der
-        Wirbelthiere</thema>: <dozent><grad>D. ph.</grad>
+        Wirbelthiere</thema>: <dozent ref="marshall_w"><grad>D. ph.</grad>
         <nachname>Marshall</nachname></dozent>, <zeit>Mont. bis Freit. 6-7
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 

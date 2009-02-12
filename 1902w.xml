@@ -575,9 +575,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-II-009"><thema>Internationales
-      Privatrecht</thema>: <dozent><grad>D. jur.</grad> <nachname>Mendelssohn
-      Bartholdy</nachname></dozent>, <zeit>Sonnab. 9-10 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Privatrecht</thema>: <dozent ref="mendelssohnbartholdy_a"><grad>D.
+      jur.</grad> <nachname>Mendelssohn Bartholdy</nachname></dozent>,
+      <zeit>Sonnab. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-II-010"><thema>Grundzüge des deutschen
       Privatrechts</thema>: <dozent><grad>D. jur., th. et ph.</grad>
@@ -698,9 +698,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-II-029"><thema>Deutsches
-      Civilprocessrecht</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Mendelssohn Bartholdy</nachname></dozent>, <zeit>Mont. bis
-      Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Civilprocessrecht</thema>: <dozent ref="mendelssohnbartholdy_a"><grad>D.
+      jur.</grad> <nachname>Mendelssohn Bartholdy</nachname></dozent>,
+      <zeit>Mont. bis Sonnab. 12-1 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-II-030"><thema>Konkursprocess und
       summarische Processe (ausserordentliche Processarten)</thema>: <dozent
@@ -1344,7 +1345,7 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1902w-III-070"><thema>Gynaekologische
-      Propaedeutik</thema>: <dozent><grad>D. med.</grad>
+      Propaedeutik</thema>: <dozent ref="menge_c"><grad>D. med.</grad>
       <nachname>Menge</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont. u. Donnerst. 7-8 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1771,9 +1772,9 @@
           <funktion>P. E.</funktion></dozent> (<ort>Carolinenstr.
           31</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1902w-III.002.g-002"><dozent><grad>D.
-          med.</grad> <nachname>Menge</nachname>, <funktion>P.
-          E.</funktion></dozent> und <dozent
+          <veranstaltung xml:id="v-1902w-III.002.g-002"><dozent
+          ref="menge_c"><grad>D. med.</grad> <nachname>Menge</nachname>,
+          <funktion>P. E.</funktion></dozent> und <dozent
           ref="kroenig_b"><nachname>Krönig</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <thema>Gynaekologische Diagnostik</thema>,
           <zeit>Mont., Dienst., Donnerst. u. Freit. ½3 bis ½4 U.</zeit>,
@@ -1834,9 +1835,9 @@
       Facultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Specielle Zoologie <notiz
-      betreff="fortsetzung">I. Hälfte</notiz></thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Marshall</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      betreff="fortsetzung">I. Hälfte</notiz></thema>: <dozent
+      ref="marshall_w"><grad>D. ph.</grad> <nachname>Marshall</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Experimentalphysiologie der Pflanzen -
@@ -2157,9 +2158,9 @@
           xml:id="v-1902w-IV.B.a-012">b) <thema>Lateinische Schreib- <seite>23</seite>und
           Sprechübungen</thema>, <zeit>Donnerst. 5-7 U.</zeit>,
           <modus>publice</modus>.</veranstaltung> - <veranstaltung
-          xml:id="v-1902w-IV.B.a-013"><dozent><grad>D. ph.</grad>
-          <nachname>Martini</nachname></dozent>, c) <thema>Griechische
-          Stilübungen</thema>: <zeit>Sonnab. 5-7 U.</zeit>,
+          xml:id="v-1902w-IV.B.a-013"><dozent ref="martini_e"><grad>D.
+          ph.</grad> <nachname>Martini</nachname></dozent>, c)
+          <thema>Griechische Stilübungen</thema>: <zeit>Sonnab. 5-7 U.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1902w-IV.B.a-014"><thema>Uebungen der
@@ -2187,7 +2188,8 @@
 
           <veranstaltung xml:id="v-1902w-IV.B.a-017"><thema>Lektüre und
           Interpretation von Theokrits Gedichten (mit einer Einleitung in die
-          bukolische Poesie der Hellenen)</thema>: <dozent><grad>D. ph.</grad>
+          bukolische Poesie der Hellenen)</thema>: <dozent
+          ref="martini_e"><grad>D. ph.</grad>
           <nachname>Martini</nachname></dozent>, <zeit>Freit. 6-8 U.</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3940,16 +3942,16 @@ nicht wie den Ausdruck auszeichnen soll!
 
         <veranstaltung xml:id="v-1902w-IV.G-027"><thema>Specielle Zoologie,
         <notiz betreff="fortsetzung">I. Hälfte</notiz>: Wirbellose Thiere (mit
-        Demonstrationen)</thema>: <dozent><grad>D. ph.</grad>
+        Demonstrationen)</thema>: <dozent ref="marshall_w"><grad>D. ph.</grad>
         <nachname>Marshall</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont. bis Donnerst. 6-7 U. Ab.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1902w-IV.G-028"><thema>Specielle
         Naturgeschichte der Vögel (mit besonderer Berücksichtigung der
-        einheimischen Formen)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Marshall</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont. u. Mittw. 7-8 U. Ab.</zeit>,
+        einheimischen Formen)</thema>: <dozent ref="marshall_w"><grad>D.
+        ph.</grad> <nachname>Marshall</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont. u. Mittw. 7-8 U. Ab.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1902w-IV.G-029"><thema>Vergleichende

@@ -764,9 +764,9 @@
 
         <veranstaltung xml:id="v-1857s-I.VI.1-004"><thema>Akustik der Luft-
         und Zungentöne, mit Hinsicht auf Physiologie des Stimmorgans</thema>:
-        <dozent><grad>D.</grad> <nachname>Merkel</nachname></dozent>, <zeit>2
-        T. in zu best. St.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <dozent ref="merkel_cl"><grad>D.</grad>
+        <nachname>Merkel</nachname></dozent>, <zeit>2 T. in zu best.
+        St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <trennlinie/>
 
@@ -867,7 +867,7 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1857s-I.VI.2-002"><thema>Allgemeine und
-        specielle Botanik</thema>: <dozent><grad>D.</grad>
+        specielle Botanik</thema>: <dozent ref="mettenius_g"><grad>D.</grad>
         <nachname>Mettenius</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>7 U. früh 6 T.</zeit></veranstaltung>
 
@@ -889,10 +889,10 @@
           <titel>Botanische und zoologische Uebungen.</titel>
 
           <veranstaltung xml:id="v-1857s-I.VI.2.001-001"><thema>Praktische
-          Uebungen in botanischen Untersuchungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Mettenius</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Dienst. u. Freit. 5 U.</zeit>,
-          <thema>in Verbindung mit botanischen Excursionen</thema>
+          Uebungen in botanischen Untersuchungen</thema>: <dozent
+          ref="mettenius_g"><grad>D.</grad> <nachname>Mettenius</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Freit. 5
+          U.</zeit>, <thema>in Verbindung mit botanischen Excursionen</thema>
           <zeit>Sonnabends Nachm.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1283,7 +1283,7 @@
         <titel>I. Propädeutik und Quellenkunde.</titel>
 
         <veranstaltung xml:id="v-1857s-II.B.I-001"><thema>Methodologie der
-        Rechtswissenschaft</thema>: <dozent><grad>D.</grad>
+        Rechtswissenschaft</thema>: <dozent ref="marezoll_t"><grad>D.</grad>
         <nachname>Marezoll</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>8 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1517,8 +1517,9 @@
 
         <veranstaltung xml:id="v-1857s-II.B.III-001"><thema>Das gemeine
         deutsche und Sächsische Criminalrecht (nach s. Lehrbuche)</thema>:
-        <dozent><grad>D.</grad> <nachname>Marezoll</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>7 U. 6 T.</zeit></veranstaltung>
+        <dozent ref="marezoll_t"><grad>D.</grad>
+        <nachname>Marezoll</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>7 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1857s-II.B.III-002"><thema>Das deutsche und
         das K. Sächsische Criminalrecht</thema>: <dozent><grad>D.</grad>
@@ -1759,11 +1760,12 @@
         <veranstaltung xml:id="v-1857s-II.C.III-003"><thema>Anthropophonik
         oder Physiologie des menschlichen Stimm- und Sprachorgans (nach seinem
         bei A. Abel unlängst vollständig erschienenen Lehrbuche)</thema>:
-        <dozent><grad>D.</grad> <nachname>Merkel</nachname></dozent>, <zeit>4
-        T. in zu best. St.</zeit></veranstaltung>
+        <dozent ref="merkel_cl"><grad>D.</grad>
+        <nachname>Merkel</nachname></dozent>, <zeit>4 T. in zu best.
+        St.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Akustik der Luft- und
-        Zungentöne</thema>: <ders>Derselbe</ders>, <siehe>s.
+        Zungentöne</thema>: <ders ref="merkel_cl">Derselbe</ders>, <siehe>s.
         Physik</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Physiologische Chemie</thema> <siehe>s.

@@ -407,9 +407,9 @@
       Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Geschichte der Pädagogik <notiz
-      betreff="fortsetzung">II. Theil</notiz></thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Masius</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      betreff="fortsetzung">II. Theil</notiz></thema>: <dozent
+      ref="masius_h"><grad>D. ph.</grad> <nachname>Masius</nachname>,
+      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       A.</siehe></veranstaltungsverweis>
     </sachgruppe>
 
@@ -677,13 +677,13 @@
       <siehe>Siehe Philosophische Facultät E.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Specielle und praktische
-      Nationalökonomie</thema>: <dozent><grad>D. jur. et ph.</grad>
-      <nachnamenpräfix>von</nachnamenpräfix> <nachname>Miaskowski</nachname>,
-      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
-      E.</siehe></veranstaltungsverweis>
+      Nationalökonomie</thema>: <dozent ref="miaskowski_a"><grad>D. jur. et
+      ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+      <nachname>Miaskowski</nachname>, <funktion>P. O.</funktion></dozent>
+      <siehe>Siehe Philosophische Facultät E.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Finanzwissenschaft</thema>:
-      <dozent><grad>D. jur. et ph.</grad>
+      <veranstaltungsverweis><thema>Finanzwissenschaft</thema>: <dozent
+      ref="miaskowski_a"><grad>D. jur. et ph.</grad>
       <nachnamenpräfix>von</nachnamenpräfix> <nachname>Miaskowski</nachname>,
       <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       E.</siehe></veranstaltungsverweis>
@@ -1521,8 +1521,8 @@
 
         <seite>17</seite>
 
-        <veranstaltungsverweis><thema>Darwinsche Theorie</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Marshall</nachname>,
+        <veranstaltungsverweis><thema>Darwinsche Theorie</thema>: <dozent
+        ref="marshall_w"><grad>D. med.</grad> <nachname>Marshall</nachname>,
         <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische
         Facultät G.</siehe></veranstaltungsverweis>
 
@@ -1641,9 +1641,10 @@
 
         <veranstaltung xml:id="v-1892w-IV.A-012"><thema>Geschichte der
         Pädagogik <notiz betreff="fortsetzung">II. Theil</notiz></thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Masius</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst., Mittw., Donnerst. u.
-        Freit. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="masius_h"><grad>D. ph.</grad>
+        <nachname>Masius</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst., Mittw., Donnerst. u. Freit. 8-9 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1892w-IV.A-013"><thema>Geschichte der
         philosophischen Pädagogik seit Kant</thema>: <dozent><grad>D.
@@ -1724,7 +1725,7 @@
 
         <veranstaltung xml:id="v-1892w-IV.A-020"><thema>Uebungen des
         Königlichen pädagogischen Seminars nebst Vorträgen über
-        Methodik</thema>: <dozent><grad>D. ph.</grad>
+        Methodik</thema>: <dozent ref="masius_h"><grad>D. ph.</grad>
         <nachname>Masius</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. 2-4 U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2384,9 +2385,10 @@
 
         <veranstaltung xml:id="v-1892w-IV.C-010"><thema>Allgemeine Geschichte
         der Reformationszeit (1378 bis 1648<korrektur>)</korrektur></thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Maurenbrecher</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 6-7
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="maurenbrecher_w"><grad>D. ph.</grad>
+        <nachname>Maurenbrecher</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont. bis Freit. 6-7 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1892w-IV.C-011"><thema>Geschichte
         Deutschlands in der Zeit vom Westfälischen Frieden bis zur
@@ -2491,8 +2493,9 @@
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1892w-IV.C.B-002">b) <thema>Uebungen über
-          Geschichte des Investiturstreites</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Maurenbrecher</nachname>, <funktion>P.
+          Geschichte des Investiturstreites</thema>: <dozent
+          ref="maurenbrecher_w"><grad>D. ph.</grad>
+          <nachname>Maurenbrecher</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Sonnab. 11-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
@@ -2761,16 +2764,17 @@
 
         <veranstaltung xml:id="v-1892w-IV.E-004"><thema>Specielle und
         praktische Nationalökonomie (Nationalökonomie <notiz
-        betreff="fortsetzung">II. Theil</notiz>)</thema>: <dozent><grad>D.
-        jur.et ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+        betreff="fortsetzung">II. Theil</notiz>)</thema>: <dozent
+        ref="miaskowski_a"><grad>D. jur.et ph.</grad>
+        <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Miaskowski</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst., Freit. u. Sonnab. 8-9 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1892w-IV.E-005"><thema>Finanzwissenschaft
         (Nationalökonomie <notiz betreff="fortsetzung">III.
-        Theil</notiz>)</thema>: <dozent><grad>D. jur. et ph.</grad>
-        <nachnamenpräfix>von</nachnamenpräfix>
+        Theil</notiz>)</thema>: <dozent ref="miaskowski_a"><grad>D. jur. et
+        ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Miaskowski</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. u. Donnerst. 8-9 U. u. Sonnab. 11-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2921,8 +2925,9 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1892w-IV.E-021"><thema>Uebungen im
-        Staatswissenschaftlichen Seminar</thema>: <dozent><grad>D. jur. et
-        ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+        Staatswissenschaftlichen Seminar</thema>: <dozent
+        ref="miaskowski_a"><grad>D. jur. et ph.</grad>
+        <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Miaskowski</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Donnerst. 5-7 U. Ab.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3235,7 +3240,7 @@
         Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1892w-IV.G-026"><thema>Darwinsche
-        Theorie</thema>: <dozent><grad>D. ph.</grad>
+        Theorie</thema>: <dozent ref="marshall_w"><grad>D. ph.</grad>
         <nachname>Marshall</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont. u. Donnerst. 7-8 U. Ab.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -3253,7 +3258,7 @@
 
         <veranstaltung xml:id="v-1892w-IV.G-029"><thema>Specielle Zoologie,
         <notiz betreff="fortsetzung">II. Hälfte</notiz>
-        (Wirbelthiere)</thema>: <dozent><grad>D. ph.</grad>
+        (Wirbelthiere)</thema>: <dozent ref="marshall_w"><grad>D. ph.</grad>
         <nachname>Marshall</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont. bis Donnerst. 6-7 U. Ab.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
