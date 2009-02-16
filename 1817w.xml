@@ -485,12 +485,13 @@
         <sachgruppe xml:id="sg-1817w-I.B.II.1">
           <titel>1) Reine.</titel>
 
-          <veranstaltungsgruppe><dozent><funktion>P. O.</funktion>
-          <nachname>Mollweide</nachname></dozent>, <veranstaltung
-          xml:id="v-1817w-I.B.II.1-001"><thema>Arithmetik und Geometrie, nach
-          Lorenz</thema>, <zeit>10 U. 6 T.</zeit></veranstaltung> -
-          <veranstaltung xml:id="v-1817w-I.B.II.1-002"><thema>Die
-          Anfangsgründe der Algebra</thema>, <zeit>2 U. 4 T.</zeit>
+          <veranstaltungsgruppe><dozent ref="mollweide_kb"><funktion>P.
+          O.</funktion> <nachname>Mollweide</nachname></dozent>,
+          <veranstaltung xml:id="v-1817w-I.B.II.1-001"><thema>Arithmetik und
+          Geometrie, nach Lorenz</thema>, <zeit>10 U. 6
+          T.</zeit></veranstaltung> - <veranstaltung
+          xml:id="v-1817w-I.B.II.1-002"><thema>Die Anfangsgründe der
+          Algebra</thema>, <zeit>2 U. 4 T.</zeit>
           <modus>öffentl.</modus></veranstaltung></veranstaltungsgruppe>
         </sachgruppe>
 
@@ -500,16 +501,16 @@
           <sachgruppe xml:id="sg-1817w-I.B.II.2.a">
             <titel>a) Die gesammte Mechanik</titel>
 
-            <veranstaltung
-            xml:id="v-1817w-I.B.II.2.a-001"><ders>derselbe</ders>, <thema>nach
-            Karsten</thema>, <zeit>3 U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1817w-I.B.II.2.a-001"><ders
+            ref="mollweide_kb">derselbe</ders>, <thema>nach Karsten</thema>,
+            <zeit>3 U. 6 T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1817w-I.B.II.2.b">
             <titel>b) Astronomie.</titel>
 
-            <veranstaltung
-            xml:id="v-1817w-I.B.II.2.b-001"><dozent><funktion>P. E.</funktion>
+            <veranstaltung xml:id="v-1817w-I.B.II.2.b-001"><dozent
+            ref="moebius_af"><funktion>P. E.</funktion>
             <nachname>Möbius</nachname></dozent>, <thema>Theorie der
             Kegelschnitte und deren Anwendung bey Berechnung der
             Planetenbahnen</thema>, <zeit>10 U. 2 T.</zeit>
@@ -519,9 +520,9 @@
           <sachgruppe xml:id="sg-1817w-I.B.II.2.c">
             <titel>c) Mathematische Geographie</titel>
 
-            <veranstaltung
-            xml:id="v-1817w-I.B.II.2.c-001"><ders>Derselbe</ders>, <zeit>4 U.
-            4 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1817w-I.B.II.2.c-001"><ders
+            ref="moebius_af">Derselbe</ders>, <zeit>4 U. 4
+            T.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
       </sachgruppe>
@@ -1179,10 +1180,10 @@
                   T.</zeit> <modus>öff.</modus></veranstaltung>
 
                   <veranstaltung
-                  xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-003"><dozent>OHGR.
-                  <funktion>P. E.</funktion> <grad>D.</grad>
-                  <nachname>Müller</nachname></dozent>, <zeit>9 U. 6
-                  T.</zeit>; <thema>sämmtlich nach
+                  xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-003"><dozent
+                  ref="mueller_jg">OHGR. <funktion>P. E.</funktion>
+                  <grad>D.</grad> <nachname>Müller</nachname></dozent>,
+                  <zeit>9 U. 6 T.</zeit>; <thema>sämmtlich nach
                   Heineccius</thema>.</veranstaltung>
 
                   <veranstaltung
@@ -1328,8 +1329,8 @@
             <zeit>11 U. 5 T. (mit Ausschluss des
             Montags.)</zeit></veranstaltung>
 
-            <veranstaltung xml:id="v-1817w-II.B.I.001.3-002"><dozent>OHGR.
-            <funktion>P. O.</funktion> <grad>D.</grad>
+            <veranstaltung xml:id="v-1817w-II.B.I.001.3-002"><dozent
+            ref="mueller_jg">OHGR. <funktion>P. O.</funktion> <grad>D.</grad>
             <nachname>Müller</nachname></dozent>, <thema>nach Böhmer</thema>,
             <zeit>10 U. 6 T.</zeit> <modus>öffentl.</modus></veranstaltung>
           </sachgruppe>
@@ -1337,9 +1338,9 @@
           <sachgruppe xml:id="sg-1817w-II.B.I.001.4">
             <titel>4) Kirchenrecht</titel>
 
-            <veranstaltung xml:id="v-1817w-II.B.I.001.4-001">trägt <ders>der
-            Letztere</ders> <thema>nach Böhmer</thema> <zeit>8 U. 6 T.</zeit>
-            vor.</veranstaltung>
+            <veranstaltung xml:id="v-1817w-II.B.I.001.4-001">trägt <ders
+            ref="mueller_jg">der Letztere</ders> <thema>nach Böhmer</thema>
+            <zeit>8 U. 6 T.</zeit> vor.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1817w-II.B.I.001.5">
@@ -1576,10 +1577,10 @@
                   <titel>α) über die Institutionen.</titel>
 
                   <veranstaltung
-                  xml:id="v-1817w-II.B.II.2.x_2.b.aa.alpha-001"><dozent>OHGR.
-                  <funktion>P. E.</funktion> <grad>D.</grad>
-                  <nachname>Müller</nachname></dozent>, <zeit>in zu best. St.
-                  4 T.</zeit></veranstaltung>
+                  xml:id="v-1817w-II.B.II.2.x_2.b.aa.alpha-001"><dozent
+                  ref="mueller_jg">OHGR. <funktion>P. E.</funktion>
+                  <grad>D.</grad> <nachname>Müller</nachname></dozent>,
+                  <zeit>in zu best. St. 4 T.</zeit></veranstaltung>
 
                   <veranstaltung
                   xml:id="v-1817w-II.B.II.2.x_2.b.aa.alpha-002"><dozent
@@ -1610,10 +1611,10 @@
                   <titel>β) über die Pandekten.</titel>
 
                   <veranstaltung
-                  xml:id="v-1817w-II.B.II.2.x_2.b.aa.beta-001"><dozent>OHGR.
-                  <funktion>P. E.</funktion> <grad>D.</grad>
-                  <nachname>Müller</nachname></dozent>, <zeit>in zu best. St.
-                  6 T.</zeit></veranstaltung>
+                  xml:id="v-1817w-II.B.II.2.x_2.b.aa.beta-001"><dozent
+                  ref="mueller_jg">OHGR. <funktion>P. E.</funktion>
+                  <grad>D.</grad> <nachname>Müller</nachname></dozent>,
+                  <zeit>in zu best. St. 6 T.</zeit></veranstaltung>
 
                   <veranstaltung
                   xml:id="v-1817w-II.B.II.2.x_2.b.aa.beta-002"><dozent

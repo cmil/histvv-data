@@ -391,8 +391,8 @@
 
         <veranstaltung xml:id="v-1855s-I.II.3-001"><thema>Altnordische
         Leseübungen (<notiz betreff="fortsetzung">Forts.</notiz>)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Möbius</nachname></dozent>,
-        <zeit>in 2 zu best. St.</zeit>
+        <dozent ref="moebius_af"><grad>D. ph.</grad>
+        <nachname>Möbius</nachname></dozent>, <zeit>in 2 zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1855s-I.II.3-002"><thema>Erklärung der
@@ -597,9 +597,9 @@ geschweifter Klammer auf beide Veranstaltungsverweise!-->
       Mittw., Donn. u. Freit.)</zeit></veranstaltung>
 
       <veranstaltung
-      xml:id="v-1855s-I.V-002"><thema>Differentialrechnung</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Möbius</nachname>, P. O.</dozent>,
-      <zeit>8 U. 4 T.</zeit></veranstaltung>
+      xml:id="v-1855s-I.V-002"><thema>Differentialrechnung</thema>: <dozent
+      ref="moebius_af"><grad>D. ph.</grad> <nachname>Möbius</nachname>, P.
+      O.</dozent>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1855s-I.V-003"><thema>Integralrechnung (<notiz
       betreff="fortsetzung">Beschluß</notiz>)</thema>: <dozent
@@ -618,7 +618,7 @@ geschweifter Klammer auf beide Veranstaltungsverweise!-->
       Donn.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1855s-I.V-006"><thema>Analytische
-      Sphärik</thema>: <dozent><funktion>D. ph.</funktion>
+      Sphärik</thema>: <dozent ref="moebius_af"><funktion>D. ph.</funktion>
       <nachname>Möbius</nachname>, <grad>P. O.</grad></dozent>, <zeit>4 U. 2
       T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1369,9 +1369,9 @@ sondern müsste diese eigentlich ergänzen!-->
 
           <veranstaltung xml:id="v-1855s-II.B.II.1-001"><thema>Institutionen
           (mit Zugrundlegung s. Lehrbuchs d. Instit. Leipz., B. Tauchnitz
-          1854) und Geschichte des römischen Rechts</thema>:
-          <dozent><grad>D.</grad> <nachname>Müller</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>11 U. 6 T. und 10 U. 4
+          1854) und Geschichte des römischen Rechts</thema>: <dozent
+          ref="mueller_o"><grad>D.</grad> <nachname>Müller</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>11 U. 6 T. und 10 U. 4
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1855s-II.B.II.1-002"><thema>Institutionen
@@ -1421,9 +1421,10 @@ sondern müsste diese eigentlich ergänzen!-->
           <modus>öffentl.</modus></veranstaltung>
 
           <veranstaltung xml:id="v-1855s-II.B.II.1-008"><thema>Römischer
-          Civilproceß u. Klagsystem der Römer</thema>: <dozent><grad>D.</grad>
-          <nachname>Müller</nachname>, <funktion>P. E.</funktion></dozent>,
-          <siehe>s. Proceßrecht</siehe>.</veranstaltung>
+          Civilproceß u. Klagsystem der Römer</thema>: <dozent
+          ref="mueller_o"><grad>D.</grad> <nachname>Müller</nachname>,
+          <funktion>P. E.</funktion></dozent>, <siehe>s.
+          Proceßrecht</siehe>.</veranstaltung>
 
           <veranstaltung xml:id="v-1855s-II.B.II.1-009"><thema>Vergleichende
           Charakteristik des römischen u. des germanischen Rechts</thema>:
@@ -1452,7 +1453,7 @@ sondern müsste diese eigentlich ergänzen!-->
             <veranstaltung
             xml:id="v-1855s-II.B.II.1.001-003"><thema>Examinatorium über
             römisches Recht, unter vergleichender Hinweisung auf das
-            deutsche</thema>: <dozent><grad>D.</grad>
+            deutsche</thema>: <dozent ref="mueller_o"><grad>D.</grad>
             <nachname>Müller</nachname>, <funktion>P. E.</funktion></dozent>,
             <zeit>4 T. in zu best. St.</zeit></veranstaltung>
 
@@ -1536,9 +1537,10 @@ sondern müsste diese eigentlich ergänzen!-->
 
         <veranstaltung xml:id="v-1855s-II.B.IV-001"><thema>Römischer
         Civilproceß und Klagsystem der Römer, (nach Anleitung seines
-        Institutionenlehrbuchs)</thema>: <dozent><grad>D.</grad>
-        <nachname>Müller</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>10 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Institutionenlehrbuchs)</thema>: <dozent
+        ref="mueller_o"><grad>D.</grad> <nachname>Müller</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Römisches Gerichtswesen, (Erklärung der
         Rede Cicero's <antiqua>pro Caecina</antiqua>)</thema>: <dozent
@@ -1785,7 +1787,7 @@ sondern müsste diese eigentlich ergänzen!-->
         <titel>IV. Allgemeine Pathologie und Therapie.</titel>
 
         <veranstaltungsverweis><thema>Allgemeine Heil- und
-        Heilmittellehre</thema>: <dozent><grad>D.</grad>
+        Heilmittellehre</thema>: <dozent ref="radius_j"><grad>D.</grad>
         <nachname>Radius</nachname>, <funktion>P. O.</funktion></dozent>,
         <siehe>s. Arzneimittellehre</siehe>.</veranstaltungsverweis>
 
@@ -1805,7 +1807,7 @@ sondern müsste diese eigentlich ergänzen!-->
         <titel>V. Hygiene.</titel>
 
         <veranstaltung xml:id="v-1855s-II.C.V-001"><thema>Private und
-        öffentliche Hygiene</thema>: <dozent><grad>D.</grad>
+        öffentliche Hygiene</thema>: <dozent ref="radius_j"><grad>D.</grad>
         <nachname>Radius</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. 3 St.</zeit></veranstaltung>
 
@@ -1816,7 +1818,7 @@ sondern müsste diese eigentlich ergänzen!-->
         <titel>VI. Arzneimittellehre, Receptirkunst und Pharmacie.</titel>
 
         <veranstaltung xml:id="v-1855s-II.C.VI-001"><thema>Allgemeine Heil-
-        und Heilmittellehre</thema>: <dozent><grad>D.</grad>
+        und Heilmittellehre</thema>: <dozent ref="radius_j"><grad>D.</grad>
         <nachname>Radius</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1886,7 +1888,7 @@ sondern müsste diese eigentlich ergänzen!-->
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1855s-II.C.VII-003"><thema>Ueber
-        Kinderkrankheiten</thema>: <dozent><grad>D.</grad>
+        Kinderkrankheiten</thema>: <dozent ref="meissner_fl"><grad>D.</grad>
         <nachname>Meißner</nachname></dozent>, <zeit>2 U. 2
         T.</zeit></veranstaltung>
 
@@ -1912,7 +1914,7 @@ sondern müsste diese eigentlich ergänzen!-->
         <titel>VIII. Psychische Heilwissenschaft.</titel>
 
         <veranstaltung xml:id="v-1855s-II.C.VIII-001"><thema>Anfangsgründe der
-        Seelenheilkunde</thema>: <dozent><grad>D.</grad>
+        Seelenheilkunde</thema>: <dozent ref="radius_j"><grad>D.</grad>
         <nachname>Radius</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>7 U. 2 T.</zeit></veranstaltung>
       </sachgruppe>

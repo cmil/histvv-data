@@ -379,21 +379,22 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
     <sachgruppe xml:id="sg-1821s-I.3">
       <titel>3) Mathematik.</titel>
 
-      <veranstaltungsgruppe><dozent><nachname>Mollweide</nachname>,
-      <vorname>K. B.</vorname>, <funktion>P. O.</funktion></dozent>,
-      <veranstaltung xml:id="v-1821s-I.3-001"><thema>Anfangsgründe der
-      Algebra</thema>, <zeit>3 U. 4 T.</zeit>
-      <modus>öffentlich</modus></veranstaltung>; ingl. <veranstaltung
-      xml:id="v-1821s-I.3-002"><thema>Arithmetik und Geometrie</thema>,
-      <zeit>10 U. 6 T.</zeit></veranstaltung></veranstaltungsgruppe>
+      <veranstaltungsgruppe><dozent
+      ref="mollweide_kb"><nachname>Mollweide</nachname>, <vorname>K.
+      B.</vorname>, <funktion>P. O.</funktion></dozent>, <veranstaltung
+      xml:id="v-1821s-I.3-001"><thema>Anfangsgründe der Algebra</thema>,
+      <zeit>3 U. 4 T.</zeit> <modus>öffentlich</modus></veranstaltung>; ingl.
+      <veranstaltung xml:id="v-1821s-I.3-002"><thema>Arithmetik und
+      Geometrie</thema>, <zeit>10 U. 6
+      T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-      <veranstaltungsgruppe><dozent><nachname>Möbius</nachname>, <vorname>A.
-      F.</vorname>, <funktion>P. E. u. Observ.</funktion></dozent>,
-      <veranstaltung xml:id="v-1821s-I.3-003"><thema>theorische
-      Astronomie</thema>, <zeit>4 U. 2 T.</zeit>
-      <modus>öffentlich</modus></veranstaltung>; ingl. <veranstaltung
-      xml:id="v-1821s-I.3-004"><thema>sphärische Trigonometrie, nebst
-      Anwendung derselben auf prakt. Astronomie</thema>, <zeit>5 U. 2
+      <veranstaltungsgruppe><dozent
+      ref="moebius_af"><nachname>Möbius</nachname>, <vorname>A. F.</vorname>,
+      <funktion>P. E. u. Observ.</funktion></dozent>, <veranstaltung
+      xml:id="v-1821s-I.3-003"><thema>theorische Astronomie</thema>, <zeit>4
+      U. 2 T.</zeit> <modus>öffentlich</modus></veranstaltung>; ingl.
+      <veranstaltung xml:id="v-1821s-I.3-004"><thema>sphärische Trigonometrie,
+      nebst Anwendung derselben auf prakt. Astronomie</thema>, <zeit>5 U. 2
       T.</zeit></veranstaltung></veranstaltungsgruppe>
     </sachgruppe>
 
@@ -1287,12 +1288,11 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
       <vorname>C.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>2 U. 4
       T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1821s-III.3-002"><dozent><nachname>Müller</nachname>,
-      <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P. O.
-      des.</funktion> u. d. Z. <funktion>Rect. Univ.</funktion></dozent>
-      <thema kontext="sachgruppe">n. <autor>Böhmer</autor></thema>, <zeit>7 U.
-      6 T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1821s-III.3-002"><dozent
+      ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+      <vorname>J. G.</vorname>, <funktion>P. O. des.</funktion> u. d. Z.
+      <funktion>Rect. Univ.</funktion></dozent> <thema kontext="sachgruppe">n.
+      <autor>Böhmer</autor></thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1821s-III.3-003"><dozent
       ref="wenck_kfc"><nachname>Wenck</nachname>, <grad>D.</grad> <vorname>C.
@@ -1329,12 +1329,12 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
       kontext="sachgruppe">n. <autor>Böhmer</autor></thema>, <zeit>9 U. 4
       T.</zeit></veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1821s-III.4-002"><dozent><nachname>Müller</nachname>,
-      <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P. O.
-      des.</funktion> u. d. Z. <funktion>Rect. Univ.</funktion></dozent>,
-      <thema kontext="sachgruppe">n. <autor>Böhmer</autor></thema>, <zeit>8 U.
-      6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+      <veranstaltung xml:id="v-1821s-III.4-002"><dozent
+      ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+      <vorname>J. G.</vorname>, <funktion>P. O. des.</funktion> u. d. Z.
+      <funktion>Rect. Univ.</funktion></dozent>, <thema
+      kontext="sachgruppe">n. <autor>Böhmer</autor></thema>, <zeit>8 U. 6
+      T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
     </sachgruppe>
 
     <sachgruppe xml:id="sg-1821s-III.5">
@@ -1507,11 +1507,11 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
       <sachgruppe xml:id="sg-1821s-III.8.004">
         <titel>Ueber die Pandekten.</titel>
 
-        <veranstaltung
-        xml:id="v-1821s-III.8.004-001"><dozent><nachname>Müller</nachname>,
-        <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P. O.
-        des.</funktion> u. d. Z. <funktion>Rect. Univ.</funktion></dozent>,
-        <zeit>6 T. in z. best St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1821s-III.8.004-001"><dozent
+        ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+        <vorname>J. G.</vorname>, <funktion>P. O. des.</funktion> u. d. Z.
+        <funktion>Rect. Univ.</funktion></dozent>, <zeit>6 T. in z. best
+        St.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1821s-III.8.004-002"><dozent
         ref="rueffer_c"><nachname>Rüffer</nachname>, <grad>D.</grad>
@@ -1664,12 +1664,11 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
       kontext="sachgruppe">nach <autor>Burdach</autor></thema>, <zeit>3 U. 4
       T.</zeit></veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1821s-IV.4-003"><dozent><nachname>Radius</nachname>,
-      <grad>M.</grad> <vorname>J.</vorname>, <funktion>Med.
-      Bacc.</funktion></dozent>, <thema>über ausgewählte Abschnitte der
-      Semiotik</thema> <zeit>2 T. in bel. St.</zeit>
-      <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+      <veranstaltung xml:id="v-1821s-IV.4-003"><dozent
+      ref="radius_j"><nachname>Radius</nachname>, <grad>M.</grad>
+      <vorname>J.</vorname>, <funktion>Med. Bacc.</funktion></dozent>,
+      <thema>über ausgewählte Abschnitte der Semiotik</thema> <zeit>2 T. in
+      bel. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
     </sachgruppe>
 
     <sachgruppe xml:id="sg-1821s-IV.5">
@@ -1759,10 +1758,10 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
         F.</vorname></dozent>, <thema>über Kinderkrankheiten</thema>, <zeit>3
         U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1821s-IV.5.002-009"><dozent><nachname>Meißner</nachname>,
-        <grad>D.</grad> <vorname>F. L.</vorname></dozent>, <thema>über einige
-        Krankheiten der Gebärmutter</thema>, <zeit>11 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1821s-IV.5.002-009"><dozent
+        ref="meissner_fl"><nachname>Meißner</nachname>, <grad>D.</grad>
+        <vorname>F. L.</vorname></dozent>, <thema>über einige Krankheiten der
+        Gebärmutter</thema>, <zeit>11 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
@@ -1875,10 +1874,10 @@ http://brawe.uni-leipzig.de/docuverse/uni_leipzig_sommerhalbjahr_1821.html  -->
       F.</vorname></dozent>, <thema>geburtshülfl. Uebungen am Phantom</thema>,
       <zeit>2 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1821s-IV.10-005"><dozent><nachname>Meißner</nachname>,
-      <grad>D.</grad> <vorname>F. L.</vorname></dozent>, <thema>vergleichende
-      Darstellung der verschiedenen Ansichten über die Gegenstände der
+      <veranstaltung xml:id="v-1821s-IV.10-005"><dozent
+      ref="meissner_fl"><nachname>Meißner</nachname>, <grad>D.</grad>
+      <vorname>F. L.</vorname></dozent>, <thema>vergleichende Darstellung der
+      verschiedenen Ansichten über die Gegenstände der
       Entbindungskunst</thema>, <zeit>4 T. in zu best. St.</zeit>
       <gebühr>unentgeltl</gebühr>.</veranstaltung>
     </sachgruppe>

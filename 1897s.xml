@@ -692,9 +692,9 @@
       <veranstaltung xml:id="v-1897s-II-032"><thema>Pandekten-Praktikum und
       -Repetitorium mit mündlichen und schriftlichen Uebungen der Teilnehmer
       in der Exegese der römischen Rechtsquellen und der Beurtheilung
-      praktischer Rechtsfälle</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Müller</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont., Mittw. u. Freit. 4-5 U.</zeit>,
+      praktischer Rechtsfälle</thema>: <dozent ref="mueller_o"><grad>D.
+      jur.</grad> <nachname>Müller</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1897s-II-033"><thema>Pandekten-Praktikum mit
@@ -1284,14 +1284,14 @@
       <seite>15</seite>
 
       <veranstaltung xml:id="v-1897s-III-077"><thema>Cursus der Laryngoskopie
-      und Rhinoskopie</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Moldenhauer</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont. u. Donnerst. 5-6 U.</zeit>,
+      und Rhinoskopie</thema>: <dozent ref="moldenhauer_w"><grad>D.
+      med.</grad> <nachname>Moldenhauer</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 5-6 U.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1897s-III-078"><thema>Die Untersuchungsmethoden
       des Gehörorgans mit praktischen Uebungen in Otoskopie und
-      Rhinoskopie</thema>: <dozent><grad>D. med.</grad>
+      Rhinoskopie</thema>: <dozent ref="moldenhauer_w"><grad>D. med.</grad>
       <nachname>Moldenhauer</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Dienst. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -2331,9 +2331,9 @@
           <titel>c) Deutsche Philologie.</titel>
 
           <veranstaltung xml:id="v-1897s-IV.B.c-001"><thema>Encyklopädie der
-          germanischen Philologie</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Mogk</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mittw. u. Sonnab. 8-9 U.</zeit>,
+          germanischen Philologie</thema>: <dozent ref="mogk_e"><grad>D.
+          ph.</grad> <nachname>Mogk</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 8-9 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1897s-IV.B.c-002"><thema>Gotische Grammatik
@@ -2432,10 +2432,10 @@
           Proseminars), Goethes Faust, <notiz betreff="fortsetzung">2.
           Theil</notiz></thema>, <zeit>Freit. 6-8 U.</zeit>,
           <modus>publice</modus></veranstaltung>. - <veranstaltung
-          xml:id="v-1897s-IV.B.c-017">4) <dozent><grad>D. ph.</grad>
-          <nachname>Mogk</nachname>, <funktion>P. E.</funktion></dozent>,
-          <thema>(nordische Abtheilung des Proseminars): Eddalieder</thema>,
-          <zeit>Dienst. 8½-9 U.</zeit>,
+          xml:id="v-1897s-IV.B.c-017">4) <dozent ref="mogk_e"><grad>D.
+          ph.</grad> <nachname>Mogk</nachname>, <funktion>P.
+          E.</funktion></dozent>, <thema>(nordische Abtheilung des
+          Proseminars): Eddalieder</thema>, <zeit>Dienst. 8½-9 U.</zeit>,
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1897s-IV.B.c-018"><thema>Germanistische
@@ -3020,14 +3020,15 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1897s-IV.D-008"><thema>Altgriechische
-        Musik</thema>: <dozent><grad>D. ph.</grad> <nachname>Paul</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>an näher zu best. Tagen u.
-        Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Musik</thema>: <dozent ref="paul_o"><grad>D. ph.</grad>
+        <nachname>Paul</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>an näher zu best. Tagen u. Stunden</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897s-IV.D-009"><thema>Geschichte der
-        Musik</thema>: <dozent><grad>D. ph.</grad> <nachname>Paul</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mont. 4-5 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        Musik</thema>: <dozent ref="paul_o"><grad>D. ph.</grad>
+        <nachname>Paul</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. 4-5 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <seite>31</seite>
 
@@ -3042,13 +3043,13 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897s-IV.D-012"><thema>Contrapunkt mit
-        Uebungsbeispielen und Geschichte des Conrapunktes</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Paul</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>an näher zu best. Tagen und
+        Uebungsbeispielen und Geschichte des Conrapunktes</thema>: <dozent
+        ref="paul_o"><grad>D. ph.</grad> <nachname>Paul</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>an näher zu best. Tagen und
         Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897s-IV.D-013"><thema>Die Lehre von der
-        Harmonik</thema>: <dozent><grad>D. ph.</grad>
+        Harmonik</thema>: <dozent ref="paul_o"><grad>D. ph.</grad>
         <nachname>Paul</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3469,7 +3470,7 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897s-IV.F-007"><thema>Höhere analytische
-        Mechanik</thema>: <dozent><grad>D. ph.</grad>
+        Mechanik</thema>: <dozent ref="mayer_a"><grad>D. ph.</grad>
         <nachname>Mayer</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Dienst. bis Freit. 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -3511,10 +3512,10 @@
         <veranstaltung xml:id="v-1897s-IV.F-011">1) <dozent
         ref="lie_s"><grad>D. ph.</grad> <nachname>Lie</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>vierst.</zeit></veranstaltung>
-        <veranstaltung xml:id="v-1897s-IV.F-012">2) <dozent><grad>D.
-        ph.</grad> <nachname>Mayer</nachname>, <funktion>P.
-        O.</funktion></dozent>, <thema>Uebungen zur höheren analytischen
-        Mechanik</thema>, <zeit>in einer noch zu best.
+        <veranstaltung xml:id="v-1897s-IV.F-012">2) <dozent
+        ref="mayer_a"><grad>D. ph.</grad> <nachname>Mayer</nachname>,
+        <funktion>P. O.</funktion></dozent>, <thema>Uebungen zur höheren
+        analytischen Mechanik</thema>, <zeit>in einer noch zu best.
         Stunde</zeit></veranstaltung>. <veranstaltung
         xml:id="v-1897s-IV.F-013">3) <dozent ref="engel_f"><grad>D. ph.</grad>
         <nachname>Engel</nachname>, <funktion>P. E.</funktion></dozent>,
@@ -3744,8 +3745,8 @@
         Abschnitt F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Höhere analytische Mechanik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Mayer</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe Abschnitt
+        <dozent ref="mayer_a"><grad>D. ph.</grad> <nachname>Mayer</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
         F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Toxikologie <notiz

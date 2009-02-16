@@ -497,30 +497,30 @@
       <sachgruppe xml:id="sg-1821w-I.2.B">
         <titel>B) Mathematik.</titel>
 
-        <veranstaltung
-        xml:id="v-1821w-I.2.B-001"><dozent><nachname>Mollweide</nachname>,
-        <vorname>K. B.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>Algebra, <notiz betreff="fortsetzung">Fortsetz.</notiz></thema>
-        <zeit>3 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1821w-I.2.B-001"><dozent
+        ref="mollweide_kb"><nachname>Mollweide</nachname>, <vorname>K.
+        B.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Algebra,
+        <notiz betreff="fortsetzung">Fortsetz.</notiz></thema> <zeit>3 U. 4
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1821w-I.2.B-002"><ders>Derselbe</ders>,
-        <thema>Anfangsgründe der höhern Analysis</thema>, <zeit>10 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1821w-I.2.B-002"><ders
+        ref="mollweide_kb">Derselbe</ders>, <thema>Anfangsgründe der höhern
+        Analysis</thema>, <zeit>10 U. 4 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1821w-I.2.C">
         <titel>C) Astronomie und Chronologie.</titel>
 
-        <veranstaltung
-        xml:id="v-1821w-I.2.C-001"><dozent><nachname>Möbius</nachname>,
-        <vorname>A. F.</vorname>, <funktion>P. E. u.
-        Observ.</funktion></dozent>, <thema>Anfangsgründe der sphärischen
-        Astronomie und Chronologie</thema>, <zeit>5 U. 2
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1821w-I.2.C-001"><dozent
+        ref="moebius_af"><nachname>Möbius</nachname>, <vorname>A.
+        F.</vorname>, <funktion>P. E. u. Observ.</funktion></dozent>,
+        <thema>Anfangsgründe der sphärischen Astronomie und
+        Chronologie</thema>, <zeit>5 U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung xml:id="v-1821w-I.2.C-002"><ders>Derselbe</ders>,
-        <thema>Berechnung der Finsternisse und Bedeckungen</thema>, <zeit>4 U.
-        2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1821w-I.2.C-002"><ders
+        ref="moebius_af">Derselbe</ders>, <thema>Berechnung der Finsternisse
+        und Bedeckungen</thema>, <zeit>4 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1821w-I.2.D">
@@ -1135,12 +1135,11 @@
       <sachgruppe xml:id="sg-1821w-III.1.003">
         <titel>Institutionen.</titel>
 
-        <veranstaltung
-        xml:id="v-1821w-III.1.003-001"><dozent><nachname>Müller</nachname>,
-        <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-        O.</funktion></dozent>, <thema>nach
-        <gesperrt>Heineccius</gesperrt></thema>, <zeit>8 U. 6 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1821w-III.1.003-001"><dozent
+        ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+        <vorname>J. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <thema>nach <gesperrt>Heineccius</gesperrt></thema>, <zeit>8 U. 6
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <seite>12</seite>
 
@@ -1449,11 +1448,10 @@ dann müsste man die "scil"-Funktion einfügen--></veranstaltung>
           <sachgruppe xml:id="sg-1821w-III.6.xx.b.aa">
             <titel>aa) über die Institutionen.</titel>
 
-            <veranstaltung
-            xml:id="v-1821w-III.6.xx.b.aa-001"><dozent><nachname>Müller</nachname>,
-            <grad>D.</grad> <vorname>F. G.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <zeit>in best. St. 4
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1821w-III.6.xx.b.aa-001"><dozent
+            ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+            <vorname>J. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <zeit>in best. St. 4 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1821w-III.6.xx.b.aa-002"><dozent
             ref="rueffer_c"><nachname>Rüffer</nachname>, <grad>D.</grad>
@@ -1464,11 +1462,10 @@ dann müsste man die "scil"-Funktion einfügen--></veranstaltung>
           <sachgruppe xml:id="sg-1821w-III.6.xx.b.bb">
             <titel>bb) über die Pandekten.</titel>
 
-            <veranstaltung
-            xml:id="v-1821w-III.6.xx.b.bb-001"><dozent><nachname>Müller</nachname>,
-            <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <zeit>in best. St. 6
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1821w-III.6.xx.b.bb-001"><dozent
+            ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+            <vorname>J. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <zeit>in best. St. 6 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1821w-III.6.xx.b.bb-002"><dozent
             ref="rueffer_c"><nachname>Rüffer</nachname>, <grad>D.</grad>
@@ -1644,12 +1641,11 @@ dann müsste man die "scil"-Funktion einfügen--></veranstaltung>
       nach <gesperrt>Burdach</gesperrt></thema>, <zeit>3 U. 4
       T.</zeit></veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1821w-IV.3-004"><dozent><nachname>Radius</nachname>,
-      <grad>M.</grad> <vorname>J.</vorname>, <funktion>Med.
-      Bacc.</funktion></dozent>, <thema>über einige Abschnitte der
-      Semiotik</thema>, <zeit>2 U. 2 T.</zeit>
-      <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+      <veranstaltung xml:id="v-1821w-IV.3-004"><dozent
+      ref="radius_j"><nachname>Radius</nachname>, <grad>M.</grad>
+      <vorname>J.</vorname>, <funktion>Med. Bacc.</funktion></dozent>,
+      <thema>über einige Abschnitte der Semiotik</thema>, <zeit>2 U. 2
+      T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
     </sachgruppe>
 
     <sachgruppe xml:id="sg-1821w-IV.4">
@@ -1710,17 +1706,17 @@ dann müsste man die "scil"-Funktion einfügen--></veranstaltung>
       <gesperrt>Mathias</gesperrt></thema>, <zeit>11 U. 2
       T.</zeit></veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1821w-IV.5-008"><dozent><nachname>Meißner</nachname>,
-      <grad>D.</grad> <vorname>F. L.</vorname></dozent>, <thema>über einige
-      Krankheiten der Gebärmutter</thema>, <zeit>11 U. 2 T.</zeit>
+      <veranstaltung xml:id="v-1821w-IV.5-008"><dozent
+      ref="meissner_fl"><nachname>Meißner</nachname>, <grad>D.</grad>
+      <vorname>F. L.</vorname></dozent>, <thema>über einige Krankheiten der
+      Gebärmutter</thema>, <zeit>11 U. 2 T.</zeit>
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1821w-IV.5-009"><dozent><nachname>Radius</nachname>,
-      <grad>M.</grad> <vorname>J.</vorname>, <funktion>Med.
-      Bacc.</funktion></dozent>, <thema>über Augenentzündungen</thema>,
-      <zeit>11 U. 2 T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1821w-IV.5-009"><dozent
+      ref="radius_j"><nachname>Radius</nachname>, <grad>M.</grad>
+      <vorname>J.</vorname>, <funktion>Med. Bacc.</funktion></dozent>,
+      <thema>über Augenentzündungen</thema>, <zeit>11 U. 2
+      T.</zeit></veranstaltung>
 
       <sachgruppe xml:id="sg-1821w-IV.5.x">
         <titel>*) Examinatorium.</titel>
@@ -1833,12 +1829,11 @@ dann müsste man die "scil"-Funktion einfügen--></veranstaltung>
       <gesperrt>Stein's</gesperrt> Hanb.</thema> <zeit>3 U. 4
       T.</zeit></veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1821w-IV.10-004"><dozent><nachname>Meißner</nachname>,
-      <grad>D.</grad> <vorname>F. L.</vorname></dozent>, <thema>Uebersicht der
-      verschiedenen Meinungen der erfahrensten Lehrer der
-      Entbindungskunst</thema>, <zeit>11 U. 4 T.</zeit>
-      <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+      <veranstaltung xml:id="v-1821w-IV.10-004"><dozent
+      ref="meissner_fl"><nachname>Meißner</nachname>, <grad>D.</grad>
+      <vorname>F. L.</vorname></dozent>, <thema>Uebersicht der verschiedenen
+      Meinungen der erfahrensten Lehrer der Entbindungskunst</thema>, <zeit>11
+      U. 4 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
     </sachgruppe>
 
     <sachgruppe xml:id="sg-1821w-IV.11">

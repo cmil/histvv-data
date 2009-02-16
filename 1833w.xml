@@ -579,11 +579,11 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
         <vorname>G.</vorname></dozent>, <thema>Einleitung in die Philosophie
         und Logik</thema>, <zeit>1 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1833w-I.III.002-002"><dozent><nachname>Billroth</nachname>,
-        <grad>M.</grad> <vorname>J. G. F.</vorname></dozent>,
-        <thema>Einleitung in die Philosophie</thema>, <zeit>2 T. in zu best.
-        St.</zeit><gebühr> unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1833w-I.III.002-002"><dozent
+        ref="billroth_g"><nachname>Billroth</nachname>, <grad>M.</grad>
+        <vorname>J. G. F.</vorname></dozent>, <thema>Einleitung in die
+        Philosophie</thema>, <zeit>2 T. in zu best. St.</zeit><gebühr>
+        unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1833w-I.III.003">
@@ -895,20 +895,20 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
       ref="drobisch_mw">Derselbe</ders>, <thema>analytische Geometrie</thema>,
       <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1833w-I.V-006"><dozent><nachname>Möbius</nachname>,
-      <vorname>A. F.</vorname>, <funktion>P. E. u. Obs.</funktion></dozent>,
-      <thema>über astronomische Fernröhre und die damit bis jetzt am Himmel
-      gemachten Entdeckungen</thema>, <zeit>4 U. 2 T.</zeit>
+      <veranstaltung xml:id="v-1833w-I.V-006"><dozent
+      ref="moebius_af"><nachname>Möbius</nachname>, <vorname>A. F.</vorname>,
+      <funktion>P. E. u. Obs.</funktion></dozent>, <thema>über astronomische
+      Fernröhre und die damit bis jetzt am Himmel gemachten
+      Entdeckungen</thema>, <zeit>4 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung xml:id="v-1833w-I.V-007"><ders>Derselbe</ders>,
-      <thema>praktische Astronomie</thema>, <zeit>5 U. Mont. u.
-      Donnerst.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1833w-I.V-007"><ders
+      ref="moebius_af">Derselbe</ders>, <thema>praktische Astronomie</thema>,
+      <zeit>5 U. Mont. u. Donnerst.</zeit></veranstaltung>
 
-      <veranstaltung xml:id="v-1833w-I.V-008"><ders>Derselbe</ders>,
-      <thema>mathematische Geographie</thema>, <zeit>5 U. 2
-      T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1833w-I.V-008"><ders
+      ref="moebius_af">Derselbe</ders>, <thema>mathematische
+      Geographie</thema>, <zeit>5 U. 2 T.</zeit></veranstaltung>
     </sachgruppe>
 
     <seite>9</seite>
@@ -1186,10 +1186,10 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
             an die Galater und des Br. des Jakobus</thema>, <zeit>2 T. in zu
             best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1833w-II.A.I.1.003-009"><dozent><nachname>Billroth</nachname>,
-            <grad>M.</grad> <vorname>J. G. F.</vorname></dozent>, <thema>über
-            den Br. Pauli an die Römer</thema>, <zeit>4 T. in zu best.
+            <veranstaltung xml:id="v-1833w-II.A.I.1.003-009"><dozent
+            ref="billroth_g"><nachname>Billroth</nachname>, <grad>M.</grad>
+            <vorname>J. G. F.</vorname></dozent>, <thema>über den Br. Pauli an
+            die Römer</thema>, <zeit>4 T. in zu best.
             St.</zeit></veranstaltung>
           </sachgruppe>
 
@@ -2307,11 +2307,10 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
         <sachgruppe xml:id="sg-1833w-II.C.I.4">
           <titel>4) Allgemeine Therapie.</titel>
 
-          <veranstaltung
-          xml:id="v-1833w-II.C.I.4-001"><dozent><nachname>Radius</nachname>,
-          <grad>D.</grad> <vorname>J.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>4 U. 2 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1833w-II.C.I.4-001"><dozent
+          ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+          <vorname>J.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>4
+          U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1833w-II.C.I.4-002"><dozent
           ref="kneschke_eh"><nachname>Kneschke</nachname>, <grad>D.</grad>
@@ -2335,10 +2334,10 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
         <sachgruppe xml:id="sg-1833w-II.C.I.6">
           <titel>6) Diätetik.</titel>
 
-          <veranstaltung
-          xml:id="v-1833w-II.C.I.6-001"><dozent><nachname>Radius</nachname>,
-          <grad>D.</grad> <vorname>J.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>11 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1833w-II.C.I.6-001"><dozent
+          ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+          <vorname>J.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>11
+          U. 2 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1833w-II.C.I.7">
@@ -2460,11 +2459,11 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
             <thema>über die Augenentzündungen</thema>, <zeit>11 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1833w-II.C.II.4.001-002"><dozent><nachname>Radius</nachname>,
-            <grad>D.</grad> <vorname>J.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>über Augenkrankheiten</thema>,
-            <zeit>3 U. 4 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1833w-II.C.II.4.001-002"><dozent
+            ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+            <vorname>J.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>über Augenkrankheiten</thema>, <zeit>3 U. 4
+            T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1833w-II.C.II.4.001-003"><dozent
             ref="ritterich_fp"><nachname>Ritterich</nachname>, <grad>D.</grad>
@@ -2592,11 +2591,11 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
           <thema>chirurgische Poliklinik</thema>, <zeit>11 U. 6 T.</zeit>
           <modus>öffentl.</modus></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1833w-II.C.II.7-007"><dozent><nachname>Müller</nachname>,
-          <grad>D.</grad> <vorname>M. W.</vorname></dozent>, <thema>klinische
-          Uebungen <ort>im homöopathischen klinischen Institute</ort></thema>,
-          <zeit>10 U. 6 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1833w-II.C.II.7-007"><dozent
+          ref="mueller_mw"><nachname>Müller</nachname>, <grad>D.</grad>
+          <vorname>M. W.</vorname></dozent>, <thema>klinische Uebungen <ort>im
+          homöopathischen klinischen Institute</ort></thema>, <zeit>10 U. 6
+          T.</zeit></veranstaltung>
 
           <veranstaltung
           xml:id="v-1833w-II.C.II.7-008"><dozent><nachname>Schreber</nachname>,
@@ -2648,10 +2647,10 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
         <sachgruppe xml:id="sg-1833w-II.C.II.9">
           <titel>9) Homöopathische Arzneiwissenschaft.</titel>
 
-          <veranstaltung
-          xml:id="v-1833w-II.C.II.9-001"><dozent><nachname>Müller</nachname>,
-          <grad>D.</grad> <vorname>M. W.</vorname></dozent>, <zeit>2 T. in zu
-          best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1833w-II.C.II.9-001"><dozent
+          ref="mueller_mw"><nachname>Müller</nachname>, <grad>D.</grad>
+          <vorname>M. W.</vorname></dozent>, <zeit>2 T. in zu best.
+          St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1833w-II.C.II.10">

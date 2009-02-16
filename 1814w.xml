@@ -406,10 +406,11 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
         <sachgruppe xml:id="sg-1814w-I.I.B.a">
           <titel>a) Reine Mathematik.</titel>
 
-          <veranstaltungsgruppe><dozent><nachname>Mollweide</nachname>,
-          <vorname>K. B.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <veranstaltung xml:id="v-1814w-I.I.B.a-001"><thema>Arithmetik und
-          Geometrie nach <autor>Lorenz</autor></thema>, <zeit>10 U. 4
+          <veranstaltungsgruppe><dozent
+          ref="mollweide_kb"><nachname>Mollweide</nachname>, <vorname>K.
+          B.</vorname>, <funktion>P. O.</funktion></dozent>, <veranstaltung
+          xml:id="v-1814w-I.I.B.a-001"><thema>Arithmetik und Geometrie nach
+          <autor>Lorenz</autor></thema>, <zeit>10 U. 4
           T.</zeit></veranstaltung>; ingl. <veranstaltung
           xml:id="v-1814w-I.I.B.a-002"><modus>öffentl.</modus> <thema>die
           Elemente der Algebra</thema>, <zeit>2 U. 4
@@ -426,10 +427,10 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
         <sachgruppe xml:id="sg-1814w-I.I.B.b">
           <titel>b) Angewandte.</titel>
 
-          <veranstaltung
-          xml:id="v-1814w-I.I.B.b-001"><dozent><nachname>Mollweide</nachname>,
-          <vorname>K. B.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>Mechanik nach <autor>Karsten</autor></thema>, <zeit>11 U. 6
+          <veranstaltung xml:id="v-1814w-I.I.B.b-001"><dozent
+          ref="mollweide_kb"><nachname>Mollweide</nachname>, <vorname>K.
+          B.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Mechanik
+          nach <autor>Karsten</autor></thema>, <zeit>11 U. 6
           T.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -1388,7 +1389,8 @@ Letzteres entschieden.-->
                   <modus>öffentl.</modus></veranstaltung>
 
                   <veranstaltung
-                  xml:id="v-1814w-II.B.II.A.1.a.bb_2.alpha-002"><dozent><nachname>Müller</nachname>,
+                  xml:id="v-1814w-II.B.II.A.1.a.bb_2.alpha-002"><dozent
+                  ref="mueller_jg"><nachname>Müller</nachname>,
                   <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
                   E.</funktion></dozent>, <thema kontext="sachgruppe">nach
                   Heineccius</thema>, <zeit>8 U. 6 T.</zeit></veranstaltung>
@@ -1610,12 +1612,11 @@ Gesetzen" als auch auf "2 T." beziehen--></veranstaltung>
               Montags,)</zeit> <thema kontext="sachgruppe">nach
               Böhmer</thema>.</veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1814w-II.B.II.A.2.c-002"><dozent><nachname>Müller</nachname>,
-              <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-              E.</funktion></dozent>, <thema kontext="sachgruppe">nach
-              Böhmer</thema>, <zeit>9 U. 6 T.</zeit>
-              <modus>öffentl.</modus></veranstaltung>
+              <veranstaltung xml:id="v-1814w-II.B.II.A.2.c-002"><dozent
+              ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+              <vorname>J. G.</vorname>, <funktion>P. E.</funktion></dozent>,
+              <thema kontext="sachgruppe">nach Böhmer</thema>, <zeit>9 U. 6
+              T.</zeit> <modus>öffentl.</modus></veranstaltung>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1814w-II.B.II.A.2.d">
@@ -1853,7 +1854,8 @@ auf beide bezogen-->
                   <titel>aa) über die Institutionen.</titel>
 
                   <veranstaltung
-                  xml:id="v-1814w-II.B.II.B.xx.1.b.aa-001"><dozent><nachname>Müller</nachname>,
+                  xml:id="v-1814w-II.B.II.B.xx.1.b.aa-001"><dozent
+                  ref="mueller_jg"><nachname>Müller</nachname>,
                   <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
                   E.</funktion></dozent>, <zeit>4 T. in zu bestimm.
                   St.</zeit></veranstaltung>
@@ -1880,7 +1882,8 @@ auf beide bezogen-->
                   <titel>bb) über die Pandekten.</titel>
 
                   <veranstaltung
-                  xml:id="v-1814w-II.B.II.B.xx.1.b.bb-001"><dozent><nachname>Müller</nachname>,
+                  xml:id="v-1814w-II.B.II.B.xx.1.b.bb-001"><dozent
+                  ref="mueller_jg"><nachname>Müller</nachname>,
                   <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
                   E.</funktion></dozent>, <zeit>4 T. in zu best.
                   St.</zeit></veranstaltung>
@@ -2265,10 +2268,10 @@ auf beide bezogen-->
           Gegenstände</thema>, <zeit>zu bel.
           Z.</zeit></veranstaltung></veranstaltungsgruppe>
 
-          <veranstaltung
-          xml:id="v-1814w-II.C.II.2-004"><dozent><nachname>Müller</nachname>,
-          <grad>D.</grad> <vorname>M. W.</vorname></dozent>, <thema>über
-          ausgewählte Capitel <scil text="der Klinik">derselben</scil><!-- worauf bezieht sich derselben?--></thema>,
+          <veranstaltung xml:id="v-1814w-II.C.II.2-004"><dozent
+          ref="mueller_mw"><nachname>Müller</nachname>, <grad>D.</grad>
+          <vorname>M. W.</vorname></dozent>, <thema>über ausgewählte Capitel
+          <scil text="der Klinik">derselben</scil><!-- worauf bezieht sich derselben?--></thema>,
           <zeit>11 U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung
@@ -2379,9 +2382,9 @@ auf beide bezogen-->
             <vorname>W. A.</vorname>, <funktion>P. E.</funktion></dozent>,
             <zeit>3 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1814w-II.C.II.4.a-003"><dozent><nachname>Müller</nachname>,
-            <grad>D.</grad> <vorname>M. W.</vorname></dozent>, <zeit>11 U. 4
+            <veranstaltung xml:id="v-1814w-II.C.II.4.a-003"><dozent
+            ref="mueller_mw"><nachname>Müller</nachname>, <grad>D.</grad>
+            <vorname>M. W.</vorname></dozent>, <zeit>11 U. 4
             T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1814w-II.C.II.4.a-004"><dozent

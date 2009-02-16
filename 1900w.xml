@@ -559,9 +559,9 @@
 
       <veranstaltung xml:id="v-1900w-II-006"><thema>Grundlehren der Pandekten
       als romanistische Einführung in das bürgerliche Gesetzbuch</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Mitteis</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>tägl. 11-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="mitteis_l"><grad>D. jur.</grad>
+      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-II-007"><thema>Ausgewählte Lehren aus der
       römischen Rechtsgeschichte</thema>: <dozent ref="kretschmar_pg"><grad>D.
@@ -611,9 +611,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-II-015"><thema>Deutsches bürgerliches
-      Recht (Sachenrecht)</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Donnerst. 12-1 U.</zeit>,
+      Recht (Sachenrecht)</thema>: <dozent ref="mitteis_l"><grad>D.
+      jur.</grad> <nachname>Mitteis</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-II-016"><thema>Deutsches bürgerliches
@@ -803,9 +803,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-II-047"><thema>Mündliche und schriftliche
-      Uebungen im deutschen bürgerlichen Recht für Anfänger</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Mitteis</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mittw. 6-8 U.</zeit>,
+      Uebungen im deutschen bürgerlichen Recht für Anfänger</thema>: <dozent
+      ref="mitteis_l"><grad>D. jur.</grad> <nachname>Mitteis</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 6-8 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-II-048"><thema>Besprechung der
@@ -2008,9 +2008,10 @@ weil er für diese Veranstaltung kein Dozent ist.
         <veranstaltungsgruppe><thema>Psychologisches Laboratorium</thema>:
         <veranstaltung xml:id="v-1900w-IV.A-016"><thema>a) Einführungscursus
         zur experimentellen Psychologie (nur für Mitglieder des
-        Instituts)</thema>: <dozent><funktion>Assistent</funktion> <grad>D.
-        ph.</grad> <nachname>Müller</nachname></dozent>, <thema>(im Auftrag
-        des Directors)</thema>, <zeit>Sonnab. 11-1 U.</zeit></veranstaltung>,
+        Instituts)</thema>: <dozent
+        ref="mueller_r"><funktion>Assistent</funktion> <grad>D. ph.</grad>
+        <nachname>Müller</nachname></dozent>, <thema>(im Auftrag des
+        Directors)</thema>, <zeit>Sonnab. 11-1 U.</zeit></veranstaltung>,
         <veranstaltung xml:id="v-1900w-IV.A-017"><thema>b) Specielle Arbeiten
         und Uebungen der Theilnehmer</thema>: <dozent ref="wundt_w"><grad>D.
         ph., jur. &amp; med.</grad> <nachname>Wundt</nachname>, <funktion>P.
@@ -2114,7 +2115,7 @@ weil er für diese Veranstaltung kein Dozent ist.
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-IV.B.a-004"><thema>Metrik der
-          Griechen und Römer</thema>: <dozent><grad>D. ph.</grad>
+          Griechen und Römer</thema>: <dozent ref="marx_f"><grad>D. ph.</grad>
           <nachname>Marx</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont., Dienst., Donnerst. u. Freit. 10-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2187,9 +2188,9 @@ weil er für diese Veranstaltung kein Dozent ist.
           <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 11-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung> - <veranstaltung
           xml:id="v-1900w-IV.B.a-011"><thema>2) Euripides Cyclops und
-          Besprechung der schriftlichen Arbeiten</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Marx</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Sonnab. 11-1 U.</zeit>,
+          Besprechung der schriftlichen Arbeiten</thema>: <dozent
+          ref="marx_f"><grad>D. ph.</grad> <nachname>Marx</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. 11-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Philologisches Proseminar</thema>:
@@ -2605,11 +2606,11 @@ weil er für diese Veranstaltung kein Dozent ist.
           (neuhochdeutsche Abtheilung): Schillers "Wallenstein"</thema>,
           <zeit>Dienst. 5 bis 7 U.</zeit>,
           <modus>publice</modus>.</veranstaltung> - <veranstaltung
-          xml:id="v-1900w-IV.B.c-017"><thema>5)</thema> <dozent><grad>D.
-          ph.</grad> <nachname>Mogk</nachname>, <funktion>P.
-          E.</funktion></dozent>, <thema>des Proseminars (nordische
-          Abtheilung): Lektüre der Þiðrekssaga</thema>, <zeit>Mittw. 4-5
-          U.</zeit>,
+          xml:id="v-1900w-IV.B.c-017"><thema>5)</thema> <dozent
+          ref="mogk_e"><grad>D. ph.</grad> <nachname>Mogk</nachname>,
+          <funktion>P. E.</funktion></dozent>, <thema>des Proseminars
+          (nordische Abtheilung): Lektüre der Þiðrekssaga</thema>,
+          <zeit>Mittw. 4-5 U.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1900w-IV.B.c-018"><thema>Althochdeutsche
@@ -3820,10 +3821,11 @@ weil er für diese Veranstaltung kein Dozent ist.
         <veranstaltung xml:id="v-1900w-IV.F-014"><thema>1)</thema>
         <dozent><grad>D. ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>Sonnab. 10-11 U.</zeit></veranstaltung>
-        <veranstaltung xml:id="v-1900w-IV.F-015"><thema>2)</thema>
-        <dozent><grad>D. ph.</grad> <nachname>Mayer</nachname>, <funktion>P.
-        O.</funktion></dozent> Wird ev. später ankündigen.</veranstaltung>
-        <veranstaltung xml:id="v-1900w-IV.F-016"><thema>3)</thema> <dozent
+        <veranstaltung xml:id="v-1900w-IV.F-015"><thema>2)</thema> <dozent
+        ref="mayer_a"><grad>D. ph.</grad> <nachname>Mayer</nachname>,
+        <funktion>P. O.</funktion></dozent> Wird ev. später
+        ankündigen.</veranstaltung> <veranstaltung
+        xml:id="v-1900w-IV.F-016"><thema>3)</thema> <dozent
         ref="hoelder_o"><grad>D. ph.</grad> <vorname>O.</vorname>
         <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>,
         <thema>Uebungen in Differential- und Integralrechnung</thema>,

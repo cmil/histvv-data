@@ -604,9 +604,9 @@
 
       <veranstaltung xml:id="v-1904w-II-005"><thema>Grundlehren der Pandekten
       als romanistische Einführung in das heutige bürgerliche Recht</thema>:
-      <dozent><grad>D. jur. et ph.</grad> <nachname>Mitteis</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>tägl. 11-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="mitteis_l"><grad>D. jur. et ph.</grad>
+      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-II-006"><thema>Deutsche
       Rechtsgeschichte</thema>: <dozent ref="friedberg_ea"><grad>D.
@@ -645,9 +645,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-II-012"><thema>Deutsches bürgerliches
-      Recht (Familienrecht)</thema>: <dozent><grad>D. jur. et ph.</grad>
-      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Donnerst. 12-1 U.</zeit>,
+      Recht (Familienrecht)</thema>: <dozent ref="mitteis_l"><grad>D. jur. et
+      ph.</grad> <nachname>Mitteis</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-II-013"><thema>Deutsches bürgerliches
@@ -668,13 +668,13 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-II-016"><thema>Deutsches Reichs- und
-      Landesstaatsrecht</thema>: <dozent><grad>D. jur.</grad>
+      Landesstaatsrecht</thema>: <dozent ref="mayer_o"><grad>D. jur.</grad>
       <vorname>O.</vorname> <nachname>Mayer</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Mont. bis Freit. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-II-017"><thema>Deutsches
-      Verwaltungsrecht</thema>: <dozent><grad>D. jur.</grad>
+      Verwaltungsrecht</thema>: <dozent ref="mayer_o"><grad>D. jur.</grad>
       <vorname>O.</vorname> <nachname>Mayer</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -754,9 +754,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-II-030"><thema>Romanistische Quellen- und
-      Papyruslektüre</thema>: <dozent><grad>D. jur. et ph.</grad>
-      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mittw. 3-4 U.</zeit>, <modus>privatissime</modus>, aber
+      Papyruslektüre</thema>: <dozent ref="mitteis_l"><grad>D. jur. et
+      ph.</grad> <nachname>Mitteis</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mittw. 3-4 U.</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-II-031"><thema>Mündliche und schriftliche
@@ -767,8 +768,9 @@
 
       <veranstaltung xml:id="v-1904w-II-032"><thema>Mündliche und schriftliche
       Übungen im deutschen bürgerlichen Recht (für Vorgerücktere)</thema>:
-      <dozent><grad>D. jur. et ph.</grad> <nachname>Mitteis</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>zu noch zu best. Zeit</zeit>,
+      <dozent ref="mitteis_l"><grad>D. jur. et ph.</grad>
+      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>zu noch zu best. Zeit</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-II-033"><thema>Mündliche und schriftliche
@@ -798,7 +800,7 @@
       <seite>10</seite>
 
       <veranstaltung xml:id="v-1904w-II-037"><thema>Praktische Fälle aus dem
-      öffentlichen Rechte</thema>: <dozent><grad>D. jur.</grad>
+      öffentlichen Rechte</thema>: <dozent ref="mayer_o"><grad>D. jur.</grad>
       <vorname>O.</vorname> <nachname>Mayer</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Donnerst. 6-7 U.</zeit>,
       <modus>publice</modus> et <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2004,7 +2006,7 @@
       Philosophische Fakultät G.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Kathodenstrahlen, Radiumstrahlen u.
-      Elektronentheorie</thema>: <dozent><grad>D. ph.</grad>
+      Elektronentheorie</thema>: <dozent ref="marx_e"><grad>D. ph.</grad>
       <nachname>Marx</nachname></dozent>. <siehe>Siehe Philosophische Fakultät
       G.</siehe></veranstaltungsverweis>
 
@@ -2035,9 +2037,9 @@
       E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
       E.</siehe></veranstaltungsgruppe>
 
-      <veranstaltungsverweis><thema>Bakterien</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Miehe</nachname></dozent>. <siehe>Siehe
-      Philosophische Fakultät G.</siehe></veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Bakterien</thema>: <dozent
+      ref="miehe_h"><grad>D. ph.</grad> <nachname>Miehe</nachname></dozent>.
+      <siehe>Siehe Philosophische Fakultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Experimentalphysiologie
       der Pflanzen</thema></veranstaltungsverweis> -
@@ -2430,7 +2432,7 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1904w-IV.B.a-009"><thema>Metrik der
-          Griechen und Römer</thema>: <dozent><grad>D. ph.</grad>
+          Griechen und Römer</thema>: <dozent ref="marx_f"><grad>D. ph.</grad>
           <nachname>Marx</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont. bis Freit. 10-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2519,7 +2521,7 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1904w-IV.B.a-016"><thema>Metrische
-          Übungen</thema>: <dozent><grad>D. ph.</grad>
+          Übungen</thema>: <dozent ref="marx_f"><grad>D. ph.</grad>
           <nachname>Marx</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont. 6 bis 7 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
@@ -2554,9 +2556,10 @@
           <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Romanistische Quellen- und
-          Papyruslektüre</thema>: <dozent><grad>D. jur. et ph.</grad>
-          <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>
-          <siehe>Siehe Juristische Fakultät</siehe>.</veranstaltungsverweis>
+          Papyruslektüre</thema>: <dozent ref="mitteis_l"><grad>D. jur. et
+          ph.</grad> <nachname>Mitteis</nachname>, <funktion>P.
+          O.</funktion></dozent> <siehe>Siehe Juristische
+          Fakultät</siehe>.</veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Historisch-geographisches
           Institut</thema>: <dozent ref="berger_eh"><grad>D. ph.</grad>
@@ -2901,7 +2904,7 @@
           <thema>des Proseminars (mittelhochdeutsche Abteilung)</thema>:
           <thema>Lektüre des Parzival</thema>, <zeit>Mittw. 5½-7 U.
           Ab.</zeit>, <modus>publice</modus></veranstaltung>. -
-          <veranstaltungsgruppe>4) <dozent><grad>D. ph.</grad>
+          <veranstaltungsgruppe>4) <dozent ref="mogk_e"><grad>D. ph.</grad>
           <nachname>Mogk</nachname>, <funktion>P. E.</funktion></dozent>,
           <thema>des Proseminare (nordische Abteilung)</thema>: <veranstaltung
           xml:id="v-1904w-IV.B.c-017">a) <thema>für Anfänger: Lektüre von Ares
@@ -3267,9 +3270,10 @@
         Juristische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Romanistische Quellen- u.
-        Papyruslektüre</thema>: <dozent><grad>D. jur. et ph.</grad>
-        <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Juristische Fakultät</siehe>.</veranstaltungsverweis>
+        Papyruslektüre</thema>: <dozent ref="mitteis_l"><grad>D. jur. et
+        ph.</grad> <nachname>Mitteis</nachname>, <funktion>P.
+        O.</funktion></dozent> <siehe>Siehe Juristische
+        Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Griechische Kunstgeschichte <notiz
         betreff="fortsetzung">I. Teil</notiz></thema>: <dozent><grad>D.
@@ -3887,9 +3891,9 @@
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Deutsches Reichs-
         und Landesstaatsrecht</thema></veranstaltungsverweis> -
         <veranstaltungsverweis><thema>Deutsches
-        Verwaltungsrecht</thema></veranstaltungsverweis>: <dozent><grad>D.
-        jur.</grad> <nachname>Mayer</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe Juristische
+        Verwaltungsrecht</thema></veranstaltungsverweis>: <dozent
+        ref="mayer_o"><grad>D. jur.</grad> <nachname>Mayer</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
         Fakultät</siehe>.</veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Handels-, Wechsel- und Seerecht</thema>:
@@ -3954,9 +3958,9 @@
 
         <seite>40</seite>
 
-        <veranstaltungsverweis><thema>Bakterien</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Miehe</nachname></dozent>. <siehe>Siehe Abschnitt
-        G.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Bakterien</thema>: <dozent
+        ref="miehe_h"><grad>D. ph.</grad> <nachname>Miehe</nachname></dozent>.
+        <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Meteorologie</thema>: <dozent
         ref="oettingen_aj"><grad>D. ph.</grad>
@@ -4079,9 +4083,9 @@
         <siehe>Siehe Juristische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Praktische Fälle aus dem öffentlichen
-        Rechte</thema>: <dozent><grad>D. jur.</grad> <vorname>O.</vorname>
-        <nachname>Mayer</nachname></dozent>. <siehe>Siehe Juristische
-        Fakultät</siehe>.</veranstaltungsverweis>
+        Rechte</thema>: <dozent ref="mayer_o"><grad>D. jur.</grad>
+        <vorname>O.</vorname> <nachname>Mayer</nachname></dozent>.
+        <siehe>Siehe Juristische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Übungen zur politischen Geschichte des
         Mittelalters</thema>: <dozent ref="buchholz_g"><grad>D. ph.</grad>
@@ -4130,10 +4134,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1904w-IV.F-004"><thema>Variationsrechnung</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Mayer</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. bis Freit. 12-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        xml:id="v-1904w-IV.F-004"><thema>Variationsrechnung</thema>: <dozent
+        ref="mayer_a"><grad>D. ph.</grad> <nachname>Mayer</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Freit. 12-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.F-005"><thema>Mechanik</thema>:
         <dozent ref="hoelder_o"><grad>D. ph.</grad> <vorname>O.</vorname>
@@ -4204,7 +4208,7 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.F-015"><thema>Übungen über
-        Variationsrechnung</thema>: <dozent><grad>D. ph.</grad>
+        Variationsrechnung</thema>: <dozent ref="mayer_a"><grad>D. ph.</grad>
         <vorname>A.</vorname> <nachname>Mayer</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>Sonnab. 12-1 U.</zeit>,
         <modus>privatissime</modus>, aber
@@ -4252,16 +4256,16 @@
         Theoretisch-physik. Institut. Linnéstr. 4/5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.G-004"><thema>Kathodenstrahlen,
-        Radiumstrahlen und Elektronentheorie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Marx</nachname></dozent>, <zeit>Mittw. 6-8
-        U.</zeit>, <modus>privatim</modus>, <ort>im Physikalischen Institut,
-        Linnéstr. 4/5</ort>.</veranstaltung>
+        Radiumstrahlen und Elektronentheorie</thema>: <dozent
+        ref="marx_e"><grad>D. ph.</grad> <nachname>Marx</nachname></dozent>,
+        <zeit>Mittw. 6-8 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Physikalischen Institut, Linnéstr. 4/5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.G-005"><thema>Wechselströme und
-        elektrische Schwingungen (mit Experimenten)</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Marx</nachname></dozent>, <zeit>Freit. 6-8
-        U.</zeit>, <modus>privatim</modus>, <ort>im Physik. Institut,
-        Linnéstr. 4/5</ort>.</veranstaltung>
+        elektrische Schwingungen (mit Experimenten)</thema>: <dozent
+        ref="marx_e"><grad>D. ph.</grad> <nachname>Marx</nachname></dozent>,
+        <zeit>Freit. 6-8 U.</zeit>, <modus>privatim</modus>, <ort>im Physik.
+        Institut, Linnéstr. 4/5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.G-006"><thema>Theorie der
         Wärme</thema>: <dozent><grad>D. ph.</grad>
@@ -4434,9 +4438,10 @@
         1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.G-031"><thema>Bakterien</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Miehe</nachname></dozent>,
-        <zeit>Dienst. u. Mittw. 6-7 U.</zeit>, <modus>privatim</modus>,
-        <ort>im Botanischen Institut, Linnéstr. 1</ort>.</veranstaltung>
+        <dozent ref="miehe_h"><grad>D. ph.</grad>
+        <nachname>Miehe</nachname></dozent>, <zeit>Dienst. u. Mittw. 6-7
+        U.</zeit>, <modus>privatim</modus>, <ort>im Botanischen Institut,
+        Linnéstr. 1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.G-032"><thema>Paläontologie der
         Wirbeltiere</thema>: <dozent ref="felix_jp"><grad>D. ph.</grad>

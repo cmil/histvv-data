@@ -369,7 +369,7 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1850s-I.III.1-004"><thema>Abschnitte aus der
-        römischen Geschichte</thema>: <dozent><grad>D.</grad>
+        römischen Geschichte</thema>: <dozent ref="mommsen_t"><grad>D.</grad>
         <nachname>Mommsen</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>3 U. Mont. u. Donn.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -533,20 +533,22 @@
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1850s-I.V-005"><thema>Theorie der
-      Kegelschnitte</thema>: <dozent><nachname>Möbius</nachname>, <funktion>P.
+      Kegelschnitte</thema>: <dozent
+      ref="moebius_af"><nachname>Möbius</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>5 U. 2 T.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1850s-I.V-006"><thema>Ueber Interpolation u.
-      mechanische Quadratur</thema>: <ders>Derselbe</ders>, <zeit>8 U. Mont.
-      u. Donn.</zeit></veranstaltung>
+      mechanische Quadratur</thema>: <ders ref="moebius_af">Derselbe</ders>,
+      <zeit>8 U. Mont. u. Donn.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1850s-I.V-007"><thema>Die Methode der
-      speciellen Störungen</thema>: <ders>Derselbe</ders>, <zeit>8 U. Dienst.
-      u. Freit.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+      speciellen Störungen</thema>: <ders ref="moebius_af">Derselbe</ders>,
+      <zeit>8 U. Dienst. u. Freit.</zeit>
+      <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1850s-I.V-008"><thema>Sphärische
-      Astronomie</thema>: <ders>Derselbe</ders>, <zeit>4 U. 2 T.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      Astronomie</thema>: <ders ref="moebius_af">Derselbe</ders>, <zeit>4 U. 2
+      T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Mathematische Optik</thema>, <siehe>s.
       Physik</siehe>.</veranstaltungsverweis>
@@ -1216,10 +1218,10 @@
           T.</zeit></veranstaltung>
 
           <veranstaltung
-          xml:id="v-1850s-II.B.II.1-002"><thema>Institutionen</thema>:
-          <dozent><grad>D.</grad> <nachname>Mommsen</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>11-1 U. 5 T. (mit Ausschluß des
-          Sonnabend)</zeit>.</veranstaltung>
+          xml:id="v-1850s-II.B.II.1-002"><thema>Institutionen</thema>: <dozent
+          ref="mommsen_t"><grad>D.</grad> <nachname>Mommsen</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>11-1 U. 5 T. (mit
+          Ausschluß des Sonnabend)</zeit>.</veranstaltung>
 
           <veranstaltung xml:id="v-1850s-II.B.II.1-003"><thema>Pandekten, nach
           <gesperrt>Puchta's</gesperrt> Lehrbuch</thema>: <dozent
@@ -1572,16 +1574,16 @@
         <titel>V. Hygiene.</titel>
 
         <veranstaltung xml:id="v-1850s-II.C.V-001"><thema>Hygiene</thema>:
-        <dozent><grad>D.</grad> <nachname>Radius</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>12 U. Dienst. u. Freitags</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="radius_j"><grad>D.</grad> <nachname>Radius</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. Dienst. u.
+        Freitags</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1850s-II.C.VI">
         <titel>VI. Arzneimittellehre, Receptirkunst u. Pharmacie.</titel>
 
         <veranstaltung xml:id="v-1850s-II.C.VI-001"><thema>Specielle
-        Pharmakologie</thema>: <dozent><grad>D.</grad>
+        Pharmakologie</thema>: <dozent ref="radius_j"><grad>D.</grad>
         <nachname>Radius</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>7 U. 6 T.</zeit></veranstaltung>
 
@@ -1646,7 +1648,8 @@
         Fieber</thema>)</veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung xml:id="v-1850s-II.C.VII-003"><thema>Ueber die
-        Krankheiten der Kinder</thema>: <dozent><grad>D.</grad>
+        Krankheiten der Kinder</thema>: <dozent
+        ref="meissner_fl"><grad>D.</grad>
         <nachname>Meißner</nachname></dozent>, <zeit>4 U. 4
         T.</zeit></veranstaltung>
 
@@ -1775,9 +1778,9 @@
         <zeit>2 U. 6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1850s-II.C.X-002"><thema>Klinische
-        Demonstrationen <ort>im Georgenhospital</ort></thema>:
-        <dozent><grad>D.</grad> <nachname>Radius</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>11-1 U. 2 T.</zeit>
+        Demonstrationen <ort>im Georgenhospital</ort></thema>: <dozent
+        ref="radius_j"><grad>D.</grad> <nachname>Radius</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>11-1 U. 2 T.</zeit>
         <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 

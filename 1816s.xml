@@ -349,8 +349,8 @@
       <sachgruppe xml:id="sg-1816s-I.C.a">
         <titel>a) Reine.</titel>
 
-        <veranstaltungsgruppe><dozent><funktion>P. O.</funktion>
-        <nachname>Mollweide</nachname></dozent>, <veranstaltung
+        <veranstaltungsgruppe><dozent ref="mollweide_kb"><funktion>P.
+        O.</funktion> <nachname>Mollweide</nachname></dozent>, <veranstaltung
         xml:id="v-1816s-I.C.a-001"><thema>allgemeine Arithmetik und
         Algebra</thema>, <zeit>2 U. 4 T.</zeit>
         <modus>öff.</modus></veranstaltung>; auch <veranstaltung
@@ -364,8 +364,9 @@
         <sachgruppe xml:id="sg-1816s-I.C.b.aa">
           <titel>aa) Gemeine Arithmetik und Geometrie.</titel>
 
-          <veranstaltung xml:id="v-1816s-I.C.b.aa-001"><ders>Derselbe</ders>,
-          <zeit>10 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1816s-I.C.b.aa-001"><ders
+          ref="mollweide_kb">Derselbe</ders>, <zeit>10 U. 4
+          T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1816s-I.C.b.bb">
@@ -375,9 +376,10 @@
           O.</funktion> <nachname>Gilbert</nachname></dozent>, <siehe>s.
           specielle Physik</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung xml:id="v-1816s-I.C.b.bb-001"><dozent><funktion>P.
-          O.</funktion> <nachname>Mollweide</nachname></dozent>, <thema>die
-          gesammte Optik</thema>, <zeit>4 U. 6 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1816s-I.C.b.bb-001"><dozent
+          ref="mollweide_kb"><funktion>P. O.</funktion>
+          <nachname>Mollweide</nachname></dozent>, <thema>die gesammte
+          Optik</thema>, <zeit>4 U. 6 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1816s-I.C.b.cc">
@@ -1380,19 +1382,20 @@
             <nachname>Klien</nachname></dozent>, <thema>gemeines u. Sächs.
             Lehnrecht</thema>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung xml:id="v-1816s-II.B.I.2.b-004"><dozent>OHGR.
-            <grad>Dr.</grad> u. <funktion>P. E.</funktion>
-            <nachname>Müller</nachname></dozent>, <zeit>8 U. 6 T.</zeit>
-            <modus>öffentl.</modus> <thema>sämmtlich nach
+            <veranstaltung xml:id="v-1816s-II.B.I.2.b-004"><dozent
+            ref="mueller_jg">OHGR. <grad>Dr.</grad> u. <funktion>P.
+            E.</funktion> <nachname>Müller</nachname></dozent>, <zeit>8 U. 6
+            T.</zeit> <modus>öffentl.</modus> <thema>sämmtlich nach
             Böhmer</thema>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1816s-II.B.I.2.c">
             <titel>c) Kirchenrecht.</titel>
 
-            <veranstaltung xml:id="v-1816s-II.B.I.2.c-001"><dozent>OHGR.
-            <grad>Dr.</grad> <nachname>Müller</nachname></dozent>, <thema>nach
-            Böhmer</thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1816s-II.B.I.2.c-001"><dozent
+            ref="mueller_jg">OHGR. <grad>Dr.</grad>
+            <nachname>Müller</nachname></dozent>, <thema>nach Böhmer</thema>,
+            <zeit>7 U. 6 T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1816s-II.B.I.2.d">
@@ -1644,10 +1647,10 @@
               <sachgruppe xml:id="sg-1816s-II.B.II.3.xx.b.aa">
                 <titel>aa) über die Institutionen.</titel>
 
-                <veranstaltung
-                xml:id="v-1816s-II.B.II.3.xx.b.aa-001"><dozent>OHGR.
-                <grad>Dr.</grad> <nachname>Müller</nachname></dozent>,
-                <zeit>in zu best. St. 4 T.</zeit></veranstaltung>
+                <veranstaltung xml:id="v-1816s-II.B.II.3.xx.b.aa-001"><dozent
+                ref="mueller_jg">OHGR. <grad>Dr.</grad>
+                <nachname>Müller</nachname></dozent>, <zeit>in zu best. St. 4
+                T.</zeit></veranstaltung>
 
                 <veranstaltung xml:id="v-1816s-II.B.II.3.xx.b.aa-002"><dozent
                 ref="wenck_kfc">OHGR. <grad>Dr.</grad>
@@ -1676,10 +1679,10 @@
               <sachgruppe xml:id="sg-1816s-II.B.II.3.xx.b.bb">
                 <titel>bb) über die Pandekten.</titel>
 
-                <veranstaltung
-                xml:id="v-1816s-II.B.II.3.xx.b.bb-001"><dozent>OHGR.
-                <grad>Dr.</grad> <nachname>Müller</nachname></dozent>,
-                <zeit>in zu best. St. 6 T.</zeit></veranstaltung>
+                <veranstaltung xml:id="v-1816s-II.B.II.3.xx.b.bb-001"><dozent
+                ref="mueller_jg">OHGR. <grad>Dr.</grad>
+                <nachname>Müller</nachname></dozent>, <zeit>in zu best. St. 6
+                T.</zeit></veranstaltung>
 
                 <veranstaltung xml:id="v-1816s-II.B.II.3.xx.b.bb-002"><dozent
                 ref="wenck_kfc">OHGR. <grad>Dr.</grad>
@@ -1860,8 +1863,8 @@
             thier. Magnetismus</thema>, <zeit>3 U. Mont. u.
             Donnerst.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1816s-II.C.I.2.b-002"><dozent><grad>Dr.</grad> Mor.
+            <veranstaltung xml:id="v-1816s-II.C.I.2.b-002"><dozent
+            ref="mueller_mw"><grad>Dr.</grad> <vorname>Mor.</vorname>
             <nachname>Müller</nachname></dozent>, <thema>über <scil
             text="thier. Magnetismus">denselben Gegenstand</scil></thema>,
             <zeit>11 U. 2 T.</zeit></veranstaltung>
@@ -1940,8 +1943,8 @@
           Fieber u. Entzündungen</thema>, <zeit>10 U. 6
           T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-          <veranstaltung
-          xml:id="v-1816s-II.C.II.1-005"><dozent><grad>Dr.</grad>
+          <veranstaltung xml:id="v-1816s-II.C.II.1-005"><dozent
+          ref="mueller_mw"><grad>Dr.</grad>
           <nachname>Müller</nachname></dozent>, <thema>specielle
           Therapie</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
 

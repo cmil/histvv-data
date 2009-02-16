@@ -270,15 +270,15 @@
       <sachgruppe xml:id="sg-1815w-I.C.a">
         <titel>a) Reine.</titel>
 
-        <veranstaltungsgruppe><dozent><funktion>P. O.</funktion>
-        <nachname>Mollweide</nachname></dozent>, <veranstaltung
+        <veranstaltungsgruppe><dozent ref="mollweide_kb"><funktion>P.
+        O.</funktion> <nachname>Mollweide</nachname></dozent>, <veranstaltung
         xml:id="v-1815w-I.C.a-001"><thema>Arithmetik und
         Geometrie</thema></veranstaltung>; ingl. <veranstaltung
         xml:id="v-1815w-I.C.a-002"><thema>Stereometrie und ebene
         Trigonometrie</thema>, <zeit>2 U. Mont. u. Dienst.</zeit>
         <modus>öff.</modus></veranstaltung></veranstaltungsgruppe>
 
-        <veranstaltungsgruppe><dozent><grad>M.</grad>
+        <veranstaltungsgruppe><dozent ref="moebius_af"><grad>M.</grad>
         <nachname>Möbius</nachname></dozent>, <veranstaltung
         xml:id="v-1815w-I.C.a-003"><thema>Theorie der Kegelschnitte</thema>,
         <zeit>2 U. 2 T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>; ingl.
@@ -290,22 +290,25 @@
       <sachgruppe xml:id="sg-1815w-I.C.b">
         <titel>b) Angewandte,</titel>
 
-        <veranstaltung xml:id="v-1815w-I.C.b-001"><dozent><funktion>P.
-        O.</funktion> <nachname>Mollweide</nachname></dozent>,
-        <thema>Mechanik</thema>, <zeit>4 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1815w-I.C.b-001"><dozent
+        ref="mollweide_kb"><funktion>P. O.</funktion>
+        <nachname>Mollweide</nachname></dozent>, <thema>Mechanik</thema>,
+        <zeit>4 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung xml:id="v-1815w-I.C.b-002"><dozent><grad>M.</grad>
-        <nachname>Möbius</nachname></dozent>, <thema>Grundsätze der
-        Mechanik</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1815w-I.C.b-002"><dozent
+        ref="moebius_af"><grad>M.</grad> <nachname>Möbius</nachname></dozent>,
+        <thema>Grundsätze der Mechanik</thema>, <zeit>2 U. 4
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1815w-I.C.x">
         <titel>*) Astronomie.</titel>
 
-        <veranstaltung xml:id="v-1815w-I.C.x-001"><dozent><funktion>P.
-        O.</funktion> <nachname>Mollweide</nachname></dozent>,
-        <thema>sphärische u. theorische Astronomie</thema>, <zeit>2 U. Donn.
-        und Freyt.</zeit> <modus>öffentl.</modus></veranstaltung>
+        <veranstaltung xml:id="v-1815w-I.C.x-001"><dozent
+        ref="mollweide_kb"><funktion>P. O.</funktion>
+        <nachname>Mollweide</nachname></dozent>, <thema>sphärische u.
+        theorische Astronomie</thema>, <zeit>2 U. Donn. und Freyt.</zeit>
+        <modus>öffentl.</modus></veranstaltung>
       </sachgruppe>
 
       <!--Hierarchie von "Astronomie" nicht deutlich. 
@@ -1086,10 +1089,10 @@ gemeint ist aber Gottfried Hermann, siehe passim!-->
                 <modus>öff.</modus></veranstaltung>
 
                 <veranstaltung
-                xml:id="v-1815w-II.B.002.1.a.cc.alpha-002"><dozent>OHGR.
-                <funktion>P. E.</funktion> <grad>D.</grad>
-                <nachname>Müller</nachname></dozent>, <zeit>9 U. 6
-                T.</zeit></veranstaltung>
+                xml:id="v-1815w-II.B.002.1.a.cc.alpha-002"><dozent
+                ref="mueller_jg">OHGR. <funktion>P. E.</funktion>
+                <grad>D.</grad> <nachname>Müller</nachname></dozent>, <zeit>9
+                U. 6 T.</zeit></veranstaltung>
 
                 <veranstaltung
                 xml:id="v-1815w-II.B.002.1.a.cc.alpha-003"><dozent
@@ -1239,10 +1242,10 @@ gemeint ist aber Gottfried Hermann, siehe passim!-->
           <zeit>11 U. 5 T. (mit Ausschluss des
           Montags)</zeit>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1815w-II.B.002.3-002"><dozent><funktion>P.
-          E.</funktion> <grad>D.</grad> <nachname>Müller</nachname></dozent>,
-          <thema>n. Böhmer</thema>, <zeit>8 U. 6 T.</zeit>
-          <modus>öff.</modus></veranstaltung>
+          <veranstaltung xml:id="v-1815w-II.B.002.3-002"><dozent
+          ref="mueller_jg"><funktion>P. E.</funktion> <grad>D.</grad>
+          <nachname>Müller</nachname></dozent>, <thema>n. Böhmer</thema>,
+          <zeit>8 U. 6 T.</zeit> <modus>öff.</modus></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1815w-II.B.002.4">
@@ -1259,10 +1262,11 @@ gemeint ist aber Gottfried Hermann, siehe passim!-->
           <nachname>Weisse</nachname></dozent>, <thema>nach Böhmer</thema>,
           <zeit>11 U. 5 T.</zeit></veranstaltung>
 
-          <veranstaltung xml:id="v-1815w-II.B.002.4-003"><dozent><funktion>P.
-          E.</funktion> <grad>D.</grad> <nachname>Müller</nachname></dozent>,
-          <thema>nach <scil text="Böhmer">demselben</scil></thema>, <zeit>2 U.
-          6 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1815w-II.B.002.4-003"><dozent
+          ref="mueller_jg"><funktion>P. E.</funktion> <grad>D.</grad>
+          <nachname>Müller</nachname></dozent>, <thema>nach <scil
+          text="Böhmer">demselben</scil></thema>, <zeit>2 U. 6
+          T.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -1458,9 +1462,8 @@ gemeint ist aber Gottfried Hermann, siehe passim!-->
             <sachgruppe xml:id="sg-1815w-II.B.003.xx.b.bb">
               <titel>bb) über die Pandekten,</titel>
 
-              <veranstaltung
-              xml:id="v-1815w-II.B.003.xx.b.bb-001"><dozent><funktion>P.
-              E.</funktion> <grad>D.</grad>
+              <veranstaltung xml:id="v-1815w-II.B.003.xx.b.bb-001"><dozent
+              ref="mueller_jg"><funktion>P. E.</funktion> <grad>D.</grad>
               <nachname>Müller</nachname></dozent>, <zeit>in zu best.
               St.</zeit></veranstaltung>
 
@@ -1757,8 +1760,8 @@ zweites Mal aufgeführt, die Zeitangaben sind genau gleich-->
           der Weiber, der Neugebornen und deren Heilung</thema>, <zeit>2 T. in
           zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1815w-II.C.4.xx-008"><dozent><grad>D.</grad>
+          <veranstaltung xml:id="v-1815w-II.C.4.xx-008"><dozent
+          ref="mueller_mw"><grad>D.</grad>
           <nachname>Müller</nachname></dozent>, <thema>über die Natur und
           Heilung des contagiösen Typhus</thema>, <zeit>11 U. 2
           T.</zeit></veranstaltung>
@@ -1888,9 +1891,9 @@ zweites Mal aufgeführt, die Zeitangaben sind genau gleich-->
         <thema>Arzneymittellehre nach eigner Ordnung</thema>, <zeit>3 U. 6 T.
         und 2 U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung xml:id="v-1815w-II.C.8-003"><dozent><grad>D.</grad>
-        <nachname>Müller</nachname></dozent>, <zeit>11 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1815w-II.C.8-003"><dozent
+        ref="mueller_mw"><grad>D.</grad> <nachname>Müller</nachname></dozent>,
+        <zeit>11 U. 4 T.</zeit></veranstaltung>
 
         <sachgruppe xml:id="sg-1815w-II.C.8.x">
           <titel>*) Pharmacie.</titel>

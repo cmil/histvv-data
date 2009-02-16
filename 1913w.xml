@@ -590,9 +590,9 @@
 
       <veranstaltung xml:id="v-1913w-II-007"><thema>Grundlehren der Pandekten
       als romanistische Einführung in das heutige bürgerliche Recht</thema>:
-      <dozent><grad>D. jur. et ph.</grad> <nachname>Mitteis</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>tägl. 12-1 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="mitteis_l"><grad>D. jur. et ph.</grad>
+      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-008"><thema>Ausgewählte Kapitel aus
       der Geschichte des römischen Provinzialrechts im Orient und in
@@ -643,9 +643,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-016"><thema>Deutsches bürgerliches
-      Recht (Familienrecht)</thema>: <dozent><grad>D. jur. et ph.</grad>
-      <nachname>Mitteis</nachname></dozent>, <zeit>Mo. bis Do. 11-12
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Recht (Familienrecht)</thema>: <dozent ref="mitteis_l"><grad>D. jur. et
+      ph.</grad> <nachname>Mitteis</nachname></dozent>, <zeit>Mo. bis Do.
+      11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-017"><thema>Deutsches bürgerliches
       Recht (Erbrecht)</thema>: <dozent><grad>D. jur.</grad>
@@ -731,9 +731,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-031"><thema>Kirchenrecht und
-      Eherecht</thema>: <dozent><grad>D. jur.</grad> <vorname>Otto</vorname>
-      <nachname>Mayer</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Di., Mi., Fr. u. So. 9-10 U.</zeit>,
+      Eherecht</thema>: <dozent ref="mayer_o"><grad>D. jur.</grad>
+      <vorname>Otto</vorname> <nachname>Mayer</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Di., Mi., Fr. u. So. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-032"><thema>Das sächsische
@@ -754,16 +754,17 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-035"><thema>Sächsisches
-      Staatsrecht</thema>: <dozent><grad>D. jur.</grad>
+      Staatsrecht</thema>: <dozent ref="mayer_o"><grad>D. jur.</grad>
       <vorname>Otto</vorname> <nachname>Mayer</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Mo. u. Do. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-036"><thema>Deutsches
       Verwaltungsrecht, mit besonderer Berücksichtigung des preußischen und
-      sächsischen Verwaltungs<seite>8</seite>rechts</thema>: <dozent><grad>D.
-      jur.</grad> <vorname>Otto</vorname> <nachname>Mayer</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mo. bis Fr. 10-11 U.</zeit>,
+      sächsischen Verwaltungs<seite>8</seite>rechts</thema>: <dozent
+      ref="mayer_o"><grad>D. jur.</grad> <vorname>Otto</vorname>
+      <nachname>Mayer</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mo. bis Fr. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-037"><thema>Deutsches und sächsisches
@@ -793,7 +794,7 @@
       gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-041"><thema>Romanistische Übungen im
-      Seminar</thema>: <dozent><grad>D. jur. et ph.</grad>
+      Seminar</thema>: <dozent ref="mitteis_l"><grad>D. jur. et ph.</grad>
       <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>So. 5-6 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -862,9 +863,9 @@
 
       <veranstaltung xml:id="v-1913w-II-052"><thema>Mündliche und schriftliche
       Übungen im deutschen bürgerlichen Recht (für Vorgerücktere)</thema>:
-      <dozent><grad>D. jur. et ph.</grad> <nachname>Mitteis</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Do. 6-8 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="mitteis_l"><grad>D. jur. et ph.</grad>
+      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Do. 6-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-053"><thema>Praktikum über Zivilprozeß
       und Zivilrecht mit mündlichen und schriftlichen Übungen</thema>: <dozent
@@ -3008,9 +3009,9 @@
           <titel>c) Deutsche Philologie.</titel>
 
           <veranstaltung xml:id="v-1913w-IV.B.c-001"><thema>Altgermanische
-          Religionsgeschichte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Mogk</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mi. u. So. 8-9 U.</zeit>,
+          Religionsgeschichte</thema>: <dozent ref="mogk_e"><grad>D.
+          ph.</grad> <nachname>Mogk</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>Mi. u. So. 8-9 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913w-IV.B.c-002"><thema>Einführung in das
@@ -3150,10 +3151,10 @@
             <thema>Erklärung des Parzival von Wolfram von Eschenbach</thema>,
             <zeit>So. 11-1 U.</zeit>, <modus>publice</modus></veranstaltung>;
             <veranstaltung xml:id="v-1913w-IV.B.c.001-006">d)
-            <thema>Nordischer Kurs</thema>: <dozent><grad>D. ph.</grad>
-            <nachname>Mogk</nachname>, <funktion>P. E.</funktion></dozent>:
-            <thema>Lektüre der Bandamannasaga</thema>, <zeit>Mi. 7½-9 U.
-            ab.</zeit>,
+            <thema>Nordischer Kurs</thema>: <dozent ref="mogk_e"><grad>D.
+            ph.</grad> <nachname>Mogk</nachname>, <funktion>P.
+            E.</funktion></dozent>: <thema>Lektüre der Bandamannasaga</thema>,
+            <zeit>Mi. 7½-9 U. ab.</zeit>,
             <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe> -
             <veranstaltungsgruppe>2) <thema>Neuere Abteilung</thema>:
             <veranstaltung xml:id="v-1913w-IV.B.c.001-007">a) <dozent
@@ -4802,10 +4803,11 @@
         Institut, Linnéstr. 5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913w-IV.G-006"><thema>Elektrotechnik (für
-        Studierende aller Fakultäten)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Marx</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mi. 5-7 U.</zeit>, <modus>privatim</modus>, <ort>im Physikal.
-        Institut, Linnéstr. 5</ort>.</veranstaltung>
+        Studierende aller Fakultäten)</thema>: <dozent ref="marx_e"><grad>D.
+        ph.</grad> <nachname>Marx</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mi. 5-7 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikal. Institut, Linnéstr.
+        5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913w-IV.G-007"><thema>Elektrische
         Schwingungen und drahtlose Telegraphie (mit Experimenten), für Hörer
@@ -5083,7 +5085,7 @@
         <seite>53</seite>
 
         <veranstaltung xml:id="v-1913w-IV.G-047"><thema>Moose, Farne und
-        Gymnospermen</thema>: <dozent><grad>D. ph.</grad>
+        Gymnospermen</thema>: <dozent ref="miehe_h"><grad>D. ph.</grad>
         <nachname>Miehe</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Do. u. Fr. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>im
         Botanischen Institut, Linnéstr. 1</ort>.</veranstaltung>
@@ -5095,10 +5097,11 @@
         Botanischen Institut, Linnéstr. 1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913w-IV.G-049"><thema>Grundzüge der
-        allgemeinen Bakteriologie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Miehe</nachname>, <funktion>P. E.</funktion></dozent>,
-        <ort>Di. u. Mi. 6-7 U.</ort>, <modus>privatim</modus>, <ort>im
-        Botanischen Institut, Linnéstr. 1</ort>.</veranstaltung>
+        allgemeinen Bakteriologie</thema>: <dozent ref="miehe_h"><grad>D.
+        ph.</grad> <nachname>Miehe</nachname>, <funktion>P.
+        E.</funktion></dozent>, <ort>Di. u. Mi. 6-7 U.</ort>,
+        <modus>privatim</modus>, <ort>im Botanischen Institut, Linnéstr.
+        1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913w-IV.G-050"><thema>Biologische
         Besprechungen</thema>: <dozent><grad>D. ph.</grad>
@@ -5510,8 +5513,8 @@
 
         <veranstaltung xml:id="v-1913w-IV.G-096"><thema>Übungen im
         mikroskopischen Untersuchen von Nahrungs- und Genußmitteln</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Miehe</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>So. 9-12 U.</zeit>,
+        <dozent ref="miehe_h"><grad>D. ph.</grad> <nachname>Miehe</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>So. 9-12 U.</zeit>,
         <modus>privatim</modus>, <ort>im Botanischen Institut, Linnéstr.
         1</ort>.</veranstaltung>
 

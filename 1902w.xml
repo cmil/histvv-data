@@ -564,9 +564,9 @@
 
       <veranstaltung xml:id="v-1902w-II-007"><thema>Grundlehren der Pandekten
       als romanistische Einführung in das bürgerliche Gesetzbuch</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Mitteis</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>tägl. 12-1 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="mitteis_l"><grad>D. jur.</grad>
+      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-II-008"><thema>Deutsche
       Rechtsgeschichte</thema>: <dozent ref="friedberg_ea"><grad>D.
@@ -597,10 +597,10 @@
       Donnerst. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-II-013"><thema>Deutsches bürgerliches
-      Recht (Recht der Schuldverhältnisse)</thema>: <dozent><grad>D.</grad>
-      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Donnerst. 11 bis 12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Recht (Recht der Schuldverhältnisse)</thema>: <dozent
+      ref="mitteis_l"><grad>D.</grad> <nachname>Mitteis</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 11 bis 12
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-II-014"><thema>Deutsches bürgerliches
       Recht (Recht der Schuldverhältnisse)</thema>: <dozent><grad>D.
@@ -767,9 +767,10 @@
       <seite>10</seite>
 
       <veranstaltung xml:id="v-1902w-II-040"><thema>Romanistische Quellen- und
-      Papyruslektüre für Vorgerücktere</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Freit. 6-7 U.</zeit>, <modus>privatissime</modus>, aber
+      Papyruslektüre für Vorgerücktere</thema>: <dozent
+      ref="mitteis_l"><grad>D. jur.</grad> <nachname>Mitteis</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Freit. 6-7 U.</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-II-041"><thema>Mündliche und schriftliche
@@ -2084,7 +2085,7 @@
 
           <veranstaltung xml:id="v-1902w-IV.B.a-008"><thema>Erklärung von
           Plautus Rudens und Einleitung über Leben und Werke des
-          Plautus</thema>: <dozent><grad>D. ph.</grad>
+          Plautus</thema>: <dozent ref="marx_f"><grad>D. ph.</grad>
           <nachname>Marx</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont., Dienst., Donnerst. u. Freit. 10-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2143,9 +2144,9 @@
           <nachname>Wachsmuth</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mittw. 11-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
           - <veranstaltung xml:id="v-1902w-IV.B.a-010">2) <thema>Apuleius de
-          magia und Besprechung der schriftlichen Arbeiten</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Marx</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Sonnab. 11-1 U.</zeit>,
+          magia und Besprechung der schriftlichen Arbeiten</thema>: <dozent
+          ref="marx_f"><grad>D. ph.</grad> <nachname>Marx</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. 11-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Philologisches Proseminar</thema>:
@@ -2211,7 +2212,7 @@
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Romanistische Quellen- und
-          Papyruslectüre</thema>: <dozent><grad>D. jur.</grad>
+          Papyruslectüre</thema>: <dozent ref="mitteis_l"><grad>D. jur.</grad>
           <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>
           <siehe>Siehe Juristische Facultät.</siehe></veranstaltungsverweis>
 
@@ -2456,7 +2457,7 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1902w-IV.B.c-003"><thema>Ueber die
-          Eddalieder</thema>: <dozent><grad>D. ph.</grad>
+          Eddalieder</thema>: <dozent ref="mogk_e"><grad>D. ph.</grad>
           <nachname>Mogk</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mittw. u. Sonnab. 8-9 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2551,14 +2552,14 @@
           (mittelhochdeutsche Abtheilung): Lektüre des Parzival</thema>,
           <zeit>Mittw. 5½-7 U. Ab.</zeit>,
           <modus>publice</modus>.</veranstaltung> - <veranstaltungsgruppe>4)
-          <dozent><grad>D. ph.</grad> <nachname>Mogk</nachname>, <funktion>P.
-          E.</funktion></dozent>, <thema>des Proseminars (nordische
-          Abtheilung)</thema>: <veranstaltung xml:id="v-1902w-IV.B.c-017">a)
-          <thema>für Anfänger: Lektüre der Gunnlaugssaga</thema>, <zeit>Mittw.
-          7-8 U. Ab.</zeit>, <modus>publice</modus>.</veranstaltung> -
-          <veranstaltung xml:id="v-1902w-IV.B.c-018">b) <thema>für
-          Fortgeschrittenere: Lektüre der Egilssaga</thema>, <zeit>Freit. 7-8
-          U. Ab.</zeit>,
+          <dozent ref="mogk_e"><grad>D. ph.</grad> <nachname>Mogk</nachname>,
+          <funktion>P. E.</funktion></dozent>, <thema>des Proseminars
+          (nordische Abtheilung)</thema>: <veranstaltung
+          xml:id="v-1902w-IV.B.c-017">a) <thema>für Anfänger: Lektüre der
+          Gunnlaugssaga</thema>, <zeit>Mittw. 7-8 U. Ab.</zeit>,
+          <modus>publice</modus>.</veranstaltung> - <veranstaltung
+          xml:id="v-1902w-IV.B.c-018">b) <thema>für Fortgeschrittenere:
+          Lektüre der Egilssaga</thema>, <zeit>Freit. 7-8 U. Ab.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe></veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1902w-IV.B.c-019"><thema>Mittelhochdeutsche
@@ -3658,10 +3659,10 @@ nicht wie den Ausdruck auszeichnen soll!
         <zeit>Mittw. 4-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1902w-IV.F-004"><thema>Variationsrechnung</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Mayer</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. bis Freit. 11-12 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        xml:id="v-1902w-IV.F-004"><thema>Variationsrechnung</thema>: <dozent
+        ref="mayer_a"><grad>D. ph.</grad> <nachname>Mayer</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Freit. 11-12
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1902w-IV.F-005"><thema>Elliptische
         Functionen</thema>: <dozent ref="hoelder_o"><grad>D. ph.</grad>
@@ -3728,9 +3729,9 @@ nicht wie den Ausdruck auszeichnen soll!
         <veranstaltung xml:id="v-1902w-IV.F-015">1) <dozent><grad>D.
         ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>Mont. 3-5 U.</zeit></veranstaltung>
-        <veranstaltung xml:id="v-1902w-IV.F-016">2) <dozent><grad>D.
-        ph.</grad> <nachname>Mayer</nachname>, <funktion>P.
-        O.</funktion></dozent> <zeit>Wird ev. später
+        <veranstaltung xml:id="v-1902w-IV.F-016">2) <dozent
+        ref="mayer_a"><grad>D. ph.</grad> <nachname>Mayer</nachname>,
+        <funktion>P. O.</funktion></dozent> <zeit>Wird ev. später
         ankündigen</zeit>.</veranstaltung> <veranstaltung
         xml:id="v-1902w-IV.F-017">3) <dozent ref="hoelder_o"><grad>D.
         ph.</grad> <vorname>O.</vorname> <nachname>Hölder</nachname>,

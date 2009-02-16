@@ -542,9 +542,10 @@
     <sachgruppe xml:id="sg-1822w-I.6">
       <titel>6) Mathematik.</titel>
 
-      <veranstaltungsgruppe><dozent><nachname>Mollweide</nachname>,
-      <vorname>K. B.</vorname>, <funktion>P. O.</funktion></dozent>,
-      <veranstaltung xml:id="v-1822w-I.6-001"><thema>über den <notiz
+      <veranstaltungsgruppe><dozent
+      ref="mollweide_kb"><nachname>Mollweide</nachname>, <vorname>K.
+      B.</vorname>, <funktion>P. O.</funktion></dozent>, <veranstaltung
+      xml:id="v-1822w-I.6-001"><thema>über den <notiz
       betreff="fortsetzung">zweiten Theil</notiz> der mechanischen
       Wissenschaften, oder die eigentliche Mechanik</thema>, <zeit>3 U. 4
       T.</zeit> <modus>öffentlich</modus></veranstaltung>; ingl.
@@ -554,13 +555,14 @@
       Analysis</thema> <zeit>in zu best. St. 4
       T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-      <veranstaltungsgruppe><dozent><nachname>Möbius</nachname>, <vorname>A.
-      F.</vorname>, <funktion>P. E. u. Observ.</funktion></dozent>,
-      <veranstaltung xml:id="v-1822w-I.6-004"><thema>praktische
-      Astronomie</thema>, <zeit>4 U. Mont. und Donnerst.</zeit>
-      <modus>öffentlich</modus></veranstaltung>; ingl. <veranstaltung
-      xml:id="v-1822w-I.6-005"><thema>mathematische Geographie</thema> <zeit>5
-      U. Mont. und Donnerst.</zeit></veranstaltung></veranstaltungsgruppe>
+      <veranstaltungsgruppe><dozent
+      ref="moebius_af"><nachname>Möbius</nachname>, <vorname>A. F.</vorname>,
+      <funktion>P. E. u. Observ.</funktion></dozent>, <veranstaltung
+      xml:id="v-1822w-I.6-004"><thema>praktische Astronomie</thema>, <zeit>4
+      U. Mont. und Donnerst.</zeit> <modus>öffentlich</modus></veranstaltung>;
+      ingl. <veranstaltung xml:id="v-1822w-I.6-005"><thema>mathematische
+      Geographie</thema> <zeit>5 U. Mont. und
+      Donnerst.</zeit></veranstaltung></veranstaltungsgruppe>
     </sachgruppe>
 
     <sachgruppe xml:id="sg-1822w-I.7">
@@ -1102,11 +1104,11 @@
       <sachgruppe xml:id="sg-1822w-III.1.003">
         <titel>Institutionen.</titel>
 
-        <veranstaltung
-        xml:id="v-1822w-III.1.003-001"><dozent><nachname>Müller</nachname>,
-        <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-        O.</funktion></dozent>, <thema>nach Heineccius</thema>, <zeit>8 U. 6
-        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1822w-III.1.003-001"><dozent
+        ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+        <vorname>J. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <thema>nach Heineccius</thema>, <zeit>8 U. 6 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1822w-III.1.003-002"><dozent
         ref="wenck_kfc"><nachname>Wenck</nachname>, <grad>D.</grad>
@@ -1454,10 +1456,10 @@
       <sachgruppe xml:id="sg-1822w-III.11.e">
         <titel>e) über die Pandekten.</titel>
 
-        <veranstaltung
-        xml:id="v-1822w-III.11.e-001"><dozent><nachname>Müller</nachname>,
-        <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>zu best. St. 6 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1822w-III.11.e-001"><dozent
+        ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+        <vorname>J. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>zu best. St. 6 T.</zeit></veranstaltung>
 
         <veranstaltung
         xml:id="v-1822w-III.11.e-002"><dozent><nachname>Otto</nachname>,
@@ -1626,10 +1628,10 @@
     <sachgruppe xml:id="sg-1822w-IV.5">
       <titel>5) Semiotik.</titel>
 
-      <veranstaltung
-      xml:id="v-1822w-IV.5-001"><dozent><nachname>Radius</nachname>,
-      <grad>D.</grad> <vorname>J.</vorname></dozent>, <thema>über einige
-      Kapitel der Semiotik</thema> <zeit>2 U. 2 T.</zeit>
+      <veranstaltung xml:id="v-1822w-IV.5-001"><dozent
+      ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+      <vorname>J.</vorname></dozent>, <thema>über einige Kapitel der
+      Semiotik</thema> <zeit>2 U. 2 T.</zeit>
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
     </sachgruppe>
 
@@ -1683,10 +1685,10 @@
       <vorname>F. Ph.</vorname></dozent>, <thema>über
       Augenkrankheiten</thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1822w-IV.7-007"><dozent><nachname>Radius</nachname>,
-      <grad>D.</grad> <vorname>J.</vorname></dozent>, <thema>über
-      Augenentzündungen</thema>, <zeit>11 U. 2 T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1822w-IV.7-007"><dozent
+      ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+      <vorname>J.</vorname></dozent>, <thema>über Augenentzündungen</thema>,
+      <zeit>11 U. 2 T.</zeit></veranstaltung>
 
       <veranstaltung
       xml:id="v-1822w-IV.7-008"><dozent><nachname>Hasper</nachname>,

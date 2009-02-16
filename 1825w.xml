@@ -735,16 +735,17 @@ Veranstaltungstitel oder eine Ortsangabe?-->
     <sachgruppe xml:id="sg-1825w-I.V">
       <titel>V. Mathematik und Astronomie.</titel>
 
-      <veranstaltung
-      xml:id="v-1825w-I.V-001"><dozent><nachname>Möbius</nachname>,
-      <vorname>A. F.</vorname>, <funktion>P. E. et Obs.</funktion></dozent>,
-      <thema>Theorie der Fernröhre u. Geschichte der damit am Himmel gemachten
+      <veranstaltung xml:id="v-1825w-I.V-001"><dozent
+      ref="moebius_af"><nachname>Möbius</nachname>, <vorname>A. F.</vorname>,
+      <funktion>P. E. et Obs.</funktion></dozent>, <thema>Theorie der
+      Fernröhre u. Geschichte der damit am Himmel gemachten
       Entdeckungen</thema>, <zeit>4 U. 2 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung xml:id="v-1825w-I.V-002"><ders>Derselbe</ders>,
-      <thema>über Einrichtung des Weltgebäudes u. Astrognosie</thema>, <zeit>5
-      U. 2 T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1825w-I.V-002"><ders
+      ref="moebius_af">Derselbe</ders>, <thema>über Einrichtung des
+      Weltgebäudes u. Astrognosie</thema>, <zeit>5 U. 2
+      T.</zeit></veranstaltung>
 
       <veranstaltung
       xml:id="v-1825w-I.V-003"><dozent><nachname>Naumann</nachname>,
@@ -1327,11 +1328,11 @@ oder ist mit Folgendem verknüpft:-->
       <sachgruppe xml:id="sg-1825w-II.B.003">
         <titel>Rechtsgeschichte.</titel>
 
-        <veranstaltung
-        xml:id="v-1825w-II.B.003-001"><dozent><nachname>Müller</nachname>,
-        <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P. O.</funktion>
-        u. d. Z. <funktion>Dech.</funktion></dozent>, <thema>Geschichte des
-        römischen Rechts, nach <gesperrt>Bach</gesperrt></thema>, <zeit>2 U. 4
+        <veranstaltung xml:id="v-1825w-II.B.003-001"><dozent
+        ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+        <vorname>J. G.</vorname>, <funktion>P. O.</funktion> u. d. Z.
+        <funktion>Dech.</funktion></dozent>, <thema>Geschichte des römischen
+        Rechts, nach <gesperrt>Bach</gesperrt></thema>, <zeit>2 U. 4
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1825w-II.B.003-002"><dozent
@@ -1434,12 +1435,12 @@ oder ist mit Folgendem verknüpft:-->
             <sachgruppe xml:id="sg-1825w-II.B.II.A.1.002">
               <titel>Institutionen.</titel>
 
-              <veranstaltung
-              xml:id="v-1825w-II.B.II.A.1.002-001"><dozent><nachname>Müller</nachname>,
-              <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-              O.</funktion> u. d. Z. <funktion>Dech.</funktion></dozent>,
-              <thema>nach <gesperrt>Heineccius</gesperrt></thema>, <zeit>8 U.
-              6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+              <veranstaltung xml:id="v-1825w-II.B.II.A.1.002-001"><dozent
+              ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+              <vorname>J. G.</vorname>, <funktion>P. O.</funktion> u. d. Z.
+              <funktion>Dech.</funktion></dozent>, <thema>nach
+              <gesperrt>Heineccius</gesperrt></thema>, <zeit>8 U. 6 T.</zeit>
+              <modus>öffentlich</modus>.</veranstaltung>
 
               <veranstaltung xml:id="v-1825w-II.B.II.A.1.002-002"><dozent
               ref="wenck_kfc"><nachname>Wenck</nachname>, <grad>D.</grad>
@@ -1763,11 +1764,11 @@ oder ist mit Folgendem verknüpft:-->
           <sachgruppe xml:id="sg-1825w-II.B.II.C.1">
             <titel>1) Examinirübungen.</titel>
 
-            <veranstaltung
-            xml:id="v-1825w-II.B.II.C.1-001"><dozent><nachname>Müller</nachname>,
-            <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-            O.</funktion> u. d. Z. <funktion>Dech.</funktion></dozent>,
-            <thema>über Pandecten</thema>, <zeit>6 T. in zu best.
+            <veranstaltung xml:id="v-1825w-II.B.II.C.1-001"><dozent
+            ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+            <vorname>J. G.</vorname>, <funktion>P. O.</funktion> u. d. Z.
+            <funktion>Dech.</funktion></dozent>, <thema>über
+            Pandecten</thema>, <zeit>6 T. in zu best.
             St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1825w-II.B.II.C.1-002"><dozent
@@ -2053,9 +2054,9 @@ oder ist mit Folgendem verknüpft:-->
             ref="walther_jkw">Derselbe</ders>, <thema>über die syphilitischen
             Krankh.</thema>, <zeit>2 U. 2 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1825w-II.C.I.3.002-007"><dozent><nachname>Radius</nachname>,
-            <grad>D.</grad> <vorname>J.</vorname></dozent>, <thema>über die
+            <veranstaltung xml:id="v-1825w-II.C.I.3.002-007"><dozent
+            ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+            <vorname>J.</vorname></dozent>, <thema>über die
             Augenkrankheiten</thema>, <zeit>1 U. 2 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -2089,9 +2090,9 @@ oder ist mit Folgendem verknüpft:-->
         <sachgruppe xml:id="sg-1825w-II.C.I.5">
           <titel>5) Diätetik.</titel>
 
-          <veranstaltung
-          xml:id="v-1825w-II.C.I.5-001"><dozent><nachname>Radius</nachname>,
-          <grad>D.</grad> <vorname>J.</vorname></dozent>, <zeit>2 U. 2
+          <veranstaltung xml:id="v-1825w-II.C.I.5-001"><dozent
+          ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+          <vorname>J.</vorname></dozent>, <zeit>2 U. 2
           T.</zeit></veranstaltung>
         </sachgruppe>
 
@@ -2115,10 +2116,10 @@ oder ist mit Folgendem verknüpft:-->
           <vorname>W. A.</vorname>, <funktion>P. O.</funktion></dozent>,
           <zeit>11 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1825w-II.C.II.1-002"><dozent><nachname>Radius</nachname>,
-          <grad>D.</grad> <vorname>J.</vorname></dozent>, <zeit>3 U. 4 T. oder
-          zu ein. andern gelegenen St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1825w-II.C.II.1-002"><dozent
+          ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+          <vorname>J.</vorname></dozent>, <zeit>3 U. 4 T. oder zu ein. andern
+          gelegenen St.</zeit></veranstaltung>
 
           <sachgruppe xml:id="sg-1825w-II.C.II.1.x">
             <titel>*) Experimentalpharmacie.</titel>

@@ -566,17 +566,18 @@
         <sachgruppe xml:id="sg-1818s-I.B.II.1">
           <titel>1) <scil text="Reine Mathematik">Reine</scil>.</titel>
 
-          <veranstaltungsgruppe><dozent><funktion>P. O.</funktion>
-          <nachname>Mollweide</nachname></dozent>, <veranstaltung
-          xml:id="v-1818s-I.B.II.1-001"><thema>Arithmetik und Geometrie, nach
-          Lorenz</thema>, <zeit>10 U. 4 T.</zeit></veranstaltung>
-          <veranstaltung xml:id="v-1818s-I.B.II.1-002"><thema>Analysis des
-          Endlichen</thema>, <zeit>11 U. 4
-          T.</zeit></veranstaltung></veranstaltungsgruppe>
+          <veranstaltungsgruppe><dozent ref="mollweide_kb"><funktion>P.
+          O.</funktion> <nachname>Mollweide</nachname></dozent>,
+          <veranstaltung xml:id="v-1818s-I.B.II.1-001"><thema>Arithmetik und
+          Geometrie, nach Lorenz</thema>, <zeit>10 U. 4
+          T.</zeit></veranstaltung> <veranstaltung
+          xml:id="v-1818s-I.B.II.1-002"><thema>Analysis des Endlichen</thema>,
+          <zeit>11 U. 4 T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-          <veranstaltung xml:id="v-1818s-I.B.II.1-003"><ders>Derselbe</ders>,
-          <thema>Stereometrie, und ebene Trigonometrie</thema>, <zeit>4 U. 4
-          T.</zeit> <modus>öffentl.</modus></veranstaltung>
+          <veranstaltung xml:id="v-1818s-I.B.II.1-003"><ders
+          ref="mollweide_kb">Derselbe</ders>, <thema>Stereometrie, und ebene
+          Trigonometrie</thema>, <zeit>4 U. 4 T.</zeit>
+          <modus>öffentl.</modus></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1818s-I.B.II.2">
@@ -586,8 +587,8 @@
           <sachgruppe xml:id="sg-1818s-I.B.II.2.a">
             <titel>a) Katoptrik und Dioptrik.</titel>
 
-            <veranstaltung
-            xml:id="v-1818s-I.B.II.2.a-001"><dozent><funktion>P. E.</funktion>
+            <veranstaltung xml:id="v-1818s-I.B.II.2.a-001"><dozent
+            ref="moebius_af"><funktion>P. E.</funktion>
             <nachname>Möbius</nachname></dozent>, <thema>mit besonderer
             Rücksicht auf astronomische Fernröhre</thema>, <zeit>10 U. 2
             T.</zeit> <modus>öffentl.</modus></veranstaltung>
@@ -596,9 +597,9 @@
           <sachgruppe xml:id="sg-1818s-I.B.II.2.b">
             <titel>b) Sphärische und theorische Astronomie.</titel>
 
-            <veranstaltung
-            xml:id="v-1818s-I.B.II.2.b-001"><ders>Derselbe</ders>, <zeit>4 U.
-            4 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1818s-I.B.II.2.b-001"><ders
+            ref="moebius_af">Derselbe</ders>, <zeit>4 U. 4
+            T.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
       </sachgruppe>
@@ -1508,8 +1509,8 @@
           <nachname>Klien</nachname></dozent>, <thema>gemeines und
           sächsisches</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung xml:id="v-1818s-II.B.I.4-003"><dozent>OHGR.
-          <funktion>P. E.</funktion> <grad>D.</grad>
+          <veranstaltung xml:id="v-1818s-II.B.I.4-003"><dozent
+          ref="mueller_jg">OHGR. <funktion>P. E.</funktion> <grad>D.</grad>
           <nachname>Müller</nachname></dozent>, <thema>nach Böhmer</thema>,
           <zeit>8 U. 6 T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
@@ -1532,9 +1533,10 @@
           O.</funktion> <grad>D.</grad>
           <nachname>Stockmann</nachname></dozent>, <zeit>11 U. 4 T.</zeit>
           <modus>öff.</modus></veranstaltung> <veranstaltung
-          xml:id="v-1818s-II.B.I.5-003"><dozent>OHGR. <funktion>P.
-          E.</funktion> <grad>D.</grad> <nachname>Müller</nachname></dozent>,
-          <zeit>7 U. 6 T.</zeit></veranstaltung>, <thema>sämmtl. n.
+          xml:id="v-1818s-II.B.I.5-003"><dozent ref="mueller_jg">OHGR.
+          <funktion>P. E.</funktion> <grad>D.</grad>
+          <nachname>Müller</nachname></dozent>, <zeit>7 U. 6
+          T.</zeit></veranstaltung>, <thema>sämmtl. n.
           Böhmer</thema>.</veranstaltungsgruppe>
         </sachgruppe>
       </sachgruppe>
@@ -1733,8 +1735,8 @@
               <titel>α) über die Institutionen</titel>
 
               <veranstaltungsgruppe>die Herren Proff. Doct. u. Baccal.
-              <veranstaltung
-              xml:id="v-1818s-II.B.II.xx.b.alpha-001"><dozent><nachname>Müller</nachname></dozent></veranstaltung>,
+              <veranstaltung xml:id="v-1818s-II.B.II.xx.b.alpha-001"><dozent
+              ref="mueller_jg"><nachname>Müller</nachname></dozent></veranstaltung>,
               <veranstaltung xml:id="v-1818s-II.B.II.xx.b.alpha-002"><dozent
               ref="wenck_kfc"><nachname>Wenck</nachname></dozent></veranstaltung>,
               <veranstaltung xml:id="v-1818s-II.B.II.xx.b.alpha-003"><dozent
@@ -1753,8 +1755,8 @@
             <sachgruppe xml:id="sg-1818s-II.B.II.xx.b.beta">
               <titel>β) über die Pandekten.</titel>
 
-              <veranstaltung
-              xml:id="v-1818s-II.B.II.xx.b.beta-001"><dozent><nachname>Müller</nachname></dozent>,</veranstaltung>
+              <veranstaltung xml:id="v-1818s-II.B.II.xx.b.beta-001"><dozent
+              ref="mueller_jg"><nachname>Müller</nachname></dozent>,</veranstaltung>
 
               <veranstaltung xml:id="v-1818s-II.B.II.xx.b.beta-002"><dozent
               ref="wenck_kfc"><nachname>Wenck</nachname></dozent>,</veranstaltung>

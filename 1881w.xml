@@ -554,16 +554,16 @@
       <veranstaltung xml:id="v-1881w-II-028"><thema>Königl. Sächsisches
       Privatrecht auf der Grundlage des bürgerlichen Gesetzbuchs, <notiz
       betreff="fortsetzung">II. Theil</notiz> (Recht der Forderungen,
-      Familienrecht)</thema>: <dozent><grad>D. jur.</grad>
+      Familienrecht)</thema>: <dozent ref="mueller_o"><grad>D. jur.</grad>
       <nachname>Müller</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. bis Freit. 3-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1881w-II-029"><thema>Ausgewählte Lehren des
       sächsischen Privatrechts (bez. mit praktischen Uebungen)</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Müller</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Sonnab. 3-4 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      <dozent ref="mueller_o"><grad>D. jur.</grad>
+      <nachname>Müller</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Sonnab. 3-4 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -625,9 +625,10 @@
       E.</funktion></dozent> <siehe>Siehe Medicinische
       Facultät.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Gerichtliche Geburtskunde</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Meissner</nachname></dozent>.
-      <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Gerichtliche Geburtskunde</thema>: <dozent
+      ref="meissner_ea"><grad>D. med.</grad>
+      <nachname>Meissner</nachname></dozent>. <siehe>Siehe Medicinische
+      Facultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Naturrecht (Rechtsphilosophie)</thema>:
       <dozent ref="fricker_cv"><grad>D. ph., jur. &amp; oecon. publ.</grad>
@@ -766,7 +767,7 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1881w-III-019"><thema>Oeffentliche und private
-      Hygiene</thema>: <dozent><grad>D. med.</grad>
+      Hygiene</thema>: <dozent ref="radius_j"><grad>D. med.</grad>
       <nachname>Radius</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mittw. u. Sonnab., 12-1 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -800,7 +801,7 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1881w-III-024"><thema>Pharmakognosie mit
-      Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+      Demonstrationen</thema>: <dozent ref="radius_j"><grad>D. med.</grad>
       <nachname>Radius</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont., Dienst., Donnerst. u. Freit., 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1037,16 +1038,17 @@
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1881w-III-062"><thema>Cursus der Laryngoskopie
-      und Rhinoskopie</thema>: <dozent><grad>D. med.</grad>
+      und Rhinoskopie</thema>: <dozent ref="moldenhauer_w"><grad>D.
+      med.</grad> <nachname>Moldenhauer</nachname></dozent>,
+      <zeit>sechswöchentlich, an zwei zu vereinbarenden Tagen und
+      Stunden</zeit>, <modus>privatissime</modus>.</veranstaltung>
+
+      <veranstaltung
+      xml:id="v-1881w-III-063"><thema>Ohrenspiegelcursus</thema>: <dozent
+      ref="moldenhauer_w"><grad>D. med.</grad>
       <nachname>Moldenhauer</nachname></dozent>, <zeit>sechswöchentlich, an
       zwei zu vereinbarenden Tagen und Stunden</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
-
-      <veranstaltung
-      xml:id="v-1881w-III-063"><thema>Ohrenspiegelcursus</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Moldenhauer</nachname></dozent>,
-      <zeit>sechswöchentlich, an zwei zu vereinbarenden Tagen und
-      Stunden</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1881w-III-064"><thema>Cursus der
       Laryngoskopie</thema> (<zeit>sechswöchentlich</zeit>): <dozent
@@ -1114,9 +1116,10 @@
       <seite>14</seite>
 
       <veranstaltung xml:id="v-1881w-III-075"><thema>Theoretische und
-      praktische Operationslehre für Geburtshelfer</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Meissner</nachname></dozent>, <zeit>an zu best.
-      Tagen u. Stunden</zeit>, <modus>privatissime</modus>.</veranstaltung>
+      praktische Operationslehre für Geburtshelfer</thema>: <dozent
+      ref="meissner_ea"><grad>D. med.</grad>
+      <nachname>Meissner</nachname></dozent>, <zeit>an zu best. Tagen u.
+      Stunden</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1881w-III-076"><thema>Repetitorium der
       Geburtshülfe, mit Operationsübungen am Phantom</thema>: <dozent><grad>D.
@@ -1243,7 +1246,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1881w-III-097"><thema>Gerichtliche
-      Geburtskunde</thema>: <dozent><grad>D. med.</grad>
+      Geburtskunde</thema>: <dozent ref="meissner_ea"><grad>D. med.</grad>
       <nachname>Meissner</nachname></dozent>, <zeit>Mittw. u. Sonnab., 6-7
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -1541,10 +1544,10 @@
           10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1881w-IV.B.a-006"><thema>Griechische
-          Epigraphik (Lectüre ausgewählter Inschriften)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Meyer</nachname></dozent>,
-          <zeit>Mittw. u. Sonnab., 9½-11 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          Epigraphik (Lectüre ausgewählter Inschriften)</thema>: <dozent
+          ref="meyer_eduard"><grad>D. ph.</grad>
+          <nachname>Meyer</nachname></dozent>, <zeit>Mittw. u. Sonnab., 9½-11
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1881w-IV.B.a-007"><thema>Erklärung des XIV.
           Buchs der Annalen des Tacitus nebst Einleitung über die Verfassung
@@ -2176,8 +2179,9 @@
 
         <veranstaltung xml:id="v-1881w-IV.C-024"><thema>Uebungen des
         Königlichen historischen Seminars, Abtheilung für alte Geschichte
-        (Geschichte Alexanders des Grossen)</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Meyer</nachname></dozent>, <zeit>Donnerst. 7-9 U.
+        (Geschichte Alexanders des Grossen)</thema>: <dozent
+        ref="meyer_eduard"><grad>D. ph.</grad>
+        <nachname>Meyer</nachname></dozent>, <zeit>Donnerst. 7-9 U.
         Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1881w-IV.C-025"><thema>Historische Uebungen
@@ -2299,20 +2303,20 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1881w-IV.D-004"><thema>Allgemeine Geschichte
-        der Musik</thema>: <dozent><grad>D. ph.</grad>
+        der Musik</thema>: <dozent ref="paul_o"><grad>D. ph.</grad>
         <nachname>Paul</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. u. Freit., 12-1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1881w-IV.D-005"><thema>Die Entwickelung der
-        Tonkunst im 19. Jahrhundert bis zur Gegenwart</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Paul</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>an näher zu best. Tagen und
+        Tonkunst im 19. Jahrhundert bis zur Gegenwart</thema>: <dozent
+        ref="paul_o"><grad>D. ph.</grad> <nachname>Paul</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>an näher zu best. Tagen und
         Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1881w-IV.D-006"><thema>Harmonik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Paul</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. 10-11 U.</zeit>,
+        <dozent ref="paul_o"><grad>D. ph.</grad> <nachname>Paul</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Dienst. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1881w-IV.D-007"><thema>Allgemeine
@@ -2534,10 +2538,10 @@
         <titel>F. Mathematik und Astronomie.</titel>
 
         <veranstaltung xml:id="v-1881w-IV.F-001"><thema>Einleitung in die
-        Differential- und Integralrechnung</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Mayer</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>Dienst. bis Freit., 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Differential- und Integralrechnung</thema>: <dozent
+        ref="mayer_a"><grad>D. ph.</grad> <nachname>Mayer</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Dienst. bis Freit.,
+        9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1881w-IV.F-002"><thema>Einleitung in die
         projectivische Geometrie (mit Einschluss der darstellenden
@@ -2622,8 +2626,8 @@
 
         <veranstaltung xml:id="v-1881w-IV.F-015"><thema>Uebungen im
         mathematischen Seminar (Differential- und Integralrechnung)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Mayer</nachname>, <funktion>P.
-        O. Hon.</funktion></dozent>, <zeit>Freit. 3-4 U.</zeit>,
+        <dozent ref="mayer_a"><grad>D. ph.</grad> <nachname>Mayer</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Freit. 3-4 U.</zeit>,
         <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -2684,7 +2688,7 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1881w-IV.G-006"><thema>Theoretische
-        Chemie</thema>: <dozent><grad>D. ph.</grad>
+        Chemie</thema>: <dozent ref="meyer_ernst"><grad>D. ph.</grad>
         <nachnamenpräfix>von</nachnamenpräfix> <nachname>Meyer</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst., 12-1
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>

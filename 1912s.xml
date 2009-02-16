@@ -548,9 +548,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-005"><thema>System des römischen
-      Privatrechts</thema>: <dozent><grad>D. jur. et ph.</grad>
-      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Do. bis So. 11-1 U.</zeit>,
+      Privatrechts</thema>: <dozent ref="mitteis_l"><grad>D. jur. et
+      ph.</grad> <nachname>Mitteis</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Do. bis So. 11-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-006"><thema>Pandekten als Grundlage
@@ -637,13 +637,13 @@
       <zeit>tägl. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-021"><thema>Allgemeine
-      Staatslehre</thema>: <dozent><grad>D. jur.</grad>
+      Staatslehre</thema>: <dozent ref="mayer_o"><grad>D. jur.</grad>
       <vorname>Otto</vorname> <nachname>Mayer</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Di., Mi. u. Do. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-022"><thema>Deutsches Reichs- und
-      Landesstaatsrecht</thema>: <dozent><grad>D. jur.</grad>
+      Landesstaatsrecht</thema>: <dozent ref="mayer_o"><grad>D. jur.</grad>
       <vorname>Otto</vorname> <nachname>Mayer</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Mo. bis Fr. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -657,7 +657,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-024"><thema>Völkerrecht</thema>:
-      <dozent><grad>D. jur.</grad> <vorname>Otto</vorname>
+      <dozent ref="mayer_o"><grad>D. jur.</grad> <vorname>Otto</vorname>
       <nachname>Mayer</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Di. u. Mi. 11 bis 12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -751,10 +751,10 @@
       11)</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-038"><thema>Mündliche und schriftliche
-      Übungen im deutschen bürgerlichen Recht (für Anfänger)</thema>:
-      <dozent><grad>D. jur. et ph.</grad> <nachname>Mitteis</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Do. 5-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Übungen im deutschen bürgerlichen Recht (für Anfänger)</thema>: <dozent
+      ref="mitteis_l"><grad>D. jur. et ph.</grad>
+      <nachname>Mitteis</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Do. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-039"><thema>Mündliche und schriftliche
       Übungen im deutschen bürgerlichen Recht (für Vorgerücktere)</thema>:
@@ -2800,9 +2800,9 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-IV.B.c-003"><thema>Einführung ins
-          Dänische und Lektüre eines leichten Textes</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Mogk</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mi. u. So. 8-9 U.</zeit>,
+          Dänische und Lektüre eines leichten Textes</thema>: <dozent
+          ref="mogk_e"><grad>D. ph.</grad> <nachname>Mogk</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Mi. u. So. 8-9 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-IV.B.c-004"><thema>Deutsche Grammatik
@@ -2909,9 +2909,10 @@
             Gregorius</thema>, <zeit>Mi. 5-7 U.</zeit>,
             <modus>publice</modus></veranstaltung>; <veranstaltung
             xml:id="v-1912s-IV.B.c.001-006">d) <thema>Nordischer Kurs</thema>:
-            <dozent><grad>D. ph.</grad> <nachname>Mogk</nachname>,
-            <funktion>P. E.</funktion></dozent>: <thema>Lektüre der Snorra
-            Edda</thema>, <zeit>Mi. 7½-9 U. Ab.</zeit>,
+            <dozent ref="mogk_e"><grad>D. ph.</grad>
+            <nachname>Mogk</nachname>, <funktion>P. E.</funktion></dozent>:
+            <thema>Lektüre der Snorra Edda</thema>, <zeit>Mi. 7½-9 U.
+            Ab.</zeit>,
             <modus>publice</modus></veranstaltung></veranstaltungsgruppe>. -
             <veranstaltungsgruppe>2) <thema>Neuere Abteilung</thema>:
             <veranstaltung xml:id="v-1912s-IV.B.c.001-007">a) <dozent
@@ -3552,10 +3553,10 @@
               <titel>A. Kurse zur Einzelforschung (singuläre Methode).</titel>
 
               <veranstaltung gebühr="gratis" modus="privatissime"
-              xml:id="v-1912s-IV.C.002.II.A-001">1) <dozent><grad>D.
-              ph.</grad> <nachname>Mogk</nachname>, <funktion>P.
-              E.</funktion></dozent>: <thema>Altgermanische Riten</thema>,
-              <zeit>Fr. 7½ bis 9 U. Ab.</zeit></veranstaltung>
+              xml:id="v-1912s-IV.C.002.II.A-001">1) <dozent
+              ref="mogk_e"><grad>D. ph.</grad> <nachname>Mogk</nachname>,
+              <funktion>P. E.</funktion></dozent>: <thema>Altgermanische
+              Riten</thema>, <zeit>Fr. 7½ bis 9 U. Ab.</zeit></veranstaltung>
 
               <veranstaltung gebühr="gratis" modus="privatissime"
               xml:id="v-1912s-IV.C.002.II.A-002">2) <dozent
@@ -4567,10 +4568,11 @@
         Institut, Eingang Linnéstr. 5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-008"><thema>Elektrodynamische
-        Anwendungen der Vektoranalysis</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Marx</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mi. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im Physikal.
-        Institut, Linnéstr. 5</ort>.</veranstaltung>
+        Anwendungen der Vektoranalysis</thema>: <dozent ref="marx_e"><grad>D.
+        ph.</grad> <nachname>Marx</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mi. 5-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikal. Institut, Linnéstr.
+        5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-009"><thema>Kinetische
         Gastheorie</thema>: <dozent><grad>D. ph.</grad>
@@ -4798,15 +4800,15 @@
         Botanischen Institut, Linnéstr. 1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-043"><thema>Systematische Botanik
-        mit Berücksichtigung der offizinellen Pflanzen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Miehe</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Di. u. Fr. 6 bis 7 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Botanischen Institut, Linnéstr.
-        1</ort>.</veranstaltung>
+        mit Berücksichtigung der offizinellen Pflanzen</thema>: <dozent
+        ref="miehe_h"><grad>D. ph.</grad> <nachname>Miehe</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Di. u. Fr. 6 bis 7
+        U.</zeit>, <modus>privatim</modus>, <ort>im Botanischen Institut,
+        Linnéstr. 1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-044"><thema>Die Vegetation der
         Tropen mit Berücksichtigung der tropischen Kulturpflanzen (mit
-        Demonstrationen)</thema>: <dozent><grad>D. ph.</grad>
+        Demonstrationen)</thema>: <dozent ref="miehe_h"><grad>D. ph.</grad>
         <nachname>Miehe</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mi. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>im Botanischen
         Institut, Linnéstr. 1</ort>.</veranstaltung>
@@ -5169,13 +5171,13 @@ VA-Gruppe also noch rückgängig machen)--></veranstaltungsgruppe>
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-087"><thema>Bakteriologisches
-        Praktikum</thema>: <dozent><grad>D. ph.</grad>
+        Praktikum</thema>: <dozent ref="miehe_h"><grad>D. ph.</grad>
         <nachname>Miehe</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mo. 3-6 Ü.</zeit>, <modus>privatim</modus>, <ort>im Botanischen
         Institut, Linnéstr. 1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-088"><thema>Übungen im
-        Pflanzenbestimmen</thema>: <dozent><grad>D. ph.</grad>
+        Pflanzenbestimmen</thema>: <dozent ref="miehe_h"><grad>D. ph.</grad>
         <nachname>Miehe</nachname> <funktion>P. E.</funktion></dozent>
         <zeit>Do. 6-7½ U.</zeit>, <modus>privatim</modus>, <ort>im Botanischen
         Inst., Linnéstr. 1</ort>.</veranstaltung>
@@ -5187,7 +5189,7 @@ VA-Gruppe also noch rückgängig machen)--></veranstaltungsgruppe>
         1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-090"><thema>Botanische
-        Exkursionen</thema>: <dozent><grad>D. ph.</grad>
+        Exkursionen</thema>: <dozent ref="miehe_h"><grad>D. ph.</grad>
         <nachname>Miehe</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>an besonders bekanntzugeb. So. Nachm.</zeit>,
         <modus>publice</modus>.</veranstaltung>
@@ -5217,16 +5219,17 @@ VA-Gruppe also noch rückgängig machen)--></veranstaltungsgruppe>
         <trennlinie/>
 
         <veranstaltung xml:id="v-1912s-IV.G-095"><thema>Geschichte der
-        Stenographie</thema>: <dozent><funktion>Lektor für
+        Stenographie</thema>: <dozent ref="blachstein_a"><funktion>Lektor für
         Stenographie</funktion> <grad>D. med.</grad>
         <nachname>Blachstein</nachname></dozent>, <zeit>Fr. 5-6 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-096"><thema>Die Redeschrift des
         Gabelsbergerschen Systems mit schnellschriftlichen Übungen</thema>:
-        <dozent><funktion>Lektor für Stenographie</funktion> <grad>D.
-        med.</grad> <nachname>Blachstein</nachname></dozent>, <zeit>Di. 5-6
-        U.</zeit>, <modus>publice</modus>.</veranstaltung>
+        <dozent ref="blachstein_a"><funktion>Lektor für
+        Stenographie</funktion> <grad>D. med.</grad>
+        <nachname>Blachstein</nachname></dozent>, <zeit>Di. 5-6 U.</zeit>,
+        <modus>publice</modus>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
 

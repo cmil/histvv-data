@@ -650,28 +650,29 @@
       <sachgruppe xml:id="sg-1823w-I.IV.1">
         <titel>1) Reine.</titel>
 
-        <veranstaltung
-        xml:id="v-1823w-I.IV.1-001"><dozent><nachname>Mollweide</nachname>,
-        <vorname>C. B.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <veranstaltung xml:id="v-1823w-I.IV.1-001"><dozent
+        ref="mollweide_kb"><nachname>Mollweide</nachname>, <vorname>C.
+        B.</vorname>, <funktion>P. O.</funktion></dozent>,
         <thema>Algebra</thema>, <zeit>3 U. 4 T.</zeit>,
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1823w-I.IV.1-002"><dozent><nachname>Möbius</nachname>,
-        <vorname>A. F.</vorname>, <funktion>P. E. et
-        Observ.</funktion></dozent>, <thema>Arithmetik und Geometrie</thema>,
-        <zeit>4 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1823w-I.IV.1-002"><dozent
+        ref="moebius_af"><nachname>Möbius</nachname>, <vorname>A.
+        F.</vorname>, <funktion>P. E. et Observ.</funktion></dozent>,
+        <thema>Arithmetik und Geometrie</thema>, <zeit>4 U. 4
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1823w-I.IV.2">
         <titel>2) Angewandte.</titel>
 
-        <veranstaltung
-        xml:id="v-1823w-I.IV.2-001"><dozent><nachname>Mollweide</nachname>,
-        <vorname>C. B.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <veranstaltung xml:id="v-1823w-I.IV.2-001"><dozent
+        ref="mollweide_kb"><nachname>Mollweide</nachname>, <vorname>C.
+        B.</vorname>, <funktion>P. O.</funktion></dozent>,
         <thema>Mechanik</thema>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltungsgruppe><dozent><nachname>Möbius</nachname>, <vorname>A.
+        <veranstaltungsgruppe><dozent
+        ref="moebius_af"><nachname>Möbius</nachname>, <vorname>A.
         F.</vorname>, <funktion>P. E. et Observ.</funktion></dozent>,
         <veranstaltung xml:id="v-1823w-I.IV.2-002"><thema>theorische
         Astronomie</thema>, <zeit>3 U. Mont. u. Donn.</zeit>,
@@ -1266,12 +1267,11 @@
             <sachgruppe xml:id="sg-1823w-II.B.II.A.1.001">
               <titel>Ueber die Institutionen.</titel>
 
-              <veranstaltung
-              xml:id="v-1823w-II.B.II.A.1.001-001"><dozent><nachname>Müller</nachname>,
-              <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <thema>nach
-              <gesperrt>Heineccius</gesperrt></thema>, <zeit>8 U. 6 T.</zeit>
-              <modus>öffentlich</modus>.</veranstaltung>
+              <veranstaltung xml:id="v-1823w-II.B.II.A.1.001-001"><dozent
+              ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+              <vorname>J. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+              <thema>nach <gesperrt>Heineccius</gesperrt></thema>, <zeit>8 U.
+              6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
               <veranstaltung xml:id="v-1823w-II.B.II.A.1.001-002"><dozent
               ref="wenck_kfc"><nachname>Wenck</nachname>, <grad>D.</grad>
@@ -1617,11 +1617,10 @@
             <sachgruppe xml:id="sg-1823w-II.B.II.C.1.003">
               <titel>Ueber die Pandecten.</titel>
 
-              <veranstaltung
-              xml:id="v-1823w-II.B.II.C.1.003-001"><dozent><nachname>Müller</nachname>,
-              <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <zeit>6 T. in zu best.
-              St.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1823w-II.B.II.C.1.003-001"><dozent
+              ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+              <vorname>J. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+              <zeit>6 T. in zu best. St.</zeit></veranstaltung>
 
               <veranstaltung
               xml:id="v-1823w-II.B.II.C.1.003-002"><dozent><nachname>Liekefett</nachname>,
@@ -1645,11 +1644,10 @@
             <sachgruppe xml:id="sg-1823w-II.B.II.C.1.004">
               <titel>Ueber das Kirchenrecht.</titel>
 
-              <veranstaltung
-              xml:id="v-1823w-II.B.II.C.1.004-001"><dozent><nachname>Müller</nachname>,
-              <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <zeit>in zu best.
-              St.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1823w-II.B.II.C.1.004-001"><dozent
+              ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+              <vorname>J. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+              <zeit>in zu best. St.</zeit></veranstaltung>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1823w-II.B.II.C.1.005">
@@ -1867,10 +1865,10 @@
             Fortgang u. die Heilung der
             Lustseuche</thema></veranstaltung>.</veranstaltungsgruppe>
 
-            <veranstaltung
-            xml:id="v-1823w-II.C.I.3.001-006"><dozent><nachname>Meißner</nachname>,
-            <grad>D.</grad> <vorname>F. L.</vorname></dozent>, <thema>über
-            einige Krankheiten des Uterus</thema>, <zeit>2 U. 2 T.</zeit>,
+            <veranstaltung xml:id="v-1823w-II.C.I.3.001-006"><dozent
+            ref="meissner_fl"><nachname>Meißner</nachname>, <grad>D.</grad>
+            <vorname>F. L.</vorname></dozent>, <thema>über einige Krankheiten
+            des Uterus</thema>, <zeit>2 U. 2 T.</zeit>,
             <gebühr>unentgeldlich</gebühr>.</veranstaltung>
 
             <veranstaltung xml:id="v-1823w-II.C.I.3.001-007"><dozent
@@ -1885,8 +1883,9 @@
             Hautkrankheiten</thema>, <zeit>10 U. 2 T.</zeit>,
             <gebühr>unentgeldlich</gebühr>.</veranstaltung>
 
-            <veranstaltungsgruppe><dozent><nachname>Radius</nachname>,
-            <grad>D.</grad> <vorname>J.</vorname></dozent>, <veranstaltung
+            <veranstaltungsgruppe><dozent
+            ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+            <vorname>J.</vorname></dozent>, <veranstaltung
             xml:id="v-1823w-II.C.I.3.001-009"><thema>über die Augenkrankheiten
             und ihre Heilung</thema>, <zeit>1 U. 2 T.</zeit>,
             <gebühr>unentgeldlich</gebühr></veranstaltung>; ingl.
@@ -1905,9 +1904,9 @@
             text="der Semiotik">derselben</scil></thema>, <zeit>10 U. 4
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1823w-II.C.I.3.002-002"><dozent><nachname>Radius</nachname>,
-            <grad>D.</grad> <vorname>J.</vorname></dozent>, <zeit>11 U. 2
+            <veranstaltung xml:id="v-1823w-II.C.I.3.002-002"><dozent
+            ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+            <vorname>J.</vorname></dozent>, <zeit>11 U. 2
             T.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -2075,11 +2074,11 @@
             <thema>nach s. Lehrbuche</thema>, <zeit>9 U. 4 T.</zeit>,
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1823w-II.C.II.2.003-002"><dozent><nachname>Meißner</nachname>,
-            <grad>D.</grad> <vorname>F. L.</vorname></dozent>,
-            <thema>vergleichende Darstellung der verschiedenen Meinungen der
-            Aerzte über die Entbindungskunst</thema>, <zeit>2 U. 4 T.</zeit>,
+            <veranstaltung xml:id="v-1823w-II.C.II.2.003-002"><dozent
+            ref="meissner_fl"><nachname>Meißner</nachname>, <grad>D.</grad>
+            <vorname>F. L.</vorname></dozent>, <thema>vergleichende
+            Darstellung der verschiedenen Meinungen der Aerzte über die
+            Entbindungskunst</thema>, <zeit>2 U. 4 T.</zeit>,
             <gebühr>unentgeldlich</gebühr>.</veranstaltung>
           </sachgruppe>
 
@@ -2152,10 +2151,10 @@
           <thema>über specielle Pathologie und Therapie</thema>, <zeit>4 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1823w-II.C.III.1-004"><dozent><nachname>Meißner</nachname>,
-          <grad>D.</grad> <vorname>F. L.</vorname></dozent>, <thema>über
-          Anatomie u. Physiologie</thema>, <zeit>4 T. in zu best.
+          <veranstaltung xml:id="v-1823w-II.C.III.1-004"><dozent
+          ref="meissner_fl"><nachname>Meißner</nachname>, <grad>D.</grad>
+          <vorname>F. L.</vorname></dozent>, <thema>über Anatomie u.
+          Physiologie</thema>, <zeit>4 T. in zu best.
           St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1823w-II.C.III.1-005"><dozent

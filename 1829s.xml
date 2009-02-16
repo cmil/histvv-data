@@ -826,19 +826,19 @@
       <zeit>4 U. Dienst. u. Freit.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1829s-I.V-006"><dozent><nachname>Möbius</nachname>,
-      <vorname>A. F.</vorname>, <funktion>P. E. u. Obs.</funktion></dozent>,
-      <thema>Dioptrik</thema>, <zeit>4 U. 2 T.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      <veranstaltung xml:id="v-1829s-I.V-006"><dozent
+      ref="moebius_af"><nachname>Möbius</nachname>, <vorname>A. F.</vorname>,
+      <funktion>P. E. u. Obs.</funktion></dozent>, <thema>Dioptrik</thema>,
+      <zeit>4 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung xml:id="v-1829s-I.V-007"><ders>Derselbe</ders>,
-      <thema>Anfangsgründe der höhern Geometrie</thema>, <zeit>11 U. 4
+      <veranstaltung xml:id="v-1829s-I.V-007"><ders
+      ref="moebius_af">Derselbe</ders>, <thema>Anfangsgründe der höhern
+      Geometrie</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+
+      <veranstaltung xml:id="v-1829s-I.V-008"><ders
+      ref="moebius_af">Derselbe</ders>, <thema>Anleitung zu astronom.
+      Beobachtungen und deren Berechung</thema>, <zeit>5 U. 2
       T.</zeit></veranstaltung>
-
-      <veranstaltung xml:id="v-1829s-I.V-008"><ders>Derselbe</ders>,
-      <thema>Anleitung zu astronom. Beobachtungen und deren Berechung</thema>,
-      <zeit>5 U. 2 T.</zeit></veranstaltung>
 
       <sachgruppe xml:id="sg-1829s-I.V.x">
         <titel>*) Mathematische Gesellschaft.</titel>
@@ -1698,12 +1698,12 @@
             <sachgruppe xml:id="sg-1829s-II.B.II.I.1.002">
               <titel>Institutionen.</titel>
 
-              <veranstaltung
-              xml:id="v-1829s-II.B.II.I.1.002-001"><dozent><nachname>Müller</nachname>,
-              <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-              O.</funktion>, d. Z. <funktion>Rector</funktion></dozent>,
-              <thema>nach <gesperrt>Heineccius</gesperrt></thema>, <zeit>8 U.
-              6 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+              <veranstaltung xml:id="v-1829s-II.B.II.I.1.002-001"><dozent
+              ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+              <vorname>J. G.</vorname>, <funktion>P. O.</funktion>, d. Z.
+              <funktion>Rector</funktion></dozent>, <thema>nach
+              <gesperrt>Heineccius</gesperrt></thema>, <zeit>8 U. 6 T.</zeit>
+              <modus>öffentlich</modus>.</veranstaltung>
 
               <veranstaltung
               xml:id="v-1829s-II.B.II.I.1.002-002"><dozent><nachname>Schilling</nachname>,
@@ -1843,11 +1843,11 @@
             <sachgruppe xml:id="sg-1829s-II.B.II.I.002.1">
               <titel>1) Kirchenrecht.</titel>
 
-              <veranstaltung
-              xml:id="v-1829s-II.B.II.I.002.1-001"><dozent><nachname>Müller</nachname>,
-              <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-              O.</funktion>, d. Z. <funktion>Rector</funktion></dozent>,
-              <thema>nach <gesperrt>Böhmer</gesperrt></thema>, <zeit>7 U. 6
+              <veranstaltung xml:id="v-1829s-II.B.II.I.002.1-001"><dozent
+              ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+              <vorname>J. G.</vorname>, <funktion>P. O.</funktion>, d. Z.
+              <funktion>Rector</funktion></dozent>, <thema>nach
+              <gesperrt>Böhmer</gesperrt></thema>, <zeit>7 U. 6
               T.</zeit></veranstaltung>
 
               <veranstaltung xml:id="v-1829s-II.B.II.I.002.1-002"><dozent
@@ -2111,11 +2111,11 @@
           <sachgruppe xml:id="sg-1829s-II.B.II.III.1">
             <titel>1) Examinir-Uebungen.</titel>
 
-            <veranstaltung
-            xml:id="v-1829s-II.B.II.III.1-001"><dozent><nachname>Müller</nachname>,
-            <grad>D.</grad> <vorname>J. G.</vorname>, <funktion>P.
-            O.</funktion>, d. Z. <funktion>Rector</funktion></dozent>,
-            <thema>über Pandekten</thema>, <zeit>6 T. in den best.
+            <veranstaltung xml:id="v-1829s-II.B.II.III.1-001"><dozent
+            ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
+            <vorname>J. G.</vorname>, <funktion>P. O.</funktion>, d. Z.
+            <funktion>Rector</funktion></dozent>, <thema>über
+            Pandekten</thema>, <zeit>6 T. in den best.
             St.</zeit></veranstaltung>
 
             <veranstaltung
@@ -2398,11 +2398,10 @@
           <sachgruppe xml:id="sg-1829s-II.C.I.3.001">
             <titel>Allgemeine Pathologie.</titel>
 
-            <veranstaltung
-            xml:id="v-1829s-II.C.I.3.001-001"><dozent><nachname>Radius</nachname>,
-            <grad>D.</grad> <vorname>J.</vorname>, <funktion>P. E.
-            des.</funktion></dozent>, <zeit>8 U. 3 T.</zeit>,
-            <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1829s-II.C.I.3.001-001"><dozent
+            ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+            <vorname>J.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+            <zeit>8 U. 3 T.</zeit>, <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung
             xml:id="v-1829s-II.C.I.3.001-002"><dozent><nachname>Hasper</nachname>,
@@ -2440,11 +2439,10 @@
             und Heilen der Kinderkrankheiten Lpz. 1826.)</thema>, <zeit>8 U. 2
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1829s-II.C.I.3.002-003"><dozent><nachname>Radius</nachname>,
-            <grad>D.</grad> <vorname>J.</vorname>, <funktion>P. E.
-            des.</funktion></dozent>, <thema>über Augenkrankheiten</thema>,
-            <zeit>3 U. 2 T.</zeit>
+            <veranstaltung xml:id="v-1829s-II.C.I.3.002-003"><dozent
+            ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+            <vorname>J.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+            <thema>über Augenkrankheiten</thema>, <zeit>3 U. 2 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <veranstaltung xml:id="v-1829s-II.C.I.3.002-004"><dozent
@@ -2502,10 +2500,10 @@
         <sachgruppe xml:id="sg-1829s-II.C.I.6">
           <titel>6) Diätetik.</titel>
 
-          <veranstaltung
-          xml:id="v-1829s-II.C.I.6-001"><dozent><nachname>Radius</nachname>,
-          <grad>D.</grad> <vorname>J.</vorname>, <funktion>P. E.
-          des.</funktion></dozent>, <zeit>3 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1829s-II.C.I.6-001"><dozent
+          ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
+          <vorname>J.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+          <zeit>3 U. 2 T.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 

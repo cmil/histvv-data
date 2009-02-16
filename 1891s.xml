@@ -475,9 +475,9 @@
 
       <veranstaltung xml:id="v-1891s-II-013"><thema>Königl. Sächsisches
       Privatrecht <notiz betreff="fortsetzung">I. Theil</notiz> (allgemeine
-      Lehren und Sachenrecht)</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Müller</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Donnerst. 4-5 U.</zeit>,
+      Lehren und Sachenrecht)</thema>: <dozent ref="mueller_o"><grad>D.
+      jur.</grad> <nachname>Müller</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1891s-II-014"><thema>Preussisches
@@ -549,9 +549,9 @@
       <zeit>Mont. 5-7 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1891s-II-025"><thema>Pandekten-Repetitorium mit
-      exegetische und praktischen Uebungen</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Müller</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Freit. 4-½6 U.</zeit>,
+      exegetische und praktischen Uebungen</thema>: <dozent
+      ref="mueller_o"><grad>D. jur.</grad> <nachname>Müller</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Freit. 4-½6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1891s-II-026"><thema>Pandekten-Lektüre</thema>:
@@ -915,7 +915,7 @@
       Stunde</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1891s-III-039"><thema>Krankheiten des
-      Nervensystems</thema>: <dozent><grad>D. med.</grad>
+      Nervensystems</thema>: <dozent ref="moebius_pj"><grad>D. med.</grad>
       <nachname>Möbius</nachname></dozent>, <zeit>Mont., Mittw. u. Freit. 4-5
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1118,9 +1118,9 @@
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1891s-III-071"><thema>Cursus der Laryngoskopie
-      und Rhinoskopie</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Moldenhauer</nachname></dozent>, <zeit>Mont. u. Donnerst. 5-6
-      U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+      und Rhinoskopie</thema>: <dozent ref="moldenhauer_w"><grad>D.
+      med.</grad> <nachname>Moldenhauer</nachname></dozent>, <zeit>Mont. u.
+      Donnerst. 5-6 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1891s-III-072"><thema>Cursus der Laryngoskopie,
       Rhinoskopie und Otoskopie (von Pfingsten ab 8 Wochen)</thema>:
@@ -1452,8 +1452,9 @@
           Hon.</funktion></dozent> <siehe>Siehe Philosophische Facultät
           G</siehe>.</veranstaltungsverweis>
 
-          <veranstaltungsverweis><thema>Chemisches Praktikum</thema>:
-          <dozent><grad>D. ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+          <veranstaltungsverweis><thema>Chemisches Praktikum</thema>: <dozent
+          ref="meyer_ernst"><grad>D. ph.</grad>
+          <nachnamenpräfix>von</nachnamenpräfix>
           <nachname>Meyer</nachname></dozent> und <dozent
           ref="weddige_a"><grad>D. ph.</grad> <nachname>Weddige</nachname>,
           <funktion>PP. EE.</funktion></dozent> <siehe>Siehe Philosophische
@@ -1983,8 +1984,8 @@
           Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1891s-IV.B.c-003"><thema>Ueber die eddische
-          Dichtung, mit Erklärung ausgewählter Eddalieder</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Mogk</nachname></dozent>,
+          Dichtung, mit Erklärung ausgewählter Eddalieder</thema>: <dozent
+          ref="mogk_e"><grad>D. ph.</grad> <nachname>Mogk</nachname></dozent>,
           <zeit>Mont. u. Donnerst. 5-6 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -2093,9 +2094,9 @@
           5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1891s-IV.B.d-006"><thema>Dänische Grammatik
-          mit praktischen Uebungen</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Mogk</nachname></dozent>, <zeit>Dienst. u. Freit. 5-6
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          mit praktischen Uebungen</thema>: <dozent ref="mogk_e"><grad>D.
+          ph.</grad> <nachname>Mogk</nachname></dozent>, <zeit>Dienst. u.
+          Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1891s-IV.B.d-007"><thema>Russische
           Grammatik <notiz betreff="fortsetzung">II. Theil</notiz></thema>:
@@ -2449,29 +2450,29 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.D-007"><thema>Geschichte der
-        Musik</thema>: <dozent><grad>D. ph.</grad> <nachname>Paul</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mont. 5-6 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        Musik</thema>: <dozent ref="paul_o"><grad>D. ph.</grad>
+        <nachname>Paul</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.D-008"><thema>Geschichte der
-        altgriechischen Musik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Paul</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>an näher zu best. Tagen u. Stunden</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        altgriechischen Musik</thema>: <dozent ref="paul_o"><grad>D.
+        ph.</grad> <nachname>Paul</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>an näher zu best. Tagen u.
+        Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.D-009"><thema>Die Lehre von der
         Harmonik mit genauer Berücksichtigung der Forschungen auf
-        physikalischem und physiologischem Gebiete</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Paul</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Sonnab. 5-6 U.</zeit>,
+        physikalischem und physiologischem Gebiete</thema>: <dozent
+        ref="paul_o"><grad>D. ph.</grad> <nachname>Paul</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.D-010"><thema>Der Contrapunkt mit
         Beispielen, nebst einer Geschichte des Contrapunkts vom 13.
-        Jahrhundert bis zur Gegenwart</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Paul</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>an näher zu best. Tagen und Stunden</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Jahrhundert bis zur Gegenwart</thema>: <dozent ref="paul_o"><grad>D.
+        ph.</grad> <nachname>Paul</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>an näher zu best. Tagen und
+        Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.D-011"><thema>Geschichte der Oper
         <notiz betreff="fortsetzung">I. Theil</notiz> (Von Peri bis
@@ -2844,10 +2845,10 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.F-008"><thema>Partielle
-        Differentialgleichungen erster Ordnung</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Mayer</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. bis Donnerst. 11-12 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Differentialgleichungen erster Ordnung</thema>: <dozent
+        ref="mayer_a"><grad>D. ph.</grad> <nachname>Mayer</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Donnerst. 11-12
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.F-009"><thema>Mathematische
         Geographie und allgemeine Astronomie</thema>: <dozent
@@ -2862,7 +2863,7 @@
         ref="lie_s"><grad>D. ph.</grad> <nachname>Lie</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>in später zu best.
         Stunden</zeit></veranstaltung>. 2) <veranstaltung
-        xml:id="v-1891s-IV.F-011"><dozent><grad>D. ph.</grad>
+        xml:id="v-1891s-IV.F-011"><dozent ref="mayer_a"><grad>D. ph.</grad>
         <nachname>Mayer</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>in zu best. Tagen u. Stunden</zeit></veranstaltung>. 3)
         <veranstaltung xml:id="v-1891s-IV.F-012"><dozent
@@ -2934,11 +2935,11 @@
 
         <veranstaltung xml:id="v-1891s-IV.G-008"><thema>Theorie und Praxis
         wichtiger technisch-chemischer Processe: Chemische Grossindustrie;
-        Theerfarbstoffe (verbunden mit Excursionen)</thema>: <dozent><grad>D.
-        ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
-        <nachname>Meyer</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mittw. u. Donnerst. 12-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Theerfarbstoffe (verbunden mit Excursionen)</thema>: <dozent
+        ref="meyer_ernst"><grad>D. ph.</grad>
+        <nachnamenpräfix>von</nachnamenpräfix> <nachname>Meyer</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mittw. u. Donnerst. 12-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.G-009"><thema>Chemie des
         Naphthalins, Anthracens, Pyridins und Chinolins</thema>: <dozent
@@ -3207,7 +3208,7 @@
         U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.G-049"><thema>Chemisches
-        Praktikum</thema>: <dozent><grad>D. ph.</grad>
+        Praktikum</thema>: <dozent ref="meyer_ernst"><grad>D. ph.</grad>
         <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Meyer</nachname></dozent> und <dozent
         ref="weddige_a"><grad>D. ph.</grad> <nachname>Weddige</nachname>,

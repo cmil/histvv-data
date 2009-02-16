@@ -438,33 +438,33 @@
         <sachgruppe xml:id="sg-1819w-I.B.II.1">
           <titel>1) Reine.</titel>
 
-          <veranstaltungsgruppe><dozent><nachname>Mollweide</nachname>,
-          <vorname>K. B.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <veranstaltung xml:id="v-1819w-I.B.II.1-001"><thema>die ebene und
-          sphärische Trigonometrie</thema>,
-          <modus>öffentlich</modus></veranstaltung>; <veranstaltung
-          xml:id="v-1819w-I.B.II.1-002"><thema>Arithmetik und
+          <veranstaltungsgruppe><dozent
+          ref="mollweide_kb"><nachname>Mollweide</nachname>, <vorname>K.
+          B.</vorname>, <funktion>P. O.</funktion></dozent>, <veranstaltung
+          xml:id="v-1819w-I.B.II.1-001"><thema>die ebene und sphärische
+          Trigonometrie</thema>, <modus>öffentlich</modus></veranstaltung>;
+          <veranstaltung xml:id="v-1819w-I.B.II.1-002"><thema>Arithmetik und
           Geometrie</thema>.</veranstaltung></veranstaltungsgruppe>
 
-          <veranstaltung
-          xml:id="v-1819w-I.B.II.1-003"><dozent><nachname>Möbius</nachname>,
-          <vorname>A. F.</vorname>, <funktion>P. E. u.
-          Observ.</funktion></dozent>, <thema>Algebra</thema>.</veranstaltung>
+          <veranstaltung xml:id="v-1819w-I.B.II.1-003"><dozent
+          ref="moebius_af"><nachname>Möbius</nachname>, <vorname>A.
+          F.</vorname>, <funktion>P. E. u. Observ.</funktion></dozent>,
+          <thema>Algebra</thema>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1819w-I.B.II.2">
           <titel>2) Angewandte.</titel>
 
-          <veranstaltung
-          xml:id="v-1819w-I.B.II.2-001"><dozent><nachname>Mollweide</nachname>,
-          <vorname>K. B.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>über die mechanischen Wissenschaften</thema>.</veranstaltung>
+          <veranstaltung xml:id="v-1819w-I.B.II.2-001"><dozent
+          ref="mollweide_kb"><nachname>Mollweide</nachname>, <vorname>K.
+          B.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>über die
+          mechanischen Wissenschaften</thema>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1819w-I.B.II.2-002"><dozent><nachname>Möbius</nachname>,
-          <vorname>A. F.</vorname>, <funktion>P. E. u.
-          Obs.</funktion></dozent>, <thema>mathematische Geographie und
-          Chronologie</thema>, <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1819w-I.B.II.2-002"><dozent
+          ref="moebius_af"><nachname>Möbius</nachname>, <vorname>A.
+          F.</vorname>, <funktion>P. E. u. Obs.</funktion></dozent>,
+          <thema>mathematische Geographie und Chronologie</thema>,
+          <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -1374,10 +1374,10 @@
           <vorname>K.</vorname>, <funktion>P. O.</funktion></dozent>,
           <thema>gemeines u. sächsisches, nach Böhmer</thema>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1819w-II.B.I.2-002"><dozent><nachname>Müller</nachname>,
-          <grad>Dr.</grad> <vorname>J. G.</vorname>, <funktion>P. O.
-          des.</funktion></dozent>, <thema>nach Böhmer</thema>,
+          <veranstaltung xml:id="v-1819w-II.B.I.2-002"><dozent
+          ref="mueller_jg"><nachname>Müller</nachname>, <grad>Dr.</grad>
+          <vorname>J. G.</vorname>, <funktion>P. O. des.</funktion></dozent>,
+          <thema>nach Böhmer</thema>,
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung
@@ -1433,10 +1433,10 @@
           <thema>über den speciellen Theil des Kirchenrechts nach
           Böhmer</thema>, <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1819w-II.B.I.5-002"><dozent><nachname>Müller</nachname>,
-          <grad>Dr.</grad> <vorname>J. G.</vorname>, <funktion>P. O.
-          des.</funktion></dozent> <thema>nach Böhmer</thema>.</veranstaltung>
+          <veranstaltung xml:id="v-1819w-II.B.I.5-002"><dozent
+          ref="mueller_jg"><nachname>Müller</nachname>, <grad>Dr.</grad>
+          <vorname>J. G.</vorname>, <funktion>P. O. des.</funktion></dozent>
+          <thema>nach Böhmer</thema>.</veranstaltung>
 
           <veranstaltung xml:id="v-1819w-II.B.I.5-003"><dozent
           ref="rueffer_c"><nachname>Rüffer</nachname>, <grad>Dr.</grad>
@@ -1630,9 +1630,9 @@
           <sachgruppe xml:id="sg-1819w-II.B.II.x.c">
             <titel>c) Ueber die Institutionen.</titel>
 
-            <veranstaltung
-            xml:id="v-1819w-II.B.II.x.c-001"><dozent><nachname>Müller</nachname>,
-            <grad>Dr.</grad> <vorname>J. G.</vorname>, <funktion>P. O.
+            <veranstaltung xml:id="v-1819w-II.B.II.x.c-001"><dozent
+            ref="mueller_jg"><nachname>Müller</nachname>, <grad>Dr.</grad>
+            <vorname>J. G.</vorname>, <funktion>P. O.
             des.</funktion></dozent></veranstaltung>
 
             <veranstaltung xml:id="v-1819w-II.B.II.x.c-002"><dozent
@@ -1666,9 +1666,9 @@
           <sachgruppe xml:id="sg-1819w-II.B.II.x.d">
             <titel>d) Ueber die Pandecten.</titel>
 
-            <veranstaltung
-            xml:id="v-1819w-II.B.II.x.d-001"><dozent><nachname>Müller</nachname>,
-            <grad>Dr.</grad> <vorname>J. G.</vorname>, <funktion>P.
+            <veranstaltung xml:id="v-1819w-II.B.II.x.d-001"><dozent
+            ref="mueller_jg"><nachname>Müller</nachname>, <grad>Dr.</grad>
+            <vorname>J. G.</vorname>, <funktion>P.
             O.</funktion></dozent></veranstaltung>
 
             <veranstaltung xml:id="v-1819w-II.B.II.x.d-002"><dozent

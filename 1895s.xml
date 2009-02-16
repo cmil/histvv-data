@@ -584,7 +584,7 @@
 
       <veranstaltung xml:id="v-1895s-II-016"><thema>Königlich Sächsisches
       Privatrecht <notiz betreff="fortsetzung">II. Theil</notiz> (Familien- u.
-      Erbrecht)</thema>: <dozent><grad>D. jur.</grad>
+      Erbrecht)</thema>: <dozent ref="mueller_o"><grad>D. jur.</grad>
       <nachname>Müller</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. bis Mittw. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -693,9 +693,9 @@
 
       <veranstaltung xml:id="v-1895s-II-034"><thema>Conversatorium und
       Repetitorium über Sächsisches Privatrecht mit vergleichender Bezugnahme
-      auf das gemeine Recht und mit praktischen Uebungen</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Müller</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Donnerst. 4-5 U.</zeit>,
+      auf das gemeine Recht und mit praktischen Uebungen</thema>: <dozent
+      ref="mueller_o"><grad>D. jur.</grad> <nachname>Müller</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung
@@ -1271,8 +1271,8 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1895s-III-075"><thema>Cursus der Laryngoskopie
-      und Rhinoskopie</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Moldenhauer</nachname>, <funktion>P. E.
+      und Rhinoskopie</thema>: <dozent ref="moldenhauer_w"><grad>D.
+      med.</grad> <nachname>Moldenhauer</nachname>, <funktion>P. E.
       des.</funktion></dozent>, <zeit>Mont. u. Donnerst. 5-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -2183,10 +2183,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung
-          xml:id="v-1895s-IV.B.c-005"><thema>Nibelungenlied</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Mogk</nachname>, <funktion>P.
-          E. des.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 8-9 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          xml:id="v-1895s-IV.B.c-005"><thema>Nibelungenlied</thema>: <dozent
+          ref="mogk_e"><grad>D. ph.</grad> <nachname>Mogk</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <zeit>Mittw. u. Sonnab.
+          8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1895s-IV.B.c-006"><thema>Geschichte der
           germanischen Tiersage mit Lektüre des Reinhart Fuchs (für
@@ -2253,11 +2253,11 @@
           <funktion>P. E.</funktion></dozent>, <thema>(neuhochdeutsche
           Abtheilung des Proseminars) Uhlands Balladen</thema>, <zeit>Mont.
           8-½10 U. Ab.</zeit>, <modus>publice</modus></veranstaltung>. -
-          <veranstaltung xml:id="v-1895s-IV.B.c-016">4) <dozent><grad>D.
-          ph.</grad> <nachname>Mogk</nachname>, <funktion>P. E.
-          des.</funktion></dozent>, <thema>(nordische Abtheilung des
-          Proseminars): Lektüre der Völsungen- und Niflungenlieder</thema>,
-          <zeit>Dienst. ½8-9 U.</zeit>,
+          <veranstaltung xml:id="v-1895s-IV.B.c-016">4) <dozent
+          ref="mogk_e"><grad>D. ph.</grad> <nachname>Mogk</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <thema>(nordische
+          Abtheilung des Proseminars): Lektüre der Völsungen- und
+          Niflungenlieder</thema>, <zeit>Dienst. ½8-9 U.</zeit>,
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1895s-IV.B.c-017"><thema>Germanistische
@@ -2374,10 +2374,10 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1895s-IV.B.d-016"><thema>Dänische Uebungen
-          (Lektüre von Andersens Billedbog uden Billeder)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Mogk</nachname>, <funktion>P.
-          E. des.</funktion></dozent>, <zeit>Freit. 7-8 U. Ab.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          (Lektüre von Andersens Billedbog uden Billeder)</thema>: <dozent
+          ref="mogk_e"><grad>D. ph.</grad> <nachname>Mogk</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <zeit>Freit. 7-8 U.
+          Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1895s-IV.B.d-017"><thema>Uebungen im Lesen
           älterer litauischer Texte</thema>: <dozent ref="leskien_a"><grad>D.
@@ -2712,27 +2712,29 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.D-007"><thema>Altgriechische
-        Musik</thema>: <dozent><grad>D. ph.</grad> <nachname>Paul</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>an näher zu best. Tagen u.
-        Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Musik</thema>: <dozent ref="paul_o"><grad>D. ph.</grad>
+        <nachname>Paul</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>an näher zu best. Tagen u. Stunden</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.D-008"><thema>Geschichte der Musik
-        vom 10. Jahrhundert bis zur Gegenwart</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Paul</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. 4-5 U.</zeit>,
+        vom 10. Jahrhundert bis zur Gegenwart</thema>: <dozent
+        ref="paul_o"><grad>D. ph.</grad> <nachname>Paul</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Dienst. 4-5 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.D-009"><thema>Der
-        Contrapunkt</thema>: <dozent><grad>D. ph.</grad>
+        Contrapunkt</thema>: <dozent ref="paul_o"><grad>D. ph.</grad>
         <nachname>Paul</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>an näher zu best. Tagen und Stunden</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.D-010"><thema>Die Lehre von der
         Harmonik mit Berücksichtigung der neuesten Forschungen auf dem Gebiete
-        der Physiologie und Akustik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Paul</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        der Physiologie und Akustik</thema>: <dozent ref="paul_o"><grad>D.
+        ph.</grad> <nachname>Paul</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont. 4-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.D-011"><thema>Geschichte des
         deutschen Liedes</thema>: <dozent ref="kretzschmar_afh"><grad>D.
@@ -3112,15 +3114,15 @@
 
         <veranstaltung xml:id="v-1895s-IV.F-009"><thema>Partielle
         Differentialgleichungen I. Ordnung u. Pfaffsches Problem</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Mayer</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. bis Freit. 9 bis 10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="mayer_a"><grad>D. ph.</grad> <nachname>Mayer</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Freit. 9 bis 10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.F-010"><thema>Einleitung in die
-        Algebra und die Theorie der Determinanten</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Mayer</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont. u. Sonnab. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Algebra und die Theorie der Determinanten</thema>: <dozent
+        ref="mayer_a"><grad>D. ph.</grad> <nachname>Mayer</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Sonnab. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.F-011"><thema>Höhere
         Algebra</thema>: <dozent ref="engel_f"><grad>D. ph.</grad>
@@ -3165,7 +3167,7 @@
         <thema>Ueber Gruppentheorie, Differentialinvarianten und
         Berührungstransformationen</thema>, <zeit>vierstünd., in später zu
         best. Stunden</zeit></veranstaltung>. <veranstaltung
-        xml:id="v-1895s-IV.F-016">2) <dozent><grad>D. ph.</grad>
+        xml:id="v-1895s-IV.F-016">2) <dozent ref="mayer_a"><grad>D. ph.</grad>
         <nachname>Mayer</nachname>, <funktion>P. O.</funktion></dozent>,
         <thema>Uebungen über Variationsrechnung</thema>, <zeit>in zu best.
         Stunden</zeit></veranstaltung>. <veranstaltung
