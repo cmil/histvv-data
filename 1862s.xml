@@ -26,6 +26,12 @@
 
     <status komplett="ja">
       <transkribent>anne</transkribent>
+
+      <korrigiert>
+        <durch>Beatrice</durch>
+
+        <am>18.2.2009</am>
+      </korrigiert>
     </status>
   </kopf>
 
@@ -38,6 +44,12 @@
 
   <absatz>Der Anfang dieser Vorlesungen ist auf den 22. April, der Schluss auf
   den 20. August festgesetzt.</absatz>
+
+  <trennlinie/>
+
+  <!--Trennli nie  ist im Original nicht vorhanden,  jedoch ist an dieser 
+Stelle  immer eine Trennlinie, daher habe ich sie nachgetragen
+-->
 
   <absatz>LEIPZIG,</absatz>
 
@@ -306,16 +318,16 @@
           griechischen Lyriker</thema>: <dozent><grad>D. ph.</grad>
           <nachname>Westermann</nachname>, <funktion>P. O.</funktion>,
           <funktion>Sem. phil. Dir.</funktion></dozent></veranstaltung>, -
-          <veranstaltung xml:id="v-1862s-I.II.1.003-002"><thema>im Erklären
-          der Reden und Briefe aus den Historien des Sallust</thema>: <dozent
-          ref="klotz_r"><grad>D. ph.</grad> <nachname>Klotz</nachname>,
-          <funktion>P. O.</funktion>, d. Z. <funktion>Dech.</funktion>,
-          <funktion>Sem. phil. Dir.</funktion></dozent></veranstaltung> -
-          <veranstaltung xml:id="v-1862s-I.II.1.003-003">und: <dozent
-          ref="curtius_g"><grad>D. ph.</grad> <nachname>Curtius</nachname>,
+          <veranstaltungsgruppe><thema>im Erklären der Reden und Briefe aus
+          den Historien des Sallust</thema>: <veranstaltung><dozent><grad>D.
+          ph.</grad> <nachname>Klotz</nachname>, <funktion>P. O.</funktion>,
+          d. Z. <funktion>Dech.</funktion>, <funktion>Sem. phil.
+          Dir.</funktion></dozent></veranstaltung> - <veranstaltung>und:
+          <dozent><grad>D. ph.</grad> <nachname>Curtius</nachname>,
           <funktion>P. O. des.</funktion>, <funktion>Sem. phil.
-          Dir.</funktion></dozent></veranstaltung>, - <zeit>Mittw. u. Sonn.
-          11-1 U.</zeit> <modus>öffentlich</modus>.</veranstaltungsgruppe>
+          Dir.</funktion></dozent></veranstaltung></veranstaltungsgruppe>, -
+          <zeit>Mittw. u. Sonn. 11-1 U.</zeit>
+          <modus>öffentlich</modus>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1862s-I.II.1.003-004"><thema>Lateinische
           Sprech- und Schreibübungen</thema>: <dozent ref="klotz_r"><grad>D.
@@ -371,7 +383,8 @@
           <veranstaltung xml:id="v-1862s-I.II.2.002-001"><thema>Proben aus dem
           A. T., grammatisch erläutert</thema>: <dozent><grad>D. ph.</grad>
           <nachname>Fürst</nachname>, <funktion>Lect.
-          publ.</funktion></dozent>, <zeit>2 U. 2 T. (Mont. Donn.)</zeit>
+          publ.</funktion></dozent>, <zeit>2 U. 2 T.
+          (Mont.<korrektur>,</korrektur> Donn.)</zeit>
           <modus>öffentl.</modus></veranstaltung>
 
           <veranstaltung xml:id="v-1862s-I.II.2.002-002"><thema>Syrische
@@ -828,11 +841,12 @@
           xml:id="v-1862s-I.VI.1.001-001"><thema>Physikalisch-physiologische
           Uebungen</thema>: <dozent ref="hankel_wg"><grad>D.</grad>
           <nachname>Hankel</nachname>, <funktion>P. O.</funktion>, d. Z.
-          <funktion>Rect.</funktion></dozent>, in Verbindung mit den
-          Professoren <dozent ref="weber_eh"><grad>D.</grad> <vorname>E.
-          H.</vorname></dozent> und <dozent ref="weber_ef"><grad>D.</grad>
-          <vorname>Ed.</vorname> <nachname>Weber</nachname></dozent>,
-          <zeit>2-4 U. Dienst. u. Freit.</zeit></veranstaltung>
+          <funktion>Rect.</funktion></dozent>, <dozent ref="weber_eh">in
+          Verbindung mit den <funktion>Professor</funktion>en <grad>D.</grad>
+          <vorname>E. H.</vorname></dozent> und <dozent
+          ref="weber_ef"><grad>D.</grad> <vorname>Ed.</vorname>
+          <nachname>Weber</nachname></dozent>, <zeit>2-4 U. Dienst. u.
+          Freit.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1862s-I.VI.1.001-002"><thema>Uebungen im
           physikalischen Seminar</thema>: <ders
@@ -841,9 +855,9 @@
 
           <veranstaltung
           xml:id="v-1862s-I.VI.1.001-003"><thema>Chemisch-praktische Uebungen
-          im Laboratorium des <seite>10</seite>Schlosses Pleissenburg</thema>:
-          <dozent ref="kuehn_ob"><grad>D.</grad> <nachname>Kühn</nachname>,
-          <funktion>P. O.</funktion>, d. Z.
+          <ort>im Laboratorium des <seite>10</seite>Schlosses
+          Pleissenburg</ort></thema>: <dozent ref="kuehn_ob"><grad>D.</grad>
+          <nachname>Kühn</nachname>, <funktion>P. O.</funktion>, d. Z.
           <funktion>Dech.</funktion></dozent>, <zeit>9-5 U. an 2 oder mehreren
           Tagen</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
@@ -901,7 +915,7 @@
 
           <veranstaltung xml:id="v-1862s-I.VI.2.001-002"><thema>Zoologische
           Uebungen</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Pöppig</nachname>, <funktion>Mus. zool.
+          <nachname>Pöppig</nachname>, <funktion>P. O., Mus. zool.
           Dir.</funktion></dozent>, <zeit>4-6 U. 2 Tage (Mont. und
           Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
@@ -911,7 +925,7 @@
 
   <trennlinie/>
 
-  <seite>11</seite>
+  <seite nr="11"/>
 
   <sachgruppe xml:id="sg-1862s-II">
     <titel>II. Facultätsstudien.</titel>
@@ -1498,8 +1512,8 @@
         <veranstaltung xml:id="v-1862s-II.C.I-001"><thema>Einleitung in das
         Studium der Medicin</thema>: <dozent><grad>D.</grad>
         <nachname>Winter</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>4 U. 6 T.</zeit> <thema>während der beiden ersten Wochen des
-        Semesters</thema>, <modus>öffentlich</modus>.</veranstaltung>
+        <zeit>4 U. 6 T. während der beiden ersten Wochen des Semesters</zeit>,
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1862s-II.C.I-002"><thema>Formelle
         Encyklopädie der Medicin mit Hodegetik</thema>: <dozent
@@ -1576,11 +1590,12 @@
 
         <veranstaltung
         xml:id="v-1862s-II.C.III-004"><thema>Physikalisch-physiologische
-        Uebungen</thema> von den Professoren <dozent
-        ref="hankel_wg"><grad>D.</grad> <nachname>Hankel</nachname></dozent>,
-        <dozent ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
-        sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
-        <nachname>Weber</nachname> jun.</dozent>, <zeit>2-4 U. Dienst. u.
+        Uebungen</thema> von den <dozent
+        ref="hankel_wg"><funktion>Professor</funktion>en <grad>D.</grad>
+        <nachname>Hankel</nachname></dozent>, <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber
+        sen.</nachname></dozent> und <dozent ref="weber_ef"><grad>D.</grad>
+        <nachname>Weber jun.</nachname></dozent>, <zeit>2-4 U. Dienst. u.
         Freit.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1862s-II.C.III-005"><thema>Repetitorium der
@@ -1906,8 +1921,8 @@
 
         <veranstaltung xml:id="v-1862s-II.C.XII-006"><thema>Chirurgische
         Poliklinik</thema>: <dozent><grad>D.</grad>
-        <nachname>Streubel</nachname>, <funktion>P. E.</funktion></dozent>, in
-        Verbindung mit <dozent><grad>D.</grad>
+        <nachname>Streubel</nachname>, <funktion>P. E.</funktion></dozent>,
+        <dozent>in Verbindung mit <grad>D.</grad>
         <nachname>Schmidt</nachname></dozent>, <zeit>11 U. 6
         T.</zeit></veranstaltung>
 
@@ -1988,8 +2003,8 @@
   aber Mont., Mittw. u. Sonnab. von 2 bis 4 Uhr.</absatz>
 
   <absatz>Das <gesperrt>zoologische</gesperrt> Museum ist Mittw. u. Sonn. von
-  10 bis 12 Uhr, das <gesperrt>Universitäts-Herbarium</gesperrt> Mittw.
-  u.Freit. früh 7 bis 10 Uhr, das <gesperrt>Brückner-Lampe'sche</gesperrt>
+  10 bis 12 Uhr, das <gesperrt>Universitäts-Herbarium</gesperrt> Mittw. u.
+  Freit. früh 7 bis 10 Uhr, das <gesperrt>Brückner-Lampe</gesperrt>'sche
   pharmakognostische Museum Donn. von 1 bis 3 Uhr, das
   <gesperrt>archäologische</gesperrt> Museum Sonntags von 10 bis 12 Uhr
   geöffnet.</absatz>
