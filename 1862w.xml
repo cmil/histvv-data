@@ -26,6 +26,12 @@
 
     <status komplett="ja">
       <transkribent>anne</transkribent>
+
+      <korrigiert>
+        <durch>Beatrice</durch>
+
+        <am>18.2.2009</am>
+      </korrigiert>
     </status>
   </kopf>
 
@@ -305,7 +311,7 @@
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1862w-I.II.1.002-003"><thema>Ueber Cicero's
-          Rede pro Caccina, mit besonderer Rücksicht auf das Römische
+          Rede pro Caecina, mit besonderer Rücksicht auf das Römische
           Gerichtswesen</thema>: <dozent ref="klotz_r"><grad>D. ph.</grad>
           <nachname>Klotz</nachname>, <funktion>P. O.</funktion>, d. Z.
           <funktion>Dech.</funktion></dozent>, <zeit>12 U. 2 T. (Mont. u.
@@ -352,9 +358,10 @@
           Ilias</thema>: <dozent ref="curtius_g"><grad>D. ph.</grad>
           <nachname>Curtius</nachname>, <funktion>P. O.</funktion>,
           <funktion>Sem. phil. Dir.</funktion></dozent></veranstaltung> - und
-          <thema>im Disputiren über schriftliche Aufsätze</thema> (unter
-          abwechselnder Leitung sämmtlicher <dozent>drei Directoren</dozent>)
-          - : <zeit>Mittw. u. Sonn. 11-1 U.</zeit>
+          <veranstaltung><thema>im Disputiren über schriftliche
+          Aufsätze</thema> (unter abwechselnder Leitung sämmtlicher
+          <dozent>drei Directoren</dozent>)</veranstaltung> - : <zeit>Mittw.
+          u. Sonn. 11-1 U.</zeit>
           <modus>öffentlich</modus>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1862w-I.II.1.003-004"><thema>Lateinische
@@ -415,8 +422,8 @@
           <titel>Semitische Sprachen.</titel>
 
           <veranstaltung xml:id="v-1862w-I.II.2.002-001"><thema>Arabische
-          Syntax (<notiz betreff="fortsetzung">Forts. u.
-          Schluss</notiz>)</thema>: <dozent ref="fleischer_hl"><grad>D.</grad>
+          Syntax (<notiz betreff="fortsetzung">Forts. </notiz>u.
+          Schluss)</thema>: <dozent ref="fleischer_hl"><grad>D.</grad>
           <nachname>Fleischer</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>3 U. 2 T. (Dienst. u. Freit.)</zeit></veranstaltung>
 
@@ -977,7 +984,7 @@
 
   <trennlinie/>
 
-  <seite>12</seite>
+  <seite nr="12"/>
 
   <sachgruppe xml:id="sg-1862w-II">
     <titel>II. Facultätsstudien.</titel>
@@ -1501,12 +1508,13 @@
 
         <trennlinie/>
 
-        <veranstaltung xml:id="v-1862w-II.B.IV-003"><thema>Gemeiner und
-        sächsischer Criminalprocess (nach seinem "Lehrbuch des Sächs.
-        Strafprocessrechts" 2. Aufl.)</thema>: <dozent><grad>D.</grad>
+        <veranstaltungsgruppe><veranstaltung>Gemeiner und sächsischer
+        Criminalprocess (nach seinem "Lehrbuch des Sächs. Strafprocessrechts"
+        2. Aufl.)</veranstaltung>: <dozent><grad>D.</grad>
         <nachname>Schletter</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>10 U. 4 T.</zeit>, <thema>nebst Criminalprakticum</thema>,
-        <zeit>in 2 zu best. St.</zeit><!--veranstaltungsgruppe?--></veranstaltung>
+        <zeit>10 U. 4 T.</zeit>, <veranstaltung><thema>nebst
+        Criminalprakticum</thema>, <zeit>in 2 zu best.
+        St.</zeit></veranstaltung></veranstaltungsgruppe>
 
         <veranstaltung xml:id="v-1862w-II.B.IV-004"><thema>Gemeiner und
         sächsischer Strafprocess</thema>: <dozent><grad>D.</grad>
@@ -1654,10 +1662,10 @@
         xml:id="v-1862w-II.C.II-006"><thema>Anatomisch-praktische Uebungen
         nebst Demonstrationen in der topographischen Anatomie</thema>: <dozent
         ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>, <seite>18</seite><funktion>P.
-        O.</funktion></dozent>, in Verbindung mit <dozent
-        ref="weber_ef"><grad>D.</grad> <nachname>Weber</nachname>,
-        <funktion>Theat. anat. Pros.</funktion>, <funktion>P.
-        E.</funktion></dozent>, <zeit>8-10 U. 6 T.</zeit></veranstaltung>
+        O.</funktion></dozent>, <dozent ref="weber_ef">in Verbindung mit
+        <grad>D.</grad> <nachname>Weber</nachname>, <funktion>Theat. anat.
+        Pros.</funktion>, <funktion>P. E.</funktion></dozent>, <zeit>8-10 U. 6
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1862w-II.C.III">
@@ -1683,7 +1691,7 @@
         xml:id="v-1862w-II.C.III-004"><thema>Experimentalphysiologie der
         Verdauung, des Blutes und der Ausscheidungen</thema>: <dozent
         ref="hering_kek"><grad>D.</grad> <nachname>Hering</nachname></dozent>,
-        in Verbindung mit <dozent ref="huppert_kh"><grad>D.</grad>
+        <dozent ref="huppert_kh">in Verbindung mit <grad>D.</grad>
         <nachname>Huppert</nachname></dozent>, <zeit>4 U. 4
         T.</zeit></veranstaltung>
 
@@ -1946,7 +1954,7 @@
         <titel>XI. Klinik.</titel>
 
         <veranstaltung xml:id="v-1862w-II.C.XI-001"><thema>Medicinische Klinik
-        im Jacobshospital</thema>: <dozent><grad>D.</grad>
+        <ort>im Jacobshospital</ort></thema>: <dozent><grad>D.</grad>
         <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>9½-11 U. 6 T.</zeit></veranstaltung>
 
@@ -1962,15 +1970,16 @@
         <zeit>in zu best. St.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1862w-II.C.XI-004"><thema>Pädiatrische
-        Poliklinik im Vordergebäude des Trierschen Instituts</thema>: <dozent
-        ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname></dozent>,
-        <zeit>Mittw. 2 U.</zeit>
+        Poliklinik <ort>im Vordergebäude des Trierschen
+        Instituts</ort></thema>: <dozent ref="hennig_c"><grad>D.</grad>
+        <nachname>Hennig</nachname></dozent>, <zeit>Mittw. 2 U.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1862w-II.C.XI-005"><thema>Chirurgische Klinik
-        im Jacobshospital</thema>: <dozent ref="guenther_gb"><grad>D.</grad>
-        <nachname>Günther</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>9-10½ U. 6 T.</zeit></veranstaltung>
+        <ort>im Jacobshospital</ort></thema>: <dozent
+        ref="guenther_gb"><grad>D.</grad> <nachname>Günther</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9-10½ U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1862w-II.C.XI-006"><thema>Chirurgische
         Poliklinik</thema>: <dozent><grad>D.</grad>
@@ -2053,10 +2062,10 @@
 
   <absatz>Das <gesperrt>zoologische</gesperrt> Museum ist Mittw. u. Sonn. von
   10 bis 12 Uhr, das <gesperrt>Universitäts-Herbarium</gesperrt> Mittw. u.
-  Freit. früh 7 bis 10 Uhr, das <gesperrt>Brückner-Lampe'sche</gesperrt>
+  Freit. früh 7 bis 10 Uhr, das <gesperrt>Brückner-Lampe</gesperrt>'sche
   pharmakognostische Museum Donn. von 1 bis 3 Uhr, das
-  <gesperrt>archäologische</gesperrt> <gesperrt>Museum</gesperrt> Sonntags und
-  Mittwochs von 10 bis 12 Uhr geöffnet.</absatz>
+  <gesperrt>archäologische Museum</gesperrt> Sonntags und Mittwochs von 10 bis
+  12 Uhr geöffnet.</absatz>
 
   <trennlinie/>
 </vv>
