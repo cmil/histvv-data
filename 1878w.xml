@@ -465,7 +465,7 @@
 
       <veranstaltung xml:id="v-1878w-II-022"><thema>Gemeiner deutscher
       Civilprocess und im Anschluss daran sächsischer Civilprocess <siehe>(s.
-      unten)</siehe></thema>: <dozent><grad>D. jur.</grad>
+      unten)</siehe></thema>: <dozent ref="osterloh_er"><grad>D. jur.</grad>
       <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont., Dienst., Donnerst. u. Freit., 11-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -504,7 +504,7 @@
 
       <veranstaltung xml:id="v-1878w-II-028"><thema>Sächsischer Civilprocess
       (im Anschluss an den gemeinen deutschen Civilprocess, <siehe>s.
-      oben</siehe>)</thema>: <dozent><grad>D. jur.</grad>
+      oben</siehe>)</thema>: <dozent ref="osterloh_er"><grad>D. jur.</grad>
       <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mittw. u. Sonnab., 11-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -524,12 +524,12 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878w-II-031"><thema>Uebungen im Referiren aus
-      Gerichtsacten</thema>: <dozent><grad>D. jur.</grad>
+      Gerichtsacten</thema>: <dozent ref="osterloh_er"><grad>D. jur.</grad>
       <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Freit. 4-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878w-II-032"><thema>Civilprocessrechtliches
-      Seminar</thema>: <dozent><grad>D. jur.</grad>
+      Seminar</thema>: <dozent ref="osterloh_er"><grad>D. jur.</grad>
       <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. 4-6 U.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
@@ -769,9 +769,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878w-III-029"><thema>Pharmakodynamik</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Naumann</nachname></dozent>,
-      <zeit>Mont. u. Donnerst., 6-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="naumann_o"><grad>D. med.</grad>
+      <nachname>Naumann</nachname></dozent>, <zeit>Mont. u. Donnerst., 6-7
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878w-III-030"><thema>Receptirkunst, nebst
       Uebersicht der wichtigsten Arzneimittel</thema>: <dozent><grad>D.
@@ -1485,9 +1485,10 @@
 
           <veranstaltung xml:id="v-1878w-IV.B.a-002"><thema>Antike Kunstlehre,
           d. i. Technik und Aesthetik der antiken bildenden Künste</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Overbeck</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Freit., 9-10
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="overbeck_j"><grad>D. ph.</grad>
+          <nachname>Overbeck</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Dienst. bis Freit., 9-10 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1878w-IV.B.a-003"><thema>Griechische
           Grammatik</thema>: <dozent ref="curtius_g"><grad>D. ph.</grad>
@@ -1592,10 +1593,10 @@
 
           <veranstaltung xml:id="v-1878w-IV.B.a-018"><thema>Uebungen des
           Königl. archäologischen Seminars (Erklärung antiker Kunstwerke und
-          Disputationen über schriftliche Arbeiten)</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Overbeck</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Dienst. 7-9 U. Abends</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          Disputationen über schriftliche Arbeiten)</thema>: <dozent
+          ref="overbeck_j"><grad>D. ph.</grad> <nachname>Overbeck</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Dienst. 7-9 U.
+          Abends</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1878w-IV.B.a-019"><thema>Uebungen der
           römisch-antiquarischen Gesellschaft (Cicero de legibus B. 3 und
@@ -2494,7 +2495,7 @@
         <zeit>Donnerst. 3-4 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878w-IV.F-006"><thema>Analytische
-        Mechanik</thema>: <dozent><grad>D. ph.</grad>
+        Mechanik</thema>: <dozent ref="neumann_cg"><grad>D. ph.</grad>
         <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst., Mittw. u. Donnerst., 11-12¼ U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2526,9 +2527,9 @@
 
         <trennlinie/>
 
-        <veranstaltungsgruppe><thema>Mathematisches Seminar</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <veranstaltung
+        <veranstaltungsgruppe><thema>Mathematisches Seminar</thema>: <dozent
+        ref="neumann_cg"><grad>D. ph.</grad> <nachname>Neumann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <veranstaltung
         xml:id="v-1878w-IV.F-011"><thema>I. Abtheilung</thema>: <zeit>Mittw.
         8-9 U.</zeit></veranstaltung> u. <veranstaltung
         xml:id="v-1878w-IV.F-012"><thema>II. Abtheilung</thema>: <zeit>Dienst.

@@ -275,14 +275,14 @@
 
       <veranstaltung xml:id="v-1912s-I-031"><thema>Entwicklungsstufen der
       Heidenmission, dargestellt an der Mission auf den deutschen
-      Südsee-Inseln (mit Lichtbildern)</thema>: <dozent><grad>D. th.</grad>
-      <nachname>Paul</nachname>, <funktion>P. O. Hon.
+      Südsee-Inseln (mit Lichtbildern)</thema>: <dozent ref="paul_c"><grad>D.
+      th.</grad> <nachname>Paul</nachname>, <funktion>P. O. Hon.
       des.</funktion></dozent>, <zeit>Mi. u. So. 11 bis 12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-I-032"><thema>Mission und Kolonialpolitik
-      in ihren Beziehungen zu einander</thema>: <dozent><grad>D. th.</grad>
-      <nachname>Paul</nachname>, <funktion>P. O. Hon.
+      in ihren Beziehungen zu einander</thema>: <dozent ref="paul_c"><grad>D.
+      th.</grad> <nachname>Paul</nachname>, <funktion>P. O. Hon.
       des.</funktion></dozent>, <zeit>Mo. 5-6 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
@@ -850,11 +850,11 @@
         Chemischen Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-III.001-003"><thema>Chemisches
-        Praktikum für Mediziner und Zahnärzte</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Paal</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>sechsstündig nach Vereinbarung</zeit>,
-        <modus>privatim</modus>, <ort>im Laboratorium für angewandte Chemie,
-        Brüderstr. 34</ort>.</veranstaltung>
+        Praktikum für Mediziner und Zahnärzte</thema>: <dozent
+        ref="paal_c"><grad>D. ph.</grad> <nachname>Paal</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>sechsstündig nach
+        Vereinbarung</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für
+        angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-III.001-004"><thema>Physikalisches
         Praktikum für Mediziner</thema>: <dozent ref="wiener_oh"><grad>D. ph.
@@ -1163,7 +1163,7 @@
 
           <veranstaltung
           xml:id="v-1912s-III.001.004-006"><thema>Pharmazeutisch-chemisch-toxikologisches
-          Praktikum</thema>: <dozent><grad>D. ph.</grad>
+          Praktikum</thema>: <dozent ref="paal_c"><grad>D. ph.</grad>
           <nachname>Paal</nachname>, <funktion>P. O. des.</funktion></dozent>,
           <zeit>ganz- u. halbtäg, tägl. 8-12½ u. (außer So.) 2-6 U.</zeit>,
           <modus>privatim</modus>, <ort>im Laboratorium für angewandte Chemie,
@@ -1299,13 +1299,13 @@
           <titel>Chirurgie.</titel>
 
           <veranstaltung xml:id="v-1912s-III.001.006-001"><thema>Chirurgische
-          Klinik</thema> (<ort>Liebigstr. 20</ort>): <dozent><grad>D.
-          med.</grad> <nachname>Payr</nachname>, <funktion>P. O.
-          des.</funktion></dozent>, <zeit>tägl. (außer Do.) 8-9½ U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          Klinik</thema> (<ort>Liebigstr. 20</ort>): <dozent
+          ref="payr_e"><grad>D. med.</grad> <nachname>Payr</nachname>,
+          <funktion>P. O. des.</funktion></dozent>, <zeit>tägl. (außer Do.)
+          8-9½ U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-III.001.006-002"><thema>Chirurgischer
-          Operationskurs</thema>: <dozent><grad>D. med.</grad>
+          Operationskurs</thema>: <dozent ref="payr_e"><grad>D. med.</grad>
           <nachname>Payr</nachname>, <funktion>P. O. des.</funktion></dozent>,
           <zeit>tägl. (außer So.) 5-7 U.</zeit>, <modus>privatim</modus>,
           <ort>im Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
@@ -3386,15 +3386,15 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1912s-IV.C-026"><thema>Gletscher und
-        Eiszeit</thema>: <dozent><grad>D. ph. et ès lettres</grad>
-        <nachname>Partsch</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mo. u. Di. 6-7 U.</zeit>,
+        Eiszeit</thema>: <dozent ref="partsch_j"><grad>D. ph. et ès
+        lettres</grad> <nachname>Partsch</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mo. u. Di. 6-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.C-027"><thema>Geographie des
-        Deutschen Reiches</thema>: <dozent><grad>D. ph. et ès lettres</grad>
-        <nachname>Partsch</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mo., Di., Do. u. Fr. 12-1 U.</zeit>,
+        Deutschen Reiches</thema>: <dozent ref="partsch_j"><grad>D. ph. et ès
+        lettres</grad> <nachname>Partsch</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mo., Di., Do. u. Fr. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.C-028"><thema>Die geographische
@@ -3685,9 +3685,10 @@
         <sachgruppe xml:id="sg-1912s-IV.C.004">
           <titel>Geographisches Seminar (Paulinum II).</titel>
 
-          <veranstaltungsgruppe><dozent><grad>D. ph. et ès lettres</grad>
-          <nachname>Partsch</nachname>, <funktion>P. O.</funktion></dozent>:
-          <veranstaltung xml:id="v-1912s-IV.C.004-001">1) <thema>Abteilung für
+          <veranstaltungsgruppe><dozent ref="partsch_j"><grad>D. ph. et ès
+          lettres</grad> <nachname>Partsch</nachname>, <funktion>P.
+          O.</funktion></dozent>: <veranstaltung
+          xml:id="v-1912s-IV.C.004-001">1) <thema>Abteilung für
           Vorgeschrittene</thema>, <zeit>Mi. 11-1 U.</zeit>,
           <modus>publice</modus></veranstaltung>. - <veranstaltung
           xml:id="v-1912s-IV.C.004-002">2) <thema>Abteilung für
@@ -4697,9 +4698,9 @@
         Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-027"><thema>Organische Chemie mit
-        besonderer Berücksichtigung ihrer Anwendung</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Paal</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>Mo. bis Fr. <seite>48</seite>9-10
+        besonderer Berücksichtigung ihrer Anwendung</thema>: <dozent
+        ref="paal_c"><grad>D. ph.</grad> <nachname>Paal</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>Mo. bis Fr. <seite>48</seite>9-10
         U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für angew.
         Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
@@ -4740,11 +4741,11 @@
         35</ort>.</veranstaltungsgruppe>
 
         <veranstaltung xml:id="v-1912s-IV.G-034"><thema>Bildung und Umbildung
-        von Mineralien und Gesteinen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Nacken</nachname>, <funktion>P. E. des.</funktion></dozent>,
-        <zeit>Di. u. Fr. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Institut für Mineralogie und Petrographie, Talstr.
-        35</ort>.</veranstaltung>
+        von Mineralien und Gesteinen</thema>: <dozent ref="nacken_r"><grad>D.
+        ph.</grad> <nachname>Nacken</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>Di. u. Fr. 5-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Institut für Mineralogie und
+        Petrographie, Talstr. 35</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-035"><thema>Deutschlands
         Eisenindustrie (für Hörer aller Fakultäten)</thema>: <dozent><grad>D.
@@ -4814,10 +4815,11 @@
         Institut, Linnéstr. 1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-045"><thema>Allgemeine Morphologie
-        der höheren Pflanzen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Nathansohn</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mi. u. So. 8-9 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Botanischen Institut, Linnéstr. 1</ort>.</veranstaltung>
+        der höheren Pflanzen</thema>: <dozent ref="nathansohn_a"><grad>D.
+        ph.</grad> <nachname>Nathansohn</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mi. u. So. 8-9 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Botanischen Institut, Linnéstr.
+        1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-046"><thema>Allgemeine
         Zoologie</thema>: <dozent ref="chun_c"><grad>D. ph. et med.</grad>
@@ -4985,17 +4987,17 @@
         <seite>51</seite>
 
         <veranstaltung xml:id="v-1912s-IV.G-064"><thema>Chemisches
-        Vollpraktikum für Vorgerücktere</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Paal</nachname>, <funktion>P. O. des.</funktion></dozent>,
-        <dozent ref="heller_g">mit <grad>D. ph.</grad> <vorname>G.</vorname>
-        <nachname>Heller</nachname>, <funktion>P. E.</funktion></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Deußen</nachname></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Scheiber</nachname></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Sieverts</nachname></dozent>
-        <dozent>u. <grad>D. ph.</grad> <nachname>Waentig</nachname></dozent>,
-        <zeit>täglich 8-12½ U. u. (außer So.) 2-6 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Laboratorium f. angew. Chemie,
-        Brüderstr. 34</ort>.</veranstaltung>
+        Vollpraktikum für Vorgerücktere</thema>: <dozent ref="paal_c"><grad>D.
+        ph.</grad> <nachname>Paal</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <dozent ref="heller_g">mit <grad>D.
+        ph.</grad> <vorname>G.</vorname> <nachname>Heller</nachname>,
+        <funktion>P. E.</funktion></dozent>, <dozent><grad>D. ph.</grad>
+        <nachname>Deußen</nachname></dozent>, <dozent><grad>D. ph.</grad>
+        <nachname>Scheiber</nachname></dozent>, <dozent><grad>D. ph.</grad>
+        <nachname>Sieverts</nachname></dozent> <dozent>u. <grad>D. ph.</grad>
+        <nachname>Waentig</nachname></dozent>, <zeit>täglich 8-12½ U. u.
+        (außer So.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Laboratorium f. angew. Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Analytisches und anorganisches
         Praktikum</thema>: <dozent><grad>D. ph. et med.</grad>
@@ -5020,11 +5022,11 @@ VA-Gruppe also noch rückgängig machen)--></veranstaltungsgruppe>
         Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-068"><thema>Chemisches
-        Praktikum</thema>, <zeit>ganz- und halbtägig</zeit>: <dozent><grad>D.
-        ph.</grad> <nachname>Paal</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>tägl. 8-12½ u. (außer So.) 2-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f. angewandte
-        Chemie, Brüderstr. 34</ort>.</veranstaltung>
+        Praktikum</thema>, <zeit>ganz- und halbtägig</zeit>: <dozent
+        ref="paal_c"><grad>D. ph.</grad> <nachname>Paal</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>tägl. 8-12½ u. (außer
+        So.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f.
+        angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-069"><thema>Chemisches Praktikum
         für Lehrer (Schulversuche, Analyse, Präparate)</thema>, <zeit>ganz-
@@ -5044,10 +5046,10 @@ VA-Gruppe also noch rückgängig machen)--></veranstaltungsgruppe>
         Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-071"><thema>Chemisch-technisches
-        Praktikum</thema> (<zeit>ganz- u. halbtägig</zeit>): <dozent><grad>D.
-        ph.</grad> <nachname>Paal</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <dozent ref="heller_g">mit <grad>D.
-        ph.</grad> <vorname>G.</vorname> <nachname>Heller</nachname>,
+        Praktikum</thema> (<zeit>ganz- u. halbtägig</zeit>): <dozent
+        ref="paal_c"><grad>D. ph.</grad> <nachname>Paal</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <dozent ref="heller_g">mit
+        <grad>D. ph.</grad> <vorname>G.</vorname> <nachname>Heller</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>tägl. 8-12½ U. u. (außer
         So.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f.
         angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
@@ -5072,11 +5074,12 @@ VA-Gruppe also noch rückgängig machen)--></veranstaltungsgruppe>
 
         <veranstaltung
         xml:id="v-1912s-IV.G-074"><thema>Pharmazeutisch-chemisch-toxikologisches
-        Praktikum</thema>: <seite>52</seite><dozent><grad>D. ph.</grad>
-        <nachname>Paal</nachname>, <funktion>P. O. des.</funktion></dozent>,
-        <zeit>ganz- u. halbtägig, tägl. 8 bis 12½ U. u. (außer So.) 2-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für
-        angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
+        Praktikum</thema>: <seite>52</seite><dozent ref="paal_c"><grad>D.
+        ph.</grad> <nachname>Paal</nachname>, <funktion>P. O.
+        des.</funktion></dozent>, <zeit>ganz- u. halbtägig, tägl. 8 bis 12½ U.
+        u. (außer So.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Laboratorium für angewandte Chemie, Brüderstr.
+        34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-075"><thema>Praktische Übungen in
         der mikroskopischen Untersuchung offizineller Drogen- und
@@ -5102,11 +5105,12 @@ VA-Gruppe also noch rückgängig machen)--></veranstaltungsgruppe>
         16</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-078"><thema>Arbeiten auf dem
-        Gebiete der Nahrungsmittelchemie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Paal</nachname>, <funktion>P. O. des.</funktion></dozent>,
-        <zeit>ganz- und halbtägig, tägl. 8 bis 12½ U. u. (außer So.) 2-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für
-        angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
+        Gebiete der Nahrungsmittelchemie</thema>: <dozent
+        ref="paal_c"><grad>D. ph.</grad> <nachname>Paal</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>ganz- und halbtägig,
+        tägl. 8 bis 12½ U. u. (außer So.) 2-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Laboratorium für angewandte Chemie,
+        Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-079"><thema>Mineralogisches
         Praktikum für Anfänger (Ausübung krystallographischer

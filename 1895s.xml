@@ -763,9 +763,9 @@
 
       <veranstaltungsverweis><thema>Toxikologische Praktikum</thema>; <dozent
       ref="ostwald_wilhelm"><grad>D. ph.</grad> <nachname>Ostwald</nachname>,
-      <funktion>P. O.</funktion></dozent> u. <dozent><grad>D. ph.</grad>
-      <nachname>Paul</nachname></dozent>. <siehe>Siehe Philosophische Facultät
-      G.</siehe></veranstaltungsverweis>
+      <funktion>P. O.</funktion></dozent> u. <dozent ref="paul_t"><grad>D.
+      ph.</grad> <nachname>Paul</nachname></dozent>. <siehe>Siehe
+      Philosophische Facultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Besprechungen über Fragen der
       Schulhygiene</thema>: <dozent ref="lange_h"><grad>D. med.</grad>
@@ -1084,7 +1084,7 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1895s-III-045"><thema>Hydrotherapie und
-      Bäderlehre</thema>: <dozent><grad>D. med.</grad>
+      Bäderlehre</thema>: <dozent ref="naumann_o"><grad>D. med.</grad>
       <nachname>Naumann</nachname></dozent>, <zeit>in zwei zu best.
       Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1641,9 +1641,9 @@
 
       <veranstaltungsverweis><thema>Untersuchung von Nahrungsmitteln und
       Gebrauchsgegenständen <notiz betreff="fortsetzung">II. Th.</notiz> -
-      Untersuchung von Arzneimitteln</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Paul</nachname></dozent>. <siehe>Siehe Philosophische Facultät
-      G.</siehe></veranstaltungsverweis>
+      Untersuchung von Arzneimitteln</thema>: <dozent ref="paul_t"><grad>D.
+      ph.</grad> <nachname>Paul</nachname></dozent>. <siehe>Siehe
+      Philosophische Facultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Anleitung zur Benutzung des
       Polarisations-Mikroskops bei histologischen Untersuchungen</thema>:
@@ -1911,9 +1911,9 @@
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Griechische Kunstmythologie</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Overbeck</nachname>,
-          <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
-          D.</siehe></veranstaltungsverweis>
+          <dozent ref="overbeck_j"><grad>D. ph.</grad>
+          <nachname>Overbeck</nachname>, <funktion>P. O.</funktion></dozent>
+          <siehe>Siehe Abschnitt D.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Erklärung historisch und
           culturgeschichtlich wichtiger griechischer Papyrusurkunden aus
@@ -2676,7 +2676,7 @@
         <titel>D. Kunstwissenschaften.</titel>
 
         <veranstaltung xml:id="v-1895s-IV.D-001"><thema>Griechische
-        Kunstmythologie</thema>: <dozent><grad>D. ph.</grad>
+        Kunstmythologie</thema>: <dozent ref="overbeck_j"><grad>D. ph.</grad>
         <nachname>Overbeck</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2765,7 +2765,7 @@
 
         <veranstaltung xml:id="v-1895s-IV.D-013"><thema>Im Archaeologischen
         Seminar: Kunstgeschichtliche Uebungen und schriftliche
-        Arbeiten</thema>: <dozent><grad>D. ph.</grad>
+        Arbeiten</thema>: <dozent ref="overbeck_j"><grad>D. ph.</grad>
         <nachname>Overbeck</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Donnerst. 6-8 U. Ab.</zeit>,
         <modus>publice</modus>.</veranstaltung>
@@ -3077,15 +3077,16 @@
 
         <veranstaltung xml:id="v-1895s-IV.F-003"><thema>Theorie des
         Potentials, und Anwendung desselben auf Wärme und
-        Elektricität</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Naumann</nachname>, <funktion>P. O.</funktion></dozent>,
+        Elektricität</thema>: <dozent ref="neumann_cg"><grad>D. ph.</grad>
+        <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Dienst., Mittw., Donnerst. u. Freit. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.F-004"><thema>Besprechung
-        mathematischer Aufgaben</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Sonnab. 10-11 U.</zeit>, <modus>privatissime</modus>, aber
+        mathematischer Aufgaben</thema>: <dozent ref="neumann_cg"><grad>D.
+        ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Sonnab. 10-11 U.</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.F-005"><thema>Mathematische
@@ -3276,11 +3277,12 @@
         <veranstaltung xml:id="v-1895s-IV.G-015"><thema>Untersuchung von
         Nahrungsmitteln und Gebrauchsgegenständen <notiz
         betreff="fortsetzung">II. Theil</notiz>: Gebrauchsgegenstände</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Paul</nachname></dozent>,
-        <zeit>Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="paul_t"><grad>D. ph.</grad>
+        <nachname>Paul</nachname></dozent>, <zeit>Sonnab. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.G-016"><thema>Untersuchung von
-        Arzneimitteln</thema>: <dozent><grad>D. ph.</grad>
+        Arzneimitteln</thema>: <dozent ref="paul_t"><grad>D. ph.</grad>
         <nachname>Paul</nachname></dozent>, <zeit>Mont. <sic>Mont.</sic> 12-1
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3439,9 +3441,9 @@
         F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Theorie des Potentials, und Anwendung
-        derselben auf Wärme und Elektricität</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe Abschnitt
+        derselben auf Wärme und Elektricität</thema>: <dozent
+        ref="neumann_cg"><grad>D. ph.</grad> <nachname>Neumann</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
         F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Anwendung der Differential- und
@@ -3518,7 +3520,7 @@
         <veranstaltung xml:id="v-1895s-IV.G-049"><thema>Toxicologisches
         Praktikum</thema>: <dozent ref="ostwald_wilhelm"><grad>D. ph. et
         med.</grad> <nachname>Ostwald</nachname>, <funktion>P.
-        O.</funktion></dozent> und <dozent><grad>D. ph.</grad>
+        O.</funktion></dozent> und <dozent ref="paul_t"><grad>D. ph.</grad>
         <nachname>Paul</nachname></dozent>, <zeit>24stünd., nach
         Uebereinkunft</zeit>, <modus>privatim</modus>.</veranstaltung>
 

@@ -1123,7 +1123,7 @@ Allerdings: auch Platzmangel im Org. beachten)-->.</veranstaltung>
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1896w-III-052"><thema>Allgemeine Therapie und
-      Hydrotherapie</thema>: <dozent><grad>D. med.</grad>
+      Hydrotherapie</thema>: <dozent ref="naumann_o"><grad>D. med.</grad>
       <nachname>Naumann</nachname></dozent>, <zeit>in zwei zu best.
       Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1715,7 +1715,7 @@ ist hinsichtlich der folgenden VA unwahrscheinlich)--></veranstaltung>
         <seite>19</seite>
 
         <veranstaltungsverweis><thema>Untersuchung von
-        Nahrungsmitteln</thema>: <dozent><grad>D. ph.</grad>
+        Nahrungsmitteln</thema>: <dozent ref="paul_t"><grad>D. ph.</grad>
         <nachname>Paul</nachname></dozent>. <siehe>Siehe Philosophische
         Facultät G.</siehe></veranstaltungsverweis>
 
@@ -3496,15 +3496,16 @@ weil "ordentliche Mitglieder" ohnehin Seminarbeitragbeitrag zahlen.
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1896w-IV.F-003"><thema>Allgemeine Theorie der
-        Functionen complexer Variablen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Dienst., Mittw., Donnerst. u. Freit. 10-11 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Functionen complexer Variablen</thema>: <dozent
+        ref="neumann_cg"><grad>D. ph.</grad> <nachname>Neumann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Mittw., Donnerst.
+        u. Freit. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1896w-IV.F-004"><thema>Besprechung
-        mathematischer Aufgaben</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Sonnab. 10-11 U.</zeit>, <modus>privatissime</modus>, aber
+        mathematischer Aufgaben</thema>: <dozent ref="neumann_cg"><grad>D.
+        ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Sonnab. 10-11 U.</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1896w-IV.F-005"><thema>Himmlische
@@ -3660,14 +3661,14 @@ weil "ordentliche Mitglieder" ohnehin Seminarbeitragbeitrag zahlen.
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1896w-IV.G-010"><thema>Untersuchung von
-        Nahrungs- und Genussmitteln</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Paul</nachname></dozent>, <zeit>Sonnab. 12-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Nahrungs- und Genussmitteln</thema>: <dozent ref="paul_t"><grad>D.
+        ph.</grad> <nachname>Paul</nachname></dozent>, <zeit>Sonnab. 12-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1896w-IV.G-011"><thema>Anwendung der neueren
-        Theorien auf die analytische Chemie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Paul</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont. 12-1 U.</zeit>,
+        Theorien auf die analytische Chemie</thema>: <dozent
+        ref="paul_t"><grad>D. ph.</grad> <nachname>Paul</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1896w-IV.G-012"><thema>Chemische Industrie
@@ -3869,9 +3870,10 @@ weil "ordentliche Mitglieder" ohnehin Seminarbeitragbeitrag zahlen.
         <veranstaltung xml:id="v-1896w-IV.G-040"><thema>Toxicologisches
         Praktikum</thema>: <dozent ref="ostwald_wilhelm"><grad>D. ph., med. et
         jur.</grad> <nachname>Ostwald</nachname>, <funktion>P.
-        O.</funktion></dozent>, <dozent>(in Gemeinschaft mit <grad>D.
-        ph.</grad> <nachname>Paul</nachname>)</dozent> <zeit>30stünd., nach
-        Uebereinkunft</zeit>, <modus>privatim</modus>.</veranstaltung>
+        O.</funktion></dozent>, <dozent ref="paul_t">(in Gemeinschaft mit
+        <grad>D. ph.</grad> <nachname>Paul</nachname>)</dozent>
+        <zeit>30stünd., nach Uebereinkunft</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1896w-IV.G-041"><thema>Repetitorium der
         anorganischen Chemie</thema>: <dozent><grad>D. ph.</grad>

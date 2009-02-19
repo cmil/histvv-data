@@ -142,9 +142,10 @@
         <seite>4</seite>
 
         <veranstaltung
-        xml:id="v-1874s-I.I.2-005"><thema>Erkenntnisstheorie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Windelband</nachname></dozent>,
-        <zeit>5 U. 4 T.</zeit></veranstaltung>
+        xml:id="v-1874s-I.I.2-005"><thema>Erkenntnisstheorie</thema>: <dozent
+        ref="windelband_w"><grad>D. ph.</grad>
+        <nachname>Windelband</nachname></dozent>, <zeit>5 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.I.2-006"><thema>Psychologie mit
         Einschluss der Lehre von den Seelenkrankheiten</thema>: <dozent
@@ -163,7 +164,7 @@
         <zeit>5 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.I.2-009"><thema>Grundfragen der
-        Psychologie</thema>: <dozent><grad>D. ph.</grad>
+        Psychologie</thema>: <dozent ref="windelband_w"><grad>D. ph.</grad>
         <nachname>Windelband</nachname></dozent>, <zeit>4 U. Mont. u.
         Dienst.</zeit></veranstaltung>
 
@@ -982,7 +983,7 @@
         <veranstaltung xml:id="v-1874s-I.III.2-001"><thema>Griechische
         Kunstgeschichte, <notiz betreff="fortsetzung">2. Th.</notiz> (von dem
         peloponnesischen Kriege bis auf Hadrian) unter Benutzung des
-        Museums</thema>: <dozent><grad>D. ph.</grad>
+        Museums</thema>: <dozent ref="overbeck_j"><grad>D. ph.</grad>
         <nachname>Overbeck</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>9 U. 4 T.</zeit></veranstaltung>
 
@@ -1000,10 +1001,10 @@
           <titel>Archäologische und antiquarische Uebungen.</titel>
 
           <veranstaltung xml:id="v-1874s-I.III.2.001-001"><thema>Uebungen der
-          archäologischen Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Overbeck</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>wöchentlich einmal in 2 zu best. St.</zeit>,
-          <modus>privatissime</modus>,
+          archäologischen Gesellschaft</thema>: <dozent
+          ref="overbeck_j"><grad>D. ph.</grad> <nachname>Overbeck</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>wöchentlich einmal in 2
+          zu best. St.</zeit>, <modus>privatissime</modus>,
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1874s-I.III.2.001-002"><thema>Uebungen der
@@ -1243,9 +1244,10 @@
       <titel>V. Mathematische Wissenschaften.</titel>
 
       <veranstaltung xml:id="v-1874s-I.V-001"><thema>Ausg. Capitel der
-      synthetischen Geometrie</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>12 U. 2 T. (Mont. u. Dienst.)</zeit></veranstaltung>
+      synthetischen Geometrie</thema>: <dozent ref="neumann_cg"><grad>D.
+      ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>12 U. 2 T. (Mont. u.
+      Dienst.)</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1874s-I.V-002"><thema>Einleitung in die
       analytische Geometrie des Raumes</thema>: <dozent ref="mayer_a"><grad>D.
@@ -1268,7 +1270,7 @@
       <seite>14</seite>
 
       <veranstaltung xml:id="v-1874s-I.V-006"><thema>Analytische
-      Mechanik</thema>: <dozent><grad>D. ph.</grad>
+      Mechanik</thema>: <dozent ref="neumann_cg"><grad>D. ph.</grad>
       <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>11-12½ U. Mittw., Donnerst. u. Freit.</zeit></veranstaltung>
 
@@ -1294,7 +1296,7 @@
 
         <veranstaltung
         xml:id="v-1874s-I.V.001-002"><thema>Mathematisch-physikalisches
-        Seminar</thema>: <dozent><grad>D. ph.</grad>
+        Seminar</thema>: <dozent ref="neumann_cg"><grad>D. ph.</grad>
         <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11-1 U. Sonn.</zeit>, <modus>privatissime</modus> u.
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1337,9 +1339,9 @@
         <funktion>P. E. des.</funktion></dozent>, <zeit>8 U. 6
         Tage</zeit>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Analytische Mechanik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. oben Mathem.
+        <veranstaltungsverweis><thema>Analytische Mechanik</thema>: <dozent
+        ref="neumann_cg"><grad>D. ph.</grad> <nachname>Neumann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <siehe>s. oben Mathem.
         Wiss.</siehe></veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1874s-I.VI.1-005"><thema>Elemente der
@@ -1509,12 +1511,14 @@
         O.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.VI.2-012"><thema>Allgemeine u.
-        specielle Naturgeschichte der wirbellosen Thiere</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Nitsche</nachname></dozent>,
-        <zeit>4 U. 4 T.</zeit></veranstaltung>
+        specielle Naturgeschichte der wirbellosen Thiere</thema>: <dozent
+        ref="nitsche_h"><grad>D. ph.</grad>
+        <nachname>Nitsche</nachname></dozent>, <zeit>4 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.VI.2-013"><thema>Allgemeine
-        Entwickelungsgeschichte</thema>: <ders>Derselbe</ders>, <zeit>7 U. 2
+        Entwickelungsgeschichte</thema>: <ders
+        ref="nitsche_h">Derselbe</ders>, <zeit>7 U. 2
         Tage</zeit>.</veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.VI.2-014"><thema>Anatomie und
@@ -2054,9 +2058,9 @@
           <modus>öffentlich</modus></veranstaltung>.)</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1874s-II.B.III.002-003"><thema>Sächsische
-          summarische Processe</thema>: <dozent><grad>D. jur.</grad>
-          <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>10-12 U. Donnerst.</zeit>
+          summarische Processe</thema>: <dozent ref="osterloh_er"><grad>D.
+          jur.</grad> <nachname>Osterloh</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>10-12 U. Donnerst.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 
@@ -2109,13 +2113,13 @@
         <titel>V. Processrecht.</titel>
 
         <veranstaltung xml:id="v-1874s-II.B.V-001"><thema>Gemeiner deutscher
-        Civilprocess</thema>: <dozent><grad>D. jur.</grad>
+        Civilprocess</thema>: <dozent ref="osterloh_er"><grad>D. jur.</grad>
         <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-II.B.V-002"><thema>Concursrecht und
-        Process</thema>: <ders>Derselbe</ders>, <zeit>10-12 U.
-        Mont.</zeit></veranstaltung>
+        Process</thema>: <ders ref="osterloh_er">Derselbe</ders>, <zeit>10-12
+        U. Mont.</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -2166,7 +2170,7 @@
         <titel>VIII. Praxis.</titel>
 
         <veranstaltung xml:id="v-1874s-II.B.VIII-001"><thema>Referir- und
-        Decretirkunst</thema>: <dozent><grad>D. jur.</grad>
+        Decretirkunst</thema>: <dozent ref="osterloh_er"><grad>D. jur.</grad>
         <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>10-12 U., Dienst. u. Freit.</zeit></veranstaltung>
 
@@ -2175,9 +2179,9 @@
 
           <veranstaltung
           xml:id="v-1874s-II.B.VIII.001-001"><thema>Civilprocesspracticum</thema>:
-          <dozent><grad>D. jur.</grad> <nachname>Osterloh</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>10-12 U. Mittw., 11-12 U.
-          Sonnab.</zeit></veranstaltung>
+          <dozent ref="osterloh_er"><grad>D. jur.</grad>
+          <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>10-12 U. Mittw., 11-12 U. Sonnab.</zeit></veranstaltung>
 
           <veranstaltung
           xml:id="v-1874s-II.B.VIII.001-002"><thema>Strafrechts-Practicum</thema>:
@@ -2280,8 +2284,8 @@
         Freit.)</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Allgemeine
-        Entwickelungsgeschichte</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Nitsche</nachname></dozent>, <siehe>s. Seite
+        Entwickelungsgeschichte</thema>: <dozent ref="nitsche_h"><grad>D.
+        ph.</grad> <nachname>Nitsche</nachname></dozent>, <siehe>s. Seite
         16</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1874s-II.C.III-004"><thema>Physiologie des
@@ -2429,13 +2433,14 @@
         <zeit>12 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-II.C.VI-002"><thema>Allgemeine
-        Pharmakologie</thema>: <dozent><grad>D. med.</grad>
+        Pharmakologie</thema>: <dozent ref="naumann_o"><grad>D. med.</grad>
         <nachname>Naumann</nachname></dozent>, <zeit>12 U. Sonnab.</zeit>,
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1874s-II.C.VI-003"><thema>Balneologie</thema>:
-        <ders>Derselbe</ders>, <zeit>12 U. Mittw.</zeit></veranstaltung>
+        xml:id="v-1874s-II.C.VI-003"><thema>Balneologie</thema>: <ders
+        ref="naumann_o">Derselbe</ders>, <zeit>12 U.
+        Mittw.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-II.C.VI-004"><thema>Receptirkunst,
         nebst Uebersicht der wichtigsteren Arzneimittel</thema>:

@@ -755,7 +755,7 @@
         <titel>2. Alterthumskunde.</titel>
 
         <veranstaltung xml:id="v-1870s-I.III.2-001"><thema>Griechische
-        Kunstmythologie</thema>: <dozent><grad>D. ph.</grad>
+        Kunstmythologie</thema>: <dozent ref="overbeck_j"><grad>D. ph.</grad>
         <nachname>Overbeck</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>9 U. 6 T.</zeit></veranstaltung>
 
@@ -776,10 +776,11 @@
           <titel>Archäologische Uebungen.</titel>
 
           <veranstaltung xml:id="v-1870s-I.III.2.001-001"><thema>Uebungen der
-          archäologischen Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Overbeck</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>in 2 zu verabredenden St.</zeit>, <modus>privatissime</modus>,
-          aber <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          archäologischen Gesellschaft</thema>: <dozent
+          ref="overbeck_j"><grad>D. ph.</grad> <nachname>Overbeck</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>in 2 zu verabredenden
+          St.</zeit>, <modus>privatissime</modus>, aber
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -986,14 +987,15 @@
       <seite>12</seite>
 
       <veranstaltung xml:id="v-1870s-I.V-002"><thema>Allgemeine Theorie der
-      Functionen</thema>: <dozent><grad>D. ph.</grad>
+      Functionen</thema>: <dozent ref="neumann_cg"><grad>D. ph.</grad>
       <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>5 U. 2 T. (Dienst. u. Freit.)</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1870s-I.V-003"><thema>Theorie des
       logarithmischen Potentiales <notiz
-      betreff="fortsetzung">(Forts.)</notiz></thema>: <ders>Derselbe</ders>,
-      <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+      betreff="fortsetzung">(Forts.)</notiz></thema>: <ders
+      ref="neumann_cg">Derselbe</ders>, <zeit>11 U. 2 T.</zeit>
+      <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1870s-I.V-004"><thema>Methode der kleinsten
       Quadrate</thema>: <dozent ref="bruhns_kc"><grad>D. ph.</grad>
@@ -1104,10 +1106,10 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1870s-I.VI.1-005"><thema>Petrographie, als
-        ein Theil der speciellen physikalischen Geographie</thema>:
-        <dozent><grad>D.</grad> <nachname>Naumann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. u. Freit.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        ein Theil der speciellen physikalischen Geographie</thema>: <dozent
+        ref="naumann_cf"><grad>D.</grad> <nachname>Naumann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. u.
+        Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -1166,9 +1168,10 @@
         <titel>2. Naturgeschichte.</titel>
 
         <veranstaltung
-        xml:id="v-1870s-I.VI.2-001"><thema>Krystallographie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Naumann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9 U. 4 Tage</zeit>.</veranstaltung>
+        xml:id="v-1870s-I.VI.2-001"><thema>Krystallographie</thema>: <dozent
+        ref="naumann_cf"><grad>D. ph.</grad> <nachname>Naumann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9 U. 4
+        Tage</zeit>.</veranstaltung>
 
         <veranstaltung xml:id="v-1870s-I.VI.2-002"><thema>Die technisch
         nutzbaren Mineralien und ihre Lagerstätten</thema>: <dozent
@@ -1665,9 +1668,10 @@
           Freit.)</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1870s-II.B.II.1-004"><thema>Geschichte und
-          Institutionen des römischen Rechts</thema>: <dozent><grad>D.</grad>
-          <nachname>Nissen</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>9 U. 6 T.</zeit></veranstaltung>
+          Institutionen des römischen Rechts</thema>: <dozent
+          ref="nissen_a"><grad>D.</grad> <nachname>Nissen</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>9 U. 6
+          T.</zeit></veranstaltung>
 
           <trennlinie/>
 
@@ -1802,7 +1806,7 @@
           <modus>öffentlich</modus>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1870s-II.B.II.3-003"><thema>Concursrecht
-          und -Process</thema>: <dozent><grad>D.</grad>
+          und -Process</thema>: <dozent ref="osterloh_er"><grad>D.</grad>
           <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>12 U. 2 T.</zeit></veranstaltung>
         </sachgruppe>
@@ -1828,17 +1832,17 @@
 
         <veranstaltungsgruppe><veranstaltung
         xml:id="v-1870s-II.B.IV-001"><thema>Gemeiner ordentlicher und
-        ausserordentlicher Civilprocess</thema></veranstaltung>:
-        <dozent><grad>D.</grad> <nachname>Nissen</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>10 U. 6 T.</zeit>
+        ausserordentlicher Civilprocess</thema></veranstaltung>: <dozent
+        ref="nissen_a"><grad>D.</grad> <nachname>Nissen</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>10 U. 6 T.</zeit>
         <modus>privatim</modus> und <seite>20</seite>im Anschluss daran
         <veranstaltung xml:id="v-1870s-II.B.IV-002"><thema>Sächsischer
         Civilprocess</thema>, <zeit>2 St.</zeit>
         <modus>öffentlich</modus></veranstaltung>.</veranstaltungsgruppe>
 
-        <veranstaltungsverweis><thema>Concursprocess</thema>:
-        <dozent><grad>D.</grad> <nachname>Osterloh</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. Sächs.
+        <veranstaltungsverweis><thema>Concursprocess</thema>: <dozent
+        ref="osterloh_er"><grad>D.</grad> <nachname>Osterloh</nachname>,
+        <funktion>P. O.</funktion></dozent>, <siehe>s. Sächs.
         Recht</siehe>.</veranstaltungsverweis>
 
         <trennlinie/>
@@ -1905,7 +1909,7 @@
         <titel>VII. Praxis.</titel>
 
         <veranstaltung xml:id="v-1870s-II.B.VII-001"><thema>Referir- und
-        Decretirkunst</thema>: <dozent><grad>D.</grad>
+        Decretirkunst</thema>: <dozent ref="osterloh_er"><grad>D.</grad>
         <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 4 T.</zeit></veranstaltung>
 
@@ -1921,8 +1925,9 @@
 
           <veranstaltung
           xml:id="v-1870s-II.B.VII.001-001"><thema>Civilprocesspracticum</thema>:
-          <dozent><grad>D.</grad> <nachname>Osterloh</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>12 U. 4 Tage</zeit>.</veranstaltung>
+          <dozent ref="osterloh_er"><grad>D.</grad>
+          <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>12 U. 4 Tage</zeit>.</veranstaltung>
 
           <veranstaltung xml:id="v-1870s-II.B.VII.001-002"><thema>Practicum
           für Strafrecht und Strafprocess</thema>: <dozent
@@ -2187,13 +2192,15 @@
         Donn.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1870s-II.C.VI-002"><thema>Uebersicht über die
-        specielle Pharmakologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Naumann</nachname></dozent>, <zeit>3 St. (6 U. Ab. Donn., 12
-        U. Mittw. u. Sonn.)</zeit></veranstaltung>
+        specielle Pharmakologie</thema>: <dozent
+        ref="naumann_o"><grad>D.</grad> <nachname>Naumann</nachname></dozent>,
+        <zeit>3 St. (6 U. Ab. Donn., 12 U. Mittw. u.
+        Sonn.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1870s-II.C.VI-003"><thema>Bäderlehre
-        (Deutschlands Heilquellen)</thema>: <ders>Derselbe</ders>, <zeit>in 1
-        zu best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        (Deutschlands Heilquellen)</thema>: <ders
+        ref="naumann_o">Derselbe</ders>, <zeit>in 1 zu best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1870s-II.C.VI-004"><thema>Ueber Bäder,
         Heilquellen und Klimawechsel</thema>: <dozent><grad>D.</grad>

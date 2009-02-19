@@ -781,9 +781,9 @@ andere bei den Übungen der praktischen Theol.!
         <titel>2. Alterthumskunde.</titel>
 
         <veranstaltung xml:id="v-1871s-I.III.2-001"><thema>Erklärung des
-        akademischen Gypsmuseums</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Overbeck</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>9 U. 4 T.</zeit></veranstaltung>
+        akademischen Gypsmuseums</thema>: <dozent ref="overbeck_j"><grad>D.
+        ph.</grad> <nachname>Overbeck</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1871s-I.III.2-002"><thema>Römische
         Alterthümer</thema>: <dozent ref="lange_l"><grad>D. ph.</grad>
@@ -805,10 +805,10 @@ andere bei den Übungen der praktischen Theol.!
           <titel>Archäologische Uebungen.</titel>
 
           <veranstaltung xml:id="v-1871s-I.III.2.001-001"><thema>Uebungen der
-          archäologischen Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Overbeck</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>1 mal wöchentlich in 2 zu verabredenden St.</zeit>,
-          <modus>privatissime</modus>, aber
+          archäologischen Gesellschaft</thema>: <dozent
+          ref="overbeck_j"><grad>D. ph.</grad> <nachname>Overbeck</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>1 mal wöchentlich in 2 zu
+          verabredenden St.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1871s-I.III.2.001-002"><thema>Uebungen der
@@ -1012,13 +1012,13 @@ andere bei den Übungen der praktischen Theol.!
       <zeit>9 U. 4 T. Mont. bis Donn.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1871s-I.V-003"><thema>Differential- und
-      Integralrechnung</thema>: <dozent><grad>D. ph.</grad>
+      Integralrechnung</thema>: <dozent ref="neumann_cg"><grad>D. ph.</grad>
       <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>11 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1871s-I.V-004"><thema>Einzelne Kapitel aus der
-      Theorie des Potentiales</thema>: <ders>Derselbe</ders>, <zeit>11 U. 2
-      T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+      Theorie des Potentiales</thema>: <ders ref="neumann_cg">Derselbe</ders>,
+      <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1871s-I.V-005"><thema>Theorie der
       Differentialgleichungen</thema>: <dozent ref="mayer_a"><grad>D.
@@ -1730,9 +1730,9 @@ andere bei den Übungen der praktischen Theol.!
 
           <veranstaltung xml:id="v-1871s-II.B.II.1-003"><thema>Institutionen
           und Geschichte des römischen Rechts</thema><korrektur>:</korrektur>
-          <dozent><grad>D. jur.</grad> <nachname>Nissen</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>8 U. 6
-          T.</zeit></veranstaltung>
+          <dozent ref="nissen_a"><grad>D. jur.</grad>
+          <nachname>Nissen</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>8 U. 6 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1871s-II.B.II.1-004"><thema>Römische
           Rechtsgeschichte nebst römischem Civilprocess</thema>: <dozent
@@ -1887,7 +1887,7 @@ andere bei den Übungen der praktischen Theol.!
           <zeit>8-10 U. 1 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1871s-II.B.II.3-003"><thema>Concursrecht
-          und -Process</thema>: <dozent><grad>D. jur.</grad>
+          und -Process</thema>: <dozent ref="osterloh_er"><grad>D. jur.</grad>
           <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>12 U. 2 T.</zeit></veranstaltung>
 
@@ -1932,7 +1932,7 @@ andere bei den Übungen der praktischen Theol.!
 
         <veranstaltungsgruppe><veranstaltung
         xml:id="v-1871s-II.B.IV-001"><thema>Gemeiner deutscher
-        Civilprocess</thema>: <dozent><grad>D. jur.</grad>
+        Civilprocess</thema>: <dozent ref="nissen_a"><grad>D. jur.</grad>
         <nachname>Nissen</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>7 U. früh 6 T.</zeit> <modus>privatim</modus></veranstaltung>
         und im Anschluss daran <veranstaltung
@@ -1940,9 +1940,9 @@ andere bei den Übungen der praktischen Theol.!
         <zeit>in zu best. St.</zeit>
         <modus>öffentlich</modus></veranstaltung>.</veranstaltungsgruppe>
 
-        <veranstaltungsverweis><thema>Concursprocess</thema>: <dozent><grad>D.
-        jur.</grad> <nachname>Osterloh</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. Sächs.
+        <veranstaltungsverweis><thema>Concursprocess</thema>: <dozent
+        ref="osterloh_er"><grad>D. jur.</grad> <nachname>Osterloh</nachname>,
+        <funktion>P. O.</funktion></dozent>, <siehe>s. Sächs.
         Recht</siehe>.</veranstaltungsverweis>
 
         <trennlinie/>
@@ -2030,7 +2030,7 @@ andere bei den Übungen der praktischen Theol.!
         <titel>VII. Praxis.</titel>
 
         <veranstaltung xml:id="v-1871s-II.B.VII-001"><thema>Referir- und
-        Decretirkunst</thema>: <dozent><grad>D. jur.</grad>
+        Decretirkunst</thema>: <dozent ref="osterloh_er"><grad>D. jur.</grad>
         <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 4 T.</zeit></veranstaltung>
 
@@ -2039,9 +2039,9 @@ andere bei den Übungen der praktischen Theol.!
 
           <veranstaltung
           xml:id="v-1871s-II.B.VII.001-001"><thema>Civilprocessprakticum</thema>:
-          <dozent><grad>D. jur.</grad> <nachname>Osterloh</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>12 U. 4
-          Tage</zeit>.</veranstaltung>
+          <dozent ref="osterloh_er"><grad>D. jur.</grad>
+          <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>12 U. 4 Tage</zeit>.</veranstaltung>
 
           <veranstaltung
           xml:id="v-1871s-II.B.VII.001-002"><thema>Criminal-Prakticum</thema>:
@@ -2285,12 +2285,12 @@ andere bei den Übungen der praktischen Theol.!
         Freit.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1871s-II.C.VI-002"><thema>Uebersicht über die
-        Arzneimittellehre</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Naumann</nachname></dozent>, <zeit>3 St. (6 U. Ab. Donn., 12
-        U. Mittw. u. Sonn.)</zeit></veranstaltung>
+        Arzneimittellehre</thema>: <dozent ref="naumann_o"><grad>D.
+        med.</grad> <nachname>Naumann</nachname></dozent>, <zeit>3 St. (6 U.
+        Ab. Donn., 12 U. Mittw. u. Sonn.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1871s-II.C.VI-003"><thema>Bäderlehre</thema>:
-        <ders>Derselbe</ders>, <zeit>in 1 zu best. St.</zeit>
+        <ders ref="naumann_o">Derselbe</ders>, <zeit>in 1 zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <trennlinie/>

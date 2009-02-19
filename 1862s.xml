@@ -319,12 +319,13 @@ Stelle  immer eine Trennlinie, daher habe ich sie nachgetragen
           <nachname>Westermann</nachname>, <funktion>P. O.</funktion>,
           <funktion>Sem. phil. Dir.</funktion></dozent></veranstaltung>, -
           <veranstaltungsgruppe><thema>im Erklären der Reden und Briefe aus
-          den Historien des Sallust</thema>: <veranstaltung><dozent><grad>D.
-          ph.</grad> <nachname>Klotz</nachname>, <funktion>P. O.</funktion>,
-          d. Z. <funktion>Dech.</funktion>, <funktion>Sem. phil.
-          Dir.</funktion></dozent></veranstaltung> - <veranstaltung>und:
-          <dozent><grad>D. ph.</grad> <nachname>Curtius</nachname>,
-          <funktion>P. O. des.</funktion>, <funktion>Sem. phil.
+          den Historien des Sallust</thema>: <veranstaltung><dozent
+          ref="klotz_r"><grad>D. ph.</grad> <nachname>Klotz</nachname>,
+          <funktion>P. O.</funktion>, d. Z. <funktion>Dech.</funktion>,
+          <funktion>Sem. phil. Dir.</funktion></dozent></veranstaltung> -
+          <veranstaltung>und: <dozent ref="curtius_g"><grad>D. ph.</grad>
+          <nachname>Curtius</nachname>, <funktion>P. O. des.</funktion>,
+          <funktion>Sem. phil.
           Dir.</funktion></dozent></veranstaltung></veranstaltungsgruppe>, -
           <zeit>Mittw. u. Sonn. 11-1 U.</zeit>
           <modus>öffentlich</modus>.</veranstaltungsgruppe>
@@ -613,13 +614,14 @@ Stelle  immer eine Trennlinie, daher habe ich sie nachgetragen
 
         <veranstaltung xml:id="v-1862s-I.III.2-001"><thema>Auserlesene
         griechische Vasengemälde, nebst Anleitung über die
-        Vasenmalerei</thema>: <dozent><grad>D. ph.</grad>
+        Vasenmalerei</thema>: <dozent ref="overbeck_j"><grad>D. ph.</grad>
         <nachname>Overbeck</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>7 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1862s-I.III.2-002"><thema>Griechische
-        Kunstgeschichte, mit Benutzung des Gypsmuseums</thema>:
-        <ders>Derselbe</ders>, <zeit>7 U. 4 T.</zeit></veranstaltung>
+        Kunstgeschichte, mit Benutzung des Gypsmuseums</thema>: <ders
+        ref="overbeck_j">Derselbe</ders>, <zeit>7 U. 4
+        T.</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -773,7 +775,7 @@ Stelle  immer eine Trennlinie, daher habe ich sie nachgetragen
         <zeit>11 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1862s-I.VI.1-002"><thema>Specielle physische
-        Geographie</thema>: <dozent><grad>D. ph.</grad>
+        Geographie</thema>: <dozent ref="naumann_cf"><grad>D. ph.</grad>
         <nachname>Naumann</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. (Mont. u. Donn.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -872,10 +874,10 @@ Stelle  immer eine Trennlinie, daher habe ich sie nachgetragen
         <titel>2. Naturgeschichte.</titel>
 
         <veranstaltung
-        xml:id="v-1862s-I.VI.2-001"><thema>Gesteinslehre</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Naumann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9 U. 2 T. (Dienst. und Freit.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        xml:id="v-1862s-I.VI.2-001"><thema>Gesteinslehre</thema>: <dozent
+        ref="naumann_cf"><grad>D. ph.</grad> <nachname>Naumann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9 U. 2 T. (Dienst. und
+        Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -1404,22 +1406,23 @@ Stelle  immer eine Trennlinie, daher habe ich sie nachgetragen
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1862s-II.B.IV-002"><thema>Gemeiner deutscher
-        Civilprocess</thema>: <dozent><grad>D.</grad>
+        Civilprocess</thema>: <dozent ref="osterloh_er"><grad>D.</grad>
         <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>8 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltungsgruppe><veranstaltung
         xml:id="v-1862s-II.B.IV-003"><thema>Gemeiner deutscher
-        Civilprocess</thema></veranstaltung>: <dozent><grad>D.</grad>
-        <nachname>Nissen</nachname></dozent>, <zeit>10 U. 6 T.</zeit>, und
-        <veranstaltung xml:id="v-1862s-II.B.IV-004">im Anschluss daran
-        <thema>Sächsischer Civilprocess</thema> <zeit>in 3 zu best.
+        Civilprocess</thema></veranstaltung>: <dozent
+        ref="nissen_a"><grad>D.</grad> <nachname>Nissen</nachname></dozent>,
+        <zeit>10 U. 6 T.</zeit>, und <veranstaltung
+        xml:id="v-1862s-II.B.IV-004">im Anschluss daran <thema>Sächsischer
+        Civilprocess</thema> <zeit>in 3 zu best.
         St.</zeit></veranstaltung></veranstaltungsgruppe>
 
         <trennlinie/>
 
         <veranstaltung xml:id="v-1862s-II.B.IV-005"><thema>Concurs-Recht und
-        -Process</thema>: <dozent><grad>D.</grad>
+        -Process</thema>: <dozent ref="osterloh_er"><grad>D.</grad>
         <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>9 U. 3 T. (Mont., Mittw. u. Sonnab.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -1482,7 +1485,7 @@ Stelle  immer eine Trennlinie, daher habe ich sie nachgetragen
         <titel>VII. Praxis.</titel>
 
         <veranstaltung xml:id="v-1862s-II.B.VII-001"><thema>Referir- und
-        Decretirkunst</thema>: <dozent><grad>D.</grad>
+        Decretirkunst</thema>: <dozent ref="osterloh_er"><grad>D.</grad>
         <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. 4 T.</zeit></veranstaltung>
 
@@ -1490,9 +1493,9 @@ Stelle  immer eine Trennlinie, daher habe ich sie nachgetragen
 
         <veranstaltung
         xml:id="v-1862s-II.B.VII-002"><thema>Civilprocessprakticum</thema>:
-        <dozent><grad>D.</grad> <nachname>Osterloh</nachname>,
-        <funktion>P.O.</funktion></dozent>, <zeit>11-1 U. 2
-        T.</zeit></veranstaltung>
+        <dozent ref="osterloh_er"><grad>D.</grad>
+        <nachname>Osterloh</nachname>, <funktion>P.O.</funktion></dozent>,
+        <zeit>11-1 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung
         xml:id="v-1862s-II.B.VII-003"><thema>Criminalprocessprakticum

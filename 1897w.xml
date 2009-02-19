@@ -1152,7 +1152,7 @@
       <seite>14</seite>
 
       <veranstaltung xml:id="v-1897w-III-053"><thema>Allgemeine Therapie und
-      Hydrotherapie</thema>: <dozent><grad>D. med.</grad>
+      Hydrotherapie</thema>: <dozent ref="naumann_o"><grad>D. med.</grad>
       <nachname>Naumann</nachname></dozent>, <zeit>in zwei zu best.
       Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1803,9 +1803,10 @@
           E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
           G.</siehe></veranstaltungsgruppe>
 
-          <veranstaltungsverweis><thema>Harnanalyse</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Paul</nachname></dozent>. <siehe>Siehe
-          Philosophische Facultät G.</siehe></veranstaltungsverweis>
+          <veranstaltungsverweis><thema>Harnanalyse</thema>: <dozent
+          ref="paul_t"><grad>D. ph.</grad> <nachname>Paul</nachname></dozent>.
+          <siehe>Siehe Philosophische Facultät
+          G.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Einführung in das kulturgeschichtliche
           Verständniss der Gegenwart</thema>: <dozent
@@ -3549,10 +3550,10 @@
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897w-IV.F-003"><thema>Analytische Mechanik,
-        <notiz betreff="fortsetzung">I. Theil</notiz></thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u. Donnerst.
-        10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <notiz betreff="fortsetzung">I. Theil</notiz></thema>: <dozent
+        ref="neumann_cg"><grad>D. ph.</grad> <nachname>Neumann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u.
+        Donnerst. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897w-IV.F-004"><thema>Sphärische
         Astronomie</thema>: <dozent ref="bruns_eh"><grad>D. ph.</grad>
@@ -3606,13 +3607,13 @@
         <trennlinie/>
 
         <veranstaltungsgruppe><thema>Mathematisches Seminar</thema>:
-        <veranstaltung xml:id="v-1897w-IV.F-012">1) <dozent><grad>D.
-        ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Sonnab. 10-11 U.</zeit></veranstaltung>
-        <veranstaltung xml:id="v-1897w-IV.F-013">2) <dozent
-        ref="lie_s"><grad>D. ph.</grad> <nachname>Lie</nachname>, <funktion>P.
-        O.</funktion></dozent>, <thema>Ueber einige neuere Gebiete der
-        Mathematik</thema>, <zeit>vierstünd. zu noch zu best.
+        <veranstaltung xml:id="v-1897w-IV.F-012">1) <dozent
+        ref="neumann_cg"><grad>D. ph.</grad> <nachname>Neumann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. 10-11
+        U.</zeit></veranstaltung> <veranstaltung xml:id="v-1897w-IV.F-013">2)
+        <dozent ref="lie_s"><grad>D. ph.</grad> <nachname>Lie</nachname>,
+        <funktion>P. O.</funktion></dozent>, <thema>Ueber einige neuere
+        Gebiete der Mathematik</thema>, <zeit>vierstünd. zu noch zu best.
         Zeit</zeit></veranstaltung>. <veranstaltung
         xml:id="v-1897w-IV.F-014">3) <dozent ref="mayer_a"><grad>D. ph.</grad>
         <nachname>Mayer</nachname>, <funktion>P. O.</funktion></dozent>,
@@ -3711,12 +3712,14 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897w-IV.G-012"><thema>Harnanlyse</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Paul</nachname></dozent>,
-        <zeit>Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="paul_t"><grad>D. ph.</grad>
+        <nachname>Paul</nachname></dozent>, <zeit>Sonnab. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897w-IV.G-013"><thema>Harnanalyse</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Paul</nachname></dozent>,
-        <zeit>Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="paul_t"><grad>D. ph.</grad>
+        <nachname>Paul</nachname></dozent>, <zeit>Sonnab. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897w-IV.G-014"><thema>Electrochemie</thema>:
         <dozent ref="knoblauch_o"><grad>D. ph.</grad>
@@ -3748,7 +3751,7 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897w-IV.G-019"><thema>Geschichte der
-        Chemie</thema>: <dozent><grad>D. ph.</grad>
+        Chemie</thema>: <dozent ref="paul_t"><grad>D. ph.</grad>
         <nachname>Paul</nachname></dozent>, <zeit>Mont. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -3857,9 +3860,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Analytische Mechanik <notiz
-        betreff="fortsetzung">I. Theil</notiz></thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe Abschnitt
+        betreff="fortsetzung">I. Theil</notiz></thema>: <dozent
+        ref="neumann_cg"><grad>D. ph.</grad> <nachname>Neumann</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
         F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Einführung in die projective
@@ -3948,9 +3951,10 @@
         <veranstaltung xml:id="v-1897w-IV.G-046"><thema>Pharmaceutisches
         Praktikum</thema>: <dozent ref="beckmann_eo"><grad>D. ph.</grad>
         <nachname>Beckmann</nachname>, <funktion>P. O.
-        des.</funktion></dozent> (<dozent>in Gemeinschaft mit <grad>D.
-        ph.</grad> <nachname>Paul</nachname></dozent>), <zeit>24stünd., nach
-        Uebereinkunft</zeit>, <modus>privatim</modus>.</veranstaltung>
+        des.</funktion></dozent> (<dozent ref="paul_t">in Gemeinschaft mit
+        <grad>D. ph.</grad> <nachname>Paul</nachname></dozent>),
+        <zeit>24stünd., nach Uebereinkunft</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897w-IV.G-047"><thema>Besprechungen über
         laufende wissenschaftliche Arbeiten</thema>: <dozent

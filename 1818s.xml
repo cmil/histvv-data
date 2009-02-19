@@ -1714,8 +1714,8 @@
             xml:id="v-1818s-II.B.II.xx.a-005"><dozent><nachname>Reichel</nachname></dozent></veranstaltung>,
             <veranstaltung
             xml:id="v-1818s-II.B.II.xx.a-006"><dozent><nachname>Hösler</nachname></dozent></veranstaltung>,
-            <veranstaltung
-            xml:id="v-1818s-II.B.II.xx.a-007"><dozent><nachname>Otto</nachname></dozent></veranstaltung>.</veranstaltungsgruppe>
+            <veranstaltung xml:id="v-1818s-II.B.II.xx.a-007"><dozent
+            ref="otto_ke"><nachname>Otto</nachname></dozent></veranstaltung>.</veranstaltungsgruppe>
 
             <!--"Proff." steht so im Original-->
           </sachgruppe>
@@ -1746,8 +1746,8 @@
               xml:id="v-1818s-II.B.II.xx.b.alpha-004"><dozent><nachname>Liekefett</nachname></dozent></veranstaltung>,
               <veranstaltung
               xml:id="v-1818s-II.B.II.xx.b.alpha-005"><dozent><nachname>Reichel</nachname></dozent></veranstaltung>,
-              <veranstaltung
-              xml:id="v-1818s-II.B.II.xx.b.alpha-006"><dozent><nachname>Otto</nachname></dozent></veranstaltung>.</veranstaltungsgruppe>
+              <veranstaltung xml:id="v-1818s-II.B.II.xx.b.alpha-006"><dozent
+              ref="otto_ke"><nachname>Otto</nachname></dozent></veranstaltung>.</veranstaltungsgruppe>
 
               <!--"Proff." auch im Original-->
             </sachgruppe>
@@ -1806,8 +1806,8 @@
             <nachname>Liekefett</nachname></dozent>, <zeit>5 U. 3
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1818s-II.B.II.xx.d-004"><dozent><grad>M.</grad>
+            <veranstaltung xml:id="v-1818s-II.B.II.xx.d-004"><dozent
+            ref="otto_ke"><grad>M.</grad>
             <nachname>Otto</nachname></dozent>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -1847,9 +1847,9 @@ aber nicht auf Schilling-->
           <veranstaltung
           xml:id="v-1818s-II.B.II.xxx-007"><dozent><nachname>Hösler</nachname></dozent>,</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1818s-II.B.II.xxx-008"><dozent><nachname>Otto</nachname></dozent>
-          <zeit>2 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1818s-II.B.II.xxx-008"><dozent
+          ref="otto_ke"><nachname>Otto</nachname></dozent> <zeit>2
+          T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1818s-II.B.II.xxx-009"><modus>Zu beliebigen
           Privatissmis</modus> erbietet sich der <dozent ref="beck_jlw">Reg.

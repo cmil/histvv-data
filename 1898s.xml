@@ -1058,7 +1058,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1898s-III-047"><thema>Allgemeine Therapie und
-      Hydrotherapie</thema>: <dozent><grad>D. med.</grad>
+      Hydrotherapie</thema>: <dozent ref="naumann_o"><grad>D. med.</grad>
       <nachname>Naumann</nachname></dozent>, <zeit>in zwei zu best.
       Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1650,7 +1650,7 @@
           G.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Praktischer Cursus der
-          Harnanalyse</thema>: <dozent><grad>D. ph.</grad>
+          Harnanalyse</thema>: <dozent ref="paul_t"><grad>D. ph.</grad>
           <nachname>Paul</nachname></dozent>. <siehe>Philosophische Facultät
           G.</siehe></veranstaltungsverweis>
 
@@ -3320,10 +3320,10 @@
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1898s-IV.F-002"><thema>Analytische Mechanik,
-        <notiz betreff="fortsetzung">II. Theil</notiz></thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u. Donnerst.
-        10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <notiz betreff="fortsetzung">II. Theil</notiz></thema>: <dozent
+        ref="neumann_cg"><grad>D. ph.</grad> <nachname>Neumann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u.
+        Donnerst. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1898s-IV.F-003"><thema>Theorie der
         astronomischen Instrumente</thema>: <dozent ref="bruns_eh"><grad>D.
@@ -3403,8 +3403,8 @@
         <trennlinie/>
 
         <veranstaltungsgruppe><thema>Mathematisches Seminar</thema>:
-        <veranstaltung xml:id="v-1898s-IV.F-013">1)
-        <dozent><nachname>Neumann</nachname>, <funktion>P.
+        <veranstaltung xml:id="v-1898s-IV.F-013">1) <dozent
+        ref="neumann_cg"><nachname>Neumann</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>Sonnab. 10-11 U.</zeit></veranstaltung>
         <veranstaltung xml:id="v-1898s-IV.F-014">2) <dozent
         ref="mayer_a"><grad>D. ph.</grad> <nachname>Mayer</nachname>,
@@ -3514,8 +3514,8 @@
 
         <veranstaltung xml:id="v-1898s-IV.G-015"><thema>Die geschichtliche
         Entwickelung der Pharmacie mit besonderer Berücksichtigung der jetzt
-        in Deutschland geltenden gesetzlichen Bestimmungen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Paul</nachname></dozent>,
+        in Deutschland geltenden gesetzlichen Bestimmungen</thema>: <dozent
+        ref="paul_t"><grad>D. ph.</grad> <nachname>Paul</nachname></dozent>,
         <zeit>Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1898s-IV.G-016"><thema>Allgemeine
@@ -3606,9 +3606,9 @@
         <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 6-7 U.
         Nachm.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Analytische Mechanik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Neumann</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe Abschnitt
+        <veranstaltungsverweis><thema>Analytische Mechanik</thema>: <dozent
+        ref="neumann_cg"><grad>D. ph.</grad> <nachname>Neumann</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
         F.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Analytische Geometrie</thema>: <dozent
@@ -3691,18 +3691,19 @@
         <veranstaltung xml:id="v-1898s-IV.G-039"><thema>Chemisches Praktikum
         für Mediciner</thema>: <dozent ref="beckmann_eo"><grad>D. ph.</grad>
         <nachname>Beckmann</nachname>, <funktion>P. O.
-        des.</funktion></dozent> (<dozent>in Gemeinschaft mit <grad>D.
-        ph.</grad> <nachname>Paul</nachname></dozent>), <zeit>vierstünd.
-        (zweimal zwei Stund. in der Woche), nach Uebereinkunft</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        des.</funktion></dozent> (<dozent ref="paul_t">in Gemeinschaft mit
+        <grad>D. ph.</grad> <nachname>Paul</nachname></dozent>),
+        <zeit>vierstünd. (zweimal zwei Stund. in der Woche), nach
+        Uebereinkunft</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1898s-IV.G-040"><thema>Pharmaceutisches
         Praktikum (daran anschliessend Besprechung pharmaceutisch-chemischer
         Präparate, zweistünd.)</thema>: <dozent ref="beckmann_eo"><grad>D.
         ph.</grad> <nachname>Beckmann</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, (<dozent>in Gemeinschaft mit <grad>D.
-        ph.</grad> <nachname>Paul</nachname></dozent>), <zeit>halbtäg. nach
-        Uebereinkunft</zeit>, <modus>privatim</modus>.</veranstaltung>
+        des.</funktion></dozent>, (<dozent ref="paul_t">in Gemeinschaft mit
+        <grad>D. ph.</grad> <nachname>Paul</nachname></dozent>),
+        <zeit>halbtäg. nach Uebereinkunft</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1898s-IV.G-041"><thema>Praktikum für
         Nahrungsmittel-Chemiker</thema>: <dozent ref="hofmann_f"><grad>D.
@@ -3717,7 +3718,7 @@
         Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1898s-IV.G-043"><thema>Praktischer Cursus der
-        Harnanalyse</thema>: <dozent><grad>D. ph.</grad>
+        Harnanalyse</thema>: <dozent ref="paul_t"><grad>D. ph.</grad>
         <nachname>Paul</nachname></dozent>, <zeit>zweistünd. nach
         Uebereinkunft</zeit>, <modus>privatim</modus>.</veranstaltung>
 

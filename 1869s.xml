@@ -956,9 +956,10 @@
       <titel>V. Mathematische Wissenschaften.</titel>
 
       <veranstaltung xml:id="v-1869s-I.V-001"><thema>Einzelne Kapitel der
-      synthetischen Geometrie</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Neumann</nachname>, <funktion>P. O. des.</funktion></dozent>,
-      <zeit>12 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+      synthetischen Geometrie</thema>: <dozent ref="neumann_cg"><grad>D.
+      ph.</grad> <nachname>Neumann</nachname>, <funktion>P. O.
+      des.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
+      <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1869s-I.V-002"><thema>Analytische Geometrie der
       Ebene</thema>: <dozent><grad>D. ph.</grad> <nachname>Zöllner</nachname>,
@@ -966,7 +967,7 @@
       Freit. u. Sonn.)</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1869s-I.V-003"><thema>Differential- und
-      Integralrechnung</thema>: <dozent><grad>D. ph.</grad>
+      Integralrechnung</thema>: <dozent ref="neumann_cg"><grad>D. ph.</grad>
       <nachname>Neumann</nachname>, <funktion>P. O. des.</funktion></dozent>,
       <zeit>12 U. 4 T.</zeit></veranstaltung>
 
@@ -1026,7 +1027,7 @@
         <titel>Mathematische Uebungen.</titel>
 
         <veranstaltung xml:id="v-1869s-I.V.001-001"><thema>Mathematische
-        Aufgaben</thema>: <dozent><grad>D. ph.</grad>
+        Aufgaben</thema>: <dozent ref="neumann_cg"><grad>D. ph.</grad>
         <nachname>Neumann</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>in zu best. St.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
@@ -1686,7 +1687,7 @@
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1869s-II.B.II.3-002"><thema>Concursrecht u.
-          -Process</thema>: <dozent><grad>D.</grad>
+          -Process</thema>: <dozent ref="osterloh_er"><grad>D.</grad>
           <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>12 U. 2 T.</zeit></veranstaltung>
 
@@ -1732,16 +1733,17 @@
 
         <veranstaltungsgruppe><veranstaltung
         xml:id="v-1869s-II.B.IV-002"><thema>Gemeiner ordentlicher u.
-        summarischer Civilprocess</thema></veranstaltung>: <seite>19</seite><dozent><grad>D.</grad>
-        <nachname>Nissen</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>8 U. 6 T.</zeit> <modus>privatim</modus> und im Anschl. daran
-        <veranstaltung xml:id="v-1869s-II.B.IV-003"><thema>Sächsischer
-        Civilprocess</thema>, <zeit>2 St.</zeit>
+        summarischer Civilprocess</thema></veranstaltung>: <seite>19</seite><dozent
+        ref="nissen_a"><grad>D.</grad> <nachname>Nissen</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>8 U. 6 T.</zeit>
+        <modus>privatim</modus> und im Anschl. daran <veranstaltung
+        xml:id="v-1869s-II.B.IV-003"><thema>Sächsischer Civilprocess</thema>,
+        <zeit>2 St.</zeit>
         <modus>öffentlich</modus></veranstaltung>.</veranstaltungsgruppe>
 
-        <veranstaltungsverweis><thema>Concursprocess</thema>:
-        <dozent><grad>D.</grad> <nachname>Osterloh</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. Sächs.
+        <veranstaltungsverweis><thema>Concursprocess</thema>: <dozent
+        ref="osterloh_er"><grad>D.</grad> <nachname>Osterloh</nachname>,
+        <funktion>P. O.</funktion></dozent>, <siehe>s. Sächs.
         Recht</siehe>.</veranstaltungsverweis>
 
         <trennlinie/>
@@ -1804,16 +1806,17 @@
         E.</funktion></dozent>, <zeit>11 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung
-        xml:id="v-1869s-II.B.VI-002"><thema>Kirchenrecht</thema>:
-        <dozent><grad>D.</grad> <nachname>Nissen</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>7 U. 6 T.</zeit></veranstaltung>
+        xml:id="v-1869s-II.B.VI-002"><thema>Kirchenrecht</thema>: <dozent
+        ref="nissen_a"><grad>D.</grad> <nachname>Nissen</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>7 U. 6
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1869s-II.B.VII">
         <titel>VII. Praxis.</titel>
 
         <veranstaltung xml:id="v-1869s-II.B.VII-001"><thema>Referir- und
-        Decretirkunst</thema>: <dozent><grad>D.</grad>
+        Decretirkunst</thema>: <dozent ref="osterloh_er"><grad>D.</grad>
         <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 4 T.</zeit></veranstaltung>
 
@@ -1822,14 +1825,15 @@
 
           <veranstaltung
           xml:id="v-1869s-II.B.VII.001-001"><thema>Civilprocesspracticum</thema>:
-          <dozent><grad>D.</grad> <nachname>Osterloh</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>12 U. 4 Tage</zeit>.</veranstaltung>
+          <dozent ref="osterloh_er"><grad>D.</grad>
+          <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>12 U. 4 Tage</zeit>.</veranstaltung>
 
           <veranstaltung xml:id="v-1869s-II.B.VII.001-002"><thema>Practicum
           und Relatorium des gemeinen und Sächsischen Civilprocesses</thema>:
-          <dozent><grad>D.</grad> <nachname>Nissen</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>4 U. 3 T. (Dienst., Donn. u.
-          Freit.)</zeit></veranstaltung>
+          <dozent ref="nissen_a"><grad>D.</grad> <nachname>Nissen</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>4 U. 3 T. (Dienst., Donn.
+          u. Freit.)</zeit></veranstaltung>
 
           <seite>20</seite>
 
@@ -2093,13 +2097,15 @@
         Freit.) </zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1869s-II.C.VI-002"><thema>Uebersicht über die
-        specielle Pharmakologie</thema>: <dozent><grad>D.</grad>
-        <nachname>Naumann</nachname></dozent>, <zeit>3 St. (6 U. Ab. Donn., 12
-        U. Mittw. u. Sonn.)</zeit></veranstaltung>
+        specielle Pharmakologie</thema>: <dozent
+        ref="naumann_o"><grad>D.</grad> <nachname>Naumann</nachname></dozent>,
+        <zeit>3 St. (6 U. Ab. Donn., 12 U. Mittw. u.
+        Sonn.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1869s-II.C.VI-003"><thema>Bäderlehre
-        (Deutschlands Heilquellen)</thema>: <ders>Derselbe</ders>, <zeit>in 1
-        zu best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        (Deutschlands Heilquellen)</thema>: <ders
+        ref="naumann_o">Derselbe</ders>, <zeit>in 1 zu best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1869s-II.C.VI-004"><thema>Ueber Bäder,
         Heilquellen und Klimawechsel</thema>: <dozent><grad>D.</grad>

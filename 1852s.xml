@@ -555,7 +555,7 @@ nur einmal da!-->
         <titel>1. Physik und Chemie.</titel>
 
         <veranstaltung xml:id="v-1852s-I.VI.1-001"><thema>Physische
-        Geographie</thema>: <dozent><grad>D. ph.</grad>
+        Geographie</thema>: <dozent ref="naumann_cf"><grad>D. ph.</grad>
         <nachname>Naumann</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>11 U. 2 T. (Dienst. und Freit.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -649,8 +649,9 @@ nur einmal da!-->
         <titel>2. Naturgeschichte.</titel>
 
         <veranstaltung xml:id="v-1852s-I.VI.2-001"><thema>Geognosie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Naumann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="naumann_cf"><grad>D. ph.</grad>
+        <nachname>Naumann</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>9 U. 4 T.</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -1276,17 +1277,18 @@ nur einmal da!-->
         <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1852s-II.B.IV-003"><thema>Gemeiner deutscher
-        Civilproceß</thema>: <dozent><grad>D.</grad>
+        Civilproceß</thema>: <dozent ref="osterloh_er"><grad>D.</grad>
         <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>8 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1852s-II.B.IV-004"><thema>Ordentlicher
-        sächsischer Civilproceß</thema>: <ders>Derselbe</ders>, <zeit>9 U. 6
+        sächsischer Civilproceß</thema>: <ders
+        ref="osterloh_er">Derselbe</ders>, <zeit>9 U. 6
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1852s-II.B.IV-005"><thema>Die summarischen
-        sächsischen Processe</thema>: <ders>Derselbe</ders>, <zeit>10 U. 4
-        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        sächsischen Processe</thema>: <ders ref="osterloh_er">Derselbe</ders>,
+        <zeit>10 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1852s-II.B.V">
@@ -1353,10 +1355,10 @@ nur einmal da!-->
 
         <veranstaltung
         xml:id="v-1852s-II.B.IX-001"><thema>Civilproceßpracticum, verbunden
-        mit Uebungen im mündl. Referiren</thema>: <dozent><grad>D.</grad>
-        <nachname>Osterloh</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>6stündig in zu best. St. u. T.</zeit>
-        <modus>privatissime</modus>.</veranstaltung>
+        mit Uebungen im mündl. Referiren</thema>: <dozent
+        ref="osterloh_er"><grad>D.</grad> <nachname>Osterloh</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>6stündig in zu best. St. u.
+        T.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1852s-II.B.IX-002"><thema>Referir- und
         Decretirkunst, unter Vorlegung von Gerichtsacten</thema>:
