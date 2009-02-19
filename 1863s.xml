@@ -26,6 +26,12 @@
 
     <status komplett="ja">
       <transkribent>anne</transkribent>
+
+      <korrigiert>
+        <durch>Beatrice</durch>
+
+        <am>19.2.2009</am>
+      </korrigiert>
     </status>
   </kopf>
 
@@ -62,7 +68,7 @@
 
         <veranstaltung xml:id="v-1863s-I.I.I-001"><thema>Geschichte der
         Philosophie</thema>: <dozent ref="hermann_c"><grad>D. ph.</grad>
-        <nachname>Hermann</nachname>, <funktion>P.E.</funktion></dozent>,
+        <nachname>Hermann</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>5 U. 6 T.</zeit> (<modus>2 St.
         öffentlich</modus>.)</veranstaltung>
 
@@ -115,7 +121,7 @@
         <veranstaltung xml:id="v-1863s-I.I.2-007"><thema>Ueber einige
         Hauptprobleme der Theologie und Religionsphilosophie</thema>: <dozent
         ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
-        <funktion>P.O.</funktion></dozent>, <zeit>4 U. 2 T. (Dienst. u.
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. 2 T. (Dienst. u.
         Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <sachgruppe xml:id="sg-1863s-I.I.2.001">
@@ -168,7 +174,7 @@
           <zeit>2 St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1863s-I.I.2.002-005"><thema>Unterricht im
-          Orgel- (Choral)spiel</thema>: <ders>Derselbe</ders>, <zeit>mehrst.
+          Orgel- (Choral) spiel</thema>: <ders>Derselbe</ders>, <zeit>mehrst.
           in zu best. St. u. T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1863s-I.I.2.002-006"><thema>Uebungen des
@@ -959,8 +965,8 @@
           xml:id="v-1863s-I.IV_2.1.001-001"><thema>Physikalisch-physiologische
           Uebungen</thema>: <dozent ref="hankel_wg"><grad>D.</grad>
           <nachname>Hankel</nachname>, <funktion>P. O.</funktion>, d. Z.
-          <funktion>Dech.</funktion></dozent>, in Verbindung mit den
-          Professoren <dozent><grad>D.</grad> <vorname>E.
+          <funktion>Dech.</funktion></dozent>, <dozent>in Verbindung mit den
+          <funktion>Professor</funktion>en <grad>D.</grad> <vorname>E.
           H.</vorname></dozent> u. <dozent ref="weber_ef"><grad>D.</grad>
           <vorname>Ed.</vorname> <nachname>Weber</nachname></dozent>,
           <zeit>2-4 U. Dienst.</zeit><!--2x Professoren können nicht getaggt werden--></veranstaltung>
@@ -1049,7 +1055,7 @@
 
   <trennlinie/>
 
-  <seite>12</seite>
+  <seite nr="12"/>
 
   <sachgruppe xml:id="sg-1863s-II">
     <titel>II. Facultätsstudien.</titel>
@@ -1063,9 +1069,10 @@
       <zeit>8 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltungsverweis><thema>Ueber einige Hauptprobleme der Theologie
-      u. Religionsphilosophie</thema>: <dozent ref="weisse_ch"><grad>D.</grad>
-      <nachname>Weisse</nachname>, <funktion>P. O.</funktion></dozent>,
-      <siehe>s. Philosophie</siehe>.</veranstaltungsverweis>
+      u<korrektur>.</korrektur> Religionsphilosophie</thema>: <dozent
+      ref="weisse_ch"><grad>D.</grad> <nachname>Weisse</nachname>,
+      <funktion>P. O.</funktion></dozent>, <siehe>s.
+      Philosophie</siehe>.</veranstaltungsverweis>
 
       <sachgruppe xml:id="sg-1863s-II.A.001">
         <titel>Theologische Uebungen.</titel>
@@ -1759,10 +1766,9 @@
         <veranstaltung
         xml:id="v-1863s-II.C.III-005"><thema>Experimentalphysiologie des
         Stoffwechsels</thema>: <dozent ref="hering_kek"><grad>D.</grad>
-        <nachname>Hering</nachname></dozent> in Verb. mit <dozent
-        ref="huppert_kh"><grad>D.</grad>
-        <nachname>Huppert</nachname></dozent>, <zeit>4 U. 4 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <nachname>Hering</nachname></dozent> <dozent ref="huppert_kh">in Verb.
+        mit <grad>D.</grad> <nachname>Huppert</nachname></dozent>, <zeit>4 U.
+        4 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1863s-II.C.III-006"><thema>Repetitorium der
         Physiologie</thema>: <dozent><grad>D.</grad>
@@ -1773,11 +1779,12 @@
 
         <veranstaltung
         xml:id="v-1863s-II.C.III-007"><thema>Physikalisch-physiologische
-        Uebungen</thema> von den Professoren <dozent
-        ref="hankel_wg"><grad>D.</grad> <nachname>Hankel</nachname></dozent>,
-        <dozent ref="weber_eh"><grad>D.</grad> <nachname>Weber</nachname>
-        sen.</dozent> und <dozent ref="weber_ef"><grad>D.</grad>
-        <nachname>Weber</nachname> jun.</dozent>, <zeit>2-4 U. Dienst. u.
+        Uebungen</thema> von den <dozent
+        ref="hankel_wg"><funktion>Professor</funktion>en <grad>D.</grad>
+        <nachname>Hankel</nachname></dozent>, <dozent
+        ref="weber_eh"><grad>D.</grad> <nachname>Weber
+        sen.</nachname></dozent> und <dozent ref="weber_ef"><grad>D.</grad>
+        <nachname>Weber jun.</nachname></dozent>, <zeit>2-4 U. Dienst. u.
         Freit.</zeit></veranstaltung>
 
         <veranstaltung
@@ -1863,8 +1870,9 @@
         Sonn. und 6 U. Ab. Dienst., Donn., Freit.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1863s-II.C.VI-002"><thema>Toxikologie,
-        verbunden mit Experimenten über die chemische Nachweisung der
-        Gifte</thema>: <dozent ref="hirzel_ch"><grad>D. ph.</grad>
+        verbunden mit E<korrektur original="y">x</korrektur>perimenten über
+        die chemische Nachweisung der Gifte</thema>: <dozent
+        ref="hirzel_ch"><grad>D. ph.</grad>
         <nachname>Hirzel</nachname></dozent>, <zeit>10 U. 2 T. (Freit. und
         Sonn.)</zeit></veranstaltung>
 
@@ -2026,7 +2034,7 @@
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1863s-II.C.XI">
-        <titel>XI. Geburtshilfe.</titel>
+        <titel>XI. Geburtshülfe.</titel>
 
         <veranstaltung xml:id="v-1863s-II.C.XI-001"><thema>Theoretische und
         praktische Geburtshülfe</thema>: <dozent><grad>D.</grad>
@@ -2118,8 +2126,8 @@
 
         <veranstaltung xml:id="v-1863s-II.C.XII-006"><thema>Chirurgische
         Poliklinik</thema>: <dozent><grad>D.</grad>
-        <nachname>Streubel</nachname>, <funktion>P. E.</funktion></dozent>, in
-        Verbindung mit <dozent><grad>D.</grad>
+        <nachname>Streubel</nachname>, <funktion>P. E.</funktion></dozent>,
+        <dozent>in Verbindung mit <grad>D.</grad>
         <nachname>Schmidt</nachname></dozent>, <zeit>11 U. 6
         T.</zeit></veranstaltung>
 
@@ -2129,7 +2137,7 @@
         <zeit>11-12½ U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1863s-II.C.XII-008"><thema>Klinische Vorträge
-        über Ohrenheilkunde in seiner Privatklinik</thema>:
+        über Ohrenheilkunde <ort>in seiner Privatklinik</ort></thema>:
         <dozent><grad>D.</grad> <nachname>Winter</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. u. Freit.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -2147,8 +2155,8 @@
         Donn.)</zeit> <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1863s-II.C.XII-011"><thema>Geburtshilfliche
-        und gynäkologische Klinik und Poliklinik (in der Entbindungsschule
-        <ort>im Trierschen Institute</ort>)</thema>: <dozent
+        und gynäkologische Klinik und Poliklinik (<ort>in der
+        Entbindungsschule im Trierschen Institute</ort>)</thema>: <dozent
         ref="crede_csf"><grad>D.</grad> <nachname>Credé</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>7 U. 6
         T.</zeit></veranstaltung>
@@ -2214,7 +2222,7 @@
 
   <absatz>Das <gesperrt>zoologische</gesperrt> Museum ist Mittw. u. Sonnab.
   von 10 bis 12 Uhr, das <gesperrt>Universitäts-Herbarium</gesperrt> Mittw. u.
-  Freit. früh 7 bis 10 Uhr, das <gesperrt>Brückner-Lampe'sche</gesperrt>
+  Freit. früh 7 bis 10 Uhr, das <gesperrt>Brückner-Lampe</gesperrt>'sche
   pharmakognostische Museum Donn. von 1 bis 3 Uhr, das
   <gesperrt>archäologische</gesperrt> Museum Sonntags von 10 bis 12 Uhr
   geöffnet.</absatz>
