@@ -1038,15 +1038,16 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1878s-III-072"><thema>Medicinische
-      Klinik</thema>: <dozent><grad>D. med.</grad>
+      Klinik</thema>: <dozent ref="wagner_el"><grad>D. med.</grad>
       <nachname>Wagner</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 9½-11 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878s-III-073"><thema>Cursus der Percussion und
       Auscultation</thema> in Verbindung mit Hrn. <dozent><grad>D.</grad>
-      <nachname>Strümpell</nachname></dozent>: <dozent><grad>D. med.</grad>
-      <nachname>Wagner</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>in zu best. Stunden</zeit>.</veranstaltung>
+      <nachname>Strümpell</nachname></dozent>: <dozent
+      ref="wagner_el"><grad>D. med.</grad> <nachname>Wagner</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>in zu best.
+      Stunden</zeit>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878s-III-074"><thema>Medicinische
       Poliklinik</thema>: <dozent ref="heubner_o"><grad>D. med.</grad>
@@ -1668,7 +1669,7 @@
 
           <veranstaltung xml:id="v-1878s-IV.B.c-003"><thema>Deutsche Grammatik
           (gotisch, hochdeutsch, niederd.)</thema>: <dozent
-          ref="braune_cw"><grad>D. ph.</grad> <nachname>Braune</nachname>,
+          ref="braune_w"><grad>D. ph.</grad> <nachname>Braune</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst., Mittw.,
           Donnerst., Freit. u. Sonnab. 8-9 U.</zeit>
           <modus>privatim</modus>.</veranstaltung>
@@ -1769,7 +1770,7 @@
           <veranstaltungsgruppe><thema>Uebungen des Königlichen Deutschen
           Seminar</thema>: <dozent ref="zarncke_f"><grad>D. ph.</grad>
           <nachname>Zarncke</nachname>, <funktion>P. O.</funktion></dozent>,
-          <dozent ref="braune_cw">in Verbindung mit Hrn. <grad>Prof.</grad>
+          <dozent ref="braune_w">in Verbindung mit Hrn. <grad>Prof.</grad>
           <nachname>Braune</nachname></dozent>: <veranstaltung
           xml:id="v-1878s-IV.B.c-016"><thema>a) Uebungen der ordentlichen
           Mitglieder</thema>, <zeit>Freit. 7-9 U. Ab.</zeit>
@@ -1779,7 +1780,7 @@
           <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr></veranstaltung>; <veranstaltung
           xml:id="v-1878s-IV.B.c-018"><thema>c)</thema> <dozent
-          ref="braune_cw"><grad>D. ph.</grad>
+          ref="braune_w"><grad>D. ph.</grad>
           <nachname>Braune</nachname></dozent>,
           <thema>(mittelhochdeutsch)</thema>, <zeit>Mittw. 7-9 U. Ab.</zeit>
           <modus>privatissime</modus>, aber
@@ -1793,7 +1794,7 @@
 
           <veranstaltung xml:id="v-1878s-IV.B.c-020"><thema>Gotische Uebungen
           (von Pfingsten ab), für die Hörer der Deutschen Grammatik</thema>:
-          <dozent ref="braune_cw"><grad>D. ph.</grad>
+          <dozent ref="braune_w"><grad>D. ph.</grad>
           <nachname>Braune</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>in einer zu best. St.</zeit>
           <modus>publice</modus>.</veranstaltung>
@@ -1872,9 +1873,9 @@
         U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.C-009"><thema>Deutsche Geschichte im
-        Zeitalter der Reformation</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Pückert</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>dreistündig, 9-10 U.</zeit>
+        Zeitalter der Reformation</thema>: <dozent ref="pueckert_w"><grad>D.
+        ph.</grad> <nachname>Pückert</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>dreistündig, 9-10 U.</zeit>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.C-010"><thema>Geschichte
@@ -1885,11 +1886,11 @@
         u. Freit. 4-5 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.C-011"><thema>Geschichte Europa's
-        während der Jahre 1763-1815</thema>: <dozent><grad>D. ph.</grad>
-        <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Noorden</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
-        u. Freit<korrektur>.</korrektur> 6-7 U.</zeit>
-        <modus>privatim</modus>.</veranstaltung>
+        während der Jahre 1763-1815</thema>: <dozent ref="noorden_k"><grad>D.
+        ph.</grad> <nachnamenpräfix>v.</nachnamenpräfix>
+        <nachname>Noorden</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. u. Freit<korrektur>.</korrektur> 6-7
+        U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.C-012"><thema>Allgemeine Geschichte
         von 1840 an, mit einem einleitenden Rückblick auf die Zeit seit
@@ -1899,7 +1900,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.C-013"><thema>Sächsische
-        Geschichte</thema>: <dozent><grad>D. ph.</grad>
+        Geschichte</thema>: <dozent ref="pueckert_w"><grad>D. ph.</grad>
         <nachname>Pückert</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>zweitägig 9-10 U.</zeit> <modus>publice</modus>.</veranstaltung>
 
@@ -1925,7 +1926,8 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.C-017"><thema>Uebungen des
-        Königlichen historischen Seminars</thema>: <dozent><grad>D. ph.</grad>
+        Königlichen historischen Seminars</thema>: <dozent
+        ref="noorden_k"><grad>D. ph.</grad>
         <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Noorden</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>
         <modus>publice</modus>.</veranstaltung>

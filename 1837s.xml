@@ -622,9 +622,9 @@
           verschiedenen Schulämter</thema>, <zeit>3 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1837s-I.III.003.5-002"><dozent><nachname>Plato</nachname>,
-          <vorname>G. J. K. L.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <veranstaltung xml:id="v-1837s-I.III.003.5-002"><dozent
+          ref="plato_gjkl"><nachname>Plato</nachname>, <vorname>G. J. K.
+          L.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>Pädagogik,</thema> <zeit>11 U. 4 T.</zeit>
           <modus>öffentlich</modus> und
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -694,9 +694,9 @@
       <sachgruppe xml:id="sg-1837s-I.IV.003">
         <titel>Practisches europäisches Völkerrecht u. Diplomatie.</titel>
 
-        <veranstaltung
-        xml:id="v-1837s-I.IV.003-001"><dozent><nachname>Pölitz</nachname>,
-        <vorname>K. H. L.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <veranstaltung xml:id="v-1837s-I.IV.003-001"><dozent
+        ref="poelitz_kh"><nachname>Pölitz</nachname>, <vorname>K. H.
+        L.</vorname>, <funktion>P. O.</funktion></dozent>,
         <modus>privatissime</modus> <zeit>in zu best.
         St.</zeit></veranstaltung>
       </sachgruppe>
@@ -704,12 +704,11 @@
       <sachgruppe xml:id="sg-1837s-I.IV.004">
         <titel>Darstellung der wichtigsten europäischen Verfassungen.</titel>
 
-        <veranstaltung
-        xml:id="v-1837s-I.IV.004-001"><dozent><nachname>Pölitz</nachname>,
-        <vorname>K. H. L.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>besonders der des deutschen Bundes, in historisch-politischer
-        Hinsicht</thema>, <zeit>9 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1837s-I.IV.004-001"><dozent
+        ref="poelitz_kh"><nachname>Pölitz</nachname>, <vorname>K. H.
+        L.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>besonders
+        der des deutschen Bundes, in historisch-politischer Hinsicht</thema>,
+        <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1837s-I.IV.005">
@@ -725,11 +724,11 @@
       <sachgruppe xml:id="sg-1837s-I.IV.006">
         <titel>Politische und parlamentarische Beredsamkeit.</titel>
 
-        <veranstaltung
-        xml:id="v-1837s-I.IV.006-001"><dozent><nachname>Pölitz</nachname>,
-        <vorname>K. H. L.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>mit Beispielen erläutert, und nach vorausgeschickter Theorie
-        des Styls überhaupt</thema>, <zeit>11 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1837s-I.IV.006-001"><dozent
+        ref="poelitz_kh"><nachname>Pölitz</nachname>, <vorname>K. H.
+        L.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>mit
+        Beispielen erläutert, und nach vorausgeschickter Theorie des Styls
+        überhaupt</thema>, <zeit>11 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
@@ -808,37 +807,40 @@
         ref="kunze_g">Derselbe</ders>, <thema>Pflanzen-Physiologie</thema>,
         <zeit>5 U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1837s-I.VI.001-007"><dozent><nachname>Pöppig</nachname>,
-        <vorname>E.</vorname>, <funktion>P. E.</funktion></dozent>,
-        <thema>allgemeine Zoologie, <notiz betreff="fortsetzung">erster
-        Theil</notiz> der Zoologie</thema>, <zeit>4 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1837s-I.VI.001-007"><dozent
+        ref="poeppig_e"><nachname>Pöppig</nachname>, <vorname>E.</vorname>,
+        <funktion>P. E.</funktion></dozent>, <thema>allgemeine Zoologie,
+        <notiz betreff="fortsetzung">erster Theil</notiz> der
+        Zoologie</thema>, <zeit>4 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1837s-I.VI.001-008"><ders>Derselbe</ders>,
-        <thema>Examinir-Uebungen über allgemeine Zoologie</thema>, <zeit>in zu
-        best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1837s-I.VI.001-008"><ders
+        ref="poeppig_e">Derselbe</ders>, <thema>Examinir-Uebungen über
+        allgemeine Zoologie</thema>, <zeit>in zu best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1837s-I.VI.001-009"><dozent><nachname>Petermann</nachname>,
-        <grad>M.</grad> <vorname>W. L.</vorname></dozent>, <thema>theoretische
-        Gewächskunde, nach s. Handbuche der Gewächskunde zum Gebrauche bei
-        Vorlesungen, sowie zum Selbststudium (Lpz. b. Barth 1836.)</thema>,
-        <zeit>7 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1837s-I.VI.001-009"><dozent
+        ref="petermann_wl"><nachname>Petermann</nachname>, <grad>M.</grad>
+        <vorname>W. L.</vorname></dozent>, <thema>theoretische Gewächskunde,
+        nach s. Handbuche der Gewächskunde zum Gebrauche bei Vorlesungen,
+        sowie zum Selbststudium (Lpz. b. Barth 1836.)</thema>, <zeit>7 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung xml:id="v-1837s-I.VI.001-010"><ders>Derselbe</ders>,
-        <thema>Demonstrationen und Excursionen mit Benutzung seiner
-        <antiqua>Flora Lipsiensis excursoria (Lips. sumt. Ambr. Barth.,
-        1837.)</antiqua></thema>, <zeit>2 T. in den
+        <veranstaltung xml:id="v-1837s-I.VI.001-010"><ders
+        ref="petermann_wl">Derselbe</ders>, <thema>Demonstrationen und
+        Excursionen mit Benutzung seiner <antiqua>Flora Lipsiensis excursoria
+        (Lips. sumt. Ambr. Barth., 1837.)</antiqua></thema>, <zeit>2 T. in den
         Nachmittagsstunden</zeit>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1837s-I.VI.001-011"><ders>Derselbe</ders>,
-        <thema>landwirthschaftliche Gewächskunde</thema>, <zeit>1 U. 2
-        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1837s-I.VI.001-011"><ders
+        ref="petermann_wl">Derselbe</ders>, <thema>landwirthschaftliche
+        Gewächskunde</thema>, <zeit>1 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1837s-I.VI.001-012"><ders>Derselbe</ders>,
-        <thema>Examinir-Uebungen über theoretische und praktische
-        Gewächskunde</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1837s-I.VI.001-012"><ders
+        ref="petermann_wl">Derselbe</ders>, <thema>Examinir-Uebungen über
+        theoretische und praktische Gewächskunde</thema>, <zeit>in zu best.
+        St.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1837s-I.VI.002">
@@ -898,10 +900,10 @@
       <sachgruppe xml:id="sg-1837s-I.VII.001">
         <titel>Einleitung in die allgemeine Gewerbslehre.</titel>
 
-        <veranstaltung
-        xml:id="v-1837s-I.VII.001-001"><dozent><nachname>Pohl</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>2
-        U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1837s-I.VII.001-001"><dozent
+        ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>2 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <seite>9</seite>
       </sachgruppe>
@@ -918,10 +920,10 @@
       <sachgruppe xml:id="sg-1837s-I.VII.003">
         <titel>Kenntniß und Anbau der landwirthschaftl. Pflanzen.</titel>
 
-        <veranstaltung
-        xml:id="v-1837s-I.VII.003-001"><dozent><nachname>Pohl</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>nach <gesperrt>Burger's</gesperrt> Lehrbuche (2. Thl.) u. s.
+        <veranstaltung xml:id="v-1837s-I.VII.003-001"><dozent
+        ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <thema>nach
+        <gesperrt>Burger's</gesperrt> Lehrbuche (2. Thl.) u. s.
         Heften</thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -937,29 +939,28 @@
       <sachgruppe xml:id="sg-1837s-I.VII.005">
         <titel>Gerichtliche Oekonomie.</titel>
 
-        <veranstaltung
-        xml:id="v-1837s-I.VII.005-001"><dozent><nachname>Pohl</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>nach s. Heften</thema>, <zeit>4 U. 4 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1837s-I.VII.005-001"><dozent
+        ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <thema>nach s. Heften</thema>,
+        <zeit>4 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1837s-I.VII.006">
         <titel>Kameralistisch-praktische Uebungen.</titel>
 
-        <veranstaltung
-        xml:id="v-1837s-I.VII.006-001"><dozent><nachname>Pohl</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>in noch zu best. T. u. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1837s-I.VII.006-001"><dozent
+        ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in noch zu best. T. u.
+        St.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1837s-I.VII.x">
         <titel>*) Kameralistische Gesellschaft.</titel>
 
-        <veranstaltung
-        xml:id="v-1837s-I.VII.x-001"><dozent><nachname>Pohl</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>in den best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1837s-I.VII.x-001"><dozent
+        ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in den best.
+        St.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
@@ -1404,10 +1405,10 @@
         <sachgruppe xml:id="sg-1837s-II.A.II.004">
           <titel>Katechetik.</titel>
 
-          <veranstaltung
-          xml:id="v-1837s-II.A.II.004-001"><dozent><nachname>Plato</nachname>,
-          <vorname>G. J. K. L.</vorname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>2 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1837s-II.A.II.004-001"><dozent
+          ref="plato_gjkl"><nachname>Plato</nachname>, <vorname>G. J. K.
+          L.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>2 U. 2
+          T.</zeit></veranstaltung>
 
           <seite>13</seite>
         </sachgruppe>
@@ -1439,10 +1440,10 @@
             <ort>in der Bürgerschule</ort>, <zeit>Dienst. u. Freit. 4-6
             U.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1837s-II.A.II.005.2-002"><dozent><nachname>Plato</nachname>,
-            <vorname>G. J. K. L.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1837s-II.A.II.005.2-002"><dozent
+            ref="plato_gjkl"><nachname>Plato</nachname>, <vorname>G. J. K.
+            L.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2
+            T.</zeit></veranstaltung>
 
             <veranstaltung
             xml:id="v-1837s-II.A.II.005.2-003"><dozent><nachname>Gilbert</nachname>,
@@ -1454,11 +1455,10 @@
             <sachgruppe xml:id="sg-1837s-II.A.II.005.2.x">
               <titel>*) Katechetisch-pädagogischer Verein.</titel>
 
-              <veranstaltung
-              xml:id="v-1837s-II.A.II.005.2.x-001"><dozent><nachname>Plato</nachname>,
-              <vorname>G. J. K. L.</vorname>, <funktion>P.
-              E.</funktion></dozent>, <zeit>in den best.
-              St.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1837s-II.A.II.005.2.x-001"><dozent
+              ref="plato_gjkl"><nachname>Plato</nachname>, <vorname>G. J. K.
+              L.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>in den
+              best. St.</zeit></veranstaltung>
             </sachgruppe>
           </sachgruppe>
         </sachgruppe>
@@ -1562,10 +1562,10 @@
               <titel>Ueber das vierte Buch der Institutionen des
               Gajus.</titel>
 
-              <veranstaltung
-              xml:id="v-1837s-II.B.II.I.1.001-001"><dozent><nachname>Puchta</nachname>,
-              <grad>D.</grad> <vorname>G. F.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
+              <veranstaltung xml:id="v-1837s-II.B.II.I.1.001-001"><dozent
+              ref="puchta_g"><nachname>Puchta</nachname>, <grad>D.</grad>
+              <vorname>G. F.</vorname>, <funktion>P. O.</funktion></dozent>,
+              <zeit>3 U. 2 T.</zeit>
               <modus>öffentlich</modus>.</veranstaltung>
             </sachgruppe>
 
@@ -1619,12 +1619,12 @@
             <sachgruppe xml:id="sg-1837s-II.B.II.I.1.004">
               <titel>Pandekten.</titel>
 
-              <veranstaltung
-              xml:id="v-1837s-II.B.II.I.1.004-001"><dozent><nachname>Puchta</nachname>,
-              <grad>D.</grad> <vorname>G. F.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <thema>das ganze Pandektenrecht nach
-              seinem bei Barth erscheinenden Lehrbuch der Pandekten</thema>,
-              <zeit>9 und 2 U. 6 T. und 3 U. 2 T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1837s-II.B.II.I.1.004-001"><dozent
+              ref="puchta_g"><nachname>Puchta</nachname>, <grad>D.</grad>
+              <vorname>G. F.</vorname>, <funktion>P. O.</funktion></dozent>,
+              <thema>das ganze Pandektenrecht nach seinem bei Barth
+              erscheinenden Lehrbuch der Pandekten</thema>, <zeit>9 und 2 U. 6
+              T. und 3 U. 2 T.</zeit></veranstaltung>
 
               <veranstaltung
               xml:id="v-1837s-II.B.II.I.1.004-002"><dozent><nachname>Schilling</nachname>,

@@ -859,9 +859,9 @@
 
       <veranstaltung xml:id="v-1880w-III-037"><thema>Ueber
       Infectionskrankheiten (<notiz
-      betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Wagner</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Sonnab. 4-5½ U.</zeit>,
+      betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent
+      ref="wagner_el"><grad>D. med.</grad> <nachname>Wagner</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. 4-5½ U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1880w-III-038"><thema>Specielle Pathologie und
@@ -1102,7 +1102,7 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1880w-III-078"><thema>Medicinische
-      Klinik</thema>: <dozent><grad>D. med.</grad>
+      Klinik</thema>: <dozent ref="wagner_el"><grad>D. med.</grad>
       <nachname>Wagner</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 10½-12 U.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
@@ -2051,10 +2051,10 @@
 
         <veranstaltung xml:id="v-1880w-IV.C-005"><thema>Geschichte Europas vom
         Anfange des 15. Jahrhunderts bis zum westphälischen Frieden</thema>:
-        <dozent><grad>D. ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
-        <nachname>Noorden</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit., 6-7 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="noorden_k"><grad>D. ph.</grad>
+        <nachnamenpräfix>von</nachnamenpräfix> <nachname>Noorden</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
+        u. Freit., 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1880w-IV.C-006"><thema>Geschichte des
         deutschen Kaiserthums von Karl dem Grossen bis zum Untergange der
@@ -2076,9 +2076,9 @@
         9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1880w-IV.C-009"><thema>Geschichte Preussens
-        vom grossen Kurfürsten ab</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Pückert</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mittw. u. Sonnab., 10-11 U.</zeit>,
+        vom grossen Kurfürsten ab</thema>: <dozent ref="pueckert_w"><grad>D.
+        ph.</grad> <nachname>Pückert</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mittw. u. Sonnab., 10-11 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1880w-IV.C-010"><thema>Geschichte der
@@ -2094,7 +2094,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1880w-IV.C-012"><thema>Geschichte der
-        deutschen Städte</thema>: <dozent><grad>D. ph.</grad>
+        deutschen Städte</thema>: <dozent ref="pueckert_w"><grad>D. ph.</grad>
         <nachname>Pückert</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. u. Freit., 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2119,7 +2119,8 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1880w-IV.C-016"><thema>Uebungen des
-        Königlichen historischen Seminars</thema>: <dozent><grad>D. ph.</grad>
+        Königlichen historischen Seminars</thema>: <dozent
+        ref="noorden_k"><grad>D. ph.</grad>
         <nachnamenpräfix>von</nachnamenpräfix> <nachname>Noorden</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 7½-10 U. Ab.</zeit>,
         <modus>publice</modus>.</veranstaltung>

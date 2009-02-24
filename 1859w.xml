@@ -910,8 +910,9 @@
 
         <veranstaltung xml:id="v-1859w-I.VI.2-006"><thema>Specielle Zoologie,
         <notiz betreff="fortsetzung">1. Th.</notiz> Wirbelthiere</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Pöppig</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>3-5 U. 2 T.</zeit></veranstaltung>
+        <dozent ref="poeppig_e"><grad>D. ph.</grad>
+        <nachname>Pöppig</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>3-5 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Vergleichende Anatomie der Wirbelthiere
         und vergleichende Knochenlehre</thema>: <dozent
@@ -923,7 +924,7 @@
           <titel>Botanische und zoologische Uebungen.</titel>
 
           <veranstaltung xml:id="v-1859w-I.VI.2.001-001"><thema>Zoologische
-          Uebungen</thema>: <dozent><grad>D. ph.</grad>
+          Uebungen</thema>: <dozent ref="poeppig_e"><grad>D. ph.</grad>
           <nachname>Pöppig</nachname>, <funktion>P. O.</funktion>,
           <funktion>Mus. zool. Dir.</funktion></dozent>, <zeit>3-5 U. 2 T.
           (Mont. u. Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -1773,7 +1774,7 @@
         Freit.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1859w-II.C.IV-002"><thema>Allgemeine
-        Pathologie</thema>: <dozent><grad>D.</grad>
+        Pathologie</thema>: <dozent ref="wagner_el"><grad>D.</grad>
         <nachname>Wagner</nachname>, <funktion>P. E. des.</funktion></dozent>,
         <zeit>6 U. Ab. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
 
@@ -1784,7 +1785,7 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1859w-II.C.IV-004"><thema>Pathologische
-        Geweblehre</thema>: <dozent><grad>D.</grad>
+        Geweblehre</thema>: <dozent ref="wagner_el"><grad>D.</grad>
         <nachname>Wagner</nachname>, <funktion>P. E. des.</funktion></dozent>,
         <zeit>3 U. 2 T. (Mittw. u. Freit.)</zeit></veranstaltung>
 
@@ -1799,9 +1800,9 @@
         <veranstaltung xml:id="v-1859w-II.C.IV-006"><thema>Mikroskopische
         Uebungen in normaler und pathologischer Geweblehre</thema>: <dozent
         ref="funke_o"><grad>D.</grad> <nachname>Funke</nachname>, <funktion>P.
-        E.</funktion></dozent>, <dozent>in Verbind. mit <grad>D.</grad>
-        <nachname>Wagner</nachname>, <funktion>P. E. des.</funktion></dozent>,
-        <zeit>Sonn. 5-7 U.</zeit></veranstaltung>
+        E.</funktion></dozent>, <dozent ref="wagner_el">in Verbind. mit
+        <grad>D.</grad> <nachname>Wagner</nachname>, <funktion>P. E.
+        des.</funktion></dozent>, <zeit>Sonn. 5-7 U.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1859w-II.C.IV-007"><thema>Praktische Uebungen
         in der Experimental-Pathologie</thema>: <dozent
@@ -2096,9 +2097,10 @@
         <veranstaltung xml:id="v-1859w-II.C.XII-006"><thema>Einleitung in die
         gerichtsärztliche u. criminalistische Praxis (mit
         Experimenten)</thema>: <dozent><grad>D.</grad>
-        <nachname>Reclam</nachname></dozent>, <dozent>in Gemeinschaft mit
-        <grad>D.</grad> <nachname>Höck</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>3 U. 4 T.</zeit></veranstaltung>
+        <nachname>Reclam</nachname></dozent>, <dozent ref="hoeck_h">in
+        Gemeinschaft mit <grad>D.</grad> <nachname>Höck</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>3 U. 4
+        T.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>

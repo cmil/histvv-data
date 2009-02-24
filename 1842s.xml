@@ -170,7 +170,7 @@
         <zeit>3 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1842s-I.I.1-019"><thema>Pädagogik</thema>:
-        <dozent><nachname>Plato</nachname>, <funktion>P.
+        <dozent ref="plato_gjkl"><nachname>Plato</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>11 U. 4 T.</zeit>
         <modus>öffentlich</modus> und
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -779,16 +779,17 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1842s-I.VI.2-004"><thema>Botanik</thema>:
-        <dozent><grad>M.</grad> <nachname>Petermann</nachname></dozent>,
-        <thema>nach s. Taschenbuche d. Gewächskunde (Leipzig b. Volkmar,
-        1842)</thema>, <zeit>7 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="petermann_wl"><grad>M.</grad>
+        <nachname>Petermann</nachname></dozent>, <thema>nach s. Taschenbuche
+        d. Gewächskunde (Leipzig b. Volkmar, 1842)</thema>, <zeit>7 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1842s-I.VI.2-005"><thema>Ueber die Laub- und
-        Nadelhölzer</thema>: <ders>Derselbe</ders>, <zeit>7 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        Nadelhölzer</thema>: <ders ref="petermann_wl">Derselbe</ders>, <zeit>7
+        U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1842s-I.VI.2-006"><thema>Zoologie</thema>:
-        <dozent><nachname>Pöppig</nachname>, <funktion>P.
+        <dozent ref="poeppig_e"><nachname>Pöppig</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
@@ -804,7 +805,8 @@
           Excursionen</zeit>.</veranstaltung>
 
           <veranstaltung xml:id="v-1842s-I.VI.2.001-002"><thema>Botanische
-          Demonstrationen und Excursionen</thema>: <dozent><grad>M.</grad>
+          Demonstrationen und Excursionen</thema>: <dozent
+          ref="petermann_wl"><grad>M.</grad>
           <nachname>Petermann</nachname></dozent>, <thema>mit Benutzung s.
           <antiqua>Flora Lips. excursoria</antiqua> (Lip. 1838. sumpt.
           Barth.)</thema>, <zeit>2 T. in den
@@ -812,16 +814,18 @@
 
           <veranstaltung
           xml:id="v-1842s-I.VI.2.001-003"><thema>Examinirübungen über
-          theoretische und praktische Gewächskunde</thema>:
-          <ders>Derselbe</ders>, <zeit>in zu best. St.</zeit></veranstaltung>
+          theoretische und praktische Gewächskunde</thema>: <ders
+          ref="petermann_wl">Derselbe</ders>, <zeit>in zu best.
+          St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1842s-I.VI.2.001-004"><thema>Zoologische
-          Demonstrationen</thema>: <dozent><nachname>Pöppig</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>4 U. 2 T.</zeit>
+          Demonstrationen</thema>: <dozent
+          ref="poeppig_e"><nachname>Pöppig</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>4 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1842s-I.VI.2.001-005"><thema>Zoologische
-          Uebungen</thema>: <ders>Derselbe</ders>, <zeit>11 U.
+          Uebungen</thema>: <ders ref="poeppig_e">Derselbe</ders>, <zeit>11 U.
           Sonnabends</zeit>, <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -831,13 +835,14 @@
       <titel>VII. Kameralwissenschaften.</titel>
 
       <veranstaltung xml:id="v-1842s-I.VII-001"><thema>Encyklopädie der
-      Kameralwissenschaften</thema>: <dozent><nachname>Pohl</nachname>,
-      <funktion>P. O.</funktion></dozent>, <thema>nach s. Heften</thema>,
-      <zeit>2 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+      Kameralwissenschaften</thema>: <dozent
+      ref="pohl_f"><nachname>Pohl</nachname>, <funktion>P.
+      O.</funktion></dozent>, <thema>nach s. Heften</thema>, <zeit>2 U. 4
+      T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1842s-I.VII-002"><thema>Allgemeine
-      Landwirthschaftslehre</thema>: <ders>Derselbe</ders>, <thema>nach s.
-      Heften</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
+      Landwirthschaftslehre</thema>: <ders ref="pohl_f">Derselbe</ders>,
+      <thema>nach s. Heften</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
       <seite>10</seite>
 
@@ -846,12 +851,13 @@
 
         <veranstaltung
         xml:id="v-1842s-I.VII.001-001"><thema>Kameralistisch-praktische
-        Uebungen</thema>: <dozent><nachname>Pohl</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>8 u. 9 U. 2 T.</zeit></veranstaltung>
+        Uebungen</thema>: <dozent ref="pohl_f"><nachname>Pohl</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>8 u. 9 U. 2
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1842s-I.VII.001-002"><thema>Kameralistische
-        Gesellschaft</thema>: <ders>Derselbe</ders>, <zeit>in den best.
-        St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+        Gesellschaft</thema>: <ders ref="pohl_f">Derselbe</ders>, <zeit>in den
+        best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
@@ -1220,7 +1226,7 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1842s-II.A.IV-002"><thema>Katechetik</thema>:
-        <dozent><nachname>Plato</nachname>, <funktion>P.
+        <dozent ref="plato_gjkl"><nachname>Plato</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>2 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung
@@ -1269,13 +1275,14 @@
           U.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1842s-II.A.IV.001-007"><thema>Katechetische
-          Uebungen</thema>: <dozent><nachname>Plato</nachname>, <funktion>P.
+          Uebungen</thema>: <dozent
+          ref="plato_gjkl"><nachname>Plato</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung
           xml:id="v-1842s-II.A.IV.001-008"><thema>Katechetisch-pädagogischer
-          Verein</thema>: <ders>Derselbe</ders>, <zeit>in den best. St.</zeit>
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          Verein</thema>: <ders ref="plato_gjkl">Derselbe</ders>, <zeit>in den
+          best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1842s-II.A.IV.001-009"><thema>Rhetorische
           Uebungen im freien Sprechen</thema>: <dozent
@@ -1332,9 +1339,9 @@
         <sachgruppe xml:id="sg-1842s-II.B.II.1">
           <titel>1. Römisches Recht.</titel>
 
-          <veranstaltungsverweis><thema>Rechtsgeschichte</thema>:
-          <dozent><grad>D.</grad> <nachname>Puchta</nachname>, <funktion>P.
-          O.</funktion></dozent>, <siehe>s.
+          <veranstaltungsverweis><thema>Rechtsgeschichte</thema>: <dozent
+          ref="puchta_g"><grad>D.</grad> <nachname>Puchta</nachname>,
+          <funktion>P. O.</funktion></dozent>, <siehe>s.
           Institutionen</siehe>.</veranstaltungsverweis>
 
           <veranstaltung xml:id="v-1842s-II.B.II.1-001"><thema>Aeußere
@@ -1352,9 +1359,9 @@
           <trennlinie/>
 
           <veranstaltung xml:id="v-1842s-II.B.II.1-003"><thema>Institutionen,
-          verbunden mit äußerer und innerer Rechtsgeschichte</thema>:
-          <dozent><grad>D.</grad> <nachname>Puchta</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>10 U. 6 T. u. 11 U. 4
+          verbunden mit äußerer und innerer Rechtsgeschichte</thema>: <dozent
+          ref="puchta_g"><grad>D.</grad> <nachname>Puchta</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>10 U. 6 T. u. 11 U. 4
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1842s-II.B.II.1-004"><thema>Institutionen
@@ -1399,10 +1406,10 @@
           U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1842s-II.B.II.1-010"><thema>Erklärung
-          ausgewählter Stellen der Pandekten u. des Coder</thema>:
-          <dozent><grad>D.</grad> <nachname>Puchta</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>2 T. in zu best. St.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          ausgewählter Stellen der Pandekten u. des Coder</thema>: <dozent
+          ref="puchta_g"><grad>D.</grad> <nachname>Puchta</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>2 T. in zu best.
+          St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1842s-II.B.II.1-011"><thema>Erklärung des
           Titels der Pandekten de Diversis Regulis Iuris</thema>: <dozent

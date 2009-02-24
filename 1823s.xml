@@ -443,11 +443,11 @@
         <vorname>E. K.</vorname>, <funktion>P. O.</funktion></dozent>,
         <thema>nach s. Sätzen</thema>, <zeit>7 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1823s-I.5.008-002"><dozent><nachname>Pölitz</nachname>,
-        <vorname>K. H. L.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>in Verbindung mit dem allgemeinen Staatsrechte</thema>, <zeit>9
-        U. 4 T.</zeit> <modus>öffentlich</modus>, <thema>nach dem <notiz
+        <veranstaltung xml:id="v-1823s-I.5.008-002"><dozent
+        ref="poelitz_kh"><nachname>Pölitz</nachname>, <vorname>K. H.
+        L.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>in
+        Verbindung mit dem allgemeinen Staatsrechte</thema>, <zeit>9 U. 4
+        T.</zeit> <modus>öffentlich</modus>, <thema>nach dem <notiz
         betreff="fortsetzung">1. Theil</notiz> seiner Staatswissenschaften im
         Lichte unserer Zeit. Lpz. Hinrichs, 1823. 8.</thema></veranstaltung>
 
@@ -528,10 +528,10 @@
       <thema>ökonomische Chemie</thema> <zeit>3 T. in zu best.
       St.</zeit></veranstaltung>
 
-      <veranstaltungsgruppe><dozent><nachname>Pohl</nachname>, <vorname>J.
-      F.</vorname>, <funktion>P. O.</funktion></dozent>, <veranstaltung
-      xml:id="v-1823s-I.7-002"><thema>über die Landwirthschaft der
-      Landgeistlichen</thema>, <zeit>2 U. 4 T.</zeit>
+      <veranstaltungsgruppe><dozent ref="pohl_f"><nachname>Pohl</nachname>,
+      <vorname>J. F.</vorname>, <funktion>P. O.</funktion></dozent>,
+      <veranstaltung xml:id="v-1823s-I.7-002"><thema>über die Landwirthschaft
+      der Landgeistlichen</thema>, <zeit>2 U. 4 T.</zeit>
       <modus>öffentlich</modus></veranstaltung>; ingl. <veranstaltung
       xml:id="v-1823s-I.7-003"><thema>über die Agronomie und
       Agricultur</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>; ingl.
@@ -546,8 +546,8 @@
       <sachgruppe xml:id="sg-1823s-I.7.x">
         <titel>*) Uebungen der kameralistischen Gesellschaft.</titel>
 
-        <veranstaltung xml:id="v-1823s-I.7.x-001"><ders>Derselbe</ders>
-        <zeit>in best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1823s-I.7.x-001"><ders
+        ref="pohl_f">Derselbe</ders> <zeit>in best. St.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -557,28 +557,29 @@
       <sachgruppe xml:id="sg-1823s-I.8.001">
         <titel>Allgemeines Staatsrecht.</titel>
 
-        <veranstaltung
-        xml:id="v-1823s-I.8.001-001"><dozent><nachname>Pölitz</nachname>,
-        <vorname>K. H. L.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>in Verbindung mit dem Natur- und Völkerrechte</thema>, <zeit>9
-        U. 4 T.</zeit> <modus>öffentlich</modus>, <thema>nach dem 1. Th. s.
+        <veranstaltung xml:id="v-1823s-I.8.001-001"><dozent
+        ref="poelitz_kh"><nachname>Pölitz</nachname>, <vorname>K. H.
+        L.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>in
+        Verbindung mit dem Natur- und Völkerrechte</thema>, <zeit>9 U. 4
+        T.</zeit> <modus>öffentlich</modus>, <thema>nach dem 1. Th. s.
         Staatswissenschaften, L. 1823</thema>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1823s-I.8.002">
         <titel>Politik.</titel>
 
-        <veranstaltungsverweis><ders>Derselbe</ders>, <zeit>11 U. Mont. u.
-        Donnerst.</zeit> <thema>n. dem <notiz betreff="fortsetzung">I.
-        Th.</notiz></thema> <siehe>s.
+        <veranstaltungsverweis><ders ref="poelitz_kh">Derselbe</ders>,
+        <zeit>11 U. Mont. u. Donnerst.</zeit> <thema>n. dem <notiz
+        betreff="fortsetzung">I. Th.</notiz></thema> <siehe>s.
         Staatswissenschaften</siehe>.</veranstaltungsverweis>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1823s-I.8.003">
         <titel>Praktisches europäisches Völkerrecht.</titel>
 
-        <veranstaltung xml:id="v-1823s-I.8.003-001"><ders>Derselbe</ders>,
-        <zeit>11 U. Dienst. und Freit.</zeit> <thema>n. s. Sätzen</thema>,
+        <veranstaltung xml:id="v-1823s-I.8.003-001"><ders
+        ref="poelitz_kh">Derselbe</ders>, <zeit>11 U. Dienst. und
+        Freit.</zeit> <thema>n. s. Sätzen</thema>,
         <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
@@ -1455,11 +1456,10 @@
     <sachgruppe xml:id="sg-1823s-IV.001">
       <titel>Medicinische Encyklopädie und Methodologie.</titel>
 
-      <veranstaltung
-      xml:id="v-1823s-IV.001-001"><dozent><nachname>Puchelt</nachname>,
-      <grad>D.</grad> <vorname>F. A. B.</vorname>, <funktion>P. O.
-      des.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      <veranstaltung xml:id="v-1823s-IV.001-001"><dozent
+      ref="puchelt_fab"><nachname>Puchelt</nachname>, <grad>D.</grad>
+      <vorname>F. A. B.</vorname>, <funktion>P. O. des.</funktion></dozent>,
+      <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
     </sachgruppe>
 
     <sachgruppe xml:id="sg-1823s-IV.1">
@@ -1551,10 +1551,10 @@
       G.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>n.
       Conradi</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1823s-IV.4-002"><dozent><nachname>Puchelt</nachname>,
-      <grad>D.</grad> <vorname>F. A. B.</vorname>, <funktion>P. O.
-      des.</funktion></dozent>, <zeit>8 U. 4 T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1823s-IV.4-002"><dozent
+      ref="puchelt_fab"><nachname>Puchelt</nachname>, <grad>D.</grad>
+      <vorname>F. A. B.</vorname>, <funktion>P. O. des.</funktion></dozent>,
+      <zeit>8 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltung
       xml:id="v-1823s-IV.4-003"><dozent><nachname>Wendler</nachname>,
@@ -1580,12 +1580,11 @@
     <sachgruppe xml:id="sg-1823s-IV.5">
       <titel>5) Allgemeine Therapie.</titel>
 
-      <veranstaltung
-      xml:id="v-1823s-IV.5-001"><dozent><nachname>Puchelt</nachname>,
-      <grad>D.</grad> <vorname>F. A. B.</vorname>, <funktion>P. O.
-      des.</funktion></dozent>, <thema>therapeutischer Cursus <notiz
-      betreff="fortsetzung">auf ein Jahr</notiz></thema>, <zeit>7 U. 6
-      T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1823s-IV.5-001"><dozent
+      ref="puchelt_fab"><nachname>Puchelt</nachname>, <grad>D.</grad>
+      <vorname>F. A. B.</vorname>, <funktion>P. O. des.</funktion></dozent>,
+      <thema>therapeutischer Cursus <notiz betreff="fortsetzung">auf ein
+      Jahr</notiz></thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
 
       <veranstaltung
       xml:id="v-1823s-IV.5-002"><dozent><nachname>Caspari</nachname>,
@@ -1623,11 +1622,11 @@
       C. G.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>über die
       Kinderkrankheiten</thema>, <zeit>8 U. 2 T.</zeit></veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1823s-IV.6-005"><dozent><nachname>Puchelt</nachname>,
-      <grad>D.</grad> <vorname>F. A. B.</vorname>, <funktion>P. O.
-      des.</funktion></dozent>, <thema>über die Krankheiten des Gefäßsystems
-      im Allgemeinen</thema> <zeit>3 U. Dienst. und Freit.</zeit>
+      <veranstaltung xml:id="v-1823s-IV.6-005"><dozent
+      ref="puchelt_fab"><nachname>Puchelt</nachname>, <grad>D.</grad>
+      <vorname>F. A. B.</vorname>, <funktion>P. O. des.</funktion></dozent>,
+      <thema>über die Krankheiten des Gefäßsystems im Allgemeinen</thema>
+      <zeit>3 U. Dienst. und Freit.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung
@@ -1753,11 +1752,10 @@
       <zeit>9-11 U. 6 T.</zeit> <thema>im kön. klin. Institute <ort>im
       Jakobsspitale</ort></thema>, <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1823s-IV.10-002"><dozent><nachname>Puchelt</nachname>,
-      <grad>D.</grad> <vorname>F. A. B.</vorname>, <funktion>P. O.
-      des.</funktion></dozent>, <thema>Poliklinikum</thema>, <zeit>2 U. 7
-      T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1823s-IV.10-002"><dozent
+      ref="puchelt_fab"><nachname>Puchelt</nachname>, <grad>D.</grad>
+      <vorname>F. A. B.</vorname>, <funktion>P. O. des.</funktion></dozent>,
+      <thema>Poliklinikum</thema>, <zeit>2 U. 7 T.</zeit></veranstaltung>
     </sachgruppe>
 
     <sachgruppe xml:id="sg-1823s-IV.11">

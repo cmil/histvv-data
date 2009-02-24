@@ -1583,9 +1583,9 @@
       <nachname>Leuckart</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe Philosophische Facultät G.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Allgemeine Botanik</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      <veranstaltungsverweis><thema>Allgemeine Botanik</thema>: <dozent
+      ref="pfeffer_w"><grad>D. ph.</grad> <nachname>Pfeffer</nachname>,
+      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Pflanzenchemie</thema>: <dozent><grad>D.
@@ -2463,10 +2463,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.C-011"><thema>Universalhistorische
-        Uebersicht des 18. Jahrhunderts</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Pückert</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mittw. u. Sonnab. 10-11 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        Uebersicht des 18. Jahrhunderts</thema>: <dozent
+        ref="pueckert_w"><grad>D. ph.</grad> <nachname>Pückert</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 10-11
+        U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.C-012"><thema>Geschichte der
         Befreiungskriege (1806-1815)</thema>: <dozent><grad>D. ph.</grad>
@@ -2490,7 +2490,7 @@
         u. Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.C-016"><thema>Geschichte
-        Sachsens</thema>: <dozent><grad>D. ph.</grad>
+        Sachsens</thema>: <dozent ref="pueckert_w"><grad>D. ph.</grad>
         <nachname>Pückert</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. u. Freit. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2504,15 +2504,16 @@
         <seite>26</seite>
 
         <veranstaltung xml:id="v-1894s-IV.C-018"><thema>Die Alpen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Ratzel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 11-12 U.</zeit>,
+        <dozent ref="ratzel_f"><grad>D. ph.</grad>
+        <nachname>Ratzel</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Dienst. u. Donnerst. 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.C-019"><thema>Grundzüge der
-        politischen Geographie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Ratzel</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        politischen Geographie</thema>: <dozent ref="ratzel_f"><grad>D.
+        ph.</grad> <nachname>Ratzel</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -2598,8 +2599,8 @@
           <veranstaltungsgruppe><veranstaltung
           xml:id="v-1894s-IV.C.002-001"><thema>Geographische Uebungen, für
           Anfänger: Orientirung und Kartenlesen; für Fortgeschrittenere:
-          Probleme der politischen Geographie</thema></veranstaltung>:
-          <dozent><grad>D. ph.</grad> <nachname>Ratzel</nachname>,
+          Probleme der politischen Geographie</thema></veranstaltung>: <dozent
+          ref="ratzel_f"><grad>D. ph.</grad> <nachname>Ratzel</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Freit. 11-12
           U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>. - <veranstaltung
@@ -3291,7 +3292,7 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.G-020"><thema>Allgemeine
-        Botanik</thema>: <dozent><grad>D. ph.</grad>
+        Botanik</thema>: <dozent ref="pfeffer_w"><grad>D. ph.</grad>
         <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>täglich 7-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3543,15 +3544,15 @@
         U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.G-052"><thema>Mikroskopische
-        Uebungen</thema>: <dozent><grad>D. ph.</grad>
+        Uebungen</thema>: <dozent ref="pfeffer_w"><grad>D. ph.</grad>
         <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Dienst. u. Freit. 9-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.G-053"><thema>Botanisches
-        Laboratorium für Geübtere</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>täglich oder an drei Vormittagen</zeit>,
+        Laboratorium für Geübtere</thema>: <dozent ref="pfeffer_w"><grad>D.
+        ph.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>täglich oder an drei Vormittagen</zeit>,
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.G-054"><thema>Uebungen im Bestimmen

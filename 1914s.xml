@@ -1007,13 +1007,13 @@
 
         <veranstaltung
         xml:id="v-1914s-III.002-001"><thema>Entwicklungsgeschichte mit
-        Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+        Demonstrationen</thema>: <dozent ref="rabl_c"><grad>D. med.</grad>
         <nachname>Rabl</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mo., Mi. u. Fr. 10-11 U.</zeit>, <modus>privatim</modus>,
         <ort>im Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.002-002"><thema>Topographische
-        Anatomie</thema>: <dozent><grad>D. med.</grad>
+        Anatomie</thema>: <dozent ref="rabl_c"><grad>D. med.</grad>
         <nachname>Rabl</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Di., Do. u. So. 12-1 U.</zeit>, <modus>privatim</modus>, <ort>im
         Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
@@ -1022,8 +1022,8 @@
 
         <veranstaltung xml:id="v-1914s-III.002-003"><thema>Arbeiten für
         Geübtere im Anatomischen Institut</thema> (<ort>Liebigstr. 13</ort>):
-        <dozent><grad>D. med.</grad> <nachname>Rabl</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mo. bis Fr. 3-5 U.</zeit>,
+        <dozent ref="rabl_c"><grad>D. med.</grad> <nachname>Rabl</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mo. bis Fr. 3-5 U.</zeit>,
         <modus>privatissime</modus> et
         <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -2173,23 +2173,23 @@
 
         <veranstaltung xml:id="v-1914s-III.018-009"><thema>Klinischer Kursus
         der zahnärztlichen Technik und der Orthodontie mit Vorlesungen und
-        Demonstrationen für Fortgeschrittene</thema>:
-        <dozent><nachname>Pfaff</nachname>, <funktion>P.
+        Demonstrationen für Fortgeschrittene</thema>: <dozent
+        ref="pfaff_w"><nachname>Pfaff</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>Mo. bis So. 9-12 u. (außer So.) 3-6
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.018-010"><thema>Kursus der
         zahnärztlichen Prothese und der Orthodontie mit Vorlesungen und
-        Demonstrationen für Anfänger</thema>:
-        <dozent><nachname>Pfaff</nachname>, <funktion>P.
+        Demonstrationen für Anfänger</thema>: <dozent
+        ref="pfaff_w"><nachname>Pfaff</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>Mo. bis So. 9-12 u. (außer So.) 2½ bis 6
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.018-011"><thema>Prüfung und
         Begutachtung zahnärztlicher Materialien unter besonderer
         Berücksichtigung der in der zahnärztlichen Technik verwandten
-        Metalle</thema>: <dozent><nachname>Pfaff</nachname>, <funktion>P.
-        E.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
+        Metalle</thema>: <dozent ref="pfaff_w"><nachname>Pfaff</nachname>,
+        <funktion>P. E.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
         <nachname>Schönbeck</nachname></dozent>, <zeit>in noch zu best.
         Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -4049,9 +4049,9 @@ müssen wir noch irgendwie einheitlich erfassen.-->
           auf die Bühnenfestspiele in Bayreuth im Sommer 1914, <notiz
           betreff="fortsetzung">II</notiz>: "Der fliegende Holländer" und das
           <seite>43</seite>Bühnenweihfestspiel "Parsifal" von Richard
-          Wagner</thema>: <dozent><grad>D. jur. et ph.</grad>
-          <nachname>Prüfer</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Di. u. Fr. 12-1 U.</zeit>,
+          Wagner</thema>: <dozent ref="pruefer_ahb"><grad>D. jur. et
+          ph.</grad> <nachname>Prüfer</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>Di. u. Fr. 12-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1914s-IV.D.003-004"><thema>Die Opern
@@ -4060,9 +4060,10 @@ müssen wir noch irgendwie einheitlich erfassen.-->
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1914s-IV.D.003-005"><thema>Richard Wagners
-          Leben (für Studierende aller Fakultäten)</thema>: <dozent><grad>D.
-          jur. et ph.</grad> <nachname>Prüfer</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mo. u. Do. 12-1 U.</zeit>,
+          Leben (für Studierende aller Fakultäten)</thema>: <dozent
+          ref="pruefer_ahb"><grad>D. jur. et ph.</grad>
+          <nachname>Prüfer</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Mo. u. Do. 12-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1914s-IV.D.003-006"><thema>Das duale
@@ -4108,11 +4109,12 @@ müssen wir noch irgendwie einheitlich erfassen.-->
           <veranstaltung
           xml:id="v-1914s-IV.D.004-004"><thema>Musikwissenschaftliche Übungen:
           Lektüre der wichtigsten auf den Bayreuther Kulturgedanken
-          bezüglichen Schriften Richard Wagners</thema>: <dozent><grad>D. jur.
-          et ph.</grad> <nachname>Prüfer</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mi. nachm. 5½-7½ U.</zeit>,
-          <modus>privatissime</modus>, aber <gebühr>gratis</gebühr>, <ort>in
-          der Wohnung, Schwägrichenstr. 6</ort>.</veranstaltung>
+          bezüglichen Schriften Richard Wagners</thema>: <dozent
+          ref="pruefer_ahb"><grad>D. jur. et ph.</grad>
+          <nachname>Prüfer</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Mi. nachm. 5½-7½ U.</zeit>, <modus>privatissime</modus>, aber
+          <gebühr>gratis</gebühr>, <ort>in der Wohnung, Schwägrichenstr.
+          6</ort>.</veranstaltung>
 
           <veranstaltung
           xml:id="v-1914s-IV.D.004-005"><thema>Musikwissenschaftliche
@@ -4699,7 +4701,7 @@ durch die student. Hilfskraft???-->
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.F-005"><thema>Algebraische
-        Funktionen</thema>: <dozent ref="koenig_w"><grad>D. ph.</grad>
+        Funktionen</thema>: <dozent ref="koenig_r"><grad>D. ph.</grad>
         <nachname>König</nachname></dozent>, <zeit>Di. u. Fr. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -4749,14 +4751,14 @@ durch die student. Hilfskraft???-->
         ref="hoelder_o"><grad>D. ph. et scient. nat.</grad>
         <nachname>Hölder</nachname>, <funktion>P. O.</funktion></dozent>:
         <thema>Übungen in Funktionentheorie</thema> (mit <dozent
-        ref="koenig_w"><grad>D. ph.</grad>
+        ref="koenig_r"><grad>D. ph.</grad>
         <nachname>König</nachname></dozent>), <zeit>So. 8-9 U.</zeit>,
         <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung> <veranstaltungsgruppe>2)
         <dozent ref="rohn_k"><grad>D. ph.</grad> <nachname>Rohn</nachname>,
         <funktion>P. O.</funktion></dozent>: <veranstaltung
         xml:id="v-1914s-IV.F-012">a) <thema>Übungen zur darstellenden
-        Geometrie</thema> (mit <dozent ref="koenig_w"><grad>D. ph.</grad>
+        Geometrie</thema> (mit <dozent ref="koenig_r"><grad>D. ph.</grad>
         <nachname>König</nachname></dozent>). <zeit>Mo. 3-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung> - <veranstaltung
         xml:id="v-1914s-IV.F-013">b) <thema>Übungen zu den algebraischen
@@ -4918,9 +4920,9 @@ durch die student. Hilfskraft???-->
         2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-018"><thema>Übersicht über die
-        anorganischen Verbindungen</thema>: <dozent><grad>D. ph.</grad>
-        <vorname>J.</vorname> <nachname>Wagner</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mi. 5-6 U.</zeit>,
+        anorganischen Verbindungen</thema>: <dozent ref="wagner_je"><grad>D.
+        ph.</grad> <vorname>J.</vorname> <nachname>Wagner</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mi. 5-6 U.</zeit>,
         <modus>privatim</modus>, <ort>im Physikalisch-chemischen Institut,
         Linnéstr. 2</ort>.</veranstaltung>
 
@@ -4953,20 +4955,20 @@ durch die student. Hilfskraft???-->
         <veranstaltung xml:id="v-1914s-IV.G-023"><thema>Der Zellstoff und
         seine Anwendung (Papier, Kunstseide, Zelluloid, rauchloses Pulver) für
         Hörer aller Fakultäten, insbesondere Juristen u.
-        Nationalökonomen</thema>: <dozent><grad>D. ph.</grad>
+        Nationalökonomen</thema>: <dozent ref="rassow_b"><grad>D. ph.</grad>
         <nachname>Rassow</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Di. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-024"><thema>Chemische Technologie,
         Brenn- und Leuchtstoffe, sowie ausgewählte anorganische Betriebe, mit
-        Exkursionen</thema>: <dozent><grad>D. ph.</grad>
+        Exkursionen</thema>: <dozent ref="rassow_b"><grad>D. ph.</grad>
         <nachname>Rassow</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Di. u. Mi. 12-1 U.</zeit>, <modus>privatim</modus>, <ort>im
         Chemischen Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-025"><thema>Technik der
         Experimentalchemie und Demonstration von Schulversuchen</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>J.</vorname>
+        <dozent ref="wagner_je"><grad>D. ph.</grad> <vorname>J.</vorname>
         <nachname>Wagner</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Fr. 5-6 U.</zeit>, <modus>privatim</modus>, <gebühr>für
         Teilnehmer am chemischen Praktikum für Lehrer gratis</gebühr>, <ort>im
@@ -5099,10 +5101,11 @@ durch die student. Hilfskraft???-->
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-045"><thema>Allgemeine
-        Botanik</thema>: <dozent><grad>D. ph., rer. nat., med. et sc.</grad>
-        <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>tägl. 7-8 U. vorm.</zeit>, <modus>privatim</modus>, <ort>im
-        Botanischen Institut, Linnéstr. 1</ort>.</veranstaltung>
+        Botanik</thema>: <dozent ref="pfeffer_w"><grad>D. ph., rer. nat., med.
+        et sc.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>tägl. 7-8 U. vorm.</zeit>,
+        <modus>privatim</modus>, <ort>im Botanischen Institut, Linnéstr.
+        1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-046"><thema>Systematische Botanik
         mit Berücksichtigung der offizinellen Pflanzen</thema>: <dozent
@@ -5341,13 +5344,13 @@ durch die student. Hilfskraft???-->
         für Fortgeschrittene</thema>: <dozent><grad>D. ph. et med.</grad>
         <nachname>Hantzsch</nachname>, <funktion>P. O.</funktion></dozent>,
         mit <dozent><grad>D. ph.</grad> <nachname>Stobbe</nachname>,
-        <funktion>P. E.</funktion></dozent>, <dozent><grad>D. ph.</grad>
-        <nachname>Rassow</nachname>, <funktion>P. E.</funktion></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Schaefer</nachname></dozent> u.
-        <dozent><grad>D. ph.</grad> <nachname>Reddelien</nachname></dozent>,
-        <zeit>täglich 8-12½ U. u. (außer So.) 2-6 U.</zeit>,
-        <modus>privatissime</modus>, <ort>im Chemischen Laboratorium,
-        Liebigstr. 18</ort>.</veranstaltung>
+        <funktion>P. E.</funktion></dozent>, <dozent ref="rassow_b"><grad>D.
+        ph.</grad> <nachname>Rassow</nachname>, <funktion>P.
+        E.</funktion></dozent>, <dozent><grad>D. ph.</grad>
+        <nachname>Schaefer</nachname></dozent> u. <dozent><grad>D. ph.</grad>
+        <nachname>Reddelien</nachname></dozent>, <zeit>täglich 8-12½ U. u.
+        (außer So.) 2-6 U.</zeit>, <modus>privatissime</modus>, <ort>im
+        Chemischen Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-074"><thema>Chemisches Praktikum
         für Vorgerücktere</thema>, <dozent ref="paal_c"><grad>D. ph.</grad>
@@ -5380,7 +5383,7 @@ durch die student. Hilfskraft???-->
         Chemischen Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-077"><thema>Praktischer Kursus der
-        Gasanalyse</thema>: <dozent><grad>D. ph.</grad>
+        Gasanalyse</thema>: <dozent ref="rassow_b"><grad>D. ph.</grad>
         <nachname>Rassow</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Di. 8-9 U.</zeit>, <modus>privatim</modus>, <ort>im Chemischen
         Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
@@ -5429,16 +5432,17 @@ durch die student. Hilfskraft???-->
 
         <veranstaltung xml:id="v-1914s-IV.G-083"><thema>Chemisches Praktikum
         für Lehrer (Schulversuche, Analyse und Präparate), ganz- und halbtägig
-        und achtstündig nach Übereinkunft</thema>: <dozent><grad>D. ph.</grad>
-        <vorname>J.</vorname> <nachname>Wagner</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>tägl. 8½ bis 12½ und (außer So.) 2-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Physikalisch-chemischen
-        Institut, Linnéstr. 2</ort>.</veranstaltung>
+        und achtstündig nach Übereinkunft</thema>: <dozent
+        ref="wagner_je"><grad>D. ph.</grad> <vorname>J.</vorname>
+        <nachname>Wagner</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>tägl. 8½ bis 12½ und (außer So.) 2-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikalisch-chemischen Institut,
+        Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-084"><thema>Didaktische
         Besprechungen zum chemischen Praktikum für Lehrer (Kennzeichnung der
-        Stoffe)</thema>: <dozent><grad>D. ph.</grad> <vorname>J.</vorname>
-        <nachname>Wagner</nachname>, <seite>57</seite><grad>P.
+        Stoffe)</thema>: <dozent ref="wagner_je"><grad>D. ph.</grad>
+        <vorname>J.</vorname> <nachname>Wagner</nachname>, <seite>57</seite><grad>P.
         E.</grad></dozent>, <zeit>So. 9-10 U.</zeit>,
         <modus>privatissime</modus>, aber <gebühr>gratis</gebühr>, <ort>im
         Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
@@ -5471,11 +5475,11 @@ durch die student. Hilfskraft???-->
 
         <veranstaltung
         xml:id="v-1914s-IV.G-088"><thema>Chemisch-technologisches Praktikum,
-        ganz- oder halbtägig</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Rassow</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>tägl. 8-12½ U. u. (außer So.) 2-6 U.</zeit>,
-        <modus>privatissime</modus>, <ort>im Chem. Laboratorium, Liebigstr.
-        18</ort>.</veranstaltung>
+        ganz- oder halbtägig</thema>: <dozent ref="rassow_b"><grad>D.
+        ph.</grad> <nachname>Rassow</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>tägl. 8-12½ U. u. (außer So.) 2-6
+        U.</zeit>, <modus>privatissime</modus>, <ort>im Chem. Laboratorium,
+        Liebigstr. 18</ort>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1914s-IV.G-089"><thema>Pharmazeutisch-chemisch-toxikologisches
@@ -5586,15 +5590,15 @@ durch die student. Hilfskraft???-->
         Institut, Talstr. 35. II.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-102"><thema>Mikroskopische Übungen
-        für Anfänger</thema>: <dozent><grad>D. ph., rer. nat., med. et
-        sc.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
+        für Anfänger</thema>: <dozent ref="pfeffer_w"><grad>D. ph., rer. nat.,
+        med. et sc.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>Di. u. Fr. 10-12 U.</zeit>,
         <modus>privatim</modus>, <ort>im Botanischen Institut, Linnéstr.
         1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-103"><thema>Botanisches
         Laboratorium (<ort>Linnéstr. 1</ort>) für Vorgeschrittenere</thema>:
-        <dozent><grad>D. ph., rer. nat., med. et sc.</grad>
+        <dozent ref="pfeffer_w"><grad>D. ph., rer. nat., med. et sc.</grad>
         <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>täglich vorm.</zeit>,
         <modus>privatissime</modus>.</veranstaltung>

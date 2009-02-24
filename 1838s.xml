@@ -683,9 +683,9 @@
           Katechisiren und zum zweckmäßigen Organisiren der verschiedenen
           Schulen</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1838s-I.III.002.6-002"><dozent><nachname>Plato</nachname>,
-          <vorname>J. G. K. L.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <veranstaltung xml:id="v-1838s-I.III.002.6-002"><dozent
+          ref="plato_gjkl"><nachname>Plato</nachname>, <vorname>J. G. K.
+          L.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>Pädogogik</thema>, <zeit>11 U. 4 T.</zeit>
           <modus>öffentlich</modus> und
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -865,37 +865,39 @@
         ref="kunze_g">Derselbe</ders>, <thema>Pflanzen-Physiologie</thema>,
         <zeit>2 T. in zu best. St.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1838s-I.VI.002-009"><dozent><nachname>Pöppig</nachname>,
-        <vorname>E.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>der
-        speciellen Zoologie <notiz betreff="fortsetzung">zweiter
-        Theil</notiz></thema>, <zeit>3 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1838s-I.VI.002-009"><dozent
+        ref="poeppig_e"><nachname>Pöppig</nachname>, <vorname>E.</vorname>,
+        <funktion>P. E.</funktion></dozent>, <thema>der speciellen Zoologie
+        <notiz betreff="fortsetzung">zweiter Theil</notiz></thema>, <zeit>3 U.
+        2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1838s-I.VI.002-010"><ders>Derselbe</ders>,
-        <thema>zoologische Uebungen</thema>, <zeit>in zu best. St.</zeit>
+        <veranstaltung xml:id="v-1838s-I.VI.002-010"><ders
+        ref="poeppig_e">Derselbe</ders>, <thema>zoologische Uebungen</thema>,
+        <zeit>in zu best. St.</zeit>
         <gebühr>unentgeltl.</gebühr></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1838s-I.VI.002-011"><dozent><nachname>Petermann</nachname>,
-        <grad>M.</grad> <vorname>W. L.</vorname></dozent>, <thema>theoretische
-        Gewächskunde, nach s. Handbuche der Gewächskunde zum Gebrauch bei
-        Vorlesungen, sowie zum Selbststudium (Lpz. bei Barth 1836.)</thema>,
-        <zeit>7 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1838s-I.VI.002-011"><dozent
+        ref="petermann_wl"><nachname>Petermann</nachname>, <grad>M.</grad>
+        <vorname>W. L.</vorname></dozent>, <thema>theoretische Gewächskunde,
+        nach s. Handbuche der Gewächskunde zum Gebrauch bei Vorlesungen, sowie
+        zum Selbststudium (Lpz. bei Barth 1836.)</thema>, <zeit>7 U. 4
+        T.</zeit></veranstaltung>
 
-        <veranstaltung xml:id="v-1838s-I.VI.002-012"><ders>Derselbe</ders>,
-        <thema>botanische Demonstrationen und Excursionen mit Benutzung seiner
-        <antiqua>Flora Lipsiensis excursoria (Lips. sumt. Ambr. Barth.,
-        1837.)</antiqua></thema>, <zeit>2 T. in den
-        Nachmittagsstunden</zeit>.</veranstaltung>
+        <veranstaltung xml:id="v-1838s-I.VI.002-012"><ders
+        ref="petermann_wl">Derselbe</ders>, <thema>botanische Demonstrationen
+        und Excursionen mit Benutzung seiner <antiqua>Flora Lipsiensis
+        excursoria (Lips. sumt. Ambr. Barth., 1837.)</antiqua></thema>,
+        <zeit>2 T. in den Nachmittagsstunden</zeit>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1838s-I.VI.002-013"><ders>Derselbe</ders>,
-        <thema>landwirthschaftliche Gewächskunde</thema>, <zeit>1 U. 2
-        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1838s-I.VI.002-013"><ders
+        ref="petermann_wl">Derselbe</ders>, <thema>landwirthschaftliche
+        Gewächskunde</thema>, <zeit>1 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1838s-I.VI.002-014"><ders>Derselbe</ders>,
-        <thema>Examinir-Uebungen über theoretische und praktische
-        Gewächskunde</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1838s-I.VI.002-014"><ders
+        ref="petermann_wl">Derselbe</ders>, <thema>Examinir-Uebungen über
+        theoretische und praktische Gewächskunde</thema>, <zeit>in zu best.
+        St.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1838s-I.VI.003">
@@ -984,11 +986,11 @@
       <sachgruppe xml:id="sg-1838s-I.VII.002">
         <titel>Allgemeine Landwirthschaftslehre.</titel>
 
-        <veranstaltung
-        xml:id="v-1838s-I.VII.002-001"><dozent><nachname>Pohl</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. O.</funktion></dozent>, <thema
-        kontext="sachgruppe">nach <gesperrt>Burger's</gesperrt> Lehrb. der
-        Landwirthschaft</thema>, <zeit>8 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1838s-I.VII.002-001"><dozent
+        ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <thema kontext="sachgruppe">nach
+        <gesperrt>Burger's</gesperrt> Lehrb. der Landwirthschaft</thema>,
+        <zeit>8 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1838s-I.VII.002-002"><dozent
         ref="jacobi_vfl"><nachname>Jacobi</nachname>, <grad>M.</grad>
@@ -999,39 +1001,38 @@
       <sachgruppe xml:id="sg-1838s-I.VII.003">
         <titel>Forstwissenschaft.</titel>
 
-        <veranstaltung
-        xml:id="v-1838s-I.VII.003-001"><dozent><nachname>Pohl</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>in beliebigen T. u. St.</zeit>
-        <modus>privatissime</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1838s-I.VII.003-001"><dozent
+        ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in beliebigen T. u.
+        St.</zeit> <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1838s-I.VII.004">
         <titel>Gerichtliche Oekonmie.</titel>
 
-        <veranstaltung
-        xml:id="v-1838s-I.VII.004-001"><dozent><nachname>Pohl</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. O.</funktion></dozent>, <thema
-        kontext="sachgruppe">nach s. Heften</thema>, <zeit>2 U. 4 T.</zeit>
+        <veranstaltung xml:id="v-1838s-I.VII.004-001"><dozent
+        ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <thema kontext="sachgruppe">nach
+        s. Heften</thema>, <zeit>2 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1838s-I.VII.005">
         <titel>Kameralistisch-praktische Uebungen.</titel>
 
-        <veranstaltung
-        xml:id="v-1838s-I.VII.005-001"><dozent><nachname>Pohl</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>9
-        U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1838s-I.VII.005-001"><dozent
+        ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9 U. 4
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1838s-I.VII.006">
         <titel>Kameralistische Gesellschaft.</titel>
 
-        <veranstaltung
-        xml:id="v-1838s-I.VII.006-001"><dozent><nachname>Pohl</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>in den best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1838s-I.VII.006-001"><dozent
+        ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in den best.
+        St.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
@@ -1499,10 +1500,10 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
         <sachgruppe xml:id="sg-1838s-II.A.II.003">
           <titel>Katechetik.</titel>
 
-          <veranstaltung
-          xml:id="v-1838s-II.A.II.003-001"><dozent><nachname>Plato</nachname>,
-          <vorname>G. J. K. L.</vorname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>2 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1838s-II.A.II.003-001"><dozent
+          ref="plato_gjkl"><nachname>Plato</nachname>, <vorname>G. J. K.
+          L.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>2 U. 2
+          T.</zeit></veranstaltung>
 
           <veranstaltungsverweis><dozent><nachname>Gilbert</nachname>,
           <grad>M.</grad> <vorname>R. O.</vorname>, <funktion>Theol.
@@ -1547,10 +1548,10 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
 
             <seite>14</seite>
 
-            <veranstaltung
-            xml:id="v-1838s-II.A.II.004.002-002"><dozent><nachname>Plato</nachname>,
-            <vorname>G. J. K. L.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1838s-II.A.II.004.002-002"><dozent
+            ref="plato_gjkl"><nachname>Plato</nachname>, <vorname>G. J. K.
+            L.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2
+            T.</zeit></veranstaltung>
 
             <veranstaltung
             xml:id="v-1838s-II.A.II.004.002-003"><dozent><nachname>Gilbert</nachname>,
@@ -1569,11 +1570,10 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
             <sachgruppe xml:id="sg-1838s-II.A.II.004.002.001">
               <titel>Katechetisch-pädagogischer Verein.</titel>
 
-              <veranstaltung
-              xml:id="v-1838s-II.A.II.004.002.001-001"><dozent><nachname>Plato</nachname>,
-              <vorname>G. J. K. L.</vorname>, <funktion>P.
-              E.</funktion></dozent>, <zeit>in den best.
-              St.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1838s-II.A.II.004.002.001-001"><dozent
+              ref="plato_gjkl"><nachname>Plato</nachname>, <vorname>G. J. K.
+              L.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>in den
+              best. St.</zeit></veranstaltung>
             </sachgruppe>
           </sachgruppe>
         </sachgruppe>
@@ -1617,11 +1617,11 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
         <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
         Institutionen</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung
-        xml:id="v-1838s-II.B.003-002"><dozent><nachname>Puchta</nachname>,
-        <grad>D.</grad> <vorname>G. F.</vorname>, <funktion>P.
-        O.</funktion></dozent>, <thema>Geschichte des röm. Rechts</thema>,
-        <zeit>10 U. 5 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1838s-II.B.003-002"><dozent
+        ref="puchta_g"><nachname>Puchta</nachname>, <grad>D.</grad>
+        <vorname>G. F.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <thema>Geschichte des röm. Rechts</thema>, <zeit>10 U. 5
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1838s-II.B.003-003"><dozent
         ref="haenel_g"><nachname>Hänel</nachname>, <grad>D.</grad>
@@ -1678,14 +1678,14 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
               T., so, daß sie in <gesperrt>einem</gesperrt> Semester vollendet
               werden sollen</zeit>.</veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1838s-II.B.II.I.1.001-002"><dozent><nachname>Puchta</nachname>,
-              <grad>D.</grad> <vorname>G. F.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <thema>Institutionen</thema>, <zeit>9 U.
-              6 T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1838s-II.B.II.I.1.001-002"><dozent
+              ref="puchta_g"><nachname>Puchta</nachname>, <grad>D.</grad>
+              <vorname>G. F.</vorname>, <funktion>P. O.</funktion></dozent>,
+              <thema>Institutionen</thema>, <zeit>9 U. 6
+              T.</zeit></veranstaltung>
 
-              <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
-              Repitir-Uebungen</siehe>.</veranstaltungsverweis>
+              <veranstaltungsverweis><ders ref="puchta_g">Derselbe</ders>,
+              <siehe>s. Repitir-Uebungen</siehe>.</veranstaltungsverweis>
 
               <veranstaltung xml:id="v-1838s-II.B.II.I.1.001-003"><dozent
               ref="haenel_g"><nachname>Hänel</nachname>, <grad>D.</grad>
@@ -2079,11 +2079,11 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
           <sachgruppe xml:id="sg-1838s-II.B.II.III.2">
             <titel>2) Repitir-Uebungen.</titel>
 
-            <veranstaltung
-            xml:id="v-1838s-II.B.II.III.2-001"><dozent><nachname>Puchta</nachname>,
-            <grad>D.</grad> <vorname>G. F.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <thema>über die Institutionen</thema>,
-            <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1838s-II.B.II.III.2-001"><dozent
+            ref="puchta_g"><nachname>Puchta</nachname>, <grad>D.</grad>
+            <vorname>G. F.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <thema>über die Institutionen</thema>, <zeit>11 U. 2 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltungsverweis><dozent
             ref="berger_a"><nachname>Berger</nachname>, <grad>D.</grad>
@@ -2218,11 +2218,11 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
           Nervenmsystems</thema>, <zeit>10 U. 2 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1838s-II.C.I.1-009"><dozent><nachname>Platner</nachname>,
-          <grad>D.</grad> <vorname>E. F.</vorname></dozent>,
-          <thema>vergleichende Anatomie</thema>, <zeit>4 T. in zu bestimmenden
-          Stunden</zeit>, <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1838s-II.C.I.1-009"><dozent
+          ref="platner_ef"><nachname>Platner</nachname>, <grad>D.</grad>
+          <vorname>E. F.</vorname></dozent>, <thema>vergleichende
+          Anatomie</thema>, <zeit>4 T. in zu bestimmenden Stunden</zeit>,
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1838s-II.C.I.2">

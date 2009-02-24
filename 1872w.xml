@@ -773,7 +773,7 @@
 
         <veranstaltung xml:id="v-1872w-I.III.1-008"><thema>Deutsche,
         vornehmlich preussische Geschichte seit dem Westphälischen
-        Frieden</thema>: <dozent><grad>D. ph.</grad>
+        Frieden</thema>: <dozent ref="pueckert_w"><grad>D. ph.</grad>
         <nachname>Pückert</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>6 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -785,7 +785,7 @@
         E.</funktion></dozent>, <zeit>6 U. Ab. 2 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.III.1-010"><thema>Sächsische
-        Geschichte</thema>: <dozent><grad>D. ph.</grad>
+        Geschichte</thema>: <dozent ref="pueckert_w"><grad>D. ph.</grad>
         <nachname>Pückert</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>9 U. 2 T.</zeit></veranstaltung>
 
@@ -921,10 +921,11 @@
       <sachgruppe xml:id="sg-1872w-I.III.3">
         <titel>3. Geographie.</titel>
 
-        <veranstaltungsgruppe><thema>Physikalische Erdkunde</thema>:
-        <dozent><grad>D. ph. &amp; jur.</grad> <nachname>Peschel</nachname>,
-        <nachnamenpräfix>P. O.</nachnamenpräfix></dozent>, <zeit>in 4 zu best.
-        St.</zeit>, <veranstaltung xml:id="v-1872w-I.III.3-001">theils
+        <veranstaltungsgruppe><thema>Physikalische Erdkunde</thema>: <dozent
+        ref="peschel_o"><grad>D. ph. &amp; jur.</grad>
+        <nachname>Peschel</nachname>, <nachnamenpräfix>P.
+        O.</nachnamenpräfix></dozent>, <zeit>in 4 zu best. St.</zeit>,
+        <veranstaltung xml:id="v-1872w-I.III.3-001">theils
         <modus>privatim</modus></veranstaltung>, <veranstaltung
         xml:id="v-1872w-I.III.3-002">theils
         <modus>öffentlich</modus></veranstaltung>.</veranstaltungsgruppe>
@@ -1214,10 +1215,10 @@
         <zeit>in 2 zu best. St. u. T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Physikalische Erdkunde</thema>:
-        <dozent><grad>D. ph. &amp; jur.</grad> <nachname>Peschel</nachname>,
-        <funktion>P. O.</funktion></dozent>, <siehe>s.
-        Geographie</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Physikalische Erdkunde</thema>: <dozent
+        ref="peschel_o"><grad>D. ph. &amp; jur.</grad>
+        <nachname>Peschel</nachname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. Geographie</siehe>.</veranstaltungsverweis>
 
         <trennlinie/>
 
@@ -2270,9 +2271,9 @@ also noch entsprechend nachgetaggt werden.-->
         Anatomie.</titel>
 
         <veranstaltung xml:id="v-1872w-II.C.IV-001"><thema>Specielle
-        pathologische Anatomie</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Wagner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>7¾-9 U. früh 6 T.</zeit></veranstaltung>
+        pathologische Anatomie</thema>: <dozent ref="wagner_el"><grad>D.
+        med.</grad> <nachname>Wagner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>7¾-9 U. früh 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872w-II.C.IV-002"><thema>Diagnostische
         Phänomenologie (Erklärung der Krankheitserscheinungen mit Hülfe der
@@ -2291,13 +2292,14 @@ also noch entsprechend nachgetaggt werden.-->
 
           <veranstaltung
           xml:id="v-1872w-II.C.IV.001-001"><thema>Pathologisch-histologische
-          Uebungen</thema>: <dozent><grad>D. med.</grad>
+          Uebungen</thema>: <dozent ref="wagner_el"><grad>D. med.</grad>
           <nachname>Wagner</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>5-7½ U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1872w-II.C.IV.001-002"><thema>Arbeiten im
-          pathologischen Institute</thema>: <ders>Derselbe</ders>
-          <zeit>täglich 8-12 U.</zeit>, <modus>privatissime</modus>, aber
+          pathologischen Institute</thema>: <ders
+          ref="wagner_el">Derselbe</ders> <zeit>täglich 8-12 U.</zeit>,
+          <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -2592,7 +2594,7 @@ also noch entsprechend nachgetaggt werden.-->
         U.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872w-II.C.XI-007"><thema>Medicinische
-        Poliklinik</thema>: <dozent><grad>D. med.</grad>
+        Poliklinik</thema>: <dozent ref="wagner_el"><grad>D. med.</grad>
         <nachname>Wagner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>2 U. 5 T. (ausschl. Mittw.)</zeit></veranstaltung>
 

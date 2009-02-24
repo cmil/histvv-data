@@ -638,8 +638,8 @@
 
       <veranstaltung xml:id="v-1905s-II-006"><thema>Grundlehren der Pandekten
       als romanistische Einführung in das heutige bürgerliche Recht</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Rabel</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>tägl. 11-12 U.</zeit>,
+      <dozent ref="rabel_e"><grad>D. jur.</grad> <nachname>Rabel</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>tägl. 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-II-007"><thema>Deutsche
@@ -709,7 +709,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-II-018"><thema>Deutsches bürgerliches
-      Recht (Erbrecht)</thema>: <dozent><grad>D. jur.</grad>
+      Recht (Erbrecht)</thema>: <dozent ref="rabel_e"><grad>D. jur.</grad>
       <nachname>Rabel</nachname>, <funktion>P. E. des.</funktion></dozent>,
       <zeit>Mont. bis Donnerst. 8-9 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1009,14 +1009,14 @@
       Liebigstr. 13</ort>.</veranstaltung>
 
       <veranstaltung
-      xml:id="v-1905s-III-002"><thema>Entwicklungsgeschichte</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Rabl</nachname>, <funktion>P. O.
-      des.</funktion></dozent>, <zeit>Mont., Mittw., Freit. u. Sonnab. 10-11
-      U.</zeit>, <modus>privatim</modus>, <ort>im Anatomischen Institut,
-      Liebigstr. 13</ort>.</veranstaltung>
+      xml:id="v-1905s-III-002"><thema>Entwicklungsgeschichte</thema>: <dozent
+      ref="rabl_c"><grad>D. med.</grad> <nachname>Rabl</nachname>,
+      <funktion>P. O. des.</funktion></dozent>, <zeit>Mont., Mittw., Freit. u.
+      Sonnab. 10-11 U.</zeit>, <modus>privatim</modus>, <ort>im Anatomischen
+      Institut, Liebigstr. 13</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-003"><thema>Allgemeine
-      Histologie</thema>: <dozent><grad>D. med.</grad>
+      Histologie</thema>: <dozent ref="rabl_c"><grad>D. med.</grad>
       <nachname>Rabl</nachname>, <funktion>P. O. des.</funktion></dozent>,
       <zeit>Dienst. u. Donnerst. 10-11 U.</zeit>, <modus>privatim</modus>,
       <ort>im Anatom. Institut, Liebigstr. 13</ort>.</veranstaltung>
@@ -1051,14 +1051,14 @@
 
       <veranstaltung
       xml:id="v-1905s-III-007"><thema>Entwicklungsgeschichtliche
-      Übungen</thema>: <dozent><grad>D. med.</grad> <nachname>Rabl</nachname>,
-      <funktion>P. O. des.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 4-6
-      U.</zeit>, <modus>privatim</modus>, <ort>im Anatomischen Institut,
-      Liebigstr. 13</ort>.</veranstaltung>
+      Übungen</thema>: <dozent ref="rabl_c"><grad>D. med.</grad>
+      <nachname>Rabl</nachname>, <funktion>P. O. des.</funktion></dozent>,
+      <zeit>Dienst. u. Donnerst. 4-6 U.</zeit>, <modus>privatim</modus>,
+      <ort>im Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
 
       <veranstaltung
       xml:id="v-1905s-III-008"><thema>Entwicklungsgeschichtliche
-      Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+      Demonstrationen</thema>: <dozent ref="rabl_c"><grad>D. med.</grad>
       <nachname>Rabl</nachname>, <funktion>P. O. des.</funktion></dozent>,
       <zeit>Mittw. u. Sonnab. 11-12 U.</zeit>, <modus>publice</modus>, <ort>im
       Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
@@ -1248,21 +1248,23 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1905s-III-034"><thema>Pharmakologie mit der
-      Arzneiverordnungslehre</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 3-4 U.</zeit>, <modus>privatim</modus>, <ort>im
-      Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
+      Arzneiverordnungslehre</thema>: <dozent ref="boehm_r"><grad>D.
+      med.</grad> <nachname>Boehm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit. 3-4 U.</zeit>,
+      <modus>privatim</modus>, <ort>im Pharmakolog. Institut, Liebigstr.
+      10</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-035"><thema>Praktische Übungen in der
       mikroskopischen Untersuchung offizineller Drogen- und Pflanzenpulver
-      (Pharmakognostisches Praktikum)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Dienst. bis Freit. 10-12 U.</zeit>, <modus>privatissime</modus>,
-      <ort>im Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
+      (Pharmakognostisches Praktikum)</thema>: <dozent ref="boehm_r"><grad>D.
+      med.</grad> <nachname>Boehm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Dienst. bis Freit. 10-12 U.</zeit>,
+      <modus>privatissime</modus>, <ort>im Pharmakolog. Institut, Liebigstr.
+      10</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-036"><thema>Experimentelle Arbeiten
       <ort>im Pharmakologischen Institut (Liebigstr. 10)</ort> für
-      Fortgeschrittenere</thema>: <dozent><grad>D. med.</grad>
+      Fortgeschrittenere</thema>: <dozent ref="boehm_r"><grad>D. med.</grad>
       <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>tägl., ganztägig</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1439,7 +1441,7 @@
       Kinderkrankenhause, Platzmannstr. 1</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-062"><thema>Chirurgische Anatomie am
-      Lebenden</thema>: <dozent><grad>D. med.</grad>
+      Lebenden</thema>: <dozent ref="perthes_g"><grad>D. med.</grad>
       <nachname>Perthes</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Donnerst. 11-12 U.</zeit>, <modus>privatim</modus>, <ort>im
       Chirurgisch-poliklinischen Institut, Nürnberger Str.
@@ -1685,7 +1687,7 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1905s-III-097"><thema>Klinische
-      Propädeutik</thema>: <dozent><grad>D. med.</grad>
+      Propädeutik</thema>: <dozent ref="paessler_h"><grad>D. med.</grad>
       <nachname>Pässler</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Dienst., Mittw. u. Sonnab. 7-8 U. Vorm.</zeit>,
       <modus>privatim</modus>, <ort>in der Medizinischen Klinik, Liebigstr.
@@ -1699,11 +1701,11 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-099"><thema>Kursus der Perkussion und
-      Auskultation für Anfänger (in 2 Gruppen)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Pässler</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont., Donnerst. u. Freit. 7-8 U.
-      Vorm.</zeit>, <modus>privatim</modus>, <ort>in der Medizinischen Klinik,
-      Liebigstr. 20</ort>.</veranstaltung>
+      Auskultation für Anfänger (in 2 Gruppen)</thema>: <dozent
+      ref="paessler_h"><grad>D. med.</grad> <nachname>Pässler</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont., Donnerst. u. Freit.
+      7-8 U. Vorm.</zeit>, <modus>privatim</modus>, <ort>in der Medizinischen
+      Klinik, Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-100"><thema>Kursus der Perkussion und
       Auskultation für Geübtere</thema>: <dozent ref="hirsch_k"><grad>D.
@@ -1746,10 +1748,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-106"><thema>Chirurgische
-      Poliklinik</thema> (<ort>Nürnberger Str. 55</ort>): <dozent><grad>D.
-      med.</grad> <nachname>Perthes</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>tägl. (ausser Donnerst.) 11-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Poliklinik</thema> (<ort>Nürnberger Str. 55</ort>): <dozent
+      ref="perthes_g"><grad>D. med.</grad> <nachname>Perthes</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>tägl. (ausser Donnerst.)
+      11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-107"><thema>Praktische Übungen in der
       Diagnose der Haut- und Sexualkrankheiten</thema>: <dozent
@@ -1885,10 +1887,10 @@
         Zahnärztlichen Institut, Goethestr. 5. I.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1905s-III.001-007"><thema>Chirurgische
-        Poliklinik</thema> (<ort>Nürnberger Str. 55</ort>.): <dozent><grad>D.
-        med.</grad> <nachname>Perthes</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>tägl. (ausser Donnerst.) 11-12
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Poliklinik</thema> (<ort>Nürnberger Str. 55</ort>.): <dozent
+        ref="perthes_g"><grad>D. med.</grad> <nachname>Perthes</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>tägl. (ausser Donnerst.)
+        11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
       </sachgruppe>
 
       <trennlinie/>
@@ -2037,10 +2039,10 @@
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Allgemeine
       Botanik</thema></veranstaltungsverweis> -
       <veranstaltungsverweis><thema>Mikroskopische Übungen für
-      Anfänger</thema></veranstaltungsverweis>: <dozent><grad>D. ph., rer.
-      nat. et med.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
-      G.</siehe></veranstaltungsgruppe>
+      Anfänger</thema></veranstaltungsverweis>: <dozent
+      ref="pfeffer_w"><grad>D. ph., rer. nat. et med.</grad>
+      <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>
+      <siehe>Siehe Philosophische Fakultät G.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Systematische Botanik</thema>: <dozent
       ref="correns_cfje"><grad>D. ph.</grad> <nachname>Correns</nachname>,
@@ -2370,9 +2372,9 @@
         D.</siehe></veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Chemisches Praktikum für Lehrer</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wagner</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Abschnitt
-        G.</siehe></veranstaltungsverweis>
+        <dozent ref="wagner_je"><grad>D. ph.</grad>
+        <nachname>Wagner</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
       </sachgruppe>
 
       <trennlinie/>
@@ -3711,9 +3713,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.D-009"><thema>Geschichte der
-        romantischen Oper</thema>: <dozent><grad>D. jur. et ph.</grad>
-        <nachname>Prüfer</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont., Dienst. u. Freit. 4-5 U.</zeit>,
+        romantischen Oper</thema>: <dozent ref="pruefer_ahb"><grad>D. jur. et
+        ph.</grad> <nachname>Prüfer</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont., Dienst. u. Freit. 4-5 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <trennlinie/>
@@ -3836,9 +3838,10 @@
           <veranstaltung
           xml:id="v-1905s-IV.D.004-008"><thema>Musikwissenschaftliche Übungen
           (Lektüre von Agricola-Tosi's Gesangschule, 1757 [Neuausgabe
-          1904])</thema>: <dozent><grad>D. jur. et ph.</grad>
-          <nachname>Prüfer</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mittw. 5½-7½ U.</zeit>, <modus>privatissime</modus>, aber
+          1904])</thema>: <dozent ref="pruefer_ahb"><grad>D. jur. et
+          ph.</grad> <nachname>Prüfer</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>Mittw. 5½-7½ U.</zeit>,
+          <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <seite>39</seite>
@@ -4174,9 +4177,9 @@
         Technologie (Brenn- und Leuchtstoffe sowie ausgewählte anorganische
         Betriebe) mit Exkursionen</thema>.</veranstaltungsverweis> -
         <veranstaltungsverweis><thema>Metallurgie, mit
-        Exkursionen</thema></veranstaltungsverweis>: <dozent><grad>D.
-        ph.</grad> <nachname>Rassow</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Abschnitt
+        Exkursionen</thema></veranstaltungsverweis>: <dozent
+        ref="rassow_b"><grad>D. ph.</grad> <nachname>Rassow</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
         G.</siehe></veranstaltungsgruppe>
 
         <trennlinie/>
@@ -4193,9 +4196,9 @@
         xml:id="v-1905s-IV.E-029"><dozent>durch <grad>D. ph.</grad>
         <nachname>Eulenburg</nachname></dozent>, <zeit>Sonnab. 8-10
         U.</zeit></veranstaltung> und <veranstaltung
-        xml:id="v-1905s-IV.E-030"><dozent>durch <grad>D. ph.</grad>
-        <nachname>Plenge</nachname></dozent>, <zeit>in noch zu best.
-        Zeit</zeit></veranstaltung>, <modus>privatissime</modus>, aber
+        xml:id="v-1905s-IV.E-030"><dozent ref="plenge_j">durch <grad>D.
+        ph.</grad> <nachname>Plenge</nachname></dozent>, <zeit>in noch zu
+        best. Zeit</zeit></veranstaltung>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltungsgruppe>.</veranstaltungsgruppe>
 
         <veranstaltungsgruppe><thema>Volkswirtschaftliches Seminar</thema>
@@ -4420,9 +4423,9 @@
         U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.F-012"><thema>Bahnbestimmung der
-        Kometen und Planeten</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Peter</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont. u. Donnerst. 5-6 U.</zeit>,
+        Kometen und Planeten</thema>: <dozent ref="peter_b"><grad>D.
+        ph.</grad> <nachname>Peter</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Einführung in die mathematische
@@ -4472,9 +4475,10 @@
         <veranstaltung xml:id="v-1905s-IV.F-018"><thema>Praktische Übungen
         <ort>in der Sternwarte (Stephanstr. 3)</ort></thema>: <dozent
         ref="bruns_eh"><grad>D. ph.</grad> <nachname>Bruns</nachname>,
-        <funktion>P. O.</funktion></dozent> und <dozent><grad>D. ph.</grad>
-        <nachname>Peter</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>in zu best. Stunden</zeit>, <modus>privatissime</modus>, aber
+        <funktion>P. O.</funktion></dozent> und <dozent ref="peter_b"><grad>D.
+        ph.</grad> <nachname>Peter</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>in zu best. Stunden</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.F-019"><thema>Übungen zu
@@ -4587,10 +4591,11 @@
         Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.G-014"><thema>Qualitative
-        Analyse</thema>: <dozent><grad>D. ph.</grad> <vorname>J.</vorname>
-        <nachname>Wagner</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mittw. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Physikalisch-chem. Institut, Linnéstr. 2</ort>.</veranstaltung>
+        Analyse</thema>: <dozent ref="wagner_je"><grad>D. ph.</grad>
+        <vorname>J.</vorname> <nachname>Wagner</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikalisch-chem. Institut,
+        Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.G-015"><thema>Stereochemie</thema>:
         <dozent ref="ley_h"><grad>D. ph.</grad>
@@ -4601,8 +4606,8 @@
         <seite>46</seite>
 
         <veranstaltung xml:id="v-1905s-IV.G-016"><thema>Technik der
-        Experimentalchemie und Erläuterung von Schulversuchen</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>J.</vorname>
+        Experimentalchemie und Erläuterung von Schulversuchen</thema>: <dozent
+        ref="wagner_je"><grad>D. ph.</grad> <vorname>J.</vorname>
         <nachname>Wagner</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Freit. 3-4 U.</zeit>, <modus>publice</modus>, <ort>im
         Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
@@ -4622,7 +4627,7 @@
 
         <veranstaltung xml:id="v-1905s-IV.G-019"><thema>Chemische Technologie;
         Brenn- und Leuchtstoffe und ausgewählte anorganische Betriebe, mit
-        Exkursionen</thema>: <dozent><grad>D. ph.</grad>
+        Exkursionen</thema>: <dozent ref="rassow_b"><grad>D. ph.</grad>
         <nachname>Rassow</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont. u. Donnerst. praecis 3 bis ¾4 U.</zeit>,
         <modus>privatim</modus>, <ort>im Chemischen Laboratorium, Liebigstr.
@@ -4635,7 +4640,7 @@
         Laboratorium f. angew. Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.G-021"><thema>Metallurgie, mit
-        Exkursionen</thema>: <dozent><grad>D. ph.</grad>
+        Exkursionen</thema>: <dozent ref="rassow_b"><grad>D. ph.</grad>
         <nachname>Rassow</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Freit. 12-1 U.</zeit>, <modus>privatim</modus>, <ort>im
         Chemischen Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
@@ -4720,10 +4725,11 @@
         Institut, Linnéstr. 1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.G-034"><thema>Allgemeine
-        Botanik</thema>: <dozent><grad>D. ph., rer. nat. et med.</grad>
-        <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>tägl. 7-8 U. Vorm.</zeit>, <modus>privatim</modus>, <ort>im
-        Botanischen Institut, Linnéstr. 1</ort>.</veranstaltung>
+        Botanik</thema>: <dozent ref="pfeffer_w"><grad>D. ph., rer. nat. et
+        med.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>tägl. 7-8 U. Vorm.</zeit>,
+        <modus>privatim</modus>, <ort>im Botanischen Institut, Linnéstr.
+        1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.G-035"><thema>Systematische Botanik,
         mit Berücksichtigung der offizinellen Pflanzen</thema>: <dozent
@@ -4783,9 +4789,9 @@
         des.</funktion></dozent> <siehe>Siehe Abschnitt
         F.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Entwicklungsgeschichte</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Rabl</nachname>, <funktion>P.
-        O. des.</funktion></dozent> <siehe>Siehe Medizinische
+        <veranstaltungsverweis><thema>Entwicklungsgeschichte</thema>: <dozent
+        ref="rabl_c"><grad>D. med.</grad> <nachname>Rabl</nachname>,
+        <funktion>P. O. des.</funktion></dozent> <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Physikalisch-Chemisches aus der
@@ -4814,9 +4820,9 @@
         <nachname>Garten</nachname></dozent>. <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsgruppe>
 
-        <veranstaltungsverweis><thema>Pharmakologie</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Boehm</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe Medizinische
+        <veranstaltungsverweis><thema>Pharmakologie</thema>: <dozent
+        ref="boehm_r"><grad>D. med.</grad> <nachname>Boehm</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Missbildungen</thema>: <dozent
@@ -4902,8 +4908,9 @@
         <nachname>Hantzsch</nachname>, <funktion>P. O.</funktion></dozent>,
         <dozent>in Gemeinschaft mit <grad>D. ph.</grad>
         <nachname>Stobbe</nachname>, <funktion>P. E.</funktion></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Rassow</nachname>, <funktion>P.
-        E.</funktion></dozent> u., <dozent ref="ley_h"><grad>D. ph.</grad>
+        <dozent ref="rassow_b"><grad>D. ph.</grad>
+        <nachname>Rassow</nachname>, <funktion>P. E.</funktion></dozent> u.,
+        <dozent ref="ley_h"><grad>D. ph.</grad>
         <nachname>Ley</nachname></dozent>, <zeit>täglich 8-1 U. u. <seite>49</seite>(ausser
         Sonnab.) 2-6 U.</zeit>, <modus>privatissime</modus>, <ort>im Chem.
         Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
@@ -4919,10 +4926,11 @@
         <veranstaltung xml:id="v-1905s-IV.G-053"><thema>Chemisches Praktikum
         für Lehrer</thema>, <zeit>ganztägig oder halbtägig nach
         Übereinkunft</zeit> (<thema>Schulversuche und Analyse</thema>):
-        <dozent><grad>D. ph.</grad> <nachname>Wagner</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>tägl. 8-12 und (ausser Sonnab.) 2-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Physikalisch-chemischen
-        Institut, Linnéstr. 2</ort>.</veranstaltung>
+        <dozent ref="wagner_je"><grad>D. ph.</grad>
+        <nachname>Wagner</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>tägl. 8-12 und (ausser Sonnab.) 2-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikalisch-chemischen Institut,
+        Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.G-054"><thema>Chemisches
         Praktikum</thema>, <zeit>ganz- und halbtägig</zeit>: <dozent
@@ -4933,11 +4941,11 @@
 
         <veranstaltung
         xml:id="v-1905s-IV.G-055"><thema>Chemisch-technologisches Praktikum
-        für Fortgeschrittenere</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Rassow</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>tägl. 8-1 U. u. (ausser Sonnab.) 2-6 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Chem. Laboratorium, Liebigstr.
-        18</ort>.</veranstaltung>
+        für Fortgeschrittenere</thema>: <dozent ref="rassow_b"><grad>D.
+        ph.</grad> <nachname>Rassow</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>tägl. 8-1 U. u. (ausser Sonnab.) 2-6
+        U.</zeit>, <modus>privatim</modus>, <ort>im Chem. Laboratorium,
+        Liebigstr. 18</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.G-056"><thema>Chemisch-technisches
         Praktikum, ganz- u. halbtägig</thema>: <dozent
@@ -4994,14 +5002,15 @@
         <seite>50</seite>
 
         <veranstaltung xml:id="v-1905s-IV.G-063"><thema>Mikroskopische Übungen
-        für Anfänger</thema>: <dozent><grad>D. ph., rer. nat. et med.</grad>
-        <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Dienst. u. Freit. 10-12 U.</zeit>, <modus>privatim</modus>,
-        <ort>im Botanischen Institut, Linnéstr. 1</ort>.</veranstaltung>
+        für Anfänger</thema>: <dozent ref="pfeffer_w"><grad>D. ph., rer. nat.
+        et med.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Dienst. u. Freit. 10-12 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Botanischen Institut, Linnéstr.
+        1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.G-064"><thema>Botanisches
         Laboratorium (<ort>Linnéstr. 1</ort>) für Fortgeschrittenere</thema>:
-        <dozent><grad>D. ph., rer. nat. et med.</grad>
+        <dozent ref="pfeffer_w"><grad>D. ph., rer. nat. et med.</grad>
         <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>täglich Vorm.</zeit>,
         <modus>privatissime</modus>.</veranstaltung>
@@ -5061,9 +5070,9 @@
         mikroskopischen Untersuchung offizineller Drogen und Pflanzenpulver
         (Pharmakognostisches Praktikum)</thema></veranstaltungsverweis>. -
         <veranstaltungsverweis><thema>Experimentelle Arbeiten im
-        Pharmakologischen Institut</thema></veranstaltungsverweis>:
-        <dozent><grad>D. med.</grad> <nachname>Boehm</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe Medizinische
+        Pharmakologischen Institut</thema></veranstaltungsverweis>: <dozent
+        ref="boehm_r"><grad>D. med.</grad> <nachname>Boehm</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Bakteriologischer Kurs</thema>: <dozent
@@ -5101,7 +5110,7 @@
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Entwicklungsgeschichtliche Übungen und
-        Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+        Demonstrationen</thema>: <dozent ref="rabl_c"><grad>D. med.</grad>
         <nachname>Rabl</nachname>, <funktion>P. O. des.</funktion></dozent>
         <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
       </sachgruppe>

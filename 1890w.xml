@@ -2172,15 +2172,15 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.C-016"><thema>Geschichte Sachsens
-        und Thüringens</thema>: <dozent><grad>D. ph.</grad>
+        und Thüringens</thema>: <dozent ref="pueckert_w"><grad>D. ph.</grad>
         <nachname>Pückert</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. u. Freit. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.C-017"><thema>Preussische Geschichte
-        vom grossen Kurfürsten ab</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Pückert</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mittw. u. Sonnab. 10-11 U.</zeit>,
+        vom grossen Kurfürsten ab</thema>: <dozent ref="pueckert_w"><grad>D.
+        ph.</grad> <nachname>Pückert</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 10-11 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.C-018"><thema>Geschichte Europa's
@@ -2209,15 +2209,16 @@
         <seite>24</seite>
 
         <veranstaltung xml:id="v-1890w-IV.C-022"><thema>Deutschland und die
-        Gebiete der Deutschen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Ratzel</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mittw. u. Freit. 4-5 U.</zeit>,
+        Gebiete der Deutschen</thema>: <dozent ref="ratzel_f"><grad>D.
+        ph.</grad> <nachname>Ratzel</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mittw. u. Freit. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.C-023"><thema>Afrika</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Ratzel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Sonnab. 4-5
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="ratzel_f"><grad>D. ph.</grad>
+        <nachname>Ratzel</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. u. Sonnab. 4-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.C-024"><thema>Geographie von
         Südamerika</thema>: <dozent ref="hettner_a"><grad>D. ph.</grad>
@@ -2282,7 +2283,7 @@ bezogen werden.-->
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Königliches geographisches
-        Seminar</thema>: <dozent><grad>D. ph.</grad>
+        Seminar</thema>: <dozent ref="ratzel_f"><grad>D. ph.</grad>
         <nachname>Ratzel</nachname>, <funktion>P. O.</funktion></dozent>:
         <veranstaltung xml:id="v-1890w-IV.C-032"><thema>Geographische
         Uebungen</thema> <zeit>Mont. u. Donnerst. 12-1 U.</zeit>,
@@ -2833,9 +2834,9 @@ handelt sich evtl. um Präsenzeiten des Dozenten.-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.G-003"><thema>Höhere Optik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>König</nachname></dozent>,
-        <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="koenig_w"><grad>D. ph.</grad>
+        <nachname>König</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
+        12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <seite>30</seite>
 
@@ -2936,7 +2937,7 @@ handelt sich evtl. um Präsenzeiten des Dozenten.-->
 
         <veranstaltung
         xml:id="v-1890w-IV.G-020"><thema>Experimentalphysiologie der
-        Pflanzen</thema>: <dozent><grad>D. ph.</grad>
+        Pflanzen</thema>: <dozent ref="pfeffer_w"><grad>D. ph.</grad>
         <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Dienst., Mittw. u. Donnerst. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -3030,9 +3031,10 @@ handelt sich evtl. um Präsenzeiten des Dozenten.-->
 
         <veranstaltung xml:id="v-1890w-IV.G-034"><thema>Physikalisches
         Colloquium</thema> (in Verbindung mit <dozent ref="leblanc_m"><grad>D.
-        ph.</grad> <nachname>Le Blanc</nachname></dozent>): <dozent><grad>D.
-        ph.</grad> <nachname>König</nachname></dozent>, <zeit>einstündig, in
-        noch zu best. Zeit</zeit>, <modus>privatissime</modus>, aber
+        ph.</grad> <nachname>Le Blanc</nachname></dozent>): <dozent
+        ref="koenig_w"><grad>D. ph.</grad>
+        <nachname>König</nachname></dozent>, <zeit>einstündig, in noch zu
+        best. Zeit</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.G-035"><thema>Chemisches
@@ -3113,21 +3115,22 @@ handelt sich evtl. um Präsenzeiten des Dozenten.-->
         U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.G-046"><thema>Botanisches
-        Laboratorium für Geübtere</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>täglich oder an drei Vormittagen</zeit>,
+        Laboratorium für Geübtere</thema>: <dozent ref="pfeffer_w"><grad>D.
+        ph.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>täglich oder an drei Vormittagen</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.G-047"><thema>Mikroskopische
-        Uebungen für Anfänger</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>zweimal zweistündig</zeit>,
+        Uebungen für Anfänger</thema>: <dozent ref="pfeffer_w"><grad>D.
+        ph.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>zweimal zweistündig</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.G-048"><thema>Botanisches Colloquium
-        für Fortgeschrittenere</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Pfeffer</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Freit. 5-6 U.</zeit>, <modus>privatissime</modus>, aber
+        für Fortgeschrittenere</thema>: <dozent ref="pfeffer_w"><grad>D.
+        ph.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Freit. 5-6 U.</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.G-049"><thema>Uebungen im

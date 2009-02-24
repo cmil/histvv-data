@@ -241,13 +241,13 @@
           <sachgruppe xml:id="sg-1823w-I.I.2.b.001">
             <titel>Deutsche Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1823w-I.I.2.b.001-001"><dozent><nachname>Pölitz</nachname>,
-            <vorname>C. H. L.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema>Theorie der Prosa, Dichtkunst u. Beredtsamkeit, mit steter
-            Rücksicht auf die Teutschen Klassiker, nach s. Sprache der
-            Teutschen (Leipz. b. Weidmanns 1820)</thema> <zeit>9 U. 2
-            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1823w-I.I.2.b.001-001"><dozent
+            ref="poelitz_kh"><nachname>Pölitz</nachname>, <vorname>C. H.
+            L.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Theorie
+            der Prosa, Dichtkunst u. Beredtsamkeit, mit steter Rücksicht auf
+            die Teutschen Klassiker, nach s. Sprache der Teutschen (Leipz. b.
+            Weidmanns 1820)</thema> <zeit>9 U. 2 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1823w-I.I.2.b.002">
@@ -781,8 +781,9 @@
         <sachgruppe xml:id="sg-1823w-I.V.2.001">
           <titel>Oekonomie.</titel>
 
-          <veranstaltungsgruppe><dozent><nachname>Pohl</nachname>, <vorname>J.
-          F.</vorname>, <funktion>P. O.</funktion></dozent>, <veranstaltung
+          <veranstaltungsgruppe><dozent
+          ref="pohl_f"><nachname>Pohl</nachname>, <vorname>J. F.</vorname>,
+          <funktion>P. O.</funktion></dozent>, <veranstaltung
           xml:id="v-1823w-I.V.2.001-001"><thema>über die Zurichtung des Bodens
           und das Allgemeine des Pflanzenbaues, nach
           <gesperrt>Burger</gesperrt></thema>, <zeit>10 U. 4
@@ -806,10 +807,10 @@
         <sachgruppe xml:id="sg-1823w-I.V.2.002">
           <titel>Technologie.</titel>
 
-          <veranstaltung
-          xml:id="v-1823w-I.V.2.002-001"><dozent><nachname>Pohl</nachname>,
-          <vorname>J. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>nach s. Grundrisse</thema>, <zeit>2 U. 4 T.</zeit>
+          <veranstaltung xml:id="v-1823w-I.V.2.002-001"><dozent
+          ref="pohl_f"><nachname>Pohl</nachname>, <vorname>J. F.</vorname>,
+          <funktion>P. O.</funktion></dozent>, <thema>nach s.
+          Grundrisse</thema>, <zeit>2 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -818,8 +819,9 @@
     <sachgruppe xml:id="sg-1823w-I.VI">
       <titel>VI. Staats- u. Kameralwissenschaften.</titel>
 
-      <veranstaltungsgruppe><dozent><nachname>Pölitz</nachname>, <vorname>C.
-      H. L.</vorname>, <funktion>P. O.</funktion></dozent>, <veranstaltung
+      <veranstaltungsgruppe><dozent
+      ref="poelitz_kh"><nachname>Pölitz</nachname>, <vorname>C. H.
+      L.</vorname>, <funktion>P. O.</funktion></dozent>, <veranstaltung
       xml:id="v-1823w-I.VI-001"><thema>Politik, nach dem 1. Th. s.
       <gesperrt>Staatswissenschaften im Lichte unserer Zeit</gesperrt>
       (Leipzig b. Hinrichs 1823)</thema> <zeit>9 U. Mont u. Donn.</zeit>,
@@ -829,17 +831,17 @@
       <gesperrt>Staatswissenschaften</gesperrt> etc.</thema> <zeit>11 U. 2
       T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-      <veranstaltung
-      xml:id="v-1823w-I.VI-003"><dozent><nachname>Pohl</nachname>, <vorname>J.
-      F.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>practische
-      cameralistische Uebungen</thema>, <zeit>10 U. 2
-      T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1823w-I.VI-003"><dozent
+      ref="pohl_f"><nachname>Pohl</nachname>, <vorname>J. F.</vorname>,
+      <funktion>P. O.</funktion></dozent>, <thema>practische cameralistische
+      Uebungen</thema>, <zeit>10 U. 2 T.</zeit></veranstaltung>
 
       <sachgruppe xml:id="sg-1823w-I.VI.x">
         <titel>* Uebungen der kameralistischen Gesellschaft.</titel>
 
-        <veranstaltung xml:id="v-1823w-I.VI.x-001"><ders>Derselbe</ders>,
-        <zeit>in den best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1823w-I.VI.x-001"><ders
+        ref="pohl_f">Derselbe</ders>, <zeit>in den best.
+        St.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
@@ -1821,9 +1823,9 @@
         <sachgruppe xml:id="sg-1823w-II.C.I.3">
           <titel>3) Pathologie.</titel>
 
-          <veranstaltung
-          xml:id="v-1823w-II.C.I.3-001"><dozent><nachname>Puchelt</nachname>,
-          <grad>D.</grad> <vorname>F. A. B.</vorname>, <funktion>P. O.
+          <veranstaltung xml:id="v-1823w-II.C.I.3-001"><dozent
+          ref="puchelt_fab"><nachname>Puchelt</nachname>, <grad>D.</grad>
+          <vorname>F. A. B.</vorname>, <funktion>P. O.
           des.</funktion></dozent>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung
@@ -1973,8 +1975,9 @@
         <sachgruppe xml:id="sg-1823w-II.C.II.2">
           <titel>2) Therapie.</titel>
 
-          <veranstaltungsgruppe><dozent><nachname>Puchelt</nachname>,
-          <grad>D.</grad> <vorname>F. A. B.</vorname>, <funktion>P. O.
+          <veranstaltungsgruppe><dozent
+          ref="puchelt_fab"><nachname>Puchelt</nachname>, <grad>D.</grad>
+          <vorname>F. A. B.</vorname>, <funktion>P. O.
           des.</funktion></dozent>, <thema><notiz
           betreff="fortsetzung">Fortsetz. u. Beschluß</notiz> des
           Cursus</thema>, <veranstaltung
@@ -2097,9 +2100,9 @@
             <thema><ort>geburtshülfliche Klinik, im Trierschen
             Institute</ort></thema>, <zeit>8 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1823w-II.C.II.2.004-003"><dozent><nachname>Puchelt</nachname>,
-            <grad>D.</grad> <vorname>F. A. B.</vorname>, <funktion>P. O.
+            <veranstaltung xml:id="v-1823w-II.C.II.2.004-003"><dozent
+            ref="puchelt_fab"><nachname>Puchelt</nachname>, <grad>D.</grad>
+            <vorname>F. A. B.</vorname>, <funktion>P. O.
             des.</funktion></dozent>, <thema><ort>Poliklinikum</ort></thema>,
             <zeit>2 U. 7 T.</zeit></veranstaltung>
           </sachgruppe>

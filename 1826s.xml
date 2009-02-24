@@ -448,11 +448,11 @@
         <gesperrt>Wettstreit der Jahrhunderte</gesperrt> 3. Abschn.</thema>,
         <zeit>10 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1826s-I.II.2-002"><dozent><nachname>Pölitz</nachname>,
-        <vorname>K. H. L.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>Geschichte des Königreichs Sachsen</thema>, <zeit>8 U. 2
-        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1826s-I.II.2-002"><dozent
+        ref="poelitz_kh"><nachname>Pölitz</nachname>, <vorname>K. H.
+        L.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Geschichte
+        des Königreichs Sachsen</thema>, <zeit>8 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1826s-I.II.2-003"><dozent
         ref="wachsmuth_ewg"><nachname>Wachsmuth</nachname>,
@@ -686,10 +686,10 @@
 
           <seite>8</seite>
 
-          <veranstaltung
-          xml:id="v-1826s-I.III.005.6-002"><dozent><nachname>Plato</nachname>,
-          <grad>M.</grad> <vorname>G. J. K. L.</vorname></dozent>, <thema>über
-          die wichtigsten Grundsätze der Erziehung, <notiz
+          <veranstaltung xml:id="v-1826s-I.III.005.6-002"><dozent
+          ref="plato_gjkl"><nachname>Plato</nachname>, <grad>M.</grad>
+          <vorname>G. J. K. L.</vorname></dozent>, <thema>über die wichtigsten
+          Grundsätze der Erziehung, <notiz
           betreff="fortsetzung">Beschluß</notiz></thema>, <zeit>11 U. 2
           T.</zeit></veranstaltung>
 
@@ -720,34 +720,33 @@
       <sachgruppe xml:id="sg-1826s-I.IV.002">
         <titel>Volks- und Staatswirthschaft, und Finanzwissenschaft.</titel>
 
-        <veranstaltung
-        xml:id="v-1826s-I.IV.002-001"><dozent><nachname>Pölitz</nachname>,
-        <vorname>K. H. L.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>nach seinem Grundriß zu encyklopäd. Vorträgen über die
-        gesammten Staatswissenschaften (Lpz. b. Hinrichs 1825.)</thema>
-        <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1826s-I.IV.002-001"><dozent
+        ref="poelitz_kh"><nachname>Pölitz</nachname>, <vorname>K. H.
+        L.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>nach seinem
+        Grundriß zu encyklopäd. Vorträgen über die gesammten
+        Staatswissenschaften (Lpz. b. Hinrichs 1825.)</thema> <zeit>9 U. 2
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1826s-I.IV.003">
         <titel>Geschichte des europäischen Staatensystems seit d. Jahre 1648.
         aus dem Standpunkte der Politik.</titel>
 
-        <veranstaltung
-        xml:id="v-1826s-I.IV.003-001"><dozent><nachname>Pölitz</nachname>,
-        <vorname>K. H. L.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>nach d. <gesperrt>dritten</gesperrt> Theile s.
-        Staatswissenschaften im Lichte unserer Zeit (Lpz. b. Hinrichs
-        1824.)</thema> <zeit>9 U. Mont. u. Donn.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1826s-I.IV.003-001"><dozent
+        ref="poelitz_kh"><nachname>Pölitz</nachname>, <vorname>K. H.
+        L.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>nach d.
+        <gesperrt>dritten</gesperrt> Theile s. Staatswissenschaften im Lichte
+        unserer Zeit (Lpz. b. Hinrichs 1824.)</thema> <zeit>9 U. Mont. u.
+        Donn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1826s-I.IV.004">
         <titel>Praktisches europäisches Völkerrecht.</titel>
 
-        <veranstaltung
-        xml:id="v-1826s-I.IV.004-001"><dozent><nachname>Pölitz</nachname>,
-        <vorname>K. H. L.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>in zu best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1826s-I.IV.004-001"><dozent
+        ref="poelitz_kh"><nachname>Pölitz</nachname>, <vorname>K. H.
+        L.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>in zu best.
+        St.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1826s-I.IV.005">
@@ -908,33 +907,35 @@
     <sachgruppe xml:id="sg-1826s-I.VII">
       <titel>VII. Kameralwissenschaften.</titel>
 
-      <veranstaltung
-      xml:id="v-1826s-I.VII-001"><dozent><nachname>Pohl</nachname>,
-      <vorname>H. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-      <thema>Encyklopädie der Gewerbswissenschaften oder der sogenannten
-      Kameralwissenschaften, nach s. Sätzen</thema>, <zeit>2 U. 4 T.</zeit>
+      <veranstaltung xml:id="v-1826s-I.VII-001"><dozent
+      ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
+      <funktion>P. O.</funktion></dozent>, <thema>Encyklopädie der
+      Gewerbswissenschaften oder der sogenannten Kameralwissenschaften, nach
+      s. Sätzen</thema>, <zeit>2 U. 4 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
-      <veranstaltung xml:id="v-1826s-I.VII-002"><ders>Derselbe</ders>,
-      <thema>die Kenntniß u. der Anbau der landwirthschaftlichen Pflanzen,
-      nach s. Sätzen u. <gesperrt>Burger's</gesperrt> Lehrb.</thema>, <zeit>10
-      U. 4 T.</zeit></veranstaltung>
-
-      <veranstaltung xml:id="v-1826s-I.VII-003"><ders>Derselbe</ders>,
-      <thema>die Bodenkunde, nach <gesperrt>Burger's</gesperrt>
-      Lehrb.</thema>, <zeit>10 U. 2 T.</zeit></veranstaltung>
-
-      <veranstaltung xml:id="v-1826s-I.VII-004"><ders>Derselbe</ders>,
-      <thema>praktische Uebungen u. Excursionen</thema>, <zeit>9 U. 2
+      <veranstaltung xml:id="v-1826s-I.VII-002"><ders
+      ref="pohl_f">Derselbe</ders>, <thema>die Kenntniß u. der Anbau der
+      landwirthschaftlichen Pflanzen, nach s. Sätzen u.
+      <gesperrt>Burger's</gesperrt> Lehrb.</thema>, <zeit>10 U. 4
       T.</zeit></veranstaltung>
+
+      <veranstaltung xml:id="v-1826s-I.VII-003"><ders
+      ref="pohl_f">Derselbe</ders>, <thema>die Bodenkunde, nach
+      <gesperrt>Burger's</gesperrt> Lehrb.</thema>, <zeit>10 U. 2
+      T.</zeit></veranstaltung>
+
+      <veranstaltung xml:id="v-1826s-I.VII-004"><ders
+      ref="pohl_f">Derselbe</ders>, <thema>praktische Uebungen u.
+      Excursionen</thema>, <zeit>9 U. 2 T.</zeit></veranstaltung>
 
       <sachgruppe xml:id="sg-1826s-I.VII.x">
         <titel>*) Kameralistische Gesellschaft.</titel>
 
-        <veranstaltung
-        xml:id="v-1826s-I.VII.x-001"><dozent><nachname>Pohl</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>in den best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1826s-I.VII.x-001"><dozent
+        ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in den best.
+        St.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
   </sachgruppe>
@@ -1327,10 +1328,10 @@
           <vorname>F. W.</vorname>, <funktion>P. E. des.</funktion></dozent>,
           <siehe>s. Pädagogik u. Didaktik</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung
-          xml:id="v-1826s-II.A.II.002-001"><dozent><nachname>Plato</nachname>,
-          <grad>M.</grad> <vorname>G. J. K. L.</vorname></dozent>, <zeit>2 U.
-          2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1826s-II.A.II.002-001"><dozent
+          ref="plato_gjkl"><nachname>Plato</nachname>, <grad>M.</grad>
+          <vorname>G. J. K. L.</vorname></dozent>, <zeit>2 U. 2 T.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <sachgruppe xml:id="sg-1826s-II.A.II.002.x">
             <titel>*) Katechetische Uebungen.</titel>
@@ -1342,10 +1343,10 @@
             Bürgerschule</ort></thema>, <zeit>4-6 U. Mont. u.
             Dienst.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1826s-II.A.II.002.x-002"><dozent><nachname>Plato</nachname>,
-            <grad>M.</grad> <vorname>G. J. K. L.</vorname></dozent>, <zeit>3
-            U. 2 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1826s-II.A.II.002.x-002"><dozent
+            ref="plato_gjkl"><nachname>Plato</nachname>, <grad>M.</grad>
+            <vorname>G. J. K. L.</vorname></dozent>, <zeit>3 U. 2
+            T.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -1411,12 +1412,12 @@
         <vorname>K. W. E.</vorname></dozent>, <siehe>s.
         Institutionen</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung
-        xml:id="v-1826s-II.B.002-002"><dozent><nachname>Planitz</nachname>,
-        <vorname>K. G. V.</vorname> <nachnamenpräfix>von</nachnamenpräfix>,
-        <funktion>J. U. B.</funktion></dozent>, <thema>äußere Geschichte des
-        röm. Rechts, n. <gesperrt>Haubold</gesperrt></thema>, <zeit>2
-        T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
+        <veranstaltung xml:id="v-1826s-II.B.002-002"><dozent
+        ref="planitz_kgv"><nachname>Planitz</nachname>, <vorname>K. G.
+        V.</vorname> <nachnamenpräfix>von</nachnamenpräfix>, <funktion>J. U.
+        B.</funktion></dozent>, <thema>äußere Geschichte des röm. Rechts, n.
+        <gesperrt>Haubold</gesperrt></thema>, <zeit>2 T.</zeit>
+        <gebühr>unentg.</gebühr></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1826s-II.B.I">
@@ -1544,11 +1545,11 @@
               lineamenta</antiqua></thema>. <zeit>9-11 U. 6
               T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1826s-II.B.II.I.1.002-004"><dozent><nachname>Planitz</nachname>,
-              <vorname>K. G. V.</vorname>
-              <nachnamenpräfix>von</nachnamenpräfix>, <funktion>J. U.
-              B.</funktion></dozent>, <thema>Pandecten</thema>, <zeit>2 St. 6
+              <veranstaltung xml:id="v-1826s-II.B.II.I.1.002-004"><dozent
+              ref="planitz_kgv"><nachname>Planitz</nachname>, <vorname>K. G.
+              V.</vorname> <nachnamenpräfix>von</nachnamenpräfix>,
+              <funktion>J. U. B.</funktion></dozent>,
+              <thema>Pandecten</thema>, <zeit>2 St. 6
               T.</zeit></veranstaltung>
             </sachgruppe>
           </sachgruppe>
@@ -1695,11 +1696,10 @@
             der Klagen</thema>, <zeit>3 U. 4 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1826s-II.B.II.I.7-003"><dozent><nachname>Planitz</nachname>,
-            <vorname>K. G. V.</vorname>
-            <nachnamenpräfix>von</nachnamenpräfix>, <funktion>J. U.
-            B.</funktion></dozent>, <zeit>4 T.</zeit>
+            <veranstaltung xml:id="v-1826s-II.B.II.I.7-003"><dozent
+            ref="planitz_kgv"><nachname>Planitz</nachname>, <vorname>K. G.
+            V.</vorname> <nachnamenpräfix>von</nachnamenpräfix>, <funktion>J.
+            U. B.</funktion></dozent>, <zeit>4 T.</zeit>
             <gebühr>unentg.</gebühr></veranstaltung>
           </sachgruppe>
 
@@ -1947,11 +1947,10 @@
             B.</funktion></dozent>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1826s-II.B.II.III.001-012"><dozent><nachname>Planitz</nachname>,
-            <vorname>K. G. V.</vorname>
-            <nachnamenpräfix>von</nachnamenpräfix>, <funktion>J. U.
-            B.</funktion></dozent>, <zeit>in zu best.
+            <veranstaltung xml:id="v-1826s-II.B.II.III.001-012"><dozent
+            ref="planitz_kgv"><nachname>Planitz</nachname>, <vorname>K. G.
+            V.</vorname> <nachnamenpräfix>von</nachnamenpräfix>, <funktion>J.
+            U. B.</funktion></dozent>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
             <veranstaltung
