@@ -649,7 +649,7 @@ Was heißt zweitägig? --></zeit></veranstaltung>
       E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 3-4 U.<!--Was "u. s. f." bedeutet, ist unklar.--></zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1874w-III-009"><thema>Ueber
-      Schädelmessung</thema>: <dozent><grad>D. med.</grad>
+      Schädelmessung</thema>: <dozent ref="rauber_a"><grad>D. med.</grad>
       <nachname>Rauber</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Sonnab. 12-1 U.</zeit> <modus>publice</modus>.</veranstaltung>
 
@@ -661,15 +661,15 @@ Was heißt zweitägig? --></zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1874w-III-011"><thema>Präparirübungen</thema>:
       <dozent ref="his_w"><grad>D. med.</grad> <nachname>His</nachname>,
-      <funktion>P. O.</funktion></dozent>, <dozent>in Verbindung mit dem
-      <funktion>Prosector Herrn Prof.</funktion>
+      <funktion>P. O.</funktion></dozent>, <dozent ref="rauber_a">in
+      Verbindung mit dem <funktion>Prosector Herrn Prof.</funktion>
       <nachname>Rauber</nachname></dozent>, <zeit>täglich 8-4 U.</zeit><!--2. Dozent. Bei diesem die Auszeichnung der Funktion beachten.
 Die Zeitangabe macht etwas argwöhnisch.--></veranstaltung>
 
       <veranstaltung xml:id="v-1874w-III-012"><thema>Präparirübungen</thema>
       <dozent ref="his_w">in Verbindung mit <funktion>Herrn Prof.</funktion>
-      <nachname>His</nachname></dozent>: <dozent><grad>D. med.</grad>
-      <nachname>Rauber</nachname>, <funktion>P. E.<!--
+      <nachname>His</nachname></dozent>: <dozent ref="rauber_a"><grad>D.
+      med.</grad> <nachname>Rauber</nachname>, <funktion>P. E.<!--
 Et vice versa (s.o.): Ob es sich hier überhaupt um eine eigenständige Veranstaltung handelt?--></funktion></dozent></veranstaltung>
 
       <seite>9</seite>
@@ -680,9 +680,9 @@ Et vice versa (s.o.): Ob es sich hier überhaupt um eine eigenständige Veransta
       <zeit>täglich 2-7 U.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1874w-III-014"><thema>Gewebelehre</thema>,
-      <zeit>in täglichen Cursen</zeit>: <dozent><grad>D. med.</grad>
-      <nachname>Rauber</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>2-4 U.</zeit></veranstaltung>
+      <zeit>in täglichen Cursen</zeit>: <dozent ref="rauber_a"><grad>D.
+      med.</grad> <nachname>Rauber</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>2-4 U.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1874w-III-015"><thema>Mikroskopische
       Uebungen</thema>: <dozent ref="ludwig_c"><grad>D. med.</grad>
@@ -746,20 +746,22 @@ Kein sic bei "hygieine", Schreibung regelmäßig von griech. hygieia.--></zeit><
       <zeit>3 Stunden</zeit>.</veranstaltung>
 
       <veranstaltung xml:id="v-1874w-III-025"><thema>Hygieine der Städte und
-      Wohnungen, mit Demonstrationen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Reclam</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Donnerst. u. Freit. 3-4 U.</zeit></veranstaltung>
+      Wohnungen, mit Demonstrationen</thema>: <dozent ref="reclam_k"><grad>D.
+      med.</grad> <nachname>Reclam</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 3-4
+      U.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1874w-III-026"><thema>Oeffentliche
-      Gesundheitspflege mit Experimenten und Demonstrationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Reclam</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 4-5
+      Gesundheitspflege mit Experimenten und Demonstrationen</thema>: <dozent
+      ref="reclam_k"><grad>D. med.</grad> <nachname>Reclam</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 4-5
       U.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1874w-III-027"><thema>Uebungen im Anstellen
-      hygieinischer Untersuchungen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Reclam</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Sonnab. 4-7 U.</zeit> <modus>privatissime</modus>.</veranstaltung>
+      hygieinischer Untersuchungen</thema>: <dozent ref="reclam_k"><grad>D.
+      med.</grad> <nachname>Reclam</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Sonnab. 4-7 U.</zeit>
+      <modus>privatissime</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1111,9 +1113,9 @@ Prof. Heubner"--></veranstaltung>
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1874w-III-088"><thema>Gerichtliche Medicin,
-      erläutert durch Demonstrationen u. Experimente</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Reclam</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 5-6
+      erläutert durch Demonstrationen u. Experimente</thema>: <dozent
+      ref="reclam_k"><grad>D. med.</grad> <nachname>Reclam</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 5-6
       U.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1874w-III-089"><thema>Curse über

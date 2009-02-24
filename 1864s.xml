@@ -1864,14 +1864,16 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
         <zeit>12 U. 3 S.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1864s-II.C.V-002"><thema>Hygiene, öffentliche
-        u. private, mit Medicinalpolizei</thema>: <dozent><grad>D.</grad>
-        <nachname>Reclam</nachname>, <funktion>P. E. des.</funktion></dozent>,
-        <zeit>5 U. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
+        u. private, mit Medicinalpolizei</thema>: <dozent
+        ref="reclam_k"><grad>D.</grad> <nachname>Reclam</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>5 U. 2 T. (Mont. u.
+        Donn.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1864s-II.C.V-003"><thema>Hygiene und
         Medicinalpolizei der Wohnungen, öffentlichen Anstalten u.
-        Städte</thema>: <ders>Derselbe</ders>, <zeit>5 U. 2 T. (Dienst. u.
-        Freit.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        Städte</thema>: <ders ref="reclam_k">Derselbe</ders>, <zeit>5 U. 2 T.
+        (Dienst. u. Freit.)</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1864s-II.C.VI">
@@ -2145,9 +2147,9 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
 
         <trennlinie/>
 
-        <veranstaltungsverweis><thema>Medicinalpolizei</thema>:
-        <dozent><grad>D.</grad> <nachname>Reclam</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <siehe>s.
+        <veranstaltungsverweis><thema>Medicinalpolizei</thema>: <dozent
+        ref="reclam_k"><grad>D.</grad> <nachname>Reclam</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <siehe>s.
         Hygiene</siehe>.</veranstaltungsverweis>
 
         <trennlinie/>
@@ -2158,7 +2160,7 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
         <zeit>4-5½ U. 2 T. (Dienst. u. Freit.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1864s-II.C.XII-003"><thema>Staatsärztliches
-        Prakticum</thema>: <dozent><grad>D.</grad>
+        Prakticum</thema>: <dozent ref="reclam_k"><grad>D.</grad>
         <nachname>Reclam</nachname>, <funktion>P. E. des.</funktion></dozent>,
         <zeit>4-6 U. Sonn.</zeit></veranstaltung>
       </sachgruppe>

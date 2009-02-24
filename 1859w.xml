@@ -886,9 +886,9 @@
 
         <veranstaltung xml:id="v-1859w-I.VI.2-002"><thema>Grundzüge der
         Botanik (<notiz betreff="fortsetzung">Schluss</notiz>)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Reichenbach</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>in 2 zu best.
-        St.</zeit></veranstaltung>
+        <dozent ref="reichenbach_hg"><grad>D. ph.</grad>
+        <nachname>Reichenbach</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>in 2 zu best. St.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1859w-I.VI.2-003"><thema>Anatomie und
         Physiologie der Gewächse</thema>: <dozent
@@ -902,7 +902,7 @@
 
         <veranstaltung xml:id="v-1859w-I.VI.2-005"><thema>Ueber die Flora des
         Orients im Allgemeinen und die Pflanzen der Bibel insbesondere (für
-        Theologen)</thema>: <dozent><grad>D. ph.</grad>
+        Theologen)</thema>: <dozent ref="reichenbach_hg"><grad>D. ph.</grad>
         <nachname>Reichenbach</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>in 1 zu best. St.</zeit></veranstaltung>
 
@@ -963,9 +963,9 @@
         <titel>I. Exegetische Theologie.</titel>
 
         <veranstaltungsverweis><thema>Ueber die Pflanzen der Bibel</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Reichenbach</nachname>,
-        <funktion>P. E.</funktion></dozent>, <siehe>s.
-        Naturgeschichte</siehe>.</veranstaltungsverweis>
+        <dozent ref="reichenbach_hg"><grad>D. ph.</grad>
+        <nachname>Reichenbach</nachname>, <funktion>P. E.</funktion></dozent>,
+        <siehe>s. Naturgeschichte</siehe>.</veranstaltungsverweis>
 
         <trennlinie/>
 
@@ -1649,8 +1649,8 @@
         <veranstaltung xml:id="v-1859w-II.B.VI_2-005"><thema>Anleitung zur
         criminalistischen und gerichtsärztlichen Praxis</thema>: <dozent
         ref="hoeck_h"><grad>D.</grad> <nachname>Höck</nachname>, <funktion>P.
-        E.</funktion></dozent>, <dozent>gemeinschaftlich mit <grad>D.</grad>
-        <nachname>Reclam</nachname></dozent>, <zeit>3 U. 4
+        E.</funktion></dozent>, <dozent ref="reclam_k">gemeinschaftlich mit
+        <grad>D.</grad> <nachname>Reclam</nachname></dozent>, <zeit>3 U. 4
         T.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
@@ -1816,8 +1816,9 @@
 
         <veranstaltung xml:id="v-1859w-II.C.V-001"><thema>Physiologie der
         Nahrungsmittel, mit Bezug auf Hygiene und Medicinalpolizei</thema>:
-        <dozent><grad>D.</grad> <nachname>Reclam</nachname></dozent>, <zeit>4
-        U. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
+        <dozent ref="reclam_k"><grad>D.</grad>
+        <nachname>Reclam</nachname></dozent>, <zeit>4 U. 2 T. (Mont. u.
+        Donn.)</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1859w-II.C.VI">
@@ -2096,7 +2097,7 @@
 
         <veranstaltung xml:id="v-1859w-II.C.XII-006"><thema>Einleitung in die
         gerichtsärztliche u. criminalistische Praxis (mit
-        Experimenten)</thema>: <dozent><grad>D.</grad>
+        Experimenten)</thema>: <dozent ref="reclam_k"><grad>D.</grad>
         <nachname>Reclam</nachname></dozent>, <dozent ref="hoeck_h">in
         Gemeinschaft mit <grad>D.</grad> <nachname>Höck</nachname>,
         <funktion>P. E. des.</funktion></dozent>, <zeit>3 U. 4
