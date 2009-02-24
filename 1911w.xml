@@ -3196,34 +3196,24 @@
             <sachgruppe xml:id="sg-1911w-IV.C.001.B.001">
               <titel>Vorkurse:</titel>
 
-              <absatz>Einführung in die Kenntnis und Benutzung der Quellen und
-              Behandlung einfacher methodischer Fragen.</absatz>
-
-              <sachgruppe xml:id="sg-1911w-IV.C.001.B.001.001">
-                <titel>Drei Parallelkurse:</titel>
-
-                <veranstaltung
-                thema="Einführung in die Kenntnis und Benutzung der Quellen und Behandlung einfacher methodischer Fragen."
-                xml:id="v-1911w-IV.C.001.B.001.001-001">1) <dozent
-                ref="herre_p"><grad>D. ph.</grad>
-                <nachname>Herre</nachname></dozent>, <zeit>Mi. 7¾-9¼ U.
-                Ab.</zeit>, <modus>privatissime</modus>, sed
-                <gebühr>gratis</gebühr>.</veranstaltung>
-
-                <veranstaltung
-                thema="Einführung in die Kenntnis und Benutzung der Quellen und Behandlung einfacher methodischer Fragen."
-                xml:id="v-1911w-IV.C.001.B.001.001-002">2) <dozent><grad>D.
-                ph.</grad> <nachname>Strieder</nachname></dozent>, <zeit>Di.
-                7¾-9¼ U. Ab.</zeit>, <modus>privatissime</modus>, sed
-                <gebühr>gratis</gebühr>.</veranstaltung>
-
-                <veranstaltung
-                thema="Einführung in die Kenntnis und Benutzung der Quellen und Behandlung einfacher methodischer Fragen."
-                xml:id="v-1911w-IV.C.001.B.001.001-003">3) <dozent><grad>D.
-                ph.</grad> <nachname>Schmeidler</nachname></dozent>, <zeit>Do.
-                7¾-9¼ U. Ab.</zeit>, <modus>privatissime</modus>, sed
-                <gebühr>gratis.</gebühr></veranstaltung>
-              </sachgruppe>
+              <veranstaltungsgruppe><thema>Einführung in die Kenntnis und
+              Benutzung der Quellen und Behandlung einfacher methodischer
+              Fragen.</thema><!--Absatz--> Drei Parallelkurse:<!--Absatz-->
+              <veranstaltung xml:id="v-1911w-IV.C.001.B.001-001">1) <dozent
+              ref="herre_p"><grad>D. ph.</grad>
+              <nachname>Herre</nachname></dozent>, <zeit>Mi. 7¾-9¼ U.
+              Ab.</zeit>, <modus>privatissime</modus>, sed
+              <gebühr>gratis</gebühr>.</veranstaltung><!--Absatz-->
+              <veranstaltung xml:id="v-1911w-IV.C.001.B.001-002">2)
+              <dozent><grad>D. ph.</grad>
+              <nachname>Strieder</nachname></dozent>, <zeit>Di. 7¾-9¼ U.
+              Ab.</zeit>, <modus>privatissime</modus>, sed
+              <gebühr>gratis</gebühr>.</veranstaltung><!--Absatz-->
+              <veranstaltung xml:id="v-1911w-IV.C.001.B.001-003">3)
+              <dozent><grad>D. ph.</grad>
+              <nachname>Schmeidler</nachname></dozent>, <zeit>Do. 7¾-9¼ U.
+              Ab.</zeit>, <modus>privatissime</modus>, sed
+              <gebühr>gratis.</gebühr></veranstaltung></veranstaltungsgruppe>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1911w-IV.C.001.B.002">
@@ -3289,19 +3279,20 @@
             <zeit>Mo. 8-9½ U. Ab.</zeit></veranstaltung>
 
             <veranstaltungsgruppe>2) <veranstaltung gebühr="gratis"
-            modus="privatissime"><dozent ref="doren_aj"><grad>D. ph.</grad>
-            <nachname>Doren</nachname>, <funktion>P. E.</funktion></dozent>:
-            <thema>Anleitung zum Quellenstudium der Geschichte überhaupt:
-            Lektüre von Quellen zur Geschichte des deutschen Mittelalters
-            (sogenannter Vorkurs)</thema>, <zeit>So. 9½-11
-            U.</zeit></veranstaltung> <veranstaltung gebühr="gratis"
-            modus="privatissime">Mit dieser Übung sind mehrere
+            modus="privatissime" xml:id="v-1911w-IV.C.002.I-002"><dozent
+            ref="doren_aj"><grad>D. ph.</grad> <nachname>Doren</nachname>,
+            <funktion>P. E.</funktion></dozent>: <thema>Anleitung zum
+            Quellenstudium der Geschichte überhaupt: Lektüre von Quellen zur
+            Geschichte des deutschen Mittelalters (sogenannter
+            Vorkurs)</thema>, <zeit>So. 9½-11 U.</zeit></veranstaltung>
+            <veranstaltung gebühr="gratis" modus="privatissime"
+            xml:id="v-1911w-IV.C.002.I-003">Mit dieser Übung sind mehrere
             <thema>Quelleneinprägungskurse</thema> <dozent>durch besondere
             Repetenten<!--(N.N.)--></dozent>
             verbunden</veranstaltung>.</veranstaltungsgruppe>
 
             <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1911w-IV.C.002.I-003">3) <dozent
+            xml:id="v-1911w-IV.C.002.I-004">3) <dozent
             ref="koetzschke_r"><grad>D. ph.</grad>
             <nachname>Kötzschke</nachname>, <funktion>P.
             E.</funktion></dozent>: <thema>Einführung in das Studium der
@@ -3309,14 +3300,14 @@
             8-9½ U. Ab.</zeit></veranstaltung>
 
             <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1911w-IV.C.002.I-004">4) <dozent
+            xml:id="v-1911w-IV.C.002.I-005">4) <dozent
             ref="planitz_h"><grad>D. jur.</grad>
             <nachname>Planitz</nachname></dozent>: <thema>Übungen zur
             deutschen Rechtsgeschichte</thema>, <zeit>Mi. 9½-11
             U.</zeit></veranstaltung>
 
             <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1911w-IV.C.002.I-005">5) <dozent
+            xml:id="v-1911w-IV.C.002.I-006">5) <dozent
             ref="lamprecht_k"><grad>D. ph. et LL. D.</grad>
             <nachname>Lamprecht</nachname>, <funktion>P.
             O.</funktion></dozent>: <thema>Analyse deutscher Quellenstoffe für
@@ -3512,9 +3503,9 @@
           <modus>privatissime</modus>,
           <gebühr>gratis</gebühr>.</veranstaltung>
 
-          <veranstaltung><thema>Leitung wissenschaftlicher Arbeiten im Museum
-          für Völkerkunde</thema> (<ort>Königsplatz</ort>). Meldung
-          daselbst.</veranstaltung>
+          <veranstaltung xml:id="v-1911w-IV.C.004-006"><thema>Leitung
+          wissenschaftlicher Arbeiten im Museum für Völkerkunde</thema>
+          (<ort>Königsplatz</ort>). Meldung daselbst.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -3675,8 +3666,9 @@
           <titel>Collegium musicum (<ort>Universitätsstr. 13. Erdg.
           r.</ort>).</titel>
 
-          <veranstaltung><thema>Musikwissenschaftliches Seminar</thema>:
-          <dozent ref="riemann_h"><grad>D. ph. et mus.</grad>
+          <veranstaltung
+          xml:id="v-1911w-IV.D.005-001"><thema>Musikwissenschaftliches
+          Seminar</thema>: <dozent ref="riemann_h"><grad>D. ph. et mus.</grad>
           <nachname>Riemann</nachname>, <funktion>P. O.
           Hon.</funktion></dozent>: <thema>a) Paläographische Übungen
           (Entzifferung alter Notierungen).- b) Einführung in die Theorie der
@@ -3684,7 +3676,7 @@
           Vorträge und Referate der Mitglieder</thema>, <zeit>So. 10 bis 12
           U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1911w-IV.D.005-004"><thema>Historische
+          <veranstaltung xml:id="v-1911w-IV.D.005-002"><thema>Historische
           Kammermusikübungen</thema>: <dozent ref="riemann_h"><grad>D. ph. et
           mus.</grad> <nachname>Riemann</nachname>, <funktion>P. O.
           Hon.</funktion></dozent> (<dozent>unter Leitung von <grad>D.
@@ -3694,7 +3686,7 @@
           <trennlinie/>
 
           <veranstaltung
-          xml:id="v-1911w-IV.D.005-005"><thema>Musikwissenschaftliche Übungen:
+          xml:id="v-1911w-IV.D.005-003"><thema>Musikwissenschaftliche Übungen:
           Lektüre von Franz Liszt's gesammelten Schriften, Volks-Ausgabe
           (Leipzig 1910, Breitkopf u. Härtel)</thema>: <dozent
           ref="pruefer_ahb"><grad>D. jur. et ph.</grad>
@@ -3704,7 +3696,7 @@
           Auditorium des Collegium musicum (Universitätsstr. 13. Eg.
           r.)</ort>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1911w-IV.D.005-006"><thema>Übungen: Lektüre
+          <veranstaltung xml:id="v-1911w-IV.D.005-004"><thema>Übungen: Lektüre
           ausgewählter Kapitel aus Schriften über Musik der letzten 5
           Jahrhunderte</thema>: <dozent><grad>D. ph.</grad>
           <nachname>Schering</nachname></dozent>, <zeit>Mi. 11-12½ U.</zeit>,
@@ -3713,7 +3705,7 @@
 
           <trennlinie/>
 
-          <veranstaltung xml:id="v-1911w-IV.D.005-007"><thema>Praktischer
+          <veranstaltung xml:id="v-1911w-IV.D.005-005"><thema>Praktischer
           Kursus in gesanglicher Stimmbildung und den Elementen des
           Kunstgesangs</thema>: <dozent><grad>D. ph.</grad>
           <nachname>Seydel</nachname></dozent>, <zeit>Mi. 3 bis 4 U.</zeit>,
@@ -3722,17 +3714,19 @@
 
           <veranstaltungsgruppe><thema>Praktischer Kursus in rednerischer
           Stimmbildung und Vortragskunst</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Seydel</nachname></dozent>, <veranstaltung><zeit>Di. u.
-          Fr. 6-7 U.</zeit>, <modus>privatim</modus></veranstaltung>.
-          <veranstaltung>Hierzu ein <thema>Parallelkursus</thema>, <zeit>Mo.
+          <nachname>Seydel</nachname></dozent>, <veranstaltung
+          xml:id="v-1911w-IV.D.005-006"><zeit>Di. u. Fr. 6-7 U.</zeit>,
+          <modus>privatim</modus></veranstaltung>. <veranstaltung
+          xml:id="v-1911w-IV.D.005-007">Hierzu ein Parallelkursus, <zeit>Mo.
           u. Do. 5-6 U.</zeit>, <modus>privatim</modus></veranstaltung>
-          <veranstaltung>(für beide Kurse wird <zeit>zu noch zu best.
-          Zeit</zeit> je eine <modus>fakultativ</modus>e und
-          <gebühr>unentgeltlich</gebühr>e <thema>Übungsstunde</thema>
-          <dozent>durch eine studentische Hilfskraft<!--[N.N.]--></dozent>
+          <veranstaltung xml:id="v-1911w-IV.D.005-008">(für beide Kurse wird
+          <zeit>zu noch zu best. Zeit</zeit> je eine
+          <modus>fakultative</modus> und <gebühr>unentgeltliche</gebühr>
+          <thema>Übungsstunde</thema> <dozent>durch eine studentische
+          Hilfskraft<!--[N.N.]--></dozent>
           abgehalten)</veranstaltung>.</veranstaltungsgruppe>
 
-          <veranstaltung xml:id="v-1911w-IV.D.005-010"><thema>Übungen in
+          <veranstaltung xml:id="v-1911w-IV.D.005-009"><thema>Übungen in
           deutscher Rede (Vorträge, freies Sprechen und Disputation)</thema>:
           <dozent><grad>D. ph.</grad> <nachname>Seydel</nachname></dozent>,
           <zeit>Mo. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
@@ -3954,61 +3948,53 @@
           <titel>Vereinigte staatswissenschaftliche Seminare (<ort>Paulinum
           III</ort>):</titel>
 
-          <sachgruppe>
+          <sachgruppe xml:id="sg-1911w-IV.E.001.001">
             <titel>Abteilung für Nationalökonomie.</titel>
 
-            <veranstaltung xml:id="v-1911w-IV.E.001-001"><dozent
+            <veranstaltung xml:id="v-1911w-IV.E.001.001-001"><dozent
             ref="buecher_kw"><grad>D. ph. et jur.</grad>
             <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>:
             <thema kontext="sachgruppe">Kursus für Vorgeschrittene</thema>,
             <zeit>Di. 6-8 U.</zeit>, <modus>privatissime</modus> et
             <gebühr>gratis</gebühr>.</veranstaltung>
 
-            <absatz><notiz betreff="absatz"> - Außerdem in seinem Auftrage:
-            Vorbereitungskurse für Anfänger (sämtlich privatissime et
-            gratis):</notiz></absatz>
-
-            <!--(vorhergehende VA und Absatz noch in Absatz wrappen!)-->
-
-            <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1911w-IV.E.001-002">1) <dozent><grad>D. ph.</grad>
-            <nachname>Eulenburg</nachname>, <funktion>P.
-            E.</funktion></dozent>: <thema kontext="sachgruppe">Theoretische
-            Abteilung</thema>, <zeit>So. 9-11 U.</zeit></veranstaltung>
-
-            <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1911w-IV.E.001-003">2) <dozent ref="plenge_j"><grad>D.
-            ph.</grad> <nachname>Plenge</nachname>, <funktion>P.
-            E.</funktion></dozent>: <thema kontext="sachgruppe">Praktische
-            Abteilung</thema>, <zeit>Do. 7-9 U. Ab.</zeit></veranstaltung>
-
-            <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1911w-IV.E.001-004">3) <thema
+            <veranstaltungsgruppe><!--FIXME: Absatzformatierung!-->-
+            Außer<seite>42</seite>dem in seinem Auftrage:
+            <thema>Vorbereitungskurse für Anfänger</thema> (sämtlich
+            <modus>privatissime</modus> et <gebühr>gratis</gebühr>):<!--Absatz-->
+            <veranstaltung xml:id="v-1911w-IV.E.001.001-002">1)
+            <dozent><grad>D. ph.</grad> <nachname>Eulenburg</nachname>,
+            <funktion>P. E.</funktion></dozent>: <thema
+            kontext="sachgruppe">Theoretische Abteilung</thema>, <zeit>So.
+            9-11 U.</zeit></veranstaltung><!--Absatz--> <veranstaltung
+            xml:id="v-1911w-IV.E.001.001-003">2) <dozent
+            ref="plenge_j"><grad>D. ph.</grad> <nachname>Plenge</nachname>,
+            <funktion>P. E.</funktion></dozent>: <thema
+            kontext="sachgruppe">Praktische Abteilung</thema>, <zeit>Do. 7-9
+            U. Ab.</zeit></veranstaltung><!--Absatz--> <veranstaltung
+            gebühr="gratis" modus="privatissime"
+            xml:id="v-1911w-IV.E.001.001-004">3) <thema
             kontext="sachgruppe">Finanzwissenschaftliche Abteilung</thema>,
-            <zeit>Mo. 7-9 U. Ab.</zeit></veranstaltung>
-
-            <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1911w-IV.E.001-005">4) <dozent><funktion>Rechtsanwalt
-            Professor</funktion> <grad>D. jur.</grad>
-            <nachname>Wörner</nachname></dozent>:
+            <zeit>Mo. 7-9 U. Ab.</zeit></veranstaltung><!--Absatz-->
+            <veranstaltung xml:id="v-1911w-IV.E.001.001-005">4)
+            <dozent><funktion>Rechtsanwalt Professor</funktion> <grad>D.
+            jur.</grad> <nachname>Wörner</nachname></dozent>:
             <thema>Versicherungsrechtliche und versicherungstechnische
-            Übungen</thema>, <zeit>Mi. 7-9 U. Ab.</zeit></veranstaltung>
-
+            Übungen</thema>, <zeit>Mi. 7-9 U. Ab.</zeit></veranstaltung><!--Absatz-->
             <veranstaltungsgruppe>5) <dozent><grad>D. ph.</grad>
-            <nachname>Pape</nachname></dozent>: <veranstaltung gebühr="gratis"
-            modus="privatissime" xml:id="v-1911w-IV.E.001-006">a)
-            <thema>Einführung in das Verständnis der systematischen
-            Buchhaltung</thema>, <zeit>Fr. 7-9 U. Ab.</zeit></veranstaltung>;
-            <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1911w-IV.E.001-007">b) <thema>Einführung in die Technik
-            des Bankbetriebes</thema>, <zeit>Di. 8-9 U.
-            Ab.</zeit></veranstaltung></veranstaltungsgruppe>
+            <nachname>Pape</nachname></dozent>: <veranstaltung
+            xml:id="v-1911w-IV.E.001.001-006">a) <thema>Einführung in das
+            Verständnis der systematischen Buchhaltung</thema>, <zeit>Fr. 7-9
+            U. Ab.</zeit></veranstaltung>; <veranstaltung
+            xml:id="v-1911w-IV.E.001.001-007">b) <thema>Einführung in die
+            Technik des Bankbetriebes</thema>, <zeit>Di. 8-9 U.
+            Ab.</zeit></veranstaltung></veranstaltungsgruppe></veranstaltungsgruppe>
           </sachgruppe>
 
-          <sachgruppe xml:id="sg-1911w-IV.E.001.001">
+          <sachgruppe xml:id="sg-1911w-IV.E.001.002">
             <titel>Abteilung für Statistik und Verwaltungslehre.</titel>
 
-            <veranstaltung xml:id="v-1911w-IV.E.001.001-001"><dozent><grad>D.
+            <veranstaltung xml:id="v-1911w-IV.E.001.002-001"><dozent><grad>D.
             jur.</grad> <nachname>Schmid</nachname>, <funktion>P.
             O.</funktion></dozent>: <thema>Übungen</thema>, <zeit>Fr. 5-7
             U.</zeit>, <modus>privatissime</modus> et
