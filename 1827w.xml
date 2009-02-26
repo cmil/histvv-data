@@ -574,11 +574,10 @@
         <sachgruppe xml:id="sg-1827w-I.III.003.2">
           <titel>2) Psychologie.</titel>
 
-          <veranstaltung
-          xml:id="v-1827w-I.III.003.2-001"><dozent><nachname>Richter</nachname>,
-          <vorname>H. F.</vorname>, <funktion>P. E.</funktion></dozent>,
-          <thema>nach s. Sätzen</thema>, <zeit>4 U. 4
-          T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1827w-I.III.003.2-001"><dozent
+          ref="richter_hf"><nachname>Richter</nachname>, <vorname>H.
+          F.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>nach s.
+          Sätzen</thema>, <zeit>4 U. 4 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1827w-I.III.003.3">
@@ -639,9 +638,9 @@
           philos. Rechtswissenschaft oder des Naturrechts (4. Aufl.)</thema>
           <zeit>4 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1827w-I.III.003.6-003"><dozent><nachname>Richter</nachname>,
-          <vorname>H. F.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <veranstaltung xml:id="v-1827w-I.III.003.6-003"><dozent
+          ref="richter_hf"><nachname>Richter</nachname>, <vorname>H.
+          F.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>Naturrecht, n. s. Sätzen</thema>, <zeit>2 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
@@ -697,10 +696,10 @@
           <sachgruppe xml:id="sg-1827w-I.III.003.9.xx">
             <titel>**) Philosophischer Disputatoria.</titel>
 
-            <veranstaltung
-            xml:id="v-1827w-I.III.003.9.xx-001"><dozent><nachname>Richter</nachname>,
-            <vorname>H. F.</vorname>, <funktion>P. E.</funktion></dozent>,
-            <zeit>in zu best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1827w-I.III.003.9.xx-001"><dozent
+            ref="richter_hf"><nachname>Richter</nachname>, <vorname>H.
+            F.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>in zu
+            best. St.</zeit></veranstaltung>
 
             <veranstaltung
             xml:id="v-1827w-I.III.003.9.xx-002"><dozent><nachname>Schumann</nachname>,
@@ -2610,7 +2609,8 @@
 
   <trennlinie/>
 
-  <absatz>Uebrigens wird der <dozent><funktion>Stallmeister</funktion>
+  <absatz>Uebrigens wird der <dozent
+  ref="richter_gbt"><funktion>Stallmeister</funktion>
   <nachname>Richter</nachname></dozent>, der <dozent
   ref="berndt_g"><funktion>Vorfechter</funktion>
   <nachname>Berndt</nachname></dozent>, der

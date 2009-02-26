@@ -425,10 +425,10 @@
       <sachgruppe xml:id="sg-1822s-I.5.003">
         <titel>Logik.</titel>
 
-        <veranstaltung
-        xml:id="v-1822s-I.5.003-001"><dozent><nachname>Richter</nachname>,
-        <grad>M.</grad> <vorname>H. F.</vorname></dozent>, <zeit>7 U. 2
-        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1822s-I.5.003-001"><dozent
+        ref="richter_hf"><nachname>Richter</nachname>, <grad>M.</grad>
+        <vorname>H. F.</vorname></dozent>, <zeit>7 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1822s-I.5.004">
@@ -505,11 +505,10 @@
         <thema>allgemeine Moral, nebst der Gesch. derselben</thema>, <zeit>7
         U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1822s-I.5.008-003"><dozent><nachname>Richter</nachname>,
-        <grad>M.</grad> <vorname>H. F.</vorname></dozent>, <thema>nach eign.
-        Sätzen</thema>, <zeit>7 U. 4 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1822s-I.5.008-003"><dozent
+        ref="richter_hf"><nachname>Richter</nachname>, <grad>M.</grad>
+        <vorname>H. F.</vorname></dozent>, <thema>nach eign. Sätzen</thema>,
+        <zeit>7 U. 4 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1822s-I.5.009">
@@ -543,9 +542,9 @@
         <vorname>E.</vorname></dozent>, <thema>Uebungen in der prakt.
         Logik</thema>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1822s-I.5.010-004"><dozent><nachname>Richter</nachname>,
-        <grad>M.</grad> <vorname>H. F.</vorname></dozent>, <thema>philosoph.
+        <veranstaltung xml:id="v-1822s-I.5.010-004"><dozent
+        ref="richter_hf"><nachname>Richter</nachname>, <grad>M.</grad>
+        <vorname>H. F.</vorname></dozent>, <thema>philosoph.
         Disputatorium</thema>, <zeit>in zu best. St.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
@@ -1953,7 +1952,8 @@ die jeweiligen Veranstaltungs-Attribute eingetragen-->
 
   <trennlinie/>
 
-  <absatz>Uebrigens wird der <dozent><funktion>Stallmeister</funktion>
+  <absatz>Uebrigens wird der <dozent
+  ref="richter_gbt"><funktion>Stallmeister</funktion>
   <nachname>Richter</nachname></dozent>, der
   <dozent><funktion>Fechtmeister</funktion>
   <nachname>Werner</nachname></dozent>, ingleichen der

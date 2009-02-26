@@ -581,9 +581,9 @@ Veranstaltungstitel oder eine Ortsangabe?-->
           eignen Sätzen</thema>, <zeit>8 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1825w-I.III.004.4-003"><dozent><nachname>Richter</nachname>,
-          <vorname>H. F.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+          <veranstaltung xml:id="v-1825w-I.III.004.4-003"><dozent
+          ref="richter_hf"><nachname>Richter</nachname>, <vorname>H.
+          F.</vorname>, <funktion>P. E. des.</funktion></dozent>,
           <thema>Religionsphilosophie, nach s. Sätzen</thema>, <zeit>4 U.
           Mont. u. Donn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
@@ -647,10 +647,10 @@ Veranstaltungstitel oder eine Ortsangabe?-->
         <sachgruppe xml:id="sg-1825w-I.III.004.9">
           <titel>9) Rhetorik.</titel>
 
-          <veranstaltung
-          xml:id="v-1825w-I.III.004.9-001"><dozent><nachname>Richter</nachname>,
-          <vorname>H. F.</vorname>, <funktion>P. E. des.</funktion></dozent>,
-          <zeit>4 U. Dienst. u. Freit.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1825w-I.III.004.9-001"><dozent
+          ref="richter_hf"><nachname>Richter</nachname>, <vorname>H.
+          F.</vorname>, <funktion>P. E. des.</funktion></dozent>, <zeit>4 U.
+          Dienst. u. Freit.</zeit></veranstaltung>
 
           <sachgruppe xml:id="sg-1825w-I.III.004.9.x">
             <titel>*) Declamation.</titel>
@@ -2296,7 +2296,8 @@ oder ist mit Folgendem verknüpft:-->
 
   <seite>22</seite>
 
-  <absatz>Uebrigens wird der <dozent><funktion>Stallmeister</funktion>
+  <absatz>Uebrigens wird der <dozent
+  ref="richter_gbt"><funktion>Stallmeister</funktion>
   <nachname>Richter</nachname></dozent>, der
   <dozent><funktion>Fechtmeister</funktion>
   <nachname>Werner</nachname></dozent>, der

@@ -455,11 +455,10 @@
 
           <seite>5</seite>
 
-          <veranstaltung
-          xml:id="v-1828w-I.III.003.1-001"><dozent><nachname>Richter</nachname>,
-          <vorname>H. F.</vorname>, <funktion>P. E.</funktion></dozent>,
-          <thema>n. s. Sätzen</thema>, <zeit>Mont. u. Donn. 4
-          U.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1828w-I.III.003.1-001"><dozent
+          ref="richter_hf"><nachname>Richter</nachname>, <vorname>H.
+          F.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>n. s.
+          Sätzen</thema>, <zeit>Mont. u. Donn. 4 U.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1828w-I.III.003.2">
@@ -551,9 +550,9 @@
           Naturrechts (4. Aufl.)</thema>, <zeit>4 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1828w-I.III.003.8-002"><dozent><nachname>Richter</nachname>,
-          <vorname>H. F.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <veranstaltung xml:id="v-1828w-I.III.003.8-002"><dozent
+          ref="richter_hf"><nachname>Richter</nachname>, <vorname>H.
+          F.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>philosophisches Staatsrecht, n. s. Sätzen</thema>, <zeit>4 U.
           2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -2543,7 +2542,8 @@
 
   <trennlinie/>
 
-  <absatz>Uebrigens wird der <dozent><funktion>Stallmeister</funktion>
+  <absatz>Uebrigens wird der <dozent
+  ref="richter_gbt"><funktion>Stallmeister</funktion>
   <nachname>Richter</nachname></dozent>, der <dozent
   ref="berndt_g"><funktion>Vorfechter</funktion>
   <nachname>Berndt</nachname></dozent>, der

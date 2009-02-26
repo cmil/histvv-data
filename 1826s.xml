@@ -540,10 +540,10 @@
       <sachgruppe xml:id="sg-1826s-I.III.001">
         <titel>Einleitung in das Studium der Philosophie.</titel>
 
-        <veranstaltung
-        xml:id="v-1826s-I.III.001-001"><dozent><nachname>Richter</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. E. des.</funktion></dozent>,
-        <zeit>4 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1826s-I.III.001-001"><dozent
+        ref="richter_hf"><nachname>Richter</nachname>, <vorname>H.
+        F.</vorname>, <funktion>P. E. des.</funktion></dozent>, <zeit>4 U. 2
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1826s-I.III.002">
@@ -2455,7 +2455,8 @@
 
   <seite>24</seite>
 
-  <absatz>Uebrigens wird der <dozent><funktion>Stallmeister</funktion>
+  <absatz>Uebrigens wird der <dozent
+  ref="richter_gbt"><funktion>Stallmeister</funktion>
   <nachname>Richter</nachname></dozent>, der
   <dozent><funktion>Fechtmeister</funktion>
   <nachname>Werner</nachname></dozent>, der

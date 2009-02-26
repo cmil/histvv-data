@@ -511,11 +511,11 @@
 
         <seite>6</seite>
 
-        <veranstaltung
-        xml:id="v-1827s-I.III.001-002"><dozent><nachname>Richter</nachname>,
-        <vorname>H. F.</vorname>, <funktion>P. E.</funktion></dozent>,
-        <thema>Einleitung in das Studium der Philosophie</thema>, <zeit>4 U. 2
-        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1827s-I.III.001-002"><dozent
+        ref="richter_hf"><nachname>Richter</nachname>, <vorname>H.
+        F.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>Einleitung
+        in das Studium der Philosophie</thema>, <zeit>4 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1827s-I.III.001-003"><dozent
         ref="weisse_ch"><nachname>Weiße</nachname>, <grad>M.</grad>
@@ -559,11 +559,10 @@
           <thema>nach s. Sätzen</thema>, <zeit>10 U. 2
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1827s-I.III.004.1-002"><dozent><nachname>Richter</nachname>,
-          <vorname>H. F.</vorname>, <funktion>P. E.</funktion></dozent>,
-          <thema>nach s. Sätzen</thema>, <zeit>4 U. 4
-          T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1827s-I.III.004.1-002"><dozent
+          ref="richter_hf"><nachname>Richter</nachname>, <vorname>H.
+          F.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>nach s.
+          Sätzen</thema>, <zeit>4 U. 4 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1827s-I.III.004.2">
@@ -2652,7 +2651,8 @@
 
   <trennlinie/>
 
-  <absatz>Uebrigens wird der <dozent><funktion>Stallmeister</funktion>
+  <absatz>Uebrigens wird der <dozent
+  ref="richter_gbt"><funktion>Stallmeister</funktion>
   <nachname>Richter</nachname></dozent>, der
   <dozent><funktion>Tanzmeister</funktion>
   <nachname>Klemm</nachname></dozent>, und der

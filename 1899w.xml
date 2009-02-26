@@ -234,13 +234,14 @@
 
       <veranstaltung xml:id="v-1899w-I-030"><thema>Praktische Theologie: Lehre
       vom geistlichen Amt, Lehre vom Kultus. (Liturgik und Homiletik)</thema>:
-      <dozent><grad>D. th.</grad> <nachname>Rietschel</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont. bis Freit. 8-9 U.</zeit>,
+      <dozent ref="rietschel_g"><grad>D. th.</grad>
+      <nachname>Rietschel</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mont. bis Freit. 8-9 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-I-031"><thema>Die christliche
       Liebesthätigkeit, ihre Geschichte und ihre Aufgaben für die
-      Gegenwart</thema>: <dozent><grad>D. th.</grad>
+      Gegenwart</thema>: <dozent ref="rietschel_g"><grad>D. th.</grad>
       <nachname>Rietschel</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. 5-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -383,7 +384,7 @@
       aber <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-I-053"><thema>Homiletisches
-      Seminar</thema>: <dozent><grad>D. th.</grad>
+      Seminar</thema>: <dozent ref="rietschel_g"><grad>D. th.</grad>
       <nachname>Rietschel</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mittw. 11-1 U. u. Donnerst. [aller 14 Tage] ½5-6 U.</zeit>,
       <modus>privatissime</modus>, aber
@@ -396,10 +397,10 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-I-055"><thema>Katechetische Uebungen der
-      Lausitzer Predigergesellschaft</thema>: <dozent><grad>D. th.</grad>
-      <nachname>Rietschel</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mittw. (an zu best. Tagen) 3-5 U.</zeit>,
-      <modus>privatissime</modus>, aber
+      Lausitzer Predigergesellschaft</thema>: <dozent
+      ref="rietschel_g"><grad>D. th.</grad> <nachname>Rietschel</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mittw. (an zu best. Tagen)
+      3-5 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-I-056"><thema>Pädagogisches Seminar: a)
@@ -437,10 +438,10 @@
       <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
       Facultät</siehe>.</veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Sächsisches Kirchenrecht</thema>:
-      <dozent><grad>D. jur. et Lic. th.</grad> <nachname>Rieker</nachname>,
-      <funktion>P. E.</funktion></dozent> <siehe>Siehe Juristische
-      Facultät</siehe>.</veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Sächsisches Kirchenrecht</thema>: <dozent
+      ref="rieker_k"><grad>D. jur. et Lic. th.</grad>
+      <nachname>Rieker</nachname>, <funktion>P. E.</funktion></dozent>
+      <siehe>Siehe Juristische Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Aegyptische und vorderasiatische
       Kunstgeschichte</thema>: <dozent><grad>D. ph.</grad>
@@ -557,9 +558,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-II-017"><thema>Handels-, Wechsel- und
-      Seerecht</thema>: <dozent><grad>D. jur. et Lic. th.</grad>
-      <nachname>Rieker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>tägl. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Seerecht</thema>: <dozent ref="rieker_k"><grad>D. jur. et Lic.
+      th.</grad> <nachname>Rieker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>tägl. 9-10 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-II-018"><thema>Handels-, See- und
       Wechselrecht</thema>: <dozent ref="burchard_k"><grad>D. jur.</grad>
@@ -611,9 +613,10 @@
       Mittw. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-II-026"><thema>Sächsisches
-      Kirchenrecht</thema>: <dozent><grad>D. jur. et Lic. th.</grad>
-      <nachname>Rieker</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Sonnab. 10-11 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      Kirchenrecht</thema>: <dozent ref="rieker_k"><grad>D. jur. et Lic.
+      th.</grad> <nachname>Rieker</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Sonnab. 10-11 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-II-027"><thema>Civilprocessrecht
       (ordentliches Verfahren)</thema>: <dozent ref="degenkolb_kh"><grad>D.
@@ -1118,10 +1121,11 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-III-046"><thema>Praktische Uebungen in
-      Dermatologie- und Syphilislehre</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Riehl</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Dienst. u. Donnerst. 3-4 U.</zeit>, <modus>privatim</modus>,
-      <gebühr>für die Hörer der Klinik gratis</gebühr>.</veranstaltung>
+      Dermatologie- und Syphilislehre</thema>: <dozent ref="riehl_g"><grad>D.
+      med.</grad> <nachname>Riehl</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 3-4 U.</zeit>,
+      <modus>privatim</modus>, <gebühr>für die Hörer der Klinik
+      gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-III-047"><thema>Cursus der Haut- und
       Geschlechtskrankheiten mit Kranken-Demonstrationen</thema>:
@@ -1363,10 +1367,10 @@
       <zeit>tägl. 10½-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-III-085"><thema>Pathologie und Therapie
-      der Hautkrankheiten und venerischen Affectionen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Riehl</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont., Mittw. und Freit. 3-4 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      der Hautkrankheiten und venerischen Affectionen</thema>: <dozent
+      ref="riehl_g"><grad>D. med.</grad> <nachname>Riehl</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont., Mittw. und Freit. 3-4
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-III-086"><thema>Cursus der Auscultation
       und Percussion für Anfänger (in zwei Gruppen)</thema>: <dozent><grad>D.
@@ -1796,8 +1800,8 @@
         O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1899w-IV.A-009"><thema>Kant</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>R.</vorname>
+        <veranstaltung xml:id="v-1899w-IV.A-009"><thema>Kant</thema>: <dozent
+        ref="richter_r"><grad>D. ph.</grad> <vorname>R.</vorname>
         <nachname>Richter</nachname></dozent>, <zeit>Dienst. u. Freit. 12-1
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3359,9 +3363,9 @@
         Facultät</siehe>.</veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Handels-, Wechsel- und Seerecht</thema>:
-        <dozent><grad>D. jur. Lic. th.</grad> <nachname>Rieker</nachname>,
-        <funktion>P. E.</funktion></dozent> <siehe>Siehe Juristische
-        Facultät</siehe>.</veranstaltungsverweis>
+        <dozent ref="rieker_k"><grad>D. jur. Lic. th.</grad>
+        <nachname>Rieker</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Juristische Facultät</siehe>.</veranstaltungsverweis>
 
         <seite>35</seite>
 

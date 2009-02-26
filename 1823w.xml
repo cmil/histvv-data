@@ -383,11 +383,10 @@
           <grad>M.</grad> <vorname>Ch. F.</vorname></dozent>, <zeit>2 T., in
           bel. St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1823w-I.III.1.003-002"><dozent><nachname>Richter</nachname>,
-          <grad>M.</grad> <vorname>H. F.</vorname></dozent>, <thema>nach s.
-          Sätzen</thema>, <zeit>2 U. 2 T.</zeit>,
-          <gebühr>unentgeldlich</gebühr>,
+          <veranstaltung xml:id="v-1823w-I.III.1.003-002"><dozent
+          ref="richter_hf"><nachname>Richter</nachname>, <grad>M.</grad>
+          <vorname>H. F.</vorname></dozent>, <thema>nach s. Sätzen</thema>,
+          <zeit>2 U. 2 T.</zeit>, <gebühr>unentgeldlich</gebühr>,
           <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
 
@@ -618,11 +617,10 @@
         oder in andern belieb. Theilen der Philosophie</thema>, <zeit>in zu
         best. St.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1823w-I.III.4-005"><dozent><nachname>Richter</nachname>,
-        <grad>M.</grad> <vorname>H. F.</vorname></dozent>,
-        <thema>Examinirübungen über philos. Gegenstände</thema>, <zeit>in zu
-        best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1823w-I.III.4-005"><dozent
+        ref="richter_hf"><nachname>Richter</nachname>, <grad>M.</grad>
+        <vorname>H. F.</vorname></dozent>, <thema>Examinirübungen über philos.
+        Gegenstände</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
         <veranstaltung
         xml:id="v-1823w-I.III.4-006"><dozent><nachname>Theile</nachname>,
@@ -793,8 +791,9 @@
           Handbuche</thema>, <zeit>in zu best. St.</zeit>,
           <modus>privatissime</modus></veranstaltung>.</veranstaltungsgruppe>
 
-          <veranstaltungsgruppe><dozent><nachname>Ribbe</nachname>,
-          <vorname>J. C.</vorname>, <funktion>P. titul. u. Lehrer der
+          <veranstaltungsgruppe><dozent
+          ref="ribbe_jc"><nachname>Ribbe</nachname>, <vorname>J. C.</vorname>,
+          <funktion>P. titul. u. Lehrer der
           Veterinärkunde</funktion></dozent>, <veranstaltung
           xml:id="v-1823w-I.V.2.001-003"><thema>über die Regeln zur
           Gesunderhaltung der Haus- und Nutzthiere</thema></veranstaltung>,
@@ -1423,11 +1422,11 @@
             beide Theile <thema>nach
             <gesperrt>Feuerbach</gesperrt></thema>.</veranstaltungsgruppe>
 
-            <veranstaltung
-            xml:id="v-1823w-II.B.II.A.5-004"><dozent><nachname>Richter</nachname>,
-            <vorname>L. G.</vorname>, <funktion>I. V. B.</funktion></dozent>,
-            <thema>über den allgemeinen oder philosophischen Theil</thema>,
-            <zeit>4 T. in noch zu best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1823w-II.B.II.A.5-004"><dozent
+            ref="richter_lg"><nachname>Richter</nachname>, <vorname>L.
+            G.</vorname>, <funktion>I. V. B.</funktion></dozent>, <thema>über
+            den allgemeinen oder philosophischen Theil</thema>, <zeit>4 T. in
+            noch zu best. St.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1823w-II.B.II.A.6">
@@ -1608,11 +1607,10 @@
             <sachgruppe xml:id="sg-1823w-II.B.II.C.1.002">
               <titel>Ueber die Institutionen.</titel>
 
-              <veranstaltung
-              xml:id="v-1823w-II.B.II.C.1.002-001"><dozent><nachname>Richter</nachname>,
-              <vorname>L. G.</vorname>, <funktion>I. V.
-              B.</funktion></dozent>, <zeit>zu belieb.
-              Z.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1823w-II.B.II.C.1.002-001"><dozent
+              ref="richter_lg"><nachname>Richter</nachname>, <vorname>L.
+              G.</vorname>, <funktion>I. V. B.</funktion></dozent>, <zeit>zu
+              belieb. Z.</zeit></veranstaltung>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1823w-II.B.II.C.1.003">
@@ -2208,7 +2206,8 @@
 
   <trennlinie/>
 
-  <absatz>Uebrigens wird der <dozent><funktion>Stallmeister</funktion>
+  <absatz>Uebrigens wird der <dozent
+  ref="richter_gbt"><funktion>Stallmeister</funktion>
   <nachname>Richter</nachname></dozent>, der
   <dozent><funktion>Fechtmeister</funktion>
   <nachname>Werner</nachname></dozent>, der

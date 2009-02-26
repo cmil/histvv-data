@@ -129,7 +129,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913s-I-007"><thema>Einleitung in das Neue
-      Testament</thema>: <dozent><grad>D. th.</grad>
+      Testament</thema>: <dozent ref="rendtorff_f"><grad>D. th.</grad>
       <nachname>Rendtorff</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mo. bis Fr. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -271,7 +271,7 @@
 
       <veranstaltung xml:id="v-1913s-I-031"><thema>Praktische Theologie <notiz
       betreff="fortsetzung">I.</notiz> (Prinzipienlehre, Liturgik,
-      Homiletik)</thema>: <dozent><grad>D. th.</grad>
+      Homiletik)</thema>: <dozent ref="rendtorff_f"><grad>D. th.</grad>
       <nachname>Rendtorff</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mo. bis Fr. 8-9 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -419,7 +419,7 @@
 
       <veranstaltungsgruppe><thema>Seminar für praktische Theologie</thema>
       (<ort>Universitätsstr. 1. III.</ort>), <thema>homiletisch-liturgische
-      Abteilung</thema>: <dozent><grad>D. th.</grad>
+      Abteilung</thema>: <dozent ref="rendtorff_f"><grad>D. th.</grad>
       <nachname>Rendtorff</nachname>, <funktion>P. O.</funktion></dozent>:
       <veranstaltung xml:id="v-1913s-I-052">1) <thema>Liturgisch-historische
       Übungen (liturgische Texte der griechischen und römischen
@@ -1427,8 +1427,8 @@
 
         <veranstaltungsgruppe><thema>Kursus der Perkussion und Auskultation
         für Geübtere (in Gruppen<!--(Gruppen hier ganz dogmatisch als Einzel-VAs, s. auch oben; noch besprechen und vergleichen)-->)</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Rolly</nachname>, <funktion>P.
-        E.</funktion></dozent>, <veranstaltung
+        <dozent ref="rolly_f"><grad>D. med.</grad> <nachname>Rolly</nachname>,
+        <funktion>P. E.</funktion></dozent>, <veranstaltung
         xml:id="v-1913s-III.006-005"><thema>Gruppe 1</thema>: <zeit>Do. 8-10
         U.</zeit></veranstaltung>, <veranstaltung
         xml:id="v-1913s-III.006-006"><thema>Gruppe 2</thema>: <zeit>Do. 10-12
@@ -1439,7 +1439,7 @@
 
         <veranstaltung xml:id="v-1913s-III.006-008"><thema>Klinische
         Propädeutik (enzyklopädische Einführung in die Medizinische
-        Klinik)</thema>: <dozent><grad>D. med.</grad>
+        Klinik)</thema>: <dozent ref="rolly_f"><grad>D. med.</grad>
         <nachname>Rolly</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Di., Mi. u. So. 7-8 U. vorm.</zeit>, <modus>privatim</modus>,
         <ort>in der Medizin. Klinik, Liebigstr. 22</ort>.</veranstaltung>
@@ -1900,14 +1900,14 @@
         Liebigstr. 20</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.012-003"><thema>Diagnose und
-        Therapie der praktisch wichtigen Hautkrankheiten</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Riecke</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Do. 11-12 U.</zeit>,
+        Therapie der praktisch wichtigen Hautkrankheiten</thema>: <dozent
+        ref="riecke_e"><grad>D. med.</grad> <nachname>Riecke</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Do. 11-12 U.</zeit>,
         <modus>privatim</modus>, <ort>in der Wohnung, Kurprinzstr. 6.
         II.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.012-004"><thema>Zeugungsfähigkeit
-        beim Manne</thema>: <dozent><grad>D. med.</grad>
+        beim Manne</thema>: <dozent ref="riecke_e"><grad>D. med.</grad>
         <nachname>Riecke</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mo. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>im
         Chirurg.-poliklin. Institut, Nürnberger Str. 55.
@@ -2291,11 +2291,11 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1913s-III.018-014"><thema>Einführung in die
-        innere Medizin für Studierende der Zahnheilkunde</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Rolly</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Di. u. Fr. 12 bis 1 U.</zeit>,
-        <modus>privatim</modus>, <ort>in der Medizinischen Klinik, Liebigstr.
-        22</ort>.</veranstaltung>
+        innere Medizin für Studierende der Zahnheilkunde</thema>: <dozent
+        ref="rolly_f"><grad>D. med.</grad> <nachname>Rolly</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Di. u. Fr. 12 bis 1
+        U.</zeit>, <modus>privatim</modus>, <ort>in der Medizinischen Klinik,
+        Liebigstr. 22</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.018-015"><thema>Systematische
         Anatomie des Menschen für Studierende der Zahnheilkunde</thema>:
@@ -5028,9 +5028,10 @@
         10</ort>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Gesteinskunde. Übersicht des
-        Gesamtgebietes. Mit Übungen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Rinne</nachname>, <funktion>P. O.</funktion></dozent>,
-        <veranstaltung xml:id="v-1913s-IV.G-035"><zeit>Mo. u. Mi. 10-12
+        Gesamtgebietes. Mit Übungen</thema>: <dozent ref="rinne_f"><grad>D.
+        ph.</grad> <nachname>Rinne</nachname>, <funktion>P.
+        O.</funktion></dozent>, <veranstaltung
+        xml:id="v-1913s-IV.G-035"><zeit>Mo. u. Mi. 10-12
         U.</zeit></veranstaltung>, <veranstaltung
         xml:id="v-1913s-IV.G-036"><thema>Übungen</thema> <zeit>Do. 10-11
         U.</zeit></veranstaltung>, <modus>privatim</modus>, <ort>im Institut
@@ -5060,10 +5061,11 @@
         <seite>52</seite>
 
         <veranstaltung xml:id="v-1913s-IV.G-040"><thema>Kohle und Erdöl. (Für
-        Hörer aller Fakultäten)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Rinne</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>So. 12-1 U.</zeit>, <modus>publice</modus>, <ort>im Institut für
-        Mineralogie und Petrographie, Talstr. 35</ort>.</veranstaltung>
+        Hörer aller Fakultäten)</thema>: <dozent ref="rinne_f"><grad>D.
+        ph.</grad> <nachname>Rinne</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>So. 12-1 U.</zeit>,
+        <modus>publice</modus>, <ort>im Institut für Mineralogie und
+        Petrographie, Talstr. 35</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-041"><thema>Paläontologie der
         Fische, Amphibien und Reptilien</thema>: <dozent
@@ -5460,19 +5462,20 @@
         Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-084"><thema>Mineralogisches
-        Praktikum für Anfänger</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Rinne</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>So. 9-11 U.</zeit>, <modus>privatim</modus>, <ort>im Institut
-        für Mineralogie u. Petrographie, Talstr. 35</ort>.</veranstaltung>
+        Praktikum für Anfänger</thema>: <dozent ref="rinne_f"><grad>D.
+        ph.</grad> <nachname>Rinne</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>So. 9-11 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Institut für Mineralogie u.
+        Petrographie, Talstr. 35</ort>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1913s-IV.G-085"><thema>Mineralogisch-petrographisches
         Praktikum für Vorgeschrittenere (Eingehendes Studium mineralogischer
         und petrographischer Methoden; anschließend Anleitung zu
-        mineralogischen oder petrographischen Untersuchungen)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Rinne</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>tägl. zu beliebigen Stunden 8-6
-        U.</zeit>, <modus>privatissime</modus>, <ort>im Institut für
+        mineralogischen oder petrographischen Untersuchungen)</thema>: <dozent
+        ref="rinne_f"><grad>D. ph.</grad> <nachname>Rinne</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>tägl. zu beliebigen Stunden
+        8-6 U.</zeit>, <modus>privatissime</modus>, <ort>im Institut für
         Mineralogie und Petrographie, Talstr. 35</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-086"><thema>Petrographisches

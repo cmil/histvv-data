@@ -424,10 +424,10 @@
         <sachgruppe xml:id="sg-1824w-I.III.003.1">
           <titel>1) Fundamentalphilosophie.</titel>
 
-          <veranstaltung
-          xml:id="v-1824w-I.III.003.1-001"><dozent><nachname>Richter</nachname>,
-          <grad>M.</grad> <vorname>H. F.</vorname></dozent>, <thema>nach
-          seinen Sätzen</thema>, <zeit>4 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1824w-I.III.003.1-001"><dozent
+          ref="richter_hf"><nachname>Richter</nachname>, <grad>M.</grad>
+          <vorname>H. F.</vorname></dozent>, <thema>nach seinen
+          Sätzen</thema>, <zeit>4 U. 2 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1824w-I.III.003.2">
@@ -2154,7 +2154,8 @@
 
   <trennlinie/>
 
-  <absatz>Uebrigens wird der <dozent><funktion>Stallmeister</funktion>
+  <absatz>Uebrigens wird der <dozent
+  ref="richter_gbt"><funktion>Stallmeister</funktion>
   <nachname>Richter</nachname></dozent>, der
   <dozent><funktion>Fechtmeister</funktion>
   <nachname>Werner</nachname></dozent>, der
