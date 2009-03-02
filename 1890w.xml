@@ -590,8 +590,8 @@
       Facultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Kritische Geschichte der politischen und
-      socialen Theorien</thema>: <dozent><grad>D. ph., jur. et oecon.
-      publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
+      socialen Theorien</thema>: <dozent ref="roscher_w"><grad>D. ph., jur. et
+      oecon. publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
       O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       E.</siehe></veranstaltungsverweis>
 
@@ -1142,9 +1142,10 @@
       <veranstaltung xml:id="v-1890w-III-081"><thema>Cursus der Auscultation
       und Percussion für Anfänger (im Auftrage des Directors der medicinischen
       Klinik)</thema>: <dozent ref="his_w_jr"><grad>D. med.</grad>
-      <nachname>His</nachname></dozent> und <dozent><grad>D. med.</grad>
-      <nachname>Romberg</nachname></dozent>, <zeit>Mont., Donnerst. u. Freit.
-      8-9 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <nachname>His</nachname></dozent> und <dozent ref="romberg_e"><grad>D.
+      med.</grad> <nachname>Romberg</nachname></dozent>, <zeit>Mont.,
+      Donnerst. u. Freit. 8-9 U. Vorm.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <!--muss der Director in der veranstaltung auch getaggt werden?-->
 
@@ -2487,17 +2488,17 @@ hab sie aber erst mal dringelassen.-->
 
         <veranstaltung xml:id="v-1890w-IV.E-002"><thema>Kritische Geschichte
         der politischen und socialen Theorien, als Vorschule jeder praktischen
-        Politik</thema>: <dozent><grad>D. ph., jur. &amp; oecon. publ.</grad>
-        <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Dienst. u. Sonnab. 3-4 U.</zeit>,
+        Politik</thema>: <dozent ref="roscher_w"><grad>D. ph., jur. &amp;
+        oecon. publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont., Dienst. u. Sonnab. 3-4 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.E-003"><thema>Besprechung
-        volkswirthschaftlicher Arbeiten</thema>: <dozent><grad>D. ph., jur.
-        &amp; oecon. publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>in näher zu best. Stunden</zeit>,
-        <modus>privatissime</modus>, aber
-        <gebühr>gratis</gebühr>.</veranstaltung>
+        volkswirthschaftlicher Arbeiten</thema>: <dozent
+        ref="roscher_w"><grad>D. ph., jur. &amp; oecon. publ.</grad>
+        <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>in näher zu best. Stunden</zeit>, <modus>privatissime</modus>,
+        aber <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.E-004"><thema>Specielle oder
         praktische Nationalökonomik, mit besonderer Berücksichtigung der
@@ -2714,7 +2715,7 @@ handelt sich evtl. um Präsenzeiten des Dozenten.-->
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Einleitung in die
-        Agriculturchemie</thema>: <dozent><grad>D. ph.</grad>
+        Agriculturchemie</thema>: <dozent ref="sachsse_r"><grad>D. ph.</grad>
         <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
 
@@ -2739,16 +2740,16 @@ handelt sich evtl. um Präsenzeiten des Dozenten.-->
         <titel>F. Mathematik und Astronomie.</titel>
 
         <veranstaltung xml:id="v-1890w-IV.F-001"><thema>Theorie der bestimmten
-        Integrale</thema>: <dozent><grad>D. ph.</grad>
+        Integrale</thema>: <dozent ref="scheibner_w"><grad>D. ph.</grad>
         <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Dienst., Mittw. u. Donnerst. 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.F-002"><thema>Ueber
-        hypergeometrische Reihen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Freit. 11-12 U., und Sonnab. 10-11 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        hypergeometrische Reihen</thema>: <dozent ref="scheibner_w"><grad>D.
+        ph.</grad> <nachname>Scheibner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Freit. 11-12 U., und Sonnab. 10-11
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.F-003"><thema>Elektrodynamik (auf
         Grund des Ampère'schen Gesetzes)</thema>: <dozent
@@ -2896,7 +2897,7 @@ handelt sich evtl. um Präsenzeiten des Dozenten.-->
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.G-013"><thema>Einleitung in die
-        Agriculturchemie</thema>: <dozent><grad>D. ph.</grad>
+        Agriculturchemie</thema>: <dozent ref="sachsse_r"><grad>D. ph.</grad>
         <nachname>Sachsse</nachname> <funktion>P. E.</funktion></dozent>,
         <zeit>Mont. u. Sonnab. 9-10 U., Mittw. 8-9 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2931,10 +2932,11 @@ handelt sich evtl. um Präsenzeiten des Dozenten.-->
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1890w-IV.G-019"><thema>Phytopalaeontologie</thema>:
-        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Schenk</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>an zwei zu bestimmenden
-        Tagen u. Stunden</zeit>, <modus>publice</modus>.</veranstaltung>
+        xml:id="v-1890w-IV.G-019"><thema>Phytopalaeontologie</thema>: <dozent
+        ref="schenk_a"><grad>D. ph. &amp; med.</grad>
+        <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>an zwei zu bestimmenden Tagen u. Stunden</zeit>,
+        <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1890w-IV.G-020"><thema>Experimentalphysiologie der

@@ -1606,15 +1606,15 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
       <sachgruppe xml:id="sg-1838s-II.B.003">
         <titel>Rechtsgeschichte.</titel>
 
-        <veranstaltung
-        xml:id="v-1838s-II.B.003-001"><dozent><nachname>Schilling</nachname>,
-        <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P. O.</funktion>,
-        d. Z. <funktion>Dechant</funktion></dozent>, <thema>äußere Geschichte
-        des römischen Rechts</thema>, <zeit>3 U. 4 T.</zeit>
+        <veranstaltung xml:id="v-1838s-II.B.003-001"><dozent
+        ref="schilling_fa"><nachname>Schilling</nachname>, <grad>D.</grad>
+        <vorname>F. A.</vorname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Dechant</funktion></dozent>, <thema>äußere Geschichte des
+        römischen Rechts</thema>, <zeit>3 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
-        Institutionen</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><ders ref="schilling_fa">Derselbe</ders>,
+        <siehe>s. Institutionen</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1838s-II.B.003-002"><dozent
         ref="puchta_g"><nachname>Puchta</nachname>, <grad>D.</grad>
@@ -1665,8 +1665,8 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
             <sachgruppe xml:id="sg-1838s-II.B.II.I.1.001">
               <titel>Institutionen.</titel>
 
-              <veranstaltung
-              xml:id="v-1838s-II.B.II.I.1.001-001"><dozent><nachname>Schilling</nachname>,
+              <veranstaltung xml:id="v-1838s-II.B.II.I.1.001-001"><dozent
+              ref="schilling_fa"><nachname>Schilling</nachname>,
               <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P.
               O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
               <thema>Institutionen in Verbiundung mit der innern Geschichte
@@ -1715,8 +1715,8 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
               <gesperrt>Mühlenbruch's</gesperrt> Lehrb. der Pandekten</thema>,
               <zeit>8 U. u. 11 U. 6 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1838s-II.B.II.I.1.002-002"><dozent><nachname>Schilling</nachname>,
+              <veranstaltung xml:id="v-1838s-II.B.II.I.1.002-002"><dozent
+              ref="schilling_b"><nachname>Schilling</nachname>,
               <grad>D.</grad> <vorname>B.</vorname>, <funktion>P.
               E.</funktion></dozent>, <thema>Pandekten nach eignen Sätzen und
               mit der Berücksichtigung von <gesperrt>Mühlenbruch's</gesperrt>
@@ -1812,8 +1812,8 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
               und Protestanten, insbesondere nach deutscher und sächsischer
               Gestaltung</thema>, <zeit>11 U. 6 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1838s-II.B.II.I.001.1-002"><dozent><nachname>Schilling</nachname>,
+              <veranstaltung xml:id="v-1838s-II.B.II.I.001.1-002"><dozent
+              ref="schilling_b"><nachname>Schilling</nachname>,
               <grad>D.</grad> <vorname>B.</vorname>, <funktion>P.
               E.</funktion></dozent>, <thema>das gemeine in Deutschland
               geltende Kirchenrecht, nach s. Sätzen</thema>, <zeit>7 U. 4
@@ -2030,18 +2030,17 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
           <sachgruppe xml:id="sg-1838s-II.B.II.III.1">
             <titel>1) Examinir-Uebungen.</titel>
 
-            <veranstaltung
-            xml:id="v-1838s-II.B.II.III.1-001"><dozent><nachname>Schilling</nachname>,
-            <grad>D.</grad> <vorname>B.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>über ausgewählte Theile des
-            Lehnrechts, in lateinischer Sprache</thema>, <zeit>1 U. 2
-            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1838s-II.B.II.III.1-001"><dozent
+            ref="schilling_b"><nachname>Schilling</nachname>, <grad>D.</grad>
+            <vorname>B.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>über ausgewählte Theile des Lehnrechts, in lateinischer
+            Sprache</thema>, <zeit>1 U. 2 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1838s-II.B.II.III.1-002"><ders>Derselbe</ders>,
-            <thema>über die gesammte theoretische Rechtswissenschaft</thema>,
-            <zeit>in den best. St.</zeit>
-            <modus>privatissime</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1838s-II.B.II.III.1-002"><ders
+            ref="schilling_b">Derselbe</ders>, <thema>über die gesammte
+            theoretische Rechtswissenschaft</thema>, <zeit>in den best.
+            St.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung xml:id="v-1838s-II.B.II.III.1-003"><dozent
             ref="berger_a"><nachname>Berger</nachname>, <grad>D.</grad>

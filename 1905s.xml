@@ -1772,11 +1772,11 @@
 
       <veranstaltung xml:id="v-1905s-III-109"><thema>Klinische Vorlesung über
       Augenheilkunde (Sonnab. Demonstrationen aus der normalen und
-      pathologischen Anatomie des Auges)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Sattler</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>tägl. (ausser Donnerst.) 12-1 U.</zeit>, <modus>privatim</modus>,
-      <ort>in der Heilanstalt für Augenkrauke, Liebigstr.
-      14</ort>.</veranstaltung>
+      pathologischen Anatomie des Auges)</thema>: <dozent
+      ref="sattler_h"><grad>D. med.</grad> <nachname>Sattler</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>tägl. (ausser Donnerst.) 12-1
+      U.</zeit>, <modus>privatim</modus>, <ort>in der Heilanstalt für
+      Augenkrauke, Liebigstr. 14</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-110"><thema>Propädeutische
       Augenklinik</thema>: <dozent ref="krieckmann_e"><grad>D. med.</grad>
@@ -3252,15 +3252,15 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.C-015"><thema>Französische
-        Geschichte</thema>: <dozent><grad>D. ph.</grad>
+        Geschichte</thema>: <dozent ref="salomon_f"><grad>D. ph.</grad>
         <nachname>Salomon</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. u. Freit. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.C-016"><thema>Überblick über die
-        politische und kulturelle Entwicklung Russlands</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Salomon</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mittw. 3-4 U.</zeit>,
+        politische und kulturelle Entwicklung Russlands</thema>: <dozent
+        ref="salomon_f"><grad>D. ph.</grad> <nachname>Salomon</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.C-017"><thema>Einführung in das
@@ -3344,7 +3344,7 @@
         <siehe>Siehe Abschnitt D.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geschichte der italienischen Plastik im
-        15. Jahrhundert</thema>: <dozent><grad>D. ph.</grad>
+        15. Jahrhundert</thema>: <dozent ref="schmarsow_a"><grad>D. ph.</grad>
         <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Abschnitt D.</siehe></veranstaltungsverweis>
 
@@ -3527,7 +3527,7 @@
             <veranstaltung xml:id="v-1905s-IV.C.001.B-010"><thema>Übungen auf
             dem Gebiete der französischen Geschichte (die Idee der absoluten
             Monarchie in ihrer Entwicklung vom 16. bis 18.
-            Jahrhundert)</thema>: <dozent><grad>D. ph.</grad>
+            Jahrhundert)</thema>: <dozent ref="salomon_f"><grad>D. ph.</grad>
             <nachname>Salomon</nachname>, <funktion>P. E.</funktion></dozent>,
             <zeit>Freit. ½8-½9 U.</zeit>, <modus>privatissime</modus>, aber
             <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3535,8 +3535,9 @@
             <seite>36</seite>
 
             <veranstaltungsverweis><thema>Kunsthistorisches Seminar</thema>:
-            <dozent><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
-            <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
+            <dozent ref="schmarsow_a"><grad>D. ph.</grad>
+            <nachname>Schmarsow</nachname>, <funktion>P.
+            O.</funktion></dozent> <siehe>Siehe Abschnitt
             D.</siehe></veranstaltungsverweis>
 
             <veranstaltungsgruppe><veranstaltungsverweis><thema>Archäologisches
@@ -3688,15 +3689,16 @@
 
         <veranstaltung xml:id="v-1905s-IV.D-005"><thema>Kupferstich und
         Holzschnitt in Deutschland (in seminaristischer Behandlung)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 11-12
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="schmarsow_a"><grad>D. ph.</grad>
+        <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont. u. Donnerst. 11-12 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.D-006"><thema>Geschichte der
-        italienischen Plastik im 15. Jahrhundert</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Schmarsow</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. u. Freit. 11-12 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        italienischen Plastik im 15. Jahrhundert</thema>: <dozent
+        ref="schmarsow_a"><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. u. Freit. 11-12
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -3765,13 +3767,13 @@
           <titel>Kunsthistorisches Seminar (Albertinum I.).</titel>
 
           <veranstaltungsgruppe><veranstaltung
-          xml:id="v-1905s-IV.D.004-001">1. <dozent><grad>D. ph.</grad>
-          <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>:
-          <thema>Förderung des Kunstsinnes bei unserer Jugend, praktische
-          Übungen und Demonstrationen (besonders für angehende
-          Lehrer)</thema>, <zeit>zweistünd., nach Verabredung</zeit>,
-          <modus>publice</modus></veranstaltung>. <veranstaltung
-          xml:id="v-1905s-IV.D.004-002">2.
+          xml:id="v-1905s-IV.D.004-001">1. <dozent ref="schmarsow_a"><grad>D.
+          ph.</grad> <nachname>Schmarsow</nachname>, <funktion>P.
+          O.</funktion></dozent>: <thema>Förderung des Kunstsinnes bei unserer
+          Jugend, praktische Übungen und Demonstrationen (besonders für
+          angehende Lehrer)</thema>, <zeit>zweistünd., nach
+          Verabredung</zeit>, <modus>publice</modus></veranstaltung>.
+          <veranstaltung xml:id="v-1905s-IV.D.004-002">2.
           <dozent><funktion>Assistent</funktion> <grad>D. ph.</grad>
           <nachname>Pinder</nachname></dozent>: <thema>Untersuchungen zur
           Bildnismalerei des 18. Jahrhunderts (Graff, Tischbein u. s.
@@ -4169,9 +4171,9 @@
         Geschichte</thema>.</veranstaltungsverweis> -
         <veranstaltungsverweis><thema>Überblick über die politische und
         kulturelle Entwicklung Russlands</thema></veranstaltungsverweis>:
-        <dozent><grad>D. ph.</grad> <nachname>Salomon</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Abschnitt
-        C.</siehe></veranstaltungsgruppe>
+        <dozent ref="salomon_f"><grad>D. ph.</grad>
+        <nachname>Salomon</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Abschnitt C.</siehe></veranstaltungsgruppe>
 
         <seite>42</seite>
 
@@ -4310,9 +4312,9 @@
 
         <veranstaltungsverweis><thema>Übungen auf dem Gebiete der
         französischen Geschichte (die Idee der absoluten Monarchie in ihrer
-        Entwicklung vom 16.-18. Jahrhundert</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Salomon</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Abschnitt
+        Entwicklung vom 16.-18. Jahrhundert</thema>: <dozent
+        ref="salomon_f"><grad>D. ph.</grad> <nachname>Salomon</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
         C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Übungen zur Geschichte der Gründung des
@@ -4676,10 +4678,10 @@
         18</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.G-026"><thema>Elektrolyse
-        organischer Verbindungen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schall</nachname></dozent>, <zeit>Mittw. u. Freit. 9-10
-        U.</zeit>, <modus>privatim</modus>, <ort>im Physikalisch-chemischen
-        Institut, Linnéstr. 2</ort>.</veranstaltung>
+        organischer Verbindungen</thema>: <dozent ref="schall_c"><grad>D.
+        ph.</grad> <nachname>Schall</nachname></dozent>, <zeit>Mittw. u.
+        Freit. 9-10 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.G-027"><thema>Chemie der organischen
         Farbstoffe</thema>: <dozent ref="heller_g"><grad>D. ph.</grad>

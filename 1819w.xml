@@ -80,8 +80,8 @@
         <sachgruppe xml:id="sg-1819w-I.A.1.b">
           <titel>b) Syrische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1819w-I.A.1.b-001"><dozent><nachname>Rosenmüller</nachname>,
+          <veranstaltung xml:id="v-1819w-I.A.1.b-001"><dozent
+          ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>Dr.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
           O.</funktion></dozent></veranstaltung>
 
@@ -95,8 +95,8 @@
         <sachgruppe xml:id="sg-1819w-I.A.1.c">
           <titel>c) Arabische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1819w-I.A.1.c-001"><dozent><nachname>Rosenmüller</nachname>,
+          <veranstaltung xml:id="v-1819w-I.A.1.c-001"><dozent
+          ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>Dr.</grad> <vorname>E. F. K.</vorname></dozent>, <thema>nach
           s. Institutt. ad. fundam. ling. arab. (Lips. ap. Barth. 1817.
           4.)</thema> <modus>öffentlich</modus>.</veranstaltung>
@@ -140,10 +140,10 @@
             <thema>über die Reden pro M. Marcello, Q. Ligaria und
             Deiotaro</thema>, <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1819w-I.A.2.a.bb-002"><dozent><nachname>Rost</nachname>,
-            <vorname>F. W. E.</vorname>, <funktion>P. E.</funktion></dozent>,
-            <thema>über des Plautus Aulularia</thema>,
+            <veranstaltung xml:id="v-1819w-I.A.2.a.bb-002"><dozent
+            ref="rost_fwe"><nachname>Rost</nachname>, <vorname>F. W.
+            E.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>über des
+            Plautus Aulularia</thema>,
             <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung xml:id="v-1819w-I.A.2.a.bb-003"><dozent
@@ -183,10 +183,9 @@
         <sachgruppe xml:id="sg-1819w-I.A.2.d">
           <titel>d) Uebungen im Latein. Schreiben und Sprechen.</titel>
 
-          <veranstaltung
-          xml:id="v-1819w-I.A.2.d-001"><dozent><nachname>Rost</nachname>,
-          <vorname>F. W. E.</vorname>, <funktion>P.
-          E.</funktion></dozent></veranstaltung>
+          <veranstaltung xml:id="v-1819w-I.A.2.d-001"><dozent
+          ref="rost_fwe"><nachname>Rost</nachname>, <vorname>F. W.
+          E.</vorname>, <funktion>P. E.</funktion></dozent></veranstaltung>
 
           <veranstaltung
           xml:id="v-1819w-I.A.2.d-002"><dozent><nachname>Rose</nachname>,
@@ -777,8 +776,8 @@
         <sachgruppe xml:id="sg-1819w-I.B.VI.4">
           <titel>4) Alterthumswissenschaft.</titel>
 
-          <veranstaltung
-          xml:id="v-1819w-I.B.VI.4-001"><dozent><nachname>Rosenmüller</nachname>,
+          <veranstaltung xml:id="v-1819w-I.B.VI.4-001"><dozent
+          ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>Dr.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
           O.</funktion></dozent>, <thema>über die heil. Alterthümer d.
           Hebräer, <notiz betreff="fortsetzung">Forts. u. Beschl.</notiz>,
@@ -944,8 +943,8 @@
             <sachgruppe xml:id="sg-1819w-II.A.I.1.d.bb">
               <titel>bb) Bi<seite>2253</seite>blische Archäologie.</titel>
 
-              <veranstaltung
-              xml:id="v-1819w-II.A.I.1.d.bb-001"><dozent><nachname>Rosenmüller</nachname>,
+              <veranstaltung xml:id="v-1819w-II.A.I.1.d.bb-001"><dozent
+              ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
               <grad>Dr.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
               O.</funktion></dozent>, <thema>über die heil. Alterthümer der
               Hebräer, <notiz betreff="fortsetzung">Forts. und Beschl.</notiz>
@@ -1653,12 +1652,10 @@
             <vorname>C. E.</vorname>, <funktion>J. U.
             B.</funktion></dozent>,</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1819w-II.B.II.x.c-006"><dozent><nachname>Schilling</nachname></dozent>,</veranstaltung>
-
-            <veranstaltung
-            xml:id="v-1819w-II.B.II.x.c-007"><dozent><nachname>Bruno</nachname>,
-            <funktion>J. U. B.</funktion></dozent></veranstaltung>
+            <veranstaltung xml:id="v-1819w-II.B.II.x.c-006"><dozent
+            ref="schilling_b"><nachname>Schilling</nachname>,
+            <vorname>Bruno</vorname>, <grad>J. U.
+            B.</grad></dozent></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1819w-II.B.II.x.d">
@@ -1744,7 +1741,8 @@
           <sachgruppe xml:id="sg-1819w-II.C.I.1.a">
             <titel>a) Anatomie.</titel>
 
-            <veranstaltungsgruppe><dozent><nachname>Rosenmüller</nachname>,
+            <veranstaltungsgruppe><dozent
+            ref="rosenmueller_jc"><nachname>Rosenmüller</nachname>,
             <grad>Dr.</grad> <vorname>J. C.</vorname>, <funktion>P.
             O.</funktion> u. d. Z. <funktion>Decan</funktion></dozent>,
             <veranstaltung

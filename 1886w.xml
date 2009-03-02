@@ -78,10 +78,10 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886w-1-004"><thema>Hebräische
-      Grammatik</thema>: <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
-      <nachname>Ryssel</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Grammatik</thema>: <dozent ref="ryssel_v"><grad>Lic.</grad> <grad>D.
+      ph.</grad> <nachname>Ryssel</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886w-1-005"><thema>Erklärung der
       Genesis</thema>: <dozent ref="baur_g"><grad>D. th. &amp; ph.</grad>
@@ -114,7 +114,7 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886w-1-010"><thema>Das hohe Lied</thema>:
-      <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
+      <dozent ref="ryssel_v"><grad>Lic.</grad> <grad>D. ph.</grad>
       <nachname>Ryssel</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mittw. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -297,9 +297,10 @@
 
       <veranstaltung xml:id="v-1886w-1-037"><thema>Grammatische Uebungen in
       hebräischer Formenlehre, im Anschluss an die Vorlesung über hebräische
-      Grammatik</thema>: <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
-      <nachname>Ryssel</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mittw. 11-12 U.</zeit>, <modus>privatissime</modus>, aber
+      Grammatik</thema>: <dozent ref="ryssel_v"><grad>Lic.</grad> <grad>D.
+      ph.</grad> <nachname>Ryssel</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mittw. 11-12 U.</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung
@@ -2342,23 +2343,24 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1886w-IV.E-002"><thema>Gesammte praktische
-        Nationalökonomik und Wirthschaftspolizei</thema>: <dozent><grad>D.
-        ph., jur. &amp; oecon. publ.</grad> <nachname>Roscher</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont.,
-        Dienst<korrektur>.</korrektur>, Donnerst. u. Freit. 8-9 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Nationalökonomik und Wirthschaftspolizei</thema>: <dozent
+        ref="roscher_w"><grad>D. ph., jur. &amp; oecon. publ.</grad>
+        <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst<korrektur>.</korrektur>, Donnerst. u. Freit. 8-9
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1886w-IV.E-003"><thema>Hauptlehren der
-        landwirthschaftlichen Politik und Statistik</thema>: <dozent><grad>D.
-        ph., jur. &amp; oecon. publ.</grad> <nachname>Roscher</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. 3-4 U. und
-        vielleicht noch in einer zweiten, zu verabredenden Stunde</zeit>,
-        <modus>für die Hörer der praktischen Nationalökonomie publice</modus>,
-        sonst <modus>privatim</modus>.</veranstaltung>
+        landwirthschaftlichen Politik und Statistik</thema>: <dozent
+        ref="roscher_w"><grad>D. ph., jur. &amp; oecon. publ.</grad>
+        <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Donnerst. 3-4 U. und vielleicht noch in einer zweiten, zu
+        verabredenden Stunde</zeit>, <modus>für die Hörer der praktischen
+        Nationalökonomie publice</modus>, sonst
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1886w-IV.E-004"><thema>Finanzwissenschaft</thema>:
-        <dozent><grad>D. ph., jur. &amp; oecon. publ.</grad>
+        xml:id="v-1886w-IV.E-004"><thema>Finanzwissenschaft</thema>: <dozent
+        ref="roscher_w"><grad>D. ph., jur. &amp; oecon. publ.</grad>
         <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. 8-9 U., Freit. u. Sonnab. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2504,7 +2506,7 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Einleitung in die
-        Agriculturchemie</thema>: <dozent><grad>D. ph.</grad>
+        Agriculturchemie</thema>: <dozent ref="sachsse_r"><grad>D. ph.</grad>
         <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
 
@@ -2525,9 +2527,9 @@
         <titel>F. Mathematik und Astronomie.</titel>
 
         <veranstaltung xml:id="v-1886w-IV.F-001"><thema>Differential- und
-        Integralrechnung</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Dienst. bis Sonnab. 9-10 U.</zeit>,
+        Integralrechnung</thema>: <dozent ref="scheibner_w"><grad>D.
+        ph.</grad> <nachname>Scheibner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Dienst. bis Sonnab. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1886w-IV.F-002"><thema>Allgemeine
@@ -2592,9 +2594,10 @@
 
         <veranstaltung xml:id="v-1886w-IV.F-011"><thema>Repetitorische
         Uebungen zur Vorlesung über Differential- und
-        Integralrechnung</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Sonnab. 10-11 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+        Integralrechnung</thema>: <dozent ref="scheibner_w"><grad>D.
+        ph.</grad> <nachname>Scheibner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Sonnab. 10-11 U.</zeit>,
+        <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1886w-IV.F-012"><thema>Astronomisches Seminar
         und praktische Uebungen</thema>: <dozent ref="bruns_eh"><grad>D.
@@ -2718,7 +2721,7 @@
         10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1886w-IV.G-013"><thema>Einleitung in die
-        Agriculturchemie</thema>: <dozent><grad>D. ph.</grad>
+        Agriculturchemie</thema>: <dozent ref="sachsse_r"><grad>D. ph.</grad>
         <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont. u. Dienst. 9-10 U. u. Sonnab. 8-9 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2749,9 +2752,9 @@
 
         <veranstaltung
         xml:id="v-1886w-IV.G-018"><thema>Experimentalphysiologie der
-        Pflanzen</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Mittw. u. Freit. 5-6 U.</zeit>,
+        Pflanzen</thema>: <dozent ref="schenk_a"><grad>D. ph. &amp;
+        med.</grad> <nachname>Schenk</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1886w-IV.G-019"><thema>Morphologie und
@@ -2899,9 +2902,10 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1886w-IV.G-041"><thema>Botanisches
-        Laboratorium</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>täglich 9-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Laboratorium</thema>: <dozent ref="schenk_a"><grad>D. ph. &amp;
+        med.</grad> <nachname>Schenk</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>täglich 9-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1886w-IV.G-042"><thema>Botanisches
         Colloquium</thema>: <dozent ref="fischer_alfred"><grad>D. ph.</grad>

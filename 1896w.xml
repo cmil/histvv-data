@@ -1074,9 +1074,10 @@ Allerdings: auch Platzmangel im Org. beachten)-->.</veranstaltung>
       <seite>13</seite>
 
       <veranstaltung xml:id="v-1896w-III-043"><thema>Ueber specielle Therapie
-      innerer Krankheiten</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Romberg</nachname>, <funktion>P. E. des.</funktion></dozent>,
-      <zeit> Donnerst. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      innerer Krankheiten</thema>: <dozent ref="romberg_e"><grad>D.
+      med.</grad> <nachname>Romberg</nachname>, <funktion>P. E.
+      des.</funktion></dozent>, <zeit> Donnerst. 5-6 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1896w-III-044"><thema>Cursus der
       Elektrodiagnostik und Elektrotherapie mit Demonstrationen und
@@ -1243,10 +1244,10 @@ beiden einzelnen Zeitangaben gemeinsamen Teil, der dann
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1896w-III-069"><thema>Funktionsprüfungen des
-      Auges mit praktischen Uebungen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Sattler</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mittw. 6-7 U. und Sonnab. 12 bis 1 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Auges mit praktischen Uebungen</thema>: <dozent ref="sattler_h"><grad>D.
+      med.</grad> <nachname>Sattler</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mittw. 6-7 U. und Sonnab. 12 bis 1
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1896w-III-070"><thema>Funktionsprüfung des
       Auges</thema>: <dozent><grad>D. med.</grad>
@@ -1407,10 +1408,10 @@ ist hinsichtlich der folgenden VA unwahrscheinlich)--></veranstaltung>
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1896w-III-095"><thema>Cursus der Percussion und
-      Auscultation für Anfänger</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Romberg</nachname>, <funktion>P. E. des.</funktion></dozent>,
-      <zeit>Mont., Donnerst. u. Freit. 8-9 U. Vorm.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Auscultation für Anfänger</thema>: <dozent ref="romberg_e"><grad>D.
+      med.</grad> <nachname>Romberg</nachname>, <funktion>P. E.
+      des.</funktion></dozent>, <zeit>Mont., Donnerst. u. Freit. 8-9 U.
+      Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1896w-III-096"><thema>Cursus der Percussion und
       Auscultation für Geübtere</thema>: <dozent ref="his_w_jr"><grad>D.
@@ -1460,7 +1461,7 @@ ist hinsichtlich der folgenden VA unwahrscheinlich)--></veranstaltung>
       Poliklinik</thema>: Wird später angekündigt werden.<!--(Kein Absatz, vollgültige VA)--></veranstaltung>
 
       <veranstaltung xml:id="v-1896w-III-104"><thema>Klinischer Unterricht in
-      der Augenheilkunde</thema>: <dozent><grad>D. med.</grad>
+      der Augenheilkunde</thema>: <dozent ref="sattler_h"><grad>D. med.</grad>
       <nachname>Sattler</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich (ausser Sonnab.) 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -2657,9 +2658,9 @@ ist hinsichtlich der folgenden VA unwahrscheinlich)--></veranstaltung>
 
         <veranstaltung xml:id="v-1896w-IV.C-013"><thema>Vergleichende
         Französisch - Englische Verfassungegeschichte im Mittelalter</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Salomon</nachname></dozent>,
-        <zeit>Mittw. u. Sonnab. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="salomon_f"><grad>D. ph.</grad>
+        <nachname>Salomon</nachname></dozent>, <zeit>Mittw. u. Sonnab. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1896w-IV.C-014"><thema>Einführung in das
         politische und sociale Verständniss der Gegenwart an der Hand der
@@ -2829,7 +2830,8 @@ ist hinsichtlich der folgenden VA unwahrscheinlich)--></veranstaltung>
             Abschnitt E.</siehe></veranstaltungsverweis>
 
             <veranstaltungsverweis><thema>Kunstgeschichtliche Uebungen
-            (Kunsthistorisches Seminar)</thema>: <dozent><grad>D. ph.</grad>
+            (Kunsthistorisches Seminar)</thema>: <dozent
+            ref="schmarsow_a"><grad>D. ph.</grad>
             <nachname>Schmarsow</nachname>, <funktion>P.
             O.</funktion></dozent> u. <dozent
             ref="brockhaus_heinrich"><grad>D. ph.</grad>
@@ -2999,23 +3001,24 @@ ist hinsichtlich der folgenden VA unwahrscheinlich)--></veranstaltung>
         <trennlinie/>
 
         <veranstaltung xml:id="v-1896w-IV.D-007"><thema>Die Kunst im Zeitalter
-        Dantes, in seminarisitscher Behandlung</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Schmarsow</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Sonnab. 9-11 U.</zeit>,
+        Dantes, in seminarisitscher Behandlung</thema>: <dozent
+        ref="schmarsow_a"><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. 9-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1896w-IV.D-008"><thema>Kunst- und Kunstkritik
-        des 19. Jahrhunderts</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
+        des 19. Jahrhunderts</thema>: <dozent ref="schmarsow_a"><grad>D.
+        ph.</grad> <nachname>Schmarsow</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <seite>31</seite>
 
         <veranstaltung xml:id="v-1896w-IV.D-009"><thema>Deutsche Meister des
-        19. Jahrhunderts</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mittw. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+        19. Jahrhunderts</thema>: <dozent ref="schmarsow_a"><grad>D.
+        ph.</grad> <nachname>Schmarsow</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
+        <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1896w-IV.D-010"><thema>Geschichte der
         Baukunst des 19. Jahrhunderts</thema>: <dozent
@@ -3104,8 +3107,8 @@ ist hinsichtlich der folgenden VA unwahrscheinlich)--></veranstaltung>
         <veranstaltungsgruppe><thema>Kunstgeschichtliches Seminar</thema>:
         <veranstaltung xml:id="v-1896w-IV.D-023">1) (für die ordentlichen
         Mitglieder): <thema>Uebungen über die Kunst im Zeitalter Dantes (im
-        Zusammenhang mit der Vorlesung über denselben Stoff)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
+        Zusammenhang mit der Vorlesung über denselben Stoff)</thema>: <dozent
+        ref="schmarsow_a"><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. 9-11
         U.</zeit></veranstaltung> - <veranstaltung
         xml:id="v-1896w-IV.D-024">2) <thema>Kunstgeschichtliche
@@ -3349,9 +3352,9 @@ weil "ordentliche Mitglieder" ohnehin Seminarbeitragbeitrag zahlen.
         C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Vergleichende Französisch - Englische
-        Verfassungsgeschichte im Mittelalter</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Salomon</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe Abschnitt
+        Verfassungsgeschichte im Mittelalter</thema>: <dozent
+        ref="salomon_f"><grad>D. ph.</grad> <nachname>Salomon</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
         C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Handels-, Wechsel- und Seerecht</thema>:
@@ -3492,13 +3495,13 @@ weil "ordentliche Mitglieder" ohnehin Seminarbeitragbeitrag zahlen.
         <titel>F. Mathematik und Astronomie.</titel>
 
         <veranstaltung xml:id="v-1896w-IV.F-001"><thema>Theorie der ganzen
-        Functionen</thema>: <dozent><grad>D. ph.</grad>
+        Functionen</thema>: <dozent ref="scheibner_w"><grad>D. ph.</grad>
         <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Dienst. bis Freit. 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1896w-IV.F-002"><thema>Ueber höhere
-        Arithmetik</thema>: <dozent><grad>D. ph.</grad>
+        Arithmetik</thema>: <dozent ref="scheibner_w"><grad>D. ph.</grad>
         <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont. u. Sonnab. 11-12 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>

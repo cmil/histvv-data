@@ -80,10 +80,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1888s-I-003"><thema>Biblische Theologie des
-      Alten Testaments</thema>: <dozent><grad>D. ph.</grad> <grad>Lic.</grad>
-      <nachname>Ryssel</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont., Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Alten Testaments</thema>: <dozent ref="ryssel_v"><grad>D. ph.</grad>
+      <grad>Lic.</grad> <nachname>Ryssel</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 12-1
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1888s-I-004"><thema>Erklärung der
       Genesis</thema>: <dozent ref="baur_g"><grad>D. ph. &amp; th.</grad>
@@ -646,8 +646,8 @@
       Facultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Theoretische Nationalökonomik, sowie
-      Finanzwissenschaft</thema>: <dozent><grad>D. ph., jur. &amp; oecon.
-      publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
+      Finanzwissenschaft</thema>: <dozent ref="roscher_w"><grad>D. ph., jur.
+      &amp; oecon. publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
       O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       E.</siehe></veranstaltungsverweis>
 
@@ -2433,14 +2433,14 @@
 
         <veranstaltung xml:id="v-1888s-IV.E-002"><thema>Gesammte theoretische
         Nationalökonomik (einschliesslich der Lehre vom Bankwesen)</thema>:
-        <dozent><grad>D. ph., jur. &amp; oecon. publ.</grad>
+        <dozent ref="roscher_w"><grad>D. ph., jur. &amp; oecon. publ.</grad>
         <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont. bis Freit. 7-8 U. früh</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1888s-IV.E-003"><thema>Finanzwissenschaft</thema>:
-        <dozent><grad>D. ph., jur. &amp; oecon. publ.</grad>
+        xml:id="v-1888s-IV.E-003"><thema>Finanzwissenschaft</thema>: <dozent
+        ref="roscher_w"><grad>D. ph., jur. &amp; oecon. publ.</grad>
         <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst. u. Donnerst. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2561,10 +2561,10 @@
         <nachname>Schmidt</nachname></dozent>. <siehe>Siehe Juristische
         Facultät.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Bodenkunde</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Sachsse</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
-        G.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Bodenkunde</thema>: <dozent
+        ref="sachsse_r"><grad>D. ph.</grad> <nachname>Sachsse</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische
+        Facultät G.</siehe></veranstaltungsverweis>
 
         <!--(Hier kein Trennstrich zu erkennen)-->
 
@@ -2614,10 +2614,10 @@
         <titel>F. Mathematik und Astronomie.</titel>
 
         <veranstaltung xml:id="v-1888s-IV.F-001"><thema>Einleitung in die
-        Theorie der elliptischen Functionen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Scheibner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. bis Freit. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Theorie der elliptischen Functionen</thema>: <dozent
+        ref="scheibner_w"><grad>D. ph.</grad> <nachname>Scheibner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Freit. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1888s-IV.F-002"><thema>Einleitung in die
         synthetische Geometrie der Kegelschnitte (für Anfänger)</thema>:
@@ -2780,8 +2780,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1888s-IV.G-010"><thema>Bodenkunde</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Sachsse</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont. u. Sonnab. 9-10 U.</zeit>,
+        <dozent ref="sachsse_r"><grad>D. ph.</grad>
+        <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. u. Sonnab. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1888s-IV.G-011"><thema>Technische Chemie oder
@@ -2851,10 +2852,10 @@
 
         <veranstaltung
         xml:id="v-1888s-IV.G-021"><thema>Entwickelungsgeschichte der Pflanze,
-        mit Demonstrationen</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>zweimal wöchentlich, an zu best. Tagen u. Stunden</zeit>,
-        <modus>privatissime</modus>, aber
+        mit Demonstrationen</thema>: <dozent ref="schenk_a"><grad>D. ph. &amp;
+        med.</grad> <nachname>Schenk</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>zweimal wöchentlich, an zu best. Tagen
+        u. Stunden</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <seite>30</seite>

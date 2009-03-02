@@ -1497,10 +1497,10 @@ Gruppen abgehalten werden kann; vgl. "oder")--></veranstaltung>
       7-8 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900s-III-090"><thema>Cursus der Auscultation
-      und Percussion für Geübtere, (in mehreren Gruppen)</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Romberg</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 5-7 U., Nachm. ev. Mont.
-      u. Freit. ½7-½9 U. Vorm.</zeit><!--(sinnvoll bei Lesart: Nachmittags ev. Mont. und Freit. ... Vorm.))-->,
+      und Percussion für Geübtere, (in mehreren Gruppen)</thema>: <dozent
+      ref="romberg_e"><grad>D. med.</grad> <nachname>Romberg</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 5-7 U.,
+      Nachm. ev. Mont. u. Freit. ½7-½9 U. Vorm.</zeit><!--(sinnvoll bei Lesart: Nachmittags ev. Mont. und Freit. ... Vorm.))-->,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900s-III-091"><thema>Cursus der
@@ -1561,7 +1561,7 @@ Gruppen abgehalten werden kann; vgl. "oder")--></veranstaltung>
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900s-III-100"><thema>Klinischer Unterricht in
-      der Augenheilkunde</thema>: <dozent><grad>D. med.</grad>
+      der Augenheilkunde</thema>: <dozent ref="sattler_h"><grad>D. med.</grad>
       <nachname>Sattler</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit> tägl. (ausser Sonnab. u. Sonnt.<!--(so selbstverständlich war das demnach gar nicht, dass der Sonntag frei ist)-->)
       12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -2923,9 +2923,9 @@ in den Kontext eingebunden werden)-->
 
         <veranstaltung xml:id="v-1900s-IV.C-014"><thema>Vergleichende
         Geschichte der Kolonialpolitik der europäischen Staaten</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Salomon</nachname></dozent>,
-        <zeit>Dienst. u. Freit. 10 bis 11 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="salomon_f"><grad>D. ph.</grad>
+        <nachname>Salomon</nachname></dozent>, <zeit>Dienst. u. Freit. 10 bis
+        11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900s-IV.C-015"><thema>Sächsische
         Geschichte</thema>: <dozent ref="koetzschke_r"><grad>D. ph.</grad>
@@ -3068,7 +3068,8 @@ in den Kontext eingebunden werden)-->
             <gebühr>gratis</gebühr>.</veranstaltung>
 
             <veranstaltungsverweis><thema>Kunstgeschichtliche Uebungen
-            (Kunsthistorisches Seminar)</thema>: <dozent><grad>D. ph.</grad>
+            (Kunsthistorisches Seminar)</thema>: <dozent
+            ref="schmarsow_a"><grad>D. ph.</grad>
             <nachname>Schmarsow</nachname>, <funktion>P.
             O.</funktion></dozent> <siehe>Siehe Abschnitt
             D.</siehe></veranstaltungsverweis>
@@ -3111,7 +3112,7 @@ in den Kontext eingebunden werden)-->
 
         <veranstaltung xml:id="v-1900s-IV.C-026"><thema>Uebungen zur
         englischen Wirthschaftsgeschichte, vornehmlich im 18.
-        Jahrhundert</thema>: <dozent><grad>D. ph.</grad>
+        Jahrhundert</thema>: <dozent ref="salomon_f"><grad>D. ph.</grad>
         <nachname>Salomon</nachname></dozent>, <zeit>Mittw. 7-½9 U.</zeit>,
         <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3253,8 +3254,8 @@ in den Kontext eingebunden werden)-->
         <trennlinie/>
 
         <veranstaltung xml:id="v-1900s-IV.D-006"><thema>Geschichte der
-        italienischen Plastik von Donatello bis Bernini</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
+        italienischen Plastik von Donatello bis Bernini</thema>: <dozent
+        ref="schmarsow_a"><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 11-12
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3264,7 +3265,7 @@ in den Kontext eingebunden werden)-->
         Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900s-IV.D-008"><thema>Rubens und
-        Rembrandt</thema>: <dozent><grad>D. ph.</grad>
+        Rembrandt</thema>: <dozent ref="schmarsow_a"><grad>D. ph.</grad>
         <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -3331,7 +3332,7 @@ in den Kontext eingebunden werden)-->
           <titel>Kunsthistorisches Seminar.</titel>
 
           <veranstaltung xml:id="v-1900s-IV.D.002-001"><thema>Kritische
-          Uebungen</thema>: <dozent><grad>D. ph.</grad>
+          Uebungen</thema>: <dozent ref="schmarsow_a"><grad>D. ph.</grad>
           <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Dienst. u. Freit. 8-10 U. Vorm.</zeit>,
           <modus>publice</modus>.</veranstaltung>
@@ -3617,9 +3618,10 @@ in den Kontext eingebunden werden)-->
         C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Vergleichende Geschichte der
-        Kolonialpolitik der europäischen Staaten</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Salomon</nachname></dozent>. <siehe>Siehe
-        Abschnitt C.</siehe></veranstaltungsverweis>
+        Kolonialpolitik der europäischen Staaten</thema>: <dozent
+        ref="salomon_f"><grad>D. ph.</grad>
+        <nachname>Salomon</nachname></dozent>. <siehe>Siehe Abschnitt
+        C.</siehe></veranstaltungsverweis>
 
         <trennlinie/>
 
@@ -3722,8 +3724,9 @@ in den Kontext eingebunden werden)-->
 
         <veranstaltungsverweis><thema>Uebungen zur
         engli<korrektur>s</korrektur>chen Wirthschaftsgeschichte</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Salomon</nachname></dozent>.
-        <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
+        <dozent ref="salomon_f"><grad>D. ph.</grad>
+        <nachname>Salomon</nachname></dozent>. <siehe>Siehe Abschnitt
+        C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Uebungen zur deutschen Agrargeschichte
         (<ort>im Histor.-geograph. Institut</ort>)</thema>: <dozent

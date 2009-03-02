@@ -57,8 +57,8 @@
         <sachgruppe xml:id="sg-1830s-I.I.1.001">
           <titel>Sanskrita-Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1830s-I.I.1.001-001"><dozent><nachname>Rosenmüller</nachname>,
+          <veranstaltung xml:id="v-1830s-I.I.1.001-001"><dozent
+          ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
           O.</funktion></dozent> <thema kontext="sachgruppe"><schrift>nach
           seinen Dictaten</schrift></thema>, <zeit>11 U. 2
@@ -92,8 +92,8 @@
         <sachgruppe xml:id="sg-1830s-I.I.1.004">
           <titel>Arabische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1830s-I.I.1.004-001"><dozent><nachname>Rosenmüller</nachname>,
+          <veranstaltung xml:id="v-1830s-I.I.1.004-001"><dozent
+          ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
           O.</funktion></dozent>, <thema kontext="sachgruppe"><schrift>nach s.
           <titel>Institt. ad fundam. ling. Arab.</titel> (Lpz.
@@ -155,10 +155,10 @@
             <titel>Eklogen</titel></schrift></thema>, <zeit>3 U. Dienst. u.
             Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1830s-I.I.2.a.002-002"><dozent><nachname>Rost</nachname>,
-            <vorname>F. W. E.</vorname>, <funktion>P. E.</funktion></dozent>,
-            <thema>über des <schrift><autor>Plautus</autor>
+            <veranstaltung xml:id="v-1830s-I.I.2.a.002-002"><dozent
+            ref="rost_fwe"><nachname>Rost</nachname>, <vorname>F. W.
+            E.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>über des
+            <schrift><autor>Plautus</autor>
             <titel>Curculio</titel></schrift></thema>, <zeit>4 U. Dienst. u.
             Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1142,8 +1142,8 @@
             <modus>öffentlich</modus>, <siehe>s. bibl.
             Theologie</siehe>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1830s-II.A.I.1.003-002"><dozent><nachname>Rosenmüller</nachname>,
+            <veranstaltung xml:id="v-1830s-II.A.I.1.003-002"><dozent
+            ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
             <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
             O.</funktion></dozent>, <thema>über die wichtigsten Abschnitte der
             <schrift>Genesis</schrift></thema>, <zeit>1 U. 4 T.</zeit>
@@ -1614,15 +1614,14 @@
       <sachgruppe xml:id="sg-1830s-II.B.002">
         <titel>Rechtsgeschichte.</titel>
 
-        <veranstaltung
-        xml:id="v-1830s-II.B.002-001"><dozent><nachname>Schilling</nachname>,
-        <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P. O.
-        des.</funktion></dozent>, <thema>äußere Geschichte des röm.
-        Rechts</thema>, <zeit>3 U. 4 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1830s-II.B.002-001"><dozent
+        ref="schilling_fa"><nachname>Schilling</nachname>, <grad>D.</grad>
+        <vorname>F. A.</vorname>, <funktion>P. O. des.</funktion></dozent>,
+        <thema>äußere Geschichte des röm. Rechts</thema>, <zeit>3 U. 4
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
-        Institutionen</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><ders ref="schilling_fa">Derselbe</ders>,
+        <siehe>s. Institutionen</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><dozent
         ref="otto_ke"><nachname>Otto</nachname>, <grad>D.</grad> <vorname>K.
@@ -1727,8 +1726,8 @@
               U<korrektur>.</korrektur> 6 T.</zeit>
               <modus>öffentlich</modus>.</veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1830s-II.B.II.I.1.002-002"><dozent><nachname>Schilling</nachname>,
+              <veranstaltung xml:id="v-1830s-II.B.II.I.1.002-002"><dozent
+              ref="schilling_fa"><nachname>Schilling</nachname>,
               <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P. O.
               des.</funktion></dozent>, <thema>nebst der innern Geschichte des
               röm. Rechts, nach <schrift><autor>Mackeldey</autor>'s Lehrb. d.
@@ -1907,8 +1906,8 @@
                 Hülfsmittel</thema>, <zeit>2 U. 4 T.</zeit>
                 <modus>öffentlich</modus>.</veranstaltung>
 
-                <veranstaltung
-                xml:id="v-1830s-II.B.II.I.3.001.1-003"><dozent><nachname>Schilling</nachname>,
+                <veranstaltung xml:id="v-1830s-II.B.II.I.3.001.1-003"><dozent
+                ref="schilling_b"><nachname>Schilling</nachname>,
                 <grad>D.</grad> <vorname>B.</vorname>, <funktion>P.
                 E.</funktion></dozent>, <thema>das gemeine in Deutschland
                 geltende Kirchenrecht, <schrift>nach s.
@@ -2185,17 +2184,17 @@
             Pandekten</thema>, <zeit>6 T. in den best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1830s-II.B.II.III.1-002"><dozent><nachname>Schilling</nachname>,
-            <grad>D.</grad> <vorname>B.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>über ausgewählte Materien des röm.
-            Rechts, in lateinischer Spr.</thema>, <zeit>2 U. 2 T.</zeit>
+            <veranstaltung xml:id="v-1830s-II.B.II.III.1-002"><dozent
+            ref="schilling_b"><nachname>Schilling</nachname>, <grad>D.</grad>
+            <vorname>B.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>über ausgewählte Materien des röm. Rechts, in lateinischer
+            Spr.</thema>, <zeit>2 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1830s-II.B.II.III.1-003"><ders>Derselbe</ders>,
-            <thema>über die übrigen Theile der Rechtswissenschaft</thema>,
-            <zeit>in den best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1830s-II.B.II.III.1-003"><ders
+            ref="schilling_b">Derselbe</ders>, <thema>über die übrigen Theile
+            der Rechtswissenschaft</thema>, <zeit>in den best.
+            St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1830s-II.B.II.III.1-004"><dozent
             ref="rueffer_c"><nachname>Rüffer</nachname>, <grad>D.</grad>

@@ -109,10 +109,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1887w-I-009"><thema>Erklärung der
-      Psalmen</thema>: <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
-      <nachname>Ryssel</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Psalmen</thema>: <dozent ref="ryssel_v"><grad>Lic.</grad> <grad>D.
+      ph.</grad> <nachname>Ryssel</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1887w-I-010"><thema>Synopse der vier
       Evangelien</thema>: <dozent ref="luthardt_e"><grad>D. th. &amp;
@@ -251,8 +251,8 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1887w-I-030"><thema>Hebräische Uebungen
-      (Cursorische Lectüre der Bücher Josua und Richter)</thema>:
-      <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
+      (Cursorische Lectüre der Bücher Josua und Richter)</thema>: <dozent
+      ref="ryssel_v"><grad>Lic.</grad> <grad>D. ph.</grad>
       <nachname>Ryssel</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont. u. Donnerst. 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -600,7 +600,7 @@ modifiziert werden)--></veranstaltung>
       Facultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Praktische Nationalökonomik</thema>:
-      <dozent><grad>D. ph., jur. et oecon. publ.</grad>
+      <dozent ref="roscher_w"><grad>D. ph., jur. et oecon. publ.</grad>
       <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe Philosophische Facultät E.</siehe></veranstaltungsverweis>
 
@@ -2340,22 +2340,24 @@ Zeitangabe nicht hinreichend ausdrückbar ist)--></veranstaltungsgruppe>
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1887w-IV.E-002"><thema>Gesammte praktische
-        Nationalökonomik und Wirthschaftspolizei</thema>: <dozent><grad>D.
-        ph., jur. &amp; oecon. publ.</grad> <nachname>Roscher</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
-        u. Freit. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Nationalökonomik und Wirthschaftspolizei</thema>: <dozent
+        ref="roscher_w"><grad>D. ph., jur. &amp; oecon. publ.</grad>
+        <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1887w-IV.E-003"><thema>Hauptlehren der
-        landwirthschaftlichen Politik und Statistik</thema>: <dozent><grad>D.
-        ph., jur. &amp; oecon. publ.</grad> <nachname>Roscher</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. 3-4 U. und
-        vielleicht noch in einer zweiten zu verabredenden Stunde</zeit>,
-        <modus>für die Hörer der praktischen Nationalökonomie publice</modus>,
-        sonst <modus>privatim</modus>.</veranstaltung>
+        landwirthschaftlichen Politik und Statistik</thema>: <dozent
+        ref="roscher_w"><grad>D. ph., jur. &amp; oecon. publ.</grad>
+        <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Donnerst. 3-4 U. und vielleicht noch in einer zweiten zu
+        verabredenden Stunde</zeit>, <modus>für die Hörer der praktischen
+        Nationalökonomie publice</modus>, sonst
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1887w-IV.E-004"><thema>Finanzwissenschaft</thema>:
-        <dozent><grad>D. ph., jur. &amp; oecon. publ.</grad>
+        xml:id="v-1887w-IV.E-004"><thema>Finanzwissenschaft</thema>: <dozent
+        ref="roscher_w"><grad>D. ph., jur. &amp; oecon. publ.</grad>
         <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. 8-9 U., Freit. u. Sonnab. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2506,7 +2508,7 @@ Zeitangabe nicht hinreichend ausdrückbar ist)--></veranstaltungsgruppe>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Einleitung in die
-        Agriculturchemie</thema>: <dozent><grad>D. ph.</grad>
+        Agriculturchemie</thema>: <dozent ref="sachsse_r"><grad>D. ph.</grad>
         <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
 
@@ -2528,10 +2530,10 @@ Zeitangabe nicht hinreichend ausdrückbar ist)--></veranstaltungsgruppe>
         <titel>F. Mathematik und Astronomie.</titel>
 
         <veranstaltung xml:id="v-1887w-IV.F-001"><thema>Ueber die
-        Eigenschaften der ganzen Zahlen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Dienst. bis Freit. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Eigenschaften der ganzen Zahlen</thema>: <dozent
+        ref="scheibner_w"><grad>D. ph.</grad> <nachname>Scheibner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Freit. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1887w-IV.F-002"><thema>Analytische
         Mechanik</thema>: <dozent ref="neumann_cg"><grad>D. ph.</grad>
@@ -2605,7 +2607,7 @@ Zeitangabe nicht hinreichend ausdrückbar ist)--></veranstaltungsgruppe>
 
         <veranstaltung xml:id="v-1887w-IV.F-013"><thema>Repetitorische
         Uebungen zur Vorlesung über die Eigenschaften der ganzen
-        Zahlen</thema>: <dozent><grad>D. ph.</grad>
+        Zahlen</thema>: <dozent ref="scheibner_w"><grad>D. ph.</grad>
         <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Sonnab. 9-11 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -2736,7 +2738,7 @@ Zeitangabe nicht hinreichend ausdrückbar ist)--></veranstaltungsgruppe>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1887w-IV.G-013"><thema>Einleitung in die
-        Agriculturchemie</thema>: <dozent><grad>D. ph.</grad>
+        Agriculturchemie</thema>: <dozent ref="sachsse_r"><grad>D. ph.</grad>
         <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont. u. Dienst. 9-10 U. u. Sonnab. 8-9 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2766,10 +2768,11 @@ Zeitangabe nicht hinreichend ausdrückbar ist)--></veranstaltungsgruppe>
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1887w-IV.G-018"><thema>Phytopaläontologie</thema>:
-        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Schenk</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>zweimal wöchentlich in zu
-        best. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
+        xml:id="v-1887w-IV.G-018"><thema>Phytopaläontologie</thema>: <dozent
+        ref="schenk_a"><grad>D. ph. &amp; med.</grad>
+        <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>zweimal wöchentlich in zu best. Stunden</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1887w-IV.G-019"><thema>Pflanzenphysiologie</thema>: <dozent
@@ -2937,10 +2940,10 @@ Zeitangabe nicht hinreichend ausdrückbar ist)--></veranstaltungsgruppe>
         <seite>31</seite>
 
         <veranstaltung xml:id="v-1887w-IV.G-042"><thema>Botanische
-        Besprechungen</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>an noch zu best. Tagen u. Stunden</zeit>,
-        <modus>privatissime</modus>, aber
+        Besprechungen</thema>: <dozent ref="schenk_a"><grad>D. ph. &amp;
+        med.</grad> <nachname>Schenk</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>an noch zu best. Tagen u.
+        Stunden</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1887w-IV.G-043"><thema>Botanisches

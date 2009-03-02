@@ -653,9 +653,9 @@
       philosophische Facultät p. 15</siehe>.</veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Gesammte theoret.
-      Nationalökonomik</thema>: <dozent><grad>D. ph. et jur.</grad>
-      <nachname>Roscher</nachname> <funktion>Doctrinn. polit. et cam. P.
-      O.</funktion></dozent> <siehe>Siehe philosophische Facultät p.
+      Nationalökonomik</thema>: <dozent ref="roscher_w"><grad>D. ph. et
+      jur.</grad> <nachname>Roscher</nachname> <funktion>Doctrinn. polit. et
+      cam. P. O.</funktion></dozent> <siehe>Siehe philosophische Facultät p.
       23</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Gerichtliche Medicin für Juristen</thema>:
@@ -2186,14 +2186,15 @@
 
         <veranstaltung xml:id="v-1875s-IV.E-002"><thema>Geschichte der
         politischen und socialen Theorien, als Vorschule jeder praktischen
-        Politik</thema>: <dozent><grad>D. ph. &amp; jur.</grad>
-        <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Dienst. u. Donnerst. 3-4 U.</zeit>
-        <modus>publice</modus>.</veranstaltung>
+        Politik</thema>: <dozent ref="roscher_w"><grad>D. ph. &amp;
+        jur.</grad> <nachname>Roscher</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst. 3-4
+        U.</zeit> <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.E-003"><thema>Gesammte theoretische
-        Nationalökonomik</thema>: <ders>Derselbe</ders>, <zeit>Mont. bis
-        Freit. 8-9 U.</zeit> <modus>privatim</modus>.</veranstaltung>
+        Nationalökonomik</thema>: <ders ref="roscher_w">Derselbe</ders>,
+        <zeit>Mont. bis Freit. 8-9 U.</zeit>
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.E-004"><thema>Neuere Geschichte und
         Literatur der Landwirthschaft</thema>: <dozent
@@ -2275,9 +2276,10 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1875s-IV.E-016"><thema>Uebungen der
-        cameralistischen Gesellschaft</thema>: <dozent><grad>D. ph. &amp;
-        jur.</grad> <nachname>Roscher</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>an einem zu verabredenden Abend</zeit>,
+        cameralistischen Gesellschaft</thema>: <dozent
+        ref="roscher_w"><grad>D. ph. &amp; jur.</grad>
+        <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>an einem zu verabredenden Abend</zeit>,
         <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -2317,14 +2319,14 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.F-004"><thema>Ueber die
-        Eigenschaften der ganzen Zahlen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. bis Freit. 9-10 U.</zeit>
-        <modus>privatim</modus>.</veranstaltung>
+        Eigenschaften der ganzen Zahlen</thema>: <dozent
+        ref="scheibner_w"><grad>D. ph.</grad> <nachname>Scheibner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 9-10
+        U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.F-005"><thema>Ueber
-        Kettenbrüche</thema>: <ders>Derselbe, P. O.</ders>, <zeit>Sonnab. 9-11
-        U.</zeit> <modus>publice</modus>.</veranstaltung>
+        Kettenbrüche</thema>: <ders ref="scheibner_w">Derselbe, P. O.</ders>,
+        <zeit>Sonnab. 9-11 U.</zeit> <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.F-006"><thema>Ausgewählte Capitel
         aus der höheren Mathematik</thema>: <dozent ref="mayer_a"><grad>D.
@@ -2445,7 +2447,7 @@
         früh</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.G-012"><thema>Einleitung in die
-        Agriculturchemie</thema>: <dozent><grad>D. ph.</grad>
+        Agriculturchemie</thema>: <dozent ref="sachsse_r"><grad>D. ph.</grad>
         <nachname>Sachsse</nachname></dozent>, <zeit>Mont. 9-10 U., Mittw. u.
         Sonnab. 8-9 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
@@ -2478,7 +2480,7 @@
         <zeit>täglich 9-10 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.G-018"><thema>Allgemeine
-        Botanik</thema>: <dozent><grad>D. ph. &amp; med.</grad>
+        Botanik</thema>: <dozent ref="schenk_a"><grad>D. ph. &amp; med.</grad>
         <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>täglich 7-8 U. früh</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2487,8 +2489,8 @@
 
         <veranstaltung xml:id="v-1875s-IV.G-019"><thema>Die Familien des
         Pflanzenreichs mit Berücksichtigung der officinellen Gewächse</thema>:
-        <ders>Derselbe</ders>, <zeit>Mont., Mittw. und Freit. 6-7 U.
-        Abends</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <ders ref="schenk_a">Derselbe</ders>, <zeit>Mont., Mittw. und Freit.
+        6-7 U. Abends</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.G-020"><thema>Naturgeschichte der
         Pilze, mit besonderer Berücksichtigung der Gährungs- und
@@ -2503,10 +2505,10 @@
         Sonnabend 6-7 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1875s-IV.G-022"><thema>Pflanzenchemie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Sachsse</nachname></dozent>,
-        <zeit>Dienst. 9-10 U. u. Freit. 10-11 U.</zeit>
-        <modus>privatim</modus>.</veranstaltung>
+        xml:id="v-1875s-IV.G-022"><thema>Pflanzenchemie</thema>: <dozent
+        ref="sachsse_r"><grad>D. ph.</grad>
+        <nachname>Sachsse</nachname></dozent>, <zeit>Dienst. 9-10 U. u. Freit.
+        10-11 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1875s-IV.G-023"><thema>Medicinisch-pharmaceutische
@@ -2618,13 +2620,14 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.G-041"><thema>Arbeiten und Uebungen
-        <ort>im botanischen Laboratorium</ort></thema>: <dozent><grad>D. ph.
-        &amp; med.</grad> <nachname>Schenk</nachname>, <funktion>P.
-        O.</funktion></dozent>, <modus>privatim</modus>.</veranstaltung>
+        <ort>im botanischen Laboratorium</ort></thema>: <dozent
+        ref="schenk_a"><grad>D. ph. &amp; med.</grad>
+        <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.G-042"><thema>Botanische
-        Besprechungen</thema>: <ders>Derselbe</ders>, <zeit>in zu best.
-        Stunden</zeit>, <modus>publice</modus>.</veranstaltung>
+        Besprechungen</thema>: <ders ref="schenk_a">Derselbe</ders>, <zeit>in
+        zu best. Stunden</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.G-043"><thema>Zoologisch-zootomische
         Uebungen <ort>auf dem zool. Institut</ort></thema>: <dozent

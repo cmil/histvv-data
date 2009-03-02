@@ -145,9 +145,10 @@
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1864s-I.I.2.001-002"><thema>Philosophisches
-          Staats- und Völkerrecht</thema>: <dozent><grad>D.</grad>
-          <nachname>Schilling</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          Staats- und Völkerrecht</thema>: <dozent
+          ref="schilling_fa"><grad>D.</grad> <nachname>Schilling</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>9 U. 2 T.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 
         <seite>4</seite>
@@ -740,9 +741,9 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
       <titel>IV. Staats- und Cameralwissenschaften.</titel>
 
       <veranstaltung xml:id="v-1864s-I.IV-001"><thema>Vergleichende Statistik
-      und Staatskunde der europäischen Staaten</thema>:
-      <dozent><grad>D.</grad> <nachname>Roscher</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>3 U. 4 T.</zeit>
+      und Staatskunde der europäischen Staaten</thema>: <dozent
+      ref="roscher_w"><grad>D.</grad> <nachname>Roscher</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>3 U. 4 T.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <absatz>Philosophisches Staatsrecht, <siehe>s. Philos.
@@ -754,7 +755,7 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
       <trennlinie/>
 
       <veranstaltung xml:id="v-1864s-I.IV-002"><thema>Theoretische
-      Nationalökonomik</thema>: <dozent><grad>D.</grad>
+      Nationalökonomik</thema>: <dozent ref="roscher_w"><grad>D.</grad>
       <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>8 U. 4 T.</zeit></veranstaltung>
 
@@ -847,13 +848,13 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
       St. (Donn. 5 U. u. Freit. 5-7 U.)</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1864s-I.V-008"><thema>Ueber einige Kapitel aus
-      der Theorie der elliptischen Functionen</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Scheibner</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>9 U. 2 T. (Freit. u. Sonn.)</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      der Theorie der elliptischen Functionen</thema>: <dozent
+      ref="scheibner_w"><grad>D. ph.</grad> <nachname>Scheibner</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>9 U. 2 T. (Freit. u.
+      Sonn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1864s-I.V-009"><thema>Analytische
-      Mechanik</thema>: <dozent><grad>D. ph.</grad>
+      Mechanik</thema>: <dozent ref="scheibner_w"><grad>D. ph.</grad>
       <nachname>Scheibner</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>9 U. 4 T. (Mont. bis Donn.)</zeit></veranstaltung>
 
@@ -867,9 +868,10 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
         <titel>Mathematische Uebungen.</titel>
 
         <veranstaltung xml:id="v-1864s-I.V.001-001"><thema>Uebungen des
-        mathematischen Seminars</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Scheibner</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>in zu best. St.</zeit> <modus>privatissime</modus> aber
+        mathematischen Seminars</thema>: <dozent ref="scheibner_w"><grad>D.
+        ph.</grad> <nachname>Scheibner</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>in zu best. St.</zeit>
+        <modus>privatissime</modus> aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1864s-I.V.001-002"><thema>Uebungen im
@@ -910,10 +912,10 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
         <zeit>in 2 zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Physiologische Optik</thema>:
-        <dozent><grad>D.</grad> <nachname>Ruete</nachname>, <funktion>P.
-        O.</funktion>, d. Z. <funktion>Rect.</funktion></dozent>, <siehe>s.
-        Physiologie</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Physiologische Optik</thema>: <dozent
+        ref="ruete_cgt"><grad>D.</grad> <nachname>Ruete</nachname>,
+        <funktion>P. O.</funktion>, d. Z. <funktion>Rect.</funktion></dozent>,
+        <siehe>s. Physiologie</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Ueber binoculares Sehen</thema>: <dozent
         ref="hering_kek"><grad>D.</grad> <nachname>Hering</nachname></dozent>,
@@ -1414,8 +1416,9 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
             <veranstaltung
             xml:id="v-1864s-II.B.II.1.001-001"><thema>Interpretationsübungen
             in Beziehung auf ausgewählte Stellen des römischen Rechts</thema>:
-            <dozent><grad>D.</grad> <nachname>Schilling</nachname>,
-            <funktion>P. O.</funktion></dozent>, <zeit>2 T. in zu best.
+            <dozent ref="schilling_fa"><grad>D.</grad>
+            <nachname>Schilling</nachname>, <funktion>P.
+            O.</funktion></dozent>, <zeit>2 T. in zu best.
             St.</zeit></veranstaltung>
 
             <veranstaltung
@@ -1439,9 +1442,9 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
             <veranstaltung
             xml:id="v-1864s-II.B.II.1.002-001"><thema>Examinatorium (in
             lateinischer Sprache) über das römische Recht, sowohl der
-            Institutionen als der Pandekten</thema>: <dozent><grad>D.</grad>
-            <nachname>Schilling</nachname>, <funktion>P.
-            E.</funktion>,</dozent> <zeit>2 U. 6 T.</zeit>
+            Institutionen als der Pandekten</thema>: <dozent
+            ref="schilling_b"><grad>D.</grad> <nachname>Schilling</nachname>,
+            <funktion>P. E.</funktion>,</dozent> <zeit>2 U. 6 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung
@@ -1571,9 +1574,10 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1864s-II.B.IV-006"><thema>Gemeiner und
-        sächsischer Criminalprocess (nach seinem Lehrbuch)</thema>:
-        <dozent><grad>D.</grad> <nachname>Schletter</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>10 U. 4 T.</zeit></veranstaltung>
+        sächsischer Criminalprocess (nach seinem Lehrbuch)</thema>: <dozent
+        ref="schletter_h"><grad>D.</grad> <nachname>Schletter</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>10 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1864s-II.B.IV-007"><thema>Gemeiner und
         sächsischer Strafprocess</thema>: <dozent
@@ -1601,10 +1605,10 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
         <trennlinie/>
 
         <veranstaltung xml:id="v-1864s-II.B.V-003"><thema>Sächsisches
-        Staatsrecht: Verfassungs- und Verwaltungsrecht</thema>:
-        <dozent><grad>D.</grad> <nachname>Schletter</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>5stündig, 11 U. 4 T. u. in einer noch zu
-        best. St.</zeit></veranstaltung>
+        Staatsrecht: Verfassungs- und Verwaltungsrecht</thema>: <dozent
+        ref="schletter_h"><grad>D.</grad> <nachname>Schletter</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>5stündig, 11 U. 4 T. u. in
+        einer noch zu best. St.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1864s-II.B.V-004"><thema>Sächsisches Staats-
         und Verwaltungsrecht</thema>: <dozent ref="goetz_o"><grad>D.</grad>
@@ -1626,9 +1630,10 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
         <zeit>8 U. 5 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1864s-II.B.VI-002"><thema>Das gemeine in
-        Deutschland geltende Kirchenrecht, nach seinen Sätzen</thema>:
-        <dozent><grad>D.</grad> <nachname>Schilling</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>11 U. 6 T.</zeit></veranstaltung>
+        Deutschland geltende Kirchenrecht, nach seinen Sätzen</thema>: <dozent
+        ref="schilling_b"><grad>D.</grad> <nachname>Schilling</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 6
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1864s-II.B.VII">
@@ -1661,9 +1666,9 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
 
         <veranstaltung
         xml:id="v-1864s-II.B.VII-005"><thema>Criminalprocessprakticum
-        verbunden mit Uebungen im Referiren aus Criminalacten</thema>:
-        <dozent><grad>D.</grad> <nachname>Schletter</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>in 2 zu best. St. u.
+        verbunden mit Uebungen im Referiren aus Criminalacten</thema>: <dozent
+        ref="schletter_h"><grad>D.</grad> <nachname>Schletter</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>in 2 zu best. St. u.
         T.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
@@ -1764,9 +1769,9 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
         St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1864s-II.C.III-003"><thema>Physiologische
-        Optik</thema>: <dozent><grad>D.</grad> <nachname>Ruete</nachname>,
-        <funktion>P. O.</funktion>, d. Z. <funktion>Rect.</funktion></dozent>,
-        <zeit>2 T. in zu best. St.</zeit>
+        Optik</thema>: <dozent ref="ruete_cgt"><grad>D.</grad>
+        <nachname>Ruete</nachname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Rect.</funktion></dozent>, <zeit>2 T. in zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1864s-II.C.III-004"><thema>Ueber binoculares
@@ -1994,10 +1999,10 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
       <sachgruppe xml:id="sg-1864s-II.C.IX">
         <titel>IX. Augenheilkunde.</titel>
 
-        <veranstaltungsverweis><thema>Physiologische Optik</thema>:
-        <dozent><grad>D.</grad> <nachname>Ruete</nachname>, <funktion>P.
-        O.</funktion>, d. Z. <funktion>Rect.</funktion></dozent>, <siehe>s.
-        Physiol.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Physiologische Optik</thema>: <dozent
+        ref="ruete_cgt"><grad>D.</grad> <nachname>Ruete</nachname>,
+        <funktion>P. O.</funktion>, d. Z. <funktion>Rect.</funktion></dozent>,
+        <siehe>s. Physiol.</siehe></veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1864s-II.C.IX-001"><thema>Die Anwendung des
         Mikroskops am lebenden Auge</thema>: <dozent
@@ -2008,7 +2013,7 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
         <trennlinie/>
 
         <veranstaltung xml:id="v-1864s-II.C.IX-002"><thema>Unterricht im
-        Operiren der Augen</thema>: <dozent><grad>D.</grad>
+        Operiren der Augen</thema>: <dozent ref="ruete_cgt"><grad>D.</grad>
         <nachname>Ruete</nachname>, <funktion>P. O.</funktion>, d. Z.
         <funktion>Rect.</funktion></dozent>, <zeit>5 U. 6
         T.</zeit></veranstaltung>
@@ -2103,10 +2108,10 @@ Dozenten der vorangegangenen Veranstaltungen --></veranstaltungsgruppe>
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1864s-II.C.XI-006"><thema>Klinik der
-        Krankheiten der Augen und Ohren</thema>: <dozent><grad>D.</grad>
-        <nachname>Ruete</nachname>, d. Z. <funktion>Rect.</funktion>,
-        <funktion>P. O.</funktion></dozent>, <zeit>11-12½ U. 6
-        T.</zeit></veranstaltung>
+        Krankheiten der Augen und Ohren</thema>: <dozent
+        ref="ruete_cgt"><grad>D.</grad> <nachname>Ruete</nachname>, d. Z.
+        <funktion>Rect.</funktion>, <funktion>P. O.</funktion></dozent>,
+        <zeit>11-12½ U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1864s-II.C.XI-007"><thema>Klinische
         Demonstrationen über Ohrenkrankheiten</thema>: <dozent><grad>D.</grad>

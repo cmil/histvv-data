@@ -789,7 +789,7 @@
       <titel>IV. Staats- und Cameralwissenschaften.</titel>
 
       <veranstaltung xml:id="v-1867s-I.IV-001"><thema>Geschichte der
-      politischen Theorien</thema>: <dozent><grad>D.</grad>
+      politischen Theorien</thema>: <dozent ref="roscher_w"><grad>D.</grad>
       <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>3 U. 3 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -818,7 +818,7 @@
       <seite>10</seite>
 
       <veranstaltung xml:id="v-1867s-I.IV-005"><thema>Theoretische
-      Nationalökonomik</thema>: <dozent><grad>D.</grad>
+      Nationalökonomik</thema>: <dozent ref="roscher_w"><grad>D.</grad>
       <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>8 U. 4 T.</zeit></veranstaltung>
 
@@ -882,7 +882,7 @@
         <titel>Staatswissenschaftliche Uebungen.</titel>
 
         <veranstaltung xml:id="v-1867s-I.IV.001-001"><thema>Cameralistische
-        Gesellschaft</thema>: <dozent><grad>D.</grad>
+        Gesellschaft</thema>: <dozent ref="roscher_w"><grad>D.</grad>
         <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>an einem zu verabredenden Abend wöchentlich, 7-9 U.</zeit>
         <modus>privatissime</modus>, aber
@@ -894,14 +894,14 @@
       <titel>V. Mathematische Wissenschaften.</titel>
 
       <veranstaltung xml:id="v-1867s-I.V-001"><thema>Zahlenlehre</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Scheibner</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>9 U. 4 T. (Mont. bis
-      Donn.)</zeit></veranstaltung>
+      <dozent ref="scheibner_w"><grad>D. ph.</grad>
+      <nachname>Scheibner</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>9 U. 4 T. (Mont. bis Donn.)</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1867s-I.V-002"><thema>Algebra (<notiz
-      betreff="fortsetzung">Forts.</notiz>)</thema>: <ders>Derselbe</ders>,
-      <zeit>9 U. 2 T. (Freit. u. Sonn.)</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      betreff="fortsetzung">Forts.</notiz>)</thema>: <ders
+      ref="scheibner_w">Derselbe</ders>, <zeit>9 U. 2 T. (Freit. u.
+      Sonn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1867s-I.V-003"><thema>Differential- und
       Integralrechnung</thema>: <dozent ref="hankel_h"><grad>D. ph.</grad>
@@ -987,9 +987,9 @@
         <zeit>2 U. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Hauptsätze der physiologischen
-        Optik</thema>: <dozent><grad>D.</grad> <nachname>Ruete</nachname>,
-        <funktion>P. O.</funktion></dozent>, <siehe>s.
-        Anatomie</siehe>.</veranstaltungsverweis>
+        Optik</thema>: <dozent ref="ruete_cgt"><grad>D.</grad>
+        <nachname>Ruete</nachname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. Anatomie</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Mathematische Optik</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Zöllner</nachname>, <funktion>P.
@@ -1477,9 +1477,9 @@
             <veranstaltung
             xml:id="v-1867s-II.B.II.1.002-001"><thema>Examinatorium (in
             lateinischer Sprache) über das römische Recht, sowohl der
-            Institutionen als der Pandekten</thema>, <dozent><grad>D.</grad>
-            <nachname>Schilling</nachname>, <funktion>P.
-            E.</funktion></dozent>, <zeit>2 U. 6 T.</zeit>
+            Institutionen als der Pandekten</thema>, <dozent
+            ref="schilling_b"><grad>D.</grad> <nachname>Schilling</nachname>,
+            <funktion>P. E.</funktion></dozent>, <zeit>2 U. 6 T.</zeit>
             <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung xml:id="v-1867s-II.B.II.1.002-002"><thema>Vorträge
@@ -1640,12 +1640,12 @@
 
         <veranstaltungsgruppe><veranstaltung
         xml:id="v-1867s-II.B.V-002"><thema>Sächsisches Staats- und
-        Verwaltungsrecht</thema></veranstaltung>: <dozent><grad>D.</grad>
-        <nachname>Schletter</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>9 U. 4 T.</zeit> und in Verbindung
-        damit <veranstaltung xml:id="v-1867s-II.B.V-003"><thema>Deutsches
-        Verwaltungsrecht</thema>, <zeit>9 U. 2
-        T.</zeit></veranstaltung></veranstaltungsgruppe>
+        Verwaltungsrecht</thema></veranstaltung>: <dozent
+        ref="schletter_h"><grad>D.</grad> <nachname>Schletter</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>9 U. 4 T.</zeit> und
+        in Verbindung damit <veranstaltung
+        xml:id="v-1867s-II.B.V-003"><thema>Deutsches Verwaltungsrecht</thema>,
+        <zeit>9 U. 2 T.</zeit></veranstaltung></veranstaltungsgruppe>
 
         <absatz>Völkerrecht <siehe>s. Staatswissenschaften</siehe>.</absatz>
       </sachgruppe>
@@ -1661,9 +1661,10 @@
         Tage</zeit>.</veranstaltung>
 
         <veranstaltung xml:id="v-1867s-II.B.VI-002"><thema>Das gemeine in
-        Deutschland geltende Kirchenrecht, nach seinen Sätzen</thema>:
-        <dozent><grad>D.</grad> <nachname>Schilling</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>11 U. 6 T.</zeit></veranstaltung>
+        Deutschland geltende Kirchenrecht, nach seinen Sätzen</thema>: <dozent
+        ref="schilling_b"><grad>D.</grad> <nachname>Schilling</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 6
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <seite>18</seite>
@@ -1693,8 +1694,9 @@
           <veranstaltung
           xml:id="v-1867s-II.B.VII.001-002"><thema>Criminalprocessprakticum,
           verbunden mit Uebungen im Referiren aus Criminalacten</thema>:
-          <dozent><grad>D.</grad> <nachname>Schletter</nachname>, <funktion>P.
-          O. Hon.</funktion></dozent>, <zeit>8 U. 2 T. (oder in and. zu best.
+          <dozent ref="schletter_h"><grad>D.</grad>
+          <nachname>Schletter</nachname>, <funktion>P. O.
+          Hon.</funktion></dozent>, <zeit>8 U. 2 T. (oder in and. zu best.
           St.)</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -1752,9 +1754,9 @@
         Freit.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1867s-II.C.II-006"><thema>Anatomie der Augen
-        und die Hauptsätze aus der physiologischen Optik</thema>:
-        <dozent><grad>D.</grad> <nachname>Ruete</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>6 U. 3 T.</zeit>
+        und die Hauptsätze aus der physiologischen Optik</thema>: <dozent
+        ref="ruete_cgt"><grad>D.</grad> <nachname>Ruete</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>6 U. 3 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <absatz>Pathologische Anatomie, <siehe>s. allgemeine
@@ -2050,15 +2052,16 @@
       <sachgruppe xml:id="sg-1867s-II.C.IX">
         <titel>IX. Augen- u. Ohrenheilkunde.</titel>
 
-        <veranstaltungsverweis><thema>Anatomie der Augen</thema>:
-        <dozent><grad>D.</grad> <nachname>Ruete</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s.
+        <veranstaltungsverweis><thema>Anatomie der Augen</thema>: <dozent
+        ref="ruete_cgt"><grad>D.</grad> <nachname>Ruete</nachname>,
+        <funktion>P. O.</funktion></dozent>, <siehe>s.
         Anatomie</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1867s-II.C.IX-001"><thema>Cursus im Operiren
-        der Augen</thema>: <dozent><grad>D.</grad> <nachname>Ruete</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Nachm. 5 U.</zeit>,
-        <thema>so oft Material vorhanden ist</thema>.</veranstaltung>
+        der Augen</thema>: <dozent ref="ruete_cgt"><grad>D.</grad>
+        <nachname>Ruete</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Nachm. 5 U.</zeit>, <thema>so oft Material vorhanden
+        ist</thema>.</veranstaltung>
 
         <veranstaltung xml:id="v-1867s-II.C.IX-002"><thema>Specielle
         Pathologie und Therapie des Auges</thema>: <dozent
@@ -2187,7 +2190,7 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1867s-II.C.X.XI-007"><thema>Klinik der
-          Augen und Ohren</thema>: <dozent><grad>D.</grad>
+          Augen und Ohren</thema>: <dozent ref="ruete_cgt"><grad>D.</grad>
           <nachname>Ruete</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>11-12½ U. 6 T.</zeit></veranstaltung>
 

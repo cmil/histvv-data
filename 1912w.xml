@@ -1555,12 +1555,12 @@
         <titel>Augenheilkunde.</titel>
 
         <veranstaltung xml:id="v-1912w-III.009-001"><thema>Klinischer
-        Unterricht in der Augenheilkunde</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Sattler</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>tägl. (außer Do.) 12-1 U., So.</zeit> <thema>Demonstration
-        pathologisch-anatomischer Präparate durch den
-        Projektionsapparat</thema>, <modus>privatim</modus>, <ort>in der
-        Heilanstalt für Augenkranke, Liebigstr. 14</ort>.</veranstaltung>
+        Unterricht in der Augenheilkunde</thema>: <dozent
+        ref="sattler_h"><grad>D. med.</grad> <nachname>Sattler</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>tägl. (außer Do.) 12-1 U.,
+        So.</zeit> <thema>Demonstration pathologisch-anatomischer Präparate
+        durch den Projektionsapparat</thema>, <modus>privatim</modus>, <ort>in
+        der Heilanstalt für Augenkranke, Liebigstr. 14</ort>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1912w-III.009-002"><thema>Augenspiegelkursus</thema>
@@ -1752,14 +1752,14 @@
         Nervenklinik, Windmühlenweg 20</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.010-012"><thema>Allgemeine
-        Psychiatrie</thema>: <dozent><grad>D. med. et ph.</grad>
-        <nachnamenpräfix>von</nachnamenpräfix>
+        Psychiatrie</thema>: <dozent ref="niessl-von-mayendorf_e"><grad>D.
+        med. et ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Nießl-Mayendorf</nachname></dozent>, <zeit>Mo. 5-6
         U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.010-013"><thema>Gehirnpathologie
-        mit klinischen Demonstrationen und Lichtbildern</thema>:
-        <dozent><grad>D. med. et ph.</grad>
+        mit klinischen Demonstrationen und Lichtbildern</thema>: <dozent
+        ref="niessl-von-mayendorf_e"><grad>D. med. et ph.</grad>
         <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Nießl-Mayendorf</nachname></dozent>, <zeit>Mo., Mi. u. Fr.
         7-8 U. Ab.</zeit>, <modus>privatim</modus>. <ort>Albertinum
@@ -1767,8 +1767,9 @@
 
         <veranstaltung xml:id="v-1912w-III.010-014"><thema>Übungen in der
         Erkennung und Beurteilung mikroskopischer Präparate des normalen und
-        kranken Nerven<seite>18</seite>systems</thema>: <dozent><grad>D. med.
-        et ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+        kranken Nerven<seite>18</seite>systems</thema>: <dozent
+        ref="niessl-von-mayendorf_e"><grad>D. med. et ph.</grad>
+        <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Nießl-Mayendorf</nachname></dozent>, <zeit>an 2 noch zu
         vereinbar. Stunden</zeit>, <modus>privatim</modus>, <ort>in der
         Wohnung</ort>.</veranstaltung>
@@ -3450,9 +3451,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.C-014"><thema>Napoleon I.</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Salomon</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mi. 4-5 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="salomon_f"><grad>D. ph.</grad>
+        <nachname>Salomon</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mi. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.C-015"><thema>Geschichte des neuen
         Deutschen Reiches seit 1871</thema>: <dozent
@@ -3626,13 +3627,13 @@
               <modus>privatissime</modus>, sed
               <gebühr>gratis</gebühr>.</veranstaltung>
 
-              <veranstaltung xml:id="v-1912w-IV.C.001.B.003-004">4)
-              <dozent><grad>D. ph.</grad> <nachname>Salomon</nachname>,
-              <funktion>P. E.</funktion></dozent>: <thema>Bismarck und
-              Frankreich zwischen dem dänischen und österreichischen Kriege
-              (1864-1866)</thema>, <zeit>Mi. 8½-10 U. Vorm.</zeit>,
-              <modus>privatissime</modus>, sed
-              <gebühr>gratis</gebühr>.</veranstaltung>
+              <veranstaltung xml:id="v-1912w-IV.C.001.B.003-004">4) <dozent
+              ref="salomon_f"><grad>D. ph.</grad>
+              <nachname>Salomon</nachname>, <funktion>P.
+              E.</funktion></dozent>: <thema>Bismarck und Frankreich zwischen
+              dem dänischen und österreichischen Kriege (1864-1866)</thema>,
+              <zeit>Mi. 8½-10 U. Vorm.</zeit>, <modus>privatissime</modus>,
+              sed <gebühr>gratis</gebühr>.</veranstaltung>
 
               <veranstaltungsgruppe>Außerdem werden folgende Kurse <ort>im
               Institut</ort> abgehalten: <veranstaltung
@@ -3886,11 +3887,12 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         <titel>D. Kunstwissenschaften.</titel>
 
         <veranstaltungsgruppe><thema>Ästhetik der bildenden Künste</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
-        <funktion>P. O.</funktion></dozent>, <veranstaltung
-        xml:id="v-1912w-IV.D-001"><zeit>Mo. u. Do. 11-12 U.</zeit>
-        <thema>Vorlesung</thema>, <modus>privatim</modus></veranstaltung>,
-        <veranstaltung xml:id="v-1912w-IV.D-002"><zeit>12 bis 1 U.</zeit>
+        <dozent ref="schmarsow_a"><grad>D. ph.</grad>
+        <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
+        <veranstaltung xml:id="v-1912w-IV.D-001"><zeit>Mo. u. Do. 11-12
+        U.</zeit> <thema>Vorlesung</thema>,
+        <modus>privatim</modus></veranstaltung>, <veranstaltung
+        xml:id="v-1912w-IV.D-002"><zeit>12 bis 1 U.</zeit>
         <thema>Demonstrationen</thema>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung></veranstaltungsgruppe>
 
@@ -3918,9 +3920,9 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
 
         <veranstaltung xml:id="v-1912w-IV.D-007"><thema>Die Kunst im Zeitalter
         des Barock (mit einer Einleitung über das Wesen der
-        Hochrenaissance)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Di. u. Fr. 5-6 U.</zeit>,
+        Hochrenaissance)</thema>: <dozent ref="schmarsow_a"><grad>D.
+        ph.</grad> <nachname>Schmarsow</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Di. u. Fr. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <trennlinie/>
@@ -3971,7 +3973,7 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
           xml:id="v-1912w-IV.D.003-001"><thema>Forschungsabteilung:
           Einzelfragen und kritische Gänge zur Geschichte des Barockstils (im
           Anschluß an die Vorlesung: Die Kunst im Zeitalter des
-          Barock)</thema>: <dozent><grad>D. ph.</grad>
+          Barock)</thema>: <dozent ref="schmarsow_a"><grad>D. ph.</grad>
           <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>So. 10-12 U.</zeit>, <modus>privatissime</modus>, sed
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -4165,9 +4167,9 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
 
         <veranstaltung xml:id="v-1912w-IV.E-005"><thema>Statistik: Sozial-,
         Bildungs- und Moralstatistik (besonders auch
-        Kriminalstatistik)</thema>: <dozent><grad>D. jur.</grad>
-        <nachname>Schmid</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mo., Di. u. Mi. 5-6 U.</zeit>,
+        Kriminalstatistik)</thema>: <dozent ref="schmid_f"><grad>D.
+        jur.</grad> <nachname>Schmid</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mo., Di. u. Mi. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
@@ -4194,11 +4196,12 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         <zeit>Di. u. Fr. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltungsgruppe><thema>Verwaltungslehre</thema>:
-        <dozent><grad>D. jur.</grad> <nachname>Schmid</nachname>, <funktion>P.
-        O.</funktion></dozent>: <veranstaltung xml:id="v-1912w-IV.E-010">1)
-        <thema>Die Verwaltung des geistig-sittlichen Lebens (besonders
-        Unterrichtswesen)</thema>, <zeit>Mo. u. Mi. 6-7 U.</zeit>,
+        <veranstaltungsgruppe><thema>Verwaltungslehre</thema>: <dozent
+        ref="schmid_f"><grad>D. jur.</grad> <nachname>Schmid</nachname>,
+        <funktion>P. O.</funktion></dozent>: <veranstaltung
+        xml:id="v-1912w-IV.E-010">1) <thema>Die Verwaltung des
+        geistig-sittlichen Lebens (besonders Unterrichtswesen)</thema>,
+        <zeit>Mo. u. Mi. 6-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung> <veranstaltung
         xml:id="v-1912w-IV.E-011">2) <thema>Armenwesen und soziale
         Fürsorge</thema>, <zeit>Do. 5-7 U.</zeit>,
@@ -4406,10 +4409,10 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
           <sachgruppe xml:id="sg-1912w-IV.E.001.002">
             <titel>Abteilung für Statistik und Verwaltungslehre.</titel>
 
-            <veranstaltung xml:id="v-1912w-IV.E.001.002-001"><dozent><grad>D.
-            jur.</grad> <nachname>Schmid</nachname>, <funktion>P.
-            O.</funktion></dozent>: <thema>Übungen</thema>, <zeit>Fr. 5-7
-            U.</zeit>, <modus>privatissime</modus> et
+            <veranstaltung xml:id="v-1912w-IV.E.001.002-001"><dozent
+            ref="schmid_f"><grad>D. jur.</grad> <nachname>Schmid</nachname>,
+            <funktion>P. O.</funktion></dozent>: <thema>Übungen</thema>,
+            <zeit>Fr. 5-7 U.</zeit>, <modus>privatissime</modus> et
             <gebühr>gratis</gebühr>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -4748,7 +4751,7 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
 
         <veranstaltung xml:id="v-1912w-IV.G-009"><thema>Optische
         Demonstrationen (Mikroskopie, Ultramikroskopie, Spektroskopie
-        etc.)</thema>: <dozent><grad>D. ph.</grad>
+        etc.)</thema>: <dozent ref="schaum_k"><grad>D. ph.</grad>
         <nachname>Schaum</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Di. 5 bis 6 U.</zeit>, <modus>privatim</modus>, <ort>im
         Physikal.-chem. Institut, Linnéstr. 2</ort>.</veranstaltung>
@@ -4811,10 +4814,11 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.G-017"><thema>Ausgewählte Kapitel
-        der elektrochemischen Technik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schall</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mi. 12-1 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
+        der elektrochemischen Technik</thema>: <dozent ref="schall_c"><grad>D.
+        ph.</grad> <nachname>Schall</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mi. 12-1 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikalisch-chemischen Institut,
+        Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.G-018"><thema>Allgemeine und
         angewandte Chemie. Organischer Teil</thema>: <dozent
@@ -5135,7 +5139,7 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         Einführungskurs, auch für Mediziner; auf Wunsch Darstellung
         elektrochemischer Präparate</thema>: <dozent ref="leblanc_m"><grad>D.
         ph.</grad> <nachname>Le Blanc</nachname>, <funktion>P.
-        O.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
+        O.</funktion></dozent>, mit <dozent ref="schall_c"><grad>D. ph.</grad>
         <nachname>Schall</nachname>, <funktion>P. E.</funktion></dozent> und
         <dozent><grad>D. ph.</grad> <nachname>Drucker</nachname>, <funktion>P.
         E. des.</funktion></dozent>, <zeit>Mo. od. Di., vier- <seite>51</seite>od.
@@ -5168,12 +5172,12 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         xml:id="v-1912w-IV.G-064"><thema>Physikalisch-chemisches
         Kolloquium</thema>: <dozent ref="leblanc_m"><grad>D. ph.</grad>
         <nachname>Le Blanc</nachname>, <funktion>P. O.</funktion></dozent>,
-        mit <dozent><grad>D. ph.</grad> <nachname>Schaum</nachname>,
-        <funktion>P. E.</funktion></dozent>, <dozent
-        ref="boettger_wc"><grad>D. ph.</grad> <nachname>Böttger</nachname>,
-        <funktion>P. E.</funktion></dozent> u. <dozent><grad>D. ph.</grad>
-        <nachname>Drucker</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>Do. 5½-7 U.</zeit>,
+        mit <dozent ref="schaum_k"><grad>D. ph.</grad>
+        <nachname>Schaum</nachname>, <funktion>P. E.</funktion></dozent>,
+        <dozent ref="boettger_wc"><grad>D. ph.</grad>
+        <nachname>Böttger</nachname>, <funktion>P. E.</funktion></dozent> u.
+        <dozent><grad>D. ph.</grad> <nachname>Drucker</nachname>, <funktion>P.
+        E. des.</funktion></dozent>, <zeit>Do. 5½-7 U.</zeit>,
         <modus>privatissime</modus>, <ort>im Physikalisch-chemischen Institut,
         Linnéstr. 2</ort>.</veranstaltung>
 
@@ -5181,20 +5185,20 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         xml:id="v-1912w-IV.G-065"><thema>Photochemisch-photographisches
         Praktikum</thema> (<zeit>ganztägig</zeit>): <dozent
         ref="leblanc_m"><grad>D. ph.</grad> <nachname>Le Blanc</nachname>,
-        <funktion>P. O.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
-        <nachname>Schaum</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>tägl. 8-12½ U. u. (außer So.) 2-6 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Physikal.- chem. Institut, Linnéstr.
-        2</ort>.</veranstaltung>
+        <funktion>P. O.</funktion></dozent>, mit <dozent
+        ref="schaum_k"><grad>D. ph.</grad> <nachname>Schaum</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>tägl. 8-12½ U. u. (außer
+        So.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im Physikal.- chem.
+        Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.G-066"><thema>Photochemische Übungen
         (Spektralanalyse, Photographie, Photometrie, Mikroskopie [nach
         Auswahl])</thema>: <dozent ref="leblanc_m"><grad>D. ph.</grad>
         <nachname>Le Blanc</nachname>, <funktion>P. O.</funktion></dozent>,
-        mit <dozent><grad>D. ph.</grad> <nachname>Schaum</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>So. 9-1 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Physikal.-chem. Institut, Linnéstr.
-        2</ort>.</veranstaltung>
+        mit <dozent ref="schaum_k"><grad>D. ph.</grad>
+        <nachname>Schaum</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>So. 9-1 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Physikal.-chem. Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.G-067"><thema>Chemisches
         Vollpraktikum für Fortgeschrittene</thema>: <dozent><grad>D. ph. et

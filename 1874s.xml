@@ -1089,9 +1089,9 @@
 
       <veranstaltung xml:id="v-1874s-I.IV-001"><thema>Geschichtliche
       Naturlehre des Staates, als Vorschule jeder praktischen Politik</thema>:
-      <dozent><grad>D. ph. &amp; jur.</grad> <nachname>Roscher</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>3 U. 3 T.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      <dozent ref="roscher_w"><grad>D. ph. &amp; jur.</grad>
+      <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>3 U. 3 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1874s-I.IV-002"><thema>Einleitung in das
       Studium der Cameralwissenschaften</thema>: <dozent
@@ -1102,9 +1102,9 @@
       <absatz>Staatsrecht, <siehe>s. Rechtswissenschaft</siehe>.</absatz>
 
       <veranstaltung xml:id="v-1874s-I.IV-003"><thema>Gesammte theoretische
-      Nationalökonomik</thema>: <dozent><grad>D. ph. &amp; jur.</grad>
-      <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>8 U. 4 T.</zeit></veranstaltung>
+      Nationalökonomik</thema>: <dozent ref="roscher_w"><grad>D. ph. &amp;
+      jur.</grad> <nachname>Roscher</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1874s-I.IV-004"><thema>Ueber
       Steuerreform</thema>: <dozent ref="birnbaum_kje"><grad>D. ph.</grad>
@@ -1127,10 +1127,11 @@
         <titel>Cameralwissenschaftliche Uebungen.</titel>
 
         <veranstaltung xml:id="v-1874s-I.IV.001-001"><thema>Uebungen der
-        cameralistischen Gesellschaft</thema>: <dozent><grad>D. ph. &amp;
-        jur.</grad> <nachname>Roscher</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>wöchentlich an einem zu verabredenden
-        Abend 7-9 U.</zeit> <modus>privatissime</modus>, aber
+        cameralistischen Gesellschaft</thema>: <dozent
+        ref="roscher_w"><grad>D. ph. &amp; jur.</grad>
+        <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>wöchentlich an einem zu verabredenden Abend 7-9 U.</zeit>
+        <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -1158,7 +1159,7 @@
         <zeit>11 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Einleitung in die
-        Agriculturchemie</thema>: <dozent><grad>D. ph.</grad>
+        Agriculturchemie</thema>: <dozent ref="sachsse_r"><grad>D. ph.</grad>
         <nachname>Sachsse</nachname></dozent>, <siehe>s.
         Chemie</siehe>.</veranstaltungsverweis>
 
@@ -1263,12 +1264,13 @@
       <zeit>10 U. 3 T.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1874s-I.V-004"><thema>Einleitung in die
-      Analysis des Unendlichen</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>9 U. 5 T. (excl. Sonnab.)</zeit></veranstaltung>
+      Analysis des Unendlichen</thema>: <dozent ref="scheibner_w"><grad>D.
+      ph.</grad> <nachname>Scheibner</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>9 U. 5 T. (excl.
+      Sonnab.)</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1874s-I.V-005"><thema>Störungstheorie</thema>:
-      <ders>Derselbe</ders>, <zeit>9-11 U. Sonnab.</zeit>
+      <ders ref="scheibner_w">Derselbe</ders>, <zeit>9-11 U. Sonnab.</zeit>
       <modus>öffentlich</modus>.</veranstaltung>
 
       <seite>14</seite>
@@ -1378,7 +1380,7 @@
         des.</funktion></dozent>, <zeit>5 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.VI.1-010"><thema>Einleitung in die
-        Agriculturchemie</thema>: <dozent><grad>D. ph.</grad>
+        Agriculturchemie</thema>: <dozent ref="sachsse_r"><grad>D. ph.</grad>
         <nachname>Sachsse</nachname></dozent>, <zeit>9 U. Mont. u. Dienst., 8
         U. Mittw. u. Sonnab.</zeit></veranstaltung>
 
@@ -1474,7 +1476,7 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1874s-I.VI.2-005"><thema>Allgemeine
-        Botanik</thema>: <dozent><grad>D. ph. &amp; med.</grad>
+        Botanik</thema>: <dozent ref="schenk_a"><grad>D. ph. &amp; med.</grad>
         <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>7 U. früh 6 T.</zeit></veranstaltung>
 
@@ -1486,9 +1488,9 @@
 
         <veranstaltung
         xml:id="v-1874s-I.VI.2-007"><thema>Pflanzenkrankheiten</thema>:
-        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Schenk</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>in 2 zu best.
-        St.</zeit></veranstaltung>
+        <dozent ref="schenk_a"><grad>D. ph. &amp; med.</grad>
+        <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>in 2 zu best. St.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.VI.2-008"><thema>Pharmaceutische
         Botanik</thema>: <dozent><grad>D. ph.</grad>
@@ -1558,9 +1560,10 @@
           <trennlinie/>
 
           <veranstaltung xml:id="v-1874s-I.VI.2.001-003"><thema>Uebungen und
-          Arbeiten im botanischen Laboratorium</thema>: <dozent><grad>D. ph.
-          &amp; med.</grad> <nachname>Schenk</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>in zu best. St.</zeit></veranstaltung>
+          Arbeiten im botanischen Laboratorium</thema>: <dozent
+          ref="schenk_a"><grad>D. ph. &amp; med.</grad>
+          <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>in zu best. St.</zeit></veranstaltung>
 
           <trennlinie/>
 

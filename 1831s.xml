@@ -48,8 +48,8 @@
         <sachgruppe xml:id="sg-1831s-I.I.1.001">
           <titel>Sanskrit-Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1831s-I.I.1.001-001"><dozent><nachname>Rosenmüller</nachname>,
+          <veranstaltung xml:id="v-1831s-I.I.1.001-001"><dozent
+          ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
           O.</funktion></dozent>, <thema><schrift>nach seinen
           Dictaten</schrift>, nach vorausgeschickter Einleitung in die
@@ -60,8 +60,8 @@
         <sachgruppe xml:id="sg-1831s-I.I.1.002">
           <titel>Arabische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1831s-I.I.1.002-001"><dozent><nachname>Rosenmüller</nachname>,
+          <veranstaltung xml:id="v-1831s-I.I.1.002-001"><dozent
+          ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
           O.</funktion></dozent>, <thema kontext="sachgruppe"><schrift>nach s.
           <titel>Institt. ad. fundam. ling. Arab.</titel> (Lpz. b. Barth
@@ -433,8 +433,8 @@
       <sachgruppe xml:id="sg-1831s-I.II.3">
         <titel>3) Alterthumskunde.</titel>
 
-        <veranstaltung
-        xml:id="v-1831s-I.II.3-001"><dozent><nachname>Rosenmüller</nachname>,
+        <veranstaltung xml:id="v-1831s-I.II.3-001"><dozent
+        ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
         <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
         O.</funktion></dozent>, <thema>die heiligen Alterthümer der Hebräer,
         nach s. Dictaten</thema>, <zeit>1 U. 2 T.</zeit>
@@ -1461,15 +1461,15 @@
       <sachgruppe xml:id="sg-1831s-II.B.002">
         <titel>Rechtsgeschichte.</titel>
 
-        <veranstaltung
-        xml:id="v-1831s-II.B.002-001"><dozent><nachname>Schilling</nachname>,
-        <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P. O.</funktion>,
-        d. Z. <funktion>Dech.</funktion></dozent>, <thema>äußere Geschichte
-        des röm. Rechts, nach eignem Plane</thema>, <zeit>2 U. 4
+        <veranstaltung xml:id="v-1831s-II.B.002-001"><dozent
+        ref="schilling_fa"><nachname>Schilling</nachname>, <grad>D.</grad>
+        <vorname>F. A.</vorname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Dech.</funktion></dozent>, <thema>äußere Geschichte des röm.
+        Rechts, nach eignem Plane</thema>, <zeit>2 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
-        Institutionen</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><ders ref="schilling_fa">Derselbe</ders>,
+        <siehe>s. Institutionen</siehe>.</veranstaltungsverweis>
 
         <seite>13</seite>
 
@@ -1491,13 +1491,12 @@
         <vorname>K. J. A.</vorname></dozent>, <siehe>s.
         Institutionen</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung
-        xml:id="v-1831s-II.B.002-003"><dozent><nachname>Sachße</nachname>,
-        <grad>M.</grad> <vorname>K. R.</vorname>, <funktion>J. U.
-        B.</funktion></dozent>, <thema>äußere Geschichte des deutschen Rechts,
-        nach der Ordnung von <gesperrt>Rittermaier's</gesperrt> Grundsätzen
-        etc. § 1-40</thema>, <zeit>11 U. 4 T.</zeit>
-        <gebühr>unentgeltl.</gebühr></veranstaltung>
+        <veranstaltung xml:id="v-1831s-II.B.002-003"><dozent
+        ref="sachsse_cr"><nachname>Sachße</nachname>, <grad>M.</grad>
+        <vorname>K. R.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+        <thema>äußere Geschichte des deutschen Rechts, nach der Ordnung von
+        <gesperrt>Rittermaier's</gesperrt> Grundsätzen etc. § 1-40</thema>,
+        <zeit>11 U. 4 T.</zeit> <gebühr>unentgeltl.</gebühr></veranstaltung>
 
         <veranstaltung
         xml:id="v-1831s-II.B.002-004"><dozent><nachname>Bretschneider</nachname>,
@@ -1566,8 +1565,8 @@
             <sachgruppe xml:id="sg-1831s-II.B.II.I.1.002">
               <titel>Institutionen.</titel>
 
-              <veranstaltung
-              xml:id="v-1831s-II.B.II.I.1.002-001"><dozent><nachname>Schilling</nachname>,
+              <veranstaltung xml:id="v-1831s-II.B.II.I.1.002-001"><dozent
+              ref="schilling_fa"><nachname>Schilling</nachname>,
               <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P.
               O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
               <thema>nebst der innern Geschichte des röm. Rechts, nach
@@ -1701,13 +1700,12 @@
             Privatrecht</thema>, <zeit>8 U. 6 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.I.2-005"><dozent><nachname>Sachße</nachname>,
-            <grad>M.</grad> <vorname>K. R.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>deutsches Privatrecht, nach der
-            Ordnung von <gesperrt>Mittermaier's</gesperrt> Grundsätzen etc.
-            (Landsh. 1830. 8.)</thema>, <zeit>10 U. 6
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1831s-II.B.II.I.2-005"><dozent
+            ref="sachsse_cr"><nachname>Sachße</nachname>, <grad>M.</grad>
+            <vorname>K. R.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>deutsches Privatrecht, nach der Ordnung von
+            <gesperrt>Mittermaier's</gesperrt> Grundsätzen etc. (Landsh. 1830.
+            8.)</thema>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
             <seite>15</seite>
 
@@ -1721,13 +1719,12 @@
           <sachgruppe xml:id="sg-1831s-II.B.II.I.3">
             <titel>3) Sächsisches Recht.</titel>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.I.3-001"><dozent><nachname>Schilling</nachname>,
-            <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P.
-            O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
-            <thema>königlich sächsisches Privatrecht, (Fortsetzung u.
-            Beschluß)</thema>, <zeit>4 U. 4 T.</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1831s-II.B.II.I.3-001"><dozent
+            ref="schilling_fa"><nachname>Schilling</nachname>, <grad>D.</grad>
+            <vorname>F. A.</vorname>, <funktion>P. O.</funktion>, d. Z.
+            <funktion>Dech.</funktion></dozent>, <thema>königlich sächsisches
+            Privatrecht, (Fortsetzung u. Beschluß)</thema>, <zeit>4 U. 4
+            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung xml:id="v-1831s-II.B.II.I.3-002"><dozent
             ref="berger_a"><nachname>Berger</nachname>, <grad>D.</grad>
@@ -1768,9 +1765,9 @@
               königl. sächs. Kirchenrecht</thema>, <zeit>7 U. 6
               T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1831s-II.B.II.I.002.1-004"><dozent><nachname>Sachße</nachname>,
-              <grad>M.</grad> <vorname>K. R.</vorname>, <funktion>J. U.
+              <veranstaltung xml:id="v-1831s-II.B.II.I.002.1-004"><dozent
+              ref="sachsse_cr"><nachname>Sachße</nachname>, <grad>M.</grad>
+              <vorname>K. R.</vorname>, <funktion>J. U.
               B.</funktion></dozent>, <thema>kanonisches Recht für
               Theologen</thema>, <zeit>11 U. 2 T.</zeit>
               <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -2207,11 +2204,10 @@
             <thema>über Pandekten u. Proceß</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.III.1-029"><dozent><nachname>Scheibner</nachname>,
-            <vorname>F. A. M.</vorname>
-            <nachnamenpräfix>von</nachnamenpräfix>., <funktion>J. U.
-            B.</funktion></dozent>, <thema>über einzelne Theile des
+            <veranstaltung xml:id="v-1831s-II.B.II.III.1-029"><dozent
+            ref="scheibner_fam"><nachname>Scheibner</nachname>, <vorname>F. A.
+            M.</vorname> <nachnamenpräfix>von</nachnamenpräfix>., <funktion>J.
+            U. B.</funktion></dozent>, <thema>über einzelne Theile des
             Rechts</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
           </sachgruppe>
 

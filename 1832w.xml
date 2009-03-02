@@ -56,8 +56,8 @@
         <sachgruppe xml:id="sg-1832w-I.I.1.001">
           <titel>Sanskrit-Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1832w-I.I.1.001-001"><dozent><nachname>Rosenmüller</nachname>,
+          <veranstaltung xml:id="v-1832w-I.I.1.001-001"><dozent
+          ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
           O.</funktion></dozent>, <thema>Erklärung der Episode des
           Maha-Bharata, <gesperrt>die Sündfluth</gesperrt>, von
@@ -69,8 +69,8 @@
         <sachgruppe xml:id="sg-1832w-I.I.1.002">
           <titel>Arabische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1832w-I.I.1.002-001"><dozent><nachname>Rosenmüller</nachname>,
+          <veranstaltung xml:id="v-1832w-I.I.1.002-001"><dozent
+          ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
           O.</funktion></dozent>, <thema>die Anfangsgründe, nach s.
           <antiqua>Institt. ad fundamenta ling. arab.</antiqua> (Leipzig bei
@@ -171,11 +171,11 @@
             Oratoribus</antiqua></thema>, <zeit>3 U. Dienst. u. Freit.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1832w-I.I.2.a.002-002"><dozent><nachname>Rost</nachname>,
-            <vorname>F. W. E.</vorname>, <funktion>P. E.</funktion></dozent>,
-            <thema>über des Plautus <antiqua>Poenulus</antiqua></thema>,
-            <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1832w-I.I.2.a.002-002"><dozent
+            ref="rost_fwe"><nachname>Rost</nachname>, <vorname>F. W.
+            E.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>über des
+            Plautus <antiqua>Poenulus</antiqua></thema>, <zeit>11 U. 2
+            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung xml:id="v-1832w-I.I.2.a.002-003"><dozent
             ref="klotz_r"><nachname>Klotz</nachname>, <grad>M.</grad>
@@ -1173,8 +1173,8 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             <thema>Auslegung der Psalmen</thema>, <zeit>11 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1832w-II.A.I.1.001-002"><dozent><nachname>Rosenmüller</nachname>,
+            <veranstaltung xml:id="v-1832w-II.A.I.1.001-002"><dozent
+            ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
             <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
             O.</funktion></dozent>, <thema>Erklärung des Buches Hiob</thema>,
             <zeit>1 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -1698,8 +1698,8 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             <sachgruppe xml:id="sg-1832w-II.B.II.I.1.003">
               <titel>Pandekten.</titel>
 
-              <veranstaltung
-              xml:id="v-1832w-II.B.II.I.1.003-001"><dozent><nachname>Schilling</nachname>,
+              <veranstaltung xml:id="v-1832w-II.B.II.I.1.003-001"><dozent
+              ref="schilling_fa"><nachname>Schilling</nachname>,
               <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P.
               O.</funktion></dozent>, <thema>nach
               <gesperrt>Mühlenbruch's</gesperrt> <antiqua>Doctrina
@@ -1783,14 +1783,13 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
           <sachgruppe xml:id="sg-1832w-II.B.II.I.3">
             <titel>3) Sächsisches Recht.</titel>
 
-            <veranstaltung
-            xml:id="v-1832w-II.B.II.I.3-001"><dozent><nachname>Schilling</nachname>,
-            <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <thema>königlich sächsisches Privatrecht
-            (<notiz betreff="fortsetzung">Anfang des jährigen Kursus</notiz>),
-            nach <gesperrt>Haubold's</gesperrt> Lehrbuche (2. Ausg.
-            1829.)</thema>, <zeit>2 U. 4 T.</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1832w-II.B.II.I.3-001"><dozent
+            ref="schilling_fa"><nachname>Schilling</nachname>, <grad>D.</grad>
+            <vorname>F. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <thema>königlich sächsisches Privatrecht (<notiz
+            betreff="fortsetzung">Anfang des jährigen Kursus</notiz>), nach
+            <gesperrt>Haubold's</gesperrt> Lehrbuche (2. Ausg. 1829.)</thema>,
+            <zeit>2 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung xml:id="v-1832w-II.B.II.I.3-002"><dozent
             ref="berger_a"><nachname>Berger</nachname>, <grad>D.</grad>
@@ -1805,14 +1804,13 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             <zeit>10 U. 6 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1832w-II.B.II.I.3-004"><dozent><nachname>Sachße</nachname>,
-            <grad>M.</grad> <vorname>K. R.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>Erklärung des sächsischen
-            Landrechts, unter Mittheilung einer mit Hrn</thema>
-            <dozent><grad>D.</grad> <nachname>Weiske</nachname></dozent>
-            <thema>ausgearbeiteten Uebersetzung</thema>, <zeit>2 T. in zu
-            best. St.</zeit><!--D. Weiske als Prof. od. als "gesperrt" taggen?--></veranstaltung>
+            <veranstaltung xml:id="v-1832w-II.B.II.I.3-004"><dozent
+            ref="sachsse_cr"><nachname>Sachße</nachname>, <grad>M.</grad>
+            <vorname>K. R.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>Erklärung des sächsischen Landrechts, unter Mittheilung
+            einer mit Hrn</thema> <dozent><grad>D.</grad>
+            <nachname>Weiske</nachname></dozent> <thema>ausgearbeiteten
+            Uebersetzung</thema>, <zeit>2 T. in zu best. St.</zeit><!--D. Weiske als Prof. od. als "gesperrt" taggen?--></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1832w-II.B.II.I.002">
@@ -1830,8 +1828,8 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
               Zeit erforderlichen Ergänzungen</thema>, <zeit>2 U. 6 T.</zeit>
               <modus>öffentlich</modus>.</veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1832w-II.B.II.I.002.1-002"><dozent><nachname>Schilling</nachname>,
+              <veranstaltung xml:id="v-1832w-II.B.II.I.002.1-002"><dozent
+              ref="schilling_b"><nachname>Schilling</nachname>,
               <grad>D.</grad> <vorname>B.</vorname>, <funktion>P.
               E.</funktion></dozent>, <thema>über das gem. in Deutschland
               geltende Kirchenrecht, nach s. Sätzen</thema>, <zeit>11 U. 4
@@ -1844,9 +1842,9 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
               deutschen Kirchenrechtswissenschaft, (Mainz 1829.)</thema>,
               <zeit>8 U. 6 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1832w-II.B.II.I.002.1-004"><dozent><nachname>Sachße</nachname>,
-              <grad>M.</grad> <vorname>K. R.</vorname>, <funktion>J. U.
+              <veranstaltung xml:id="v-1832w-II.B.II.I.002.1-004"><dozent
+              ref="sachsse_cr"><nachname>Sachße</nachname>, <grad>M.</grad>
+              <vorname>K. R.</vorname>, <funktion>J. U.
               B.</funktion></dozent>, <thema>Kirchenrecht</thema>, <zeit>in zu
               best. St.</zeit></veranstaltung>
 
@@ -1897,8 +1895,8 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             <sachgruppe xml:id="sg-1832w-II.B.II.I.002.3">
               <titel>3) Lehnrecht.</titel>
 
-              <veranstaltung
-              xml:id="v-1832w-II.B.II.I.002.3-001"><dozent><nachname>Schilling</nachname>,
+              <veranstaltung xml:id="v-1832w-II.B.II.I.002.3-001"><dozent
+              ref="schilling_b"><nachname>Schilling</nachname>,
               <grad>D.</grad> <vorname>B.</vorname>, <funktion>P.
               E.</funktion></dozent>, <thema>das gemeine u. sächsische
               Lehnrecht, nach s. Sätzen</thema>, <zeit>9 U. 4
@@ -1935,9 +1933,9 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
               Lehnrecht</thema>, <zeit>9 U. 4 T.</zeit>
               <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1832w-II.B.II.I.002.3-007"><dozent><nachname>Sachße</nachname>,
-              <grad>M.</grad> <vorname>K. R.</vorname>, <funktion>J. U.
+              <veranstaltung xml:id="v-1832w-II.B.II.I.002.3-007"><dozent
+              ref="sachsse_cr"><nachname>Sachße</nachname>, <grad>M.</grad>
+              <vorname>K. R.</vorname>, <funktion>J. U.
               B.</funktion></dozent>, <thema>gemeines u. sächsisches
               Lehnrecht</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
@@ -2109,17 +2107,17 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
           <sachgruppe xml:id="sg-1832w-II.B.II.III.1">
             <titel>1) Examinir-Uebungen.</titel>
 
-            <veranstaltung
-            xml:id="v-1832w-II.B.II.III.1-001"><dozent><nachname>Schilling</nachname>,
-            <grad>D.</grad> <vorname>B.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>über einzelne ausgewählte Theile
-            des römischen Rechts</thema>, <zeit>2 U. 2 T.</zeit>
+            <veranstaltung xml:id="v-1832w-II.B.II.III.1-001"><dozent
+            ref="schilling_b"><nachname>Schilling</nachname>, <grad>D.</grad>
+            <vorname>B.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>über einzelne ausgewählte Theile des römischen
+            Rechts</thema>, <zeit>2 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1832w-II.B.II.III.1-002"><ders>Derselbe</ders>,
-            <thema>über die gesammte theoretische Rechtswissenschaft</thema>,
-            <zeit>in den best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1832w-II.B.II.III.1-002"><ders
+            ref="schilling_b">Derselbe</ders>, <thema>über die gesammte
+            theoretische Rechtswissenschaft</thema>, <zeit>in den best.
+            St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1832w-II.B.II.III.1-003"><dozent
             ref="rueffer_c"><nachname>Rüffer</nachname>, <grad>D.</grad>
@@ -2174,11 +2172,11 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             Rechts</thema>, <zeit>in den best. u. zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1832w-II.B.II.III.1-012"><dozent><nachname>Sachße</nachname>,
-            <grad>M.</grad> <vorname>K. R.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>über beliebige Theile des
-            Rechts</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1832w-II.B.II.III.1-012"><dozent
+            ref="sachsse_cr"><nachname>Sachße</nachname>, <grad>M.</grad>
+            <vorname>K. R.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>über beliebige Theile des Rechts</thema>, <zeit>in zu best.
+            St.</zeit></veranstaltung>
 
             <veranstaltung
             xml:id="v-1832w-II.B.II.III.1-013"><dozent><nachname>Claudius</nachname>,

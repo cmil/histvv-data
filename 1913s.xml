@@ -1663,11 +1663,11 @@
         <titel>Augenheilkunde.</titel>
 
         <veranstaltung xml:id="v-1913s-III.009-001"><thema>Klinischer
-        Unterricht in der Augenheilkunde</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Sattler</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>tägl. (außer Do.) 12-1 U.</zeit>, <modus>privatim</modus>,
-        <ort>in der Heilanstalt für Augenkranke, Liebigstr.
-        14</ort>.</veranstaltung>
+        Unterricht in der Augenheilkunde</thema>: <dozent
+        ref="sattler_h"><grad>D. med.</grad> <nachname>Sattler</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>tägl. (außer Do.) 12-1
+        U.</zeit>, <modus>privatim</modus>, <ort>in der Heilanstalt für
+        Augenkranke, Liebigstr. 14</ort>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1913s-III.009-002"><thema>Augenspiegelkursus</thema>
@@ -1819,7 +1819,8 @@
 
         <veranstaltung xml:id="v-1913s-III.010-010"><thema>Allgemeine Therapie
         der Geisteskrankheiten einschl. der Suggestionstherapie
-        (Psychotherapie)</thema>: <dozent><grad>D. med. et ph.</grad>
+        (Psychotherapie)</thema>: <dozent
+        ref="niessl-von-mayendorf_e"><grad>D. med. et ph.</grad>
         <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Nießl-Mayendorf</nachname></dozent>, <zeit>zweimal
         wöchentlich in zu vereinb. Zeit</zeit>,
@@ -1827,8 +1828,8 @@
 
         <veranstaltung xml:id="v-1913s-III.010-011"><thema>Grundzüge der
         topographischen Anatomie des Gehirns, mit besonderer Berücksichtigung
-        ihrer lokalisatorischen Bedeutung (mit Lichtbildern)</thema>:
-        <dozent><grad>D. med. et ph.</grad>
+        ihrer lokalisatorischen Bedeutung (mit Lichtbildern)</thema>: <dozent
+        ref="niessl-von-mayendorf_e"><grad>D. med. et ph.</grad>
         <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Nießl-Mayendorf</nachname></dozent>, <zeit>in 1½ noch zu
         vereinbar. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -3773,11 +3774,12 @@
               ab.</zeit>, <modus>privatissime</modus>, sed
               <gebühr>gratis</gebühr>.</veranstaltung>
 
-              <veranstaltung xml:id="v-1913s-IV.C.001.B.003-003">3)
-              <dozent><grad>D. ph.</grad> <nachname>Salomon</nachname>,
-              <funktion>P. E.</funktion></dozent>: <thema>Die großen
-              Kundgebungen des aufgeklärten Absolutismus</thema>, <zeit>Mi.
-              8½-10 U. vorm.</zeit>, <modus>privatissime</modus>, sed
+              <veranstaltung xml:id="v-1913s-IV.C.001.B.003-003">3) <dozent
+              ref="salomon_f"><grad>D. ph.</grad>
+              <nachname>Salomon</nachname>, <funktion>P.
+              E.</funktion></dozent>: <thema>Die großen Kundgebungen des
+              aufgeklärten Absolutismus</thema>, <zeit>Mi. 8½-10 U.
+              vorm.</zeit>, <modus>privatissime</modus>, sed
               <gebühr>gratis</gebühr>.</veranstaltung>
 
               <veranstaltung xml:id="v-1913s-IV.C.001.B.003-004">4.) <dozent
@@ -4035,9 +4037,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.D-002"><thema>Einleitung in die
-        Kunstgeschichte des Mittelalters</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mo. u. Do. 11-12 U.</zeit>,
+        Kunstgeschichte des Mittelalters</thema>: <dozent
+        ref="schmarsow_a"><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mo. u. Do. 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.D-003"><thema>Die italienische
@@ -4048,9 +4050,9 @@
 
         <veranstaltung xml:id="v-1913s-IV.D-004"><thema>Deutsche Kunst von
         1813-1913, <notiz betreff="fortsetzung">I</notiz>: Historienmalerei
-        und Monumentalplastik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Di. u. Fr. 11-12 U.</zeit>,
+        und Monumentalplastik</thema>: <dozent ref="schmarsow_a"><grad>D.
+        ph.</grad> <nachname>Schmarsow</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Di. u. Fr. 11-12 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <sachgruppe xml:id="sg-1913s-IV.D.001">
@@ -4097,20 +4099,20 @@
           I.</ort>).</titel>
 
           <veranstaltungsgruppe><thema>Kunsthistorisches Seminar</thema>:
-          <veranstaltung xml:id="v-1913s-IV.D.003-001">1) <dozent><grad>D.
-          ph.</grad> <nachname>Schmarsow</nachname>, <funktion>P.
-          O.</funktion></dozent>: <zeit>Mi. 10-12 U.</zeit>,
-          <modus>privatissime</modus>, sed <gebühr>non
-          gratis</gebühr>.</veranstaltung> - <veranstaltung
+          <veranstaltung xml:id="v-1913s-IV.D.003-001">1) <dozent
+          ref="schmarsow_a"><grad>D. ph.</grad>
+          <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>:
+          <zeit>Mi. 10-12 U.</zeit>, <modus>privatissime</modus>, sed
+          <gebühr>non gratis</gebühr>.</veranstaltung> - <veranstaltung
           xml:id="v-1913s-IV.D.003-002">2) <dozent><grad>D. ph.</grad>
           <nachname>Wackernagel</nachname></dozent>: <thema>Übungen über
           italienische Plastik des 13./14. Jahrh. (Ikonographie u.
           a.)</thema>, <zeit>zweistündig, nach Vereinbarung</zeit>,
           <modus>privatissime</modus>, sed
           <gebühr>gratis</gebühr>.</veranstaltung> - <veranstaltung
-          xml:id="v-1913s-IV.D.003-003"><thema>Eventuell</thema> 3)
-          <dozent><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
-          <funktion>P. O.</funktion></dozent>:
+          xml:id="v-1913s-IV.D.003-003"><thema>Eventuell</thema> 3) <dozent
+          ref="schmarsow_a"><grad>D. ph.</grad>
+          <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>:
           <thema>Forschungsabteilung</thema> (<zeit>nach Abrede</zeit>),
           <modus>privatissime</modus>, sed
           <gebühr>gratis</gebühr>.</veranstaltung></veranstaltungsgruppe>
@@ -4276,14 +4278,15 @@
 
         <veranstaltung xml:id="v-1913s-IV.E-005"><thema>Einführung in die
         Statistik (Geschichte, Theorie und <seite>44</seite>Organisation)</thema>:
-        <dozent><grad>D. jur.</grad> <nachname>Schmid</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mo. u. Mi. 10 bis 11 U.</zeit>,
+        <dozent ref="schmid_f"><grad>D. jur.</grad>
+        <nachname>Schmid</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mo. u. Mi. 10 bis 11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.E-006"><thema>Bevölkerungsstatistik
-        und Bevölkerungspolitik</thema>: <dozent><grad>D. jur.</grad>
-        <nachname>Schmid</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mo. u. Mi. 11-12 U.</zeit>,
+        und Bevölkerungspolitik</thema>: <dozent ref="schmid_f"><grad>D.
+        jur.</grad> <nachname>Schmid</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mo. u. Mi. 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.E-007"><thema>Das Zeitalter des
@@ -4300,10 +4303,10 @@
 
         <veranstaltung xml:id="v-1913s-IV.E-009"><thema>Versicherungswesen und
         Versicherungspolitik (unter Mitberücksichtigung der Prinzipien der
-        Arbeiter- und der Angestelltenversicherung)</thema>: <dozent><grad>D.
-        jur.</grad> <nachname>Schmid</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Di. u. Do. 5-6 U. (verlegbar)</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Arbeiter- und der Angestelltenversicherung)</thema>: <dozent
+        ref="schmid_f"><grad>D. jur.</grad> <nachname>Schmid</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Di. u. Do. 5-6 U.
+        (verlegbar)</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.E-010"><thema>Kolonialwirtschaft u.
         Kolonialpolitik</thema>: <dozent><grad>D. ph.</grad>
@@ -4521,10 +4524,10 @@
           <sachgruppe xml:id="sg-1913s-IV.E.001.002">
             <titel>Abteilung für Statistik und Verwaltungslehre.</titel>
 
-            <veranstaltung xml:id="v-1913s-IV.E.001.002-001"><dozent><grad>D.
-            jur.</grad> <nachname>Schmid</nachname>, <funktion>P.
-            O.</funktion></dozent>: <thema>Übungen</thema>, <zeit>Fr. 5-7
-            U.</zeit>, <modus>privatissime</modus> et
+            <veranstaltung xml:id="v-1913s-IV.E.001.002-001"><dozent
+            ref="schmid_f"><grad>D. jur.</grad> <nachname>Schmid</nachname>,
+            <funktion>P. O.</funktion></dozent>: <thema>Übungen</thema>,
+            <zeit>Fr. 5-7 U.</zeit>, <modus>privatissime</modus> et
             <gebühr>gratis</gebühr>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -4875,16 +4878,18 @@
 
         <veranstaltung xml:id="v-1913s-IV.G-012"><thema>Anleitung zur
         Behandlung der wichtigsten optischen etc.
-        Demonstrationsapparate</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schaum</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mo. 5 bis 6 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Physikal.-chem. Institut, Linnéstr. 2</ort>.</veranstaltung>
+        Demonstrationsapparate</thema>: <dozent ref="schaum_k"><grad>D.
+        ph.</grad> <nachname>Schaum</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mo. 5 bis 6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikal.-chem. Institut, Linnéstr.
+        2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-013"><thema>Grundfragen der
-        Photochemie (mit Diskussion)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schaum</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Fr. 12-1 U.</zeit>, <modus>publice</modus>, <ort>im
-        Physikal.-chem. Institut, Linnéstr. 2</ort>.</veranstaltung>
+        Photochemie (mit Diskussion)</thema>: <dozent ref="schaum_k"><grad>D.
+        ph.</grad> <nachname>Schaum</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Fr. 12-1 U.</zeit>,
+        <modus>publice</modus>, <ort>im Physikal.-chem. Institut, Linnéstr.
+        2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-014"><thema>Physikalisch-chemische
         Thermodynamik</thema>: <dozent><grad>D. ph.</grad>
@@ -4901,10 +4906,11 @@
         Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-016"><thema>Ausgewählte Kapitel
-        der elektrochemischen Technik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schall</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mi. 12-1 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
+        der elektrochemischen Technik</thema>: <dozent ref="schall_c"><grad>D.
+        ph.</grad> <nachname>Schall</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mi. 12-1 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikalisch-chemischen Institut,
+        Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1913s-IV.G-017"><thema>Elektroanalyse</thema>: <dozent
@@ -4915,7 +4921,7 @@
         2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-018"><thema>Die
-        Elektrosynthese</thema>: <dozent><grad>D. ph.</grad>
+        Elektrosynthese</thema>: <dozent ref="schall_c"><grad>D. ph.</grad>
         <nachname>Schall</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>einstündig, in noch zu best. Zeit</zeit>,
         <modus>privatim</modus>, <ort>im Physikal.-chem. Institut, Linnéstr.
@@ -5227,7 +5233,7 @@
         Einführungskurs, auch für Mediziner; auf Wunsch Darstellung
         elektrochemischer Präparate</thema>: <dozent ref="leblanc_m"><grad>D.
         ph.</grad> <nachname>Le Blanc</nachname>, <funktion>P.
-        O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
+        O.</funktion></dozent>, <dozent ref="schall_c">mit <grad>D. ph.</grad>
         <nachname>Schall</nachname>, <funktion>P. E.</funktion></dozent> und
         <dozent><grad>D. ph.</grad> <nachname>Drucker</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>vier- od. achtstündig, Mo. oder
@@ -5260,7 +5266,7 @@
         xml:id="v-1913s-IV.G-063"><thema>Physikalisch-chemisches
         Kolloquium</thema>: <dozent ref="leblanc_m"><grad>D. ph.</grad>
         <nachname>Le Blanc</nachname>, <seite>54</seite><funktion>P.
-        O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
+        O.</funktion></dozent>, <dozent ref="schaum_k">mit <grad>D. ph.</grad>
         <nachname>Schaum</nachname>, <funktion>P. E.</funktion></dozent>,
         <dozent ref="boettger_wc"><grad>D. ph.</grad>
         <nachname>Böttger</nachname>, <funktion>P. E.</funktion></dozent> u.
@@ -5271,19 +5277,20 @@
         <thema>Photochemisch-photographisches Praktikum</thema>
         (<zeit>ganztägig</zeit>): <dozent ref="leblanc_m"><grad>D. ph.</grad>
         <nachname>Le Blanc</nachname>, <funktion>P. O.</funktion></dozent>,
-        <dozent>mit <grad>D. ph.</grad> <nachname>Schaum</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>tägl. 8-12½ U. u. (außer
-        So.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im Physikal.-chem.
-        Institut, Linnéstr. 2</ort>.</veranstaltung>
+        <dozent ref="schaum_k">mit <grad>D. ph.</grad>
+        <nachname>Schaum</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>tägl. 8-12½ U. u. (außer So.) 2-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikal.-chem. Institut, Linnéstr.
+        2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-064"><thema>Photochemische Übungen
         (Spektralanalyse, Photographie, Photometrie, Mikroskopie [nach
         Auswahl])</thema>: <dozent ref="leblanc_m"><grad>D. ph.</grad>
         <nachname>Le Blanc</nachname>, <funktion>P. O.</funktion></dozent>,
-        <dozent>mit <grad>D. ph.</grad> <nachname>Schaum</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>So. 9-1 U.</zeit>,
-        <modus>privatim</modus>. <ort>im Physikal.-chem. Institut, Linnéstr.
-        2</ort>.</veranstaltung>
+        <dozent ref="schaum_k">mit <grad>D. ph.</grad>
+        <nachname>Schaum</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>So. 9-1 U.</zeit>, <modus>privatim</modus>. <ort>im
+        Physikal.-chem. Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-065"><thema>Chemisches Praktikum
         für Fortgeschrittene</thema>: <dozent><grad>D. ph. et med.</grad>

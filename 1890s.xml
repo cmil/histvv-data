@@ -349,7 +349,7 @@ unterbringen!--></veranstaltungsgruppe>
       <siehe>Siehe Philosophische Facultät A</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Armenpflege und Armenpolitik</thema>:
-      <dozent><grad>D. jur., ph. &amp; occ. publ.</grad>
+      <dozent ref="roscher_w"><grad>D. jur., ph. &amp; occ. publ.</grad>
       <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe Philosophische Facultät E</siehe>.</veranstaltungsverweis>
 
@@ -625,10 +625,10 @@ unterbringen!--></veranstaltungsgruppe>
       Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Besprechung staatswissenschaftlicher,
-      insbes. volkswirthschaftlicher Arbeiten</thema>: <dozent><grad>D. ph.,
-      jur. et oecon. publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
-      E</siehe>.</veranstaltungsverweis>
+      insbes. volkswirthschaftlicher Arbeiten</thema>: <dozent
+      ref="roscher_w"><grad>D. ph., jur. et oecon. publ.</grad>
+      <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>
+      <siehe>Siehe Philosophische Facultät E</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Allgemeine oder theoretische
       Nationalökonomik</thema>: <dozent ref="brentano_l"><grad>D. ph. et
@@ -2556,15 +2556,15 @@ auf dem Scan. Ist aber zur Autopsie notiert.)-->
 
         <veranstaltung xml:id="v-1890s-IV.E-002"><thema>Theorie der
         Armenpolitik und Armenpflege (auch für Theologen und Mediciner
-        berechnet)</thema>: <dozent><grad>D. ph., jur. &amp;. oecon.
-        publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
+        berechnet)</thema>: <dozent ref="roscher_w"><grad>D. ph., jur. &amp;.
+        oecon. publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>Mont., Dienst. u. Freit. 3-4 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890s-IV.E-003"><thema>Besprechung
         staatswissenschaftlicher, insbesondere volkswirthschaftlicher
-        Arbeiten</thema>: <dozent><grad>D. ph., jur. &amp;. oecon.
-        publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
+        Arbeiten</thema>: <dozent ref="roscher_w"><grad>D. ph., jur. &amp;.
+        oecon. publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>in zweo näher zu best. Stunden</zeit>,
         <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2720,9 +2720,9 @@ auf dem Scan. Ist aber zur Autopsie notiert.)-->
         <nachname>Häpe</nachname></dozent>. <siehe>Siehe <gesperrt>Juristische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Bodenkunde</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Sachsse</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Abschnitt
+        <veranstaltungsverweis><thema>Bodenkunde</thema>: <dozent
+        ref="sachsse_r"><grad>D. ph.</grad> <nachname>Sachsse</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
         G</siehe>.</veranstaltungsverweis>
 
         <trennlinie/>
@@ -2792,13 +2792,13 @@ auf dem Scan. Ist aber zur Autopsie notiert.)-->
         <titel>F. Mathematik und Astronomie.</titel>
 
         <veranstaltung xml:id="v-1890s-IV.F-001"><thema>Einleitung in die
-        Theorie der algebraischen Gleichungen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Scheibner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst., Mittw. u. Donnerst. 9 bis 10
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Theorie der algebraischen Gleichungen</thema>: <dozent
+        ref="scheibner_w"><grad>D. ph.</grad> <nachname>Scheibner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst., Mittw. u.
+        Donnerst. 9 bis 10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890s-IV.F-002"><thema>Ueber algebraische
-        Integrale</thema>: <dozent><grad>D. ph.</grad>
+        Integrale</thema>: <dozent ref="scheibner_w"><grad>D. ph.</grad>
         <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Freit. u. Sonnab. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2942,9 +2942,9 @@ vgl. nächste VA)-->, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890s-IV.G-011"><thema>Pflanzenchemie
         (Chlorophyll-Farbstoffe, Kohlehydrate, Proteinsubstanzen)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Sachsse</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Freit.
-        9<korrektur>-</korrektur>10 U.</zeit>,
+        <dozent ref="sachsse_r"><grad>D. ph.</grad>
+        <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst. u. Freit. 9<korrektur>-</korrektur>10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890s-IV.G-012"><thema>Photochemie</thema>:
@@ -2972,8 +2972,9 @@ vgl. nächste VA)-->, <modus>privatim</modus>.</veranstaltung>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890s-IV.G-016"><thema>Bodenkunde</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Sachsse</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont. u. Sonnab. 9-10 U.</zeit>,
+        <dozent ref="sachsse_r"><grad>D. ph.</grad>
+        <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. u. Sonnab. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890s-IV.G-017"><thema>Paläontologie</thema>:
@@ -3012,9 +3013,9 @@ vgl. nächste VA)-->, <modus>privatim</modus>.</veranstaltung>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890s-IV.G-023"><thema>Entwicklungsgeschichte
-        der Pflanzenorgane</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>zweimal wöchentlich 12-1 U.</zeit>,
+        der Pflanzenorgane</thema>: <dozent ref="schenk_a"><grad>D. ph. &amp;
+        med.</grad> <nachname>Schenk</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>zweimal wöchentlich 12-1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890s-IV.G-024"><thema>Uebersicht über die

@@ -963,9 +963,9 @@
 
       <veranstaltung xml:id="v-1872s-I.IV-001"><thema>Naturlehre des Staats
       als Einleitung in die gesammte Staats- und Cameralwissenschaft</thema>:
-      <dozent><grad>D. ph. &amp; jur.</grad> <nachname>Roscher</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>3 U. 3 T.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      <dozent ref="roscher_w"><grad>D. ph. &amp; jur.</grad>
+      <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>3 U. 3 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1872s-I.IV-002"><thema>Einleitung in das
       Studium der Cameralwissenschaften</thema>: <dozent
@@ -980,9 +980,9 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1872s-I.IV-003"><thema>Theoretische
-      Nationalökonomik</thema>: <dozent><grad>D. ph. &amp; jur.</grad>
-      <nachname>Roscher</nachname> <funktion>P. O.</funktion></dozent>,
-      <zeit>8 U. 4 T.</zeit></veranstaltung>
+      Nationalökonomik</thema>: <dozent ref="roscher_w"><grad>D. ph. &amp;
+      jur.</grad> <nachname>Roscher</nachname> <funktion>P.
+      O.</funktion></dozent>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1872s-I.IV-004"><thema>Praktische
       Nationalökonomie</thema>: <dozent><grad>D. ph.</grad>
@@ -1017,7 +1017,7 @@
         <zeit>11 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872s-I.IV.001-005"><thema>Allgemeine Chemie
-        für Landwirthe</thema>: <dozent><grad>D. ph.</grad>
+        für Landwirthe</thema>: <dozent ref="sachsse_r"><grad>D. ph.</grad>
         <nachname>Sachsse</nachname></dozent>, <zeit>Mont. u. Dienst. 9 U. und
         in einer dritten noch zu best. St.</zeit></veranstaltung>
 
@@ -1041,9 +1041,10 @@
         <seite>13</seite>
 
         <veranstaltungsverweis><thema>Ueber Pflanzenkrankheiten</thema>:
-        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Schenk</nachname>,
-        <funktion>P. O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
-        <siehe>s. Naturgesch.</siehe></veranstaltungsverweis>
+        <dozent ref="schenk_a"><grad>D. ph. &amp; med.</grad>
+        <nachname>Schenk</nachname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Dech.</funktion></dozent>, <siehe>s.
+        Naturgesch.</siehe></veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1872s-I.IV.001-009"><thema>Krankheiten der
         Culturgewächse mit Demonstrationen</thema>: <dozent
@@ -1121,10 +1122,11 @@
         <titel>Staats- und Cameralwissenschaftliche Uebungen.</titel>
 
         <veranstaltung xml:id="v-1872s-I.IV.003-001"><thema>Uebungen der
-        cameralistischen Gesellschaft</thema>: <dozent><grad>D. ph. &amp;
-        jur.</grad> <nachname>Roscher</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>in näher zu verabredenden
-        Abendstunden</zeit>, <modus>privatissime</modus>, aber
+        cameralistischen Gesellschaft</thema>: <dozent
+        ref="roscher_w"><grad>D. ph. &amp; jur.</grad>
+        <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>in näher zu verabredenden Abendstunden</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872s-I.IV.003-002"><thema>Statistisches
@@ -1139,13 +1141,15 @@
       <titel>V. Mathematische Wissnschaften.</titel>
 
       <veranstaltung xml:id="v-1872s-I.V-001"><thema>Einleitung in die
-      Analysis des Unendlichen</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>9 U. 4 T. Mont. bis Donn.</zeit></veranstaltung>
+      Analysis des Unendlichen</thema>: <dozent ref="scheibner_w"><grad>D.
+      ph.</grad> <nachname>Scheibner</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>9 U. 4 T. Mont. bis
+      Donn.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1872s-I.V-002"><thema>Einleitung in die Theorie
-      der elliptischen Functionen</thema>: <ders>Derselbe</ders>, <zeit>9 U. 2
-      T. (Freit. u. Sonn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+      der elliptischen Functionen</thema>: <ders
+      ref="scheibner_w">Derselbe</ders>, <zeit>9 U. 2 T. (Freit. u.
+      Sonn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1872s-I.V-003"><thema>Ueber die
       Differentialgleichungen der Dynamik und die partiellen
@@ -1396,14 +1400,15 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1872s-I.VI.2-004"><thema>Allgemeine
-        Botanik</thema>: <dozent><grad>D. ph. &amp; med.</grad>
+        Botanik</thema>: <dozent ref="schenk_a"><grad>D. ph. &amp; med.</grad>
         <nachname>Schenk</nachname>, <funktion>P. O.</funktion>, d. Z.
         <funktion>Dech.</funktion></dozent>, <zeit>7 U. früh 6
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872s-I.VI.2-005"><thema>Ueber
-        Pflanzenkrankheiten</thema>: <ders>Derselbe</ders>, <zeit>in 2 zu
-        best. St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Pflanzenkrankheiten</thema>: <ders ref="schenk_a">Derselbe</ders>,
+        <zeit>in 2 zu best. St.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Krankheiten der Culturgewächse mit
         Demonstrationen</thema><korrektur>:</korrektur><dozent
@@ -1477,10 +1482,11 @@
           <trennlinie/>
 
           <veranstaltung xml:id="v-1872s-I.VI.2.001-002"><thema>Uebungen und
-          Arbeiten im botanischen Laboratorium</thema>: <dozent><grad>D. ph.
-          &amp; med.</grad> <nachname>Schenk</nachname>, <funktion>P.
-          O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>in
-          zu best. St.</zeit></veranstaltung>
+          Arbeiten im botanischen Laboratorium</thema>: <dozent
+          ref="schenk_a"><grad>D. ph. &amp; med.</grad>
+          <nachname>Schenk</nachname>, <funktion>P. O.</funktion>, d. Z.
+          <funktion>Dech.</funktion></dozent>, <zeit>in zu best.
+          St.</zeit></veranstaltung>
 
           <trennlinie/>
 
@@ -2060,16 +2066,17 @@ bezieht sich die Zeit auch auf die 2. V.-->
         <trennlinie/>
 
         <veranstaltung xml:id="v-1872s-II.B.V-003"><thema>Deutsches
-        Verwaltungsrecht, (allgem. und besonderer Theil)</thema>:
-        <dozent><grad>D. jur.</grad> <nachname>Schletter</nachname>,
+        Verwaltungsrecht, (allgem. und besonderer Theil)</thema>: <dozent
+        ref="schletter_h"><grad>D. jur.</grad> <nachname>Schletter</nachname>,
         <funktion>P. O. Hon.</funktion></dozent>, <zeit>8 U. 6
         T.</zeit></veranstaltung>
 
         <trennlinie/>
 
         <veranstaltung xml:id="v-1872s-II.B.V-004"><thema>Völkerrecht</thema>:
-        <dozent><grad>D. jur.</grad> <nachname>Schletter</nachname>,
-        <funktion>P. O. Hon.</funktion></dozent>, <zeit>5 U. 2 T. (Dienst. u.
+        <dozent ref="schletter_h"><grad>D. jur.</grad>
+        <nachname>Schletter</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>5 U. 2 T. (Dienst. u.
         Freit.)</zeit></veranstaltung>
 
         <seite>23</seite>
@@ -2128,9 +2135,9 @@ bezieht sich die Zeit auch auf die 2. V.-->
           <veranstaltung
           xml:id="v-1872s-II.B.VII.001-003"><thema>Criminalprocessprakticum,
           verbunden mit Uebungen im Referiren aus Criminalakten</thema>:
-          <dozent><grad>D. jur.</grad> <nachname>Schletter</nachname>,
-          <funktion>P. O. Hon.</funktion></dozent>, <zeit>5-7 U.
-          Mittw.</zeit></veranstaltung>
+          <dozent ref="schletter_h"><grad>D. jur.</grad>
+          <nachname>Schletter</nachname>, <funktion>P. O.
+          Hon.</funktion></dozent>, <zeit>5-7 U. Mittw.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>

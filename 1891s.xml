@@ -600,9 +600,10 @@
       Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Besprechung volkswirthschaftlicher
-      Arbeiten</thema>: <dozent><grad>D. ph., jur. et oecon. publ.</grad>
-      <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>
-      <siehe>Siehe Philosophische Facultät E</siehe>.</veranstaltungsverweis>
+      Arbeiten</thema>: <dozent ref="roscher_w"><grad>D. ph., jur. et oecon.
+      publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
+      O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      E</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Ueber die Nationalökonomik als
       Wissenschaft</thema>: <dozent ref="brentano_l"><grad>D. ph. et
@@ -1210,9 +1211,10 @@
       <veranstaltung xml:id="v-1891s-III-086"><thema>Cursus der Percussion und
       Auscultation für Anfänger (im Auftrage des Directors der medicinischen
       Klinik)</thema>: <dozent ref="his_w_jr"><grad>D. med.</grad>
-      <nachname>His</nachname></dozent> und <dozent><grad>D. med.</grad>
-      <nachname>Romberg</nachname></dozent>, <zeit>Mont., Donnerst. u. Freit.
-      7-8 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <nachname>His</nachname></dozent> und <dozent ref="romberg_e"><grad>D.
+      med.</grad> <nachname>Romberg</nachname></dozent>, <zeit>Mont.,
+      Donnerst. u. Freit. 7-8 U. Vorm.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1891s-III-087"><thema>Cursus der Percussion und
       Auscultation für Gebübtere</thema>: <dozent ref="krehl_al"><grad>D.
@@ -2572,17 +2574,17 @@
 
         <veranstaltung xml:id="v-1891s-IV.E-002"><thema>Geschichtliche
         Naturlehre der Monarchie, Aristokratie und Demokratie, als Vorschule
-        jeder praktischen Politik</thema>: <dozent><grad>D. ph., jur. &amp;
-        oecon. publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst. 3-4
-        U.</zeit>, <modus>publice</modus>.</veranstaltung>
+        jeder praktischen Politik</thema>: <dozent ref="roscher_w"><grad>D.
+        ph., jur. &amp; oecon. publ.</grad> <nachname>Roscher</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst.
+        3-4 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.E-003"><thema>Besprechung
-        volkswirthschaftlicher Arbeiten</thema>: <dozent><grad>D. ph., jur.
-        &amp; oecon. publ.</grad> <nachname>Roscher</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>in näher zu best. Stunden</zeit>,
-        <modus>privatissime</modus>, aber
-        <gebühr>gratis</gebühr>.</veranstaltung>
+        volkswirthschaftlicher Arbeiten</thema>: <dozent
+        ref="roscher_w"><grad>D. ph., jur. &amp; oecon. publ.</grad>
+        <nachname>Roscher</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>in näher zu best. Stunden</zeit>, <modus>privatissime</modus>,
+        aber <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.E-004"><thema>Allgemeine oder
         theoretische Nationalökonomik</thema>: <dozent
@@ -2725,9 +2727,9 @@
         <nachname>Häpe</nachname></dozent>. <siehe>Siehe Juristische
         Facultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Bodenkunde</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Sachsse</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Abschnitt
+        <veranstaltungsverweis><thema>Bodenkunde</thema>: <dozent
+        ref="sachsse_r"><grad>D. ph.</grad> <nachname>Sachsse</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
         G</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Witterungskunde</thema>: <dozent
@@ -2802,10 +2804,10 @@
         <titel>F. Mathematik und Astronomie.</titel>
 
         <veranstaltung xml:id="v-1891s-IV.F-001"><thema>Ueber die
-        Eigenschaften der ganzen Zahlen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Dienst. bis Sonnab. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Eigenschaften der ganzen Zahlen</thema>: <dozent
+        ref="scheibner_w"><grad>D. ph.</grad> <nachname>Scheibner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Sonnab. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.F-002"><thema>Die Elemente der
         analytischen Geometrie (für Studirende der
@@ -2951,8 +2953,9 @@
 
         <veranstaltung xml:id="v-1891s-IV.G-010"><thema>Pflanzenchemie
         (Chlorophyll-Farbstoffe, Kohlehydrate, Proteinsubstanzen)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Sachsse</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst. u. Freit. 9-10 U.</zeit>,
+        <dozent ref="sachsse_r"><grad>D. ph.</grad>
+        <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Dienst. u. Freit. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.G-011"><thema>Untersuchung von
@@ -2973,8 +2976,9 @@
         <zeit>Mont. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.G-014"><thema>Bodenkunde</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Sachsse</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont. u. Sonnab. 9-10 U.</zeit>,
+        <dozent ref="sachsse_r"><grad>D. ph.</grad>
+        <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. u. Sonnab. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
@@ -3019,9 +3023,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.G-022"><thema>Morphologie</thema>:
-        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Schenk</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>zweimal wöchentlich 12-1
-        U.</zeit>, <modus>publice</modus>.</veranstaltung>
+        <dozent ref="schenk_a"><grad>D. ph. &amp; med.</grad>
+        <nachname>Schenk</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>zweimal wöchentlich 12-1 U.</zeit>,
+        <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1891s-IV.G-023"><thema>Uebersicht über die
         wichtigeren Pflanzenfamilien (mit besonderer Berücksichtigung der

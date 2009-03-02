@@ -52,8 +52,8 @@
         <sachgruppe xml:id="sg-1818s-I.A.1.a">
           <titel>a) Syrische Sprache.</titel>
 
-          <veranstaltung xml:id="v-1818s-I.A.1.a-001"><dozent><funktion>P.
-          O.</funktion> <grad>D.</grad>
+          <veranstaltung xml:id="v-1818s-I.A.1.a-001"><dozent
+          ref="rosenmueller_efk"><funktion>P. O.</funktion> <grad>D.</grad>
           <nachname>Rosenmüller</nachname></dozent>,
           <modus>privatiss.</modus></veranstaltung>
 
@@ -65,8 +65,8 @@
         <sachgruppe xml:id="sg-1818s-I.A.1.b">
           <titel>b) Arabische Sprache.</titel>
 
-          <veranstaltung xml:id="v-1818s-I.A.1.b-001"><dozent><funktion>P.
-          O.</funktion> <grad>D.</grad>
+          <veranstaltung xml:id="v-1818s-I.A.1.b-001"><dozent
+          ref="rosenmueller_efk"><funktion>P. O.</funktion> <grad>D.</grad>
           <nachname>Rosenmüller</nachname></dozent>,
           <modus>privatiss.</modus></veranstaltung>
         </sachgruppe>
@@ -74,15 +74,17 @@
         <sachgruppe xml:id="sg-1818s-I.A.1.c">
           <titel>c) Persische Sprache.</titel>
 
-          <veranstaltung xml:id="v-1818s-I.A.1.c-001"><ders>Derselbe</ders>
+          <veranstaltung xml:id="v-1818s-I.A.1.c-001"><ders
+          ref="rosenmueller_efk">Derselbe</ders>
           <modus>privatiss.</modus></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1818s-I.A.1.d">
           <titel>d) Hebräische Sprache.</titel>
 
-          <veranstaltung xml:id="v-1818s-I.A.1.d-001"><ders>Derselbe</ders>,
-          <thema>Uebungen im Analysieren des Buchs Josua</thema>, <zeit>1 U. 2
+          <veranstaltung xml:id="v-1818s-I.A.1.d-001"><ders
+          ref="rosenmueller_efk">Derselbe</ders>, <thema>Uebungen im
+          Analysieren des Buchs Josua</thema>, <zeit>1 U. 2
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1818s-I.A.1.d-002"><dozent
@@ -126,10 +128,11 @@
           <nachname>Höpfner</nachname></dozent>, <thema>über des Euripides
           Jphigenia in Aulis</thema>, <zeit>7 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltung xml:id="v-1818s-I.A.2.a-004"><dozent><funktion>P.
-          E.</funktion> u. <funktion>Rect. d. Thomassch.</funktion>
-          <nachname>Rost</nachname></dozent>, <thema>über des Aristophanes
-          Frösche</thema>, <zeit>3 U. Donn. u. Freyt.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1818s-I.A.2.a-004"><dozent
+          ref="rost_fwe"><funktion>P. E.</funktion> u. <funktion>Rect. d.
+          Thomassch.</funktion> <nachname>Rost</nachname></dozent>,
+          <thema>über des Aristophanes Frösche</thema>, <zeit>3 U. Donn. u.
+          Freyt.</zeit></veranstaltung>
 
           <veranstaltungsgruppe><dozent><funktion>P. E.</funktion>
           <nachname>Spohn</nachname></dozent>, <thema>die erste Hälfte der
@@ -168,8 +171,8 @@
           des Horaz</thema>, <zeit>3 U. Dienst. u. Freyt.</zeit>
           <modus>öffentl.</modus></veranstaltung>
 
-          <veranstaltungsgruppe><dozent><funktion>P. E.</funktion>
-          <nachname>Rost</nachname></dozent>, <veranstaltung
+          <veranstaltungsgruppe><dozent ref="rost_fwe"><funktion>P.
+          E.</funktion> <nachname>Rost</nachname></dozent>, <veranstaltung
           xml:id="v-1818s-I.A.2.b-002"><thema>über des Plautus
           Kaufmann</thema>, <zeit>4 U. 2 T.</zeit>
           <modus>öffentl.</modus></veranstaltung> <veranstaltung
@@ -221,8 +224,9 @@
             <nachname>Beck</nachname></dozent>, <seite>730</seite><zeit>2 U.
             Mont. u. Donn.</zeit></veranstaltung>
 
-            <veranstaltung xml:id="v-1818s-I.A.2.c.x-002"><dozent><funktion>P.
-            E.</funktion> <nachname>Rost</nachname></dozent>, <zeit>5 U. 2
+            <veranstaltung xml:id="v-1818s-I.A.2.c.x-002"><dozent
+            ref="rost_fwe"><funktion>P. E.</funktion>
+            <nachname>Rost</nachname></dozent>, <zeit>5 U. 2
             T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1818s-I.A.2.c.x-003"><dozent><funktion>P.
@@ -990,12 +994,11 @@
             <sachgruppe xml:id="sg-1818s-II.A.I.1.a.aa">
               <titel>aa) in das A. Test.</titel>
 
-              <veranstaltung
-              xml:id="v-1818s-II.A.I.1.a.aa-001"><dozent><funktion>P.
-              O.</funktion> <grad>D.</grad>
-              <nachname>Rosenmüller</nachname></dozent>, <thema><notiz
-              betreff="fortsetzung">Forts.</notiz> u. Beschl. der speciellen
-              Einleitung</thema>, <zeit>1 U. 4 T.</zeit>
+              <veranstaltung xml:id="v-1818s-II.A.I.1.a.aa-001"><dozent
+              ref="rosenmueller_efk"><funktion>P. O.</funktion>
+              <grad>D.</grad> <nachname>Rosenmüller</nachname></dozent>,
+              <thema><notiz betreff="fortsetzung">Forts.</notiz> u. Beschl.
+              der speciellen Einleitung</thema>, <zeit>1 U. 4 T.</zeit>
               <modus>öffentl.</modus></veranstaltung>
 
               <veranstaltung
@@ -1363,7 +1366,8 @@
                   Forderungen,</titel>
 
                   <veranstaltung
-                  xml:id="v-1818s-II.B.I.1.a.cc.alpha.x-001"><dozent><grad>M.</grad>
+                  xml:id="v-1818s-II.B.I.1.a.cc.alpha.x-001"><dozent
+                  ref="schilling_fa"><grad>M.</grad>
                   <nachname>Schilling</nachname></dozent>, <thema>nach
                   Haubolds Institut.</thema>, <zeit>3 U. 4 T.</zeit>
                   <gebühr>unentg.</gebühr></veranstaltung>
@@ -1415,8 +1419,8 @@
               <nachname>Hänel</nachname></dozent>, <thema>nach eignen
               Sätzen</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1818s-II.B.I.1.b.x-002"><dozent><grad>M.</grad>
+              <veranstaltung xml:id="v-1818s-II.B.I.1.b.x-002"><dozent
+              ref="schilling_fa"><grad>M.</grad>
               <nachname>Schilling</nachname></dozent>, <thema>nach römischen,
               deutschen und sächsischen Rechtsbestimmungen</thema>, <zeit>3 U.
               2 T.</zeit></veranstaltung>
@@ -1838,9 +1842,9 @@
 auch Bacc. sind, trifft zwar auf Biedermann zu, 
 aber nicht auf Schilling-->
 
-          <veranstaltung
-          xml:id="v-1818s-II.B.II.xxx-005"><dozent><nachname>Schilling</nachname></dozent>
-          <zeit>2 T.</zeit>,</veranstaltung>
+          <veranstaltung xml:id="v-1818s-II.B.II.xxx-005"><dozent
+          ref="schilling_fa"><nachname>Schilling</nachname></dozent> <zeit>2
+          T.</zeit>,</veranstaltung>
 
           <veranstaltung
           xml:id="v-1818s-II.B.II.xxx-006"><dozent><nachname>Biedermann</nachname></dozent>
@@ -1904,25 +1908,26 @@ aber nicht auf Schilling-->
             <sachgruppe xml:id="sg-1818s-II.C.I.1.b.aa">
               <titel>aa) Gefässlehre und Nervenlehre.</titel>
 
-              <veranstaltung xml:id="v-1818s-II.C.I.1.b.aa-001"><dozent>Hofr.
-              <funktion>P. O.</funktion> <grad>D.</grad>
-              <nachname>Rosenmüller</nachname></dozent>, <zeit>10 U. 2
-              T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1818s-II.C.I.1.b.aa-001"><dozent
+              ref="rosenmueller_jc">Hofr. <funktion>P. O.</funktion>
+              <grad>D.</grad> <nachname>Rosenmüller</nachname></dozent>,
+              <zeit>10 U. 2 T.</zeit></veranstaltung>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1818s-II.C.I.1.b.bb">
               <titel>bb) Knochenlehre und Bänderlehre.</titel>
 
-              <veranstaltung
-              xml:id="v-1818s-II.C.I.1.b.bb-001"><ders>Derselbe</ders>,
-              <zeit>10 U. 4 T.</zeit> <modus>öffentl.</modus></veranstaltung>
+              <veranstaltung xml:id="v-1818s-II.C.I.1.b.bb-001"><ders
+              ref="rosenmueller_jc">Derselbe</ders>, <zeit>10 U. 4 T.</zeit>
+              <modus>öffentl.</modus></veranstaltung>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1818s-II.C.I.1.b.x">
               <titel>*) Examinir-Uebungen über die gesammte Anatomie</titel>
 
-              <veranstaltung xml:id="v-1818s-II.C.I.1.b.x-001">hält
-              <ders>derselbe</ders> <zeit>7 U. 4 T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1818s-II.C.I.1.b.x-001">hält <ders
+              ref="rosenmueller_jc">derselbe</ders> <zeit>7 U. 4
+              T.</zeit></veranstaltung>
             </sachgruppe>
           </sachgruppe>
 
@@ -2253,10 +2258,10 @@ aber nicht auf Schilling-->
             <sachgruppe xml:id="sg-1818s-II.C.I.2.h.bb">
               <titel>bb) Verbandlehre.</titel>
 
-              <veranstaltung xml:id="v-1818s-II.C.I.2.h.bb-001"><dozent>Hofr.
-              <funktion>P. O.</funktion> <grad>D.</grad>
-              <nachname>Rosenmüller</nachname></dozent>, <zeit>1 U. 4
-              T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1818s-II.C.I.2.h.bb-001"><dozent
+              ref="rosenmueller_jc">Hofr. <funktion>P. O.</funktion>
+              <grad>D.</grad> <nachname>Rosenmüller</nachname></dozent>,
+              <zeit>1 U. 4 T.</zeit></veranstaltung>
 
               <veranstaltung xml:id="v-1818s-II.C.I.2.h.bb-002"><dozent
               ref="ritterich_fp"><grad>D.</grad>

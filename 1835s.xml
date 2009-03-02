@@ -65,8 +65,8 @@
         <sachgruppe xml:id="sg-1835s-I.I.1.001">
           <titel>Sankrita-Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1835s-I.I.1.001-001"><dozent><nachname>Rosenmüller</nachname>,
+          <veranstaltung xml:id="v-1835s-I.I.1.001-001"><dozent
+          ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
           O.</funktion></dozent>, <thema kontext="sachgruppe"> nach
           <schrift><autor>Bopp</autor>'s <titel>Kritischer Grammatik der
@@ -78,8 +78,8 @@
         <sachgruppe xml:id="sg-1835s-I.I.1.002">
           <titel>Arabische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1835s-I.I.1.002-001"><dozent><nachname>Rosenmüller</nachname>,
+          <veranstaltung xml:id="v-1835s-I.I.1.002-001"><dozent
+          ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
           O.</funktion></dozent>, <zeit>11 U. 2 T.</zeit></veranstaltung>
         </sachgruppe>
@@ -447,11 +447,11 @@
         d. Z. <funktion>Dechant</funktion></dozent>, <siehe>s.
         Theologie</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung
-        xml:id="v-1835s-I.II.3-001"><dozent><nachname>Rosenmüller</nachname>,
-        <grad>D.</grad> <nachnamenpräfix>E. F. K.</nachnamenpräfix>,
-        <funktion>P. O.</funktion></dozent>, <thema>heilige Alterthümer der
-        Hebräer, nach s. Sätzen</thema>, <zeit>1 U. 4 T.</zeit>
+        <veranstaltung xml:id="v-1835s-I.II.3-001"><dozent
+        ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
+        <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
+        O.</funktion></dozent>, <thema>heilige Alterthümer der Hebräer, nach
+        s. Sätzen</thema>, <zeit>1 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <seite>5</seite>
@@ -1443,15 +1443,14 @@ Welche Tage sind mit "2 T." gemeint?-->
       <sachgruppe xml:id="sg-1835s-II.B.003">
         <titel>Rechtsgeschichte.</titel>
 
-        <veranstaltung
-        xml:id="v-1835s-II.B.003-001"><dozent><nachname>Schilling</nachname>,
-        <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P.
-        O.</funktion></dozent>, <thema>äußere Geschichte des römischen
-        Rechts</thema>, <zeit>3 U. 4 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1835s-II.B.003-001"><dozent
+        ref="schilling_fa"><nachname>Schilling</nachname>, <grad>D.</grad>
+        <vorname>F. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <thema>äußere Geschichte des römischen Rechts</thema>, <zeit>3 U. 4
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><ders>Derselbe</ders>, <thema>innere Geschichte
-        des römischen Rechts</thema>, <siehe>s.
+        <veranstaltungsverweis><ders ref="schilling_fa">Derselbe</ders>,
+        <thema>innere Geschichte des römischen Rechts</thema>, <siehe>s.
         Institutionen</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><dozent
@@ -1551,8 +1550,8 @@ Welche Tage sind mit "2 T." gemeint?-->
             <sachgruppe xml:id="sg-1835s-II.B.II.I.1.003">
               <titel>Institutionen.</titel>
 
-              <veranstaltung
-              xml:id="v-1835s-II.B.II.I.1.003-001"><dozent><nachname>Schilling</nachname>,
+              <veranstaltung xml:id="v-1835s-II.B.II.I.1.003-001"><dozent
+              ref="schilling_fa"><nachname>Schilling</nachname>,
               <grad>D.</grad> <vorname>F. A.</vorname>, <funktion>P.
               O.</funktion></dozent>, <thema>Institutionen in Verbindung mit
               der innern Geschichte des römischen Rechts, <schrift>nach s.
@@ -1671,8 +1670,8 @@ Welche Tage sind mit "2 T." gemeint?-->
               eignen Sätzen</schrift></thema>, <zeit>11 U. 2 T.</zeit>
               <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1835s-II.B.II.I.002.1-003"><dozent><nachname>Schilling</nachname>,
+              <veranstaltung xml:id="v-1835s-II.B.II.I.002.1-003"><dozent
+              ref="schilling_b"><nachname>Schilling</nachname>,
               <grad>D.</grad> <vorname>B.</vorname>, <funktion>P.
               E.</funktion></dozent>, <thema>über das gemeine in Deutschland
               geltende Kirchenrecht, <schrift>nach s.
@@ -1703,8 +1702,8 @@ Welche Tage sind mit "2 T." gemeint?-->
             <sachgruppe xml:id="sg-1835s-II.B.II.I.002.3">
               <titel>3) Lehnrecht.</titel>
 
-              <veranstaltung
-              xml:id="v-1835s-II.B.II.I.002.3-001"><dozent><nachname>Schilling</nachname>,
+              <veranstaltung xml:id="v-1835s-II.B.II.I.002.3-001"><dozent
+              ref="schilling_b"><nachname>Schilling</nachname>,
               <grad>D.</grad> <vorname>B.</vorname>, <funktion>P.
               E.</funktion></dozent>, <thema>das gemeine und sächsische
               Lehnrecht, nach s. Sätzen</thema>, <zeit>9 U. 4
@@ -1858,18 +1857,17 @@ http://histvv.uni-leipzig.de/scans/1873-ss/002.png.--></veranstaltung>
           <sachgruppe xml:id="sg-1835s-II.B.II.III.1">
             <titel>1) Examinir-Uebungen.</titel>
 
-            <veranstaltung
-            xml:id="v-1835s-II.B.II.III.1-001"><dozent><nachname>Schilling</nachname>,
-            <grad>D.</grad> <vorname>B.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>über einzelne ausgewählte Theile
-            des römischen Privatrechts</thema>, <zeit>1 U. 2 T.</zeit>
+            <veranstaltung xml:id="v-1835s-II.B.II.III.1-001"><dozent
+            ref="schilling_b"><nachname>Schilling</nachname>, <grad>D.</grad>
+            <vorname>B.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>über einzelne ausgewählte Theile des römischen
+            Privatrechts</thema>, <zeit>1 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1835s-II.B.II.III.1-002"><ders>Derselbe</ders>,
-            <thema>über die gesammte theoretische Rechtswissenschaft</thema>,
-            <zeit>in den best. St.</zeit>
-            <modus>privatissime</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1835s-II.B.II.III.1-002"><ders
+            ref="schilling_b">Derselbe</ders>, <thema>über die gesammte
+            theoretische Rechtswissenschaft</thema>, <zeit>in den best.
+            St.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung xml:id="v-1835s-II.B.II.III.1-003"><dozent
             ref="berger_a"><nachname>Berger</nachname>, <grad>D.</grad>

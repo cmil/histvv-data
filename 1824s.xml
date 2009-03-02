@@ -108,8 +108,8 @@
         <sachgruppe xml:id="sg-1824s-I.I.1.003">
           <titel>Syrische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1824s-I.I.1.003-001"><dozent><nachname>Rosenmüller</nachname>,
+          <veranstaltung xml:id="v-1824s-I.I.1.003-001"><dozent
+          ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>M.</grad> <vorname>E. F. C.</vorname>, <funktion>P.
           O.</funktion></dozent>, <thema>die Anfangsgründe und grammatische
           Analyse der Syrischen Chrestomathie von <gesperrt>Kirsch</gesperrt>
@@ -168,11 +168,11 @@
           <sachgruppe xml:id="sg-1824s-I.I.2.a.003">
             <titel>Erklärung Lateinischer Schriftsteller.</titel>
 
-            <veranstaltung
-            xml:id="v-1824s-I.I.2.a.003-001"><dozent><nachname>Rost</nachname>,
-            <vorname>F. W. E.</vorname>, <funktion>P. E.</funktion></dozent>,
-            <thema>über des Plautus <antiqua>Mostellaria</antiqua></thema>,
-            <zeit>5 U. 2 T.</zeit>, <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1824s-I.I.2.a.003-001"><dozent
+            ref="rost_fwe"><nachname>Rost</nachname>, <vorname>F. W.
+            E.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>über des
+            Plautus <antiqua>Mostellaria</antiqua></thema>, <zeit>5 U. 2
+            T.</zeit>, <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung xml:id="v-1824s-I.I.2.a.003-002"><dozent
             ref="beier_k"><nachname>Beier</nachname>, <vorname>C.</vorname>,
@@ -207,12 +207,11 @@
             Griechischen Gesellschaft</thema>, <zeit>zu den gewöhnlichen T.
             und St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1824s-I.I.2.a.004-003"><dozent><nachname>Rost</nachname>,
-            <vorname>F. W. E.</vorname>, <funktion>P. E.</funktion></dozent>,
-            <thema>Uebungen im Latein. Schreiben, Sprechen u.
-            Disputiren</thema>, <zeit>5 U. Dienst. u.
-            Freit.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1824s-I.I.2.a.004-003"><dozent
+            ref="rost_fwe"><nachname>Rost</nachname>, <vorname>F. W.
+            E.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>Uebungen
+            im Latein. Schreiben, Sprechen u. Disputiren</thema>, <zeit>5 U.
+            Dienst. u. Freit.</zeit></veranstaltung>
 
             <veranstaltung
             xml:id="v-1824s-I.I.2.a.004-004"><dozent><nachname>Weiske</nachname>,
@@ -352,8 +351,8 @@
         nebst einer kurzen Geschichte der Juden</thema>, <zeit>2 U. 4
         T.</zeit>, <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1824s-I.II.3-003"><dozent><nachname>Rosenmüller</nachname>,
+        <veranstaltung xml:id="v-1824s-I.II.3-003"><dozent
+        ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
         <grad>D.</grad> <vorname>E. F. C.</vorname>, <funktion>P.
         O.</funktion></dozent>, <thema>über die Staats- und bürgerliche
         Verfassung der alten Hebräer, nach vorausgeschickter Beschreibung von
@@ -827,12 +826,12 @@
             <thema>über ausgewählte Psalmen</thema>, <zeit>9 U. 4 T.</zeit>,
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1824s-II.A.I.1.002-002"><dozent><nachname>Rost</nachname>,
-            <vorname>F. W. E.</vorname>, <funktion>P. E.</funktion></dozent>,
-            <thema>über den Jesus Sirach, vorzüglich mit Rücksicht auf die
-            Eigenthümlichkeit der Griech. Sprache der LXX.</thema>, <zeit>4 U.
-            Mont. u. Dienst.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1824s-II.A.I.1.002-002"><dozent
+            ref="rost_fwe"><nachname>Rost</nachname>, <vorname>F. W.
+            E.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>über den
+            Jesus Sirach, vorzüglich mit Rücksicht auf die Eigenthümlichkeit
+            der Griech. Sprache der LXX.</thema>, <zeit>4 U. Mont. u.
+            Dienst.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1824s-II.A.I.1.002-003"><dozent
             ref="hoepfner_ef"><nachname>Höpfner</nachname>, <grad>M.</grad>
@@ -1594,7 +1593,8 @@
             <thema>über die Pandecten</thema>, <zeit>2 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltungsgruppe><dozent><nachname>Schilling</nachname>,
+            <veranstaltungsgruppe><dozent
+            ref="schilling_b"><nachname>Schilling</nachname>,
             <vorname>B.</vorname>, <funktion>I. U. B.</funktion></dozent>,
             <veranstaltung xml:id="v-1824s-II.B.II.C.1-004"><thema>1) über das
             <scil

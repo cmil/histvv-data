@@ -43,10 +43,11 @@
         <sachgruppe xml:id="sg-1817w-I.A.1.a">
           <titel>a) Arabische Sprache.</titel>
 
-          <veranstaltung xml:id="v-1817w-I.A.1.a-001"><dozent><funktion>P.
-          O.</funktion> <nachname>Rosenmüller</nachname></dozent>,
-          <thema><notiz betreff="fortsetzung">Forts.</notiz> der arabischen
-          Sprachlehre, mit Uebungen im Analysiren</thema>, <zeit>1 U. 2
+          <veranstaltung xml:id="v-1817w-I.A.1.a-001"><dozent
+          ref="rosenmueller_efk"><funktion>P. O.</funktion>
+          <nachname>Rosenmüller</nachname></dozent>, <thema><notiz
+          betreff="fortsetzung">Forts.</notiz> der arabischen Sprachlehre, mit
+          Uebungen im Analysiren</thema>, <zeit>1 U. 2
           T.</zeit></veranstaltung>
         </sachgruppe>
 
@@ -122,8 +123,8 @@
           Agricola</thema>, <zeit>3 U. Dienst. u. Freyt.</zeit>
           <modus>öffentl.</modus></veranstaltung>
 
-          <veranstaltungsgruppe><dozent><funktion>P. E.</funktion>
-          <nachname>Rost</nachname></dozent>, <veranstaltung
+          <veranstaltungsgruppe><dozent ref="rost_fwe"><funktion>P.
+          E.</funktion> <nachname>Rost</nachname></dozent>, <veranstaltung
           xml:id="v-1817w-I.A.2.b-002"><thema>über des Plautus Perser</thema>,
           <zeit>4 U. 2 T.</zeit> <modus>öff.</modus></veranstaltung> u.
           <veranstaltung xml:id="v-1817w-I.A.2.b-003"><thema>über das 1. B.
@@ -182,8 +183,8 @@
             <nachname>Beck</nachname></dozent>, <zeit>4 U. Dienst. u.
             Freyt.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1817w-I.A.2.c.xx-002"><dozent><funktion>P. E.</funktion>
+            <veranstaltung xml:id="v-1817w-I.A.2.c.xx-002"><dozent
+            ref="rost_fwe"><funktion>P. E.</funktion>
             <nachname>Rost</nachname></dozent>, <zeit>5 U. 2
             T.</zeit></veranstaltung>
 
@@ -849,10 +850,10 @@
                 <titel>α) in das A. T.</titel>
 
                 <veranstaltung
-                xml:id="v-1817w-II.A.I.1.a.aa.alpha-001"><dozent><funktion>P.
-                O.</funktion> <nachname>Rosenmüller</nachname></dozent>,
-                <zeit>1 U. Mont. u. Donn.</zeit>
-                <modus>öff.</modus></veranstaltung>
+                xml:id="v-1817w-II.A.I.1.a.aa.alpha-001"><dozent
+                ref="rosenmueller_efk"><funktion>P. O.</funktion>
+                <nachname>Rosenmüller</nachname></dozent>, <zeit>1 U. Mont. u.
+                Donn.</zeit> <modus>öff.</modus></veranstaltung>
               </sachgruppe>
 
               <sachgruppe xml:id="sg-1817w-II.A.I.1.a.aa.beta">
@@ -890,10 +891,10 @@
               <notiz betreff="fortsetzung">Forts.</notiz></thema> <zeit>2 U.
               Mont. u. Donn.</zeit> <modus>öff.</modus></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1817w-II.A.I.1.b.aa-002"><dozent><funktion>P.
-              O.</funktion> <nachname>Rosenmüller</nachname></dozent>,
-              <thema>über ausgewählte Psalmen, <notiz
+              <veranstaltung xml:id="v-1817w-II.A.I.1.b.aa-002"><dozent
+              ref="rosenmueller_efk"><funktion>P. O.</funktion>
+              <nachname>Rosenmüller</nachname></dozent>, <thema>über
+              ausgewählte Psalmen, <notiz
               betreff="fortsetzung">Forts.</notiz></thema> <zeit>1 U. Dienst.
               u. Freyt.</zeit> <modus>öff.</modus></veranstaltung>
 
@@ -1219,7 +1220,8 @@
                   T.</zeit>, <thema>n. Heineccius</thema>.</veranstaltung>
 
                   <veranstaltung
-                  xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-008"><dozent><grad>M.</grad>
+                  xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-008"><dozent
+                  ref="schilling_fa"><grad>M.</grad>
                   <nachname>Schilling</nachname></dozent>, <thema>über
                   Institutionen u. innere Rechtsgeschichte, nach des Hrn.
                   OHGR. Haubold's Instt. iur. Rom. priv.
@@ -1683,8 +1685,8 @@
             <nachname>Beck</nachname></dozent>, <zeit>2
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1817w-II.B.II.2.xxx-004"><dozent><grad>M.</grad>
+            <veranstaltung xml:id="v-1817w-II.B.II.2.xxx-004"><dozent
+            ref="schilling_fa"><grad>M.</grad>
             <nachname>Schilling</nachname></dozent>, <zeit>in zu best. St. 2
             T.</zeit></veranstaltung>
 
@@ -1740,26 +1742,28 @@
                   <titel>α) Eingeweidelehre und Muskellehre.</titel>
 
                   <veranstaltung
-                  xml:id="v-1817w-II.C.II.1.a.001.aa.alpha-001"><dozent>Hofr.
-                  <funktion>P. O.</funktion> <grad>D.</grad>
-                  <nachname>Rosenmüller</nachname></dozent>, <zeit>10 U. 4
-                  T.</zeit> <modus>öffentl.</modus></veranstaltung>
+                  xml:id="v-1817w-II.C.II.1.a.001.aa.alpha-001"><dozent
+                  ref="rosenmueller_jc">Hofr. <funktion>P. O.</funktion>
+                  <grad>D.</grad> <nachname>Rosenmüller</nachname></dozent>,
+                  <zeit>10 U. 4 T.</zeit>
+                  <modus>öffentl.</modus></veranstaltung>
                 </sachgruppe>
 
                 <sachgruppe xml:id="sg-1817w-II.C.II.1.a.001.aa.beta">
                   <titel>β) Gefässlehre und Nervenlehre.</titel>
 
                   <veranstaltung
-                  xml:id="v-1817w-II.C.II.1.a.001.aa.beta-001"><ders>Derselbe</ders>,
-                  <zeit>10 U. 2 T.</zeit></veranstaltung>
+                  xml:id="v-1817w-II.C.II.1.a.001.aa.beta-001"><ders
+                  ref="rosenmueller_jc">Derselbe</ders>, <zeit>10 U. 2
+                  T.</zeit></veranstaltung>
 
                   <sachgruppe xml:id="sg-1817w-II.C.II.1.a.001.aa.beta.x">
                     <titel>*) Uebungen der praktischen Anatomie</titel>
 
                     <veranstaltung
                     xml:id="v-1817w-II.C.II.1.a.001.aa.beta.x-001">stellt
-                    <ders>derselbe</ders> <zeit>2-4 U. 6 T.</zeit>
-                    an.</veranstaltung>
+                    <ders ref="rosenmueller_jc">derselbe</ders> <zeit>2-4 U. 6
+                    T.</zeit> an.</veranstaltung>
                   </sachgruppe>
                 </sachgruppe>
               </sachgruppe>

@@ -974,7 +974,7 @@
       bis 5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1894w-III-035"><thema>Ueber
-      Herzkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Herzkrankheiten</thema>: <dozent ref="romberg_e"><grad>D. med.</grad>
       <nachname>Romberg</nachname></dozent>, <zeit>Donnerst. 5-6 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
@@ -1125,9 +1125,9 @@
 
       <veranstaltung xml:id="v-1894w-III-059"><thema>Funktionsprüfungen des
       Auges (Ueber die Anomalien der Refraction und Accommodation des Auges)
-      mit praktischen Uebungen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Sattler</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mittw. 6-7 U. u. Sonnab. 12-1 U.</zeit>,
+      mit praktischen Uebungen</thema>: <dozent ref="sattler_h"><grad>D.
+      med.</grad> <nachname>Sattler</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mittw. 6-7 U. u. Sonnab. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1894w-III-060"><thema>Funktionsprüfung des
@@ -1268,9 +1268,10 @@
       <zeit>tägl. 10½-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1894w-III-083"><thema>Cursus der Percussion und
-      Auscultation für Anfänger</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Romberg</nachname></dozent>, <zeit>Mont., Donnerst. u. Freit.
-      8-9 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Auscultation für Anfänger</thema>: <dozent ref="romberg_e"><grad>D.
+      med.</grad> <nachname>Romberg</nachname></dozent>, <zeit>Mont.,
+      Donnerst. u. Freit. 8-9 U. Vorm.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1894w-III-084"><thema>Cursus der Percussion und
       Auscultation für Geübtere</thema>: <dozent ref="his_w_jr"><grad>D.
@@ -1325,7 +1326,7 @@
       <zeit>tägl. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1894w-III-093"><thema>Klinischer Unterricht in
-      der Augenheilkunde</thema>: <dozent><grad>D. med.</grad>
+      der Augenheilkunde</thema>: <dozent ref="sattler_h"><grad>D. med.</grad>
       <nachname>Sattler</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich (ausser Sonnab. u. Sonnt.) 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -2701,14 +2702,14 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894w-IV.D-008"><thema>Rafael</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. 11-12 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        <dozent ref="schmarsow_a"><grad>D. ph.</grad>
+        <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Sonnab. 11-12 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894w-IV.D-009"><thema>Geschichte der
-        niederländischen Malerei</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. u. Donnerst. 11-12 U.</zeit>,
+        niederländischen Malerei</thema>: <dozent ref="schmarsow_a"><grad>D.
+        ph.</grad> <nachname>Schmarsow</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894w-IV.D-010"><thema>Geschichte der
@@ -2771,10 +2772,10 @@
         <thema>Uebungen über die Meisterwerke Rafaels (für ausserordentliche
         Mitglieder)</thema></veranstaltung>; <seite>30</seite><veranstaltung
         xml:id="v-1894w-IV.D-017">b) <thema>Kritische Uebungen (für
-        ordentliche Mitglieder)</thema></veranstaltung>: <dozent><grad>D.
-        ph.</grad> <nachname>Schmarsow</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>je zwei Stunden nach Verabredung</zeit>,
-        <modus>privatissime</modus>, aber
+        ordentliche Mitglieder)</thema></veranstaltung>: <dozent
+        ref="schmarsow_a"><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>je zwei Stunden nach
+        Verabredung</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltungsgruppe>. - <veranstaltung
         xml:id="v-1894w-IV.D-018">2. <thema>Untersuchungen deutscher
         Kunstwerke des Mittelalters und der Renaissancezeit</thema>: <dozent
@@ -3026,7 +3027,7 @@
         Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Einleitung in die
-        Agriculturchemie</thema>: <dozent><grad>D. ph.</grad>
+        Agriculturchemie</thema>: <dozent ref="sachsse_r"><grad>D. ph.</grad>
         <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
 
@@ -3096,15 +3097,16 @@
         <titel>F. Mathematik und Astronomie.</titel>
 
         <veranstaltung xml:id="v-1894w-IV.F-001"><thema>Theorie der
-        elliptischen Functionen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Dienst. bis Freit. 11-12 U.</zeit>,
+        elliptischen Functionen</thema>: <dozent ref="scheibner_w"><grad>D.
+        ph.</grad> <nachname>Scheibner</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Dienst. bis Freit. 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894w-IV.F-002"><thema>Uebungen zur Theorie
-        der elliptischen Functionen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Scheibner</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. 10-11 U<korrektur>.</korrektur></zeit>,
+        der elliptischen Functionen</thema>: <dozent
+        ref="scheibner_w"><grad>D. ph.</grad> <nachname>Scheibner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont. 10-11
+        U<korrektur>.</korrektur></zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894w-IV.F-003"><thema>Fortsetzung der
@@ -3297,7 +3299,7 @@
         Mittw. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894w-IV.G-016"><thema>Einleitung in die
-        Agricultur-Chemie</thema>: <dozent><grad>D. ph.</grad>
+        Agricultur-Chemie</thema>: <dozent ref="sachsse_r"><grad>D. ph.</grad>
         <nachname>Sachsse</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont. 8-10 U. u. Sonnab. 9-10 U<korrektur>.</korrektur></zeit>,
         <modus>privatim</modus>.</veranstaltung>

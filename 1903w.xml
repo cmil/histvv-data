@@ -1417,10 +1417,10 @@
       <seite>16</seite>
 
       <veranstaltung xml:id="v-1903w-III-081"><thema>Die Funktionsprüfungen
-      des Auges mit praktischen Übungen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Sattler</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mittw. 6-7 U. und Sonnab. 12-1 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      des Auges mit praktischen Übungen</thema>: <dozent
+      ref="sattler_h"><grad>D. med.</grad> <nachname>Sattler</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 6-7 U. und Sonnab.
+      12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1903w-III-082"><thema>Funktionsprüfung der
       Augen</thema>: <dozent><grad>D. med.</grad>
@@ -1588,7 +1588,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1903w-III-109"><thema>Klinischer Unterricht in
-      der Augenheilkunde</thema>: <dozent><grad>D. med.</grad>
+      der Augenheilkunde</thema>: <dozent ref="sattler_h"><grad>D. med.</grad>
       <nachname>Sattler</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>fünfmal wöchentl. 12-1 U. (Freitags Demonstration dia und
       episkopischer Projektionen)</zeit>,
@@ -2989,8 +2989,8 @@
         4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1903w-IV.C-017"><thema>Geschichte der
-        französischen Revolution</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Salomon</nachname>, <funktion>P. E.
+        französischen Revolution</thema>: <dozent ref="salomon_f"><grad>D.
+        ph.</grad> <nachname>Salomon</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>Dienst. u. Freit. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -3013,8 +3013,8 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1903w-IV.C-021"><thema>Geschichte der
-        orientalischen Frage</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Salomon</nachname>, <funktion>P. E.
+        orientalischen Frage</thema>: <dozent ref="salomon_f"><grad>D.
+        ph.</grad> <nachname>Salomon</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>Mittw. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -3202,10 +3202,11 @@
             <gebühr>gratis</gebühr>.</veranstaltung>
 
             <veranstaltung xml:id="v-1903w-IV.C.001.B-008"><thema>Übungen zur
-            Geschichte der französischen Revolution</thema>: <dozent><grad>D.
-            ph.</grad> <nachname>Salomon</nachname>, <funktion>P. E.
-            des.</funktion></dozent>, <zeit>Freit. 7¼-8½ U. Ab.</zeit>,
-            <modus>publice</modus> u. <gebühr>gratis</gebühr>.</veranstaltung>
+            Geschichte der französischen Revolution</thema>: <dozent
+            ref="salomon_f"><grad>D. ph.</grad> <nachname>Salomon</nachname>,
+            <funktion>P. E. des.</funktion></dozent>, <zeit>Freit. 7¼-8½ U.
+            Ab.</zeit>, <modus>publice</modus> u.
+            <gebühr>gratis</gebühr>.</veranstaltung>
 
             <veranstaltungsverweis><thema>Kirchengeschichtliches
             Seminar</thema>: <dozent ref="brieger_jft"><grad>D. th. et
@@ -3220,7 +3221,8 @@
             Fakultät.</siehe></veranstaltungsverweis>
 
             <veranstaltungsverweis><thema>Kunstgeschichtliche Übungen
-            (Kunsthistorisches Seminar)</thema>: <dozent><grad>D. ph.</grad>
+            (Kunsthistorisches Seminar)</thema>: <dozent
+            ref="schmarsow_a"><grad>D. ph.</grad>
             <nachname>Schmarsow</nachname>, <funktion>P.
             O.</funktion></dozent> <siehe>Siehe Abschnitt
             D.</siehe></veranstaltungsverweis>
@@ -3329,13 +3331,14 @@
         mittelalterlichen und neueren Kunstgeschichte (Einführung in die
         Kunstwissenschaft, historischer Teil, für Studierende aller
         Fakultäten) mit anschliessenden Übungen und Demonstrationen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Schmarsow</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 11-12
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="schmarsow_a"><grad>D. ph.</grad>
+        <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont. u. Donnerst. 11-12 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1903w-IV.D-007"><thema>Die Landschaftsmalerei
         des 19. Jahrhunderts (Geschichte und Aesthetik), in seminaristischer
-        Behandlung</thema>: <dozent><grad>D. ph.</grad>
+        Behandlung</thema>: <dozent ref="schmarsow_a"><grad>D. ph.</grad>
         <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Dienst. u. Freit. 11-12 U.</zeit>,
         <modus>privatissime</modus>.</veranstaltung>
@@ -3418,7 +3421,7 @@
         <sachgruppe xml:id="sg-1903w-IV.D.002">
           <titel>Kunsthistorisches Seminar.</titel>
 
-          <veranstaltungsgruppe><dozent><grad>D. ph.</grad>
+          <veranstaltungsgruppe><dozent ref="schmarsow_a"><grad>D. ph.</grad>
           <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>:
           <veranstaltung xml:id="v-1903w-IV.D.002-001">I.
           <thema>Demonstrationen zur Kunstgeschichte des Mittelalters und der
