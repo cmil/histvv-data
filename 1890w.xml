@@ -116,8 +116,8 @@
 
       <veranstaltung xml:id="v-1890w-I-009"><thema>Auslegung und
       biblisch-theologische Beleuchtung der Apostelgeschichte des
-      Lucas</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-      <nachname>Schnedermann</nachname>, <funktion>P. E.
+      Lucas</thema>: <dozent ref="schnedermann_g"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Schnedermann</nachname>, <funktion>P. E.
       des.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
       10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -280,8 +280,8 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-I-034"><thema>Dogmatische
-      Uebungen</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-      <nachname>Schnedermann</nachname>, <funktion>P. E.
+      Uebungen</thema>: <dozent ref="schnedermann_g"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Schnedermann</nachname>, <funktion>P. E.
       des.</funktion></dozent>, <zeit>Donnerst. ½8-½10 U. Ab.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -314,8 +314,8 @@
       original=",">.</korrektur></veranstaltungsgruppe>
 
       <veranstaltung xml:id="v-1890w-I-039"><thema>Katechetisches
-      Seminar</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-      <nachname>Schnedermann</nachname>, <funktion>P. E.
+      Seminar</thema>: <dozent ref="schnedermann_g"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Schnedermann</nachname>, <funktion>P. E.
       des.</funktion></dozent>, <zeit>Mittw. 3-5 U.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -344,9 +344,9 @@
       <siehe>Siehe Philosophische Facultät A.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Allgemeine Religionsgeschichte, <notiz
-      betreff="fortsetzung">II. Hälfte</notiz></thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Seydel</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      betreff="fortsetzung">II. Hälfte</notiz></thema>: <dozent
+      ref="seydel_m"><grad>D. ph.</grad> <nachname>Seydel</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       A.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Geschichte der deutschen
@@ -366,10 +366,10 @@
       Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-II-002"><thema>Institutionen und äussere
-      Geschichte des römischen Rechts</thema>: <dozent><grad>D. jur. et
-      ph.</grad> <vorname>Ad.</vorname> <nachname>Schmidt</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>täglich 11-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Geschichte des römischen Rechts</thema>: <dozent
+      ref="schmidt_adolf"><grad>D. jur. et ph.</grad> <vorname>Ad.</vorname>
+      <nachname>Schmidt</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>täglich 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-II-003"><thema>Innere Römische
       Rechtsgeschichte nebst Römischem Civilprocess</thema>: <dozent
@@ -387,10 +387,10 @@
       <veranstaltung xml:id="v-1890w-II-005"><thema>Pandekten <notiz
       betreff="fortsetzung">II. Theil</notiz> (Familienrecht und Erbrecht) mit
       Berücksichtigung des Entwurfs eines Gesetzbuches für das deutsche Reich;
-      nach dem Lehrbuche von Arndts</thema>: <dozent><grad>D. jur. et
-      ph.</grad> <vorname>Ad.</vorname> <nachname>Schmidt</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>täglich 10-11 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      nach dem Lehrbuche von Arndts</thema>: <dozent
+      ref="schmidt_adolf"><grad>D. jur. et ph.</grad> <vorname>Ad.</vorname>
+      <nachname>Schmidt</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>täglich 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-II-006"><thema>Pandekten <notiz
       betreff="fortsetzung">II. Theil</notiz> (Familien- und Erbrecht) mit
@@ -476,7 +476,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-II-019"><thema>Summarische Processe und
-      Konkursprocess</thema> <dozent><grad>D. jur.</grad>
+      Konkursprocess</thema> <dozent ref="schmidt_r"><grad>D. jur.</grad>
       <vorname>Rich.</vorname> <nachname>Schmidt</nachname>, <funktion>P. E.
       des.</funktion></dozent>, <zeit>Dienst. u. Freit. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -495,7 +495,7 @@
 
       <veranstaltung
       xml:id="v-1890w-II-022"><thema>Zwangsvollstreckungsrecht</thema>:
-      <dozent><grad>D. jur.</grad> <vorname>Rich.</vorname>
+      <dozent ref="schmidt_r"><grad>D. jur.</grad> <vorname>Rich.</vorname>
       <nachname>Schmidt</nachname>, <funktion>P. E. des.</funktion></dozent>,
       <zeit>Dienst. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -573,10 +573,10 @@
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-II-035"><thema>Civilprocess-Repetitorium
-      mit praktischen Uebungen</thema>: <dozent><grad>D. jur.</grad>
-      <vorname>Rich.</vorname> <nachname>Schmidt</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Mont. u. Donnerst. 5-6 U.</zeit>,
-      <modus>privatissime</modus>.</veranstaltung>
+      mit praktischen Uebungen</thema>: <dozent ref="schmidt_r"><grad>D.
+      jur.</grad> <vorname>Rich.</vorname> <nachname>Schmidt</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>Mont. u. Donnerst. 5-6
+      U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-II-036"><thema>Civilrechtliches <notiz
       betreff="modus">Privatissimum</notiz> (Repetitorium mit
@@ -986,9 +986,10 @@
       Stunden</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-III-056"><thema>Pathologie und Therapie
-      der Augenkrankheiten</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Schröter</nachname></dozent>, <zeit>zweistündig, an zu best.
-      Tagen 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      der Augenkrankheiten</thema>: <dozent ref="schroeter_pj"><grad>D.
+      med.</grad> <nachname>Schröter</nachname></dozent>, <zeit>zweistündig,
+      an zu best. Tagen 6-7 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <seite>12</seite>
 
@@ -1004,14 +1005,14 @@
 
       <veranstaltung xml:id="v-1890w-III-058"><thema>Augenärztliche
       Propädeutik; sämmtliche Untersuchungsmethoden einschliesslich
-      Augenspiegelübungen</thema>: <dozent><grad>D. med.</grad>
+      Augenspiegelübungen</thema>: <dozent ref="schoen_w"><grad>D. med.</grad>
       <nachname>Schoen</nachname></dozent>, <zeit>Dienst. u. Freit. 12-1 U.,
       u. Donnerst. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-III-059"><thema>Anleitung zur
-      Augenuntersuchung</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Schröter</nachname></dozent>, <zeit>Mittw. 2-3 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      Augenuntersuchung</thema>: <dozent ref="schroeter_pj"><grad>D.
+      med.</grad> <nachname>Schröter</nachname></dozent>, <zeit>Mittw. 2-3
+      U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung
       xml:id="v-1890w-III-060"><thema>Augenspiegelcursus</thema>: <dozent
@@ -1020,19 +1021,21 @@
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-III-061"><thema>Augenspiegelcursus (in
-      sechswöchentlichen Cursen)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Schröter</nachname></dozent>, <zeit>zweistündig, an zu best.
-      Tagen, 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      sechswöchentlichen Cursen)</thema>: <dozent ref="schroeter_pj"><grad>D.
+      med.</grad> <nachname>Schröter</nachname></dozent>, <zeit>zweistündig,
+      an zu best. Tagen, 6-7 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-III-062"><thema>Augenspiegelcursus
-      (sechswöchentl.)</thema>: <dozent><grad>D. med.</grad>
+      (sechswöchentl.)</thema>: <dozent ref="schwarz_o"><grad>D. med.</grad>
       <nachname>Schwarz</nachname></dozent>, <zeit>dreist., an zu best. Tagen
       u. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-III-063"><thema>Die Refractionsanomalien
-      und die Funktionskrankheiten des Auges</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Schoen</nachname></dozent>, <zeit>an zu best. Tage
-      u. zu best. Stunde</zeit>, <modus>publice</modus>.</veranstaltung>
+      und die Funktionskrankheiten des Auges</thema>: <dozent
+      ref="schoen_w"><grad>D. med.</grad>
+      <nachname>Schoen</nachname></dozent>, <zeit>an zu best. Tage u. zu best.
+      Stunde</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-III-064"><thema>Specielle Pathologie und
       Therapie der Ohrenkrankheiten</thema>: <dozent><grad>D. med.</grad>
@@ -1303,15 +1306,16 @@
         <sachgruppe xml:id="sg-1890w-III.001.d">
           <titel>d) Augenkrankheiten.</titel>
 
-          <veranstaltung xml:id="v-1890w-III.001.d-001"><dozent><grad>D.
-          med.</grad> <nachname>Schröter</nachname></dozent>. (<ort>Lange Str.
+          <veranstaltung xml:id="v-1890w-III.001.d-001"><dozent
+          ref="schroeter_pj"><grad>D. med.</grad>
+          <nachname>Schröter</nachname></dozent>. (<ort>Lange Str.
           25.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1890w-III.001.d-002"><dozent><grad>D.
-          med.</grad> <nachname>Schoen</nachname></dozent>, <zeit>Mont.,
-          Mittw., Donnerst. u. Sonnab. 12-1 U.</zeit>,
-          <modus>privatim</modus>. (<ort>Windm.-Str.
-          32.</ort>)</veranstaltung>
+          <veranstaltung xml:id="v-1890w-III.001.d-002"><dozent
+          ref="schoen_w"><grad>D. med.</grad>
+          <nachname>Schoen</nachname></dozent>, <zeit>Mont., Mittw., Donnerst.
+          u. Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.
+          (<ort>Windm.-Str. 32.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1890w-III.001.d-003"><dozent><grad>D.
           med.</grad> <nachname>Küster</nachname></dozent>, <thema>(für
@@ -1320,9 +1324,10 @@
           Tagen, 11-12 U., bez. 4-5 U.</zeit>, <modus>privatissime</modus>.
           (<ort>Grimm. Str. 17.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1890w-III.001.d-004"><dozent><grad>D.
-          med.</grad> <nachname>Schwarz</nachname></dozent>,
-          <zeit>dreistündig, an zu best. Tagen, 12-1 U.</zeit>,
+          <veranstaltung xml:id="v-1890w-III.001.d-004"><dozent
+          ref="schwarz_o"><grad>D. med.</grad>
+          <nachname>Schwarz</nachname></dozent>, <zeit>dreistündig, an zu
+          best. Tagen, 12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
         </sachgruppe>
 
@@ -1465,10 +1470,10 @@
         Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.A-008"><thema>Die Hauptfragen der
-        philosophischen Ethik (Moral- und Rechtsphilosophie)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Seydel</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 10-11 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        philosophischen Ethik (Moral- und Rechtsphilosophie)</thema>: <dozent
+        ref="seydel_m"><grad>D. ph.</grad> <nachname>Seydel</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 10-11
+        U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.A-009"><thema>Ueber die
         Grundbegriffe der Aesthetik</thema>: <dozent ref="hermann_c"><grad>D.
@@ -1477,16 +1482,17 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.A-010"><thema>Principien der
-        Aesthetik</thema>: <dozent><grad>D. ph.</grad>
-        <nachnamenpräfix>von</nachnamenpräfix>
+        Aesthetik</thema>: <dozent ref="schubert_soldern_r"><grad>D.
+        ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Schubert-Soldern</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>Mittw. 10-11 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.A-011"><thema>Gesammtübersicht über
-        die Geschichte der Philosophie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Seydel</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit. 9-10 U. Vorm.</zeit>,
+        die Geschichte der Philosophie</thema>: <dozent
+        ref="seydel_m"><grad>D. ph.</grad> <nachname>Seydel</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
+        u. Freit. 9-10 U. Vorm.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.A-012"><thema>Geschichte der alten
@@ -1519,13 +1525,14 @@
         <veranstaltung xml:id="v-1890w-IV.A-016"><thema>Allgemeine
         Religionsgeschichte, <notiz betreff="fortsetzung">II. Hälfte</notiz>
         (Persien; europäische Arier; Aegypten, Babylonien, semitische
-        Völker)</thema>: <dozent><grad>D. ph.</grad>
+        Völker)</thema>: <dozent ref="seydel_m"><grad>D. ph.</grad>
         <nachname>Seydel</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. u. Freit. 10-11 U.</zeit>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.A-017"><thema>Allgemeine
-        (theoretische) Pädagogik</thema>: <dozent><grad>D. ph.</grad>
+        (theoretische) Pädagogik</thema>: <dozent
+        ref="schubert_soldern_r"><grad>D. ph.</grad>
         <nachnamenpräfix>v.</nachnamenpräfix>
         <nachname>Schubert-Soldern</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 10-11 U.</zeit>,
@@ -1663,7 +1670,7 @@
 
           <veranstaltung xml:id="v-1890w-IV.B.a-002"><thema>Griechische
           Epigraphik: Kunde der Inschriften der gesammten griechischen
-          Welt</thema>: <dozent><grad>D. ph.</grad>
+          Welt</thema>: <dozent ref="buresch_k"><grad>D. ph.</grad>
           <nachname>Buresch</nachname></dozent>, <zeit>Mont., Dienst. u.
           Donnerst. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1682,7 +1689,8 @@
           4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1890w-IV.B.a-005"><thema>Die Kunstdenkmäler
-          zu Homer und den Kyklikern</thema>: <dozent><grad>D. ph.</grad>
+          zu Homer und den Kyklikern</thema>: <dozent
+          ref="schreiber_t"><grad>D. ph.</grad>
           <nachname>Schreiber</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mont. u. Dienst. 5-6 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -1739,7 +1747,7 @@
           <zeit>Sonnab. 11-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung> <veranstaltung
           xml:id="v-1890w-IV.B.a-012">2) <thema>Lateinische Sprech- und
-          Schreibübungen</thema>: <dozent><grad>D. ph.</grad>
+          Schreibübungen</thema>: <dozent ref="buresch_k"><grad>D. ph.</grad>
           <nachname>Buresch</nachname></dozent>, <zeit>Mittw. 11-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
@@ -1788,9 +1796,9 @@
 
           <veranstaltung xml:id="v-1890w-IV.B.a-019"><thema>Archaeologische
           Uebungen für Philologen (Erklärung ausgewählter Bildwerke)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Schreiber</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 6-8 U.</zeit>,
-          <modus>privatissime</modus>, aber
+          <dozent ref="schreiber_t"><grad>D. ph.</grad>
+          <nachname>Schreiber</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Sonnab. 6-8 U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
         </sachgruppe>
 
@@ -2016,10 +2024,11 @@
           Stunde</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1890w-IV.B.d-006"><thema>Vergleichende
-          Lautlehre der romanischen Sprachen</thema>: <dozent><grad>D.
-          ph.</grad> <vorname>F.</vorname> <nachname>Settegast</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
-          Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          Lautlehre der romanischen Sprachen</thema>: <dozent
+          ref="settegast_f"><grad>D. ph.</grad> <vorname>F.</vorname>
+          <nachname>Settegast</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Dienst., Donnerst. u. Freit. 9-10 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <seite>22</seite>
 
@@ -2041,16 +2050,17 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1890w-IV.B.d-010"><thema>Grammatik der
-          modernen russischen Sprache (für Anfänger)</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Scholvin</nachname>, <funktion>P. E.
-          des.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
-          5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          modernen russischen Sprache (für Anfänger)</thema>: <dozent
+          ref="scholvin_r"><grad>D. ph.</grad> <nachname>Scholvin</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <zeit>Mont., Dienst.,
+          Donnerst. u. Freit. 5-6 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1890w-IV.B.d-011"><thema>Lectüre und
-          Erklärung eines čechischen Schriftstellers</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Scholvin</nachname>, <funktion>P. E.
-          des.</funktion></dozent>, <zeit>Freit. 4-5 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          Erklärung eines čechischen Schriftstellers</thema>: <dozent
+          ref="scholvin_r"><grad>D. ph.</grad> <nachname>Scholvin</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <zeit>Freit. 4-5
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1890w-IV.B.d-012"><thema>Erklärung von
           Gundulié, Osman, mit literargeschichtlicher Einleitung</thema>:
@@ -2067,7 +2077,7 @@
 
           <veranstaltung xml:id="v-1890w-IV.B.d-014"><thema>Rumänische
           Uebungen, nebst einer kurzen grammatischen Einleitung</thema>:
-          <dozent><grad>D. ph.</grad> <vorname>F.</vorname>
+          <dozent ref="settegast_f"><grad>D. ph.</grad> <vorname>F.</vorname>
           <nachname>Settegast</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mittw. 9-10 U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2087,10 +2097,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.C-002"><thema>Einleitung in die
-        griechischen Sacralalterthümer</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schreiber</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Donnerst. u. Freit. 5-6 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        griechischen Sacralalterthümer</thema>: <dozent
+        ref="schreiber_t"><grad>D. ph.</grad> <nachname>Schreiber</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 5-6
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.C-003"><thema>Römische
         Staatsalterthümer</thema>: <dozent ref="gardthausen_ve"><grad>D.
@@ -2203,10 +2213,10 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.C-021"><thema>Allgemeine
-        Ethnologie</thema>: <dozent><grad>D. ph. et med.</grad>
-        <vorname>E.</vorname> <nachname>Schmidt</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 8-9 U.
-        Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Ethnologie</thema>: <dozent ref="schmidt_e"><grad>D. ph. et
+        med.</grad> <vorname>E.</vorname> <nachname>Schmidt</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont., Mittw. u. Freit. 8-9
+        U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <seite>24</seite>
 
@@ -2329,9 +2339,9 @@ bezogen werden.-->
         <siehe>Siehe Abschnitt A.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Allgemeine Religionsgeschichte <notiz
-        betreff="fortsetzung">II. Hälfte</notiz></thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Seydel</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Abschnitt
+        betreff="fortsetzung">II. Hälfte</notiz></thema>: <dozent
+        ref="seydel_m"><grad>D. ph.</grad> <nachname>Seydel</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
         A.</siehe></veranstaltungsverweis>
 
         <trennlinie/>
@@ -2347,9 +2357,9 @@ bezogen werden.-->
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.D-002"><thema>Die Kunstdenkmäler zu
-        Homer und den Kyklikern</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schreiber</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont. u. Dienst. 5-6 U.</zeit>,
+        Homer und den Kyklikern</thema>: <dozent ref="schreiber_t"><grad>D.
+        ph.</grad> <nachname>Schreiber</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont. u. Dienst. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.D-003"><thema>Geschichte der
@@ -2372,9 +2382,10 @@ bezogen werden.-->
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.D-006"><thema>Ueber den Stil in den
-        bildenden Künsten</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schreiber</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Sonnab. 10-11 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+        bildenden Künsten</thema>: <dozent ref="schreiber_t"><grad>D.
+        ph.</grad> <nachname>Schreiber</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Sonnab. 10-11 U.</zeit>,
+        <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.D-007"><thema>Geschichte der Musik
         vom 16. Jahrhundert bis zur Gegenwart</thema>: <dozent
@@ -2439,16 +2450,17 @@ hab sie aber erst mal dringelassen.-->
         aber <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.D-015"><thema>Uebungen der
-        Archäologischen Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schreiber</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Freit. 7-9 U. Ab.</zeit>, <modus>privatissime</modus>, aber
+        Archäologischen Gesellschaft</thema>: <dozent
+        ref="schreiber_t"><grad>D. ph.</grad> <nachname>Schreiber</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Freit. 7-9 U. Ab.</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.D-016"><thema>Archäologische
         Uebungen für Philologen (Erklärung ausgewählter Bildwerke)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Schreiber</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 6-8 U.</zeit>,
-        <modus>privatissime</modus>, aber
+        <dozent ref="schreiber_t"><grad>D. ph.</grad>
+        <nachname>Schreiber</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Sonnab. 6-8 U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.D-017"><thema>Kunstgeschichtliche
@@ -2588,10 +2600,11 @@ hab sie aber erst mal dringelassen.-->
 
         <veranstaltung xml:id="v-1890w-IV.E-018"><thema>Specieller Pflanzenbau
         <notiz betreff="fortsetzung">II. Th.</notiz> (Cultur der Hackfrüchte,
-        Handelsgewächse und Wiesen)</thema>: <dozent><grad>D. ph.</grad>
-        <vorname>H.</vorname> <nachname>Settegast</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mittw. 10-12 U., u. Sonnab. 10-11
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Handelsgewächse und Wiesen)</thema>: <dozent
+        ref="settegast_h"><grad>D. ph.</grad> <vorname>H.</vorname>
+        <nachname>Settegast</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mittw. 10-12 U., u. Sonnab. 10-11 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.E-019"><thema>Landwirthschaftliches
         Rechnungswesen, speciell doppelte Buchhaltung</thema>: <dozent
@@ -2614,8 +2627,8 @@ hab sie aber erst mal dringelassen.-->
         <seite>28</seite>
 
         <veranstaltung xml:id="v-1890w-IV.E-022"><thema>Specielle
-        Thierzuchtlehre (Rindvieh-, Schaf- u. Schweinezucht)</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>H.</vorname>
+        Thierzuchtlehre (Rindvieh-, Schaf- u. Schweinezucht)</thema>: <dozent
+        ref="settegast_h"><grad>D. ph.</grad> <vorname>H.</vorname>
         <nachname>Settegast</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2633,7 +2646,7 @@ hab sie aber erst mal dringelassen.-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.E-025"><thema>Wollkunde</thema>:
-        <dozent><grad>D. ph.</grad> <vorname>H.</vorname>
+        <dozent ref="settegast_h"><grad>D. ph.</grad> <vorname>H.</vorname>
         <nachname>Settegast</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont. 3-4 U.</zeit>, <gebühr>für die Hörer der Thierzucht
         gratis</gebühr>.</veranstaltung>
@@ -3175,8 +3188,8 @@ handelt sich evtl. um Präsenzeiten des Dozenten.-->
     ref="bernardelli_l"><funktion>Univ.-Tanzmeister</funktion>
     <nachname>Bernardelli</nachname></dozent>.</absatz>
 
-    <absatz>Für Reitunterricht: Der
-    <dozent><funktion>Univ.-Stallmeister</funktion>
+    <absatz>Für Reitunterricht: Der <dozent
+    ref="bujarsky_jh"><funktion>Univ.-Stallmeister</funktion>
     <nachname>Bujarsky</nachname></dozent>.</absatz>
 
     <trennlinie/>

@@ -322,9 +322,9 @@ Veranstaltung bezogen werden!!-->
           <sachgruppe xml:id="sg-1836s-I.I.2.b.006">
             <titel>Russische und neugriechische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1836s-I.I.2.b.006-001"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>J. A. E.</vorname>, <funktion>Lect.
+            <veranstaltung xml:id="v-1836s-I.I.2.b.006-001"><dozent
+            ref="schmidt_jae"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>J. A. E.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>die Anfangsgründe
             derselben</thema>, <zeit>2 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
@@ -419,8 +419,8 @@ Veranstaltung bezogen werden!!-->
         O.</funktion></dozent>, <siehe>s.
         Theologie</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung
-        xml:id="v-1836s-I.II.4-001"><dozent><nachname>Seyffarth</nachname>,
+        <veranstaltung xml:id="v-1836s-I.II.4-001"><dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>,
         <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
         <thema>Theologie und Mythologie der alten Völker, besonders der
         Griechen und Römer, Aegypter, Chaldäer und Phönicier, der germanischen
@@ -1384,11 +1384,10 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
         Lehrbuche (Lpz. 1829. 8.)</thema>, <zeit>7 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1836s-II.B.001-002"><dozent><nachname>Busse</nachname>,
-        <grad>D.</grad> <vorname>W. G.</vorname></dozent>, <thema>nach s.
-        Sätzen</thema>, <zeit>3 oder 5 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1836s-II.B.001-002"><dozent
+        ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad> <vorname>W.
+        G.</vorname></dozent>, <thema>nach s. Sätzen</thema>, <zeit>3 oder 5
+        U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><dozent
         ref="herrmann_e"><nachname>Herrmann</nachname>, <grad>D.</grad>
@@ -1496,8 +1495,8 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
             <sachgruppe xml:id="sg-1836s-II.B.II.I.1.003">
               <titel>Pandekten.</titel>
 
-              <veranstaltung
-              xml:id="v-1836s-II.B.II.I.1.003-001"><dozent><nachname>Schneider</nachname>,
+              <veranstaltung xml:id="v-1836s-II.B.II.I.1.003-001"><dozent
+              ref="schneider_r"><nachname>Schneider</nachname>,
               <grad>D.</grad> <vorname>R.</vorname></dozent>, <thema>Pandekten
               nach <gesperrt>Mühlenbruch's</gesperrt> Lehrbuche des
               Pandektenrechts (Halle 1835 und 1836.)</thema>, <zeit>9-11 U. 6
@@ -1522,11 +1521,11 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
 
             <seite>14</seite>
 
-            <veranstaltung
-            xml:id="v-1836s-II.B.II.I.2-003"><dozent><nachname>Schneider</nachname>,
-            <grad>D.</grad> <vorname>R.</vorname></dozent>, <thema>deutsches
-            Privatrecht mit Einschluß des Lehnrechts, nach s. Sätzen</thema>,
-            <zeit>11 U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1836s-II.B.II.I.2-003"><dozent
+            ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
+            <vorname>R.</vorname></dozent>, <thema>deutsches Privatrecht mit
+            Einschluß des Lehnrechts, nach s. Sätzen</thema>, <zeit>11 U. 6
+            T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1836s-II.B.II.I.3">
@@ -1635,7 +1634,8 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
               E.</funktion></dozent>, <thema>Lehnrecht</thema>, <zeit>8 U. 4
               T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-              <veranstaltungsverweis><dozent><nachname>Schneider</nachname>,
+              <veranstaltungsverweis><dozent
+              ref="schneider_r"><nachname>Schneider</nachname>,
               <grad>D.</grad> <vorname>R.</vorname></dozent>,<siehe> s.
               deutsches Recht</siehe>.</veranstaltungsverweis>
             </sachgruppe>
@@ -1659,8 +1659,8 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
               O.</funktion></dozent>, <siehe>s. sächs.
               Recht</siehe>.</veranstaltungsverweis>
 
-              <veranstaltung
-              xml:id="v-1836s-II.B.II.I.002.5-001"><dozent><nachname>Schneider</nachname>,
+              <veranstaltung xml:id="v-1836s-II.B.II.I.002.5-001"><dozent
+              ref="schneider_r"><nachname>Schneider</nachname>,
               <grad>D.</grad> <vorname>R.</vorname></dozent>, <thema>nach den
               Grundsätzen des heutigen römischen Rechts</thema>, <zeit>3 T. in
               zu best. St.</zeit>
@@ -1791,11 +1791,11 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
             Rechtstheile</thema>, <zeit>in den best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1836s-II.B.II.III.1-004"><dozent><nachname>Busse</nachname>,
-            <grad>D.</grad> <vorname>W. G.</vorname></dozent>, <thema>über
-            beliebige Theile der Rechtswissenschaft</thema>, <zeit>in den
-            best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1836s-II.B.II.III.1-004"><dozent
+            ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad>
+            <vorname>W. G.</vorname></dozent>, <thema>über beliebige Theile
+            der Rechtswissenschaft</thema>, <zeit>in den best.
+            St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1836s-II.B.II.III.1-005"><dozent
             ref="heimbach_ge"><nachname>Heimbach</nachname>, <grad>D.</grad>
@@ -2060,12 +2060,11 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
           <thema>mit Vorzeigung der einfachen und zusammengesetzten
           Arzneimittel</thema>, <zeit>8-10 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1836s-II.C.II.1-002"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>nach s. Systeme: Pharmakolog.
-          Tabellen (3 Thle. 2. Aufl. Lpz. b. Barth 1833.
-          <antiqua>fol.</antiqua>)</thema>, <zeit>3 U. 4
+          <veranstaltung xml:id="v-1836s-II.C.II.1-002"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>nach s. Systeme: Pharmakolog. Tabellen (3 Thle. 2. Aufl. Lpz.
+          b. Barth 1833. <antiqua>fol.</antiqua>)</thema>, <zeit>3 U. 4
           T.</zeit></veranstaltung>
 
           <veranstaltungsverweis><dozent
@@ -2092,13 +2091,13 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
           <vorname>O. B.</vorname>, <funktion>P. O.</funktion></dozent>,
           <zeit>3 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1836s-II.C.II.2-002"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>Pharmakognosie oder pharmaceutische
-          Waarenkunde, nach <gesperrt>Ebermaier</gesperrt> (5. Auflage von ihm
-          herausgegeben, Leipzig bei Barth 1827.)</thema>, <zeit>3 U. 2
-          T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1836s-II.C.II.2-002"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>Pharmakognosie oder pharmaceutische Waarenkunde, nach
+          <gesperrt>Ebermaier</gesperrt> (5. Auflage von ihm herausgegeben,
+          Leipzig bei Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung
           xml:id="v-1836s-II.C.II.2-003"><dozent><nachname>Scheidhauer</nachname>,

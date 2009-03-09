@@ -607,15 +607,15 @@
       <gebühr>unentg.</gebühr></veranstaltung>
 
       <veranstaltung xml:id="v-1843w-I.3-005"><thema>Archäologie des A. und N.
-      T.</thema>: <dozent><nachname>Seyffarth</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>4 T. in zu best. St.</zeit>
+      T.</thema>: <dozent ref="seyffarth_g"><nachname>Seyffarth</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>4 T. in zu best. St.</zeit>
       <modus>öffentlich</modus> u.
       <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1843w-I.3-006"><thema>Erläuterung der Stellen
       der heiligen Schrift, welche durch ägyptische u. andere Alterthümer
-      erklärt werden</thema>: <ders>Derselbe</ders>, <zeit>2 T. in zu best.
-      St.</zeit></veranstaltung>
+      erklärt werden</thema>: <ders ref="seyffarth_g">Derselbe</ders>, <zeit>2
+      T. in zu best. St.</zeit></veranstaltung>
 
       <sachgruppe xml:id="sg-1843w-I.3.001">
         <titel>Historische Uebungen.</titel>
@@ -1346,19 +1346,20 @@
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1843w-II.B.II.1-004"><thema>Aeußere
-          Geschichte des römischen Rechts</thema>: <dozent><grad>D.</grad>
-          <nachname>Schneider</nachname>, <funktion>P. E.
-          des.</funktion></dozent>, <zeit>2 T. in zu best. St.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          Geschichte des römischen Rechts</thema>: <dozent
+          ref="schneider_r"><grad>D.</grad> <nachname>Schneider</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <zeit>2 T. in zu best.
+          St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Innere Geschichte des römischen
-          Rechts</thema>: <ders>Derselbe</ders>, <siehe>s.
+          Rechts</thema>: <ders ref="schneider_r">Derselbe</ders>, <siehe>s.
           Institutionen</siehe>.</veranstaltungsverweis>
 
           <veranstaltung xml:id="v-1843w-II.B.II.1-005"><thema>Aeußere
-          Geschichte des römischen Rechts</thema>: <dozent><grad>D.</grad>
-          <nachname>Busse</nachname></dozent>, <zeit>2 T. in zu best.
-          St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          Geschichte des römischen Rechts</thema>: <dozent
+          ref="busse_wg"><grad>D.</grad> <nachname>Busse</nachname></dozent>,
+          <zeit>2 T. in zu best. St.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <trennlinie/>
 
@@ -1370,13 +1371,13 @@
 
           <veranstaltung xml:id="v-1843w-II.B.II.1-007"><thema>Institutionen
           in Verbindung mit der innern Geschichte des römischen
-          Rechts</thema>: <dozent><grad>D.</grad>
+          Rechts</thema>: <dozent ref="schneider_r"><grad>D.</grad>
           <nachname>Schneider</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>11 U. 6 T. u. 10 U. 2
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1843w-II.B.II.1-008"><thema>Institutionen
-          des röm. Rechts</thema>: <dozent><grad>D.</grad>
+          des röm. Rechts</thema>: <dozent ref="busse_wg"><grad>D.</grad>
           <nachname>Busse</nachname></dozent>, <zeit>9 U. 6 T. u. 2 T. in zu
           best. St.</zeit></veranstaltung>
 
@@ -1487,8 +1488,9 @@
 
         <veranstaltung xml:id="v-1843w-II.B.III-001"><thema>Criminalrecht mit
         Zuziehung von <gesperrt>Marezoll's</gesperrt> Lehrbuche</thema>:
-        <dozent><grad>D.</grad> <nachname>Busse</nachname></dozent>, <zeit>8
-        U. 6 T.</zeit></veranstaltung>
+        <dozent ref="busse_wg"><grad>D.</grad>
+        <nachname>Busse</nachname></dozent>, <zeit>8 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1843w-II.B.III-002"><thema>Das gemeine u.
         sächsische Criminalrecht</thema>: <dozent
@@ -1752,8 +1754,9 @@
         <titel>IV. Diätetik.</titel>
 
         <veranstaltung xml:id="v-1843w-II.C.IV-001"><thema>Diätetik</thema>:
-        <dozent><grad>D.</grad> <nachname>Schreber</nachname></dozent>,
-        <zeit>3 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <dozent ref="schreber_m"><grad>D.</grad>
+        <nachname>Schreber</nachname></dozent>, <zeit>3 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1843w-II.C.V">
@@ -1878,7 +1881,7 @@
 
         <veranstaltung xml:id="v-1843w-II.C.VII-009"><thema>Erkenntniß und
         Heilung der Kinderkrankheiten, mit klinischen Uebungen
-        verbunden</thema>: <dozent><grad>D.</grad>
+        verbunden</thema>: <dozent ref="schreber_m"><grad>D.</grad>
         <nachname>Schreber</nachname></dozent>, <zeit>3 U. 4
         T.</zeit></veranstaltung>
 

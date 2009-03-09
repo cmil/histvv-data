@@ -73,8 +73,8 @@
         <sachgruppe xml:id="sg-1833w-I.I.1.003">
           <titel>Koptische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1833w-I.I.1.003-001"><dozent><nachname>Seyffarth</nachname>,
+          <veranstaltung xml:id="v-1833w-I.I.1.003-001"><dozent
+          ref="seyffarth_g"><nachname>Seyffarth</nachname>,
           <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>so, daß nach Beendigung der Grammatik Stücke aus gedruckten
           und ungedruckten memphitischen, sahidischen und basmurischen
@@ -389,9 +389,9 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
           <sachgruppe xml:id="sg-1833w-I.I.2.b.006">
             <titel>Russische und neugriechische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1833w-I.I.2.b.006-001"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>J. A. E.</vorname>, <funktion>Lect.
+            <veranstaltung xml:id="v-1833w-I.I.2.b.006-001"><dozent
+            ref="schmidt_jae"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>J. A. E.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>die Anfangsgründe <scil
             text="der russischen und neugriechischen Sprache">derselben</scil></thema>,
             <zeit>2 T. in zu best. St.</zeit>
@@ -507,8 +507,8 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
         <thema>kritische Archäologie</thema>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1833w-I.II.3-004"><dozent><nachname>Seyffarth</nachname>,
+        <veranstaltung xml:id="v-1833w-I.II.3-004"><dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>,
         <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
         <thema>hebräische Alterthumskunde mit Beziehung auf die Archäologie
         der Aegyptier und anderer Völker</thema>, <zeit>1 U. 2 T.</zeit>
@@ -533,8 +533,8 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
       <sachgruppe xml:id="sg-1833w-I.II.4">
         <titel>4) Litterargeschichte.</titel>
 
-        <veranstaltung
-        xml:id="v-1833w-I.II.4-001"><dozent><nachname>Seyffarth</nachname>,
+        <veranstaltung xml:id="v-1833w-I.II.4-001"><dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>,
         <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
         <thema>Geschichte der ägyptischen Litteratur, theils alte nebst
         Museographie, theils neuere bis zum Jahre 1834</thema>, <zeit>2 T. in
@@ -1492,11 +1492,10 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
       <sachgruppe xml:id="sg-1833w-II.B.001">
         <titel>Encyklopadie und Methodologie.</titel>
 
-        <veranstaltung
-        xml:id="v-1833w-II.B.001-001"><dozent><nachname>Schneider</nachname>,
-        <grad>M.</grad> <vorname>R.</vorname></dozent>, <thema>n. s.
-        Sätzen</thema>, <zeit>10 U. 2 T.</zeit>
-        <gebühr>unentg.</gebühr></veranstaltung>
+        <veranstaltung xml:id="v-1833w-II.B.001-001"><dozent
+        ref="schneider_r"><nachname>Schneider</nachname>, <grad>M.</grad>
+        <vorname>R.</vorname></dozent>, <thema>n. s. Sätzen</thema>, <zeit>10
+        U. 2 T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1833w-II.B.002">
@@ -1529,16 +1528,16 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
         B.</funktion></dozent>, <siehe>s.
         Institutionen</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung
-        xml:id="v-1833w-II.B.002-002"><dozent><nachname>Claudius</nachname>,
-        <vorname>H. T.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+        <veranstaltung xml:id="v-1833w-II.B.002-002"><dozent
+        ref="claudius_ht"><nachname>Claudius</nachname>, <vorname>H.
+        T.</vorname>, <funktion>J. U. B.</funktion></dozent>,
         <thema>Geschichte des Patronatsrechts</thema>, <zeit>2 T. in zu best.
         St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltungsverweis><dozent><nachname>Schneider</nachname>,
-        <grad>M.</grad> <vorname>R.</vorname>, <funktion>J. U.
-        B.</funktion></dozent>, <siehe>s.
-        Institutionen</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><dozent
+        ref="schneider_r"><nachname>Schneider</nachname>, <grad>M.</grad>
+        <vorname>R.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+        <siehe>s. Institutionen</siehe>.</veranstaltungsverweis>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1833w-II.B.I">
@@ -1637,8 +1636,8 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
               mit der äußern Rechtsgeschichte und dem Gerichtswesen der
               Römer</thema>, <zeit>2-4 U. 6 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1833w-II.B.II.I.1.002-006"><dozent><nachname>Schneider</nachname>,
+              <veranstaltung xml:id="v-1833w-II.B.II.I.1.002-006"><dozent
+              ref="schneider_r"><nachname>Schneider</nachname>,
               <grad>M.</grad> <vorname>R.</vorname>, <funktion>J. U.
               B.</funktion></dozent>, <thema>Institutionen in Verbindung mit
               der äußern und innern Geschichte des röm Rechts, nach
@@ -1789,11 +1788,11 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
               Protestanten in Deutschland</thema>, <zeit>3 U. 6
               T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1833w-II.B.II.I.002.1-005"><dozent><nachname>Claudius</nachname>,
-              <vorname>H. T.</vorname>, <funktion>J. U.
-              B.</funktion></dozent>, <thema>das Kirchenrecht in Deutschland
-              u. in Sachsen, nach s. Sätzen</thema>, <zeit>6 T. in zu best.
+              <veranstaltung xml:id="v-1833w-II.B.II.I.002.1-005"><dozent
+              ref="claudius_ht"><nachname>Claudius</nachname>, <vorname>H.
+              T.</vorname>, <funktion>J. U. B.</funktion></dozent>, <thema>das
+              Kirchenrecht in Deutschland u. in Sachsen, nach s.
+              Sätzen</thema>, <zeit>6 T. in zu best.
               St.</zeit></veranstaltung>
 
               <veranstaltung xml:id="v-1833w-II.B.II.I.002.1-006"><dozent
@@ -2050,18 +2049,17 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
             beliebige Theile der Rechtswissenschaft</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1833w-II.B.II.III.1-010"><dozent><nachname>Busse</nachname>,
-            <vorname>W. G.</vorname>, <funktion>J. U. B.</funktion></dozent>,
-            <thema>über sämmtliche Theile der Rechtswissenschaft</thema>,
-            <zeit>in zu best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1833w-II.B.II.III.1-010"><dozent
+            ref="busse_wg"><nachname>Busse</nachname>, <vorname>W.
+            G.</vorname>, <funktion>J. U. B.</funktion></dozent>, <thema>über
+            sämmtliche Theile der Rechtswissenschaft</thema>, <zeit>in zu
+            best. St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1833w-II.B.II.III.1-011"><dozent><nachname>Schneider</nachname>,
-            <grad>M.</grad> <vorname>R.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>über beliebige Theile des
-            Rechts</thema>, <zeit>in den best. u. zu best.
-            St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1833w-II.B.II.III.1-011"><dozent
+            ref="schneider_r"><nachname>Schneider</nachname>, <grad>M.</grad>
+            <vorname>R.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>über beliebige Theile des Rechts</thema>, <zeit>in den
+            best. u. zu best. St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1833w-II.B.II.III.1-012"><dozent
             ref="merkel_j"><nachname>Merkel</nachname>, <vorname>J.</vorname>,
@@ -2355,11 +2353,11 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
           <funktion>Rector</funktion></dozent>, <zeit>11 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1833w-II.C.II.1-002"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>nach s. Systeme: Pharmkolog. Tabellen
-          (3 Theile, 2. Aufl. Lpz. b. Barth 1833 fol.)</thema>, <zeit>3 U. 4
+          <veranstaltung xml:id="v-1833w-II.C.II.1-002"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>nach s. Systeme: Pharmkolog. Tabellen (3 Theile, 2. Aufl.
+          Lpz. b. Barth 1833 fol.)</thema>, <zeit>3 U. 4
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1833w-II.C.II.1-003"><dozent
@@ -2388,12 +2386,12 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
         <sachgruppe xml:id="sg-1833w-II.C.II.2">
           <titel>2) Pharmacie.</titel>
 
-          <veranstaltung
-          xml:id="v-1833w-II.C.II.2-001"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>Pharmakognosie oder pharmaceutische
-          Waarenkunde, nach <gesperrt>Ebermeier</gesperrt> (5. Aufl. von ihm
-          herausgegeben, Lpz. b. Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
+          <veranstaltung xml:id="v-1833w-II.C.II.2-001"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>Pharmakognosie oder pharmaceutische Waarenkunde, nach
+          <gesperrt>Ebermeier</gesperrt> (5. Aufl. von ihm herausgegeben, Lpz.
+          b. Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung
@@ -2590,11 +2588,11 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
           homöopathischen klinischen Institute</ort></thema>, <zeit>10 U. 6
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1833w-II.C.II.7-008"><dozent><nachname>Schreber</nachname>,
-          <grad>D.</grad> <vorname>D. G. M.</vorname></dozent>,
-          <thema>klinische Probädeutik, mit praktischen u. Examinir-Uebungen
-          verbunden</thema>, <zeit>6 T. in zu best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1833w-II.C.II.7-008"><dozent
+          ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+          <vorname>D. G. M.</vorname></dozent>, <thema>klinische Probädeutik,
+          mit praktischen u. Examinir-Uebungen verbunden</thema>, <zeit>6 T.
+          in zu best. St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1833w-II.C.II.8">
@@ -2678,8 +2676,9 @@ auszeichnen, ohne die erste zu zerstückeln--></veranstaltungsgruppe>
           <grad>D.</grad> <vorname>M. W.</vorname></dozent>, <thema>über
           Pharmakologie</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltungsverweis><dozent><nachname>Schreber</nachname>,
-          <grad>D.</grad> <vorname>D. G. M.</vorname></dozent>, <siehe>s.
+          <veranstaltungsverweis><dozent
+          ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+          <vorname>D. G. M.</vorname></dozent>, <siehe>s.
           Klinik</siehe>.</veranstaltungsverweis>
         </sachgruppe>
 

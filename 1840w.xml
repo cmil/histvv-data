@@ -59,8 +59,8 @@
         <sachgruppe xml:id="sg-1840w-I.I.1.002">
           <titel>Koptische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1840w-I.I.1.002-001"><dozent><nachname>Seyffarth</nachname>,
+          <veranstaltung xml:id="v-1840w-I.I.1.002-001"><dozent
+          ref="seyffarth_g"><nachname>Seyffarth</nachname>,
           <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>koptische Grammatik</thema>, <zeit>3 U. 2
           T.</zeit></veranstaltung>
@@ -420,9 +420,9 @@
           <sachgruppe xml:id="sg-1840w-I.I.2.b.005">
             <titel>Russische und neugriechische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1840w-I.I.2.b.005-001"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>J. A. E.</vorname>, <funktion>Lect.
+            <veranstaltung xml:id="v-1840w-I.I.2.b.005-001"><dozent
+            ref="schmidt_jae"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>J. A. E.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>Anfangsgründe <scil
             text="der russischen und neugriechischen Sprache">derselben</scil></thema>,
             <zeit>10 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -531,8 +531,8 @@
         Hebräer</thema>, <zeit>11 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1840w-I.II.4-005"><dozent><nachname>Seyffarth</nachname>,
+        <veranstaltung xml:id="v-1840w-I.II.4-005"><dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>,
         <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
         <thema>Archäologie des A. u. N. Testaments</thema>, <zeit>3 U. 4
         T.</zeit> <modus>öffentlich</modus> u.
@@ -1746,20 +1746,18 @@ siehe "Repetitoria über Moral"-->
             <thema>nach <gesperrt>Mühlenbruch</gesperrt> u. eignen
             Sätzen</thema>, <zeit>10 U. u. 2 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1840w-II.B.II.1.003-004"><dozent><nachname>Schneider</nachname>,
-            <grad>D.</grad> <vorname>R.</vorname>, <funktion>P. E.
-            des.</funktion></dozent>, <thema>mit Rücksicht auf
-            <gesperrt>Mühlenbruch's</gesperrt> Lehrbuch</thema>, <zeit>10-12
-            U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1840w-II.B.II.1.003-004"><dozent
+            ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
+            <vorname>R.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+            <thema>mit Rücksicht auf <gesperrt>Mühlenbruch's</gesperrt>
+            Lehrbuch</thema>, <zeit>10-12 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1840w-II.B.II.1.003-005"><dozent><nachname>Busse</nachname>,
-            <grad>D.</grad> <vorname>W. G.</vorname></dozent>, <thema>nach s.
-            Sätzen, jedoch unter Zuziehung von
-            <gesperrt>Mühlenbruch's</gesperrt> Lehrbuche (3. Ausg.) u. in
-            Verbindung mit einem Praktikum</thema>, <zeit>8 u. 9 U. 6
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1840w-II.B.II.1.003-005"><dozent
+            ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad>
+            <vorname>W. G.</vorname></dozent>, <thema>nach s. Sätzen, jedoch
+            unter Zuziehung von <gesperrt>Mühlenbruch's</gesperrt> Lehrbuche
+            (3. Ausg.) u. in Verbindung mit einem Praktikum</thema>, <zeit>8
+            u. 9 U. 6 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1840w-II.B.II.1.003-006"><dozent
             ref="heimbach_ge"><nachname>Heimbach</nachname>, <grad>D.</grad>
@@ -1781,12 +1779,11 @@ siehe "Repetitoria über Moral"-->
           <sachgruppe xml:id="sg-1840w-II.B.II.1.005">
             <titel>Erbrecht.</titel>
 
-            <veranstaltung
-            xml:id="v-1840w-II.B.II.1.005-001"><dozent><nachname>Schneider</nachname>,
-            <grad>D.</grad> <vorname>R.</vorname>, <funktion>P. E.
-            des.</funktion></dozent>, <thema>nach den Grundsätzen des heutigen
-            röm. Rechts und mit Rücksicht auf
-            <gesperrt>Mühlenbruch's</gesperrt> Lehrb. des
+            <veranstaltung xml:id="v-1840w-II.B.II.1.005-001"><dozent
+            ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
+            <vorname>R.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+            <thema>nach den Grundsätzen des heutigen röm. Rechts und mit
+            Rücksicht auf <gesperrt>Mühlenbruch's</gesperrt> Lehrb. des
             Pandekten-Rechts</thema>, <zeit>3 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1803,9 +1800,9 @@ siehe "Repetitoria über Moral"-->
             <titel>Darstellung der mit dem Processe in Verbindung stehenden
             Lehren des Civilrechts.</titel>
 
-            <veranstaltung
-            xml:id="v-1840w-II.B.II.1.006-001"><dozent><nachname>Busse</nachname>,
-            <grad>D.</grad> <vorname>W. G.</vorname></dozent>, <thema>nach
+            <veranstaltung xml:id="v-1840w-II.B.II.1.006-001"><dozent
+            ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad>
+            <vorname>W. G.</vorname></dozent>, <thema>nach
             <gesperrt>Mühlenbruch's</gesperrt> Lehrb. § 137-157.</thema>,
             <zeit>2 U. 2 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -2394,9 +2391,9 @@ siehe "Repetitoria über Moral"-->
             Augenkrankheiten</thema>, <zeit>2 U. Mont. und
             Donn.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1840w-II.C.II.3.001-005"><dozent><nachname>Schreber</nachname>,
-            <grad>D.</grad> <vorname>D. G. M.</vorname></dozent>, <thema>über
+            <veranstaltung xml:id="v-1840w-II.C.II.3.001-005"><dozent
+            ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+            <vorname>D. G. M.</vorname></dozent>, <thema>über
             Kinderkrankheiten</thema>, <zeit>4 T. in zu best. St.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -2612,12 +2609,12 @@ siehe "Repetitoria über Moral"-->
           Repetitoria über menschliche Anatomie und Physiologie</thema>,
           <zeit>in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1840w-II.C.III.1-002"><dozent><nachname>Schreber</nachname>,
-          <grad>D.</grad> <vorname>D. G. M.</vorname></dozent>,
-          <thema>Examinir- u. Disputir-Uebungen über die wichtigsten Theile
-          der praktischen Medicin, als klinische Probädeutik</thema>, <zeit>in
-          zu best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1840w-II.C.III.1-002"><dozent
+          ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+          <vorname>D. G. M.</vorname></dozent>, <thema>Examinir- u.
+          Disputir-Uebungen über die wichtigsten Theile der praktischen
+          Medicin, als klinische Probädeutik</thema>, <zeit>in zu best.
+          St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1840w-II.C.III.1-003"><dozent
           ref="merkel_cl"><nachname>Merkel</nachname>, <grad>D.</grad>
@@ -2635,8 +2632,9 @@ siehe "Repetitoria über Moral"-->
         <sachgruppe xml:id="sg-1840w-II.C.III.2">
           <titel>2) Disputir-Uebungen.</titel>
 
-          <veranstaltungsverweis><dozent><nachname>Schreber</nachname>,
-          <grad>D.</grad> <vorname>D. G. M.</vorname></dozent>, <siehe>s.
+          <veranstaltungsverweis><dozent
+          ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+          <vorname>D. G. M.</vorname></dozent>, <siehe>s.
           Examinir-Uebungen</siehe>.</veranstaltungsverweis>
 
           <veranstaltung

@@ -583,14 +583,14 @@
 
         <veranstaltung xml:id="v-1842s-I.III.3-005"><thema>Geschichte der
         alten Religionen, besonders der in der Bibel erwähnten</thema>:
-        <dozent><nachname>Seyffarth</nachname>, <funktion>P.
+        <dozent ref="seyffarth_g"><nachname>Seyffarth</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>4 T. in zu best. St.</zeit>
         <modus>öffentlich</modus> und
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1842s-I.III.3-006"><thema>Mythologie der
-        Griechen u. Römer</thema>: <ders>Derselbe</ders>, <zeit>in zu best.
-        St.</zeit></veranstaltung>
+        Griechen u. Römer</thema>: <ders ref="seyffarth_g">Derselbe</ders>,
+        <zeit>in zu best. St.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1842s-I.III.001">
@@ -1318,7 +1318,7 @@
         2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1842s-II.B.I-002"><thema>Encyklopädie und
-        Methodologie</thema>: <dozent><grad>D.</grad>
+        Methodologie</thema>: <dozent ref="busse_wg"><grad>D.</grad>
         <nachname>Busse</nachname></dozent>, <zeit>2 T. in zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -1352,10 +1352,10 @@
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1842s-II.B.II.1-002"><thema>Aeußere
-          Geschichte des römischen Rechts</thema>: <dozent><grad>D.</grad>
-          <nachname>Schneider</nachname>, <funktion>P. E.
-          des.</funktion></dozent>, <zeit>2 T. in zu best. St.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          Geschichte des römischen Rechts</thema>: <dozent
+          ref="schneider_r"><grad>D.</grad> <nachname>Schneider</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <zeit>2 T. in zu best.
+          St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <trennlinie/>
 
@@ -1373,7 +1373,7 @@
 
           <veranstaltung xml:id="v-1842s-II.B.II.1-005"><thema>Institutionen,
           in Verbindung mit der inneren Geschichte des römischen
-          Rechts</thema>: <dozent><grad>D.</grad>
+          Rechts</thema>: <dozent ref="schneider_r"><grad>D.</grad>
           <nachname>Schneider</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
@@ -1517,8 +1517,9 @@
 
         <veranstaltung xml:id="v-1842s-II.B.III-002"><thema>Criminalrecht
         unter Zuziehung von <gesperrt>Marezoll's</gesperrt> Lehrbuche</thema>:
-        <dozent><grad>D.</grad> <nachname>Busse</nachname></dozent>, <zeit>8
-        U. 6 T.</zeit></veranstaltung>
+        <dozent ref="busse_wg"><grad>D.</grad>
+        <nachname>Busse</nachname></dozent>, <zeit>8 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1842s-II.B.III-003"><thema>Criminalrecht der
         Römer</thema>: <dozent ref="haenel_g"><grad>D.</grad>
@@ -1530,13 +1531,14 @@
         <titel>IV. Proceß.</titel>
 
         <veranstaltung xml:id="v-1842s-II.B.IV-001"><thema>Gemeiner und
-        sächsischer ordentlicher Civilproceß</thema>: <dozent><grad>D.</grad>
-        <nachname>Schneider</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>11 U. 6 T.</zeit></veranstaltung>
+        sächsischer ordentlicher Civilproceß</thema>: <dozent
+        ref="schneider_r"><grad>D.</grad> <nachname>Schneider</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>11 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1842s-II.B.IV-002"><thema>Die gemeinen u.
-        sächsischen summarischen Processe</thema>: <ders>Derselbe</ders>,
-        <zeit>2 T. in zu best. St.</zeit>
+        sächsischen summarischen Processe</thema>: <ders
+        ref="schneider_r">Derselbe</ders>, <zeit>2 T. in zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1842s-II.B.IV-003"><thema>Ordentlicher
@@ -1572,8 +1574,8 @@
         St.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1842s-II.B.IV-009"><thema><scil
-        text="Criminalproceß">Denselben</scil></thema>:
-        <dozent><grad>D.</grad> <nachname>Busse</nachname></dozent>,
+        text="Criminalproceß">Denselben</scil></thema>: <dozent
+        ref="busse_wg"><grad>D.</grad> <nachname>Busse</nachname></dozent>,
         <thema>nach s. Sätzen</thema>, <zeit>10 U. 3 T.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -1880,9 +1882,10 @@
 
         <veranstaltung xml:id="v-1842s-II.C.VI-005"><thema>Erkenntniß u.
         Heilung der Kinderkrankheiten, mit klinischen Uebungen in den
-        Wohnungen der kranken Kinder verbunden</thema>:
-        <dozent><grad>D.</grad> <nachname>Schreber</nachname></dozent>,
-        <zeit>6 U. 4 T.</zeit></veranstaltung>
+        Wohnungen der kranken Kinder verbunden</thema>: <dozent
+        ref="schreber_m"><grad>D.</grad>
+        <nachname>Schreber</nachname></dozent>, <zeit>6 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1842s-II.C.VI-006"><thema>Ueber
         Augenkrankheiten</thema>: <dozent ref="radius_j"><grad>D.</grad>
@@ -1919,7 +1922,7 @@
         St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1842s-II.C.VI-012"><thema>Kritik der modernen
-        Wasserheilkunde</thema>: <dozent><grad>D.</grad>
+        Wasserheilkunde</thema>: <dozent ref="schreber_m"><grad>D.</grad>
         <nachname>Schreber</nachname></dozent>, <zeit>6 U. Vorm. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>

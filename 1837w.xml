@@ -56,8 +56,8 @@
         <sachgruppe xml:id="sg-1837w-I.I.1.002">
           <titel>Koptische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1837w-I.I.1.002-001"><dozent><nachname>Seyffarth</nachname>,
+          <veranstaltung xml:id="v-1837w-I.I.1.002-001"><dozent
+          ref="seyffarth_g"><nachname>Seyffarth</nachname>,
           <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>koptische Grammatik</thema>, <zeit>3 U. 2
           T.</zeit></veranstaltung>
@@ -392,9 +392,9 @@
             <sachgruppe xml:id="sg-1837w-I.I.2.b.001.009">
               <titel>Russische und neugriechische Sprache.</titel>
 
-              <veranstaltung
-              xml:id="v-1837w-I.I.2.b.001.009-001"><dozent><nachname>Schmidt</nachname>,
-              <grad>M.</grad> <vorname>J. A. E.</vorname>, <funktion>Lect.
+              <veranstaltung xml:id="v-1837w-I.I.2.b.001.009-001"><dozent
+              ref="schmidt_jae"><nachname>Schmidt</nachname>, <grad>M.</grad>
+              <vorname>J. A. E.</vorname>, <funktion>Lect.
               publ.</funktion></dozent>, <thema>die Anfangsgründe
               derselben</thema>, <zeit>9 U. 2 T.</zeit>
               <modus>öffentlich</modus>.</veranstaltung>
@@ -490,8 +490,8 @@
         <veranstaltungsverweis><ders ref="westermann_a">Derselbe</ders>,
         <siehe>s. griechische Schriftsteller</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung
-        xml:id="v-1837w-I.II.3-003"><dozent><nachname>Seyffarth</nachname>,
+        <veranstaltung xml:id="v-1837w-I.II.3-003"><dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>,
         <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
         <thema>Archäologie des A. und N. Testaments</thema>, <zeit>8 U. 2
         T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -1588,10 +1588,10 @@
       <sachgruppe xml:id="sg-1837w-II.B.001">
         <titel>Encyklopädie und Methodologie.</titel>
 
-        <veranstaltung
-        xml:id="v-1837w-II.B.001-001"><dozent><nachname>Busse</nachname>,
-        <grad>D.</grad> <vorname>W. G.</vorname></dozent>, <zeit>2 T. in zu
-        best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1837w-II.B.001-001"><dozent
+        ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad> <vorname>W.
+        G.</vorname></dozent>, <zeit>2 T. in zu best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1837w-II.B.002">
@@ -1623,17 +1623,18 @@
         <veranstaltungsverweis><ders ref="poppe_jgm">Derselbe</ders>,
         <siehe>s. Institutionen</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung
-        xml:id="v-1837w-II.B.002-004"><dozent><nachname>Schneider</nachname>,
-        <grad>D.</grad> <vorname>R.</vorname></dozent>, <thema>äußere
-        Geschichte des römischen Privatrechts</thema>, <zeit>2 T. in zu best.
-        St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1837w-II.B.002-004"><dozent
+        ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
+        <vorname>R.</vorname></dozent>, <thema>äußere Geschichte des römischen
+        Privatrechts</thema>, <zeit>2 T. in zu best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
-        Institutionen</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><ders ref="schneider_r">Derselbe</ders>,
+        <siehe>s. Institutionen</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><dozent><nachname>Busse</nachname>,
-        <grad>D.</grad> <vorname>W. G.</vorname></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad> <vorname>W.
+        G.</vorname></dozent>, <siehe>s.
         Institutionen</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><dozent
@@ -1695,8 +1696,8 @@
               Verbindung mit der innern Geschichte des römischen Rechts, nach
               seinen Sätzen</thema>, <zeit>1 U. 4 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1837w-II.B.II.I.1.001-003"><dozent><nachname>Schneider</nachname>,
+              <veranstaltung xml:id="v-1837w-II.B.II.I.1.001-003"><dozent
+              ref="schneider_r"><nachname>Schneider</nachname>,
               <grad>D.</grad> <vorname>R.</vorname></dozent>,
               <thema>Institutionen in Verbindung mit der innern Geschichte des
               röm. Privatrechts, nach <gesperrt>Fr. Ad. Schilling's</gesperrt>
@@ -1704,14 +1705,14 @@
               (Lpz. b. Barth 1836 f.)</thema>, <zeit>11 U. 6
               T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1837w-II.B.II.I.1.001-004"><dozent><nachname>Busse</nachname>,
-              <grad>D.</grad> <vorname>W. G.</vorname></dozent>,
-              <thema>Institutionen und Rechtsgeschichte, nach s. Sätzen,
-              jedoch mit Benutzung von <gesperrt>D. F. A.
-              Schilling's</gesperrt> Lehrbuch für Institutionen und
-              Rechtsgeschichte (Leipz. b. Barth 1836)</thema>, <zeit>9 U. 6 T.
-              u. 10 U. 2 T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1837w-II.B.II.I.1.001-004"><dozent
+              ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad>
+              <vorname>W. G.</vorname></dozent>, <thema>Institutionen und
+              Rechtsgeschichte, nach s. Sätzen, jedoch mit Benutzung von
+              <gesperrt>D. F. A. Schilling's</gesperrt> Lehrbuch für
+              Institutionen und Rechtsgeschichte (Leipz. b. Barth
+              1836)</thema>, <zeit>9 U. 6 T. u. 10 U. 2
+              T.</zeit></veranstaltung>
 
               <veranstaltung xml:id="v-1837w-II.B.II.I.1.001-005"><dozent
               ref="heimbach_ge"><nachname>Heimbach</nachname>, <grad>D.</grad>
@@ -1789,11 +1790,11 @@
             <thema>deutsches Privatrecht, in Verbindung mit dem Lehnrechte,
             nach s. Sätzen</thema>, <zeit>8 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1837w-II.B.II.I.2-003"><dozent><nachname>Schneider</nachname>,
-            <grad>D.</grad> <vorname>R.</vorname></dozent>, <thema>deutsches
-            Privatrecht mit Einschluß des Lehnrechts, nach s. Sätzen</thema>,
-            <zeit>10 U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1837w-II.B.II.I.2-003"><dozent
+            ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
+            <vorname>R.</vorname></dozent>, <thema>deutsches Privatrecht mit
+            Einschluß des Lehnrechts, nach s. Sätzen</thema>, <zeit>10 U. 6
+            T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1837w-II.B.II.I.3">
@@ -1864,11 +1865,11 @@
               <vorname>A.</vorname></dozent>, <thema>gemeines und sächsisches
               Strafrecht</thema>, <zeit>11 U. 6 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1837w-II.B.II.I.003.2-003"><dozent><nachname>Busse</nachname>,
-              <grad>D.</grad> <vorname>W. G.</vorname></dozent>, <thema>das
-              gemeine und sächsische Strafrecht, nach s. Sätzen</thema>,
-              <zeit>11 U. oder 2 U. 6 T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1837w-II.B.II.I.003.2-003"><dozent
+              ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad>
+              <vorname>W. G.</vorname></dozent>, <thema>das gemeine und
+              sächsische Strafrecht, nach s. Sätzen</thema>, <zeit>11 U. oder
+              2 U. 6 T.</zeit></veranstaltung>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1837w-II.B.II.I.003.3">
@@ -1891,7 +1892,8 @@
               <grad>D.</grad> <vorname>E. F.</vorname></dozent>, <siehe>s.
               deutsches Recht</siehe>.</veranstaltungsverweis>
 
-              <veranstaltungsverweis><dozent><nachname>Schneider</nachname>,
+              <veranstaltungsverweis><dozent
+              ref="schneider_r"><nachname>Schneider</nachname>,
               <grad>D.</grad> <vorname>R.</vorname></dozent>, <siehe>s.
               deutsches Recht</siehe>.</veranstaltungsverweis>
             </sachgruppe>
@@ -2276,10 +2278,10 @@
         <sachgruppe xml:id="sg-1837w-II.C.I.7">
           <titel>7) Diätetik.</titel>
 
-          <veranstaltung
-          xml:id="v-1837w-II.C.I.7-001"><dozent><nachname>Schreber</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname></dozent>, <zeit>2 T. in zu
-          best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1837w-II.C.I.7-001"><dozent
+          ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname></dozent>, <zeit>2 T. in zu best. St.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -2291,12 +2293,12 @@
         <sachgruppe xml:id="sg-1837w-II.C.II.1">
           <titel>1) Arzneimittellehre.</titel>
 
-          <veranstaltung
-          xml:id="v-1837w-II.C.II.1-001"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>nach seinem Systeme: Pharmakolog.
-          Tabellen (3 Theile, 2. Auflage, Lpz. b. Barth 1833. fol.)</thema>,
-          <zeit>3 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1837w-II.C.II.1-001"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>nach seinem Systeme: Pharmakolog. Tabellen (3 Theile, 2.
+          Auflage, Lpz. b. Barth 1833. fol.)</thema>, <zeit>3 U. 4
+          T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1837w-II.C.II.1-002"><dozent
           ref="kunze_g"><nachname>Kunze</nachname>, <grad>D.</grad>
@@ -2319,12 +2321,12 @@
           <vorname>O. B.</vorname>, <funktion>P. O.</funktion></dozent>,
           <zeit>5 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1837w-II.C.II.2-002"><dozent><nachname>Schwartze</nachname>
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>Pharmakognosie oder pharmaceutische
-          Waarenkunde, nach <gesperrt>Ebermaier</gesperrt> (5. Aufl. von ihm
-          herausgegeben, Lpz. b. Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
+          <veranstaltung xml:id="v-1837w-II.C.II.2-002"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname> <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>Pharmakognosie oder pharmaceutische Waarenkunde, nach
+          <gesperrt>Ebermaier</gesperrt> (5. Aufl. von ihm herausgegeben, Lpz.
+          b. Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 
@@ -2604,9 +2606,9 @@
           vergleichende Anatomie und Physiologie</thema>, <zeit>in zu best.
           St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1837w-II.C.III.1-004"><dozent><nachname>Schreber</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname></dozent>, <thema>Examinir- und
+          <veranstaltung xml:id="v-1837w-II.C.III.1-004"><dozent
+          ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname></dozent>, <thema>Examinir- und
           Disputir-Uebungen über Pharmakologie, specielle Pathologie und
           Therapie</thema>, <zeit>in zu best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
@@ -2625,8 +2627,9 @@
         <sachgruppe xml:id="sg-1837w-II.C.III.2">
           <titel>2) Disputir-Uebungen.</titel>
 
-          <veranstaltungsverweis><dozent><nachname>Schreber</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname></dozent>, <siehe>s.
+          <veranstaltungsverweis><dozent
+          ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname></dozent>, <siehe>s.
           Examinir-Uebungen</siehe>.</veranstaltungsverweis>
         </sachgruppe>
 

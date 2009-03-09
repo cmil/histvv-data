@@ -359,9 +359,9 @@
       A</gesperrt></siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Die Gotteslehre in der deutschen
-      Philosophie seit Kant</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Seydel</nachname>, <funktion>P. E.</funktion></dozent>
-      <siehe>Siehe <gesperrt>Philosophische Facultät
+      Philosophie seit Kant</thema>: <dozent ref="seydel_m"><grad>D.
+      ph.</grad> <nachname>Seydel</nachname>, <funktion>P.
+      E.</funktion></dozent> <siehe>Siehe <gesperrt>Philosophische Facultät
       A</gesperrt></siehe>.</veranstaltungsverweis>
     </sachgruppe>
 
@@ -907,9 +907,9 @@
       <veranstaltung xml:id="v-1884s-III-045"><thema>Verbandcursus an der
       chirurg. Klinik</thema>, <dozent>im Auftrage von <grad>D. med.</grad>
       <nachname>Thiersch</nachname>, <funktion>P. O.</funktion></dozent>:
-      <dozent><grad>D. med.</grad> <vorname>Arnold</vorname>
-      <nachname>Schmidt</nachname>, <funktion>I. klin.
-      Assistenzarzt</funktion></dozent>, <zeit>Mittw. u. Sonnab. 3-5
+      <dozent ref="schmidt_arnold"><grad>D. med.</grad>
+      <vorname>Arnold</vorname> <nachname>Schmidt</nachname>, <funktion>I.
+      klin. Assistenzarzt</funktion></dozent>, <zeit>Mittw. u. Sonnab. 3-5
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1884s-III-046"><thema>Ausgewählte Capitel der
@@ -989,9 +989,10 @@
       Stunden des Abends</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1884s-III-059"><thema>Pathologie und Therapie
-      der Augenkrankheiten</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Schröter</nachname></dozent>, <zeit>zweistündig, an zu best.
-      Tagen u. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
+      der Augenkrankheiten</thema>: <dozent ref="schroeter_pj"><grad>D.
+      med.</grad> <nachname>Schröter</nachname></dozent>, <zeit>zweistündig,
+      an zu best. Tagen u. Stunden</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1884s-III-060"><thema>Die Krankheiten des Auges
       in Beziehung zu Allgemeinleiden</thema>: <dozent><grad>D. med.</grad>
@@ -1005,10 +1006,11 @@
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung
-      xml:id="v-1884s-III-062"><thema>Augenspiegelcursus</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Schröter</nachname></dozent>,
-      <zeit>in sechswöchentlichen Cursen, zweistündig, an zu best. Tagen u.
-      Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
+      xml:id="v-1884s-III-062"><thema>Augenspiegelcursus</thema>: <dozent
+      ref="schroeter_pj"><grad>D. med.</grad>
+      <nachname>Schröter</nachname></dozent>, <zeit>in sechswöchentlichen
+      Cursen, zweistündig, an zu best. Tagen u. Stunden</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung
       xml:id="v-1884s-III-063"><thema>Augenspiegelcursus</thema>:
@@ -1017,10 +1019,11 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung
-      xml:id="v-1884s-III-064"><thema>Augenoperationscursus</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Schröter</nachname></dozent>,
-      <zeit>in sechswöchentlichen Cursen, zweistündig, an zu best. Tagen u.
-      Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
+      xml:id="v-1884s-III-064"><thema>Augenoperationscursus</thema>: <dozent
+      ref="schroeter_pj"><grad>D. med.</grad>
+      <nachname>Schröter</nachname></dozent>, <zeit>in sechswöchentlichen
+      Cursen, zweistündig, an zu best. Tagen u. Stunden</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung
       xml:id="v-1884s-III-065"><thema>Augenoperationscursus</thema>:
@@ -1232,10 +1235,10 @@
         <sachgruppe xml:id="sg-1884s-III.001.b">
           <titel>b) Augenkrankheiten.</titel>
 
-          <veranstaltung xml:id="v-1884s-III.001.b-001"><dozent><grad>D.
-          med.</grad> <nachname>Schröter</nachname></dozent>, <zeit>Dienst.,
-          Donnerst. u. Sonnab. 9-10 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1884s-III.001.b-001"><dozent
+          ref="schroeter_pj"><grad>D. med.</grad>
+          <nachname>Schröter</nachname></dozent>, <zeit>Dienst., Donnerst. u.
+          Sonnab. 9-10 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1884s-III.001.b-002"><dozent><grad>D.
           med.</grad> <nachname>Küster</nachname></dozent>, <zeit>drei- bis
@@ -1340,7 +1343,7 @@
         <modus>privatim</modus> (<modus>1 St. publice</modus><!--(VA-Gruppe?)-->).</veranstaltung>
 
         <veranstaltung xml:id="v-1884s-IV.A-005"><thema>Logik oder
-        Erkenntnisslehre</thema>: <dozent><grad>D. ph.</grad>
+        Erkenntnisslehre</thema>: <dozent ref="seydel_m"><grad>D. ph.</grad>
         <nachname>Seydel</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -1351,8 +1354,8 @@
         u. Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884s-IV.A-007"><thema>Grundzüge der
-        Erkenntnisstheorie</thema>: <dozent><grad>D. ph.</grad>
-        <nachnamenpräfix>von</nachnamenpräfix>
+        Erkenntnisstheorie</thema>: <dozent ref="schubert_soldern_r"><grad>D.
+        ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Schubert-Soldern</nachname></dozent>, <zeit>Dienst.,
         Donnerst. u. Sonnab. 8-9 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -1376,10 +1379,10 @@
         11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884s-IV.A-011"><thema>Die Gotteslehre in der
-        deutschen Philosophie seit Kant</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Seydel</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont. u. Donnerst. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        deutschen Philosophie seit Kant</thema>: <dozent
+        ref="seydel_m"><grad>D. ph.</grad> <nachname>Seydel</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <seite>16</seite>
 
@@ -1397,9 +1400,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884s-IV.A-014"><thema>Ueber die Hauptfragen
-        der philosophischen Aesthetik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Seydel</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Dienst. u. Freit. 9-10 U.</zeit>,
+        der philosophischen Aesthetik</thema>: <dozent ref="seydel_m"><grad>D.
+        ph.</grad> <nachname>Seydel</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Dienst. u. Freit. 9-10 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884s-IV.A-015"><thema>Geschichte der
@@ -1875,16 +1878,16 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1884s-IV.B.c-013"><thema>Historische
-          französische Syntax</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Settegast</nachname>, <funktion>P.</funktion></dozent>,
-          <zeit>Mittw. u. Sonnab. 8-9 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          französische Syntax</thema>: <dozent ref="settegast_f"><grad>D.
+          ph.</grad> <nachname>Settegast</nachname>,
+          <funktion>P.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 8-9
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1884s-IV.B.c-014"><thema>Erklärung der
-          "Göttlichen Komödie"</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Settegast</nachname>, <funktion>P.</funktion></dozent>,
-          <zeit>Mont. u. Donnerst. 8-9 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          "Göttlichen Komödie"</thema>: <dozent ref="settegast_f"><grad>D.
+          ph.</grad> <nachname>Settegast</nachname>,
+          <funktion>P.</funktion></dozent>, <zeit>Mont. u. Donnerst. 8-9
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1884s-IV.B.c-015"><thema>Spanische
           Grammatik mit Leseübeungen (nach Huber's spanischem
@@ -1908,7 +1911,7 @@
           <seite>21</seite>
 
           <veranstaltung xml:id="v-1884s-IV.B.c-018"><thema>Russische
-          Grammatik</thema>: <dozent><grad>D. ph.</grad>
+          Grammatik</thema>: <dozent ref="scholvin_r"><grad>D. ph.</grad>
           <nachname>Scholvin</nachname></dozent>, <zeit>Mont., Dienst.,
           Donnerst. u. Freit. 5-6 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -1947,7 +1950,7 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1884s-IV.B.c-024"><thema>Neufranzösische
-          Uebungen</thema>: <dozent><grad>D. ph.</grad>
+          Uebungen</thema>: <dozent ref="settegast_f"><grad>D. ph.</grad>
           <nachname>Settegast</nachname>, <funktion>P.</funktion></dozent>,
           <zeit>Dienst. u. Freit. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2167,9 +2170,10 @@
         <titel>D. Kunstwissenschaften.</titel>
 
         <veranstaltung xml:id="v-1884s-IV.D-001"><thema>Geschichte der
-        griechischen Kunst bis auf Alexander d. Gr.</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Schreiber</nachname></dozent>, <zeit>Mont.,
-        Dienst., Donnerst. u. Freit. 9-10 U.</zeit>,
+        griechischen Kunst bis auf Alexander d. Gr.</thema>: <dozent
+        ref="schreiber_t"><grad>D. ph.</grad>
+        <nachname>Schreiber</nachname></dozent>, <zeit>Mont., Dienst.,
+        Donnerst. u. Freit. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884s-IV.D-002"><thema>Kunstgeschichtliche
@@ -2234,7 +2238,8 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884s-IV.D-011"><thema>Uebungen der
-        archäologischen Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
+        archäologischen Gesellschaft</thema>: <dozent
+        ref="schreiber_t"><grad>D. ph.</grad>
         <nachname>Schreiber</nachname></dozent>, <zeit>Donnerst. 7-9 U.
         Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -2516,8 +2521,8 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884s-IV.F-007"><thema>Anwendung der
-        Differential- und Integralrechnung auf Geometrie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Schur</nachname></dozent>,
+        Differential- und Integralrechnung auf Geometrie</thema>: <dozent
+        ref="schur_f"><grad>D. ph.</grad> <nachname>Schur</nachname></dozent>,
         <zeit>Dienst. bis Freit. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -2581,10 +2586,10 @@
 
         <veranstaltung xml:id="v-1884s-IV.F-016"><thema>Königlich
         mathematischen Seminar (Uebungen in Anwendung der Differential- und
-        Integralrechnung auf Geometrie)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Schur</nachname></dozent>, <zeit>Dienst. u. Freit. 3-5
-        U.</zeit>, <modus>privatissime</modus>, aber
-        <gebühr>gratis</gebühr>.</veranstaltung>
+        Integralrechnung auf Geometrie)</thema>: <dozent
+        ref="schur_f"><grad>D. ph.</grad> <nachname>Schur</nachname></dozent>,
+        <zeit>Dienst. u. Freit. 3-5 U.</zeit>, <modus>privatissime</modus>,
+        aber <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884s-IV.F-017"><thema>Seminar für
         wissenschaftliches Rechnen</thema>: <dozent ref="bruns_eh"><grad>D.

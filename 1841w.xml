@@ -319,9 +319,9 @@
         <titel>2. Morgenländische Sprachen.</titel>
 
         <veranstaltung xml:id="v-1841w-I.II.2-001"><thema>Koptische
-        Grammatik</thema>: <dozent><nachname>Seyffarth</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>3 U. 2
-        T.</zeit></veranstaltung>
+        Grammatik</thema>: <dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>3 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1841w-I.II.2-002"><thema>Arabische Syntax,
         <notiz betreff="fortsetzung">Beendigung</notiz></thema>: <dozent
@@ -550,13 +550,13 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1841w-I.III.3-003"><thema>Allgem.
-        Religionsgeschichte</thema>: <dozent><nachname>Seyffarth</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>5 U. 4
-        T.</zeit></veranstaltung>
+        Religionsgeschichte</thema>: <dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>5 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1841w-I.III.3-004"><thema>Archäologie des A.
-        und N. T.</thema>: <ders>Derselbe</ders>, <zeit>3 U. 4 T.</zeit>
-        <modus>öffentlich</modus> u.
+        und N. T.</thema>: <ders ref="seyffarth_g">Derselbe</ders>, <zeit>3 U.
+        4 T.</zeit> <modus>öffentlich</modus> u.
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1841w-I.III.3-005"><thema>Römische
@@ -1335,15 +1335,15 @@
 
           <veranstaltung xml:id="v-1841w-II.B.II.1-006"><thema>Pandekten (mit
           Rücksicht auf <gesperrt>Mühlenbruch's</gesperrt> Lehrb.)</thema>:
-          <dozent><grad>D.</grad> <nachname>Schneider</nachname>, <funktion>P.
-          E. des.</funktion></dozent>, <zeit>10-12 U. 6
-          T.</zeit></veranstaltung>
+          <dozent ref="schneider_r"><grad>D.</grad>
+          <nachname>Schneider</nachname>, <funktion>P. E.
+          des.</funktion></dozent>, <zeit>10-12 U. 6 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1841w-II.B.II.1-007"><thema>Pandekten, nach
           seinen Sätzen, jedoch unter Zuziehung von
-          <gesperrt>Mühlenbruch's</gesperrt> Lehrb.</thema>:
-          <dozent><grad>D.</grad> <nachname>Busse</nachname></dozent>, <zeit>8
-          u. 9 U. 6 T.</zeit></veranstaltung>
+          <gesperrt>Mühlenbruch's</gesperrt> Lehrb.</thema>: <dozent
+          ref="busse_wg"><grad>D.</grad> <nachname>Busse</nachname></dozent>,
+          <zeit>8 u. 9 U. 6 T.</zeit></veranstaltung>
 
           <trennlinie/>
 
@@ -1363,15 +1363,15 @@
 
           <veranstaltung xml:id="v-1841w-II.B.II.1-010"><thema>Erbrecht, nach
           den Grundsätzen des heutigen röm. Rechts und mit Rücksicht auf
-          Mühlenbruch's Lehrb. des Pandektenrechts</thema>:
-          <dozent><grad>D.</grad> <nachname>Schneider</nachname>, <funktion>P.
-          E. des.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
+          Mühlenbruch's Lehrb. des Pandektenrechts</thema>: <dozent
+          ref="schneider_r"><grad>D.</grad> <nachname>Schneider</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung
-          xml:id="v-1841w-II.B.II.1-011"><thema>Erbrecht</thema>:
-          <dozent><grad>D.</grad> <nachname>Busse</nachname></dozent>, <zeit>3
-          T. in zu best. St.</zeit>
+          xml:id="v-1841w-II.B.II.1-011"><thema>Erbrecht</thema>: <dozent
+          ref="busse_wg"><grad>D.</grad> <nachname>Busse</nachname></dozent>,
+          <zeit>3 T. in zu best. St.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1841w-II.B.II.1-012"><thema>Auserlesene
@@ -1625,9 +1625,9 @@
 
         <veranstaltung xml:id="v-1841w-II.C.I-004"><thema>Versuch einer
         wissenschaftlichen Kritik der modernen Wasserheilkunde</thema>:
-        <dozent><grad>D.</grad> <nachname>Schreber</nachname></dozent>,
-        <zeit>2 T. in zu best. St.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <dozent ref="schreber_m"><grad>D.</grad>
+        <nachname>Schreber</nachname></dozent>, <zeit>2 T. in zu best.
+        St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1841w-II.C.I-005"><thema>Ueber Hippokrates
         Aphorismen</thema>: <dozent ref="braune_a"><grad>D.</grad>
@@ -1772,7 +1772,8 @@
         <modus>öffentlich</modus></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung xml:id="v-1841w-II.C.VII-003"><thema>Erkenntniß und
-        Heilung der Kinderkrankheiten</thema>: <dozent><grad>D.</grad>
+        Heilung der Kinderkrankheiten</thema>: <dozent
+        ref="schreber_m"><grad>D.</grad>
         <nachname>Schreber</nachname></dozent>, <zeit>4 T. in den best.
         St.</zeit></veranstaltung>
 

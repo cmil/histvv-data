@@ -79,8 +79,8 @@
         <sachgruppe xml:id="sg-1829s-I.I.1.002">
           <titel>Koptische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1829s-I.I.1.002-001"><dozent><nachname>Seyffarth</nachname>,
+          <veranstaltung xml:id="v-1829s-I.I.1.002-001"><dozent
+          ref="seyffarth_g"><nachname>Seyffarth</nachname>,
           <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>1
           U. Mont. u. Donn.</zeit></veranstaltung>
         </sachgruppe>
@@ -372,9 +372,9 @@
           <sachgruppe xml:id="sg-1829s-I.I.2.b.004">
             <titel>Russische und neugriechische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1829s-I.I.2.b.004-001"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>J. A. E.</vorname>, <funktion>Lect.
+            <veranstaltung xml:id="v-1829s-I.I.2.b.004-001"><dozent
+            ref="schmidt_jae"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>J. A. E.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>die Anfangsgründe <scil
             text="der russischen und neugriechischen Sprache">derselben</scil></thema>,
             <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -480,8 +480,8 @@
       <sachgruppe xml:id="sg-1829s-I.II.4">
         <titel>4) Alterthumskunde.</titel>
 
-        <veranstaltung
-        xml:id="v-1829s-I.II.4-001"><dozent><nachname>Seyffarth</nachname>,
+        <veranstaltung xml:id="v-1829s-I.II.4-001"><dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>,
         <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
         <thema>über ägyptische Alterthümer und den Zustand der ägyptischen
         Litteratur in Europa, <notiz betreff="fortsetzung">Fortsetzung und
@@ -1883,9 +1883,9 @@
               Criminalrecht</thema>, <zeit>6 in zu best.
               St.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1829s-II.B.II.I.002.2-003"><dozent><nachname>Schmidt</nachname>,
-              <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
+              <veranstaltung xml:id="v-1829s-II.B.II.I.002.2-003"><dozent
+              ref="schmidt_aw"><nachname>Schmidt</nachname>, <grad>M.</grad>
+              <vorname>A. W.</vorname>, <funktion>J. U.
               B.</funktion></dozent>, <thema>Criminalrecht, in Dictaten nach
               <gesperrt>Feuerbach</gesperrt></thema>, <zeit>9 U. 6
               T.</zeit></veranstaltung>
@@ -2085,12 +2085,11 @@
           <sachgruppe xml:id="sg-1829s-II.B.II.II.3">
             <titel>3) Anleitung zur juristischen Praxis.</titel>
 
-            <veranstaltung
-            xml:id="v-1829s-II.B.II.II.3-001"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>praktische Uebungen in der Führung
-            u. Entscheidung fingirter Processe</thema>, <zeit>4 U. 4
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1829s-II.B.II.II.3-001"><dozent
+            ref="schmidt_aw"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>A. W.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>praktische Uebungen in der Führung u. Entscheidung
+            fingirter Processe</thema>, <zeit>4 U. 4 T.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -2139,17 +2138,16 @@
             <vorname>A.</vorname></dozent>, <zeit>in den best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1829s-II.B.II.III.1-008"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>üb. beliebige Theile des
-            Rechts</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
-
-            <veranstaltung
-            xml:id="v-1829s-II.B.II.III.1-009"><ders>Derselbe</ders>,
-            <thema>über gem. u. sächs. Civilproceß nach noch ungedruckten
-            Tabellen</thema>, <zeit>4 T. in zu best.
+            <veranstaltung xml:id="v-1829s-II.B.II.III.1-008"><dozent
+            ref="schmidt_aw"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>A. W.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>üb. beliebige Theile des Rechts</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
+
+            <veranstaltung xml:id="v-1829s-II.B.II.III.1-009"><ders
+            ref="schmidt_aw">Derselbe</ders>, <thema>über gem. u. sächs.
+            Civilproceß nach noch ungedruckten Tabellen</thema>, <zeit>4 T. in
+            zu best. St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1829s-II.B.II.III.1-010"><dozent
             ref="planitz_kgv"><nachname>Planitz</nachname>, <vorname>K. G.
@@ -2195,11 +2193,11 @@
             <thema>über belieb. Theile des Rechts</thema>, <zeit>in den best.
             u. zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1829s-II.B.II.III.1-017"><dozent><nachname>Claudius</nachname>,
-            <vorname>H. T.</vorname>, <funktion>J. U. B.</funktion></dozent>,
-            <thema>über einzelne Theile des Rechts</thema>, <zeit>in den best.
-            u. zu best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1829s-II.B.II.III.1-017"><dozent
+            ref="claudius_ht"><nachname>Claudius</nachname>, <vorname>H.
+            T.</vorname>, <funktion>J. U. B.</funktion></dozent>, <thema>über
+            einzelne Theile des Rechts</thema>, <zeit>in den best. u. zu best.
+            St.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1829s-II.B.II.III.2">
@@ -2210,11 +2208,10 @@
             <grad>D.</grad> <vorname>F. K. G.</vorname></dozent>, <zeit>in zu
             best. St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1829s-II.B.II.III.2-002"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <zeit>3 U. 2 T.</zeit>
-            <gebühr>unentgelt.</gebühr></veranstaltung>
+            <veranstaltung xml:id="v-1829s-II.B.II.III.2-002"><dozent
+            ref="schmidt_aw"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>A. W.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <zeit>3 U. 2 T.</zeit> <gebühr>unentgelt.</gebühr></veranstaltung>
 
             <seite>20</seite>
 
@@ -2504,12 +2501,12 @@
           <vorname>W. A.</vorname>, <funktion>P. O.</funktion></dozent>,
           <zeit>11 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1829s-II.C.II.1-002"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>n. s. Systeme: Pharmakologische
-          Tabellen (3 Thle. Lpz. b. Barth 1817-1827. fol.)</thema>, <zeit>3 U.
-          4 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1829s-II.C.II.1-002"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>n. s. Systeme: Pharmakologische Tabellen (3 Thle. Lpz. b.
+          Barth 1817-1827. fol.)</thema>, <zeit>3 U. 4
+          T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1829s-II.C.II.1-003"><dozent
           ref="kunze_g"><nachname>Kunze</nachname>, <grad>D.</grad>
@@ -2538,12 +2535,12 @@
           <thema>Experimental-Pharmacie</thema>, <zeit>3 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1829s-II.C.II.2-002"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>Pharmakognosie oder pharmaceutische
-          Waarenkunde nach <gesperrt>Ebermaier</gesperrt> (5. Aufl. von ihm
-          herausgeg. Lpz. b. Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
+          <veranstaltung xml:id="v-1829s-II.C.II.2-002"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>Pharmakognosie oder pharmaceutische Waarenkunde nach
+          <gesperrt>Ebermaier</gesperrt> (5. Aufl. von ihm herausgeg. Lpz. b.
+          Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltungsverweis><dozent><nachname>Kleinert</nachname>,

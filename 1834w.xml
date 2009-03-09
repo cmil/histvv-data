@@ -413,9 +413,9 @@
             <sachgruppe xml:id="sg-1834w-I.I.2.b.001.008">
               <titel>Russische und neugriechische Sprache.</titel>
 
-              <veranstaltung
-              xml:id="v-1834w-I.I.2.b.001.008-001"><dozent><nachname>Schmidt</nachname>,
-              <grad>M.</grad> <vorname>J. A. E.</vorname>, <funktion>Lect.
+              <veranstaltung xml:id="v-1834w-I.I.2.b.001.008-001"><dozent
+              ref="schmidt_jae"><nachname>Schmidt</nachname>, <grad>M.</grad>
+              <vorname>J. A. E.</vorname>, <funktion>Lect.
               publ.</funktion></dozent>, <thema>die Anfangsgründe <scil
               text="der russischen und neugriechischen Sprache">derselben</scil></thema>,
               <zeit>2 U. 2 T.</zeit>
@@ -461,10 +461,10 @@
         Tode Friedrichs des Gr. 1786</thema>, <zeit>2 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1834w-I.II.1-006"><dozent><nachname>Burckhardt</nachname>,
-        <grad>M.</grad> <vorname>K. E.</vorname></dozent>, <thema>allgemeine
-        Geschichte, 2. Theil, Geschichte des Mittelalters und der neuern Zeit
+        <veranstaltung xml:id="v-1834w-I.II.1-006"><dozent
+        ref="burckhardt_e"><nachname>Burckhardt</nachname>, <grad>M.</grad>
+        <vorname>K. E.</vorname></dozent>, <thema>allgemeine Geschichte, 2.
+        Theil, Geschichte des Mittelalters und der neuern Zeit
         enthaltend</thema>, <zeit>3 U. 6 T.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -527,8 +527,8 @@
         Bildwerke</thema>, <zeit>10 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1834w-I.II.3-004"><dozent><nachname>Seyffarth</nachname>,
+        <veranstaltung xml:id="v-1834w-I.II.3-004"><dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>,
         <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
         <thema>Archäologie der Hebräer</thema>, <zeit>1 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -561,12 +561,11 @@
       <sachgruppe xml:id="sg-1834w-I.II.5">
         <titel>5) Litterärgeschichte.</titel>
 
-        <veranstaltung
-        xml:id="v-1834w-I.II.5-001"><dozent><nachname>Burckhardt</nachname>,
-        <grad>M.</grad> <vorname>K. E.</vorname></dozent>, <thema>Geschichte
-        der deutschen National-Litteratur, von den ältesten Zeiten bis
-        jetzt</thema>, <zeit>4 U. 4 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1834w-I.II.5-001"><dozent
+        ref="burckhardt_e"><nachname>Burckhardt</nachname>, <grad>M.</grad>
+        <vorname>K. E.</vorname></dozent>, <thema>Geschichte der deutschen
+        National-Litteratur, von den ältesten Zeiten bis jetzt</thema>,
+        <zeit>4 U. 4 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -1493,10 +1492,10 @@
       <sachgruppe xml:id="sg-1834w-II.B.001">
         <titel>Encyclopädie und Methodologie.</titel>
 
-        <veranstaltung
-        xml:id="v-1834w-II.B.001-001"><dozent><nachname>Schneider</nachname>,
-        <grad>D.</grad> <vorname>R.</vorname></dozent>, <thema>n. s.
-        Sätzen</thema>, <zeit>10 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1834w-II.B.001-001"><dozent
+        ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
+        <vorname>R.</vorname></dozent>, <thema>n. s. Sätzen</thema>, <zeit>10
+        U. 2 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1834w-II.B.002">
@@ -1529,8 +1528,9 @@
         Rechtsgeschichte</thema>, <zeit>4 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltungsverweis><dozent><nachname>Schneider</nachname>,
-        <grad>D.</grad> <vorname>R.</vorname></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
+        <vorname>R.</vorname></dozent>, <siehe>s.
         Institutionen</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><dozent
@@ -1608,8 +1608,8 @@
               röm. Rechts, in lat. Sprache</thema>, <zeit>9 U. 6
               T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1834w-II.B.II.I.1.001-004"><dozent><nachname>Schneider</nachname>,
+              <veranstaltung xml:id="v-1834w-II.B.II.I.1.001-004"><dozent
+              ref="schneider_r"><nachname>Schneider</nachname>,
               <grad>D.</grad> <vorname>R.</vorname></dozent>,
               <thema>Institutionen in Verbindung mit der äußern und innern
               Geschichte des röm. Rechts, nach
@@ -1888,11 +1888,10 @@
             Theile der Rechtswissenschaft</thema>, <zeit>in de best. und zu
             best. St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1834w-II.B.II.III.1-007"><dozent><nachname>Schneider</nachname>,
-            <grad>D.</grad> <vorname>R.</vorname></dozent>, <thema>über
-            beliebige Theile des Rechts</thema>, <zeit>in zu best.
-            St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1834w-II.B.II.III.1-007"><dozent
+            ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
+            <vorname>R.</vorname></dozent>, <thema>über beliebige Theile des
+            Rechts</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1834w-II.B.II.III.1-008"><dozent
             ref="herrmann_e"><nachname>Herrmann</nachname>, <grad>D.</grad>
@@ -2127,12 +2126,12 @@
           <funktion>Rector</funktion></dozent>, <zeit>8 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1834w-II.C.II.1-002"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>nach s. Systeme: Pharmakolog.
-          Tabellen (3 Theile, 2. Aufl. Lpz. b. Barth 1833 fol.)</thema>,
-          <zeit>3 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1834w-II.C.II.1-002"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>nach s. Systeme: Pharmakolog. Tabellen (3 Theile, 2. Aufl.
+          Lpz. b. Barth 1833 fol.)</thema>, <zeit>3 U. 4
+          T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1834w-II.C.II.1-003"><dozent
           ref="kunze_g"><nachname>Kunze</nachname>, <grad>D.</grad>
@@ -2159,13 +2158,13 @@
         <sachgruppe xml:id="sg-1834w-II.C.II.2">
           <titel>2) Pharmacie.</titel>
 
-          <veranstaltung
-          xml:id="v-1834w-II.C.II.2-001"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>Pharmakognosie oder pharmaceutische
-          Waarenkunde, nach <gesperrt>Ebermaier</gesperrt> (5. Aufl. <seite>18</seite>von
-          ihm herausgegeben, Lpz. b. Barth 1827.)</thema>, <zeit>3 U. 2
-          T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1834w-II.C.II.2-001"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>Pharmakognosie oder pharmaceutische Waarenkunde, nach
+          <gesperrt>Ebermaier</gesperrt> (5. Aufl. <seite>18</seite>von ihm
+          herausgegeben, Lpz. b. Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1834w-II.C.II.3">
@@ -2469,11 +2468,11 @@ nachgetragen werden!!-->
           <grad>D.</grad> <vorname>M. W.</vorname></dozent>, <thema>über
           Pharmakologie</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1834w-II.C.III.1-007"><dozent><nachname>Schreber</nachname>,
-          <grad>D.</grad> <vorname>D. G. M.</vorname></dozent>, <thema>über
-          verschiedene Theile der praktischen Medicin</thema>, <zeit>in zu
-          best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1834w-II.C.III.1-007"><dozent
+          ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+          <vorname>D. G. M.</vorname></dozent>, <thema>über verschiedene
+          Theile der praktischen Medicin</thema>, <zeit>in zu best.
+          St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1834w-II.C.III.2">
@@ -2490,11 +2489,11 @@ nachgetragen werden!!-->
         <sachgruppe xml:id="sg-1834w-II.C.III.3">
           <titel>3) Disputir-Uebungen.</titel>
 
-          <veranstaltung
-          xml:id="v-1834w-II.C.III.3-001"><dozent><nachname>Schreber</nachname>,
-          <grad>D.</grad> <vorname>D. G. M.</vorname></dozent>, <thema>über
-          verschiedene Theile der praktischen Medicin</thema>, <zeit>in zu
-          best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1834w-II.C.III.3-001"><dozent
+          ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+          <vorname>D. G. M.</vorname></dozent>, <thema>über verschiedene
+          Theile der praktischen Medicin</thema>, <zeit>in zu best.
+          St.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>

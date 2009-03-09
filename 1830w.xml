@@ -72,8 +72,8 @@
         <sachgruppe xml:id="sg-1830w-I.I.1.003">
           <titel>Koptische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1830w-I.I.1.003-001"><dozent><nachname>Seyffarth</nachname>,
+          <veranstaltung xml:id="v-1830w-I.I.1.003-001"><dozent
+          ref="seyffarth_g"><nachname>Seyffarth</nachname>,
           <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema><notiz betreff="fortsetzung">Forts.</notiz> der Erklärung des
           <schrift>Gnostischen Buchs <titel>Πιστίς σοφία</titel>, Handschrift
@@ -361,9 +361,9 @@
           <sachgruppe xml:id="sg-1830w-I.I.2.b.005">
             <titel>Russische und neugriechische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1830w-I.I.2.b.005-001"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>J. A. E.</vorname>, <funktion>Lect.
+            <veranstaltung xml:id="v-1830w-I.I.2.b.005-001"><dozent
+            ref="schmidt_jae"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>J. A. E.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>die Anfangsgründe <scil
             text="der russischen und neugriechischen Sprache ">derselben</scil></thema>,
             <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -463,11 +463,11 @@
       <sachgruppe xml:id="sg-1830w-I.II.3">
         <titel>3) Mythologie.</titel>
 
-        <veranstaltung
-        xml:id="v-1830w-I.II.3-001"><dozent><nachname>Seyffarth</nachname>,
-        <grad>G.</grad>, <funktion>P. E.</funktion></dozent>, <thema>über
-        ägyptische Götterlehre in Beziehung auf indische u.
-        griechische</thema>, <zeit>2 T. in zu best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1830w-I.II.3-001"><dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>, <grad>G.</grad>,
+        <funktion>P. E.</funktion></dozent>, <thema>über ägyptische
+        Götterlehre in Beziehung auf indische u. griechische</thema>, <zeit>2
+        T. in zu best. St.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1830w-I.II.3-002"><dozent
         ref="flathe_jlf"><nachname>Flathe</nachname>, <grad>M.</grad>
@@ -499,8 +499,8 @@
         <thema>Archäologie der griechischen Kunst</thema>, <zeit>3 U. 2
         T.</zeit> <zeit>öffentlich</zeit>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1830w-I.II.4-004"><dozent><nachname>Seyffarth</nachname>,
+        <veranstaltung xml:id="v-1830w-I.II.4-004"><dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>,
         <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
         <thema>über hebräische Alterthumskunde in Beziehung auf
         ägyptische</thema>, <zeit>5 U. 2 T.</zeit>
@@ -1580,15 +1580,14 @@
         B.</funktion></dozent>, <thema>römische u. Staats-Rechtsgeschichte,
         nach s. Sätzen</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1830w-II.B.002-003"><dozent><nachname>Schneider</nachname>,
-        <grad>M.</grad> <vorname>R.</vorname>, <funktion>J. U.
-        B.</funktion></dozent>, <thema>die äußere Geschichte des röm. Rechts,
-        n. s. Sätzen</thema>, <zeit>9 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1830w-II.B.002-003"><dozent
+        ref="schneider_r"><nachname>Schneider</nachname>, <grad>M.</grad>
+        <vorname>R.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+        <thema>die äußere Geschichte des röm. Rechts, n. s. Sätzen</thema>,
+        <zeit>9 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-        <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
-        Institutionen</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><ders ref="schneider_r">Derselbe</ders>,
+        <siehe>s. Institutionen</siehe>.</veranstaltungsverweis>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1830w-II.B.I">
@@ -1720,8 +1719,8 @@
               <thema>Institutionen des röm. Rechts</thema>, <zeit>3 U. 6
               T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1830w-II.B.II.I.1.003-008"><dozent><nachname>Schneider</nachname>,
+              <veranstaltung xml:id="v-1830w-II.B.II.I.1.003-008"><dozent
+              ref="schneider_r"><nachname>Schneider</nachname>,
               <grad>M.</grad> <vorname>R.</vorname>, <funktion>J. U.
               B.</funktion></dozent>, <thema>nach
               <gesperrt>Konopak's</gesperrt> Institutt. des röm. Privatr. (2.
@@ -2182,18 +2181,18 @@
             Institutt., Pandekten und Kirchenrecht</thema> <zeit>in den best.
             und zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1830w-II.B.II.III.1-016"><dozent><nachname>Busse</nachname>,
-            <vorname>W. G.</vorname>, <funktion>J. U. B.</funktion></dozent>,
-            <thema>über Institutt., Pandekten und andere Theile der
+            <veranstaltung xml:id="v-1830w-II.B.II.III.1-016"><dozent
+            ref="busse_wg"><nachname>Busse</nachname>, <vorname>W.
+            G.</vorname>, <funktion>J. U. B.</funktion></dozent>, <thema>über
+            Institutt., Pandekten und andere Theile der
             Rechtswissenschaft</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1830w-II.B.II.III.1-017"><dozent><nachname>Schneider</nachname>,
-            <grad>M.</grad> <vorname>R.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>über alle Theile des
-            Rechts</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1830w-II.B.II.III.1-017"><dozent
+            ref="schneider_r"><nachname>Schneider</nachname>, <grad>M.</grad>
+            <vorname>R.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>über alle Theile des Rechts</thema>, <zeit>in zu best.
+            St.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1830w-II.B.II.III.2">
@@ -2465,11 +2464,11 @@
         <sachgruppe xml:id="sg-1830w-II.C.II.1">
           <titel>1) Arzneimittellehre.</titel>
 
-          <veranstaltung
-          xml:id="v-1830w-II.C.II.1-001"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>nach s. Systeme: Pharmakolog.
-          Tabellen (3 Theile Lpz. b. Barth 1819-1827. 8.)</thema><!--auf der Kopie ist an dieser Stelle ein schwarzer Fleck, doch ich vermute, dass dort eine 8 steht, weil vgl. mit anderen Beispielen.
+          <veranstaltung xml:id="v-1830w-II.C.II.1-001"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>nach s. Systeme: Pharmakolog. Tabellen (3 Theile Lpz. b.
+          Barth 1819-1827. 8.)</thema><!--auf der Kopie ist an dieser Stelle ein schwarzer Fleck, doch ich vermute, dass dort eine 8 steht, weil vgl. mit anderen Beispielen.
 --> <zeit>3 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1830w-II.C.II.1-002"><dozent
@@ -2502,12 +2501,12 @@
           <thema>Pharmacie</thema>, <zeit>9 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1830w-II.C.II.2-003"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>Pharmakognosie oder pharmaceutische
-          Waarenkunde, nach <gesperrt>Ebermaier</gesperrt> (5. Aufl. von ihm
-          herausgegeb. Lpz. b. Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
+          <veranstaltung xml:id="v-1830w-II.C.II.2-003"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>Pharmakognosie oder pharmaceutische Waarenkunde, nach
+          <gesperrt>Ebermaier</gesperrt> (5. Aufl. von ihm herausgegeb. Lpz.
+          b. Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltungsverweis><dozent><nachname>Kleinert</nachname>,

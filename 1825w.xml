@@ -72,8 +72,8 @@
           <sachgruppe xml:id="sg-1825w-I.I.1.001.x">
             <titel>*) Hebräische Gesellschaft.</titel>
 
-            <veranstaltung
-            xml:id="v-1825w-I.I.1.001.x-001"><dozent><nachname>Seyffarth</nachname>,
+            <veranstaltung xml:id="v-1825w-I.I.1.001.x-001"><dozent
+            ref="seyffarth_g"><nachname>Seyffarth</nachname>,
             <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
             <zeit>zu den best. St.</zeit></veranstaltung>
 
@@ -129,8 +129,8 @@
         <sachgruppe xml:id="sg-1825w-I.I.1.005">
           <titel>Syrische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1825w-I.I.1.005-001"><dozent><nachname>Seyffarth</nachname>,
+          <veranstaltung xml:id="v-1825w-I.I.1.005-001"><dozent
+          ref="seyffarth_g"><nachname>Seyffarth</nachname>,
           <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>9
           U. 2 T.</zeit></veranstaltung>
 
@@ -380,11 +380,11 @@ Veranstaltungstitel oder eine Ortsangabe?-->
           <sachgruppe xml:id="sg-1825w-I.I.2.b.005">
             <titel>Russische und neugriechische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1825w-I.I.2.b.005-001"><dozent><nachname>Schmidt</nachname>,
-            <vorname>J. A. E.</vorname>, <funktion>Lect.
-            Publ.</funktion></dozent>, <thema>Anfangsgründe derselben</thema>,
-            <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1825w-I.I.2.b.005-001"><dozent
+            ref="schmidt_jae"><nachname>Schmidt</nachname>, <vorname>J. A.
+            E.</vorname>, <funktion>Lect. Publ.</funktion></dozent>,
+            <thema>Anfangsgründe derselben</thema>, <zeit>9 U. 2 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1825w-I.I.2.b.006">
@@ -928,8 +928,8 @@ Veranstaltungstitel oder eine Ortsangabe?-->
             <zeit>9 U. Mont. u. Dienst.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1825w-II.A.I.1.002-002"><dozent><nachname>Seyffarth</nachname>,
+            <veranstaltung xml:id="v-1825w-II.A.I.1.002-002"><dozent
+            ref="seyffarth_g"><nachname>Seyffarth</nachname>,
             <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
             <thema>über ausgewählte Weissagungen des Jesaias</thema>, <zeit>9
             U. Dienst. u. Freit.</zeit>
@@ -968,8 +968,8 @@ Veranstaltungstitel oder eine Ortsangabe?-->
           <sachgruppe xml:id="sg-1825w-II.A.I.1.003">
             <titel>Einleitung in das N. T.</titel>
 
-            <veranstaltung
-            xml:id="v-1825w-II.A.I.1.003-001"><dozent><nachname>Seyffarth</nachname>,
+            <veranstaltung xml:id="v-1825w-II.A.I.1.003-001"><dozent
+            ref="seyffarth_g"><nachname>Seyffarth</nachname>,
             <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
             <thema>historisch-kritische</thema>, <zeit>9 U. Mont. u.
             Donn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -1040,8 +1040,8 @@ Veranstaltungstitel oder eine Ortsangabe?-->
               O.</funktion></dozent>, <zeit>zu den best.
               St.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1825w-II.A.I.1.005.x-003"><dozent><nachname>Seyffarth</nachname>,
+              <veranstaltung xml:id="v-1825w-II.A.I.1.005.x-003"><dozent
+              ref="seyffarth_g"><nachname>Seyffarth</nachname>,
               <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
               <zeit>zu den best. St.</zeit></veranstaltung>
 
@@ -1308,11 +1308,10 @@ oder ist mit Folgendem verknüpft:-->
       <sachgruppe xml:id="sg-1825w-II.B.001">
         <titel>Ueber das akademische Leben juristischer Studirender.</titel>
 
-        <veranstaltung
-        xml:id="v-1825w-II.B.001-001"><dozent><nachname>Schmidt</nachname>,
-        <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
-        B.</funktion></dozent>, <zeit>9 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1825w-II.B.001-001"><dozent
+        ref="schmidt_aw"><nachname>Schmidt</nachname>, <grad>M.</grad>
+        <vorname>A. W.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+        <zeit>9 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1825w-II.B.002">
@@ -1397,12 +1396,11 @@ oder ist mit Folgendem verknüpft:-->
 
             <seite>14</seite>
 
-            <veranstaltung
-            xml:id="v-1825w-II.B.II.A.001-001"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>Erklärung des Textes der Institutt.
-            in lateinischer Sprache</thema>, <zeit>3 U. 4
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1825w-II.B.II.A.001-001"><dozent
+            ref="schmidt_aw"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>A. W.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>Erklärung des Textes der Institutt. in lateinischer
+            Sprache</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
             <sachgruppe xml:id="sg-1825w-II.B.II.A.001.x">
               <titel>*) Exegetische Uebungen.</titel>
@@ -1566,12 +1564,12 @@ oder ist mit Folgendem verknüpft:-->
             Privatrecht, nach <gesperrt>Haubold's</gesperrt>
             Lehrbuche</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1825w-II.B.II.A.2-004"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>über die wichtigsten Kapitel des
-            sächsischen Rechts, für Zuhörer aller Fakultäten</thema>, <zeit>7
-            U. 2 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1825w-II.B.II.A.2-004"><dozent
+            ref="schmidt_aw"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>A. W.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>über die wichtigsten Kapitel des sächsischen Rechts, für
+            Zuhörer aller Fakultäten</thema>, <zeit>7 U. 2
+            T.</zeit></veranstaltung>
 
             <sachgruppe xml:id="sg-1825w-II.B.II.A.2.x">
               <titel>*) Grundlinien des sächsischen Rechts über den
@@ -1605,12 +1603,12 @@ oder ist mit Folgendem verknüpft:-->
             Proceß, nach <gesperrt>Meister</gesperrt></thema>, <zeit>8 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltungsgruppe><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <veranstaltung
-            xml:id="v-1825w-II.B.II.A.4-002"><thema>über das philosophische
-            peinliche Recht</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>,
-            ingleichen <veranstaltung
+            <veranstaltungsgruppe><dozent
+            ref="schmidt_aw"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>A. W.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <veranstaltung xml:id="v-1825w-II.B.II.A.4-002"><thema>über das
+            philosophische peinliche Recht</thema>, <zeit>8 U. 4
+            T.</zeit></veranstaltung>, ingleichen <veranstaltung
             xml:id="v-1825w-II.B.II.A.4-003"><thema>über <seite>16</seite>das
             positive peinliche Recht nach <gesperrt>Feuerbach</gesperrt>,
             unter Mittheilung eigner Dictaten</thema>, <zeit>11 U. 6
@@ -1818,11 +1816,11 @@ oder ist mit Folgendem verknüpft:-->
             das gesammte Recht oder einzelne Theile desselben</thema>,
             <zeit>in theils best. theils zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1825w-II.B.II.C.1-010"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>über beliebige Theile des
-            Rechts</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1825w-II.B.II.C.1-010"><dozent
+            ref="schmidt_aw"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>A. W.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>über beliebige Theile des Rechts</thema>, <zeit>in zu best.
+            St.</zeit></veranstaltung>
 
             <veranstaltung
             xml:id="v-1825w-II.B.II.C.1-011"><dozent><nachname>Falkenstein</nachname>,
@@ -1878,11 +1876,10 @@ oder ist mit Folgendem verknüpft:-->
             des.</funktion></dozent>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1825w-II.B.II.C.2-004"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <zeit>in zu best.
-            St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1825w-II.B.II.C.2-004"><dozent
+            ref="schmidt_aw"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>A. W.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <zeit>in zu best. St.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1825w-II.B.II.C.3">
@@ -1893,12 +1890,11 @@ oder ist mit Folgendem verknüpft:-->
             <vorname>S. G.</vorname>, <funktion>J. U. B.</funktion></dozent>,
             <zeit>in zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1825w-II.B.II.C.3-002"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>A. W.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>Anleitung zu juristischen
-            Ausarbeitungen</thema>, <zeit>in zu best.
-            St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1825w-II.B.II.C.3-002"><dozent
+            ref="schmidt_aw"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>A. W.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>Anleitung zu juristischen Ausarbeitungen</thema>, <zeit>in
+            zu best. St.</zeit></veranstaltung>
 
             <sachgruppe xml:id="sg-1825w-II.B.II.C.3.x">
               <titel>*) Uebungen der juristischen Gesellschaft.</titel>
@@ -2301,13 +2297,14 @@ oder ist mit Folgendem verknüpft:-->
   <dozent><funktion>Fechtmeister</funktion>
   <nachname>Werner</nachname></dozent>, der
   <dozent><funktion>Tanzmeister</funktion>
-  <nachname>Klemm</nachname></dozent>, und der
-  <dozent><funktion>Universitäts-Zeichenmeister</funktion>, wie auch
-  <funktion>Zeichner anatomischer und pathologischer Gegenstände</funktion>,
-  <vorname>Joh. Fried.</vorname> <nachname>Schröter</nachname></dozent>, auf
-  Verlangen gehörigen Unterricht ertheilen. Auch können sich die Studirenden
-  des Unterrichts der bei hiesiger Zeichnungs- Maler- und Architectur-Akademie
-  angestellten Lehrer bedienen.</absatz>
+  <nachname>Klemm</nachname></dozent>, und der <dozent
+  ref="schroeter_jf"><funktion>Universitäts-Zeichenmeister</funktion>, wie
+  auch <funktion>Zeichner anatomischer und pathologischer
+  Gegenstände</funktion>, <vorname>Joh. Fried.</vorname>
+  <nachname>Schröter</nachname></dozent>, auf Verlangen gehörigen Unterricht
+  ertheilen. Auch können sich die Studirenden des Unterrichts der bei hiesiger
+  Zeichnungs- Maler- und Architectur-Akademie angestellten Lehrer
+  bedienen.</absatz>
 
   <absatz>Zur höhern Ausbildung in der Tonkunst giebt die mit der Universität
   vereinigte und unter der Leitung des

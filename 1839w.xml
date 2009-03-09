@@ -74,8 +74,8 @@
         <sachgruppe xml:id="sg-1839w-I.I.1.002">
           <titel>Koptische Sprache.</titel>
 
-          <veranstaltung
-          xml:id="v-1839w-I.I.1.002-001"><dozent><nachname>Seyffarth</nachname>,
+          <veranstaltung xml:id="v-1839w-I.I.1.002-001"><dozent
+          ref="seyffarth_g"><nachname>Seyffarth</nachname>,
           <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>koptische Grammatik</thema>, <zeit>3 U. 2
           T.</zeit></veranstaltung>
@@ -449,9 +449,9 @@
           <sachgruppe xml:id="sg-1839w-I.I.2.b.010">
             <titel>Russische und neugriechische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1839w-I.I.2.b.010-001"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>J. A. E.</vorname>, <funktion>Lect.
+            <veranstaltung xml:id="v-1839w-I.I.2.b.010-001"><dozent
+            ref="schmidt_jae"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>J. A. E.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>Anfangsgründe <scil
             text="der russischen und neugriechischen Sprache">derselben</scil></thema>,
             <zeit>10 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -543,8 +543,8 @@
         lithographirten Karten</thema>, <zeit>9 U. Dienst. u.
         Freit.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1839w-I.II.3-003"><dozent><nachname>Seyffarth</nachname>,
+        <veranstaltung xml:id="v-1839w-I.II.3-003"><dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>,
         <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
         <thema>Archäologie des A. u. N. Testaments</thema>, <zeit>3 U. 4
         T.</zeit> <modus>öffentlich</modus> u.
@@ -1088,7 +1088,8 @@
             u. Micha</thema>, <zeit>1 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltungsverweis><dozent><nachname>Seyffarth</nachname>,
+            <veranstaltungsverweis><dozent
+            ref="seyffarth_g"><nachname>Seyffarth</nachname>,
             <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
             <siehe>s. Alterthumskunde</siehe>.</veranstaltungsverweis>
           </sachgruppe>
@@ -1557,10 +1558,10 @@
           Rechtswissenschaft (Lpz. 1839. 8.)</thema>, <zeit>3 U. 2 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1839w-II.B.I.001-002"><dozent><nachname>Busse</nachname>,
-          <grad>D.</grad> <vorname>W. G.</vorname></dozent>, <zeit>10 oder 11
-          U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.B.I.001-002"><dozent
+          ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad>
+          <vorname>W. G.</vorname></dozent>, <zeit>10 oder 11 U. 2 T.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1839w-II.B.I.002">
@@ -1658,17 +1659,16 @@
             (Halle 1837 u. 1838. 8. 2. Aufl.)</thema>, <zeit>11 U. u. 2 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1839w-II.B.II.1.004-003"><dozent><nachname>Schneider</nachname>,
-            <grad>D.</grad> <vorname>R.</vorname>, <funktion>P. E.
-            des.</funktion></dozent>, <thema>mit Rücksicht auf
-            <gesperrt>Mühlenbruch's</gesperrt> Lehrbuch</thema>, <zeit>10-12
-            U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1839w-II.B.II.1.004-003"><dozent
+            ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
+            <vorname>R.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+            <thema>mit Rücksicht auf <gesperrt>Mühlenbruch's</gesperrt>
+            Lehrbuch</thema>, <zeit>10-12 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1839w-II.B.II.1.004-004"><dozent><nachname>Busse</nachname>,
-            <grad>D.</grad> <vorname>W. G.</vorname></dozent>, <thema>nach s.
-            Sätzen u. mit Zuziehung von <gesperrt>Mühlenbruch's</gesperrt>
+            <veranstaltung xml:id="v-1839w-II.B.II.1.004-004"><dozent
+            ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad>
+            <vorname>W. G.</vorname></dozent>, <thema>nach s. Sätzen u. mit
+            Zuziehung von <gesperrt>Mühlenbruch's</gesperrt>
             Lehrbuche</thema>, <zeit>8-10 U. 6 T.</zeit>, <thema>in Verbindung
             mit einem Praktikum</thema>, <zeit>2 T. in zu best.
             St.</zeit></veranstaltung>
@@ -1682,11 +1682,11 @@
           <sachgruppe xml:id="sg-1839w-II.B.II.1.005">
             <titel>Sachenrecht.</titel>
 
-            <veranstaltung
-            xml:id="v-1839w-II.B.II.1.005-001"><dozent><nachname>Schneider</nachname>,
-            <grad>D.</grad> <vorname>R.</vorname>, <funktion>P. E.
-            des.</funktion></dozent>, <thema>nach den Grundsätzen des heutigen
-            römischen Rechts</thema>, <zeit>2 T. in zu best. St.</zeit>
+            <veranstaltung xml:id="v-1839w-II.B.II.1.005-001"><dozent
+            ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
+            <vorname>R.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+            <thema>nach den Grundsätzen des heutigen römischen Rechts</thema>,
+            <zeit>2 T. in zu best. St.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
@@ -2248,11 +2248,10 @@
         <sachgruppe xml:id="sg-1839w-II.C.I.6">
           <titel>6) Diätetik.</titel>
 
-          <veranstaltung
-          xml:id="v-1839w-II.C.I.6-001"><dozent><nachname>Schreber</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname></dozent>, <thema>Diätetik des
-          gesunden u. kranken Lebens</thema>, <zeit>1 U. 2
-          T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.C.I.6-001"><dozent
+          ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname></dozent>, <thema>Diätetik des gesunden u.
+          kranken Lebens</thema>, <zeit>1 U. 2 T.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -2365,9 +2364,9 @@
 
             <seite>21</seite>
 
-            <veranstaltung
-            xml:id="v-1839w-II.C.II.5.001-004"><dozent><nachname>Schreber</nachname>,
-            <grad>D.</grad> <vorname>M.</vorname></dozent>, <thema>über
+            <veranstaltung xml:id="v-1839w-II.C.II.5.001-004"><dozent
+            ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+            <vorname>M.</vorname></dozent>, <thema>über
             Kinderkrankheiten</thema>, <zeit>1 U. 4 T.</zeit></veranstaltung>
 
             <veranstaltung
@@ -2548,9 +2547,9 @@
           Repetitoria über menschliche Anatomie und Physiologie</thema>,
           <zeit>in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1839w-II.C.III.1-002"><dozent><nachname>Schreber</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname></dozent>, <thema>Examinir- u.
+          <veranstaltung xml:id="v-1839w-II.C.III.1-002"><dozent
+          ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname></dozent>, <thema>Examinir- u.
           Disputir-Uebungen über beliebige Zweige der praktischen
           Medicin</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
         </sachgruppe>
@@ -2558,8 +2557,9 @@
         <sachgruppe xml:id="sg-1839w-II.C.III.2">
           <titel>2) Disputir-Uebungen.</titel>
 
-          <veranstaltungsverweis><dozent><nachname>Schreber</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname></dozent>, <siehe>s.
+          <veranstaltungsverweis><dozent
+          ref="schreber_m"><nachname>Schreber</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname></dozent>, <siehe>s.
           Examinir-Uebungen</siehe>.</veranstaltungsverweis>
 
           <veranstaltung

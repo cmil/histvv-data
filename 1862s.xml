@@ -119,13 +119,14 @@ Stelle  immer eine Trennlinie, daher habe ich sie nachgetragen
         <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1862s-I.I.2-006"><thema>Philosophische
-        Ethik</thema>: <dozent><grad>D. ph.</grad>
+        Ethik</thema>: <dozent ref="seydel_m"><grad>D. ph.</grad>
         <nachname>Seydel</nachname></dozent>, <zeit>11 U. 4
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1862s-I.I.2-007"><thema>Ueber das Verhältniss
-        der Philosophie zur Theologie</thema>: <ders>Derselbe</ders>, <zeit>11
-        U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        der Philosophie zur Theologie</thema>: <ders
+        ref="seydel_m">Derselbe</ders>, <zeit>11 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Sprachphilosophie</thema>: <dozent
         ref="hermann_c"><grad>D. ph.</grad> <nachname>Hermann</nachname>,
@@ -1593,9 +1594,9 @@ Stelle  immer eine Trennlinie, daher habe ich sie nachgetragen
 
         <veranstaltung
         xml:id="v-1862s-II.C.III-003"><thema>Experimentalnervenphysiologie</thema>:
-        <dozent><grad>D.</grad> <nachname>Brunner</nachname></dozent>, <zeit>4
-        U. 2 T. (Dienst. u. Freit.)</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <dozent ref="brunner_gb"><grad>D.</grad>
+        <nachname>Brunner</nachname></dozent>, <zeit>4 U. 2 T. (Dienst. u.
+        Freit.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <trennlinie/>
 
@@ -1610,7 +1611,7 @@ Stelle  immer eine Trennlinie, daher habe ich sie nachgetragen
         Freit.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1862s-II.C.III-005"><thema>Repetitorium der
-        Physiologie</thema>: <dozent><grad>D.</grad>
+        Physiologie</thema>: <dozent ref="brunner_gb"><grad>D.</grad>
         <nachname>Brunner</nachname></dozent>, <zeit>in 4 zu best.
         St.</zeit></veranstaltung>
       </sachgruppe>

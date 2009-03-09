@@ -348,9 +348,9 @@
           <sachgruppe xml:id="sg-1835w-I.I.2.b.006">
             <titel>Russische und neugriechische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1835w-I.I.2.b.006-001"><dozent><nachname>Schmidt</nachname>,
-            <grad>M.</grad> <vorname>J. A. E.</vorname>, <funktion>Lect.
+            <veranstaltung xml:id="v-1835w-I.I.2.b.006-001"><dozent
+            ref="schmidt_jae"><nachname>Schmidt</nachname>, <grad>M.</grad>
+            <vorname>J. A. E.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>die Anfangsgründe
             derselben</thema>, <zeit>2 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
@@ -433,8 +433,8 @@
         <thema>Kunstmythologie</thema>, <zeit>9 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1835w-I.II.3-003"><dozent><nachname>Seyffarth</nachname>,
+        <veranstaltung xml:id="v-1835w-I.II.3-003"><dozent
+        ref="seyffarth_g"><nachname>Seyffarth</nachname>,
         <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
         <thema>Archäologie des A. u. N. Testaments</thema>, <zeit>8 U. 2
         T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -1475,10 +1475,10 @@ praxisorientierte katechetische Veranstaltung?? -->
         <vorname>E.</vorname></dozent>, <siehe>s. Philosophische
         Rechtslehre</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung
-        xml:id="v-1835w-II.B.001-001"><dozent><nachname>Busse</nachname>,
-        <grad>D.</grad> <vorname>W. G.</vorname></dozent>, <zeit>10 U. 2
-        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1835w-II.B.001-001"><dozent
+        ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad> <vorname>W.
+        G.</vorname></dozent>, <zeit>10 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1835w-II.B.002">
@@ -1490,12 +1490,14 @@ praxisorientierte katechetische Veranstaltung?? -->
         Staats- und Rechtsgeschichte, nach eignen Sätzen</thema>, <zeit>9 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltungsverweis><dozent><nachname>Schneider</nachname>,
-        <grad>D.</grad> <vorname>R.</vorname></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
+        <vorname>R.</vorname></dozent>, <siehe>s.
         Institutionen</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><dozent><nachname>Busse</nachname>,
-        <grad>D.</grad> <vorname>W. G.</vorname></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad> <vorname>W.
+        G.</vorname></dozent>, <siehe>s.
         Institutionen</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><dozent
@@ -1543,8 +1545,8 @@ praxisorientierte katechetische Veranstaltung?? -->
             <sachgruppe xml:id="sg-1835w-II.B.II.I.1.001">
               <titel>Institutionen.</titel>
 
-              <veranstaltung
-              xml:id="v-1835w-II.B.II.I.1.001-001"><dozent><nachname>Schneider</nachname>,
+              <veranstaltung xml:id="v-1835w-II.B.II.I.1.001-001"><dozent
+              ref="schneider_r"><nachname>Schneider</nachname>,
               <grad>D.</grad> <vorname>R.</vorname></dozent>,
               <thema>Institutionen in Verbindung mit der äußern und innern
               Geschichte des röm. Rechts, nach
@@ -1552,11 +1554,11 @@ praxisorientierte katechetische Veranstaltung?? -->
               (10. Ausg. Gießen 1833.)</thema>, <zeit>9 U. 6 T. u. 10 U. 4
               T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1835w-II.B.II.I.1.001-002"><dozent><nachname>Busse</nachname>,
-              <grad>D.</grad> <vorname>W. G.</vorname></dozent>,
-              <thema>Institutionen mit der äußern und innern Rechtsgeschichte,
-              nach <gesperrt>Mackeldey's</gesperrt> Lehrb. des heutigen röm.
+              <veranstaltung xml:id="v-1835w-II.B.II.I.1.001-002"><dozent
+              ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad>
+              <vorname>W. G.</vorname></dozent>, <thema>Institutionen mit der
+              äußern und innern Rechtsgeschichte, nach
+              <gesperrt>Mackeldey's</gesperrt> Lehrb. des heutigen röm.
               Rechts</thema>, <zeit>9 U. 6 T. u. 10 U. 4
               T.</zeit></veranstaltung>
 
@@ -1602,11 +1604,11 @@ praxisorientierte katechetische Veranstaltung?? -->
             Privatrecht (Lpz. 1832. 8.)</thema>, <zeit>8 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1835w-II.B.II.I.2-002"><dozent><nachname>Schneider</nachname>,
-            <grad>D.</grad> <vorname>R.</vorname></dozent>, <thema>deutsches
-            Privatrecht mit Einschluß des Lehnrechts, nach s. Sätzen</thema>,
-            <zeit>8 U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1835w-II.B.II.I.2-002"><dozent
+            ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
+            <vorname>R.</vorname></dozent>, <thema>deutsches Privatrecht mit
+            Einschluß des Lehnrechts, nach s. Sätzen</thema>, <zeit>8 U. 6
+            T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1835w-II.B.II.I.3">
@@ -1712,7 +1714,8 @@ als beides (wie von mir bevorzugt) markiert??-->
               <grad>D.</grad> <vorname>E. F.</vorname></dozent>, <siehe>s.
               Deutsches Privatrecht</siehe>.</veranstaltungsverweis>
 
-              <veranstaltungsverweis><dozent><nachname>Schneider</nachname>,
+              <veranstaltungsverweis><dozent
+              ref="schneider_r"><nachname>Schneider</nachname>,
               <grad>D.</grad> <vorname>R.</vorname></dozent>, <siehe>s.
               Deutsches Privatrecht</siehe>.</veranstaltungsverweis>
             </sachgruppe>
@@ -1854,10 +1857,10 @@ als beides (wie von mir bevorzugt) markiert??-->
             <vorname>E.</vorname></dozent>, <thema>über Civil- und
             Strafrecht</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1835w-II.B.II.III.1-006"><dozent><nachname>Busse</nachname>,
-            <grad>D.</grad> <vorname>W. G.</vorname></dozent>, <thema>über
-            alle Theile der Rechtswissenschaft</thema>, <zeit>in den best.
+            <veranstaltung xml:id="v-1835w-II.B.II.III.1-006"><dozent
+            ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad>
+            <vorname>W. G.</vorname></dozent>, <thema>über alle Theile der
+            Rechtswissenschaft</thema>, <zeit>in den best.
             St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1835w-II.B.II.III.1-007"><dozent
@@ -2114,12 +2117,11 @@ als beides (wie von mir bevorzugt) markiert??-->
           einfachen und zusammengesetzten Heilmittel</thema>, <zeit>8 U. 6
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1835w-II.C.II.1-002"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>nach s. Systeme: Pharmakolog.
-          Tabellen (3 Theile, 2. Aufl. Lpz. b. Barth 1833
-          <antiqua>fol.</antiqua>)</thema>, <zeit>3 U. 4
+          <veranstaltung xml:id="v-1835w-II.C.II.1-002"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>nach s. Systeme: Pharmakolog. Tabellen (3 Theile, 2. Aufl.
+          Lpz. b. Barth 1833 <antiqua>fol.</antiqua>)</thema>, <zeit>3 U. 4
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1835w-II.C.II.1-003"><dozent
@@ -2143,12 +2145,12 @@ als beides (wie von mir bevorzugt) markiert??-->
           <vorname>O. B.</vorname>, <funktion>P. O.</funktion></dozent>,
           <zeit>5 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1835w-II.C.II.2-002"><dozent><nachname>Schwartze</nachname>,
-          <grad>D.</grad> <vorname>G. W.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>Pharmakognosie oder pharmaceutische
-          Waarenkunde, nach <gesperrt>Ebermaier</gesperrt> (5. Aufl. von ihm
-          herausgegeben, Lpz. b. Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
+          <veranstaltung xml:id="v-1835w-II.C.II.2-002"><dozent
+          ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
+          <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>Pharmakognosie oder pharmaceutische Waarenkunde, nach
+          <gesperrt>Ebermaier</gesperrt> (5. Aufl. von ihm herausgegeben, Lpz.
+          b. Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 
