@@ -2450,8 +2450,8 @@
 
         <veranstaltung xml:id="v-1913s-IV.A-014"><thema>Praktische Psychologie
         (für Juristen, Mediziner, Nationalökonomen, Pädagogen)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Brahn</nachname></dozent>,
-        <zeit>Mo. u. Mi. 5-6 U.</zeit>,
+        <dozent ref="brahn_m"><grad>D. ph.</grad>
+        <nachname>Brahn</nachname></dozent>, <zeit>Mo. u. Mi. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
@@ -2580,11 +2580,12 @@
 
             <veranstaltungsgruppe><veranstaltung dozent="wundt_w"
             xml:id="v-1913s-IV.A.002.III-001">1) <thema>Einführungskurs in die
-            experimentelle Pädagogik</thema>: <dozent><grad>D. ph.</grad>
-            <nachname>Brahn</nachname></dozent>, <zeit>Mo. 9-11
+            experimentelle Pädagogik</thema>: <dozent ref="brahn_m"><grad>D.
+            ph.</grad> <nachname>Brahn</nachname></dozent>, <zeit>Mo. 9-11
             U.</zeit></veranstaltung> <veranstaltung dozent="wundt_w"
             xml:id="v-1913s-IV.A.002.III-002">2) <thema>Wissenschaftliche
-            Arbeiten für Fortgeschrittene</thema>: <dozent><grad>D. ph.</grad>
+            Arbeiten für Fortgeschrittene</thema>: <dozent
+            ref="brahn_m"><grad>D. ph.</grad>
             <nachname>Brahn</nachname></dozent>, <zeit>tägl. 9-12 u. 2-7
             U.</zeit>, <modus>privatissime</modus> et
             <gebühr>gratis</gebühr>.</veranstaltung></veranstaltungsgruppe>

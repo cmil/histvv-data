@@ -2421,9 +2421,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913w-IV.A-013"><thema>Psychologie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Brahn</nachname></dozent>,
-        <zeit>Mo., Di., Do. u. Fr. 4 bis 5 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="brahn_m"><grad>D. ph.</grad>
+        <nachname>Brahn</nachname></dozent>, <zeit>Mo., Di., Do. u. Fr. 4 bis
+        5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913w-IV.A-014"><thema>Die Psychologie der
         Willenshandlung (mit experimentellen Demonstrationen)</thema>:
@@ -2438,8 +2438,8 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1913w-IV.A-016"><thema>Kinderpsychologie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Brahn</nachname></dozent>,
+        xml:id="v-1913w-IV.A-016"><thema>Kinderpsychologie</thema>: <dozent
+        ref="brahn_m"><grad>D. ph.</grad> <nachname>Brahn</nachname></dozent>,
         <zeit>Mi. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <seite>27</seite>
@@ -2549,7 +2549,7 @@
             <titel>III. Abteilung für experimentelle Pädagogik
             (<ort>Schillerstr. 7. II.</ort>):</titel>
 
-            <veranstaltungsgruppe><dozent><grad>D. ph.</grad>
+            <veranstaltungsgruppe><dozent ref="brahn_m"><grad>D. ph.</grad>
             <nachname>Brahn</nachname></dozent>: <thema>Übungen zur
             experimentellen Pädagogik und angewandten Psychologie</thema>,
             <veranstaltung xml:id="v-1913w-IV.A.002.III-001"><thema>erster
