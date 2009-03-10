@@ -338,8 +338,8 @@ der genannten Gesellschaft abgehalten werden. --></veranstaltungsgruppe>
 
       <seite>6</seite>
 
-      <veranstaltungsverweis><thema>Kirchenrecht und Eherecht</thema>:
-      <dozent><grad>D. jur. &amp; th.</grad> <nachname>Sohm</nachname>,
+      <veranstaltungsverweis><thema>Kirchenrecht und Eherecht</thema>: <dozent
+      ref="sohm_r"><grad>D. jur. &amp; th.</grad> <nachname>Sohm</nachname>,
       <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
       Facultät</siehe>.</veranstaltungsverweis>
 
@@ -366,9 +366,9 @@ der genannten Gesellschaft abgehalten werden. --></veranstaltungsgruppe>
       <siehe>Siehe Philosophische Facultät A</siehe>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Erklärung der kleinen Propheten</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Socin</nachname>, <funktion>P. O.
-      des.</funktion></dozent> <siehe>Siehe Philosophische Facultät
-      B</siehe>.</veranstaltungsverweis>
+      <dozent ref="socin_a"><grad>D. ph.</grad> <nachname>Socin</nachname>,
+      <funktion>P. O. des.</funktion></dozent> <siehe>Siehe Philosophische
+      Facultät B</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Das alte Testment im Lichte der
       Keilschriftforschung</thema>: <dozent ref="delitzsch_fcg"><grad>D.
@@ -454,9 +454,9 @@ der genannten Gesellschaft abgehalten werden. --></veranstaltungsgruppe>
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890s-II-011"><thema>Deutsche
-      Rechtsgeschichte</thema>: <dozent><grad>D. jur. &amp; th.</grad>
-      <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Freit. 10-11 U.</zeit>,
+      Rechtsgeschichte</thema>: <dozent ref="sohm_r"><grad>D. jur. &amp;
+      th.</grad> <nachname>Sohm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Freit. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890s-II-012"><thema>Deutsches Privat- und
@@ -529,7 +529,7 @@ der genannten Gesellschaft abgehalten werden. --></veranstaltungsgruppe>
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890s-II-024"><thema>Kirchenrecht und
-      Eherecht</thema>: <dozent><grad>D. jur. &amp; th.</grad>
+      Eherecht</thema>: <dozent ref="sohm_r"><grad>D. jur. &amp; th.</grad>
       <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1858,7 +1858,7 @@ erfasst, über Volltextsuche suchbar!)-->: <veranstaltung
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1890s-IV.B.b-005"><thema>Erklärung der
-          kleinen Propheten</thema>: <dozent><grad>D. ph.</grad>
+          kleinen Propheten</thema>: <dozent ref="socin_a"><grad>D. ph.</grad>
           <nachname>Socin</nachname>, <funktion>P. O.
           des.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
           11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1882,7 +1882,7 @@ erfasst, über Volltextsuche suchbar!)-->: <veranstaltung
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1890s-IV.B.b-008"><thema>Arabische
-          Grammatik</thema>: <dozent><grad>D. ph.</grad>
+          Grammatik</thema>: <dozent ref="socin_a"><grad>D. ph.</grad>
           <nachname>Socin</nachname>, <funktion>P. O.
           des.</funktion></dozent>, <zeit>Mont. u. Donnerst. 12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -1895,8 +1895,9 @@ erfasst, über Volltextsuche suchbar!)-->: <veranstaltung
           Vorm.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1890s-IV.B.b-010"><thema>Hamasa</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Socin</nachname>, <funktion>P.
-          O. des.</funktion></dozent>, <zeit>zweistündig in zu best.
+          <dozent ref="socin_a"><grad>D. ph.</grad>
+          <nachname>Socin</nachname>, <funktion>P. O.
+          des.</funktion></dozent>, <zeit>zweistündig in zu best.
           Stunden</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1890s-IV.B.b-011"><thema>Grammatik der
@@ -2388,8 +2389,9 @@ auf dem Scan. Ist aber zur Autopsie notiert.)-->
         <seite>25</seite>
 
         <veranstaltungsverweis><thema>Deutsche Rechtsgeschichte</thema>:
-        <dozent><grad>D. jur. &amp; th.</grad> <nachname>Sohm</nachname>,
-        <funktion>P. O.</funktion></dozent> <siehe>Siehe <gesperrt>Juristische
+        <dozent ref="sohm_r"><grad>D. jur. &amp; th.</grad>
+        <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>
+        <siehe>Siehe <gesperrt>Juristische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Römische Rechtsgeschichte</thema>:
@@ -2706,8 +2708,9 @@ auf dem Scan. Ist aber zur Autopsie notiert.)-->
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsche Rechtsgeschichte</thema>:
-        <dozent><grad>D. th. &amp; jur.</grad> <nachname>Sohm</nachname>,
-        <funktion>P. O.</funktion></dozent> <siehe>Siehe <gesperrt>Juristische
+        <dozent ref="sohm_r"><grad>D. th. &amp; jur.</grad>
+        <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>
+        <siehe>Siehe <gesperrt>Juristische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Handels-, Wechsel- und Seerecht</thema>:
@@ -3106,7 +3109,7 @@ vgl. nächste VA)-->, <modus>privatim</modus>.</veranstaltung>
         <veranstaltung xml:id="v-1890s-IV.G-035"><thema>Naturgeschichte der
         Weichthiere, unter besonderer Berücksichtigung der
         einheimischen</thema>(<zeit>Sonnabends Excursionen</zeit><!--(Erfassung von Zeitangaben außerhalb der üblichen Stellen 
-so richtig?)-->): <dozent><grad>D. ph.</grad>
+so richtig?)-->): <dozent ref="simroth_h"><grad>D. ph.</grad>
         <nachname>Simroth</nachname></dozent>, <zeit>Freit. 6-8 U. Ab.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 

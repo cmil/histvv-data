@@ -582,9 +582,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-II-009"><thema>Grundzüge des deutschen
-      Privatrechts</thema>: <dozent><grad>D. jur., th. et ph.</grad>
-      <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
+      Privatrechts</thema>: <dozent ref="sohm_r"><grad>D. jur., th. et
+      ph.</grad> <nachname>Sohm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-II-010"><thema>Deutsches bürgerliches
@@ -646,10 +646,10 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-II-020"><thema>Deutsches bürgerliches
-      Recht (Erbrecht)</thema>: <dozent><grad>D. jur., th. et ph.</grad>
-      <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Freit. 10-11 U. und Sonnab. 10-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Recht (Erbrecht)</thema>: <dozent ref="sohm_r"><grad>D. jur., th. et
+      ph.</grad> <nachname>Sohm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Freit. 10-11 U. und Sonnab. 10-12
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-II-021"><thema>Deutsches bürgerliches
       Recht (Erbrecht)</thema>: <dozent><grad>D. jur.</grad>
@@ -660,7 +660,7 @@
       <seite>9</seite>
 
       <veranstaltung xml:id="v-1900w-II-022"><thema>Handels-, Wechsel- und
-      Seerecht</thema>: <dozent><grad>D. jur., th. et ph.</grad>
+      Seerecht</thema>: <dozent ref="sohm_r"><grad>D. jur., th. et ph.</grad>
       <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>tägl. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -972,10 +972,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-003"><thema>Systematische Anatomie
-      des Menschen (Knochen, Bänder und Gelenke)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Spalteholz</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Dienst. u. Donnerst. ½3-½4 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      des Menschen (Knochen, Bänder und Gelenke)</thema>: <dozent
+      ref="spalteholz_w"><grad>D. med.</grad> <nachname>Spalteholz</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>Dienst. u. Donnerst.
+      ½3-½4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-004"><thema>Systematische Anatomie
       des Menschen (Muskeln und Gefässe)</thema>: <dozent
@@ -1012,7 +1012,7 @@
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-009"><thema>Anatomische
-      Besprechungen</thema>: <dozent><grad>D. med.</grad>
+      Besprechungen</thema>: <dozent ref="spalteholz_w"><grad>D. med.</grad>
       <nachname>Spalteholz</nachname>, <funktion>P. E.
       des.</funktion></dozent>, <zeit>zweistünd. zu noch zu best. Zeit</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
@@ -1042,7 +1042,7 @@ weil er für diese Veranstaltung kein Dozent ist.
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-013"><thema>Physiologische
-      Chemie</thema>: <dozent><grad>D. ph.</grad>
+      Chemie</thema>: <dozent ref="siegfried_m"><grad>D. ph.</grad>
       <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont. und Mittw. 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1064,9 +1064,9 @@ weil er für diese Veranstaltung kein Dozent ist.
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-016"><thema>Besprechungen
-      physiologisch-chemischer Tagesfragen</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Dienst. 5-6 U.</zeit>,
+      physiologisch-chemischer Tagesfragen</thema>: <dozent
+      ref="siegfried_m"><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Dienst. 5-6 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-017"><thema>Physiologische
@@ -1076,15 +1076,16 @@ weil er für diese Veranstaltung kein Dozent ist.
 
       <veranstaltung xml:id="v-1900w-III-018"><thema>Physiologisch-chemisches
       Praktikum, <notiz betreff="zeit">ganz- oder halbtägig</notiz></thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>tägl. 9-1 u. (ausser Sonnab.) 2-6
-      U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+      <dozent ref="siegfried_m"><grad>D. ph.</grad>
+      <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>tägl. 9-1 u. (ausser Sonnab.) 2-6 U.</zeit>,
+      <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-019"><thema>Chemisches Praktikum für
-      Mediciner, <notiz betreff="zeit">halbtäg.</notiz></thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>tägl. 9-1 oder (ausser Sonnab.) 2-6
-      U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+      Mediciner, <notiz betreff="zeit">halbtäg.</notiz></thema>: <dozent
+      ref="siegfried_m"><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>tägl. 9-1 oder (ausser
+      Sonnab.) 2-6 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1206,10 +1207,10 @@ weil er für diese Veranstaltung kein Dozent ist.
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-038"><thema>Die functionellen
-      Nervenkrankheiten im Kindesalter</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Soltmann</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
-      <zeit>Donnerst. 5-6 U.</zeit>, <modus>publice</modus> u.
-      <gebühr>gratis</gebühr>.</veranstaltung>
+      Nervenkrankheiten im Kindesalter</thema>: <dozent
+      ref="soltmann_o"><grad>D. med.</grad> <nachname>Soltmann</nachname>,
+      <funktion>P. O. Hon.</funktion></dozent>, <zeit>Donnerst. 5-6 U.</zeit>,
+      <modus>publice</modus> u. <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-039"><thema>Acute
       Infectionskrankheiten im Kindesalter</thema>: <dozent
@@ -1567,7 +1568,7 @@ weil er für diese Veranstaltung kein Dozent ist.
       Mittw. u. Sonnab.)</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-096"><thema>Klinik und Poliklinik der
-      Kinderkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Kinderkrankheiten</thema>: <dozent ref="soltmann_o"><grad>D. med.</grad>
       <nachname>Soltmann</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
       <zeit>tägl. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2516,7 +2517,7 @@ weil er für diese Veranstaltung kein Dozent ist.
 
           <veranstaltung xml:id="v-1900w-IV.B.c-001"><thema>Deutsche Grammatik
           <notiz betreff="fortsetzung">I</notiz> (Allgemeine Einleitung und
-          Lautlehre)</thema>: <dozent><grad>D. ph.</grad>
+          Lautlehre)</thema>: <dozent ref="sievers_e"><grad>D. ph.</grad>
           <nachname>Sievers</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>tägl. 10-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2529,7 +2530,7 @@ weil er für diese Veranstaltung kein Dozent ist.
 
           <veranstaltung xml:id="v-1900w-IV.B.c-003"><thema>Einleitung in das
           Studium des Mittelhochdeutschen und Erklärung von Hartmanns von Aue
-          Gregorius</thema>: <dozent><grad>D. ph.</grad>
+          Gregorius</thema>: <dozent ref="sievers_e"><grad>D. ph.</grad>
           <nachname>Sievers</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont. u. Donnerst. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2590,8 +2591,8 @@ weil er für diese Veranstaltung kein Dozent ist.
           <trennlinie/>
 
           <veranstaltungsgruppe><thema>Uebungen des Deutschen Seminars und
-          Proseminars</thema>: <veranstaltungsgruppe><thema>1)</thema>
-          <dozent><grad>D. ph.</grad> <nachname>Sievers</nachname>,
+          Proseminars</thema>: <veranstaltungsgruppe><thema>1)</thema> <dozent
+          ref="sievers_e"><grad>D. ph.</grad> <nachname>Sievers</nachname>,
           <funktion>P. O.</funktion></dozent>: <veranstaltung
           xml:id="v-1900w-IV.B.c-012"><thema>a) des Seminars (ältere
           Abtheilung)</thema>, <zeit>Mittw. 11-1 U.</zeit>,
@@ -2733,9 +2734,10 @@ weil er für diese Veranstaltung kein Dozent ist.
 
           <veranstaltung xml:id="v-1900w-IV.B.d-012"><thema>Polnische
           Grammatik (mit Benutzung seiner Buches, Leipzig 1900)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Soerensen</nachname>,
-          <funktion>P. E. des.</funktion></dozent>, <zeit>Mont. 11-1
-          U.</zeit>, <modus>publice</modus>.</veranstaltung>
+          <dozent ref="soerensen_a"><grad>D. ph.</grad>
+          <nachname>Soerensen</nachname>, <funktion>P. E.
+          des.</funktion></dozent>, <zeit>Mont. 11-1 U.</zeit>,
+          <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-IV.B.d-013"><thema>Syntax der
           slavischen Sprachen, ausgewählte Abschnitte (Partikeln und
@@ -2830,7 +2832,7 @@ weil er für diese Veranstaltung kein Dozent ist.
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-IV.B.d-027"><thema>Polnische
-          Uebungen</thema>: <dozent><grad>D. ph.</grad>
+          Uebungen</thema>: <dozent ref="soerensen_a"><grad>D. ph.</grad>
           <nachname>Soerensen</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>Mont. 5-6 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
@@ -3629,9 +3631,9 @@ weil er für diese Veranstaltung kein Dozent ist.
         <siehe>Siehe Juristische Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Handels-, Wechsel- und Seerecht</thema>:
-        <dozent><grad>D. jur., th. et ph.</grad> <nachname>Sohm</nachname>,
-        <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
-        Facultät.</siehe></veranstaltungsverweis>
+        <dozent ref="sohm_r"><grad>D. jur., th. et ph.</grad>
+        <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>
+        <siehe>Siehe Juristische Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Wechselrecht</thema>: <dozent
         ref="goetz_o"><grad>D. jur.</grad> <nachname>Götz</nachname>,
@@ -4087,7 +4089,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.G-033"><thema>Allgemeine Biologie
-        der Thiere</thema>: <dozent><grad>D. ph.</grad>
+        der Thiere</thema>: <dozent ref="simroth_h"><grad>D. ph.</grad>
         <nachname>Simroth</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mittw. u. Freit. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -4111,8 +4113,8 @@ weil er für diese Veranstaltung kein Dozent ist.
         <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Physiologische Chemie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
+        <veranstaltungsverweis><thema>Physiologische Chemie</thema>: <dozent
+        ref="siegfried_m"><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
         <funktion>P. E.</funktion></dozent> <siehe>Siehe Medicinische
         Facultät.</siehe></veranstaltungsverweis>
 
@@ -4256,7 +4258,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Physiologisch-chemisches
-        Praktikum</thema>: <dozent><grad>D. ph.</grad>
+        Praktikum</thema>: <dozent ref="siegfried_m"><grad>D. ph.</grad>
         <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
 

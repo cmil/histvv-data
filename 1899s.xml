@@ -459,9 +459,9 @@
       b.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Ibu Hischam, Leben Muhammeds</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Socin</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe Philosophische Facultät B.
-      b.</siehe></veranstaltungsverweis>
+      <dozent ref="socin_a"><grad>D. ph.</grad> <nachname>Socin</nachname>,
+      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      B. b.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Entwicklungsgeschichte der Erde und ihrer
       Bewohner, <notiz betreff="fortsetzung">I. Theil</notiz></thema>: <dozent
@@ -484,8 +484,8 @@
       <nachname>Marcks</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe Philosophische Facultät C.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Kirchenrecht und Eherecht</thema>:
-      <dozent><grad>D. jur., th. et ph.</grad> <nachname>Sohm</nachname>,
+      <veranstaltungsverweis><thema>Kirchenrecht und Eherecht</thema>: <dozent
+      ref="sohm_r"><grad>D. jur., th. et ph.</grad> <nachname>Sohm</nachname>,
       <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
       Facultät</siehe>.</veranstaltungsverweis>
 
@@ -584,9 +584,9 @@
       Stunde</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-II-006"><thema>Deutsche
-      Rechtsgeschichte</thema>: <dozent><grad>D. jur., th. et ph.</grad>
-      <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
+      Rechtsgeschichte</thema>: <dozent ref="sohm_r"><grad>D. jur., th. et
+      ph.</grad> <nachname>Sohm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-II-007"><thema>Grundzüge des deutschen
@@ -603,9 +603,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-II-009"><thema>Deutsches bürgerliches
-      Recht (Sachenrecht und Familienrecht)</thema>: <dozent><grad>D. jur.,
-      th. et ph.</grad> <nachname>Sohm</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>tägl. 8-9 U.</zeit>,
+      Recht (Sachenrecht und Familienrecht)</thema>: <dozent
+      ref="sohm_r"><grad>D. jur., th. et ph.</grad> <nachname>Sohm</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>tägl. 8-9 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-II-010"><thema>Deutsches bürgerliches
@@ -676,7 +676,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-II-021"><thema>Kirchenrecht und
-      Eherecht</thema>: <dozent><grad>D. jur., th. et ph.</grad>
+      Eherecht</thema>: <dozent ref="sohm_r"><grad>D. jur., th. et ph.</grad>
       <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>tägl. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -879,7 +879,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-003"><thema>Knochen- und
-      Bänderlehre</thema>: <dozent><grad>D. med.</grad>
+      Bänderlehre</thema>: <dozent ref="spalteholz_w"><grad>D. med.</grad>
       <nachname>Spalteholz</nachname>, <funktion>P. E.
       des.</funktion></dozent>, <zeit>Mont., Dienst. und Sonnab. 10-11
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -923,15 +923,15 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-010"><thema>Anatomische
-      Besprechungen</thema>: <dozent><grad>D. med.</grad>
+      Besprechungen</thema>: <dozent ref="spalteholz_w"><grad>D. med.</grad>
       <nachname>Spalteholz</nachname>, <funktion>P. E.
       des.</funktion></dozent>, <zeit>zweistünd. zu noch zu best. Zeit</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltungsgruppe><thema>Praktische Uebungen in der mikroskopischen
       Geweblehre, <notiz betreff="fortsetzung">in zwei
-      Halbjahrskursen</notiz></thema>: <dozent><grad>D. med.</grad>
-      <nachname>Spalteholz</nachname>, <funktion>P. E.
+      Halbjahrskursen</notiz></thema>: <dozent ref="spalteholz_w"><grad>D.
+      med.</grad> <nachname>Spalteholz</nachname>, <funktion>P. E.
       des.</funktion></dozent> und <dozent ref="held_h"><grad>D. med.</grad>
       <nachname>Held</nachname>, <funktion>P. E. des.</funktion></dozent>,
       <veranstaltung xml:id="v-1899s-III-011"><thema><notiz
@@ -952,9 +952,9 @@
 
       <veranstaltung xml:id="v-1899s-III-014"><thema>Die Lehre vom
       menschlichen Stoffwechsel</thema> (im Anschluss an die Vorlesung:
-      Physiologie des Kreislaufs u.s.w. von D. med. Hering, P. O.):
-      <dozent><grad>D. ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Sonnab. 9-10 U.</zeit>,
+      Physiologie des Kreislaufs u.s.w. von D. med. Hering, P. O.): <dozent
+      ref="siegfried_m"><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-015"><thema>Arbeiten für Geübtere im
@@ -973,19 +973,19 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-017"><thema>Physiologisch-chemisches
-      Praktikum, ganz- oder halbtägig</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>tägl. 9-1 u. (ausser Sonnab.) 2-6 U.</zeit>,
-      <modus>privatissime</modus>.</veranstaltung>
+      Praktikum, ganz- oder halbtägig</thema>: <dozent
+      ref="siegfried_m"><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>tägl. 9-1 u. (ausser Sonnab.)
+      2-6 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-018"><thema>Chemisches Praktikum für
-      Mediciner, halbtägig</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>täglich 9-1 oder (ausser Sonnab.) 2-6 U.</zeit>,
-      <modus>privatissime</modus>.</veranstaltung>
+      Mediciner, halbtägig</thema>: <dozent ref="siegfried_m"><grad>D.
+      ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>täglich 9-1 oder (ausser Sonnab.) 2-6
+      U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-019"><thema>Physiologisch-chemische
-      Uebungen</thema>: <dozent><grad>D. ph.</grad>
+      Uebungen</thema>: <dozent ref="siegfried_m"><grad>D. ph.</grad>
       <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>zweistünd. an einem noch zu verabred. Tage</zeit>,
       <modus>privatissime</modus>, aber
@@ -1117,15 +1117,16 @@
       original="."/>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-039"><thema>Krankheiten der
-      Neugeborenen und Säuglinge</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Soltmann</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
-      <zeit>Freit. 5-6 U.</zeit>, <modus>publice</modus> u.
-      <gebühr>gratis</gebühr>.</veranstaltung>
+      Neugeborenen und Säuglinge</thema>: <dozent ref="soltmann_o"><grad>D.
+      med.</grad> <nachname>Soltmann</nachname>, <funktion>P. O.
+      Hon.</funktion></dozent>, <zeit>Freit. 5-6 U.</zeit>,
+      <modus>publice</modus> u. <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-040"><thema>Diätetik des Säuglings
-      mit Demonstrationen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Soltmann</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
-      <zeit>Dienst. ½6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      mit Demonstrationen</thema>: <dozent ref="soltmann_o"><grad>D.
+      med.</grad> <nachname>Soltmann</nachname>, <funktion>P. O.
+      Hon.</funktion></dozent>, <zeit>Dienst. ½6-7 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-041"><thema>Physiologie und
       Pathologie des Kindesalters</thema>: <dozent><grad>D. med.</grad>
@@ -1484,7 +1485,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-099"><thema>Klinik und Poliklinik der
-      Kinderkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Kinderkrankheiten</thema>: <dozent ref="soltmann_o"><grad>D. med.</grad>
       <nachname>Soltmann</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
       <zeit>tägl. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2111,7 +2112,7 @@
           <siehe>Siehe Abschnitt D.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Geschichte der Geographie im Alterthum
-          und Mittelalter</thema>: <dozent><grad>D. ph.</grad>
+          und Mittelalter</thema>: <dozent ref="sieglin_w"><grad>D. ph.</grad>
           <nachname>Sieglin</nachname>, <funktion>P. E.
           des.</funktion></dozent> <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
@@ -2193,7 +2194,7 @@
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Seminar für historische
-          Geographie</thema>: <dozent><grad>D. ph.</grad>
+          Geographie</thema>: <dozent ref="sieglin_w"><grad>D. ph.</grad>
           <nachname>Sieglin</nachname>, <funktion>P. E.
           des.</funktion></dozent> <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
@@ -2278,7 +2279,7 @@
           12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899s-IV.B.b-009"><thema>Neupersisch,
-          Anfangsgründe</thema>: <dozent><grad>D. ph.</grad>
+          Anfangsgründe</thema>: <dozent ref="socin_a"><grad>D. ph.</grad>
           <nachname>Socin</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>zweistünd.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2337,7 +2338,7 @@
           U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899s-IV.B.b-019"><thema>Ibu Hischam, Leben
-          Muhammeds</thema>: <dozent><grad>D. ph.</grad>
+          Muhammeds</thema>: <dozent ref="socin_a"><grad>D. ph.</grad>
           <nachname>Socin</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>zweistünd.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2347,14 +2348,14 @@
           Donnerst. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899s-IV.B.b-021"><thema>Hariri's
-          Makamen</thema>: <dozent><grad>D. ph.</grad>
+          Makamen</thema>: <dozent ref="socin_a"><grad>D. ph.</grad>
           <nachname>Socin</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>zweistünd.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899s-IV.B.b-022"><thema>Uebungen im Lesen
-          arabischer Manuscripte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Socin</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>ein- bis zweistünd.</zeit>,
+          arabischer Manuscripte</thema>: <dozent ref="socin_a"><grad>D.
+          ph.</grad> <nachname>Socin</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>ein- bis zweistünd.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <seite>25</seite>
@@ -2450,12 +2451,13 @@
           Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899s-IV.B.c-003"><thema>Phonetik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Sievers</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 10-11
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="sievers_e"><grad>D. ph.</grad>
+          <nachname>Sievers</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mittw. u. Sonnab. 10-11 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899s-IV.B.c-004"><thema>Deutsche
-          Metrik</thema>: <dozent><grad>D. ph.</grad>
+          Metrik</thema>: <dozent ref="sievers_e"><grad>D. ph.</grad>
           <nachname>Sievers</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont., Dienst., Donnerst. u. Freit. 10-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2527,9 +2529,9 @@
           <trennlinie/>
 
           <veranstaltungsgruppe><thema>Uebungen des Deutschen Seminars und
-          Proseminars</thema>: <veranstaltungsgruppe>1) <dozent><grad>D.
-          ph.</grad> <nachname>Sievers</nachname>, <funktion>P.
-          O.</funktion></dozent>: <veranstaltung
+          Proseminars</thema>: <veranstaltungsgruppe>1) <dozent
+          ref="sievers_e"><grad>D. ph.</grad> <nachname>Sievers</nachname>,
+          <funktion>P. O.</funktion></dozent>: <veranstaltung
           xml:id="v-1899s-IV.B.c-013">a) <thema>des Seminars (ältere
           Abtheilung)</thema>, <zeit>Mittw. 11-1 U.</zeit></veranstaltung> -
           <veranstaltung xml:id="v-1899s-IV.B.c-014">b) <thema>des Proseminars
@@ -2676,10 +2678,10 @@
 
           <veranstaltung xml:id="v-1899s-IV.B.d-012"><thema>Vergleichende
           Grammatik der nordslavischen Sprachen (<notiz
-          betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Soerensen</nachname></dozent>, <zeit>Freit. in
-          noch zu best. Stunden</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent
+          ref="soerensen_a"><grad>D. ph.</grad>
+          <nachname>Soerensen</nachname></dozent>, <zeit>Freit. in noch zu
+          best. Stunden</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899s-IV.B.d-013"><thema>Russische
           Grammatik, <notiz betreff="fortsetzung">II. Theil</notiz>:
@@ -2850,7 +2852,7 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.C-011"><thema>Geschichte Polens im
-        Mittelalter</thema>: <dozent><grad>D. ph.</grad>
+        Mittelalter</thema>: <dozent ref="soerensen_a"><grad>D. ph.</grad>
         <nachname>Soerensen</nachname></dozent>, <zeit>Freit. 11-1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
@@ -2900,10 +2902,11 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.C-020"><thema>Geschichte der
-        Geographie im Alterthum und Mittelalter</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Sieglin</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
-        <modus>publice</modus> et <gebühr>gratis</gebühr>.</veranstaltung>
+        Geographie im Alterthum und Mittelalter</thema>: <dozent
+        ref="sieglin_w"><grad>D. ph.</grad> <nachname>Sieglin</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>Dienst. u. Freit. 12-1
+        U.</zeit>, <modus>publice</modus> et
+        <gebühr>gratis</gebühr>.</veranstaltung>
 
         <seite>30</seite>
 
@@ -3070,9 +3073,10 @@
 
           <veranstaltung xml:id="v-1899s-IV.C.002-001"><thema>Uebungen zur
           Geographie von Italien und Griechenland im Alterthum</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Sieglin</nachname>,
-          <funktion>P. E. des.</funktion></dozent>, <zeit>Mittw. 7-9 U.
-          Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
+          <dozent ref="sieglin_w"><grad>D. ph.</grad>
+          <nachname>Sieglin</nachname>, <funktion>P. E.
+          des.</funktion></dozent>, <zeit>Mittw. 7-9 U. Ab.</zeit>,
+          <modus>publice</modus>.</veranstaltung>
         </sachgruppe>
 
         <trennlinie/>
@@ -3971,10 +3975,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.G-032"><thema>Die niederen Thiere
-        der Heimath, mit Excursionen (Sonnab. Nachm.)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Simroth</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mittw. 4-5 u. Freit. 5-6 U.</zeit>
-        <modus>privatim</modus>.</veranstaltung>
+        der Heimath, mit Excursionen (Sonnab. Nachm.)</thema>: <dozent
+        ref="simroth_h"><grad>D. ph.</grad> <nachname>Simroth</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 4-5 u. Freit. 5-6
+        U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.G-033"><thema>Naturgeschichte der
         Insekten</thema>: <dozent><grad>D. ph.</grad>
@@ -4164,7 +4168,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Physiologisch-chemisches
-        Praktikum</thema>: <dozent><grad>D. ph.</grad>
+        Praktikum</thema>: <dozent ref="siegfried_m"><grad>D. ph.</grad>
         <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>
         <siehe>Siehe Medicinische Facultät</siehe>.</veranstaltungsverweis>
 

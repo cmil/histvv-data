@@ -597,9 +597,9 @@
       <nachname>Marx</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe Philosophische Fakultät C.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Geschichte der Kreuzzüge</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Soerensen</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
+      <veranstaltungsverweis><thema>Geschichte der Kreuzzüge</thema>: <dozent
+      ref="soerensen_a"><grad>D. ph.</grad> <nachname>Soerensen</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
       C.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Augustin und Entwicklung der
@@ -683,8 +683,8 @@
       <dozent><grad>D. ph.</grad> <nachname>Wirth</nachname></dozent>.
       <siehe>Siehe Philosophische Fakultät A.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Kirchenrecht und Eherecht</thema>:
-      <dozent><grad>D. jur., th. et ph.</grad> <nachname>Sohm</nachname>,
+      <veranstaltungsverweis><thema>Kirchenrecht und Eherecht</thema>: <dozent
+      ref="sohm_r"><grad>D. jur., th. et ph.</grad> <nachname>Sohm</nachname>,
       <funktion>P. O.</funktion></dozent> <siehe>Siehe Jursitische
       Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -787,9 +787,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-II-007"><thema>Deutsche
-      Rechtsgeschichte</thema>: <dozent><grad>D. jur., th. et ph.</grad>
-      <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
+      Rechtsgeschichte</thema>: <dozent ref="sohm_r"><grad>D. jur., th. et
+      ph.</grad> <nachname>Sohm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-II-008"><thema>Deutsche
@@ -852,10 +852,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-II-018"><thema>Deutsches bürgerliches
-      Recht (Erbrecht)</thema>: <dozent><grad>D. jur., th. et ph.</grad>
-      <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Freit. u. Sonnab. 8-9 U. u. 10-11 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Recht (Erbrecht)</thema>: <dozent ref="sohm_r"><grad>D. jur., th. et
+      ph.</grad> <nachname>Sohm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Freit. u. Sonnab. 8-9 U. u. 10-11
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-II-019"><thema>Handels-, Wechsel- und
       Seerecht</thema>: <dozent ref="friedberg_ea"><grad>D. jur.</grad>
@@ -864,7 +864,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-II-020"><thema>Kirchenrecht und
-      Eherecht</thema>: <dozent><grad>D. jur., th. et ph.</grad>
+      Eherecht</thema>: <dozent ref="sohm_r"><grad>D. jur., th. et ph.</grad>
       <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>tägl. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1213,11 +1213,11 @@
       35</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-003"><thema>Einführung in das Studium
-      der Medizin</thema>: <dozent><grad>D. med. et LL.</grad> <grad>D.</grad>
-      <nachname>Spalteholz</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>an einem der ersten Tage des Semesters. Näheres durch
-      Anschlag</zeit>, <modus>publice</modus>, <ort>im Anatomischen Institut,
-      Liebigstr. 13</ort>.</veranstaltung>
+      der Medizin</thema>: <dozent ref="spalteholz_w"><grad>D. med. et
+      LL.</grad> <grad>D.</grad> <nachname>Spalteholz</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>an einem der ersten Tage des Semesters.
+      Näheres durch Anschlag</zeit>, <modus>publice</modus>, <ort>im
+      Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1258,7 +1258,7 @@
       13</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-009"><thema>Topographische
-      Anatomie</thema>: <dozent><grad>D. med. et LL.</grad>
+      Anatomie</thema>: <dozent ref="spalteholz_w"><grad>D. med. et LL.</grad>
       <vorname>D.</vorname> <nachname>Spalteholz</nachname>, <funktion>P.
       E.</funktion></dozent>, <zeit>Mont. bis Freit. 12-1 U.</zeit>,
       <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
@@ -1288,20 +1288,21 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-013"><thema>Mikroskopischer Kurs der
-      tierischen Gewebelehre</thema>: <dozent><grad>D. med. et LL.</grad>
-      <vorname>D.</vorname> <nachname>Spalteholz</nachname>, <funktion>P.
-      E.</funktion></dozent> und <dozent ref="held_h"><grad>D. med.</grad>
-      <nachname>Held</nachname>, <funktion>P. E. des.</funktion></dozent>,
-      <zeit>(in zwei Gruppen), Mont., Mittw. u. Sonnab. 8 bis 10 U., bezw.
-      Dienst., Donnerst. u. Freit. 2-4 U.</zeit>, <modus>privatim</modus>,
-      <ort>im Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
+      tierischen Gewebelehre</thema>: <dozent ref="spalteholz_w"><grad>D. med.
+      et LL.</grad> <vorname>D.</vorname> <nachname>Spalteholz</nachname>,
+      <funktion>P. E.</funktion></dozent> und <dozent ref="held_h"><grad>D.
+      med.</grad> <nachname>Held</nachname>, <funktion>P. E.
+      des.</funktion></dozent>, <zeit>(in zwei Gruppen), Mont., Mittw. u.
+      Sonnab. 8 bis 10 U., bezw. Dienst., Donnerst. u. Freit. 2-4 U.</zeit>,
+      <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
+      13</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-014"><thema>Anatomische
-      Besprechungen</thema>: <dozent><grad>D. med. et LL.</grad>
-      <vorname>D.</vorname> <nachname>Spalteholz</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>zweistündig, in noch zu best. Zeit</zeit>,
-      <modus>privatissime</modus>, <ort>im Anatomischen Institut, Liebigstr.
-      13</ort>.</veranstaltung>
+      Besprechungen</thema>: <dozent ref="spalteholz_w"><grad>D. med. et
+      LL.</grad> <vorname>D.</vorname> <nachname>Spalteholz</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>zweistündig, in noch zu best.
+      Zeit</zeit>, <modus>privatissime</modus>, <ort>im Anatomischen Institut,
+      Liebigstr. 13</ort>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1322,10 +1323,11 @@
 
       <veranstaltung xml:id="v-1906s-III-017"><thema>Physiologische Chemie (im
       Anschluss an die Vorlesung: Physiologie des Kreislaufs u.s.w. von D.
-      med. et ph. Hering, P. O.)</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Dienst. u. Donnerst. 10-11 U.</zeit>, <modus>privatim</modus>,
-      <ort>im Physiolog. Institut, Liebigstr. 16</ort>.</veranstaltung>
+      med. et ph. Hering, P. O.)</thema>: <dozent ref="siegfried_m"><grad>D.
+      ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Dienst. u. Donnerst. 10-11 U.</zeit>,
+      <modus>privatim</modus>, <ort>im Physiolog. Institut, Liebigstr.
+      16</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-018"><thema>Arbeiten für Geübtere
       <ort>im Physiologischen Institute, Liebigstr. 16</ort></thema>: <dozent
@@ -1336,7 +1338,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-019"><thema>Physiologisches
-      Praktikum</thema>: <dozent><grad>D. ph.</grad>
+      Praktikum</thema>: <dozent ref="siegfried_m"><grad>D. ph.</grad>
       <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
       <dozent ref="garten_ehs">gemeinsam mit <grad>D. med.</grad>
       <nachname>Garten</nachname>, <funktion>P. E.</funktion></dozent>,
@@ -1350,10 +1352,10 @@
       Institut, Liebigstr. 16</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-021"><thema>Physiologisch-chemischen
-      Praktikum</thema>, <zeit>ganz- oder halbtägig</zeit>: <dozent><grad>D.
-      ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>tägl. 9-1 u. (ausser Sonnab.) 2-6
-      U.</zeit>, <modus>privatissime</modus>, <ort>im Physiolog. Institut,
+      Praktikum</thema>, <zeit>ganz- oder halbtägig</zeit>: <dozent
+      ref="siegfried_m"><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>tägl. 9-1 u. (ausser Sonnab.)
+      2-6 U.</zeit>, <modus>privatissime</modus>, <ort>im Physiolog. Institut,
       Liebigstr. 16</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-022"><thema>Chemisches Praktikum für
@@ -1371,11 +1373,11 @@
       18</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-024"><thema>Chemisches Praktikum für
-      Mediziner</thema>, <zeit>halbtäg.</zeit>: <dozent><grad>D. ph.</grad>
-      <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>tägl. 9-1 oder (ausser Sonnab.) 2-6 U.</zeit>,
-      <modus>privatissime</modus>, <ort>im Physiologischen Institut,
-      Liebigstr. 16</ort>.</veranstaltung>
+      Mediziner</thema>, <zeit>halbtäg.</zeit>: <dozent
+      ref="siegfried_m"><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>tägl. 9-1 oder (ausser
+      Sonnab.) 2-6 U.</zeit>, <modus>privatissime</modus>, <ort>im
+      Physiologischen Institut, Liebigstr. 16</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-025"><thema>Repetitorium der Physik
       (zugleich Einführung in das Physikalische Praktikum für Mediziner und
@@ -1551,11 +1553,11 @@
       Pädiatrischen Privat-Poliklinik, Königsstr. 14. I.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-049"><thema>Krankheiten der
-      Neugeborenen und Säuglinge</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Soltmann</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
-      <zeit>Mittw. 5-6 U.</zeit>, <modus>publice</modus> u.
-      <gebühr>gratis</gebühr>, <ort>im Kinderkrankenhaus, Platzmannstr.
-      1</ort>.</veranstaltung>
+      Neugeborenen und Säuglinge</thema>: <dozent ref="soltmann_o"><grad>D.
+      med.</grad> <nachname>Soltmann</nachname>, <funktion>P. O.
+      Hon.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
+      <modus>publice</modus> u. <gebühr>gratis</gebühr>, <ort>im
+      Kinderkrankenhaus, Platzmannstr. 1</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-050"><thema>Hygiene des Nervensystems
       (für Studierende aller Fakultäten)</thema>: <dozent><grad>D. med.</grad>
@@ -1674,7 +1676,7 @@
       Kinderkrankenhause, Platzmannstr. 1</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-067"><thema>Topographische
-      Anatomie</thema>: <dozent><grad>D. med. et LL.</grad>
+      Anatomie</thema>: <dozent ref="spalteholz_w"><grad>D. med. et LL.</grad>
       <vorname>D.</vorname> <nachname>Spalteholz</nachname>, <funktion>P.
       E.</funktion></dozent>, <zeit>Mont. bis Freit. 12-1 U.</zeit>,
       <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
@@ -1977,7 +1979,7 @@
       55</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-110"><thema>Klinik und Poliklinik der
-      Kinderkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Kinderkrankheiten</thema>: <dozent ref="soltmann_o"><grad>D. med.</grad>
       <nachname>Soltmann</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
       <zeit>tägl. (ausser Donnerst.) 4-5 U.</zeit>, <modus>privatim</modus>,
       <ort>im Kinderkrankenhaus, Platzmannstr. 1</ort>.</veranstaltung>
@@ -2306,9 +2308,9 @@
       G.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Die niederen Tiere der Heimat</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Simroth</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
-      G.</siehe></veranstaltungsverweis>
+      <dozent ref="simroth_h"><grad>D. ph.</grad>
+      <nachname>Simroth</nachname>, <funktion>P. E.</funktion></dozent>
+      <siehe>Siehe Philosophische Fakultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Bakteriologisches Praktikum</thema>:
       <dozent ref="miehe_h"><grad>D. ph.</grad>
@@ -2705,9 +2707,9 @@
         <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Phonetik</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Sievers</nachname>, <funktion>P.
-        O.</funktion></dozent> <siehe>Siehe Deutsche
+        <veranstaltungsverweis><thema>Phonetik</thema>: <dozent
+        ref="sievers_e"><grad>D. ph.</grad> <nachname>Sievers</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe Deutsche
         Philologie</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Kultur der Indogermanen und des
@@ -3095,9 +3097,9 @@
 
           <veranstaltungsverweis><thema>Geschichte des griechischen und
           vorderasiatischen Orients im Zeitalter der Kreuzzüge</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Soerensen</nachname>,
-          <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
-          C.</siehe></veranstaltungsverweis>
+          <dozent ref="soerensen_a"><grad>D. ph.</grad>
+          <nachname>Soerensen</nachname>, <funktion>P. E.</funktion></dozent>
+          <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
 
           <trennlinie/>
 
@@ -3177,9 +3179,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1906s-IV.B.c-002"><thema>Phonetik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Sievers</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 10-11
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="sievers_e"><grad>D. ph.</grad>
+          <nachname>Sievers</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mittw. u. Sonnab. 10-11 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1906s-IV.B.c-003"><thema>Germanische
           Mythologie</thema>: <dozent ref="holz_g"><grad>D. ph.</grad>
@@ -3193,9 +3196,10 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1906s-IV.B.c-005"><thema>Einführung in das
-          Studium des Nibelungenliedes</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Sievers</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mont., Dienst., Donnerst. u. Freit. 10 bis 11 U.</zeit>,
+          Studium des Nibelungenliedes</thema>: <dozent
+          ref="sievers_e"><grad>D. ph.</grad> <nachname>Sievers</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
+          u. Freit. 10 bis 11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1906s-IV.B.c-006"><thema>Die Gedichte
@@ -3273,22 +3277,24 @@
           <trennlinie/>
 
           <veranstaltungsgruppe><thema>Übungen des Deutschen Seminars</thema>:
-          <veranstaltung xml:id="v-1906s-IV.B.c-014">1) <dozent><grad>D.
-          ph.</grad> <nachname>Sievers</nachname>, <funktion>P.
-          O.</funktion></dozent>, (<thema>ältere Abteilung</thema>),
-          <zeit>Mittw. 11-1 U.</zeit>, <modus>publice</modus></veranstaltung>.
-          - <veranstaltung xml:id="v-1906s-IV.B.c-015">2) <dozent
-          ref="koester_a"><grad>D. ph.</grad> <nachname>Köster</nachname>,
-          <funktion>P. O.</funktion></dozent>, (<thema>neuere
-          Abteilung</thema>), <zeit>Mont. 8-½10 U. Ab.</zeit>,
+          <veranstaltung xml:id="v-1906s-IV.B.c-014">1) <dozent
+          ref="sievers_e"><grad>D. ph.</grad> <nachname>Sievers</nachname>,
+          <funktion>P. O.</funktion></dozent>, (<thema>ältere
+          Abteilung</thema>), <zeit>Mittw. 11-1 U.</zeit>,
+          <modus>publice</modus></veranstaltung>. - <veranstaltung
+          xml:id="v-1906s-IV.B.c-015">2) <dozent ref="koester_a"><grad>D.
+          ph.</grad> <nachname>Köster</nachname>, <funktion>P.
+          O.</funktion></dozent>, (<thema>neuere Abteilung</thema>),
+          <zeit>Mont. 8-½10 U. Ab.</zeit>,
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Übungen des Deutschen
           Proseminars</thema>: <veranstaltung xml:id="v-1906s-IV.B.c-016">1)
-          <dozent><grad>D. ph.</grad> <nachname>Sievers</nachname>,
-          <funktion>P. O.</funktion></dozent>, <thema>(althochdeutsche
-          Abteilung): Erklärung ausgewählter althochdeutscher Prosatexte nach
-          Braune's Lesebuch</thema>, <zeit>Sonnab. 11-1 U.</zeit>,
+          <dozent ref="sievers_e"><grad>D. ph.</grad>
+          <nachname>Sievers</nachname>, <funktion>P. O.</funktion></dozent>,
+          <thema>(althochdeutsche Abteilung): Erklärung ausgewählter
+          althochdeutscher Prosatexte nach Braune's Lesebuch</thema>,
+          <zeit>Sonnab. 11-1 U.</zeit>,
           <modus>publice</modus></veranstaltung>. - <veranstaltung
           xml:id="v-1906s-IV.B.c-017">2) <dozent ref="koester_a"><grad>D.
           ph.</grad> <nachname>Köster</nachname>, <funktion>P.
@@ -3620,7 +3626,7 @@
 
         <veranstaltung xml:id="v-1906s-IV.C-011"><thema>Geschichte des
         griechischen und vorderasiatischen Orients im Zeitalter der
-        Kreuzzüge</thema>: <dozent><grad>D. ph.</grad>
+        Kreuzzüge</thema>: <dozent ref="soerensen_a"><grad>D. ph.</grad>
         <nachname>Soerensen</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Freit. 4-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -3929,9 +3935,9 @@
         <siehe>Siehe Juristische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsche Rechtsgeschichte</thema>:
-        <dozent><grad>D. jur., th. et ph.</grad> <nachname>Sohm</nachname>,
-        <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
-        Fakultät</siehe>.</veranstaltungsverweis>
+        <dozent ref="sohm_r"><grad>D. jur., th. et ph.</grad>
+        <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>
+        <siehe>Siehe Juristische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsche Rechtsgeschichte</thema>:
         <dozent><grad>D. jur.</grad> <nachname>Fehr</nachname></dozent>.
@@ -4861,9 +4867,9 @@
         D.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Die niederen Tiere der Heimat</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Simroth</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Abschnitt
-        D.</siehe></veranstaltungsverweis>
+        <dozent ref="simroth_h"><grad>D. ph.</grad>
+        <nachname>Simroth</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Abschnitt D.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Physiologie und Hygiene der
         Milch</thema>: <dozent><grad>D. med.</grad>
@@ -5594,10 +5600,10 @@
         33</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1906s-IV.G-049"><thema>Die niederen Tiere der
-        Heimat, mit Exkursionen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Simroth</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mittw. 5-6 U., Dienst. 6-7 U. (Sonnab. Nachm.
-        Exkursionen)</zeit>, <modus>privatim</modus>, <ort>im Zoolog.
+        Heimat, mit Exkursionen</thema>: <dozent ref="simroth_h"><grad>D.
+        ph.</grad> <nachname>Simroth</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mittw. 5-6 U., Dienst. 6-7 U. (Sonnab.
+        Nachm. Exkursionen)</zeit>, <modus>privatim</modus>, <ort>im Zoolog.
         Institut, Talstr. 33</ort>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Anwendungen der Differential- und
@@ -5631,18 +5637,18 @@
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Anatomische
         Besprechungen</thema>.</veranstaltungsverweis> -
         <veranstaltungsverweis><thema>Topographische
-        Antomie</thema></veranstaltungsverweis>: <dozent><grad>D. med. et
-        LL.</grad> <vorname>D.</vorname> <nachname>Spalteholz</nachname>,
-        <funktion>P. E.</funktion></dozent> <siehe>Siehe Medizinische
-        Fakultät</siehe>.</veranstaltungsgruppe>
+        Antomie</thema></veranstaltungsverweis>: <dozent
+        ref="spalteholz_w"><grad>D. med. et LL.</grad> <vorname>D.</vorname>
+        <nachname>Spalteholz</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Physiologie und Hygiene der
         Milch</thema>: <dozent><grad>D. med.</grad>
         <nachname>Seiffert</nachname></dozent>. <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Physiologische Chemie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
+        <veranstaltungsverweis><thema>Physiologische Chemie</thema>: <dozent
+        ref="siegfried_m"><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
         <funktion>P. E.</funktion></dozent> <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -5978,16 +5984,17 @@
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Chemisches
         Praktikum für Mediziner</thema>.</veranstaltungsverweis> -
         <veranstaltungsverweis><thema>Physiologisch-chemisches
-        Praktikum</thema></veranstaltungsverweis>: <dozent><grad>D. ph.</grad>
-        <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsgruppe>
+        Praktikum</thema></veranstaltungsverweis>: <dozent
+        ref="siegfried_m"><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Medizinische
+        Fakultät</siehe>.</veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Physiologisches Praktikum</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
-        <funktion>P. E.</funktion></dozent> und <dozent
-        ref="garten_ehs"><grad>D. med.</grad> <nachname>Garten</nachname>,
-        <funktion>P. E.</funktion></dozent> <siehe>Siehe Medizinische
-        Fakultät</siehe>.</veranstaltungsverweis>
+        <dozent ref="siegfried_m"><grad>D. ph.</grad>
+        <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>
+        und <dozent ref="garten_ehs"><grad>D. med.</grad>
+        <nachname>Garten</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Arbeiten für Geübtere im Physiologischen
         Institute</thema>: <dozent ref="hering_kek"><grad>D. med. et
@@ -5996,11 +6003,12 @@
         Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Mikroskopischer Kurs der tierischen
-        Geweblehre</thema>: <dozent><grad>D. med. et LL.</grad>
-        <grad>D.</grad> <nachname>Spalteholz</nachname>, <funktion>P.
-        E.</funktion></dozent> u. <dozent ref="held_h"><grad>D. med.</grad>
-        <nachname>Held</nachname>, <funktion>P. E. des.</funktion></dozent>
-        <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
+        Geweblehre</thema>: <dozent ref="spalteholz_w"><grad>D. med. et
+        LL.</grad> <grad>D.</grad> <nachname>Spalteholz</nachname>,
+        <funktion>P. E.</funktion></dozent> u. <dozent ref="held_h"><grad>D.
+        med.</grad> <nachname>Held</nachname>, <funktion>P. E.
+        des.</funktion></dozent> <siehe>Siehe Medizinische
+        Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Embryologischer Kurs</thema>: <dozent
         ref="kaestner_s"><grad>D. med.</grad> <nachname>Kaestner</nachname>,

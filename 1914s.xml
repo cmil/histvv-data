@@ -582,9 +582,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1914s-II-010"><thema>Deutsche
-      Rechtsgeschichte</thema>: <dozent><grad>D. jur., th. et ph.</grad>
-      <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mo. bis Do. 10-11 U.</zeit>,
+      Rechtsgeschichte</thema>: <dozent ref="sohm_r"><grad>D. jur., th. et
+      ph.</grad> <nachname>Sohm</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mo. bis Do. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1914s-II-011"><thema>Grundzüge des deutschen
@@ -594,8 +594,8 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1914s-II-012"><thema>Deutsches bürgerliches
-      Recht (Allgemeiner Teil)</thema>: <dozent><grad>D. jur., th. et
-      ph.</grad> <nachname>Sohm</nachname>, <funktion>P.
+      Recht (Allgemeiner Teil)</thema>: <dozent ref="sohm_r"><grad>D. jur.,
+      th. et ph.</grad> <nachname>Sohm</nachname>, <funktion>P.
       O.</funktion></dozent>, <zeit>Fr. u. So. 10-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -670,7 +670,7 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1914s-II-025"><thema>Kirchenrecht und
-      Eherecht</thema>: <dozent><grad>D. jur., th. et ph.</grad>
+      Eherecht</thema>: <dozent ref="sohm_r"><grad>D. jur., th. et ph.</grad>
       <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>tägl. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -950,11 +950,12 @@
         Instituts, Talstr. 33. Eg.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.001-002"><thema>Einführung in das
-        Studium der Medizin (Studienplan)</thema>: <dozent><grad>D. med. et
-        LL. D.</grad> <nachname>Spalteholz</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>an einem der ersten Tage des
-        Semesters</zeit>, <modus>publice</modus>, <ort>im Anatomischen
-        Institut, Liebigstr. 13</ort>. Näheres durch Anschlag.</veranstaltung>
+        Studium der Medizin (Studienplan)</thema>: <dozent
+        ref="spalteholz_w"><grad>D. med. et LL. D.</grad>
+        <nachname>Spalteholz</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>an einem der ersten Tage des Semesters</zeit>,
+        <modus>publice</modus>, <ort>im Anatomischen Institut, Liebigstr.
+        13</ort>. Näheres durch Anschlag.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.001-003"><thema>Chemisches
         Praktikum für Studierende der Medizin und der Zahnheilkunde</thema>:
@@ -967,7 +968,8 @@
         <veranstaltung xml:id="v-1914s-III.001-004"><thema>Chemisches
         Praktikum für Studierende der Medizin und der Zahnheilkunde</thema>:
         <dozent ref="paal_c"><grad>D. ph.</grad> <nachname>Paal</nachname>,
-        <funktion>P. O.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
+        <funktion>P. O.</funktion></dozent>, mit <dozent
+        ref="sieverts_a"><grad>D. ph.</grad>
         <nachname>Sieverts</nachname></dozent> u. <dozent><grad>D. ph.</grad>
         <nachname>Waentig</nachname></dozent>, <zeit>sechsstündig nach
         Vereinbarung</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für
@@ -993,11 +995,12 @@
         Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.001-007"><thema>Chemisches
-        Praktikum für Mediziner, halbtägig</thema>: <dozent><grad>D. med. et
-        ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>tägl. 9-1 oder (außer So.) 2-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Physiolog. Institut,
-        Liebigstr. 16</ort>.</veranstaltung>
+        Praktikum für Mediziner, halbtägig</thema>: <dozent
+        ref="siegfried_m"><grad>D. med. et ph.</grad>
+        <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>tägl. 9-1 oder (außer So.) 2-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physiolog. Institut, Liebigstr.
+        16</ort>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Physikal.-chem. Einführungskurs, auch f.
         Mediziner</thema>: <siehe>S. 55</siehe>.</veranstaltungsverweis>
@@ -1033,14 +1036,14 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.002-004"><thema>Systematische
-        Anatomie des Menschen (Knochen und Gelenke)</thema>: <dozent><grad>D.
-        med. et LL. D.</grad> <nachname>Spalteholz</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Di., Do. u. So. 10-11 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
-        13</ort>.</veranstaltung>
+        Anatomie des Menschen (Knochen und Gelenke)</thema>: <dozent
+        ref="spalteholz_w"><grad>D. med. et LL. D.</grad>
+        <nachname>Spalteholz</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Di., Do. u. So. 10-11 U.</zeit>, <modus>privatim</modus>,
+        <ort>im Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
 
-        <veranstaltungsgruppe><thema>Histologische Übungen</thema>:
-        <dozent><grad>D. med. et LL. D.</grad>
+        <veranstaltungsgruppe><thema>Histologische Übungen</thema>: <dozent
+        ref="spalteholz_w"><grad>D. med. et LL. D.</grad>
         <nachname>Spalteholz</nachname>, <funktion>P. E.</funktion></dozent>
         und <dozent ref="held_h"><grad>D. med.</grad>
         <nachname>Held</nachname>, <funktion>P. E. des.</funktion></dozent>,
@@ -1051,14 +1054,15 @@
         Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltungsgruppe>
 
         <veranstaltung xml:id="v-1914s-III.002-007"><thema>Anatomische
-        Besprechungen</thema>: <dozent><grad>D. med. et LL. D.</grad>
-        <nachname>Spalteholz</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mi. 2-4 U.</zeit>, <modus>privatim</modus>, <ort>im Anatomischen
-        Institut, Liebigstr. 13</ort>.</veranstaltung>
+        Besprechungen</thema>: <dozent ref="spalteholz_w"><grad>D. med. et LL.
+        D.</grad> <nachname>Spalteholz</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mi. 2-4 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
+        13</ort>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1914s-III.002-008"><thema>Situsdemonstrationen</thema>:
-        <dozent><grad>D. med. et LL. D.</grad>
+        <dozent ref="spalteholz_w"><grad>D. med. et LL. D.</grad>
         <nachname>Spalteholz</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>So. 2-4 U.</zeit>, <modus>privatim</modus>, <ort>im Anatomischen
         Institut, Liebigstr. 13</ort>.</veranstaltung>
@@ -1121,28 +1125,30 @@
         <veranstaltung xml:id="v-1914s-III.003-003"><thema>Physiologische
         Chemie (im Anschluß an die Vorlesung: <seite>13</seite>Physiologie des
         Kreislaufs usw. von D. med. et ph. Hering, P. O., vertr. durch D. med.
-        von Brücke, P. E.)</thema>: <dozent><grad>D. med. et ph.</grad>
-        <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Di. u. Do. 10-11 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Physiologischen Institut, Liebigstr. 16</ort>.</veranstaltung>
+        von Brücke, P. E.)</thema>: <dozent ref="siegfried_m"><grad>D. med. et
+        ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Di. u. Do. 10-11 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physiologischen Institut, Liebigstr.
+        16</ort>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1914s-III.003-004"><thema>Physiologisch-chemisches
-        Praktikum, ganz- oder halbtägig</thema>: <dozent><grad>D. med. et
-        ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>tägl. 9-1 u. (außer So.) 2-6 U.</zeit>,
+        Praktikum, ganz- oder halbtägig</thema>: <dozent
+        ref="siegfried_m"><grad>D. med. et ph.</grad>
+        <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>tägl. 9-1 u. (außer So.) 2-6 U.</zeit>,
         <modus>privatissime</modus>, <ort>im Physiolog. Institut, Liebigstr.
         16</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.003-005"><thema>Physiologisches
-        Praktikum</thema>: <dozent><grad>D. med. et ph.</grad>
-        <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
-        mit <dozent ref="bruecke_et"><grad>D. med.</grad>
-        <nachnamenpräfix>von</nachnamenpräfix> <nachname>Brücke</nachname>,
-        <funktion>P. E.</funktion></dozent> u. <dozent><grad>D. med.</grad>
-        <nachname>Dittler</nachname></dozent>, <zeit>dreimal wöchentlich 4-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Physiologischen Institut,
-        Liebigstr. 16</ort>.</veranstaltung>
+        Praktikum</thema>: <dozent ref="siegfried_m"><grad>D. med. et
+        ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
+        E.</funktion></dozent>, mit <dozent ref="bruecke_et"><grad>D.
+        med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+        <nachname>Brücke</nachname>, <funktion>P. E.</funktion></dozent> u.
+        <dozent><grad>D. med.</grad> <nachname>Dittler</nachname></dozent>,
+        <zeit>dreimal wöchentlich 4-6 U.</zeit>, <modus>privatim</modus>,
+        <ort>im Physiologischen Institut, Liebigstr. 16</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.003-006"><thema>Physiologische
         Besprechungen</thema>: <dozent><grad>D. med.</grad>
@@ -1377,7 +1383,7 @@
         Röntgen-Technik und Diagnostik, interner Teil, mit praktischen
         Übungen</thema>: <dozent ref="assmann_h"><grad>D. med.</grad>
         <nachname>Assmann</nachname></dozent>, (<thema>chirurgischer
-        Teil</thema> durch <dozent><grad>D. med.</grad>
+        Teil</thema> durch <dozent ref="sievers_r"><grad>D. med.</grad>
         <nachname>Sievers</nachname></dozent>), <zeit>Mi. 3-4 u. Do. 12-1 U.,
         ev. auch in anderer Zeit</zeit>, <modus>privatim</modus>, <ort>in der
         Medizinischen Klinik, Liebigstr. 22</ort>.</veranstaltung>
@@ -1506,7 +1512,7 @@
 
         <veranstaltung xml:id="v-1914s-III.007-017"><thema>Kursus der
         Röntgentechnik und Diagnostik, chirur<seite>17</seite>gischer
-        Teil</thema>: <dozent><grad>D. med.</grad>
+        Teil</thema>: <dozent ref="sievers_r"><grad>D. med.</grad>
         <nachname>Sievers</nachname></dozent> (im Auftrage von <dozent
         ref="payr_e"><grad>D. med.</grad> <nachname>Payr</nachname>,
         <funktion>P. O.</funktion></dozent>), [<thema>interner Teil</thema>
@@ -2270,7 +2276,8 @@
         <veranstaltung xml:id="v-1914s-III.018-020"><thema>Chemisches
         Praktikum für Studierende der Medizin u. der Zahnheilkunde</thema>:
         <dozent ref="paal_c"><grad>D. ph.</grad> <nachname>Paal</nachname>,
-        <funktion>P. O.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
+        <funktion>P. O.</funktion></dozent>, mit <dozent
+        ref="sieverts_a"><grad>D. ph.</grad>
         <nachname>Sieverts</nachname></dozent> u. <dozent><grad>D. ph.</grad>
         <nachname>Waentig</nachname></dozent>, <zeit>sechsstündig nach
         Vereinbar.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f.
@@ -2380,10 +2387,10 @@
 
         <veranstaltung xml:id="v-1914s-IV.A-017"><thema>Pädagogische Theorien
         und Erziehungswesen von Rousseau bis zur Gegenwart (Pädagogik <notiz
-        betreff="fortsetzung">II. Teil</notiz>)</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Spranger</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Di., Do. u. Fr. 8-9 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        betreff="fortsetzung">II. Teil</notiz>)</thema>: <dozent
+        ref="spranger_e"><grad>D. ph.</grad> <nachname>Spranger</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Di., Do. u. Fr. 8-9
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <seite>27</seite>
 
@@ -2394,9 +2401,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.A-019"><thema>Der Zusammenhang von
-        Philosophie und Politik in der Neuzeit</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Spranger</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mi. 10-11 U.</zeit>,
+        Philosophie und Politik in der Neuzeit</thema>: <dozent
+        ref="spranger_e"><grad>D. ph.</grad> <nachname>Spranger</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mi. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Pädagogik auf geschichtlicher
@@ -2531,7 +2538,7 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
 
           <absatz>(<ort>Universitätsstr. 13. II.</ort>).</absatz>
 
-          <veranstaltungsgruppe><dozent><grad>D. ph.</grad>
+          <veranstaltungsgruppe><dozent ref="spranger_e"><grad>D. ph.</grad>
           <nachname>Spranger</nachname>, <funktion>P. O.</funktion></dozent>:
           <veranstaltung xml:id="v-1914s-IV.A.003-001">a) <thema>Übungen über
           die Entwicklungsstufen des Kindes, vorzugsweise das
@@ -2951,9 +2958,10 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
           <titel>c) Deutsche Philologie.</titel>
 
           <veranstaltung xml:id="v-1914s-IV.B.c-001"><thema>Phonetik</thema>:
-          <dozent><grad>D. ph. et th.</grad> <nachname>Sievers</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mi. u. So. 10-11
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="sievers_e"><grad>D. ph. et th.</grad>
+          <nachname>Sievers</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mi. u. So. 10-11 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1914s-IV.B.c-002"><thema>Deutsche Grammatik
           (Laut- u. Flexionslehre des Gotischen, Alt-, Mittel- und
@@ -2982,9 +2990,10 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1914s-IV.B.c-006"><thema>Einführung in das
-          Studium des Nibelungenliedes</thema>: <dozent><grad>D. ph. et
-          th.</grad> <nachname>Sievers</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mo., Di., Do. u. Fr. 10-11 U.</zeit>,
+          Studium des Nibelungenliedes</thema>: <dozent
+          ref="sievers_e"><grad>D. ph. et th.</grad>
+          <nachname>Sievers</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mo., Di., Do. u. Fr. 10-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1914s-IV.B.c-007"><thema>Geschichte der
@@ -3045,11 +3054,12 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
 
             <veranstaltungsgruppe>I. <thema>Übungen des Deutschen
             Seminars</thema>: <veranstaltung
-            xml:id="v-1914s-IV.B.c.001-001">1) <dozent><grad>D. ph. et
-            th.</grad> <nachname>Sievers</nachname>, <funktion>P.
-            O.</funktion></dozent> (<thema>ältere Abteilung</thema>),
-            <zeit>Mi. 11-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
-            - <veranstaltung xml:id="v-1914s-IV.B.c.001-002">2) <dozent
+            xml:id="v-1914s-IV.B.c.001-001">1) <dozent
+            ref="sievers_e"><grad>D. ph. et th.</grad>
+            <nachname>Sievers</nachname>, <funktion>P. O.</funktion></dozent>
+            (<thema>ältere Abteilung</thema>), <zeit>Mi. 11-1 U.</zeit>,
+            <modus>publice</modus>.</veranstaltung> - <veranstaltung
+            xml:id="v-1914s-IV.B.c.001-002">2) <dozent
             ref="koester_a"><grad>D. ph.</grad> <vorname>A.</vorname>
             <nachname>Köster</nachname>, <funktion>P. O.</funktion></dozent>
             (<thema>neuere Abteilung</thema>), <zeit>Mo. 8-10 U. ab.</zeit>,
@@ -3064,10 +3074,11 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
             ausgewählter Prosatexte nach Braunes Althochd. Lesebuch</thema>,
             <zeit>Mi. 11-1 U.</zeit>, <modus>publice</modus></veranstaltung>;
             <veranstaltung xml:id="v-1914s-IV.B.c.001-004">b)
-            <thema>Althochdeutscher Hauptkurs</thema>: <dozent><grad>D. ph. et
-            th.</grad> <nachname>Sievers</nachname>, <funktion>P.
-            O.</funktion></dozent>: <thema>Lektüre ausgewählter Prosatexte
-            nach Braunes Althochd. Lesebuch</thema>, <zeit>So. 11-1 U.</zeit>,
+            <thema>Althochdeutscher Hauptkurs</thema>: <dozent
+            ref="sievers_e"><grad>D. ph. et th.</grad>
+            <nachname>Sievers</nachname>, <funktion>P. O.</funktion></dozent>:
+            <thema>Lektüre ausgewählter Prosatexte nach Braunes Althochd.
+            Lesebuch</thema>, <zeit>So. 11-1 U.</zeit>,
             <modus>publice</modus></veranstaltung>; <veranstaltung
             xml:id="v-1914s-IV.B.c.001-005">c) <thema>Mittelhochdeutscher
             Kurs</thema>: <dozent ref="holz_g"><grad>D. ph.</grad>
@@ -5166,10 +5177,11 @@ durch die student. Hilfskraft???-->
         33</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-052"><thema>Die niederen Tiere der
-        Heimat mit Exkursionen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Simroth</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Di. u. Mi. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Zoolog. Institut, Talstr. 33</ort>.</veranstaltung>
+        Heimat mit Exkursionen</thema>: <dozent ref="simroth_h"><grad>D.
+        ph.</grad> <nachname>Simroth</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Di. u. Mi. 6-7 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Zoolog. Institut, Talstr.
+        33</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-053"><thema>Spezielle Zoologie:
         Vögel und Säugetiere (mit Berücksichtigung der einheimischen
@@ -5377,9 +5389,10 @@ durch die student. Hilfskraft???-->
         <nachname>Heller</nachname>, <funktion>P. E.</funktion></dozent>,
         <dozent><grad>D. ph.</grad> <nachname>Deußen</nachname></dozent>,
         <dozent><grad>D. ph.</grad> <nachname>Scheiber</nachname></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Sieverts</nachname></dozent> u.
-        <dozent><grad>D. ph.</grad> <nachname>Waentig</nachname></dozent>,
-        <zeit>täglich 8-12½ U. u. (außer So.) 2-6 U.</zeit>, <seite>56</seite><modus>privatim</modus>,
+        <dozent ref="sieverts_a"><grad>D. ph.</grad>
+        <nachname>Sieverts</nachname></dozent> u. <dozent><grad>D. ph.</grad>
+        <nachname>Waentig</nachname></dozent>, <zeit>täglich 8-12½ U. u.
+        (außer So.) 2-6 U.</zeit>, <seite>56</seite><modus>privatim</modus>,
         <ort>im Laboratorium f. angew. Chemie u. Pharmazie, Brüderstr.
         34</ort>.</veranstaltung>
 
@@ -5407,7 +5420,7 @@ durch die student. Hilfskraft???-->
         Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-078"><thema>Übungen in technischer
-        Gasanalyse</thema>: <dozent><grad>D. ph.</grad>
+        Gasanalyse</thema>: <dozent ref="sieverts_a"><grad>D. ph.</grad>
         <nachname>Sieverts</nachname></dozent>, <zeit>Zeit nach
         Vereinbarung</zeit>, <modus>privatissime</modus>, <ort>im Laboratorium
         für angew. Chemie u. Pharmazie, Brüderstr. 34</ort>.</veranstaltung>
@@ -5442,7 +5455,8 @@ durch die student. Hilfskraft???-->
         <dozent ref="paal_c"><grad>D. ph.</grad> <nachname>Paal</nachname>,
         <funktion>P. O.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
         <nachname>Deußen</nachname></dozent>, <dozent><grad>D. ph.</grad>
-        <nachname>Scheiber</nachname></dozent>, <dozent><grad>D. ph.</grad>
+        <nachname>Scheiber</nachname></dozent>, <dozent
+        ref="sieverts_a"><grad>D. ph.</grad>
         <nachname>Sieverts</nachname></dozent> u. <dozent><grad>D. ph.</grad>
         <nachname>Waentig</nachname></dozent>, <zeit>tägl. 8-12½ u. (außer
         So.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f.
@@ -5467,10 +5481,11 @@ durch die student. Hilfskraft???-->
 
         <veranstaltung xml:id="v-1914s-IV.G-085"><thema>Chemisches
         Seminar</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Scheiber</nachname></dozent>, mit <dozent><grad>D.
-        ph.</grad> <nachname>Sieverts</nachname></dozent> u. <dozent><grad>D.
-        ph.</grad> <nachname>Waentig</nachname></dozent>, <zeit>2stündig, Zeit
-        nach Vereinbarung</zeit>, <modus>privatissime</modus>, sed
+        <nachname>Scheiber</nachname></dozent>, mit <dozent
+        ref="sieverts_a"><grad>D. ph.</grad>
+        <nachname>Sieverts</nachname></dozent> u. <dozent><grad>D. ph.</grad>
+        <nachname>Waentig</nachname></dozent>, <zeit>2stündig, Zeit nach
+        Vereinbarung</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>, <ort>im Laboratorium f. angewandte Chemie u.
         Pharmazie, Brüderstr. 34</ort>.</veranstaltung>
 
@@ -5543,9 +5558,9 @@ durch die student. Hilfskraft???-->
 
         <veranstaltung
         xml:id="v-1914s-IV.G-094"><thema>Physiologisch-chemisches Praktikum,
-        ganz- oder halbtägig</thema>: <dozent><grad>D. med. et ph.</grad>
-        <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>tägl. 9-1 u. (außer So.) 2-6 U.</zeit>,
+        ganz- oder halbtägig</thema>: <dozent ref="siegfried_m"><grad>D. med.
+        et ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>tägl. 9-1 u. (außer So.) 2-6 U.</zeit>,
         <modus>privatissime</modus>, <ort>im Physiolog. Institut, Liebigstr.
         16.</ort></veranstaltung>
 
