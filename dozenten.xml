@@ -32,7 +32,7 @@
 
     <pnd>118644084</pnd>
 
-    <absatz>Arzt, Gynäkologe</absatz>
+    <beruf>Arzt, Gynäkologe</beruf>
 
     <ndb>
       <band>1</band>
@@ -76,7 +76,7 @@
 
     <pnd>118644114</pnd>
 
-    <absatz>Jurist, Rechtsphilosoph, Politiker, Schriftsteller</absatz>
+    <beruf>Jurist, Rechtsphilosoph, Politiker, Schriftsteller</beruf>
 
     <ndb>
       <band>1</band>
@@ -102,10 +102,12 @@
       <jahr>1881</jahr>
     </geboren>
 
-    <!--Nur Geburtsjahr gesichert. Quelle: Acta Radiologica Supplementum V (1928),
-S. 129 (dort Porträt Nr. 516)-->
+    <!--Nur Geburtsjahr gesichert. -->
 
-    <absatz>Facharzt für innere Krankheiten</absatz>
+    <beruf>Facharzt für innere Krankheiten</beruf>
+
+    <quelle>Acta Radiologica Supplementum V (1928), S. 129 [dort Porträt Nr.
+    516]</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="albrecht_we">
@@ -551,8 +553,6 @@ von SS 1856 bis SS 1857 "Assmann"-->
 
       <nachnamenpräfix>von</nachnamenpräfix>
     </name>
-
-    <!--das ist unser "Baeltz", der nur einmal vorkommt (WS 1874), vgl. Wikipedia-->
 
     <geboren>
       <jahr>1849</jahr>
@@ -1629,8 +1629,8 @@ vom März 1936, unterstützt aber das Geburtsdatum wie in der Wochenschrift
     <absatz>Universitätsfechtmeister</absatz>
 
     <!--Kommt bis WS 1864 vor. Auch die Angabe "C. Berndt" meint ihn,
-im Personalverzeichnis wird er bs zuletzt als "Gustav Berndt" geführt.
-ACHTUNG: Der Fechtmeister sowie andere Exerzitienmeister sin dnoch nicht alle getaggt.-->
+im Personalverzeichnis wird er bis zuletzt als "Gustav Berndt" geführt.
+ACHTUNG: Der Fechtmeister sowie andere Exerzitienmeister sind noch nicht alle getaggt.-->
   </dozent>
 
   <dozent eindeutig="ja" xml:id="berry_k">
@@ -1961,10 +1961,6 @@ ACHTUNG: Der Fechtmeister sowie andere Exerzitienmeister sin dnoch nicht alle ge
       <monat>1</monat>
 
       <tag>31</tag>
-
-      <!--laut Jens Martin Rohrbach, Augenheilkunde im 
-Nationalsozialismus, S. 118
-http://books.google.de/books?id=_USvypqaALUC&pg=PA118&lpg=PA118&dq=%22Arthur+Birch-Hirschfeld-->
     </gestorben>
 
     <pnd>116188936</pnd>
@@ -1978,6 +1974,9 @@ http://books.google.de/books?id=_USvypqaALUC&pg=PA118&lpg=PA118&dq=%22Arthur+Bir
 
       <url>http://mdz10.bib-bvb.de/~db/0001/bsb00016318/images/index.html?seite=272</url>
     </ndb>
+
+    <quelle>Jens Martin Rohrbach, Augenheilkunde im Nationalsozialismus, S.
+    118<!--http://books.google.de/books?id=_USvypqaALUC&pg=PA118&lpg=PA118&dq=%22Arthur+Birch-Hirschfeld--></quelle>
   </dozent>
 
   <dozent xml:id="birch-hirschfeld_ga">
@@ -2323,9 +2322,11 @@ sollten wir nur "Artur" (auch: "Arthur") als Vornamen nehmen.-->
     <geboren>
       <jahr>1880</jahr>
 
-      <ort>Stavelot<!--(Quelle korrigert, Die Festschrift 1909, Bd. 4,1 schriebt "Staverlot")
+      <ort>Stavelot<!--(Quelle korrigiert, dort "Staverlot")
  --> (Belgien)</ort>
     </geboren>
+
+    <quelle>Die Festschrift 1909, Bd. 4,1</quelle>
   </dozent>
 
   <dozent xml:id="bock_ac">
@@ -2735,9 +2736,8 @@ sollten wir nur "Artur" (auch: "Arthur") als Vornamen nehmen.-->
       <ort>Berlin</ort>
     </geboren>
 
-    <!--Quelle:
-Stadtarchiv Leipzig, Verzeichnis der Bleibenden Einwohner
-der Stadt Leipzig 1811-1813. Nr. 29: Bd. 1 (A-Br), S. 654.-->
+    <quelle>Stadtarchiv Leipzig, Verzeichnis der Bleibenden Einwohner der
+    Stadt Leipzig 1811-1813. Nr. 29: Bd. 1 (A-Br), S. 654.</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="brahn_m">
@@ -4782,12 +4782,13 @@ Dissertation 1887 26 Jahre alt.-->
       <ort>Paris</ort>
     </gestorben>
 
-    <absatz>Historiker, Mediävist</absatz>
-
-    <!--Quelle: Matthias Middell, Weltgeschichtsschreibung im Zeitalter der Verfachlichung und Professionalisierung. 
-Das Leipziger Institut für Kultur- und Universalgeschichte. 1890-1990, S. 223, 544.-->
+    <beruf>Historiker, Mediävist</beruf>
 
     <url>http://fr.wikipedia.org/wiki/Gustave_Cohen</url>
+
+    <quelle>Matthias Middell, Weltgeschichtsschreibung im Zeitalter der
+    Verfachlichung und Professionalisierung. Das Leipziger Institut für
+    Kultur- und Universalgeschichte. 1890-1990, S. 223, 544.</quelle>
   </dozent>
 
   <dozent eindeutig="ja" von="1878s" xml:id="cohnheim_jf">
@@ -5818,10 +5819,12 @@ entscheiden (siehe URL vs. Lemma)-->
 
       <monat>10</monat>
 
-      <tag>01<!--Quelle: http://books.google.de/books?id=Ld8bAAAAIAAJ&q=%22Gustav+Donner%22+Leipzig&dq=%22Gustav+Donner%22+Leipzig&pgis=1--></tag>
+      <tag>01</tag>
     </gestorben>
 
     <absatz>Mechaniker an der Universität Leipzig</absatz>
+
+    <url>http://books.google.de/books?id=Ld8bAAAAIAAJ&amp;q=%22Gustav+Donner%22+Leipzig</url>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="doren_aj">
@@ -8344,10 +8347,13 @@ Allerdings sind die dazu aufgeführten Publikationen nicht schlüssig.-->
     <pnd>116749393</pnd>
 
     <absatz>Bibliothekar des Börsenvereins der deutschen Buchhändler in
-    Leipzig<!--Quelle: Horst Walter Blanke, Historiographiegeschichte bei Lamprecht und seinen Schülern, 
-in: ders. (Hrsg.), Transformation des Historismus, Waltrop 1994, S. 129.--></absatz>
+    Leipzig</absatz>
 
     <url>http://de.wikipedia.org/wiki/Johann_Goldfriedrich</url>
+
+    <quelle>Horst Walter Blanke, Historiographiegeschichte bei Lamprecht und
+    seinen Schülern, in: ders. (Hrsg.), Transformation des Historismus,
+    Waltrop 1994, S. 129.</quelle>
   </dozent>
 
   <dozent bis="1836w" eindeutig="ja" von="1814w" xml:id="goldhorn_jd">
@@ -9924,8 +9930,7 @@ Es fehlt dort an biographischen Angaben!-->
 
     <absatz>Jurist, Polizeiaktuar</absatz>
 
-    <!--Quelle:
-Stadtarchiv Leipzig, Bürgerakten (Nr. 4701)-->
+    <quelle>Stadtarchiv Leipzig, Bürgerakten (Nr. 4701)</quelle>
   </dozent>
 
   <dozent xml:id="heinze_m">
@@ -11916,9 +11921,6 @@ eine andere passt nicht weil er da mit "ä" geschrieben wird!--></pnd>
 
     <pnd>117078654</pnd>
 
-    <!--Quelle: WBI / Kosch, Wilhelm: Das katholische
-Deutschland. biographisch-bibliographisches Lexikon 1933 (484)-->
-
     <absatz>Kunsthistoriker</absatz>
 
     <ndb>
@@ -11928,6 +11930,9 @@ Deutschland. biographisch-bibliographisches Lexikon 1933 (484)-->
 
       <url>http://mdz10.bib-bvb.de/~db/0001/bsb00016327/images/index.html?seite=350</url>
     </ndb>
+
+    <quelle>Kosch, Wilhelm: Das katholische Deutschland.
+    biographisch-bibliographisches Lexikon 1933 (484) [WBIS]</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="john_g">
@@ -16649,12 +16654,14 @@ stimmt auch mit den Infos im WBI überein, da habilitiert er 1857!-->
 
       <tag>13</tag>
 
-      <ort>Dresden<!--(?) Quelle: http://books.google.de/books?q=%22Menke-Gl%C3%BCckert+verstarb+am+13.+Januar+1948%22--></ort>
+      <ort>Dresden</ort>
     </gestorben>
 
     <pnd>116882107</pnd>
 
     <absatz>Historiker, Politiker</absatz>
+
+    <url>http://books.google.de/books?id=8z5oAAAAMAAJ&amp;q=%22Menke-Gl%C3%BCckert+verstarb+am+13.+Januar+1948%22&amp;pgis=1</url>
   </dozent>
 
   <dozent bis="1876s" eindeutig="ja" von="1838w" xml:id="merkel_cl">
@@ -19881,11 +19888,11 @@ http://books.google.de/books?id=tmVOAAAAMAAJ&dq=Eisenberg&q=%22Ludwig+Pohle%22&p
 
     <pnd>116362715</pnd>
 
-    <!--Quelle: WBI
-Vollständige Ansicht, leider englischer Link:
-http://books.google.de/books?id=iyoHAAAAQAAJ&pg=PA265&dq=%22Christian+Rau%22+Mai+1744&lr=-->
+    <!--Quelle: WBI-->
 
     <absatz>Jurist</absatz>
+
+    <url>http://books.google.de/books?id=iyoHAAAAQAAJ&amp;pg=PA265&amp;dq=%22Christian+Rau%22+Mai+1744</url>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="rauber_a">
@@ -20253,8 +20260,6 @@ diese PND 107690365! --></pnd>
     </gestorben>
 
     <pnd>119034948</pnd>
-
-    <!--WS 1886, S. 17: Fehler beim Übergang auf neue Seite "Alterthums18wissenschaft"-->
 
     <absatz>klassischer Philologe</absatz>
 
