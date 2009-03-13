@@ -447,7 +447,7 @@
       <siehe>Siehe Juristische Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Aegyptische und vorderasiatische
-      Kunstgeschichte</thema>: <dozent><grad>D. ph.</grad>
+      Kunstgeschichte</thema>: <dozent ref="steindorff_g"><grad>D. ph.</grad>
       <nachname>Steindorff</nachname>, <funktion>P. E.</funktion></dozent>
       <siehe>Siehe Philosophische Facultät D.</siehe></veranstaltungsverweis>
 
@@ -481,7 +481,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-II-003"><thema>Geschichte und System des
-      römischen Rechts</thema>: <dozent><grad>D. jur.</grad>
+      römischen Rechts</thema>: <dozent ref="stintzing_w"><grad>D. jur.</grad>
       <nachname>Stintzing</nachname></dozent>, <zeit>tägl. 11-12 und Freit.
       12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -528,9 +528,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-II-011"><thema>Deutsches bürgerliches
-      Recht (Allgemeiner Theil)</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Stintzing</nachname></dozent>, <zeit>Mont. bis Donnerst. 12-1
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Recht (Allgemeiner Theil)</thema>: <dozent ref="stintzing_w"><grad>D.
+      jur.</grad> <nachname>Stintzing</nachname></dozent>, <zeit>Mont. bis
+      Donnerst. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-II-012"><thema>Deutsches bürgerliches
       Recht (Allgemeiner Theil und <seite>8</seite>Schuldverhältnisse)</thema>:
@@ -780,9 +780,9 @@
       C.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Allgemeine Volkswirthschaftslehre</thema>:
-      <dozent><grad>D. ph. et oec. publ.</grad> <nachname>Stieda</nachname>,
-      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
-      E.</siehe></veranstaltungsverweis>
+      <dozent ref="stieda_w"><grad>D. ph. et oec. publ.</grad>
+      <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent>
+      <siehe>Siehe Philosophische Facultät E.</siehe></veranstaltungsverweis>
 
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Specielle
       Volkswirthschaftslehre</thema></veranstaltungsverweis> -
@@ -812,9 +812,9 @@
       publ.</grad> <nachname>Fricker</nachname>, <funktion>P.
       O.</funktion></dozent>, <dozent ref="buecher_kw"><grad>D. ph.</grad>
       <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent> u.
-      <dozent><grad>D. ph. et oec. publ.</grad> <nachname>Stieda</nachname>,
-      <funktion>P. O. des.</funktion></dozent> <siehe>Siehe Philosophische
-      Facultät E.</siehe></veranstaltungsverweis>
+      <dozent ref="stieda_w"><grad>D. ph. et oec. publ.</grad>
+      <nachname>Stieda</nachname>, <funktion>P. O. des.</funktion></dozent>
+      <siehe>Siehe Philosophische Facultät E.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Forensische Psychiatrie</thema>: <dozent
       ref="flechsig_pe"><grad>D. med.</grad> <nachname>Flechsig</nachname>,
@@ -2219,22 +2219,23 @@
           12 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899w-IV.B.b-016"><thema>Aegyptisch, <notiz
-          betreff="fortsetzung">II. Kursus</notiz></thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Steindorff</nachname>, <funktion>P.
+          betreff="fortsetzung">II. Kursus</notiz></thema>: <dozent
+          ref="steindorff_g"><grad>D. ph.</grad>
+          <nachname>Steindorff</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>zweistündig</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <seite>24</seite>
 
           <veranstaltung xml:id="v-1899w-IV.B.b-017"><thema>Koptisch für
-          Anfänger</thema>: <dozent><grad>D. ph.</grad>
+          Anfänger</thema>: <dozent ref="steindorff_g"><grad>D. ph.</grad>
           <nachname>Steindorff</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>Dienst. u. Freit. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899w-IV.B.b-018"><thema>Grammatik der
-          koptischen Dialekte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Steindorff</nachname>, <funktion>P.
+          koptischen Dialekte</thema>: <dozent ref="steindorff_g"><grad>D.
+          ph.</grad> <nachname>Steindorff</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -2279,8 +2280,9 @@
           <trennlinie/>
 
           <veranstaltung xml:id="v-1899w-IV.B.b-025"><thema>Aegyptologisches
-          Seminar: Ausgewählte Pyramidentexte</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Steindorff</nachname>, <funktion>P.
+          Seminar: Ausgewählte Pyramidentexte</thema>: <dozent
+          ref="steindorff_g"><grad>D. ph.</grad>
+          <nachname>Steindorff</nachname>, <funktion>P.
           E.</funktion></dozent>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -2295,9 +2297,10 @@
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Aegyptische und vorderasiatische
-          Kunstgeschichte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Steindorff</nachname>, <funktion>P. E.</funktion></dozent>
-          <siehe>Siehe Abschnitt D.</siehe></veranstaltungsverweis>
+          Kunstgeschichte</thema>: <dozent ref="steindorff_g"><grad>D.
+          ph.</grad> <nachname>Steindorff</nachname>, <funktion>P.
+          E.</funktion></dozent> <siehe>Siehe Abschnitt
+          D.</siehe></veranstaltungsverweis>
         </sachgruppe>
 
         <trennlinie/>
@@ -2995,7 +2998,8 @@
         <titel>D. Kunstwissenschaften.</titel>
 
         <veranstaltung xml:id="v-1899w-IV.D-001"><thema>Aegyptische und
-        vorderasiatische Kunstgeschichte</thema>: <dozent><grad>D. ph.</grad>
+        vorderasiatische Kunstgeschichte</thema>: <dozent
+        ref="steindorff_g"><grad>D. ph.</grad>
         <nachname>Steindorff</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. u. Freit. 3-4 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -3194,9 +3198,10 @@
 
         <veranstaltung xml:id="v-1899w-IV.E-001"><thema>Allgemeine
         Volkswirthschaftslehre (Theoretische Nationalökonomie)</thema>:
-        <dozent><grad>D. ph. et oec. publ.</grad> <nachname>Stieda</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 4-5
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="stieda_w"><grad>D. ph. et oec. publ.</grad>
+        <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont. bis Freit. 4-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899w-IV.E-002"><thema>Specielle
         Volkswirthschaftslehre und Wirthschaftspolitik (Praktische
@@ -3255,9 +3260,9 @@
 
         <veranstaltung xml:id="v-1899w-IV.E-011"><thema>Theorie und Praxis der
         Statistik (einschl. Bevölkerungs-, Social- und
-        Moralstatistik)</thema>: <dozent><grad>D. ph. et oecon. publ.</grad>
-        <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
+        Moralstatistik)</thema>: <dozent ref="stieda_w"><grad>D. ph. et oecon.
+        publ.</grad> <nachname>Stieda</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899w-IV.E-012"><thema>Deutsche
@@ -3429,10 +3434,10 @@
         (im Auftrage des Directors): <thema>Industrielle Kalkulation</thema>,
         <zeit>in noch zu best. Zeit</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung></veranstaltungsgruppe>. -
-        <veranstaltung xml:id="v-1899w-IV.E-029">2) <dozent><grad>D. ph. et
-        oec. publ.</grad> <nachname>Stieda</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Sonnab. 11-1 U.</zeit>,
-        <modus>privatissime</modus>, aber
+        <veranstaltung xml:id="v-1899w-IV.E-029">2) <dozent
+        ref="stieda_w"><grad>D. ph. et oec. publ.</grad>
+        <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Sonnab. 11-1 U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung>.. - <veranstaltung
         xml:id="v-1899w-IV.E-030">3) <dozent ref="fricker_cv"><grad>D. ph.,
         jur. et oec. publ.</grad> <nachname>Fricker</nachname>, <funktion>P.
@@ -3699,9 +3704,10 @@
 
         <veranstaltung xml:id="v-1899w-IV.G-015"><thema>Organische Chemie
         <notiz betreff="fortsetzung">III. Theil</notiz>: Pyridin, Chinolin und
-        andere heterocyklische Verbindungen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Stobbe</nachname></dozent>, <zeit>Mittw. 12-1
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        andere heterocyklische Verbindungen</thema>: <dozent
+        ref="stobbe_h"><grad>D. ph.</grad>
+        <nachname>Stobbe</nachname></dozent>, <zeit>Mittw. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899w-IV.G-016"><thema>Anlytische Chemie
         <notiz betreff="fortsetzung">II. Theil</notiz>: Quantitative
@@ -3710,9 +3716,10 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899w-IV.G-017"><thema>Die neuesten
-        Forschungsergebnisse der organischen Chemie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Stobbe</nachname></dozent>, <zeit>Sonnab. 12-1
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Forschungsergebnisse der organischen Chemie</thema>: <dozent
+        ref="stobbe_h"><grad>D. ph.</grad>
+        <nachname>Stobbe</nachname></dozent>, <zeit>Sonnab. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899w-IV.G-018"><thema>Besprechung
         pharmaceutisch-chemischer Präparate: organische Präparate</thema>:

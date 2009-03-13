@@ -491,10 +491,10 @@
       <veranstaltungsverweis><thema>Koptisch, <notiz betreff="fortsetzung">II.
       Kursus</notiz></thema>.</veranstaltungsverweis> -
       <veranstaltungsverweis><thema>Äyptologisches
-      Seminar</thema></veranstaltungsverweis>: <dozent><grad>D. ph.</grad>
-      <nachname>Steindorff</nachname>, <funktion>P. O.</funktion></dozent>
-      <siehe>Siehe Philosophische Fakultät B. b. u.
-      D.</siehe></veranstaltungsgruppe>
+      Seminar</thema></veranstaltungsverweis>: <dozent
+      ref="steindorff_g"><grad>D. ph.</grad> <nachname>Steindorff</nachname>,
+      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
+      B. b. u. D.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Einleitung in den
       Koran und Erklärung ausgewählter Suren</thema>.</veranstaltungsverweis>
@@ -828,10 +828,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-II-014"><thema>Deutsches bürgerliches
-      Recht (Recht der Schuldverhältnisse)</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Stintzing</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u. Freit. 11-12
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Recht (Recht der Schuldverhältnisse)</thema>: <dozent
+      ref="stintzing_w"><grad>D. jur.</grad> <nachname>Stintzing</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u.
+      Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-II-015"><thema>Deutsches bürgerliches
       Recht (Sachenrecht)</thema>: <dozent><grad>D. jur.</grad>
@@ -840,10 +840,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-II-016"><thema>Deutsches bürgerliches
-      Recht (Sachenrecht)</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Stintzing</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont., Dienst., Mittw. u. Freit. 4-5 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Recht (Sachenrecht)</thema>: <dozent ref="stintzing_w"><grad>D.
+      jur.</grad> <nachname>Stintzing</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont., Dienst., Mittw. u. Freit. 4-5
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-II-017"><thema>Deutsches bürgerliches
       Recht (Familienrecht)</thema>: <dozent><grad>D. jur.</grad>
@@ -964,7 +964,7 @@
 
       <veranstaltung xml:id="v-1906s-II-036"><thema>Mündliche und schriftliche
       Übungen im deutschen bürgerlichen Recht für Anfänger
-      (Praktikum)</thema>: <dozent><grad>D. jur.</grad>
+      (Praktikum)</thema>: <dozent ref="stintzing_w"><grad>D. jur.</grad>
       <nachname>Stintzing</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Donnerst. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1010,9 +1010,9 @@
       Volkswirtschaftslehre und Wirtschaftspolitik (Praktische
       Nationalökonomie)</thema>.</veranstaltungsverweis> -
       <veranstaltungsverweis><thema>Finanzwissenschaft</thema></veranstaltungsverweis>:
-      <dozent><grad>D. ph. et oec. publ.</grad> <nachname>Stieda</nachname>,
-      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
-      E.</siehe></veranstaltungsgruppe>
+      <dozent ref="stieda_w"><grad>D. ph. et oec. publ.</grad>
+      <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent>
+      <siehe>Siehe Philosophische Fakultät E.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Einleitung in das
       Studium der Statistik</thema>.</veranstaltungsverweis> -
@@ -1064,9 +1064,9 @@
       Fakultät E.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Volkswirtschaftliches Seminar</thema>:
-      <dozent><grad>D. ph. et oec. publ.</grad> <nachname>Stieda</nachname>,
-      <funktion>P. O.</funktion></dozent> u. <dozent
-      ref="biermann_ew"><grad>D. ph.</grad>
+      <dozent ref="stieda_w"><grad>D. ph. et oec. publ.</grad>
+      <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent> u.
+      <dozent ref="biermann_ew"><grad>D. ph.</grad>
       <nachname>Biermann</nachname></dozent>. <siehe>Siehe Philosophische
       Fakultät E.</siehe></veranstaltungsverweis>
 
@@ -1533,9 +1533,10 @@
       praktischen Übungen</thema>, <zeit>Mittw. 4-6 U.</zeit></veranstaltung>;
       <veranstaltung xml:id="v-1906s-III-046">2) <thema>Mechanotherapie
       innerer Krankheiten, mit Übungen in der Massage</thema></veranstaltung>:
-      <dozent><grad>D. med.</grad> <nachname>Steinert</nachname></dozent>,
-      <zeit>Donnerst. 11-12 U.</zeit>, <modus>privatim</modus>, <ort>in der
-      Medizinischen Klinik, Liebigstr. 22</ort>.</veranstaltungsgruppe>
+      <dozent ref="steinert_h"><grad>D. med.</grad>
+      <nachname>Steinert</nachname></dozent>, <zeit>Donnerst. 11-12 U.</zeit>,
+      <modus>privatim</modus>, <ort>in der Medizinischen Klinik, Liebigstr.
+      22</ort>.</veranstaltungsgruppe>
 
       <veranstaltung xml:id="v-1906s-III-047"><thema>Physikalische
       Heilmethoden</thema>: <dozent><grad>D. med.</grad>
@@ -1930,9 +1931,10 @@
 
       <veranstaltung xml:id="v-1906s-III-103"><thema>Kursus der
       klinisch-chemischen und mikroskopischen Untersuchungsmethoden</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Steinert</nachname></dozent>,
-      <zeit>Sonnab. 2 bis 4 U.</zeit>, <modus>privatim</modus>, <ort>in der
-      Medizinischen Klinik, Liebigstr. 22</ort>.</veranstaltung>
+      <dozent ref="steinert_h"><grad>D. med.</grad>
+      <nachname>Steinert</nachname></dozent>, <zeit>Sonnab. 2 bis 4 U.</zeit>,
+      <modus>privatim</modus>, <ort>in der Medizinischen Klinik, Liebigstr.
+      22</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906s-III-104"><thema>Das Röntgenverfahren in
       der Innern Medizin (Ausgewählte Kapitel)</thema>: <dozent><grad>D.
@@ -2239,9 +2241,10 @@
       G.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Spezielle organische Chemie: Die
-      aromatischen Verbindungen</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Stobbe</nachname>, <funktion>P. E.</funktion></dozent>
-      <siehe>Siehe Philosophische Fakultät G.</siehe></veranstaltungsverweis>
+      aromatischen Verbindungen</thema>: <dozent ref="stobbe_h"><grad>D.
+      ph.</grad> <nachname>Stobbe</nachname>, <funktion>P.
+      E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
+      G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Untersuchung von Nahrungs- und
       Genussmitteln, mit Excursionen</thema>: <dozent><grad>D. ph.</grad>
@@ -3022,25 +3025,28 @@
           <seite>31</seite>
 
           <veranstaltung xml:id="v-1906s-IV.B.b-018"><thema>Ägyptisch für
-          Anfänger</thema>: <dozent><grad>D. ph.</grad>
+          Anfänger</thema>: <dozent ref="steindorff_g"><grad>D. ph.</grad>
           <nachname>Steindorff</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Dienst. u. Freit. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1906s-IV.B.b-019"><thema>Erklärung
-          ägyptischer religiöser Texte</thema>: <dozent><grad>D. ph.</grad>
+          ägyptischer religiöser Texte</thema>: <dozent
+          ref="steindorff_g"><grad>D. ph.</grad>
           <nachname>Steindorff</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Mont. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1906s-IV.B.b-020"><thema>Koptisch <notiz
-          betreff="fortsetzung">II. Kursus</notiz></thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Steindorff</nachname>, <funktion>P.
+          betreff="fortsetzung">II. Kursus</notiz></thema>: <dozent
+          ref="steindorff_g"><grad>D. ph.</grad>
+          <nachname>Steindorff</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Dienst. u. Freit. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1906s-IV.B.b-021"><thema>Koptische
-          Dialekte, Grammatik und Lektüre</thema>: <dozent><grad>D. ph.</grad>
+          Dialekte, Grammatik und Lektüre</thema>: <dozent
+          ref="steindorff_g"><grad>D. ph.</grad>
           <nachname>Steindorff</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Mont. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -3125,8 +3131,8 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltungsgruppe><thema>Ägyptologisches Seminar</thema>
-          (<ort>Albertinum Erdg.</ort>): <dozent><grad>D. ph.</grad>
-          <nachname>Steindorff</nachname>, <funktion>P.
+          (<ort>Albertinum Erdg.</ort>): <dozent ref="steindorff_g"><grad>D.
+          ph.</grad> <nachname>Steindorff</nachname>, <funktion>P.
           O.</funktion></dozent>: <veranstaltung
           xml:id="v-1906s-IV.B.b-028">1) <thema>Neuägyptische Texte, Übungen
           im Lesen kursiver Handschriften</thema>, <zeit>Donnerst. 4-5
@@ -3905,10 +3911,10 @@
         E.</siehe></veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Spezielle Volkswirtschaftslehre und
-        Wirtschaftspolitik (Praktische Nationalökonomie)</thema>:
-        <dozent><grad>D. ph. et oec. publ.</grad> <nachname>Stieda</nachname>,
-        <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
-        E.</siehe></veranstaltungsverweis>
+        Wirtschaftspolitik (Praktische Nationalökonomie)</thema>: <dozent
+        ref="stieda_w"><grad>D. ph. et oec. publ.</grad>
+        <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent>
+        <siehe>Siehe Abschnitt E.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Soziale Geschichte, soziale Theorien und
         Parteien im 19. Jahrhundert</thema>: <dozent
@@ -4153,8 +4159,9 @@
             D.</siehe></veranstaltungsgruppe>
 
             <veranstaltungsverweis><thema>Aegyptologisches Seminar</thema>:
-            <dozent><grad>D. ph.</grad> <nachname>Steindorff</nachname>,
-            <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
+            <dozent ref="steindorff_g"><grad>D. ph.</grad>
+            <nachname>Steindorff</nachname>, <funktion>P.
+            O.</funktion></dozent> <siehe>Siehe Abschnitt
             D.</siehe></veranstaltungsverweis>
 
             <veranstaltungsverweis><thema>Kirchengeschichtliches Seminar und
@@ -4303,8 +4310,8 @@
         <sachgruppe xml:id="sg-1906s-IV.D.001">
           <titel>Ägyptologisches Seminar (Albertinum Erdg.)</titel>
 
-          <veranstaltungsverweis><dozent><grad>D. ph.</grad>
-          <nachname>Steindorff</nachname>, <funktion>P.
+          <veranstaltungsverweis><dozent ref="steindorff_g"><grad>D.
+          ph.</grad> <nachname>Steindorff</nachname>, <funktion>P.
           O.</funktion></dozent>: <thema>Übungen im Erklären ägyptischer
           Tempelreliefs (für Archäologen)</thema>, <zeit>einstündig</zeit>,
           <modus>privatissime</modus> und <gebühr>gratis</gebühr>.
@@ -4318,7 +4325,8 @@
           betreff="fortsetzung">II.
           Kursus</notiz></thema>.</veranstaltungsverweis> -
           <veranstaltungsverweis><thema>Koptische Dialekte, Grammatik und
-          Lektüre</thema></veranstaltungsverweis>: <dozent><grad>D. ph.</grad>
+          Lektüre</thema></veranstaltungsverweis>: <dozent
+          ref="steindorff_g"><grad>D. ph.</grad>
           <nachname>Steindorff</nachname>, <funktion>P. O.</funktion></dozent>
           <siehe>Siehe Abschnitt B. b.</siehe></veranstaltungsgruppe>
 
@@ -4563,9 +4571,9 @@
 
         <veranstaltung xml:id="v-1906s-IV.E-004"><thema>Spezielle
         Volkswirtschaftslehre und Wirtschaftspolitik (Praktische
-        Nationalökonomie)</thema>: <dozent><grad>D. ph. et oec. publ.</grad>
-        <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. bis Freit. 8-9 U.</zeit>,
+        Nationalökonomie)</thema>: <dozent ref="stieda_w"><grad>D. ph. et oec.
+        publ.</grad> <nachname>Stieda</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont. bis Freit. 8-9 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1906s-IV.E-005"><thema>Geschichte,
@@ -4576,10 +4584,11 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1906s-IV.E-006"><thema>Finanzwissenschaft</thema>:
-        <dozent><grad>D. ph. et oec. publ.</grad> <nachname>Stieda</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Dienst. bis Freit. 9-10
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        xml:id="v-1906s-IV.E-006"><thema>Finanzwissenschaft</thema>: <dozent
+        ref="stieda_w"><grad>D. ph. et oec. publ.</grad>
+        <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Dienst. bis Freit. 9-10 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1906s-IV.E-007"><thema>Geld, Kredit, Banken
         und Börse</thema>: <dozent ref="plenge_j"><grad>D. ph.</grad>
@@ -4924,10 +4933,10 @@
 
         <veranstaltungsgruppe><thema>Volkswirtschaftliches Seminar</thema>
         (<ort>Ritterstr. 24</ort>.): <veranstaltung
-        xml:id="v-1906s-IV.E-032">1) <dozent><grad>D. ph. et oec. publ.</grad>
-        <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent>:
-        <thema>Übungen für Vorgeschrittene</thema>, <zeit>Sonnab. 8-10 U.
-        Vorm.</zeit>, <modus>privatissime</modus>, aber
+        xml:id="v-1906s-IV.E-032">1) <dozent ref="stieda_w"><grad>D. ph. et
+        oec. publ.</grad> <nachname>Stieda</nachname>, <funktion>P.
+        O.</funktion></dozent>: <thema>Übungen für Vorgeschrittene</thema>,
+        <zeit>Sonnab. 8-10 U. Vorm.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung>. - <veranstaltung
         xml:id="v-1906s-IV.E-033">2) <dozent ref="biermann_ew"><grad>D.
         ph.</grad> <nachname>Biermann</nachname></dozent>: <thema>Übungen für
@@ -5484,11 +5493,11 @@
         Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1906s-IV.G-032"><thema>Spezielle organische
-        Chemie: Die aromatischen Verbindungen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Stobbe</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 12-1
-        U.</zeit>, <modus>privatim</modus>, <ort>im Chemischen Laboratorium,
-        Liebigstrasse 18</ort>.</veranstaltung>
+        Chemie: Die aromatischen Verbindungen</thema>: <dozent
+        ref="stobbe_h"><grad>D. ph.</grad> <nachname>Stobbe</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
+        Freit. 12-1 U.</zeit>, <modus>privatim</modus>, <ort>im Chemischen
+        Laboratorium, Liebigstrasse 18</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1906s-IV.G-033"><thema>Über Salze und
         Komplexsalze</thema>: <dozent ref="ley_h"><grad>D. ph.</grad>
@@ -5765,10 +5774,11 @@
         <veranstaltung xml:id="v-1906s-IV.G-060"><thema>Chemisches
         Vollpraktikum für Vorgerücktere</thema>: <dozent><grad>D. ph.</grad>
         <nachname>Hantzsch</nachname>, <funktion>P. O.</funktion></dozent>,
-        <dozent>gemeinsam mit <grad>D. ph.</grad> <nachname>Stobbe</nachname>,
-        <funktion>P. E.</funktion></dozent>, <dozent ref="rassow_b"><grad>D.
-        ph.</grad> <nachname>Rassow</nachname>, <funktion>P.
-        E.</funktion></dozent> u. <dozent ref="ley_h"><grad>D. ph.</grad>
+        <dozent ref="stobbe_h">gemeinsam mit <grad>D. ph.</grad>
+        <nachname>Stobbe</nachname>, <funktion>P. E.</funktion></dozent>,
+        <dozent ref="rassow_b"><grad>D. ph.</grad>
+        <nachname>Rassow</nachname>, <funktion>P. E.</funktion></dozent> u.
+        <dozent ref="ley_h"><grad>D. ph.</grad>
         <nachname>Ley</nachname></dozent>, <zeit>täglich 8-1 U. u. <seite>55</seite>(ausser
         Sonnab.) 2-6 U.</zeit>, <modus>privatissime</modus>, <ort>im Chem.
         Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
