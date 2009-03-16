@@ -169,9 +169,10 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-I-017"><thema>Das Leben Jesu</thema>:
-      <dozent><grad>D. th. et ph.</grad> <nachname>Thieme</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst.
-      10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="thieme_c"><grad>D. th. et ph.</grad>
+      <nachname>Thieme</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Mont., Dienst. u. Donnerst. 10-11 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-I-018"><thema>Geschichte des
       apostolischen Zeitalters</thema>: <dozent ref="hauck_a"><grad>D. th.,
@@ -241,8 +242,8 @@
 
       <veranstaltung xml:id="v-1907s-I-029"><thema>Jesus und seine Predigt,
       <notiz betreff="fortsetzung">Schluß</notiz>: Die Sittenpredigt Jesu (für
-      Studierende aller Fakultäten)</thema>: <dozent><grad>D. th. et
-      ph.</grad> <nachname>Thieme</nachname>, <funktion>P.
+      Studierende aller Fakultäten)</thema>: <dozent ref="thieme_c"><grad>D.
+      th. et ph.</grad> <nachname>Thieme</nachname>, <funktion>P.
       E.</funktion></dozent>, <zeit>Mittw. 10-11 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
@@ -410,7 +411,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-I-053"><thema>Dogmatisches
-      Repetitorium</thema>: <dozent><grad>D. th. et ph.</grad>
+      Repetitorium</thema>: <dozent ref="thieme_c"><grad>D. th. et ph.</grad>
       <nachname>Thieme</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Donnerst. 3-5 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -569,9 +570,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
       <veranstaltungsverweis><thema>Äthiopisch</thema>.</veranstaltungsverweis>
       -
       <veranstaltungsverweis><thema>Türkisch</thema></veranstaltungsverweis>:
-      <dozent><grad>D. ph.</grad> <nachname>Stumme</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät B.
-      b.</siehe></veranstaltungsgruppe>
+      <dozent ref="stumme_h"><grad>D. ph.</grad> <nachname>Stumme</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
+      B. b.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Einführung in die Völkerkunde</thema>:
       <dozent><grad>D. ph.</grad> <nachname>Weule</nachname>, <funktion>P.
@@ -694,9 +695,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Pädagogik, <notiz betreff="fortsetzung">I.
       Teil</notiz></thema>.</veranstaltungsverweis> -
       <veranstaltungsverweis><thema>Goethes
-      Faust</thema></veranstaltungsverweis>: <dozent><grad>D. ph.</grad>
-      <nachname>Volkelt</nachname>, <funktion>P. O.</funktion></dozent>
-      <siehe>Siehe Philosophische Fakultät A. und B.
+      Faust</thema></veranstaltungsverweis>: <dozent ref="volkelt_j"><grad>D.
+      ph.</grad> <nachname>Volkelt</nachname>, <funktion>P.
+      O.</funktion></dozent> <siehe>Siehe Philosophische Fakultät A. und B.
       c.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Einführung in die Pädagogik</thema>:
@@ -712,7 +713,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
       <seite>9</seite>
 
       <veranstaltungsverweis><thema>Philosophisch-pädagogisches
-      Seminar</thema>: <dozent><grad>D. ph.</grad>
+      Seminar</thema>: <dozent ref="volkelt_j"><grad>D. ph.</grad>
       <nachname>Volkelt</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe Philosophische Fakultät A.</siehe></veranstaltungsverweis>
 
@@ -749,8 +750,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
       ph.</grad> <nachname>Seydel</nachname></dozent>. <siehe>Siehe
       Philosophische Fakultät D.</siehe></veranstaltungsgruppe>
 
-      <veranstaltungsverweis><thema>Englisches Praktikum</thema>:
-      <dozent><funktion>Lektor</funktion> <grad>D. ph.</grad>
+      <veranstaltungsverweis><thema>Englisches Praktikum</thema>: <dozent
+      ref="davies_j"><funktion>Lektor</funktion> <grad>D. ph.</grad>
       <nachname>Davies</nachname></dozent>. <siehe>Siehe Philosophisches
       Fakultät B. d.</siehe></veranstaltungsverweis>
 
@@ -814,7 +815,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
       <veranstaltung xml:id="v-1907s-II-009"><thema>Deutsches bürgerliches
       Recht (Recht der Schuldverhältnisse), mit ergänzenden
-      Druckbogen</thema>: <dozent><grad>D. jur.</grad>
+      Druckbogen</thema>: <dozent ref="strohal_e"><grad>D. jur.</grad>
       <nachname>Strohal</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. bis Donnerst. 8 bis 9 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -828,15 +829,15 @@ lässt sich nicht gleichzeitig auszeichnen-->
       <seite>10</seite>
 
       <veranstaltung xml:id="v-1907s-II-011"><thema>Deutsches bürgerliches
-      Recht (Sachenrecht)</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Strohal</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
+      Recht (Sachenrecht)</thema>: <dozent ref="strohal_e"><grad>D.
+      jur.</grad> <nachname>Strohal</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-II-012"><thema>Deutsches bürgerliches
-      Recht (Sachenrecht)</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Strohal</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
+      Recht (Sachenrecht)</thema>: <dozent ref="strohal_e"><grad>D.
+      jur.</grad> <nachname>Strohal</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont. bis Donnerst. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-II-013"><thema>Deutsches bürgerliches
@@ -864,7 +865,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-II-017"><thema>Königlich Sächsisches
-      Privatrecht</thema>: <dozent><grad>D. jur.</grad>
+      Privatrecht</thema>: <dozent ref="strohal_e"><grad>D. jur.</grad>
       <nachname>Strohal</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Sonnab. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -965,9 +966,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
       <veranstaltung xml:id="v-1907s-II-033"><thema>Mündliche und schriftliche
       Übungen im deutschen bürgerlichen Recht für Vorgerücktere</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Strohal</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="strohal_e"><grad>D. jur.</grad>
+      <nachname>Strohal</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mittw. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-II-034"><thema>Zivilprozeß-Praktikum
       (mündliche und schriftliche Übungen)</thema>: <dozent
@@ -1178,8 +1179,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
       E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
       G.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Englisches Praktikum</thema>:
-      <dozent><funktion>Lektor</funktion> <grad>D. ph.</grad>
+      <veranstaltungsverweis><thema>Englisches Praktikum</thema>: <dozent
+      ref="davies_j"><funktion>Lektor</funktion> <grad>D. ph.</grad>
       <nachname>Davies</nachname></dozent>. <siehe>Siehe Philosophische
       Fakultät B. d.</siehe></veranstaltungsverweis>
 
@@ -1208,27 +1209,28 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
       <veranstaltung xml:id="v-1907s-III-001"><thema>Geschichte der Medizin,
       <notiz betreff="fortsetzung">II. Teil</notiz>, von der Renaissance bis
-      zum Ende des 19. Jahrhunderts</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Sudhoff</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Donnerst. 6-7 U.</zeit>, <modus>publice</modus>, <ort>im kleinen
-      Hörsaal des Mathematischen Instituts, Talstr. 35.
-      Eg.</ort></veranstaltung>
+      zum Ende des 19. Jahrhunderts</thema>: <dozent ref="sudhoff_k"><grad>D.
+      med.</grad> <nachname>Sudhoff</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Donnerst. 6-7 U.</zeit>,
+      <modus>publice</modus>, <ort>im kleinen Hörsaal des Mathematischen
+      Instituts, Talstr. 35. Eg.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-002"><thema>Arbeiten im
       Historisch-medizinischen Seminar</thema> (<ort>Talstr. 35</ort>):
-      <dozent><grad>D. med.</grad> <nachname>Sudhoff</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>tägl. nach Vereinbarung</zeit>,
-      <modus>privatissime</modus>, aber
+      <dozent ref="sudhoff_k"><grad>D. med.</grad>
+      <nachname>Sudhoff</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>tägl. nach Vereinbarung</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-003"><thema>Ärztliche Berufs- und
-      Standesfragen (Soziale Medizin)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Sudhoff</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mittw. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>im kleinen
-      mathematischen Hörsaal, Talstr. 35. Eg.</ort></veranstaltung>
+      Standesfragen (Soziale Medizin)</thema>: <dozent
+      ref="sudhoff_k"><grad>D. med.</grad> <nachname>Sudhoff</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <modus>privatim</modus>, <ort>im kleinen mathematischen Hörsaal, Talstr.
+      35. Eg.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-004"><thema>Einleitung in das Studium
-      der Medizin</thema>: <dozent><grad>D. med.</grad>
+      der Medizin</thema>: <dozent ref="sudhoff_k"><grad>D. med.</grad>
       <nachname>Sudhoff</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>im kleinen
       mathematischen Hörsaal, Talstr. 35. Eg.</ort></veranstaltung>
@@ -1359,9 +1361,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Liebigstr. 16</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-021"><thema>Harnanalyse</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Deussen</nachname></dozent>,
-      <zeit>Mittw. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im
-      Laboratorium f. ausgew. Chemie, Brüderstr. 34</ort>.</veranstaltung>
+      <dozent ref="deussen_e"><grad>D. ph.</grad>
+      <nachname>Deussen</nachname></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
+      <modus>privatim</modus>, <ort>im Laboratorium f. ausgew. Chemie,
+      Brüderstr. 34</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-022"><thema>Arbeiten für
       Geübtere</thema> <ort>im Physiologischen Institute, Liebigstr. 16</ort>:
@@ -1596,8 +1599,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Medizinischen Klinik, Liebigstr. 22</ort>.</veranstaltungsgruppe>
 
       <veranstaltung
-      xml:id="v-1907s-III-054"><thema>Ernährungstherapie</thema>:
-      <dozent><grad>D. med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+      xml:id="v-1907s-III-054"><thema>Ernährungstherapie</thema>: <dozent
+      ref="criegern_l"><grad>D. med.</grad>
+      <nachnamenpräfix>von</nachnamenpräfix>
       <nachname>Criegern</nachname></dozent>, <zeit>Mont. 7-8 U.</zeit>,
       <modus>publice</modus>, <ort>im Medizinisch-poliklinischen Institut,
       Nürnberger Str. 55</ort>.</veranstaltung>
@@ -1741,11 +1745,11 @@ lässt sich nicht gleichzeitig auszeichnen-->
       <ort>in der Chirurg. Poliklinik, Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-075"><thema>Allgemeine chirurgische
-      Pathologie und Therapie</thema>: <seite>19</seite><dozent><grad>D.
-      med.</grad> <nachname>Tillmanns</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont. u. Mittw. 5-6 U.</zeit>,
-      <modus>privatim</modus>, <ort>im Kinderkrankenhause, Platzmannstr.
-      1</ort>.</veranstaltung>
+      Pathologie und Therapie</thema>: <seite>19</seite><dozent
+      ref="tillmanns_rh"><grad>D. med.</grad> <nachname>Tillmanns</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Mittw. 5-6
+      U.</zeit>, <modus>privatim</modus>, <ort>im Kinderkrankenhause,
+      Platzmannstr. 1</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-076"><thema>Allgemeine Chirurgie mit
       Demonstrationen (<notiz betreff="fortsetzung">zweite
@@ -1761,10 +1765,11 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-078"><thema>Chirurgischer
-      Operationskusus</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Trendelenburg</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>tägl. (außer Sonnab.) 5-7 U.</zeit>, <modus>privatim</modus>,
-      <ort>im Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
+      Operationskusus</thema>: <dozent ref="trendelenburg_f"><grad>D.
+      med.</grad> <nachname>Trendelenburg</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>tägl. (außer Sonnab.) 5-7 U.</zeit>,
+      <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
+      13</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-079"><thema>Verbandkurs mit
       Besprechung der Frakturen und Luxationen</thema>: <dozent
@@ -1979,8 +1984,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
       22</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-108"><thema>Das Röntgenverfahren in
-      der Innern Medizin</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>von</nachnamenpräfix>
+      der Innern Medizin</thema>: <dozent ref="criegern_l"><grad>D.
+      med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
       <nachname>Criegern</nachname></dozent>, <zeit>Freit. 3-4 U.</zeit>,
       <modus>privatim</modus>, <ort>im medizinisch-poliklinischen Institut,
       Nürnberger Str. 55</ort>.</veranstaltung>
@@ -2034,12 +2039,13 @@ lässt sich nicht gleichzeitig auszeichnen-->
       <veranstaltung xml:id="v-1907s-III-115"><thema>Chirurgie des
       Kindesalters. Klinische und poliklinische Demonstrationen im
       Operationssaale des Kinderkrankenhaus</thema> (<ort>Platzmannstr.
-      1</ort>): <dozent><grad>D. med.</grad> <nachname>Tillmanns</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>Freit. 5-6½ U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      1</ort>): <dozent ref="tillmanns_rh"><grad>D. med.</grad>
+      <nachname>Tillmanns</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Freit. 5-6½ U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-116"><thema>Chirurgische
-      Klinik</thema> (<ort>Liebigstr. 20</ort>): <dozent><grad>D. med.</grad>
+      Klinik</thema> (<ort>Liebigstr. 20</ort>): <dozent
+      ref="trendelenburg_f"><grad>D. med.</grad>
       <nachname>Trendelenburg</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>tägl. (außer Donnerst.) 8-9½ U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -2119,8 +2125,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <modus>privatim</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1907s-III.001.a-003"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+          <veranstaltung xml:id="v-1907s-III.001.a-003"><dozent
+          ref="criegern_l"><grad>D. med.</grad>
+          <nachnamenpräfix>von</nachnamenpräfix>
           <nachname>Criegern</nachname></dozent>: <thema>Privatpoliklinik für
           innere Medizin</thema> (<ort>Blücherstr. 45. Eg.</ort>), <zeit>tägl.
           oder wöchentl. dreimal 8-9 U.</zeit>,
@@ -2334,7 +2341,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Tierpsychologie</thema>.</veranstaltungsverweis>
       - <veranstaltungsverweis><thema>Entomologische
-      Exkursion</thema></veranstaltungsverweis>: <dozent><grad>D. ph.</grad>
+      Exkursion</thema></veranstaltungsverweis>: <dozent
+      ref="strassen_o"><grad>D. ph.</grad>
       <nachnamenpräfix>zur</nachnamenpräfix> <nachname>Strassen</nachname>,
       <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
       G.</siehe></veranstaltungsgruppe>
@@ -2480,16 +2488,17 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.A-010"><thema>Goethes Faust</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Volkelt</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 10-11 U.</zeit>,
+        <dozent ref="volkelt_j"><grad>D. ph.</grad>
+        <nachname>Volkelt</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mittw. u. Sonnab. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.A-011"><thema>Geschichte der
         Pädagogik, <notiz betreff="fortsetzung">I. Teil</notiz>: Vom
-        Mittelalter bis Rousseau</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Volkelt</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Mittelalter bis Rousseau</thema>: <dozent ref="volkelt_j"><grad>D.
+        ph.</grad> <nachname>Volkelt</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 12-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.A-012"><thema>Einführung in die
         Pädagogik</thema>: <dozent ref="jungmann_e"><grad>D. ph.</grad>
@@ -2508,9 +2517,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Jesus und seine Predigt: Die
-        Sittenpredigt Jesu</thema>: <dozent><grad>D. th. et ph.</grad>
-        <nachname>Thieme</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltungsverweis>
+        Sittenpredigt Jesu</thema>: <dozent ref="thieme_c"><grad>D. th. et
+        ph.</grad> <nachname>Thieme</nachname>, <funktion>P.
+        E.</funktion></dozent> <siehe>Siehe Theologische
+        Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Die Religion im geistigen Leben der
         Gegenwart</thema>: <dozent><grad>D. th. et ph.</grad>
@@ -2565,10 +2575,11 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <nachname>Döllken</nachname></dozent>. <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Tierpsychologie</thema>:
-        <dozent><grad>D. ph.</grad> <nachnamenpräfix>zur</nachnamenpräfix>
-        <nachname>Strassen</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Tierpsychologie</thema>: <dozent
+        ref="strassen_o"><grad>D. ph.</grad>
+        <nachnamenpräfix>zur</nachnamenpräfix> <nachname>Strassen</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
+        G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Vorfragen der Descendenztheorie</thema>:
         <dozent><grad>D. ph.</grad> <nachname>Woltereck</nachname>,
@@ -2656,7 +2667,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <veranstaltung
         xml:id="v-1907s-IV.A-020"><thema>Philosophisch-pädagogisches Seminar:
         Ausgewählte Abschnitte aus Schleiermachers Reden über die Religion und
-        Monologen</thema>: <dozent><grad>D. ph.</grad>
+        Monologen</thema>: <dozent ref="volkelt_j"><grad>D. ph.</grad>
         <nachname>Volkelt</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Freit. ½8-9 U. Ab.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2866,9 +2877,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <siehe>Siehe Abschnitt D.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Altitalische und römische
-          Kunstgeschichte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Studniczka</nachname>, <funktion>P. O.</funktion></dozent>
-          <siehe>Siehe Abschnitt D.</siehe></veranstaltungsverweis>
+          Kunstgeschichte</thema>: <dozent ref="studniczka_f"><grad>D.
+          ph.</grad> <nachname>Studniczka</nachname>, <funktion>P.
+          O.</funktion></dozent> <siehe>Siehe Abschnitt
+          D.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Römische Geschichte</thema>: <dozent
           ref="gardthausen_ve"><grad>D. ph.</grad>
@@ -2935,14 +2947,16 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
           <veranstaltung xml:id="v-1907s-IV.B.a-019"><thema>Übungen im
           Erklären antiker Bildwerke der Herakles- und Theseussage</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Studniczka</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mont. 12 bis 1 U.</zeit>,
+          <dozent ref="studniczka_f"><grad>D. ph.</grad>
+          <nachname>Studniczka</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mont. 12 bis 1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Archäologisches Seminar: Probleme aus
           der Geschichte der älteren griechischen Vasenmalerei</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Studniczka</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 3-5 U.</zeit>,
+          <dozent ref="studniczka_f"><grad>D. ph.</grad>
+          <nachname>Studniczka</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mittw. 3-5 U.</zeit>,
           <modus>privatissime</modus>, aber <gebühr>gratis</gebühr>.
           <siehe>Siehe auch Abschnitt D.</siehe></veranstaltungsverweis>
 
@@ -3073,10 +3087,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907s-IV.B.b-016"><thema>Arabisch, <notiz
-          betreff="fortsetzung">II. Kursus</notiz></thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Stumme</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Dienst. u. Freit. 8-9 U. Vorm.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          betreff="fortsetzung">II. Kursus</notiz></thema>: <dozent
+          ref="stumme_h"><grad>D. ph.</grad> <nachname>Stumme</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Freit. 8-9 U.
+          Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907s-IV.B.b-017"><thema>Muˁallaqa des
           Zuhair (<notiz betreff="fortsetzung">Fortsetzung</notiz>)</thema>:
@@ -3086,16 +3100,17 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung
-          xml:id="v-1907s-IV.B.b-018"><thema>Äthiopisch</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Stumme</nachname>,
+          xml:id="v-1907s-IV.B.b-018"><thema>Äthiopisch</thema>: <dozent
+          ref="stumme_h"><grad>D. ph.</grad> <nachname>Stumme</nachname>,
           <funktion>P. E.</funktion></dozent><korrektur>,</korrektur>
           <zeit>Mittw. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907s-IV.B.b-019"><thema>Türkisch</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Stumme</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Freit. 9 bis
-          10 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="stumme_h"><grad>D. ph.</grad>
+          <nachname>Stumme</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Dienst. u. Freit. 9 bis 10 U. Vorm.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907s-IV.B.b-020"><thema>Ägyptische für
           Anfänger</thema>: <dozent ref="steindorff_g"><grad>D. ph.</grad>
@@ -3185,8 +3200,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907s-IV.B.b-027"><thema>Neuarabische
-          Übungen</thema> (<ort>im Semitistischen Institut</ort>):
-          <dozent><grad>D. ph.</grad> <nachname>Stumme</nachname>,
+          Übungen</thema> (<ort>im Semitistischen Institut</ort>): <dozent
+          ref="stumme_h"><grad>D. ph.</grad> <nachname>Stumme</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 2-4 U.</zeit>,
           <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -3334,8 +3349,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <nachname>Kirn</nachname>, <funktion>P. O.</funktion></dozent>
           <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltungsverweis>
 
-          <veranstaltungsverweis><thema>Goethes Faust</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Volkelt</nachname>,
+          <veranstaltungsverweis><thema>Goethes Faust</thema>: <dozent
+          ref="volkelt_j"><grad>D. ph.</grad> <nachname>Volkelt</nachname>,
           <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
           A.</siehe></veranstaltungsverweis>
 
@@ -3449,7 +3464,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <siehe>Siehe Abschnitt A.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Philosophisch-pädagogisches
-          Seminar</thema>: <dozent><grad>D. ph.</grad>
+          Seminar</thema>: <dozent ref="volkelt_j"><grad>D. ph.</grad>
           <nachname>Volkelt</nachname>, <funktion>P. O.</funktion></dozent>
           <siehe>Siehe Abschnitt A.</siehe></veranstaltungsverweis>
 
@@ -3496,8 +3511,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907s-IV.B.d-004"><thema>English Drama and
-          Dramatists of the Nineteenth Century</thema>:
-          <dozent><funktion>Lektor</funktion> <grad>D. ph.</grad>
+          Dramatists of the Nineteenth Century</thema>: <dozent
+          ref="davies_j"><funktion>Lektor</funktion> <grad>D. ph.</grad>
           <nachname>Davies</nachname></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -3589,10 +3604,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr></veranstaltung>.
           <veranstaltungsgruppe>2) <thema>Neuenglische Abteilung</thema>:
-          (<dozent>unter Leitung des <funktion>Assistenten</funktion>
-          <funktion>Lektor</funktion> <grad>D. ph.</grad>
-          <nachname>Davies</nachname></dozent>): <thema>Neuenglisch in
-          praktischen Übungen</thema>: <veranstaltung
+          (<dozent ref="davies_j">unter Leitung des
+          <funktion>Assistenten</funktion> <funktion>Lektor</funktion>
+          <grad>D. ph.</grad> <nachname>Davies</nachname></dozent>):
+          <thema>Neuenglisch in praktischen Übungen</thema>: <veranstaltung
           xml:id="v-1907s-IV.B.d-016"><thema>Sektion I (für Anfänger)</thema>,
           <zeit>Mont. u. Donnerst. 5-6 U.</zeit></veranstaltung>;
           <veranstaltung xml:id="v-1907s-IV.B.d-017"><thema>Sektion II (für
@@ -3601,9 +3616,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <gebühr>unentgeltlich</gebühr></veranstaltungsgruppe>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1907s-IV.B.d-018"><thema>Englisches
-          Praktikum</thema>: <dozent><funktion>Lektor</funktion> <grad>D.
-          ph.</grad> <nachname>Davies</nachname></dozent>, <zeit>Mont. u.
-          Donnerst. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          Praktikum</thema>: <dozent
+          ref="davies_j"><funktion>Lektor</funktion> <grad>D. ph.</grad>
+          <nachname>Davies</nachname></dozent>, <zeit>Mont. u. Donnerst. 3-4
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltungsgruppe><thema>Romanisches Seminar</thema>: <dozent
           ref="birch-hirschfeld_ga"><grad>D. ph.</grad> <vorname>Ad.</vorname>
@@ -3910,9 +3926,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <siehe>Siehe Abschnitt D.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Altitalische und römische
-        Kunstgeschichte</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Studniczka</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Abschnitt D.</siehe></veranstaltungsverweis>
+        Kunstgeschichte</thema>: <dozent ref="studniczka_f"><grad>D.
+        ph.</grad> <nachname>Studniczka</nachname>, <funktion>P.
+        O.</funktion></dozent> <siehe>Siehe Abschnitt
+        D.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Lektüre oskisch-umbrischer
         Inschriften</thema>: <dozent ref="hirt_h"><grad>D. ph.</grad>
@@ -3996,8 +4013,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <nachname>Kirn</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Jesus und seine Predigt</thema>:
-        <dozent><grad>D. th. et ph.</grad> <nachname>Thieme</nachname>,
+        <veranstaltungsverweis><thema>Jesus und seine Predigt</thema>: <dozent
+        ref="thieme_c"><grad>D. th. et ph.</grad> <nachname>Thieme</nachname>,
         <funktion>P. E.</funktion></dozent> <siehe>Siehe Theologische
         Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -4021,9 +4038,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Pädagogik, <notiz betreff="fortsetzung">I. Teil</notiz>: vom
         Mittelalter bis Rousseau</thema>.</veranstaltungsverweis> -
         <veranstaltungsverweis><thema>Goethes
-        Faust</thema></veranstaltungsverweis>: <dozent><grad>D. ph.</grad>
-        <nachname>Volkelt</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Abschnitt A.</siehe></veranstaltungsgruppe>
+        Faust</thema></veranstaltungsverweis>: <dozent
+        ref="volkelt_j"><grad>D. ph.</grad> <nachname>Volkelt</nachname>,
+        <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
+        A.</siehe></veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Geschichte der Pädagogik</thema>:
         <dozent ref="rietschel_g"><grad>D. th.</grad>
@@ -4043,7 +4061,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Abschnitt B. d.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>English Drama und Dramatists of the
-        Nineteenth Century</thema>: <dozent><grad>D. ph.</grad>
+        Nineteenth Century</thema>: <dozent ref="davies_j"><grad>D. ph.</grad>
         <nachname>Davies</nachname></dozent>. <siehe>Siehe Abschnitt B.
         d.</siehe></veranstaltungsverweis>
 
@@ -4107,9 +4125,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
         <veranstaltungsverweis><thema>Geschichte der Medizin, <notiz
         betreff="fortsetzung">II. Teil</notiz>, von der Renaissance bis zum
-        Ende des 19. Jahrhunderts</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Sudhoff</nachname>, <funktion>P. E. des.</funktion></dozent>
-        <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
+        Ende des 19. Jahrhunderts</thema>: <dozent ref="sudhoff_k"><grad>D.
+        med.</grad> <nachname>Sudhoff</nachname>, <funktion>P. E.
+        des.</funktion></dozent> <siehe>Siehe Medizinische
+        Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geschichte der Kirchenmusik</thema>:
         <dozent ref="riemann_h"><grad>D. ph. et mus.</grad>
@@ -4274,9 +4293,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
           Seminar</thema>.</veranstaltungsverweis> -
           <veranstaltungsverweis><thema>Übungen im Erklären antiker Bildwerke
           der Herakles- und Theseussage</thema></veranstaltungsverweis>:
-          <dozent><grad>D. ph.</grad> <nachname>Studniczka</nachname>,
-          <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
-          D.</siehe></veranstaltungsgruppe>
+          <dozent ref="studniczka_f"><grad>D. ph.</grad>
+          <nachname>Studniczka</nachname>, <funktion>P. O.</funktion></dozent>
+          <siehe>Siehe Abschnitt D.</siehe></veranstaltungsgruppe>
 
           <veranstaltungsverweis><thema>Indogermanisches Institut:
           Interpretation von Homer Ilias Buch B</thema>: <dozent
@@ -4314,7 +4333,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
           Theologische Fakultät</siehe>.</veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Philosophisch-pädagogisches
-          Seminar</thema>: <dozent><grad>D. ph.</grad>
+          Seminar</thema>: <dozent ref="volkelt_j"><grad>D. ph.</grad>
           <nachname>Volkelt</nachname>, <funktion>P. O.</funktion></dozent>
           <siehe>Siehe Abschnitt A.</siehe></veranstaltungsverweis>
 
@@ -4335,7 +4354,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
           Fakultät</siehe>.</veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Institut für Geschichte der
-          Medizin</thema>: <dozent><grad>D. med.</grad>
+          Medizin</thema>: <dozent ref="sudhoff_k"><grad>D. med.</grad>
           <nachname>Sudhoff</nachname>, <funktion>P. E.</funktion></dozent>
           <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
         </sachgruppe>
@@ -4409,10 +4428,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.D-003"><thema>Altitalische und
-        römische Kunstgeschichte</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Studniczka</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        römische Kunstgeschichte</thema>: <dozent ref="studniczka_f"><grad>D.
+        ph.</grad> <nachname>Studniczka</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Freit. 12-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Griechische Geschichte von den ältesten
         Zeiten bis auf Philipp von Makedonien</thema>: <dozent><grad>D.
@@ -4486,8 +4505,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <sachgruppe xml:id="sg-1907s-IV.D.002">
           <titel>Archäologisches Seminar (Albertinum Erdg.).</titel>
 
-          <veranstaltung xml:id="v-1907s-IV.D.002-001"><dozent><grad>D.
-          ph.</grad> <nachname>Studniczka</nachname>, <funktion>P.
+          <veranstaltung xml:id="v-1907s-IV.D.002-001"><dozent
+          ref="studniczka_f"><grad>D. ph.</grad>
+          <nachname>Studniczka</nachname>, <funktion>P.
           O.</funktion></dozent>: 1) <thema>Probleme aus der Geschichte der
           älteren griechischen Vasenmalerei</thema>, <zeit>Mittw. 3-5
           U.</zeit>, <modus>privatissime</modus>, aber
@@ -4497,8 +4517,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
           <veranstaltung xml:id="v-1907s-IV.D.002-002"><thema>Übungen im
           Erklären antiker Bildwerke der Herakles- und Theseussage</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Studniczka</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mont. 12 bis 1 U.</zeit>,
+          <dozent ref="studniczka_f"><grad>D. ph.</grad>
+          <nachname>Studniczka</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mont. 12 bis 1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907s-IV.D.002-003"><thema>Übungen der
@@ -4591,8 +4612,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <nachname>Prüfer</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mont. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-          <veranstaltungsverweis><thema>Goethes Faust</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Volkelt</nachname>,
+          <veranstaltungsverweis><thema>Goethes Faust</thema>: <dozent
+          ref="volkelt_j"><grad>D. ph.</grad> <nachname>Volkelt</nachname>,
           <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
           A.</siehe></veranstaltungsverweis>
 
@@ -4760,10 +4781,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
         <veranstaltung xml:id="v-1907s-IV.E-016"><thema>Wiesenbau mit
         praktischen Übungen im Erkennen und Bestimmen der Gräser</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Strecker</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Dienst. 9-10
-        U.</zeit>, <modus>privatim</modus>, <ort>im Landw. Institut,
-        Johannisallee 21</ort>.</veranstaltung>
+        <dozent ref="strecker_w"><grad>D. ph.</grad>
+        <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mont. u. Dienst. 9-10 U.</zeit>, <modus>privatim</modus>,
+        <ort>im Landw. Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.E-017"><thema>Obstbau und
         Formobstbau in Garten und Feld</thema>: <dozent><funktion>Lehrer für
@@ -4784,24 +4805,25 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Landwirtsch. Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.E-020"><thema>Praktische Geometrie
-        mit Übungen im Feldmessen und Nivellieren</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Strecker</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>,
+        mit Übungen im Feldmessen und Nivellieren</thema>: <dozent
+        ref="strecker_w"><grad>D. ph.</grad> <nachname>Strecker</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>,
         <modus>privatim</modus>, <zeit>im Landw. Institut, Johannisallee
         21</zeit>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.E-021"><thema>Bonitierung und
-        Kartierung des Bodens</thema>: <dozent><grad>D. ph.</grad> <seite>46</seite><nachname>Strecker</nachname>,
+        Kartierung des Bodens</thema>: <dozent ref="strecker_w"><grad>D.
+        ph.</grad> <seite>46</seite><nachname>Strecker</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 9-10 U.</zeit>,
         <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
         21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.E-022"><thema>Landwirtschaftliche
-        Maschinenkunde mit Demonstrationen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Strecker</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mittw. u. Freit. 11-12 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
-        21</ort>.</veranstaltung>
+        Maschinenkunde mit Demonstrationen</thema>: <dozent
+        ref="strecker_w"><grad>D. ph.</grad> <nachname>Strecker</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mittw. u. Freit. 11-12
+        U.</zeit>, <modus>privatim</modus>, <ort>im Landw. Institut,
+        Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.E-023"><thema>Spezielle
         Tierzuchtlehre (Pferde- und Schafzucht)</thema>: <dozent
@@ -5049,10 +5071,11 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <funktion>P. O.</funktion></dozent> <siehe>Siehe Abschnitt
         G.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Tierpsychologie</thema>:
-        <dozent><grad>D. ph.</grad> <nachnamenpräfix>zur</nachnamenpräfix>
-        <nachname>Strassen</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Tierpsychologie</thema>: <dozent
+        ref="strassen_o"><grad>D. ph.</grad>
+        <nachnamenpräfix>zur</nachnamenpräfix> <nachname>Strassen</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
+        G.</siehe></veranstaltungsverweis>
 
         <seite>48</seite>
 
@@ -5126,7 +5149,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
         <veranstaltungsverweis><thema>Geschichte der Pädagogik, <notiz
         betreff="fortsetzung">I. Teil</notiz>: Vom Mittelalter bis
-        Rousseau</thema>: <dozent><grad>D. ph.</grad>
+        Rousseau</thema>: <dozent ref="volkelt_j"><grad>D. ph.</grad>
         <nachname>Volkelt</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Abschnitt A.</siehe></veranstaltungsverweis>
 
@@ -5228,13 +5251,13 @@ lässt sich nicht gleichzeitig auszeichnen-->
         aufzustellenden Plane</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.E-050"><thema>Kulturtechnisches
-        Praktikum</thema>: <dozent><grad>D. ph.</grad>
+        Praktikum</thema>: <dozent ref="strecker_w"><grad>D. ph.</grad>
         <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>in noch zu best. Zeit</zeit>, <modus>privatim</modus>, <ort>im
         Landw. Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.E-051"><thema>Technische
-        Exkursionen</thema>: <dozent><grad>D. ph.</grad>
+        Exkursionen</thema>: <dozent ref="strecker_w"><grad>D. ph.</grad>
         <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>an noch zu best. Tagen</zeit>,
         <modus>publice</modus>.</veranstaltung>
@@ -5412,9 +5435,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Praktische Geometrie u.s.w.</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Strecker</nachname>,
-        <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
-        E.</siehe></veranstaltungsverweis>
+        <dozent ref="strecker_w"><grad>D. ph.</grad>
+        <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>
+        <siehe>Siehe Abschnitt E.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Ueber die Astronomie der
         Babylonier</thema>: <dozent><grad>D. ph.</grad>
@@ -5614,10 +5637,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.G-022"><thema>Farben-Photographie,
-        mit praktischen Übungen im Atelier</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Dahms</nachname></dozent>, <zeit>Donnerst. 5-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Physikal. Institut,
-        Linnéstr. 5</ort>.</veranstaltung>
+        mit praktischen Übungen im Atelier</thema>: <dozent
+        ref="dahms_a"><grad>D. ph.</grad> <nachname>Dahms</nachname></dozent>,
+        <zeit>Donnerst. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Physikal. Institut, Linnéstr. 5</ort>.</veranstaltung>
 
         <seite>53</seite>
 
@@ -5718,7 +5741,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
         angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.G-037"><thema>Ätherische
-        Öle</thema>: <dozent><grad>D. ph.</grad>
+        Öle</thema>: <dozent ref="deussen_e"><grad>D. ph.</grad>
         <nachname>Deussen</nachname></dozent>, <zeit>Mont. 5-6 U.</zeit>,
         <modus>privatim</modus>, <ort>im Laboratorium für angew. Chemie,
         Brüderstr. 34</ort>.</veranstaltung>
@@ -5730,10 +5753,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.G-039"><thema>Harnanalyse</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Deussen</nachname></dozent>,
-        <zeit>Mittw. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Laboratorium f. angewandte Chemie, Brüderstr.
-        34</ort>.</veranstaltung>
+        <dozent ref="deussen_e"><grad>D. ph.</grad>
+        <nachname>Deussen</nachname></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Laboratorium f. angewandte Chemie,
+        Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.G-040"><thema>Grundzüge der
         Physiologie des Menschen</thema>: <dozent ref="garten_ehs"><grad>D.
@@ -5818,11 +5841,12 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <seite>55</seite>
 
         <veranstaltung
-        xml:id="v-1907s-IV.G-052"><thema>Tierpsychologie</thema>:
-        <dozent><grad>D. ph.</grad> <nachnamenpräfix>zur</nachnamenpräfix>
-        <nachname>Strassen</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont. u. Donnerst. 4-5 U.</zeit>, <modus>privatim</modus>,
-        <ort>im Zoolog. Institut, Talstr. 33</ort>.</veranstaltung>
+        xml:id="v-1907s-IV.G-052"><thema>Tierpsychologie</thema>: <dozent
+        ref="strassen_o"><grad>D. ph.</grad>
+        <nachnamenpräfix>zur</nachnamenpräfix> <nachname>Strassen</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 4-5
+        U.</zeit>, <modus>privatim</modus>, <ort>im Zoolog. Institut, Talstr.
+        33</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.G-053"><thema>Vorfragen der
         Descendenztheorie</thema>: <dozent><grad>D. ph.</grad>
@@ -5924,7 +5948,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Röntgenverfahren in der Inneren
         Medizin</thema>.</veranstaltungsverweis> -
         <veranstaltungsverweis><thema>Ernährungstherapie</thema></veranstaltungsverweis>:
-        <dozent><grad>D. med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+        <dozent ref="criegern_l"><grad>D. med.</grad>
+        <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Criegern</nachname></dozent>. <siehe>Siehe Medizinische
         Fakultät</siehe>.</veranstaltungsgruppe>
 
@@ -5939,9 +5964,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         E.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Wiesenbau mit praktischen Übungen im
-        Erkennen und Bestimmen der Gräser</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Abschnitt E.</siehe></veranstaltungsverweis>
+        Erkennen und Bestimmen der Gräser</thema>: <dozent
+        ref="strecker_w"><grad>D. ph.</grad> <nachname>Strecker</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
+        E.</siehe></veranstaltungsverweis>
 
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Spezielle
         Pflanzenbaulehre</thema>.</veranstaltungsverweis> -
@@ -6056,7 +6082,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <funktion>P. O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
         <nachname>Lockemann</nachname></dozent>, <dozent
         ref="heller_g"><grad>D. ph.</grad>
-        <nachname>Heller</nachname></dozent> u. <dozent><grad>D. ph.</grad>
+        <nachname>Heller</nachname></dozent> u. <dozent
+        ref="deussen_e"><grad>D. ph.</grad>
         <nachname>Deussen</nachname></dozent>, <zeit>täglich 8-12 U. u. (außer
         Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium
         für angew. Chemie, Brüderstr. 34</ort>.</veranstaltung>
@@ -6240,7 +6267,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <modus>privatim</modus>.</veranstaltungsgruppe>
 
         <veranstaltung xml:id="v-1907s-IV.G-089"><thema>Entomologische
-        Exkursionen</thema>: <dozent><grad>D. ph.</grad>
+        Exkursionen</thema>: <dozent ref="strassen_o"><grad>D. ph.</grad>
         <nachnamenpräfix>zur</nachnamenpräfix> <nachname>Strassen</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>an bes. bekannt zu geb.
         Sonntagen</zeit>, <modus>publice</modus>.</veranstaltung>

@@ -898,11 +898,10 @@
       <sachgruppe xml:id="sg-1816s-II.A.001">
         <titel>Theologische Methodologie.</titel>
 
-        <veranstaltung
-        xml:id="v-1816s-II.A.001-001"><dozent><funktion>Domh.</funktion>
-        <grad>Dr.</grad> u. <funktion>P. O.</funktion>
-        <nachname>Tittmann</nachname></dozent>, <zeit>10 U. 2 T.</zeit>
-        <modus>öff.</modus></veranstaltung>
+        <veranstaltung xml:id="v-1816s-II.A.001-001"><dozent
+        ref="tittmann_jah"><funktion>Domh.</funktion> <grad>Dr.</grad> u.
+        <funktion>P. O.</funktion> <nachname>Tittmann</nachname></dozent>,
+        <zeit>10 U. 2 T.</zeit> <modus>öff.</modus></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1816s-II.A.I">
@@ -971,9 +970,9 @@
               Johannis</thema>, <zeit>8 U. 4 T.</zeit>
               <modus>öff.</modus></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1816s-II.A.I.1.b.beta-002"><dozent><funktion>Domh.</funktion>
-              <funktion>P. O.</funktion> <grad>D.</grad>
+              <veranstaltung xml:id="v-1816s-II.A.I.1.b.beta-002"><dozent
+              ref="tittmann_jah"><funktion>Domh.</funktion> <funktion>P.
+              O.</funktion> <grad>D.</grad>
               <nachname>Tittmann</nachname></dozent>, <thema>über den Brief an
               die Römer</thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
@@ -1080,14 +1079,14 @@
             <nachname>Keil</nachname></dozent>, <thema>nach s. Sätzen</thema>,
             <zeit>3 U. 6 T. und 8 U. 2 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1816s-II.A.I.3.a-002"><dozent><funktion>Domh.</funktion>
-            <grad>Dr.</grad> <nachname>Tittmann</nachname></dozent>,
-            <thema>Beschluss</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1816s-II.A.I.3.a-002"><dozent
+            ref="tittmann_jah"><funktion>Domh.</funktion> <grad>Dr.</grad>
+            <nachname>Tittmann</nachname></dozent>, <thema>Beschluss</thema>,
+            <zeit>11 U. 4 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1816s-II.A.I.3.a-003"><dozent><funktion>Canon.</funktion>
-            u. <funktion>Superint.</funktion> <grad>Dr.</grad>
+            <veranstaltung xml:id="v-1816s-II.A.I.3.a-003"><dozent
+            ref="tzschirner_hg"><funktion>Canon.</funktion> u.
+            <funktion>Superint.</funktion> <grad>Dr.</grad>
             <nachname>Tzschirner</nachname></dozent>, <thema><notiz
             betreff="fortsetzung">Forts.</notiz> u. Beendigung</thema>,
             <zeit>10 U. 6 T.</zeit></veranstaltung>
@@ -1105,8 +1104,8 @@
           <sachgruppe xml:id="sg-1816s-II.A.I.3.b">
             <titel>b) Apologetik des Christenthums</titel>
 
-            <veranstaltung xml:id="v-1816s-II.A.I.3.b-001">lehrt
-            <dozent><funktion>Domh.</funktion> <grad>D.</grad>
+            <veranstaltung xml:id="v-1816s-II.A.I.3.b-001">lehrt <dozent
+            ref="tittmann_jah"><funktion>Domh.</funktion> <grad>D.</grad>
             <nachname>Tittmann</nachname></dozent>, <zeit>10 U. 4 T.</zeit>
             <modus>öffentl.</modus></veranstaltung>
           </sachgruppe>
@@ -1114,8 +1113,9 @@
           <sachgruppe xml:id="sg-1816s-II.A.I.3.c">
             <titel>c) Die Moral-Theologie</titel>
 
-            <veranstaltung xml:id="v-1816s-II.A.I.3.c-001">trägt
-            <ders>derselbe</ders> <zeit>9 U. 2 T.</zeit> vor.</veranstaltung>
+            <veranstaltung xml:id="v-1816s-II.A.I.3.c-001">trägt <ders
+            ref="tittmann_jah">derselbe</ders> <zeit>9 U. 2 T.</zeit>
+            vor.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
       </sachgruppe>
@@ -1135,10 +1135,10 @@
           <sachgruppe xml:id="sg-1816s-II.A.II.1.001">
             <titel>Homiletische Uebungen</titel>
 
-            <veranstaltung xml:id="v-1816s-II.A.II.1.001-001">halten
-            <dozent>Super. <grad>D.</grad> u. <funktion>P. O.</funktion>
-            <nachname>Tzschirner</nachname></dozent>, <zeit>zu gelegn.
-            St.</zeit> <modus>privatiss.</modus></veranstaltung>
+            <veranstaltung xml:id="v-1816s-II.A.II.1.001-001">halten <dozent
+            ref="tzschirner_hg">Super. <grad>D.</grad> u. <funktion>P.
+            O.</funktion> <nachname>Tzschirner</nachname></dozent>, <zeit>zu
+            gelegn. St.</zeit> <modus>privatiss.</modus></veranstaltung>
 
             <veranstaltungsgruppe><dozent
             ref="goldhorn_jd"><funktion>Archidiac.</funktion> <grad>M.</grad>
@@ -1155,20 +1155,20 @@
           <sachgruppe xml:id="sg-1816s-II.A.II.1.002">
             <titel>Katechetische Uebungen</titel>
 
-            <veranstaltung
-            xml:id="v-1816s-II.A.II.1.002-001"><dozent><funktion>Domh.</funktion>
-            <grad>Dr.</grad> <nachname>Tittmann</nachname></dozent>, <zeit>in
-            den best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1816s-II.A.II.1.002-001"><dozent
+            ref="tittmann_jah"><funktion>Domh.</funktion> <grad>Dr.</grad>
+            <nachname>Tittmann</nachname></dozent>, <zeit>in den best.
+            St.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1816s-II.A.II.2">
           <titel>2) Pastoral-Wissenschaft.</titel>
 
-          <veranstaltung
-          xml:id="v-1816s-II.A.II.2-001"><dozent><funktion>Canon.</funktion>
-          <grad>Dr.</grad> <nachname>Tzschirner</nachname></dozent>, <zeit>9
-          U. 4 T.</zeit> <modus>öff.</modus></veranstaltung>
+          <veranstaltung xml:id="v-1816s-II.A.II.2-001"><dozent
+          ref="tzschirner_hg"><funktion>Canon.</funktion> <grad>Dr.</grad>
+          <nachname>Tzschirner</nachname></dozent>, <zeit>9 U. 4 T.</zeit>
+          <modus>öff.</modus></veranstaltung>
 
           <veranstaltung xml:id="v-1816s-II.A.II.2-002"><dozent
           ref="bauer_kg"><funktion>Archidiac.</funktion> <grad>Dr.</grad>
@@ -1176,10 +1176,11 @@
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1816s-II.A.II.2-003"><thema>Verschiedene
-          Uebungen</thema> stellt <dozent><funktion>Domh.</funktion>
-          <grad>D.</grad> <nachname>Tittmann</nachname></dozent> <thema>mit
-          der theologischen Gesellschaft</thema>, <zeit>in den best.
-          St.</zeit> an,</veranstaltung>
+          Uebungen</thema> stellt <dozent
+          ref="tittmann_jah"><funktion>Domh.</funktion> <grad>D.</grad>
+          <nachname>Tittmann</nachname></dozent> <thema>mit der theologischen
+          Gesellschaft</thema>, <zeit>in den best. St.</zeit>
+          an,</veranstaltung>
 
           <veranstaltung xml:id="v-1816s-II.A.II.2-004">und <dozent
           ref="plueschke_jg"><grad>M.</grad>
@@ -1221,9 +1222,9 @@
               <titel>aa) Geschichte u. Alterthümer des Römischen
               Rechts.</titel>
 
-              <veranstaltung
-              xml:id="v-1816s-II.B.I.1.a.aa-001"><dozent><funktion>Domh.</funktion>
-              <grad>Dr.</grad> u. <funktion>P. O.</funktion>
+              <veranstaltung xml:id="v-1816s-II.B.I.1.a.aa-001"><dozent
+              ref="stockmann_ac"><funktion>Domh.</funktion> <grad>Dr.</grad>
+              u. <funktion>P. O.</funktion>
               <nachname>Stockmann</nachname></dozent>, <thema>Geschichte der
               römischen Rechtsgel<korrektur original="a">e</korrektur>hrtheit,
               nach Bach, (neueste Ausg. Lpz. 1807. 8.)</thema>, <zeit>10 U. 6
@@ -1257,12 +1258,11 @@
             <sachgruppe xml:id="sg-1816s-II.B.I.1.a.bb">
               <titel>bb) Gesetzerklärung.</titel>
 
-              <veranstaltung
-              xml:id="v-1816s-II.B.I.1.a.bb-001"><dozent><funktion>Domh.</funktion>
-              <grad>Dr.</grad> <nachname>Stockmann</nachname></dozent>,
-              <thema>über die Gesetze der 12 Tafeln</thema><korrektur
-              original=".">,</korrektur> <zeit>11 U. 4 T.</zeit>
-              <modus>öff.</modus></veranstaltung>
+              <veranstaltung xml:id="v-1816s-II.B.I.1.a.bb-001"><dozent
+              ref="stockmann_ac"><funktion>Domh.</funktion> <grad>Dr.</grad>
+              <nachname>Stockmann</nachname></dozent>, <thema>über die Gesetze
+              der 12 Tafeln</thema><korrektur original=".">,</korrektur>
+              <zeit>11 U. 4 T.</zeit> <modus>öff.</modus></veranstaltung>
 
               <veranstaltung xml:id="v-1816s-II.B.I.1.a.bb-002"><dozent
               ref="wenck_kfc"><funktion>OHGR.</funktion> <grad>Dr.</grad>
@@ -1785,10 +1785,10 @@
             <nachname>Rau</nachname></dozent>, <zeit>10 U. 2
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1816s-II.B.II.3.xxx-002"><dozent><funktion>Domh.</funktion>
-            <grad>Dr.</grad> <nachname>Stockmann</nachname></dozent>, <zeit>11
-            U. 2 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1816s-II.B.II.3.xxx-002"><dozent
+            ref="stockmann_ac"><funktion>Domh.</funktion> <grad>Dr.</grad>
+            <nachname>Stockmann</nachname></dozent>, <zeit>11 U. 2
+            T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1816s-II.B.II.3.xxx-003"><dozent
             ref="wenck_kfc"><funktion>OHGR.</funktion> <grad>Dr.</grad>

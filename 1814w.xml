@@ -162,8 +162,8 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
           <sachgruppe xml:id="sg-1814w-I.I.A.2.b">
             <titel>b) Religionsphilosophie oder natürliche Theologie.</titel>
 
-            <veranstaltung
-            xml:id="v-1814w-I.I.A.2.b-001"><dozent><nachname>Tzschirner</nachname>,
+            <veranstaltung xml:id="v-1814w-I.I.A.2.b-001"><dozent
+            ref="tzschirner_hg"><nachname>Tzschirner</nachname>,
             <grad>D.</grad> <vorname>H. G.</vorname>, <funktion>P.
             O.</funktion></dozent>, <zeit>11 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
@@ -1037,8 +1037,8 @@ auf sich hatte. Vgl. auch WS 1818, S. 3.--></veranstaltungsgruppe>
             <sachgruppe xml:id="sg-1814w-II.A.I.1.b.beta">
               <titel>β) Erklärung der Bücher des N. T.</titel>
 
-              <veranstaltung
-              xml:id="v-1814w-II.A.I.1.b.beta-001"><dozent><nachname>Tittmann</nachname>,
+              <veranstaltung xml:id="v-1814w-II.A.I.1.b.beta-001"><dozent
+              ref="tittmann_jah"><nachname>Tittmann</nachname>,
               <grad>D.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
               O.</funktion>, d. Z. <funktion>Dec.</funktion> und
               <funktion>Rect.</funktion></dozent>, <thema>Erklärung der drei
@@ -1096,8 +1096,8 @@ auf sich hatte. Vgl. auch WS 1818, S. 3.--></veranstaltungsgruppe>
           <sachgruppe xml:id="sg-1814w-II.A.I.2.a">
             <titel>a) Christliche Kirchengeschichte.</titel>
 
-            <veranstaltung
-            xml:id="v-1814w-II.A.I.2.a-001"><dozent><nachname>Tzschirner</nachname>,
+            <veranstaltung xml:id="v-1814w-II.A.I.2.a-001"><dozent
+            ref="tzschirner_hg"><nachname>Tzschirner</nachname>,
             <grad>D.</grad> <vorname>H. G.</vorname>, <funktion>P.
             O.</funktion></dozent>, <thema kontext="sachgruppe"><notiz
             betreff="fortsetzung">Fortsetzung</notiz></thema>, <zeit>10 U. 6
@@ -1158,8 +1158,8 @@ auf sich hatte. Vgl. auch WS 1818, S. 3.--></veranstaltungsgruppe>
             <sachgruppe xml:id="sg-1814w-II.A.I.3.b.x">
               <titel>*) Examinatorium über Dogmatik.</titel>
 
-              <veranstaltung
-              xml:id="v-1814w-II.A.I.3.b.x-001"><dozent><nachname>Tittmann</nachname>,
+              <veranstaltung xml:id="v-1814w-II.A.I.3.b.x-001"><dozent
+              ref="tittmann_jah"><nachname>Tittmann</nachname>,
               <grad>D.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
               O.</funktion> u. d. Z. <funktion>Dec.</funktion> u.
               <funktion>Rect.</funktion></dozent>, <zeit>10 U. 4
@@ -1188,10 +1188,10 @@ auf sich hatte. Vgl. auch WS 1818, S. 3.--></veranstaltungsgruppe>
           <sachgruppe xml:id="sg-1814w-II.A.I.3.c">
             <titel>c) Symbolik.</titel>
 
-            <veranstaltung
-            xml:id="v-1814w-II.A.I.3.c-001"><dozent><nachname>Tittmann</nachname>,
-            <grad>D.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
-            O.</funktion> d. Z. <funktion>Decan.</funktion> u.
+            <veranstaltung xml:id="v-1814w-II.A.I.3.c-001"><dozent
+            ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>D.</grad>
+            <vorname>J. A. H.</vorname>, <funktion>P. O.</funktion> d. Z.
+            <funktion>Decan.</funktion> u.
             <funktion>Rect.</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
             <modus>öffentl.</modus></veranstaltung>
           </sachgruppe>
@@ -1199,10 +1199,9 @@ auf sich hatte. Vgl. auch WS 1818, S. 3.--></veranstaltungsgruppe>
           <sachgruppe xml:id="sg-1814w-II.A.I.3.d">
             <titel>d) Moraltheologie.</titel>
 
-            <veranstaltung
-            xml:id="v-1814w-II.A.I.3.d-001"><ders>Derselbe</ders>,
-            <thema>Grundsätze der christl. Moral</thema>, <zeit>3 U. 2
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1814w-II.A.I.3.d-001"><ders
+            ref="tittmann_jah">Derselbe</ders>, <thema>Grundsätze der christl.
+            Moral</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
       </sachgruppe>
@@ -1213,10 +1212,10 @@ auf sich hatte. Vgl. auch WS 1818, S. 3.--></veranstaltungsgruppe>
         <sachgruppe xml:id="sg-1814w-II.A.II.1">
           <titel>1) Homiletische Uebungen.</titel>
 
-          <veranstaltung
-          xml:id="v-1814w-II.A.II.1-001"><dozent><nachname>Tzschirner</nachname>,
-          <grad>D.</grad> <vorname>H. G.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>zu bel. Z.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1814w-II.A.II.1-001"><dozent
+          ref="tzschirner_hg"><nachname>Tzschirner</nachname>, <grad>D.</grad>
+          <vorname>H. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>zu bel. Z.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1814w-II.A.II.1-002"><dozent
           ref="bauer_kg"><nachname>Bauer</nachname>, <grad>D.</grad>
@@ -1254,18 +1253,18 @@ Letzteres entschieden.-->
       <sachgruppe xml:id="sg-1814w-II.A.001">
         <titel>Verschiedene Uebungen.</titel>
 
-        <veranstaltung
-        xml:id="v-1814w-II.A.001-001"><dozent><nachname>Tittmann</nachname>,
-        <grad>D.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
-        O.</funktion>, d. Z. <funktion>Dec.</funktion> u.
-        <funktion>Rect.</funktion></dozent>, <thema>theologische
-        Gesellschaft</thema>, <zeit>in den best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1814w-II.A.001-001"><dozent
+        ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>D.</grad>
+        <vorname>J. A. H.</vorname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Dec.</funktion> u. <funktion>Rect.</funktion></dozent>,
+        <thema>theologische Gesellschaft</thema>, <zeit>in den best.
+        St.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1814w-II.A.001-002"><dozent><nachname>Tzschirner</nachname>,
-        <grad>D.</grad> <vorname>H. G.</vorname>, <funktion>P.
-        O.</funktion></dozent>, <thema>Uebungen im Sprechen u.
-        Schreiben</thema>, <zeit>zu bel. Z.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1814w-II.A.001-002"><dozent
+        ref="tzschirner_hg"><nachname>Tzschirner</nachname>, <grad>D.</grad>
+        <vorname>H. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <thema>Uebungen im Sprechen u. Schreiben</thema>, <zeit>zu bel.
+        Z.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1814w-II.A.001-003"><dozent
         ref="krueger_jd"><nachname>Krüger</nachname>, <vorname>J.
@@ -1443,7 +1442,8 @@ Klammer für alle Veranstaltungen da!-->
                   <seite>15</seite>
 
                   <veranstaltung
-                  xml:id="v-1814w-II.B.II.A.1.a.bb_2.beta-002"><dozent><nachname>Stockmann</nachname>,
+                  xml:id="v-1814w-II.B.II.A.1.a.bb_2.beta-002"><dozent
+                  ref="stockmann_ac"><nachname>Stockmann</nachname>,
                   <grad>D.</grad> <vorname>A. C.</vorname>, <funktion>P.
                   O.</funktion></dozent>, <thema kontext="sachgruppe">nach
                   Heineccius</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
@@ -1616,8 +1616,8 @@ Gesetzen" als auch auf "2 T." beziehen--></veranstaltung>
             <sachgruppe xml:id="sg-1814w-II.B.II.A.2.d">
               <titel>d) Kirchenrecht.</titel>
 
-              <veranstaltung
-              xml:id="v-1814w-II.B.II.A.2.d-001"><dozent><nachname>Stockmann</nachname>,
+              <veranstaltung xml:id="v-1814w-II.B.II.A.2.d-001"><dozent
+              ref="stockmann_ac"><nachname>Stockmann</nachname>,
               <grad>D.</grad> <vorname>A. C.</vorname>, <funktion>P.
               O.</funktion></dozent>, <thema kontext="sachgruppe">nach G. L.
               Böhmer</thema>, <zeit>11 U. 4 T.</zeit>
@@ -1939,8 +1939,8 @@ auf beide bezogen-->
               <vorname>C.</vorname>, <funktion>P. O.</funktion></dozent>,
               <zeit>10 U. 2 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1814w-II.B.II.B.xx.2-002"><dozent><nachname>Stockmann</nachname>,
+              <veranstaltung xml:id="v-1814w-II.B.II.B.xx.2-002"><dozent
+              ref="stockmann_ac"><nachname>Stockmann</nachname>,
               <grad>D.</grad> <vorname>A. C.</vorname>, <funktion>P.
               O.</funktion></dozent>, <zeit>11 U. 2 T.</zeit></veranstaltung>
 

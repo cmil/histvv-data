@@ -93,7 +93,7 @@
 
       <veranstaltung xml:id="v-1912s-I-001"><thema>Enzyklopädie und
       Methodologie der Theologie als Einführung in das Studium der
-      Theologie</thema>: <dozent><grad>D. th. et ph.</grad>
+      Theologie</thema>: <dozent ref="thieme_c"><grad>D. th. et ph.</grad>
       <nachname>Thieme</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mo., Do. u. So. 7-8 U. Vorm.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -221,9 +221,9 @@
 
       <veranstaltung xml:id="v-1912s-I-022"><thema>Luthers Kleiner
       Katechismus, historisch erklärt und systematisch beurteilt</thema>:
-      <dozent><grad>D. th. et ph.</grad> <nachname>Thieme</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>So. 11-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="thieme_c"><grad>D. th. et ph.</grad>
+      <nachname>Thieme</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>So. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-I-023"><thema>Dogmatik <notiz
       betreff="fortsetzung">I.</notiz></thema>: <dozent
@@ -438,7 +438,7 @@
       <seite>5</seite>
 
       <veranstaltung xml:id="v-1912s-I-053"><thema>Dogmatisches
-      Repetitorium</thema>: <dozent><grad>D. th. et ph.</grad>
+      Repetitorium</thema>: <dozent ref="thieme_c"><grad>D. th. et ph.</grad>
       <nachname>Thieme</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Do. 4-5 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -580,9 +580,9 @@
       11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-010"><thema>Deutsches bürgerliches
-      Recht (Schuldrecht)</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Strohal</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mo. bis Do. 9-10 U.</zeit>,
+      Recht (Schuldrecht)</thema>: <dozent ref="strohal_e"><grad>D.
+      jur.</grad> <nachname>Strohal</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mo. bis Do. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-011"><thema>Transportrecht</thema>:
@@ -596,9 +596,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-013"><thema>Deutsches bürgerliches
-      Recht (Sachenrecht)</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Strohal</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mo. bis Do. 10-11 U.</zeit>,
+      Recht (Sachenrecht)</thema>: <dozent ref="strohal_e"><grad>D.
+      jur.</grad> <nachname>Strohal</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mo. bis Do. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-014"><thema>Deutsches bürgerliches
@@ -614,7 +614,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-016"><thema>Königlich Sächsisches
-      Landesprivatrecht</thema>: <dozent><grad>D. jur.</grad>
+      Landesprivatrecht</thema>: <dozent ref="strohal_e"><grad>D. jur.</grad>
       <nachname>Strohal</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Fr. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -763,9 +763,9 @@
 
       <veranstaltung xml:id="v-1912s-II-039"><thema>Mündliche und schriftliche
       Übungen im deutschen bürgerlichen Recht (für Vorgerücktere)</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Strohal</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Do. 5-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="strohal_e"><grad>D. jur.</grad>
+      <nachname>Strohal</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Do. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-II-040"><thema>Ausgewählte Quellen zur
       Geschichte des Zivilprozeßrechts</thema>: <dozent ref="stein_f"><grad>D.
@@ -1037,10 +1037,11 @@
           ph.</grad> <nachname>Siegfried</nachname>, <funktion>P.
           E.</funktion></dozent>, <dozent ref="bruecke_et">mit <grad>D.
           med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
-          <nachname>Brücke</nachname></dozent> <dozent>u. <grad>D. med.</grad>
-          <nachname>Dittler</nachname></dozent>, <zeit>dreimal wöchentlich 4-6
-          U.</zeit>, <modus>privatim</modus>, <ort>im Physiologischen
-          Institut, Liebigstr. 16</ort>.</veranstaltung>
+          <nachname>Brücke</nachname></dozent> <dozent ref="dittler_r">u.
+          <grad>D. med.</grad> <nachname>Dittler</nachname></dozent>,
+          <zeit>dreimal wöchentlich 4-6 U.</zeit>, <modus>privatim</modus>,
+          <ort>im Physiologischen Institut, Liebigstr.
+          16</ort>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-III.001.002-006"><thema>Physiologie
           und Hygiene der Milch, für Mediziner, Tierärzte und
@@ -1053,7 +1054,7 @@
 
           <veranstaltung
           xml:id="v-1912s-III.001.002-007"><thema>Physiologische
-          Besprechungen</thema>: <dozent><grad>D. med.</grad>
+          Besprechungen</thema>: <dozent ref="dittler_r"><grad>D. med.</grad>
           <nachname>Dittler</nachname></dozent>, <zeit>Mo. 2-4 U.</zeit>,
           <modus>privatim</modus>, <ort>im Physiolog. Institut, Liebigstr.
           16</ort>.</veranstaltung>
@@ -1081,7 +1082,7 @@
           Demonstrations- u. Sektionskurs</thema>: <dozent
           ref="marchand_f"><grad>D. med. et ph.</grad>
           <nachname>Marchand</nachname>, <funktion>P. O.</funktion></dozent>,
-          mit <dozent><grad>D. med.</grad>
+          mit <dozent ref="verse_m"><grad>D. med.</grad>
           <nachname>Versé</nachname></dozent>, <zeit>Mo., Mi., Do. u. So. 8-9½
           U.</zeit>, <modus>privatim</modus>, <ort>im Pathologischen Institut,
           Liebigstr. 26</ort>.</veranstaltung>
@@ -1108,15 +1109,15 @@
           Liebigstr. 26</ort>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-III.001.003-007"><thema>Übungen in
-          der mikroskopischen Diagnostik der Geschwülste</thema>:
-          <dozent><grad>D. med.</grad> <nachname>Versé</nachname></dozent>,
-          <zeit>Mi. (evtl. Do.) 2-4 U.</zeit>, <modus>privatim</modus>,
-          <ort>im Pathologischen Institut, Liebigstr.
-          26</ort>.</veranstaltung>
+          der mikroskopischen Diagnostik der Geschwülste</thema>: <dozent
+          ref="verse_m"><grad>D. med.</grad>
+          <nachname>Versé</nachname></dozent>, <zeit>Mi. (evtl. Do.) 2-4
+          U.</zeit>, <modus>privatim</modus>, <ort>im Pathologischen Institut,
+          Liebigstr. 26</ort>.</veranstaltung>
 
           <veranstaltung
           xml:id="v-1912s-III.001.003-008"><thema>Pathologisch-anatomische
-          Besprechungen</thema>: <dozent><grad>D. med.</grad>
+          Besprechungen</thema>: <dozent ref="verse_m"><grad>D. med.</grad>
           <nachname>Versé</nachname></dozent>, <zeit>Mo. 7-8 U. Nachm. (od.
           So. 5-6) U.</zeit>, <modus>privatim</modus>, <ort>im Patholog.
           Institut, Liebigstr. 26</ort>.</veranstaltung>
@@ -1218,8 +1219,9 @@
           Institut, Nürnberger Str. 55</ort>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-III.001.005-004"><thema>Medizinische
-          Klinik</thema> (<ort>Liebigstr. 22</ort>): <dozent><grad>D.
-          med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+          Klinik</thema> (<ort>Liebigstr. 22</ort>): <dozent
+          ref="struempell_a"><grad>D. med.</grad>
+          <nachnamenpräfix>von</nachnamenpräfix>
           <nachname>Strümpell</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>tägl. (außer Do.) 9½-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -1262,16 +1264,17 @@
 
           <veranstaltung
           xml:id="v-1912s-III.001.005-011"><thema>Röntgenverfahren in der
-          inneren Medizin</thema>: <dozent><grad>D. med.</grad>
-          <nachnamenpräfix>von</nachnamenpräfix>
+          inneren Medizin</thema>: <dozent ref="criegern_l"><grad>D.
+          med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
           <nachname>Criegern</nachname></dozent>, <zeit>an zu verabred.
           Stunden</zeit>, <modus>privatim</modus>, <ort>im
           Medizinisch-poliklin. Institut, Nürnberger Str. 55.
           Eg.</ort></veranstaltung>
 
           <veranstaltung xml:id="v-1912s-III.001.005-012"><thema>Ausgewählte
-          Kapitel aus dem Gebiete der Herzkrankheiten</thema>:
-          <dozent><grad>D. med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+          Kapitel aus dem Gebiete der Herzkrankheiten</thema>: <dozent
+          ref="criegern_l"><grad>D. med.</grad>
+          <nachnamenpräfix>von</nachnamenpräfix>
           <nachname>Criegern</nachname></dozent>, <zeit>Di. 4-5 U.</zeit>,
           <modus>publice</modus>, <ort>im Medizinisch-poliklin. Institut,
           Nürnberger Str. 55. Eg.</ort></veranstaltung>
@@ -1324,18 +1327,19 @@
           <ort>im Anatomischen Institut, Liebigstr. 13</ort>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-III.001.006-003"><thema>Chirurgische
-          Poliklinik mit orthopädischen Übungen</thema>: <dozent><grad>D. med.
-          et sc.</grad> <nachname>Tillmanns</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mo., Di. u. Do. 2-3 U.</zeit>,
-          <modus>privatim</modus>, <ort>im Kinderkrankenhause, Platzmannstr.
-          1</ort>.</veranstaltung>
+          Poliklinik mit orthopädischen Übungen</thema>: <dozent
+          ref="tillmanns_rh"><grad>D. med. et sc.</grad>
+          <nachname>Tillmanns</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Mo., Di. u. Do. 2-3 U.</zeit>, <modus>privatim</modus>,
+          <ort>im Kinderkrankenhause, Platzmannstr. 1</ort>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-III.001.006-004"><thema>Chirurgie des
           Kindesalters. Klinische und poliklinische Operationen und
           Demonstrationen im Operationssaale des Kinderkrankenhauses</thema>
-          (<ort>Platzmannstr. 1</ort>): <dozent><grad>D. med. et sc.</grad>
-          <nachname>Tillmanns</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>So. 5-6½ U.</zeit>, <modus>publice</modus>.</veranstaltung>
+          (<ort>Platzmannstr. 1</ort>): <dozent ref="tillmanns_rh"><grad>D.
+          med. et sc.</grad> <nachname>Tillmanns</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>So. 5-6½ U.</zeit>,
+          <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-III.001.006-005"><thema>Poliklinik
           der orthopädischen Chirurgie</thema> (<ort>Nürnberger Str. 57,
@@ -1922,16 +1926,17 @@
 
           <veranstaltung xml:id="v-1912s-III.001.015-001"><thema>Geschichte
           der Medizin <notiz betreff="fortsetzung">II. Teil</notiz>.
-          Mittelalter und Neuzeit</thema>: <dozent><grad>D. med.</grad>
-          <nachname>Sudhoff</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Do. 6-7 U.</zeit>, <modus>publice</modus>, <ort>im kleinen
-          Hörsaal des Zoolog. Instituts, Talstr. 33. Eg.</ort></veranstaltung>
+          Mittelalter und Neuzeit</thema>: <dozent ref="sudhoff_k"><grad>D.
+          med.</grad> <nachname>Sudhoff</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>Do. 6-7 U.</zeit>,
+          <modus>publice</modus>, <ort>im kleinen Hörsaal des Zoolog.
+          Instituts, Talstr. 33. Eg.</ort></veranstaltung>
 
           <seite>20</seite>
 
           <veranstaltung xml:id="v-1912s-III.001.015-002"><thema>Arbeiten im
           historisch-medizinischen Seminar</thema> (<ort>Talstr. 33.
-          II.</ort>): <dozent><grad>D. med.</grad>
+          II.</ort>): <dozent ref="sudhoff_k"><grad>D. med.</grad>
           <nachname>Sudhoff</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>tägl. 9-11 U.</zeit>, <modus>privatissime</modus>, sed
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1952,8 +1957,9 @@
         <sachgruppe xml:id="sg-1912s-III.002.a">
           <titel>a) Innere Medizin.</titel>
 
-          <veranstaltung xml:id="v-1912s-III.002.a-001"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+          <veranstaltung xml:id="v-1912s-III.002.a-001"><dozent
+          ref="criegern_l"><grad>D. med.</grad>
+          <nachnamenpräfix>von</nachnamenpräfix>
           <nachname>Criegern</nachname></dozent>: <ort>Privatpoliklinik für
           innere Kranke (Blücherstr. 45. Eg.)</ort>, <zeit>Mo. bis Fr. 9-10
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -2226,9 +2232,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.A-002"><thema>Geschichte der
-        griechischen Philosophie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Volkelt</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mo., Di., Do. u. Fr. 10-11 U.</zeit>,
+        griechischen Philosophie</thema>: <dozent ref="volkelt_j"><grad>D.
+        ph.</grad> <nachname>Volkelt</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mo., Di., Do. u. Fr. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.A-003"><thema>Die Vorbereitung des
@@ -2258,9 +2264,9 @@
         <nachname>Salow</nachname></dozent>, <zeit>Mi. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1912s-IV.A-008"><thema>Ethik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Volkelt</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Di. u. Fr. 6-7 U.</zeit>,
+        <veranstaltung xml:id="v-1912s-IV.A-008"><thema>Ethik</thema>: <dozent
+        ref="volkelt_j"><grad>D. ph.</grad> <nachname>Volkelt</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Di. u. Fr. 6-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.A-009"><thema>Geschichte der
@@ -2319,10 +2325,10 @@
           <titel>Philosophisches Seminar:</titel>
 
           <veranstaltungsgruppe><veranstaltung
-          xml:id="v-1912s-IV.A.001-001">1) <dozent><grad>D. ph.</grad>
-          <nachname>Volkelt</nachname>, <funktion>P. O.</funktion></dozent>:
-          <thema>Goethes Lebensanschauung</thema>, <zeit>Mi. 4-6 U.</zeit>,
-          <modus>privatissime</modus>,
+          xml:id="v-1912s-IV.A.001-001">1) <dozent ref="volkelt_j"><grad>D.
+          ph.</grad> <nachname>Volkelt</nachname>, <funktion>P.
+          O.</funktion></dozent>: <thema>Goethes Lebensanschauung</thema>,
+          <zeit>Mi. 4-6 U.</zeit>, <modus>privatissime</modus>,
           <gebühr>gratis</gebühr></veranstaltung>. - <veranstaltung
           xml:id="v-1912s-IV.A.001-002">2) <dozent ref="barth_pee"><grad>D.
           ph.</grad> <vorname>P.</vorname> <nachname>Barth</nachname>,
@@ -2698,7 +2704,7 @@
           <zeit>Fr. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-IV.B.b-020"><thema>Durrat
-          al-ghawwâs</thema>: <dozent><grad>D. ph.</grad>
+          al-ghawwâs</thema>: <dozent ref="stumme_h"><grad>D. ph.</grad>
           <nachname>Stumme</nachname>, <funktion>P. O.
           Hon.</funktion></dozent>, <zeit>Mi. 10-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2711,15 +2717,16 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung
-          xml:id="v-1912s-IV.B.b-022"><thema>Äthiopisch</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Stumme</nachname>,
+          xml:id="v-1912s-IV.B.b-022"><thema>Äthiopisch</thema>: <dozent
+          ref="stumme_h"><grad>D. ph.</grad> <nachname>Stumme</nachname>,
           <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mi. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-IV.B.b-023"><thema>Türkisch</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Stumme</nachname>,
-          <funktion>P. O. Hon.</funktion></dozent>, <zeit>Di. u. Fr. 8 bis 9
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="stumme_h"><grad>D. ph.</grad>
+          <nachname>Stumme</nachname>, <funktion>P. O.
+          Hon.</funktion></dozent>, <zeit>Di. u. Fr. 8 bis 9 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <seite>28</seite>
 
@@ -2788,14 +2795,14 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-IV.B.b-031"><thema>Neuarabische
-          Übungen</thema> (<ort>im Semitistischen Institut</ort>):
-          <dozent><grad>D. ph.</grad> <nachname>Stumme</nachname>,
+          Übungen</thema> (<ort>im Semitistischen Institut</ort>): <dozent
+          ref="stumme_h"><grad>D. ph.</grad> <nachname>Stumme</nachname>,
           <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mi. 2-4 U.</zeit>,
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-IV.B.b-032"><thema>Hamitische
-          Übungen</thema> (<ort>im Semitistischen Institut</ort>):
-          <dozent><grad>D. ph.</grad> <nachname>Stumme</nachname>,
+          Übungen</thema> (<ort>im Semitistischen Institut</ort>): <dozent
+          ref="stumme_h"><grad>D. ph.</grad> <nachname>Stumme</nachname>,
           <funktion>P. O. Hon.</funktion></dozent>, <zeit>Do. 2-4 U.</zeit>,
           <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -3080,7 +3087,7 @@
 
           <veranstaltung xml:id="v-1912s-IV.B.d-013"><thema>Byzantinische
           Literaturgeschichte im Rahmen der Staats- und Kulturentwicklung von
-          Byzanz</thema>: <dozent><grad>D. ph.</grad>
+          Byzanz</thema>: <dozent ref="dieterich_k"><grad>D. ph.</grad>
           <nachname>Dieterich</nachname></dozent>, <zeit>Mo. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -3649,10 +3656,11 @@
               U.</zeit></veranstaltung>
 
               <veranstaltung gebühr="gratis" modus="privatissime"
-              xml:id="v-1912s-IV.C.002.II.B-002">2) <dozent><grad>D.
-              ph.</grad> <nachname>Dieterich</nachname></dozent>:
-              <thema>Byzantinische Realien in ihrem Einfluß auf das
-              Abendland</thema>, <zeit>Mi. 6-7½ U.</zeit></veranstaltung>
+              xml:id="v-1912s-IV.C.002.II.B-002">2) <dozent
+              ref="dieterich_k"><grad>D. ph.</grad>
+              <nachname>Dieterich</nachname></dozent>: <thema>Byzantinische
+              Realien in ihrem Einfluß auf das Abendland</thema>, <zeit>Mi.
+              6-7½ U.</zeit></veranstaltung>
 
               <veranstaltung gebühr="gratis" modus="privatissime"
               xml:id="v-1912s-IV.C.002.II.B-003">3) <dozent><grad>D. jur. et
@@ -3785,10 +3793,11 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.D-003"><thema>Griechische
-        Kunstgeschichte vom 5. bis zum 2. Jahrhundert v. Chr.</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Studniczka</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mo., Di., Do. u. Fr. 10-11
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Kunstgeschichte vom 5. bis zum 2. Jahrhundert v. Chr.</thema>: <dozent
+        ref="studniczka_f"><grad>D. ph.</grad>
+        <nachname>Studniczka</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mo., Di., Do. u. Fr. 10-11 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.D-004"><thema>Die Anfänge der
         Renaissance</thema>: <dozent ref="schmarsow_a"><grad>D. ph.</grad>
@@ -3825,8 +3834,9 @@
         <sachgruppe xml:id="sg-1912s-IV.D.002">
           <titel>Archäologisches Seminar (Albertinum Erdg.).</titel>
 
-          <veranstaltung xml:id="v-1912s-IV.D.002-001"><dozent><grad>D.
-          ph.</grad> <nachname>Studniczka</nachname>, <funktion>P.
+          <veranstaltung xml:id="v-1912s-IV.D.002-001"><dozent
+          ref="studniczka_f"><grad>D. ph.</grad>
+          <nachname>Studniczka</nachname>, <funktion>P.
           O.</funktion></dozent>: <thema>Römische Wandgemälde</thema>,
           <zeit>Mi. 3-5 U.</zeit>, <modus>privatissime</modus>, sed
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3835,8 +3845,8 @@
 
           <veranstaltung xml:id="v-1912s-IV.D.002-002"><thema>Übungen im
           Erklären von antiken Bildwerken aus der Heraklessage für Studierende
-          aller Fakultäten</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Studniczka</nachname>, <funktion>P.
+          aller Fakultäten</thema>: <dozent ref="studniczka_f"><grad>D.
+          ph.</grad> <nachname>Studniczka</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Mi. 9-10 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
@@ -4111,10 +4121,10 @@
 
         <veranstaltung xml:id="v-1912s-IV.E-017"><thema>Kultur der Wiesen und
         Weiden, mit Übungen im Erkennen und Bestimmen der Gräser</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Strecker</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>Mo. u. Di. 9-10 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Landwirtschaftl. Institut,
-        Johannisallee 21</ort>.</veranstaltung>
+        <dozent ref="strecker_w"><grad>D. ph.</grad>
+        <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>Mo. u. Di. 9-10 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Landwirtschaftl. Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.E-018"><thema>Obst- und Formobstbau
         in Garten und Feld</thema>: <dozent><funktion>Lehrer für Obst- und
@@ -4137,20 +4147,21 @@
         Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.E-021"><thema>Praktische Geometrie
-        mit Übungen im Feldmessen und Nivellieren</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Strecker</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mi. 5-7 U.</zeit>,
+        mit Übungen im Feldmessen und Nivellieren</thema>: <dozent
+        ref="strecker_w"><grad>D. ph.</grad> <nachname>Strecker</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mi. 5-7 U.</zeit>,
         <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
         21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.E-022"><thema>Bonitierung und
-        Kartierung des Bodens</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Do. 12-1 U.</zeit>, <modus>privatim</modus>, <ort>im Landw.
-        Institut, Johannisallee 21</ort>.</veranstaltung>
+        Kartierung des Bodens</thema>: <dozent ref="strecker_w"><grad>D.
+        ph.</grad> <nachname>Strecker</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Do. 12-1 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
+        21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.E-023"><thema>Landwirtschaftliche
-        Maschinenkunde</thema>: <dozent><grad>D. ph.</grad>
+        Maschinenkunde</thema>: <dozent ref="strecker_w"><grad>D. ph.</grad>
         <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mi. u. Fr. 11-12 U.</zeit>, <modus>privatim</modus>, <ort>im
         Landw. Institut, Johannisallee 21</ort>.</veranstaltung>
@@ -4400,13 +4411,14 @@
 
           <veranstaltung
           xml:id="v-1912s-IV.E.002-018"><thema>Kulturtechnisches und
-          maschinelles Praktikum</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>in noch zu best. Zeit</zeit>, <modus>privatim</modus>, <ort>im
-          Landwirtschaftl. Institut, Johannisallee 21</ort>.</veranstaltung>
+          maschinelles Praktikum</thema>: <dozent ref="strecker_w"><grad>D.
+          ph.</grad> <nachname>Strecker</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>in noch zu best. Zeit</zeit>,
+          <modus>privatim</modus>, <ort>im Landwirtschaftl. Institut,
+          Johannisallee 21</ort>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-IV.E.002-019"><thema>Technische
-          Exkursionen</thema>: <dozent><grad>D. ph.</grad>
+          Exkursionen</thema>: <dozent ref="strecker_w"><grad>D. ph.</grad>
           <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>an noch zu best. Tagen</zeit>,
           <modus>publice</modus>.</veranstaltung>
@@ -4769,9 +4781,10 @@
 
         <veranstaltung xml:id="v-1912s-IV.G-030"><thema>Die maßanalytischen
         Bestimmungen des neuen Deutschen Arzneibuchs (5. Ausgabe)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Deußen</nachname></dozent>,
-        <zeit>Mo. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium
-        für angew. Chemie, Brüderstr. 34</ort>.</veranstaltung>
+        <dozent ref="deussen_e"><grad>D. ph.</grad>
+        <nachname>Deußen</nachname></dozent>, <zeit>Mo. 5-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Laboratorium für angew. Chemie,
+        Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-031"><thema>Pharmakologie mit der
         Arzneiverordnungslehre</thema>: <dozent ref="boehm_r"><grad>D.
@@ -5045,9 +5058,9 @@
         ph.</grad> <nachname>Paal</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <dozent ref="heller_g">mit <grad>D.
         ph.</grad> <vorname>G.</vorname> <nachname>Heller</nachname>,
-        <funktion>P. E.</funktion></dozent>, <dozent><grad>D. ph.</grad>
-        <nachname>Deußen</nachname></dozent>, <dozent><grad>D. ph.</grad>
-        <nachname>Scheiber</nachname></dozent>, <dozent
+        <funktion>P. E.</funktion></dozent>, <dozent ref="deussen_e"><grad>D.
+        ph.</grad> <nachname>Deußen</nachname></dozent>, <dozent><grad>D.
+        ph.</grad> <nachname>Scheiber</nachname></dozent>, <dozent
         ref="sieverts_a"><grad>D. ph.</grad>
         <nachname>Sieverts</nachname></dozent> <dozent>u. <grad>D. ph.</grad>
         <nachname>Waentig</nachname></dozent>, <zeit>täglich 8-12½ U. u.

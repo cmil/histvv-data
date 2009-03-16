@@ -351,9 +351,9 @@
           <titel>Lateinische Sprache.</titel>
 
           <veranstaltungsverweis><thema>Lateinische Paläographie</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
-          O.</funktion></dozent>, <siehe>s. histor.
-          Hülfswiss.</siehe></veranstaltungsverweis>
+          <dozent ref="voigt_g"><grad>D. ph.</grad>
+          <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>,
+          <siehe>s. histor. Hülfswiss.</siehe></veranstaltungsverweis>
 
           <veranstaltung xml:id="v-1868s-I.II.1.002-001"><thema>Ueber
           lateinische Syntax</thema>: <dozent ref="klotz_r"><grad>D.
@@ -638,9 +638,10 @@
         <zeit>9 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868s-I.III.1-002"><thema>Griechische
-        Geschichte bis auf Alexander den Grosen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 U. 4 T.</zeit></veranstaltung>
+        Geschichte bis auf Alexander den Grosen</thema>: <dozent
+        ref="voigt_g"><grad>D. ph.</grad> <nachname>Voigt</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868s-I.III.1-003"><thema>Geschichte des
         Mittelalters</thema>: <dozent ref="pueckert_w"><grad>D. ph.</grad>
@@ -724,7 +725,7 @@
 
           <veranstaltung
           xml:id="v-1868s-I.III.1.002-002"><thema>Diplomatisch-paläographische
-          Uebungen</thema>: <dozent><grad>D. ph.</grad>
+          Uebungen</thema>: <dozent ref="voigt_g"><grad>D. ph.</grad>
           <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>in 2 zu best. St. u. T.</zeit> <modus>privatissime</modus>
           aber <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -774,10 +775,10 @@
         Uebb.</siehe></veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1868s-I.III.3-001"><thema>Urkundenlehre und
-        Abriss der lateinischen Paläographie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>6 U. 2 T. (Montag und Donnerstag)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Abriss der lateinischen Paläographie</thema>: <dozent
+        ref="voigt_g"><grad>D. ph.</grad> <nachname>Voigt</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>6 U. 2 T. (Montag und
+        Donnerstag)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1868s-I.III.3-002"><thema>Geographie von
         Palästina</thema>: <dozent ref="delitsch_o"><grad>D. ph.</grad>
@@ -1460,9 +1461,10 @@
         <seite>16</seite>
 
         <veranstaltung xml:id="v-1868s-II.B.I-002"><thema>Encyclopädie des
-        Rechtes</thema>: <dozent><grad>D.</grad> <nachname>Voigt</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>3stünd., 8 U. 2 T. und in 1
-        noch zu best. St.</zeit>, <modus>öffentlich</modus>.</veranstaltung>
+        Rechtes</thema>: <dozent ref="voigt_m"><grad>D.</grad>
+        <nachname>Voigt</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>3stünd., 8 U. 2 T. und in 1 noch zu best. St.</zeit>,
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.B.I-003"><thema>Encyclopädie u.
         Methodologie der Rechtswissenschaft</thema>: <dozent
@@ -1529,10 +1531,10 @@
             <titel>Exegese.</titel>
 
             <veranstaltung xml:id="v-1868s-II.B.II.1.001-001"><thema>Exegese
-            von Buch I. der Institutionen des Gajus</thema>:
-            <dozent><grad>D.</grad> <nachname>Voigt</nachname>, <funktion>P.
-            E.</funktion></dozent>, <zeit>8 U. 2 T. (Mont. u. Donn.)</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            von Buch I. der Institutionen des Gajus</thema>: <dozent
+            ref="voigt_m"><grad>D.</grad> <nachname>Voigt</nachname>,
+            <funktion>P. E.</funktion></dozent>, <zeit>8 U. 2 T. (Mont. u.
+            Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung
             xml:id="v-1868s-II.B.II.1.001-002"><thema>Exegeticum (verbunden
@@ -1951,8 +1953,9 @@
 
         <veranstaltung xml:id="v-1868s-II.C.IV-004"><thema>Demonstrationen und
         Besprechungen aus dem Gebiete der physikalischen Diagnostik</thema>:
-        <dozent><grad>D.</grad> <nachname>Thomas</nachname></dozent>, <zeit>1
-        bis 2mal wöchentlich</zeit> <modus>privatissime</modus>, aber
+        <dozent ref="thomas_gfl"><grad>D.</grad>
+        <nachname>Thomas</nachname></dozent>, <zeit>1 bis 2mal
+        wöchentlich</zeit> <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.C.IV-005"><thema>Chemische
@@ -2069,7 +2072,7 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.C.VII-003"><thema>Ueber
-        Herzkrankheiten</thema>: <dozent><grad>D.</grad>
+        Herzkrankheiten</thema>: <dozent ref="thomas_gfl"><grad>D.</grad>
         <nachname>Thomas</nachname></dozent>, <zeit>3 U. 2 T. (Dienst. u.
         Freit.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -2101,15 +2104,15 @@
         <titel>VIII. Chirurgie.</titel>
 
         <veranstaltung xml:id="v-1868s-II.C.VIII-001"><thema>Chirurgie, <notiz
-        betreff="fortsetzung">2. Th.</notiz></thema>: <dozent><grad>D.</grad>
-        <nachname>Thiersch</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>4stündig in zu best. St.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        betreff="fortsetzung">2. Th.</notiz></thema>: <dozent
+        ref="thiersch_c"><grad>D.</grad> <nachname>Thiersch</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>4stündig in zu best.
+        St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.C.VIII-002"><thema>Examinatorium
-        über die wichtigsten Capitel der Chirurgie</thema>:
-        <dozent><grad>D.</grad> <nachname>Streubel</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>3tägig, in zu best.
+        über die wichtigsten Capitel der Chirurgie</thema>: <dozent
+        ref="streubel_kw"><grad>D.</grad> <nachname>Streubel</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>3tägig, in zu best.
         St.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.C.VIII-003"><thema>Anatomie am
@@ -2125,8 +2128,9 @@
 
         <veranstaltung xml:id="v-1868s-II.C.VIII-005"><thema>Ueber
         traumatische, pathologische und angeborene Verrenkungen</thema>:
-        <dozent><grad>D.</grad> <nachname>Streubel</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
+        <dozent ref="streubel_kw"><grad>D.</grad>
+        <nachname>Streubel</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>in 2 zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.C.VIII-006"><thema>Ueber die
@@ -2147,7 +2151,7 @@
 
           <veranstaltung
           xml:id="v-1868s-II.C.VIII.001-002"><thema>Chirurgischer
-          Operationscurs</thema>: <dozent><grad>D.</grad>
+          Operationscurs</thema>: <dozent ref="thiersch_c"><grad>D.</grad>
           <nachname>Thiersch</nachname>, <funktion>P. O.
           des.</funktion></dozent>, <dozent ref="braune_cw">in Verb. mit
           <grad>D.</grad> <nachname>Braune</nachname>, <funktion>P.
@@ -2281,9 +2285,10 @@
         <seite>23</seite>
 
         <veranstaltung xml:id="v-1868s-II.C.XI-002"><thema>Chirurgische Klinik
-        <ort>im Jacobshospital</ort></thema>, <dozent><grad>D.</grad>
-        <nachname>Thiersch</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>9½-11 U. 6 T.</zeit></veranstaltung>
+        <ort>im Jacobshospital</ort></thema>, <dozent
+        ref="thiersch_c"><grad>D.</grad> <nachname>Thiersch</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>9½-11 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.C.XI-003"><thema>Geburtshilfliche
         und gynäkologische Klinik und Poliklinik (<ort>in der
@@ -2298,7 +2303,7 @@
         <zeit>2 U. 5 T. (ausschl. Mittw.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.C.XI-005"><thema>Chirurgische
-        Poliklinik</thema>: <dozent><grad>D.</grad>
+        Poliklinik</thema>: <dozent ref="streubel_kw"><grad>D.</grad>
         <nachname>Streubel</nachname>, <funktion>P. E.</funktion></dozent>,
         <dozent>in Verbindung mit <grad>D.</grad>
         <nachname>Schmidt</nachname>, <funktion>P. E.</funktion></dozent>,
@@ -2306,8 +2311,9 @@
 
         <veranstaltung
         xml:id="v-1868s-II.C.XI-006"><thema>Districtspoliklinik</thema>:
-        <dozent><grad>D.</grad> <nachname>Thomas</nachname></dozent>, <zeit>in
-        zu best. St. u. T. eventuell täglich</zeit>,
+        <dozent ref="thomas_gfl"><grad>D.</grad>
+        <nachname>Thomas</nachname></dozent>, <zeit>in zu best. St. u. T.
+        eventuell täglich</zeit>,
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.C.XI-007"><thema>Klinik für

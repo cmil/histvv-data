@@ -400,9 +400,10 @@
       <titel>II. Juristische Facultät.</titel>
 
       <veranstaltung xml:id="v-1875w-II-001"><thema>Encyclopädie des
-      Rechts</thema>: <dozent><grad>D. jur.</grad> <nachname>Voigt</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>Mittw., Freit. u. Sonnab. 5-6
-      U.</zeit> <modus>privatim</modus>.</veranstaltung>
+      Rechts</thema>: <dozent ref="voigt_m"><grad>D. jur.</grad>
+      <nachname>Voigt</nachname>, <funktion>P. E.</funktion></dozent>,
+      <zeit>Mittw., Freit. u. Sonnab. 5-6 U.</zeit>
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1875w-II-002"><thema>Institutionen und äussere
       Geschichte des römischen Rechts</thema>: <dozent><grad>D. jur.</grad>
@@ -427,7 +428,7 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1875w-II-006"><thema>Geschichte des römischen
-      Civilprocesses</thema>: <dozent><grad>D. jur.</grad>
+      Civilprocesses</thema>: <dozent ref="voigt_m"><grad>D. jur.</grad>
       <nachname>Voigt</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont., Dienst. u. Donnerst. 5-6 U.</zeit>
       <modus>privatim</modus>.</veranstaltung>
@@ -577,12 +578,12 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1875w-II-031"><thema>Französisches
-      Civilrecht</thema>: <dozent><grad>D. jur.</grad>
+      Civilrecht</thema>: <dozent ref="dreyer_kh"><grad>D. jur.</grad>
       <nachname>Dreyer</nachname></dozent>, <zeit>Mont. bis Freit. 8-9
       U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1875w-II-032"><thema>Französischer
-      Civilprocess</thema>: <dozent><grad>D. jur.</grad>
+      Civilprocess</thema>: <dozent ref="dreyer_kh"><grad>D. jur.</grad>
       <nachname>Dreyer</nachname></dozent>, <zeit>Dienst. u. Freit. 5-6
       U.</zeit> <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -835,15 +836,16 @@
       <veranstaltung
       xml:id="v-1875w-III-031"><thema>Pathologisch-histologische
       Uebungen</thema> (<notiz betreff="dozent">in Verbindung mit Hrn. Geh.
-      Med.-R., Prof. O. D. Wagner</notiz>): <dozent><grad>D. med.</grad>
+      Med.-R., Prof. O. D. Wagner</notiz>): <dozent
+      ref="thierfelder_a"><grad>D. med.</grad>
       <nachname>Thierfelder</nachname></dozent>, <zeit>Mittw. u. Sonnab. 3½-5,
       resp. 5-6½ U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung
       xml:id="v-1875w-III-032"><thema>Pathologisch-histologische Diagnostik
-      der Neubildungen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Thierfelder</nachname></dozent>, <zeit>an zwei zu best. Tagen
-      6-7 U.</zeit> <modus>privatissime</modus>.</veranstaltung>
+      der Neubildungen</thema>: <dozent ref="thierfelder_a"><grad>D.
+      med.</grad> <nachname>Thierfelder</nachname></dozent>, <zeit>an zwei zu
+      best. Tagen 6-7 U.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1875w-III-033"><thema>Arbeiten im
       pathologischen Institute</thema>: <dozent ref="wagner_el"><grad>D.
@@ -865,16 +867,18 @@
       U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1875w-III-036"><thema>Sectionsübungen mit
-      pathologisch-anatomischen Demonstrationen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Thierfelder</nachname></dozent>, <zeit>täglich
-      10-12 U.</zeit> <modus>privatim</modus>.</veranstaltung>
+      pathologisch-anatomischen Demonstrationen</thema>: <dozent
+      ref="thierfelder_a"><grad>D. med.</grad>
+      <nachname>Thierfelder</nachname></dozent>, <zeit>täglich 10-12 U.</zeit>
+      <modus>privatim</modus>.</veranstaltung>
 
       <seite>11</seite>
 
       <veranstaltung xml:id="v-1875w-III-037"><thema>Untersuchungen und
-      Besprechungen über physikalische Diagnostik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Thomas</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Sonnab. 3-5 U.</zeit></veranstaltung>
+      Besprechungen über physikalische Diagnostik</thema>: <dozent
+      ref="thomas_gfl"><grad>D. med.</grad> <nachname>Thomas</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 3-5
+      U.</zeit></veranstaltung>
 
       <veranstaltung xml:id="v-1875w-III-038"><thema>Cursus über Percussion u.
       Auscultation</thema>: <dozent><grad>D. med.</grad>
@@ -907,13 +911,14 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1875w-III-043"><thema>Ueber Chirurgie, <notiz
-      betreff="fortsetzung">II. Theil</notiz></thema>: <dozent><grad>D.
-      med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6
-      U.</zeit> <modus>privatim</modus>.</veranstaltung>
+      betreff="fortsetzung">II. Theil</notiz></thema>: <dozent
+      ref="thiersch_c"><grad>D. med.</grad> <nachname>Thiersch</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
+      Freit. 5-6 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1875w-III-044"><thema>Pathologie und Therapie
-      der Knochen- und Gelenkkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      der Knochen- und Gelenkkrankheiten</thema>: <dozent
+      ref="tillmanns_rh"><grad>D. med.</grad>
       <nachname>Tillmanns</nachname></dozent>, <zeit>wöchentlich zweimal in zu
       best. T. u. St.</zeit> <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -923,10 +928,10 @@
       <zeit>Freit. 5-6 U.</zeit> <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1875w-III-046"><thema>Chirurgische Erkrankungen
-      der Harn- und Geschlechtsorgane, incl. Syphilis</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Tillmanns</nachname></dozent>,
-      <zeit>wöchentlich zweimal an zu best. T. u. St.</zeit>
-      <modus>privatim</modus>.</veranstaltung>
+      der Harn- und Geschlechtsorgane, incl. Syphilis</thema>: <dozent
+      ref="tillmanns_rh"><grad>D. med.</grad>
+      <nachname>Tillmanns</nachname></dozent>, <zeit>wöchentlich zweimal an zu
+      best. T. u. St.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1875w-III-047"><thema>Pathologie und Therapie
       der Augenkrankheiten</thema>: <dozent ref="schroeter_pj"><grad>D.
@@ -1109,13 +1114,13 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung
-      xml:id="v-1875w-III-076"><thema>Distriktspoliklinik</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Thomas</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst. 5-6 U.</zeit>
-      <modus>publice</modus>.</veranstaltung>
+      xml:id="v-1875w-III-076"><thema>Distriktspoliklinik</thema>: <dozent
+      ref="thomas_gfl"><grad>D. med.</grad> <nachname>Thomas</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst.
+      5-6 U.</zeit> <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1875w-III-077"><thema>Chirurgische
-      Klinik</thema>: <dozent><grad>D. med.</grad>
+      Klinik</thema>: <dozent ref="thiersch_c"><grad>D. med.</grad>
       <nachname>Thiersch</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 10½-12 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
@@ -1220,8 +1225,8 @@
         <titel>A. Philosophie.</titel>
 
         <veranstaltung xml:id="v-1875w-IV.A-001"><thema>Einleitung in die
-        Philosophie und Logik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Strümpell</nachname>, <funktion>P. O.
+        Philosophie und Logik</thema>: <dozent ref="struempell_l"><grad>D.
+        ph.</grad> <nachname>Strümpell</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Mont., Dienst., Mittw., Donnerst. u.
         Freit. 5-6 U.</zeit> <modus>privatim</modus> <modus>(eine Stunde
         publice)</modus>.</veranstaltung>
@@ -1266,11 +1271,11 @@
         <seite>15</seite>
 
         <veranstaltung xml:id="v-1875w-IV.A-008"><thema>Geschichte der
-        deutschen Philosophie seit Leibniz</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Strümpell</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>Mont., Dienst., Mittw., Donnerst. u.
-        Freit. 9-10 U.</zeit> <modus>privatim</modus> (<gebühr>eine Stunde
-        gratis</gebühr>).</veranstaltung>
+        deutschen Philosophie seit Leibniz</thema>: <dozent
+        ref="struempell_l"><grad>D. ph.</grad> <nachname>Strümpell</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mont., Dienst.,
+        Mittw., Donnerst. u. Freit. 9-10 U.</zeit> <modus>privatim</modus>
+        (<gebühr>eine Stunde gratis</gebühr>).</veranstaltung>
 
         <veranstaltung xml:id="v-1875w-IV.A-009"><thema>Vergleichende
         Darstellung und Kritik der wichtigsten neueren philosophischen
@@ -1468,7 +1473,7 @@
 
         <veranstaltung
         xml:id="v-1875w-IV.A-039"><thema>Wissenschaftlich-pädagogisches
-        Practicum</thema>: <dozent><grad>D. ph.</grad>
+        Practicum</thema>: <dozent ref="struempell_l"><grad>D. ph.</grad>
         <nachname>Strümpell</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Freit. 8 U. Ab.</zeit>
         <modus>privatissime</modus>, aber
@@ -1996,10 +2001,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875w-IV.C-003"><thema>Geschichte Alexanders
-        d. Gr. und der hellenischen Welt bis 146 v. Chr.</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 6-7 U.</zeit>
-        <modus>privatim</modus>.</veranstaltung>
+        d. Gr. und der hellenischen Welt bis 146 v. Chr.</thema>: <dozent
+        ref="voigt_g"><grad>D. ph.</grad> <nachname>Voigt</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 6-7
+        U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875w-IV.C-004"><thema>Römische
         Kaisergeschichte</thema>: <dozent ref="gardthausen_ve"><grad>D.
@@ -2023,10 +2028,10 @@
         12-1 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875w-IV.C-007"><thema>Deutsche Geschichte
-        vom Ausgange der Staufer bis zum Tode Maximilian's I.</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5
-        U.</zeit> <modus>privatim</modus>.</veranstaltung>
+        vom Ausgange der Staufer bis zum Tode Maximilian's I.</thema>: <dozent
+        ref="voigt_g"><grad>D. ph.</grad> <nachname>Voigt</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
+        u. Freit. 4-5 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875w-IV.C-008"><thema>Geschichte Europa's im
         XIV. und XV. Jahrhundert</thema>: <dozent ref="brandes_hbc"><grad>D.
@@ -2310,9 +2315,9 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1875w-IV.E-017"><thema>Practicum im
-        Laboratorium des landw.-physiol. Institutes</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Stohmann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>täglich 8-6 U.</zeit>
+        Laboratorium des landw.-physiol. Institutes</thema>: <dozent
+        ref="stohmann_f"><grad>D. ph.</grad> <nachname>Stohmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>täglich 8-6 U.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
 
@@ -2480,7 +2485,7 @@
 
         <veranstaltung xml:id="v-1875w-IV.G-013"><thema>Technische Chemie oder
         chemische Technologie, <notiz betreff="fortsetzung">I.
-        Th.</notiz></thema>: <dozent><grad>D. ph.</grad>
+        Th.</notiz></thema>: <dozent ref="stohmann_f"><grad>D. ph.</grad>
         <nachname>Stohmann</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst., Mittw., Donnerst. u. Freit. 9-10 U.</zeit>
         <modus>privatim</modus>.</veranstaltung>

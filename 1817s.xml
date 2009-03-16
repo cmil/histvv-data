@@ -852,11 +852,11 @@ die letzte Veranstaltung gelten-->
       <sachgruppe xml:id="sg-1817s-II.A.001">
         <titel>Theologische Methodologie.</titel>
 
-        <veranstaltung
-        xml:id="v-1817s-II.A.001-001"><dozent><funktion>Domh.</funktion>
-        <funktion>P. O.</funktion> <grad>D.</grad>
-        <nachname>Tittmann</nachname></dozent>, <zeit>3 U. Mont. u.
-        Mittw.</zeit> <modus>öffentl.</modus></veranstaltung>
+        <veranstaltung xml:id="v-1817s-II.A.001-001"><dozent
+        ref="tittmann_jah"><funktion>Domh.</funktion> <funktion>P.
+        O.</funktion> <grad>D.</grad> <nachname>Tittmann</nachname></dozent>,
+        <zeit>3 U. Mont. u. Mittw.</zeit>
+        <modus>öffentl.</modus></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1817s-II.A.I">
@@ -1002,9 +1002,9 @@ die letzte Veranstaltung gelten-->
           <sachgruppe xml:id="sg-1817s-II.A.I.2.c">
             <titel>c) Christliche Kirchengeschichte.</titel>
 
-            <veranstaltung
-            xml:id="v-1817s-II.A.I.2.c-001"><dozent><funktion>Cons.
-            Ass.</funktion> <funktion>P. O.</funktion> <grad>D.</grad>
+            <veranstaltung xml:id="v-1817s-II.A.I.2.c-001"><dozent
+            ref="tzschirner_hg"><funktion>Cons. Ass.</funktion> <funktion>P.
+            O.</funktion> <grad>D.</grad>
             <nachname>Tzschirner</nachname></dozent> <thema><notiz
             betreff="fortsetzung">Fortsetzung</notiz> u. Beendigung</thema>,
             <zeit>10 U. 6 T.</zeit></veranstaltung>
@@ -1074,9 +1074,9 @@ die letzte Veranstaltung gelten-->
               <thema>specieller Theil, nach seinen Sätzen</thema>, <zeit>3 U.
               6 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1817s-II.A.I.3.a.cc-002"><dozent><funktion>Domh.</funktion>
-              <funktion>P. O.</funktion> <grad>D.</grad>
+              <veranstaltung xml:id="v-1817s-II.A.I.3.a.cc-002"><dozent
+              ref="tittmann_jah"><funktion>Domh.</funktion> <funktion>P.
+              O.</funktion> <grad>D.</grad>
               <nachname>Tittmann</nachname></dozent>, <zeit>11 U. 4 T. und 3
               U. Dienst. u. Donn.</zeit></veranstaltung>
             </sachgruppe>
@@ -1089,9 +1089,9 @@ die letzte Veranstaltung gelten-->
               O.</funktion> <grad>D.</grad> <nachname>Keil</nachname></dozent>
               <thema>nach Ammon</thema> <zeit>4 U. 4 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1817s-II.A.I.3.a.001-002"><dozent><funktion>Domh.</funktion>
-              <funktion>P. O.</funktion> <grad>D.</grad>
+              <veranstaltung xml:id="v-1817s-II.A.I.3.a.001-002"><dozent
+              ref="tittmann_jah"><funktion>Domh.</funktion> <funktion>P.
+              O.</funktion> <grad>D.</grad>
               <nachname>Tittmann</nachname></dozent>, <zeit>9 U. 4
               T.</zeit></veranstaltung>
 
@@ -1105,10 +1105,11 @@ die letzte Veranstaltung gelten-->
           <sachgruppe xml:id="sg-1817s-II.A.I.3.b">
             <titel>b) Die christliche Moral</titel>
 
-            <veranstaltung xml:id="v-1817s-II.A.I.3.b-001">lehrt
-            <dozent><funktion>Domh.</funktion> und <funktion>P. O.</funktion>
-            <grad>D.</grad> <nachname>Tittmann</nachname></dozent>, <zeit>10
-            U. 4 T.</zeit> <modus>öffentl.</modus></veranstaltung>
+            <veranstaltung xml:id="v-1817s-II.A.I.3.b-001">lehrt <dozent
+            ref="tittmann_jah"><funktion>Domh.</funktion> und <funktion>P.
+            O.</funktion> <grad>D.</grad>
+            <nachname>Tittmann</nachname></dozent>, <zeit>10 U. 4 T.</zeit>
+            <modus>öffentl.</modus></veranstaltung>
           </sachgruppe>
         </sachgruppe>
       </sachgruppe>
@@ -1119,10 +1120,11 @@ die letzte Veranstaltung gelten-->
         <sachgruppe xml:id="sg-1817s-II.A.II.001">
           <titel>und zwar Homiletik</titel>
 
-          <veranstaltung xml:id="v-1817s-II.A.II.001-001">lehrt
-          <dozent><funktion>Superint.</funktion> <funktion>P. O.</funktion>
-          <grad>D.</grad> <nachname>Tzschirner</nachname></dozent> <zeit>9 U.
-          4 T.</zeit> <modus>öffentl.</modus>,</veranstaltung>
+          <veranstaltung xml:id="v-1817s-II.A.II.001-001">lehrt <dozent
+          ref="tzschirner_hg"><funktion>Superint.</funktion> <funktion>P.
+          O.</funktion> <grad>D.</grad>
+          <nachname>Tzschirner</nachname></dozent> <zeit>9 U. 4 T.</zeit>
+          <modus>öffentl.</modus>,</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1817s-II.A.II.002">
@@ -1146,11 +1148,11 @@ die letzte Veranstaltung gelten-->
         <sachgruppe xml:id="sg-1817s-II.A.II.003">
           <titel>Andere theologische Uebungen</titel>
 
-          <veranstaltung xml:id="v-1817s-II.A.II.003-001">halten
-          <dozent><funktion>Domh.</funktion> <funktion>P. O.</funktion>
-          <grad>D.</grad> <nachname>Tittmann</nachname></dozent>, <thema>mit
-          der theologischen Gesellschaft</thema>, <zeit>in den best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1817s-II.A.II.003-001">halten <dozent
+          ref="tittmann_jah"><funktion>Domh.</funktion> <funktion>P.
+          O.</funktion> <grad>D.</grad>
+          <nachname>Tittmann</nachname></dozent>, <thema>mit der theologischen
+          Gesellschaft</thema>, <zeit>in den best. St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1817s-II.A.II.003-002"><dozent
           ref="plueschke_jg"><funktion>P. E.</funktion>
@@ -1201,9 +1203,9 @@ die letzte Veranstaltung gelten-->
             <sachgruppe xml:id="sg-1817s-II.B.I.1.a.aa">
               <titel>aa) Geschichte u. Alterthümer des röm. Rechts.</titel>
 
-              <veranstaltung
-              xml:id="v-1817s-II.B.I.1.a.aa-001"><dozent><funktion>Domh.</funktion>
-              <funktion>P. O.</funktion> <grad>D.</grad>
+              <veranstaltung xml:id="v-1817s-II.B.I.1.a.aa-001"><dozent
+              ref="stockmann_ac"><funktion>Domh.</funktion> <funktion>P.
+              O.</funktion> <grad>D.</grad>
               <nachname>Stockmann</nachname></dozent>, <thema>Geschichte der
               röm. Rechtsgel. nach Bach</thema>, <zeit>10 U. 6
               T.</zeit></veranstaltung>
@@ -1415,9 +1417,9 @@ die letzte Veranstaltung gelten-->
         <sachgruppe xml:id="sg-1817s-II.B.I.4">
           <titel>4) Kirchenrecht.</titel>
 
-          <veranstaltung
-          xml:id="v-1817s-II.B.I.4-001"><dozent><funktion>Domh.</funktion>
-          <funktion>P. O.</funktion> <grad>D.</grad>
+          <veranstaltung xml:id="v-1817s-II.B.I.4-001"><dozent
+          ref="stockmann_ac"><funktion>Domh.</funktion> <funktion>P.
+          O.</funktion> <grad>D.</grad>
           <nachname>Stockmann</nachname></dozent>, <zeit>11 U. 4 T.</zeit>
           <modus>öff.</modus></veranstaltung>
 
@@ -1772,9 +1774,9 @@ dann wäre eine Veranstaltungsgruppe aufzumachen-->
           <grad>D.</grad> <nachname>Rau</nachname></dozent>, <zeit>10 U. 2
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1817s-II.B.II.xxx-002"><dozent><funktion>Domh.</funktion>
-          <funktion>P. O.</funktion> <grad>D.</grad>
+          <veranstaltung xml:id="v-1817s-II.B.II.xxx-002"><dozent
+          ref="stockmann_ac"><funktion>Domh.</funktion> <funktion>P.
+          O.</funktion> <grad>D.</grad>
           <nachname>Stockmann</nachname></dozent>, <zeit>11 U. 2
           T.</zeit></veranstaltung>
 
@@ -2298,18 +2300,18 @@ obwohl kein "ingl." oder "derselbe" angeführt ist-->
               geburtshülfl. Handgriffen am
               Phantome</thema></veranstaltung>.</veranstaltungsgruppe>
 
-              <veranstaltung
-              xml:id="v-1817s-II.C.II.2.h.001-004"><dozent><grad>D.</grad>
+              <veranstaltung xml:id="v-1817s-II.C.II.2.h.001-004"><dozent
+              ref="voigt_gcg"><grad>D.</grad>
               <nachname>Voigt</nachname></dozent>, <thema>geburtshülfliche
               Zeichenlehre</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1817s-II.C.II.2.h.001-005"><ders>Derselbe</ders>,
-              <thema>über alle Instrumente, die in der Geburtshülfe gebraucht
-              sind u. gebraucht werden (n. Hinzens "Versuch einer chronolog.
-              Uebersicht aller für die Geburtshülfe erfundenen Instrumente
-              u.s.w., Liegnitz u. Leipz. 1794.")</thema> <zeit>11 U. 2
-              T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
+              <veranstaltung xml:id="v-1817s-II.C.II.2.h.001-005"><ders
+              ref="voigt_gcg">Derselbe</ders>, <thema>über alle Instrumente,
+              die in der Geburtshülfe gebraucht sind u. gebraucht werden (n.
+              Hinzens "Versuch einer chronolog. Uebersicht aller für die
+              Geburtshülfe erfundenen Instrumente u.s.w., Liegnitz u. Leipz.
+              1794.")</thema> <zeit>11 U. 2 T.</zeit>
+              <gebühr>unentg.</gebühr></veranstaltung>
             </sachgruppe>
           </sachgruppe>
 
@@ -2361,10 +2363,10 @@ obwohl kein "ingl." oder "derselbe" angeführt ist-->
         <nachname>Ludwig</nachname></dozent>, <thema>n. Hebenstreit</thema>,
         <zeit>10 U. 2 T.</zeit></veranstaltung>
 
-        <veranstaltung xml:id="v-1817s-II.C.III-002"><dozent><grad>D.</grad>
-        <nachname>Voigt</nachname></dozent>, <thema>wie man die Geburtshülfe
-        in der gerichtl. u. polizeyl. Medizin anwenden müsse</thema>, <zeit>3
-        U. 2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1817s-II.C.III-002"><dozent
+        ref="voigt_gcg"><grad>D.</grad> <nachname>Voigt</nachname></dozent>,
+        <thema>wie man die Geburtshülfe in der gerichtl. u. polizeyl. Medizin
+        anwenden müsse</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
 
         <sachgruppe xml:id="sg-1817s-II.C.III.001">
           <titel>Uebungen der medizin. polizeyl. Gesellschaft</titel>

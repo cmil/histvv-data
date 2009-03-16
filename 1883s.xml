@@ -410,12 +410,12 @@
       <zeit>täglich 7-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-II-004"><thema>Römische
-      Rechtsgeschichte</thema>: <dozent><grad>D. jur.</grad>
+      Rechtsgeschichte</thema>: <dozent ref="voigt_m"><grad>D. jur.</grad>
       <nachname>Voigt</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
       <zeit>täglich 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-II-005"><thema>Geschichte des römischen
-      Civilprocesses</thema>: <dozent><grad>D. jur.</grad>
+      Civilprocesses</thema>: <dozent ref="voigt_m"><grad>D. jur.</grad>
       <nachname>Voigt</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
       <zeit>Dienst. u. Freit. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -859,8 +859,8 @@
       <veranstaltung xml:id="v-1883s-III-039"><thema>Percussions- und
       Auscultationscursus</thema>: <dozent ref="wagner_el"><grad>D.
       med.</grad> <nachname>Wagner</nachname>, <funktion>P.
-      O.</funktion></dozent> (<dozent>in Verbindung mit Herrn <grad>D.
-      med.</grad> <nachname>Dippe</nachname></dozent>), <zeit>zweimal
+      O.</funktion></dozent> (<dozent ref="dippe_h">in Verbindung mit Herrn
+      <grad>D. med.</grad> <nachname>Dippe</nachname></dozent>), <zeit>zweimal
       wöchentlich 7-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-040"><thema>Specielle Pathologie und
@@ -874,8 +874,8 @@
 
       <veranstaltung xml:id="v-1883s-III-041"><thema>Specielle Pathologie und
       Therapie <notiz betreff="fortsetzung">I. Theil</notiz> (Krankheiten der
-      Respirations-, Circulations- und Bewegungsorgane</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Strümpell</nachname>,
+      Respirations-, Circulations- und Bewegungsorgane</thema>: <dozent
+      ref="struempell_a"><grad>D. med.</grad> <nachname>Strümpell</nachname>,
       <funktion>P. E. des.</funktion></dozent>, <zeit>Mont., Dienst.,
       Donnerst. u. Freit. 5-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -906,13 +906,13 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1883s-III-046"><thema>Vorlesung über Chirurgie
-      <notiz betreff="fortsetzung">I. Theil</notiz></thema>: <dozent><grad>D.
-      med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <notiz betreff="fortsetzung">I. Theil</notiz></thema>: <dozent
+      ref="thiersch_c"><grad>D. med.</grad> <nachname>Thiersch</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
+      Freit. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-047"><thema>Chirurgischer
-      Operationscursus</thema>: <dozent><grad>D. med.</grad>
+      Operationscursus</thema>: <dozent ref="thiersch_c"><grad>D. med.</grad>
       <nachname>Thiersch</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich ausser Sonnab., 5-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -935,13 +935,13 @@
 
       <veranstaltung xml:id="v-1883s-III-051"><thema>Chirurgische Anatomie an
       der Leiche, mit besonderer Berücksichtigung der chirurgischen Diagnostik
-      und der Ausführung chirurgischer Operationen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Tillmanns</nachname></dozent>, <zeit>dreimal
-      wöchentlich, an zu best. Tagen 4-5 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      und der Ausführung chirurgischer Operationen</thema>: <dozent
+      ref="tillmanns_rh"><grad>D. med.</grad>
+      <nachname>Tillmanns</nachname></dozent>, <zeit>dreimal wöchentlich, an
+      zu best. Tagen 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-052"><thema>Chirurgischer
-      Verbandcursus</thema>: <dozent><grad>D. med.</grad>
+      Verbandcursus</thema>: <dozent ref="tillmanns_rh"><grad>D. med.</grad>
       <nachname>Tillmanns</nachname></dozent>, <zeit>Sonnab. 4-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -966,10 +966,10 @@
       <veranstaltung xml:id="v-1883s-III-056"><thema>Chirurgischer
       Verbandcursus und kleine Chirurgie</thema>: <dozent
       ref="landerer_a"><grad>D. med.</grad>
-      <nachname>Landerer</nachname></dozent> (<dozent>in Verbindung mit Herrn
-      <grad>D. med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
-      O.</funktion></dozent>), <zeit>Mittw. u. Sonnab. 5-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <nachname>Landerer</nachname></dozent> (<dozent ref="thiersch_c">in
+      Verbindung mit Herrn <grad>D. med.</grad> <nachname>Thiersch</nachname>,
+      <funktion>P. O.</funktion></dozent>), <zeit>Mittw. u. Sonnab. 5-7
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-057"><thema>Pathologie und Therapie
       der Hautkrankheiten (mit <seite>12</seite>Krankendemonstrationen)</thema>:
@@ -1116,10 +1116,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-078"><thema>Technik der
-      geburtshülflichen Operationen mit Uebungen am Phantom</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Sänger</nachname></dozent>,
-      <zeit>Mittw. u. Sonnab. 6-7 U. und Mont. 7-8 U. Ab.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      geburtshülflichen Operationen mit Uebungen am Phantom</thema>: <dozent
+      ref="saenger_m"><grad>D. med.</grad>
+      <nachname>Sänger</nachname></dozent>, <zeit>Mittw. u. Sonnab. 6-7 U. und
+      Mont. 7-8 U. Ab.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-079"><thema>Krankheiten der
       Schwangeren, Gebärenden und Wöchnerinnen</thema>: <dozent
@@ -1128,9 +1128,10 @@
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-080"><thema>Pathologie und Therapie
-      der Frauenkrankheiten</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Sänger</nachname></dozent>, <zeit>Mont., Dienst., Donnerst. u.
-      Freit. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      der Frauenkrankheiten</thema>: <dozent ref="saenger_m"><grad>D.
+      med.</grad> <nachname>Sänger</nachname></dozent>, <zeit>Mont., Dienst.,
+      Donnerst. u. Freit. 6-7 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1146,7 +1147,7 @@
       <zeit>täglich 9½-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-083"><thema>Medicinische
-      Poliklinik</thema>: <dozent><grad>D. med.</grad>
+      Poliklinik</thema>: <dozent ref="struempell_a"><grad>D. med.</grad>
       <nachname>Strümpell</nachname>, <funktion>P. E.
       des.</funktion></dozent>, <zeit>täglich ausser Mittw. 2-3 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1159,7 +1160,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-085"><thema>Chirurgische
-      Klinik</thema>: <dozent><grad>D. med.</grad>
+      Klinik</thema>: <dozent ref="thiersch_c"><grad>D. med.</grad>
       <nachname>Thiersch</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 8-9½ U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1428,10 +1429,10 @@
         <seite>16</seite>
 
         <veranstaltung xml:id="v-1883s-IV.A-010"><thema>Psychologie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Strümpell</nachname>,
-        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Mont., Dienst.,
-        Donnerst. u. Freit. 11-12 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="struempell_l"><grad>D. ph.</grad>
+        <nachname>Strümpell</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
+        11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1883s-IV.A-011"><thema>Psychologie</thema>:
         <dozent ref="seydel_m"><grad>D. ph.</grad>
@@ -1440,7 +1441,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1883s-IV.A-012"><thema>Die Hauptpunkte der
-        Metaphysik</thema>: <dozent><grad>D. ph.</grad>
+        Metaphysik</thema>: <dozent ref="struempell_l"><grad>D. ph.</grad>
         <nachname>Strümpell</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Mittw. u. Sonnab., 11-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -1526,7 +1527,7 @@
 
         <veranstaltung
         xml:id="v-1883s-IV.A-021"><thema>Wissenschaftlich-pädagogisches
-        Praktikum</thema>: <dozent><grad>D. ph.</grad>
+        Praktikum</thema>: <dozent ref="struempell_l"><grad>D. ph.</grad>
         <nachname>Strümpell</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Dienst. 6-7 U.</zeit>,
         <modus>privatissime</modus>, aber
@@ -1641,9 +1642,10 @@
           C</siehe>.</veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Urkundenlehre, nebst Abriss der
-          lateinischen Paläographie</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>
-          <siehe>Siehe Abschnitt C</siehe>.</veranstaltungsverweis>
+          lateinischen Paläographie</thema>: <dozent ref="voigt_g"><grad>D.
+          ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
+          O.</funktion></dozent> <siehe>Siehe Abschnitt
+          C</siehe>.</veranstaltungsverweis>
 
           <trennlinie/>
 
@@ -2015,16 +2017,16 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1883s-IV.C-002"><thema>Griechische Geschichte
-        bis auf Alexander d. Gr.</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        bis auf Alexander d. Gr.</thema>: <dozent ref="voigt_g"><grad>D.
+        ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1883s-IV.C-003"><thema>Urkundenlehre nebst
-        Abriss der lateinischen Paläographie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 6-7 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        Abriss der lateinischen Paläographie</thema>: <dozent
+        ref="voigt_g"><grad>D. ph.</grad> <nachname>Voigt</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 6-7
+        U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1883s-IV.C-004"><thema>Einleitung in die
         lateinische Epigraphik</thema>: <dozent ref="gardthausen_ve"><grad>D.
@@ -2466,7 +2468,7 @@
 
         <veranstaltung xml:id="v-1883s-IV.E-017"><thema>Praktikum <ort>im
         Laboratorium des landwirthschaftlich-physiologischen
-        Institutes</ort></thema>: <dozent><grad>D. ph.</grad>
+        Institutes</ort></thema>: <dozent ref="stohmann_f"><grad>D. ph.</grad>
         <nachname>Stohmann</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>täglich 6-8 U.</zeit>,
         <modus>privatissime</modus>.</veranstaltung>
@@ -2490,9 +2492,9 @@
         G</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Agriculturchemie <notiz
-        betreff="fortsetzung">II. Theil</notiz></thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Stohmann</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent> <siehe>Siehe Abschnitt
+        betreff="fortsetzung">II. Theil</notiz></thema>: <dozent
+        ref="stohmann_f"><grad>D. ph.</grad> <nachname>Stohmann</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent> <siehe>Siehe Abschnitt
         G</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Agriculturchemie</thema>: <dozent
@@ -2506,9 +2508,9 @@
         G</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Technische Chemie (Die
-        landwirthschaftlichen Gewerbe)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Stohmann</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent> <siehe>Siehe Abschnitt
+        landwirthschaftlichen Gewerbe)</thema>: <dozent
+        ref="stohmann_f"><grad>D. ph.</grad> <nachname>Stohmann</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent> <siehe>Siehe Abschnitt
         G</siehe>.</veranstaltungsverweis>
       </sachgruppe>
 
@@ -2701,7 +2703,7 @@
 
         <veranstaltung xml:id="v-1883s-IV.G-007"><thema>Agriculturchemie
         <notiz betreff="fortsetzung">II. Theil</notiz> (Ernährung der
-        Thiere)</thema>: <dozent><grad>D. ph.</grad>
+        Thiere)</thema>: <dozent ref="stohmann_f"><grad>D. ph.</grad>
         <nachname>Stohmann</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Dienst. bis Freit. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2742,7 +2744,7 @@
 
         <veranstaltung xml:id="v-1883s-IV.G-014"><thema>Technische Chemie oder
         Chemische Technologie II. Theil (Die landwirthschaftlichen
-        Gewerbe)</thema>: <dozent><grad>D. ph.</grad>
+        Gewerbe)</thema>: <dozent ref="stohmann_f"><grad>D. ph.</grad>
         <nachname>Stohmann</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Dienst. bis Freit. 8-9 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -3018,10 +3020,11 @@
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Landwirthsch.-physiologisches
-        Institut<!--(Hier wäre "institution" gut)--></thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Stohmann</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent> <siehe>Siehe <gesperrt>Philosophische
-        Facultät E</gesperrt></siehe>.</veranstaltungsverweis>
+        Institut<!--(Hier wäre "institution" gut)--></thema>: <dozent
+        ref="stohmann_f"><grad>D. ph.</grad> <nachname>Stohmann</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent> <siehe>Siehe
+        <gesperrt>Philosophische Facultät
+        E</gesperrt></siehe>.</veranstaltungsverweis>
       </sachgruppe>
     </sachgruppe>
 

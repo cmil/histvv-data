@@ -684,9 +684,9 @@
 
         <veranstaltung xml:id="v-1869s-I.III.1-002"><thema>Geschichte
         Alexanders des Gr. u. der hellenischen Welt bis 146 v. Chr.</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>6 U. 2 T. (Mont. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="voigt_g"><grad>D. ph.</grad> <nachname>Voigt</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>6 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Griechische Geschichte</thema>: <dozent
         ref="schoene_a"><grad>D. ph.</grad> <nachname>Schöne</nachname>,
@@ -700,7 +700,7 @@
 
         <veranstaltung xml:id="v-1869s-I.III.1-003"><thema>Geschichte des
         deutschen Kaiserthums von Karl d. Gr. bis zum Untergang der
-        Staufen</thema>: <dozent><grad>D. ph.</grad>
+        Staufen</thema>: <dozent ref="voigt_g"><grad>D. ph.</grad>
         <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>4 U. 4 T.</zeit></veranstaltung>
 
@@ -784,7 +784,7 @@
           u. St.</zeit>, <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1869s-I.III.1.002-002"><thema>Historische
-          Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
+          Gesellschaft</thema>: <dozent ref="voigt_g"><grad>D. ph.</grad>
           <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>in 2 zu best. St. u. T. </zeit><modus>privatissime</modus>,
           aber <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1542,9 +1542,10 @@
         <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1869s-II.B.I-002"><thema>Encyclopädie des
-        Rechtes</thema>: <dozent><grad>D.</grad> <nachname>Voigt</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>3stünd., 8 U. 2 T. und in 1
-        noch zu best. St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Rechtes</thema>: <dozent ref="voigt_m"><grad>D.</grad>
+        <nachname>Voigt</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>3stünd., 8 U. 2 T. und in 1 noch zu best. St.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -1605,10 +1606,10 @@
             <titel>Exegese.</titel>
 
             <veranstaltung xml:id="v-1869s-II.B.II.1.001-001"><thema>Exegese
-            von Buch I. der Institutionen des Gajus</thema>:
-            <dozent><grad>D.</grad> <nachname>Voigt</nachname>, <funktion>P.
-            E.</funktion></dozent>, <zeit>8 U. 2 T. (Mont. u. Donn.)</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            von Buch I. der Institutionen des Gajus</thema>: <dozent
+            ref="voigt_m"><grad>D.</grad> <nachname>Voigt</nachname>,
+            <funktion>P. E.</funktion></dozent>, <zeit>8 U. 2 T. (Mont. u.
+            Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung
             xml:id="v-1869s-II.B.II.1.001-002"><thema>Exegeticum (verbunden
@@ -2052,9 +2053,9 @@
         <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1869s-II.C.IV-004"><thema>Untersuchungen und
-        Besprechungen über physikalische Diagnostik</thema>:
-        <dozent><grad>D.</grad> <nachname>Thomas</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>2 mal wöchentlich</zeit>
+        Besprechungen über physikalische Diagnostik</thema>: <dozent
+        ref="thomas_gfl"><grad>D.</grad> <nachname>Thomas</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>2 mal wöchentlich</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1869s-II.C.IV-005"><thema>Chemische
@@ -2219,11 +2220,11 @@
         <titel>VIII. Chirurgie.</titel>
 
         <veranstaltung xml:id="v-1869s-II.C.VIII-001"><thema>Chirurgie, <notiz
-        betreff="fortsetzung">2. Th.</notiz></thema>: <dozent><grad>D.</grad>
-        <nachname>Thiersch</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>4 U. 4 T.</zeit> (<modus>für
-        Diejenigen, welche den 1. Th. dieser Vorlesungen im vorigen Semester
-        gehört haben, öffentlich</modus>).</veranstaltung>
+        betreff="fortsetzung">2. Th.</notiz></thema>: <dozent
+        ref="thiersch_c"><grad>D.</grad> <nachname>Thiersch</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>4 U. 4 T.</zeit>
+        (<modus>für Diejenigen, welche den 1. Th. dieser Vorlesungen im
+        vorigen Semester gehört haben, öffentlich</modus>).</veranstaltung>
 
         <veranstaltung xml:id="v-1869s-II.C.VIII-002"><thema>Specielle
         Chirurgie</thema>: <dozent><grad>D.</grad>
@@ -2254,7 +2255,7 @@
 
           <veranstaltung
           xml:id="v-1869s-II.C.VIII.001-002"><thema>Chirurgischer
-          Operationscurs</thema>: <dozent><grad>D.</grad>
+          Operationscurs</thema>: <dozent ref="thiersch_c"><grad>D.</grad>
           <nachname>Thiersch</nachname>, <funktion>P. O.
           des.</funktion></dozent>, <dozent ref="braune_cw">in Verb. mit
           <grad>D.</grad> <nachname>Braune</nachname>, <funktion>P.
@@ -2381,9 +2382,10 @@
         <zeit>8-9½ U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1869s-II.C.XI-003"><thema>Chirurgische Klinik
-        <ort>im Jacobshospital</ort></thema>, <dozent><grad>D.</grad>
-        <nachname>Thiersch</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>9½-11 U. 6 T.</zeit></veranstaltung>
+        <ort>im Jacobshospital</ort></thema>, <dozent
+        ref="thiersch_c"><grad>D.</grad> <nachname>Thiersch</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>9½-11 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1869s-II.C.XI-004"><thema>Geburtshilfliche
         und gynäkologische Klinik und Poliklinik (<ort>in der
@@ -2406,9 +2408,9 @@
 
         <veranstaltung
         xml:id="v-1869s-II.C.XI-007"><thema>Districtspoliklinik</thema>:
-        <dozent><grad>D.</grad> <nachname>Thomas</nachname>, <funktion>P.
-        E.</funktion></dozent>, <thema>Referate</thema> <zeit>in zu best. St.
-        u. T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="thomas_gfl"><grad>D.</grad> <nachname>Thomas</nachname>,
+        <funktion>P. E.</funktion></dozent>, <thema>Referate</thema> <zeit>in
+        zu best. St. u. T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1869s-II.C.XI-008"><thema>Klinik für
         Augenkrankheiten (<ort>in der Augenheilanstalt</ort>)</thema>: <dozent

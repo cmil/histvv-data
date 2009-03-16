@@ -614,8 +614,9 @@
         <sachgruppe xml:id="sg-1829s-I.III.004.6">
           <titel>6) Moral.</titel>
 
-          <veranstaltungsverweis><dozent><nachname>Tittmann</nachname>,
-          <grad>D.</grad> <vorname>J. A. H.</vorname>, <funktion>Theol. P.
+          <veranstaltungsverweis><dozent
+          ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>D.</grad>
+          <vorname>J. A. H.</vorname>, <funktion>Theol. P.
           Prim.</funktion></dozent>, <siehe>s. systemat.
           Theologie</siehe>.</veranstaltungsverweis>
 
@@ -1069,9 +1070,9 @@
         <sachgruppe xml:id="sg-1829s-II.A.I.001">
           <titel>Theologische Encyklopädie und Methodologie.</titel>
 
-          <veranstaltung
-          xml:id="v-1829s-II.A.I.001-001"><dozent><nachname>Theile</nachname>,
-          <grad>D.</grad> <vorname>K. G. W.</vorname>, <funktion>Philos. P. E.
+          <veranstaltung xml:id="v-1829s-II.A.I.001-001"><dozent
+          ref="theile_cgw"><nachname>Theile</nachname>, <grad>D.</grad>
+          <vorname>K. G. W.</vorname>, <funktion>Philos. P. E.
           des.</funktion></dozent>, <thema>nebst kurzer Geschichte der
           theolog. Wissenschaften</thema>, <zeit>2 T. in zu best. St.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
@@ -1113,12 +1114,12 @@
             Propheten</thema>, <zeit>8 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.I.1.003-002"><dozent><nachname>Theile</nachname>,
-            <grad>D.</grad> <vorname>K. G. W.</vorname>, <funktion>Philos. P.
-            E. des.</funktion></dozent>, <thema>über ausgewählte Psalmen
-            (<notiz betreff="fortsetzung">Forts.</notiz> von Ps. 18.
-            an)</thema>, <zeit>2 T. in zu best. St.</zeit>
+            <veranstaltung xml:id="v-1829s-II.A.I.1.003-002"><dozent
+            ref="theile_cgw"><nachname>Theile</nachname>, <grad>D.</grad>
+            <vorname>K. G. W.</vorname>, <funktion>Philos. P. E.
+            des.</funktion></dozent>, <thema>über ausgewählte Psalmen (<notiz
+            betreff="fortsetzung">Forts.</notiz> von Ps. 18. an)</thema>,
+            <zeit>2 T. in zu best. St.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <veranstaltung xml:id="v-1829s-II.A.I.1.003-003"><dozent
@@ -1163,9 +1164,9 @@
             <thema>über das Evang. des Johannes</thema>, <zeit>7 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.I.1.004-002"><dozent><nachname>Tittmann</nachname>,
-            <grad>D.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
+            <veranstaltung xml:id="v-1829s-II.A.I.1.004-002"><dozent
+            ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>D.</grad>
+            <vorname>J. A. H.</vorname>, <funktion>P.
             Prim.</funktion></dozent>, <thema>über den Brief an die
             Römer</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
@@ -1188,20 +1189,19 @@
             <thema>über die Bergpredigt</thema>, <zeit>4 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.I.1.004-006"><dozent><nachname>Theile</nachname>,
-            <grad>D.</grad> <vorname>K. G. W.</vorname>, <funktion>Philos. P.
-            E. des.</funktion></dozent>, <thema>über die Brr. Pauli an die
+            <veranstaltung xml:id="v-1829s-II.A.I.1.004-006"><dozent
+            ref="theile_cgw"><nachname>Theile</nachname>, <grad>D.</grad>
+            <vorname>K. G. W.</vorname>, <funktion>Philos. P. E.
+            des.</funktion></dozent>, <thema>über die Brr. Pauli an die
             Epheser und Kolosser</thema>, <zeit>2 T. in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.I.1.004-007"><ders>Derselbe</ders>,
-            <thema>über das Evang. des Matthäus</thema>, <zeit>8 U. 4
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1829s-II.A.I.1.004-007"><ders
+            ref="theile_cgw">Derselbe</ders>, <thema>über das Evang. des
+            Matthäus</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-            <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s. systemat.
-            Theologie</siehe>.</veranstaltungsverweis>
+            <veranstaltungsverweis><ders ref="theile_cgw">Derselbe</ders>,
+            <siehe>s. systemat. Theologie</siehe>.</veranstaltungsverweis>
 
             <veranstaltung xml:id="v-1829s-II.A.I.1.004-008"><dozent
             ref="fleck_ff"><nachname>Fleck</nachname>, <grad>M.</grad>
@@ -1223,11 +1223,11 @@
           <sachgruppe xml:id="sg-1829s-II.A.I.1.x">
             <titel>*) Exegetisches Repetitorium.</titel>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.I.1.x-001"><dozent><nachname>Theile</nachname>,
-            <grad>D.</grad> <vorname>K. G. W.</vorname>, <funktion>Philos. P.
-            E. des.</funktion></dozent>, <thema>über Matthäus</thema>, <zeit>2
-            T. in zu best. St.</zeit>
+            <veranstaltung xml:id="v-1829s-II.A.I.1.x-001"><dozent
+            ref="theile_cgw"><nachname>Theile</nachname>, <grad>D.</grad>
+            <vorname>K. G. W.</vorname>, <funktion>Philos. P. E.
+            des.</funktion></dozent>, <thema>über Matthäus</thema>, <zeit>2 T.
+            in zu best. St.</zeit>
             <modus>privatissime</modus>.</veranstaltung>
           </sachgruppe>
 
@@ -1263,17 +1263,17 @@
             <thema>mit den Lausitzern</thema>, <zeit>in den best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.I.1.005-002"><dozent><nachname>Tittmann</nachname>,
-            <grad>D.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
+            <veranstaltung xml:id="v-1829s-II.A.I.1.005-002"><dozent
+            ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>D.</grad>
+            <vorname>J. A. H.</vorname>, <funktion>P.
             Prim.</funktion></dozent>, <zeit>in den best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.I.1.005-003"><dozent><nachname>Theile</nachname>,
-            <grad>D.</grad> <vorname>K. G. W.</vorname>, <funktion>Philos. P.
-            E. des.</funktion></dozent>, <thema>exegetische Gesellschaft des
-            N. T.</thema>, <zeit>zu den best. T. u. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1829s-II.A.I.1.005-003"><dozent
+            ref="theile_cgw"><nachname>Theile</nachname>, <grad>D.</grad>
+            <vorname>K. G. W.</vorname>, <funktion>Philos. P. E.
+            des.</funktion></dozent>, <thema>exegetische Gesellschaft des N.
+            T.</thema>, <zeit>zu den best. T. u. St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1829s-II.A.I.1.005-004"><dozent
             ref="kuechler_kg"><nachname>Küchler</nachname>, <vorname>K.
@@ -1338,9 +1338,10 @@
             <vorname>A.</vorname>, <funktion>P. O.</funktion></dozent>,
             <siehe>s. Dogmatik</siehe>.</veranstaltungsverweis>
 
-            <veranstaltungsverweis><dozent><nachname>Theile</nachname>,
-            <grad>D.</grad> <vorname>K. G. W.</vorname>, <funktion>Philos. P.
-            E. des.</funktion></dozent>, <siehe>s. systemat.
+            <veranstaltungsverweis><dozent
+            ref="theile_cgw"><nachname>Theile</nachname>, <grad>D.</grad>
+            <vorname>K. G. W.</vorname>, <funktion>Philos. P. E.
+            des.</funktion></dozent>, <siehe>s. systemat.
             Theologie</siehe>.</veranstaltungsverweis>
           </sachgruppe>
 
@@ -1391,9 +1392,9 @@
           <sachgruppe xml:id="sg-1829s-II.A.I.3.002">
             <titel>Dogmatik.</titel>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.I.3.002-001"><dozent><nachname>Tittmann</nachname>,
-            <grad>D.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
+            <veranstaltung xml:id="v-1829s-II.A.I.3.002-001"><dozent
+            ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>D.</grad>
+            <vorname>J. A. H.</vorname>, <funktion>P.
             Prim.</funktion></dozent>, <thema>Dogmatik der evangelischen
             Kirche</thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
@@ -1404,10 +1405,10 @@
             christl. Glaubenslehre (Leipz. b. Vogel 1828.)</thema>, <zeit>8 U.
             6 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.I.3.002-003"><dozent><nachname>Theile</nachname>,
-            <grad>D.</grad> <vorname>K. G. W.</vorname>, <funktion>Philos. P.
-            E. des.</funktion></dozent>, <thema>nebst biblischer Theologie u.
+            <veranstaltung xml:id="v-1829s-II.A.I.3.002-003"><dozent
+            ref="theile_cgw"><nachname>Theile</nachname>, <grad>D.</grad>
+            <vorname>K. G. W.</vorname>, <funktion>Philos. P. E.
+            des.</funktion></dozent>, <thema>nebst biblischer Theologie u.
             Dogmengeschichte (nach Anleitung der <gesperrt>dogmat.
             Tabellen</gesperrt>, Lpz. b. Reclam), <notiz
             betreff="fortsetzung">erste Hälfte</notiz></thema>, <zeit>7 U. 6
@@ -1438,9 +1439,9 @@
           <sachgruppe xml:id="sg-1829s-II.A.I.3.x">
             <titel>*) Examinatoria über Dogmatik.</titel>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.I.3.x-001"><dozent><nachname>Tittmann</nachname>,
-            <grad>D.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
+            <veranstaltung xml:id="v-1829s-II.A.I.3.x-001"><dozent
+            ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>D.</grad>
+            <vorname>J. A. H.</vorname>, <funktion>P.
             Prim.</funktion></dozent>, <zeit>10 U. 4 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1829s-II.A.I.3.x-002"><dozent
@@ -1464,10 +1465,10 @@
           <sachgruppe xml:id="sg-1829s-II.A.I.3.xx">
             <titel>**) Examinatorium über biblische Theologie.</titel>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.I.3.xx-001"><dozent><nachname>Theile</nachname>,
-            <grad>D.</grad> <vorname>K. G. W.</vorname>, <funktion>Philos. P.
-            E. des.</funktion></dozent>, <zeit>4 T. in zu best. St.</zeit>
+            <veranstaltung xml:id="v-1829s-II.A.I.3.xx-001"><dozent
+            ref="theile_cgw"><nachname>Theile</nachname>, <grad>D.</grad>
+            <vorname>K. G. W.</vorname>, <funktion>Philos. P. E.
+            des.</funktion></dozent>, <zeit>4 T. in zu best. St.</zeit>
             <modus>privatissime</modus>.</veranstaltung>
           </sachgruppe>
 
@@ -1476,9 +1477,9 @@
           <sachgruppe xml:id="sg-1829s-II.A.I.3.004">
             <titel>Christliche Moral.</titel>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.I.3.004-001"><dozent><nachname>Tittmann</nachname>,
-            <grad>D.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
+            <veranstaltung xml:id="v-1829s-II.A.I.3.004-001"><dozent
+            ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>D.</grad>
+            <vorname>J. A. H.</vorname>, <funktion>P.
             Prim.</funktion></dozent>, <zeit>11 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
@@ -1527,9 +1528,9 @@
           <sachgruppe xml:id="sg-1829s-II.A.II.003.001">
             <titel>Homiletische Uebungen.</titel>
 
-            <veranstaltung
-            xml:id="v-1829s-II.A.II.003.001-001"><dozent><nachname>Tittmann</nachname>,
-            <grad>D.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
+            <veranstaltung xml:id="v-1829s-II.A.II.003.001-001"><dozent
+            ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>D.</grad>
+            <vorname>J. A. H.</vorname>, <funktion>P.
             Prim.</funktion></dozent>, <thema>Uebungen des Donnerstägigen
             Prediger-Collegii</thema>, <zeit>in den best.
             St.</zeit></veranstaltung>

@@ -626,9 +626,9 @@
 
         <veranstaltung xml:id="v-1868w-I.III.1-003"><thema>Geschichte
         Alexanders des Gr. u. der Hellenischen Welt bis 146 v. Chr.</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>6 U. 2 T. (Mont. u. Donn.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="voigt_g"><grad>D. ph.</grad> <nachname>Voigt</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>6 U. 2 T. (Mont. u.
+        Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1868w-I.III.1-004"><thema>Taciti Germania,
         vom historischen Standpunkte aus erläutert</thema>: <dozent
@@ -650,7 +650,7 @@
 
         <veranstaltung xml:id="v-1868w-I.III.1-007"><thema>Geschichte des
         Deutschen Kaiserthums von Karl d. Gr. bis zum Untergang der
-        Staufen</thema>: <dozent><grad>D. ph.</grad>
+        Staufen</thema>: <dozent ref="voigt_g"><grad>D. ph.</grad>
         <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>4 U. 4 T.</zeit></veranstaltung>
 
@@ -733,7 +733,7 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1868w-I.III.1.003-002"><thema>Historische
-          Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
+          Gesellschaft</thema>: <dozent ref="voigt_g"><grad>D. ph.</grad>
           <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>in zu best. St.</zeit></veranstaltung>
 
@@ -1408,7 +1408,7 @@
 
         <veranstaltung xml:id="v-1868w-II.II_2.1-002"><thema>Institutionen und
         Geschichte des römischen Rechts (nach Marezoll, Lehrb. der Institut.
-        8. Aufl. Leipz. 1866)</thema>: <dozent><grad>D.</grad>
+        8. Aufl. Leipz. 1866)</thema>: <dozent ref="voigt_g"><grad>D.</grad>
         <nachname>Voigt</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>9 U. 4 T. u. 10 U. 6 T.</zeit></veranstaltung>
 
@@ -1585,7 +1585,7 @@
       Privatrecht</siehe>.</veranstaltungsverweis>
 
       <veranstaltung xml:id="v-1868w-II.IV_2-001"><thema>Römischer
-      Civilprocess</thema>: <dozent><grad>D.</grad>
+      Civilprocess</thema>: <dozent ref="voigt_g"><grad>D.</grad>
       <nachname>Voigt</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>9
       U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1887,9 +1887,9 @@
         <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1868w-II.C.IV-004"><thema>Demonstrationen und
-        Besprechungen über physikalische Diagnostik</thema>:
-        <dozent><grad>D.</grad> <nachname>Thomas</nachname></dozent>, <zeit>in
-        zu best. St. u. T.</zeit>
+        Besprechungen über physikalische Diagnostik</thema>: <dozent
+        ref="thomas_gfl"><grad>D.</grad> <nachname>Thomas</nachname></dozent>,
+        <zeit>in zu best. St. u. T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1868w-II.C.IV-005"><thema>Physikalische
@@ -2027,17 +2027,20 @@
 
         <veranstaltung xml:id="v-1868w-II.C.VIII-001"><thema>Chirurgie, <notiz
         betreff="fortsetzung">1. Th.</notiz>, mit Demonstrationen</thema>:
-        <dozent><grad>D.</grad> <nachname>Thiersch</nachname>, <funktion>P. O.
+        <dozent ref="thiersch_c"><grad>D.</grad>
+        <nachname>Thiersch</nachname>, <funktion>P. O.
         des.</funktion></dozent>, <zeit>3 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868w-II.C.VIII-002"><thema>Ueber die
-        Fortschritte der Chirurgie in den letzten 30 Jahren</thema>:
-        <dozent><grad>D.</grad> <nachname>Streubel</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>5 U. 3 T.</zeit></veranstaltung>
+        Fortschritte der Chirurgie in den letzten 30 Jahren</thema>: <dozent
+        ref="streubel_kw"><grad>D.</grad> <nachname>Streubel</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>5 U. 3
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868w-II.C.VIII-003"><thema>Ueber
-        traumatische Verrenkungen</thema>: <ders>Derselbe</ders>, <zeit>in 2
-        zu best. St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        traumatische Verrenkungen</thema>: <ders
+        ref="streubel_kw">Derselbe</ders>, <zeit>in 2 zu best. St.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1868w-II.C.VIII-004"><thema>Chirurgische
         Pathologie der Harnwerkzeuge</thema>: <dozent><grad>D.</grad>
@@ -2157,9 +2160,10 @@
         <zeit>9-10½ U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868w-II.C.XI-002"><thema>Chirurgische Klinik
-        <ort>im Jacobshospital</ort></thema>, <dozent><grad>D.</grad>
-        <nachname>Thiersch</nachname>, <funktion>P. O.
-        des.</funktion></dozent>, <zeit>10½-12 U. 6 T.</zeit></veranstaltung>
+        <ort>im Jacobshospital</ort></thema>, <dozent
+        ref="thiersch_c"><grad>D.</grad> <nachname>Thiersch</nachname>,
+        <funktion>P. O. des.</funktion></dozent>, <zeit>10½-12 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868w-II.C.XI-003"><thema>Geburtshilfliche
         und gynäkologische Klinik und Poliklinik</thema>: <dozent
@@ -2173,7 +2177,7 @@
         <zeit>2 U. 5 T. (ausschl. Mittw.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868w-II.C.XI-005"><thema>Chirurgische
-        Poliklinik</thema>: <dozent><grad>D.</grad>
+        Poliklinik</thema>: <dozent ref="streubel_kw"><grad>D.</grad>
         <nachname>Streubel</nachname>, <funktion>P. E.</funktion></dozent>,
         <dozent>in Verbindung mit <grad>D.</grad>
         <nachname>Schmidt</nachname>, <funktion>P. E.</funktion></dozent>,
@@ -2181,8 +2185,9 @@
 
         <veranstaltung
         xml:id="v-1868w-II.C.XI-006"><thema>Districtspoliklinik</thema>:
-        <dozent><grad>D.</grad> <nachname>Thomas</nachname></dozent>,
-        <thema>Referatstunden</thema> <zeit>in zu best. St. u. T.</zeit>
+        <dozent ref="thomas_gfl"><grad>D.</grad>
+        <nachname>Thomas</nachname></dozent>, <thema>Referatstunden</thema>
+        <zeit>in zu best. St. u. T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1868w-II.C.XI-007"><thema>Klinik der

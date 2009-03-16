@@ -772,11 +772,11 @@ Medicin, "Heinroth, Seelengesundheitskunde" identisch
       <sachgruppe xml:id="sg-1820s-II.A.2">
         <titel>2) Systematische Theologie.</titel>
 
-        <veranstaltung
-        xml:id="v-1820s-II.A.2-001"><dozent><nachname>Tittmann</nachname>,
-        <grad>Dr.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
-        Prim.</funktion></dozent>, <thema>christliche Glaubenslehre nach der
-        heil. Schrift (auf ein Halbjahr)</thema>.</veranstaltung>
+        <veranstaltung xml:id="v-1820s-II.A.2-001"><dozent
+        ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>Dr.</grad>
+        <vorname>J. A. H.</vorname>, <funktion>P. Prim.</funktion></dozent>,
+        <thema>christliche Glaubenslehre nach der heil. Schrift (auf ein
+        Halbjahr)</thema>.</veranstaltung>
 
         <!--"auf ein Halbjahr": warum wird das angeführt? Ist doch keine 
 Fortsetzung-->
@@ -784,8 +784,8 @@ Fortsetzung-->
         <sachgruppe xml:id="sg-1820s-II.A.2.001">
           <titel>Dogmatik.</titel>
 
-          <veranstaltung
-          xml:id="v-1820s-II.A.2.001-001"><dozent><nachname>Tzschirner</nachname>,
+          <veranstaltung xml:id="v-1820s-II.A.2.001-001"><dozent
+          ref="tzschirner_hg"><nachname>Tzschirner</nachname>,
           <grad>Dr.</grad> <vorname>H. G.</vorname>, <funktion>P.
           O.</funktion></dozent></veranstaltung>
 
@@ -820,9 +820,9 @@ Fortsetzung-->
           <sachgruppe xml:id="sg-1820s-II.A.2.001.xx">
             <titel>**) Examinatoria über die Dogmatik.</titel>
 
-            <veranstaltung
-            xml:id="v-1820s-II.A.2.001.xx-001"><dozent><nachname>Tittmann</nachname>,
-            <grad>Dr.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
+            <veranstaltung xml:id="v-1820s-II.A.2.001.xx-001"><dozent
+            ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>Dr.</grad>
+            <vorname>J. A. H.</vorname>, <funktion>P.
             Prim.</funktion></dozent></veranstaltung>
 
             <veranstaltung xml:id="v-1820s-II.A.2.001.xx-002"><dozent
@@ -846,10 +846,9 @@ Fortsetzung-->
         <sachgruppe xml:id="sg-1820s-II.A.2.002">
           <titel>Moral.</titel>
 
-          <veranstaltung
-          xml:id="v-1820s-II.A.2.002-001"><dozent><nachname>Tittmann</nachname>,
-          <grad>Dr.</grad> <vorname>J. A. H.</vorname>, <funktion>P.
-          Prim.</funktion></dozent>,
+          <veranstaltung xml:id="v-1820s-II.A.2.002-001"><dozent
+          ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>Dr.</grad>
+          <vorname>J. A. H.</vorname>, <funktion>P. Prim.</funktion></dozent>,
           <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -917,8 +916,8 @@ Fortsetzung-->
         <sachgruppe xml:id="sg-1820s-II.A.4.001">
           <titel>Pastoraltheologie.</titel>
 
-          <veranstaltung
-          xml:id="v-1820s-II.A.4.001-001"><dozent><nachname>Tzschirner</nachname>,
+          <veranstaltung xml:id="v-1820s-II.A.4.001-001"><dozent
+          ref="tzschirner_hg"><nachname>Tzschirner</nachname>,
           <grad>Dr.</grad> <vorname>H. G.</vorname>, <funktion>P.
           O.</funktion></dozent>, <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
@@ -947,12 +946,11 @@ Fortsetzung-->
         <sachgruppe xml:id="sg-1820s-II.A.4.003">
           <titel>Homiletische Uebungen.</titel>
 
-          <veranstaltung
-          xml:id="v-1820s-II.A.4.003-001"><dozent><nachname>Tittmann</nachname>,
-          <grad>Dr.</grad> <vorname>J. G.</vorname>, <funktion>P.
-          Prim.</funktion></dozent>, <thema><notiz
-          betreff="fortsetzung">Fortsetzung</notiz> des homiletischen
-          Collegiums</thema>.</veranstaltung>
+          <veranstaltung xml:id="v-1820s-II.A.4.003-001"><dozent
+          ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>Dr.</grad>
+          <vorname>J. G.</vorname>, <funktion>P. Prim.</funktion></dozent>,
+          <thema><notiz betreff="fortsetzung">Fortsetzung</notiz> des
+          homiletischen Collegiums</thema>.</veranstaltung>
 
           <veranstaltung xml:id="v-1820s-II.A.4.003-002"><dozent
           ref="goldhorn_jd"><nachname>Goldhorn</nachname>, <grad>Dr.</grad>
@@ -1018,8 +1016,8 @@ Fortsetzung-->
           <sachgruppe xml:id="sg-1820s-II.B.1.001.001">
             <titel>Geschichte des römischen Rechts.</titel>
 
-            <veranstaltung
-            xml:id="v-1820s-II.B.1.001.001-001"><dozent><nachname>Stockmann</nachname>,
+            <veranstaltung xml:id="v-1820s-II.B.1.001.001-001"><dozent
+            ref="stockmann_ac"><nachname>Stockmann</nachname>,
             <grad>Dr.</grad> <vorname>A. C.</vorname>, <funktion>P.
             O.</funktion></dozent>, <thema>nach Bach (neueste Ausg. mit seinen
             Anmerk. Leipz.
@@ -1073,8 +1071,8 @@ Fortsetzung-->
           <sachgruppe xml:id="sg-1820s-II.B.1.001.003">
             <titel>Ueber die Pandekten.</titel>
 
-            <veranstaltung
-            xml:id="v-1820s-II.B.1.001.003-001"><dozent><nachname>Stockmann</nachname>,
+            <veranstaltung xml:id="v-1820s-II.B.1.001.003-001"><dozent
+            ref="stockmann_ac"><nachname>Stockmann</nachname>,
             <grad>Dr.</grad> <vorname>A. C.</vorname>, <funktion>P.
             O.</funktion></dozent>, <thema>nach Heineccius</thema>,
             <modus>öffentlich</modus>.</veranstaltung>
@@ -1417,9 +1415,9 @@ Fortsetzung-->
       <sachgruppe xml:id="sg-1820s-II.B.9">
         <titel>9) Disputirübungen.</titel>
 
-        <veranstaltung
-        xml:id="v-1820s-II.B.9-001"><dozent><nachname>Stockmann</nachname>,
-        <grad>Dr.</grad> <vorname>A. C.</vorname>, <funktion>P.
+        <veranstaltung xml:id="v-1820s-II.B.9-001"><dozent
+        ref="stockmann_ac"><nachname>Stockmann</nachname>, <grad>Dr.</grad>
+        <vorname>A. C.</vorname>, <funktion>P.
         O.</funktion></dozent></veranstaltung>
 
         <veranstaltung xml:id="v-1820s-II.B.9-002"><dozent

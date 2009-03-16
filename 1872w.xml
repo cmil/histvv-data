@@ -114,9 +114,9 @@
         <zeit>4 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.I.2-002"><thema>Logik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Strümpell</nachname>,
-        <funktion>P. O. Hon.</funktion></dozent>, <zeit>5 U. 4
-        T.</zeit></veranstaltung>
+        <dozent ref="struempell_l"><grad>D. ph.</grad>
+        <nachname>Strümpell</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>5 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.I.2-003"><thema>Einleitung in die
         Philosophie und Logik</thema>: <dozent ref="hermann_c"><grad>D.
@@ -153,9 +153,9 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.I.2-009"><thema>Die
-        religionsphilosophischen Probleme</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Strümpell</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent>, <zeit>5 U. 2 T.</zeit>
+        religionsphilosophischen Probleme</thema>: <dozent
+        ref="struempell_l"><grad>D. ph.</grad> <nachname>Strümpell</nachname>,
+        <funktion>P. O. Hon.</funktion></dozent>, <zeit>5 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.I.2-010"><thema>Entwickelung der
@@ -279,8 +279,9 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1872w-I.I.2.004-004"><thema>Uebungen des
-          wissenschaftlich-pädagogischen Praktikums</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Strümpell</nachname>, <funktion>P. O.
+          wissenschaftlich-pädagogischen Praktikums</thema>: <dozent
+          ref="struempell_l"><grad>D. ph.</grad>
+          <nachname>Strümpell</nachname>, <funktion>P. O.
           Hon.</funktion></dozent>, <zeit>8 U. Dienst.</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -721,9 +722,9 @@
         <titel>1. Weltgeschichte.</titel>
 
         <veranstaltung xml:id="v-1872w-I.III.1-001"><thema>Das Zeitalter
-        Luther's und Karl's V.</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>6 U. 2 T. (Mont. u. Donn.)</zeit>
+        Luther's und Karl's V.</thema>: <dozent ref="voigt_g"><grad>D.
+        ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>6 U. 2 T. (Mont. u. Donn.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.III.1-002"><thema>Geschichte von
@@ -756,7 +757,7 @@
 
         <veranstaltung xml:id="v-1872w-I.III.1-005"><thema>Geschichte des
         deutschen Kaiserthums von Karl d. Gr. bis zum Untergange der
-        Staufen</thema>: <dozent><grad>D. ph.</grad>
+        Staufen</thema>: <dozent ref="voigt_g"><grad>D. ph.</grad>
         <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>4 U. 4 T.</zeit></veranstaltung>
 
@@ -841,7 +842,7 @@
           <seite>11</seite>
 
           <veranstaltung xml:id="v-1872w-I.III.1.002-002"><thema>Historische
-          Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
+          Gesellschaft</thema>: <dozent ref="voigt_g"><grad>D. ph.</grad>
           <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>in 2 zu best. St.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1075,7 +1076,7 @@
         <titel>Technologie.</titel>
 
         <veranstaltung xml:id="v-1872w-I.IV.003-001"><thema>Chemische
-        Technologie</thema>: <dozent><grad>D. ph.</grad>
+        Technologie</thema>: <dozent ref="stohmann_f"><grad>D. ph.</grad>
         <nachname>Stohmann</nachname>, <funktion>P. E.
         des.</funktion></dozent>, <zeit>in 5 zu best.
         St.</zeit></veranstaltung>
@@ -1257,8 +1258,8 @@
         ph.</grad> <nachname>Sachsse</nachname></dozent>, <zeit>5 U.
         Mittw.</zeit></veranstaltung>
 
-        <veranstaltungsverweis><thema>Chemische Technologie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Stohmann</nachname>,
+        <veranstaltungsverweis><thema>Chemische Technologie</thema>: <dozent
+        ref="stohmann_f"><grad>D. ph.</grad> <nachname>Stohmann</nachname>,
         <funktion>P. E. des.</funktion></dozent>, <siehe>s.
         Technologie</siehe>.</veranstaltungsverweis>
 
@@ -1796,7 +1797,7 @@
         <titel>I. Propädeutik und Quellenkunde.</titel>
 
         <veranstaltung xml:id="v-1872w-II.B.I-001"><thema>Encyklopädie des
-        Rechtes</thema>: <dozent><grad>D. jur.</grad>
+        Rechtes</thema>: <dozent ref="voigt_m"><grad>D. jur.</grad>
         <nachname>Voigt</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>5 U. 3 T.</zeit></veranstaltung>
 
@@ -1830,9 +1831,10 @@
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1872w-II.B.II.1-003"><thema>Institutionen
-          und römische Rechtsgeschichte</thema>: <dozent><grad>D. jur.</grad>
-          <nachname>Voigt</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>10 U. 4 T. und 11 U. 6 T.</zeit></veranstaltung>
+          und römische Rechtsgeschichte</thema>: <dozent
+          ref="voigt_m"><grad>D. jur.</grad> <nachname>Voigt</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>10 U. 4 T. und 11 U. 6
+          T.</zeit></veranstaltung>
 
           <trennlinie/>
 
@@ -2412,9 +2414,9 @@ also noch entsprechend nachgetaggt werden.-->
         <titel>VIII. Chirurgie.</titel>
 
         <veranstaltung xml:id="v-1872w-II.C.VIII-001"><thema>Chirurgie, <notiz
-        betreff="fortsetzung">2. Th.</notiz></thema>: <dozent><grad>D.
-        med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>in 4 zu best. St. u.
+        betreff="fortsetzung">2. Th.</notiz></thema>: <dozent
+        ref="thiersch_c"><grad>D. med.</grad> <nachname>Thiersch</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in 4 zu best. St. u.
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872w-II.C.VIII-002"><thema>Anatomie am
@@ -2563,10 +2565,10 @@ also noch entsprechend nachgetaggt werden.-->
         <titel>XI. Klinik.</titel>
 
         <veranstaltung xml:id="v-1872w-II.C.XI-001"><thema>Besprechungen und
-        Uebungen über physikalische Diagnostik</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Thomas</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>in zu best. St.</zeit>,
-        <modus>privatissime</modus>, aber
+        Uebungen über physikalische Diagnostik</thema>: <dozent
+        ref="thomas_gfl"><grad>D. med.</grad> <nachname>Thomas</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>in zu best.
+        St.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872w-II.C.XI-002"><thema>Klinische
@@ -2587,9 +2589,10 @@ also noch entsprechend nachgetaggt werden.-->
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872w-II.C.XI-005"><thema>Chirurgische Klinik
-        <ort>im städtischen Krankenhause</ort></thema>: <dozent><grad>D.
-        med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>10½-12 U. 6 T.</zeit></veranstaltung>
+        <ort>im städtischen Krankenhause</ort></thema>: <dozent
+        ref="thiersch_c"><grad>D. med.</grad> <nachname>Thiersch</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10½-12 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872w-II.C.XI-006"><thema>Geburtshilfliche
         und gynäkologische Klinik und Poliklinik <ort>(in der
@@ -2610,8 +2613,9 @@ also noch entsprechend nachgetaggt werden.-->
 
         <veranstaltung
         xml:id="v-1872w-II.C.XI-009"><thema>Districtspoliklinik</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Thomas</nachname>, <funktion>P.
-        E. des.</funktion></dozent>, <zeit>in 3 zu best. T. u. St.</zeit>,
+        <dozent ref="thomas_gfl"><grad>D. med.</grad>
+        <nachname>Thomas</nachname>, <funktion>P. E. des.</funktion></dozent>,
+        <zeit>in 3 zu best. T. u. St.</zeit>,
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872w-II.C.XI-010"><thema>Klinik für

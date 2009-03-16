@@ -404,9 +404,10 @@
       <titel>II. Juristische Facultät</titel>
 
       <veranstaltung xml:id="v-1889w-II-001"><thema>Encyklopädie des
-      Rechts</thema>: <dozent><grad>D. jur.</grad> <nachname>Voigt</nachname>,
-      <funktion>P. O. Hon.</funktion></dozent>, <zeit>Dienst., Donnerst. und
-      Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Rechts</thema>: <dozent ref="voigt_m"><grad>D. jur.</grad>
+      <nachname>Voigt</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
+      <zeit>Dienst., Donnerst. und Freit. 5-6 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-II-002"><thema>Institutionen und äussere
       Geschichte des römischen Rechts</thema>: <dozent
@@ -627,9 +628,9 @@
 
       <veranstaltung xml:id="v-1889w-II-036"><thema>Repetitorium der Pandekten
       (Allgem. Theil, Sachenrecht, Obligationenrecht) mit mündlicher
-      Entscheidung praktischer Fälle</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Danz</nachname></dozent>, <zeit>Dienst. u. Sonnab. 5-7
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Entscheidung praktischer Fälle</thema>: <dozent ref="danz_e"><grad>D.
+      jur.</grad> <nachname>Danz</nachname></dozent>, <zeit>Dienst. u. Sonnab.
+      5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-II-037"><thema>Uebungen in der
       Interpretation des Corpus juris canonici und Einführung in die Quellen
@@ -963,22 +964,23 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1889w-III-040"><thema>Vorlesung über Chirurgie,
-      <notiz betreff="fortsetzung">II. Theil</notiz></thema>: <dozent><grad>D.
-      med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5
-      U.</zeit>, <modus>privatim</modus>, <gebühr>gratis für die, welche den
-      I. Theil gehört haben</gebühr>.</veranstaltung>
+      <notiz betreff="fortsetzung">II. Theil</notiz></thema>: <dozent
+      ref="thiersch_c"><grad>D. med.</grad> <nachname>Thiersch</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
+      Freit. 4-5 U.</zeit>, <modus>privatim</modus>, <gebühr>gratis für die,
+      welche den I. Theil gehört haben</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-III-041"><thema>Chirurgischer
       Verbandcursus und kleine Chirurgie</thema>: <dozent><grad>D. med.</grad>
       <nachname>Urban</nachname>, <funktion>I. klin.
       Assistent</funktion></dozent>, im Auftrage des Directors der chirurg.
-      Klinik <dozent><grad>D. med.</grad> <nachname>Thiersch</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 5-7 U. und Sonnab. 3-5
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Klinik <dozent ref="thiersch_c"><grad>D. med.</grad>
+      <nachname>Thiersch</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>Mittw. 5-7 U. und Sonnab. 3-5 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltungsgruppe><thema>Chirurgischer Operationscursus an der
-      Leiche</thema>: <dozent><grad>D. med.</grad>
+      Leiche</thema>: <dozent ref="tillmanns_rh"><grad>D. med.</grad>
       <nachname>Tillmanns</nachname></dozent>, <zeit>Mont. bis Freit., je nach
       vorhandenem Material</zeit>, <veranstaltung
       xml:id="v-1889w-III-042"><thema>I. Abtheil.</thema> <zeit>4-5
@@ -1168,14 +1170,14 @@
       6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-III-073"><thema>Allgemeine und specielle
-      Gynäkologie</thema>: <dozent><grad>D. med.</grad>
+      Gynäkologie</thema>: <dozent ref="saenger_m"><grad>D. med.</grad>
       <nachname>Sänger</nachname></dozent>, <zeit>Mont., Dienst. u. Donnerst.
       6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-III-074"><thema>Physiologie und
-      Pathologie des Wochenbettes</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Sänger</nachname></dozent>, <zeit>Freit. 6-7 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      Pathologie des Wochenbettes</thema>: <dozent ref="saenger_m"><grad>D.
+      med.</grad> <nachname>Sänger</nachname></dozent>, <zeit>Freit. 6-7
+      U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1307,11 +1309,11 @@
         <sachgruppe xml:id="sg-1889w-III.001.b">
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung xml:id="v-1889w-III.001.b-001"><dozent><grad>D.
-          med.</grad> <nachname>Tillmanns</nachname></dozent>,
-          <thema>Districtspoliklinik und klinische Demonstrationen</thema>,
-          <zeit>Sonnab. 4-6 U.</zeit>, <modus>privatim</modus>.
-          (<ort>Kreuzstr. 6</ort>.)</veranstaltung>
+          <veranstaltung xml:id="v-1889w-III.001.b-001"><dozent
+          ref="tillmanns_rh"><grad>D. med.</grad>
+          <nachname>Tillmanns</nachname></dozent>, <thema>Districtspoliklinik
+          und klinische Demonstrationen</thema>, <zeit>Sonnab. 4-6 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Kreuzstr. 6</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1889w-III.001.b-002"><dozent><grad>D.
           med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
@@ -1340,9 +1342,10 @@
         <sachgruppe xml:id="sg-1889w-III.001.c">
           <titel>c) Gynäkologie.</titel>
 
-          <veranstaltung xml:id="v-1889w-III.001.c-001"><dozent><grad>D.
-          med.</grad> <nachname>Sänger</nachname></dozent>, <zeit>täglich 2-3
-          U.</zeit>, <modus>privatissime</modus>. (<ort>Windm.-Str.
+          <veranstaltung xml:id="v-1889w-III.001.c-001"><dozent
+          ref="saenger_m"><grad>D. med.</grad>
+          <nachname>Sänger</nachname></dozent>, <zeit>täglich 2-3 U.</zeit>,
+          <modus>privatissime</modus>. (<ort>Windm.-Str.
           32</ort>.)</veranstaltung>
         </sachgruppe>
 
@@ -1461,10 +1464,10 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.A-002"><thema>Einleitung in die
-        Philosophie und Logik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Strümpell</nachname>, <grad>P. O. Hon.</grad></dozent>,
-        <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Philosophie und Logik</thema>: <dozent ref="struempell_l"><grad>D.
+        ph.</grad> <nachname>Strümpell</nachname>, <grad>P. O.
+        Hon.</grad></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.A-003"><thema>Einleitung in die
         Philosophie und Logik</thema>: <dozent ref="hermann_c"><grad>D.
@@ -1594,7 +1597,7 @@
 
         <veranstaltung
         xml:id="v-1889w-IV.A-021"><thema>Wissenschaftlich-pädagogisches
-        Praktikum</thema>: <dozent><grad>D. ph.</grad>
+        Praktikum</thema>: <dozent ref="struempell_l"><grad>D. ph.</grad>
         <nachname>Strümpell</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Tag u. Stunde nach Verabredung</zeit>,
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2202,10 +2205,10 @@
 
         <veranstaltung xml:id="v-1889w-IV.C-009"><thema>Geschichte des
         deutschen Kaiserthums und der päpstlichen Hierarchie von Karl dem
-        Grossen bis zum Untergange der Staufen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Voigt</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Grossen bis zum Untergange der Staufen</thema>: <dozent
+        ref="voigt_g"><grad>D. ph.</grad> <nachname>Voigt</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst.
+        u. Freit. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.C-010"><thema>Geschichte des
         Karolingischen und des Römisch-Deutschen Reiches bis auf die Zeit des
@@ -2734,14 +2737,15 @@
         <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Agriculturchemie <notiz
-        betreff="fortsetzung">I. Theil</notiz></thema>: <dozent><grad>D. ph.
-        &amp; med.</grad> <nachname>Stohmann</nachname>, <funktion>P. O.
+        betreff="fortsetzung">I. Theil</notiz></thema>: <dozent
+        ref="stohmann_f"><grad>D. ph. &amp; med.</grad>
+        <nachname>Stohmann</nachname>, <funktion>P. O.
         Hon.</funktion></dozent> <siehe>Siehe Abschnitt
         G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Voll- und Halbpraktikum im ehem.
-        Laborat.</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <nachname>Stohmann</nachname>, <funktion>P. O.
+        Laborat.</thema>: <dozent ref="stohmann_f"><grad>D. ph. &amp;
+        med.</grad> <nachname>Stohmann</nachname>, <funktion>P. O.
         Hon.</funktion></dozent> <siehe>Siehe Abschnitt
         G.</siehe></veranstaltungsverweis>
       </sachgruppe>
@@ -2926,8 +2930,8 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.G-014"><thema>Technische Chemie oder
-        chemische Technologie</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <nachname>Stohmann</nachname>, <funktion>P. O.
+        chemische Technologie</thema>: <dozent ref="stohmann_f"><grad>D. ph.
+        &amp; med.</grad> <nachname>Stohmann</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Mittw., Donnerst. u. Freit. 6½-7½
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2938,10 +2942,11 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.G-016"><thema>Agriculturchemie
-        <notiz betreff="fortsetzung">I. Theil</notiz></thema>:
-        <dozent><grad>D. ph. &amp; med.</grad> <nachname>Stohmann</nachname>,
-        <funktion>P. O. Hon.</funktion></dozent>, <zeit>Dienst. bis Freit.
-        9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <notiz betreff="fortsetzung">I. Theil</notiz></thema>: <dozent
+        ref="stohmann_f"><grad>D. ph. &amp; med.</grad>
+        <nachname>Stohmann</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>Dienst. bis Freit. 9-10 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.G-017"><thema>Allgemeine Mineralogie
         nebst repetitorischen Uebungen</thema>: <dozent><grad>D. ph.</grad>
@@ -3096,14 +3101,14 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.G-041"><thema>Vollpraktikum im
-        chemischen Laboratorium</thema>: <dozent><grad>D. ph. &amp;
-        med.</grad> <nachname>Stohmann</nachname>, <funktion>P. O.
+        chemischen Laboratorium</thema>: <dozent ref="stohmann_f"><grad>D. ph.
+        &amp; med.</grad> <nachname>Stohmann</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>täglich 9-1 U. u. (ausser Sonnab.)
         2-6</zeit> <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.G-042"><thema>Halbpraktikum im
-        chemischen Laboratorium</thema>: <dozent><grad>D. ph. &amp;
-        med.</grad> <nachname>Stohmann</nachname>, <funktion>P. O.
+        chemischen Laboratorium</thema>: <dozent ref="stohmann_f"><grad>D. ph.
+        &amp; med.</grad> <nachname>Stohmann</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>Mont. bis Freit. 2-5 U.</zeit>,
         <modus>privatissime</modus>.</veranstaltung>
 

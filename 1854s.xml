@@ -57,9 +57,9 @@
         <titel>1. Geschichte der Philosophie.</titel>
 
         <veranstaltung xml:id="v-1854s-I.I.1-001"><thema>Ueber die
-        Rechtsphilosophie Cicero's</thema>: <dozent><grad>D.</grad>
-        <nachname>Voigt</nachname></dozent>, <zeit>9 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        Rechtsphilosophie Cicero's</thema>: <dozent
+        ref="voigt_m"><grad>D.</grad> <nachname>Voigt</nachname></dozent>,
+        <zeit>9 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1854s-I.I.1-002"><thema>Geschichte der
         neuesten deutschen Philosophie von Kant an</thema>: <dozent
@@ -403,10 +403,10 @@ aber nicht im VV aufgeführt wurde-->
           Abends</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltungsverweis><thema>Hebräische Uebungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Theile</nachname>, <funktion>P.
-          O.</funktion></dozent>, <siehe>s. theologisch-exegetische
-          Uebungen</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><thema>Hebräische Uebungen</thema>: <dozent
+          ref="theile_cgw"><grad>D.</grad> <nachname>Theile</nachname>,
+          <funktion>P. O.</funktion></dozent>, <siehe>s.
+          theologisch-exegetische Uebungen</siehe>.</veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Uebungen der philhebräischen
           Gesellschaft</thema>: <dozent ref="hoelemann_hg"><grad>D. ph.</grad>
@@ -1009,9 +1009,10 @@ aber nicht im VV aufgeführt wurde-->
 
       <veranstaltung xml:id="v-1854s-II.A-001"><thema>Theologische Methodik
       oder über die Aufgabe und Mittel des Studiums der Theologie und der
-      einzelnen theologischen Wissenschaften</thema>: <dozent><grad>D.</grad>
-      <nachname>Theile</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+      einzelnen theologischen Wissenschaften</thema>: <dozent
+      ref="theile_cgw"><grad>D.</grad> <nachname>Theile</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>9 U. 2 T.</zeit>
+      <modus>öffentlich</modus>.</veranstaltung>
 
       <sachgruppe xml:id="sg-1854s-II.A.001">
         <titel>Allgemeine theologische Uebungen.</titel>
@@ -1042,15 +1043,15 @@ aber nicht im VV aufgeführt wurde-->
         <trennlinie/>
 
         <veranstaltung xml:id="v-1854s-II.A.I-003"><thema>Einleitung in das A.
-        T., <notiz betreff="fortsetzung">2 Th.</notiz></thema>:
-        <dozent><grad>D.</grad> <nachname>Tuch</nachname>, <funktion>P.
+        T., <notiz betreff="fortsetzung">2 Th.</notiz></thema>: <dozent
+        ref="tuch_jcf"><grad>D.</grad> <nachname>Tuch</nachname>, <funktion>P.
         O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>11 U.
         Mont. Mittw. u. Sonn.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1854s-II.A.I-004"><thema>Erklärung
-        ausgewählter Psalmen</thema>: <ders>Derselbe</ders>, <zeit>12 U. 4
-        T.</zeit></veranstaltung>
+        ausgewählter Psalmen</thema>: <ders ref="tuch_jcf">Derselbe</ders>,
+        <zeit>12 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1854s-II.A.I-005"><thema>Erklärung des Buches
         Koheleth</thema>: <dozent ref="hoelemann_hg"><grad>D. ph.</grad>
@@ -1098,7 +1099,7 @@ aber nicht im VV aufgeführt wurde-->
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1854s-II.A.I-010"><thema>Erklärung des
-        Evangelium Johannis</thema>: <dozent><grad>D.</grad>
+        Evangelium Johannis</thema>: <dozent ref="theile_cgw"><grad>D.</grad>
         <nachname>Theile</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>9 U. 4 T.</zeit></veranstaltung>
 
@@ -1115,9 +1116,9 @@ aber nicht im VV aufgeführt wurde-->
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1854s-II.A.I-013"><thema>Auslegung des
-        Briefes Pauli an die Römer</thema>: <dozent><grad>D.</grad>
-        <nachname>Tuch</nachname>, <funktion>P. O.</funktion>, d. Z.
-        <funktion>Dech.</funktion></dozent>, <zeit>9 U. 4
+        Briefes Pauli an die Römer</thema>: <dozent
+        ref="tuch_jcf"><grad>D.</grad> <nachname>Tuch</nachname>, <funktion>P.
+        O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>9 U. 4
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1854s-II.A.I-014"><thema>Auslegung des
@@ -1143,27 +1144,29 @@ aber nicht im VV aufgeführt wurde-->
 
           <veranstaltung
           xml:id="v-1854s-II.A.I.001-001"><thema>Alttestamentlich-exegetische
-          Uebungen</thema>: <dozent><grad>D.</grad> <nachname>Tuch</nachname>,
-          <funktion>P. O.</funktion>, d. Z.
+          Uebungen</thema>: <dozent ref="tuch_jcf"><grad>D.</grad>
+          <nachname>Tuch</nachname>, <funktion>P. O.</funktion>, d. Z.
           <funktion>Dech.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1854s-II.A.I.001-002"><thema>Uebungen der
-          exeget. Gesellschaft des N. T.</thema>: <dozent><grad>D.</grad>
-          <nachname>Theile</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mittw. 5-7 U.</zeit> <modus>privatissime</modus>, aber
+          exeget. Gesellschaft des N. T.</thema>: <dozent
+          ref="theile_cgw"><grad>D.</grad> <nachname>Theile</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>
+          <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1854s-II.A.I.001-003"><thema>Uebungen der
-          exeget. Abtheilung der lausitzer Predigergesellschaft</thema>:
-          <ders>Derselbe</ders>, <zeit>Donn. 5-7 U.</zeit>
+          exeget. Abtheilung der lausitzer Predigergesellschaft</thema>: <ders
+          ref="theile_cgw">Derselbe</ders>, <zeit>Donn. 5-7 U.</zeit>
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1854s-II.A.I.001-004"><thema>Hebräische
           Uebungen, mit Zugrundelegung der im Hebräerbrief angeführten
-          altestamentl. Stellen</thema>: <ders>Derselbe</ders>, <zeit>Sonn.
-          5-7 U.</zeit> <modus>privatissime</modus>, aber
+          altestamentl. Stellen</thema>: <ders
+          ref="theile_cgw">Derselbe</ders>, <zeit>Sonn. 5-7 U.</zeit>
+          <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1854s-II.A.I.001-005"><thema>Exegetische
@@ -1275,9 +1278,9 @@ aber nicht im VV aufgeführt wurde-->
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1854s-II.A.III-002"><thema>Christliche
-        Apologetik, zugleich als Einleitung in die Dogmatik</thema>:
-        <dozent><grad>D.</grad> <nachname>Theile</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
+        Apologetik, zugleich als Einleitung in die Dogmatik</thema>: <dozent
+        ref="theile_cgw"><grad>D.</grad> <nachname>Theile</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1854s-II.A.III-003"><thema>Comparative
@@ -1294,23 +1297,25 @@ aber nicht im VV aufgeführt wurde-->
 
         <veranstaltung xml:id="v-1854s-II.A.III-005"><thema>Moralische
         Pädeutik, oder die sittl. Mittel u. Uebungen des christlichen
-        Lebens</thema>: <dozent><grad>D.</grad> <nachname>Theile</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
-        <modus>öffentl.</modus></veranstaltung>
+        Lebens</thema>: <dozent ref="theile_cgw"><grad>D.</grad>
+        <nachname>Theile</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>10 U. 2 T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
         <sachgruppe xml:id="sg-1854s-II.A.III.001">
           <titel>Systematisch-theologische Uebungen.</titel>
 
           <veranstaltung xml:id="v-1854s-II.A.III.001-001"><thema>Dogmatisches
           Examinatorium mit Rücksicht auf seine <antiqua>Tabulas rerum
-          dogmaticarum compendiarias</antiqua></thema>:
-          <dozent><grad>D.</grad> <nachname>Theile</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
+          dogmaticarum compendiarias</antiqua></thema>: <dozent
+          ref="theile_cgw"><grad>D.</grad> <nachname>Theile</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>12 U. 4
+          T.</zeit></veranstaltung>
 
           <veranstaltung
           xml:id="v-1854s-II.A.III.001-002"><thema>Uebersichtliches
           biblisch-theologisches Examinatorium über Dogmatik u. Moral</thema>:
-          <ders>Derselbe</ders>, <zeit>Mont. 5-7 U.</zeit></veranstaltung>
+          <ders ref="theile_cgw">Derselbe</ders>, <zeit>Mont. 5-7
+          U.</zeit></veranstaltung>
 
           <veranstaltung
           xml:id="v-1854s-II.A.III.001-003"><thema>Examinatorium über Dogmatik
@@ -1444,7 +1449,7 @@ aber nicht im VV aufgeführt wurde-->
 
           <veranstaltung xml:id="v-1854s-II.B.II.1-003"><thema>Innere
           Rechtsgeschichte u. Institutionen (Geschichte des röm.
-          Privatrechts)</thema>: <dozent><grad>D.</grad>
+          Privatrechts)</thema>: <dozent ref="voigt_m"><grad>D.</grad>
           <nachname>Voigt</nachname></dozent>, <zeit>8 U. 3
           T.</zeit></veranstaltung>
 
@@ -1452,7 +1457,8 @@ aber nicht im VV aufgeführt wurde-->
 
           <veranstaltung xml:id="v-1854s-II.B.II.1-004"><thema>Aueßere
           Rechtsgeschichte und röm. Staatsalterthümer (Geschichte des
-          römischen Staatsrechts)</thema>: <ders>Derselbe</ders>, <zeit>8 U. 3
+          römischen Staatsrechts)</thema>: <ders
+          ref="voigt_m">Derselbe</ders>, <zeit>8 U. 3
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1854s-II.B.II.1-005"><thema>Institutionen
@@ -1885,7 +1891,7 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1854s-II.C.IV-003"><thema>Pathologische
-        Gewebelehre</thema>: <dozent><grad>D.</grad>
+        Gewebelehre</thema>: <dozent ref="thierfelder_t"><grad>D.</grad>
         <nachname>Thierfelder</nachname></dozent>, <zeit>4 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -1896,7 +1902,7 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
 
         <veranstaltung xml:id="v-1854s-II.C.IV-005"><thema>Klinische
         Propädeutik, oder Uebungen im Untersuchen des menschlichen Körpers und
-        seiner Excrete</thema>: <dozent><grad>D.</grad>
+        seiner Excrete</thema>: <dozent ref="thierfelder_t"><grad>D.</grad>
         <nachname>Thierfelder</nachname></dozent>, <zeit>2 U. 2
         T.</zeit></veranstaltung>
       </sachgruppe>
@@ -2017,7 +2023,8 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
         <trennlinie/>
 
         <veranstaltung xml:id="v-1854s-II.C.VII-007"><thema>Examinatorium über
-        die specielle Pathologie u. Therapie</thema>: <dozent><grad>D.</grad>
+        die specielle Pathologie u. Therapie</thema>: <dozent
+        ref="thierfelder_t"><grad>D.</grad>
         <nachname>Thierfelder</nachname></dozent>, <zeit>4 St. in zu best.
         St.</zeit> <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
@@ -2054,7 +2061,7 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
 
         <veranstaltung xml:id="v-1854s-II.C.IX-004"><thema>Ueber die
         chirurgischen Krankheiten der Geschlechtstheile u. der
-        Urinwege</thema>: <dozent><grad>D.</grad>
+        Urinwege</thema>: <dozent ref="streubel_kw"><grad>D.</grad>
         <nachname>Streubel</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>2 T. in zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -2073,9 +2080,10 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
 
         <veranstaltung xml:id="v-1854s-II.C.IX-007"><thema><scil
         text="Bandagenlehre">Dieselbe</scil>, mit prakt. Uebungen <ort>im
-        Hospital zu St. Georg</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Streubel</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>3 T. in zu best. St.</zeit></veranstaltung>
+        Hospital zu St. Georg</ort></thema>: <dozent
+        ref="streubel_kw"><grad>D.</grad> <nachname>Streubel</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>3 T. in zu best.
+        St.</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -2085,10 +2093,10 @@ ist aber nicht taggbar, da ein Teil zum "thema" gehört-->
         <zeit>3-5 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1854s-II.C.IX-009"><thema>Examinatorium über
-        die wichtigsten Capitel der Chirurgie</thema>: <dozent><grad>D.</grad>
-        <nachname>Streubel</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>2stünd. in zu best. St.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        die wichtigsten Capitel der Chirurgie</thema>: <dozent
+        ref="streubel_kw"><grad>D.</grad> <nachname>Streubel</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>2stünd. in zu best.
+        St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1854s-II.C.IX-010"><thema>Examniatorium über
         die specielle Chirurgie</thema>: <dozent><grad>D.</grad>

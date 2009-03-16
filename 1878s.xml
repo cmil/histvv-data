@@ -350,7 +350,7 @@
       Stunde</zeit> <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878s-II-004"><thema>Römische
-      Rechtsgeschichte</thema>: <dozent><grad>D. jur.</grad>
+      Rechtsgeschichte</thema>: <dozent ref="voigt_m"><grad>D. jur.</grad>
       <nachname>Voigt</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
       <zeit>täglich 10-11 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
@@ -363,7 +363,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878s-II-006"><thema>Geschichte des Römischen
-      Civilprocesses</thema>: <dozent><grad>D. jur.</grad>
+      Civilprocesses</thema>: <dozent ref="voigt_m"><grad>D. jur.</grad>
       <nachname>Voigt</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
       <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9 U.</zeit>
       <modus>privatim</modus>.</veranstaltung>
@@ -829,19 +829,19 @@
       11-12 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878s-III-037"><thema>Vorlesung über Chirurgie,
-      <notiz betreff="fortsetzung">I. Theil</notiz></thema>: <dozent><grad>D.
-      med.</grad> <nachname>Thiersch</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5
-      U.</zeit> <modus>privatim</modus>.</veranstaltung>
+      <notiz betreff="fortsetzung">I. Theil</notiz></thema>: <dozent
+      ref="thiersch_c"><grad>D. med.</grad> <nachname>Thiersch</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u.
+      Freit. 4-5 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878s-III-038"><thema>Chirurgischer
-      Operationscursus</thema>: <dozent><grad>D. med.</grad>
+      Operationscursus</thema>: <dozent ref="thiersch_c"><grad>D. med.</grad>
       <nachname>Thiersch</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich, ausgen. Sonnab., 5-7 U.</zeit>
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878s-III-039"><thema>Allgemeine
-      Chirurgie</thema>: <dozent><grad>D. med.</grad>
+      Chirurgie</thema>: <dozent ref="tillmanns_rh"><grad>D. med.</grad>
       <nachname>Tillmanns</nachname></dozent>, <zeit>Mont. u. Donnerst. 12-1
       U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
@@ -853,7 +853,8 @@
       6-7 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878s-III-041"><thema>Pathologie u. Therapie
-      der syphilitischen Krankheiten</thema>: <dozent><grad>D. med.</grad>
+      der syphilitischen Krankheiten</thema>: <dozent
+      ref="tillmanns_rh"><grad>D. med.</grad>
       <nachname>Tillmanns</nachname></dozent>, <zeit>Mittw. 2-3¼ U.</zeit>
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1045,7 +1046,8 @@
       <zeit>täglich 9½-11 U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878s-III-073"><thema>Cursus der Percussion und
-      Auscultation</thema> in Verbindung mit Hrn. <dozent><grad>D.</grad>
+      Auscultation</thema> in Verbindung mit Hrn. <dozent
+      ref="struempell_a"><grad>D.</grad>
       <nachname>Strümpell</nachname></dozent>: <dozent
       ref="wagner_el"><grad>D. med.</grad> <nachname>Wagner</nachname>,
       <funktion>P. O.</funktion></dozent>, <zeit>in zu best.
@@ -1070,7 +1072,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1878s-III-077"><thema>Chirurgische
-      Klinik</thema>: <dozent><grad>D. med.</grad>
+      Klinik</thema>: <dozent ref="thiersch_c"><grad>D. med.</grad>
       <nachname>Thiersch</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 8-10½ U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
@@ -1237,9 +1239,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.A-011"><thema>Psychologie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Strümpell</nachname>,
-        <funktion>P. O. Hon.</funktion></dozent>, <zeit>viertägig 5-6
-        U.</zeit> <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="struempell_l"><grad>D. ph.</grad>
+        <nachname>Strümpell</nachname>, <funktion>P. O.
+        Hon.</funktion></dozent>, <zeit>viertägig 5-6 U.</zeit>
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.A-012"><thema>Psychologie</thema>:
         <dozent ref="hermann_c"><grad>D. ph.</grad>
@@ -1275,7 +1278,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.A-017"><thema>Theoretische
-        Pädagogik</thema>: <dozent><grad>D. ph.</grad>
+        Pädagogik</thema>: <dozent ref="struempell_l"><grad>D. ph.</grad>
         <nachname>Strümpell</nachname>, <funktion>P. O.,
         Hon.</funktion></dozent>, <zeit>viertägig 11-12 U.</zeit>
         <modus>privatim</modus>.</veranstaltung>
@@ -1345,7 +1348,7 @@
 
         <veranstaltung
         xml:id="v-1878s-IV.A-025"><thema>Wissenschaftlich-pädagogisches
-        Practicum</thema>: <dozent><grad>D. ph.</grad>
+        Practicum</thema>: <dozent ref="struempell_l"><grad>D. ph.</grad>
         <nachname>Strümpell</nachname>, <funktion>P. O.,
         Hon.</funktion></dozent>, <zeit>Freit. 8 U. Ab.</zeit>
         <modus>privatissime</modus>, aber
@@ -1838,7 +1841,7 @@
         U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.C-003"><thema>Geschichte der
-        römischen Republik</thema>: <dozent><grad>Dr. ph.</grad>
+        römischen Republik</thema>: <dozent ref="voigt_g"><grad>Dr. ph.</grad>
         <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5 U.</zeit>
         <modus>privatim</modus>.</veranstaltung>
@@ -1924,7 +1927,7 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1878s-IV.C-016"><thema>Historische
-        Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
+        Gesellschaft</thema>: <dozent ref="voigt_g"><grad>D. ph.</grad>
         <nachname>Voigt</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Sonnab. 9-11 U. früh</zeit> <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2226,9 +2229,9 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.E-020"><thema>Practicum im
-        Laboratorium des landw.-physiol. Institutes</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Stohmann</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>täglich 8-6 U.</zeit>
+        Laboratorium des landw.-physiol. Institutes</thema>: <dozent
+        ref="stohmann_f"><grad>D. ph.</grad> <nachname>Stohmann</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>täglich 8-6 U.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.E-021"><thema>Cursus der
@@ -2399,7 +2402,7 @@
         U.</zeit> <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1878s-IV.G-012"><thema>Technische
-        Chemie</thema>: <dozent><grad>D. ph.</grad>
+        Chemie</thema>: <dozent ref="stohmann_f"><grad>D. ph.</grad>
         <nachname>Stohmann</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. bis Freit. 7-8 U. früh</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -2424,7 +2427,7 @@
 
         <veranstaltung xml:id="v-1878s-IV.G-016"><thema>Agriculturchemie,
         <notiz betreff="fortsetzung">II. Th.</notiz> (die Ernährung der
-        Thiere)</thema>: <dozent><grad>D. ph.</grad>
+        Thiere)</thema>: <dozent ref="stohmann_f"><grad>D. ph.</grad>
         <nachname>Stohmann</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. bis Freit. 8-9 U.</zeit>
         <modus>privatim</modus>.</veranstaltung>
