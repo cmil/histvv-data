@@ -1370,8 +1370,9 @@ weil er für diese Veranstaltung kein Dozent ist.
       <zeit>Donnerst. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-063"><thema>Nierenchirurgie</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Wagner</nachname></dozent>,
-      <zeit>zweimal wöchentl.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="wagner_p"><grad>D. med.</grad>
+      <nachname>Wagner</nachname></dozent>, <zeit>zweimal wöchentl.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-064"><thema>Ueber Narkose und lokale
       Anaesthesie</thema>: <dozent ref="braun_h"><grad>D. med.</grad>
@@ -2378,9 +2379,10 @@ weil er für diese Veranstaltung kein Dozent ist.
           4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-IV.B.b-013"><thema>Interpretation
-          assyrischer Texte historischen Inhalts</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Weissbach</nachname></dozent>,
-          <zeit>zweistünd.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          assyrischer Texte historischen Inhalts</thema>: <dozent
+          ref="weissbach_fh"><grad>D. ph.</grad>
+          <nachname>Weissbach</nachname></dozent>, <zeit>zweistünd.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-IV.B.b-014"><thema>Syrisch,
           Anfangscursus, nach Brockelmann's Grammatik</thema>:
@@ -2524,9 +2526,9 @@ weil er für diese Veranstaltung kein Dozent ist.
           D.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Geschichte Assyriens, Babyloniens und
-          Persiens im Alterthum</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weissbach</nachname></dozent>. <siehe>Siehe Abschnitt
-          C.</siehe></veranstaltungsverweis>
+          Persiens im Alterthum</thema>: <dozent ref="weissbach_fh"><grad>D.
+          ph.</grad> <nachname>Weissbach</nachname></dozent>. <siehe>Siehe
+          Abschnitt C.</siehe></veranstaltungsverweis>
 
           <trennlinie/>
         </sachgruppe>
@@ -2706,7 +2708,7 @@ weil er für diese Veranstaltung kein Dozent ist.
 
           <veranstaltung xml:id="v-1900w-IV.B.d-005"><thema>Altfranzösische
           Grammatik <notiz betreff="fortsetzung">I. Theil</notiz>
-          (Lautlehre)</thema>: <dozent><grad>D. ph.</grad>
+          (Lautlehre)</thema>: <dozent ref="weigand_g"><grad>D. ph.</grad>
           <nachname>Weigand</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>Dienst. u. Freit. 8-9 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2725,8 +2727,8 @@ weil er für diese Veranstaltung kein Dozent ist.
           U. Ab.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-IV.B.d-008"><thema>Praktische
-          Grammatik des Rumänischen</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weigand</nachname>, <funktion>P. E.
+          Grammatik des Rumänischen</thema>: <dozent ref="weigand_g"><grad>D.
+          ph.</grad> <nachname>Weigand</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>Mont. u. Donnerst. (ev. Dienst. u.
           Freit.) 3-4 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -2818,14 +2820,14 @@ weil er für diese Veranstaltung kein Dozent ist.
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-IV.B.d-022"><thema>Institut für
-          rumänische Sprache: Folkloristische Lektüre</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Weigand</nachname>,
+          rumänische Sprache: Folkloristische Lektüre</thema>: <dozent
+          ref="weigand_g"><grad>D. ph.</grad> <nachname>Weigand</nachname>,
           <funktion>P. E. des.</funktion></dozent>, <zeit>Freit. 6-8 U.
           Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-IV.B.d-023"><thema>Anleitung zum
           Anfertigen wissenschaftlicher Arbeiten auf dem Gebiete des
-          Rumänischen</thema>: <dozent><grad>D. ph.</grad>
+          Rumänischen</thema>: <dozent ref="weigand_g"><grad>D. ph.</grad>
           <nachname>Weigand</nachname>, <funktion>P. E.,
           des.</funktion></dozent>, <zeit>Sonnab. 3-5 U.</zeit>,
           <modus>privatissime</modus>, aber
@@ -2833,8 +2835,8 @@ weil er für diese Veranstaltung kein Dozent ist.
 
           <veranstaltung xml:id="v-1900w-IV.B.d-024"><thema>Etymologische und
           syntaktische Uebungen im Albanesischen (für
-          Vorgeschrittene)</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weigand</nachname>, <funktion>P. E.
+          Vorgeschrittene)</thema>: <dozent ref="weigand_g"><grad>D.
+          ph.</grad> <nachname>Weigand</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <modus>nach Verabredung,
           privatissime</modus>, aber <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -2871,9 +2873,10 @@ weil er für diese Veranstaltung kein Dozent ist.
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.C-002"><thema>Geschichte Assyriens,
-        Babyloniens und Persiens im Alterthum</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Weissbach</nachname></dozent>,
-        <zeit>zweistünd.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Babyloniens und Persiens im Alterthum</thema>: <dozent
+        ref="weissbach_fh"><grad>D. ph.</grad>
+        <nachname>Weissbach</nachname></dozent>, <zeit>zweistünd.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.C-003"><thema>Urgeschichte Europas
         und der Indogermanen</thema>: <dozent ref="hirt_h"><grad>D. ph.</grad>

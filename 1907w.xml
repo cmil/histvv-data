@@ -501,10 +501,10 @@
       <notiz betreff="fortsetzung">II.
       Kursus</notiz></thema>.</veranstaltungsverweis> -
       <veranstaltungsverweis><thema>Übungen auf dem Gebiete der orientalischen
-      Altertumskunde</thema></veranstaltungsverweis>: <dozent><grad>D.
-      ph.</grad> <nachname>Weißbach</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät B. b. u.
-      C.</siehe></veranstaltungsgruppe>
+      Altertumskunde</thema></veranstaltungsverweis>: <dozent
+      ref="weissbach_fh"><grad>D. ph.</grad> <nachname>Weißbach</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
+      B. b. u. C.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Kultur und Denken der Babylonier und
       Juden</thema>: <dozent ref="schneider_h"><grad>D. ph.</grad>
@@ -1758,7 +1758,7 @@
       <seite>19</seite>
 
       <veranstaltung xml:id="v-1907w-III-072"><thema>Ausgewählte Kapitel aus
-      der Nierenchirurgie</thema>: <dozent><grad>D. med.</grad>
+      der Nierenchirurgie</thema>: <dozent ref="wagner_p"><grad>D. med.</grad>
       <vorname>P.</vorname> <nachname>Wagner</nachname></dozent>,
       <zeit>zweimal wöchentl. zu noch zu best. Zeit</zeit>,
       <modus>privatim</modus>, <ort>im Patholog. Institut, Liebigstr.
@@ -2313,9 +2313,9 @@
         Fakultät G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Experimentelle Einführung in die Chemie
-        auf physikalischer Grundlage</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Wagner</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Philosophische Fakultät
+        auf physikalischer Grundlage</thema>: <dozent ref="wagner_je"><grad>D.
+        ph.</grad> <nachname>Wagner</nachname>, <funktion>P.
+        E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
         G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Physikalische Chemie</thema>: <dozent
@@ -2357,9 +2357,9 @@
         Fakultät G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Chemisches Gleichgewicht</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Drucker</nachname></dozent>.
-        <siehe>Siehe Philosophische Fakultät
-        G.</siehe></veranstaltungsverweis>
+        <dozent ref="drucker_c"><grad>D. ph.</grad>
+        <nachname>Drucker</nachname></dozent>. <siehe>Siehe Philosophische
+        Fakultät G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Grundsätze des
         präparativen (anorganischen und organischen)
@@ -3046,9 +3046,10 @@
 
           <veranstaltung
           xml:id="v-1907w-IV.B.b-010"><thema>Babylonisch-Assyrisch, <notiz
-          betreff="fortsetzung">II. Kursus</notiz></thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Weißbach</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 8-9 U. Vorm.</zeit>,
+          betreff="fortsetzung">II. Kursus</notiz></thema>: <dozent
+          ref="weissbach_fh"><grad>D. ph.</grad>
+          <nachname>Weißbach</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Mittw. u. Sonnab. 8-9 U. Vorm.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907w-IV.B.b-011"><thema>Syrisch, <notiz
@@ -3218,7 +3219,8 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Übungen auf dem Gebiete der
-          orientalischen Altertumskunde</thema>: <dozent><grad>D. ph.</grad>
+          orientalischen Altertumskunde</thema>: <dozent
+          ref="weissbach_fh"><grad>D. ph.</grad>
           <nachname>Weißbach</nachname>, <funktion>P. E.</funktion></dozent>
           <siehe>Siehe Abschnitt C. (S. 40)</siehe>.</veranstaltungsverweis>
 
@@ -3493,30 +3495,30 @@
           Freit. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907w-IV.B.d-009"><thema>Spanische
-          Grammatik mit Übungen</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weigand</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Dienst. u. Freit. 8-9 U.</zeit>,
+          Grammatik mit Übungen</thema>: <dozent ref="weigand_g"><grad>D.
+          ph.</grad> <nachname>Weigand</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>Dienst. u. Freit. 8-9 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907w-IV.B.d-010"><thema>Rumänische
-          Grammatik, Wortbildungslehre</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weigand</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mont. u. Donnerst. 3-4 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          Grammatik, Wortbildungslehre</thema>: <dozent
+          ref="weigand_g"><grad>D. ph.</grad> <nachname>Weigand</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 3-4
+          U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907w-IV.B.d-011"><thema>Albanesische
           Grammatik (<notiz
-          betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Weigand</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Dienst. u. Freit. 9-10 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent
+          ref="weigand_g"><grad>D. ph.</grad> <nachname>Weigand</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Freit. 9-10
+          U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907w-IV.B.d-012"><thema>Bulgarische
           Grammatik (<notiz
-          betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Weigand</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent
+          ref="weigand_g"><grad>D. ph.</grad> <nachname>Weigand</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 4-5
+          U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907w-IV.B.d-013"><thema>Grammatik der
           altbulgarischen (kirchenslavischen) Sprache</thema>: <dozent
@@ -3605,13 +3607,13 @@
 
           <veranstaltung xml:id="v-1907w-IV.B.d-024"><ort>Institut für
           rumänische Sprache (Querstr. 5. III.)</ort>: <thema>Etymologische
-          Übungen</thema>: <dozent><grad>D. ph.</grad>
+          Übungen</thema>: <dozent ref="weigand_g"><grad>D. ph.</grad>
           <nachname>Weigand</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mittw. 7½-9 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907w-IV.B.d-025"><ort>Institut für
           bulgarische Sprache (Querstr. 5. Ill.)</ort>: <thema>Etymologische
-          Übungen</thema>: <dozent><grad>D. ph.</grad>
+          Übungen</thema>: <dozent ref="weigand_g"><grad>D. ph.</grad>
           <nachname>Weigand</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Sonnab. 11-1 U.</zeit>, publice.</veranstaltung>
 
@@ -4214,7 +4216,8 @@
 
           <veranstaltung xml:id="v-1907w-IV.C.002-002"><thema>Im
           Semitistischen Institut: Übungen auf dem Gebiete <seite>41</seite>der
-          orientalischen Altertumskunde</thema>: <dozent><grad>D. ph.</grad>
+          orientalischen Altertumskunde</thema>: <dozent
+          ref="weissbach_fh"><grad>D. ph.</grad>
           <nachname>Weißbach</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>zweistünd., zu noch zu best. Zeit</zeit>,
           <modus>privatissime</modus>, aber
@@ -5591,7 +5594,7 @@
           2</ort>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907w-IV.C.G-015"><thema>Chemisches
-          Gleichgewicht</thema>: <dozent><grad>D. ph.</grad>
+          Gleichgewicht</thema>: <dozent ref="drucker_c"><grad>D. ph.</grad>
           <nachname>Drucker</nachname></dozent>, <zeit>Mont. u. Donnerst. 12-1
           U.</zeit>, <modus>privatim</modus>, <ort>im Physikalisch-chemischen
           Institut, Linnéstr. 2</ort>.</veranstaltung>
@@ -6019,7 +6022,7 @@
           ref="leblanc_m"><grad>D. ph.</grad> <nachname>Le Blanc</nachname>,
           <funktion>P. O.</funktion></dozent>, <dozent ref="luther_r">mit
           <grad>D. ph.</grad> <nachname>Luther</nachname>, <funktion>P.
-          E.</funktion></dozent>, <dozent><grad>D. ph.</grad>
+          E.</funktion></dozent>, <dozent ref="drucker_c"><grad>D. ph.</grad>
           <nachname>Drucker</nachname></dozent> u. <dozent><grad>D. ph.</grad>
           <nachname>Freundlich</nachname></dozent>, <zeit>tägl. 8½-12½ U. u.
           (außer Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im
@@ -6032,7 +6035,8 @@
           <dozent ref="luther_r"><grad>D. ph.</grad>
           <nachname>Luther</nachname>, <funktion>P. E.</funktion></dozent>,
           <dozent ref="boettger_wc"><grad>D. ph.</grad>
-          <nachname>Böttger</nachname></dozent>, <dozent><grad>D. ph.</grad>
+          <nachname>Böttger</nachname></dozent>, <dozent
+          ref="drucker_c"><grad>D. ph.</grad>
           <nachname>Drucker</nachname></dozent> u. <dozent><grad>D. ph.</grad>
           <nachname>Freundlich</nachname></dozent>, <zeit>Donnerst. 5½-7
           U.</zeit>, <modus>privatissime</modus> et <gebühr>gratis</gebühr>,
@@ -6277,8 +6281,8 @@
 
       <veranstaltung xml:id="v-1907w-001-003"><thema>Turnen an Geräten in
       mehreren nach Fertigkeit geteilten Riegen, sowie besondere Vorbereitung
-      zum Turnlehrerexamen</thema>, <dozent>unter Leitung von <grad>D.
-      ph.</grad> <nachname>Weigand</nachname>, <funktion>Phil. P.
+      zum Turnlehrerexamen</thema>, <dozent ref="weigand_g">unter Leitung von
+      <grad>D. ph.</grad> <nachname>Weigand</nachname>, <funktion>Phil. P.
       E.</funktion></dozent>, <zeit>Mont. u. Donnerst. (auch Mittw. u.
       Sonnab.) 6-7 U.</zeit> <ort>in der Städt. Turnhalle, Turnerstr. 2</ort>.
       Eintritt jederzeit <modus>ohne besondere Anmeldung</modus>.

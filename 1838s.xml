@@ -1584,10 +1584,10 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
       <sachgruppe xml:id="sg-1838s-II.B.001">
         <titel>Encyklopädie und Methodologie.</titel>
 
-        <veranstaltung
-        xml:id="v-1838s-II.B.001-001"><dozent><nachname>Weiske</nachname>,
-        <grad>D.</grad> <vorname>J.</vorname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>4 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1838s-II.B.001-001"><dozent
+        ref="weiske_j"><nachname>Weiske</nachname>, <grad>D.</grad>
+        <vorname>J.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>4 U.
+        2 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1838s-II.B.002">
@@ -1628,11 +1628,11 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
         <veranstaltungsverweis><ders ref="haenel_g">Derselbe</ders>, <siehe>s.
         Institutionen</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung
-        xml:id="v-1838s-II.B.003-004"><dozent><nachname>Weiske</nachname>,
-        <grad>D.</grad> <vorname>J.</vorname>, <funktion>P.
-        E.</funktion></dozent>, <thema>deutsche Rechtsgeschichte</thema>,
-        <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1838s-II.B.003-004"><dozent
+        ref="weiske_j"><nachname>Weiske</nachname>, <grad>D.</grad>
+        <vorname>J.</vorname>, <funktion>P. E.</funktion></dozent>,
+        <thema>deutsche Rechtsgeschichte</thema>, <zeit>9 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltungsverweis><dozent
         ref="poppe_jgm"><nachname>Poppe</nachname>, <grad>D.</grad>
@@ -1738,11 +1738,11 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
           <sachgruppe xml:id="sg-1838s-II.B.II.I.2">
             <titel>2) Deutsches Recht.</titel>
 
-            <veranstaltung
-            xml:id="v-1838s-II.B.II.I.2-001"><dozent><nachname>Weiske</nachname>,
-            <grad>D.</grad> <vorname>J.</vorname>, <funktion>P.
-            E.</funktion></dozent>, <thema>deutsches Privatrecht und
-            Lehnrecht</thema>, <zeit>8 U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1838s-II.B.II.I.2-001"><dozent
+            ref="weiske_j"><nachname>Weiske</nachname>, <grad>D.</grad>
+            <vorname>J.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <thema>deutsches Privatrecht und Lehnrecht</thema>, <zeit>8 U. 6
+            T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1838s-II.B.II.I.2-002"><dozent
             ref="albrecht_we"><nachname>Albrecht</nachname>, <grad>D.</grad>
@@ -1858,10 +1858,10 @@ oder ist privatim die eine und die andere ist unentgeltl.?-->
             <sachgruppe xml:id="sg-1838s-II.B.II.I.001.4">
               <titel>4) Lehnrecht.</titel>
 
-              <veranstaltungsverweis><dozent><nachname>Weiske</nachname>,
-              <grad>D.</grad> <vorname>J.</vorname>, <funktion>P.
-              E.</funktion></dozent>, <siehe>s. deutsches
-              Recht</siehe>.</veranstaltungsverweis>
+              <veranstaltungsverweis><dozent
+              ref="weiske_j"><nachname>Weiske</nachname>, <grad>D.</grad>
+              <vorname>J.</vorname>, <funktion>P. E.</funktion></dozent>,
+              <siehe>s. deutsches Recht</siehe>.</veranstaltungsverweis>
 
               <veranstaltungsverweis><dozent><nachname>Vogel</nachname>,
               <grad>D.</grad> <vorname>E. F.</vorname></dozent>, <siehe>s.
@@ -2597,19 +2597,20 @@ gleiche Zeitangabe-->
           psychisch-gerichtlichen Medicin (Lpz. b. Hartmann)</thema>, <zeit>3
           U. Dienst. u. Freit.</zeit> <modus>öffentl.</modus></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1838s-II.C.II.8-002"><dozent><nachname>Wendler</nachname>,
-          <grad>D.</grad> <vorname>C. A.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema>gerichtliche Medicin für
-          Juristen</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
-
-          <veranstaltung xml:id="v-1838s-II.C.II.8-003"><ders>Derselbe</ders>,
-          <thema>gerichtliche Medicin für Mediciner</thema>, <zeit>4 U. 4
-          T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
-
-          <veranstaltung xml:id="v-1838s-II.C.II.8-004"><ders>Derselbe</ders>,
-          <thema>über die Pflichten der Gerichts-Aerzte</thema>, <zeit>4 U. 2
+          <veranstaltung xml:id="v-1838s-II.C.II.8-002"><dozent
+          ref="wendler_ca"><nachname>Wendler</nachname>, <grad>D.</grad>
+          <vorname>C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <thema>gerichtliche Medicin für Juristen</thema>, <zeit>11 U. 4
           T.</zeit></veranstaltung>
+
+          <veranstaltung xml:id="v-1838s-II.C.II.8-003"><ders
+          ref="wendler_ca">Derselbe</ders>, <thema>gerichtliche Medicin für
+          Mediciner</thema>, <zeit>4 U. 4 T.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
+
+          <veranstaltung xml:id="v-1838s-II.C.II.8-004"><ders
+          ref="wendler_ca">Derselbe</ders>, <thema>über die Pflichten der
+          Gerichts-Aerzte</thema>, <zeit>4 U. 2 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1838s-II.C.II.9">

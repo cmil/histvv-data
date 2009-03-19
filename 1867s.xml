@@ -971,7 +971,7 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1867s-I.VI.1-002"><thema>Die Hauptcapitel der
-        Physik</thema>: <dozent><grad>D. ph.</grad>
+        Physik</thema>: <dozent ref="weiske_ha"><grad>D. ph.</grad>
         <nachname>Weiske</nachname></dozent>, <zeit>3 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -982,8 +982,9 @@
 
         <veranstaltung xml:id="v-1867s-I.VI.1-003"><thema>Optik, mit
         besonderer Berücksichtigung der Photochemie und Photographie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Weiske</nachname></dozent>,
-        <zeit>2 U. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
+        <dozent ref="weiske_ha"><grad>D. ph.</grad>
+        <nachname>Weiske</nachname></dozent>, <zeit>2 U. 2 T. (Mont. u.
+        Donn.)</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Hauptsätze der physiologischen
         Optik</thema>: <dozent ref="ruete_cgt"><grad>D.</grad>
@@ -1515,9 +1516,10 @@
           <trennlinie/>
 
           <veranstaltung
-          xml:id="v-1867s-II.B.II.2-004"><thema>Bergrecht</thema>:
-          <dozent><grad>D.</grad> <nachname>Weiske</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+          xml:id="v-1867s-II.B.II.2-004"><thema>Bergrecht</thema>: <dozent
+          ref="weiske_j"><grad>D.</grad> <nachname>Weiske</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>11 U. 4
+          T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1867s-II.B.II.2-005"><thema>Handels- und
           Wechselrecht</thema>: <dozent ref="kuntze_je"><grad>D.</grad>
@@ -2091,13 +2093,13 @@
         T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1867s-II.C.IX-006"><thema>Privatcurse über
-        Ohrenheilkunde</thema>: <dozent><grad>D.</grad>
+        Ohrenheilkunde</thema>: <dozent ref="wendt_hf"><grad>D.</grad>
         <nachname>Wendt</nachname></dozent>, <zeit>in zu best. St. u.
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1867s-II.C.IX-007"><thema>Otiatrische
-        Uebungen</thema>: <ders>Derselbe</ders>, <zeit>in zu best. St. u.
-        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        Uebungen</thema>: <ders ref="wendt_hf">Derselbe</ders>, <zeit>in zu
+        best. St. u. T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1867s-II.C.X">
@@ -2203,7 +2205,7 @@
           Instituts</ort>)</thema>: <dozent ref="hennig_c"><grad>D.</grad>
           <nachname>Hennig</nachname>, <funktion>P. E.</funktion></dozent>,
           bei der Poliklinik <!--(wie auszeichnen?)-->in Verbindung mit
-          <dozent><grad>D.</grad> <vorname>B.</vorname>
+          <dozent ref="wagner_b"><grad>D.</grad> <vorname>B.</vorname>
           <nachname>Wagner</nachname></dozent>, <zeit>5stündig, 8 U. Mont. u.
           Freit. und 2 U. Dienst., Donn. u. Sonn.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
@@ -2221,7 +2223,7 @@
 
           <veranstaltung xml:id="v-1867s-II.C.X.XI-011"><thema>Poliklinik für
           Ohrenkranke (<ort>im Vordergebäude des Trier'schen
-          Instituts</ort>)</thema>: <dozent><grad>D.</grad>
+          Instituts</ort>)</thema>: <dozent ref="wendt_hf"><grad>D.</grad>
           <nachname>Wendt</nachname></dozent>, <zeit>12 U. 6 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>

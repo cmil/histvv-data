@@ -996,9 +996,9 @@
         <zeit>11 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868s-I.VI.1-002"><thema>Die Hauptkapitel der
-        Experimentalphysik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Weiske</nachname></dozent>, <zeit>2 U. 2 T. (Mont. u.
-        Donn.)</zeit></veranstaltung>
+        Experimentalphysik</thema>: <dozent ref="weiske_ha"><grad>D.
+        ph.</grad> <nachname>Weiske</nachname></dozent>, <zeit>2 U. 2 T.
+        (Mont. u. Donn.)</zeit></veranstaltung>
 
         <veranstaltung
         xml:id="v-1868s-I.VI.1-003"><thema>Elektrodynamik</thema>: <dozent
@@ -1020,10 +1020,10 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1868s-I.VI.1-006"><thema>Meteorologie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Weiske</nachname></dozent>,
-        <zeit>3 U. 2 T. (Mont. u. Donn.)</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        xml:id="v-1868s-I.VI.1-006"><thema>Meteorologie</thema>: <dozent
+        ref="weiske_ha"><grad>D. ph.</grad>
+        <nachname>Weiske</nachname></dozent>, <zeit>3 U. 2 T. (Mont. u.
+        Donn.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <trennlinie/>
 
@@ -1060,7 +1060,7 @@
           U.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1868s-I.VI.1.001-002"><thema>Examinatorium
-          in der Physik</thema>: <dozent><grad>D. ph.</grad>
+          in der Physik</thema>: <dozent ref="weiske_ha"><grad>D. ph.</grad>
           <nachname>Weiske</nachname></dozent>, <zeit>in zu best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
@@ -1590,9 +1590,10 @@
           <trennlinie/>
 
           <veranstaltung
-          xml:id="v-1868s-II.B.II.2-004"><thema>Bergrecht</thema>:
-          <dozent><grad>D.</grad> <nachname>Weiske</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>in zu best. St.</zeit></veranstaltung>
+          xml:id="v-1868s-II.B.II.2-004"><thema>Bergrecht</thema>: <dozent
+          ref="weiske_j"><grad>D.</grad> <nachname>Weiske</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>in zu best.
+          St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1868s-II.B.II.2-005"><thema>Deutsches
           Handels- und Wechselrecht</thema>: <dozent
@@ -2189,13 +2190,13 @@
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.C.IX-005"><thema>Privatcurse über
-        die wichtigsten Krankheiten des Gehörorgans</thema>:
-        <dozent><grad>D.</grad> <nachname>Wendt</nachname></dozent>, <zeit>4
-        U. 4 T.</zeit></veranstaltung>
+        die wichtigsten Krankheiten des Gehörorgans</thema>: <dozent
+        ref="wendt_hf"><grad>D.</grad> <nachname>Wendt</nachname></dozent>,
+        <zeit>4 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.C.IX-006"><thema>Otiatrische
-        Uebungen</thema>: <ders>Derselbe</ders>, <zeit>9-11 U. 1
-        T.</zeit></veranstaltung>
+        Uebungen</thema>: <ders ref="wendt_hf">Derselbe</ders>, <zeit>9-11 U.
+        1 T.</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -2206,9 +2207,9 @@
         <modus>privatiss.</modus></veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.C.IX-008"><thema>Anleitung zur
-        Untersuchung des Rachens u. Kehlkopfs</thema>: <dozent><grad>D.</grad>
-        <nachname>Wendt</nachname></dozent>, <zeit>7 U. Ab. 1
-        T.</zeit></veranstaltung>
+        Untersuchung des Rachens u. Kehlkopfs</thema>: <dozent
+        ref="wendt_hf"><grad>D.</grad> <nachname>Wendt</nachname></dozent>,
+        <zeit>7 U. Ab. 1 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1868s-II.C.IX-009"><thema>Praktische Uebungen
         für Laryngoskopie, sowohl am Phantom als am Lebenden</thema>:
@@ -2326,8 +2327,8 @@
         <veranstaltungsgruppe><thema>Kinder-Klinik und -Poliklinik (<ort>im
         Vordergebäude des Trier'schen Instituts</ort>)</thema>: <dozent
         ref="hennig_c"><grad>D.</grad> <nachname>Hennig</nachname>,
-        <funktion>P. E.</funktion></dozent>, (<dozent>die Poliklinik in
-        Verbindung mit <grad>D.</grad> <vorname>B.</vorname>
+        <funktion>P. E.</funktion></dozent>, (<dozent ref="wagner_b">die
+        Poliklinik in Verbindung mit <grad>D.</grad> <vorname>B.</vorname>
         <nachname>Wagner</nachname></dozent>,) <zeit>5stündig, 8 U. Dienst. u.
         Freit. und 3 U. Dienst., Donn. u. Sonn.</zeit>
         <modus>öffentlich</modus>.</veranstaltungsgruppe>
@@ -2346,7 +2347,7 @@
 
         <veranstaltung xml:id="v-1868s-II.C.XI-010"><thema>Poliklinik für
         Ohrenkranke (<ort>im Vordergebäude des Trier'schen
-        Instituts</ort>)</thema>: <dozent><grad>D.</grad>
+        Instituts</ort>)</thema>: <dozent ref="wendt_hf"><grad>D.</grad>
         <nachname>Wendt</nachname></dozent>, <zeit>12-1½ U. 6 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>

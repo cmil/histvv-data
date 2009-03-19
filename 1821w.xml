@@ -270,9 +270,9 @@
         <sachgruppe xml:id="sg-1821w-I.1.C.c">
           <titel>c) Französische.</titel>
 
-          <veranstaltung
-          xml:id="v-1821w-I.1.C.c-001"><dozent><nachname>Dumas</nachname>,
-          <vorname>I. L. A.</vorname>, <funktion>Lect. publ.</funktion><!--Dozent im Original komplett in antiqua--></dozent>,
+          <veranstaltung xml:id="v-1821w-I.1.C.c-001"><dozent
+          ref="dumas_jla"><nachname>Dumas</nachname>, <vorname>I. L.
+          A.</vorname>, <funktion>Lect. publ.</funktion><!--Dozent im Original komplett in antiqua--></dozent>,
           <thema>theoret. und prakt. Cursus der franz. Sprache</thema>,
           <zeit>4 T. Mont., Mittw. und Freit.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
@@ -344,11 +344,10 @@
           <sachgruppe xml:id="sg-1821w-I.2.A.c.aa">
             <titel>aa) Logik.</titel>
 
-            <veranstaltung
-            xml:id="v-1821w-I.2.A.c.aa-001"><dozent><nachname>Wendt</nachname>,
-            <vorname>A.</vorname>, <funktion>P. O. des.</funktion></dozent>,
-            <thema>nach Dictaten</thema>, <zeit>11 U. 4
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1821w-I.2.A.c.aa-001"><dozent
+            ref="wendt_a"><nachname>Wendt</nachname>, <vorname>A.</vorname>,
+            <funktion>P. O. des.</funktion></dozent>, <thema>nach
+            Dictaten</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1821w-I.2.A.c.bb">
@@ -363,11 +362,11 @@
           <sachgruppe xml:id="sg-1821w-I.2.A.c.cc">
             <titel>cc) Aesthetik.</titel>
 
-            <veranstaltung
-            xml:id="v-1821w-I.2.A.c.cc-001"><dozent><nachname>Wendt</nachname>,
-            <vorname>A.</vorname> <funktion>P. O. des.</funktion></dozent>,
-            <thema>nebst Theorie der schönen Künste im Umrisse, nach eignen
-            Sätzen</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1821w-I.2.A.c.cc-001"><dozent
+            ref="wendt_a"><nachname>Wendt</nachname>, <vorname>A.</vorname>
+            <funktion>P. O. des.</funktion></dozent>, <thema>nebst Theorie der
+            schönen Künste im Umrisse, nach eignen Sätzen</thema>, <zeit>3 U.
+            4 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1821w-I.2.A.c.cc-002"><dozent
             ref="michaelis_cf"><nachname>Michaelis</nachname>, <grad>M.</grad>
@@ -377,12 +376,11 @@
             <sachgruppe xml:id="sg-1821w-I.2.A.c.cc.x">
               <titel>*) Schöne Künste.</titel>
 
-              <veranstaltung
-              xml:id="v-1821w-I.2.A.c.cc.x-001"><dozent><nachname>Wendt</nachname>,
-              <vorname>A.</vorname> <funktion>P. O. des.</funktion></dozent>,
-              <thema>die Lehre von d. rednerischen Ausdruck und
-              Vortrag</thema>, <zeit>3 U. Sonnab.</zeit>
-              <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+              <veranstaltung xml:id="v-1821w-I.2.A.c.cc.x-001"><dozent
+              ref="wendt_a"><nachname>Wendt</nachname>, <vorname>A.</vorname>
+              <funktion>P. O. des.</funktion></dozent>, <thema>die Lehre von
+              d. rednerischen Ausdruck und Vortrag</thema>, <zeit>3 U.
+              Sonnab.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
               <veranstaltungsgruppe><dozent><nachname>Kerndörffer</nachname>,
               <grad>M.</grad> <vorname>H. A.</vorname>, <funktion>Lect.
@@ -457,16 +455,15 @@
             H.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>10 U. 2
             T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1821w-I.2.A.c.ee-002"><dozent><nachname>Wendt</nachname>,
-            <vorname>A.</vorname> <funktion>P. O. des.</funktion></dozent>,
-            <thema>allgemeine, nach s. Sätzen</thema>, <zeit>8 U. 2
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1821w-I.2.A.c.ee-002"><dozent
+            ref="wendt_a"><nachname>Wendt</nachname>, <vorname>A.</vorname>
+            <funktion>P. O. des.</funktion></dozent>, <thema>allgemeine, nach
+            s. Sätzen</thema>, <zeit>8 U. 2 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1821w-I.2.A.c.ee-003"><ders>Derselbe</ders>,
-            <thema>Philosophie des Christenthums</thema>, <zeit>8 U. 4
-            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1821w-I.2.A.c.ee-003"><ders
+            ref="wendt_a">Derselbe</ders>, <thema>Philosophie des
+            Christenthums</thema>, <zeit>8 U. 4 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
 
             <sachgruppe xml:id="sg-1821w-I.2.A.c.ee.x">
               <titel>*) Philosophische Uebungen.</titel>
@@ -645,11 +642,10 @@
         <sachgruppe xml:id="sg-1821w-I.2.H.x">
           <titel>*) Uebungen der psycolog. Gesellschaft.</titel>
 
-          <veranstaltung
-          xml:id="v-1821w-I.2.H.x-001"><dozent><nachname>Wendt</nachname>,
-          <vorname>A.</vorname>, <funktion>P. O. des.</funktion></dozent>,
-          <zeit>in den best. St.</zeit>
-          <modus>privatiss.</modus></veranstaltung>
+          <veranstaltung xml:id="v-1821w-I.2.H.x-001"><dozent
+          ref="wendt_a"><nachname>Wendt</nachname>, <vorname>A.</vorname>,
+          <funktion>P. O. des.</funktion></dozent>, <zeit>in den best.
+          St.</zeit> <modus>privatiss.</modus></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -714,11 +710,11 @@
         Standpunkte der Politik</thema>, <zeit>11 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1821w-I.2.K-007"><dozent><nachname>Weiske</nachname>,
-        <vorname>B. G.</vorname>, <funktion>P. E.</funktion></dozent>,
-        <thema>allgemeine Culturgeschichte mittler und neuer Zeit</thema>,
-        <zeit>10 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1821w-I.2.K-007"><dozent
+        ref="weiske_bg"><nachname>Weiske</nachname>, <vorname>B. G.</vorname>,
+        <funktion>P. E.</funktion></dozent>, <thema>allgemeine
+        Culturgeschichte mittler und neuer Zeit</thema>, <zeit>10 U. 2
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1821w-I.2.K-008"><dozent
         ref="klotz_e"><nachname>Klotz</nachname>, <grad>M.</grad>
@@ -738,11 +734,11 @@
         Einleitung in die Mythologie</thema>, <zeit>10 U. Mont. und
         Donnerst.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1821w-I.2.L-002"><dozent><nachname>Weiske</nachname>,
-        <vorname>B. G.</vorname>, <funktion>P. E.</funktion></dozent>,
-        <thema>über die Staatsverfassung des alten Griechenlands</thema>,
-        <zeit>10 U. Dienst. und Freit.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1821w-I.2.L-002"><dozent
+        ref="weiske_bg"><nachname>Weiske</nachname>, <vorname>B. G.</vorname>,
+        <funktion>P. E.</funktion></dozent>, <thema>über die Staatsverfassung
+        des alten Griechenlands</thema>, <zeit>10 U. Dienst. und
+        Freit.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1821w-I.2.L-003"><dozent
         ref="beier_k"><nachname>Beier</nachname>, <vorname>C. F.</vorname>,
@@ -1838,12 +1834,11 @@ dann müsste man die "scil"-Funktion einfügen--></veranstaltung>
       <vorname>F. A. B.</vorname>, <funktion>P. O. des.</funktion></dozent>,
       <zeit>2 U. 6 T.</zeit></veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1821w-IV.11-003"><dozent><nachname>Wendler</nachname>,
-      <grad>D.</grad> <vorname>C. A.</vorname>, <funktion>P.
-      E.</funktion></dozent>, <thema>auserlesene Abschnitte der
-      Klinik</thema>, <zeit>11 U. 2 T.</zeit>
-      <modus>öffentlich</modus>.</veranstaltung>
+      <veranstaltung xml:id="v-1821w-IV.11-003"><dozent
+      ref="wendler_ca"><nachname>Wendler</nachname>, <grad>D.</grad>
+      <vorname>C. A.</vorname>, <funktion>P. E.</funktion></dozent>,
+      <thema>auserlesene Abschnitte der Klinik</thema>, <zeit>11 U. 2
+      T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1821w-IV.11-004"><dozent
       ref="cerutti_fpl"><nachname>Cerutti</nachname>, <grad>D.</grad>
@@ -1899,11 +1894,10 @@ dann müsste man die "scil"-Funktion einfügen--></veranstaltung>
       <gesperrt>Metzger</gesperrt></thema>, <zeit>3 U. 4
       T.</zeit></veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1821w-IV.14-002"><dozent><nachname>Wendler</nachname>,
-      <grad>D.</grad> <vorname>C. A.</vorname>, <funktion>P.
-      E.</funktion></dozent>, <thema>n. s. Sätzen</thema>, <zeit>11 U. 4
-      T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1821w-IV.14-002"><dozent
+      ref="wendler_ca"><nachname>Wendler</nachname>, <grad>D.</grad>
+      <vorname>C. A.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>n.
+      s. Sätzen</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
     </sachgruppe>
 
     <sachgruppe xml:id="sg-1821w-IV.15">

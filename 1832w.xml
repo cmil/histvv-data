@@ -222,9 +222,9 @@
             <!--gilt "öffentlich" für beide veranstaltungen?
 muss "didaktische" noch ergänzt werden ("... Uebungen")-->
 
-            <veranstaltung
-            xml:id="v-1832w-I.I.2.a.003-004"><dozent><nachname>Weiske</nachname>,
-            <vorname>B. G.</vorname>, <funktion>P. E.</funktion></dozent>,
+            <veranstaltung xml:id="v-1832w-I.I.2.a.003-004"><dozent
+            ref="weiske_bg"><nachname>Weiske</nachname>, <vorname>B.
+            G.</vorname>, <funktion>P. E.</funktion></dozent>,
             <thema>philologische Uebungen mit der Lausitz.
             Gesellschaft</thema>, <zeit>in den best.
             St.</zeit></veranstaltung>
@@ -330,8 +330,8 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             der franz. Sprache, nach s. Grundriß</thema>, <zeit>2 U.
             Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1832w-I.I.2.b.002-003"><dozent><nachname>Dümas</nachname>,
+            <veranstaltung xml:id="v-1832w-I.I.2.b.002-003"><dozent
+            ref="duemas_t"><nachname>Dümas</nachname>,
             <vorname>T.</vorname></dozent>, <thema>über französische Sprache
             und Litteratur</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
@@ -469,8 +469,9 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
         <thema>deutsche Geschichte</thema>, <zeit>4 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltungsverweis><dozent><nachname>Weiske</nachname>,
-        <grad>D.</grad> <vorname>J.</vorname></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="weiske_j"><nachname>Weiske</nachname>, <grad>D.</grad>
+        <vorname>J.</vorname></dozent>, <siehe>s.
         Staatswissenschaften</siehe>.</veranstaltungsverweis>
 
         <veranstaltung
@@ -542,11 +543,11 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
       <sachgruppe xml:id="sg-1832w-I.II.4">
         <titel>4) Mythologie.</titel>
 
-        <veranstaltung
-        xml:id="v-1832w-I.II.4-001"><dozent><nachname>Weiske</nachname>,
-        <vorname>B. G.</vorname>, <funktion>P. E.</funktion></dozent>,
-        <thema>Kunstmythologie der Griechen u. Römer, durch Abbildungen, so
-        viel möglich, veranschaulicht</thema>, <zeit>3 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1832w-I.II.4-001"><dozent
+        ref="weiske_bg"><nachname>Weiske</nachname>, <vorname>B. G.</vorname>,
+        <funktion>P. E.</funktion></dozent>, <thema>Kunstmythologie der
+        Griechen u. Römer, durch Abbildungen, so viel möglich,
+        veranschaulicht</thema>, <zeit>3 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
@@ -792,10 +793,10 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             Schriftsteller, lateinisch und deutsch</thema>, <zeit>4 U. 2
             T.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1832w-I.III.003.8.x-002"><dozent><nachname>Weiske</nachname>,
-            <vorname>B. G.</vorname>, <funktion>P. E.</funktion></dozent>,
-            <thema>mit den Lausitzern</thema>, <zeit>in den bestimmten
+            <veranstaltung xml:id="v-1832w-I.III.003.8.x-002"><dozent
+            ref="weiske_bg"><nachname>Weiske</nachname>, <vorname>B.
+            G.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>mit den
+            Lausitzern</thema>, <zeit>in den bestimmten
             St.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -847,9 +848,9 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
       <sachgruppe xml:id="sg-1832w-I.IV.005">
         <titel>Deutsches Staatsrecht.</titel>
 
-        <veranstaltung
-        xml:id="v-1832w-I.IV.005-001"><dozent><nachname>Weiske</nachname>,
-        <grad>D.</grad> <vorname>J.</vorname></dozent>, <zeit>5 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1832w-I.IV.005-001"><dozent
+        ref="weiske_j"><nachname>Weiske</nachname>, <grad>D.</grad>
+        <vorname>J.</vorname></dozent>, <zeit>5 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -867,10 +868,9 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
       <sachgruppe xml:id="sg-1832w-I.IV.007">
         <titel>Deutsche Staats- und Rechtsgeschichte.</titel>
 
-        <veranstaltung
-        xml:id="v-1832w-I.IV.007-001"><dozent><nachname>Weiske</nachname>,
-        <grad>D.</grad> <vorname>J.</vorname></dozent>, <zeit>5 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1832w-I.IV.007-001"><dozent
+        ref="weiske_j"><nachname>Weiske</nachname>, <grad>D.</grad>
+        <vorname>J.</vorname></dozent>, <zeit>5 U. 4 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1832w-I.IV.008">
@@ -1566,8 +1566,9 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
       <sachgruppe xml:id="sg-1832w-II.B.002">
         <titel>Rechtsgeschichte.</titel>
 
-        <veranstaltungsverweis><dozent><nachname>Weiske</nachname>,
-        <grad>D.</grad> <vorname>J.</vorname></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="weiske_j"><nachname>Weiske</nachname>, <grad>D.</grad>
+        <vorname>J.</vorname></dozent>, <siehe>s.
         Staatswissenschaften</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1832w-II.B.002-001"><dozent
@@ -1756,9 +1757,9 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             <thema>deutsches Privatrecht</thema>, <zeit>8 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1832w-II.B.II.I.2-002"><dozent><nachname>Weiske</nachname>,
-            <grad>D.</grad> <vorname>J.</vorname></dozent>, <thema>deutsches
+            <veranstaltung xml:id="v-1832w-II.B.II.I.2-002"><dozent
+            ref="weiske_j"><nachname>Weiske</nachname>, <grad>D.</grad>
+            <vorname>J.</vorname></dozent>, <thema>deutsches
             Privatrecht</thema>, <zeit>4 U. 6 T.</zeit></veranstaltung>
 
             <seite>17</seite>
@@ -1806,7 +1807,7 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             ref="sachsse_cr"><nachname>Sachße</nachname>, <grad>M.</grad>
             <vorname>K. R.</vorname>, <funktion>J. U. B.</funktion></dozent>,
             <thema>Erklärung des sächsischen Landrechts, unter Mittheilung
-            einer mit Hrn</thema> <dozent><grad>D.</grad>
+            einer mit Hrn</thema> <dozent ref="weiske_j"><grad>D.</grad>
             <nachname>Weiske</nachname></dozent> <thema>ausgearbeiteten
             Uebersetzung</thema>, <zeit>2 T. in zu best. St.</zeit><!--D. Weiske als Prof. od. als "gesperrt" taggen?--></veranstaltung>
           </sachgruppe>
@@ -1877,10 +1878,10 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
               positive Criminalrecht</thema>, <zeit>8 U. 4
               T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1832w-II.B.II.I.002.2-003"><dozent><nachname>Weiske</nachname>,
-              <grad>D.</grad> <vorname>J.</vorname></dozent>, <thema>das
-              peinliche Recht</thema>, <zeit>11 U. 6 T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1832w-II.B.II.I.002.2-003"><dozent
+              ref="weiske_j"><nachname>Weiske</nachname>, <grad>D.</grad>
+              <vorname>J.</vorname></dozent>, <thema>das peinliche
+              Recht</thema>, <zeit>11 U. 6 T.</zeit></veranstaltung>
 
               <veranstaltung xml:id="v-1832w-II.B.II.I.002.2-004"><dozent
               ref="krug_ao"><nachname>Krug</nachname>, <grad>D.</grad>
@@ -1906,11 +1907,10 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
               E.</funktion></dozent>, <thema>gemeines u. sächsisches
               Lehnrecht</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1832w-II.B.II.I.002.3-003"><dozent><nachname>Weiske</nachname>,
-              <grad>D.</grad> <vorname>J.</vorname></dozent>,
-              <thema>Lehnrecht</thema>, <zeit>10 U. 4
-              T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1832w-II.B.II.I.002.3-003"><dozent
+              ref="weiske_j"><nachname>Weiske</nachname>, <grad>D.</grad>
+              <vorname>J.</vorname></dozent>, <thema>Lehnrecht</thema>,
+              <zeit>10 U. 4 T.</zeit></veranstaltung>
 
               <veranstaltung
               xml:id="v-1832w-II.B.II.I.002.3-004"><dozent><nachname>Stieglitz</nachname>,
@@ -2206,10 +2206,10 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             <thema>über alle Theile des Rechts</thema>, <zeit>in den best. u.
             zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1832w-II.B.II.III.1-018"><dozent><nachname>Wendler</nachname>,
-            <vorname>A. E.</vorname>, <funktion>J. U. B.</funktion></dozent>,
-            <thema>über einzelne Rechtstheile</thema>, <zeit>in zu best.
+            <veranstaltung xml:id="v-1832w-II.B.II.III.1-018"><dozent
+            ref="wendler_ae"><nachname>Wendler</nachname>, <vorname>A.
+            E.</vorname>, <funktion>J. U. B.</funktion></dozent>, <thema>über
+            einzelne Rechtstheile</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
             <seite>21</seite>
@@ -2420,16 +2420,16 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
           pathologischer Gegenstände</thema>, <zeit>6 T. in zu best.
           St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1832w-II.C.I.1-009"><dozent><nachname>Volkmann</nachname>,
-          <grad>D.</grad> <vorname>A. W.</vorname></dozent>, <thema>den <notiz
+          <veranstaltung xml:id="v-1832w-II.C.I.1-009"><dozent
+          ref="volkmann_aw"><nachname>Volkmann</nachname>, <grad>D.</grad>
+          <vorname>A. W.</vorname></dozent>, <thema>den <notiz
           betreff="fortsetzung">zweiten Theil</notiz> des Kursus der
           vergleichenden Anatomie</thema>, <zeit>2 T. in zu best. St.</zeit>
           <gebühr>unentgl.</gebühr></veranstaltung>
 
-          <veranstaltung xml:id="v-1832w-II.C.I.1-010"><ders>Derselbe</ders>,
-          <thema>zootomische Präparir-Uebungen</thema>, <zeit>2-4 U. 6
-          T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1832w-II.C.I.1-010"><ders
+          ref="volkmann_aw">Derselbe</ders>, <thema>zootomische
+          Präparir-Uebungen</thema>, <zeit>2-4 U. 6 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1832w-II.C.I.1-011"><dozent
           ref="bock_ce"><nachname>Bock</nachname>, <grad>D.</grad> <vorname>K.
@@ -2805,21 +2805,23 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
           <vorname>J. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
           <siehe>s. Psychologie</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung
-          xml:id="v-1832w-II.C.II.8-002"><dozent><nachname>Wendler</nachname>,
-          <grad>D.</grad> <vorname>C. A.</vorname>, <funktion>P. O.
-          des.</funktion></dozent>, <thema>gerichtliche Medicin, nach s.
-          Sätzen, für Juristen u. Mediciner</thema>, <zeit>11 U. 4 T.</zeit>
+          <veranstaltung xml:id="v-1832w-II.C.II.8-002"><dozent
+          ref="wendler_ca"><nachname>Wendler</nachname>, <grad>D.</grad>
+          <vorname>C. A.</vorname>, <funktion>P. O. des.</funktion></dozent>,
+          <thema>gerichtliche Medicin, nach s. Sätzen, für Juristen u.
+          Mediciner</thema>, <zeit>11 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1832w-II.C.II.8-003"><ders>Derselbe</ders>,
-          <thema>über die Pflichten der gerichtlichen Aerzte nebst praktischen
-          Uebungen</thema>, <zeit>11 U. 2 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1832w-II.C.II.8-003"><ders
+          ref="wendler_ca">Derselbe</ders>, <thema>über die Pflichten der
+          gerichtlichen Aerzte nebst praktischen Uebungen</thema>, <zeit>11 U.
+          2 T.</zeit></veranstaltung>
 
-          <veranstaltung xml:id="v-1832w-II.C.II.8-004"><ders>Derselbe</ders>,
-          <thema>beliebige <antiqua>Privatissima</antiqua> über besondere
-          Theile der gerichtlichen Arzneiwissenschaft</thema>, <zeit>in zu
-          best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1832w-II.C.II.8-004"><ders
+          ref="wendler_ca">Derselbe</ders>, <thema>beliebige
+          <antiqua>Privatissima</antiqua> über besondere Theile der
+          gerichtlichen Arzneiwissenschaft</thema>, <zeit>in zu best.
+          St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1832w-II.C.II.9">

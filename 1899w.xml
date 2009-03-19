@@ -1223,9 +1223,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-III-060"><thema>Die chirurgischen
-      Erkrankungen der Nieren</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Wagner</nachname></dozent>, <zeit>zweimal wöchentlich</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Erkrankungen der Nieren</thema>: <dozent ref="wagner_p"><grad>D.
+      med.</grad> <nachname>Wagner</nachname></dozent>, <zeit>zweimal
+      wöchentlich</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-III-061"><thema>Ueber Narkose und lokale
       Anaestheseie</thema>: <dozent ref="braun_h"><grad>D. med.</grad>
@@ -2182,14 +2182,16 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899w-IV.B.b-007"><thema>Altpersisch nebst
-          Erklärung der Achämenideninschriften</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Weissbach</nachname></dozent>,
-          <zeit>zweistünd.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          Erklärung der Achämenideninschriften</thema>: <dozent
+          ref="weissbach_fh"><grad>D. ph.</grad>
+          <nachname>Weissbach</nachname></dozent>, <zeit>zweistünd.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899w-IV.B.b-008"><thema>Assyrisch <notiz
-          betreff="fortsetzung">I. Kursus</notiz></thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Weissbach</nachname></dozent>,
-          <zeit>zweistünd.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          betreff="fortsetzung">I. Kursus</notiz></thema>: <dozent
+          ref="weissbach_fh"><grad>D. ph.</grad>
+          <nachname>Weissbach</nachname></dozent>, <zeit>zweistünd.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899w-IV.B.b-009"><thema>Hebräische
           Uebungen (Bücher der Könige)</thema>: <dozent
@@ -2302,9 +2304,9 @@
           Facultät</siehe>.</veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Geschichte Babyloniens, Assyriens und
-          Persiens im Alterthum</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weissbach</nachname></dozent>. <siehe>Siehe Abschnitt
-          C.</siehe></veranstaltungsverweis>
+          Persiens im Alterthum</thema>: <dozent ref="weissbach_fh"><grad>D.
+          ph.</grad> <nachname>Weissbach</nachname></dozent>. <siehe>Siehe
+          Abschnitt C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Aegyptische und vorderasiatische
           Kunstgeschichte</thema>: <dozent ref="steindorff_g"><grad>D.
@@ -2526,8 +2528,8 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899w-IV.B.d-009"><thema>Spanische
-          Grammatik mit Uebungen</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weigand</nachname>, <funktion>P. E.
+          Grammatik mit Uebungen</thema>: <dozent ref="weigand_g"><grad>D.
+          ph.</grad> <nachname>Weigand</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>Dienst. u. Freit. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -2547,8 +2549,8 @@
 
           <veranstaltung xml:id="v-1899w-IV.B.d-012"><thema>Rumänische
           Grammatik <notiz betreff="fortsetzung">II. Theil
-          (Lautlehre)</notiz></thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weigand</nachname>, <funktion>P. E.
+          (Lautlehre)</notiz></thema>: <dozent ref="weigand_g"><grad>D.
+          ph.</grad> <nachname>Weigand</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>Mont. u. Donnerst. 3-4 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
@@ -2560,8 +2562,8 @@
           <seite>27</seite>
 
           <veranstaltung xml:id="v-1899w-IV.B.d-014"><thema>Einführung in das
-          Studium des Albanesischen</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weigand</nachname>, <funktion>P. E.
+          Studium des Albanesischen</thema>: <dozent ref="weigand_g"><grad>D.
+          ph.</grad> <nachname>Weigand</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>Dienst. u. Freit. 8-9 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -2643,7 +2645,7 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899w-IV.B.d-026"><thema>Rumänisches
-          Seminar</thema>: <dozent><grad>D. ph.</grad>
+          Seminar</thema>: <dozent ref="weigand_g"><grad>D. ph.</grad>
           <nachname>Weigand</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>Mont. 7½-9 U. Ab.</zeit>,
           <modus>publice</modus>.</veranstaltung>
@@ -2665,9 +2667,10 @@
         Geographie).</titel>
 
         <veranstaltung xml:id="v-1899w-IV.C-001"><thema>Geschichte
-        Babyloniens, Assyriens und Persiens im Alterthum</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Weissbach</nachname></dozent>,
-        <zeit>zweistünd.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Babyloniens, Assyriens und Persiens im Alterthum</thema>: <dozent
+        ref="weissbach_fh"><grad>D. ph.</grad>
+        <nachname>Weissbach</nachname></dozent>, <zeit>zweistünd.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899w-IV.C-002"><thema>Völker und Sprachen
         der Balkanhalbinsel und Kleinasiens im Alterthum</thema>: <dozent

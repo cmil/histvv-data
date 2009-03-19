@@ -1259,7 +1259,7 @@
       Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1910w-III-072"><thema>Chirurgische
-      Nierenerkrankungen</thema>: <dozent><grad>D. med.</grad>
+      Nierenerkrankungen</thema>: <dozent ref="wagner_p"><grad>D. med.</grad>
       <vorname>P.</vorname> <nachname>Wagner</nachname></dozent>, <seite>14</seite><zeit>zweimal
       wöchentl. zu noch zu best. Zeit</zeit>, <modus>privatim</modus>, <ort>im
       Patholog. Institut, Liebigstr. 26</ort>.</veranstaltung>
@@ -2266,9 +2266,9 @@
 
           <veranstaltung xml:id="v-1910w-IV.B.b-011"><thema>Einführung in das
           Babylonisch-Assyrisch, <notiz betreff="fortsetzung">II.
-          Kursus</notiz></thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weißbach</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mittw. u. Sonnab. 8-9 U.</zeit>,
+          Kursus</notiz></thema>: <dozent ref="weissbach_fh"><grad>D.
+          ph.</grad> <nachname>Weißbach</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 8-9 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1910w-IV.B.b-012"><thema>Hebräisch, Laut-
@@ -2393,9 +2393,9 @@
           <veranstaltung xml:id="v-1910w-IV.B.b-030"><thema>Interpretation von
           Keilschrifttexten der achämenidischen und seleukidischen
           Zeit</thema> (<ort>im Semitistischen Institut, Paulinum I</ort>):
-          <dozent><grad>D. ph.</grad> <nachname>Weißbach</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>Mont. 6-8 U.</zeit>,
-          <modus>privatissime</modus> et
+          <dozent ref="weissbach_fh"><grad>D. ph.</grad>
+          <nachname>Weißbach</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Mont. 6-8 U.</zeit>, <modus>privatissime</modus> et
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1910w-IV.B.b-031"><thema>Arabische
@@ -2666,10 +2666,10 @@
 
           <veranstaltung xml:id="v-1910w-IV.B.d-011"><thema>Spanische
           Grammatik (<notiz betreff="fortsetzung">Fortsetzung</notiz>) nebst
-          Interpretation des Don Quijote</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weigand</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          Interpretation des Don Quijote</thema>: <dozent
+          ref="weigand_g"><grad>D. ph.</grad> <nachname>Weigand</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 4-5
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1910w-IV.B.d-012"><thema>Erklärung von
           Dante's Divina Commedia</thema>: <dozent
@@ -2692,16 +2692,16 @@
 
           <veranstaltung
           xml:id="v-1910w-IV.B.d-015"><thema>Albanesisch-gegische
-          Grammatik</thema>: <dozent><grad>D. ph.</grad>
+          Grammatik</thema>: <dozent ref="weigand_g"><grad>D. ph.</grad>
           <nachname>Weigand</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mont. u. Donnerst. 3-4 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1910w-IV.B.d-016"><thema>Interpretation von
-          A. Konstantinoffs Baj Ganju</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weigand</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mont. u. Donnerst. 6-7 U.</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          A. Konstantinoffs Baj Ganju</thema>: <dozent
+          ref="weigand_g"><grad>D. ph.</grad> <nachname>Weigand</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Donnerst. 6-7
+          U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1910w-IV.B.d-017"><thema>Die byzantinischen
           Historiker nach ihrer quellen-geschichtlichen Bedeutung</thema>:
@@ -2785,13 +2785,14 @@
 
           <veranstaltung xml:id="v-1910w-IV.B.d-029"><thema>Institut für
           rumänische Sprache</thema> (<ort>Querstr. 5. III.</ort>):
-          <thema>Etymologische Übungen</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Weigand</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Mittw. 7½-9 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+          <thema>Etymologische Übungen</thema>: <dozent
+          ref="weigand_g"><grad>D. ph.</grad> <nachname>Weigand</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>Mittw. 7½-9 U.</zeit>,
+          <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1910w-IV.B.d-030"><thema>Institut für
-          bulgarische Sprache</thema> (<ort>Querstr. 5. III.</ort>):
-          <dozent><grad>D. ph.</grad> <nachname>Weigand</nachname>,
+          bulgarische Sprache</thema> (<ort>Querstr. 5. III.</ort>): <dozent
+          ref="weigand_g"><grad>D. ph.</grad> <nachname>Weigand</nachname>,
           <funktion>P. E.</funktion></dozent>: <thema>Etymologische
           Übungen</thema>, <zeit>Sonnab. 11½-1 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
@@ -3278,8 +3279,9 @@
 
             <veranstaltung xml:id="v-1910w-IV.C.002.001-002"><thema>Übungen
             auf dem Gebiete der orientalischen Altertumskunde</thema> (<ort>im
-            Semitistischen Institut, Paulinum I</ort>): <dozent><grad>D.
-            ph.</grad> <nachname>Weißbach</nachname>, <funktion>P.
+            Semitistischen Institut, Paulinum I</ort>): <dozent
+            ref="weissbach_fh"><grad>D. ph.</grad>
+            <nachname>Weißbach</nachname>, <funktion>P.
             E.</funktion></dozent>, <zeit>Freit. 6-8 U. Ab.</zeit>,
             <modus>privatissime</modus> et
             <gebühr>gratis</gebühr>.</veranstaltung>
@@ -4199,7 +4201,7 @@
 
         <veranstaltung xml:id="v-1910w-IV.G-017"><thema>Konvergenz
         physikalisch-chemischer Theorien und Methoden, an Beispielen
-        erläutert</thema>: <dozent><grad>D. ph.</grad>
+        erläutert</thema>: <dozent ref="drucker_c"><grad>D. ph.</grad>
         <nachname>Drucker</nachname></dozent>, <zeit>Mittw. 12-1 U.</zeit>,
         <modus>privatim</modus>, <ort>im Physikalisch--chemischen Institut,
         Linnéstr. 2</ort>.</veranstaltung>
@@ -4505,10 +4507,10 @@
         <nachname>Le Blanc</nachname>, <funktion>P. O.</funktion></dozent>,
         <dozent ref="schall_c">mit <grad>D. ph.</grad>
         <nachname>Schall</nachname>, <funktion>P. E. des.</funktion></dozent>,
-        <dozent>und <grad>D. ph.</grad> <nachname>Drucker</nachname></dozent>,
-        <zeit>Mont. od. Dienst., vier- od. achtstündig</zeit>,
-        <modus>privatim</modus>, <ort>im Physikalisch-chemischen Institut,
-        Linnéstr. 2</ort>.</veranstaltung>
+        <dozent ref="drucker_c">und <grad>D. ph.</grad>
+        <nachname>Drucker</nachname></dozent>, <zeit>Mont. od. Dienst., vier-
+        od. achtstündig</zeit>, <modus>privatim</modus>, <ort>im
+        Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1910w-IV.G-059"><thema>Übungen in
         Elektroanalyse</thema>: <dozent ref="leblanc_m"><grad>D. ph.</grad>
@@ -4524,8 +4526,8 @@
         Praktikum</thema> (<zeit>ganztägig, für Anfänger ganz- und
         halbtägig</zeit>): <dozent ref="leblanc_m"><grad>D. ph.</grad>
         <nachname>Le Blanc</nachname>, <funktion>P. O.</funktion></dozent>,
-        <dozent>mit <grad>D. ph.</grad> <nachname>Drucker</nachname></dozent>
-        <dozent>und <grad>D. ph.</grad>
+        <dozent ref="drucker_c">mit <grad>D. ph.</grad>
+        <nachname>Drucker</nachname></dozent> <dozent>und <grad>D. ph.</grad>
         <nachname>Freundlich</nachname></dozent>, <zeit>tägl. 8-12½ U. u.
         (außer Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im
         Physikalisch-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
@@ -4538,7 +4540,7 @@
         <nachname>Schaum</nachname>, <funktion>P. E.</funktion></dozent>,
         <dozent ref="boettger_wc"><grad>D. ph.</grad>
         <nachname>Böttger</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <dozent><grad>D. ph.</grad>
+        des.</funktion></dozent>, <dozent ref="drucker_c"><grad>D. ph.</grad>
         <nachname>Drucker</nachname></dozent> <dozent>und <grad>D. ph.</grad>
         <nachname>Freundlich</nachname></dozent>, <zeit>Donnerst. 5½-7
         U.</zeit>, <modus>privatissime</modus> et <gebühr>gratis</gebühr>,
@@ -4793,12 +4795,13 @@
       U.</zeit>).</veranstaltung>
 
       <veranstaltung xml:id="v-1910w-001-004"><thema>Turnen an Geräten in
-      mehreren nach Fertigkeit geteilten Riegen</thema> <dozent>unter Leitung
-      von <grad>D. ph.</grad> <nachname>Weigand</nachname>, <funktion>Phil. P.
-      E.</funktion></dozent>, <zeit>Dienst. u. Freit. 12-1 U.</zeit> <ort>in
-      der Städt. Turnhalle, Turnerstr. 2</ort>. Eintritt jederzeit <modus>ohne
-      besondere Anmeldung</modus>. (<gebühr>Semesterkarten 2,50 M.,
-      Monatskarten 75 Pf.</gebühr> in der Turnhalle).</veranstaltung>
+      mehreren nach Fertigkeit geteilten Riegen</thema> <dozent
+      ref="weigand_g">unter Leitung von <grad>D. ph.</grad>
+      <nachname>Weigand</nachname>, <funktion>Phil. P. E.</funktion></dozent>,
+      <zeit>Dienst. u. Freit. 12-1 U.</zeit> <ort>in der Städt. Turnhalle,
+      Turnerstr. 2</ort>. Eintritt jederzeit <modus>ohne besondere
+      Anmeldung</modus>. (<gebühr>Semesterkarten 2,50 M., Monatskarten 75
+      Pf.</gebühr> in der Turnhalle).</veranstaltung>
 
       <veranstaltungsgruppe><thema>Staatlicher Turnlehrerkursus für
       Studierende</thema> (<gebühr>gratis</gebühr>); <dozent>Leiter:

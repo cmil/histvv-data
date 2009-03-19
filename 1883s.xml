@@ -447,9 +447,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-II-010"><thema>Deutsches Reichs- und
-      Landesstaatsrecht</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Wagner</nachname></dozent>, <zeit>Mont. bis Freit. 11-12
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Landesstaatsrecht</thema>: <dozent ref="wagner_rudolph"><grad>D.
+      jur.</grad> <nachname>Wagner</nachname></dozent>, <zeit>Mont. bis Freit.
+      11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-II-011"><thema>Deutsches Privatrecht mit
       Einschluss des Lehnrechts</thema>: <dozent ref="friedberg_ea"><grad>D.
@@ -475,7 +475,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-II-015"><thema>Preussisches
-      Privatrecht</thema>: <dozent><grad>D. jur.</grad>
+      Privatrecht</thema>: <dozent ref="weismann_j"><grad>D. jur.</grad>
       <nachname>Weismann</nachname></dozent>, <zeit>Dienst. bis Sonnab. 10-11
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -565,14 +565,14 @@
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-II-029"><thema>Strafrechts-Repetitorium
-      mit praktischen Uebungen</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Weismann</nachname></dozent>, <zeit>Mont. 11-1 U.</zeit>,
-      <modus>privatissime</modus>.</veranstaltung>
+      mit praktischen Uebungen</thema>: <dozent ref="weismann_j"><grad>D.
+      jur.</grad> <nachname>Weismann</nachname></dozent>, <zeit>Mont. 11-1
+      U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-II-030"><thema>Repetitorium des Handels-,
-      Wechsel- und Seerechts</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Wagner</nachname></dozent>, <zeit>Sonnab. 11-1 U.</zeit>,
-      <modus>privatissime</modus>.</veranstaltung>
+      Wechsel- und Seerechts</thema>: <dozent ref="wagner_rudolph"><grad>D.
+      jur.</grad> <nachname>Wagner</nachname></dozent>, <zeit>Sonnab. 11-1
+      U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Gerichtliche Medicin für Juristen</thema>:
       <dozent ref="sonnenkalb_h"><grad>D. med.</grad>
@@ -836,9 +836,9 @@
       <veranstaltung xml:id="v-1883s-III-036"><thema>Praktisch-mikroskopischer
       Cursus der pathologischen Histologie</thema>: <dozent
       ref="cohnheim_jf"><grad>D. med.</grad> <nachname>Cohnheim</nachname>,
-      <funktion>P. O.</funktion></dozent> und <dozent><grad>D. med.</grad>
-      <nachname>Weigert</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mittw. u. Donnerst. 11-1 U.</zeit>,
+      <funktion>P. O.</funktion></dozent> und <dozent ref="weigert_c"><grad>D.
+      med.</grad> <nachname>Weigert</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mittw. u. Donnerst. 11-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-037"><thema>Experimentelle und
@@ -849,7 +849,7 @@
       aber <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-038"><thema>Specielle pathologische
-      Anatomie</thema>: <dozent><grad>D. med.</grad>
+      Anatomie</thema>: <dozent ref="weigert_c"><grad>D. med.</grad>
       <nachname>Weigert</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont. bis Freit. 5-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -2431,8 +2431,8 @@
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsches Reichs- und
-        Landesstaatsrecht</thema>: <dozent><grad>D. jur.</grad>
-        <nachname>Wagner</nachname></dozent>. <siehe>Siehe
+        Landesstaatsrecht</thema>: <dozent ref="wagner_rudolph"><grad>D.
+        jur.</grad> <nachname>Wagner</nachname></dozent>. <siehe>Siehe
         <gesperrt>Juristische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
@@ -2602,8 +2602,8 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1883s-IV.F-015"><thema>Einleitung in die
-        analytische Geometrie der Ebene und des Raumes</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Dyck</nachname></dozent>,
+        analytische Geometrie der Ebene und des Raumes</thema>: <dozent
+        ref="dyck_w"><grad>D. ph.</grad> <nachname>Dyck</nachname></dozent>,
         <zeit>Dienst. bis Freit. 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -2650,14 +2650,15 @@
         <veranstaltung xml:id="v-1883s-IV.F-021"><thema>Geometrische Uebungen
         in Verbindung mit den Elementen der darstellenden Geometrie (in
         Anschluss an die Vorlesung über analytische Geometrie etc.)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Dyck</nachname></dozent>,
-        <zeit>Mont. 9-11 U. u. Donnerst. 3-5 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="dyck_w"><grad>D. ph.</grad>
+        <nachname>Dyck</nachname></dozent>, <zeit>Mont. 9-11 U. u. Donnerst.
+        3-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1883s-IV.F-022"><thema>Vorträge und Uebungen
-        über einzelne Theile der Functionentheorie</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Dyck</nachname></dozent>, <zeit>zweistündig, an
-        zu best. Tagen und Stunden</zeit>, <modus>privatissime</modus>, aber
+        über einzelne Theile der Functionentheorie</thema>: <dozent
+        ref="dyck_w"><grad>D. ph.</grad> <nachname>Dyck</nachname></dozent>,
+        <zeit>zweistündig, an zu best. Tagen und Stunden</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -2667,7 +2668,7 @@
         <titel>G. Naturwissenschaften.</titel>
 
         <veranstaltung xml:id="v-1883s-IV.G-001"><thema>Uebersicht der
-        Physik</thema>: <dozent><grad>D. ph.</grad>
+        Physik</thema>: <dozent ref="weiske_ha"><grad>D. ph.</grad>
         <nachname>Weiske</nachname></dozent>, <zeit>zweistündig, an zu best.
         Tagen und Stunden</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
