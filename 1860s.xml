@@ -543,14 +543,14 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1860s-I.III.1-006"><thema>Das Zeitalter
-        Napoleons I.</thema>: <dozent><grad>D. ph.</grad>
+        Napoleons I.</thema>: <dozent ref="wuttke_h"><grad>D. ph.</grad>
         <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. 2 T.</zeit></veranstaltung>
 
         <trennlinie/>
 
         <veranstaltungsverweis><thema>Ueber Quellen der deutschen
-        Geschichte</thema>: <dozent><grad>D. ph.</grad>
+        Geschichte</thema>: <dozent ref="wuttke_h"><grad>D. ph.</grad>
         <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
         <siehe>s. histor. Uebb.</siehe></veranstaltungsverweis>
 
@@ -620,9 +620,9 @@
 
           <veranstaltung xml:id="v-1860s-I.III.1.002-001"><thema>Historisches
           Seminar: über historische Hülfswissenschaften und Quellen der
-          deutschen Geschichte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>3stünd. in zu best. T. und St.</zeit>
+          deutschen Geschichte</thema>: <dozent ref="wuttke_h"><grad>D.
+          ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>3stünd. in zu best. T. und St.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -671,9 +671,9 @@
         <titel>3. Historische Hülfswissenschaften.</titel>
 
         <veranstaltungsverweis><thema>Historische Hülfswissenschaften</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. hist.
-        Uebb.</siehe></veranstaltungsverweis>
+        <dozent ref="wuttke_h"><grad>D. ph.</grad>
+        <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. hist. Uebb.</siehe></veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1860s-I.III.3-001"><thema>Ueber griechische
         Paläographie</thema>: <dozent ref="tischendorf_lfk"><grad>D.</grad>
@@ -1392,7 +1392,8 @@
           <zeit>10-12 U. 6 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1860s-II.B.II.1-004"><thema>Das
-          Römisch-deutsche Familienrecht</thema>: <dozent><grad>D.</grad>
+          Römisch-deutsche Familienrecht</thema>: <dozent
+          ref="waechter_kg"><grad>D.</grad>
           <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Wächter</nachname>,
           <funktion>P. O.</funktion>, d. Z.
           <funktion>Rect.</funktion></dozent>, <zeit>10-12 U. 2 T. (Freit. u.
@@ -1548,7 +1549,8 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1860s-II.B.III-002"><thema>Das deutsche und
-        sächsische Criminalrecht</thema>: <dozent><grad>D.</grad>
+        sächsische Criminalrecht</thema>: <dozent
+        ref="waechter_kg"><grad>D.</grad>
         <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Wächter</nachname>,
         <funktion>P. O.</funktion>, d. Z. <funktion>Rect.</funktion></dozent>,
         <zeit>10-12 U. 4 T. (Mont., Dienst., Mittw. u.
@@ -1686,7 +1688,7 @@
         <titel>I. Propädeutik und Geschichte der Medicin.</titel>
 
         <veranstaltung xml:id="v-1860s-II.C.I-001"><thema>Einleitung in das
-        Studium der Medicin</thema>: <dozent><grad>D.</grad>
+        Studium der Medicin</thema>: <dozent ref="winter_ja"><grad>D.</grad>
         <nachname>Winter</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>4 U. 4 T. während der ersten 2-4 Wochen des Semesters</zeit>,
         <modus>öffentlich</modus>.</veranstaltung>
@@ -1873,9 +1875,9 @@
         Freitag.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1860s-II.C.VI-005"><thema>Receptirkunst nebst
-        praktischen Uebungen im Receptschreiben</thema>:
-        <dozent><grad>D.</grad> <nachname>Winter</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>5 U. Mittw.</zeit>,
+        praktischen Uebungen im Receptschreiben</thema>: <dozent
+        ref="winter_ja"><grad>D.</grad> <nachname>Winter</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>5 U. Mittw.</zeit>,
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1860s-II.C.VI-006"><thema>Pharmacie</thema>:
@@ -1906,12 +1908,14 @@
 
         <veranstaltung xml:id="v-1860s-II.C.VII-001"><thema>Specielle
         Pathologie und Therapie (Krankheiten der Digestionsorgane)</thema>:
-        <dozent><grad>D.</grad> <nachname>Wunderlich</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="wunderlich_kra"><grad>D.</grad>
+        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>4 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1860s-II.C.VII-002"><thema>Ueber acute
-        Constitutionskrankheiten</thema>: <ders>Derselbe</ders>, <zeit>3-5 U.
-        Mittw.</zeit>, <modus>öffentlich</modus>.</veranstaltung>
+        Constitutionskrankheiten</thema>: <ders
+        ref="wunderlich_kra">Derselbe</ders>, <zeit>3-5 U. Mittw.</zeit>,
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1860s-II.C.VII-003"><thema>Ueber die
         Krankheiten der Gebärmutter</thema>: <dozent
@@ -2078,7 +2082,7 @@
 
         <veranstaltung xml:id="v-1860s-II.C.XII-001"><thema>Medicinische
         Klinik <ort>im Jacobshospital</ort>, mit Einschluss der
-        Kinderklinik</thema>: <dozent><grad>D.</grad>
+        Kinderklinik</thema>: <dozent ref="wunderlich_kra"><grad>D.</grad>
         <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>9½-11 U. 6 Tage</zeit>.</veranstaltung>
 
@@ -2122,10 +2126,10 @@
 
         <veranstaltung xml:id="v-1860s-II.C.XII-008"><thema>Klinische Vorträge
         über Augen- u. Ohrenkrankheiten <ort>in seiner
-        Privatpoliklinik</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Winter</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>12 U. 2 T. (Dienst. u. Freit.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Privatpoliklinik</ort></thema>: <dozent
+        ref="winter_ja"><grad>D.</grad> <nachname>Winter</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. u.
+        Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1860s-II.C.XII-009"><thema>Propädeutische
         Klinik der Augenkrankheiten</thema>: <dozent

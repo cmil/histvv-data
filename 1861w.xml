@@ -518,9 +518,9 @@
         <titel>1. Weltgeschichte.</titel>
 
         <veranstaltungsverweis><thema>Quellen des Mittelalters</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. histor.
-        Sem.</siehe></veranstaltungsverweis>
+        <dozent ref="wuttke_h"><grad>D. ph.</grad>
+        <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. histor. Sem.</siehe></veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1861w-I.III.1-001"><thema>Einharti vita
         Karoli Magni, vom historischen Standpunkte aus erläutert</thema>:
@@ -537,7 +537,7 @@
 
         <veranstaltung xml:id="v-1861w-I.III.1-003"><thema>Neuere Geschichte
         Europa's von der Mitte des 17. bis zur Mitte des 18.
-        Jahrhunderts</thema>: <dozent><grad>D. ph.</grad>
+        Jahrhunderts</thema>: <dozent ref="wuttke_h"><grad>D. ph.</grad>
         <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. 3 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -599,7 +599,7 @@
 
           <veranstaltung xml:id="v-1861w-I.III.1.002-001"><thema>Historisches
           Seminar: Historische Hülfswissenschaften und Quellen des
-          Mittelalters</thema>: <dozent><grad>D. ph.</grad>
+          Mittelalters</thema>: <dozent ref="wuttke_h"><grad>D. ph.</grad>
           <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>3 St. in zu best. T. und St.</zeit>
           <modus>privatissime</modus> aber
@@ -667,9 +667,9 @@
         <titel>3. Historische Hülfswissenschaften.</titel>
 
         <veranstaltungsverweis><thema>Historische Hülfswissenschaften</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. hist.
-        Sem.</siehe></veranstaltungsverweis>
+        <dozent ref="wuttke_h"><grad>D. ph.</grad>
+        <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. hist. Sem.</siehe></veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1861w-I.III.3-001"><thema>Griechische
         Inschriftenkunde (nach lithographirten Tafeln)</thema>: <dozent
@@ -1371,14 +1371,16 @@
 
           <veranstaltung xml:id="v-1861w-II.B.II.1-004"><thema>Pandekten, mit
           Ausnahme des Familien- und Erbrechts (nach Arndts Lehrbuch)</thema>:
-          <dozent><grad>D.</grad> <nachnamenpräfix>v.</nachnamenpräfix>
-          <nachname>Wächter</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>11-1 U. 6 Tage</zeit>.</veranstaltung>
+          <dozent ref="waechter_kg"><grad>D.</grad>
+          <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Wächter</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>11-1 U. 6
+          Tage</zeit>.</veranstaltung>
 
           <trennlinie/>
 
           <veranstaltung xml:id="v-1861w-II.B.II.1-005"><thema>Ausgewählte
-          Lehren des Pandektenrechts</thema>: <dozent><grad>D.</grad>
+          Lehren des Pandektenrechts</thema>: <dozent
+          ref="waechter_kg"><grad>D.</grad>
           <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Wächter</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>4-6 U. (Freit. u.
           Sonnabend) 2 Tage</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -1654,7 +1656,7 @@
         <titel>I. Propädeutik und Geschichte der Medicin.</titel>
 
         <veranstaltung xml:id="v-1861w-II.C.I-001"><thema>Einleitung in das
-        Studium der Medicin</thema>: <dozent><grad>D.</grad>
+        Studium der Medicin</thema>: <dozent ref="winter_ja"><grad>D.</grad>
         <nachname>Winter</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>4 U. 4 T.</zeit> <thema>während der ersten beiden Wochen des
         Semesters</thema>, <modus>öffentlich</modus>.</veranstaltung>
@@ -1827,9 +1829,9 @@
         Freit.)</zeit></veranstaltung>
 
         <veranstaltung
-        xml:id="v-1861w-II.C.VI-004"><thema>Receptirkunst</thema>:
-        <dozent><grad>D.</grad> <nachname>Winter</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>5 U. Mittw.</zeit>
+        xml:id="v-1861w-II.C.VI-004"><thema>Receptirkunst</thema>: <dozent
+        ref="winter_ja"><grad>D.</grad> <nachname>Winter</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>5 U. Mittw.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1861w-II.C.VI-005"><thema>Pharmacie</thema>:
@@ -1849,13 +1851,14 @@
         <titel>VII. Specielle Pathologie und Therapie.</titel>
 
         <veranstaltung xml:id="v-1861w-II.C.VII-001"><thema>Die gesammte
-        specielle Pathologie und Therapie</thema>: <dozent><grad>D.</grad>
-        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>4 U. 6 T. und in 4 weiteren Stunden</zeit>.</veranstaltung>
+        specielle Pathologie und Therapie</thema>: <dozent
+        ref="wunderlich_kra"><grad>D.</grad> <nachname>Wunderlich</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. 6 T. und in 4 weiteren
+        Stunden</zeit>.</veranstaltung>
 
         <veranstaltung xml:id="v-1861w-II.C.VII-002"><thema>Ueber Krankheiten
-        der Haut</thema>: <ders>Derselbe</ders>, <zeit>in 2 zu best.
-        St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        der Haut</thema>: <ders ref="wunderlich_kra">Derselbe</ders>, <zeit>in
+        2 zu best. St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1861w-II.C.VII-003"><thema>Ueber die
         Krankheiten des Kehlkopfs</thema>: <dozent
@@ -1998,9 +2001,10 @@
         <titel>XI. Klinik.</titel>
 
         <veranstaltung xml:id="v-1861w-II.C.XI-001"><thema>Medicinische Klinik
-        <ort>im Jacobshospital</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>10½-12 U. 6 T.</zeit></veranstaltung>
+        <ort>im Jacobshospital</ort></thema>: <dozent
+        ref="wunderlich_kra"><grad>D.</grad> <nachname>Wunderlich</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10½-12 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1861w-II.C.XI-002"><thema>Pädiatrische
         Poliklinik <ort>im Vordergebäude des Trierschen
@@ -2031,9 +2035,9 @@
 
         <veranstaltung xml:id="v-1861w-II.C.XI-006"><thema>Vorträge über
         Ohrenkrankheiten (<ort>in seiner Privatpoliklinik</ort>)</thema>:
-        <dozent><grad>D.</grad> <nachname>Winter</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. und Freit.)</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="winter_ja"><grad>D.</grad> <nachname>Winter</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>12 U. 2 T. (Dienst. und
+        Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1861w-II.C.XI-007"><thema>Geburtshilfliche
         und gynäkologische Klinik und Poliklinik</thema>: <dozent

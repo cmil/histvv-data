@@ -503,8 +503,8 @@
       des.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
       C.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Hygiene des Nervensystems</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Windscheid</nachname>,
+      <veranstaltungsverweis><thema>Hygiene des Nervensystems</thema>: <dozent
+      ref="windscheid_f"><grad>D. med.</grad> <nachname>Windscheid</nachname>,
       <funktion>P. E. des.</funktion></dozent> <siehe>Siehe Medizinische
       Fakultät.</siehe></veranstaltungsverweis>
 
@@ -821,7 +821,7 @@
       <siehe>Siehe Philosophische Fakultät E.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Geld-, Bank- und Börsenwesen - Grundzüge
-      der Sozialpolitik</thema>: <dozent><grad>D. ph.</grad>
+      der Sozialpolitik</thema>: <dozent ref="eulenburg_f"><grad>D. ph.</grad>
       <nachname>Eulenburg</nachname></dozent>. <siehe>Siehe Philosophische
       Fakultät E.</siehe></veranstaltungsverweis>
 
@@ -1143,14 +1143,14 @@
       vereinbar. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1903s-III-040"><thema>Hygiene des Nervensystems
-      (für Studierende aller Fakultäten)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Windscheid</nachname>, <funktion>P. E.
-      des.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
+      (für Studierende aller Fakultäten)</thema>: <dozent
+      ref="windscheid_f"><grad>D. med.</grad> <nachname>Windscheid</nachname>,
+      <funktion>P. E. des.</funktion></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1903s-III-041"><thema>Demonstration von
-      Unfallnervenkranken</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Windscheid</nachname>, <funktion>P. E.
+      Unfallnervenkranken</thema>: <dozent ref="windscheid_f"><grad>D.
+      med.</grad> <nachname>Windscheid</nachname>, <funktion>P. E.
       des.</funktion></dozent>, <zeit>Dienst. 5-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1209,7 +1209,7 @@
       Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1903s-III-051"><thema>Praktischer Kurs der
-      Hydrotherapie</thema>: <dozent><grad>D. med.</grad>
+      Hydrotherapie</thema>: <dozent ref="windscheid_f"><grad>D. med.</grad>
       <nachname>Windscheid</nachname>, <funktion>P. E.
       des.</funktion></dozent>, <zeit>Sonnab. 5-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1234,7 +1234,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1903s-III-055"><thema>Spezielle
-      Chirurgie</thema>: <dozent><grad>D. med.</grad>
+      Chirurgie</thema>: <dozent ref="wilms_m"><grad>D. med.</grad>
       <nachname>Wilms</nachname></dozent>, <zeit>Donnerst. 5 bis 6 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
@@ -1271,9 +1271,10 @@
       Ab.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1903s-III-061"><thema>Verbandkurs mit
-      Berücksichtigung der Frakturen und Luxationen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Wilms</nachname></dozent>, <zeit>Mont., Dienst. u.
-      Donnerst. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Berücksichtigung der Frakturen und Luxationen</thema>: <dozent
+      ref="wilms_m"><grad>D. med.</grad> <nachname>Wilms</nachname></dozent>,
+      <zeit>Mont., Dienst. u. Donnerst. 4-5 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1903s-III-062"><thema>Chirurgische
       Anästhesierungsmethoden</thema>: <dozent ref="braun_h"><grad>D.
@@ -1654,11 +1655,12 @@
           <modus>privatim</modus>. (<ort>Königsstr. 14.
           I.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1903s-III.002.a-002"><dozent><grad>D.
-          med.</grad> <nachname>Windscheid</nachname>, <funktion>P. E.
-          des.</funktion> (für Nervenkrankheiten)</dozent>, <zeit>tägl. oder
-          dreimal wöchentl. 2-3 U.</zeit>, <modus>privatim</modus>.
-          (<ort>Königsstr. 14. I.</ort>)</veranstaltung>
+          <veranstaltung xml:id="v-1903s-III.002.a-002"><dozent
+          ref="windscheid_f"><grad>D. med.</grad>
+          <nachname>Windscheid</nachname>, <funktion>P. E. des.</funktion>
+          (für Nervenkrankheiten)</dozent>, <zeit>tägl. oder dreimal wöchentl.
+          2-3 U.</zeit>, <modus>privatim</modus>. (<ort>Königsstr. 14.
+          I.</ort>)</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1903s-III.002.b">
@@ -1822,7 +1824,7 @@
       C.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Morphologie und Physiologie der
-      Zelle</thema>: <dozent><grad>D. ph.</grad>
+      Zelle</thema>: <dozent ref="woltereck_r"><grad>D. ph.</grad>
       <nachname>Woltereck</nachname></dozent>. <siehe>Siehe Philosophische
       Fakultät G.</siehe></veranstaltungsverweis>
     </sachgruppe>
@@ -1855,9 +1857,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1903s-IV.A-004"><thema>Die psychologischen
-        Grundlagen der Ästhetik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Wirth</nachname></dozent>, <zeit>Dienst. u. Freit. 11-12
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Grundlagen der Ästhetik</thema>: <dozent ref="wirth_w"><grad>D.
+        ph.</grad> <nachname>Wirth</nachname></dozent>, <zeit>Dienst. u.
+        Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1903s-IV.A-005"><thema>Die Philosophie
         Kants</thema>: <dozent ref="volkelt_j"><grad>D. ph.</grad>
@@ -1925,8 +1927,9 @@
         Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Hygiene des Nervensystems</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Windscheid</nachname>,
-        <funktion>P. E. des.</funktion></dozent> <siehe>Siehe Medizinische
+        <dozent ref="windscheid_f"><grad>D. med.</grad>
+        <nachname>Windscheid</nachname>, <funktion>P. E.
+        des.</funktion></dozent> <siehe>Siehe Medizinische
         Fakultät.</siehe></veranstaltungsverweis>
 
         <trennlinie/>
@@ -1934,9 +1937,10 @@
         <veranstaltungsgruppe><thema>Psychologisches Laboratorium</thema>:
         <veranstaltung xml:id="v-1903s-IV.A-011">a) <thema>Einführungskursus
         zur experimentellen Psychologie (nur für Mitglieder des
-        Instituts)</thema>: <dozent><funktion>Assistent</funktion> <grad>D.
-        ph.</grad> <nachname>Wirth</nachname></dozent> (<notiz
-        betreff="dozent">im Auftrag des Direktors</notiz>), <zeit>Sonnab. 11-1
+        Instituts)</thema>: <dozent
+        ref="wirth_w"><funktion>Assistent</funktion> <grad>D. ph.</grad>
+        <nachname>Wirth</nachname></dozent> (<notiz betreff="dozent">im
+        Auftrag des Direktors</notiz>), <zeit>Sonnab. 11-1
         U.</zeit></veranstaltung>, <veranstaltung xml:id="v-1903s-IV.A-012">b)
         <thema>Spezielle Arbeiten und Übungen der Teilnehmer</thema>: <dozent
         ref="wundt_w"><grad>D. ph., jur. et med.</grad>
@@ -2223,28 +2227,29 @@
 
           <veranstaltung
           xml:id="v-1903s-IV.B.b-001"><thema>Sanskrit-Grammatik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Windisch</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mont., Dienst. u.
-          Donnerst. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="windisch_e"><grad>D. ph.</grad>
+          <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mont., Dienst. u. Donnerst. 3-4 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1903s-IV.B.b-002"><thema>Böhtlingk's
-          Sanskrit-Chrestomathie</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
+          Sanskrit-Chrestomathie</thema>: <dozent ref="windisch_e"><grad>D.
+          ph.</grad> <nachname>Windisch</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1903s-IV.B.b-003"><thema>Ṛgveda</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Windisch</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Mont. 4-5 U.</zeit>,
-          <gebühr>gratis</gebühr>.</veranstaltung>
+          <dozent ref="windisch_e"><grad>D. ph.</grad>
+          <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Mont. 4-5 U.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1903s-IV.B.b-004"><thema>Buddha's Leben und
-          Lehre</thema>: <dozent><grad>D. ph.</grad>
+          Lehre</thema>: <dozent ref="windisch_e"><grad>D. ph.</grad>
           <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Freit. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1903s-IV.B.b-005"><thema>Kālidāsa's
-          Sakuntalā</thema>: <dozent><grad>D. ph.</grad>
+          Sakuntalā</thema>: <dozent ref="windisch_e"><grad>D. ph.</grad>
           <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Donnerst. 4-5 U.</zeit>,
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2501,21 +2506,23 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1903s-IV.B.c-010"><thema>Geschichte der
-          deutschen Litteratur im Zeitalter der Romantik</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Witkowski</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>Dienst., Donnerst. u.
-          Freit. 8-9 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          deutschen Litteratur im Zeitalter der Romantik</thema>: <dozent
+          ref="witkowski_g"><grad>D. ph.</grad>
+          <nachname>Witkowski</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Dienst., Donnerst. u. Freit. 8-9 U. Vorm.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1903s-IV.B.c-011"><thema>Lessing und seine
-          Zeit</thema>: <dozent><grad>D. ph.</grad>
+          Zeit</thema>: <dozent ref="witkowski_g"><grad>D. ph.</grad>
           <nachname>Witkowski</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Dienst., Donnerst. u. Freit. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1903s-IV.B.c-012"><thema>Theorie und
-          Technik des deutschen Dramas der Gegenwart</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Witkowski</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mittw. 8-9 U. Vorm.</zeit>,
+          Technik des deutschen Dramas der Gegenwart</thema>: <dozent
+          ref="witkowski_g"><grad>D. ph.</grad>
+          <nachname>Witkowski</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Mittw. 8-9 U. Vorm.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Lateinische und deutsche
@@ -2575,10 +2582,10 @@
 
           <veranstaltung
           xml:id="v-1903s-IV.B.c-021"><thema>Litterarhistorische Übungen (für
-          Vorgerückte): Schleiermachers "Monologen"</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Witkowski</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>Mittw. 4-5½ U.</zeit>,
-          <modus>privatissime</modus>, aber
+          Vorgerückte): Schleiermachers "Monologen"</thema>: <dozent
+          ref="witkowski_g"><grad>D. ph.</grad>
+          <nachname>Witkowski</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Mittw. 4-5½ U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Philosophisch-pädagogisches
@@ -2609,10 +2616,10 @@
 
           <veranstaltung xml:id="v-1903s-IV.B.d-001"><thema>Altenglische
           Litteraturgeschichte (vom Anfang des 12. Jahrhunderts bis zum
-          Ausgang des 15.)</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Wülker</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mont., Dienst. u. Donnerst. 11-12 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          Ausgang des 15.)</thema>: <dozent ref="wuelker_rp"><grad>D.
+          ph.</grad> <nachname>Wülker</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mont., Dienst. u. Donnerst. 11-12
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1903s-IV.B.d-002"><thema>Erklärung des
           mittelenglischen Spielmannsgedichts Havelok</thema>: <dozent
@@ -2687,7 +2694,7 @@
 
           <veranstaltungsgruppe><thema>Englisches Seminar</thema>:
           <veranstaltung xml:id="v-1903s-IV.B.d-013"><thema>1.
-          Abtheilung</thema>: <dozent><grad>D. ph.</grad>
+          Abtheilung</thema>: <dozent ref="wuelker_rp"><grad>D. ph.</grad>
           <nachname>Wülker</nachname>, <funktion>P. O.</funktion></dozent>,
           <thema>Altenglische Übungen (nach dem 2. Teil seines Altengl.
           Lesebuches)</thema>, <zeit>Mont. 6-8 U.</zeit>,
@@ -2910,8 +2917,8 @@
 
         <veranstaltung xml:id="v-1903s-IV.C-024"><thema>Die Naturvölker
         Amerikas. Mit Demonstrationen im Museum für Völkerkunde</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Weule</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont. 9-10 U.</zeit>,
+        <dozent ref="weule_k"><grad>D. ph.</grad> <nachname>Weule</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1903s-IV.C-025"><thema>Die wissenschaftliche
@@ -2923,7 +2930,7 @@
         <veranstaltung xml:id="v-1903s-IV.C-026"><thema>Die Waffen und
         Werkzeuge, ihre Entstehung, Entwicklung und Verbreitung. Mit
         Demonstrationen im Museum für Völkerkunde (für Hörer aller
-        Fakultäten)</thema>: <dozent><grad>D. ph.</grad>
+        Fakultäten)</thema>: <dozent ref="weule_k"><grad>D. ph.</grad>
         <nachname>Weule</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. u. Donnerst. 9-10 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -3141,7 +3148,7 @@ transkribiert!--></thema>: <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
 
             <veranstaltung xml:id="v-1903s-IV.C.002.001-005"><thema>Übungen
             und Besprechungen über ausgewählte Kapitel aus dem Gebiete der
-            Ethnologie</thema>: <dozent><grad>D. ph.</grad>
+            Ethnologie</thema>: <dozent ref="weule_k"><grad>D. ph.</grad>
             <nachname>Weule</nachname>, <funktion>P. E.</funktion></dozent>,
             <zeit>Mont. 7-8 U. Ab.</zeit>, <modus>privatissime</modus>, aber
             <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3400,12 +3407,12 @@ transkribiert!--></thema>: <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
 
         <veranstaltung
         xml:id="v-1903s-IV.E-004"><thema>Geld-<korrektur>,</korrektur> Banken-
-        und Börsenwesen</thema>: <dozent><grad>D. ph.</grad>
+        und Börsenwesen</thema>: <dozent ref="eulenburg_f"><grad>D. ph.</grad>
         <nachname>Eulenburg</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1903s-IV.E-005"><thema>Grundzüge der
-        Sozialpolitik</thema>: <dozent><grad>D. ph.</grad>
+        Sozialpolitik</thema>: <dozent ref="eulenburg_f"><grad>D. ph.</grad>
         <nachname>Eulenburg</nachname></dozent>, <zeit>Mont. u. Donnerst. 6-7
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3629,8 +3636,9 @@ transkribiert!--></thema>: <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
         U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung> - <veranstaltung
         xml:id="v-1903s-IV.E-027">Ausserdem in seinem Auftrage: a) durch
-        <dozent><grad>D. ph.</grad> <nachname>Eulenburg</nachname></dozent>:
-        <thema>Vorbereitungskursus für Anfänger</thema>: <zeit>Sonnab. 8-10
+        <dozent ref="eulenburg_f"><grad>D. ph.</grad>
+        <nachname>Eulenburg</nachname></dozent>: <thema>Vorbereitungskursus
+        für Anfänger</thema>: <zeit>Sonnab. 8-10
         U.</zeit></veranstaltung></veranstaltungsgruppe> - <veranstaltung
         xml:id="v-1903s-IV.E-028">2) <dozent ref="fricker_cv"><grad>D. ph.,
         jur. et oec. publ.</grad> <nachname>Fricker</nachname>, <funktion>P.
@@ -4049,9 +4057,9 @@ transkribiert!--></thema>: <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1903s-IV.G-030"><thema>Morphologie und
-        Physiologie der Zelle</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Woltereck</nachname></dozent>, <zeit>einstünd. in noch zu
-        best. Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Physiologie der Zelle</thema>: <dozent ref="woltereck_r"><grad>D.
+        ph.</grad> <nachname>Woltereck</nachname></dozent>, <zeit>einstünd. in
+        noch zu best. Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1903s-IV.G-031"><thema>Naturgeschichte der
         Insekten</thema>: <dozent ref="strassen_o"><grad>D. ph.</grad>
@@ -4255,10 +4263,10 @@ transkribiert!--></thema>: <dozent ref="wachsmuth_c"><grad>D. ph.</grad>
         xml:id="v-1903s-IV.G-056">a) <thema>für
         Anfänger</thema></veranstaltung>,<veranstaltung
         xml:id="v-1903s-IV.G-057"> b) <thema>für
-        Fortgeschrittenere</thema></veranstaltung>: <dozent><grad>D.
-        ph.</grad> <nachname>Woltereck</nachname></dozent>, <zeit>in zwei noch
-        zu best. Stunden</zeit>,
-        <modus>privatim</modus>.</veranstaltungsgruppe>
+        Fortgeschrittenere</thema></veranstaltung>: <dozent
+        ref="woltereck_r"><grad>D. ph.</grad>
+        <nachname>Woltereck</nachname></dozent>, <zeit>in zwei noch zu best.
+        Stunden</zeit>, <modus>privatim</modus>.</veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Chemisches Praktikum für
         Mediziner</thema>: <dozent ref="beckmann_eo"><grad>D. ph.</grad>

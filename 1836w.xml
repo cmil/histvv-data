@@ -356,9 +356,9 @@
           <sachgruppe xml:id="sg-1836w-I.I.2.b.005">
             <titel>Englische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1836w-I.I.2.b.005-001"><dozent><nachname>Flügel</nachname>,
-            <grad>M.</grad> <vorname>J. G.</vorname>, <funktion>Lect.
+            <veranstaltung xml:id="v-1836w-I.I.2.b.005-001"><dozent
+            ref="fluegel_jg"><nachname>Flügel</nachname>, <grad>M.</grad>
+            <vorname>J. G.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>über Capt. Marryat's Newton
             Forster, Erklärung mit Rücksicht auf Aussprache und
             Grammatik</thema>, <zeit>2 T. in zu best. St.</zeit>
@@ -1056,11 +1056,10 @@ verknüpft werden.--></veranstaltungsgruppe>
           <sachgruppe xml:id="sg-1836w-II.A.I.1.002">
             <titel>Hermeneutik des N. T.</titel>
 
-            <veranstaltung
-            xml:id="v-1836w-II.A.I.1.002-001"><dozent><nachname>Winer</nachname>,
-            <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <zeit>Mittw. 9-11 U. Sonnab. 9
-            U.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1836w-II.A.I.1.002-001"><dozent
+            ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+            <vorname>G. B.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <zeit>Mittw. 9-11 U. Sonnab. 9 U.</zeit></veranstaltung>
           </sachgruppe>
 
           <seite>10</seite>
@@ -1068,11 +1067,11 @@ verknüpft werden.--></veranstaltungsgruppe>
           <sachgruppe xml:id="sg-1836w-II.A.I.1.003">
             <titel>Erklärung des A. T.</titel>
 
-            <veranstaltung
-            xml:id="v-1836w-II.A.I.1.003-001"><dozent><nachname>Winzer</nachname>,
-            <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P.
-            Prim.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <thema>Erklärung der Psalmen</thema>, <zeit>11 U. 4 T.</zeit>
+            <veranstaltung xml:id="v-1836w-II.A.I.1.003-001"><dozent
+            ref="winzer_jf"><nachname>Winzer</nachname>, <grad>D.</grad>
+            <vorname>J. F.</vorname>, <funktion>P. Prim.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <thema>Erklärung der
+            Psalmen</thema>, <zeit>11 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung xml:id="v-1836w-II.A.I.1.003-002"><dozent
@@ -1111,19 +1110,18 @@ verknüpft werden.--></veranstaltungsgruppe>
           <sachgruppe xml:id="sg-1836w-II.A.I.1.004">
             <titel>Erklärung des N. T.</titel>
 
-            <veranstaltung
-            xml:id="v-1836w-II.A.I.1.004-001"><dozent><nachname>Winzer</nachname>,
-            <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P.
-            Prim.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <thema>Erklärung der Briefe an die Galater, Epheser, Philipper,
-            Kolosser und Thessalonicher</thema>, <zeit>8 U. 4
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1836w-II.A.I.1.004-001"><dozent
+            ref="winzer_jf"><nachname>Winzer</nachname>, <grad>D.</grad>
+            <vorname>J. F.</vorname>, <funktion>P. Prim.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <thema>Erklärung der Briefe
+            an die Galater, Epheser, Philipper, Kolosser und
+            Thessalonicher</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1836w-II.A.I.1.004-002"><dozent><nachname>Winer</nachname>,
-            <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <thema>Erklärung des Briefs an die
-            Hebräer</thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1836w-II.A.I.1.004-002"><dozent
+            ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+            <vorname>G. B.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <thema>Erklärung des Briefs an die Hebräer</thema>, <zeit>9 U. 4
+            T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1836w-II.A.I.1.004-003"><dozent
             ref="krehl_alg"><nachname>Krehl</nachname>, <grad>D.</grad>
@@ -1170,12 +1168,12 @@ verknüpft werden.--></veranstaltungsgruppe>
           <sachgruppe xml:id="sg-1836w-II.A.I.1.005">
             <titel>Uebungen exegetischer Gesellschaften.</titel>
 
-            <veranstaltung
-            xml:id="v-1836w-II.A.I.1.005-001"><dozent><nachname>Winzer</nachname>,
-            <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P.
-            Prim.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <thema>Uebungen der Lausitzer Gesellschaft</thema>, <zeit>in den
-            best. T. und St.</zeit> <modus>privatissime</modus>, aber
+            <veranstaltung xml:id="v-1836w-II.A.I.1.005-001"><dozent
+            ref="winzer_jf"><nachname>Winzer</nachname>, <grad>D.</grad>
+            <vorname>J. F.</vorname>, <funktion>P. Prim.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <thema>Uebungen der
+            Lausitzer Gesellschaft</thema>, <zeit>in den best. T. und
+            St.</zeit> <modus>privatissime</modus>, aber
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <veranstaltung xml:id="v-1836w-II.A.I.1.005-002"><dozent
@@ -1248,12 +1246,12 @@ verknüpft werden.--></veranstaltungsgruppe>
           <sachgruppe xml:id="sg-1836w-II.A.I.2.002">
             <titel>Archäologie der christlichen Kirche.</titel>
 
-            <veranstaltung
-            xml:id="v-1836w-II.A.I.2.002-001"><dozent><nachname>Winer</nachname>,
-            <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <thema kontext="sachgruppe">mit
-            Berücksichtigung des Kirchenrechts</thema>, <zeit>10 U. 4
-            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1836w-II.A.I.2.002-001"><dozent
+            ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+            <vorname>G. B.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <thema kontext="sachgruppe">mit Berücksichtigung des
+            Kirchenrechts</thema>, <zeit>10 U. 4 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1836w-II.A.I.2.003">

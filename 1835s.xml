@@ -360,9 +360,9 @@
           <sachgruppe xml:id="sg-1835s-I.I.2.b.005">
             <titel>Englische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1835s-I.I.2.b.005-001"><dozent><nachname>Flügel</nachname>,
-            <grad>M.</grad> <vorname>J. G.</vorname>, <funktion>Lect.
+            <veranstaltung xml:id="v-1835s-I.I.2.b.005-001"><dozent
+            ref="fluegel_jg"><nachname>Flügel</nachname>, <grad>M.</grad>
+            <vorname>J. G.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>Erklärung des "<schrift>The
             Darling seduced</schrift>"</thema>, <zeit>1 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
@@ -443,9 +443,10 @@
       <sachgruppe xml:id="sg-1835s-I.II.3">
         <titel>3) Alterthumskunde.</titel>
 
-        <veranstaltungsverweis><dozent><nachname>Winer</nachname>,
-        <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P. O.</funktion>,
-        d. Z. <funktion>Dechant</funktion></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad> <vorname>G.
+        B.</vorname>, <funktion>P. O.</funktion>, d. Z.
+        <funktion>Dechant</funktion></dozent>, <siehe>s.
         Theologie</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1835s-I.II.3-001"><dozent
@@ -979,13 +980,13 @@ Veranstaltung?) -->, <zeit>11 U. 4 T.</zeit></veranstaltung>
         <sachgruppe xml:id="sg-1835s-II.A.I.001">
           <titel>Theologische Encyklopädie und Methodologie.</titel>
 
-          <veranstaltung
-          xml:id="v-1835s-II.A.I.001-001"><dozent><nachname>Winer</nachname>,
-          <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-          O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-          <thema>Anleitung zum akademischen Studium der Theologie</thema>,
-          <zeit>in den ersten Wochen des Semesters, 2 T. (Mont. u. Donn.) 10
-          U.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1835s-II.A.I.001-001"><dozent
+          ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+          <vorname>G. B.</vorname>, <funktion>P. O.</funktion>, d. Z.
+          <funktion>Dechant</funktion></dozent>, <thema>Anleitung zum
+          akademischen Studium der Theologie</thema>, <zeit>in den ersten
+          Wochen des Semesters, 2 T. (Mont. u. Donn.) 10 U.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1835s-II.A.I.1">
@@ -1011,13 +1012,13 @@ Veranstaltung?) -->, <zeit>11 U. 4 T.</zeit></veranstaltung>
           <sachgruppe xml:id="sg-1835s-II.A.I.1.002">
             <titel>Biblische Alterthumswissenschaft.</titel>
 
-            <veranstaltung
-            xml:id="v-1835s-II.A.I.1.002-001"><dozent><nachname>Winer</nachname>,
-            <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-            O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <thema>Geschichte des hebräischen Volks, nach s. Sätzen</thema>,
-            <zeit>10 U. 4 T. (in den ersten Wochen jedoch nur 2 T. Dienst. u.
-            Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1835s-II.A.I.1.002-001"><dozent
+            ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+            <vorname>G. B.</vorname>, <funktion>P. O.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <thema>Geschichte des
+            hebräischen Volks, nach s. Sätzen</thema>, <zeit>10 U. 4 T. (in
+            den ersten Wochen jedoch nur 2 T. Dienst. u. Freit.)</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1835s-II.A.I.1.003">
@@ -1032,13 +1033,12 @@ Veranstaltung?) -->, <zeit>11 U. 4 T.</zeit></veranstaltung>
           <sachgruppe xml:id="sg-1835s-II.A.I.1.004">
             <titel>Erklärung des A. T.</titel>
 
-            <veranstaltung
-            xml:id="v-1835s-II.A.I.1.004-001"><dozent><nachname>Winzer</nachname>,
-            <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P.
-            Prim.</funktion></dozent>, <thema>Erklärung des Buches
-            <schrift>Koheleth</schrift>, dann ausgewählter prophetischer
-            Abschnitte</thema>, <zeit>8 U. 4 T.</zeit>
-            <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1835s-II.A.I.1.004-001"><dozent
+            ref="winzer_jf"><nachname>Winzer</nachname>, <grad>D.</grad>
+            <vorname>J. F.</vorname>, <funktion>P. Prim.</funktion></dozent>,
+            <thema>Erklärung des Buches <schrift>Koheleth</schrift>, dann
+            ausgewählter prophetischer Abschnitte</thema>, <zeit>8 U. 4
+            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <seite>10</seite>
 
@@ -1071,25 +1071,23 @@ Veranstaltung?) -->, <zeit>11 U. 4 T.</zeit></veranstaltung>
           <sachgruppe xml:id="sg-1835s-II.A.I.1.005">
             <titel>Erklärung des N. T.</titel>
 
-            <veranstaltung
-            xml:id="v-1835s-II.A.I.1.005-001"><dozent><nachname>Winer</nachname>,
-            <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-            O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <thema>über den <schrift>Brief an die Römer</schrift></thema>,
-            <zeit>9 U. 4 T. (Mont., Mittw., Donn. und
-            Sonnab.)</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1835s-II.A.I.1.005-001"><dozent
+            ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+            <vorname>G. B.</vorname>, <funktion>P. O.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <thema>über den
+            <schrift>Brief an die Römer</schrift></thema>, <zeit>9 U. 4 T.
+            (Mont., Mittw., Donn. und Sonnab.)</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1835s-II.A.I.1.005-002"><dozent><nachname>Winzer</nachname>,
-            <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P.
-            Prim.</funktion></dozent>, <thema>Auslegung des
-            <schrift>Evangeliums des Matthäus</schrift></thema>, <zeit>7 U. 4
+            <veranstaltung xml:id="v-1835s-II.A.I.1.005-002"><dozent
+            ref="winzer_jf"><nachname>Winzer</nachname>, <grad>D.</grad>
+            <vorname>J. F.</vorname>, <funktion>P. Prim.</funktion></dozent>,
+            <thema>Auslegung des <schrift>Evangeliums des
+            Matthäus</schrift></thema>, <zeit>7 U. 4 T.</zeit></veranstaltung>
+
+            <veranstaltung xml:id="v-1835s-II.A.I.1.005-003"><ders
+            ref="winzer_jf">Derselbe</ders>, <thema>Erklärung des
+            <schrift>Briefes an die Hebräe</schrift>r</thema>, <zeit>7 U. 2
             T.</zeit></veranstaltung>
-
-            <veranstaltung
-            xml:id="v-1835s-II.A.I.1.005-003"><ders>Derselbe</ders>,
-            <thema>Erklärung des <schrift>Briefes an die
-            Hebräe</schrift>r</thema>, <zeit>7 U. 2 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1835s-II.A.I.1.005-004"><dozent
             ref="grossmann_cgl"><nachname>Großmann</nachname>, <grad>D.</grad>
@@ -1115,12 +1113,11 @@ Veranstaltung?) -->, <zeit>11 U. 4 T.</zeit></veranstaltung>
           <sachgruppe xml:id="sg-1835s-II.A.I.1.006">
             <titel>Uebungen exegetischer Gesellschaften.</titel>
 
-            <veranstaltung
-            xml:id="v-1835s-II.A.I.1.006-001"><dozent><nachname>Winzer</nachname>,
-            <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P.
-            Prim.</funktion></dozent>, <thema>Uebungen der Lausitzer
-            Gesellschaft,</thema> <zeit>in den best. T. u. St.</zeit>
-            <modus>privatissime</modus>, aber
+            <veranstaltung xml:id="v-1835s-II.A.I.1.006-001"><dozent
+            ref="winzer_jf"><nachname>Winzer</nachname>, <grad>D.</grad>
+            <vorname>J. F.</vorname>, <funktion>P. Prim.</funktion></dozent>,
+            <thema>Uebungen der Lausitzer Gesellschaft,</thema> <zeit>in den
+            best. T. u. St.</zeit> <modus>privatissime</modus>, aber
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <veranstaltung xml:id="v-1835s-II.A.I.1.006-002"><dozent
@@ -1205,10 +1202,11 @@ Veranstaltung?) -->, <zeit>11 U. 4 T.</zeit></veranstaltung>
           <sachgruppe xml:id="sg-1835s-II.A.I.2.003">
             <titel>Christliche Dogmengeschichte.</titel>
 
-            <veranstaltungsverweis><dozent><nachname>Winer</nachname>,
-            <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-            O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <siehe>s. Dogmatik</siehe>.</veranstaltungsverweis>
+            <veranstaltungsverweis><dozent
+            ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+            <vorname>G. B.</vorname>, <funktion>P. O.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <siehe>s.
+            Dogmatik</siehe>.</veranstaltungsverweis>
 
             <veranstaltungsverweis><dozent
             ref="grossmann_cgl"><nachname>Großmann</nachname>, <grad>D.</grad>
@@ -1254,14 +1252,13 @@ Welche Tage sind mit "2 T." gemeint?-->
           <sachgruppe xml:id="sg-1835s-II.A.I.3.001">
             <titel>Dogmatik.</titel>
 
-            <veranstaltung
-            xml:id="v-1835s-II.A.I.3.001-001"><dozent><nachname>Winer</nachname>,
-            <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-            O.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <thema>christliche Dogmatik nebst Dogmengeschichte, <notiz
-            betreff="fortsetzung">erste Hälfte</notiz></thema>, <zeit>4 T.
-            (Dienst. u. Freit. 9 U. Mittw. u. Sonnab. 8
-            U.)</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1835s-II.A.I.3.001-001"><dozent
+            ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+            <vorname>G. B.</vorname>, <funktion>P. O.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <thema>christliche Dogmatik
+            nebst Dogmengeschichte, <notiz betreff="fortsetzung">erste
+            Hälfte</notiz></thema>, <zeit>4 T. (Dienst. u. Freit. 9 U. Mittw.
+            u. Sonnab. 8 U.)</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1835s-II.A.I.3.001-002"><dozent
             ref="grossmann_cgl"><nachname>Großmann</nachname>, <grad>D.</grad>
@@ -1579,13 +1576,12 @@ Welche Tage sind mit "2 T." gemeint?-->
             <sachgruppe xml:id="sg-1835s-II.B.II.I.1.004">
               <titel>Pandekten.</titel>
 
-              <veranstaltung
-              xml:id="v-1835s-II.B.II.I.1.004-001"><dozent><nachname>Wächter</nachname>,
-              <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <thema>röm. Erbrecht, nach
-              <schrift><autor>Thibaut</autor>'s Pandektenrecht (8.
-              Aufl.)</schrift></thema>, <zeit>4-6 U. 2 T.</zeit>
-              <modus>öffentlich</modus>.</veranstaltung>
+              <veranstaltung xml:id="v-1835s-II.B.II.I.1.004-001"><dozent
+              ref="waechter_kg"><nachname>Wächter</nachname>, <grad>D.</grad>
+              <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+              <thema>röm. Erbrecht, nach <schrift><autor>Thibaut</autor>'s
+              Pandektenrecht (8. Aufl.)</schrift></thema>, <zeit>4-6 U. 2
+              T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
               <veranstaltung xml:id="v-1835s-II.B.II.I.1.004-002"><dozent
               ref="schneider_r"><nachname>Schneider</nachname>,
@@ -1685,13 +1681,12 @@ Welche Tage sind mit "2 T." gemeint?-->
             <sachgruppe xml:id="sg-1835s-II.B.II.I.002.2">
               <titel>2) Criminalrecht.</titel>
 
-              <veranstaltung
-              xml:id="v-1835s-II.B.II.I.002.2-001"><dozent><nachname>Wächter</nachname>,
-              <grad>D.</grad> <vorname>K. G.</vorname>, <funktion>P.
-              O.</funktion></dozent>, <thema>das gemeine und sächsische
-              Strafrecht, nach s. Lehrbuche des römisch-teutschen Strafrechts
-              (Stuttg. 1825.)</thema>, <zeit>8 U. 6 T. u. Mont. 4-6
-              U.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1835s-II.B.II.I.002.2-001"><dozent
+              ref="waechter_kg"><nachname>Wächter</nachname>, <grad>D.</grad>
+              <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
+              <thema>das gemeine und sächsische Strafrecht, nach s. Lehrbuche
+              des römisch-teutschen Strafrechts (Stuttg. 1825.)</thema>,
+              <zeit>8 U. 6 T. u. Mont. 4-6 U.</zeit></veranstaltung>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1835s-II.B.II.I.002.3">

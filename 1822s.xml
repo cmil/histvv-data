@@ -77,9 +77,9 @@
           <sachgruppe xml:id="sg-1822s-I.1.A.001.x">
             <titel>*) Uebungen der hebräischen Gesellschaft.</titel>
 
-            <veranstaltung
-            xml:id="v-1822s-I.1.A.001.x-001"><dozent><nachname>Winer</nachname>,
-            <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>Theol. P.
+            <veranstaltung xml:id="v-1822s-I.1.A.001.x-001"><dozent
+            ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+            <vorname>G. B.</vorname>, <funktion>Theol. P.
             E.</funktion></dozent>, <zeit>in den best. St.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
@@ -100,9 +100,9 @@
         <sachgruppe xml:id="sg-1822s-I.1.A.003">
           <titel>Talmudisch.</titel>
 
-          <veranstaltung
-          xml:id="v-1822s-I.1.A.003-001"><dozent><nachname>Winer</nachname>,
-          <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>Theol. P.
+          <veranstaltung xml:id="v-1822s-I.1.A.003-001"><dozent
+          ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+          <vorname>G. B.</vorname>, <funktion>Theol. P.
           E.</funktion></dozent>, <thema>Erklärung ausgewählter Abschnitte des
           Talmud u. Buchs Sohar, insbesondere solcher, die dogmatisches oder
           dogmenhistor. Interesse haben, nach s. <antiqua>Chrestomathia
@@ -458,10 +458,10 @@
       <sachgruppe xml:id="sg-1822s-I.5.006">
         <titel>Natur- und Völkerrecht.</titel>
 
-        <veranstaltung
-        xml:id="v-1822s-I.5.006-001"><dozent><nachname>Wieland</nachname>,
-        <vorname>E. K.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>Natur- und Völkerrecht, nach eign. Sätzen</thema>, <zeit>7 U. 4
+        <veranstaltung xml:id="v-1822s-I.5.006-001"><dozent
+        ref="wieland_ek"><nachname>Wieland</nachname>, <vorname>E.
+        K.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Natur- und
+        Völkerrecht, nach eign. Sätzen</thema>, <zeit>7 U. 4
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1822s-I.5.006-002"><dozent
@@ -479,11 +479,10 @@
       <sachgruppe xml:id="sg-1822s-I.5.007">
         <titel>Allgemeines Staatsrecht.</titel>
 
-        <veranstaltung
-        xml:id="v-1822s-I.5.007-001"><dozent><nachname>Wieland</nachname>,
-        <vorname>E. K.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>nach eign. Sätzen</thema>, <zeit>7 U. 2
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1822s-I.5.007-001"><dozent
+        ref="wieland_ek"><nachname>Wieland</nachname>, <vorname>E.
+        K.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>nach eign.
+        Sätzen</thema>, <zeit>7 U. 2 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1822s-I.5.008">
@@ -652,8 +651,9 @@
       U. Mont. u. Donnerst.</zeit>
       <modus>öffentlich</modus></veranstaltung>.</veranstaltungsgruppe>
 
-      <veranstaltungsgruppe><dozent><nachname>Wieland</nachname>, <vorname>E.
-      C.</vorname>, <funktion>P. O.</funktion></dozent>, <veranstaltung
+      <veranstaltungsgruppe><dozent
+      ref="wieland_ek"><nachname>Wieland</nachname>, <vorname>E. C.</vorname>,
+      <funktion>P. O.</funktion></dozent>, <veranstaltung
       xml:id="v-1822s-I.10-003"><thema>Geschichte des türkischen Reichs und
       des Königr. beider Sicilien n. <gesperrt>Meusel</gesperrt></thema>,
       <zeit>10 U. 4 T.</zeit> <modus>öffentlich</modus></veranstaltung>; ingl.
@@ -762,20 +762,20 @@
       <sachgruppe xml:id="sg-1822s-II.1.002">
         <titel>Anleitung zum akademischen Studium der Theologie.</titel>
 
-        <veranstaltung
-        xml:id="v-1822s-II.1.002-001"><dozent><nachname>Winer</nachname>,
-        <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>in den ersten Wochen, 4 U. Dienst. u.
-        Freit.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1822s-II.1.002-001"><dozent
+        ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad> <vorname>G.
+        B.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>in den ersten
+        Wochen, 4 U. Dienst. u. Freit.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1822s-II.1.003">
         <titel>Geschichte der theologischen Wissenschaften.</titel>
 
-        <veranstaltung xml:id="v-1822s-II.1.003-001"><ders>Derselbe</ders>,
-        <thema>nebst theol. Bücherkenntniß, nach s. Handbuche der theol.
-        Literatur (Lpz. b. Reclam 1821. mit 2 Nachtr.)</thema>, <zeit>7 U. 2
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1822s-II.1.003-001"><ders
+        ref="winer_gb">Derselbe</ders>, <thema>nebst theol. Bücherkenntniß,
+        nach s. Handbuche der theol. Literatur (Lpz. b. Reclam 1821. mit 2
+        Nachtr.)</thema>, <zeit>7 U. 2 T.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -785,18 +785,19 @@
       <sachgruppe xml:id="sg-1822s-II.2.001">
         <titel>Einleitung in die Bibel.</titel>
 
-        <veranstaltung xml:id="v-1822s-II.2.001-001"><ders>Derselbe</ders>,
-        <thema>Einleit. in die apokryphischen u. pseudepigraphischen Bücher A.
-        T. nach eign. Sätzen</thema>, <zeit>4 U. Mont. u. Donnerst.</zeit>
+        <veranstaltung xml:id="v-1822s-II.2.001-001"><ders
+        ref="winer_gb">Derselbe</ders>, <thema>Einleit. in die apokryphischen
+        u. pseudepigraphischen Bücher A. T. nach eign. Sätzen</thema>, <zeit>4
+        U. Mont. u. Donnerst.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1822s-II.2.002">
         <titel>Hermeneutik des N. T.</titel>
 
-        <veranstaltung xml:id="v-1822s-II.2.002-001"><ders>Derselbe</ders>,
-        <thema>nach s. Sätzen</thema>, <zeit>8 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1822s-II.2.002-001"><ders
+        ref="winer_gb">Derselbe</ders>, <thema>nach s. Sätzen</thema>, <zeit>8
+        U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <seite>9</seite>
@@ -804,10 +805,10 @@
       <sachgruppe xml:id="sg-1822s-II.2.003">
         <titel>Erklärung des A. T.</titel>
 
-        <veranstaltung
-        xml:id="v-1822s-II.2.003-001"><dozent><nachname>Winzer</nachname>,
-        <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P. O.</funktion>
-        u. d. Z. <funktion>Dech.</funktion></dozent>, <thema>über ausgewählte
+        <veranstaltung xml:id="v-1822s-II.2.003-001"><dozent
+        ref="winzer_jf"><nachname>Winzer</nachname>, <grad>D.</grad>
+        <vorname>J. F.</vorname>, <funktion>P. O.</funktion> u. d. Z.
+        <funktion>Dech.</funktion></dozent>, <thema>über ausgewählte
         Psalmen</thema>, <zeit>8 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
@@ -835,20 +836,20 @@
       <sachgruppe xml:id="sg-1822s-II.2.004">
         <titel>Erklärung des N. Test.</titel>
 
-        <veranstaltung
-        xml:id="v-1822s-II.2.004-001"><dozent><nachname>Winzer</nachname>,
-        <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P. O.</funktion>
-        u. d. Z. <funktion>Dech.</funktion></dozent>, <thema>über das Evangel.
-        Johannis und, wenn es die Zeit erlaubt, über die Offenbarung Joh.
-        (<notiz betreff="fortsetzung">Forts.</notiz> des exeget.
-        Curs.)</thema> <zeit>7 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1822s-II.2.004-001"><dozent
+        ref="winzer_jf"><nachname>Winzer</nachname>, <grad>D.</grad>
+        <vorname>J. F.</vorname>, <funktion>P. O.</funktion> u. d. Z.
+        <funktion>Dech.</funktion></dozent>, <thema>über das Evangel. Johannis
+        und, wenn es die Zeit erlaubt, über die Offenbarung Joh. (<notiz
+        betreff="fortsetzung">Forts.</notiz> des exeget. Curs.)</thema>
+        <zeit>7 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1822s-II.2.004-002"><dozent><nachname>Winer</nachname>,
-        <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-        E.</funktion></dozent>, <thema>über die Apokalypse</thema>, <zeit>8 U.
-        4 T.</zeit> (<thema><notiz betreff="fortsetzung">Forts.</notiz> des
-        exeget. Cursus über das N. T.</thema>)</veranstaltung>
+        <veranstaltung xml:id="v-1822s-II.2.004-002"><dozent
+        ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad> <vorname>G.
+        B.</vorname>, <funktion>P. E.</funktion></dozent>, <thema>über die
+        Apokalypse</thema>, <zeit>8 U. 4 T.</zeit> (<thema><notiz
+        betreff="fortsetzung">Forts.</notiz> des exeget. Cursus über das N.
+        T.</thema>)</veranstaltung>
 
         <veranstaltung xml:id="v-1822s-II.2.004-003"><dozent
         ref="lindner_fw"><nachname>Lindner</nachname>, <vorname>F.
@@ -873,16 +874,16 @@
         <sachgruppe xml:id="sg-1822s-II.2.004.x">
           <titel>*) Uebungen exegetischer Gesellschaften.</titel>
 
-          <veranstaltung
-          xml:id="v-1822s-II.2.004.x-001"><dozent><nachname>Winzer</nachname>,
-          <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P. O.</funktion>
-          u. d. Z. <funktion>Dech.</funktion></dozent>, <zeit>in der best.
-          Zeit</zeit> <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1822s-II.2.004.x-001"><dozent
+          ref="winzer_jf"><nachname>Winzer</nachname>, <grad>D.</grad>
+          <vorname>J. F.</vorname>, <funktion>P. O.</funktion> u. d. Z.
+          <funktion>Dech.</funktion></dozent>, <zeit>in der best. Zeit</zeit>
+          <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1822s-II.2.004.x-002"><dozent><nachname>Winer</nachname>,
-          <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>zu den best. T. und St.</zeit>
+          <veranstaltung xml:id="v-1822s-II.2.004.x-002"><dozent
+          ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+          <vorname>G. B.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>zu den best. T. und St.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
 
@@ -915,10 +916,9 @@
         <vorname>H. G.</vorname>, <funktion>P. O.</funktion></dozent>,
         <zeit>10 U. 6 T.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1822s-II.3.001-003"><dozent><nachname>Winer</nachname>,
-        <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-        E.</funktion></dozent>, <thema><notiz
+        <veranstaltung xml:id="v-1822s-II.3.001-003"><dozent
+        ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad> <vorname>G.
+        B.</vorname>, <funktion>P. E.</funktion></dozent>, <thema><notiz
         betreff="fortsetzung">Anfang</notiz> des dogmatischen Cursus</thema>,
         <zeit>7 U. 4 T.</zeit></veranstaltung>
 
@@ -1398,10 +1398,9 @@ die jeweiligen Veranstaltungs-Attribute eingetragen-->
       W.</vorname>, <funktion>P. E. des.</funktion></dozent>, <zeit>8 U.
       Dienst., Donnerst. u. Sonnab.</zeit></veranstaltung>
 
-      <veranstaltung
-      xml:id="v-1822s-III.13-002"><dozent><nachname>Einert</nachname>,
-      <grad>D.</grad> <vorname>C.</vorname></dozent>, <zeit>2 U. 6
-      T.</zeit></veranstaltung>
+      <veranstaltung xml:id="v-1822s-III.13-002"><dozent
+      ref="einert_c"><nachname>Einert</nachname>, <grad>D.</grad>
+      <vorname>C.</vorname></dozent>, <zeit>2 U. 6 T.</zeit></veranstaltung>
     </sachgruppe>
 
     <sachgruppe xml:id="sg-1822s-III.14">

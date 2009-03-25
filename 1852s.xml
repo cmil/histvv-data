@@ -339,7 +339,7 @@
         <titel>1. Weltgeschichte.</titel>
 
         <veranstaltung xml:id="v-1852s-I.III.1-001"><thema>Allgemeine
-        Geschichte</thema>: <dozent><grad>D. ph.</grad>
+        Geschichte</thema>: <dozent ref="wuttke_h"><grad>D. ph.</grad>
         <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>in zu best. St. u. T.</zeit></veranstaltung>
 
@@ -361,7 +361,7 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1852s-I.III.1-005"><thema>Geschichte des
-        preußischen Staats</thema>: <dozent><grad>D. ph.</grad>
+        preußischen Staats</thema>: <dozent ref="wuttke_h"><grad>D. ph.</grad>
         <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. 2 T. (Mont. u. Dienst.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -446,9 +446,10 @@
         <titel>3. Historische Hülfswissenschaften.</titel>
 
         <veranstaltung xml:id="v-1852s-I.III.3-001"><thema>Historisches <notiz
-        betreff="modus">Privatissimum</notiz></thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>2stünd.</zeit></veranstaltung>
+        betreff="modus">Privatissimum</notiz></thema>: <dozent
+        ref="wuttke_h"><grad>D. ph.</grad> <nachname>Wuttke</nachname>,
+        <funktion>P. O.</funktion></dozent>,
+        <zeit>2stünd.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -664,7 +665,8 @@ nur einmal da!-->
         <veranstaltung xml:id="v-1852s-I.VI.2-002"><thema>Einleitung in die
         botanische Wissenschaft, <notiz betreff="fortsetzung">1. Th.</notiz>
         allg. Botanik (Anatomie, Morphologie, Physiologie, Pathologie), verb.
-        mit Demonstrationen am Mikroskop</thema>: <dozent><grad>D. ph.</grad>
+        mit Demonstrationen am Mikroskop</thema>: <dozent
+        ref="willkomm_hm"><grad>D. ph.</grad>
         <nachname>Willkomm</nachname></dozent>, <zeit>7 U. 6
         T.</zeit></veranstaltung>
 
@@ -692,7 +694,7 @@ nur einmal da!-->
 
         <veranstaltung xml:id="v-1852s-I.VI.2-007"><thema>Anfangsgründe der
         Pflanzengeographie, mit bes. Berücksichtigung der officinellen und der
-        Culturgewächse</thema>: <dozent><grad>D. ph.</grad>
+        Culturgewächse</thema>: <dozent ref="willkomm_hm"><grad>D. ph.</grad>
         <nachname>Willkomm</nachname></dozent>, <zeit>4 U. Dienst. u.
         Freit.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -924,7 +926,7 @@ nur einmal da!-->
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1852s-II.A.I-011"><thema>Erklärung des
-        Briefes an die Römer</thema>: <dozent><grad>D.</grad>
+        Briefes an die Römer</thema>: <dozent ref="winer_gb"><grad>D.</grad>
         <nachname>Winer</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>9 U. 5 T. (mit Ausschluß des Sonn.)</zeit></veranstaltung>
 
@@ -940,7 +942,7 @@ nur einmal da!-->
 
           <veranstaltung
           xml:id="v-1852s-II.A.I.001-001"><thema>Exegetisch-dogmatische
-          Uebungen</thema>: <dozent><grad>D.</grad>
+          Uebungen</thema>: <dozent ref="winer_gb"><grad>D.</grad>
           <nachname>Winer</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>in zu best. St. u. T.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
@@ -1038,9 +1040,9 @@ nur einmal da!-->
         <trennlinie/>
 
         <veranstaltung xml:id="v-1852s-II.A.III-004"><thema>Christliche
-        Symbolik</thema>: <dozent><grad>D.</grad> <nachname>Winer</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Symbolik</thema>: <dozent ref="winer_gb"><grad>D.</grad>
+        <nachname>Winer</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>10 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -1053,8 +1055,8 @@ nur einmal da!-->
           <titel>Systematisch-theologische Uebungen.</titel>
 
           <veranstaltungsverweis><thema>Exeget.-dogmat. Uebungen</thema>:
-          <dozent><grad>D.</grad> <nachname>Winer</nachname>, <funktion>P.
-          O.</funktion></dozent>, <siehe>s. exeg.
+          <dozent ref="winer_gb"><grad>D.</grad> <nachname>Winer</nachname>,
+          <funktion>P. O.</funktion></dozent>, <siehe>s. exeg.
           Ueb.</siehe></veranstaltungsverweis>
 
           <veranstaltung xml:id="v-1852s-II.A.III.001-001"><thema>Dogmatisches
@@ -1622,12 +1624,14 @@ nur einmal da!-->
 
         <veranstaltung xml:id="v-1852s-II.C.VII-002"><thema>Pathologie und
         Therapie der Krankheiten der Brust- und Unterleibsorgane</thema>:
-        <dozent><grad>D.</grad> <nachname>Wunderlich</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="wunderlich_kra"><grad>D.</grad>
+        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>4 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1852s-II.C.VII-003"><thema>Pathologie und
-        Therapie der chronischen Dyskrasieen</thema>: <ders>Derselbe</ders>,
-        <zeit>4 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Therapie der chronischen Dyskrasieen</thema>: <ders
+        ref="wunderlich_kra">Derselbe</ders>, <zeit>4 U. 2 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1852s-II.C.VII-004"><thema>Ueber
         Syphilis</thema>: <dozent ref="walther_jkw"><grad>D.</grad>
@@ -1659,7 +1663,7 @@ nur einmal da!-->
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1852s-II.C.VII-009"><thema>Ueber
-        Ohrenkrankheiten</thema>: <dozent><grad>D.</grad>
+        Ohrenkrankheiten</thema>: <dozent ref="winter_ja"><grad>D.</grad>
         <nachname>Winter</nachname></dozent>, <zeit>2 T. in zu best.
         St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -1766,9 +1770,10 @@ nur einmal da!-->
         <titel>XI. Klinik.</titel>
 
         <veranstaltung xml:id="v-1852s-II.C.XI-001"><thema>Medicinische Klinik
-        <ort>im Jakobshospitale</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>8-9½ U. 6 T.</zeit></veranstaltung>
+        <ort>im Jakobshospitale</ort></thema>: <dozent
+        ref="wunderlich_kra"><grad>D.</grad> <nachname>Wunderlich</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>8-9½ U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1852s-II.C.XI-002"><thema>Medicinische
         Poliklinik</thema>: <dozent ref="cerutti_fpl"><grad>D.</grad>

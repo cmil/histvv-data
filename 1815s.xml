@@ -124,10 +124,10 @@
           <sachgruppe xml:id="sg-1815s-I.I.A.3.001">
             <titel>Insbesondere philos. Rechtslehre oder Naturrecht,</titel>
 
-            <veranstaltung
-            xml:id="v-1815s-I.I.A.3.001-001"><dozent><funktion>Hofr.</funktion>
-            <funktion>P. O.</funktion> <nachname>Wieland</nachname></dozent>,
-            <thema>Natur- u. Völkerrecht nach s. Sätzen</thema>. <zeit>7 U. 4
+            <veranstaltung xml:id="v-1815s-I.I.A.3.001-001"><dozent
+            ref="wieland_ek"><funktion>Hofr.</funktion> <funktion>P.
+            O.</funktion> <nachname>Wieland</nachname></dozent>, <thema>Natur-
+            u. Völkerrecht nach s. Sätzen</thema>. <zeit>7 U. 4
             T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1815s-I.I.A.3.001-002"><dozent
@@ -169,10 +169,11 @@
                 <titel>α) Allgemeines Staatsrecht,</titel>
 
                 <veranstaltung
-                xml:id="v-1815s-I.I.A.3.002.b.alpha-001"><dozent><funktion>Hofr.</funktion>
-                <funktion>P. O.</funktion>
-                <nachname>Wieland</nachname></dozent>, <thema>nach s.
-                Sätzen</thema>, <zeit>7 U. 2 T.</zeit></veranstaltung>
+                xml:id="v-1815s-I.I.A.3.002.b.alpha-001"><dozent
+                ref="wieland_ek"><funktion>Hofr.</funktion> <funktion>P.
+                O.</funktion> <nachname>Wieland</nachname></dozent>,
+                <thema>nach s. Sätzen</thema>, <zeit>7 U. 2
+                T.</zeit></veranstaltung>
               </sachgruppe>
 
               <sachgruppe xml:id="sg-1815s-I.I.A.3.002.b.beta">
@@ -458,10 +459,9 @@
             zur Weltgeschichte</thema>, <zeit>10 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1815s-I.II.B.1.a-002"><dozent><funktion>Hofr.</funktion>
-            u. <funktion>P. O.</funktion>
-            <nachname>Wieland</nachname></dozent> <thema>allgem.
+            <veranstaltung xml:id="v-1815s-I.II.B.1.a-002"><dozent
+            ref="wieland_ek"><funktion>Hofr.</funktion> u. <funktion>P.
+            O.</funktion> <nachname>Wieland</nachname></dozent> <thema>allgem.
             Weltgeschichte, nach s. Sätzen</thema>, <zeit>10 U. 6
             T.</zeit></veranstaltung>
           </sachgruppe>
@@ -483,12 +483,11 @@
             <sachgruppe xml:id="sg-1815s-I.II.B.1.b.beta">
               <titel>β) Der neuern Staaten.</titel>
 
-              <veranstaltung
-              xml:id="v-1815s-I.II.B.1.b.beta-001"><dozent><funktion>Hofr.</funktion>
-              u. <funktion>P. O.</funktion>
-              <nachname>Wieland</nachname></dozent> <thema>sächsische
-              Geschichte nach s. Sätzen</thema>, <zeit>11 U. 4 T.</zeit>
-              <modus>öffentl.</modus></veranstaltung>
+              <veranstaltung xml:id="v-1815s-I.II.B.1.b.beta-001"><dozent
+              ref="wieland_ek"><funktion>Hofr.</funktion> u. <funktion>P.
+              O.</funktion> <nachname>Wieland</nachname></dozent>
+              <thema>sächsische Geschichte nach s. Sätzen</thema>, <zeit>11 U.
+              4 T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
               <veranstaltung xml:id="v-1815s-I.II.B.1.b.beta-002"><dozent
               ref="weisse_ce"><funktion>OHGR.</funktion> <funktion>P.
@@ -1116,7 +1115,8 @@
                   ref="beck_jlw">Reg. Rath <grad>D.</grad>
                   <nachname>Beck</nachname></dozent>, <zeit>8 U. 6
                   T.</zeit></veranstaltung>, <veranstaltung
-                  xml:id="v-1815s-II.B.II.A.1.a.cc.alpha-007"><dozent><grad>D.</grad>
+                  xml:id="v-1815s-II.B.II.A.1.a.cc.alpha-007"><dozent
+                  ref="feder_ka"><grad>D.</grad>
                   <nachname>Feder</nachname></dozent>, <zeit>9 U. 4
                   T.</zeit></veranstaltung>, <veranstaltung
                   xml:id="v-1815s-II.B.II.A.1.a.cc.alpha-008"><dozent
@@ -1232,8 +1232,8 @@ getaggt werden!-->
               <sachgruppe xml:id="sg-1815s-II.B.II.A.1.001.e">
                 <titel>e) Erbrecht.</titel>
 
-                <veranstaltung
-                xml:id="v-1815s-II.B.II.A.1.001.e-001"><dozent><grad>D.</grad>
+                <veranstaltung xml:id="v-1815s-II.B.II.A.1.001.e-001"><dozent
+                ref="feder_ka"><grad>D.</grad>
                 <nachname>Feder</nachname></dozent> <thema>über das sächs.
                 Erbrecht, nach s. Sätzen</thema>, <zeit>8 U. 2
                 T.</zeit></veranstaltung>
@@ -1867,7 +1867,7 @@ aufgelöst werden!!-->
             Tittmann</thema>, <zeit>10 U. 4 T.</zeit>
             <modus>öffentl.</modus></veranstaltung>
 
-            <veranstaltungsgruppe><dozent><grad>D.</grad>
+            <veranstaltungsgruppe><dozent ref="eckoldt_cg"><grad>D.</grad>
             <nachnamenpräfix>v.</nachnamenpräfix>
             <nachname>Eckoldt</nachname></dozent> <veranstaltung
             xml:id="v-1815s-II.C.II.2.a-002"><thema>allgem. Chirurgie</thema>,
@@ -1892,7 +1892,8 @@ aufgelöst werden!!-->
             O.</funktion> <grad>D.</grad>
             <nachname>Rosenmüller</nachname></dozent>, <zeit>1 U. 4
             T.</zeit></veranstaltung> <veranstaltung
-            xml:id="v-1815s-II.C.II.2.a-007"><dozent><grad>D.</grad>
+            xml:id="v-1815s-II.C.II.2.a-007"><dozent
+            ref="eckoldt_cg"><grad>D.</grad>
             <nachnamenpräfix>v.</nachnamenpräfix>
             <nachname>Eckoldt</nachname></dozent>, <zeit>in zu best. St. 4
             T.</zeit></veranstaltung> <veranstaltung

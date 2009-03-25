@@ -542,9 +542,9 @@
         Freit.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Quellen des Mittelalters</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. histor.
-        Sem.</siehe></veranstaltungsverweis>
+        <dozent ref="wuttke_h"><grad>D. ph.</grad>
+        <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. histor. Sem.</siehe></veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1862w-I.III.1-002"><thema>Allgemeine
         Geschichte der Zeit Friedrichs des Grossen</thema>: <dozent
@@ -567,9 +567,9 @@
 
         <veranstaltung xml:id="v-1862w-I.III.1-005"><thema>Geschichte der
         französischen Staatsumwälzung bis zur Kaiserkrönung Napoleons
-        I.</thema>: <dozent><grad>D. ph.</grad> <nachname>Wuttke</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>12 U. 4
-        T.</zeit></veranstaltung>
+        I.</thema>: <dozent ref="wuttke_h"><grad>D. ph.</grad>
+        <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>12 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1862w-I.III.1-006"><thema>Geschichte von
         England</thema>: <dozent><grad>D. ph.</grad>
@@ -588,7 +588,7 @@
           <titel>Literaturgeschichte.</titel>
 
           <veranstaltung xml:id="v-1862w-I.III.1.001-001"><thema>Geschichte
-          der Schrift</thema>: <dozent><grad>D. ph.</grad>
+          der Schrift</thema>: <dozent ref="wuttke_h"><grad>D. ph.</grad>
           <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>in 1 zu best. St.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
@@ -625,7 +625,7 @@
 
           <veranstaltung xml:id="v-1862w-I.III.1.002-001"><thema>Historisches
           Seminar: Historische Hülfswissenschaften. Quellen des
-          Mittelalters</thema>: <dozent><grad>D. ph.</grad>
+          Mittelalters</thema>: <dozent ref="wuttke_h"><grad>D. ph.</grad>
           <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>3 St. in zu best. T. und St.</zeit>
           <modus>privatissime</modus> aber
@@ -674,12 +674,12 @@
         <titel>3. Historische Hülfswissenschaften.</titel>
 
         <veranstaltungsverweis><thema>Historische Hülfswissenschaften</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. hist.
-        Sem.</siehe></veranstaltungsverweis>
+        <dozent ref="wuttke_h"><grad>D. ph.</grad>
+        <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. hist. Sem.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Geschichte der Schrift</thema>:
-        <ders>Derselbe</ders>, <siehe>s.
+        <veranstaltungsverweis><thema>Geschichte der Schrift</thema>: <ders
+        ref="wuttke_h">Derselbe</ders>, <siehe>s.
         Literaturgeschichte</siehe>.</veranstaltungsverweis>
       </sachgruppe>
     </sachgruppe>
@@ -1335,7 +1335,8 @@
           <trennlinie/>
 
           <veranstaltung xml:id="v-1862w-II.B.II.1-005"><thema>Pandekten mit
-          Ausnahme des Erbrechts</thema>: <dozent><grad>D.</grad>
+          Ausnahme des Erbrechts</thema>: <dozent
+          ref="waechter_kg"><grad>D.</grad>
           <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Wächter</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>11-1 U. 6
           T.</zeit></veranstaltung>
@@ -1343,7 +1344,8 @@
           <trennlinie/>
 
           <veranstaltung xml:id="v-1862w-II.B.II.1-006"><thema>Ausgewählte
-          Lehren des Pandektenrechts</thema>: <dozent><grad>D.</grad>
+          Lehren des Pandektenrechts</thema>: <dozent
+          ref="waechter_kg"><grad>D.</grad>
           <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Wächter</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>2-4 U. (Freit. u.
           Sonnabend) 2 Tage</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -1628,7 +1630,7 @@
         <titel>I. Propädeutik und Geschichte der Medicin.</titel>
 
         <veranstaltung xml:id="v-1862w-II.C.I-001"><thema>Einleitung in das
-        Studium der Medicin</thema>: <dozent><grad>D.</grad>
+        Studium der Medicin</thema>: <dozent ref="winter_ja"><grad>D.</grad>
         <nachname>Winter</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>4 U. 4 T.</zeit> <thema>während der beiden ersten Wochen des
         Semesters</thema>, <modus>öffentlich</modus>.</veranstaltung>
@@ -1797,9 +1799,9 @@
         Freit.)</zeit></veranstaltung>
 
         <veranstaltung
-        xml:id="v-1862w-II.C.VI-004"><thema>Receptirkunst</thema>:
-        <dozent><grad>D.</grad> <nachname>Winter</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>6 U. Mittw.</zeit>
+        xml:id="v-1862w-II.C.VI-004"><thema>Receptirkunst</thema>: <dozent
+        ref="winter_ja"><grad>D.</grad> <nachname>Winter</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>6 U. Mittw.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1862w-II.C.VI-005"><thema>Pharmacie</thema>:
@@ -1812,14 +1814,15 @@
         <titel>VII. Specielle Pathologie und Therapie.</titel>
 
         <veranstaltung xml:id="v-1862w-II.C.VII-001"><thema>Die gesammte
-        specielle Pathologie und Therapie</thema>: <dozent><grad>D.</grad>
-        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>4 U. 6 T. und 5 U. 2 T.</zeit></veranstaltung>
+        specielle Pathologie und Therapie</thema>: <dozent
+        ref="wunderlich_kra"><grad>D.</grad> <nachname>Wunderlich</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>4 U. 6 T. und 5 U. 2
+        T.</zeit></veranstaltung>
 
         <seite>19</seite>
 
         <veranstaltung xml:id="v-1862w-II.C.VII-002"><thema>Ueber
-        Hautkrankheiten</thema>: <dozent><grad>D.</grad>
+        Hautkrankheiten</thema>: <dozent ref="wunderlich_kra"><grad>D.</grad>
         <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>in 2 zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -1911,7 +1914,7 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1862w-II.C.IX-006"><thema>Ueber
-        Ohrenkrankheiten</thema>: <dozent><grad>D.</grad>
+        Ohrenkrankheiten</thema>: <dozent ref="winter_ja"><grad>D.</grad>
         <nachname>Winter</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>12 U. 2 T. (Dienst. u. Freit.)</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
@@ -1978,9 +1981,10 @@
         <titel>XI. Klinik.</titel>
 
         <veranstaltung xml:id="v-1862w-II.C.XI-001"><thema>Medicinische Klinik
-        <ort>im Jacobshospital</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>9½-11 U. 6 T.</zeit></veranstaltung>
+        <ort>im Jacobshospital</ort></thema>: <dozent
+        ref="wunderlich_kra"><grad>D.</grad> <nachname>Wunderlich</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9½-11 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1862w-II.C.XI-002"><thema>Ambulatorische
         Poliklinik</thema>: <dozent ref="wagner_el"><grad>D.</grad>

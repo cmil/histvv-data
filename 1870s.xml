@@ -296,8 +296,8 @@
       <modus>öffentlich</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1870s-I.II-004"><thema>Vergleichende Grammatik
-      der indogermanischen Sprachen</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Windisch</nachname></dozent>, <zeit>in 4 zu best.
+      der indogermanischen Sprachen</thema>: <dozent ref="windisch_e"><grad>D.
+      ph.</grad> <nachname>Windisch</nachname></dozent>, <zeit>in 4 zu best.
       St.</zeit></veranstaltung>
 
       <sachgruppe xml:id="sg-1870s-I.II.1">
@@ -623,9 +623,9 @@
     <sachgruppe xml:id="sg-1870s-I.III">
       <titel>III. Historische Wissenschaften.</titel>
 
-      <veranstaltungsverweis><thema>Kritik</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
-      O.</funktion></dozent>, <siehe>s. hist. Uebb.</siehe><!--zu der verwiesenen Veranstaltung existiert noch ein Verweis siehe S. 10--></veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Kritik</thema>: <dozent
+      ref="wuttke_h"><grad>D. ph.</grad> <nachname>Wuttke</nachname>,
+      <funktion>P. O.</funktion></dozent>, <siehe>s. hist. Uebb.</siehe><!--zu der verwiesenen Veranstaltung existiert noch ein Verweis siehe S. 10--></veranstaltungsverweis>
 
       <sachgruppe xml:id="sg-1870s-I.III.1">
         <titel>1. Weltgeschichte.</titel>
@@ -721,10 +721,10 @@
           <titel>Historische Uebungen.</titel>
 
           <veranstaltung xml:id="v-1870s-I.III.1.003-001"><thema>Historisches
-          Seminar (Hülfswissenschaften und Kritik)</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>3stündig in zu best. T. u. St.</zeit>,
-          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          Seminar (Hülfswissenschaften und Kritik)</thema>: <dozent
+          ref="wuttke_h"><grad>D. ph.</grad> <nachname>Wuttke</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>3stündig in zu best. T.
+          u. St.</zeit>, <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <!--zwei Veranstaltungsverweise verweisen auf diese veranstaltung siehe S. 8 und 10-->
 
@@ -791,13 +791,15 @@
         <titel>3. Historische Hülfswissenschaften.</titel>
 
         <veranstaltungsverweis><thema>Historische Hülfswissenschaften</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. histor. Uebb.</siehe><!--siehe S. 8: Veranstaltungsverweis führt zur identischen Veranstaltung
+        <dozent ref="wuttke_h"><grad>D. ph.</grad>
+        <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. histor. Uebb.</siehe><!--siehe S. 8: Veranstaltungsverweis führt zur identischen Veranstaltung
 --></veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1870s-I.III.3-001"><thema>Geschichte der
-        Schrift und des Schriftthums</thema>: <ders>Derselbe</ders>, <zeit>10
-        U. 3 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Schrift und des Schriftthums</thema>: <ders
+        ref="wuttke_h">Derselbe</ders>, <zeit>10 U. 3 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1870s-I.III.3-002"><thema>Urkundenlehre und
         Abriss der lateinischen Paläographie</thema>: <dozent
@@ -1690,7 +1692,8 @@
           <zeit>9-11 U. 6 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1870s-II.B.II.1-006"><thema>Familienrecht
-          nach Arndts' Lehrbuch der Pandekten</thema>: <dozent><grad>D.</grad>
+          nach Arndts' Lehrbuch der Pandekten</thema>: <dozent
+          ref="waechter_kg"><grad>D.</grad>
           <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Wächter</nachname>,
           <funktion>P. Prim., Fac. jur. Ord.</funktion></dozent>, <zeit>11-1
           U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -1967,7 +1970,7 @@
         <titel>I. Propädeutik u. Geschichte.</titel>
 
         <veranstaltung xml:id="v-1870s-II.C.I-001"><thema>Einleitung in das
-        Studium der Medicin</thema>: <dozent><grad>D.</grad>
+        Studium der Medicin</thema>: <dozent ref="winter_ja"><grad>D.</grad>
         <nachname>Winter</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>4 U., während der ersten acht Tage des Semesters</zeit>,
         <modus>öffentlich</modus>.</veranstaltung>
@@ -2001,7 +2004,7 @@
         Sonn.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1870s-II.C.II-005"><thema>Mikroskopische
-        Anatomie</thema>: <dozent><grad>D.</grad>
+        Anatomie</thema>: <dozent ref="wenzel_ef"><grad>D.</grad>
         <nachname>Wenzel</nachname></dozent>, <zeit>4stündig, 2-4 U. Dienst.
         u. Freit.</zeit></veranstaltung>
 
@@ -2027,14 +2030,14 @@
 
           <veranstaltung
           xml:id="v-1870s-II.C.II.001-002"><thema>Mikroskopische
-          Uebungen</thema>: <dozent><grad>D.</grad>
+          Uebungen</thema>: <dozent ref="wenzel_ef"><grad>D.</grad>
           <nachname>Wenzel</nachname></dozent>, <zeit>in 4 zu best.
           St.</zeit></veranstaltung>
 
           <veranstaltung
           xml:id="v-1870s-II.C.II.001-003"><thema>Entwickelungsgeschichtliche
-          Demonstrationen</thema>: <ders>Derselbe</ders>, <zeit>8 U. 3 T.
-          (Mittw., Donn. u. Sonn.)</zeit></veranstaltung>
+          Demonstrationen</thema>: <ders ref="wenzel_ef">Derselbe</ders>,
+          <zeit>8 U. 3 T. (Mittw., Donn. u. Sonn.)</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -2226,9 +2229,9 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1870s-II.C.VI-005"><thema>Receptirkunst,
-        nebst Uebersicht der wichtigsten Arzneimittel</thema>:
-        <dozent><grad>D.</grad> <nachname>Winter</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>5 U. 3 T. (Mont., Donn. u.
+        nebst Uebersicht der wichtigsten Arzneimittel</thema>: <dozent
+        ref="winter_ja"><grad>D.</grad> <nachname>Winter</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>5 U. 3 T. (Mont., Donn. u.
         Freit.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
@@ -2244,9 +2247,9 @@
         <titel>VII. Specielle Pathologie und Therapie.</titel>
 
         <veranstaltung xml:id="v-1870s-II.C.VII-001"><thema>Pathologie und
-        Therapie der typhösen Krankheiten</thema>: <dozent><grad>D.</grad>
-        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>in 2 zu best. St.</zeit>
+        Therapie der typhösen Krankheiten</thema>: <dozent
+        ref="wunderlich_kra"><grad>D.</grad> <nachname>Wunderlich</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1870s-II.C.VII-002"><thema>Ueber Pocken, mit
@@ -2458,9 +2461,10 @@
         Stunden</zeit>.</veranstaltung>
 
         <veranstaltung xml:id="v-1870s-II.C.XI-002"><thema>Medicinische Klinik
-        <ort>im Jacobshospital</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>8-9½ U. 6 T.</zeit></veranstaltung>
+        <ort>im Jacobshospital</ort></thema>: <dozent
+        ref="wunderlich_kra"><grad>D.</grad> <nachname>Wunderlich</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>8-9½ U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1870s-II.C.XI-003"><thema>Chirurgische Klinik
         <ort>im Jacobshospital</ort></thema><korrektur

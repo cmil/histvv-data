@@ -537,10 +537,10 @@
         <titel>1. Weltgeschichte.</titel>
 
         <veranstaltung xml:id="v-1860w-I.III.1-001"><thema>Allgemeine
-        Geschichte, 1. Th., das Alterthum</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Wuttke</nachname>, <funktion>P. O.</funktion>, d. Z.
-        <funktion>Dech.</funktion></dozent>, <zeit>12 U. 4
-        T.</zeit></veranstaltung>
+        Geschichte, 1. Th., das Alterthum</thema>: <dozent
+        ref="wuttke_h"><grad>D. ph.</grad> <nachname>Wuttke</nachname>,
+        <funktion>P. O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>,
+        <zeit>12 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1860w-I.III.1-002"><thema>Geschichte des
         Mittelalters</thema>: <dozent ref="brandes_hbc"><grad>D. ph.</grad>
@@ -600,10 +600,10 @@
           <veranstaltung xml:id="v-1860w-I.III.1.002-001"><thema>Quellen der
           deutschen Geschichte</thema></veranstaltung>, 2) <veranstaltung
           xml:id="v-1860w-I.III.1.002-002"><thema>Uebungen in historischen
-          Vorträgen</thema></veranstaltung>: <dozent><grad>D. ph.</grad>
-          <nachname>Wuttke</nachname>, <funktion>P. O.</funktion>, d. Z.
-          <funktion>Dech.</funktion></dozent>, <zeit>3 St. in zu best. T. u.
-          St.</zeit> <modus>privatissime</modus>.</veranstaltungsgruppe>
+          Vorträgen</thema></veranstaltung>: <dozent ref="wuttke_h"><grad>D.
+          ph.</grad> <nachname>Wuttke</nachname>, <funktion>P. O.</funktion>,
+          d. Z. <funktion>Dech.</funktion></dozent>, <zeit>3 St. in zu best.
+          T. u. St.</zeit> <modus>privatissime</modus>.</veranstaltungsgruppe>
         </sachgruppe>
       </sachgruppe>
 
@@ -1330,16 +1330,18 @@
           <trennlinie/>
 
           <veranstaltung xml:id="v-1860w-II.B.II.1-004"><thema>Pandekten, mit
-          Ausnahme des Erbrechts (nach Arndts Lehrbuch)</thema>:
-          <dozent><grad>D.</grad> <nachnamenpräfix>v.</nachnamenpräfix>
-          <nachname>Wächter</nachname>, <funktion>P. O.</funktion>, d. Z.
+          Ausnahme des Erbrechts (nach Arndts Lehrbuch)</thema>: <dozent
+          ref="waechter_kg"><grad>D.</grad>
+          <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Wächter</nachname>,
+          <funktion>P. O.</funktion>, d. Z.
           <funktion>Rect.</funktion></dozent>, <zeit>11-1 U. 6
           Tage</zeit>.</veranstaltung>
 
           <trennlinie/>
 
           <veranstaltung xml:id="v-1860w-II.B.II.1-005"><thema>Ausgewählte
-          Lehren des Pandektenrechts</thema>: <dozent><grad>D.</grad>
+          Lehren des Pandektenrechts</thema>: <dozent
+          ref="waechter_kg"><grad>D.</grad>
           <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Wächter</nachname>,
           <funktion>P. O.</funktion>, d. Z.
           <funktion>Rect.</funktion></dozent>, <zeit>2-4 U. 2 T.</zeit>
@@ -1620,7 +1622,7 @@
         <titel>I. Propädeutik und Geschichte der Medicin.</titel>
 
         <veranstaltung xml:id="v-1860w-II.C.I-001"><thema>Einleitung in das
-        Studium der Medicin</thema>: <dozent><grad>D.</grad>
+        Studium der Medicin</thema>: <dozent ref="winter_ja"><grad>D.</grad>
         <nachname>Winter</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>4 U. 4 T. während der ersten beiden Wochen des Semesters</zeit>,
         <modus>öffentlich</modus>.</veranstaltung>
@@ -1787,9 +1789,9 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1860w-II.C.VI-003"><thema>Ueber Heilquellen
-        und ihre Anwendung</thema>: <dozent><grad>D.</grad>
-        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>in zu best. St. u. T.
+        und ihre Anwendung</thema>: <dozent
+        ref="wunderlich_kra"><grad>D.</grad> <nachname>Wunderlich</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in zu best. St. u. T.
         </zeit><modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1860w-II.C.VI-004"><thema>Receptirkunst mit
@@ -1799,9 +1801,9 @@
         Freit.)</zeit></veranstaltung>
 
         <veranstaltung
-        xml:id="v-1860w-II.C.VI-005"><thema>Receptirkunst</thema>:
-        <dozent><grad>D.</grad> <nachname>Winter</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>4 U. Mittw.</zeit>
+        xml:id="v-1860w-II.C.VI-005"><thema>Receptirkunst</thema>: <dozent
+        ref="winter_ja"><grad>D.</grad> <nachname>Winter</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>4 U. Mittw.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1860w-II.C.VI-006"><thema>Pharmacie</thema>:
@@ -1822,15 +1824,16 @@
 
         <veranstaltung xml:id="v-1860w-II.C.VII-001"><thema>Specielle
         Pathologie und Therapie (Krankheiten des Nervensystems)</thema>:
-        <dozent><grad>D.</grad> <nachname>Wunderlich</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>4 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="wunderlich_kra"><grad>D.</grad>
+        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>4 U. 4 T.</zeit></veranstaltung>
 
         <seite>19</seite>
 
         <veranstaltung xml:id="v-1860w-II.C.VII-002"><thema>Ueber die
-        chronischen Constitutions-Krankheiten</thema>: <ders>Derselbe</ders>,
-        <zeit>4 U. an einem zu best. T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        chronischen Constitutions-Krankheiten</thema>: <ders
+        ref="wunderlich_kra">Derselbe</ders>, <zeit>4 U. an einem zu best.
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1860w-II.C.VII-003"><thema>Ueber die
         Krankheiten der Digestionsorgane</thema>: <dozent
@@ -1974,9 +1977,10 @@
         <titel>XI. Klinik.</titel>
 
         <veranstaltung xml:id="v-1860w-II.C.XI-001"><thema>Medicinische Klinik
-        <ort>im Jacobshospital</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>10½-12 U. 6 T.</zeit></veranstaltung>
+        <ort>im Jacobshospital</ort></thema>: <dozent
+        ref="wunderlich_kra"><grad>D.</grad> <nachname>Wunderlich</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10½-12 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1860w-II.C.XI-002"><thema>Medicinische
         Poliklinik</thema>: <dozent ref="ruete_cgt"><grad>D.</grad>
@@ -2017,7 +2021,7 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1860w-II.C.XI-008"><thema>Klinische Vorträge
-        über Ohrenkrankheiten</thema>: <dozent><grad>D.</grad>
+        über Ohrenkrankheiten</thema>: <dozent ref="winter_ja"><grad>D.</grad>
         <nachname>Winter</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>12 U. 2 T. (Dienst. und Freit.)</zeit>
         <modus>öffentl.</modus></veranstaltung>

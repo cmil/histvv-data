@@ -165,10 +165,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913s-I-013"><thema>Erklärung des
-      Römerbriefs</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-      <vorname>H.</vorname> <nachname>Windisch</nachname></dozent>, <zeit>Mo.,
-      Di., Do. u. Fr. 10-11 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Römerbriefs</thema>: <dozent ref="windisch_h"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <vorname>H.</vorname>
+      <nachname>Windisch</nachname></dozent>, <zeit>Mo., Di., Do. u. Fr. 10-11
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913s-I-014"><thema>Auslegung des 1.
       Korintherbriefes</thema>: <dozent ref="gregory_cr"><grad>D. th., jur.,
@@ -249,9 +249,10 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913s-I-027"><thema>Das Wesen des
-      Christentums</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-      <nachname>Windisch</nachname></dozent>, <zeit>So. 12-1 U.</zeit>,
-      <modus>publice</modus> (für Hörer aller Fakultäten).</veranstaltung>
+      Christentums</thema>: <dozent ref="windisch_h"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Windisch</nachname></dozent>, <zeit>So.
+      12-1 U.</zeit>, <modus>publice</modus> (für Hörer aller
+      Fakultäten).</veranstaltung>
 
       <veranstaltung xml:id="v-1913s-I-028"><thema>Christentum und soziale
       Fragen</thema>: <dozent ref="gregory_cr"><grad>D. th., jur., LL. et
@@ -364,9 +365,10 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913s-I-044"><thema>Neutestamentliche Übungen
-      (Philipperbrief)</thema>: <dozent><grad>Lic. th.</grad> <grad>D.
-      ph.</grad> <vorname>H.</vorname> <nachname>Windisch</nachname></dozent>,
-      <zeit>Do. 3½-5 U.</zeit>, <modus>privatissime</modus>, aber
+      (Philipperbrief)</thema>: <dozent ref="windisch_h"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <vorname>H.</vorname>
+      <nachname>Windisch</nachname></dozent>, <zeit>Do. 3½-5 U.</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913s-I-045"><thema>Religionsgeschichtliche
@@ -1483,8 +1485,9 @@
 
         <veranstaltung xml:id="v-1913s-III.006-012"><thema>Kursus der
         Perkussion und Auskultation für Anfänger (in Gruppen<!--(s.o.)-->)</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Ebstein</nachname> (im Auftrage
-        von</dozent> <dozent ref="struempell_a"><grad>D. med.</grad>
+        <dozent ref="ebstein_e"><grad>D. med.</grad>
+        <nachname>Ebstein</nachname> (im Auftrage von</dozent> <dozent
+        ref="struempell_a"><grad>D. med.</grad>
         <nachnamenpräfix>von</nachnamenpräfix> <nachname>Strümpell</nachname>,
         <funktion>P. O.</funktion></dozent>), <zeit>Mo. 7-9, Do. 7-8 u. Fr.
         7-9 U. vorm.</zeit>, <modus>privatim</modus>, <ort>in der
@@ -1492,7 +1495,7 @@
 
         <veranstaltung xml:id="v-1913s-III.006-013"><thema>Kursus der
         klinisch-chemischen und -mikroskopischen Untersuchungsmethoden am
-        Krankenbett</thema>: <dozent><grad>D. med.</grad>
+        Krankenbett</thema>: <dozent ref="ebstein_e"><grad>D. med.</grad>
         <nachname>Ebstein</nachname> (im Auftrage von</dozent> <dozent
         ref="struempell_a"><grad>D. med.</grad>
         <nachnamenpräfix>von</nachnamenpräfix> <nachname>Strümpell</nachname>,
@@ -2453,8 +2456,8 @@
 
         <veranstaltung xml:id="v-1913s-IV.A-011"><thema>Die
         erkenntnistheoretischen und ethischen Grundlagen des Glaubens</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wirth</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mo. u. Do. 4-5 U.</zeit>,
+        <dozent ref="wirth_w"><grad>D. ph.</grad> <nachname>Wirth</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mo. u. Do. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.A-012"><thema>Das religiöse Problem
@@ -2575,8 +2578,8 @@
             <modus>privatissime</modus>, aber <gebühr>gratis (ausschl.
             Institutsbeitrag)</gebühr>. <veranstaltung dozent="wundt_w"
             xml:id="v-1913s-IV.A.002.II-001"><thema>1. Abteilung:
-            Psychophysik</thema>, <dozent>Vorstand <grad>D. ph.</grad>
-            <nachname>Wirth</nachname>, <funktion>P.
+            Psychophysik</thema>, <dozent ref="wirth_w">Vorstand <grad>D.
+            ph.</grad> <nachname>Wirth</nachname>, <funktion>P.
             E.</funktion></dozent></veranstaltung> <veranstaltung
             xml:id="v-1913s-IV.A.002.II-002"><thema>2. Abteilung:
             Sinnespsychologie und Verwandtes</thema>, <dozent>Vorstand
@@ -2663,9 +2666,10 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.A-019"><thema>Übungen zu den
-        psychophysischen Maßmethoden</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Wirth</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Fr. 4-5 U.</zeit>, <modus>privatissime</modus>, aber
+        psychophysischen Maßmethoden</thema>: <dozent ref="wirth_w"><grad>D.
+        ph.</grad> <nachname>Wirth</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Fr. 4-5 U.</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -2815,27 +2819,28 @@
           <titel>b) Orientalische Philologie.</titel>
 
           <veranstaltung xml:id="v-1913s-IV.B.b-001"><thema>Sanskrit-Grammatik
-          mit vergleichender Lautlehre für Anfänger</thema>: <dozent><grad>D.
-          ph. et th.</grad> <vorname>E.</vorname>
+          mit vergleichender Lautlehre für Anfänger</thema>: <dozent
+          ref="windisch_e"><grad>D. ph. et th.</grad> <vorname>E.</vorname>
           <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mo., Di. u. Do. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.b-002"><thema>Böhtlingk's
-          Chrestomathie</thema>: <dozent><grad>D. ph. et th.</grad>
-          <vorname>E.</vorname> <nachname>Windisch</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mo. 4-5 U.</zeit>,
+          Chrestomathie</thema>: <dozent ref="windisch_e"><grad>D. ph. et
+          th.</grad> <vorname>E.</vorname> <nachname>Windisch</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mo. 4-5 U.</zeit>,
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.b-003"><thema>Ṛgveda</thema>:
-          <dozent><grad>D. ph. et th.</grad> <vorname>E.</vorname>
-          <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Di. 4-5 U.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
+          <dozent ref="windisch_e"><grad>D. ph. et th.</grad>
+          <vorname>E.</vorname> <nachname>Windisch</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Di. 4-5 U.</zeit>,
+          <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.b-004"><thema>Das Drama
-          Mudrārāksasa</thema>: <dozent><grad>D. ph. et th.</grad>
-          <vorname>E.</vorname> <nachname>Windisch</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Do. 4-5 U.</zeit>,
+          Mudrārāksasa</thema>: <dozent ref="windisch_e"><grad>D. ph. et
+          th.</grad> <vorname>E.</vorname> <nachname>Windisch</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Do. 4-5 U.</zeit>,
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.b-005"><thema>Grammatik der
@@ -3129,8 +3134,9 @@
 
           <veranstaltung xml:id="v-1913s-IV.B.c-011"><thema>Geschichte des
           deutschen Dramas von den ältesten Zeiten bis auf Lessing</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Witkowski</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>Di. u. Fr. 3-4 U.</zeit>,
+          <dozent ref="witkowski_g"><grad>D. ph.</grad>
+          <nachname>Witkowski</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Di. u. Fr. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.c-012"><thema>Die Entwicklung
@@ -3149,9 +3155,10 @@
 
           <veranstaltung xml:id="v-1913s-IV.B.c-014"><thema>Die jüngsten
           Entwicklungsstadien der deutschen Lite<seite>33</seite>ratur</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Witkowski</nachname>,
-          <funktion>P. E.</funktion></dozent>, <zeit>Di., Do. u. Fr. 4-5
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="witkowski_g"><grad>D. ph.</grad>
+          <nachname>Witkowski</nachname>, <funktion>P. E.</funktion></dozent>,
+          <zeit>Di., Do. u. Fr. 4-5 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Stimmbildung. Vortrags- und
           Redeübungen</thema>: <siehe>S. 43.</siehe></veranstaltungsverweis>
@@ -3206,7 +3213,8 @@
             <nachname>Köster</nachname>, <funktion>P. O.</funktion></dozent>:
             <thema>Die Xenien von 1796</thema>, <zeit>Di. 11-12 U.</zeit>,
             <modus>publice</modus></veranstaltung>; <veranstaltung
-            xml:id="v-1913s-IV.B.c.001-008">b) <dozent><grad>D. ph.</grad>
+            xml:id="v-1913s-IV.B.c.001-008">b) <dozent
+            ref="witkowski_g"><grad>D. ph.</grad>
             <nachname>Witkowski</nachname>, <funktion>P.
             E.</funktion></dozent>: <thema>Dietrich Schernbergs Spiel von Frau
             Jutten (1480)</thema>, <zeit>Do. 3-4 U.</zeit>,
@@ -3237,14 +3245,14 @@
           <titel>d) Neuere Philologie.</titel>
 
           <veranstaltung xml:id="v-1913s-IV.B.d-001"><thema>Einführung in das
-          Altirische</thema>: <dozent><grad>D. ph. et th.</grad>
-          <vorname>E.</vorname> <nachname>Windisch</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Fr. 4-5 U.</zeit>,
+          Altirische</thema>: <dozent ref="windisch_e"><grad>D. ph. et
+          th.</grad> <vorname>E.</vorname> <nachname>Windisch</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Fr. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.d-002"><thema>Historische
           Grammatik des Englischen im Grundriß (Laut- und
-          Formenlehre)</thema>: <dozent><grad>D. ph.</grad>
+          Formenlehre)</thema>: <dozent ref="weyhe_h"><grad>D. ph.</grad>
           <nachname>Weyhe</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mo., Di., Do. u. Fr. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -3310,8 +3318,8 @@
           <zeit>Mi. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.d-012"><thema>Les principaux
-          romans français du XIXe<!--(hochstellen!)--> siècle</thema>:
-          <dozent><funktion>Lektor</funktion>
+          romans français du XIXe<!--(hochstellen!)--> siècle</thema>: <dozent
+          ref="favre_a"><funktion>Lektor</funktion>
           <nachname>Favre</nachname></dozent>, <zeit>Mo. u. Do. 6-7 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -3414,7 +3422,7 @@
             ab.</zeit>, <modus>privatissime</modus>, sed
             <gebühr>gratis</gebühr>.</veranstaltung> - <veranstaltung
             xml:id="v-1913s-IV.B.d.001-002">2) <thema>Proseminar</thema>
-            <dozent>unter Leitung von <grad>D. ph.</grad>
+            <dozent ref="weyhe_h">unter Leitung von <grad>D. ph.</grad>
             <nachname>Weyhe</nachname>, <funktion>P. E.</funktion></dozent>:
             <thema>Altenglische Übungen<korrektur original=" ·">
             </korrektur>(Kluge's Angelsächsisches Lesebuch)</thema>, <zeit>Fr.
@@ -3464,15 +3472,15 @@
             U. ab.</zeit>, <modus>privatissime</modus>, sed
             <gebühr>gratis</gebühr>.</veranstaltung> -
             <veranstaltungsgruppe><thema>II. Abteilung: Praktische Übungen in
-            der französischen Sprache</thema> <dozent>unter Leitung des
-            <funktion>Assistent</funktion>en <funktion>Lektor</funktion>s
-            <nachname>Favre</nachname></dozent>: <veranstaltung
-            xml:id="v-1913s-IV.B.d.002-002"><thema>1. Sektion</thema>:
-            <zeit>Mi. 11¼-12¾ U.</zeit></veranstaltung>; <veranstaltung
-            xml:id="v-1913s-IV.B.d.002-003"><thema>2. Sektion</thema>:
-            <zeit>Di. u. Fr. 3-4 U.</zeit></veranstaltung>; <veranstaltung
-            xml:id="v-1913s-IV.B.d.002-004"><thema>3. Sektion</thema>:
-            <zeit>Di. 8-9½ U. ab.</zeit></veranstaltung>,
+            der französischen Sprache</thema> <dozent ref="favre_a">unter
+            Leitung des <funktion>Assistent</funktion>en
+            <funktion>Lektor</funktion>s <nachname>Favre</nachname></dozent>:
+            <veranstaltung xml:id="v-1913s-IV.B.d.002-002"><thema>1.
+            Sektion</thema>: <zeit>Mi. 11¼-12¾ U.</zeit></veranstaltung>;
+            <veranstaltung xml:id="v-1913s-IV.B.d.002-003"><thema>2.
+            Sektion</thema>: <zeit>Di. u. Fr. 3-4 U.</zeit></veranstaltung>;
+            <veranstaltung xml:id="v-1913s-IV.B.d.002-004"><thema>3.
+            Sektion</thema>: <zeit>Di. 8-9½ U. ab.</zeit></veranstaltung>,
             <modus>privatissime</modus>, <seite>36</seite>sed
             <gebühr>gratis</gebühr>.</veranstaltungsgruppe> - <veranstaltung
             xml:id="v-1913s-IV.B.d.002-005"><thema>III. Abteilung: Praktische
@@ -3487,8 +3495,8 @@
 
           <veranstaltung xml:id="v-1913s-IV.B.d-028"><thema>Exercices
           pratiques de français (Prononciation. Lecture. Conversation.
-          Traduction), für Studierende aller Fakultäten</thema>:
-          <dozent><funktion>Lektor</funktion>
+          Traduction), für Studierende aller Fakultäten</thema>: <dozent
+          ref="favre_a"><funktion>Lektor</funktion>
           <nachname>Favre</nachname></dozent>, <zeit>Mo. u. Do. 5-6 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -3708,14 +3716,14 @@
 
         <veranstaltung xml:id="v-1913s-IV.C-026"><thema>Vergleichende
         Völkerkunde. Anfänge und Urformen des stofflichen Kulturbesitzes der
-        Menschheit</thema>: <dozent><grad>D. ph.</grad>
+        Menschheit</thema>: <dozent ref="weule_k"><grad>D. ph.</grad>
         <nachname>Weule</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Di. u. Fr. 4-5 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.C-027"><thema>Übersicht über die
-        Ethnographie von Asien</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Weule</nachname>, <funktion>P.
+        Ethnographie von Asien</thema>: <dozent ref="weule_k"><grad>D.
+        ph.</grad> <nachname>Weule</nachname>, <funktion>P.
         E<korrektur>.</korrektur></funktion></dozent>, <zeit>Do. 4-5
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -4050,7 +4058,7 @@
 
         <veranstaltung xml:id="v-1913s-IV.C-028"><thema>Ethnologisches
         Kolloquium. Behandlung ausgewählter Fragen aus der vergleichenden
-        Völkerkunde</thema>: <dozent><grad>D. ph.</grad>
+        Völkerkunde</thema>: <dozent ref="weule_k"><grad>D. ph.</grad>
         <nachname>Weule</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mo. 7-8 U. ab.</zeit>, <modus>privatissime</modus>,
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -4337,7 +4345,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.E-008"><thema>Geld-, Kredit-, Bank-
-        u. Börsenwesen</thema>: <dozent><grad>D. ph.</grad>
+        u. Börsenwesen</thema>: <dozent ref="eulenburg_f"><grad>D. ph.</grad>
         <nachname>Eulenburg</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Di. u. Fr. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -4350,7 +4358,7 @@
         (verlegbar)</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.E-010"><thema>Kolonialwirtschaft u.
-        Kolonialpolitik</thema>: <dozent><grad>D. ph.</grad>
+        Kolonialpolitik</thema>: <dozent ref="eulenburg_f"><grad>D. ph.</grad>
         <nachname>Eulenburg</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mo. u. Do. 5-6 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -4537,7 +4545,8 @@
             Abteilung</thema>, <zeit>Fr. 7-9 U. ab.</zeit></veranstaltung>
 
             <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1913s-IV.E.001.001-003">2) <dozent><grad>D. ph.</grad>
+            xml:id="v-1913s-IV.E.001.001-003">2) <dozent
+            ref="eulenburg_f"><grad>D. ph.</grad>
             <nachname>Eulenburg</nachname>, <funktion>P.
             E.</funktion></dozent>: <thema>Praktische Abteilung</thema>,
             <zeit>So. 8-10 U. vorm.</zeit></veranstaltung>
@@ -4548,8 +4557,8 @@
             Abteilung</thema>, <zeit>Mi. 7-9 U. ab.</zeit></veranstaltung>
 
             <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1913s-IV.E.001.001-005">4)
-            <dozent><funktion>Rechtsanwalt</funktion>
+            xml:id="v-1913s-IV.E.001.001-005">4) <dozent
+            ref="woerner_g"><funktion>Rechtsanwalt</funktion>
             <funktion>Professor</funktion> <grad>D. jur.</grad>
             <nachname>Wörner</nachname></dozent>: <thema>Übungen über deutsche
             Arbeiterversicherung</thema>, <zeit>Mo. 7-9 U.
@@ -5181,8 +5190,8 @@
         Zoolog, Institut, Talstr. 33</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-050"><thema>Spezielle Zoologie:
-        Höhere Wirbellose und Ursprung der Wirbeltiere</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Woltereck</nachname>,
+        Höhere Wirbellose und Ursprung der Wirbeltiere</thema>: <dozent
+        ref="woltereck_r"><grad>D. ph.</grad> <nachname>Woltereck</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Mo. u. Do. 4 bis 5
         U.</zeit>, <modus>privatim</modus>, <ort>im Zoolog. Institut, Talstr.
         33</ort>.</veranstaltung>
@@ -5635,7 +5644,7 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-100"><thema>Biologische
-        Besprechungen</thema>: <dozent><grad>D. ph.</grad>
+        Besprechungen</thema>: <dozent ref="woltereck_r"><grad>D. ph.</grad>
         <nachname>Woltereck</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>So. 12-1 U.</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>, <ort>im Zoologischen Institut, Talstr.

@@ -433,9 +433,9 @@
             <sachgruppe xml:id="sg-1840s-I.I.2.b.001.009">
               <titel>Englische Sprache.</titel>
 
-              <veranstaltung
-              xml:id="v-1840s-I.I.2.b.001.009-001"><dozent><nachname>Feller</nachname>,
-              <grad>M.</grad> <vorname>F. E.</vorname>, <funktion>Lect.
+              <veranstaltung xml:id="v-1840s-I.I.2.b.001.009-001"><dozent
+              ref="feller_fe"><nachname>Feller</nachname>, <grad>M.</grad>
+              <vorname>F. E.</vorname>, <funktion>Lect.
               publ.</funktion></dozent>, <thema>Erklärung von Shakspeare's
               Romeo und Julie (Lpz. b. Baumgärtner)</thema>, <zeit>2 T. in zu
               best. St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
@@ -1120,25 +1120,26 @@
     <sachgruppe xml:id="sg-1840s-I.VIII">
       <titel>VIII. Tonwissenschaft.</titel>
 
-      <veranstaltung
-      xml:id="v-1840s-I.VIII-001"><dozent><nachname>Fink</nachname>,
-      <grad>M.</grad> <vorname>G. W.</vorname></dozent>, <thema>musikalische
-      Grammatik, nach s. Lehrb. (Lpz. b. G. Wigand)</thema>, <zeit>2 T. zu
-      best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+      <veranstaltung xml:id="v-1840s-I.VIII-001"><dozent
+      ref="fink_gw"><nachname>Fink</nachname>, <grad>M.</grad> <vorname>G.
+      W.</vorname></dozent>, <thema>musikalische Grammatik, nach s. Lehrb.
+      (Lpz. b. G. Wigand)</thema>, <zeit>2 T. zu best. St.</zeit>
+      <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-      <veranstaltung xml:id="v-1840s-I.VIII-002"><ders>Derselbe</ders>,
-      <thema>allgemeine Geschichte der Tonkunst, nach s. Sätzen</thema>,
-      <zeit>3 T. in zu best. St.</zeit></veranstaltung>
-
-      <veranstaltung xml:id="v-1840s-I.VIII-003"><ders>Derselbe</ders>,
-      <thema>Compositionslehre, nach s. Sätzen</thema>, <zeit>2 T. in zu best.
+      <veranstaltung xml:id="v-1840s-I.VIII-002"><ders
+      ref="fink_gw">Derselbe</ders>, <thema>allgemeine Geschichte der
+      Tonkunst, nach s. Sätzen</thema>, <zeit>3 T. in zu best.
       St.</zeit></veranstaltung>
 
-      <veranstaltung xml:id="v-1840s-I.VIII-004"><ders>Derselbe</ders>,
-      <thema>Erklärung seines neuen Systems der theoretischen Musik</thema>,
-      <zeit>2 T. in zu best. St.</zeit> <modus>privatissime</modus>,
-      <thema>für Anfänger besonders die Lehre von der
-      Harmonie</thema>.</veranstaltung>
+      <veranstaltung xml:id="v-1840s-I.VIII-003"><ders
+      ref="fink_gw">Derselbe</ders>, <thema>Compositionslehre, nach s.
+      Sätzen</thema>, <zeit>2 T. in zu best. St.</zeit></veranstaltung>
+
+      <veranstaltung xml:id="v-1840s-I.VIII-004"><ders
+      ref="fink_gw">Derselbe</ders>, <thema>Erklärung seines neuen Systems der
+      theoretischen Musik</thema>, <zeit>2 T. in zu best. St.</zeit>
+      <modus>privatissime</modus>, <thema>für Anfänger besonders die Lehre von
+      der Harmonie</thema>.</veranstaltung>
     </sachgruppe>
   </sachgruppe>
 
@@ -1199,13 +1200,13 @@
           <sachgruppe xml:id="sg-1840s-II.A.I.1.003">
             <titel>Erklärung des A. T.</titel>
 
-            <veranstaltung
-            xml:id="v-1840s-II.A.I.1.003-001"><dozent><nachname>Winzer</nachname>,
-            <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P.
-            Prim.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <thema>Erklärung des Buches Kohelet, der Weissagungen des Joel und
-            ausgewählter prophetischer Abschnitte</thema>, <zeit>11 U. 4
-            T.</zeit> <modus>öffentl.</modus></veranstaltung>
+            <veranstaltung xml:id="v-1840s-II.A.I.1.003-001"><dozent
+            ref="winzer_jf"><nachname>Winzer</nachname>, <grad>D.</grad>
+            <vorname>J. F.</vorname>, <funktion>P. Prim.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <thema>Erklärung des Buches
+            Kohelet, der Weissagungen des Joel und ausgewählter prophetischer
+            Abschnitte</thema>, <zeit>11 U. 4 T.</zeit>
+            <modus>öffentl.</modus></veranstaltung>
 
             <veranstaltung xml:id="v-1840s-II.A.I.1.003-002"><dozent
             ref="fleischer_hl"><nachname>Fleischer</nachname>, <vorname>H.
@@ -1237,12 +1238,12 @@
           <sachgruppe xml:id="sg-1840s-II.A.I.1.004">
             <titel>Erklärung des N. T.</titel>
 
-            <veranstaltung
-            xml:id="v-1840s-II.A.I.1.004-001"><dozent><nachname>Winzer</nachname>,
-            <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P.
-            Prim.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <thema>Erklärung der beiden Briefe Pauli an die Korinther</thema>,
-            <zeit>7 U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1840s-II.A.I.1.004-001"><dozent
+            ref="winzer_jf"><nachname>Winzer</nachname>, <grad>D.</grad>
+            <vorname>J. F.</vorname>, <funktion>P. Prim.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <thema>Erklärung der beiden
+            Briefe Pauli an die Korinther</thema>, <zeit>7 U. 6
+            T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1840s-II.A.I.1.004-002"><dozent
             ref="grossmann_cgl"><nachname>Großmann</nachname>, <grad>D.</grad>
@@ -1250,11 +1251,11 @@
             <thema>über den Brief an die Hebräer</thema>, <zeit>8 U. 4
             T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1840s-II.A.I.1.004-003"><dozent><nachname>Winer</nachname>,
-            <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <thema>über den Brief an die
-            Römer</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1840s-II.A.I.1.004-003"><dozent
+            ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+            <vorname>G. B.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <thema>über den Brief an die Römer</thema>, <zeit>9 U. 6
+            T.</zeit></veranstaltung>
 
             <veranstaltungsgruppe><dozent
             ref="theile_cgw"><nachname>Theile</nachname>, <grad>D.</grad>
@@ -1301,13 +1302,13 @@
           <sachgruppe xml:id="sg-1840s-II.A.I.1.005">
             <titel>Uebungen exegetischer Gesellschaften.</titel>
 
-            <veranstaltung
-            xml:id="v-1840s-II.A.I.1.005-001"><dozent><nachname>Winzer</nachname>,
-            <grad>D.</grad> <vorname>J. F.</vorname>, <funktion>P.
-            Prim.</funktion>, d. Z. <funktion>Dechant</funktion></dozent>,
-            <thema>exegetische Uebungen der Lausitzer Gesellschaft</thema>,
-            <zeit>in den best. T. und St.</zeit> <modus>privatissime</modus>,
-            aber <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+            <veranstaltung xml:id="v-1840s-II.A.I.1.005-001"><dozent
+            ref="winzer_jf"><nachname>Winzer</nachname>, <grad>D.</grad>
+            <vorname>J. F.</vorname>, <funktion>P. Prim.</funktion>, d. Z.
+            <funktion>Dechant</funktion></dozent>, <thema>exegetische Uebungen
+            der Lausitzer Gesellschaft</thema>, <zeit>in den best. T. und
+            St.</zeit> <modus>privatissime</modus>, aber
+            <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <veranstaltung xml:id="v-1840s-II.A.I.1.005-002"><dozent
             ref="theile_cgw"><nachname>Theile</nachname>, <grad>D.</grad>
@@ -1550,13 +1551,13 @@
           <sachgruppe xml:id="sg-1840s-II.A.I.3.008">
             <titel>Polemik.</titel>
 
-            <veranstaltung
-            xml:id="v-1840s-II.A.I.3.008-001"><dozent><nachname>Winer</nachname>,
-            <grad>D.</grad> <vorname>G. B.</vorname>, <funktion>P.
-            O.</funktion></dozent>, <thema kontext="sachgruppe">nach den
-            Bedürfnissen der gegenwärtigen Zeit unter Berücksichtigung der
-            neuesten Angriffe auf den Protestantismus</thema>, <zeit>10 U. 5
-            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            <veranstaltung xml:id="v-1840s-II.A.I.3.008-001"><dozent
+            ref="winer_gb"><nachname>Winer</nachname>, <grad>D.</grad>
+            <vorname>G. B.</vorname>, <funktion>P. O.</funktion></dozent>,
+            <thema kontext="sachgruppe">nach den Bedürfnissen der
+            gegenwärtigen Zeit unter Berücksichtigung der neuesten Angriffe
+            auf den Protestantismus</thema>, <zeit>10 U. 5 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1840s-II.A.I.3.009">

@@ -782,7 +782,7 @@
       <titel>III. Medicinische Facultät.</titel>
 
       <veranstaltung xml:id="v-1894s-III-001"><thema>Einleitung in das Studium
-      der Medicin</thema>: <dozent><grad>D. med.</grad>
+      der Medicin</thema>: <dozent ref="winter_ja"><grad>D. med.</grad>
       <nachname>Winter</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>an den ersten 4 Tagen des Semesters, 4 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -826,7 +826,7 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1894s-III-008"><thema>Mikroskopischer
-      Uebungscursus</thema>: <dozent><grad>D. med.</grad>
+      Uebungscursus</thema>: <dozent ref="wenzel_ef"><grad>D. med.</grad>
       <nachname>Wenzel</nachname>, <funktion>P. E. des.</funktion></dozent>,
       <zeit>Mittw. u. Sonnab. 2-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -939,10 +939,11 @@
       Donnerst., 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1894s-III-026"><thema>Receptirkunst nebst
-      Uebersicht der wichtigsten Arzneimittel</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Winter</nachname>, <funktion>P.
-      E.</funktion></dozent>, <zeit>einmal wöchentlich. Tag und Stunde noch
-      näher zu bestimmen</zeit>, <modus>publice</modus>.</veranstaltung>
+      Uebersicht der wichtigsten Arzneimittel</thema>: <dozent
+      ref="winter_ja"><grad>D. med.</grad> <nachname>Winter</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>einmal wöchentlich. Tag und
+      Stunde noch näher zu bestimmen</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1894s-III-027"><thema>Uebungen im
       Receptschreiben</thema>: <dozent ref="heffter_a"><grad>D. med. et
@@ -1016,9 +1017,10 @@
 
       <veranstaltung xml:id="v-1894s-III-038"><thema>Krankheiten des
       peripherischen Nervensystems mit
-      Demonst<korrektur>r</korrektur>ationen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Windscheid</nachname></dozent>, <zeit>Mont. u.
-      Freit. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Demonst<korrektur>r</korrektur>ationen</thema>: <dozent
+      ref="windscheid_f"><grad>D. med.</grad>
+      <nachname>Windscheid</nachname></dozent>, <zeit>Mont. u. Freit. 4-5
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <seite>12</seite>
 
@@ -1030,9 +1032,9 @@
 
       <veranstaltung xml:id="v-1894s-III-040"><thema>Elektrodiagnostik und
       Elektrotherapie mit Demonstrationen und praktischen Uebungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Windscheid</nachname></dozent>,
-      <zeit>Dienst. u. Donnerst. 4-5 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="windscheid_f"><grad>D. med.</grad>
+      <nachname>Windscheid</nachname></dozent>, <zeit>Dienst. u. Donnerst. 4-5
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1894s-III-041"><thema>Curs der Krankheiten von
       Harnröhre und Blase, einschliesslich der Functions-Störungen am
@@ -1054,8 +1056,8 @@
       Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1894s-III-044"><thema>Cursus der Hydrotherapie
-      und verwandter physikalischer Heilmethoden</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Eggebrecht</nachname>,
+      und verwandter physikalischer Heilmethoden</thema>: <dozent
+      ref="eggebrecht_e"><grad>D. med.</grad> <nachname>Eggebrecht</nachname>,
       <funktion>Assistent</funktion></dozent>, im Auftrage des <dozent
       ref="curschmann_hjw"><funktion>Directors der medicin. Klinik</funktion>
       <grad>D. med.</grad> <nachname>Curschmann</nachname>, <funktion>P.
@@ -1564,16 +1566,17 @@
         </sachgruppe>
       </sachgruppe>
 
-      <veranstaltungsverweis><thema>Experimentalphysik</thema>:
-      <dozent><grad>D. ph. et med.</grad> <vorname>G.</vorname>
+      <veranstaltungsverweis><thema>Experimentalphysik</thema>: <dozent
+      ref="wiedemann_gh"><grad>D. ph. et med.</grad> <vorname>G.</vorname>
       <nachname>Wiedemann</nachname>, <funktion>P. O.</funktion></dozent>,
       <siehe>Siehe Philosophische Facultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Anorganische Experimentalchemie -
-      Ausgewählte Kapitel aus der Chemie der Metalle</thema>: <dozent><grad>D.
-      ph. <korrektur original="et.">et</korrektur> med.</grad>
-      <nachname>Wislicenus</nachname>, <funktion>P. O.</funktion></dozent>
-      <siehe>Siehe Philosophische Facultät G.</siehe></veranstaltungsverweis>
+      Ausgewählte Kapitel aus der Chemie der Metalle</thema>: <dozent
+      ref="wislicenus_j"><grad>D. ph. <korrektur original="et.">et</korrektur>
+      med.</grad> <nachname>Wislicenus</nachname>, <funktion>P.
+      O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Repetitorium der organischen Chemie -
       Chemisches Praktikum für Anfänger und Mediciner -
@@ -1631,7 +1634,7 @@
       Facultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Praktisch wichtige physikalische
-      Messmethoden</thema>: <dozent><grad>D. ph.</grad>
+      Messmethoden</thema>: <dozent ref="wiedeburg_o"><grad>D. ph.</grad>
       <nachname>Wiedeburg</nachname></dozent>. <siehe>Siehe Philosophische
       Facultät G.</siehe></veranstaltungsverweis>
     </sachgruppe>
@@ -1988,27 +1991,27 @@
           <titel>b) Orientalische Philologie.</titel>
 
           <veranstaltung xml:id="v-1894s-IV.B.b-001"><thema>Sanskrit-Grammatik
-          für Anfänger</thema>: <dozent><grad>D. ph.</grad>
+          für Anfänger</thema>: <dozent ref="windisch_e"><grad>D. ph.</grad>
           <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont., Dienst., Donnerst. u. Freit. 3-4 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung
-          xml:id="v-1894s-IV.B.b-002"><thema>Raghuvaṃsa</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Windisch</nachname>,
+          xml:id="v-1894s-IV.B.b-002"><thema>Raghuvaṃsa</thema>: <dozent
+          ref="windisch_e"><grad>D. ph.</grad> <nachname>Windisch</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Dienst. 4-5 U.</zeit>,
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1894s-IV.B.b-003"><thema>Das Drama
-          Mṛcchakaṭikā</thema>: <dozent><grad>D. ph.</grad>
+          Mṛcchakaṭikā</thema>: <dozent ref="windisch_e"><grad>D. ph.</grad>
           <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1894s-IV.B.b-004"><thema>Veda</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Windisch</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Freit. 4-5 U.</zeit>,
-          <gebühr>gratis</gebühr>.</veranstaltung>
+          <dozent ref="windisch_e"><grad>D. ph.</grad>
+          <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Freit. 4-5 U.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1894s-IV.B.b-005"><thema>Vergleichende
           Grammatik des Zend und Altpersischen</thema>: <dozent
@@ -2210,10 +2213,10 @@
           Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1894s-IV.B.c-012"><thema>Geschichte der
-          deutschen Litteratur im 18. Jahrhundert</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Witkowski</nachname></dozent>, <zeit>Dienst.,
-          Donnerst. u. Freit. 9 bis 10 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          deutschen Litteratur im 18. Jahrhundert</thema>: <dozent
+          ref="witkowski_g"><grad>D. ph.</grad>
+          <nachname>Witkowski</nachname></dozent>, <zeit>Dienst., Donnerst. u.
+          Freit. 9 bis 10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <trennlinie/>
 
@@ -2273,15 +2276,15 @@
 
           <veranstaltung
           xml:id="v-1894s-IV.B.d-001"><thema>Angelsächsi<korrektur>s</korrektur>che
-          Litteraturgeschichte</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Wülker</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          Litteraturgeschichte</thema>: <dozent ref="wuelker_rp"><grad>D.
+          ph.</grad> <nachname>Wülker</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
+          11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1894s-IV.B.d-002"><thema>Einleitung in das
-          Studium Shakspere's</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Wülker</nachname>, <funktion>P. O.</funktion></dozent>,
-          <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
+          Studium Shakspere's</thema>: <dozent ref="wuelker_rp"><grad>D.
+          ph.</grad> <nachname>Wülker</nachname>, <funktion>P.
+          O.</funktion></dozent>, <zeit>Dienst. u. Freit. 12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1894s-IV.B.d-003"><thema>Provenzalische
@@ -2359,13 +2362,13 @@
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1894s-IV.B.d-014"><thema>Ueber die
-          Volksepik der Südslaven</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Wollner</nachname>, <funktion>P. E.
+          Volksepik der Südslaven</thema>: <dozent ref="wollner_w"><grad>D.
+          ph.</grad> <nachname>Wollner</nachname>, <funktion>P. E.
           des.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltungsgruppe><thema>Englisches Seminar</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Wülker</nachname>,
+          <veranstaltungsgruppe><thema>Englisches Seminar</thema>: <dozent
+          ref="wuelker_rp"><grad>D. ph.</grad> <nachname>Wülker</nachname>,
           <funktion>P. O.</funktion></dozent>, <veranstaltung
           xml:id="v-1894s-IV.B.d-015"><thema>I. Abtheilung: Vorträge und
           Angelsächsische Uebungen (Fortsetzung der Erklärung von Cynewulf's
@@ -2399,7 +2402,7 @@
           <gebühr>gratis</gebühr></veranstaltung></veranstaltungsgruppe>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1894s-IV.B.d-020"><thema>Cymrische Uebungen
-          (Celtisch)</thema>: <dozent><grad>D. ph.</grad>
+          (Celtisch)</thema>: <dozent ref="windisch_e"><grad>D. ph.</grad>
           <nachname>Windisch</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Dienst. 9-10 U.</zeit>,
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3205,14 +3208,14 @@
         <titel>G. Naturwissenschaften.</titel>
 
         <veranstaltung xml:id="v-1894s-IV.G-001"><thema>Experimentalphysik
-        (Allgemeine Physik, Akustik, Optik)</thema>: <dozent><grad>D. ph.
-        &amp; med.</grad> <vorname>G.</vorname>
-        <nachname>Wiedemann</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>täglich 11 bis 12 U.</zeit>,
+        (Allgemeine Physik, Akustik, Optik)</thema>: <dozent
+        ref="wiedemann_gh"><grad>D. ph. &amp; med.</grad>
+        <vorname>G.</vorname> <nachname>Wiedemann</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>täglich 11 bis 12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.G-002"><thema>Mechanische
-        Wärmetheorie</thema>: <dozent><grad>D. ph.</grad>
+        Wärmetheorie</thema>: <dozent ref="wiedeburg_o"><grad>D. ph.</grad>
         <nachname>Wiedeburg</nachname></dozent>, <zeit>in zwei zu best.
         Stunden</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -3232,9 +3235,9 @@
 
         <veranstaltung xml:id="v-1894s-IV.G-005"><thema>Praktisch wichtige
         physikalische Messmethoden für Mediciner und Studirende der
-        Naturwissenschaften</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Wiedeburg</nachname></dozent>, <zeit>in einer zu best.
-        Stunde</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Naturwissenschaften</thema>: <dozent ref="wiedeburg_o"><grad>D.
+        ph.</grad> <nachname>Wiedeburg</nachname></dozent>, <zeit>in einer zu
+        best. Stunde</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.G-006"><thema>Energetik in
         gemeinfasslicher Darstellung</thema>: <dozent
@@ -3249,16 +3252,17 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.G-008"><thema>Anorganische
-        Experimentalchemie</thema>: <dozent><grad>D. ph. et med.</grad>
-        <nachname>Wislicenus</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>täglich 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Experimentalchemie</thema>: <dozent ref="wislicenus_j"><grad>D. ph. et
+        med.</grad> <nachname>Wislicenus</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>täglich 8-9 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.G-009"><thema>Ausgewählte Kapitel
         aus der Chemie der Metalle (<notiz
-        betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent><grad>D.
-        ph. et med.</grad> <nachname>Wislicenus</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Dienst. 6-7 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent
+        ref="wislicenus_j"><grad>D. ph. et med.</grad>
+        <nachname>Wislicenus</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Dienst. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <seite>33</seite>
 
@@ -3468,21 +3472,22 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1894s-IV.G-036"><thema>Physikalisches
-        Praktikum</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <vorname>G.</vorname> <nachname>Wiedemann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>täglich 9-1 U. u. (ausser Sonnab.) 2-5
-        U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+        Praktikum</thema>: <dozent ref="wiedemann_gh"><grad>D. ph. &amp;
+        med.</grad> <vorname>G.</vorname> <nachname>Wiedemann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>täglich 9-1 U. u. (ausser
+        Sonnab.) 2-5 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.G-037"><thema>Physikalisches
-        Halbpraktikum</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <vorname>G.</vorname> <nachname>Wiedemann</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>an einem oder zwei halben Tagen, Mittw.
-        u. Donnerst. 2-5 U., Sonnab. 9-12 U.</zeit>,
+        Halbpraktikum</thema>: <dozent ref="wiedemann_gh"><grad>D. ph. &amp;
+        med.</grad> <vorname>G.</vorname> <nachname>Wiedemann</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>an einem oder zwei halben
+        Tagen, Mittw. u. Donnerst. 2-5 U., Sonnab. 9-12 U.</zeit>,
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.G-038"><thema>Physikalisches
         Colloquium</thema>: <dozent ref="leblanc_m"><grad>D. ph.</grad>
-        <nachname>Le Blanc</nachname></dozent> und <dozent><grad>D. ph.</grad>
+        <nachname>Le Blanc</nachname></dozent> und <dozent
+        ref="wiedeburg_o"><grad>D. ph.</grad>
         <nachname>Wiedeburg</nachname></dozent>, <zeit>zu noch zu best.
         Zeit</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3490,16 +3495,16 @@
         <seite>35</seite>
 
         <veranstaltung xml:id="v-1894s-IV.G-039"><thema>Chemisches
-        Vollpraktikum</thema>: <dozent><grad>D. ph. et med.</grad>
-        <nachname>Wislicenus</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>täglich 9-1 U. u. (ausser Sonnab.) 2-6 U.</zeit>,
-        <modus>privatissime</modus>.</veranstaltung>
+        Vollpraktikum</thema>: <dozent ref="wislicenus_j"><grad>D. ph. et
+        med.</grad> <nachname>Wislicenus</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>täglich 9-1 U. u. (ausser Sonnab.) 2-6
+        U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.G-040"><thema>Chemisches
-        Halbpraktikum</thema>: <dozent><grad>D. ph. et med.</grad>
-        <nachname>Wislicenus</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mont. bis Freit. 9-12 U., oder 2-5 U.</zeit>,
-        <modus>privatissime</modus>.</veranstaltung>
+        Halbpraktikum</thema>: <dozent ref="wislicenus_j"><grad>D. ph. et
+        med.</grad> <nachname>Wislicenus</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mont. bis Freit. 9-12 U., oder 2-5
+        U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1894s-IV.G-041"><thema>Chemisches
         Praktikum</thema>, <zeit>ganz- und halbtägig</zeit>: <dozent

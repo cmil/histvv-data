@@ -698,9 +698,9 @@
     <sachgruppe xml:id="sg-1870w-I.III">
       <titel>III. Historische Wissenschaften.</titel>
 
-      <veranstaltungsverweis><thema>Kritik</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
-      O.</funktion></dozent>, <siehe>s. hist.
+      <veranstaltungsverweis><thema>Kritik</thema>: <dozent
+      ref="wuttke_h"><grad>D. ph.</grad> <nachname>Wuttke</nachname>,
+      <funktion>P. O.</funktion></dozent>, <siehe>s. hist.
       Uebb.</siehe></veranstaltungsverweis>
 
       <sachgruppe xml:id="sg-1870w-I.III.1">
@@ -727,9 +727,10 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1870w-I.III.1-004"><thema>Geschichte der
-        Römer bis zum Uebergange der Republik in Monarchie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>10 U. 4 T.</zeit></veranstaltung>
+        Römer bis zum Uebergange der Republik in Monarchie</thema>: <dozent
+        ref="wuttke_h"><grad>D. ph.</grad> <nachname>Wuttke</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1870w-I.III.1-005"><thema>Geschichte des
         Abendlandes von der Völkerwanderung bis auf Karl d. Gr.</thema>:
@@ -818,9 +819,10 @@
 
           <veranstaltung xml:id="v-1870w-I.III.1.003-001"><thema>Historisches
           Seminar (Historische Hülfswissenschaften und Kritik)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Wuttke</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>3stündig in zu best. T.
-          u. St.</zeit>, <modus>privatissime</modus>, aber
+          <dozent ref="wuttke_h"><grad>D. ph.</grad>
+          <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>3stündig in zu best. T. u. St.</zeit>,
+          <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1870w-I.III.1.003-002"><thema>Historische
@@ -906,9 +908,9 @@
         <titel>3. Historische Hülfswissenschaften.</titel>
 
         <veranstaltungsverweis><thema>Historische Hülfswissenschaften</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Wuttke</nachname>, <funktion>P.
-        O.</funktion></dozent>, <siehe>s. histor.
-        Sem.</siehe></veranstaltungsverweis>
+        <dozent ref="wuttke_h"><grad>D. ph.</grad>
+        <nachname>Wuttke</nachname>, <funktion>P. O.</funktion></dozent>,
+        <siehe>s. histor. Sem.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Urkundliche Uebungen</thema>: <dozent
         ref="voigt_g"><grad>D. ph.</grad> <nachname>Voigt</nachname>,
@@ -1802,7 +1804,7 @@
 
           <veranstaltung xml:id="v-1870w-II.B.II.1-005"><thema>Pandekten mit
           Ausnahme des Familien- u. Erbrechts nach Arndts' Lehrbuch der
-          Pand.</thema>: <dozent><grad>D.</grad>
+          Pand.</thema>: <dozent ref="waechter_kg"><grad>D.</grad>
           <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Wächter</nachname>,
           <funktion>P. Prim., Fac. jur. Ord.</funktion></dozent>, <zeit>11-1
           U. 6 T. und Donn. 3-5 U.</zeit></veranstaltung>
@@ -1810,11 +1812,11 @@
           <trennlinie/>
 
           <veranstaltung xml:id="v-1870w-II.B.II.1-006"><thema>Ueber einige
-          ausgewählte Lehren des Pandektenrechts</thema>:
-          <dozent><grad>D.</grad> <nachnamenpräfix>v.</nachnamenpräfix>
-          <nachname>Wächter</nachname>, <funktion>P. Prim., Fac. jur.
-          Ord.</funktion></dozent>, <zeit>3-5 U. Freit. u. Sonn.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          ausgewählte Lehren des Pandektenrechts</thema>: <dozent
+          ref="waechter_kg"><grad>D.</grad>
+          <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Wächter</nachname>,
+          <funktion>P. Prim., Fac. jur. Ord.</funktion></dozent>, <zeit>3-5 U.
+          Freit. u. Sonn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1870w-II.B.II.1-007"><thema>Familien- und
           Erbrecht als Theil der Pandekten</thema>: <dozent><grad>D.</grad>
@@ -2131,7 +2133,7 @@
         <titel>I. Propädeutik.</titel>
 
         <veranstaltung xml:id="v-1870w-II.C.I-001"><thema>Einleitung in das
-        Studium der Medicin</thema>: <dozent><grad>D.</grad>
+        Studium der Medicin</thema>: <dozent ref="winter_ja"><grad>D.</grad>
         <nachname>Winter</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>4 U. 6 T., während der ersten acht Tage des Semesters</zeit>,
         <modus>öffentlich</modus>.</veranstaltung>
@@ -2167,20 +2169,22 @@
         Chirurgie</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1870w-II.C.II-005"><thema>Anatomie des
-        Gehirns u. Rückenmarkes</thema>: <dozent><grad>D.</grad>
-        <nachname>Wenzel</nachname></dozent>, <zeit>2 U. Sonn.</zeit>
+        Gehirns u. Rückenmarkes</thema>: <dozent
+        ref="wenzel_ef"><grad>D.</grad> <nachname>Wenzel</nachname></dozent>,
+        <zeit>2 U. Sonn.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <trennlinie/>
 
         <veranstaltung xml:id="v-1870w-II.C.II-006"><thema>Repetitorium der
-        gesammten systematischen Anatomie</thema>: <dozent><grad>D.</grad>
-        <nachname>Wenzel</nachname></dozent>, <zeit>5 U. 6
-        T.</zeit></veranstaltung>
+        gesammten systematischen Anatomie</thema>: <dozent
+        ref="wenzel_ef"><grad>D.</grad> <nachname>Wenzel</nachname></dozent>,
+        <zeit>5 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1870w-II.C.II-007"><thema>Anatomische
-        Vorträge für Nichtmediciner</thema>: <ders>Derselbe</ders>, <zeit>6 U.
-        Ab. 2 T.</zeit></veranstaltung>
+        Vorträge für Nichtmediciner</thema>: <ders
+        ref="wenzel_ef">Derselbe</ders>, <zeit>6 U. Ab. 2
+        T.</zeit></veranstaltung>
 
         <absatz>Pathologische Anatomie, <siehe>s. allgemeine
         Pathologie</siehe>.</absatz>
@@ -2394,9 +2398,9 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1870w-II.C.VI-005"><thema>Receptirkunst,
-        nebst Uebersicht der wichtigsten Arzneimittel</thema>:
-        <dozent><grad>D.</grad> <nachname>Winter</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>5 U. 3 T. (Mont., Mittw. u.
+        nebst Uebersicht der wichtigsten Arzneimittel</thema>: <dozent
+        ref="winter_ja"><grad>D.</grad> <nachname>Winter</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>5 U. 3 T. (Mont., Mittw. u.
         Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
@@ -2412,9 +2416,9 @@
         <titel>VII. Specielle Pathologie und Therapie.</titel>
 
         <veranstaltung xml:id="v-1870w-II.C.VII-001"><thema>Pathologie u.
-        Therapie der acuten Exantheme</thema>: <dozent><grad>D.</grad>
-        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>in 2 zu best. St.</zeit>
+        Therapie der acuten Exantheme</thema>: <dozent
+        ref="wunderlich_kra"><grad>D.</grad> <nachname>Wunderlich</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>in 2 zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1870w-II.C.VII-002"><thema>Specielle
@@ -2586,9 +2590,10 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1870w-II.C.XI-004"><thema>Medicinische Klinik
-        <ort>im Jacobshospital</ort></thema>: <dozent><grad>D.</grad>
-        <nachname>Wunderlich</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>9-10½ U. 6 T.</zeit></veranstaltung>
+        <ort>im Jacobshospital</ort></thema>: <dozent
+        ref="wunderlich_kra"><grad>D.</grad> <nachname>Wunderlich</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9-10½ U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1870w-II.C.XI-005"><thema>Chirurgische Klinik
         <ort>im Jacobshospital</ort></thema><korrektur>:</korrektur><dozent
