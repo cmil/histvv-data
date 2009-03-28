@@ -137,8 +137,9 @@
         Sonn.)</zeit> (<modus>1 St. öffentlich</modus>.)</veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.I.2-006"><thema>Psychologie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Ziller</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="ziller_t"><grad>D. ph.</grad>
+        <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>12 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.I.2-007"><thema>Ueber die Beziehungen
         von Leib und Seele</thema>: <dozent ref="fechner_gt"><grad>D. ph.
@@ -148,9 +149,9 @@
 
         <veranstaltung
         xml:id="v-1872w-I.I.2-008"><thema>Religionsphilosophie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Ziller</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <dozent ref="ziller_t"><grad>D. ph.</grad>
+        <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>12 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.I.2-009"><thema>Die
         religionsphilosophischen Probleme</thema>: <dozent
@@ -287,7 +288,7 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1872w-I.I.2.004-005"><thema>Pädagogisches
-          Seminar</thema>: <dozent><grad>D. ph.</grad>
+          Seminar</thema>: <dozent ref="ziller_t"><grad>D. ph.</grad>
           <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mittw. 7 U. Ab., Donn. 2 U., Sonn. Ab. 5-7 U.</zeit>,
           <modus>privatissime</modus>, aber
@@ -544,7 +545,7 @@
 
           <veranstaltung xml:id="v-1872w-I.II.2.002-002"><thema>Erklärung des
           Jesaja, <notiz betreff="fortsetzung">2. Th.</notiz> (Kap.
-          40-66)</thema>: <dozent><grad>D. ph.</grad>
+          40-66)</thema>: <dozent ref="fuerst_j"><grad>D. ph.</grad>
           <nachname>Fürst</nachname>, <funktion>Lect. publ.,
           P.</funktion></dozent>, <zeit>2 U. 3 T. (Mont., Mittw. u.
           Freit.)</zeit></veranstaltung>
@@ -557,8 +558,8 @@
           U.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1872w-I.II.2.002-004"><thema>Pirke-Aboth
-          oder Sprüche der Väter (nach eigner Ausgabe)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Fürst</nachname>,
+          oder Sprüche der Väter (nach eigner Ausgabe)</thema>: <dozent
+          ref="fuerst_j"><grad>D. ph.</grad> <nachname>Fürst</nachname>,
           <funktion>Lect. publ., P.</funktion></dozent>, <zeit>2 U.,
           Dienst.</zeit>, <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1141,9 +1142,9 @@
       <nachname>Engelmann</nachname></dozent>, <zeit>4 U. 2 T. (Dienst. u.
       Freit.)</zeit></veranstaltung>
 
-      <veranstaltungsverweis><thema>Physikalische Astronomie</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Zöllner</nachname>, <funktion>P.
-      O.</funktion></dozent>, <siehe>s.
+      <veranstaltungsverweis><thema>Physikalische Astronomie</thema>: <dozent
+      ref="zoellner_jkf"><grad>D. ph.</grad> <nachname>Zöllner</nachname>,
+      <funktion>P. O.</funktion></dozent>, <siehe>s.
       Physik</siehe>.</veranstaltungsverweis>
 
       <sachgruppe xml:id="sg-1872w-I.V.001">
@@ -1181,9 +1182,9 @@
 
         <veranstaltung xml:id="v-1872w-I.VI.1-001"><thema>Ueber die Principien
         der Erkenntnisstheorie in ihrer Anwendung auf die Naturwissenschaft
-        (<notiz betreff="fortsetzung">Forts.</notiz>)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Zöllner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>5-7 U. Mittw.</zeit>
+        (<notiz betreff="fortsetzung">Forts.</notiz>)</thema>: <dozent
+        ref="zoellner_jkf"><grad>D. ph.</grad> <nachname>Zöllner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>5-7 U. Mittw.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
@@ -1208,7 +1209,7 @@
         Donn.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.VI.1-005"><thema>Physikalische
-        Astronomie</thema>: <dozent><grad>D. ph.</grad>
+        Astronomie</thema>: <dozent ref="zoellner_jkf"><grad>D. ph.</grad>
         <nachname>Zöllner</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>4 St. (Mont. u. Dienst. 5-7 U.)</zeit></veranstaltung>
 
@@ -1319,13 +1320,13 @@
         <zeit>5 U. 5 T. (Mont. bis Freit.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.VI.2-002"><thema>Einleitung in die
-        chemische Geologie</thema>: <dozent><grad>D. ph.</grad>
+        chemische Geologie</thema>: <dozent ref="zirkel_f"><grad>D. ph.</grad>
         <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>12 U. Sonn.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.VI.2-003"><thema>Allgemeine
-        Mineralogie</thema>: <ders>Derselbe</ders>, <zeit>10 U. 6
-        T.</zeit></veranstaltung>
+        Mineralogie</thema>: <ders ref="zirkel_f">Derselbe</ders>, <zeit>10 U.
+        6 T.</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -1386,18 +1387,19 @@
         U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.VI.2-013"><thema>Repetitorium der
-        Anatomie und Physiologie der Haussäugethiere</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Zürn</nachname>, <funktion>P. E.
-        des.</funktion></dozent>, <zeit>Freit. in 1 zu best. St.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Anatomie und Physiologie der Haussäugethiere</thema>: <dozent
+        ref="zuern_fa"><grad>D. med.</grad> <nachname>Zürn</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>Freit. in 1 zu best.
+        St.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.VI.2-014"><thema>Gesundheitspflege
-        der Hausthiere</thema>: <ders>Derselbe</ders>, <zeit>Donn. in einer zu
-        best. St.</zeit></veranstaltung>
+        der Hausthiere</thema>: <ders ref="zuern_fa">Derselbe</ders>,
+        <zeit>Donn. in einer zu best. St.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.VI.2-015"><thema>Beurtheilungslehre
-        des Pferdes (Lehre vom Exterieur)</thema>: <ders>Derselbe</ders>,
-        <zeit>in 2 zu best. St. (Mont. u. Mittw.)</zeit></veranstaltung>
+        des Pferdes (Lehre vom Exterieur)</thema>: <ders
+        ref="zuern_fa">Derselbe</ders>, <zeit>in 2 zu best. St. (Mont. u.
+        Mittw.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872w-I.VI.2-016"><thema>Ueber den Bau der
         Gehörorgane der im Wasser athmenden Thiere</thema>: <dozent
@@ -1429,7 +1431,7 @@
 
           <veranstaltung
           xml:id="v-1872w-I.VI.2.001-002"><thema>Repetitorisch-mineralogische
-          Uebungen</thema>: <dozent><grad>D. ph.</grad>
+          Uebungen</thema>: <dozent ref="zirkel_f"><grad>D. ph.</grad>
           <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>in näher zu best. St.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltl.</gebühr></veranstaltung>
@@ -1448,10 +1450,10 @@
 
           <veranstaltung
           xml:id="v-1872w-I.VI.2.001-005"><thema>Veterinärklinische
-          Demonstrationen und Operationsübungen</thema>: <dozent><grad>D.
-          med.</grad> <nachname>Zürn</nachname>, <funktion>P. E.
-          des.</funktion></dozent>, <zeit>4stünd. (Dienst. u. Sonn. je 2
-          St.)</zeit></veranstaltung>
+          Demonstrationen und Operationsübungen</thema>: <dozent
+          ref="zuern_fa"><grad>D. med.</grad> <nachname>Zürn</nachname>,
+          <funktion>P. E. des.</funktion></dozent>, <zeit>4stünd. (Dienst. u.
+          Sonn. je 2 St.)</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
@@ -2412,7 +2414,8 @@ also noch entsprechend nachgetaggt werden.-->
         <siehe>s. Gynäkologie</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1872w-II.C.VII-004"><thema>Pathologie und
-        Therapie der Kinderkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Therapie der Kinderkrankheiten</thema>: <dozent
+        ref="fuerst_l"><grad>D. med.</grad>
         <nachname>Fürst</nachname></dozent>, <zeit>3 U. 2 T. (Mont. u.
         Mittw.)</zeit></veranstaltung>
       </sachgruppe>
@@ -2540,7 +2543,7 @@ also noch entsprechend nachgetaggt werden.-->
         <seite>28</seite>
 
         <veranstaltung xml:id="v-1872w-II.C.X-007"><thema>Geburtshilfliche
-        Propädeutik</thema>: <dozent><grad>D. med.</grad>
+        Propädeutik</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
         <nachname>Fürst</nachname></dozent>, <zeit>3 U. Freit.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -2664,14 +2667,14 @@ also noch entsprechend nachgetaggt werden.-->
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872w-II.C.XI-015"><thema>Pädiatrische
-        Poliklinik</thema>: <dozent><grad>D. med.</grad>
+        Poliklinik</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
         <nachname>Fürst</nachname></dozent>, <zeit>3 U. 3 T. (Dienst., Donn.
         u. Sonn.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <trennlinie/>
 
         <veranstaltungsverweis><thema>Veterinärklinische Demonstrationen und
-        Operationsübungen</thema>: <dozent><grad>D. med.</grad>
+        Operationsübungen</thema>: <dozent ref="zuern_fa"><grad>D. med.</grad>
         <nachname>Zürn</nachname>, <funktion>P. E.</funktion></dozent>,
         <siehe>s. Naturgeschichte</siehe>.</veranstaltungsverweis>
       </sachgruppe>

@@ -404,7 +404,7 @@
       Fakultät C.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Babylonisch-Assyrisch,
-      Anfangskursus</thema>: <dozent><grad>D. ph.</grad>
+      Anfangskursus</thema>: <dozent ref="zimmern_h"><grad>D. ph.</grad>
       <nachname>Zimmern</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe Philosophische Fakultät B.
       b.</siehe></veranstaltungsverweis>
@@ -415,20 +415,20 @@
       Fakultät B. b.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Hebräisch, Laut- und Formenlehre in
-      vergleichend-semitischer Behandlung</thema>: <dozent><grad>D. ph.</grad>
-      <nachname>Zimmern</nachname>, <funktion>P. O.</funktion></dozent>
-      <siehe>Siehe Philosophische Fakultät B.
-      b.</siehe></veranstaltungsverweis>
+      vergleichend-semitischer Behandlung</thema>: <dozent
+      ref="zimmern_h"><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
+      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
+      B. b.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Hebräische Syntax</thema>: <dozent
       ref="schwarz_p"><grad>D. ph.</grad> <nachname>Schwarz</nachname>,
       <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
       B. b.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Syrisch, Anfangskursus</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Zimmern</nachname>, <funktion>P.
-      O.</funktion></dozent> <siehe>Siehe Philosophische Fakultät B.
-      b.</siehe></veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Syrisch, Anfangskursus</thema>: <dozent
+      ref="zimmern_h"><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
+      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
+      B. b.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Syrische Lektüre</thema>: <dozent
       ref="fischer_august"><grad>D. ph.</grad> <vorname>Aug.</vorname>
@@ -1485,22 +1485,22 @@
       <seite>17</seite>
 
       <veranstaltung xml:id="v-1904w-III-074"><thema>Geburtshilfliche
-      Propädeutik</thema>: <dozent><grad>D. med.</grad>
+      Propädeutik</thema>: <dozent ref="fueth_h"><grad>D. med.</grad>
       <nachname>Füth</nachname></dozent>, <zeit>Mittw. u. Donnerst. 6-7 U.
       Ab.</zeit>, <modus>privatim</modus>, <ort>in der
       Universitätsfrauenklinik, Stephanstr. 7</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-III-075"><thema>Geburtshilfliche
       Operationslehre mit Übungen am Phantom (Wiederholung in der ersten
-      Hälfte des Semesters)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Zweifel</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6 U.</zeit>,
-      <modus>privatim</modus>, <ort>in der Universitätsfrauenklinik,
-      Stephanstr. 7</ort>.</veranstaltung>
+      Hälfte des Semesters)</thema>: <dozent ref="zweifel_p"><grad>D.
+      med.</grad> <nachname>Zweifel</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 5-6
+      U.</zeit>, <modus>privatim</modus>, <ort>in der
+      Universitätsfrauenklinik, Stephanstr. 7</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-III-076"><thema>Geburtshiltliche
-      Operationslehre mit Übungen am Phantom, für Anfänger</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Füth</nachname></dozent>,
+      Operationslehre mit Übungen am Phantom, für Anfänger</thema>: <dozent
+      ref="fueth_h"><grad>D. med.</grad> <nachname>Füth</nachname></dozent>,
       <dozent>gemeinsam mit <grad>D. med.</grad>
       <nachname>Glockner</nachname></dozent>, <zeit>Mont. u. Freit. 6-8
       U.</zeit>, <modus>privatim</modus>, <ort>in der
@@ -1763,7 +1763,7 @@
 
       <veranstaltung
       xml:id="v-1904w-III-113"><thema>Geburtshilflich-gynäkologische Klinik
-      und Poliklinik</thema>: <dozent><grad>D. med.</grad>
+      und Poliklinik</thema>: <dozent ref="zweifel_p"><grad>D. med.</grad>
       <nachname>Zweifel</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 8-9 U. Vorm.</zeit>, <modus>privatim</modus>, <ort>in der
       Universitäts-Frauenklinik, Stephanstr. 7</ort>.</veranstaltung>
@@ -2656,8 +2656,8 @@
 
           <veranstaltung
           xml:id="v-1904w-IV.B.b-007"><thema>Babylonisch-Assyrisch, <notiz
-          betreff="fortsetzung">Anfangskursus</notiz></thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
+          betreff="fortsetzung">Anfangskursus</notiz></thema>: <dozent
+          ref="zimmern_h"><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 3-4
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2669,8 +2669,9 @@
 
           <veranstaltung xml:id="v-1904w-IV.B.b-009"><thema>Hebräisch, Laut-
           und Formenlehre, in vergleichend-semitischer Behandlung</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. 10-11 U.</zeit>,
+          <dozent ref="zimmern_h"><grad>D. ph.</grad>
+          <nachname>Zimmern</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Sonnab. 10-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1904w-IV.B.b-010"><thema>Hebräische
@@ -2680,8 +2681,8 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1904w-IV.B.b-011"><thema>Syrisch, <notiz
-          betreff="fortsetzung">Anfangskursus</notiz></thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
+          betreff="fortsetzung">Anfangskursus</notiz></thema>: <dozent
+          ref="zimmern_h"><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 4-5
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2817,7 +2818,7 @@
           <veranstaltung xml:id="v-1904w-IV.B.b-030"><thema>Assyriologische
           Gesellschaft (<ort>Semitistisches Institut, Paulinum I</ort>):
           Erklärung ausgewählter schwierigerer baby<seite>29</seite>lonisch-assyrischer
-          Texte</thema>: <dozent><grad>D. ph.</grad>
+          Texte</thema>: <dozent ref="zimmern_h"><grad>D. ph.</grad>
           <nachname>Zimmern</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Dienst. 8-10 U. Ab.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3864,10 +3865,10 @@
         21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.E-015"><thema>Landwirtschaftlicher
-        Obst- und Gartenbau</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Zürn</nachname></dozent>, <zeit>Mont. u. Donnerst. 4-5
-        U.</zeit>, <modus>privatim</modus>, <ort>im Landw. Institut,
-        Johannisallee 21</ort>.</veranstaltung>
+        Obst- und Gartenbau</thema>: <dozent ref="zuern_es"><grad>D.
+        ph.</grad> <nachname>Zürn</nachname></dozent>, <zeit>Mont. u.
+        Donnerst. 4-5 U.</zeit>, <modus>privatim</modus>, <ort>im Landw.
+        Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.E-016"><thema>Die Krankheiten der
         Kulturgewächse und ihre Bekämpfung</thema>: <dozent
@@ -3877,10 +3878,10 @@
         21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.E-017"><thema>Schädlinge und
-        Nützlinge der Kulturgewächse</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Zürn</nachname></dozent>, <zeit>Donnerst. 3-4 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
-        21</ort>.</veranstaltung>
+        Nützlinge der Kulturgewächse</thema>: <dozent ref="zuern_es"><grad>D.
+        ph.</grad> <nachname>Zürn</nachname></dozent>, <zeit>Donnerst. 3-4
+        U.</zeit>, <modus>privatim</modus>, <ort>im Landw. Institut,
+        Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.E-018"><thema>Die Bakterien in der
         Landwirtschaft</thema>: <dozent ref="falke_f"><grad>D. ph.</grad>
@@ -3917,7 +3918,7 @@
         Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.E-023"><thema>Landwirtschaftliche
-        Kleintierzucht</thema>: <dozent><grad>D. ph.</grad>
+        Kleintierzucht</thema>: <dozent ref="zuern_es"><grad>D. ph.</grad>
         <nachname>Zürn</nachname></dozent>, <zeit>Mont. 3-4 U.</zeit>,
         <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
         21</ort>.</veranstaltung>
@@ -4462,15 +4463,16 @@
         34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.G-023"><thema>Mineralogie, nebst
-        repetitorischen Übungen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>täglich 10-11 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Mineralog. Institut, Talstr. 35</ort>.</veranstaltung>
+        repetitorischen Übungen</thema>: <dozent ref="zirkel_f"><grad>D.
+        ph.</grad> <nachname>Zirkel</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>täglich 10-11 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Mineralog. Institut, Talstr.
+        35</ort>.</veranstaltung>
 
         <seite>44</seite>
 
         <veranstaltung xml:id="v-1904w-IV.G-024"><thema>Experimentelle
-        Geologie</thema>: <dozent><grad>D. ph.</grad>
+        Geologie</thema>: <dozent ref="zirkel_f"><grad>D. ph.</grad>
         <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. 12-1 U.</zeit>, <modus>publice</modus>, <ort>im
         Mineralog. Institut, 'I'alstr. 35</ort>.</veranstaltung>
@@ -4817,7 +4819,7 @@
 
         <veranstaltung xml:id="v-1904w-IV.G-056"><thema>Mineralogische und
         geologische Arbeiten und Untersuchungen im Institut (<ort>Talstr.
-        35</ort>)</thema>: <dozent><grad>D. ph.</grad>
+        35</ort>)</thema>: <dozent ref="zirkel_f"><grad>D. ph.</grad>
         <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont. bis Freit. 9-1 U.</zeit>, <modus>privatissime</modus>,
         aber <gebühr>gratis</gebühr>.</veranstaltung>

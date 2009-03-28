@@ -177,8 +177,9 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.I.2-011"><thema>Ethik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Ziller</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
+        <dozent ref="ziller_t"><grad>D. ph.</grad>
+        <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>12 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Sprachphilosophie</thema>: <dozent
         ref="hermann_c"><grad>D. ph.</grad> <nachname>Hermann</nachname>,
@@ -279,8 +280,8 @@
           <zeit>8 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1874s-I.I.2.003-002"><thema>Specielle
-          Unterrichtsmethodik</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Ziller</nachname>, <funktion>P.
+          Unterrichtsmethodik</thema>: <dozent ref="ziller_t"><grad>D.
+          ph.</grad> <nachname>Ziller</nachname>, <funktion>P.
           E<korrektur>.</korrektur></funktion></dozent>, <zeit>12 U. 2
           Tage</zeit>, <modus>öffentlich</modus>.</veranstaltung>
 
@@ -303,7 +304,7 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1874s-I.I.2.004-002"><thema>Philosophische
-          Gesellschaft</thema>: <dozent><grad>D. ph.</grad>
+          Gesellschaft</thema>: <dozent ref="ziller_t"><grad>D. ph.</grad>
           <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Freit. 5-7 U.</zeit></veranstaltung>
 
@@ -346,7 +347,7 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1874s-I.I.2.004-009"><thema>Pädagogisches
-          Seminar</thema>: <dozent><grad>D. ph.</grad>
+          Seminar</thema>: <dozent ref="ziller_t"><grad>D. ph.</grad>
           <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mittw. 7 U. Ab., Donn. 2 U., Sonn. Ab. 5-7 U.</zeit>,
           <modus>privatissime</modus>, aber
@@ -1199,23 +1200,24 @@
         <siehe>s. Chemie</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1874s-I.IV.002-006"><thema>Darwin's Theorie,
-        in Anwendung auf Viehzucht</thema>: <dozent><grad>D. med. &amp;
-        ph.</grad> <nachname>Zürn</nachname>, <funktion>P.
+        in Anwendung auf Viehzucht</thema>: <dozent ref="zuern_fa"><grad>D.
+        med. &amp; ph.</grad> <nachname>Zürn</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>in 1 näher zu best. St.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.IV.002-007"><thema>Beurtheilung des
-        Pferdes</thema>: <ders>Derselbe</ders>, <zeit>12 U. 2 T. (Mont. u.
-        Dienst.)</zeit></veranstaltung>
+        Pferdes</thema>: <ders ref="zuern_fa">Derselbe</ders>, <zeit>12 U. 2
+        T. (Mont. u. Dienst.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.IV.002-008"><thema>Gesundheitspflege
-        landwirthschaftlicher Haussäugethiere</thema>: <ders>Derselbe</ders>,
-        <zeit>12 U. 2 T. (Mittw. u. Donnerst.)</zeit></veranstaltung>
+        landwirthschaftlicher Haussäugethiere</thema>: <ders
+        ref="zuern_fa">Derselbe</ders>, <zeit>12 U. 2 T. (Mittw. u.
+        Donnerst.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.IV.002-009"><thema>Thierärztliche
         Geburtshilfe, nebst der Lehre von den Krankheiten der
-        Zuchtthiere</thema>: <ders>Derselbe</ders>, <zeit>12 U. 2 T. (Freit.
-        u. Sonnab.)</zeit></veranstaltung>
+        Zuchtthiere</thema>: <ders ref="zuern_fa">Derselbe</ders>, <zeit>12 U.
+        2 T. (Freit. u. Sonnab.)</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1874s-I.IV.003">
@@ -1339,9 +1341,9 @@
         St. u. T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.VI.1-003"><thema>Optik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Zöllner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>5-7 U. (Mont. u.
-        Donnerst.)</zeit></veranstaltung>
+        <dozent ref="zoellner_jkf"><grad>D. ph.</grad>
+        <nachname>Zöllner</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>5-7 U. (Mont. u. Donnerst.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.VI.1-004"><thema>Höhere
         Optik</thema>: <dozent ref="muehll_k"><grad>D. ph.</grad>
@@ -1360,10 +1362,10 @@
         E.</funktion></dozent>, <zeit>12 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung
-        xml:id="v-1874s-I.VI.1-006"><thema>Meteorologie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Zöllner</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>2stündig 5-7 U. Mittw.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        xml:id="v-1874s-I.VI.1-006"><thema>Meteorologie</thema>: <dozent
+        ref="zoellner_jkf"><grad>D. ph.</grad> <nachname>Zöllner</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>2stündig 5-7 U.
+        Mittw.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -1470,12 +1472,13 @@
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.VI.2-003"><thema>Mikroskopische
-        Beschaffenheit der Mineralien und Gesteine</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Zirkel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>10 U. Mittw.</zeit></veranstaltung>
+        Beschaffenheit der Mineralien und Gesteine</thema>: <dozent
+        ref="zirkel_f"><grad>D. ph.</grad> <nachname>Zirkel</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>10 U.
+        Mittw.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1874s-I.VI.2-004"><thema>Petrographie nebst
-        Demonstrationen</thema>: <dozent><grad>D. ph.</grad>
+        Demonstrationen</thema>: <dozent ref="zirkel_f"><grad>D. ph.</grad>
         <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>9 U. 6 T.</zeit></veranstaltung>
 
@@ -1545,8 +1548,8 @@
         O.</funktion></dozent>, <zeit>12 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Darwin's Theorie in ihrer Anwendung auf
-        Viehzucht</thema>: <dozent><grad>D. ph. &amp; med.</grad>
-        <nachname>Zürn</nachname></dozent>, <siehe>s.
+        Viehzucht</thema>: <dozent ref="zuern_fa"><grad>D. ph. &amp;
+        med.</grad> <nachname>Zürn</nachname></dozent>, <siehe>s.
         Landwirthschaftslehre</siehe>.</veranstaltungsverweis>
 
         <sachgruppe xml:id="sg-1874s-I.VI.2.001">
@@ -1554,8 +1557,9 @@
 
           <veranstaltung xml:id="v-1874s-I.VI.2.001-001"><thema>Geologische
           und mineralogische Uebungen und Untersuchungen im Institut</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Zirkel</nachname>,
-          <funktion>P. O.</funktion></dozent></veranstaltung>
+          <dozent ref="zirkel_f"><grad>D. ph.</grad>
+          <nachname>Zirkel</nachname>, <funktion>P.
+          O.</funktion></dozent></veranstaltung>
 
           <veranstaltung xml:id="v-1874s-I.VI.2.001-002"><thema>Geolog.
           Practicum mit Excursionen</thema>: <dozent
@@ -2509,7 +2513,7 @@
         Gynäkologie</siehe>.</absatz>
 
         <veranstaltung xml:id="v-1874s-II.C.VII-005"><thema>Repetitorium über
-        Kinderkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Kinderkrankheiten</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
         <nachname>Fürst</nachname></dozent>, <zeit>in zu best.
         St.</zeit></veranstaltung>
       </sachgruppe>
@@ -2613,7 +2617,7 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1874s-II.C.X-002"><thema>Theorie der
-        Geburtshilfe</thema>: <dozent><grad>D. med.</grad>
+        Geburtshilfe</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
         <nachname>Fürst</nachname></dozent>, <zeit>3 U., Mont. u.
         Mittw.</zeit></veranstaltung>
 
@@ -2776,7 +2780,7 @@
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1874s-II.C.XI-014"><thema>Pädiatrische
-        Poliklinik</thema>: <dozent><grad>D. med.</grad>
+        Poliklinik</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
         <nachname>Fürst</nachname></dozent>, <zeit>3 U. 2 T. (Dienst. u.
         Sonn.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>

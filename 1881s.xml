@@ -376,8 +376,8 @@
       <siehe>Siehe Philosophische Facultät A.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Religionsphilosophische Uebungen</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Ziller</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      <dozent ref="ziller_t"><grad>D. ph.</grad> <nachname>Ziller</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       A.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Biblisch-Aramäisch etc.</thema>: <dozent
@@ -885,9 +885,9 @@
 
       <veranstaltung xml:id="v-1881s-III-038"><thema>Ueber Vaccination nebst
       praktischen Uebungen der animalen u. humanisirten Impfung</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Fürst</nachname></dozent>,
-      <zeit>Mittw. u. Freit., 11-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="fuerst_l"><grad>D. med.</grad>
+      <nachname>Fürst</nachname></dozent>, <zeit>Mittw. u. Freit., 11-12
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1881s-III-039"><thema>Cursus über Percussion
       und Auscultation</thema>: <dozent ref="struempell_a"><grad>D.
@@ -1048,8 +1048,8 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1881s-III-064"><thema>Einleitung in die
-      Geburtshülfe und Gynäkologie, nebst Phantom-Uebungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Fürst</nachname></dozent>,
+      Geburtshülfe und Gynäkologie, nebst Phantom-Uebungen</thema>: <dozent
+      ref="fuerst_l"><grad>D. med.</grad> <nachname>Fürst</nachname></dozent>,
       <zeit>Mont. u. Donnerst., 6-7 U. Ab.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1195,7 +1195,7 @@
 
       <veranstaltung xml:id="v-1881s-III-089"><thema>Pädiatrische Poliklinik
       in Verbindung mit Vorträgen "Ueber ausgewählte Capitel der
-      Kinderheilkunde"</thema>: <dozent><grad>D. med.</grad>
+      Kinderheilkunde"</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
       <nachname>Fürst</nachname></dozent>, <zeit>Dienst., Donnerst. u.
       Sonnab., 3-4 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -1356,7 +1356,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1881s-IV.A-015"><thema>Allgemeine
-        Pädagogik</thema>: <dozent><grad>D. ph.</grad>
+        Pädagogik</thema>: <dozent ref="ziller_t"><grad>D. ph.</grad>
         <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont., Dienst., Donnerst. u. Freit., 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
@@ -1394,14 +1394,15 @@
 
         <veranstaltung xml:id="v-1881s-IV.A-018"><thema>Referate über
         philosophische Ethik nach der "Allgemeinen philosophischen Ethik",
-        Langensalza, Beyer, 1880</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont., Donnerst. u. Freit., 6-7 U.</zeit>, <modus>2 Stunden
-        privatim, 1 Stunde publice</modus>.</veranstaltung>
+        Langensalza, Beyer, 1880</thema>: <dozent ref="ziller_t"><grad>D.
+        ph.</grad> <nachname>Ziller</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont., Donnerst. u. Freit., 6-7
+        U.</zeit>, <modus>2 Stunden privatim, 1 Stunde
+        publice</modus>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1881s-IV.A-019"><thema>Religionsphilosophische
-        Uebungen</thema>: <dozent><grad>D. ph.</grad>
+        Uebungen</thema>: <dozent ref="ziller_t"><grad>D. ph.</grad>
         <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>, <modus>privatissime</modus>,
         aber <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1427,7 +1428,7 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1881s-IV.A-023"><thema>Pädagogisches
-        Seminar</thema>: <dozent><grad>D. ph.</grad>
+        Seminar</thema>: <dozent ref="ziller_t"><grad>D. ph.</grad>
         <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mittw. 7 U. Ab., Donnerst. 2 U. u. Sonnab. 5-7 U.</zeit>,
         <modus>privatissime</modus>, aber
@@ -2439,10 +2440,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1881s-IV.B.E-016"><thema>Innere und äussere
-          Krankheiten der Hausthiere</thema>: <dozent><grad>D. med.</grad>
-          <nachname>Zürn</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>Dienst., Mittw., Freit. u. Sonnab., 12-1 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          Krankheiten der Hausthiere</thema>: <dozent ref="zuern_fa"><grad>D.
+          med.</grad> <nachname>Zürn</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>Dienst., Mittw., Freit. u. Sonnab.,
+          12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <trennlinie/>
 
@@ -2469,13 +2470,13 @@
           <modus>privatissime</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1881s-IV.B.E-020"><thema>Veterinärklinische
-          Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+          Demonstrationen</thema>: <dozent ref="zuern_fa"><grad>D. med.</grad>
           <nachname>Zürn</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>Mont. u. Donnerst., ½12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1881s-IV.B.E-021"><thema>Mikroskopischer
-          Cursus</thema>: <dozent><grad>D. med.</grad>
+          Cursus</thema>: <dozent ref="zuern_fa"><grad>D. med.</grad>
           <nachname>Zürn</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>täglich an den Wochentagen, 2-4 U.</zeit>,
           <modus>privatissime</modus>, aber
@@ -2681,13 +2682,13 @@
 
           <veranstaltung xml:id="v-1881s-IV.B.G-005"><thema>Photometrie und
           Spectralanalyse der Gestirne (Astrophysik, <notiz
-          betreff="fortsetzung">I. Theil</notiz>)</thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Zöllner</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mont. u. Dienst., 5-7 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          betreff="fortsetzung">I. Theil</notiz>)</thema>: <dozent
+          ref="zoellner_jkf"><grad>D. ph.</grad> <nachname>Zöllner</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Dienst., 5-7
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1881s-IV.B.G-006"><thema>Ueber optische
-          Täuschungen</thema>: <dozent><grad>D. ph.</grad>
+          Täuschungen</thema>: <dozent ref="zoellner_jkf"><grad>D. ph.</grad>
           <nachname>Zöllner</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mittw. 5-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -2783,14 +2784,14 @@
           <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1881s-IV.B.G-021"><thema>Allgemeine
-          Petrographie nebst repetitorischen Uebungen</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Zirkel</nachname>,
+          Petrographie nebst repetitorischen Uebungen</thema>: <dozent
+          ref="zirkel_f"><grad>D. ph.</grad> <nachname>Zirkel</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>täglich, 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1881s-IV.B.G-022"><thema>Optische und
-          mikroskopische Charakteristik der Mineralien</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Zirkel</nachname>,
+          mikroskopische Charakteristik der Mineralien</thema>: <dozent
+          ref="zirkel_f"><grad>D. ph.</grad> <nachname>Zirkel</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 10-11 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
@@ -2953,7 +2954,7 @@
 
           <veranstaltung xml:id="v-1881s-IV.B.G-043"><thema>Mineralogische und
           geologische Arbeiten und Untersuchungen <ort>im
-          Institut</ort></thema>: <dozent><grad>D. ph.</grad>
+          Institut</ort></thema>: <dozent ref="zirkel_f"><grad>D. ph.</grad>
           <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>täglich 9-1 U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>

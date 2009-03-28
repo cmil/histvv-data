@@ -117,7 +117,7 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-I-009"><thema>Neutestamentliche
-      Theologie</thema>: <dozent><grad>D. th.</grad>
+      Theologie</thema>: <dozent ref="zahn_t"><grad>D. th.</grad>
       <nachname>Zahn</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont., Dienst., Donnerst. u. Freit. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -135,7 +135,7 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-I-012"><thema>Auslegung des Evangeliums
-      des Johannes</thema>: <dozent><grad>D. th.</grad>
+      des Johannes</thema>: <dozent ref="zahn_t"><grad>D. th.</grad>
       <nachname>Zahn</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. bis Freit. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -286,7 +286,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-I-034"><thema>Exegetische
-      Gesellschaft</thema>: <dozent><grad>D. th.</grad>
+      Gesellschaft</thema>: <dozent ref="zahn_t"><grad>D. th.</grad>
       <nachname>Zahn</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. 5-7 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1131,14 +1131,14 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1889w-III-066"><thema>Theoretische
-      Geburtskunde</thema>: <dozent><grad>D. med.</grad>
+      Geburtskunde</thema>: <dozent ref="zweifel_p"><grad>D. med.</grad>
       <nachname>Zweifel</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont., Dienst. u. Freit. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-III-067"><thema>Geburtshülfliche
       Operationslehre und Phantomübungen (in der ersten Hälfte des
-      Semesters)</thema>: <dozent><grad>D. med.</grad>
+      Semesters)</thema>: <dozent ref="zweifel_p"><grad>D. med.</grad>
       <nachname>Zweifel</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. u. Freit. 5-6 U., u. Donnerst. 3-6 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1159,9 +1159,9 @@
       <veranstaltung xml:id="v-1889w-III-070"><thema>Einleitung in die
       Geburtshülfe und Gynäkologie nebst Phantom- und Touchirübungen, Einübung
       gynäkologischer Technicismen u. Assistenz bei Operationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Fürst</nachname></dozent>,
-      <zeit>Dienst. u. Freit. ½7-½8 U. Ab.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="fuerst_l"><grad>D. med.</grad>
+      <nachname>Fürst</nachname></dozent>, <zeit>Dienst. u. Freit. ½7-½8 U.
+      Ab.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-III-071"><thema>Geburtshülfe</thema>:
       <dozent ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
@@ -1244,10 +1244,10 @@
       <zeit>tägl. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-III-085"><thema>Geburtshülfliche und
-      gynäkologische Klinik und Poliklinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Zweifel</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>täglich 8-9 U. Vorm. und Mont. 3-4
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      gynäkologische Klinik und Poliklinik</thema>: <dozent
+      ref="zweifel_p"><grad>D. med.</grad> <nachname>Zweifel</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>täglich 8-9 U. Vorm. und
+      Mont. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-III-086"><thema>Otiatrische
       Poliklinik</thema>: <dozent ref="hagen_er"><grad>D. med.</grad>
@@ -1386,7 +1386,7 @@
         <sachgruppe xml:id="sg-1889w-III.001.e">
           <titel>e) Paediatrik.</titel>
 
-          <veranstaltungsgruppe><dozent><grad>D. med.</grad>
+          <veranstaltungsgruppe><dozent ref="fuerst_l"><grad>D. med.</grad>
           <nachname>Fürst</nachname></dozent>, <veranstaltung
           xml:id="v-1889w-III.001.e-001"><thema>Pathologie u. Therapie der
           Kinderkrankheiten</thema>, <zeit>Mittw. ½7-½8 U. Ab.</zeit>,
@@ -2652,16 +2652,16 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.E-021"><thema>Seuchen und
-        Heerdekrankheiten der Haussäugethiere</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Zürn</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Mont. u. Dienst. 12-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Heerdekrankheiten der Haussäugethiere</thema>: <dozent
+        ref="zuern_fa"><grad>D. med.</grad> <nachname>Zürn</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Mont. u. Dienst. 12-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.E-022"><thema>Pflege der Arbeits-,
-        Melk-, Mast- und Woll-Thiere</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Zürn</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mittw., Donnerst. u. Freit. 12-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Melk-, Mast- und Woll-Thiere</thema>: <dozent ref="zuern_fa"><grad>D.
+        med.</grad> <nachname>Zürn</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mittw., Donnerst. u. Freit. 12-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.E-023"><thema>Wollkunde</thema>:
         <dozent ref="settegast_h"><grad>D. ph.</grad> <vorname>H.</vorname>
@@ -2721,15 +2721,15 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.E-027"><thema>Veterinärklinische
-        Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+        Demonstrationen</thema>: <dozent ref="zuern_fa"><grad>D. med.</grad>
         <nachname>Zürn</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Sonnab. 11-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.E-028"><thema>Arbeiten im
-        Laboratorium des veterinärklinischen Institutes</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Zürn</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>an zu best. Tagen u. Stunden</zeit>,
-        <gebühr>gratis</gebühr>.</veranstaltung>
+        Laboratorium des veterinärklinischen Institutes</thema>: <dozent
+        ref="zuern_fa"><grad>D. med.</grad> <nachname>Zürn</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>an zu best. Tagen u.
+        Stunden</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.E-029"><thema>Praktische
         statistische Uebungen im statistischen Amt der Stadt Leipzig</thema>:
@@ -2956,9 +2956,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.G-017"><thema>Allgemeine Mineralogie
-        nebst repetitorischen Uebungen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>täglich 10-11 U.</zeit>,
+        nebst repetitorischen Uebungen</thema>: <dozent
+        ref="zirkel_f"><grad>D. ph.</grad> <nachname>Zirkel</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>täglich 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.G-018"><thema>Allgemeine
@@ -3146,10 +3146,10 @@
         <seite>32</seite>
 
         <veranstaltung xml:id="v-1889w-IV.G-046"><thema>Mineralogische und
-        geologische Arbeiten und Untersuchungen im Institut</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Zirkel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>Mont. bis Freit. 9-1 U.</zeit>,
-        <modus>privatissime</modus>, aber
+        geologische Arbeiten und Untersuchungen im Institut</thema>: <dozent
+        ref="zirkel_f"><grad>D. ph.</grad> <nachname>Zirkel</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 9-1
+        U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1889w-IV.G-047"><thema>Botanisches

@@ -53,10 +53,10 @@
 
   <sachgruppe xml:id="sg-1872s-001">
     <veranstaltung xml:id="v-1872s-001-001"><thema>Ueber die zweckmässige
-    Einrichtung des akademischen Studiums</thema>: <dozent><grad>D. ph.</grad>
-    <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>, <zeit>8
-    U. 2 T. in den ersten Wochen des Semesters</zeit>,
-    <modus>öffentlich</modus>.</veranstaltung>
+    Einrichtung des akademischen Studiums</thema>: <dozent
+    ref="ziller_t"><grad>D. ph.</grad> <nachname>Ziller</nachname>,
+    <funktion>P. E.</funktion></dozent>, <zeit>8 U. 2 T. in den ersten Wochen
+    des Semesters</zeit>, <modus>öffentlich</modus>.</veranstaltung>
 
     <!--Das V-Verzeichnis beginnt mit einer V und nicht wie üblich mit einer Sachgruppe
 -->
@@ -105,7 +105,7 @@
         öffentlich.)</modus></veranstaltung>
 
         <veranstaltung xml:id="v-1872s-I.I.2-002"><thema>Logik und
-        Metaphysik</thema>: <dozent><grad>D. ph.</grad>
+        Metaphysik</thema>: <dozent ref="ziller_t"><grad>D. ph.</grad>
         <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>12 U. 5 T. ausschl. Sonn.</zeit> <modus>(1 St.
         öffentlich.)</modus></veranstaltung>
@@ -233,7 +233,7 @@
           <seite>5</seite>
 
           <veranstaltung xml:id="v-1872s-I.I.2.003-002"><thema>Allgemeine
-          Pädagogik</thema>: <dozent><grad>D. ph.</grad>
+          Pädagogik</thema>: <dozent ref="ziller_t"><grad>D. ph.</grad>
           <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>8 U. 4 Tage</zeit>.</veranstaltung>
 
@@ -268,7 +268,7 @@
 
             <veranstaltung
             xml:id="v-1872s-I.I.2.003.001-004"><thema>Pädagogisches
-            Seminar</thema>: <dozent><grad>D. ph.</grad>
+            Seminar</thema>: <dozent ref="ziller_t"><grad>D. ph.</grad>
             <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
             <zeit>3 T. (Mittw. 7 U. Ab., Donn. 2 U., Sonn. 5-7 U.)</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -497,7 +497,7 @@
 
           <veranstaltung xml:id="v-1872s-I.II.2.002-003"><thema>Das Buch Hiob
           nach der fortgeschrittenen Erkenntniss der Sprache
-          erläutert</thema>: <dozent><grad>D. ph.</grad>
+          erläutert</thema>: <dozent ref="fuerst_j"><grad>D. ph.</grad>
           <nachname>Fürst</nachname>, <funktion>Lect. publ.,
           P.</funktion></dozent>, <zeit>2 U. 3 T. (Mont., Mittw. u.
           Freit.)</zeit></veranstaltung>
@@ -1074,22 +1074,24 @@
         des.</funktion></dozent>, <zeit>8-10 U. 2 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872s-I.IV.001-014"><thema>Innere und äussere
-        Krankheiten der Haussäugethiere</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Zürn</nachname>, <funktion>P. E. des.</funktion></dozent>,
-        <zeit>12 U. 3 T. Mont., Mittw., Freit.</zeit></veranstaltung>
+        Krankheiten der Haussäugethiere</thema>: <dozent
+        ref="zuern_fa"><grad>D. ph.</grad> <nachname>Zürn</nachname>,
+        <funktion>P. E. des.</funktion></dozent>, <zeit>12 U. 3 T. Mont.,
+        Mittw., Freit.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872s-I.IV.001-015"><thema>Die Entozoen der
-        Hausthiere und die Krankheiten, welche sie hervorrufen</thema>:
-        <ders>Derselbe</ders>, <zeit>12 U. Dienst.</zeit>
+        Hausthiere und die Krankheiten, welche sie hervorrufen</thema>: <ders
+        ref="zuern_fa">Derselbe</ders>, <zeit>12 U. Dienst.</zeit>
         <modus>öffentl.</modus></veranstaltung>
 
         <veranstaltung xml:id="v-1872s-I.IV.001-016"><thema>Thierärztliche
-        Geburtshülfe</thema>: <ders>Derselbe</ders>, <zeit>12 U.
-        Donn.</zeit></veranstaltung>
+        Geburtshülfe</thema>: <ders ref="zuern_fa">Derselbe</ders>, <zeit>12
+        U. Donn.</zeit></veranstaltung>
 
         <veranstaltung
-        xml:id="v-1872s-I.IV.001-017"><thema>Hufbeschlaglehre</thema>:
-        <ders>Derselbe</ders>, <zeit>12 U. Sonn.</zeit></veranstaltung>
+        xml:id="v-1872s-I.IV.001-017"><thema>Hufbeschlaglehre</thema>: <ders
+        ref="zuern_fa">Derselbe</ders>, <zeit>12 U.
+        Sonn.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872s-I.IV.001-018"><thema>Ueber die der
         Landwirthschaft schädlichen und nützlichen Insecten</thema>: <dozent
@@ -1188,7 +1190,7 @@
       T.</zeit></veranstaltung>
 
       <veranstaltungsverweis><thema>Ueber Photometrie und
-      Spectralanalyse</thema>: <dozent><grad>D. ph.</grad>
+      Spectralanalyse</thema>: <dozent ref="zoellner_jkf"><grad>D. ph.</grad>
       <nachname>Zöllner</nachname>, <funktion>P. E.</funktion></dozent>,
       <siehe>s. Naturwissenschaften</siehe>.</veranstaltungsverweis>
 
@@ -1249,9 +1251,10 @@
 
         <veranstaltung xml:id="v-1872s-I.VI.1-001"><thema>Ueber die Principien
         der Erkenntnisstheorie in ihrer Anwendung auf die
-        Naturwissenschaft</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Zöllner</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>5-7 U. Mittw.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        Naturwissenschaft</thema>: <dozent ref="zoellner_jkf"><grad>D.
+        ph.</grad> <nachname>Zöllner</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>5-7 U. Mittw.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -1287,9 +1290,10 @@
         math. Wiss.</siehe></veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1872s-I.VI.1-005"><thema>Ueber Photometrie
-        und Spectralanalyse</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Zöllner</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>5-7 U. (Mont. u. Dienst.)</zeit></veranstaltung>
+        und Spectralanalyse</thema>: <dozent ref="zoellner_jkf"><grad>D.
+        ph.</grad> <nachname>Zöllner</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>5-7 U. (Mont. u.
+        Dienst.)</zeit></veranstaltung>
 
         <trennlinie/>
 
@@ -1389,14 +1393,15 @@
         <seite>16</seite>
 
         <veranstaltung
-        xml:id="v-1872s-I.VI.2-002"><thema>Petrographie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Zirkel</nachname>, <funktion>P.
-        O.</funktion></dozent>, <zeit>9 U. 6 T.</zeit></veranstaltung>
+        xml:id="v-1872s-I.VI.2-002"><thema>Petrographie</thema>: <dozent
+        ref="zirkel_f"><grad>D. ph.</grad> <nachname>Zirkel</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>9 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1872s-I.VI.2-003"><thema>Ueber die
         mikroskopische Beschaffenheit der Mineralien und Felsarten</thema>:
-        <ders>Derselbe</ders>, <zeit>in zu verabredenden St.</zeit>,
-        <modus>privatissime</modus>, aber
+        <ders ref="zirkel_f">Derselbe</ders>, <zeit>in zu verabredenden
+        St.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <trennlinie/>
@@ -1462,13 +1467,14 @@
         T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Innere und äussere Krankheiten der
-        Haussäugethiere</thema>: <dozent><grad>D. ph.</grad>
+        Haussäugethiere</thema>: <dozent ref="zuern_fa"><grad>D. ph.</grad>
         <nachname>Zürn</nachname>, <funktion>P. E. des.</funktion></dozent>,
         <siehe>s. Landwirthschaftslehre</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Die Entozoen der Haussäugethiere und die
-        Krankheiten, welche sie hervorrufen</thema>: <ders>Derselbe</ders>,
-        <siehe>s. Landwirthschaftsl.</siehe></veranstaltungsverweis>
+        Krankheiten, welche sie hervorrufen</thema>: <ders
+        ref="zuern_fa">Derselbe</ders>, <siehe>s.
+        Landwirthschaftsl.</siehe></veranstaltungsverweis>
 
         <sachgruppe xml:id="sg-1872s-I.VI.2.001">
           <titel>Geognostische, botanische und zoologische Uebungen.</titel>
@@ -2439,7 +2445,8 @@ bezieht sich die Zeit auch auf die 2. V.-->
         Gynäkologie</siehe>.</absatz>
 
         <veranstaltung xml:id="v-1872s-II.C.VII-003"><thema>Pathologie und
-        Therapie der Kinderkrankheiten</thema>: <dozent><grad>D. med.</grad>
+        Therapie der Kinderkrankheiten</thema>: <dozent
+        ref="fuerst_l"><grad>D. med.</grad>
         <nachname>Fürst</nachname></dozent>, <zeit>4 U. 2 T. (Mont. u.
         Freit.)</zeit></veranstaltung>
 
@@ -2551,7 +2558,7 @@ bezieht sich die Zeit auch auf die 2. V.-->
         Nachm.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1872s-II.C.X-003"><thema>Theorie der
-        Geburtshilfe</thema>: <dozent><grad>D. med.</grad>
+        Geburtshilfe</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
         <nachname>Fürst</nachname></dozent>, <zeit>4 U. Mittw.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -2695,7 +2702,7 @@ bezieht sich die Zeit auch auf die 2. V.-->
         <seite>29</seite>
 
         <veranstaltung xml:id="v-1872s-II.C.XI-014"><thema>Pädiatrische
-        Poliklinik</thema>: <dozent><grad>D. med.</grad>
+        Poliklinik</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
         <nachname>Fürst</nachname></dozent>, <zeit>3 U. 3 T. (Dienst., Donn.
         u. Sonn.)</zeit> <modus>privatissime</modus>, aber
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>

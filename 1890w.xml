@@ -90,7 +90,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-I-005"><thema>Einleitung in das Neue
-      Testament</thema>: <dozent><grad>D. th.</grad>
+      Testament</thema>: <dozent ref="zahn_t"><grad>D. th.</grad>
       <nachname>Zahn</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont. bis Freit. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -129,7 +129,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-I-011"><thema>Auslegung des
-      Römerbriefes</thema>: <dozent><grad>D. th.</grad>
+      Römerbriefes</thema>: <dozent ref="zahn_t"><grad>D. th.</grad>
       <nachname>Zahn</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont., Dienst., Donnerst. u. Freit. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -234,7 +234,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-I-027"><thema>Exegetische
-      Gesellschaft</thema>: <dozent><grad>D. th.</grad>
+      Gesellschaft</thema>: <dozent ref="zahn_t"><grad>D. th.</grad>
       <nachname>Zahn</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Dienst. 5-7 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -769,12 +769,12 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-III-021"><thema>Schul-Hygiene (für
-      Studirende aller Facultäten)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Fürst</nachname></dozent>, <zeit>Mittw. 3-4 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Studirende aller Facultäten)</thema>: <dozent ref="fuerst_l"><grad>D.
+      med.</grad> <nachname>Fürst</nachname></dozent>, <zeit>Mittw. 3-4
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-III-022"><thema>Praktischer
-      Impf-Cursus</thema>: <dozent><grad>D. med.</grad>
+      Impf-Cursus</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
       <nachname>Fürst</nachname></dozent>, <zeit>Zeit nach Vereinbar.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1083,14 +1083,14 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1890w-III-070"><thema>Theoretische
-      Geburtskunde</thema>: <dozent><grad>D. med.</grad>
+      Geburtskunde</thema>: <dozent ref="zweifel_p"><grad>D. med.</grad>
       <nachname>Zweifel</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont., Dienst. u. Freit. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-III-071"><thema>Geburtshülfliche
       Operationslehre und Phantomübungen</thema> (<zeit>in der ersten Hälfte
-      des Semesters</zeit>): <dozent><grad>D. med.</grad>
+      des Semesters</zeit>): <dozent ref="zweifel_p"><grad>D. med.</grad>
       <nachname>Zweifel</nachname>, <seite>13</seite><funktion>P.
       O.</funktion></dozent>, <zeit>Dienst. u. Freit. 5-6 U. u. Donnerst. 3-6
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1111,7 +1111,7 @@
       <veranstaltung xml:id="v-1890w-III-074"><thema>Einleitung in die
       Geburtshülfe und Gynäkologie, nebst Phantom- und Touchirübungen,
       Einübung gynäkologischer Technicismen u. Assistenz bei
-      Operationen</thema>: <dozent><grad>D. med.</grad>
+      Operationen</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
       <nachname>Fürst</nachname></dozent>, <zeit>Dienst. u. Freit. ½7-½8 U.
       Ab.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1209,10 +1209,10 @@
       <zeit>tägl. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-III-090"><thema>Geburtshülfliche und
-      gynäkologische Klinik und Poliklinik</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Zweifel</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>täglich 8-9 U. Vorm. und Mont. 3-4
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      gynäkologische Klinik und Poliklinik</thema>: <dozent
+      ref="zweifel_p"><grad>D. med.</grad> <nachname>Zweifel</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>täglich 8-9 U. Vorm. und
+      Mont. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890w-III-091"><thema>Otiatrische
       Poliklinik</thema>: <dozent ref="hagen_er"><grad>D. med.</grad>
@@ -1342,8 +1342,9 @@
         <sachgruppe xml:id="sg-1890w-III.001.e">
           <titel>e) Paediatrik.</titel>
 
-          <veranstaltung xml:id="v-1890w-III.001.e-001"><dozent><grad>D.
-          med.</grad> <nachname>Fürst</nachname></dozent>, <thema>Praktischer
+          <veranstaltung xml:id="v-1890w-III.001.e-001"><dozent
+          ref="fuerst_l"><grad>D. med.</grad>
+          <nachname>Fürst</nachname></dozent>, <thema>Praktischer
           Impf-Cursus</thema>, <zeit>einmal wöchentlich, in zu verabred.
           Zeit</zeit>, <modus>privatim</modus>. (<ort>Turnerstr.
           16.</ort>)</veranstaltung>
@@ -1595,7 +1596,7 @@
         <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schul-Hygiene (für Studirende aller
-        Facultäten)</thema>: <dozent><grad>D. med.</grad>
+        Facultäten)</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
         <nachname>Fürst</nachname></dozent>. <siehe>Siehe Medicinische
         Facultät.</siehe></veranstaltungsverweis>
 
@@ -2648,16 +2649,16 @@ hab sie aber erst mal dringelassen.-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.E-023"><thema>Innere Krankheiten der
-        Haussäugethiere</thema>: <dozent><grad>D. med.</grad>
+        Haussäugethiere</thema>: <dozent ref="zuern_fa"><grad>D. med.</grad>
         <nachname>Zürn</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont., Dienst. u. Mittw. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.E-024"><thema>Thierärztliche
         Geburtshülfe für Landwirthe und Krankheiten der Zuchtthiere</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Zürn</nachname>, <funktion>P.
-        E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 12-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="zuern_fa"><grad>D. med.</grad> <nachname>Zürn</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 12-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.E-025"><thema>Wollkunde</thema>:
         <dozent ref="settegast_h"><grad>D. ph.</grad> <vorname>H.</vorname>
@@ -2726,15 +2727,15 @@ hab sie aber erst mal dringelassen.-->
 handelt sich evtl. um Präsenzeiten des Dozenten.-->
 
         <veranstaltung xml:id="v-1890w-IV.E-029"><thema>Veterinärklinische
-        Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+        Demonstrationen</thema>: <dozent ref="zuern_fa"><grad>D. med.</grad>
         <nachname>Zürn</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Sonnab. 11-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.E-030"><thema>Arbeiten im
-        Laboratorium der Veterinärklinik</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Zürn</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>an noch zu best. Tagen und Stunden</zeit>,
-        <gebühr>gratis</gebühr>.</veranstaltung>
+        Laboratorium der Veterinärklinik</thema>: <dozent
+        ref="zuern_fa"><grad>D. med.</grad> <nachname>Zürn</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>an noch zu best. Tagen und
+        Stunden</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.E-031"><thema>Praktische Uebungen im
         statistischen Amte der Stadt Leipzig</thema>: <dozent><grad>D.
@@ -2941,9 +2942,9 @@ handelt sich evtl. um Präsenzeiten des Dozenten.-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.G-015"><thema>Allgemeine Minerologie
-        nebst repetitorischen Uebungen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>täglich 10-11 U.</zeit>,
+        nebst repetitorischen Uebungen</thema>: <dozent
+        ref="zirkel_f"><grad>D. ph.</grad> <nachname>Zirkel</nachname>,
+        <funktion>P. O.</funktion></dozent>, <zeit>täglich 10-11 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890w-IV.G-016"><thema>Allgemeine
@@ -3140,7 +3141,7 @@ handelt sich evtl. um Präsenzeiten des Dozenten.-->
 
         <veranstaltung xml:id="v-1890w-IV.G-044"><thema>Mineralogische und
         geologische Arbeiten und Untersuchungen <ort>im
-        Institut</ort></thema>: <dozent><grad>D. ph.</grad>
+        Institut</ort></thema>: <dozent ref="zirkel_f"><grad>D. ph.</grad>
         <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mont. bis Freit. 9-1 U.</zeit>, <modus>privatissime</modus>,
         aber <gebühr>gratis</gebühr>.</veranstaltung>

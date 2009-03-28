@@ -705,8 +705,8 @@
       <nachname>Planitz</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mo. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung xml:id="v-1913s-II-028"><thema>Preßrecht</thema>:
-      <dozent><grad>D. jur.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+      <veranstaltung xml:id="v-1913s-II-028"><thema>Preßrecht</thema>: <dozent
+      ref="zahn_k"><grad>D. jur.</grad> <nachnamenpräfix>von</nachnamenpräfix>
       <nachname>Zahn</nachname></dozent>, <zeit>So. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -778,7 +778,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913s-II-040"><thema>Sächsisches
-      Landesstrafrecht</thema>: <dozent><grad>D. jur.</grad>
+      Landesstrafrecht</thema>: <dozent ref="zahn_k"><grad>D. jur.</grad>
       <nachnamenpräfix>von</nachnamenpräfix>
       <nachname>Zahn</nachname></dozent>, <zeit>So. 10-11 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -916,14 +916,14 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913s-II-062"><thema>Mündliche und schriftliche
-      Übungen im Strafrecht für Anfänger</thema>: <dozent><grad>D. jur.</grad>
-      <nachnamenpräfix>von</nachnamenpräfix>
+      Übungen im Strafrecht für Anfänger</thema>: <dozent
+      ref="zahn_k"><grad>D. jur.</grad> <nachnamenpräfix>von</nachnamenpräfix>
       <nachname>Zahn</nachname></dozent>, <zeit>Di. 5-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung
-      xml:id="v-1913s-II-063"><thema>Strafrechtsrepetitorium</thema>:
-      <dozent><grad>D. jur.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+      xml:id="v-1913s-II-063"><thema>Strafrechtsrepetitorium</thema>: <dozent
+      ref="zahn_k"><grad>D. jur.</grad> <nachnamenpräfix>von</nachnamenpräfix>
       <nachname>Zahn</nachname></dozent>, <zeit>Mi. 5 bis 7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1072,9 +1072,10 @@
         <nachname>Wiener</nachname>, <funktion>P. O.</funktion></dozent>, mit
         <dozent ref="scholl_h"><grad>D. ph.</grad>
         <nachname>Scholl</nachname>, <funktion>P. E.</funktion></dozent> u.
-        <dozent><grad>D. ph.</grad> <nachname>Füchtbauer</nachname></dozent>,
-        <zeit>So. 9-12 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Physikalischen Institut, Linnéstr. 5</ort>.</veranstaltung>
+        <dozent ref="fuechtbauer_c"><grad>D. ph.</grad>
+        <nachname>Füchtbauer</nachname></dozent>, <zeit>So. 9-12 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikalischen Institut, Linnéstr.
+        5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.001-006"><thema>Einführung in die
         mathematische Behandlung der Naturwissenschaften (Differential- und
@@ -1397,9 +1398,10 @@
         <nachname>Wiener</nachname>, <funktion>P. O.</funktion></dozent>, mit
         <dozent ref="scholl_h"><grad>D. ph.</grad>
         <nachname>Scholl</nachname>, <funktion>P. E.</funktion></dozent> u.
-        <dozent><grad>D. ph.</grad> <nachname>Füchtbauer</nachname></dozent>,
-        <zeit>So. 9-12 U.</zeit>, <modus>privatim</modus>, <ort>im Physikal.
-        Institut, Linnéstr. 5</ort>.</veranstaltung>
+        <dozent ref="fuechtbauer_c"><grad>D. ph.</grad>
+        <nachname>Füchtbauer</nachname></dozent>, <zeit>So. 9-12 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikal. Institut, Linnéstr.
+        5</ort>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Maßanalyse für Pharmazeuten
         etc.</thema>: <siehe>S. 51.</siehe></veranstaltungsverweis>
@@ -1647,10 +1649,11 @@
 
         <veranstaltung
         xml:id="v-1913s-III.008-001"><thema>Geburtshilflich-gynäkologische
-        Klinik und Poliklinik</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Zweifel</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>täglich 7-8 U. vorm.</zeit>, <modus>privatim</modus>, <ort>in
-        der Universitäts-Frauenklinik, Stephanstr. 7</ort>.</veranstaltung>
+        Klinik und Poliklinik</thema>: <dozent ref="zweifel_p"><grad>D.
+        med.</grad> <nachname>Zweifel</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>täglich 7-8 U. vorm.</zeit>,
+        <modus>privatim</modus>, <ort>in der Universitäts-Frauenklinik,
+        Stephanstr. 7</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.008-002"><thema>Gynäkologische
         Diagnostik</thema>: <dozent><grad>D. med.</grad>
@@ -2870,28 +2873,29 @@
 
           <veranstaltung
           xml:id="v-1913s-IV.B.b-009"><thema>Babylonisch-Assyrisch, <notiz
-          betreff="fortsetzung">I. Kursus</notiz></thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Zimmern</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mo. u. Do. 4-5 U.</zeit>,
+          betreff="fortsetzung">I. Kursus</notiz></thema>: <dozent
+          ref="zimmern_h"><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mo. u. Do. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung
           xml:id="v-1913s-IV.B.b-010"><thema>Babylonisch-assyrische oder
-          sumerische Lektüre für weniger Fortgeschrittene</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
+          sumerische Lektüre für weniger Fortgeschrittene</thema>: <dozent
+          ref="zimmern_h"><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Mo. 5 bis 6 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.b-011"><thema>Syrische Lektüre
-          (<notiz betreff="fortsetzung">Fortsetzung</notiz>)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
+          (<notiz betreff="fortsetzung">Fortsetzung</notiz>)</thema>: <dozent
+          ref="zimmern_h"><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Do. 5-6 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.b-012"><thema>Keilinschriften
           und Bibel nach ihrem sagengeschichtlichen Zusammenhang</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>So. 11 bis 12 U.</zeit>,
+          <dozent ref="zimmern_h"><grad>D. ph.</grad>
+          <nachname>Zimmern</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>So. 11 bis 12 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.b-013"><thema>Hebräische
@@ -3017,9 +3021,9 @@
           <veranstaltung xml:id="v-1913s-IV.B.b-029"><thema>Assyriologische
           Gesellschaft (<ort>Semitistisches Institut, Paulinum I</ort>):
           Schwierigere babylonisch-assyrische und sumerische Texte</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Di. 8-9½ U. ab.</zeit>,
-          <modus>privatissime</modus>, aber
+          <dozent ref="zimmern_h"><grad>D. ph.</grad>
+          <nachname>Zimmern</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Di. 8-9½ U. ab.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.b-030"><thema>Übungen zur
@@ -3287,7 +3291,7 @@
           <veranstaltung xml:id="v-1913s-IV.B.d-007"><thema>Einführung in das
           Altfranzösische und Erklärung des Rolandsliedes (nach G. Paris,
           Extraits de la Chanson de Roland, Paris, Hachette, 11ième<!--(hochstellen!)-->
-          édition)</thema>: <dozent><grad>D. ph.</grad>
+          édition)</thema>: <dozent ref="friedmann_w"><grad>D. ph.</grad>
           <nachname>Friedmann</nachname></dozent>, <zeit>Di., Fr. u. So. 8-9
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3313,9 +3317,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.d-011"><thema>Der französische
-          Roman in der zweiten Hälfte des 19. Jahrhunderts</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Friedmann</nachname></dozent>,
-          <zeit>Mi. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          Roman in der zweiten Hälfte des 19. Jahrhunderts</thema>: <dozent
+          ref="friedmann_w"><grad>D. ph.</grad>
+          <nachname>Friedmann</nachname></dozent>, <zeit>Mi. 11-12 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.d-012"><thema>Les principaux
           romans français du XIXe<!--(hochstellen!)--> siècle</thema>: <dozent
@@ -3335,9 +3340,10 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.d-015"><thema>Erklärung der
-          Divina Comedia (Inferno) (für Vorgerücktere)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Friedmann</nachname></dozent>,
-          <zeit>Di. 9-10 U.</zeit>, <modus>privatissime</modus>, sed
+          Divina Comedia (Inferno) (für Vorgerücktere)</thema>: <dozent
+          ref="friedmann_w"><grad>D. ph.</grad>
+          <nachname>Friedmann</nachname></dozent>, <zeit>Di. 9-10 U.</zeit>,
+          <modus>privatissime</modus>, sed
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913s-IV.B.d-016"><thema>Il romanzo
@@ -4912,10 +4918,11 @@
         5</ort>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1913s-IV.G-010"><thema>Strahlungstheorie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Füchtbauer</nachname></dozent>,
-        <zeit>Mi. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>im Physikal.
-        Institut, Linnéstr. 5</ort>.</veranstaltung>
+        xml:id="v-1913s-IV.G-010"><thema>Strahlungstheorie</thema>: <dozent
+        ref="fuechtbauer_c"><grad>D. ph.</grad>
+        <nachname>Füchtbauer</nachname></dozent>, <zeit>Mi. 6-7 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikal. Institut, Linnéstr.
+        5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-011"><thema>Polarisiertes Licht
         (mit besonderer Berücksichtigung der Kristalloptik u. Saccharimetrie),
@@ -5231,17 +5238,17 @@
         med.</grad> <nachname>Wiener</nachname>, <funktion>P.
         O.</funktion></dozent>, <dozent ref="scholl_h">mit <grad>D. ph.</grad>
         <nachname>Scholl</nachname>, <funktion>P. E.</funktion></dozent> u.
-        <dozent><grad>D. ph.</grad> <nachname>Füchtbauer</nachname></dozent>,
-        <zeit>täglich 8-12 U. u. (außer So.) 2-6 U.</zeit>,
-        <modus>privatissime</modus>, <ort>im Physikalischen Institut,
-        Linnéstr. 5</ort>.</veranstaltung>
+        <dozent ref="fuechtbauer_c"><grad>D. ph.</grad>
+        <nachname>Füchtbauer</nachname></dozent>, <zeit>täglich 8-12 U. u.
+        (außer So.) 2-6 U.</zeit>, <modus>privatissime</modus>, <ort>im
+        Physikalischen Institut, Linnéstr. 5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-055"><thema>Physikalisches
         Praktikum</thema>: <dozent ref="wiener_oh"><grad>D. ph. nat. et
         med.</grad> <nachname>Wiener</nachname>, <funktion>P.
-        O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
-        <nachname>Füchtbauer</nachname></dozent>, <zeit>an einem, zwei- oder
-        drei Halbtagen, Di., Mi. u. Do. 2-5 U.</zeit>,
+        O.</funktion></dozent>, <dozent ref="fuechtbauer_c">mit <grad>D.
+        ph.</grad> <nachname>Füchtbauer</nachname></dozent>, <zeit>an einem,
+        zwei- oder drei Halbtagen, Di., Mi. u. Do. 2-5 U.</zeit>,
         <modus>privatim</modus>, <ort>im Physikalischen Institut, Linnéstr.
         5</ort>.</veranstaltung>
 
@@ -5251,9 +5258,10 @@
         <nachname>Wiener</nachname>, <funktion>P. O.</funktion></dozent>,
         <dozent ref="scholl_h">mit <grad>D. ph.</grad>
         <nachname>Scholl</nachname>, <funktion>P. E.</funktion></dozent> u.
-        <dozent><grad>D. ph.</grad> <nachname>Füchtbauer</nachname></dozent>,
-        <zeit>So. 9-12 U.</zeit>, <modus>privatim</modus>, <ort>im Physikal.
-        Institut, Linnéstr. 5</ort>.</veranstaltung>
+        <dozent ref="fuechtbauer_c"><grad>D. ph.</grad>
+        <nachname>Füchtbauer</nachname></dozent>, <zeit>So. 9-12 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Physikal. Institut, Linnéstr.
+        5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-057"><thema>Physikalisches
         Kolloquium</thema>: <dozent ref="wiener_oh"><grad>D. ph. nat. et

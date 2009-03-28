@@ -1628,7 +1628,7 @@
 
       <veranstaltung
       xml:id="v-1911s-III-130"><thema>Geburtshilflich-gynäkologische Klinik
-      und Poliklinik</thema>: <dozent><grad>D. med.</grad>
+      und Poliklinik</thema>: <dozent ref="zweifel_p"><grad>D. med.</grad>
       <nachname>Zweifel</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 7-8 U. Vorm.</zeit>, <modus>privatim</modus>, <ort>in der
       Universitäts-Frauenklinik, Stephanstr. 7</ort>.</veranstaltung>
@@ -2348,19 +2348,20 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1911s-IV.B.b-010"><thema>Sumerisch</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
-          <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. 5 bis 6
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="zimmern_h"><grad>D. ph.</grad>
+          <nachname>Zimmern</nachname>, <funktion>P. O.</funktion></dozent>,
+          <zeit>Donnerst. 5 bis 6 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung
           xml:id="v-1911s-IV.B.b-011"><thema>Babylonisch-Assyrisch, <notiz
-          betreff="fortsetzung">II. Kursus</notiz></thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Zimmern</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          betreff="fortsetzung">II. Kursus</notiz></thema>: <dozent
+          ref="zimmern_h"><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
+          <funktion>P. O.</funktion></dozent>, <zeit>Mont. u. Donnerst. 4-5
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1911s-IV.B.b-012"><thema>Biblisch-Aramäisch
-          (Buch Daniel)</thema>: <dozent><grad>D. ph.</grad>
+          (Buch Daniel)</thema>: <dozent ref="zimmern_h"><grad>D. ph.</grad>
           <nachname>Zimmern</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Sonnab. 10-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
@@ -2409,8 +2410,8 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung
-          xml:id="v-1911s-IV.B.b-020"><thema>Äthiopisch</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
+          xml:id="v-1911s-IV.B.b-020"><thema>Äthiopisch</thema>: <dozent
+          ref="zimmern_h"><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Mont. 5 bis 6 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -2484,8 +2485,8 @@
           schwierigerer babylonisch-assyrischer und sumerischer
           Texte</thema></veranstaltung>; <veranstaltung
           xml:id="v-1911s-IV.B.b-031">b) <thema>Besprechung
-          babylonisch-assyrischer Bildwerke</thema></veranstaltung>:
-          <dozent><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
+          babylonisch-assyrischer Bildwerke</thema></veranstaltung>: <dozent
+          ref="zimmern_h"><grad>D. ph.</grad> <nachname>Zimmern</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Dienst. 8-10 U.
           Ab.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltungsgruppe>
@@ -2765,13 +2766,13 @@
 
           <veranstaltung xml:id="v-1911s-IV.B.d-009"><thema>Einführung in das
           vergleichende Studium des Altprovenzialischen und Altfranzösischen
-          mit Zugrundelegung altprovenzialischer Texte</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Friedmann</nachname></dozent>,
-          <zeit>Mont. u. Donnerst. 8-9 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          mit Zugrundelegung altprovenzialischer Texte</thema>: <dozent
+          ref="friedmann_w"><grad>D. ph.</grad>
+          <nachname>Friedmann</nachname></dozent>, <zeit>Mont. u. Donnerst.
+          8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1911s-IV.B.d-010"><thema>Molière's
-          Komödien</thema>: <dozent><grad>D. ph.</grad>
+          Komödien</thema>: <dozent ref="friedmann_w"><grad>D. ph.</grad>
           <nachname>Friedmann</nachname></dozent>, <zeit>Mittw. 6 bis 7
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2863,11 +2864,11 @@
           aber <gebühr>gratis</gebühr></veranstaltung>. - <veranstaltung
           xml:id="v-1911s-IV.B.d-023"><thema>2. Sektion: Übungen über die
           altfranzösische Heldendichtung (Chanson de Guillaume, ed. Suchier,
-          Halle, 1911)</thema> <dozent>unter Leitung von <grad>D. ph.</grad>
-          <nachname>Friedmann</nachname></dozent>, <zeit>Donnerst. 8-9½ U.
-          Ab.</zeit>, <modus>privatissime</modus>, aber
-          <gebühr>gratis</gebühr></veranstaltung></veranstaltungsgruppe>. -
-          <veranstaltungsgruppe><thema>II. Abteilung: Praktische Übungen in
+          Halle, 1911)</thema> <dozent ref="friedmann_w">unter Leitung von
+          <grad>D. ph.</grad> <nachname>Friedmann</nachname></dozent>,
+          <zeit>Donnerst. 8-9½ U. Ab.</zeit>, <modus>privatissime</modus>,
+          aber <gebühr>gratis</gebühr></veranstaltung></veranstaltungsgruppe>.
+          - <veranstaltungsgruppe><thema>II. Abteilung: Praktische Übungen in
           der französischen Sprache</thema> <dozent ref="monod_g">unter
           Leitung des Assistenten Lektors <nachname>Monod</nachname></dozent>:
           <veranstaltung xml:id="v-1911s-IV.B.d-024"><thema>1.

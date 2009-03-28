@@ -113,9 +113,9 @@
         <zeit>8 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1871s-I.I.2-004"><thema>Psychologie und
-        allgemeine Aesthetik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>6 U. Ab. 4 T.</zeit></veranstaltung>
+        allgemeine Aesthetik</thema>: <dozent ref="ziller_t"><grad>D.
+        ph.</grad> <nachname>Ziller</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>6 U. Ab. 4 T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Sprachphilosophie</thema>: <dozent
         ref="hermann_c"><grad>D. ph.</grad> <nachname>Hermann</nachname>,
@@ -207,7 +207,7 @@
           <trennlinie/>
 
           <veranstaltung xml:id="v-1871s-I.I.2.003-003"><thema>Allgemeine
-          Pädagogik</thema>: <dozent><grad>D. ph.</grad>
+          Pädagogik</thema>: <dozent ref="ziller_t"><grad>D. ph.</grad>
           <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>12 U. 4 Tage</zeit>.</veranstaltung>
 
@@ -240,9 +240,10 @@
 
           <veranstaltung xml:id="v-1871s-I.I.2.004-002"><thema>Philosophische
           Gesellschaft (Aristoteles' Logik nach Trendelenburg's elementa und
-          Platonische Analysen)</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
-          <zeit>12 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          Platonische Analysen)</thema>: <dozent ref="ziller_t"><grad>D.
+          ph.</grad> <nachname>Ziller</nachname>, <funktion>P.
+          E.</funktion></dozent>, <zeit>12 U. 2 T.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltungsgruppe><thema>Pädagogisches Seminar</thema>:
           <veranstaltung xml:id="v-1871s-I.I.2.004-003"><thema>Uebungen und
@@ -257,7 +258,7 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1871s-I.I.2.004-005"><thema>Pädagogisches
-          Seminar</thema>: <dozent><grad>D. ph.</grad>
+          Seminar</thema>: <dozent ref="ziller_t"><grad>D. ph.</grad>
           <nachname>Ziller</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>3 T. (Mittw. 7 U. Ab., Donn. 2 U., Sonn. 5-7 U.)</zeit>
           <modus>öffentl.</modus></veranstaltung>
@@ -482,9 +483,10 @@ andere bei den Übungen der praktischen Theol.!
 
           <veranstaltung xml:id="v-1871s-I.II.2.002-003"><thema>Erklärung des
           Buches Hiob <notiz betreff="fortsetzung">(Forts.)</notiz></thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Fürst</nachname>,
-          <funktion>Lect. publ., P.</funktion></dozent>, <zeit>2 U. 2 T.
-          (Mont. u. Donn.)</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          <dozent ref="fuerst_j"><grad>D. ph.</grad>
+          <nachname>Fürst</nachname>, <funktion>Lect. publ.,
+          P.</funktion></dozent>, <zeit>2 U. 2 T. (Mont. u. Donn.)</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
 
           <trennlinie/>
 
@@ -711,10 +713,10 @@ andere bei den Übungen der praktischen Theol.!
 
           <veranstaltung xml:id="v-1871s-I.III.1.001-001"><thema>Geschichte
           der biblischen Literatur <notiz
-          betreff="fortsetzung">(Forts.)</notiz></thema>: <dozent><grad>D.
-          ph.</grad> <nachname>Fürst</nachname>, <funktion>P., Lect.
-          publ.</funktion></dozent>, <zeit>Mittw. 2 U.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          betreff="fortsetzung">(Forts.)</notiz></thema>: <dozent
+          ref="fuerst_j"><grad>D. ph.</grad> <nachname>Fürst</nachname>,
+          <funktion>P., Lect. publ.</funktion></dozent>, <zeit>Mittw. 2
+          U.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Geschichte der griechischen
           Komödie</thema>: <dozent ref="ritschl_f"><grad>D. jur. &amp;
@@ -1119,16 +1121,17 @@ andere bei den Übungen der praktischen Theol.!
         St.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1871s-I.VI.1-007"><thema>Ueber
-        Spectralanalyse und Photometrie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Zöllner</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>5-7 U. (Mont. u. Dienst.)</zeit></veranstaltung>
+        Spectralanalyse und Photometrie</thema>: <dozent
+        ref="zoellner_jkf"><grad>D. ph.</grad> <nachname>Zöllner</nachname>,
+        <funktion>P. E.</funktion></dozent>, <zeit>5-7 U. (Mont. u.
+        Dienst.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1871s-I.VI.1-008"><thema>Ueber optische
-        Täuschungen</thema>: <ders>Derselbe</ders>, <zeit>5-7 U. Mittw.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        Täuschungen</thema>: <ders ref="zoellner_jkf">Derselbe</ders>,
+        <zeit>5-7 U. Mittw.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1871s-I.VI.1-009"><thema>Ueber vulkanische
-        Erscheinungen</thema>: <dozent><grad>D. ph.</grad>
+        Erscheinungen</thema>: <dozent ref="zirkel_f"><grad>D. ph.</grad>
         <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Sonn. 8 U.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1236,7 +1239,7 @@ andere bei den Übungen der praktischen Theol.!
 
         <veranstaltung xml:id="v-1871s-I.VI.2-001"><thema>Petrographie, mit
         mikroskopisch-mineralogischen und petrographischen
-        Demonstrationen</thema>: <dozent><grad>D. ph.</grad>
+        Demonstrationen</thema>: <dozent ref="zirkel_f"><grad>D. ph.</grad>
         <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>
         <zeit>9 U. 6 T.</zeit></veranstaltung>
 
@@ -2355,9 +2358,10 @@ andere bei den Übungen der praktischen Theol.!
         <siehe>s. Gynäkologie</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1871s-II.C.VII-003"><thema>Pathologie und
-        Therapie der Krankheiten des Kindesalters</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Fürst</nachname></dozent>, <zeit>4 U. 2 T.
-        (Mont. u. Freit.)</zeit></veranstaltung>
+        Therapie der Krankheiten des Kindesalters</thema>: <dozent
+        ref="fuerst_l"><grad>D. med.</grad>
+        <nachname>Fürst</nachname></dozent>, <zeit>4 U. 2 T. (Mont. u.
+        Freit.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1871s-II.C.VII-004"><thema>Ueber
         Rheumatismus</thema>: <dozent ref="friedlaender_m"><grad>D.
@@ -2468,7 +2472,7 @@ andere bei den Übungen der praktischen Theol.!
         <titel>X. Gynäkologie.</titel>
 
         <veranstaltung xml:id="v-1871s-II.C.X-001"><thema>Geburtshilfliche
-        Propädeutik</thema>: <dozent><grad>D. med.</grad>
+        Propädeutik</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
         <nachname>Fürst</nachname></dozent>, <zeit>4 U. Mittw.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -2620,7 +2624,7 @@ andere bei den Übungen der praktischen Theol.!
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1871s-II.C.XI-013"><thema>Pädiatrische
-        Poliklinik</thema>: <dozent><grad>D. med.</grad>
+        Poliklinik</thema>: <dozent ref="fuerst_l"><grad>D. med.</grad>
         <nachname>Fürst</nachname></dozent>, <zeit>4 U. 3 T. (Dienst., Donn.
         u. Sonn.)</zeit></veranstaltung>
       </sachgruppe>
