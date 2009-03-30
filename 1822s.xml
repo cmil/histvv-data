@@ -890,10 +890,10 @@
         <sachgruppe xml:id="sg-1822s-II.2.004.xx">
           <titel>**) Exegetisch-praktische Uebungen.</titel>
 
-          <veranstaltung
-          xml:id="v-1822s-II.2.004.xx-001"><dozent><nachname>Wolf</nachname>,
-          <grad>M.</grad> <vorname>F. A.</vorname>, <grad>Theol.
-          Bacc.</grad></dozent>, <zeit>in zu best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1822s-II.2.004.xx-001"><dozent
+          ref="wolf_fa"><nachname>Wolf</nachname>, <grad>M.</grad> <vorname>F.
+          A.</vorname>, <grad>Theol. Bacc.</grad></dozent>, <zeit>in zu best.
+          St.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
@@ -1942,8 +1942,8 @@ die jeweiligen Veranstaltungs-Attribute eingetragen-->
 
   <absatz>Uebrigens wird der <dozent
   ref="richter_gbt"><funktion>Stallmeister</funktion>
-  <nachname>Richter</nachname></dozent>, der
-  <dozent><funktion>Fechtmeister</funktion>
+  <nachname>Richter</nachname></dozent>, der <dozent
+  ref="werner_jaw"><funktion>Fechtmeister</funktion>
   <nachname>Werner</nachname></dozent>, ingleichen der
   <dozent><funktion>Tanzmeister</funktion>
   <nachname>Klemm</nachname></dozent>, und der <dozent

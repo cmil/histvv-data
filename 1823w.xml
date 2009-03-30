@@ -1132,9 +1132,9 @@
               Prim.</funktion></dozent>, <zeit>9 U. 4
               T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1823w-II.A.I.3.002.x-003"><dozent><nachname>Wolf</nachname>,
-              <grad>M.</grad> <vorname>F. A.</vorname>, <funktion>Th.
+              <veranstaltung xml:id="v-1823w-II.A.I.3.002.x-003"><dozent
+              ref="wolf_fa"><nachname>Wolf</nachname>, <grad>M.</grad>
+              <vorname>F. A.</vorname>, <funktion>Th.
               Bacc.</funktion></dozent>, <zeit>5 U. Mont., Dinst. u.
               Donn.</zeit></veranstaltung>
 
@@ -1444,11 +1444,10 @@
             u. <gesperrt>Pätz</gesperrt></thema>, <zeit>3 U. 4
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1823w-II.B.II.A.7-002"><dozent><nachname>Zobel</nachname>,
-            <vorname>C. A. E.</vorname>
-            <nachnamenpräfix>von</nachnamenpräfix>, <funktion>I. V.
-            B.</funktion></dozent>, <thema>gemeines Deutsches u. Sächs.
+            <veranstaltung xml:id="v-1823w-II.B.II.A.7-002"><dozent
+            ref="zobel_kae"><nachname>Zobel</nachname>, <vorname>C. A.
+            E.</vorname> <nachnamenpräfix>von</nachnamenpräfix>, <funktion>I.
+            V. B.</funktion></dozent>, <thema>gemeines Deutsches u. Sächs.
             Lehnrecht, nach <gesperrt>Böhmer</gesperrt> (<antiqua>Princ. iur.
             feudal. ed. Bauer 1819</antiqua>) und nach
             <gesperrt>Zachariä</gesperrt> (Handb. des Sächs. Lehnr., herausg.
@@ -1621,11 +1620,10 @@
               B.</funktion></dozent>, <zeit>10 U. 4 T.</zeit>
               <gebühr>unentgeldlich</gebühr>.</veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1823w-II.B.II.C.1.003-004"><dozent><nachname>Zobel</nachname>,
-              <vorname>C. A. E.</vorname>
-              <nachnamenpräfix>von</nachnamenpräfix>, <funktion>I. V.
-              B.</funktion></dozent>, <zeit>in zu best.
+              <veranstaltung xml:id="v-1823w-II.B.II.C.1.003-004"><dozent
+              ref="zobel_kae"><nachname>Zobel</nachname>, <vorname>C. A.
+              E.</vorname> <nachnamenpräfix>von</nachnamenpräfix>,
+              <funktion>I. V. B.</funktion></dozent>, <zeit>in zu best.
               St.</zeit></veranstaltung>
             </sachgruppe>
 
@@ -1679,11 +1677,10 @@
           <sachgruppe xml:id="sg-1823w-II.B.II.C.3">
             <titel>3) Repetirübungen.</titel>
 
-            <veranstaltung
-            xml:id="v-1823w-II.B.II.C.3-001"><dozent><nachname>Zobel</nachname>,
-            <vorname>C. A. E.</vorname>
-            <nachnamenpräfix>von</nachnamenpräfix>, <funktion>I. V.
-            B.</funktion></dozent>, <thema>Wiederholung der Prozeßlehre, n.
+            <veranstaltung xml:id="v-1823w-II.B.II.C.3-001"><dozent
+            ref="zobel_kae"><nachname>Zobel</nachname>, <vorname>C. A.
+            E.</vorname> <nachnamenpräfix>von</nachnamenpräfix>, <funktion>I.
+            V. B.</funktion></dozent>, <thema>Wiederholung der Prozeßlehre, n.
             <antiqua>Bieneri syst. proc. iud.</antiqua></thema>, <zeit>zu bel.
             Z.</zeit></veranstaltung>
 
@@ -2196,8 +2193,8 @@
 
   <absatz>Uebrigens wird der <dozent
   ref="richter_gbt"><funktion>Stallmeister</funktion>
-  <nachname>Richter</nachname></dozent>, der
-  <dozent><funktion>Fechtmeister</funktion>
+  <nachname>Richter</nachname></dozent>, der <dozent
+  ref="werner_jaw"><funktion>Fechtmeister</funktion>
   <nachname>Werner</nachname></dozent>, der
   <dozent><funktion>Tanzmeister</funktion>
   <nachname>Klemm</nachname></dozent>, und der <dozent
