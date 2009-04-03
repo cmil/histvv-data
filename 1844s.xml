@@ -282,7 +282,7 @@
         O.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1844s-I.II.1-010"><thema>Das dritte Buch des
-        Livius</thema>: <dozent><grad>M.</grad>
+        Livius</thema>: <dozent ref="klee_jl"><grad>M.</grad>
         <nachname>Klee</nachname></dozent>, <zeit>3 U. 2 T. (Dienst. u.
         Freit.)</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
@@ -513,8 +513,8 @@
           St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1844s-I.II.3.001-002"><thema>Uebungen der
-          Gesellschaft für deutsche Sprache u. Litteratur</thema>:
-          <dozent><grad>D.</grad> <nachname>Vogel</nachname></dozent>,
+          Gesellschaft für deutsche Sprache u. Litteratur</thema>: <dozent
+          ref="vogel_ef"><grad>D.</grad> <nachname>Vogel</nachname></dozent>,
           <zeit>in den best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
@@ -1429,9 +1429,9 @@
           <zeit>11 U. 6 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1844s-II.B.II.2-002"><thema>Deutsche
-          Staats- u. Rechtsgeschichte</thema>: <dozent><grad>D.</grad>
-          <nachname>Vogel</nachname></dozent>, <zeit>4 U. 2
-          T.</zeit></veranstaltung>
+          Staats- u. Rechtsgeschichte</thema>: <dozent
+          ref="vogel_ef"><grad>D.</grad> <nachname>Vogel</nachname></dozent>,
+          <zeit>4 U. 2 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1844s-II.B.II.2-003"><thema>Deutsche
           Staats- u. Rechtsgeschichte</thema>: <dozent
@@ -1457,7 +1457,7 @@
 
           <veranstaltung xml:id="v-1844s-II.B.II.2-007"><thema><scil
           text="Deutsches Privatrecht">Dasselbe</scil> mit Einschluß des
-          Lehnrechts</thema>: <dozent><grad>D.</grad>
+          Lehnrechts</thema>: <dozent ref="vogel_ef"><grad>D.</grad>
           <nachname>Vogel</nachname></dozent>, <zeit>8 U. 6
           T.</zeit></veranstaltung>
 
@@ -1481,8 +1481,9 @@
 
           <veranstaltungsverweis><thema><scil
           text="Das gemeine u. sächsische Lehnrecht">Dasselbe</scil></thema>:
-          <dozent><grad>D.</grad> <nachname>Vogel</nachname></dozent>,
-          <siehe>s. deutsches Privatrecht</siehe>.</veranstaltungsverweis>
+          <dozent ref="vogel_ef"><grad>D.</grad>
+          <nachname>Vogel</nachname></dozent>, <siehe>s. deutsches
+          Privatrecht</siehe>.</veranstaltungsverweis>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1844s-II.B.II.3">
@@ -1686,8 +1687,9 @@
         <funktion>P. E.</funktion></dozent></veranstaltung>
 
         <veranstaltung xml:id="v-1844s-II.B.X-007"><thema>Uebungen der
-        Otto'schen juristischen Gesellschaft</thema>: <dozent><grad>D.</grad>
-        <nachname>Vogel</nachname></dozent>, <zeit>in den best. St.</zeit>
+        Otto'schen juristischen Gesellschaft</thema>: <dozent
+        ref="vogel_ef"><grad>D.</grad> <nachname>Vogel</nachname></dozent>,
+        <zeit>in den best. St.</zeit>
         <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>

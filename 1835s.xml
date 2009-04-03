@@ -300,10 +300,10 @@
             <sachgruppe xml:id="sg-1835s-I.I.2.b.001.x">
               <titel>*) Gesellschaft für deutsche Spr. u. Literatur.</titel>
 
-              <veranstaltung
-              xml:id="v-1835s-I.I.2.b.001.x-001"><dozent><nachname>Vogel</nachname>,
-              <grad>D.</grad> <vorname>E. F.</vorname></dozent>, <zeit>in den
-              best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+              <veranstaltung xml:id="v-1835s-I.I.2.b.001.x-001"><dozent
+              ref="vogel_ef"><nachname>Vogel</nachname>, <grad>D.</grad>
+              <vorname>E. F.</vorname></dozent>, <zeit>in den best. St.</zeit>
+              <modus>privatissime</modus>.</veranstaltung>
             </sachgruppe>
           </sachgruppe>
 
@@ -1400,11 +1400,11 @@ Welche Tage sind mit "2 T." gemeint?-->
       <sachgruppe xml:id="sg-1835s-II.B.001">
         <titel>Encyklopädie und Methodologie.</titel>
 
-        <veranstaltung
-        xml:id="v-1835s-II.B.001-001"><dozent><nachname>Vogel</nachname>,
-        <grad>D.</grad> <vorname>E. F.</vorname></dozent>, <thema
-        kontext="sachgruppe">nach s. Lehrbuche (Lpz. 1829. 8.)</thema>,
-        <zeit>7 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1835s-II.B.001-001"><dozent
+        ref="vogel_ef"><nachname>Vogel</nachname>, <grad>D.</grad> <vorname>E.
+        F.</vorname></dozent>, <thema kontext="sachgruppe">nach s. Lehrbuche
+        (Lpz. 1829. 8.)</thema>, <zeit>7 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1835s-II.B.001-002"><dozent
         ref="poppe_jgm"><nachname>Poppe</nachname>, <grad>D.</grad>
@@ -1456,14 +1456,13 @@ Welche Tage sind mit "2 T." gemeint?-->
         <thema>deutsche Rechtsgeschichte</thema>, <zeit>9 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1835s-II.B.003-003"><dozent><nachname>Vogel</nachname>,
-        <grad>D.</grad> <vorname>E. F.</vorname></dozent>, <thema>deutsche
-        Staats- und Rechtsgeschichte nach <gesperrt>Lindelof's</gesperrt>
-        Compendium: Deutsche Reichsgeschichte, insbesondere historische
-        Entwickelung des deutschen öffentlichen Rechts, in gedrängter
-        Uebersicht, (Gießen 1827. 8.)</thema>, <zeit>7 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1835s-II.B.003-003"><dozent
+        ref="vogel_ef"><nachname>Vogel</nachname>, <grad>D.</grad> <vorname>E.
+        F.</vorname></dozent>, <thema>deutsche Staats- und Rechtsgeschichte
+        nach <gesperrt>Lindelof's</gesperrt> Compendium: Deutsche
+        Reichsgeschichte, insbesondere historische Entwickelung des deutschen
+        öffentlichen Rechts, in gedrängter Uebersicht, (Gießen 1827.
+        8.)</thema>, <zeit>7 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1835s-II.B.003-004"><dozent
         ref="poppe_jgm"><nachname>Poppe</nachname>, <grad>D.</grad>
@@ -1600,14 +1599,13 @@ Welche Tage sind mit "2 T." gemeint?-->
             <thema>deutsches Privatrecht</thema>, <zeit>11 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1835s-II.B.II.I.2-002"><dozent><nachname>Vogel</nachname>,
-            <grad>D.</grad> <funktion>E. F.</funktion></dozent>,
-            <thema>deutsches Privatrecht mit Einschluß des Lehnrechts, zum
-            Theil mit Rücksicht auf die <schrift>2. verm. Aufl. v.
-            <autor>Weiße</autor>'s Einleitung in das gem. deutsche Privatrecht
-            (Lpz. 1832. 8.)</schrift></thema>, <zeit>8 U. 6
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1835s-II.B.II.I.2-002"><dozent
+            ref="vogel_ef"><nachname>Vogel</nachname>, <grad>D.</grad>
+            <funktion>E. F.</funktion></dozent>, <thema>deutsches Privatrecht
+            mit Einschluß des Lehnrechts, zum Theil mit Rücksicht auf die
+            <schrift>2. verm. Aufl. v. <autor>Weiße</autor>'s Einleitung in
+            das gem. deutsche Privatrecht (Lpz. 1832. 8.)</schrift></thema>,
+            <zeit>8 U. 6 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1835s-II.B.II.I.2-003"><dozent
             ref="schneider_r"><nachname>Schneider</nachname>, <grad>D.</grad>
@@ -1698,9 +1696,10 @@ Welche Tage sind mit "2 T." gemeint?-->
               Lehnrecht, nach s. Sätzen</thema>, <zeit>9 U. 4
               T.</zeit></veranstaltung>
 
-              <veranstaltungsverweis><dozent><nachname>Vogel</nachname>,
-              <grad>D.</grad> <vorname>E. F.</vorname></dozent>, <siehe>s.
-              deutsches Recht</siehe>.</veranstaltungsverweis>
+              <veranstaltungsverweis><dozent
+              ref="vogel_ef"><nachname>Vogel</nachname>, <grad>D.</grad>
+              <vorname>E. F.</vorname></dozent>, <siehe>s. deutsches
+              Recht</siehe>.</veranstaltungsverweis>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1835s-II.B.II.I.002.4">
@@ -1782,8 +1781,8 @@ http://histvv.uni-leipzig.de/scans/1873-ss/002.png.--></veranstaltung>
             <siehe>s. Concursrecht u.
             Wechselrecht</siehe>.</veranstaltungsverweis>
 
-            <veranstaltung
-            xml:id="v-1835s-II.B.II.II.1-001"><dozent><nachname>Treitschke</nachname>,
+            <veranstaltung xml:id="v-1835s-II.B.II.II.1-001"><dozent
+            ref="treitschke_gc"><nachname>Treitschke</nachname>,
             <grad>D.</grad> <vorname>G. K.</vorname></dozent>, <thema>gemeiner
             und sächsischer ordentlicher und summarischer Civilproceß</thema>,
             <zeit>7 U. 6 T. u. 3 U. Dienst., Donn. u.
@@ -1901,10 +1900,10 @@ http://histvv.uni-leipzig.de/scans/1873-ss/002.png.--></veranstaltung>
           <sachgruppe xml:id="sg-1835s-II.B.II.III.x">
             <titel>*) Juristische Gesellschaft.</titel>
 
-            <veranstaltung
-            xml:id="v-1835s-II.B.II.III.x-001"><dozent><nachname>Vogel</nachname>,
-            <grad>D.</grad> <vorname>E. F.</vorname></dozent>, <thema>Uebungen
-            der <gesperrt>Otto</gesperrt>'schen dogmatisch-exegetischen
+            <veranstaltung xml:id="v-1835s-II.B.II.III.x-001"><dozent
+            ref="vogel_ef"><nachname>Vogel</nachname>, <grad>D.</grad>
+            <vorname>E. F.</vorname></dozent>, <thema>Uebungen der
+            <gesperrt>Otto</gesperrt>'schen dogmatisch-exegetischen
             Gesellschaft</thema>, <zeit>in den best. St.</zeit>
             <modus>privatissime</modus>.</veranstaltung>
           </sachgruppe>

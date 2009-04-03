@@ -1791,14 +1791,14 @@
           55</ort>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-III.001.011-006"><thema>Allgemeine
-          Dermatologie</thema>: <dozent><grad>D. med.</grad>
+          Dermatologie</thema>: <dozent ref="voerner_h"><grad>D. med.</grad>
           <nachname>Vörner</nachname></dozent>, <zeit>nach
           Vereinbarung</zeit>, <modus>privatim</modus>, <ort>im
           Medizinisch-poliklinischen Institut, Nürnberger Str.
           55</ort>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-III.001.011-007"><thema>Kurs für
-          Dermatologie</thema>: <dozent><grad>D. med.</grad>
+          Dermatologie</thema>: <dozent ref="voerner_h"><grad>D. med.</grad>
           <nachname>Vörner</nachname></dozent>, <zeit>nach
           Vereinbarung</zeit>, <modus>privatim</modus>, <ort>im
           Medizinisch-poliklinischen Institut, Nürnberger Str.
@@ -3043,14 +3043,14 @@
           <veranstaltung xml:id="v-1912s-IV.B.d-005"><thema>Literarische
           Wallfahrten nach England: Stratford - <!--(Spatien hier und im ff. nicht original)-->Shakespeare;
           The Lakes - Wordworth; Scotland - Scott, Burns; London - Dickens
-          (Vorträge in englischer Sprache mit Lichtbildern)</thema>:
-          <dozent><funktion>Lektor</funktion>
+          (Vorträge in englischer Sprache mit Lichtbildern)</thema>: <dozent
+          ref="waterhouse_g"><funktion>Lektor</funktion>
           <nachname>Waterhouse</nachname></dozent>, <zeit>Di. 6-7 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912s-IV.B.d-006"><thema>Einführung in die
-          englische Umgangssprache</thema>:
-          <dozent><funktion>Lektor</funktion>
+          englische Umgangssprache</thema>: <dozent
+          ref="waterhouse_g"><funktion>Lektor</funktion>
           <nachname>Waterhouse</nachname></dozent>, <zeit>Mo., Di., Do. u. Fr.
           10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3157,7 +3157,8 @@
             <gebühr>gratis</gebühr></veranstaltung></veranstaltungsgruppe>. -
             <veranstaltungsgruppe>b) <thema>Praktische Abteilung: Übungen im
             mündlichen und schriftlichen Gebrauch des Neuenglischen</thema>,
-            <dozent>unter Leitung des <funktion>Lektors</funktion>
+            <dozent ref="waterhouse_g">unter Leitung des
+            <funktion>Lektors</funktion>
             <nachname>Waterhouse</nachname></dozent>: <veranstaltung
             xml:id="v-1912s-IV.B.d.001-003"><thema>1. Sektion (für
             Fortgeschrittene)</thema>, <zeit>Mo. u. Do. 4-5
@@ -3173,7 +3174,8 @@
 
             <veranstaltung xml:id="v-1912s-IV.B.d.001-005"><thema>Übungen im
             Vortrag englischer Prosa und Poesie (auf phonetischer
-            Grundlage)</thema>: <dozent><funktion>Lektor</funktion>
+            Grundlage)</thema>: <dozent
+            ref="waterhouse_g"><funktion>Lektor</funktion>
             <nachname>Waterhouse</nachname></dozent>, <zeit>Mi. 6 bis 7
             U.</zeit>, <modus>privatim</modus>.</veranstaltung>
           </sachgruppe>
@@ -4788,10 +4790,11 @@
 
         <veranstaltung xml:id="v-1912s-IV.G-029"><thema>Untersuchung von
         Nahrungsmitteln und Gebrauchsgegenständen (mit Berücksichtigung der
-        einschlägigen gesetzlichen Bestimmungen)</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Waentig</nachname></dozent>, <zeit>Mi. 5-6
-        U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für angew.
-        Chemie, Brüderstr. 34</ort>.</veranstaltung>
+        einschlägigen gesetzlichen Bestimmungen)</thema>: <dozent
+        ref="waentig_p"><grad>D. ph.</grad>
+        <nachname>Waentig</nachname></dozent>, <zeit>Mi. 5-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Laboratorium für angew. Chemie,
+        Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-030"><thema>Die maßanalytischen
         Bestimmungen des neuen Deutschen Arzneibuchs (5. Ausgabe)</thema>:
@@ -5080,10 +5083,11 @@
         ph.</grad> <nachname>Deußen</nachname></dozent>, <dozent><grad>D.
         ph.</grad> <nachname>Scheiber</nachname></dozent>, <dozent
         ref="sieverts_a"><grad>D. ph.</grad>
-        <nachname>Sieverts</nachname></dozent> <dozent>u. <grad>D. ph.</grad>
-        <nachname>Waentig</nachname></dozent>, <zeit>täglich 8-12½ U. u.
-        (außer So.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Laboratorium f. angew. Chemie, Brüderstr. 34</ort>.</veranstaltung>
+        <nachname>Sieverts</nachname></dozent> <dozent ref="waentig_p">u.
+        <grad>D. ph.</grad> <nachname>Waentig</nachname></dozent>,
+        <zeit>täglich 8-12½ U. u. (außer So.) 2-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Laboratorium f. angew. Chemie,
+        Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Analytisches und anorganisches
         Praktikum</thema>: <dozent><grad>D. ph. et med.</grad>

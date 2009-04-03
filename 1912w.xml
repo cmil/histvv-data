@@ -909,11 +909,11 @@
         <veranstaltung xml:id="v-1912w-III.001-003"><thema>Chemisches
         Praktikum für Ärzte und Zahnärzte</thema>: <dozent
         ref="paal_c"><grad>D. ph.</grad> <nachname>Paal</nachname>,
-        <funktion>P. O. des.</funktion></dozent>, mit <dozent><grad>D.
-        ph.</grad> <nachname>Waentig</nachname></dozent>, <zeit>sechsstündig
-        nach Vereinbarung</zeit>, <modus>privatim</modus>, <ort>im
-        Laboratorium für angewandte Chemie, Brüderstr.
-        34</ort>.</veranstaltung>
+        <funktion>P. O. des.</funktion></dozent>, mit <dozent
+        ref="waentig_p"><grad>D. ph.</grad>
+        <nachname>Waentig</nachname></dozent>, <zeit>sechsstündig nach
+        Vereinbarung</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für
+        angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <!--(VA doppelt sich, s. u. S. 23)-->
 
@@ -1900,14 +1900,14 @@
         55</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.012-007"><thema>Allgemeine
-        Dermatologie</thema>: <dozent><grad>D. med.</grad>
+        Dermatologie</thema>: <dozent ref="voerner_h"><grad>D. med.</grad>
         <nachname>Vörner</nachname></dozent>, <zeit>zweistündig, nach
         Vereinbarung</zeit>, <gebühr>gratis</gebühr>, <ort>im
         Medizinisch-poliklinischen Institut, Nürnberger Str.
         55</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.012-008"><thema>Kursus für
-        Dermatologie</thema>: <dozent><grad>D. med.</grad>
+        Dermatologie</thema>: <dozent ref="voerner_h"><grad>D. med.</grad>
         <nachname>Vörner</nachname></dozent>, <zeit>tägl. 2 bis 3 U.</zeit>,
         <gebühr>gratis</gebühr>, <ort>im Medizinisch-poliklinischen Institut,
         Nürnberger Str. 55</ort>.</veranstaltung>
@@ -2297,10 +2297,11 @@
         <veranstaltung xml:id="v-1912w-III.018-020"><thema>Chemisches
         Praktikum für Ärzte und Zahnärzte</thema>: <dozent
         ref="paal_c"><grad>D. ph.</grad> <nachname>Paal</nachname>,
-        <funktion>P. O. des.</funktion></dozent>, mit <dozent><grad>D.
-        ph.</grad> <nachname>Waentig</nachname></dozent>, <zeit>sechsstündig
-        nach Vereinbar.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium
-        f. angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
+        <funktion>P. O. des.</funktion></dozent>, mit <dozent
+        ref="waentig_p"><grad>D. ph.</grad>
+        <nachname>Waentig</nachname></dozent>, <zeit>sechsstündig nach
+        Vereinbar.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f.
+        angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <!--(VA doppelt sich, s. o. S. 9)-->
 
@@ -3202,15 +3203,16 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912w-IV.B.d-004"><thema>Einführung in die
-          englische Umgangssprache</thema>:
-          <dozent><funktion>Lektor</funktion>
+          englische Umgangssprache</thema>: <dozent
+          ref="waterhouse_g"><funktion>Lektor</funktion>
           <nachname>Waterhouse</nachname></dozent>, <zeit>Mo., Di., Do. u. Fr.
           10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912w-IV.B.d-005"><thema>England und die
           Engländer: Verfassung, Verwaltung, Unterrichtswesen, Kunst,
           Landesgebräuche, Topographie usw. (Vortrag in englischer Sprache mit
-          Lichtbildern)</thema>: <dozent><funktion>Lektor</funktion>
+          Lichtbildern)</thema>: <dozent
+          ref="waterhouse_g"><funktion>Lektor</funktion>
           <nachname>Waterhouse</nachname></dozent>, <zeit>Mi. 5-6 u. Fr. 6-7
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3331,9 +3333,9 @@
           <gebühr>gratis</gebühr>.</veranstaltung></veranstaltungsgruppe> -
           <veranstaltungsgruppe>b) <thema>Praktische Abteilung: Übungen im
           mündlichen und schriftlichen Gebrauch des Neuenglischen</thema>,
-          <dozent>unter Leitung des <funktion>Assistenten Lektors</funktion>
-          <nachname>Waterhouse</nachname></dozent>: <veranstaltung
-          xml:id="v-1912w-IV.B.d-024"><thema>1. Sektion (für
+          <dozent ref="waterhouse_g">unter Leitung des <funktion>Assistenten
+          Lektors</funktion> <nachname>Waterhouse</nachname></dozent>:
+          <veranstaltung xml:id="v-1912w-IV.B.d-024"><thema>1. Sektion (für
           Fortgeschrittenere)</thema>, <zeit>Mo. u. Do. 4-5
           U.</zeit></veranstaltung>; <veranstaltung
           xml:id="v-1912w-IV.B.d-025"><thema>2. Sektion (für weniger
@@ -3965,12 +3967,13 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.D-005"><thema>Die deutsche Malerei
-        der Renaissance (15./16. Jahrhundert)</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Wackernagel</nachname></dozent>, <zeit>Mo. u. Do.
-        3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        der Renaissance (15./16. Jahrhundert)</thema>: <dozent
+        ref="wackernagel_m"><grad>D. ph.</grad>
+        <nachname>Wackernagel</nachname></dozent>, <zeit>Mo. u. Do. 3-4
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.D-006"><thema>Hans Holbein d. J. und
-        seine Zeit</thema>: <dozent><grad>D. ph.</grad>
+        seine Zeit</thema>: <dozent ref="wackernagel_m"><grad>D. ph.</grad>
         <nachname>Wackernagel</nachname></dozent>, <zeit>So. 12-1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
@@ -4040,9 +4043,9 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
           <veranstaltung
           xml:id="v-1912w-IV.D.003-002"><thema>Kunsthistorisches Seminar:
           Fragen aus der deutschen Kunstgeschichte des 15. und 16.
-          Jahrhunderts</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Wackernagel</nachname></dozent>, <zeit>Mi. 10-12
-          U.</zeit>, <modus>privatissime</modus>, sed
+          Jahrhunderts</thema>: <dozent ref="wackernagel_m"><grad>D.
+          ph.</grad> <nachname>Wackernagel</nachname></dozent>, <zeit>Mi.
+          10-12 U.</zeit>, <modus>privatissime</modus>, sed
           <gebühr>gratis</gebühr>.</veranstaltung>
         </sachgruppe>
 
@@ -4903,10 +4906,10 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.G-020"><thema>Grundlagen der
-        analytischen Chemie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Waentig</nachname></dozent>, <zeit>Mi. 5-6 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Laboratorium für angew. Chemie,
-        Brüderstr. 34</ort>.</veranstaltung>
+        analytischen Chemie</thema>: <dozent ref="waentig_p"><grad>D.
+        ph.</grad> <nachname>Waentig</nachname></dozent>, <zeit>Mi. 5-6
+        U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für angew.
+        Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.G-021"><thema>Die Wandlungen des
         Atombegriffs (für Hörer aller Fakultäten)</thema>: <dozent><grad>D.
@@ -5295,7 +5298,8 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         ph.</grad> <nachname>Deußen</nachname></dozent>, <dozent><grad>D.
         ph.</grad> <nachname>Scheiber</nachname></dozent>, <dozent
         ref="sieverts_a"><grad>D. ph.</grad>
-        <nachname>Sieverts</nachname></dozent> u. <dozent><grad>D. ph.</grad>
+        <nachname>Sieverts</nachname></dozent> u. <dozent
+        ref="waentig_p"><grad>D. ph.</grad>
         <nachname>Waentig</nachname></dozent>, <zeit>täglich 8-12½ U. u.
         (außer So.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im
         Laboratorium f. angew. Chemie, Brüderstr. 34</ort>.</veranstaltung>
@@ -5327,7 +5331,8 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
         <nachname>Deußen</nachname></dozent>, <dozent><grad>D. ph.</grad>
         <nachname>Scheiber</nachname></dozent>, <dozent
         ref="sieverts_a"><grad>D. ph.</grad>
-        <nachname>Sieverts</nachname></dozent> u. <dozent><grad>D. ph.</grad>
+        <nachname>Sieverts</nachname></dozent> u. <dozent
+        ref="waentig_p"><grad>D. ph.</grad>
         <nachname>Waentig</nachname></dozent>, <zeit>tägl. 8-12½ u. (außer
         So.) 2-6 U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium f.
         angew. Chemie, Brüderstr. 34</ort>.</veranstaltung>

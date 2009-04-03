@@ -1402,11 +1402,11 @@
         <vorname>K. W. E.</vorname>, <funktion>P. E.</funktion></dozent>,
         <siehe>s. Institutt.</siehe></veranstaltungsverweis>
 
-        <veranstaltung
-        xml:id="v-1828s-II.B.002-001"><dozent><nachname>Vogel</nachname>,
-        <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
-        B.</funktion></dozent>, <thema>Geschichte des röm. Rechts</thema>,
-        <zeit>2 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1828s-II.B.002-001"><dozent
+        ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad> <vorname>E.
+        F.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+        <thema>Geschichte des röm. Rechts</thema>, <zeit>2 U. 2 T.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1828s-II.B.I">
@@ -1493,9 +1493,9 @@
               <zeit>2 U. 2 T.</zeit>
               <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1828s-II.B.II.I.1.002-007"><dozent><nachname>Vogel</nachname>,
-              <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
+              <veranstaltung xml:id="v-1828s-II.B.II.I.1.002-007"><dozent
+              ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad>
+              <vorname>E. F.</vorname>, <funktion>J. U.
               B.</funktion></dozent>, <thema>Institutionen des röm. Rechts,
               nach <gesperrt>Schmalz</gesperrt> Handb. des röm. Privatrechts,
               (2. A. Königsb. 1801. 8. Leipz. b. Brockhaus)</thema> <zeit>3 U.
@@ -1752,9 +1752,9 @@
                 <thema>nach röm. u. heutigen Grundsätzen</thema>, <zeit>1 U. 4
                 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-                <veranstaltung
-                xml:id="v-1828s-II.B.II.I.3.001.5-002"><dozent><nachname>Vogel</nachname>,
-                <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
+                <veranstaltung xml:id="v-1828s-II.B.II.I.3.001.5-002"><dozent
+                ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad>
+                <vorname>E. F.</vorname>, <funktion>J. U.
                 B</funktion>.</dozent>, <thema>praktisches</thema>, <zeit>4 U.
                 4 T.</zeit></veranstaltung>
               </sachgruppe>
@@ -1924,12 +1924,12 @@
             <thema>praktische Uebungen zur Vorbereitung für den künftigen
             Advokatenstand</thema>, <zeit>4 U. 4 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1828s-II.B.II.II.3-005"><dozent><nachname>Vogel</nachname>,
-            <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
-            B.</funktion>, </dozent><thema>Disputir-Uebungen in lat. Spr. über
-            Gegenstände des Processes, verbunden mit praktischen
-            Ausarbeitungen</thema>, <zeit>4 U. 2 T.</zeit>
+            <veranstaltung xml:id="v-1828s-II.B.II.II.3-005"><dozent
+            ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad>
+            <vorname>E. F.</vorname>, <funktion>J. U. B.</funktion>,
+            </dozent><thema>Disputir-Uebungen in lat. Spr. über Gegenstände
+            des Processes, verbunden mit praktischen Ausarbeitungen</thema>,
+            <zeit>4 U. 2 T.</zeit>
             <modus>privatissime</modus>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
@@ -2033,12 +2033,11 @@
             alle Rechtstheile</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1828s-II.B.II.III.1-017"><dozent><nachname>Vogel</nachname>,
-            <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>über einzelne Theile der
-            Rechtswissenschaft</thema>, <zeit>in zu best.
-            St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1828s-II.B.II.III.1-017"><dozent
+            ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad>
+            <vorname>E. F.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>über einzelne Theile der Rechtswissenschaft</thema>,
+            <zeit>in zu best. St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1828s-II.B.II.III.1-018"><dozent
             ref="berger_a"><nachname>Berger</nachname>, <vorname>A.</vorname>,
@@ -2117,9 +2116,10 @@
             <thema>Fortsetzung</thema>, <zeit>in den best.
             St.</zeit></veranstaltung>
 
-            <veranstaltungsverweis><dozent><nachname>Vogel</nachname>,
-            <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <siehe>s. Anleitung zur juristischen
+            <veranstaltungsverweis><dozent
+            ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad>
+            <vorname>E. F.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <siehe>s. Anleitung zur juristischen
             Praxis</siehe>.</veranstaltungsverweis>
           </sachgruppe>
 

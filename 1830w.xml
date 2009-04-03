@@ -276,9 +276,9 @@
               <sachgruppe xml:id="sg-1830w-I.I.2.b.001.003.x">
                 <titel>*) Gesellschaft für deutsche Spr. u. Literatur.</titel>
 
-                <veranstaltung
-                xml:id="v-1830w-I.I.2.b.001.003.x-001"><dozent><nachname>Vogel</nachname>,
-                <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
+                <veranstaltung xml:id="v-1830w-I.I.2.b.001.003.x-001"><dozent
+                ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad>
+                <vorname>E. F.</vorname>, <funktion>J. U.
                 B.</funktion></dozent>, <zeit>in den best. St.</zeit>
                 <modus>privat.</modus></veranstaltung>
               </sachgruppe>
@@ -307,7 +307,8 @@
             <schrift>Gedichte von <autor>Lamartine</autor></schrift></thema>,
             <zeit>2 U. 2 T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
-            <veranstaltungsverweis><dozent><nachname>Treitschke</nachname>,
+            <veranstaltungsverweis><dozent
+            ref="treitschke_gc"><nachname>Treitschke</nachname>,
             <grad>D.</grad> <vorname>G. K.</vorname></dozent>, <siehe>s.
             Staatswissenschaften</siehe>.</veranstaltungsverweis>
 
@@ -521,8 +522,9 @@
       <sachgruppe xml:id="sg-1830w-I.II.6">
         <titel>6) Geographie.</titel>
 
-        <veranstaltungsverweis><dozent><nachname>Wagner</nachname>,
-        <grad>D.</grad> <vorname>K. G.</vorname></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="wagner_kg"><nachname>Wagner</nachname>, <grad>D.</grad>
+        <vorname>K. G.</vorname></dozent>, <siehe>s.
         Physik</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><dozent><nachname>Güntz</nachname>,
@@ -585,11 +587,11 @@
           oder Logik und Metaphysik</thema>, <zeit>2 T. in zu best.
           St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1830w-I.III.003.2-002"><dozent><nachname>Vogel</nachname>,
-          <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
-          B.</funktion></dozent>, <thema>Logik, <schrift>n. s.
-          Sätzen</schrift></thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1830w-I.III.003.2-002"><dozent
+          ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad>
+          <vorname>E. F.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+          <thema>Logik, <schrift>n. s. Sätzen</schrift></thema>, <zeit>3 U. 4
+          T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1830w-I.III.003.3">
@@ -649,10 +651,10 @@
           L.</vorname>, <funktion>P. O.</funktion></dozent>, <siehe>s.
           Staatswissenschaften</siehe>.</veranstaltungsverweis>
 
-          <veranstaltungsverweis><dozent><nachname>Vogel</nachname>,
-          <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
-          B.</funktion></dozent>, <siehe>s.
-          Criminalrecht</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><dozent
+          ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad>
+          <vorname>E. F.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+          <siehe>s. Criminalrecht</siehe>.</veranstaltungsverweis>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1830w-I.III.003.7">
@@ -740,9 +742,9 @@
       <sachgruppe xml:id="sg-1830w-I.IV.004">
         <titel>Europäisches Völkerrecht.</titel>
 
-        <veranstaltung
-        xml:id="v-1830w-I.IV.004-001"><dozent><nachname>Treitschke</nachname>,
-        <grad>D.</grad> <vorname>G. K.</vorname></dozent>, <thema>nach
+        <veranstaltung xml:id="v-1830w-I.IV.004-001"><dozent
+        ref="treitschke_gc"><nachname>Treitschke</nachname>, <grad>D.</grad>
+        <vorname>G. K.</vorname></dozent>, <thema>nach
         <gesperrt>Martens</gesperrt> <antiqua>Précis du droit des
         gens</antiqua> (Götting. 1821<korrektur>.</korrektur>), auf Verlangen
         in französ. Sprache</thema>, <zeit>11 U. Dienst. Donn. und
@@ -920,10 +922,10 @@
         <sachgruppe xml:id="sg-1830w-I.VI.002.x">
           <titel>*) Physische Geographie.</titel>
 
-          <veranstaltung
-          xml:id="v-1830w-I.VI.002.x-001"><dozent><nachname>Wagner</nachname>,
-          <grad>D.</grad> <vorname>K. G.</vorname></dozent>, <zeit>4 T. in zu
-          best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1830w-I.VI.002.x-001"><dozent
+          ref="wagner_kg"><nachname>Wagner</nachname>, <grad>D.</grad>
+          <vorname>K. G.</vorname></dozent>, <zeit>4 T. in zu best.
+          St.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -1570,11 +1572,11 @@
 
         <seite>13</seite>
 
-        <veranstaltung
-        xml:id="v-1830w-II.B.002-002"><dozent><nachname>Vogel</nachname>,
-        <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
-        B.</funktion></dozent>, <thema>römische u. Staats-Rechtsgeschichte,
-        nach s. Sätzen</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1830w-II.B.002-002"><dozent
+        ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad> <vorname>E.
+        F.</vorname>, <funktion>J. U. B.</funktion></dozent>, <thema>römische
+        u. Staats-Rechtsgeschichte, nach s. Sätzen</thema>, <zeit>2 U. 4
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1830w-II.B.002-003"><dozent
         ref="schneider_r"><nachname>Schneider</nachname>, <grad>M.</grad>
@@ -1749,9 +1751,9 @@
               <gesperrt>Haubold's</gesperrt> Lineamenten</thema>, <zeit>2-4 U.
               6 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1830w-II.B.II.I.1.004-004"><dozent><nachname>Vogel</nachname>,
-              <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
+              <veranstaltung xml:id="v-1830w-II.B.II.I.1.004-004"><dozent
+              ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad>
+              <vorname>E. F.</vorname>, <funktion>J. U.
               B.</funktion></dozent>, <thema>nach s. Sätzen</thema>, <zeit>8
               U. u. 11 U. 6 T.</zeit></veranstaltung>
 
@@ -1865,8 +1867,8 @@
               <zeit>3 U. 2 T.</zeit>
               <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1830w-II.B.II.I.003.1-007"><dozent><nachname>Watzdorf</nachname>,
+              <veranstaltung xml:id="v-1830w-II.B.II.I.003.1-007"><dozent
+              ref="watzdorf_b"><nachname>Watzdorf</nachname>,
               <vorname>B.</vorname> <nachnamenpräfix>v.</nachnamenpräfix>,
               <funktion>J. U. B.</funktion></dozent>, <thema>gemeines und
               sächsisches Kirchenrecht</thema>, <zeit>4 T. in zu best.
@@ -1902,9 +1904,9 @@
               <gesperrt>Feuerbach</gesperrt></thema>, <zeit>7 U. 6
               T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1830w-II.B.II.I.003.2-005"><dozent><nachname>Vogel</nachname>,
-              <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
+              <veranstaltung xml:id="v-1830w-II.B.II.I.003.2-005"><dozent
+              ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad>
+              <vorname>E. F.</vorname>, <funktion>J. U.
               B.</funktion></dozent>, <thema>philosophisches Criminalrecht
               nach <gesperrt>Tittmann's</gesperrt> Grundlinien (Lpz.
               1800.)</thema>, <zeit>2 U. 2 T.</zeit>
@@ -2063,8 +2065,8 @@
             Akten</thema>, <zeit>8 U. Dienst., Donn. u.
             Sonn.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1830w-II.B.II.II.2-002"><dozent><nachname>Treitschke</nachname>,
+            <veranstaltung xml:id="v-1830w-II.B.II.II.2-002"><dozent
+            ref="treitschke_gc"><nachname>Treitschke</nachname>,
             <grad>D.</grad> <vorname>G. K.</vorname></dozent>, <zeit>11 U.
             Mont., Mittw. u. Freit.</zeit></veranstaltung>
 
@@ -2221,11 +2223,11 @@
             <vorname>A. O.</vorname></dozent>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1830w-II.B.II.III.2-006"><dozent><nachname>Vogel</nachname>,
-            <grad>M.</grad> <vorname>E. F.</vorname>, <funktion>J. U.
-            B.</funktion></dozent>, <thema>über streitige Rechtssätze</thema>,
-            <zeit>in zu best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1830w-II.B.II.III.2-006"><dozent
+            ref="vogel_ef"><nachname>Vogel</nachname>, <grad>M.</grad>
+            <vorname>E. F.</vorname>, <funktion>J. U. B.</funktion></dozent>,
+            <thema>über streitige Rechtssätze</thema>, <zeit>in zu best.
+            St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1830w-II.B.II.III.2-007"><dozent
             ref="kriegel_ka"><nachname>Kriegel</nachname>, <vorname>K. J.

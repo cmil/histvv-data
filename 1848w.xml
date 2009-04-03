@@ -370,8 +370,8 @@
           <titel>Sprachübungen.</titel>
 
           <veranstaltung xml:id="v-1848w-I.II.3.001-001"><thema>Uebungen der
-          Gesellschaft für deutsche Sprache und Literatur</thema>:
-          <dozent><grad>D.</grad> <nachname>Vogel</nachname></dozent>,
+          Gesellschaft für deutsche Sprache und Literatur</thema>: <dozent
+          ref="vogel_ef"><grad>D.</grad> <nachname>Vogel</nachname></dozent>,
           <zeit>in den best. St. u. T.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
@@ -473,9 +473,9 @@
         O.</funktion></dozent>, <zeit>9 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Römisches Gerichtswesen</thema>:
-        <dozent><grad>M.</grad> <nachname>Klee</nachname></dozent>, <siehe>s.
-        Rechtswissenschaft</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Römisches Gerichtswesen</thema>: <dozent
+        ref="klee_jl"><grad>M.</grad> <nachname>Klee</nachname></dozent>,
+        <siehe>s. Rechtswissenschaft</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Archäologie des Alten und Neuen
         Testaments</thema>: <dozent
@@ -1302,13 +1302,13 @@
 
           <veranstaltung xml:id="v-1848w-II.B.II.2-004"><thema>Deutsches
           Privatrecht mit Einschluß des Wechselrechts und Handelsrechts, nach
-          s. Sätzen</thema>: <dozent><grad>D.</grad>
+          s. Sätzen</thema>: <dozent ref="vogel_ef"><grad>D.</grad>
           <nachname>Vogel</nachname></dozent>, <zeit>3 U. 6
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1848w-II.B.II.2-005"><thema>Lehnrecht, nach
-          s. Sätzen</thema>: <ders>Derselbe</ders>, <zeit>2 U. 2 T.</zeit>
-          <gebühr>unentg.</gebühr></veranstaltung>
+          s. Sätzen</thema>: <ders ref="vogel_ef">Derselbe</ders>, <zeit>2 U.
+          2 T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1848w-II.B.II.3">
@@ -1349,7 +1349,7 @@
         <titel>IV. Proceß.</titel>
 
         <veranstaltung xml:id="v-1848w-II.B.IV-001"><thema>Röm.
-        Gerichtswesen</thema>: <dozent><grad>M.</grad>
+        Gerichtswesen</thema>: <dozent ref="klee_jl"><grad>M.</grad>
         <nachname>Klee</nachname></dozent>, <zeit>3 U. 2 T.</zeit>
         <gebühr>unentgeltl.</gebühr></veranstaltung>
 
@@ -1435,9 +1435,10 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1848w-II.B.VII-004"><thema>Uebungen der
-        Otto'schen juristischen Gesellschaft</thema>: <dozent><grad>D.</grad>
-        <nachname>Vogel</nachname></dozent>, <zeit>zu den best. T. u.
-        St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+        Otto'schen juristischen Gesellschaft</thema>: <dozent
+        ref="vogel_ef"><grad>D.</grad> <nachname>Vogel</nachname></dozent>,
+        <zeit>zu den best. T. u. St.</zeit>
+        <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
