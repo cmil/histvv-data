@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dozentenliste xml:lang="de" xmlns="http://histvv.uni-leipzig.de/ns/2007"
-               xmlns:ns="http://histvv.uni-leipzig.de/ns/2007">
+<?xml version="1.0" encoding="UTF-8"?><dozentenliste xmlns="http://histvv.uni-leipzig.de/ns/2007" xmlns:ns="http://histvv.uni-leipzig.de/ns/2007" xml:lang="de">
   <universität>Leipzig</universität>
 
   <dozent eindeutig="ja" xml:id="ahlfeld_jf">
@@ -2333,11 +2331,34 @@ sollten wir nur "Artur" (auch: "Arthur") als Vornamen nehmen.-->
     <geboren>
       <jahr>1880</jahr>
 
-      <ort>Stavelot<!--(Quelle korrigiert, dort "Staverlot")
- --> (Belgien)</ort>
+      
+
+      
+
+      <ort>Stavelot (Belgien)<!-- (Quelle korrigiert, dort "Staverlot")--></ort>
     </geboren>
 
-    <quelle>Die Festschrift 1909, Bd. 4,1</quelle>
+    
+
+    
+
+    <beruf>Philologe, Romanist</beruf>
+
+    <!--Leider lässt sich folgende Quelle im Scan nicht erkennen,
+das Buch ist aber im Büro, deshalb eine Quellenangabe:
+http://books.google.de/books?id=SVxroRC-sKEC&q=%22Staverlot+1880%22&pgis=1#search_anchor-->
+
+    
+
+    
+
+    
+
+    <quelle>Festschrift zur Feier des 500 Jährigen Bestehens der Universität
+    Leipzig Von Universität Leipzig, Otto Kirn, Emil Friedberg Veröffentlicht
+    von S. Hirzel, 1909. Bd. 4, 1</quelle>
+
+    
   </dozent>
 
   <dozent xml:id="bock_ac">
@@ -27039,6 +27060,46 @@ Neuauflage einer seiner Publikationen!--></pnd>
     <url>http://de.wikipedia.org/wiki/August_Cornelius_Stockmann</url>
   </dozent>
 
+  <dozent eindeutig="ja" xml:id="stoeckhardt_hr">
+    <name>
+      <nachname>Stöckhardt</nachname>
+
+      <vorname>Heinrich Robert</vorname>
+    </name>
+
+    <geboren>
+      <jahr>1802</jahr>
+
+      <monat>8</monat>
+
+      <tag>11</tag>
+
+      <ort>Glauchau</ort>
+    </geboren>
+
+    <gestorben>
+      <jahr>1848</jahr>
+
+      <monat>10</monat>
+
+      <tag>10</tag>
+
+      <ort>St. Petersburg</ort>
+    </gestorben>
+
+    <pnd>117264237</pnd>
+
+    <beruf>Jurist, Rechtshistoriker</beruf>
+
+    
+
+    
+
+    
+
+    <url>http://www.wiki.olgdw.de/index.php?title=Robert_St%C3%B6ckhardt</url>
+  </dozent>
+
   <dozent eindeutig="ja" xml:id="stoerring_g">
     <name>
       <nachname>Störring</nachname>
@@ -27665,8 +27726,10 @@ Habe einen Link in die Diskussion gestellt. -->
 
     <!--Die PND verzeichnet unter 122517369 einen Wilhelm *Friedrich* Sigismund Teucher
 mit Wirkungsdaten 1768 und unter 100886914 einen Wilhelm Siegmund Teucher
-ohne weitere Angaben. Weder für "Friedrich" noch für "Siegmund" lassen sich
-weitere Belege finden.-->
+ohne weitere Angaben. Für deb W ."Friedrich" S. lassen sich über den Katalog
+der DNB die Anmerkungen finden: Respondent in Leipzig; aus Freiberg
+(Respondent heißt auf Universitäten derjenige, welcher eine Disputation hält oder vertheidigt)
+Beide Indizien sind noch kein Beleg! Es könnte auch ein naher Verwandter sein (Vater, Bruder,...). -->
 
     <beruf>Jurist</beruf>
 
@@ -28724,8 +28787,7 @@ http://books.google.de/books?id=ZgOgGwAACAAJ&dq=%22Armin+Tr%C3%BCbiger%22&lr=-->
     <url>http://books.google.de/books?id=NnxdMVHFFTcC&amp;pg=PA217</url>
   </dozent>
 
-  <dozent bis="1911w" eindeutig="ja" von="1907w"
-          xml:id="vitzthumvoneckstaedt_g">
+  <dozent bis="1911w" eindeutig="ja" von="1907w" xml:id="vitzthumvoneckstaedt_g">
     <name>
       <nachname>Vitzthum von Eckstädt</nachname>
 
