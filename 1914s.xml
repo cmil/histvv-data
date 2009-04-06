@@ -1096,13 +1096,13 @@
         13</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.002-012"><thema>Anatomie des
-        Beckens</thema>: <dozent><grad>D. med.</grad>
+        Beckens</thema>: <dozent ref="sieglbauer_f"><grad>D. med.</grad>
         <nachname>Sieglbauer</nachname></dozent>, <zeit>Do. 8 bis 9 U.</zeit>,
         <modus>privatim</modus>, <ort>im Anatomischen Institut, Liebigstr.
         13</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.002-013"><thema>Embryologische
-        Übungen</thema>: <dozent><grad>D. med.</grad>
+        Übungen</thema>: <dozent ref="sieglbauer_f"><grad>D. med.</grad>
         <nachname>Sieglbauer</nachname></dozent>, <zeit>Mi. 7-9 u. So. 8-9 U.
         vorm.</zeit>, <modus>privatissime</modus>, <ort>im Anatomischen
         Institut, Liebigstr. 13</ort>.</veranstaltung>
@@ -1560,13 +1560,14 @@
         Stephanstr. 7</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.008-002"><thema>Gynäkologische
-        Diagnostik</thema>: <dozent><grad>D. med.</grad>
+        Diagnostik</thema>: <dozent ref="skutsch_f"><grad>D. med.</grad>
         <nachname>Skutsch</nachname></dozent>, <zeit>So. 5 bis 6½ U.</zeit>,
         <modus>privatim</modus>, <ort>in der Privatpoliklinik, Nürnberger Str.
         5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.008-003"><thema>Kurs
-        geburtshilflicher Operationen</thema>: <dozent><grad>D. med.</grad>
+        geburtshilflicher Operationen</thema>: <dozent
+        ref="skutsch_f"><grad>D. med.</grad>
         <nachname>Skutsch</nachname></dozent>, <zeit>Mo. u. Fr. 6-7¾
         U.</zeit>, <modus>privatim</modus>, <ort>im Medizinisch-poliklinischen
         Institut, Nürnberger Str. 55</ort>.</veranstaltung>
@@ -2097,11 +2098,12 @@
         <sachgruppe xml:id="sg-1914s-III.017.b">
           <titel>b) Gynäkologie.</titel>
 
-          <veranstaltung xml:id="v-1914s-III.017.b-001"><dozent><grad>D.
-          med.</grad> <nachname>Skutsch</nachname></dozent>:
-          <ort>Gynäkologische Privatpoliklinik (Nürnberger Str. 5)</ort>,
-          <zeit>Mo., Mi. u. Fr. 2½-3½ U.</zeit>, <modus>privatissime</modus>
-          et <gebühr>gratis</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1914s-III.017.b-001"><dozent
+          ref="skutsch_f"><grad>D. med.</grad>
+          <nachname>Skutsch</nachname></dozent>: <ort>Gynäkologische
+          Privatpoliklinik (Nürnberger Str. 5)</ort>, <zeit>Mo., Mi. u. Fr.
+          2½-3½ U.</zeit>, <modus>privatissime</modus> et
+          <gebühr>gratis</gebühr>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1914s-III.017.c">
@@ -2664,13 +2666,13 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
           <veranstaltung xml:id="v-1914s-IV.B.a-006"><thema>Lateinisch für
           Anfänger aus allen Fakultäten: <notiz betreff="fortsetzung">I.
           Kurs</notiz> (Elementargrammatik und leichtere Lektüre)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Süß</nachname></dozent>,
-          <zeit>Mo., Di., Do. u. Fr. 6-7 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          <dozent ref="suess_w"><grad>D. ph.</grad>
+          <nachname>Süß</nachname></dozent>, <zeit>Mo., Di., Do. u. Fr. 6-7
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1914s-IV.B.a-007"><thema>Lektüre und
           Interpretation altlateinischer Dichter außer Plautus und
-          Terenz</thema>: <dozent><grad>D. ph.</grad>
+          Terenz</thema>: <dozent ref="suess_w"><grad>D. ph.</grad>
           <nachname>Süß</nachname></dozent>, <zeit>Mi. 6-7 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -2741,9 +2743,9 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
             Stilübungen</thema>, <zeit>Fr. 8-10 U. ab.</zeit>,
             <modus>privatissime</modus>, sed
             <gebühr>gratis</gebühr>.</veranstaltung> - <veranstaltung
-            xml:id="v-1914s-IV.B.a.001-006">4) <dozent><grad>D. ph.</grad>
-            <nachname>Süß</nachname></dozent>: <thema>Abt. D.: Lateinische
-            Stilübungen</thema>, <zeit>Mi. 11-1 U.</zeit>,
+            xml:id="v-1914s-IV.B.a.001-006">4) <dozent ref="suess_w"><grad>D.
+            ph.</grad> <nachname>Süß</nachname></dozent>: <thema>Abt. D.:
+            Lateinische Stilübungen</thema>, <zeit>Mi. 11-1 U.</zeit>,
             <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
             <trennlinie/>
@@ -3570,9 +3572,10 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.C-020"><thema>Geschichtliche
-        Probleme des neuzeitlichen Kapitalismus</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Strieder</nachname></dozent>, <zeit>Mi. 6-7
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Probleme des neuzeitlichen Kapitalismus</thema>: <dozent
+        ref="strieder_j"><grad>D. ph.</grad>
+        <nachname>Strieder</nachname></dozent>, <zeit>Mi. 6-7 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.C-021"><thema>Englische Geschichte:
         Die Grundlagen der britischen Weltmacht. Staat und Volk, Wirtschaft
@@ -3689,8 +3692,8 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
               ab.</zeit>, <modus>privatissime</modus>, sed
               <gebühr>gratis</gebühr>.</veranstaltung>
 
-              <veranstaltung xml:id="v-1914s-IV.C.001.B.001-002">2)
-              <dozent><grad>D. ph.</grad>
+              <veranstaltung xml:id="v-1914s-IV.C.001.B.001-002">2) <dozent
+              ref="strieder_j"><grad>D. ph.</grad>
               <nachname>Strieder</nachname></dozent>, <zeit>Mi. 7¾-9¼ U.
               ab.</zeit>, <modus>privatissime</modus>, sed
               <gebühr>gratis</gebühr>.</veranstaltung>
@@ -5215,10 +5218,10 @@ durch die student. Hilfskraft???-->
         33</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-051"><thema>Naturgeschichte und
-        Systematik der Insekten</thema>: <dozent><grad>D. ph. et med.</grad>
-        <nachname>Steche</nachname></dozent>, <zeit>Di., Do. u. Fr. 8-9
-        U.</zeit>, <modus>privatim</modus>, <ort>im Zoolog. Institut, Talstr.
-        33</ort>.</veranstaltung>
+        Systematik der Insekten</thema>: <dozent ref="steche_o"><grad>D. ph.
+        et med.</grad> <nachname>Steche</nachname></dozent>, <zeit>Di., Do. u.
+        Fr. 8-9 U.</zeit>, <modus>privatim</modus>, <ort>im Zoolog. Institut,
+        Talstr. 33</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-052"><thema>Die niederen Tiere der
         Heimat mit Exkursionen</thema>: <dozent ref="simroth_h"><grad>D.
@@ -5744,10 +5747,10 @@ durch die student. Hilfskraft???-->
         Besprechungen</thema>: <dozent ref="woltereck_r"><grad>D. ph.</grad>
         <nachname>Woltereck</nachname>, <grad>P. E.</grad></dozent>, mit
         <dozent><grad>D. ph.</grad> <nachname>Hempelmann</nachname></dozent>
-        u. <dozent><grad>D. ph.</grad> <nachname>Steche</nachname></dozent>,
-        <zeit>zu noch zu bestimmender Zeit</zeit>,
-        <modus>privatissime</modus>, sed <gebühr>gratis</gebühr>, <ort>im
-        Zoologischen Institut, Talstr. 33</ort>.</veranstaltung>
+        u. <dozent ref="steche_o"><grad>D. ph.</grad>
+        <nachname>Steche</nachname></dozent>, <zeit>zu noch zu bestimmender
+        Zeit</zeit>, <modus>privatissime</modus>, sed <gebühr>gratis</gebühr>,
+        <ort>im Zoologischen Institut, Talstr. 33</ort>.</veranstaltung>
 
         <trennlinie/>
 

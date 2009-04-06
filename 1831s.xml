@@ -703,10 +703,10 @@
         L.</vorname>, <funktion>P. O.</funktion></dozent>,
         <modus>privatim</modus>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1831s-I.IV.008-002"><dozent><nachname>Stieglitz</nachname>,
-        <grad>D.</grad> <vorname>C. L.</vorname></dozent> <thema>praktisches
-        euröpäisches Völkerrecht</thema>, <zeit>8 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1831s-I.IV.008-002"><dozent
+        ref="stieglitz_cl"><nachname>Stieglitz</nachname>, <grad>D.</grad>
+        <vorname>C. L.</vorname></dozent> <thema>praktisches euröpäisches
+        Völkerrecht</thema>, <zeit>8 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -1525,11 +1525,11 @@
           <sachgruppe xml:id="sg-1831s-II.B.II.I.001">
             <titel>Quellenkunde.</titel>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.I.001-001"><dozent><nachname>Stieber</nachname>,
-            <grad>D.</grad> <vorname>F. K. G.</vorname></dozent>,
-            <thema>Erläuterung des Textes der Justinianischen Institutionen,
-            Fortsetzung</thema>, <zeit>2 U. 2 T.</zeit>
+            <veranstaltung xml:id="v-1831s-II.B.II.I.001-001"><dozent
+            ref="stieber_fkg"><nachname>Stieber</nachname>, <grad>D.</grad>
+            <vorname>F. K. G.</vorname></dozent>, <thema>Erläuterung des
+            Textes der Justinianischen Institutionen, Fortsetzung</thema>,
+            <zeit>2 U. 2 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <veranstaltung xml:id="v-1831s-II.B.II.I.001-002"><dozent
@@ -1687,11 +1687,10 @@
             Privatrecht</thema>, <zeit>8 U. 4 T. u. 2 T. in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.I.2-003"><dozent><nachname>Stieglitz</nachname>,
-            <grad>D.</grad> <vorname>C. L.</vorname></dozent>,
-            <thema>deutsches Privatrecht</thema>, <zeit>9 U. 6
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1831s-II.B.II.I.2-003"><dozent
+            ref="stieglitz_cl"><nachname>Stieglitz</nachname>, <grad>D.</grad>
+            <vorname>C. L.</vorname></dozent>, <thema>deutsches
+            Privatrecht</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1831s-II.B.II.I.2-004"><dozent
             ref="planitz_kgv"><nachname>Planitz</nachname>, <vorname>K. G.
@@ -1852,8 +1851,8 @@
               <vorname>J.</vorname></dozent>, <thema>Lehnrecht</thema>,
               <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1831s-II.B.II.I.002.3-003"><dozent><nachname>Stieglitz</nachname>,
+              <veranstaltung xml:id="v-1831s-II.B.II.I.002.3-003"><dozent
+              ref="stieglitz_cl"><nachname>Stieglitz</nachname>,
               <grad>D.</grad> <vorname>C. L.</vorname></dozent>,
               <thema>Lehnrecht, unter Mittheilung besonderer hierzu
               ausgearbeiteter Tabellen</thema>, <zeit>8 U. 4
@@ -2067,10 +2066,10 @@
             <vorname>A.</vorname></dozent>, <thema>über alle
             Rechtstheile</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.III.1-007"><dozent><nachname>Stieglitz</nachname>,
-            <grad>D.</grad> <vorname>C. L.</vorname></dozent>, <thema>über
-            einzelne Theile der Rechtswissenschaft</thema>, <zeit>in zu best.
+            <veranstaltung xml:id="v-1831s-II.B.II.III.1-007"><dozent
+            ref="stieglitz_cl"><nachname>Stieglitz</nachname>, <grad>D.</grad>
+            <vorname>C. L.</vorname></dozent>, <thema>über einzelne Theile der
+            Rechtswissenschaft</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1831s-II.B.II.III.1-008"><dozent
@@ -2187,11 +2186,11 @@
             <thema>über alle Theile des Rechts</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.III.1-027"><dozent><nachname>Tanneberg</nachname>,
-            <vorname>E. J.</vorname>, <funktion>J. U. B.</funktion></dozent>,
-            <thema>über alle Theile des Rechts</thema>, <zeit>in zu best.
-            St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1831s-II.B.II.III.1-027"><dozent
+            ref="tanneberg_ee"><nachname>Tanneberg</nachname>, <vorname>E.
+            J.<!-- sic! (eigentlich E.E.)--></vorname>, <funktion>J. U.
+            B.</funktion></dozent>, <thema>über alle Theile des
+            Rechts</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
             <veranstaltung
             xml:id="v-1831s-II.B.II.III.1-028"><dozent><nachname>Oeser</nachname>,
@@ -2209,10 +2208,9 @@
           <sachgruppe xml:id="sg-1831s-II.B.II.III.2">
             <titel>2) Disputir-Uebungen.</titel>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.III.2-001"><dozent><nachname>Stieber</nachname>,
-            <grad>D.</grad> <vorname>F. K. G.</vorname></dozent>, <zeit>in zu
-            best. St.</zeit>
+            <veranstaltung xml:id="v-1831s-II.B.II.III.2-001"><dozent
+            ref="stieber_fkg"><nachname>Stieber</nachname>, <grad>D.</grad>
+            <vorname>F. K. G.</vorname></dozent>, <zeit>in zu best. St.</zeit>
             <gebühr>unentgeltlich</gebühr><korrektur>.</korrektur></veranstaltung>
 
             <veranstaltung xml:id="v-1831s-II.B.II.III.2-002"><dozent
