@@ -1276,11 +1276,11 @@
               Institutionen</thema>, <zeit>3 U. 4 T.</zeit>
               <modus>öff.</modus></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1816s-II.B.I.1.a.bb-003"><dozent><grad>Dr.</grad>
-              <vorname>K. A.</vorname> <nachname>Haase</nachname></dozent>,
-              <thema>über die Gesetze der 12 Taf.</thema>, <zeit>2 U. 2
-              T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
+              <veranstaltung xml:id="v-1816s-II.B.I.1.a.bb-003"><dozent
+              ref="haase_ka"><grad>Dr.</grad> <vorname>K. A.</vorname>
+              <nachname>Haase</nachname></dozent>, <thema>über die Gesetze der
+              12 Taf.</thema>, <zeit>2 U. 2 T.</zeit>
+              <gebühr>unentg.</gebühr></veranstaltung>
 
               <veranstaltung xml:id="v-1816s-II.B.I.1.a.bb-004"><dozent
               ref="schilling_fa"><grad>M.</grad>
@@ -1533,11 +1533,10 @@
           Sätzen, mit Beyspielen</thema>, <zeit>3 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1816s-II.B.II.1-009"><dozent><grad>Dr.</grad> <vorname>K.
-          A.</vorname> <nachname>Haase</nachname></dozent>,
-          <thema>summarischer Process</thema>, <zeit>7 U. 4
-          T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1816s-II.B.II.1-009"><dozent
+          ref="haase_ka"><grad>Dr.</grad> <vorname>K. A.</vorname>
+          <nachname>Haase</nachname></dozent>, <thema>summarischer
+          Process</thema>, <zeit>7 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung
           xml:id="v-1816s-II.B.II.1-010"><dozent><grad>Bacc.</grad>
@@ -1587,9 +1586,11 @@
           <veranstaltung xml:id="v-1816s-II.B.II.3-001"><dozent
           ref="klien_c"><funktion>HGR.</funktion> <grad>Dr.</grad>
           <nachname>Klien</nachname></dozent>, <thema>Anfangsgründe <scil
-          text="der Cautelar-Jurispridenz">derselben</scil></thema>,
-          <zeit>10<!--Die ZAhl nach 1 ist nicht erkennbar!
---> U. 2 T.</zeit> <modus>öff.</modus></veranstaltung>
+          text="der Cautelar-Jurisprudenz">derselben</scil></thema>, <zeit>11
+          U. 2 T.</zeit> <modus>öff.</modus></veranstaltung>
+
+          <!--Die Zahl "11 U." ist nicht genau zu erkennen, könnte auch eine "10" sein, 
+aber er macht schon einen anderen Kurs "10 U. 6 T.", insofern eindeutig!-->
 
           <sachgruppe xml:id="sg-1816s-II.B.II.3.x">
             <titel>*) Uebungen in der juristischen Praxis überhaupt</titel>
@@ -1962,8 +1963,8 @@
             <nachname>Jörg</nachname></dozent>, <thema>von den Krankheiten des
             menschl. Weibes</thema>, <zeit>11 U. 2 T.</zeit></veranstaltung>
 
-            <veranstaltungsgruppe><dozent><funktion>P. E.</funktion>
-            <grad>D.</grad> <nachname>Haase</nachname></dozent>,
+            <veranstaltungsgruppe><dozent ref="haase_wa"><funktion>P.
+            E.</funktion> <grad>D.</grad> <nachname>Haase</nachname></dozent>,
             <veranstaltung xml:id="v-1816s-II.C.I.3.b-002"><thema>die
             specielle Pathologie und Therapie der hitzigen
             Hautausschläge</thema>, <zeit>11 U. 2 T.</zeit>
@@ -1994,12 +1995,12 @@
           <nachname>Clarus</nachname></dozent>, <thema>specielle
           Therapie</thema>, <zeit>10 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltungsgruppe><dozent><funktion>P. E.</funktion>
-          <grad>D.</grad> <nachname>Haase</nachname></dozent>, <veranstaltung
-          xml:id="v-1816s-II.C.II.1-003"><thema>die specielle Therapie der
-          hitzigen Hautausschläge, <seite>928</seite>verbunden mit der
-          speciellen Pathologie derselben</thema>, <zeit>11 U. 2 T.</zeit>
-          <modus>öff.</modus></veranstaltung>; ingl. <veranstaltung
+          <veranstaltungsgruppe><dozent ref="haase_wa"><funktion>P.
+          E.</funktion> <grad>D.</grad> <nachname>Haase</nachname></dozent>,
+          <veranstaltung xml:id="v-1816s-II.C.II.1-003"><thema>die specielle
+          Therapie der hitzigen Hautausschläge, <seite>928</seite>verbunden
+          mit der speciellen Pathologie derselben</thema>, <zeit>11 U. 2
+          T.</zeit> <modus>öff.</modus></veranstaltung>; ingl. <veranstaltung
           xml:id="v-1816s-II.C.II.1-004"><thema>die specielle Therapie der
           Fieber u. Entzündungen</thema>, <zeit>10 U. 6
           T.</zeit></veranstaltung></veranstaltungsgruppe>
@@ -2270,11 +2271,11 @@
             über physisch-chemische und medicinische Gegenstände</thema>,
             <zeit>4 U. 2 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1816s-II.C.II.9.001-003"><dozent><funktion>P.
-            E.</funktion> <grad>D.</grad> <nachname>Haase</nachname></dozent>,
-            <thema>Examinatorium über Pathologie, Arzneymittellehre und
-            Therapie</thema>, <modus>privatiss.</modus></veranstaltung>
+            <veranstaltung xml:id="v-1816s-II.C.II.9.001-003"><dozent
+            ref="haase_wa"><funktion>P. E.</funktion> <grad>D.</grad>
+            <nachname>Haase</nachname></dozent>, <thema>Examinatorium über
+            Pathologie, Arzneymittellehre und Therapie</thema>,
+            <modus>privatiss.</modus></veranstaltung>
 
             <veranstaltung xml:id="v-1816s-II.C.II.9.001-004"><dozent
             ref="wendler_ca"><funktion>P. E.</funktion> <grad>D.</grad>
