@@ -1176,7 +1176,7 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1910w-III-059"><thema>Experimentelle
-      Psychopathologie</thema>: <dozent><grad>D. med.</grad>
+      Psychopathologie</thema>: <dozent ref="gregor_a"><grad>D. med.</grad>
       <nachname>Gregor</nachname></dozent>, <zeit>Donnerst. 6-7 U.</zeit>,
       <modus>privatim</modus>, <ort>in der Psychiatrischen u. Nervenklinik,
       Windmühlenweg 20</ort>.</veranstaltung>
@@ -1593,7 +1593,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1910w-III-118"><thema>Untersuchung von
-      Geisteskranken</thema>: <dozent><grad>D. med.</grad>
+      Geisteskranken</thema>: <dozent ref="gregor_a"><grad>D. med.</grad>
       <nachname>Gregor</nachname></dozent>, <zeit>in einer noch zu vereinb.
       Stunde</zeit>, <modus>privatissime</modus>, sed <gebühr>gratis</gebühr>,
       <ort>in der Psychiatrischen u. Nervenklinik, Windmühlenweg
@@ -1878,10 +1878,10 @@
         24</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1910w-III.002-015"><thema>Pharmakologie und
-        Toxikologie für Zahnärzte</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Gros</nachname></dozent>, <zeit>Mittw. u. Donnerst. 9-10
-        U.</zeit>, <modus>privatim</modus>, <ort>im Pharmakolog. Institut,
-        Liebigstr. 10</ort>.</veranstaltung>
+        Toxikologie für Zahnärzte</thema>: <dozent ref="gros_o"><grad>D.
+        ph.</grad> <nachname>Gros</nachname></dozent>, <zeit>Mittw. u.
+        Donnerst. 9-10 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Pharmakolog. Institut, Liebigstr. 10</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1910w-III.002-016"><thema>Histologischer Kurs
         für Studierende der Zahnheil<seite>21</seite>kunde</thema>: <dozent
@@ -3704,27 +3704,28 @@
         <seite>39</seite>
 
         <veranstaltung xml:id="v-1910w-IV.E-019"><thema>Obst- und Formobstbau
-        in Garten und Feld</thema>: <dozent><funktion>Lehrer für Obst- und
-        Gartenbau</funktion> <nachname>Grabbe</nachname></dozent>, <zeit>Mont.
-        u. Donnerst. 4-5 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Landwirtsch. Institut, Johannisallee 21</ort>.</veranstaltung>
+        in Garten und Feld</thema>: <dozent ref="grabbe_h"><funktion>Lehrer
+        für Obst- und Gartenbau</funktion>
+        <nachname>Grabbe</nachname></dozent>, <zeit>Mont. u. Donnerst. 4-5
+        U.</zeit>, <modus>privatim</modus>, <ort>im Landwirtsch. Institut,
+        Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1910w-IV.E-020"><thema>Obst- und
         Gemüseverwertung in Haushalt und fabrikmäßigem Betriebe</thema>:
-        <dozent><funktion>Lehrer für Obst- und Gartenbau</funktion>
-        <nachname>Grabbe</nachname></dozent>, <zeit>Mittw. 3-4 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Landwirtschaftl. Institut,
-        Johannisallee 21</ort>.</veranstaltung>
+        <dozent ref="grabbe_h"><funktion>Lehrer für Obst- und
+        Gartenbau</funktion> <nachname>Grabbe</nachname></dozent>,
+        <zeit>Mittw. 3-4 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Landwirtschaftl. Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1910w-IV.E-021"><thema>Allgemeiner
-        Gartenbau</thema>: <dozent><funktion>Lehrer für Obst- und
-        Gartenbau</funktion> <nachname>Grabbe</nachname></dozent>,
+        Gartenbau</thema>: <dozent ref="grabbe_h"><funktion>Lehrer für Obst-
+        und Gartenbau</funktion> <nachname>Grabbe</nachname></dozent>,
         <zeit>Sonnab. 11-12 U.</zeit>, <modus>privatim</modus>, <ort>im
         Landwirtsch. Institut, Johannisallee 21</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1910w-IV.E-022"><thema>Weinbau und
-        Kellerwirtschaft</thema>: <dozent><funktion>Lehrer für Obst- und
-        Gartenbau</funktion> <nachname>Grabbe</nachname></dozent>,
+        Kellerwirtschaft</thema>: <dozent ref="grabbe_h"><funktion>Lehrer für
+        Obst- und Gartenbau</funktion> <nachname>Grabbe</nachname></dozent>,
         <zeit>Donnerst. 3-4 U.</zeit>, <modus>privatim</modus>, <ort>im Landw.
         Institut, Johannisallee 21</ort>.</veranstaltung>
 
@@ -4821,20 +4822,20 @@
       Pf.</gebühr> in der Turnhalle).</veranstaltung>
 
       <veranstaltungsgruppe><thema>Staatlicher Turnlehrerkursus für
-      Studierende</thema> (<gebühr>gratis</gebühr>); <dozent>Leiter:
-      <funktion>Seminarlehrer</funktion> <funktion>Oberturnlehrer</funktion>
-      <nachname>Groh</nachname></dozent> (<ort>W.: Fichtestr. 31</ort>):
-      <veranstaltung xml:id="v-1910w-001-005">1) <thema>Unterricht in allen
-      Übungsarten des deutschen Turnens; Geschichte und Literatur, Systematik
-      und Methodik des Turnens; Geschichte und Literatur, Systematik und
-      Methodik des Turnens; Lehrübungen in allen Jahrgängen;
-      Gerätkunde</thema>, <zeit>Mittw. 7-10 U. Ab. u. Sonnab. 5-8 U.
-      Ab.</zeit> <ort>im Kgl. Lehrerseminar, Leipzig-Connewitz, Elisenstr.
-      150</ort></veranstaltung>. - <veranstaltung xml:id="v-1910w-001-006">2)
-      <dozent>Durch <grad>D. med.</grad> <nachname>Jäger</nachname></dozent>:
-      <thema>Physiologische Anatomie</thema>, <zeit>Sonnab. 8-9 U.
-      Vorm.</zeit>, <ort>im Anatom. Institut, Liebigstr.
-      13</ort></veranstaltung>.</veranstaltungsgruppe>
+      Studierende</thema> (<gebühr>gratis</gebühr>); <dozent
+      ref="groh_f">Leiter: <funktion>Seminarlehrer</funktion>
+      <funktion>Oberturnlehrer</funktion> <nachname>Groh</nachname></dozent>
+      (<ort>W.: Fichtestr. 31</ort>): <veranstaltung
+      xml:id="v-1910w-001-005">1) <thema>Unterricht in allen Übungsarten des
+      deutschen Turnens; Geschichte und Literatur, Systematik und Methodik des
+      Turnens; Geschichte und Literatur, Systematik und Methodik des Turnens;
+      Lehrübungen in allen Jahrgängen; Gerätkunde</thema>, <zeit>Mittw. 7-10
+      U. Ab. u. Sonnab. 5-8 U. Ab.</zeit> <ort>im Kgl. Lehrerseminar,
+      Leipzig-Connewitz, Elisenstr. 150</ort></veranstaltung>. -
+      <veranstaltung xml:id="v-1910w-001-006">2) <dozent>Durch <grad>D.
+      med.</grad> <nachname>Jäger</nachname></dozent>: <thema>Physiologische
+      Anatomie</thema>, <zeit>Sonnab. 8-9 U. Vorm.</zeit>, <ort>im Anatom.
+      Institut, Liebigstr. 13</ort></veranstaltung>.</veranstaltungsgruppe>
 
       <absatz>Eintritt und Beginn: November. Hospitieren Studierender zu jeder
       Zeit gestattet. Näheres wird zu Beginn des Kursus am Schwarzen Brett

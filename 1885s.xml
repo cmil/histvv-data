@@ -479,9 +479,9 @@
 
       <veranstaltung xml:id="v-1885s-II-017"><thema>Königl. sächsisches
       Privatrecht <notiz betreff="fortsetzung">II. Theil</notiz></thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Grützmann</nachname></dozent>,
-      <zeit>Mont., Mittw., Freit. u. Sonnab. 6-7 U. Ab.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="gruetzmann_p"><grad>D. jur.</grad>
+      <nachname>Grützmann</nachname></dozent>, <zeit>Mont., Mittw., Freit. u.
+      Sonnab. 6-7 U. Ab.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-II-018"><thema>Preussisches
       Privatrecht</thema>: <dozent ref="wagner_rudolph"><grad>D. jur.</grad>
@@ -684,9 +684,9 @@
       <seite>9</seite>
 
       <veranstaltung xml:id="v-1885s-III-006"><thema>Praktisch-mikroskopischer
-      Cursus der normalen Histologie</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Gaule</nachname></dozent>, <zeit>Mont., Mittw. u. Donnerst.
-      11-1 U. u. Dienst., Freit. u. Sonnab. 7-9 U.</zeit>,
+      Cursus der normalen Histologie</thema>: <dozent ref="gaule_j"><grad>D.
+      med.</grad> <nachname>Gaule</nachname></dozent>, <zeit>Mont., Mittw. u.
+      Donnerst. 11-1 U. u. Dienst., Freit. u. Sonnab. 7-9 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-III-007"><thema>Cursus der
@@ -700,12 +700,12 @@
       U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-III-009"><thema>Histologisches
-      Laboratorium</thema>: <dozent><grad>D. med.</grad>
+      Laboratorium</thema>: <dozent ref="gaule_j"><grad>D. med.</grad>
       <nachname>Gaule</nachname></dozent>, <zeit>täglich 9-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-III-010"><thema>Histologische
-      Besprechungen</thema>: <dozent><grad>D. med.</grad>
+      Besprechungen</thema>: <dozent ref="gaule_j"><grad>D. med.</grad>
       <nachname>Gaule</nachname></dozent>, <zeit>Mittw. 6-7½ U. Ab.</zeit>,
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -754,9 +754,9 @@
       Sonnab. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-III-018"><thema>Ueber meine Theorie des
-      Lebens und der Organismen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Gaule</nachname></dozent>, <zeit>an zwei noch zu best. Tagen
-      und Stunden</zeit>, <modus>publice</modus>.</veranstaltung>
+      Lebens und der Organismen</thema>: <dozent ref="gaule_j"><grad>D.
+      med.</grad> <nachname>Gaule</nachname></dozent>, <zeit>an zwei noch zu
+      best. Tagen und Stunden</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-III-019"><thema>Organische
       Experimentalchemie für Mediciner</thema>: <dozent
@@ -1121,9 +1121,10 @@
 
       <veranstaltung xml:id="v-1885s-III-075"><thema>Einübung
       geburtshülflicher Operationen am Phantom</thema> (<zeit>in
-      sechswöchentl. Cursen</zeit>): <dozent><grad>D. med.</grad>
-      <nachname>Haake</nachname></dozent>, <zeit>Mont., Dienst., Donnerst. u.
-      Freit. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      sechswöchentl. Cursen</zeit>): <dozent ref="haake_h"><grad>D.
+      med.</grad> <nachname>Haake</nachname></dozent>, <zeit>Mont., Dienst.,
+      Donnerst. u. Freit. 3-4 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-III-076"><thema>Ueber
       Frauenkrankheiten</thema>: <dozent ref="hennig_c"><grad>D. med.</grad>
@@ -2939,8 +2940,9 @@ formal korrekt als Absatz erfasst werden): -->in welchen auch klinischer oder
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Ueber meine Theorie des Lebens</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Gaule</nachname></dozent>.
-        <siehe>Siehe <gesperrt>Medicinische
+        <dozent ref="gaule_j"><grad>D. med.</grad>
+        <nachname>Gaule</nachname></dozent>. <siehe>Siehe
+        <gesperrt>Medicinische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Praktische Anleitung zu

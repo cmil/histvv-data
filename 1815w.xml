@@ -264,7 +264,8 @@
       <sachgruppe xml:id="sg-1815w-I.B.5">
         <titel>5) Polizeywissenschaft.</titel>
 
-        <veranstaltung xml:id="v-1815w-I.B.5-001"><dozent><grad>D.</grad>
+        <veranstaltung xml:id="v-1815w-I.B.5-001"><dozent
+        ref="gerstaecker_kfw"><grad>D.</grad>
         <nachname>Gerstäcker</nachname></dozent>, <thema>nach s. Schrift juris
         politiae primae lineae, spec. I. (bey Joachim)</thema> <zeit>3 U. 2
         T.</zeit> -</veranstaltung>
@@ -333,12 +334,13 @@ Vielleicht auch Untergruppe von "b) Angewandte" ?-->
       <sachgruppe xml:id="sg-1815w-I.D.1">
         <titel>1) Physik.</titel>
 
-        <veranstaltung xml:id="v-1815w-I.D.1-001"><dozent><funktion>P.
-        O.</funktion> <grad>D.</grad> <nachname>Gilbert</nachname></dozent>,
-        <thema>theoretische und experimentale Naturlehre, und zwar vorzüglich
-        die Theile, welche von der Elektricität, dem Galvanismus, dem
-        Magnetismus, der Wärme, dem Lichte und den Meteoren handeln</thema>,
-        <zeit>9 U. 6 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1815w-I.D.1-001"><dozent
+        ref="gilbert_lw"><funktion>P. O.</funktion> <grad>D.</grad>
+        <nachname>Gilbert</nachname></dozent>, <thema>theoretische und
+        experimentale Naturlehre, und zwar vorzüglich die Theile, welche von
+        der Elektricität, dem Galvanismus, dem Magnetismus, der Wärme, dem
+        Lichte und den Meteoren handeln</thema>, <zeit>9 U. 6
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1815w-I.D.2">
@@ -352,11 +354,11 @@ Vielleicht auch Untergruppe von "b) Angewandte" ?-->
         xml:id="v-1815w-I.D.2-002"><zeit>9 U. 2 T.</zeit> <thema>chemische
         Experimente</thema></veranstaltung>.</veranstaltungsgruppe>
 
-        <veranstaltung xml:id="v-1815w-I.D.2-003"><dozent><funktion>P.
-        O.</funktion> <grad>D.</grad> <nachname>Gilbert</nachname></dozent>,
-        <thema>Experimental-Chemie nach den neuesten Erweiterungen des
-        pneumatisch-antiphlogistischen Lehrgebäudes</thema>, <zeit>11 U. 6
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1815w-I.D.2-003"><dozent
+        ref="gilbert_lw"><funktion>P. O.</funktion> <grad>D.</grad>
+        <nachname>Gilbert</nachname></dozent>, <thema>Experimental-Chemie nach
+        den neuesten Erweiterungen des pneumatisch-antiphlogistischen
+        Lehrgebäudes</thema>, <zeit>11 U. 6 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1815w-I.D.xx">
@@ -370,14 +372,15 @@ Vielleicht auch Untergruppe von "b) Angewandte" ?-->
         <!--Die Sachgruppe hat zwei Sterne "**)", wohl weil vorher
 die Astronomie-Veranstaltung schon mit einem "*)" versehen war.-->
 
-        <veranstaltungsgruppe><dozent><funktion>P. O.</funktion>
-        <grad>D.</grad> <nachname>Gilbert</nachname></dozent> <veranstaltung
-        xml:id="v-1815w-I.D.xx-002">wird <thema>die neuesten Lehren von der
-        Verwandtschaft der Körper u. ihrer chemisch-electrischen Natur</thema>
-        erläutern, <zeit>10 U. 4 T.</zeit> <modus>öff.</modus></veranstaltung>
-        und <veranstaltung xml:id="v-1815w-I.D.xx-003">sich mit seinen
-        Zuhörern <thema>über physikalische und physikal. chemische
-        Gegenstände</thema> fragend unterhalten, <zeit>10 U. 2
+        <veranstaltungsgruppe><dozent ref="gilbert_lw"><funktion>P.
+        O.</funktion> <grad>D.</grad> <nachname>Gilbert</nachname></dozent>
+        <veranstaltung xml:id="v-1815w-I.D.xx-002">wird <thema>die neuesten
+        Lehren von der Verwandtschaft der Körper u. ihrer
+        chemisch-electrischen Natur</thema> erläutern, <zeit>10 U. 4 T.</zeit>
+        <modus>öff.</modus></veranstaltung> und <veranstaltung
+        xml:id="v-1815w-I.D.xx-003">sich mit seinen Zuhörern <thema>über
+        physikalische und physikal. chemische Gegenstände</thema> fragend
+        unterhalten, <zeit>10 U. 2
         T.</zeit></veranstaltung></veranstaltungsgruppe>
       </sachgruppe>
 
@@ -1416,8 +1419,8 @@ gemeint ist aber Gottfried Hermann, siehe passim!-->
         <sachgruppe xml:id="sg-1815w-II.B.003.x">
           <titel>*) Uebungen in der juristischen Praxis überhaupt.</titel>
 
-          <veranstaltung
-          xml:id="v-1815w-II.B.003.x-001"><dozent><grad>D.</grad>
+          <veranstaltung xml:id="v-1815w-II.B.003.x-001"><dozent
+          ref="gerstaecker_kfw"><grad>D.</grad>
           <nachname>Gerstäcker</nachname></dozent>, <thema>Anleitung zu
           praktischen Ausarbeitungen, nach Ordnung des Processganges</thema>,
           <zeit>3 U. 4 T.</zeit></veranstaltung>
@@ -1652,10 +1655,10 @@ gemeint ist aber Gottfried Hermann, siehe passim!-->
         <nachname>Leune</nachname></dozent>, <thema>nach eigenen
         Sätzen</thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung xml:id="v-1815w-II.C.2-003"><dozent><grad>D.</grad>
-        <nachname>Siegel</nachname></dozent>, <thema>Repetition der
-        Physiologie in latein. Examinirübungen</thema>, <zeit>4 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1815w-II.C.2-003"><dozent
+        ref="siegel_gf"><grad>D.</grad> <nachname>Siegel</nachname></dozent>,
+        <thema>Repetition der Physiologie in latein. Examinirübungen</thema>,
+        <zeit>4 U. 4 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1815w-II.C.3">
@@ -1829,8 +1832,8 @@ zweites Mal aufgeführt, die Zeitangaben sind genau gleich-->
           langwierigen Krankheiten des Unterleibes</thema>, <zeit>2 U. 2
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1815w-II.C.4.xx-010"><dozent><grad>D.</grad>
+          <veranstaltung xml:id="v-1815w-II.C.4.xx-010"><dozent
+          ref="siegel_gf"><grad>D.</grad>
           <nachname>Siegel</nachname></dozent>, <thema>Diagnose u. Heilung der
           Krankheiten des menschlichen Auges nach dem System der Wiener
           Schule</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
@@ -1866,10 +1869,10 @@ zweites Mal aufgeführt, die Zeitangaben sind genau gleich-->
         Augenoperationen an Cadavern</thema> zeigen, <zeit>in zu best. T. u.
         St.</zeit></veranstaltung>
 
-        <veranstaltung xml:id="v-1815w-II.C.5-005"><dozent><grad>D.</grad>
-        <nachname>Siegel</nachname></dozent>, <thema>Cursus chirurgischer
-        Operationen, nach Schregers Grundriss (Fürth 1806.)</thema>, <zeit>11
-        U. 6 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1815w-II.C.5-005"><dozent
+        ref="siegel_gf"><grad>D.</grad> <nachname>Siegel</nachname></dozent>,
+        <thema>Cursus chirurgischer Operationen, nach Schregers Grundriss
+        (Fürth 1806.)</thema>, <zeit>11 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1815w-II.C.5-006"><dozent
         ref="robbi_jh"><grad>D.</grad> <nachname>Robbi</nachname></dozent>,
@@ -1878,7 +1881,8 @@ zweites Mal aufgeführt, die Zeitangaben sind genau gleich-->
         <sachgruppe xml:id="sg-1815w-II.C.5.x">
           <titel>*) Verbandlehre.</titel>
 
-          <veranstaltung xml:id="v-1815w-II.C.5.x-001"><dozent><grad>D.</grad>
+          <veranstaltung xml:id="v-1815w-II.C.5.x-001"><dozent
+          ref="siegel_gf"><grad>D.</grad>
           <nachname>Siegel</nachname></dozent>, <zeit>4 U. 2
           T.</zeit></veranstaltung>
         </sachgruppe>

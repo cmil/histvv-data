@@ -457,10 +457,10 @@
 
       <veranstaltung xml:id="v-1886s-II-016"><thema>Königl. sächsisches
       Privatrecht <notiz betreff="fortsetzung">II. Theil</notiz> (Recht der
-      Forderungen, Familienrecht, Erbschaftsrecht)</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Grützmann</nachname></dozent>, <zeit>Mittw.,
-      Donnerst., Freit. u. Sonnab. 6-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Forderungen, Familienrecht, Erbschaftsrecht)</thema>: <dozent
+      ref="gruetzmann_p"><grad>D. jur.</grad>
+      <nachname>Grützmann</nachname></dozent>, <zeit>Mittw., Donnerst., Freit.
+      u. Sonnab. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886s-II-017"><thema>Internationales
       Privatrecht</thema>: <dozent ref="goetz_o"><grad>D. jur.</grad>
@@ -661,10 +661,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886s-III-006"><thema>Praktisch-mikroskopischer
-      Cursus der normalen Histologie (Parallelcurse)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Gaule</nachname></dozent>, <zeit>Mont., Mittw. u.
-      Donnerst. 11-1 U., u. Dienst., Freit. u. Sonnab. 7-9 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Cursus der normalen Histologie (Parallelcurse)</thema>: <dozent
+      ref="gaule_j"><grad>D. med.</grad> <nachname>Gaule</nachname></dozent>,
+      <zeit>Mont., Mittw. u. Donnerst. 11-1 U., u. Dienst., Freit. u. Sonnab.
+      7-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886s-III-007"><thema>Cursus der
       Histologie</thema>: <dozent ref="altmann_r"><grad>D. med.</grad>
@@ -679,12 +679,13 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886s-III-009"><thema>Arbeiten <ort>im
-      histologischen Laboratorium</ort></thema>: <dozent><grad>D. med.</grad>
-      <nachname>Gaule</nachname></dozent>, <zeit>täglich 9-1 U.</zeit>,
+      histologischen Laboratorium</ort></thema>: <dozent
+      ref="gaule_j"><grad>D. med.</grad> <nachname>Gaule</nachname></dozent>,
+      <zeit>täglich 9-1 U.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886s-III-010"><thema>Histologische
-      Besprechungen</thema>: <dozent><grad>D. med.</grad>
+      Besprechungen</thema>: <dozent ref="gaule_j"><grad>D. med.</grad>
       <nachname>Gaule</nachname></dozent>, <zeit>Mittw. 6-½7 U. Ab.</zeit>,
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -734,7 +735,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886s-III-018"><thema>Theorie der lebenden
-      Wesen</thema>: <dozent><grad>D. med.</grad>
+      Wesen</thema>: <dozent ref="gaule_j"><grad>D. med.</grad>
       <nachname>Gaule</nachname></dozent>, <zeit>Mont. u. Donnerst. 6-7
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -844,7 +845,7 @@
       bakteriologischen Untersuchungsmethoden</thema>: <dozent
       ref="birch-hirschfeld_fv"><grad>D. med.</grad>
       <nachname>Birch-Hirschfeld</nachname>, <funktion>P.
-      O.</funktion></dozent>, (<dozent>in Gemeinschaft mit dem
+      O.</funktion></dozent>, (<dozent ref="becker_a">in Gemeinschaft mit dem
       <funktion>königl. sächs. Assistenzarzt I. Cl.</funktion> Herrn
       <grad>Dr.</grad> <nachname>Becker</nachname></dozent>), <zeit>in noch zu
       best. Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1080,9 +1081,9 @@
 
       <veranstaltung xml:id="v-1886s-III-070"><thema>Geburtshülfliche
       Operationslehre mit Uebungen am <seite>13</seite>Phantom</thema>
-      (<zeit>in sechswöchentlichen Cursen</zeit>): <dozent><grad>D.
-      med.</grad> <nachname>Haake</nachname></dozent>, <zeit>Mont., Dienst.,
-      Donnerst. u. Freit. 3-4 U.</zeit>,
+      (<zeit>in sechswöchentlichen Cursen</zeit>): <dozent
+      ref="haake_h"><grad>D. med.</grad> <nachname>Haake</nachname></dozent>,
+      <zeit>Mont., Dienst., Donnerst. u. Freit. 3-4 U.</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886s-III-071"><thema>Geburtshülfe</thema>:
@@ -2932,8 +2933,9 @@ eine VA Kirchengeschichte zu finden)--></absatz>
         Facultät</gesperrt>.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Theorie der lebenden Wesen</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Gaule</nachname></dozent>.
-        <siehe>Siehe <gesperrt>Medicinische
+        <dozent ref="gaule_j"><grad>D. med.</grad>
+        <nachname>Gaule</nachname></dozent>. <siehe>Siehe
+        <gesperrt>Medicinische
         Facultät</gesperrt>.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Praktische Anleitung zu

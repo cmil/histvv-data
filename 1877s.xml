@@ -995,7 +995,7 @@
       U.</zeit> <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1877s-III-067"><thema>Ueber Krankheiten des
-      Uterus</thema>: <dozent><grad>D. med.</grad>
+      Uterus</thema>: <dozent ref="haake_h"><grad>D. med.</grad>
       <nachname>Haake</nachname></dozent>, <zeit>Mittw. 7-8 U. früh</zeit>,
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1007,10 +1007,10 @@
       <seite>12</seite>
 
       <veranstaltung xml:id="v-1877s-III-069"><thema>Theoretiscche und
-      praktische Geburtshülfe</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Germann</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont., Dienst., Donnerst. u. Freit. 7-8 U. Ab.</zeit>
-      <modus>publice</modus>.</veranstaltung>
+      praktische Geburtshülfe</thema>: <dozent ref="germann_hf"><grad>D.
+      med.</grad> <nachname>Germann</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 7-8 U.
+      Ab.</zeit> <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1877s-III-070"><thema>Geburtshülfe mit
       Phantomübungen</thema>: <dozent ref="hennig_c"><grad>D. med.</grad>
@@ -1052,9 +1052,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1877s-III-077"><thema>Einübung
-      geburtshülflicher Operationen am Phantom</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Haake</nachname></dozent>, <zeit>Mont., Dienst.,
-      Donnerst. u. Freit. 4-5 U.</zeit>
+      geburtshülflicher Operationen am Phantom</thema>: <dozent
+      ref="haake_h"><grad>D. med.</grad> <nachname>Haake</nachname></dozent>,
+      <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5 U.</zeit>
       <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
@@ -1182,12 +1182,12 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1877s-III-099"><thema>Cursus über
-      Staatsarzneikunde</thema>: <dozent><grad>D. med.</grad>
+      Staatsarzneikunde</thema>: <dozent ref="siegel_h"><grad>D. med.</grad>
       <nachname>Siegel</nachname></dozent>, <zeit>in zu best. Stunden</zeit>,
       <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1877s-III-100"><thema>Ueber medicinische
-      Statistik</thema>: <dozent><grad>D. med.</grad>
+      Statistik</thema>: <dozent ref="siegel_h"><grad>D. med.</grad>
       <nachname>Siegel</nachname></dozent>, <zeit>in zu best. Stunden</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -2299,9 +2299,10 @@
         E.</funktion></dozent>, <zeit>Freit. 4-5 U.</zeit>
         <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Medicinische Statistik</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Siegel</nachname></dozent>.
-        <siehe>Siehe medicinische Facultät.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Medicinische Statistik</thema>: <dozent
+        ref="siegel_h"><grad>D. med.</grad>
+        <nachname>Siegel</nachname></dozent>. <siehe>Siehe medicinische
+        Facultät.</siehe></veranstaltungsverweis>
 
         <trennlinie/>
 
