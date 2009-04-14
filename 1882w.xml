@@ -66,7 +66,7 @@
       <titel>I. Theologische Facultät.</titel>
 
       <veranstaltung xml:id="v-1882w-I-001"><thema>Encyklopädie der
-      Theologie</thema>: <dozent><grad>D. th.</grad>
+      Theologie</thema>: <dozent ref="schmidt_w"><grad>D. th.</grad>
       <nachname>Schmidt</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont., Dienst., Donnerst. u. Freit. 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -107,7 +107,7 @@
       Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-I-008"><thema>Einleitung in das Neue
-      Testament</thema>: <dozent><grad>Lic.</grad>
+      Testament</thema>: <dozent ref="schultze_v"><grad>Lic.</grad>
       <nachname>Schultze</nachname></dozent>, <zeit>Mont., Dienst., Donnerst.
       u. Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -136,7 +136,7 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-I-013"><thema>Auslegung der beiden
-      Corintherbriefe</thema>: <dozent><grad>D. th.</grad>
+      Corintherbriefe</thema>: <dozent ref="schmidt_w"><grad>D. th.</grad>
       <nachname>Schmidt</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mont., Dienst., Donnerst. u. Freit. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -177,7 +177,7 @@
       Freit. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-I-020"><thema>Evangelische
-      Katechetik</thema>: <dozent><grad>D. th.</grad>
+      Katechetik</thema>: <dozent ref="schmidt_w"><grad>D. th.</grad>
       <nachname>Schmidt</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mittw. u. Sonnab. 10-11 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -335,15 +335,16 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-I-044"><thema>Katechetische
-      Gesellschaft</thema>: <dozent><grad>D. th.</grad>
+      Gesellschaft</thema>: <dozent ref="schmidt_w"><grad>D. th.</grad>
       <nachname>Schmidt</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Sonnab. 5-7 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-I-045"><thema>Katechetische Uebungen der
-      Lausitzer Predigergesellschaft</thema>: <dozent><grad>D. th.</grad>
-      <nachname>Schmidt</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>Mittw. 5-7 U.</zeit>, <modus>privatissime</modus>, aber
+      Lausitzer Predigergesellschaft</thema>: <dozent ref="schmidt_w"><grad>D.
+      th.</grad> <nachname>Schmidt</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>Mittw. 5-7 U.</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltungsgruppe><thema>Homiletisches Seminar</thema>: <dozent
@@ -365,9 +366,10 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-I-049"><thema>Kirchenhistorische
-      Gesellschaft (Auslegung der Augustana u. s. w.)</thema>:
-      <dozent><grad>Lic.</grad> <nachname>Schultze</nachname></dozent>,
-      <zeit>Donnerst. ½6-7 U.</zeit>, <modus>privatissime</modus>, aber
+      Gesellschaft (Auslegung der Augustana u. s. w.)</thema>: <dozent
+      ref="schultze_v"><grad>Lic.</grad>
+      <nachname>Schultze</nachname></dozent>, <zeit>Donnerst. ½6-7 U.</zeit>,
+      <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Katholisches und evangelisches
@@ -429,9 +431,10 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-II-003"><thema>Institutionen und äussere
-      Geschichte des römischen Rechts</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Schmidt</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>täglich 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Geschichte des römischen Rechts</thema>: <dozent
+      ref="schmidt_adolf"><grad>D. jur.</grad> <nachname>Schmidt</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>täglich 10-11 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-II-004"><thema>Innere Geschichte des
       römischen Rechts (nebst römischem Civilprocess)</thema>: <dozent
@@ -447,9 +450,9 @@
 
       <veranstaltung xml:id="v-1882w-II-006"><thema>Pandekten <notiz
       betreff="fortsetzung">I. Theil</notiz> (mit Ausschluss des Familien- und
-      Erbrechts) nach dem Lehrbuche von Arndts</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Schmidt</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>täglich 11-1 U.</zeit>,
+      Erbrechts) nach dem Lehrbuche von Arndts</thema>: <dozent
+      ref="schmidt_adolf"><grad>D. jur.</grad> <nachname>Schmidt</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>täglich 11-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-II-007"><thema>Pandekten <notiz
@@ -568,13 +571,14 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-II-026"><thema>Civilprocess</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Schwalbach</nachname></dozent>,
-      <zeit>täglich 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="schwalbach_t"><grad>D. jur.</grad>
+      <nachname>Schwalbach</nachname></dozent>, <zeit>täglich 5-6 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-II-027"><thema>Grundzüge des vormaligen
-      gemeinen Civilprocesses</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Schwalbach</nachname></dozent>, <zeit>Mont. u. Donnerst., 4-5
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      gemeinen Civilprocesses</thema>: <dozent ref="schwalbach_t"><grad>D.
+      jur.</grad> <nachname>Schwalbach</nachname></dozent>, <zeit>Mont. u.
+      Donnerst., 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <seite>8</seite>
 
@@ -659,9 +663,10 @@
 
       <veranstaltung xml:id="v-1882w-II-041"><thema>Interpretationsübungen
       über die processrechtlichen Theile des Corpus juris canonici</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Schwalbach</nachname></dozent>,
-      <zeit>in 1 noch zu best. Stunde</zeit>, <modus>privatissime</modus>,
-      aber <gebühr>gratis</gebühr>.</veranstaltung>
+      <dozent ref="schwalbach_t"><grad>D. jur.</grad>
+      <nachname>Schwalbach</nachname></dozent>, <zeit>in 1 noch zu best.
+      Stunde</zeit>, <modus>privatissime</modus>, aber
+      <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltungsverweis><thema>Gerichtliche Medicin für Juristen</thema>:
       <dozent ref="sonnenkalb_h"><grad>D. med.</grad>
@@ -740,9 +745,9 @@
       Freit. 6-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-III-006"><thema>Anatomie am
-      Lebenden</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Schmidt</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>Mont. u. Donnerst., 3-4 U.</zeit>,
+      Lebenden</thema>: <dozent ref="schmidt_benno_gottlob"><grad>D.
+      med.</grad> <nachname>Schmidt</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Mont. u. Donnerst., 3-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-III-007"><thema>Präparirübungen</thema>:
@@ -1079,23 +1084,23 @@
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung
-      xml:id="v-1882w-III-059"><thema>Augenspiegelcursus</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Schön</nachname></dozent>,
+      xml:id="v-1882w-III-059"><thema>Augenspiegelcursus</thema>: <dozent
+      ref="schoen_w"><grad>D. med.</grad> <nachname>Schön</nachname></dozent>,
       <zeit>an zu best. Tagen u. Stunden</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung
-      xml:id="v-1882w-III-060"><thema>Augenoperationscursus</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Schön</nachname></dozent>,
+      xml:id="v-1882w-III-060"><thema>Augenoperationscursus</thema>: <dozent
+      ref="schoen_w"><grad>D. med.</grad> <nachname>Schön</nachname></dozent>,
       <zeit>an zu best. Tagen u. Stunden</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <seite>13</seite>
 
       <veranstaltung xml:id="v-1882w-III-061"><thema>Augenärztliche
-      Untersuchungsmethoden</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Schön</nachname></dozent>, <zeit>an zu best. Tagen u.
-      Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Untersuchungsmethoden</thema>: <dozent ref="schoen_w"><grad>D.
+      med.</grad> <nachname>Schön</nachname></dozent>, <zeit>an zu best. Tagen
+      u. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-III-062"><thema>Cursus der
       Ohrenheilkunde, mit Demonstrationen</thema>: <dozent
@@ -1216,9 +1221,9 @@
       <zeit>täglich 9-10½ U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-III-081"><thema>Chirurgische
-      Poliklinik</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Schmidt</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>sechstägig ½11-12 U.</zeit>,
+      Poliklinik</thema>: <dozent ref="schmidt_benno_gottlob"><grad>D.
+      med.</grad> <nachname>Schmidt</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>sechstägig ½11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1882w-III-082"><thema>Chirurgische
@@ -2643,7 +2648,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1882w-IV.F-013"><thema>Theorische
-        Astronomie</thema>: <dozent><grad>D. ph.</grad>
+        Astronomie</thema>: <dozent ref="harzer_p"><grad>D. ph.</grad>
         <nachname>Harzer</nachname></dozent>, <zeit>Dienst., Mittw. u.
         Donnerst. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 

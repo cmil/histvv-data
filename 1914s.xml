@@ -529,7 +529,7 @@
 
       <veranstaltung xml:id="v-1914s-II-001"><thema>Einführung in die
       Rechtswissenschaft (allgemeine Rechtslehre) (nach eigenem
-      Grundriß)</thema>: <dozent><grad>D. jur.</grad>
+      Grundriß)</thema>: <dozent ref="schmidt_adolf"><grad>D. jur.</grad>
       <nachname>Schmidt</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Mo., Di., Do. u. Fr. 9-10 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1213,9 +1213,10 @@
         xml:id="v-1914s-III.004-006"><thema>Pathologisch-anatomischer
         Sektionskurs</thema>: <dozent ref="verse_m"><grad>D. med.</grad>
         <nachname>Versé</nachname>, <funktion>P. E.</funktion></dozent> mit
-        <dozent><grad>D. med.</grad> <nachname>Herzog</nachname></dozent>,
-        <zeit>Di. u. Fr. 8-9½ U.</zeit>, <modus>privatim</modus>, <ort>im
-        Pathologischen Institut, Liebigstr. 26</ort>.</veranstaltung>
+        <dozent ref="herzog_g"><grad>D. med.</grad>
+        <nachname>Herzog</nachname></dozent>, <zeit>Di. u. Fr. 8-9½ U.</zeit>,
+        <modus>privatim</modus>, <ort>im Pathologischen Institut, Liebigstr.
+        26</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.004-007"><thema>Übungen in der
         mikroskopischen Diagnostik der Geschwülste</thema>: <dozent
@@ -1247,10 +1248,11 @@
 
         <veranstaltung xml:id="v-1914s-III.004-011"><thema>Die Erkrankungen
         der blutbildenden Organe mit praktischen Übungen, spez. in der
-        mikroskopischen Untersuchung des Blutes</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Herzog</nachname></dozent>, <zeit>Di. u. Do. 5-6
-        U. (ev. Zeit nach Vereinbarung)</zeit>, <modus>privatim</modus>,
-        <ort>im Patholog. Institut, Liebigstr. 26</ort>.</veranstaltung>
+        mikroskopischen Untersuchung des Blutes</thema>: <dozent
+        ref="herzog_g"><grad>D. med.</grad>
+        <nachname>Herzog</nachname></dozent>, <zeit>Di. u. Do. 5-6 U. (ev.
+        Zeit nach Vereinbarung)</zeit>, <modus>privatim</modus>, <ort>im
+        Patholog. Institut, Liebigstr. 26</ort>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1914s-III.005">
@@ -1591,9 +1593,9 @@
         <veranstaltung xml:id="v-1914s-III.008-006"><thema>Geburtshilfliche
         Propädeutik: Einführung in die Physiologie und Pathologie von
         Schwangerschaft, Geburt und Wochenbett mit Demonstrationen</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Schweitzer</nachname></dozent>,
-        <zeit>Di., Mi. u. Do. 5-6 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="schweitzer_b"><grad>D. med.</grad>
+        <nachname>Schweitzer</nachname></dozent>, <zeit>Di., Mi. u. Do. 5-6
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1914s-III.009">
@@ -1679,17 +1681,18 @@
 
         <veranstaltung xml:id="v-1914s-III.009-011"><thema>Arbeiten im
         histologischen Laboratorium der Universitätsaugenklinik für
-        Geübtere</thema>: <dozent><grad>D. med.</grad>
+        Geübtere</thema>: <dozent ref="seefelder_r"><grad>D. med.</grad>
         <nachname>Seefelder</nachname></dozent>, <zeit>tägl. 5-7 U.</zeit>,
         <modus>privatissime</modus>, sed <gebühr>gratis</gebühr>, <ort>in der
         Heilanstalt für Augenkranke, Liebigstr. 14</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.009-012"><thema>Propädeutik in der
-        Augenheilkunde (mit Krankenvorstellung)</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Seefelder</nachname></dozent>,
-        <zeit>zweistündig, Do. 11-1 U. (auf Wunsch 2. Stunde zu anderer
-        Zeit)</zeit>, <modus>privatim</modus>, <ort>in der Heilanstalt für
-        Augenkranke, Liebigstr. 14</ort>.</veranstaltung>
+        Augenheilkunde (mit Krankenvorstellung)</thema>: <dozent
+        ref="seefelder_r"><grad>D. med.</grad>
+        <nachname>Seefelder</nachname></dozent>, <zeit>zweistündig, Do. 11-1
+        U. (auf Wunsch 2. Stunde zu anderer Zeit)</zeit>,
+        <modus>privatim</modus>, <ort>in der Heilanstalt für Augenkranke,
+        Liebigstr. 14</ort>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1914s-III.010">
@@ -1734,7 +1737,7 @@
         <zeit>Di. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.010-006"><thema>Psychiatrie mit
-        Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+        Demonstrationen</thema>: <dozent ref="schuetz_h"><grad>D. med.</grad>
         <nachname>Schütz</nachname></dozent>, <zeit>So. 5-7 U.</zeit>,
         <modus>privatim</modus>, <ort>im Hygienischen Institut, Liebigstr.
         24</ort>.</veranstaltung>
@@ -1825,10 +1828,11 @@
         Nürnberger Str. 55</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.011-004"><thema>Praktische Übungen
-        in der Diagnose und Therapie der Kinderkrankheiten</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Hohlfeld</nachname></dozent>,
-        <zeit>Di. 5-6 u. Do. 11-12 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Kinderkrankenhause, Platzmannstr. 1</ort>.</veranstaltung>
+        in der Diagnose und Therapie der Kinderkrankheiten</thema>: <dozent
+        ref="hohlfeld_m"><grad>D. med.</grad>
+        <nachname>Hohlfeld</nachname></dozent>, <zeit>Di. 5-6 u. Do. 11-12
+        U.</zeit>, <modus>privatim</modus>, <ort>im Kinderkrankenhause,
+        Platzmannstr. 1</ort>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1914s-III.012">
@@ -1909,11 +1913,11 @@
         18a</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.013-003"><thema>Übungen in der
-        Untersuchung von Hals, Nase und Ohr (für Anfänger)</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Heymann</nachname></dozent>,
-        <zeit>an zwei zu verabred. Tagen 5-6 oder 6-7 U.</zeit>,
-        <modus>privatim</modus>, <ort>in der Privatpoliklinik, Königstr. 14.
-        I.</ort></veranstaltung>
+        Untersuchung von Hals, Nase und Ohr (für Anfänger)</thema>: <dozent
+        ref="heymann_r"><grad>D. med.</grad>
+        <nachname>Heymann</nachname></dozent>, <zeit>an zwei zu verabred.
+        Tagen 5-6 oder 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der
+        Privatpoliklinik, Königstr. 14. I.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.013-004"><thema>Einführung in die
         Oto-, Rhino-, Laryngologie mit Untersuchungsübungen</thema>:
@@ -1959,8 +1963,9 @@
         bakteriologische Arbeiten <ort>im Hygienischen Institute (Liebigstr.
         24)</ort> für Geübtere</thema>: <dozent ref="kruse_w"><grad>D.
         med.</grad> <nachname>Kruse</nachname>, <funktion>P. O.
-        des.</funktion></dozent> (mit <dozent><grad>D. med.</grad>
-        <nachname>Seitz</nachname></dozent> u. <dozent><grad>D. med.</grad>
+        des.</funktion></dozent> (mit <dozent ref="seitz_a"><grad>D.
+        med.</grad> <nachname>Seitz</nachname></dozent> u. <dozent
+        ref="selter_h"><grad>D. med.</grad>
         <nachname>Selter</nachname></dozent>), <zeit>tägl. 9-1 u. 3-7
         U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1984,17 +1989,17 @@
         <zeit>Mi. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.014-007"><thema>Über Gewerbehygiene
-        (für alle Fakultäten)</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Selter</nachname></dozent> (im Auftrage von <dozent
-        ref="kruse_w"><grad>D. med.</grad> <nachname>Kruse</nachname>,
+        (für alle Fakultäten)</thema>: <dozent ref="selter_h"><grad>D.
+        med.</grad> <nachname>Selter</nachname></dozent> (im Auftrage von
+        <dozent ref="kruse_w"><grad>D. med.</grad> <nachname>Kruse</nachname>,
         <funktion>P. O.</funktion></dozent>), <zeit>Zeit nach
         Verabredung</zeit>, <modus>privatim</modus>, <ort>im Hygien. Institut,
         Liebigstr. 24. II.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.014-008"><thema>Über Schulhygiene
-        (für alle Fakultäten)</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Selter</nachname></dozent>, (im Auftrage von <dozent
-        ref="kruse_w"><grad>D. med.</grad> <nachname>Kruse</nachname>,
+        (für alle Fakultäten)</thema>: <dozent ref="selter_h"><grad>D.
+        med.</grad> <nachname>Selter</nachname></dozent>, (im Auftrage von
+        <dozent ref="kruse_w"><grad>D. med.</grad> <nachname>Kruse</nachname>,
         <funktion>P. O.</funktion></dozent>), <zeit>Zeit nach
         Verabredung</zeit>, <modus>privatim</modus>, <ort>im Hygien. Institut,
         Liebigstr. 24. II.</ort></veranstaltung>
@@ -2002,7 +2007,7 @@
         <seite>22</seite>
 
         <veranstaltung xml:id="v-1914s-III.014-009"><thema>Hygiene (für Hörer
-        aller Fakultäten)</thema>: <dozent><grad>D. med.</grad>
+        aller Fakultäten)</thema>: <dozent ref="seitz_a"><grad>D. med.</grad>
         <nachname>Seitz</nachname></dozent>, <zeit>1stündig, Zeit nach
         Vereinbarg.</zeit>, <gebühr>gratis</gebühr>, <ort>in der
         Universität</ort>.</veranstaltung>
@@ -2010,7 +2015,8 @@
         <veranstaltung xml:id="v-1914s-III.014-010"><thema>Milchhygiene und
         Milchversorgung. Ein Überblick über Zeit- und Streitfragen der
         Milchwirtschaft vom Standpunkte des Konsumenten (für Ärzte, Tierärzte,
-        Landwirte und Verwaltungsbeamte)</thema>: <dozent><grad>D. med.</grad>
+        Landwirte und Verwaltungsbeamte)</thema>: <dozent
+        ref="seiffert_m"><grad>D. med.</grad>
         <nachname>Seiffert</nachname></dozent>, <zeit>Mi. 7-8 U. ab.</zeit>,
         <modus>publice</modus>, <ort>im
         Universitätsgebäude</ort>.</veranstaltung>
@@ -2227,7 +2233,8 @@
         Begutachtung zahnärztlicher Materialien unter besonderer
         Berücksichtigung der in der zahnärztlichen Technik verwandten
         Metalle</thema>: <dozent ref="pfaff_w"><nachname>Pfaff</nachname>,
-        <funktion>P. E.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
+        <funktion>P. E.</funktion></dozent>, mit <dozent
+        ref="schoenbeck_f"><grad>D. ph.</grad>
         <nachname>Schönbeck</nachname></dozent>, <zeit>in noch zu best.
         Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2281,7 +2288,7 @@
 
         <veranstaltung xml:id="v-1914s-III.018-018"><thema>Hygiene und
         Bakteriologie, mit praktischen Übungen (speziell für
-        Zahnärzte)</thema>: <dozent><grad>D. med.</grad>
+        Zahnärzte)</thema>: <dozent ref="seitz_a"><grad>D. med.</grad>
         <nachname>Seitz</nachname></dozent>, <zeit>(2stündig), Zeit nach
         Vereinbarung</zeit>, <modus>privatim</modus>, <ort>im Hygienischen
         Institut, Liebigstr. 24</ort>.</veranstaltung>
@@ -2594,9 +2601,10 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
           unter Mitwirkung von <dozent
           ref="lehmann_e"><funktion>Prof.</funktion> <grad>D.</grad>
           <nachname>Lehmann</nachname></dozent> (für Mathematik und
-          Naturwissenschaften), und <dozent><funktion>Prof.</funktion>
-          <grad>D.</grad> <nachname>Hartmann</nachname></dozent> (für
-          Französisch und Englisch), <zeit>Mi. u. So. 2-4 U.</zeit>,
+          Naturwissenschaften), und <dozent
+          ref="hartmann_m"><funktion>Prof.</funktion> <grad>D.</grad>
+          <nachname>Hartmann</nachname></dozent> (für Französisch und
+          Englisch), <zeit>Mi. u. So. 2-4 U.</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -2650,10 +2658,10 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1914s-IV.B.a-003"><thema>Übungen zur
-          griechischen und lateinischen Syntax</thema>: <dozent><funktion>D.
-          ph.</funktion> <nachname>Havers</nachname></dozent>, <zeit>in noch
-          zu bestimmender Stunde</zeit>,
-          <modus>publice</modus>.</veranstaltung>
+          griechischen und lateinischen Syntax</thema>: <dozent
+          ref="havers_w"><funktion>D. ph.</funktion>
+          <nachname>Havers</nachname></dozent>, <zeit>in noch zu bestimmender
+          Stunde</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1914s-IV.B.a-004"><thema>Pindar und
           Bakchylides</thema>: <dozent ref="keil_b"><grad>D. ph.</grad>
@@ -3010,9 +3018,9 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
 
           <veranstaltung xml:id="v-1914s-IV.B.c-004"><thema>Deutsche
           Etymologie und Wortforschung, mit besonderer Berücksichtigung der
-          Namenkunde</thema>: <dozent><funktion>D. ph.</funktion>
-          <nachname>Havers</nachname></dozent>, <zeit>Di. u. Fr. 8-9
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          Namenkunde</thema>: <dozent ref="havers_w"><funktion>D.
+          ph.</funktion> <nachname>Havers</nachname></dozent>, <zeit>Di. u.
+          Fr. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1914s-IV.B.c-005"><thema>Einführung ins
           Dänische mit Lektüre von Andersens "Billedbog uden
@@ -3486,9 +3494,10 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
         vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.C-006"><thema>Kulturgeschichte des
-        Weibes im griechisch-römischen Altertum</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Schulz</nachname></dozent>, <zeit>Mi. 4-5
-        U.</zeit>, <modus>publice</modus>.</veranstaltung>
+        Weibes im griechisch-römischen Altertum</thema>: <dozent
+        ref="schulz_ot"><grad>D. ph.</grad>
+        <nachname>Schulz</nachname></dozent>, <zeit>Mi. 4-5 U.</zeit>,
+        <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.C-007"><thema>Geschichte der
         römischen Republik</thema>: <dozent ref="kromayer_j"><grad>D.
@@ -3511,10 +3520,10 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.C-010"><thema>Deutsche Geschichte im
-        späteren Mittelalter (Interregnum bis Maximilian I.)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Schmeidler</nachname></dozent>,
-        <zeit>Mi. u. So. 12-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        späteren Mittelalter (Interregnum bis Maximilian I.)</thema>: <dozent
+        ref="schmeidler_b"><grad>D. ph.</grad>
+        <nachname>Schmeidler</nachname></dozent>, <zeit>Mi. u. So. 12-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.C-011"><thema>Allgemeine Geschichte
         im Zeitalter der Reformation und Gegenreformation (1517-1648)</thema>:
@@ -3702,8 +3711,8 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
               ab.</zeit>, <modus>privatissime</modus>, sed
               <gebühr>gratis</gebühr>.</veranstaltung>
 
-              <veranstaltung xml:id="v-1914s-IV.C.001.B.001-003">3)
-              <dozent><grad>D. ph.</grad>
+              <veranstaltung xml:id="v-1914s-IV.C.001.B.001-003">3) <dozent
+              ref="schmeidler_b"><grad>D. ph.</grad>
               <nachname>Schmeidler</nachname></dozent>, <zeit>Do. 7¾-9¼ U.
               ab.</zeit>, <modus>privatissime</modus>, sed
               <gebühr>gratis</gebühr>.</veranstaltung>
@@ -4365,7 +4374,8 @@ durch die student. Hilfskraft???-->
             (sämtlich privatissime et gratis):</veranstaltung>
 
             <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1914s-IV.E.001.001-002">1) <dozent><grad>D. ph.</grad>
+            xml:id="v-1914s-IV.E.001.001-002">1) <dozent
+            ref="schmidt_benno"><grad>D. ph.</grad>
             <nachname>Schmidt</nachname>,
             <funktion>Assistent</funktion></dozent>: <thema>Theoretische
             Abteilung</thema>, <zeit>Fr. 7-9 U. ab.</zeit></veranstaltung>
@@ -5252,9 +5262,10 @@ durch die student. Hilfskraft???-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-055"><thema>Die tierischen
-        Parasiten der Menschen und der Haustiere</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Hempelmann</nachname></dozent>, <zeit>Fr. 4-5
-        U.</zeit>, <modus>privatim</modus>, <ort>im Zoolog. Institut, Talstr.
+        Parasiten der Menschen und der Haustiere</thema>: <dozent
+        ref="hempelmann_f"><grad>D. ph.</grad>
+        <nachname>Hempelmann</nachname></dozent>, <zeit>Fr. 4-5 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Zoolog. Institut, Talstr.
         33</ort>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Grundzüge der Physiologie des
@@ -5754,8 +5765,9 @@ durch die student. Hilfskraft???-->
         <veranstaltung xml:id="v-1914s-IV.G-111"><thema>Biologische
         Besprechungen</thema>: <dozent ref="woltereck_r"><grad>D. ph.</grad>
         <nachname>Woltereck</nachname>, <grad>P. E.</grad></dozent>, mit
-        <dozent><grad>D. ph.</grad> <nachname>Hempelmann</nachname></dozent>
-        u. <dozent ref="steche_o"><grad>D. ph.</grad>
+        <dozent ref="hempelmann_f"><grad>D. ph.</grad>
+        <nachname>Hempelmann</nachname></dozent> u. <dozent
+        ref="steche_o"><grad>D. ph.</grad>
         <nachname>Steche</nachname></dozent>, <zeit>zu noch zu bestimmender
         Zeit</zeit>, <modus>privatissime</modus>, sed <gebühr>gratis</gebühr>,
         <ort>im Zoologischen Institut, Talstr. 33</ort>.</veranstaltung>

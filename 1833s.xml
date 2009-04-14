@@ -417,13 +417,12 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl. <veranstaltung
         <titel>Encyklopädie und Methodologie der historischen
         Wissenschaften.</titel>
 
-        <veranstaltung
-        xml:id="v-1833s-I.II.001-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>nach <schrift><autor>Wachler</autor>'s Einleitung in das
-        histor. Studium in dessen <titel>Lehrb. der
-        Gesch.</titel></schrift></thema>, <zeit>10 U. 2
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1833s-I.II.001-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>nach
+        <schrift><autor>Wachler</autor>'s Einleitung in das histor. Studium in
+        dessen <titel>Lehrb. der Gesch.</titel></schrift></thema>, <zeit>10 U.
+        2 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1833s-I.II.1">
@@ -439,8 +438,9 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl. <veranstaltung
         ref="wachsmuth_ewg">Derselbe</ders>, <thema>Geschichte der letzten 45
         Jahre</thema>, <zeit>4 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltungsverweis><dozent><nachname>Hasse</nachname>, <vorname>F.
-        C. A.</vorname>, <funktion>P. O.</funktion></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <siehe>s.
         Staatswissenschaften</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1833s-I.II.1-003"><dozent
@@ -492,9 +492,10 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl. <veranstaltung
           <thema>Disputationen über historische Gegenstände</thema>, <zeit>in
           zu best. St.</zeit> <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltungsverweis><dozent><nachname>Hasse</nachname>,
-          <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <siehe>s. Staatswissenschaften</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><dozent
+          ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+          A.</vorname>, <funktion>P. O.</funktion></dozent>, <siehe>s.
+          Staatswissenschaften</siehe>.</veranstaltungsverweis>
         </sachgruppe>
       </sachgruppe>
 
@@ -835,10 +836,10 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl. <veranstaltung
       <sachgruppe xml:id="sg-1833s-I.IV.002">
         <titel>Geschichte und Statistik der deutschen Bundesstaaten.</titel>
 
-        <veranstaltung
-        xml:id="v-1833s-I.IV.002-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>2 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1833s-I.IV.002-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>2 U. 4
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1833s-I.IV.003">
@@ -900,9 +901,9 @@ vielleicht gehört "Beispielsammlung" noch mit dazu-->; desgl. <veranstaltung
         <sachgruppe xml:id="sg-1833s-I.IV.004.x">
           <titel>*) Disputirübungen.</titel>
 
-          <veranstaltung
-          xml:id="v-1833s-I.IV.004.x-001"><dozent><nachname>Hasse</nachname>,
-          <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+          <veranstaltung xml:id="v-1833s-I.IV.004.x-001"><dozent
+          ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+          A.</vorname>, <funktion>P. O.</funktion></dozent>,
           <thema>Unterredungen in <gesperrt>französischer Sprache</gesperrt>
           über den gegenwärtigen Zustand von Europa, nach dem Inhalte der
           Friedensschlüsse</thema>, <zeit>in zu best. St.</zeit>
@@ -2357,11 +2358,11 @@ Veranstaltung.--></veranstaltung>
       <sachgruppe xml:id="sg-1833s-II.C.003">
         <titel>Geschichte der Medicin.</titel>
 
-        <veranstaltung
-        xml:id="v-1833s-II.C.003-001"><dozent><nachname>Hasper</nachname>,
-        <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-        E.</funktion></dozent>, <thema>Geschichte der Medicin</thema>,
-        <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1833s-II.C.003-001"><dozent
+        ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+        <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>,
+        <thema>Geschichte der Medicin</thema>, <zeit>11 U. 4 T.</zeit>
+        <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1833s-II.C.003-002"><dozent
         ref="haenel_af"><nachname>Hänel</nachname>, <grad>D.</grad>
@@ -2423,15 +2424,16 @@ Veranstaltung.--></veranstaltung>
           menschlichen Auges</thema>, <zeit>1 U. Mont. u. Donn.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1833s-II.C.I.1-005"><dozent><nachname>Holke</nachname>,
-          <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>über Knochen-
-          und Bänderlehre</thema>, <zeit>2 T. in zu best. St.</zeit>
+          <veranstaltung xml:id="v-1833s-II.C.I.1-005"><dozent
+          ref="holke_fa"><nachname>Holke</nachname>, <grad>D.</grad>
+          <vorname>A.</vorname></dozent>, <thema>über Knochen- und
+          Bänderlehre</thema>, <zeit>2 T. in zu best. St.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1833s-II.C.I.1-006"><ders>Derselbe</ders>,
-          <thema>über Muskel-, Gefäß- u. Nervenlehre, verbunden mit der innern
-          Structur der Sinnesorgane</thema>, <zeit>6 T. in zu best.
+          <veranstaltung xml:id="v-1833s-II.C.I.1-006"><ders
+          ref="holke_fa">Derselbe</ders>, <thema>über Muskel-, Gefäß- u.
+          Nervenlehre, verbunden mit der innern Structur der
+          Sinnesorgane</thema>, <zeit>6 T. in zu best.
           St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1833s-II.C.I.1-007"><dozent
@@ -2499,11 +2501,10 @@ Veranstaltung.--></veranstaltung>
         <sachgruppe xml:id="sg-1833s-II.C.I.3">
           <titel>3) Allgemeine Pathologie.</titel>
 
-          <veranstaltung
-          xml:id="v-1833s-II.C.I.3-001"><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1833s-II.C.I.3-001"><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>11
+          U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1833s-II.C.I.3-002"><dozent
           ref="haenel_af"><nachname>Hänel</nachname>, <grad>D.</grad>
@@ -2878,9 +2879,9 @@ oder ob nur für Jusisten dieses oder nächstes Semester...?--></veranstaltung>
           <vorname>H. A.</vorname></dozent>, <thema>über praktische
           Medicin</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1833s-II.C.III.1-004"><dozent><nachname>Holke</nachname>,
-          <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>über gesammte
+          <veranstaltung xml:id="v-1833s-II.C.III.1-004"><dozent
+          ref="holke_fa"><nachname>Holke</nachname>, <grad>D.</grad>
+          <vorname>A.</vorname></dozent>, <thema>über gesammte
           Anatomie</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1833s-II.C.III.1-005"><dozent

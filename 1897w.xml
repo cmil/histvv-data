@@ -777,9 +777,9 @@
 
       <seite>10</seite>
 
-      <veranstaltungsverweis><thema>Deutsche Kolonialpolitik</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Hasse</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      <veranstaltungsverweis><thema>Deutsche Kolonialpolitik</thema>: <dozent
+      ref="hasse_e"><grad>D. ph.</grad> <nachname>Hasse</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       E.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Forensische Psychiatrie</thema>: <dozent
@@ -1126,14 +1126,15 @@
 
       <veranstaltung xml:id="v-1897w-III-047"><thema>Cursus der
       neuropathologischen Diagnostik mit Einschluss der Elektrodiagnostik und
-      Elektrotherapie</thema>: <dozent><grad>D. med.</grad>
+      Elektrotherapie</thema>: <dozent ref="schuetz_h"><grad>D. med.</grad>
       <nachname>Schütz</nachname></dozent>, <zeit>Dienst. u. Donnerst. 4-5
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1897w-III-048"><thema>Ueber Unfallnervenkranke
       mit Uebungen im Abfassen von Gutachten und Demonstrationen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Schütz</nachname></dozent>,
-      <zeit>Sonnab. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      <dozent ref="schuetz_h"><grad>D. med.</grad>
+      <nachname>Schütz</nachname></dozent>, <zeit>Sonnab. 6-7 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1897w-III-049"><thema>Praktische Uebungen in
       der Diagnostik und Therapie der Hautkrankheitenn und venerischen
@@ -1355,9 +1356,9 @@
 
       <veranstaltung xml:id="v-1897w-III-084"><thema>Ausgewählte Kapitel aus
       der Lehre von den Hals-, Nasen- und Ohrenkrankheiten, mit
-      Krankendemonstrationen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Heymann</nachname></dozent>, <zeit>Mittw. u. Freit. 9-10
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Krankendemonstrationen</thema>: <dozent ref="heymann_r"><grad>D.
+      med.</grad> <nachname>Heymann</nachname></dozent>, <zeit>Mittw. u.
+      Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1897w-III-085"><thema>Die Wechselbeziehungen
       der Erkrankungen</thema>: <dozent ref="friedrich_ep"><grad>D.
@@ -1378,9 +1379,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1897w-III-088"><thema>Cursus der Laryngoskopie,
-      Rhinoskopie und Otoskopie</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Heymann</nachname></dozent>, <zeit>Dienst. u. Freit. 5-6
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Rhinoskopie und Otoskopie</thema>: <dozent ref="heymann_r"><grad>D.
+      med.</grad> <nachname>Heymann</nachname></dozent>, <zeit>Dienst. u.
+      Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1614,8 +1615,9 @@
         <sachgruppe xml:id="sg-1897w-III.002.a">
           <titel>a) Innere Medicin.</titel>
 
-          <veranstaltung xml:id="v-1897w-III.002.a-001"><dozent><grad>D.
-          med.</grad> <nachname>Schütz</nachname></dozent>, <thema>für
+          <veranstaltung xml:id="v-1897w-III.002.a-001"><dozent
+          ref="schuetz_h"><grad>D. med.</grad>
+          <nachname>Schütz</nachname></dozent>, <thema>für
           Nervenkrankheiten</thema>, <zeit>Dienst. u. Donnerst. 2-3 U.</zeit>,
           <modus>publice</modus>. (<ort>Nürnberger Str. 22
           I.</ort>)</veranstaltung>
@@ -1691,12 +1693,12 @@
         <sachgruppe xml:id="sg-1897w-III.002.d">
           <titel>d) Hals-, Nasen- und Ohrenkrankheiten.</titel>
 
-          <veranstaltung xml:id="v-1897w-III.002.d-001"><dozent><grad>D.
-          med.</grad> <nachname>Heymann</nachname></dozent>,
-          <thema>Diagnostische und therapeutische Uebungen für
-          Fortgeschrittene</thema>, <zeit>tägl. (ausser Mont.) 8-9 U.</zeit>,
-          <modus>privatissime</modus>. (<ort>Grimm. Steinweg 9.
-          I.</ort>)</veranstaltung>
+          <veranstaltung xml:id="v-1897w-III.002.d-001"><dozent
+          ref="heymann_r"><grad>D. med.</grad>
+          <nachname>Heymann</nachname></dozent>, <thema>Diagnostische und
+          therapeutische Uebungen für Fortgeschrittene</thema>, <zeit>tägl.
+          (ausser Mont.) 8-9 U.</zeit>, <modus>privatissime</modus>.
+          (<ort>Grimm. Steinweg 9. I.</ort>)</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1897w-III.002.e">
@@ -1996,10 +1998,11 @@
         <funktion>P. O. Hon. des.</funktion></dozent>, <dozent
         ref="lehmann_e">unter Mitwirkung von <funktion>Prof.</funktion>
         <grad>D.</grad> <nachname>Lehmann</nachname> (für Mathematik und
-        Naturwissenschaften)</dozent> und <dozent><grad>D.</grad>
-        <nachname>Hartmann</nachname> (für Französisch und English)</dozent>,
-        <zeit>Mittw. u. Sonnab. 2-4 U.</zeit>, <modus>privatissime</modus>,
-        aber <gebühr>gratis</gebühr>.</veranstaltung>
+        Naturwissenschaften)</dozent> und <dozent
+        ref="hartmann_m"><grad>D.</grad> <nachname>Hartmann</nachname> (für
+        Französisch und English)</dozent>, <zeit>Mittw. u. Sonnab. 2-4
+        U.</zeit>, <modus>privatissime</modus>, aber
+        <gebühr>gratis</gebühr>.</veranstaltung>
 
         <seite>22</seite>
 
@@ -2847,7 +2850,7 @@
 
         <veranstaltung xml:id="v-1897w-IV.C-026"><thema>Geographie von
         Vorder-Asien (Kleinasien, Armenien, Syrien, Arabien, Iran
-        u.s.w.)</thema>: <dozent><grad>D. ph.</grad>
+        u.s.w.)</thema>: <dozent ref="hassert_k"><grad>D. ph.</grad>
         <nachname>Hassert</nachname></dozent>, <zeit>Mont. u. Donnerst. 4-5
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2863,9 +2866,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897w-IV.C-029"><thema>Die deutschen
-        Kolonialbestrebungen und Koloniengründungen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Hassert</nachname>, <funktion>3-4
-        U.</funktion></dozent>, <modus>privatim</modus>.</veranstaltung>
+        Kolonialbestrebungen und Koloniengründungen</thema>: <dozent
+        ref="hassert_k"><grad>D. ph.</grad> <nachname>Hassert</nachname>,
+        <funktion>3-4 U.</funktion></dozent>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -3034,9 +3038,10 @@
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1897w-IV.C.002-006"><thema>Geographische
-          Uebungen: Vulcanismus, Erdbeben, Gebirgsbildung)</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hassert</nachname></dozent>,
-          <zeit>Mont. 7-8½ U.</zeit>, <modus>privatissime</modus>, aber
+          Uebungen: Vulcanismus, Erdbeben, Gebirgsbildung)</thema>: <dozent
+          ref="hassert_k"><grad>D. ph.</grad>
+          <nachname>Hassert</nachname></dozent>, <zeit>Mont. 7-8½ U.</zeit>,
+          <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Geschichte der alten Kirche</thema>:
@@ -3297,9 +3302,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897w-IV.E-005"><thema>Einleitung in das
-        Studium der Statistik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont. u. Dienst. 12-1 U.</zeit>,
+        Studium der Statistik</thema>: <dozent ref="hasse_e"><grad>D.
+        ph.</grad> <nachname>Hasse</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont. u. Dienst. 12-1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897w-IV.E-006"><thema>Geschichte, Theorie
@@ -3310,7 +3315,7 @@
         9-10 U.</thema>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1897w-IV.E-007"><thema>Deutsche
-        Kolonialpolitik</thema>: <dozent><grad>D. ph.</grad>
+        Kolonialpolitik</thema>: <dozent ref="hasse_e"><grad>D. ph.</grad>
         <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
@@ -3492,9 +3497,9 @@
         <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung xml:id="v-1897w-IV.E-025"><thema>Praktische Uebungen im
-        statistischen Seminar</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mittw. 6-8 U.</zeit>,
+        statistischen Seminar</thema>: <dozent ref="hasse_e"><grad>D.
+        ph.</grad> <nachname>Hasse</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mittw. 6-8 U.</zeit>,
         <modus>privatissime</modus>.</veranstaltung>
 
         <veranstaltungsgruppe><thema>Landwirthschaftliches

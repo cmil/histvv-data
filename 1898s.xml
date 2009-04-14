@@ -1031,12 +1031,13 @@
 
       <veranstaltung xml:id="v-1898s-III-040"><thema>Ueber
       Unfallnervenkrankheiten mit Uebungen im Abfassen von Gutachten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Schütz</nachname></dozent>,
-      <zeit>Sonnab. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      <dozent ref="schuetz_h"><grad>D. med.</grad>
+      <nachname>Schütz</nachname></dozent>, <zeit>Sonnab. 5-6 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1898s-III-041"><thema>Cursus der
       neuropathologischen Diagnostik mit Einschluss der Elektrodiagnostik und
-      Elektrotherapie</thema>: <dozent><grad>D. med.</grad>
+      Elektrotherapie</thema>: <dozent ref="schuetz_h"><grad>D. med.</grad>
       <nachname>Schütz</nachname></dozent>, <zeit>Dienst. u. Sonnab. 3-4
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1251,15 +1252,15 @@
 
       <veranstaltung xml:id="v-1898s-III-076"><thema>Ausgewählte Kapitel aus
       der Lehre von den Hals-, Nasen- und Ohrenkrankheiten, mit
-      Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+      Demonstrationen</thema>: <dozent ref="heymann_r"><grad>D. med.</grad>
       <nachname>Heymann</nachname></dozent>, <zeit>Mittw. u. Freit. 8-9
       U.</zeit>, <modus>privatim</modus> (<gebühr>für Praktikanten der
       Poliklinik gratis</gebühr>).</veranstaltung>
 
       <veranstaltung xml:id="v-1898s-III-077"><thema>Cursus der Laryngoskopie,
-      Rhinoskopie und Otoskopie</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Heymann</nachname></dozent>, <zeit>Mont. u. Donnerst. 5-6
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Rhinoskopie und Otoskopie</thema>: <dozent ref="heymann_r"><grad>D.
+      med.</grad> <nachname>Heymann</nachname></dozent>, <zeit>Mont. u.
+      Donnerst. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1898s-III-078"><thema>Specielle Pathologie und
       Therapie der Nasen-, Rachen- und Kehlkopfkrankheiten</thema>: <dozent
@@ -1527,8 +1528,9 @@
         <sachgruppe xml:id="sg-1898s-III.002.a">
           <titel>a) Innere Medicin.</titel>
 
-          <veranstaltung xml:id="v-1898s-III.002.a-001"><dozent><grad>D.
-          med.</grad> <nachname>Schütz</nachname></dozent>, (für
+          <veranstaltung xml:id="v-1898s-III.002.a-001"><dozent
+          ref="schuetz_h"><grad>D. med.</grad>
+          <nachname>Schütz</nachname></dozent>, (für
           <thema>Nervenkrankheiten</thema>). (<ort>Nürnberger Str. 22.
           I.</ort>)</veranstaltung>
 
@@ -1598,10 +1600,11 @@
         <sachgruppe xml:id="sg-1898s-III.002.d">
           <titel>d) Hals-, Nasen- und Ohrenkrankheiten.</titel>
 
-          <veranstaltung xml:id="v-1898s-III.002.d-001"><dozent><grad>D.
-          med.</grad> <nachname>Heymann</nachname></dozent>, <zeit>tägl. 7-9
-          U. Vorm.</zeit>, <modus>privatissime</modus>. (<ort>Grimm. Steinweg
-          9. I.</ort>)</veranstaltung>
+          <veranstaltung xml:id="v-1898s-III.002.d-001"><dozent
+          ref="heymann_r"><grad>D. med.</grad>
+          <nachname>Heymann</nachname></dozent>, <zeit>tägl. 7-9 U.
+          Vorm.</zeit>, <modus>privatissime</modus>. (<ort>Grimm. Steinweg 9.
+          I.</ort>)</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1898s-III.002.e">
@@ -1854,8 +1857,8 @@
         <nachname>Richter</nachname>, <funktion>P. O. Hon.
         des.</funktion></dozent>, <dozent ref="lehmann_e">unter Mitwirkung von
         <funktion>Prof.</funktion> <grad>Dr.</grad>
-        <nachname>Lehmann</nachname></dozent> und
-        <dozent><funktion>Prof.</funktion> <grad>Dr.</grad>
+        <nachname>Lehmann</nachname></dozent> und <dozent
+        ref="hartmann_m"><funktion>Prof.</funktion> <grad>Dr.</grad>
         <nachname>Hartmann</nachname></dozent>, <zeit>Mittw. u. Sonnab. 2-4
         U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2646,9 +2649,9 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1898s-IV.C-010"><thema>Geschichte des
-        Zeitalters der Entdeckungen</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hassert</nachname></dozent>, <zeit>Mont. 3-4 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        Zeitalters der Entdeckungen</thema>: <dozent ref="hassert_k"><grad>D.
+        ph.</grad> <nachname>Hassert</nachname></dozent>, <zeit>Mont. 3-4
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1898s-IV.C-011"><thema>Preussische Geschichte
         bis zum Ausgange des 18. Jahrhunderts</thema>: <dozent
@@ -2709,14 +2712,15 @@
 
         <veranstaltung xml:id="v-1898s-IV.C-020"><thema>Anleitung zu
         geographischen Beobachtungen und topographischen Aufnahmen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hassert</nachname></dozent>,
-        <zeit>Mont. u. Donnerst. 4-5 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="hassert_k"><grad>D. ph.</grad>
+        <nachname>Hassert</nachname></dozent>, <zeit>Mont. u. Donnerst. 4-5
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1898s-IV.C-021"><thema>Geographie und
-        Kolonisation von Deutsch-Ostafrika</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Hassert</nachname></dozent>, <zeit>Donnerst. 3-4
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Kolonisation von Deutsch-Ostafrika</thema>: <dozent
+        ref="hassert_k"><grad>D. ph.</grad>
+        <nachname>Hassert</nachname></dozent>, <zeit>Donnerst. 3-4 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -2840,7 +2844,8 @@
           <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1898s-IV.C.002-004"><thema>Geographische
-          und topographische Ausflüge</thema>: <dozent><grad>D. ph.</grad>
+          und topographische Ausflüge</thema>: <dozent
+          ref="hassert_k"><grad>D. ph.</grad>
           <nachname>Hassert</nachname></dozent>, <zeit>Sonnab. Nachm.</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3121,15 +3126,15 @@
         <zeit>Sonnab. 3-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1898s-IV.E-006"><thema>Deutsche
-        Kolonialpolitik</thema>: <dozent><grad>D. ph.</grad>
+        Kolonialpolitik</thema>: <dozent ref="hasse_e"><grad>D. ph.</grad>
         <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1898s-IV.E-007"><thema>Einleitung in das
-        Studium der Statistik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont. u. Dienst. 12-1 U.</zeit>,
+        Studium der Statistik</thema>: <dozent ref="hasse_e"><grad>D.
+        ph.</grad> <nachname>Hasse</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont. u. Dienst. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1898s-IV.E-008"><thema>Landwirthschaftliche
@@ -3287,7 +3292,7 @@
         <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung xml:id="v-1898s-IV.E-024"><thema>Statsitisches
-        Seminar</thema>: <dozent><grad>D. ph.</grad>
+        Seminar</thema>: <dozent ref="hasse_e"><grad>D. ph.</grad>
         <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mittw. 6 bis 8 U.</zeit>,
         <modus>privatissime</modus>.</veranstaltung>

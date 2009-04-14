@@ -481,25 +481,25 @@
 
         <seite>5</seite>
 
-        <veranstaltung
-        xml:id="v-1834w-I.II.2-002"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>deutsche Geschichte mit besonderer Rücksicht auf die Gestaltung
-        des deutschen Staatsrechts</thema>, <zeit>4 T. in zu best.
+        <veranstaltung xml:id="v-1834w-I.II.2-002"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>deutsche
+        Geschichte mit besonderer Rücksicht auf die Gestaltung des deutschen
+        Staatsrechts</thema>, <zeit>4 T. in zu best.
         St.</zeit></veranstaltung>
 
-        <veranstaltung xml:id="v-1834w-I.II.2-003"><ders>Derselbe</ders>,
-        <thema>Geschichte und Statistik der Staten des deutschen
-        Bundes</thema>, <zeit>2 U. 4 T.</zeit>
+        <veranstaltung xml:id="v-1834w-I.II.2-003"><ders
+        ref="hasse_fca">Derselbe</ders>, <thema>Geschichte und Statistik der
+        Staten des deutschen Bundes</thema>, <zeit>2 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1834w-I.II.x">
         <titel>*) Historische Uebungen.</titel>
 
-        <veranstaltung
-        xml:id="v-1834w-I.II.x-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
+        <veranstaltung xml:id="v-1834w-I.II.x-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>,
         <thema>Examinir-Uebungen über Geschichte</thema>, <zeit>in zu best.
         St.</zeit> <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
@@ -799,8 +799,9 @@
       <sachgruppe xml:id="sg-1834w-I.IV.003">
         <titel>Deutsches Staatsrecht.</titel>
 
-        <veranstaltungsverweis><dozent><nachname>Hasse</nachname>, <vorname>F.
-        C. A.</vorname>, <funktion>P. O.</funktion></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <siehe>s.
         Geschichte</siehe>.</veranstaltungsverweis>
       </sachgruppe>
 
@@ -1953,12 +1954,11 @@
       <sachgruppe xml:id="sg-1834w-II.C.003">
         <titel>Geschichte der Medicin.</titel>
 
-        <veranstaltung
-        xml:id="v-1834w-II.C.003-001"><dozent><nachname>Hasper</nachname>,
-        <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-        E.</funktion></dozent>, <thema kontext="sachgruppe">pragmatische und
-        Litterärgeschichte</thema>, <zeit>11 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1834w-II.C.003-001"><dozent
+        ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+        <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>, <thema
+        kontext="sachgruppe">pragmatische und Litterärgeschichte</thema>,
+        <zeit>11 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1834w-II.C.003-002"><dozent
         ref="kneschke_eh"><nachname>Kneschke</nachname>, <grad>D.</grad>
@@ -2012,11 +2012,10 @@
           Menschen als der Thiere</thema>, <zeit>8 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1834w-II.C.I.1-006"><dozent><nachname>Holke</nachname>,
-          <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>Eingeweid-,
-          Nerven- und Muskellehre</thema>, <zeit>4 U. 6
-          T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1834w-II.C.I.1-006"><dozent
+          ref="holke_fa"><nachname>Holke</nachname>, <grad>D.</grad>
+          <vorname>A.</vorname></dozent>, <thema>Eingeweid-, Nerven- und
+          Muskellehre</thema>, <zeit>4 U. 6 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1834w-II.C.I.1-007"><dozent
           ref="bock_ce"><nachname>Bock</nachname>, <grad>D.</grad> <vorname>K.
@@ -2140,9 +2139,9 @@
           <antiqua>Conspect. mat. med.</antiqua></thema>, <zeit>4 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1834w-II.C.II.1-005"><dozent><nachname>Holke</nachname>,
-          <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>chirurgische
+          <veranstaltung xml:id="v-1834w-II.C.II.1-005"><dozent
+          ref="holke_fa"><nachname>Holke</nachname>, <grad>D.</grad>
+          <vorname>A.</vorname></dozent>, <thema>chirurgische
           Arzneimittellehre, mit Receptirkunst verbunden</thema>, <zeit>2 T.
           zu belieb. St.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -2174,8 +2173,9 @@
           <vorname>E. H.</vorname></dozent>, <thema>Receptirkunst</thema>,
           <zeit>2 U. Dienst. u. Freit.</zeit></veranstaltung>
 
-          <veranstaltungsverweis><dozent><nachname>Holke</nachname>,
-          <grad>D.</grad> <vorname>A.</vorname></dozent>, <siehe>s.
+          <veranstaltungsverweis><dozent
+          ref="holke_fa"><nachname>Holke</nachname>, <grad>D.</grad>
+          <vorname>A.</vorname></dozent>, <siehe>s.
           Arzneimittellehre</siehe>.</veranstaltungsverweis>
         </sachgruppe>
 
@@ -2441,11 +2441,10 @@
           Arzneimittellehre</thema>, <zeit>4 T. in zu best.
           St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1834w-II.C.III.1-004"><dozent><nachname>Holke</nachname>,
-          <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>über die
-          gesammte Anatomie und Chirurgie</thema>, <zeit>in zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1834w-II.C.III.1-004"><dozent
+          ref="holke_fa"><nachname>Holke</nachname>, <grad>D.</grad>
+          <vorname>A.</vorname></dozent>, <thema>über die gesammte Anatomie
+          und Chirurgie</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1834w-II.C.III.1-005"><dozent
           ref="bock_ce"><nachname>Bock</nachname>, <grad>D.</grad> <vorname>K.

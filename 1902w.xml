@@ -906,9 +906,10 @@
       <funktion>P. O.</funktion></dozent> <siehe>Siehe Medicinische
       Facultät.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Psychiatrie</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Schütz</nachname></dozent>. <siehe>Siehe
-      Medicinische Facultät.</siehe></veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Psychiatrie</thema>: <dozent
+      ref="schuetz_h"><grad>D. med.</grad>
+      <nachname>Schütz</nachname></dozent>. <siehe>Siehe Medicinische
+      Facultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Vorlesung über gerichtliche
       Medicin</thema>: <dozent ref="kockel_r"><grad>D. med.</grad>
@@ -933,9 +934,9 @@
       durch Anschlag</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-III-002"><thema>Geschichte der Medicin
-      und der Naturwissenschaften</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Seiffert</nachname></dozent>, <zeit>Dienst. u. Freit. 5-6
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      und der Naturwissenschaften</thema>: <dozent ref="seiffert_m"><grad>D.
+      med.</grad> <nachname>Seiffert</nachname></dozent>, <zeit>Dienst. u.
+      Freit. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-III-003"><thema>Systematische Anatomie
       des Menschen (Eingeweide, Nervensystem und Sinnesorgane)</thema>:
@@ -962,7 +963,7 @@
       <zeit>Mont. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-III-007"><thema>Feinerer Bau des
-      Gehirns</thema>: <dozent><grad>D. med.</grad>
+      Gehirns</thema>: <dozent ref="schuetz_h"><grad>D. med.</grad>
       <nachname>Schütz</nachname></dozent>, <zeit>in noch zu best.
       Stunde</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1195,7 +1196,8 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-III-043"><thema>Die natürliche und
-      künstliche Ernährung des Säuglings</thema>: <dozent><grad>D. med.</grad>
+      künstliche Ernährung des Säuglings</thema>: <dozent
+      ref="seiffert_m"><grad>D. med.</grad>
       <nachname>Seiffert</nachname></dozent> (<notiz betreff="dozent">im
       Auftrage von D. med. Soltmann, P. O. Hon.</notiz>), <zeit>Donnerst. 5-6
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1497,9 +1499,10 @@
       <seite>17</seite>
 
       <veranstaltung xml:id="v-1902w-III-090"><thema>Cursus der Laryngoskopie,
-      Rhinoskopie und Otoskopie</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Heymann</nachname></dozent>, <zeit>an zwei zu verabred. Tagen
-      5-6 (bezw. 6-7) U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Rhinoskopie und Otoskopie</thema>: <dozent ref="heymann_r"><grad>D.
+      med.</grad> <nachname>Heymann</nachname></dozent>, <zeit>an zwei zu
+      verabred. Tagen 5-6 (bezw. 6-7) U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1624,9 +1627,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-III-110"><thema>Psychiatrie</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Schütz</nachname></dozent>,
-      <zeit>Mittw. u. Freit. 5-6 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="schuetz_h"><grad>D. med.</grad>
+      <nachname>Schütz</nachname></dozent>, <zeit>Mittw. u. Freit. 5-6
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1686,10 +1689,10 @@
         <sachgruppe xml:id="sg-1902w-III.002.a">
           <titel>a) Innere Medicin.</titel>
 
-          <veranstaltung xml:id="v-1902w-III.002.a-001"><dozent><grad>D.
-          med.</grad> <nachname>Schütz</nachname> (für
-          Nervenkrankheiten)</dozent>, <zeit>Mont. u. Freit. 4-5 U.</zeit>,
-          <modus>privatim</modus>. (<ort>Nürnberger Str. 22.
+          <veranstaltung xml:id="v-1902w-III.002.a-001"><dozent
+          ref="schuetz_h"><grad>D. med.</grad> <nachname>Schütz</nachname>
+          (für Nervenkrankheiten)</dozent>, <zeit>Mont. u. Freit. 4-5
+          U.</zeit>, <modus>privatim</modus>. (<ort>Nürnberger Str. 22.
           I.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1902w-III.002.a-002"><dozent
@@ -1757,9 +1760,10 @@
         <sachgruppe xml:id="sg-1902w-III.002.d">
           <titel>d) Hals-, Nasen- und Ohrenkrankheiten.</titel>
 
-          <veranstaltung xml:id="v-1902w-III.002.d-001"><dozent><grad>D.
-          med.</grad> <nachname>Heymann</nachname></dozent>, <thema>Uebungen
-          in Untersuchung und Behandlung von Hals-, Nasen- und
+          <veranstaltung xml:id="v-1902w-III.002.d-001"><dozent
+          ref="heymann_r"><grad>D. med.</grad>
+          <nachname>Heymann</nachname></dozent>, <thema>Uebungen in
+          Untersuchung und Behandlung von Hals-, Nasen- und
           Ohrenkranken</thema>, <zeit>tägl. 8-9½ U. Vorm.</zeit>,
           <modus>privatissime</modus>. (<ort>Grimm. Steinweg 9.
           I.</ort>)</veranstaltung>
@@ -1839,7 +1843,7 @@
       Facultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Ausgewählte Kapitel der organischen
-      Chemie</thema>: <dozent><grad>D. ph.</grad>
+      Chemie</thema>: <dozent ref="henze_m"><grad>D. ph.</grad>
       <nachname>Henze</nachname></dozent>. <siehe>Siehe Philosophische
       Facultät G.</siehe></veranstaltungsverweis>
 
@@ -3444,13 +3448,13 @@ nicht wie den Ausdruck auszeichnen soll!
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1902w-IV.E-009"><thema>Einleitung in das
-        Studium der Statistik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont. u. Dienst. 12-1 U.</zeit>,
+        Studium der Statistik</thema>: <dozent ref="hasse_e"><grad>D.
+        ph.</grad> <nachname>Hasse</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont. u. Dienst. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1902w-IV.E-010"><thema>Deutsche
-        Kolonialpolitik</thema>: <dozent><grad>D. ph.</grad>
+        Kolonialpolitik</thema>: <dozent ref="hasse_e"><grad>D. ph.</grad>
         <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
@@ -3891,9 +3895,9 @@ nicht wie den Ausdruck auszeichnen soll!
         Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1902w-IV.G-009"><thema>Ausgewählte Kapitel
-        der organischen Chemie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Henze</nachname></dozent>, <zeit>zweistünd., in noch zu
-        best. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
+        der organischen Chemie</thema>: <dozent ref="henze_m"><grad>D.
+        ph.</grad> <nachname>Henze</nachname></dozent>, <zeit>zweistünd., in
+        noch zu best. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1902w-IV.G-010"><thema>Chemie der
         Kohlenstoffringe (Verbindungen mit condensirten Benzolkernen,
@@ -4030,9 +4034,9 @@ nicht wie den Ausdruck auszeichnen soll!
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Geschichte der Medicin und der
-        Naturwissenschaften</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Seiffert</nachname></dozent>. <siehe>Siehe Medicinische
-        Facultät.</siehe></veranstaltungsverweis>
+        Naturwissenschaften</thema>: <dozent ref="seiffert_m"><grad>D.
+        med.</grad> <nachname>Seiffert</nachname></dozent>. <siehe>Siehe
+        Medicinische Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Ueber die Wirkung der Muskeln mit
         Rücksicht auf die menschliche Anatomie. - Die Lehre von den

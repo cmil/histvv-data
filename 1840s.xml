@@ -463,10 +463,10 @@
       <sachgruppe xml:id="sg-1840s-I.II.001">
         <titel>Urkundenlehre, Sphragistik, Heraldik und Genealogie</titel>
 
-        <veranstaltung
-        xml:id="v-1840s-I.II.001-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>10 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1840s-I.II.001-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>10 U. 4
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1840s-I.II.1">
@@ -498,8 +498,9 @@
         <thema>Geschichte der französischen Revolution</thema>, <zeit>2 U. 4
         T.</zeit></veranstaltung>
 
-        <veranstaltungsverweis><dozent><nachname>Hasse</nachname>, <vorname>F.
-        C. A.</vorname>, <funktion>P. O.</funktion></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <siehe>s.
         Staatswissenschaften</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1840s-I.II.2-002"><dozent
@@ -797,12 +798,11 @@
       <sachgruppe xml:id="sg-1840s-I.IV.001">
         <titel>Ueber den politischen Zustand von Europa.</titel>
 
-        <veranstaltung
-        xml:id="v-1840s-I.IV.001-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema kontext="sachgruppe">nach dem Inhalte der Verträge seit dem
-        Wiener Congresse</thema>, <zeit>9 U. Mont. u.
-        Dienst.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1840s-I.IV.001-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <thema
+        kontext="sachgruppe">nach dem Inhalte der Verträge seit dem Wiener
+        Congresse</thema>, <zeit>9 U. Mont. u. Dienst.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1840s-I.IV.002">
@@ -842,10 +842,10 @@
       <sachgruppe xml:id="sg-1840s-I.IV.004">
         <titel>Staatskunde des Königreichs Sachsen.</titel>
 
-        <veranstaltung
-        xml:id="v-1840s-I.IV.004-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>9 U. Donn. u. Freit.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1840s-I.IV.004-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>9 U. Donn. u.
+        Freit.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1840s-I.IV.005">
@@ -2212,15 +2212,15 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
           <veranstaltungsverweis><ders ref="assmann_fw">Derselbe</ders>,
           <siehe>s. Examinirübungen</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung
-          xml:id="v-1840s-II.C.I.1-006"><dozent><nachname>Hasse</nachname>,
-          <grad>D.</grad> <vorname>K. E.</vorname></dozent>,
-          <thema>pathologische Anatomie</thema>, <zeit>2 T. in zu best.
-          St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1840s-II.C.I.1-006"><dozent
+          ref="hasse_ke"><nachname>Hasse</nachname>, <grad>D.</grad>
+          <vorname>K. E.</vorname></dozent>, <thema>pathologische
+          Anatomie</thema>, <zeit>2 T. in zu best. St.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1840s-II.C.I.1-007"><ders>Derselbe</ders>,
-          <thema>chirurgische Anatomie</thema>, <zeit>in zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1840s-II.C.I.1-007"><ders
+          ref="hasse_ke">Derselbe</ders>, <thema>chirurgische
+          Anatomie</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1840s-II.C.I.1-008"><dozent
           ref="weber_ef"><nachname>Weber</nachname>, <grad>D.</grad>
@@ -2270,11 +2270,11 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
           <thema>allgemeine Pathologie u. Therapie</thema>, <zeit>4 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1840s-II.C.I.3-002"><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>allgemeine Pathologie in Verbindung
-          mit Semiotik</thema>, <zeit>10 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1840s-II.C.I.3-002"><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>allgemeine Pathologie in Verbindung mit Semiotik</thema>,
+          <zeit>10 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung
           xml:id="v-1840s-II.C.I.3-003"><dozent><nachname>Lotze</nachname>,
@@ -2305,10 +2305,10 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
           <funktion>Rector</funktion></dozent>, <thema>semiotische
           Akustik</thema>, <zeit>11 U. Mont. u. Donn.</zeit></veranstaltung>
 
-          <veranstaltungsverweis><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <siehe>s. allgemeine
-          Pathologie</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <siehe>s. allgemeine Pathologie</siehe>.</veranstaltungsverweis>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1840s-II.C.I.6">
@@ -2323,11 +2323,11 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
           <veranstaltungsverweis><ders ref="heinroth_jca">Derselbe</ders>,
           <siehe>s. Geschichte der Medicin</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung
-          xml:id="v-1840s-II.C.I.6-001"><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>über Geisteskrankheiten</thema>,
-          <zeit>10 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1840s-II.C.I.6-001"><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>über Geisteskrankheiten</thema>, <zeit>10 U. 2 T.</zeit>
+          <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -2489,8 +2489,9 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
           E.</vorname></dozent>, <siehe>s.
           Anatomie</siehe>.</veranstaltungsverweis>
 
-          <veranstaltungsverweis><dozent><nachname>Hasse</nachname>,
-          <grad>D.</grad> <vorname>K. E.</vorname></dozent>, <siehe>s.
+          <veranstaltungsverweis><dozent
+          ref="hasse_ke"><nachname>Hasse</nachname>, <grad>D.</grad>
+          <vorname>K. E.</vorname></dozent>, <siehe>s.
           Anatomie</siehe>.</veranstaltungsverweis>
 
           <sachgruppe xml:id="sg-1840s-II.C.II.4.001">
@@ -2692,11 +2693,11 @@ doppelte Zählung verhindern?)--></veranstaltung>
         <sachgruppe xml:id="sg-1840s-II.C.III.2">
           <titel>2) Repetir-Uebungen.</titel>
 
-          <veranstaltung
-          xml:id="v-1840s-II.C.III.2-001"><dozent><nachname>Hasse</nachname>,
-          <grad>D.</grad> <vorname>K. E.</vorname></dozent>, <thema>Leitung
-          der ihm übertragenen Repetitionen im königl. klinischen
-          Institut</thema>e, <zeit>zu den best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1840s-II.C.III.2-001"><dozent
+          ref="hasse_ke"><nachname>Hasse</nachname>, <grad>D.</grad>
+          <vorname>K. E.</vorname></dozent>, <thema>Leitung der ihm
+          übertragenen Repetitionen im königl. klinischen Institut</thema>e,
+          <zeit>zu den best. St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1840s-II.C.III.3">

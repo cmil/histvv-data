@@ -898,9 +898,9 @@
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Einleitung in das
       Studium der Statistik</thema>.</veranstaltungsverweis> -
       <veranstaltungsverweis><thema>Deutsche
-      Kolonialpolitik</thema></veranstaltungsverweis>: <dozent><grad>D.
-      ph.</grad> <nachname>Hasse</nachname>, <funktion>P.
-      E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
+      Kolonialpolitik</thema></veranstaltungsverweis>: <dozent
+      ref="hasse_e"><grad>D. ph.</grad> <nachname>Hasse</nachname>,
+      <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
       E.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Geld-, Kredit-,
@@ -933,9 +933,10 @@
 
       <seite>11</seite>
 
-      <veranstaltungsverweis><thema>Psychiatrie</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Schütz</nachname></dozent>. <siehe>Siehe
-      Medizinische Fakultät</siehe>.</veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Psychiatrie</thema>: <dozent
+      ref="schuetz_h"><grad>D. med.</grad>
+      <nachname>Schütz</nachname></dozent>. <siehe>Siehe Medizinische
+      Fakultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Psychologie des
       Verbrechers</thema>.</veranstaltungsverweis> -
@@ -1213,7 +1214,7 @@
       Liebigstr. 24. II.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-027"><thema>Hygiene der
-      Milch</thema>: <dozent><grad>D. med.</grad>
+      Milch</thema>: <dozent ref="seiffert_m"><grad>D. med.</grad>
       <nachname>Seiffert</nachname></dozent>, <zeit>Donnerst. 4 bis 5
       U.</zeit>, <modus>publice</modus> et <gebühr>gratis</gebühr>, <ort>im
       Kinderkrankenhause, Platzmannstr. 1</ort>.</veranstaltung>
@@ -1253,7 +1254,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-033"><thema>Praktikum der
-      Milchhygiene</thema>: <dozent><grad>D. med.</grad>
+      Milchhygiene</thema>: <dozent ref="seiffert_m"><grad>D. med.</grad>
       <nachname>Seiffert</nachname></dozent>, <zeit>in zu vereinb.
       Zeit</zeit>, <modus>privatissime</modus>, <ort>im Kinderkrankenhause,
       Platzmannstr. 1</ort>.</veranstaltung>
@@ -1688,11 +1689,11 @@
       Nasen- u. Halskrankh., Liebigstr. 20</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-094"><thema>Übungen der
-      Untersuchungsmethoden von Hals, Nase und Ohr</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Heymann</nachname></dozent>, <zeit>an zwei zu
-      verabred. Tagen 5-6 U.</zeit>, <modus>privatim</modus>, <ort>in der
-      Privatpoliklinik f. Hals-, Nasen- u. Ohrenkrankh., Königsstr. 14.
-      I.</ort></veranstaltung>
+      Untersuchungsmethoden von Hals, Nase und Ohr</thema>: <dozent
+      ref="heymann_r"><grad>D. med.</grad>
+      <nachname>Heymann</nachname></dozent>, <zeit>an zwei zu verabred. Tagen
+      5-6 U.</zeit>, <modus>privatim</modus>, <ort>in der Privatpoliklinik f.
+      Hals-, Nasen- u. Ohrenkrankh., Königsstr. 14. I.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-095"><thema>Praktischer Kurs der
       kleineren oto-rhinologischen Eingriffe</thema>: <dozent><grad>D.
@@ -1844,15 +1845,16 @@
       Windmühlenweg 20</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-116"><thema>Psychiatrische
-      Besprechungen</thema>: <dozent><grad>D. med.</grad>
+      Besprechungen</thema>: <dozent ref="schuetz_h"><grad>D. med.</grad>
       <nachname>Schütz</nachname></dozent>, <zeit>Sonnab. 6-7 U.</zeit>,
       <modus>publice</modus>, <zeit>in der Mediz. Klinik, Liebigstr.
       20</zeit>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-117"><thema>Psychiatrie</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Schütz</nachname></dozent>,
-      <zeit>Mont. u. Donnerst. 4 bis 5 U.</zeit>, <modus>privatim</modus>,
-      <ort>in der Mediz. Klinik, Liebigstr. 20.</ort></veranstaltung>
+      <dozent ref="schuetz_h"><grad>D. med.</grad>
+      <nachname>Schütz</nachname></dozent>, <zeit>Mont. u. Donnerst. 4 bis 5
+      U.</zeit>, <modus>privatim</modus>, <ort>in der Mediz. Klinik,
+      Liebigstr. 20.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1905s-III-118"><thema>Psychologie des
       Verbrechers</thema>: <dozent ref="doellken_a"><grad>D. med.</grad>
@@ -1934,9 +1936,9 @@
           U.</zeit>, <modus>privatim</modus>. (<ort>Königsstr. 14.
           I.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1905s-III.002.a-002"><dozent><grad>D.
-          med.</grad> <nachname>Schütz</nachname> (für
-          Nervenkrankheiten)</dozent>. (<ort>Kramerstr. 6.
+          <veranstaltung xml:id="v-1905s-III.002.a-002"><dozent
+          ref="schuetz_h"><grad>D. med.</grad> <nachname>Schütz</nachname>
+          (für Nervenkrankheiten)</dozent>. (<ort>Kramerstr. 6.
           II.</ort>)</veranstaltung>
         </sachgruppe>
 
@@ -1989,9 +1991,10 @@
         <sachgruppe xml:id="sg-1905s-III.002.d">
           <titel>d) Hals-, Nasen- und Ohrenkrankheiten.</titel>
 
-          <veranstaltung xml:id="v-1905s-III.002.d-001"><dozent><grad>D.
-          med.</grad> <nachname>Heymann</nachname></dozent>. (<ort>Königsstr.
-          14. I.</ort>)</veranstaltung>
+          <veranstaltung xml:id="v-1905s-III.002.d-001"><dozent
+          ref="heymann_r"><grad>D. med.</grad>
+          <nachname>Heymann</nachname></dozent>. (<ort>Königsstr. 14.
+          I.</ort>)</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1905s-III.002.e">
@@ -2364,9 +2367,10 @@
         <dozent ref="lehmann_e">unter Mitwirkung von
         <funktion>Prof.</funktion> <grad>D.</grad>
         <nachname>Lehmann</nachname> (für Mathematik und
-        Naturwissenschaften)</dozent> und <dozent><funktion>Prof.</funktion>
-        <grad>D.</grad> <nachname>Hartmann</nachname> (für Französisch und
-        Englisch)</dozent>, <zeit>Mittw. u. Sonnab. 2 bis 4 U.</zeit>,
+        Naturwissenschaften)</dozent> und <dozent
+        ref="hartmann_m"><funktion>Prof.</funktion> <grad>D.</grad>
+        <nachname>Hartmann</nachname> (für Französisch und Englisch)</dozent>,
+        <zeit>Mittw. u. Sonnab. 2 bis 4 U.</zeit>,
         <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -2522,7 +2526,8 @@
           C.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Römische Geschichte vom zweiten
-          punischen Krieg bis auf Cäsar</thema>: <dozent><grad>D. ph.</grad>
+          punischen Krieg bis auf Cäsar</thema>: <dozent
+          ref="schulz_ot"><grad>D. ph.</grad>
           <nachname>Schulz</nachname></dozent>. <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsverweis>
 
@@ -3247,9 +3252,10 @@
         <seite>33</seite>
 
         <veranstaltung xml:id="v-1905s-IV.C-006"><thema>Römische Geschichte
-        vom zweiten punischen Krieg bis auf Cäsar</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Schulz</nachname></dozent>, <zeit>Mittw. 11-12 U.
-        u. Sonnab. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        vom zweiten punischen Krieg bis auf Cäsar</thema>: <dozent
+        ref="schulz_ot"><grad>D. ph.</grad>
+        <nachname>Schulz</nachname></dozent>, <zeit>Mittw. 11-12 U. u. Sonnab.
+        9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.C-007"><thema>Das römische
         Afrika</thema>: <dozent ref="soerensen_a"><grad>D. ph.</grad>
@@ -3258,7 +3264,7 @@
 
         <veranstaltung xml:id="v-1905s-IV.C-008"><thema>Römer und Germanen,
         von den Anfängen ihrer Beziehungen bis zum vierten nachchristlichen
-        Jahrhundert</thema>: <dozent><grad>D. ph.</grad>
+        Jahrhundert</thema>: <dozent ref="schulz_ot"><grad>D. ph.</grad>
         <nachname>Schulz</nachname></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
@@ -3421,8 +3427,8 @@
         E.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsche Kolonialpolitik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hasse</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Abschnitt
+        <dozent ref="hasse_e"><grad>D. ph.</grad> <nachname>Hasse</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Abschnitt
         E.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Vergleichende Kolonialwirtschaft und
@@ -3546,9 +3552,10 @@
 
             <veranstaltung xml:id="v-1905s-IV.C.001.B-006"><thema>Übungen zur
             Geschichte der römischen Kaiserzeit: Antoninus Pius</thema>:
-            <dozent><grad>D. ph.</grad> <nachname>Schulz</nachname></dozent>,
-            <zeit>Donnerst. 8-9½ U. Ab.</zeit>, <modus>privatissime</modus>,
-            sed <gebühr>gratis</gebühr>.</veranstaltung>
+            <dozent ref="schulz_ot"><grad>D. ph.</grad>
+            <nachname>Schulz</nachname></dozent>, <zeit>Donnerst. 8-9½ U.
+            Ab.</zeit>, <modus>privatissime</modus>, sed
+            <gebühr>gratis</gebühr>.</veranstaltung>
 
             <veranstaltung xml:id="v-1905s-IV.C.001.B-007"><thema>Übungen zur
             Geschichte der Kriege und der inneren Politik Justinians (zur
@@ -3998,15 +4005,16 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.E-009"><thema>Deutsche
-        Kolonialpolitik</thema>: <dozent><grad>D. ph.</grad>
+        Kolonialpolitik</thema>: <dozent ref="hasse_e"><grad>D. ph.</grad>
         <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905s-IV.E-010"><thema>Einleitung in das
-        Studium der Statistik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Studium der Statistik</thema>: <dozent ref="hasse_e"><grad>D.
+        ph.</grad> <nachname>Hasse</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <trennlinie/>
 

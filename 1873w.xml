@@ -1649,9 +1649,9 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1873w-II.A.I-008"><thema>Biblische Theologie
-        des N. T.</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-        <nachname>Schmidt</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>9 U. 4 T.</zeit></veranstaltung>
+        des N. T.</thema>: <dozent ref="schmidt_w"><grad>Lic. th.</grad>
+        <grad>D. ph.</grad> <nachname>Schmidt</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1873w-II.A.I-009"><thema>Einleitung in das N.
         T.</thema>: <dozent ref="schuerer_e"><grad>Lic. th.</grad> <grad>D.
@@ -1681,8 +1681,8 @@
         <zeit>10 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1873w-II.A.I-013"><thema>Auslegung der drei
-        Briefe Johannis</thema>: <dozent><grad>Lic. th.</grad> <grad>D.
-        ph.</grad> <nachname>Schmidt</nachname>, <funktion>P.
+        Briefe Johannis</thema>: <dozent ref="schmidt_w"><grad>Lic. th.</grad>
+        <grad>D. ph.</grad> <nachname>Schmidt</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>10 U. 2 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
@@ -1803,9 +1803,9 @@
         <zeit>11 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltungsverweis><thema>Biblische Theologie des N. T.</thema>:
-        <dozent><grad>Lic. th.</grad> <nachname>Schmidt</nachname>,
-        <funktion>P. E.</funktion></dozent>, <siehe>s. Exeg.
-        Theol.</siehe></veranstaltungsverweis>
+        <dozent ref="schmidt_w"><grad>Lic. th.</grad>
+        <nachname>Schmidt</nachname>, <funktion>P. E.</funktion></dozent>,
+        <siehe>s. Exeg. Theol.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Die Lehre des Apostels Paulus</thema>:
         <dozent ref="schuerer_e"><grad>Lic. th.</grad> <grad>D. ph.</grad>
@@ -1908,15 +1908,15 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1873w-II.A.IV.001-006"><thema>Katechetische
-          Gesellschaft</thema>: <dozent><grad>Lic. th.</grad> <grad>D.
-          ph.</grad> <nachname>Schmidt</nachname>, <funktion>P.
+          Gesellschaft</thema>: <dozent ref="schmidt_w"><grad>Lic. th.</grad>
+          <grad>D. ph.</grad> <nachname>Schmidt</nachname>, <funktion>P.
           E.</funktion></dozent>, <zeit>5-7 U. Sonn.</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1873w-II.A.IV.001-007"><thema>Katechetische
-          Uebungen der Lausitzer Predigergesellschaft</thema>:
-          <ders>Derselbe</ders>, <zeit>5-7 U. Mittw.</zeit>
+          Uebungen der Lausitzer Predigergesellschaft</thema>: <ders
+          ref="schmidt_w">Derselbe</ders>, <zeit>5-7 U. Mittw.</zeit>
           <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
@@ -1979,10 +1979,11 @@
 
           <veranstaltung xml:id="v-1873w-II.B.II.1-004"><thema>Das Recht der
           Pandekten, mit Auschluss des Sachenrechts und der Lehre vom Besitz
-          (nach dem Lehrbuche von Arndts)</thema>: <dozent><grad>D.
-          jur.</grad> <nachname>Schmidt</nachname>, <funktion>P.
-          O.</funktion>, d. Z. <funktion>Dech.</funktion></dozent>, <zeit>11-1
-          U. 3 T. und 4-6 U. 5 Tage</zeit>.</veranstaltung>
+          (nach dem Lehrbuche von Arndts)</thema>: <dozent
+          ref="schmidt_adolf"><grad>D. jur.</grad>
+          <nachname>Schmidt</nachname>, <funktion>P. O.</funktion>, d. Z.
+          <funktion>Dech.</funktion></dozent>, <zeit>11-1 U. 3 T. und 4-6 U. 5
+          Tage</zeit>.</veranstaltung>
 
           <veranstaltung
           xml:id="v-1873w-II.B.II.1-005"><thema>Pandekten-Erbrecht mit
@@ -2297,10 +2298,10 @@
         <nachname>Fürst</nachname></dozent>, <siehe>s.
         Gynäkologie</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Anatomie am Lebenden</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Schmidt</nachname>,
-        <funktion>P. E.</funktion></dozent>, <siehe>s.
-        Chirurgie</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Anatomie am Lebenden</thema>: <dozent
+        ref="schmidt_benno_gottlob"><grad>D. med.</grad>
+        <nachname>Schmidt</nachname>, <funktion>P. E.</funktion></dozent>,
+        <siehe>s. Chirurgie</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1873w-II.C.II-006"><thema>Allgemeine
         Histologie</thema>: <dozent ref="schwalbe_g"><grad>D. med.</grad>
@@ -2572,12 +2573,14 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1873w-II.C.VIII-002"><thema>Anatomie am
-        Lebenden</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Schmidt</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>3 U. 2 T. (Mont. u. Donn.)</zeit></veranstaltung>
+        Lebenden</thema>: <dozent ref="schmidt_benno_gottlob"><grad>D.
+        med.</grad> <nachname>Schmidt</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>3 U. 2 T. (Mont. u.
+        Donn.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1873w-II.C.VIII-003"><thema>Ueber
-        lebensrettende Operationen</thema>: <dozent><grad>D. med.</grad>
+        lebensrettende Operationen</thema>: <dozent
+        ref="schmidt_benno_gottlob"><grad>D. med.</grad>
         <nachname>Schmidt</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>5 U. Freit.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -2761,9 +2764,9 @@
         <zeit>2 U. 5 T. (ausschl. Mittw.)</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1873w-II.C.XI-008"><thema>Chirurgische
-        Poliklinik</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Schmidt</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>11 U. 6 T.</zeit></veranstaltung>
+        Poliklinik</thema>: <dozent ref="schmidt_benno_gottlob"><grad>D.
+        med.</grad> <nachname>Schmidt</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>11 U. 6 T.</zeit></veranstaltung>
 
         <veranstaltung
         xml:id="v-1873w-II.C.XI-009"><thema>Districtspoliklinik</thema>:

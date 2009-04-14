@@ -429,16 +429,16 @@
 
         <seite>5</seite>
 
-        <veranstaltung
-        xml:id="v-1832s-I.II.2-003"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>Geschichte des deutschen Volkes und Reiches, nach
-        <gesperrt>Pölitz</gesperrt> (Lpz. 1816.)</thema>, <zeit>9 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1832s-I.II.2-003"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Geschichte
+        des deutschen Volkes und Reiches, nach <gesperrt>Pölitz</gesperrt>
+        (Lpz. 1816.)</thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
 
-        <veranstaltung xml:id="v-1832s-I.II.2-004"><ders>Derselbe</ders>,
-        <thema><notiz betreff="fortsetzung">zweite und letzte Hälfte des
-        jährigen Kursus</notiz> der europäischen Staaten-Geschichte und
+        <veranstaltung xml:id="v-1832s-I.II.2-004"><ders
+        ref="hasse_fca">Derselbe</ders>, <thema><notiz
+        betreff="fortsetzung">zweite und letzte Hälfte des jährigen
+        Kursus</notiz> der europäischen Staaten-Geschichte und
         Statistik</thema>, <zeit>2 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
@@ -479,11 +479,11 @@
           Gesetze</thema>, <zeit>in zu best. St.</zeit>
           <modus>privatissime</modus>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1832s-I.II.2.x-002"><dozent><nachname>Hasse</nachname>,
-          <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>Uebungen der histor. Gesellschaft</thema>, <zeit>in den best.
-          St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1832s-I.II.2.x-002"><dozent
+          ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+          A.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Uebungen
+          der histor. Gesellschaft</thema>, <zeit>in den best. St.</zeit>
+          <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -755,8 +755,9 @@
       <sachgruppe xml:id="sg-1832s-I.IV.003">
         <titel>Statistik.</titel>
 
-        <veranstaltungsverweis><dozent><nachname>Hasse</nachname>, <vorname>F.
-        C. A.</vorname>, <funktion>P. O.</funktion></dozent>,<siehe> s.
+        <veranstaltungsverweis><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>,<siehe> s.
         Geschichte</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1832s-I.IV.003-001"><dozent
@@ -2499,15 +2500,16 @@
           Anatomie</thema>, <zeit>2 U. 4 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1832s-II.C.I.1-008"><dozent><nachname>Holke</nachname>,
-          <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>über
-          Osteologie u. Syndesmologie</thema>, <zeit>2 T. in zu best.
-          St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1832s-II.C.I.1-008"><dozent
+          ref="holke_fa"><nachname>Holke</nachname>, <grad>D.</grad>
+          <vorname>A.</vorname></dozent>, <thema>über Osteologie u.
+          Syndesmologie</thema>, <zeit>2 T. in zu best. St.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1832s-II.C.I.1-009"><ders>Derselbe</ders>,
-          <thema>über Neurologie u. Sinnesorgane</thema>, <zeit>6 T. in zu
-          best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1832s-II.C.I.1-009"><ders
+          ref="holke_fa">Derselbe</ders>, <thema>über Neurologie u.
+          Sinnesorgane</thema>, <zeit>6 T. in zu best.
+          St.</zeit></veranstaltung>
 
           <sachgruppe xml:id="sg-1832s-II.C.I.1.x">
             <titel>*) Examinatoria.</titel>
@@ -2519,11 +2521,10 @@
             Naturgeschichte</thema>, <zeit>2 T. in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1832s-II.C.I.1.x-002"><dozent><nachname>Holke</nachname>,
-            <grad>D.</grad> <vorname>A.</vorname></dozent>, <thema>über die
-            gesammte Anatomie</thema>, <zeit>in zu best.
-            St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1832s-II.C.I.1.x-002"><dozent
+            ref="holke_fa"><nachname>Holke</nachname>, <grad>D.</grad>
+            <vorname>A.</vorname></dozent>, <thema>über die gesammte
+            Anatomie</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -2565,12 +2566,11 @@
           <thema>nach s. Compendium</thema>, <zeit>4 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1832s-II.C.I.3-002"><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema kontext="sachgruppe">in Verbindung
-          mit Semiotik</thema>, <zeit>11 U. 4 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1832s-II.C.I.3-002"><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>, <thema
+          kontext="sachgruppe">in Verbindung mit Semiotik</thema>, <zeit>11 U.
+          4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1832s-II.C.I.3-003"><dozent
           ref="haenel_af"><nachname>Hänel</nachname>, <grad>D.</grad>
@@ -2612,10 +2612,10 @@
         <sachgruppe xml:id="sg-1832s-II.C.I.6">
           <titel>6) Semiotik.</titel>
 
-          <veranstaltungsverweis><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <siehe>s. allgem.
-          Pathologie</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <siehe>s. allgem. Pathologie</siehe>.</veranstaltungsverweis>
         </sachgruppe>
       </sachgruppe>
 
@@ -2739,12 +2739,11 @@
           gemeine, als sogenannte asiatische</thema>, <zeit>9 U. 2
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1832s-II.C.II.001-007"><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>über die Krankheiten der
-          Tropenländer</thema>, <zeit>4 T. in zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1832s-II.C.II.001-007"><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>über die Krankheiten der Tropenländer</thema>, <zeit>4 T. in
+          zu best. St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1832s-II.C.II.001-008"><dozent
           ref="walther_jkw"><nachname>Walther</nachname>, <grad>D.</grad>

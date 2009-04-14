@@ -424,10 +424,10 @@
       <sachgruppe xml:id="sg-1839s-I.II.001">
         <titel>Urkundenlehre, Heraldik und Genealogie.</titel>
 
-        <veranstaltung
-        xml:id="v-1839s-I.II.001-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>5 U. Dienst. u. Donn.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1839s-I.II.001-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>5 U. Dienst.
+        u. Donn.</zeit></veranstaltung>
       </sachgruppe>
 
       <seite>5</seite>
@@ -459,15 +459,15 @@
         französischen Revolution</thema>, <zeit>2 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1839s-I.II.2-002"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>Darstellung des politischen Zustandes von Europa, nach dem
-        Inhalt der Verträge seit dem Wiener Congresse</thema>, <zeit>2 T. in
-        zu best. St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1839s-I.II.2-002"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Darstellung
+        des politischen Zustandes von Europa, nach dem Inhalt der Verträge
+        seit dem Wiener Congresse</thema>, <zeit>2 T. in zu best.
+        St.</zeit></veranstaltung>
 
-        <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
-        Staatswissenschaften</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><ders ref="hasse_fca">Derselbe</ders>,
+        <siehe>s. Staatswissenschaften</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1839s-I.II.2-003"><dozent
         ref="flathe_jlf"><nachname>Flathe</nachname>, <grad>M.</grad>
@@ -736,12 +736,12 @@
       <sachgruppe xml:id="sg-1839s-I.IV.002">
         <titel>Geschichte und Statistik.</titel>
 
-        <veranstaltung
-        xml:id="v-1839s-I.IV.002-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>Geschichte und Statistik der europäischen Staaten des ersten
-        Ranges (Großbritannien, Frankreich, Oestreich, Preußen und Rußland),
-        nach eigenen Sätzen</thema>, <zeit>10 U. 4 T.</zeit>
+        <veranstaltung xml:id="v-1839s-I.IV.002-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Geschichte
+        und Statistik der europäischen Staaten des ersten Ranges
+        (Großbritannien, Frankreich, Oestreich, Preußen und Rußland), nach
+        eigenen Sätzen</thema>, <zeit>10 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
@@ -2092,11 +2092,11 @@
           <veranstaltungsverweis><ders ref="assmann_fw">Derselbe</ders>,
           <siehe>s. Examinirübungen</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung
-          xml:id="v-1839s-II.C.I.1-007"><dozent><nachname>Hasse</nachname>,
-          <grad>D.</grad> <vorname>K. E.</vorname></dozent>,
-          <thema>pathologische Anatomie</thema>, <zeit>2 T. in zu best.
-          St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1839s-II.C.I.1-007"><dozent
+          ref="hasse_ke"><nachname>Hasse</nachname>, <grad>D.</grad>
+          <vorname>K. E.</vorname></dozent>, <thema>pathologische
+          Anatomie</thema>, <zeit>2 T. in zu best. St.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1839s-II.C.I.1-008"><dozent
           ref="weber_ef"><nachname>Weber</nachname>, <grad>D.</grad>
@@ -2146,12 +2146,11 @@
         <sachgruppe xml:id="sg-1839s-II.C.I.3">
           <titel>3) Allgemeine Pathologie und Semiotik.</titel>
 
-          <veranstaltung
-          xml:id="v-1839s-II.C.I.3-001"><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>allgemeine Pathologie in Verbindung
-          mit Semiotik</thema>, <zeit>11 U. 4 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1839s-II.C.I.3-001"><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>allgemeine Pathologie in Verbindung mit Semiotik</thema>,
+          <zeit>11 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung
           xml:id="v-1839s-II.C.I.3-002"><dozent><nachname>Neubert</nachname>,
@@ -2382,11 +2381,11 @@
 
             <seite>21</seite>
 
-            <veranstaltung
-            xml:id="v-1839s-II.C.II.4.001-005"><dozent><nachname>Hasse</nachname>,
-            <grad>D.</grad> <vorname>K. E.</vorname></dozent>,
-            <thema>chirurgisch-anatomische Demonstrationen an
-            Leichnamen</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1839s-II.C.II.4.001-005"><dozent
+            ref="hasse_ke"><nachname>Hasse</nachname>, <grad>D.</grad>
+            <vorname>K. E.</vorname></dozent>, <thema>chirurgisch-anatomische
+            Demonstrationen an Leichnamen</thema>, <zeit>in zu best.
+            St.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -2536,11 +2535,11 @@
         <sachgruppe xml:id="sg-1839s-II.C.III.2">
           <titel>2) Repetirübungen.</titel>
 
-          <veranstaltung
-          xml:id="v-1839s-II.C.III.2-001"><dozent><nachname>Hasse</nachname>,
-          <grad>D.</grad> <vorname>K. E.</vorname></dozent>, <thema>Leitung
-          der Repetitionen <ort>im königl. klinischen Institute</ort></thema>,
-          <zeit>zu den best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1839s-II.C.III.2-001"><dozent
+          ref="hasse_ke"><nachname>Hasse</nachname>, <grad>D.</grad>
+          <vorname>K. E.</vorname></dozent>, <thema>Leitung der Repetitionen
+          <ort>im königl. klinischen Institute</ort></thema>, <zeit>zu den
+          best. St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1839s-II.C.III.3">

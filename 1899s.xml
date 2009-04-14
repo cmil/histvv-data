@@ -67,9 +67,10 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-I-002"><thema>Hebräische
-      Grammatik</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-      <nachname>Seesemann</nachname></dozent>, <zeit>Mittw. u. Sonnab. 9-10
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Grammatik</thema>: <dozent ref="seesemann_o"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Seesemann</nachname></dozent>,
+      <zeit>Mittw. u. Sonnab. 9-10 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-I-003"><thema>Biblische Theologie des
       Alten Testaments</thema>: <dozent ref="dalmann_hg"><grad>Lic. th.</grad>
@@ -102,9 +103,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-I-008"><thema>Das israelitische
-      Priesterthum</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-      <nachname>Seesemann</nachname></dozent>, <zeit>Mittw. 12-1 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      Priesterthum</thema>: <dozent ref="seesemann_o"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Seesemann</nachname></dozent>,
+      <zeit>Mittw. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-I-009"><thema>Historisch-kritische
       Einleitung in das Neue Testament</thema>: <dozent
@@ -1138,9 +1139,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-041"><thema>Physiologie und
-      Pathologie des Kindesalters</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Seiffert</nachname></dozent>, <zeit>Mont. u. Donnerst. 5-6
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Pathologie des Kindesalters</thema>: <dozent ref="seiffert_m"><grad>D.
+      med.</grad> <nachname>Seiffert</nachname></dozent>, <zeit>Mont. u.
+      Donnerst. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-042"><thema>Specielle Pathologie und
       Therapie der Kinderkrankheiten <notiz betreff="fortsetzung">II.
@@ -1150,7 +1151,7 @@
 
       <veranstaltung xml:id="v-1899s-III-043"><thema>Cursus der
       neuropathologischen Diagnostik mit Einschluss der Elektrodiagnostik und
-      Elektrotherapie</thema>: <dozent><grad>D. med.</grad>
+      Elektrotherapie</thema>: <dozent ref="schuetz_h"><grad>D. med.</grad>
       <nachname>Schütz</nachname></dozent>, <zeit>Dienst. u. Donnerst. 3-4
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1365,7 +1366,7 @@
 
       <veranstaltung xml:id="v-1899s-III-078"><thema>Ausgewählte Kapitel aus
       der Lehre von den Hals-, Nasen- u. Ohrenkrankheiten, mit
-      Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+      Demonstrationen</thema>: <dozent ref="heymann_r"><grad>D. med.</grad>
       <nachname>Heymann</nachname></dozent>, <zeit>Mittw. u. Freit. 8-9
       U.</zeit>, <modus>privatim</modus>. (<gebühr>für Praktikanten der
       Poliklinik gratis</gebühr>).</veranstaltung>
@@ -1373,9 +1374,9 @@
       <seite>16</seite>
 
       <veranstaltung xml:id="v-1899s-III-079"><thema>Cursus der Laryngoskopie,
-      Rhinoskopie und Otoskopie</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Heymann</nachname></dozent>, <zeit>Mont. u. Donnerst. (oder
-      Mittw. u. Freit.) 5-6 (oder 6-7) U.</zeit>,
+      Rhinoskopie und Otoskopie</thema>: <dozent ref="heymann_r"><grad>D.
+      med.</grad> <nachname>Heymann</nachname></dozent>, <zeit>Mont. u.
+      Donnerst. (oder Mittw. u. Freit.) 5-6 (oder 6-7) U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-080"><thema>Specielle Pathologie und
@@ -1486,9 +1487,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-III-097"><thema>Praktikum der klinischen
-      Chemie und Mikroskopie</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Seiffert</nachname></dozent>, <zeit>Sonnab. 2-4 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Chemie und Mikroskopie</thema>: <dozent ref="seiffert_m"><grad>D.
+      med.</grad> <nachname>Seiffert</nachname></dozent>, <zeit>Sonnab. 2-4
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung
       xml:id="v-1899s-III-098"><thema>Distrikts-Poliklinik</thema>: <dozent
@@ -1637,8 +1638,9 @@
         <sachgruppe xml:id="sg-1899s-III.002.a">
           <titel>a) Innere Medicin.</titel>
 
-          <veranstaltung xml:id="v-1899s-III.002.a-001"><dozent><grad>D.
-          med.</grad> <nachname>Schütz</nachname></dozent>, (<thema>für
+          <veranstaltung xml:id="v-1899s-III.002.a-001"><dozent
+          ref="schuetz_h"><grad>D. med.</grad>
+          <nachname>Schütz</nachname></dozent>, (<thema>für
           Nervenkrankheiten</thema>), <zeit>Dienst. u. Sonnab. 2-3 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -1703,10 +1705,11 @@
         <sachgruppe xml:id="sg-1899s-III.002.d">
           <titel>d) Hals-, Nasen- und Ohrenkrankheiten.</titel>
 
-          <veranstaltung xml:id="v-1899s-III.002.d-001"><dozent><grad>D.
-          med.</grad> <nachname>Heymann</nachname></dozent>, <zeit>täglich 7-9
-          U. Vorm.</zeit>, <modus>privatissime</modus>. (<ort>Grimm. Steinweg
-          9. I.</ort>)</veranstaltung>
+          <veranstaltung xml:id="v-1899s-III.002.d-001"><dozent
+          ref="heymann_r"><grad>D. med.</grad>
+          <nachname>Heymann</nachname></dozent>, <zeit>täglich 7-9 U.
+          Vorm.</zeit>, <modus>privatissime</modus>. (<ort>Grimm. Steinweg 9.
+          I.</ort>)</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1899s-III.002.e">
@@ -2009,11 +2012,11 @@
         des.</funktion></dozent>, unter Mitwirkung von <dozent
         ref="lehmann_e"><funktion>Prof.</funktion> <grad>D.</grad>
         <nachname>Lehmann</nachname></dozent> (für Mathematik und
-        Naturwissenschaften) und <dozent><funktion>Prof.</funktion>
-        <grad>D.</grad> <nachname>Hartmann</nachname></dozent> (für
-        Französisch und Englisch), <zeit>Mittw. u. Sonnab. 2-4 U.</zeit>,
-        <modus>privatissime</modus>, aber
-        <gebühr>gratis</gebühr>.</veranstaltung>
+        Naturwissenschaften) und <dozent
+        ref="hartmann_m"><funktion>Prof.</funktion> <grad>D.</grad>
+        <nachname>Hartmann</nachname></dozent> (für Französisch und Englisch),
+        <zeit>Mittw. u. Sonnab. 2-4 U.</zeit>, <modus>privatissime</modus>,
+        aber <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.A-018"><thema>Pädagogische
         Gesellschaft: Ausgewählte Themata aus der Theorie und der Geschichte
@@ -2436,8 +2439,8 @@
           <nachname>Steindorff</nachname>, <funktion>P.
           E.</funktion></dozent>, <modus>publice</modus>.</veranstaltung>
 
-          <veranstaltungsverweis><thema>Hebräische Grammatik</thema>:
-          <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
+          <veranstaltungsverweis><thema>Hebräische Grammatik</thema>: <dozent
+          ref="seesemann_o"><grad>Lic. th.</grad> <grad>D. ph.</grad>
           <nachname>Seesemann</nachname></dozent>. <siehe>Siehe Theologische
           Facultät</siehe>.</veranstaltungsverweis>
 
@@ -2951,14 +2954,15 @@
         Freit. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.C-024"><thema>Landes- und Volkskunde
-        des Thüringer Waldes (mit Projectionsbildern)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hassert</nachname></dozent>,
-        <zeit>Mittw. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        des Thüringer Waldes (mit Projectionsbildern)</thema>: <dozent
+        ref="hassert_k"><grad>D. ph.</grad>
+        <nachname>Hassert</nachname></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.C-025"><thema>Wirthschaftsgeographie
-        der deutschen Schutzgebiete</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hassert</nachname></dozent>, <zeit>Freit. 3-4 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        der deutschen Schutzgebiete</thema>: <dozent ref="hassert_k"><grad>D.
+        ph.</grad> <nachname>Hassert</nachname></dozent>, <zeit>Freit. 3-4
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.C-026"><thema>Die
         Reisebeschreibungen</thema>: <dozent ref="ratzel_f"><grad>D.
@@ -3128,7 +3132,7 @@
           <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1899s-IV.C.003-004"><thema>Geographische
-          Uebungen</thema>: <dozent><grad>D. ph.</grad>
+          Uebungen</thema>: <dozent ref="hassert_k"><grad>D. ph.</grad>
           <nachname>Hassert</nachname></dozent>, <zeit>Freit. ½8 bis 9 U.
           Ab.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3432,15 +3436,15 @@
         <zeit>Sonnab. 3-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.E-008"><thema>Deutsche
-        Kolonialpolitik</thema>: <dozent><grad>D. ph.</grad>
+        Kolonialpolitik</thema>: <dozent ref="hasse_e"><grad>D. ph.</grad>
         <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mittw. u. Sonnab. 12-1 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.E-009"><thema>Einleitung in das
-        Studium der Statistik</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
-        <zeit>Mont. u. Dienst. 12-1 U.</zeit>,
+        Studium der Statistik</thema>: <dozent ref="hasse_e"><grad>D.
+        ph.</grad> <nachname>Hasse</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>Mont. u. Dienst. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.E-010"><thema>Landwirthschaftliche
@@ -3619,7 +3623,7 @@
         <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
         <veranstaltung xml:id="v-1899s-IV.E-029"><thema>Statistisches
-        Seminar</thema>: <dozent><grad>D. ph.</grad>
+        Seminar</thema>: <dozent ref="hasse_e"><grad>D. ph.</grad>
         <nachname>Hasse</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Sonnab. 4-6 U.</zeit>,
         <modus>privatisisme</modus>.</veranstaltung>

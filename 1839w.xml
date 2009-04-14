@@ -499,12 +499,12 @@
         <zeit>11 U. 2 T.</zeit></veranstaltung>)
         <modus>öffentlich</modus>.</veranstaltungsgruppe>
 
-        <veranstaltung
-        xml:id="v-1839w-I.II.2-003"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>Geschichte des deutschen Reichs mit besonderer Rücksicht auf
-        staatsrechtliche Verhältnisse nach <gesperrt>v. Lindelof's</gesperrt>
-        "Deutsche Reichsgeschichte" (Gießen, 1827)</thema> <zeit>9 U. 4
+        <veranstaltung xml:id="v-1839w-I.II.2-003"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Geschichte
+        des deutschen Reichs mit besonderer Rücksicht auf staatsrechtliche
+        Verhältnisse nach <gesperrt>v. Lindelof's</gesperrt> "Deutsche
+        Reichsgeschichte" (Gießen, 1827)</thema> <zeit>9 U. 4
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1839w-I.II.2-004"><dozent
@@ -724,21 +724,21 @@
       <sachgruppe xml:id="sg-1839w-I.IV.001">
         <titel>Geschichte und Statistik.</titel>
 
-        <veranstaltung
-        xml:id="v-1839w-I.IV.001-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>Geschichte u. Statistik der europäischen Staaten, mit Ausschluß
-        der Großmächte</thema>, <zeit>10 U. 4 T.</zeit>
+        <veranstaltung xml:id="v-1839w-I.IV.001-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>Geschichte
+        u. Statistik der europäischen Staaten, mit Ausschluß der
+        Großmächte</thema>, <zeit>10 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1839w-I.IV.002">
         <titel>Staatskunde des Königreichs Sachsen.</titel>
 
-        <veranstaltung
-        xml:id="v-1839w-I.IV.002-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>4 U. 2 T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1839w-I.IV.002-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion></dozent>, <zeit>4 U. 2
+        T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1839w-I.IV.003">
@@ -2164,15 +2164,15 @@
           <veranstaltungsverweis><ders ref="assmann_fw">Derselbe</ders>,
           <siehe>s. Examinir-Uebungen</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung
-          xml:id="v-1839w-II.C.I.1-007"><dozent><nachname>Hasse</nachname>,
-          <grad>D.</grad> <vorname>K. E.</vorname></dozent>,
-          <thema>pathologische Anatomie</thema>, <zeit>2 T. in zu best.
-          St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.C.I.1-007"><dozent
+          ref="hasse_ke"><nachname>Hasse</nachname>, <grad>D.</grad>
+          <vorname>K. E.</vorname></dozent>, <thema>pathologische
+          Anatomie</thema>, <zeit>2 T. in zu best. St.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1839w-II.C.I.1-008"><ders>Derselbe</ders>,
-          <thema>chirurgische Anatomie</thema>, <zeit>in zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.C.I.1-008"><ders
+          ref="hasse_ke">Derselbe</ders>, <thema>chirurgische
+          Anatomie</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1839w-II.C.I.1-009"><dozent
           ref="weber_ef"><nachname>Weber</nachname>, <grad>D.</grad>
@@ -2216,11 +2216,10 @@
         <sachgruppe xml:id="sg-1839w-II.C.I.4">
           <titel>4) Allgemeine Therapie.</titel>
 
-          <veranstaltung
-          xml:id="v-1839w-II.C.I.4-001"><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>11 U. 2 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.C.I.4-001"><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>11
+          U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltungsverweis><dozent><nachname>Neubert</nachname>,
           <grad>D.</grad> <vorname>K. A.</vorname></dozent>, <siehe>s.
@@ -2312,11 +2311,11 @@
         <sachgruppe xml:id="sg-1839w-II.C.II.4">
           <titel>4) Specielle Pathologie.</titel>
 
-          <veranstaltung
-          xml:id="v-1839w-II.C.II.4-001"><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <thema>specielle Pathologie u.
-          Therapie</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.C.II.4-001"><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <thema>specielle Pathologie u. Therapie</thema>, <zeit>11 U. 4
+          T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1839w-II.C.II.5">
@@ -2333,10 +2332,10 @@
           xml:id="v-1839w-II.C.II.5-002"><zeit>11 U. u. 4 U. 2 T.</zeit>
           <modus>öffentlich</modus></veranstaltung>.</veranstaltungsgruppe>
 
-          <veranstaltungsverweis><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <siehe>s. Specielle
-          Pathologie</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <siehe>s. Specielle Pathologie</siehe>.</veranstaltungsverweis>
 
           <sachgruppe xml:id="sg-1839w-II.C.II.5.001">
             <titel>Ueber einzelne Krankheiten.</titel>
@@ -2577,12 +2576,11 @@
           <vorname>F. W.</vorname></dozent>, <siehe>s.
           Examinir-Uebungen</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung
-          xml:id="v-1839w-II.C.III.3-001"><dozent><nachname>Hasse</nachname>,
-          <grad>D.</grad> <vorname>K. E.</vorname></dozent>, <thema>Leitung
-          der ihm übertragenen Repetitionen <ort>im
-          Jakobshospitale</ort></thema>, <zeit>in den best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.C.III.3-001"><dozent
+          ref="hasse_ke"><nachname>Hasse</nachname>, <grad>D.</grad>
+          <vorname>K. E.</vorname></dozent>, <thema>Leitung der ihm
+          übertragenen Repetitionen <ort>im Jakobshospitale</ort></thema>,
+          <zeit>in den best. St.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>

@@ -465,9 +465,9 @@
       <sachgruppe xml:id="sg-1840w-I.II.2">
         <titel>2) Besondere Geschichte.</titel>
 
-        <veranstaltung
-        xml:id="v-1840w-I.II.2-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion>, d. Z.
+        <veranstaltung xml:id="v-1840w-I.II.2-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion>, d. Z.
         <funktion>Dechant</funktion></dozent>, <thema>Geschichte des deutschen
         Reichs mit besonderer Rücksicht auf staatsrechtliche Verhältnisse,
         nach <gesperrt>v. Lindelof's</gesperrt> "Deutsche Reichsgeschichte"
@@ -740,9 +740,9 @@
       <sachgruppe xml:id="sg-1840w-I.IV.001">
         <titel>Geschichte und Statistik.</titel>
 
-        <veranstaltung
-        xml:id="v-1840w-I.IV.001-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion>, d. Z.
+        <veranstaltung xml:id="v-1840w-I.IV.001-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion>, d. Z.
         <funktion>Dechant</funktion></dozent>, <thema>Geschichte u. Statistik
         der europäischen Großmächte</thema>, <zeit>10 U. 4 T.</zeit>
         <modus>öffentl.</modus></veranstaltung>
@@ -757,9 +757,9 @@
       <sachgruppe xml:id="sg-1840w-I.IV.002">
         <titel>Entwicklung des politischen Zustandes von Europa.</titel>
 
-        <veranstaltung
-        xml:id="v-1840w-I.IV.002-001"><dozent><nachname>Hasse</nachname>,
-        <vorname>F. C. A.</vorname>, <funktion>P. O.</funktion>, d. Z.
+        <veranstaltung xml:id="v-1840w-I.IV.002-001"><dozent
+        ref="hasse_fca"><nachname>Hasse</nachname>, <vorname>F. C.
+        A.</vorname>, <funktion>P. O.</funktion>, d. Z.
         <funktion>Dechant</funktion></dozent>, <thema>nach dem Inhalte der
         Verträge seit dem Wiener Congresse</thema>, <zeit>3 U. Dienst. u.
         Freit.</zeit></veranstaltung>
@@ -2192,15 +2192,15 @@ siehe "Repetitoria über Moral"-->
           Anatomie</thema>, <zeit>11 U. 4 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1840w-II.C.I.1-007"><dozent><nachname>Hasse</nachname>,
-          <grad>D.</grad> <vorname>K. E.</vorname></dozent>,
-          <thema>pathologische Anatomie</thema>, <zeit>2 T. in zu best.
-          St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1840w-II.C.I.1-007"><dozent
+          ref="hasse_ke"><nachname>Hasse</nachname>, <grad>D.</grad>
+          <vorname>K. E.</vorname></dozent>, <thema>pathologische
+          Anatomie</thema>, <zeit>2 T. in zu best. St.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1840w-II.C.I.1-008"><ders>Derselbe</ders>,
-          <thema>chirurgische Anatomie</thema>, <zeit>in zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1840w-II.C.I.1-008"><ders
+          ref="hasse_ke">Derselbe</ders>, <thema>chirurgische
+          Anatomie</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1840w-II.C.I.1-009"><dozent
           ref="weber_ef"><nachname>Weber</nachname>, <grad>D.</grad>
@@ -2233,10 +2233,10 @@ siehe "Repetitoria über Moral"-->
           <thema>allgemeine Pathologie</thema>, <zeit>11 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1840w-II.C.I.3-002"><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname></dozent>, <thema>allgemeine
-          Pathologie u. Semiotik</thema>, <zeit>11 U. 4 T.</zeit>
+          <veranstaltung xml:id="v-1840w-II.C.I.3-002"><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname></dozent>, <thema>allgemeine Pathologie u.
+          Semiotik</thema>, <zeit>11 U. 4 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung
@@ -2290,10 +2290,10 @@ siehe "Repetitoria über Moral"-->
         <sachgruppe xml:id="sg-1840w-II.C.I.7">
           <titel>7) Semiotik.</titel>
 
-          <veranstaltungsverweis><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P.
-          E.</funktion></dozent>, <siehe>s. Allgemeine
-          Pathologie</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>,
+          <siehe>s. Allgemeine Pathologie</siehe>.</veranstaltungsverweis>
 
           <veranstaltungsverweis><dozent><nachname>Neubert</nachname>,
           <grad>D.</grad> <vorname>K. A.</vorname></dozent>, <siehe>s.
@@ -2646,12 +2646,11 @@ siehe "Repetitoria über Moral"-->
           <vorname>F. W.</vorname></dozent>, <siehe>s.
           Examinir-Uebungen</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung
-          xml:id="v-1840w-II.C.III.3-001"><dozent><nachname>Hasse</nachname>,
-          <grad>D.</grad> <vorname>K. E.</vorname></dozent>, <thema>Leitung
-          der ihm übertragenen Repetitionen <ort>im
-          Jakobshospital</ort></thema>, <zeit>in den best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1840w-II.C.III.3-001"><dozent
+          ref="hasse_ke"><nachname>Hasse</nachname>, <grad>D.</grad>
+          <vorname>K. E.</vorname></dozent>, <thema>Leitung der ihm
+          übertragenen Repetitionen <ort>im Jakobshospital</ort></thema>,
+          <zeit>in den best. St.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>

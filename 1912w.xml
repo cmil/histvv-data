@@ -210,9 +210,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912w-I-019"><thema>Kirchengeschichte des 19.
-      Jahrhunderts</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-      <nachname>Hermelink</nachname></dozent>, <zeit>Mi. 12-1 u. So. 8-9
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Jahrhunderts</thema>: <dozent ref="hermelink_h"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Hermelink</nachname></dozent>, <zeit>Mi.
+      12-1 u. So. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912w-I-020"><thema>Dogmengeschichte</thema>:
       <dozent ref="hauck_a"><grad>D. th., jur. et ph.</grad>
@@ -266,9 +266,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912w-I-028"><thema>Die christliche Mission in
-      Indien, Japan und China</thema>: <dozent><grad>Lic. th.</grad> <grad>D.
-      ph.</grad> <nachname>Hermelink</nachname></dozent>, <zeit>Mi. 11-12
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Indien, Japan und China</thema>: <dozent ref="hermelink_h"><grad>Lic.
+      th.</grad> <grad>D. ph.</grad> <nachname>Hermelink</nachname></dozent>,
+      <zeit>Mi. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912w-I-029"><thema>Geschichte und Bestand der
       deutsch-evangelischen Diaspora</thema>: <dozent
@@ -403,10 +403,10 @@
 
       <veranstaltung xml:id="v-1912w-I-048"><thema>Kirchengeschichtliche
       Übungen (über das kirchliche Leben in Leipzig, mit Anleitung zu
-      ortsgeschichtlichen Studien)</thema>: <dozent><grad>Lic. th.</grad>
-      <grad>D. ph.</grad> <nachname>Hermelink</nachname></dozent>, <zeit>Do.
-      7¾-9¼ U. Ab.</zeit>, <modus>privatissime</modus> et
-      <gebühr>gratis</gebühr>.</veranstaltung>
+      ortsgeschichtlichen Studien)</thema>: <dozent
+      ref="hermelink_h"><grad>Lic. th.</grad> <grad>D. ph.</grad>
+      <nachname>Hermelink</nachname></dozent>, <zeit>Do. 7¾-9¼ U. Ab.</zeit>,
+      <modus>privatissime</modus> et <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912w-I-049"><thema>Religionsgeschichtliche
       Übungen: Antike Himmelskunde</thema>: <dozent><grad>Lic. th.</grad>
@@ -1089,13 +1089,15 @@
 
         <veranstaltung xml:id="v-1912w-III.003-007"><thema>Physiologie und
         Hygiene der Milch (für Ärzte, Tierärzte und Landwirte)</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Seiffert</nachname></dozent>,
-        <zeit>Mo. u. Do. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im
+        <dozent ref="seiffert_m"><grad>D. med.</grad>
+        <nachname>Seiffert</nachname></dozent>, <zeit>Mo. u. Do. 5-6
+        U.</zeit>, <modus>privatim</modus>, <ort>im
         Universitätsgebäude</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.003-008"><thema>Die Lehre vom Leben
         (Allgemeine Biologie, <notiz betreff="fortsetzung">I. Teil</notiz>),
-        für Studierende aller Fakultäten</thema>: <dozent><grad>D. med.</grad>
+        für Studierende aller Fakultäten</thema>: <dozent
+        ref="seiffert_m"><grad>D. med.</grad>
         <nachname>Seiffert</nachname></dozent>, <zeit>Mi. 5 bis 6 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
@@ -1686,16 +1688,16 @@
 
         <veranstaltung xml:id="v-1912w-III.009-014"><thema>Ausgewählte Kapitel
         aus der Pathologie und Therapie der Augenkrankheiten (mit
-        Demonstrationen)</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Seefelder</nachname></dozent>, <zeit>Do. 11-12 U.</zeit>,
-        <modus>privatim</modus>, <ort>in der Heilanstalt für Augenkranke,
-        Liebigstr. 14</ort>.</veranstaltung>
+        Demonstrationen)</thema>: <dozent ref="seefelder_r"><grad>D.
+        med.</grad> <nachname>Seefelder</nachname></dozent>, <zeit>Do. 11-12
+        U.</zeit>, <modus>privatim</modus>, <ort>in der Heilanstalt für
+        Augenkranke, Liebigstr. 14</ort>.</veranstaltung>
 
         <seite>17</seite>
 
         <veranstaltung xml:id="v-1912w-III.009-015"><thema>Arbeiten <ort>im
         Laboratorium der Universitätsaugenklinik (Liebigstr. 14.)</ort> für
-        Geübtere</thema>: <dozent><grad>D. med.</grad>
+        Geübtere</thema>: <dozent ref="seefelder_r"><grad>D. med.</grad>
         <nachname>Seefelder</nachname></dozent>, <zeit>tägl. 5 bis 7
         U.</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -1747,7 +1749,7 @@
         9</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.010-007"><thema>Psychiatrie mit
-        Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+        Demonstrationen</thema>: <dozent ref="schuetz_h"><grad>D. med.</grad>
         <nachname>Schütz</nachname></dozent>, <zeit>So. 5-7 U.</zeit>,
         <modus>privatim</modus>, <ort>im Hygienischen Institut, Liebigstr.
         24</ort>.</veranstaltung>
@@ -1842,16 +1844,17 @@
         I.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.011-004"><thema>Spezielle Therapie
-        der Kinderkrankheiten</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Hohlfeld</nachname></dozent>, <zeit>Di. 5-6 U.</zeit>,
-        <modus>publice</modus>, <ort>im Kinderkrankenhause, Platzmannstr.
-        1</ort>.</veranstaltung>
+        der Kinderkrankheiten</thema>: <dozent ref="hohlfeld_m"><grad>D.
+        med.</grad> <nachname>Hohlfeld</nachname></dozent>, <zeit>Di. 5-6
+        U.</zeit>, <modus>publice</modus>, <ort>im Kinderkrankenhause,
+        Platzmannstr. 1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.011-005"><thema>Kursus der
-        klinischen Mikroskopie und Bakteriologie</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Hohlfeld</nachname></dozent>, <zeit>Fr. 5-6½
-        U.</zeit>, <modus>privatissime</modus>, <ort>im Kinderkrankenhaus,
-        Platzmannstr. 1</ort>.</veranstaltung>
+        klinischen Mikroskopie und Bakteriologie</thema>: <dozent
+        ref="hohlfeld_m"><grad>D. med.</grad>
+        <nachname>Hohlfeld</nachname></dozent>, <zeit>Fr. 5-6½ U.</zeit>,
+        <modus>privatissime</modus>, <ort>im Kinderkrankenhaus, Platzmannstr.
+        1</ort>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1912w-III.012">
@@ -1937,11 +1940,12 @@
         18a</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.013-003"><thema>Übungen in der
-        Untersuchung von Hals, Nase und Ohr (für Anfänger)</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Heymann</nachname></dozent>,
-        <zeit>an zwei zu vereinbar. Tagen 5-6 oder 6-7 U.</zeit>,
-        <modus>privatim</modus>, <ort>in der Privatpoliklinik für Hals-,
-        Nasen- und Ohrenkrankheiten, Königstr. 14. I.</ort></veranstaltung>
+        Untersuchung von Hals, Nase und Ohr (für Anfänger)</thema>: <dozent
+        ref="heymann_r"><grad>D. med.</grad>
+        <nachname>Heymann</nachname></dozent>, <zeit>an zwei zu vereinbar.
+        Tagen 5-6 oder 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der
+        Privatpoliklinik für Hals-, Nasen- und Ohrenkrankheiten, Königstr. 14.
+        I.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.013-004"><thema>Einführung in die
         Oto-, Rhino-Laryngologie (mit Krankenvorführungen)</thema>:
@@ -2001,15 +2005,15 @@
         <zeit>Mi. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.014-006"><thema>Auserwählte Kapitel
-        aus der allgemeinen Hygiene</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Schmidt</nachname></dozent>, <zeit>in einer noch zu vereinb.
-        Stunde</zeit>, <modus>privatim</modus>, <ort>im Hygienischen Institut,
-        Liebigstr. 24</ort>.</veranstaltung>
+        aus der allgemeinen Hygiene</thema>: <dozent ref="schmidt_p"><grad>D.
+        med.</grad> <nachname>Schmidt</nachname></dozent>, <zeit>in einer noch
+        zu vereinb. Stunde</zeit>, <modus>privatim</modus>, <ort>im
+        Hygienischen Institut, Liebigstr. 24</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.014-007"><thema>Tropenhygiene und
-        Tropenkrankheiten</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Schmidt</nachname></dozent>, <zeit>in einer noch zu
-        vereinbar. Stunde</zeit>, <modus>privatim</modus>, <ort>im
+        Tropenkrankheiten</thema>: <dozent ref="schmidt_p"><grad>D.
+        med.</grad> <nachname>Schmidt</nachname></dozent>, <zeit>in einer noch
+        zu vereinbar. Stunde</zeit>, <modus>privatim</modus>, <ort>im
         Hygienischen Institut, Liebigstr. 24</ort>.</veranstaltung>
       </sachgruppe>
 
@@ -2248,8 +2252,8 @@
         elektrotechnische und photographische Übungen (einschl.
         Röntgenaufnahmen)</thema>: <dozent
         ref="pfaff_w"><nachname>Pfaff</nachname>, <funktion>P.
-        E.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
-        <nachname>Schönbeck</nachname></dozent> u.
+        E.</funktion></dozent>, mit <dozent ref="schoenbeck_f"><grad>D.
+        ph.</grad> <nachname>Schönbeck</nachname></dozent> u.
         <dozent><funktion>Zahnarzt</funktion>
         <nachname>Nauenburg</nachname></dozent>, <zeit>in noch zu best.
         Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -2271,9 +2275,9 @@
         13</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.018-016"><thema>Hygiene und
-        Bakteriologie für Zahnärzte</thema>: <dozent><grad>D. med.</grad>
-        <nachname>Schmidt</nachname></dozent>, <zeit>in einer noch zu
-        vereinbar. Stunde</zeit>, <modus>privatim</modus>, <ort>im
+        Bakteriologie für Zahnärzte</thema>: <dozent ref="schmidt_p"><grad>D.
+        med.</grad> <nachname>Schmidt</nachname></dozent>, <zeit>in einer noch
+        zu vereinbar. Stunde</zeit>, <modus>privatim</modus>, <ort>im
         Hygienischen Institut, Liebigstr. 24</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-III.018-017"><thema>Pharmakologie und
@@ -2582,8 +2586,8 @@
           <dozent ref="lehmann_e">unter Mitwirkung von
           <funktion>Prof.</funktion> <grad>D.</grad>
           <nachname>Lehmann</nachname> (für Mathematik und
-          Naturwissenschaften)</dozent>, und
-          <dozent><funktion>Prof.</funktion> <grad>D.</grad>
+          Naturwissenschaften)</dozent>, und <dozent
+          ref="hartmann_m"><funktion>Prof.</funktion> <grad>D.</grad>
           <nachname>Hartmann</nachname> (für Französisch und
           Englisch)</dozent>, <zeit>Mi. u. So. 2-4 U.</zeit>,
           <modus>privatissime</modus>, aber
@@ -3450,7 +3454,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.C-004"><thema>Zwölf Querschnitte
-        antiker Kultur</thema>: <dozent><grad>D. ph.</grad>
+        antiker Kultur</thema>: <dozent ref="schulz_ot"><grad>D. ph.</grad>
         <nachname>Schulz</nachname></dozent>, <zeit>Do. 6-7 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
@@ -3502,7 +3506,8 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.C-012"><thema>Geschichte und Kultur
-        der Renaissance in Italien</thema>: <dozent><grad>D. ph.</grad>
+        der Renaissance in Italien</thema>: <dozent
+        ref="schmeidler_b"><grad>D. ph.</grad>
         <nachname>Schmeidler</nachname></dozent>, <zeit>Mo. u. Do. 4-5
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3644,9 +3649,10 @@
               <nachname>Strieder</nachname></dozent>, <zeit>Mi. 7¾-9¼ U.
               Ab.</zeit>, <modus>privatissime</modus>, sed
               <gebühr>gratis</gebühr>.</veranstaltung> <veranstaltung
-              xml:id="v-1912w-IV.C.001.B.001-003">3) <dozent><grad>D.
-              ph.</grad> <nachname>Schmeidler</nachname></dozent>, <zeit>Do.
-              7¾-9¼ U. Ab.</zeit>, <modus>privatissime</modus>, sed
+              xml:id="v-1912w-IV.C.001.B.001-003">3) <dozent
+              ref="schmeidler_b"><grad>D. ph.</grad>
+              <nachname>Schmeidler</nachname></dozent>, <zeit>Do. 7¾-9¼ U.
+              Ab.</zeit>, <modus>privatissime</modus>, sed
               <gebühr>gratis</gebühr>.</veranstaltung> <veranstaltung
               xml:id="v-1912w-IV.C.001.B.001-004">Für die Teilnehmer an den
               Vorkursen wird ein gemeinsamer <thema>bibliographischer
@@ -3660,10 +3666,10 @@
               <veranstaltung xml:id="v-1912w-IV.C.001.B.002-001"><dozent
               ref="seeliger_g"><grad>D. ph.</grad>
               <nachname>Seeliger</nachname>, <funktion>P.
-              O.</funktion></dozent>, mit <dozent><grad>D. ph.</grad>
-              <nachname>Schmeidler</nachname></dozent>: <thema>Paläographische
-              Übungen für Fortgeschrittene</thema>, <zeit>Mi. 10-11 U.</zeit>,
-              <modus>privatissime</modus>, sed
+              O.</funktion></dozent>, mit <dozent ref="schmeidler_b"><grad>D.
+              ph.</grad> <nachname>Schmeidler</nachname></dozent>:
+              <thema>Paläographische Übungen für Fortgeschrittene</thema>,
+              <zeit>Mi. 10-11 U.</zeit>, <modus>privatissime</modus>, sed
               <gebühr>gratis</gebühr>.</veranstaltung>
             </sachgruppe>
 
@@ -3894,7 +3900,8 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
           et <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1912w-IV.C.003-003"><thema>Übungen zu den
-          Scriptores Historiae Augustae</thema>: <dozent><grad>D. ph.</grad>
+          Scriptores Historiae Augustae</thema>: <dozent
+          ref="schulz_ot"><grad>D. ph.</grad>
           <nachname>Schulz</nachname></dozent>, <zeit>Do. 7¾-9¼ U. Ab.</zeit>,
           <modus>privatissime</modus>, sed
           <gebühr>gratis</gebühr>.</veranstaltung>
@@ -5108,10 +5115,11 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
 
         <veranstaltung xml:id="v-1912w-IV.G-048"><thema>Allgemeine
         vergleichende Entwicklungsgeschichte (Entstehung der
-        Geschlechtsprodukte, Furchung und Keimblätterbildung)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hempelmann</nachname></dozent>,
-        <zeit>Fr. 4-5 U.</zeit>, <modus>privatim</modus>, <ort>im Zoolog.
-        Institut, Talstr. 33</ort>.</veranstaltung>
+        Geschlechtsprodukte, Furchung und Keimblätterbildung)</thema>: <dozent
+        ref="hempelmann_f"><grad>D. ph.</grad>
+        <nachname>Hempelmann</nachname></dozent>, <zeit>Fr. 4-5 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Zoolog. Institut, Talstr.
+        33</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912w-IV.G-049"><thema>Allgemeine
         Biologie</thema>: <dozent ref="simroth_h"><grad>D. ph.</grad>

@@ -2027,12 +2027,11 @@
       <sachgruppe xml:id="sg-1826s-II.C.001">
         <titel>Geschichte der Heilkunde.</titel>
 
-        <veranstaltung
-        xml:id="v-1826s-II.C.001-001"><dozent><nachname>Hasper</nachname>,
-        <grad>D.</grad> <vorname>M.</vorname>, <funktion>P. E.
-        des.</funktion></dozent>, <thema kontext="sachgruppe">pragmatische u.
-        literärische</thema>, <zeit>3 U. 2 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1826s-II.C.001-001"><dozent
+        ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+        <vorname>M.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+        <thema kontext="sachgruppe">pragmatische u. literärische</thema>,
+        <zeit>3 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1826s-II.C.002">
@@ -2154,12 +2153,12 @@
             <thema>über die Krankheiten der Haut</thema>, <zeit>7 U. Vorm. 2
             T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1826s-II.C.I.3.002-005"><dozent><nachname>Hasper</nachname>,
-            <grad>D.</grad> <vorname>M.</vorname>, <funktion>P. E.
-            des.</funktion></dozent>, <thema>specielle Pathologie u. Therapie,
-            in Verbindung mit Disputir- u. Examinirübungen über denselben
-            Gegenstand</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1826s-II.C.I.3.002-005"><dozent
+            ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+            <vorname>M.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+            <thema>specielle Pathologie u. Therapie, in Verbindung mit
+            Disputir- u. Examinirübungen über denselben Gegenstand</thema>,
+            <zeit>3 U. 4 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1826s-II.C.I.3.002-006"><dozent
             ref="radius_j"><nachname>Radius</nachname>, <grad>D.</grad>
@@ -2294,9 +2293,10 @@
             betreff="fortsetzung">Fortsetzung</notiz></thema>, <zeit>9 U. 4
             T.</zeit></veranstaltung>
 
-            <veranstaltungsverweis><dozent><nachname>Hasper</nachname>,
-            <grad>D.</grad> <vorname>M.</vorname>, <funktion>P. E.
-            des.</funktion></dozent>, <siehe>s. die specielle
+            <veranstaltungsverweis><dozent
+            ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+            <vorname>M.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+            <siehe>s. die specielle
             Pathologie</siehe>.</veranstaltungsverweis>
           </sachgruppe>
         </sachgruppe>
@@ -2407,10 +2407,10 @@
           <vorname>C. G.</vorname></dozent>, <thema>über Chemie, Anatomie u.
           Physiologie</thema>, <zeit>9 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltungsverweis><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P. E.
-          des.</funktion></dozent>, <siehe>s. specielle
-          Pathologie</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+          <siehe>s. specielle Pathologie</siehe>.</veranstaltungsverweis>
 
           <veranstaltung xml:id="v-1826s-II.C.III.001-003"><dozent
           ref="haenel_af"><nachname>Hänel</nachname>, <grad>D.</grad>
@@ -2426,10 +2426,10 @@
           <vorname>C. G.</vorname>, <funktion>P. O.</funktion></dozent>
           <zeit>4 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltungsverweis><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname>, <funktion>P. E.
-          des.</funktion></dozent>, <siehe>s. specielle
-          Pathologie</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname>, <funktion>P. E. des.</funktion></dozent>,
+          <siehe>s. specielle Pathologie</siehe>.</veranstaltungsverweis>
 
           <veranstaltung xml:id="v-1826s-II.C.III.002-002"><dozent
           ref="hacker_ha"><nachname>Hacker</nachname>, <grad>D.</grad>
@@ -2458,8 +2458,8 @@
   bedienen.</absatz>
 
   <absatz>Zur höhern Ausbildung in der Tonkunst giebt die mit der Universität
-  vereinigte und unter der Leitung des
-  <dozent><funktion>Universitäts-Musikdirectors</funktion> und
+  vereinigte und unter der Leitung des <dozent
+  ref="schulz_jpc"><funktion>Universitäts-Musikdirectors</funktion> und
   <funktion>Musiklehrers</funktion> <nachname>Schulz</nachname></dozent>
   bestehende Singakademie Gelegenheit.</absatz>
 

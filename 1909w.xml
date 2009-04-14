@@ -164,9 +164,9 @@
 
       <veranstaltung xml:id="v-1909w-I-015"><thema>Kirchengeschichte <notiz
       betreff="fortsetzung">III. Teil</notiz> (von der Reformation bis zur
-      Aufklärung)</thema>: <dozent><grad>Lic. th.</grad> <grad>D. ph.</grad>
-      <nachname>Hermelink</nachname></dozent>, <zeit>Mont. bis Freit. 8-9
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Aufklärung)</thema>: <dozent ref="hermelink_h"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Hermelink</nachname></dozent>, <zeit>Mont.
+      bis Freit. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1909w-I-016"><thema>Kirchengeschichte des 19.
       Jahrhunderts</thema>: <dozent ref="hauck_a"><grad>D. th., jur. et
@@ -527,9 +527,10 @@
       C.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Geschichte des Untergangs der antiken Welt
-      (v. d. Mitte des 2. Jahrh. n. Chr. ab)</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Schulz</nachname></dozent>. <siehe>Siehe
-      Philosophische Fakultät C.</siehe></veranstaltungsverweis>
+      (v. d. Mitte des 2. Jahrh. n. Chr. ab)</thema>: <dozent
+      ref="schulz_ot"><grad>D. ph.</grad>
+      <nachname>Schulz</nachname></dozent>. <siehe>Siehe Philosophische
+      Fakultät C.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Ausgewählte Kapitel aus d. byzantin.
       Kulturgeschichte</thema>: <dozent ref="dieterich_k"><grad>D. ph.</grad>
@@ -678,9 +679,10 @@
       Fakultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Die Lehre vom Leben, <notiz
-      betreff="fortsetzung">I. Teil</notiz></thema>: <dozent><grad>D.
-      med.</grad> <nachname>Seiffert</nachname></dozent>. <siehe>Siehe
-      Medizinische Fakultät.</siehe></veranstaltungsverweis>
+      betreff="fortsetzung">I. Teil</notiz></thema>: <dozent
+      ref="seiffert_m"><grad>D. med.</grad>
+      <nachname>Seiffert</nachname></dozent>. <siehe>Siehe Medizinische
+      Fakultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Gesundheitspflege des Auges</thema>:
       <dozent ref="schwarz_o"><grad>D. med.</grad> <vorname>O.</vorname>
@@ -1072,8 +1074,9 @@
       Quellenkunde</thema>.</veranstaltungsverweis> -
       <veranstaltungsverweis><thema>Geschichte des Untergangs der antiken Welt
       (v. d. Mitte d. 2. Jahrh. n. Chr. ab)</thema></veranstaltungsverweis>:
-      <dozent><grad>D. ph.</grad> <nachname>Schulz</nachname></dozent>.
-      <siehe>Siehe Philosophische Fakultät C.</siehe></veranstaltungsgruppe>
+      <dozent ref="schulz_ot"><grad>D. ph.</grad>
+      <nachname>Schulz</nachname></dozent>. <siehe>Siehe Philosophische
+      Fakultät C.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Deutsche Geschichte von den ält. Zeiten
       bis zu den Karolingern</thema>: <dozent ref="doren_aj"><grad>D.
@@ -1103,8 +1106,9 @@
 
       <veranstaltungsverweis><thema>Quellenkunde zur deutschen Geschichte im
       Mittelalter, <notiz betreff="fortsetzung">I. Teil</notiz></thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Schmeidler</nachname></dozent>.
-      <siehe>Siehe Philosophische Fakultät C.</siehe></veranstaltungsverweis>
+      <dozent ref="schmeidler_b"><grad>D. ph.</grad>
+      <nachname>Schmeidler</nachname></dozent>. <siehe>Siehe Philosophische
+      Fakultät C.</siehe></veranstaltungsverweis>
 
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Geschichte des
       Städtewesens und Bürgertums</thema>.</veranstaltungsverweis> -
@@ -1189,9 +1193,10 @@
       Fakultät.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Die Lehre vom Leben, <notiz
-      betreff="fortsetzung">I. Teil</notiz></thema>: <dozent><grad>D.
-      med.</grad> <nachname>Seiffert</nachname></dozent>. <siehe>Siehe
-      Medizinische Fakultät.</siehe></veranstaltungsverweis>
+      betreff="fortsetzung">I. Teil</notiz></thema>: <dozent
+      ref="seiffert_m"><grad>D. med.</grad>
+      <nachname>Seiffert</nachname></dozent>. <siehe>Siehe Medizinische
+      Fakultät.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Die Lehre von den Tonempfindungen</thema>:
       <dozent ref="fischer_o"><grad>D. med. et ph.</grad>
@@ -1376,7 +1381,7 @@ gerissen.--></veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-018"><thema>Die Lehre vom Leben,
       <notiz betreff="fortsetzung">I. Teil</notiz> (für Studierende aller
-      Fakultäten)</thema>: <dozent><grad>D. med.</grad>
+      Fakultäten)</thema>: <dozent ref="seiffert_m"><grad>D. med.</grad>
       <nachname>Seiffert</nachname></dozent>, <zeit>Donnerst. 5-6 U.</zeit>,
       <modus>publice</modus>, <ort>im
       Universitätsgebäude</ort>.</veranstaltung>
@@ -1454,16 +1459,17 @@ gerissen.--></veranstaltung>
       Liebigstr. 24</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-028"><thema>Über auserwählte Kapitel
-      aus dem Gebiete der Hygiene</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Schmidt</nachname></dozent>, <zeit>in noch zu vereinb.
-      Zeit</zeit>, <modus>privatim</modus>, <ort>im Hygienischen Institut,
-      Liebigstr. 24</ort>.</veranstaltung>
+      aus dem Gebiete der Hygiene</thema>: <dozent ref="schmidt_p"><grad>D.
+      med.</grad> <nachname>Schmidt</nachname></dozent>, <zeit>in noch zu
+      vereinb. Zeit</zeit>, <modus>privatim</modus>, <ort>im Hygienischen
+      Institut, Liebigstr. 24</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-029"><thema>Physiologie und Hygiene
-      der Milch (für Ärzte, Tierärzte u. Landwirte)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Seiffert</nachname></dozent>, <zeit>in noch zu
-      best. Stunden</zeit>, <modus>privatim</modus>, <ort>im
-      Kinderkrankenhause, Platzmannstr. 1</ort>.</veranstaltung>
+      der Milch (für Ärzte, Tierärzte u. Landwirte)</thema>: <dozent
+      ref="seiffert_m"><grad>D. med.</grad>
+      <nachname>Seiffert</nachname></dozent>, <zeit>in noch zu best.
+      Stunden</zeit>, <modus>privatim</modus>, <ort>im Kinderkrankenhause,
+      Platzmannstr. 1</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-030"><thema>Hygienische
       Besprechungen</thema>: <dozent ref="hofmann_f"><grad>D. med.</grad>
@@ -1492,7 +1498,7 @@ gerissen.--></veranstaltung>
       <zeit>Mittw. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-034"><thema>Über Tropenhygiene und
-      Tropenkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Tropenkrankheiten</thema>: <dozent ref="schmidt_p"><grad>D. med.</grad>
       <nachname>Schmidt</nachname></dozent>, <zeit>in noch zu vereinbar.
       Zeit</zeit>, <modus>privatim</modus>, <ort>im Hygienischen Institut,
       Liebigstr. 24</ort>.</veranstaltung>
@@ -1608,7 +1614,7 @@ gerissen.--></veranstaltung>
       <seite>15</seite>
 
       <veranstaltung xml:id="v-1909w-III-050"><thema>Spezielle Therapie der
-      Kinderkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Kinderkrankheiten</thema>: <dozent ref="hohlfeld_m"><grad>D. med.</grad>
       <nachname>Hohlfeld</nachname></dozent>, <zeit>Mont. 5-6 U.</zeit>,
       <modus>publice</modus>, <ort>in der Kinderklinik, Platzmannstr.
       1</ort>.</veranstaltung>
@@ -1675,7 +1681,7 @@ gerissen.--></veranstaltung>
       <trennlinie/>
 
       <veranstaltung xml:id="v-1909w-III-060"><thema>Psychiatrie mit
-      Demonstrationen</thema>: <dozent><grad>D. med.</grad>
+      Demonstrationen</thema>: <dozent ref="schuetz_h"><grad>D. med.</grad>
       <nachname>Schütz</nachname></dozent>, <zeit>Sonnab. 5-7 U.</zeit>,
       <modus>privatim</modus>, <ort>im Hygienischen Institut, Liebigstr.
       24</ort>.</veranstaltung>
@@ -1925,7 +1931,7 @@ gerissen.--></veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-096"><thema>Ausgewählte Kapitel aus
       der Pathologie des Auges (mit klinischen und anatomischen
-      Demonstrationen)</thema>: <dozent><grad>D. med.</grad>
+      Demonstrationen)</thema>: <dozent ref="seefelder_r"><grad>D. med.</grad>
       <nachname>Seefelder</nachname></dozent>, <zeit>an noch zu best. Tage 7-8
       U. Ab.</zeit>, <modus>publice</modus>, <ort>in der Heilanstalt für
       Augenkranke, Liebigstr. 14</ort>.</veranstaltung>
@@ -2001,10 +2007,11 @@ gerissen.--></veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-106"><thema>Übungen in der
       Untersuchung von Nase, Rachen, Kehlkopf und Ohr (für Anfänger)</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Heymann</nachname></dozent>,
-      <zeit>an zwei zu verabred. Tagen 5-6 oder 6-7 U.</zeit>,
-      <modus>privatim</modus>, <ort>in der Privatpoliklinik für Hals-, Nasen-
-      und Ohrenkrankheiten, Königsstr. 14. I.</ort></veranstaltung>
+      <dozent ref="heymann_r"><grad>D. med.</grad>
+      <nachname>Heymann</nachname></dozent>, <zeit>an zwei zu verabred. Tagen
+      5-6 oder 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der
+      Privatpoliklinik für Hals-, Nasen- und Ohrenkrankheiten, Königsstr. 14.
+      I.</ort></veranstaltung>
 
       <trennlinie/>
 
@@ -2030,10 +2037,10 @@ gerissen.--></veranstaltung>
       22</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-110"><thema>Kurs der klinischen
-      Mikroskopie und Bakteriologie</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Hohlfeld</nachname></dozent>, <zeit>Sonnab. 5-6½ U.</zeit>,
-      <modus>privatissime</modus>, <ort>im Kinderkrankenhaus, Platzmannstr.
-      1</ort>.</veranstaltung>
+      Mikroskopie und Bakteriologie</thema>: <dozent ref="hohlfeld_m"><grad>D.
+      med.</grad> <nachname>Hohlfeld</nachname></dozent>, <zeit>Sonnab. 5-6½
+      U.</zeit>, <modus>privatissime</modus>, <ort>im Kinderkrankenhaus,
+      Platzmannstr. 1</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-111"><thema>Elektrodiagnostik und
       -Therapie, mit praktischen Übungen</thema>: <dozent
@@ -2852,9 +2859,10 @@ gerissen.--></veranstaltung>
         <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Die Lehre vom Leben, <notiz
-        betreff="fortsetzung">I. Teil</notiz></thema>: <dozent><grad>D.
-        med.</grad> <nachname>Seiffert</nachname></dozent>. <siehe>Siehe
-        Medizinische Fakultät.</siehe></veranstaltungsverweis>
+        betreff="fortsetzung">I. Teil</notiz></thema>: <dozent
+        ref="seiffert_m"><grad>D. med.</grad>
+        <nachname>Seiffert</nachname></dozent>. <siehe>Siehe Medizinische
+        Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Physik des Weltalls</thema>: <dozent
         ref="marx_e"><grad>D. ph.</grad> <nachname>Marx</nachname>,
@@ -2948,8 +2956,8 @@ gerissen.--></veranstaltung>
         Seminar</thema> (<ort>in den Räumen des König Albert-Gymnasiums,
         Parthenstr. 1 und des Thomasgymnasiums, Schreberstr. 9</ort>): <dozent
         ref="jungmann_e"><grad>D. ph.</grad> <nachname>Jungmann</nachname>,
-        <funktion>P. E.</funktion></dozent>, <dozent>unter Mitwirkung von
-        <funktion>Prof.</funktion> <grad>D.</grad>
+        <funktion>P. E.</funktion></dozent>, <dozent ref="hartmann_m">unter
+        Mitwirkung von <funktion>Prof.</funktion> <grad>D.</grad>
         <nachname>Hartmann</nachname> (für Französisch und Englisch)</dozent>,
         und <dozent ref="lehmann_e"><funktion>Prof.</funktion> <grad>D.</grad>
         <nachname>Lehmann</nachname> (für Mathematik und
@@ -3118,7 +3126,8 @@ gerissen.--></veranstaltung>
           <veranstaltungsgruppe><veranstaltungsverweis><thema>Griech.-röm.
           Quellenkunde</thema>.</veranstaltungsverweis> -
           <veranstaltungsverweis><thema>Geschichte des Untergangs der antiken
-          Welt</thema></veranstaltungsverweis>: <dozent><grad>D. ph.</grad>
+          Welt</thema></veranstaltungsverweis>: <dozent
+          ref="schulz_ot"><grad>D. ph.</grad>
           <nachname>Schulz</nachname></dozent>. <siehe>Siehe Abschnitt
           C.</siehe></veranstaltungsgruppe>
 
@@ -3982,7 +3991,7 @@ gerissen.--></veranstaltung>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1909w-IV.C-004"><thema>Griechisch-römische
-        Quellenkunde</thema>: <dozent><grad>D. ph.</grad>
+        Quellenkunde</thema>: <dozent ref="schulz_ot"><grad>D. ph.</grad>
         <nachname>Schulz</nachname></dozent>, <zeit>Mittw. 5-6 u. Sonnab.
         11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3995,7 +4004,7 @@ gerissen.--></veranstaltung>
 
         <veranstaltung xml:id="v-1909w-IV.C-006"><thema>Geschichte des
         Untergangs der antiken Welt (von der Mitte des 2. Jahrh. n. Chr.
-        ab)</thema>: <dozent><grad>D. ph.</grad>
+        ab)</thema>: <dozent ref="schulz_ot"><grad>D. ph.</grad>
         <nachname>Schulz</nachname></dozent>, <zeit>Mittw. 4 bis 5 U. u.
         Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -4024,10 +4033,10 @@ gerissen.--></veranstaltung>
         <veranstaltung xml:id="v-1909w-IV.C-010"><thema>Quellenkunde zur
         deutschen Geschichte im Mittelalter, <notiz betreff="fortsetzung">I.
         Teil</notiz> (bis 1250). Mit vergleichender Übersicht über die
-        wichtigsten italienischen und französischen Quellen</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Schmeidler</nachname></dozent>,
-        <zeit>Mont. u. Donnerst. 3-4 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        wichtigsten italienischen und französischen Quellen</thema>: <dozent
+        ref="schmeidler_b"><grad>D. ph.</grad>
+        <nachname>Schmeidler</nachname></dozent>, <zeit>Mont. u. Donnerst. 3-4
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1909w-IV.C-011"><thema>Geschichte des
         Städtewesens und Bürgertums</thema>: <dozent ref="scholz_r"><grad>D.
@@ -4311,8 +4320,8 @@ gerissen.--></veranstaltung>
               <veranstaltung xml:id="v-1909w-IV.C.001.B.002-001"><dozent
               ref="seeliger_g"><grad>D. ph.</grad>
               <nachname>Seeliger</nachname>, <funktion>P.
-              O.</funktion></dozent>, <dozent>gemeinsam mit <grad>D.
-              ph.</grad> <nachname>Schmeidler</nachname></dozent>:
+              O.</funktion></dozent>, <dozent ref="schmeidler_b">gemeinsam mit
+              <grad>D. ph.</grad> <nachname>Schmeidler</nachname></dozent>:
               <thema>Paläographische und diplomatische Übungen</thema>,
               <zeit>Sonnab. 11½-1 U.</zeit>, <modus>privatissime</modus>, sed
               <gebühr>gratis</gebühr>.</veranstaltung>
@@ -4680,9 +4689,9 @@ gerissen.--></veranstaltung>
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Griechisch-römische
         Quellenkunde</thema>.</veranstaltungsverweis> -
         <veranstaltungsverweis><thema>Geschichte des Untergangs der antiken
-        Welt</thema></veranstaltungsverweis>: <dozent><grad>D. ph.</grad>
-        <nachname>Schulz</nachname></dozent>. <siehe>Siehe Abschnitt
-        C.</siehe></veranstaltungsgruppe>
+        Welt</thema></veranstaltungsverweis>: <dozent ref="schulz_ot"><grad>D.
+        ph.</grad> <nachname>Schulz</nachname></dozent>. <siehe>Siehe
+        Abschnitt C.</siehe></veranstaltungsgruppe>
 
         <trennlinie/>
 
@@ -5110,9 +5119,10 @@ gerissen.--></veranstaltung>
 
         <veranstaltung xml:id="v-1909w-IV.E-026"><thema>Physiologie und
         Hygiene der Milch (für Ärzte, Tierärzte und Landwirte)</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Seiffert</nachname></dozent>,
-        <zeit>in noch zu best. Stunden</zeit>, <ort>im Kinderkrankenhause,
-        Platzmannstr. 1</ort>.</veranstaltung>
+        <dozent ref="seiffert_m"><grad>D. med.</grad>
+        <nachname>Seiffert</nachname></dozent>, <zeit>in noch zu best.
+        Stunden</zeit>, <ort>im Kinderkrankenhause, Platzmannstr.
+        1</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1909w-IV.E-027"><thema>Einführung in die
         landwirtschaftliche Bakteriologie</thema>: <dozent
@@ -5246,14 +5256,15 @@ gerissen.--></veranstaltung>
         Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Über auserwählte Kapitel aus dem Gebiete
-        der Hygiene</thema>: <dozent><grad>D. med.</grad>
+        der Hygiene</thema>: <dozent ref="schmidt_p"><grad>D. med.</grad>
         <nachname>Schmidt</nachname></dozent>. <siehe>Siehe Medizinische
         Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Die Lehre vom Leben, <notiz
-        betreff="fortsetzung">I. Teil</notiz></thema>: <dozent><grad>D.
-        med.</grad> <nachname>Seiffert</nachname></dozent>. <siehe>Siehe
-        Medizinische Fakultät.</siehe></veranstaltungsverweis>
+        betreff="fortsetzung">I. Teil</notiz></thema>: <dozent
+        ref="seiffert_m"><grad>D. med.</grad>
+        <nachname>Seiffert</nachname></dozent>. <siehe>Siehe Medizinische
+        Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Die Lehre von den
         Tonempfindungen</thema>: <dozent ref="fischer_o"><grad>D. med. et
@@ -5564,9 +5575,10 @@ gerissen.--></veranstaltung>
         G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Die Lehre vom Leben, <notiz
-        betreff="fortsetzung">I. Teil</notiz></thema>: <dozent><grad>D.
-        med.</grad> <nachname>Seiffert</nachname></dozent>. <siehe>Siehe
-        Medizinische Fakultät.</siehe></veranstaltungsverweis>
+        betreff="fortsetzung">I. Teil</notiz></thema>: <dozent
+        ref="seiffert_m"><grad>D. med.</grad>
+        <nachname>Seiffert</nachname></dozent>. <siehe>Siehe Medizinische
+        Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Gesundheitspflege des Auges</thema>:
         <dozent ref="schwarz_o"><grad>D. med.</grad> <vorname>O.</vorname>
@@ -6101,7 +6113,7 @@ gerissen.--></veranstaltung>
         Fakultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Über auserwählte Kapitel aus dem Gebiete
-        der Hygiene</thema>: <dozent><grad>D. med.</grad>
+        der Hygiene</thema>: <dozent ref="schmidt_p"><grad>D. med.</grad>
         <nachname>Schmidt</nachname></dozent>. <siehe>Siehe Medizinische
         Fakultät.</siehe></veranstaltungsverweis>
 
@@ -6109,8 +6121,9 @@ gerissen.--></veranstaltung>
         Hygiene der Milch</thema>.</veranstaltungsverweis> -
         <veranstaltungsverweis><thema>Die Lehre vom Leben, <notiz
         betreff="fortsetzung">I. Teil</notiz></thema></veranstaltungsverweis>:
-        <dozent><grad>D. med.</grad> <nachname>Seiffert</nachname></dozent>.
-        <siehe>Siehe Medizinische Fakultät.</siehe></veranstaltungsgruppe>
+        <dozent ref="seiffert_m"><grad>D. med.</grad>
+        <nachname>Seiffert</nachname></dozent>. <siehe>Siehe Medizinische
+        Fakultät.</siehe></veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Einführung in die landwirtschaftliche
         Bakteriologie</thema>: <dozent ref="loehnis_f"><grad>D. ph.</grad>

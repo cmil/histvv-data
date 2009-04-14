@@ -1904,9 +1904,9 @@ oder ist mit Folgendem verknüpft:-->
       <sachgruppe xml:id="sg-1825w-II.C.001">
         <titel>Geschichte der Heilkunde.</titel>
 
-        <veranstaltung
-        xml:id="v-1825w-II.C.001-001"><dozent><nachname>Hasper</nachname>,
-        <grad>D.</grad> <vorname>M.</vorname></dozent>, <thema
+        <veranstaltung xml:id="v-1825w-II.C.001-001"><dozent
+        ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+        <vorname>M.</vorname></dozent>, <thema
         kontext="sachgruppe">pragmatische und literärische</thema>, <zeit>3 U.
         2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
@@ -1987,10 +1987,10 @@ oder ist mit Folgendem verknüpft:-->
             <thema>allgem. Pathologie</thema>, <zeit>3 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1825w-II.C.I.3.001-003"><dozent><nachname>Hasper</nachname>,
-            <grad>D.</grad> <vorname>M.</vorname></dozent>, <thema>allgem.
-            Pathologie in Verbindung mit Semiotik</thema>, <zeit>11 U. 4
+            <veranstaltung xml:id="v-1825w-II.C.I.3.001-003"><dozent
+            ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+            <vorname>M.</vorname></dozent>, <thema>allgem. Pathologie in
+            Verbindung mit Semiotik</thema>, <zeit>11 U. 4
             T.</zeit></veranstaltung>
           </sachgruppe>
 
@@ -2080,8 +2080,9 @@ oder ist mit Folgendem verknüpft:-->
         <sachgruppe xml:id="sg-1825w-II.C.I.6">
           <titel>6) Semiotik.</titel>
 
-          <veranstaltungsverweis><dozent><nachname>Hasper</nachname>,
-          <grad>D.</grad> <vorname>M.</vorname></dozent>, <siehe>s. allgem.
+          <veranstaltungsverweis><dozent
+          ref="hasper_m"><nachname>Hasper</nachname>, <grad>D.</grad>
+          <vorname>M.</vorname></dozent>, <siehe>s. allgem.
           Pathologie</siehe>.</veranstaltungsverweis>
         </sachgruppe>
       </sachgruppe>
@@ -2295,8 +2296,8 @@ oder ist mit Folgendem verknüpft:-->
   bedienen.</absatz>
 
   <absatz>Zur höhern Ausbildung in der Tonkunst giebt die mit der Universität
-  vereinigte und unter der Leitung des
-  <dozent><funktion>Universitäts-Musikdirectors</funktion> und
+  vereinigte und unter der Leitung des <dozent
+  ref="schulz_jpc"><funktion>Universitäts-Musikdirectors</funktion> und
   <funktion>Musiklehrers</funktion> <nachname>Schulz</nachname></dozent>
   bestehende Singakademie Gelegenheit.</absatz>
 
