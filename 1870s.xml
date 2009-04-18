@@ -1105,7 +1105,7 @@
 
         <seite>13</seite>
 
-        <veranstaltungsverweis><thema>Elemente der höhere Analysis in ihrer
+        <veranstaltungsverweis><thema>Elemente der höheren Analysis in ihrer
         Anwendung auf Naturwissenschaften</thema>: <dozent
         ref="zoellner_jkf"><grad>D. ph.</grad> <nachname>Zöllner</nachname>,
         <funktion>P. E.</funktion></dozent>, <siehe>s.
@@ -1160,13 +1160,13 @@
 
           <trennlinie/>
 
-          <veranstaltung
-          xml:id="v-1870s-I.VI.1.001-001"><thema>Praktisch-chemische Uebungen
-          und Untersuchungen</thema>: <dozent ref="kolbe_h"><grad>D.
-          ph.</grad> <nachname>Kolbe</nachname>, <funktion>P.
-          O.</funktion></dozent>, <zeit>für Anfänger an 5 Nachmittagen je 2-3
-          St., für die Geübteren täglich von 9-1 U. u. 2-5
-          U.</zeit></veranstaltung>
+          <veranstaltungsgruppe><thema>Praktisch-chemische Uebungen und
+          Untersuchungen</thema>: <dozent ref="kolbe_h"><grad>D. ph.</grad>
+          <nachname>Kolbe</nachname>, <funktion>P. O.</funktion></dozent>,
+          <veranstaltung><thema>für Anfänger</thema> <zeit>an 5 Nachmittagen
+          je 2-3 St.</zeit></veranstaltung>, <veranstaltung><thema>für die
+          Geübteren</thema> <zeit>täglich von 9-1 U. u. 2-5
+          U.</zeit></veranstaltung></veranstaltungsgruppe>
 
           <veranstaltungsverweis><thema>Agriculturchemisches
           Prakticum</thema>: <dozent ref="knop_w"><grad>D. ph.</grad>
@@ -1225,8 +1225,8 @@
         <veranstaltung xml:id="v-1870s-I.VI.2-008"><thema>Charakteristik der
         Hauptgruppen des Thierreichs</thema>: <dozent
         ref="carus_jv"><grad>D.</grad> <nachname>Carus</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>9 U. (Mont. u.
-        Donn.)</zeit> <modus>2 T. öffentlich</modus>.</veranstaltung>
+        <funktion>P. E.</funktion></dozent>, <zeit>9 U. (Mont. u. Donn.) 2
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1870s-I.VI.2-009"><thema>Physiologie der
         Zeugung und Entwickelungsgeschichte des Menschen und der höheren
@@ -1247,7 +1247,7 @@
 
         <veranstaltung xml:id="v-1870s-I.VI.2-012"><thema>Pathologische
         Anatomie und Physiologie der Hausthiere, <notiz
-        betreff="fortsetzung">2 Th.</notiz></thema>: <dozent
+        betreff="fortsetzung">2. Th.</notiz></thema>: <dozent
         ref="brauell_fa"><grad>D.</grad> <nachname>Brauell</nachname>,
         <funktion>P. O. Hon. des.</funktion></dozent>, <zeit>in 3 zu best.
         St.</zeit></veranstaltung>
@@ -1606,12 +1606,12 @@
           xml:id="v-1870s-II.A.IV.001-002"><thema>pädagogische
           Section</thema>: <dozent ref="hofmann_r"><grad>D.</grad>
           <nachname>Hofmann</nachname>, <funktion>P. O.
-          Hon.</funktion></dozent>, <zeit>in den best. St. u. T.
-          </zeit><modus>öffentlich</modus></veranstaltung>; <veranstaltung
-          xml:id="v-1870s-II.A.IV.001-003"><thema>katechetische Section:
-          interimistisch</thema>: <dozent ref="schmidt_w"><grad>Lic.</grad>
-          <grad>D. ph.</grad> <nachname>Schmidt</nachname>, <funktion>P.
-          E.</funktion></dozent>, <zeit>4-6 U.</zeit>
+          Hon.</funktion></dozent>, <zeit>in den best. St. u. T.</zeit>
+          <modus>öffentlich</modus></veranstaltung>; <veranstaltung
+          xml:id="v-1870s-II.A.IV.001-003"><thema>katechetische
+          Section</thema>: <dozent ref="schmidt_w">interimistisch:
+          <grad>Lic.</grad> <grad>D. ph.</grad> <nachname>Schmidt</nachname>,
+          <funktion>P. E.</funktion></dozent>, <zeit>4-6 U.</zeit>
           <modus>öffentlich</modus></veranstaltung>. <veranstaltung
           xml:id="v-1870s-II.A.IV.001-004"><thema>Die Gesangübungen der
           liturgischen Section</thema> leitet <dozent><grad>D. ph.</grad>
@@ -1641,7 +1641,7 @@
     <sachgruppe fakultät="Jura" xml:id="sg-1870s-II.B">
       <titel>B. Rechtswissenschaft.</titel>
 
-      <absatz>Naturrecht s. Philosophie.</absatz>
+      <absatz>Naturrecht <siehe>s. Philosophie</siehe>.</absatz>
 
       <sachgruppe xml:id="sg-1870s-II.B.I">
         <titel>I. Propädeutik und Quellenkunde.</titel>
@@ -1773,8 +1773,8 @@
           <trennlinie/>
 
           <veranstaltung xml:id="v-1870s-II.B.II.2-004"><thema>Deutsches
-          Privatrecht (nah seinem "System des deutschen Privatrechts, 9. Aufl.
-          1867")</thema>: <dozent ref="gerber_cfw"><grad>D.</grad>
+          Privatrecht (nach seinem "System des deutschen Privatrechts, 9.
+          Aufl. 1867")</thema>: <dozent ref="gerber_cfw"><grad>D.</grad>
           <nachnamenpräfix>v.</nachnamenpräfix> <nachname>Gerber</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>9 U. 6 T. u. 8 U. 2
           T.</zeit></veranstaltung>
@@ -1817,9 +1817,9 @@
           Anleitung des bürgerlichen Gesetzbuchs)</thema>: <dozent
           ref="mueller_o"><grad>D.</grad> <nachname>Müller</nachname>,
           <funktion>P. O.</funktion></dozent>, <veranstaltung
-          xml:id="v-1870s-II.B.II.3-001"><thema>a) das Recht der
+          xml:id="v-1870s-II.B.II.3-001">a) <thema>das Recht der
           Forderungen</thema> <zeit>9 U. 5 T.</zeit></veranstaltung>,
-          <veranstaltung xml:id="v-1870s-II.B.II.3-002"><thema>b) das
+          <veranstaltung xml:id="v-1870s-II.B.II.3-002">b) <thema>das
           Familien- und Vormundschaftsrecht</thema> <zeit>8 U. 3
           T.</zeit></veranstaltung>
           <modus>öffentlich</modus>.</veranstaltungsgruppe>
@@ -1846,7 +1846,7 @@
 
         <veranstaltungsverweis><thema>Römischer Civilprocess</thema>: <dozent
         ref="kuntze_je"><grad>D.</grad> <nachname>Kuntze</nachname>,
-        <funktion>P. O.</funktion></dozent>, <siehe>s.
+        <funktion>P. O.</funktion></dozent> <siehe>s.
         Privatrecht</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsgruppe><veranstaltung
@@ -1891,7 +1891,7 @@
 
         <veranstaltung xml:id="v-1870s-II.B.V-002"><thema>Sächsisches Staats-
         u. Verwaltungsrecht</thema>: <dozent ref="schletter_h"><grad>D.</grad>
-        <nachname>Schletter</nachname>, <funktion>P. O,
+        <nachname>Schletter</nachname>, <funktion>P. O.
         Hon.</funktion></dozent>, <zeit>10 U. 5 T., ausschl.
         Sonn.</zeit></veranstaltung>
 
