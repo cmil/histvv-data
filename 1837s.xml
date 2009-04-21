@@ -331,8 +331,8 @@
           <sachgruppe xml:id="sg-1837s-I.I.2.b.003">
             <titel>Italienische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1837s-I.I.2.b.003-001"><dozent><nachname>Rathgeber</nachname>,
+            <veranstaltung xml:id="v-1837s-I.I.2.b.003-001"><dozent
+            ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>Anfangsgründe nach
             <gesperrt>Ife's italien. Lesebuche</gesperrt>, mit Grammatik und
@@ -345,8 +345,8 @@
           <sachgruppe xml:id="sg-1837s-I.I.2.b.004">
             <titel>Spanische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1837s-I.I.2.b.004-001"><dozent><nachname>Rathgeber</nachname>,
+            <veranstaltung xml:id="v-1837s-I.I.2.b.004-001"><dozent
+            ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>Anfangsgründe nach
             <antiqua>Dr.</antiqua> <gesperrt>J. G. Keil's Grammatik</gesperrt>
@@ -597,11 +597,10 @@
           <vorname>W.</vorname></dozent>, <thema>Naturrecht, nach s.
           Sätzen</thema>, <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1837s-I.III.003.3-004"><dozent><nachname>Milhauser</nachname>,
-          <grad>M.</grad> <vorname>K. H.</vorname></dozent>,
-          <thema>Naturrecht</thema>, <zeit>7 U. Mont. Mittw. u.
-          Freit.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1837s-I.III.003.3-004"><dozent
+          ref="milhauser_ch"><nachname>Milhauser</nachname>, <grad>M.</grad>
+          <vorname>K. H.</vorname></dozent>, <thema>Naturrecht</thema>,
+          <zeit>7 U. Mont. Mittw. u. Freit.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1837s-I.III.003.4">
@@ -674,9 +673,9 @@
       <sachgruppe xml:id="sg-1837s-I.IV.001">
         <titel>Cursus der Staatswissenschaften.</titel>
 
-        <veranstaltung
-        xml:id="v-1837s-I.IV.001-001"><dozent><nachname>Schellwitz</nachname>,
-        <grad>D.</grad> <vorname>H.</vorname></dozent>, <thema><notiz
+        <veranstaltung xml:id="v-1837s-I.IV.001-001"><dozent
+        ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
+        <vorname>H.</vorname></dozent>, <thema><notiz
         betreff="fortsetzung">Fortsetzung</notiz> des Cursus, Volks- und
         Staatswirthschaftslehre, Finanzwissenschaft und Cultur- und
         Wohlfahrtspolizei</thema>, <zeit>3 U. 6 T.</zeit></veranstaltung>
@@ -1092,12 +1091,12 @@
             u. Kolosser</thema>, <zeit>4 T. in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1837s-II.A.I.1.003-008"><dozent><nachname>Hänsel</nachname>,
-            <grad>M.</grad> <vorname>F. M. A.</vorname>, <grad>Theol.
-            Lic.</grad></dozent>, <thema>Erklärung der 2 Brr. Petri und der 3
-            Brr. Johannis</thema>, <zeit>Mont. Dienst. u. Donn. in zu best.
-            St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+            <veranstaltung xml:id="v-1837s-II.A.I.1.003-008"><dozent
+            ref="haensel_fma"><nachname>Hänsel</nachname>, <grad>M.</grad>
+            <vorname>F. M. A.</vorname>, <grad>Theol. Lic.</grad></dozent>,
+            <thema>Erklärung der 2 Brr. Petri und der 3 Brr. Johannis</thema>,
+            <zeit>Mont. Dienst. u. Donn. in zu best. St.</zeit>
+            <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1837s-II.A.I.1.004">
@@ -1214,13 +1213,13 @@
             <funktion>Dechant</funktion></dozent>, <zeit>11 U. 4 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1837s-II.A.I.2.003-002"><dozent><nachname>Hänsel</nachname>,
-            <grad>M.</grad> <vorname>F. M. A.</vorname>, <grad>Theol.
-            Lic.</grad></dozent>, <thema>über das Leben und die Schriften der
-            apostolischen Väter und der übrigen Kirchenväter des 2. und 3.
-            Jahrhunderts mit Anführung wichtiger und charakteristischer
-            Stellen aus ihren Schriften</thema>, <zeit>3 U. 2 T.</zeit>
+            <veranstaltung xml:id="v-1837s-II.A.I.2.003-002"><dozent
+            ref="haensel_fma"><nachname>Hänsel</nachname>, <grad>M.</grad>
+            <vorname>F. M. A.</vorname>, <grad>Theol. Lic.</grad></dozent>,
+            <thema>über das Leben und die Schriften der apostolischen Väter
+            und der übrigen Kirchenväter des 2. und 3. Jahrhunderts mit
+            Anführung wichtiger und charakteristischer Stellen aus ihren
+            Schriften</thema>, <zeit>3 U. 2 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
 
@@ -1885,16 +1884,14 @@
             praktischen Aufsätzen</thema>, <zeit>10 U. 6 T. u. 11 U. 2
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1837s-II.B.II.II.1-004"><dozent><nachname>Prasse</nachname>,
-            <grad>D.</grad> <vorname>L.</vorname></dozent>,
-            <thema>ordinarischer Civilproceß</thema>, <zeit>2 U. 5
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1837s-II.B.II.II.1-004"><dozent
+            ref="prasse_l"><nachname>Prasse</nachname>, <grad>D.</grad>
+            <vorname>L.</vorname></dozent>, <thema>ordinarischer
+            Civilproceß</thema>, <zeit>2 U. 5 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1837s-II.B.II.II.1-005"><ders>Derselbe</ders>,
-            <thema>die summarischen Processe</thema>, <zeit>3 U. 5
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1837s-II.B.II.II.1-005"><ders
+            ref="prasse_l">Derselbe</ders>, <thema>die summarischen
+            Processe</thema>, <zeit>3 U. 5 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1837s-II.B.II.II.1-006"><dozent
             ref="busse_wg"><nachname>Busse</nachname>, <grad>D.</grad>
@@ -1920,11 +1917,10 @@
             Referir-Uebungen</thema>, <zeit>9 U. Dienst. Donn. u.
             Freit.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1837s-II.B.II.II.2-003"><dozent><nachname>Mertens</nachname>,
-            <grad>D.</grad> <vorname>K. G. L.</vorname></dozent>, <thema>die
-            Grundsätze der Referirkunst</thema>, <zeit>in zu best.
-            St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1837s-II.B.II.II.2-003"><dozent
+            ref="mertens_kgl"><nachname>Mertens</nachname>, <grad>D.</grad>
+            <vorname>K. G. L.</vorname></dozent>, <thema>die Grundsätze der
+            Referirkunst</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1837s-II.B.II.II.2-004"><dozent
             ref="hoepfner_l"><nachname>Höpfner</nachname>, <grad>D.</grad>
@@ -2059,11 +2055,11 @@
         <thema>über des Hippokrates <antiqua>Prognosticum</antiqua></thema>,
         <zeit>4 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1837s-II.C.003-002"><dozent><nachname>Neubert</nachname>,
-        <grad>D.</grad> <vorname>K. A.</vorname></dozent>, <thema>Erklärung
-        des Celsus, <notiz betreff="fortsetzung">Fortsetzung</notiz></thema>,
-        <zeit>2 U. 2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1837s-II.C.003-002"><dozent
+        ref="neubert_c"><nachname>Neubert</nachname>, <grad>D.</grad>
+        <vorname>K. A.</vorname></dozent>, <thema>Erklärung des Celsus, <notiz
+        betreff="fortsetzung">Fortsetzung</notiz></thema>, <zeit>2 U. 2
+        T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
       <seite>18</seite>
@@ -2164,9 +2160,9 @@
           <thema>allgemeine Pathologie, nach s. Sätzen</thema>, <zeit>7 U. 4
           T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1837s-II.C.I.3-003"><dozent><nachname>Neubert</nachname>,
-          <grad>D.</grad> <vorname>K. A.</vorname></dozent>, <thema>allgemeine
+          <veranstaltung xml:id="v-1837s-II.C.I.3-003"><dozent
+          ref="neubert_c"><nachname>Neubert</nachname>, <grad>D.</grad>
+          <vorname>K. A.</vorname></dozent>, <thema>allgemeine
           Pathologie</thema>, <zeit>9 U. 3 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
@@ -2255,8 +2251,8 @@
           Lpz. b. Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1837s-II.C.II.2-002"><dozent><nachname>Scheidhauer</nachname>,
+          <veranstaltung xml:id="v-1837s-II.C.II.2-002"><dozent
+          ref="scheidhauer_mw"><nachname>Scheidhauer</nachname>,
           <grad>D.</grad> <vorname>M. W.</vorname></dozent>, <thema>über
           einige Theile der Pharmakologie</thema>, <zeit>in zu best.
           St.</zeit></veranstaltung>
@@ -2355,9 +2351,9 @@
         <sachgruppe xml:id="sg-1837s-II.C.II.x">
           <titel>*) Geschichte der merkwürdigsten Epidemieen.</titel>
 
-          <veranstaltung
-          xml:id="v-1837s-II.C.II.x-001"><dozent><nachname>Neubert</nachname>,
-          <grad>D.</grad> <vorname>K. A.</vorname></dozent>, <zeit>2 U. 4
+          <veranstaltung xml:id="v-1837s-II.C.II.x-001"><dozent
+          ref="neubert_c"><nachname>Neubert</nachname>, <grad>D.</grad>
+          <vorname>K. A.</vorname></dozent>, <zeit>2 U. 4
           T.</zeit></veranstaltung>
         </sachgruppe>
 
@@ -2547,8 +2543,8 @@ noch einmal vorkommt, diesmal mit Braune als erstem Dozenten!-->
           <vorname>F. W.</vorname></dozent>, <thema>über Anatomie und
           Physiologie</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1837s-II.C.III.1-003"><dozent><nachname>Scheidhauer</nachname>,
+          <veranstaltung xml:id="v-1837s-II.C.III.1-003"><dozent
+          ref="scheidhauer_mw"><nachname>Scheidhauer</nachname>,
           <grad>D.</grad> <vorname>M. W.</vorname></dozent>, <thema>über
           verschiedene Theile der Medicin</thema>, <zeit>in zu best.
           St.</zeit></veranstaltung>
@@ -2561,11 +2557,11 @@ noch einmal vorkommt, diesmal mit Braune als erstem Dozenten!-->
           Prager, Berliner Spitäler u. s. w. mitgetheilt werden
           sollen</thema>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1837s-II.C.III.1-005"><dozent><nachname>Neubert</nachname>,
-          <grad>D.</grad> <vorname>K. A.</vorname></dozent>, <thema>über
-          verschiedene Theile der Medicin</thema>, <zeit>in zu best.
-          St.</zeit> <modus>privatissime</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1837s-II.C.III.1-005"><dozent
+          ref="neubert_c"><nachname>Neubert</nachname>, <grad>D.</grad>
+          <vorname>K. A.</vorname></dozent>, <thema>über verschiedene Theile
+          der Medicin</thema>, <zeit>in zu best. St.</zeit>
+          <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1837s-II.C.III.2">

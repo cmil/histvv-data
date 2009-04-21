@@ -96,10 +96,10 @@
           <nachname>Michaelis</nachname></dozent>, <thema>Xenophon's Gastmahl
           u. Hieron</thema>, <zeit>2 T. in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung xml:id="v-1817w-I.A.2.a-006"><dozent><grad>M.</grad>
-          <nachname>Rose</nachname></dozent>, <thema>über das 12. B. des Mark
-          Aurel Antonin</thema>, <zeit>1 U. 2 T.</zeit>
-          <gebühr>unentg.</gebühr></veranstaltung>
+          <veranstaltung xml:id="v-1817w-I.A.2.a-006"><dozent
+          ref="rose_jgk"><grad>M.</grad> <nachname>Rose</nachname></dozent>,
+          <thema>über das 12. B. des Mark Aurel Antonin</thema>, <zeit>1 U. 2
+          T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
 
           <veranstaltung xml:id="v-1817w-I.A.2.a-007"><dozent
           ref="beier_k"><grad>M.</grad> <nachname>Beier</nachname></dozent>,
@@ -197,10 +197,9 @@
             <nachname>Spohn</nachname></dozent>, <zeit>best. St.</zeit>
             <modus>privatiss.</modus></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1817w-I.A.2.c.xx-004"><dozent><grad>M.</grad>
-            <nachname>Rose</nachname></dozent>, <zeit>zu den best. T. u.
-            St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1817w-I.A.2.c.xx-004"><dozent
+            ref="rose_jgk"><grad>M.</grad> <nachname>Rose</nachname></dozent>,
+            <zeit>zu den best. T. u. St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1817w-I.A.2.c.xx-005"><dozent
             ref="nobbe_kfa"><grad>M.</grad>
@@ -278,8 +277,8 @@
           langue franςaise an, verbunden mit Uebungen im Sprechen u.
           Schreiben</thema>, <modus>öff.</modus> - <dozent
           ref="bouc_jl"><nachname>Bouc</nachname> <vorname>J.
-          L.</vorname></dozent>
-          <dozent><nachname>Paien</nachname></dozent>.</veranstaltung>
+          L.</vorname></dozent> <dozent
+          ref="paien"><nachname>Paien</nachname></dozent>.</veranstaltung>
 
           <veranstaltung xml:id="v-1817w-I.A.3.d-002"><dozent
           ref="devillers_f"><vorname>F.</vorname>
@@ -433,10 +432,9 @@
             <nachname>Clodius</nachname></dozent>, <zeit>1 U. Mont. u.
             Donn.</zeit> <modus>öff.</modus></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1817w-I.B.I.5.b-003"><dozent><grad>M.</grad>
-            <nachname>Rose</nachname></dozent>, <zeit>1 U. Mont. u.
-            Dienst.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1817w-I.B.I.5.b-003"><dozent
+            ref="rose_jgk"><grad>M.</grad> <nachname>Rose</nachname></dozent>,
+            <zeit>1 U. Mont. u. Dienst.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1817w-I.B.I.5.c">
@@ -1246,7 +1244,8 @@
                   <gebühr>unentg.</gebühr>,</veranstaltung>
 
                   <veranstaltung
-                  xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-007"><dozent><grad>M.</grad>
+                  xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-007"><dozent
+                  ref="reichel_vf"><grad>M.</grad>
                   <nachname>Reichel</nachname></dozent>, <zeit>9 U. 6
                   T.</zeit>, <thema>n. Heineccius</thema>.</veranstaltung>
 
@@ -1285,7 +1284,8 @@
                   T.</zeit></veranstaltung>
 
                   <veranstaltung
-                  xml:id="v-1817w-II.B.I.001.1.a.bb.beta-003"><dozent><grad>M.</grad>
+                  xml:id="v-1817w-II.B.I.001.1.a.bb.beta-003"><dozent
+                  ref="reichel_vf"><grad>M.</grad>
                   <nachname>Reichel</nachname></dozent>, <thema>nach
                   Hellfeld</thema>, <zeit>10 u. 4 U. 6
                   T.</zeit></veranstaltung>
@@ -1464,8 +1464,8 @@
             Processarten, nach s. "Vollständigen Erläuterungen u.s.w. (Lpz. b.
             Böhme),"</thema> <zeit>3 U. 4 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1817w-II.B.II.1.b-008"><dozent><grad>M.</grad>
+            <veranstaltung xml:id="v-1817w-II.B.II.1.b-008"><dozent
+            ref="reichel_vf"><grad>M.</grad>
             <nachname>Reichel</nachname></dozent>, <thema>über den gemeinen u.
             sächs. Process, nach s. Sätzen</thema>, <zeit>2 U. 6
             T.</zeit></veranstaltung>
@@ -1579,8 +1579,8 @@
               <nachname>Liekefett</nachname></dozent>, <zeit>zu bel.
               St.</zeit> <modus>privat.</modus></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1817w-II.B.II.2.x_2.a-004"><dozent><grad>M.</grad>
+              <veranstaltung xml:id="v-1817w-II.B.II.2.x_2.a-004"><dozent
+              ref="reichel_vf"><grad>M.</grad>
               <nachname>Reichel</nachname></dozent>, <thema>über die gesammten
               Rechtswissenschaften, oder über einzelne Theile
               derselben</thema>, <zeit>in zu best. St.</zeit>
@@ -1591,8 +1591,8 @@
               <nachname>Biedermann</nachname></dozent>, <zeit>in zu best.
               St.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1817w-II.B.II.2.x_2.a-006"><dozent><grad>Bacc.</grad>
+              <veranstaltung xml:id="v-1817w-II.B.II.2.x_2.a-006"><dozent
+              ref="hoesler_kg"><grad>Bacc.</grad>
               <nachname>Hösler</nachname></dozent>,
               <modus>privatiss.</modus></veranstaltung>
             </sachgruppe>
@@ -1621,8 +1621,8 @@
                 Privatrecht</thema>, <zeit>5 U. 6 T. u. 11 U. 2
                 T.</zeit></veranstaltung>
 
-                <veranstaltung
-                xml:id="v-1817w-II.B.II.2.x_2.b.aa-004"><dozent><grad>M.</grad>
+                <veranstaltung xml:id="v-1817w-II.B.II.2.x_2.b.aa-004"><dozent
+                ref="reichel_vf"><grad>M.</grad>
                 <nachname>Reichel</nachname></dozent>, <thema>über Civilrecht
                 und den Process</thema>, <zeit>5 U. 6
                 T.</zeit></veranstaltung>
@@ -1656,7 +1656,8 @@
                   T.</zeit></veranstaltung>
 
                   <veranstaltung
-                  xml:id="v-1817w-II.B.II.2.x_2.b.aa.alpha-005"><dozent><grad>Bacc.</grad>
+                  xml:id="v-1817w-II.B.II.2.x_2.b.aa.alpha-005"><dozent
+                  ref="hoesler_kg"><grad>Bacc.</grad>
                   <nachname>Hösler</nachname></dozent>, <thema>über
                   Institutionen und innere Rechtsgeschichte, nach
                   Haubold</thema>, <zeit>4 T.</zeit></veranstaltung>

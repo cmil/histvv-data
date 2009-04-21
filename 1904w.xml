@@ -726,7 +726,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-II-024"><thema>Grundzüge des
-      Militärstrafrechts</thema>: <dozent><grad>D. jur.</grad>
+      Militärstrafrechts</thema>: <dozent ref="nagler_j"><grad>D. jur.</grad>
       <nachname>Nagler</nachname></dozent>, <zeit>Donnerst. 4-5 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
@@ -750,8 +750,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-II-028"><thema>Reichspressrecht</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Nagler</nachname></dozent>,
-      <zeit>Freit. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="nagler_j"><grad>D. jur.</grad>
+      <nachname>Nagler</nachname></dozent>, <zeit>Freit. 3-4 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -825,7 +826,7 @@
       <zeit>Mittw. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-II-040"><thema>Strafprozessuales
-      Konversatorium</thema>: <dozent><grad>D. jur.</grad>
+      Konversatorium</thema>: <dozent ref="nagler_j"><grad>D. jur.</grad>
       <nachname>Nagler</nachname></dozent>, <zeit>Donnerst. 3-4 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1264,8 +1265,8 @@
       Liebigstr. 24</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-III-041"><thema>Pathologische Anatomie
-      der männlichen und weiblichen Geschlechtsorgane</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Risel</nachname></dozent>,
+      der männlichen und weiblichen Geschlechtsorgane</thema>: <dozent
+      ref="risel_w"><grad>D. med.</grad> <nachname>Risel</nachname></dozent>,
       <zeit>Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>, <ort>im Patholog.
       Institut, Liebigstr. 24</ort>.</veranstaltung>
 
@@ -1404,8 +1405,8 @@
 
       <veranstaltung xml:id="v-1904w-III-062"><thema>Ärztliche
       Standespflichten und Rechte (mit Einschluss der Kranken- und
-      Unfallversicherung)</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Preysing</nachname></dozent>,<seite>16</seite><zeit>Sonnab.
+      Unfallversicherung)</thema>: <dozent ref="preysing_h"><grad>D.
+      med.</grad> <nachname>Preysing</nachname></dozent>,<seite>16</seite><zeit>Sonnab.
       5-6 U.</zeit>, <modus>publice</modus>, <ort>in der Klinik für Ohren-,
       Nasen- und Halskrankheiten, Liebigstr. 20</ort>.</veranstaltung>
 
@@ -1618,8 +1619,8 @@
       <veranstaltung xml:id="v-1904w-III-092"><thema>Untersuchungsmethoden und
       Klinik der Ohren-, Nasen- und Halskrankheiten</thema> (<ort>Liebigstr.
       20</ort>): <dozent ref="barth_af"><grad>D. med.</grad>
-      <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>,
-      <dozent>zum Teil mit <grad>D. med.</grad>
+      <nachname>Barth</nachname>, <funktion>P. E.</funktion></dozent>, <dozent
+      ref="preysing_h">zum Teil mit <grad>D. med.</grad>
       <nachname>Preysing</nachname></dozent>, <zeit>tägl. 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1632,23 +1633,24 @@
       I.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1904w-III-094"><thema>Kursus der kleineren
-      oto-rhinologischen Eingriffe (Tonsillotomie u. s. w.)</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Preysing</nachname></dozent>,
-      <zeit>Mont. u. Dienst. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>in
-      der Klinik der Ohren-, Nasen- und Halskrankheiten, Liebigstr.
-      20</ort>.</veranstaltung>
-
-      <veranstaltung xml:id="v-1904w-III-095"><thema>Kurs der
-      Kehlkopfintubation</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Preysing</nachname></dozent>, <zeit>Donnerst. 5-6 U.</zeit>,
-      <modus>privatim</modus>, <ort>in der Klinik der Ohren-, Nasen- und
-      Halskrankheiten, Liebigstr. 20</ort>.</veranstaltung>
-
-      <veranstaltung xml:id="v-1904w-III-096"><thema>Repetitorium der
-      Inspektion von Ohr, Nase und Kehlkopf</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Preysing</nachname></dozent>, <zeit>Mittw. 5-6
+      oto-rhinologischen Eingriffe (Tonsillotomie u. s. w.)</thema>: <dozent
+      ref="preysing_h"><grad>D. med.</grad>
+      <nachname>Preysing</nachname></dozent>, <zeit>Mont. u. Dienst. 5-6
       U.</zeit>, <modus>privatim</modus>, <ort>in der Klinik der Ohren-,
       Nasen- und Halskrankheiten, Liebigstr. 20</ort>.</veranstaltung>
+
+      <veranstaltung xml:id="v-1904w-III-095"><thema>Kurs der
+      Kehlkopfintubation</thema>: <dozent ref="preysing_h"><grad>D.
+      med.</grad> <nachname>Preysing</nachname></dozent>, <zeit>Donnerst. 5-6
+      U.</zeit>, <modus>privatim</modus>, <ort>in der Klinik der Ohren-,
+      Nasen- und Halskrankheiten, Liebigstr. 20</ort>.</veranstaltung>
+
+      <veranstaltung xml:id="v-1904w-III-096"><thema>Repetitorium der
+      Inspektion von Ohr, Nase und Kehlkopf</thema>: <dozent
+      ref="preysing_h"><grad>D. med.</grad>
+      <nachname>Preysing</nachname></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
+      <modus>privatim</modus>, <ort>in der Klinik der Ohren-, Nasen- und
+      Halskrankheiten, Liebigstr. 20</ort>.</veranstaltung>
 
       <trennlinie/>
 
@@ -2157,9 +2159,9 @@
 
         <veranstaltung xml:id="v-1904w-IV.A-003"><thema>Methodenlehre der
         Philosophie und des praktischen Denkens der
-        Geisteswissenschaften</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Mentz</nachname></dozent>, <zeit>Mittw. u. Sonnab. 3-4
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Geisteswissenschaften</thema>: <dozent ref="mentz_p"><grad>D.
+        ph.</grad> <nachname>Mentz</nachname></dozent>, <zeit>Mittw. u.
+        Sonnab. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung
         xml:id="v-1904w-IV.A-004"><thema>Naturphilosophie</thema>: <dozent
@@ -2205,9 +2207,9 @@
 
         <veranstaltung xml:id="v-1904w-IV.A-011"><thema>Die Systeme von
         Leibniz und von Aristoteles vom Standpunkte der heutigen Einsichten
-        und Fragestellungen aus</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Mentz</nachname></dozent>, <zeit>Dienst. u. Freit. 3-4
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        und Fragestellungen aus</thema>: <dozent ref="mentz_p"><grad>D.
+        ph.</grad> <nachname>Mentz</nachname></dozent>, <zeit>Dienst. u.
+        Freit. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1904w-IV.A-012"><thema>Über Kunst und
         künstlerisches Schaffen</thema>: <dozent ref="volkelt_j"><grad>D.
@@ -3997,9 +3999,10 @@
         <funktion>P. E.</funktion></dozent> <siehe>Siehe Juristische
         Fakultät</siehe>.</veranstaltungsgruppe>
 
-        <veranstaltungsverweis><thema>Reichspressrecht</thema>:
-        <dozent><grad>D. jur.</grad> <nachname>Nagler</nachname></dozent>.
-        <siehe>Siehe Juristische Fakultät</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Reichspressrecht</thema>: <dozent
+        ref="nagler_j"><grad>D. jur.</grad>
+        <nachname>Nagler</nachname></dozent>. <siehe>Siehe Juristische
+        Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Urformen und Entwicklung der
         Kultur</thema>: <dozent ref="weule_k"><grad>D. ph.</grad>
@@ -4941,12 +4944,12 @@
 
     <sachgruppe xml:id="sg-1904w-001">
       <veranstaltung xml:id="v-1904w-001-001"><thema>Für
-      Fechtunterricht</thema>: <dozent><funktion>Der
+      Fechtunterricht</thema>: <dozent ref="roux_p"><funktion>Der
       Univ.-Fechtmeister</funktion> <nachname>Roux</nachname></dozent>.
       (<ort>Universitäts-Fechtboden Ritterstr. 12. II.</ort>)</veranstaltung>
 
       <veranstaltung xml:id="v-1904w-001-002"><thema>Für
-      Reitunterricht</thema>: <dozent><funktion>Der
+      Reitunterricht</thema>: <dozent ref="sack_e"><funktion>Der
       Univ.-Stallmeister</funktion>
       <nachname>Sack</nachname></dozent>.</veranstaltung>
     </sachgruppe>

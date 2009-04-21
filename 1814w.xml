@@ -221,12 +221,11 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
 
             <seite>3</seite>
 
-            <veranstaltung
-            xml:id="v-1814w-I.I.A.3.a-004"><dozent><nachname>Rose</nachname>,
-            <grad>M.</grad> <vorname>J. G. C.</vorname></dozent>, <thema>über
-            einzelne Lehren <scil
-            text="der Moralphilosophie">derselben</scil></thema>, <zeit>1 U.
-            Mont. und Dienst.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1814w-I.I.A.3.a-004"><dozent
+            ref="rose_jgk"><nachname>Rose</nachname>, <grad>M.</grad>
+            <vorname>J. G. C.</vorname></dozent>, <thema>über einzelne Lehren
+            <scil text="der Moralphilosophie">derselben</scil></thema>,
+            <zeit>1 U. Mont. und Dienst.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1814w-I.I.A.3.b">
@@ -412,10 +411,10 @@ derselben Dozenten! Ebenso wie unten "bb) Metaphysik."-->
           Elemente der Algebra</thema>, <zeit>2 U. 4
           T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-          <veranstaltung
-          xml:id="v-1814w-I.I.B.a-003"><dozent><nachname>Ouvrier</nachname>,
-          <grad>M.</grad> <vorname>C. S.</vorname></dozent>, <thema>reine
-          Mathematik</thema>, <zeit>10 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1814w-I.I.B.a-003"><dozent
+          ref="ouvrier_ks"><nachname>Ouvrier</nachname>, <grad>M.</grad>
+          <vorname>C. S.</vorname></dozent>, <thema>reine Mathematik</thema>,
+          <zeit>10 U. 4 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <seite>5</seite>
@@ -809,12 +808,12 @@ werden in den entsprechenden Attributen mitgeführt!--></veranstaltung>
 
               <seite>9</seite>
 
-              <veranstaltung
-              xml:id="v-1814w-I.II.B.3.b.aa-006"><dozent><nachname>Rose</nachname>,
-              <grad>M.</grad> <vorname>J. G. C.</vorname></dozent>,
-              <thema>über das <schrift>fünfte Buch des <autor>Marc.
-              Antonin</autor> an sich selbst</schrift></thema>, <zeit>1 U. 2
-              T.</zeit> <gebühr>unentgeldl.</gebühr></veranstaltung>
+              <veranstaltung xml:id="v-1814w-I.II.B.3.b.aa-006"><dozent
+              ref="rose_jgk"><nachname>Rose</nachname>, <grad>M.</grad>
+              <vorname>J. G. C.</vorname></dozent>, <thema>über das
+              <schrift>fünfte Buch des <autor>Marc. Antonin</autor> an sich
+              selbst</schrift></thema>, <zeit>1 U. 2 T.</zeit>
+              <gebühr>unentgeldl.</gebühr></veranstaltung>
 
               <sachgruppe xml:id="sg-1814w-I.II.B.3.b.aa.x">
                 <titel>*) Uebungen der griechischen Gesellschaft.</titel>
@@ -843,9 +842,9 @@ werden in den entsprechenden Attributen mitgeführt!--></veranstaltung>
               <titel>Cistellaria</titel></schrift></thema>, <zeit>3 U. 2
               T.</zeit> <modus>öffentl.</modus></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1814w-I.II.B.3.b.bb-003"><dozent><nachname>Ouvrier</nachname>,
-              <grad>M.</grad> <vorname>C. S.</vorname></dozent>, <thema>über
+              <veranstaltung xml:id="v-1814w-I.II.B.3.b.bb-003"><dozent
+              ref="ouvrier_ks"><nachname>Ouvrier</nachname>, <grad>M.</grad>
+              <vorname>C. S.</vorname></dozent>, <thema>über
               <schrift><autor>Cicero</autor> <titel>von der Natur der
               Götter</titel></schrift></thema>, <zeit>10 U. 2
               T.</zeit></veranstaltung>
@@ -891,9 +890,9 @@ Dozentennamen (Ouvrier, Michaelis) verbunden-->
                 <thema>im lat. Schreiben und Disputiren</thema>, <zeit>5 U. 2
                 T.</zeit></veranstaltung>
 
-                <veranstaltung
-                xml:id="v-1814w-I.II.B.3.b.bb.xx-004"><dozent><nachname>Rose</nachname>,
-                <grad>M.</grad> <vorname>J. G. C.</vorname></dozent>,
+                <veranstaltung xml:id="v-1814w-I.II.B.3.b.bb.xx-004"><dozent
+                ref="rose_jgk"><nachname>Rose</nachname>, <grad>M.</grad>
+                <vorname>J. G. C.</vorname></dozent>,
                 <thema>Disputirübungen</thema>, <zeit>in zu bestimmend.
                 St.</zeit></veranstaltung>
               </sachgruppe>
@@ -922,8 +921,8 @@ Dozentennamen (Ouvrier, Michaelis) verbunden-->
               ref="bouc_jl"><nachname>Bouc</nachname>, <vorname>J.
               L.</vorname></dozent> - <dozent
               ref="kunze_kw"><vorname>M.</vorname>
-              <nachname>Kunze</nachname></dozent> -
-              <dozent><nachname>Pajen</nachname></dozent>. -<!--Die Rolle von Bouc, Kunze und Pajen ist hier unklar.
+              <nachname>Kunze</nachname></dozent> - <dozent
+              ref="paien"><nachname>Pajen</nachname></dozent>. -<!--Die Rolle von Bouc, Kunze und Pajen ist hier unklar.
 Haben Sie zu beiden hier genannten Veranstaltungen
 beigetragen?
 Es sollte recherchiert werden, was es mit diesen Herren 
@@ -1418,7 +1417,8 @@ Letzteres entschieden.-->
                   T.</zeit></veranstaltung>
 
                   <veranstaltung
-                  xml:id="v-1814w-II.B.II.A.1.a.bb_2.alpha-007"><dozent><nachname>Reichel</nachname>,
+                  xml:id="v-1814w-II.B.II.A.1.a.bb_2.alpha-007"><dozent
+                  ref="reichel_vf"><nachname>Reichel</nachname>,
                   <grad>M.</grad> <vorname>V. F.</vorname>, <funktion>I. V.
                   B.</funktion></dozent>, <thema kontext="sachgruppe">nach
                   Heineccius</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>
@@ -1537,9 +1537,9 @@ und modus--></veranstaltung>
                 <gesperrt>Püttmann</gesperrt></thema>, <zeit>2 U. 4
                 T.</zeit></veranstaltung>
 
-                <veranstaltung
-                xml:id="v-1814w-II.B.II.A.1.001.e-003"><dozent><nachname>Reichel</nachname>,
-                <grad>M.</grad> <vorname>V. F.</vorname>, <funktion>I. V.
+                <veranstaltung xml:id="v-1814w-II.B.II.A.1.001.e-003"><dozent
+                ref="reichel_vf"><nachname>Reichel</nachname>, <grad>M.</grad>
+                <vorname>V. F.</vorname>, <funktion>I. V.
                 B.</funktion></dozent>, <thema>über Wechselrecht und
                 Wechselproceß, nach seinen Sätzen</thema>, <zeit>4 U. 2
                 T.</zeit></veranstaltung>
@@ -1684,11 +1684,11 @@ auf beide bezogen-->
             <vorname>C. W.</vorname></dozent>, <thema>Civilproceß, nach eignen
             Sätzen</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1814w-II.B.II.B.1-004"><dozent><nachname>Rüling</nachname>,
-            <grad>D.</grad> <vorname>K. A.</vorname></dozent>,
-            <thema>Civilproceß, nach eignen Sätzen mit erläuternden
-            Beispielen</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1814w-II.B.II.B.1-004"><dozent
+            ref="rueling_ca"><nachname>Rüling</nachname>, <grad>D.</grad>
+            <vorname>K. A.</vorname></dozent>, <thema>Civilproceß, nach eignen
+            Sätzen mit erläuternden Beispielen</thema>, <zeit>2 U. 4
+            T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1814w-II.B.II.B.1-005"><dozent
             ref="friederici_cge"><nachname>Friederici</nachname>,
@@ -1709,12 +1709,11 @@ auf beide bezogen-->
             <thema>über den summarischen Proceß, nach eignen Sätzen</thema>,
             <zeit>2 U. 4 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1814w-II.B.II.B.1-008"><dozent><nachname>Reichel</nachname>,
-            <grad>M.</grad> <vorname>V. F.</vorname>, <funktion>I. V.
-            B.</funktion></dozent>, <thema>über den gemeinen und sächsischen
-            Proceß, nach seinen Sätzen</thema>, <zeit>2 U. 6
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1814w-II.B.II.B.1-008"><dozent
+            ref="reichel_vf"><nachname>Reichel</nachname>, <grad>M.</grad>
+            <vorname>V. F.</vorname>, <funktion>I. V. B.</funktion></dozent>,
+            <thema>über den gemeinen und sächsischen Proceß, nach seinen
+            Sätzen</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1814w-II.B.II.B.2">
@@ -1821,9 +1820,9 @@ auf beide bezogen-->
                 <grad>D.</grad> <vorname>C. G. E.</vorname></dozent>, <zeit>zu
                 bel. Z.</zeit></veranstaltung>
 
-                <veranstaltung
-                xml:id="v-1814w-II.B.II.B.xx.1.a-008"><dozent><nachname>Reichel</nachname>,
-                <grad>M.</grad> <vorname>V. F.</vorname>, <funktion>I. V.
+                <veranstaltung xml:id="v-1814w-II.B.II.B.xx.1.a-008"><dozent
+                ref="reichel_vf"><nachname>Reichel</nachname>, <grad>M.</grad>
+                <vorname>V. F.</vorname>, <funktion>I. V.
                 B.</funktion></dozent>, <zeit>in zu best. St.</zeit>,
                 <modus>privatissime</modus>.</veranstaltung>
 

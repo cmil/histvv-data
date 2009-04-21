@@ -621,9 +621,9 @@
       E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
       A.</siehe></veranstaltungsgruppe>
 
-      <veranstaltungsverweis><thema>Metaphysik</thema>: <dozent><grad>D.
-      ph.</grad> <nachname>Mentz</nachname></dozent>. <siehe>Siehe
-      Philosophische Fakultät A.</siehe></veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Metaphysik</thema>: <dozent
+      ref="mentz_p"><grad>D. ph.</grad> <nachname>Mentz</nachname></dozent>.
+      <siehe>Siehe Philosophische Fakultät A.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Psychologische Maßmethoden</thema>:
       <dozent ref="wirth_w"><grad>D. ph.</grad> <nachname>Wirth</nachname>,
@@ -865,7 +865,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906w-II-017"><thema>Urheberrecht</thema>:
-      <dozent><grad>D. jur. et ph.</grad>
+      <dozent ref="reichel_h"><grad>D. jur. et ph.</grad>
       <nachname>Reichel</nachname></dozent>, <zeit>Dienst. u. Freit. 12-1
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -988,9 +988,9 @@
       <zeit>Mont. 6-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906w-II-037"><thema>Konversatorium des
-      bürgerlichen Rechts</thema>: <dozent><grad>D. jur. et ph.</grad>
-      <nachname>Reichel</nachname></dozent>, <zeit>Mittw. 11-12 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      bürgerlichen Rechts</thema>: <dozent ref="reichel_h"><grad>D. jur. et
+      ph.</grad> <nachname>Reichel</nachname></dozent>, <zeit>Mittw. 11-12
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906w-II-038"><thema>Übungen im Zivilprozeß und
       Zivilrecht, mit schriftlichen Arbeiten</thema>: <dozent
@@ -1549,16 +1549,16 @@
       Pathologischen Institut, Liebigstr. 26</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906w-III-039"><thema>Pathologische Anatomie
-      der Geschlechtsorgane</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Risel</nachname></dozent>, <zeit>Sonnab. 12-1 U.</zeit>,
-      <modus>privatim</modus>, <ort>im Pathologischen Institut, Liebigstr.
-      26</ort>.</veranstaltung>
+      der Geschlechtsorgane</thema>: <dozent ref="risel_w"><grad>D.
+      med.</grad> <nachname>Risel</nachname></dozent>, <zeit>Sonnab. 12-1
+      U.</zeit>, <modus>privatim</modus>, <ort>im Pathologischen Institut,
+      Liebigstr. 26</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906w-III-040"><thema>Pathologisch-anatomischer
       Sektions- und Demonstrationskurs</thema>: <dozent
       ref="marchand_f"><grad>D. med. et ph.</grad>
       <nachname>Marchand</nachname>, <funktion>P. O.</funktion></dozent>,
-      <dozent>gemeinsam mit <grad>D. med.</grad>
+      <dozent ref="risel_w">gemeinsam mit <grad>D. med.</grad>
       <nachname>Risel</nachname></dozent>, <zeit>Mittw., Donnerst. u. Sonnab.
       9-10½ U.</zeit>, <modus>privatim</modus>, <ort>im Pathologischen
       Institut, Liebigstr. 26</ort>.</veranstaltung>
@@ -1678,7 +1678,7 @@
       20</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906w-III-057"><thema>Allgemeine
-      Psychopathologie</thema>: <dozent><grad>D. med.</grad>
+      Psychopathologie</thema>: <dozent ref="quensel_f"><grad>D. med.</grad>
       <nachname>Quensel</nachname></dozent>, <zeit>Dienst. u. Freit. 4-5 U.
       (od. in anderen noch zu best. Stunden)</zeit>, <seite>18</seite><modus>privatim</modus>,
       <ort>in der Psychiatrischen und Nervenklinik, Windmühlenweg
@@ -2417,7 +2417,8 @@
       Fakultät E.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Allgemeine Biologie des Meeres</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Nathanson</nachname></dozent>.
+      <dozent ref="nathansohn_a"><grad>D. ph.</grad>
+      <nachname>Nathanso<korrektur>h</korrektur>n</nachname></dozent>.
       <siehe>Siehe Philosophische Fakultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Kultur- und
@@ -2518,9 +2519,9 @@
         <seite>26</seite>
 
         <veranstaltung xml:id="v-1906w-IV.A-007"><thema>Metaphysik</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Mentz</nachname></dozent>,
-        <zeit>Mont. u. Donnerst. 11 bis 12 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="mentz_p"><grad>D. ph.</grad>
+        <nachname>Mentz</nachname></dozent>, <zeit>Mont. u. Donnerst. 11 bis
+        12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1906w-IV.A-008"><thema>Psychophysische
         Maßmethoden</thema>: <dozent ref="wirth_w"><grad>D. ph.</grad>
@@ -2598,8 +2599,9 @@
         <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Allgemeine Psychopathologie</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Quensel</nachname></dozent>.
-        <siehe>Siehe Medizinische Fakultät</siehe>.</veranstaltungsverweis>
+        <dozent ref="quensel_f"><grad>D. med.</grad>
+        <nachname>Quensel</nachname></dozent>. <siehe>Siehe Medizinische
+        Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Kriminalpsychologie</thema></veranstaltungsverweis>.
         -
@@ -4436,8 +4438,8 @@
           <veranstaltung xml:id="v-1906w-IV.C.003-001">a) <thema>Übungen für
           Fortgeschrittene</thema>, <zeit>Mittw. 11-1 U.</zeit>,
           <modus>publice</modus></veranstaltung>. - <veranstaltung
-          xml:id="v-1906w-IV.C.003-002">b) <dozent>unter Leitung des
-          <funktion>Assistenten</funktion> <grad>D. ph.</grad>
+          xml:id="v-1906w-IV.C.003-002">b) <dozent ref="merz_a">unter Leitung
+          des <funktion>Assistenten</funktion> <grad>D. ph.</grad>
           <nachname>Merz</nachname></dozent>: <thema>Übungen für
           Anfänger</thema>, <zeit>Freit. 4 bis 5 U.</zeit></veranstaltung>,
           <modus>publice</modus>.</veranstaltungsgruppe>
@@ -4963,9 +4965,10 @@
         <nachname>Fehr</nachname></dozent>. <siehe>Siehe Juristische
         Fakultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Urheberrecht</thema>: <dozent><grad>D.
-        jur. et ph.</grad> <nachname>Reichel</nachname></dozent>. <siehe>Siehe
-        Juristische Fakultät</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Urheberrecht</thema>: <dozent
+        ref="reichel_h"><grad>D. jur. et ph.</grad>
+        <nachname>Reichel</nachname></dozent>. <siehe>Siehe Juristische
+        Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Staatsrecht der
         römischen Kaiserzeit nebst einer Einleitung: Die Magistratus der
@@ -5285,8 +5288,9 @@
         <veranstaltungsverweis><thema>Übungen des Geographischen
         Seminars</thema>: <dozent ref="partsch_j"><grad>D. ph.</grad>
         <nachname>Partsch</nachname>, <funktion>P. O.</funktion></dozent> und
-        <dozent><grad>D. ph.</grad> <nachname>Merz</nachname></dozent>.
-        <siehe>Siehe Abschnitt C.</siehe></veranstaltungsverweis>
+        <dozent ref="merz_a"><grad>D. ph.</grad>
+        <nachname>Merz</nachname></dozent>. <siehe>Siehe Abschnitt
+        C.</siehe></veranstaltungsverweis>
 
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Übungen für
         Studierende der Handelshochschule: Einführung in die allgemeine
@@ -6203,12 +6207,12 @@
 
     <sachgruppe xml:id="sg-1906w-001">
       <veranstaltung xml:id="v-1906w-001-001"><thema>Fechtunterricht</thema>:
-      <dozent><funktion>Universitäts-Fechtmeister</funktion>
+      <dozent ref="roux_p"><funktion>Universitäts-Fechtmeister</funktion>
       <nachname>Roux</nachname></dozent>. (<ort>Universitäts-Fechtboden
       Ritterstr. 12. II.</ort>)</veranstaltung>
 
       <veranstaltung xml:id="v-1906w-001-002"><thema>Reitunterricht</thema>:
-      <dozent><funktion>Universitäts-Stallmeister</funktion>
+      <dozent ref="sack_e"><funktion>Universitäts-Stallmeister</funktion>
       <nachname>Sack</nachname></dozent>, <ort>Kramerstr. 5.
       I.</ort></veranstaltung>
 

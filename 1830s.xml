@@ -315,8 +315,8 @@
           <sachgruppe xml:id="sg-1830s-I.I.2.b.003">
             <titel>Italienische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1830s-I.I.2.b.003-001"><dozent><nachname>Rathgeber</nachname>,
+            <veranstaltung xml:id="v-1830s-I.I.2.b.003-001"><dozent
+            ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <zeit>an zu best. T. u. St.</zeit>
             <thema>Anfangsgründe nach <schrift><autor>J. G. Keil</autor>'s
@@ -330,8 +330,8 @@
           <sachgruppe xml:id="sg-1830s-I.I.2.b.004">
             <titel>Spanische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1830s-I.I.2.b.004-001"><dozent><nachname>Rathgeber</nachname>,
+            <veranstaltung xml:id="v-1830s-I.I.2.b.004-001"><dozent
+            ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <zeit>an zu best. T. u. St.</zeit>
             <thema>Anfangsgründe nach <schrift><autor>C. Lüdger</autor>'s
@@ -716,9 +716,9 @@
       <sachgruppe xml:id="sg-1830s-I.IV.001">
         <titel>Kursus der gesammten Staatswissenschaften.</titel>
 
-        <veranstaltung
-        xml:id="v-1830s-I.IV.001-001"><dozent><nachname>Schellwitz</nachname>,
-        <grad>D.</grad> <vorname>H.</vorname></dozent>, <thema><notiz
+        <veranstaltung xml:id="v-1830s-I.IV.001-001"><dozent
+        ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
+        <vorname>H.</vorname></dozent>, <thema><notiz
         betreff="fortsetzung">auf drei Semester berechnet</notiz>, und zwar in
         diesem Halbjahre Natur- u. Völkerrecht, Staats- und Staatenrecht,
         Geschichte des europäischen Staatensystems, Staatskunst, Sicherheits-
@@ -1231,12 +1231,11 @@
             Johannes</titel></schrift></thema>, <zeit>3 U. 4
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1830s-II.A.I.1.004-007"><dozent><nachname>Näbe</nachname>,
-            <grad>M.</grad> <vorname>F. A. A.</vorname></dozent>, <thema>über
-            die <schrift><titel>Brr. an die
-            Korinthier</titel></schrift></thema>, <zeit>4 T. in zu best.
-            St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1830s-II.A.I.1.004-007"><dozent
+            ref="naebe_faa"><nachname>Näbe</nachname>, <grad>M.</grad>
+            <vorname>F. A. A.</vorname></dozent>, <thema>über die
+            <schrift><titel>Brr. an die Korinthier</titel></schrift></thema>,
+            <zeit>4 T. in zu best. St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1830s-II.A.I.1.004-008"><dozent
             ref="anger_r"><nachname>Anger</nachname>, <grad>M.</grad>
@@ -1474,10 +1473,10 @@
               <sachgruppe xml:id="sg-1830s-II.A.I.3.002.x.xx">
                 <titel>**) Theologisches Examinatorium.</titel>
 
-                <veranstaltung
-                xml:id="v-1830s-II.A.I.3.002.x.xx-001"><dozent><nachname>Näbe</nachname>,
-                <grad>M.</grad> <vorname>F. A. A.</vorname></dozent>, <zeit>in
-                zu best. St.</zeit></veranstaltung>
+                <veranstaltung xml:id="v-1830s-II.A.I.3.002.x.xx-001"><dozent
+                ref="naebe_faa"><nachname>Näbe</nachname>, <grad>M.</grad>
+                <vorname>F. A. A.</vorname></dozent>, <zeit>in zu best.
+                St.</zeit></veranstaltung>
               </sachgruppe>
             </sachgruppe>
           </sachgruppe>
@@ -2087,11 +2086,10 @@
             Proceßarten</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung> beides
             <thema>nach <autor>Biener</autor></thema>.</veranstaltungsgruppe>
 
-            <veranstaltung
-            xml:id="v-1830s-II.B.II.II.1-004"><dozent><nachname>Mertens</nachname>,
-            <grad>D.</grad> <vorname>K. G. L.</vorname></dozent>,
-            <thema>ordentl. Civilproceß, prakt. erläutert</thema>, <zeit>2 U.
-            6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1830s-II.B.II.II.1-004"><dozent
+            ref="mertens_kgl"><nachname>Mertens</nachname>, <grad>D.</grad>
+            <vorname>K. G. L.</vorname></dozent>, <thema>ordentl. Civilproceß,
+            prakt. erläutert</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1830s-II.B.II.II.1-005"><dozent
             ref="held_gf"><nachname>Held</nachname>, <grad>D.</grad>
@@ -2099,18 +2097,17 @@
             summarischen Civil-Proceß</thema>, <zeit>2 U. 6
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1830s-II.B.II.II.1-006"><dozent><nachname>Prasse</nachname>,
-            <grad>D.</grad> <vorname>L.</vorname></dozent>, <thema>ordentl.
-            Civil-Proceß nach gemeinem deutschen und sächsischen
-            Rechte</thema>, <zeit>7 U. 6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1830s-II.B.II.II.1-006"><dozent
+            ref="prasse_l"><nachname>Prasse</nachname>, <grad>D.</grad>
+            <vorname>L.</vorname></dozent>, <thema>ordentl. Civil-Proceß nach
+            gemeinem deutschen und sächsischen Rechte</thema>, <zeit>7 U. 6
+            T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1830s-II.B.II.II.1-007"><ders>Derselbe</ders>,
-            <thema>summar. Proceß-Arten u. einige Incident-Punkte des
-            Civil-Processes beides <schrift>n. s. Grundrisse des
-            Civil-Processes (Reclam 1827.)</schrift></thema>, <zeit>2 U. 5 T.
-            (mit Ausschl. des Sonnab.)</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1830s-II.B.II.II.1-007"><ders
+            ref="prasse_l">Derselbe</ders>, <thema>summar. Proceß-Arten u.
+            einige Incident-Punkte des Civil-Processes beides <schrift>n. s.
+            Grundrisse des Civil-Processes (Reclam 1827.)</schrift></thema>,
+            <zeit>2 U. 5 T. (mit Ausschl. des Sonnab.)</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1830s-II.B.II.II.1-008"><dozent
             ref="planitz_kgv"><nachname>Planitz</nachname>, <vorname>K. G.
@@ -2201,11 +2198,11 @@
             Theile der Rechtswissenschaft</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1830s-II.B.II.III.1-005"><dozent><nachname>Mertens</nachname>,
-            <grad>D.</grad> <vorname>K. G. W.</vorname></dozent>, <thema>über
-            das ganze Recht od. einzelne Theile desselben</thema>, <zeit>in zu
-            best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1830s-II.B.II.III.1-005"><dozent
+            ref="mertens_kgl"><nachname>Mertens</nachname>, <grad>D.</grad>
+            <vorname>K. G. W.</vorname></dozent>, <thema>über das ganze Recht
+            od. einzelne Theile desselben</thema>, <zeit>in zu best.
+            St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1830s-II.B.II.III.1-006"><dozent
             ref="held_gf"><nachname>Held</nachname>, <grad>D.</grad>
@@ -2435,12 +2432,12 @@
           <autor>Hippokrates</autor></schrift></thema>, <zeit>7 U. 2 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1830s-II.C.003.x-002"><dozent><nachname>Ochs</nachname>,
-          <grad>D.</grad> <vorname>F. M. A.</vorname></dozent>, <thema>über
-          <schrift>die Aphorismen des <autor>Hippokrates</autor></schrift> (in
-          Beziehung auf praktische Medicin)</thema>, <zeit>7 U. Dienst. Donn.
-          u. Sonnab.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1830s-II.C.003.x-002"><dozent
+          ref="ochs_fma"><nachname>Ochs</nachname>, <grad>D.</grad>
+          <vorname>F. M. A.</vorname></dozent>, <thema>über <schrift>die
+          Aphorismen des <autor>Hippokrates</autor></schrift> (in Beziehung
+          auf praktische Medicin)</thema>, <zeit>7 U. Dienst. Donn. u.
+          Sonnab.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -2495,11 +2492,10 @@
           Anatomie</thema>, <siehe>s.
           Naturwissenschaften</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung
-          xml:id="v-1830s-II.C.I.1-007"><dozent><nachname>Hoppe</nachname>,
-          <grad>M.</grad> <vorname>J. G.</vorname>, <grad>Med.
-          Bacc.</grad></dozent>, <thema>über Knochenlehre</thema>, <zeit>2 T.
-          in zu best. St.</zeit>
+          <veranstaltung xml:id="v-1830s-II.C.I.1-007"><dozent
+          ref="hoppe_jg"><nachname>Hoppe</nachname>, <grad>M.</grad>
+          <vorname>J. G.</vorname>, <grad>Med. Bacc.</grad></dozent>,
+          <thema>über Knochenlehre</thema>, <zeit>2 T. in zu best. St.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
 

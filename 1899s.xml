@@ -1897,9 +1897,9 @@
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.A-005"><thema>Thatsachen und
-        Theorien der Farbwahrnehmung</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Mentz</nachname></dozent>, <zeit>Dienst. u. Freit. 11-12
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Theorien der Farbwahrnehmung</thema>: <dozent ref="mentz_p"><grad>D.
+        ph.</grad> <nachname>Mentz</nachname></dozent>, <zeit>Dienst. u.
+        Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899s-IV.A-006"><thema>Geschichte der neueren
         Philosophie bis auf Kant</thema>: <dozent ref="richter_r"><grad>D.
@@ -1965,12 +1965,13 @@
         <veranstaltungsgruppe><thema>Psychologisches Laboratorium</thema>:
         <veranstaltung xml:id="v-1899s-IV.A-011">a) <thema>Einführungscursus
         zur experimentellen Psychologie (nur für Mitglieder des
-        Instituts)</thema>: <dozent><funktion>Assistent</funktion> <grad>D.
-        ph.</grad> <nachname>Mentz</nachname></dozent> (im Auftrag des
-        Directors), <zeit>Sonnab. 11-1 U.</zeit></veranstaltung>,
-        <veranstaltung xml:id="v-1899s-IV.A-012">b) <thema>Specielle Arbeiten
-        und Uebungen der Theilnehmer</thema>: <dozent ref="wundt_w"><grad>D.
-        ph., jur. &amp; med.</grad> <nachname>Wundt</nachname>, <funktion>P.
+        Instituts)</thema>: <dozent
+        ref="mentz_p"><funktion>Assistent</funktion> <grad>D. ph.</grad>
+        <nachname>Mentz</nachname></dozent> (im Auftrag des Directors),
+        <zeit>Sonnab. 11-1 U.</zeit></veranstaltung>, <veranstaltung
+        xml:id="v-1899s-IV.A-012">b) <thema>Specielle Arbeiten und Uebungen
+        der Theilnehmer</thema>: <dozent ref="wundt_w"><grad>D. ph., jur.
+        &amp; med.</grad> <nachname>Wundt</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>Mont. bis Freit. 2-7 U. u. Sonnab. 2-4
         U.</zeit>, <modus>privatissime</modus>, aber <gebühr>gratis
         (ausschliessl.
@@ -2617,7 +2618,7 @@
           A.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Uebungen im deutschen Vortrag</thema>:
-          <dozent><vorname>Th.</vorname>
+          <dozent ref="horstmann_t"><vorname>Th.</vorname>
           <nachname>Horstmann</nachname></dozent>. <siehe>Siehe Seite
           74</siehe>.</veranstaltungsverweis>
         </sachgruppe>
@@ -4044,7 +4045,7 @@ abgetrennt sind, die aber definitiv nicht dazugehören, wurde auch diese VA aus 
         <siehe>Siehe Medicinische Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Thatsachen und Theorien der
-        Farbenwahrnehmung</thema>: <dozent><grad>D. ph.</grad>
+        Farbenwahrnehmung</thema>: <dozent ref="mentz_p"><grad>D. ph.</grad>
         <nachname>Mentz</nachname></dozent>. <siehe>Siehe Abschnitt
         A.</siehe></veranstaltungsverweis>
 
@@ -4225,12 +4226,12 @@ abgetrennt sind, die aber definitiv nicht dazugehören, wurde auch diese VA aus 
 
     <sachgruppe xml:id="sg-1899s-001">
       <veranstaltung xml:id="v-1899s-001-001"><thema>Für
-      Fechtunterricht</thema>: <dozent>Der
+      Fechtunterricht</thema>: <dozent ref="roux_lc">Der
       <funktion>Univ.-Fechtmeister</funktion>
       <nachname>Roux</nachname></dozent>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-001-002"><thema>Für
-      Reitunterricht</thema>: <dozent>Der
+      Reitunterricht</thema>: <dozent ref="sack_e">Der
       <funktion>Univ.-Stallmeister</funktion>
       <nachname>Sack</nachname></dozent>.</veranstaltung>
     </sachgruppe>

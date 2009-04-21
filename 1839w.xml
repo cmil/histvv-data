@@ -401,8 +401,8 @@
           <sachgruppe xml:id="sg-1839w-I.I.2.b.007">
             <titel>Italienische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1839w-I.I.2.b.007-001"><dozent><nachname>Rathgeber</nachname>,
+            <veranstaltung xml:id="v-1839w-I.I.2.b.007-001"><dozent
+            ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>Anfangsgründe nach
             <gesperrt>Ife's ital. Lesebuche</gesperrt>, mit Grammatik und
@@ -416,8 +416,8 @@
           <sachgruppe xml:id="sg-1839w-I.I.2.b.008">
             <titel>Spanische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1839w-I.I.2.b.008-001"><dozent><nachname>Rathgeber</nachname>,
+            <veranstaltung xml:id="v-1839w-I.I.2.b.008-001"><dozent
+            ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>Anfangsgründe nach
             <antiqua>Dr.</antiqua> <gesperrt>J. G. Keil's Grammatik</gesperrt>
@@ -753,9 +753,9 @@
       <sachgruppe xml:id="sg-1839w-I.IV.004">
         <titel>Politik.</titel>
 
-        <veranstaltung
-        xml:id="v-1839w-I.IV.004-001"><dozent><nachname>Schellwitz</nachname>,
-        <grad>D.</grad> <vorname>H.</vorname></dozent>, <thema>nach
+        <veranstaltung xml:id="v-1839w-I.IV.004-001"><dozent
+        ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
+        <vorname>H.</vorname></dozent>, <thema>nach
         <gesperrt>Dahlmann</gesperrt></thema>, <zeit>2 T. in zu best.
         St.</zeit></veranstaltung>
       </sachgruppe>
@@ -1138,9 +1138,9 @@
             Leidensgeschichte</thema>, <zeit>10 U. 4 T.</zeit> (<gebühr>2 T.
             unentgeltlich</gebühr>).</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1839w-II.A.I.1.004-007"><dozent><nachname>Hänsel</nachname>,
-            <grad>M.</grad> <vorname>F. M. A.</vorname>, <funktion>Theol.
+            <veranstaltung xml:id="v-1839w-II.A.I.1.004-007"><dozent
+            ref="haensel_fma"><nachname>Hänsel</nachname>, <grad>M.</grad>
+            <vorname>F. M. A.</vorname>, <funktion>Theol.
             Lic.</funktion></dozent>, <thema><notiz
             betreff="fortsetzung">Fortsetzung</notiz> der praktischen
             Auslegung des Ev. Johannis u., nach Beendigung derselben,
@@ -1495,9 +1495,9 @@
             <zeit>Mont. 5-7 U.</zeit> <modus>privatissime</modus>, aber
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1839w-II.A.II.004.001-006"><dozent><nachname>Hänsel</nachname>,
-            <grad>M.</grad> <vorname>F. M. A.</vorname>, <funktion>Theol.
+            <veranstaltung xml:id="v-1839w-II.A.II.004.001-006"><dozent
+            ref="haensel_fma"><nachname>Hänsel</nachname>, <grad>M.</grad>
+            <vorname>F. M. A.</vorname>, <funktion>Theol.
             Lic.</funktion></dozent>, <thema>homiletische Uebungen</thema>,
             <zeit>in den best. T. u. St.</zeit> <modus>privatissime</modus>,
             aber <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1583,11 +1583,11 @@
           Vergleichung mit den vorzüglichsten positiven Rechten</thema>,
           <zeit>10 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1839w-II.B.I.003-002"><dozent><nachname>Schaffrath</nachname>,
-          <grad>D.</grad> <vorname>W. M.</vorname></dozent>, <thema>Naturrecht
-          mit einer Philosophie des römischen Rechts</thema>, <zeit>3 T. in zu
-          best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.B.I.003-002"><dozent
+          ref="schaffrath_wm"><nachname>Schaffrath</nachname>, <grad>D.</grad>
+          <vorname>W. M.</vorname></dozent>, <thema>Naturrecht mit einer
+          Philosophie des römischen Rechts</thema>, <zeit>3 T. in zu best.
+          St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1839w-II.B.I.003-003"><dozent
           ref="schletter_h"><nachname>Schletter</nachname>, <grad>D.</grad>
@@ -1787,8 +1787,8 @@
           <sachgruppe xml:id="sg-1839w-II.B.II.2.003">
             <titel>Wechselrecht.</titel>
 
-            <veranstaltung
-            xml:id="v-1839w-II.B.II.2.003-001"><dozent><nachname>Schaffrath</nachname>,
+            <veranstaltung xml:id="v-1839w-II.B.II.2.003-001"><dozent
+            ref="schaffrath_wm"><nachname>Schaffrath</nachname>,
             <grad>D.</grad> <vorname>W. M.</vorname></dozent>,
             <thema>Wechselrecht u. Proceß</thema>, <zeit>3 T. in zu best.
             St.</zeit></veranstaltung>
@@ -1913,17 +1913,16 @@
           gerichtlichen Verfahrens in bürgerlichen Rechtsstreitigkeiten
           (Gießen, 1826. 8.)</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1839w-II.B.IV.001-005"><dozent><nachname>Schaffrath</nachname>,
-          <grad>D.</grad> <vorname>W. M.</vorname></dozent>, <thema>Grund-
-          oder Fundamentalwissenschaft des Civil- und Criminalprocesses, nach
+          <veranstaltung xml:id="v-1839w-II.B.IV.001-005"><dozent
+          ref="schaffrath_wm"><nachname>Schaffrath</nachname>, <grad>D.</grad>
+          <vorname>W. M.</vorname></dozent>, <thema>Grund- oder
+          Fundamentalwissenschaft des Civil- und Criminalprocesses, nach
           seinem Buche (Lpz. b. Fest. 1839.)</thema>, <zeit>2 T. in zu best.
           St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1839w-II.B.IV.001-006"><ders>Derselbe</ders>,
-          <thema>Concurs-Recht u. Proceß</thema>, <zeit>3 T. in zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.B.IV.001-006"><ders
+          ref="schaffrath_wm">Derselbe</ders>, <thema>Concurs-Recht u.
+          Proceß</thema>, <zeit>3 T. in zu best. St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1839w-II.B.IV.002">
@@ -1939,8 +1938,9 @@
           <vorname>A.</vorname></dozent>, <thema>nach seinen Sätzen</thema>,
           <zeit>2 T. in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltungsverweis><dozent><nachname>Schaffrath</nachname>,
-          <grad>D.</grad> <vorname>W. M.</vorname></dozent>, <siehe>s.
+          <veranstaltungsverweis><dozent
+          ref="schaffrath_wm"><nachname>Schaffrath</nachname>, <grad>D.</grad>
+          <vorname>W. M.</vorname></dozent>, <siehe>s.
           Civilproceß</siehe>.</veranstaltungsverweis>
         </sachgruppe>
       </sachgruppe>
@@ -1948,9 +1948,9 @@
       <sachgruppe xml:id="sg-1839w-II.B.V">
         <titel>V. Staatsrecht.</titel>
 
-        <veranstaltung
-        xml:id="v-1839w-II.B.V-001"><dozent><nachname>Schellwitz</nachname>,
-        <grad>D.</grad> <vorname>H.</vorname></dozent>, <thema>sächsisches
+        <veranstaltung xml:id="v-1839w-II.B.V-001"><dozent
+        ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
+        <vorname>H.</vorname></dozent>, <thema>sächsisches
         Staatsrecht</thema>, <zeit>2 T. in zu best. St.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -1990,12 +1990,11 @@
         <sachgruppe xml:id="sg-1839w-II.B.VII.002">
           <titel>Civilproceßpraxis.</titel>
 
-          <veranstaltung
-          xml:id="v-1839w-II.B.VII.002-001"><dozent><nachname>Schaffrath</nachname>,
-          <grad>D.</grad> <vorname>W. M.</vorname></dozent>,
-          <thema>gerichtliches u. advokatorisches
-          Civilproceß-Praktikum</thema>, <zeit>4 T. in zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.B.VII.002-001"><dozent
+          ref="schaffrath_wm"><nachname>Schaffrath</nachname>, <grad>D.</grad>
+          <vorname>W. M.</vorname></dozent>, <thema>gerichtliches u.
+          advokatorisches Civilproceß-Praktikum</thema>, <zeit>4 T. in zu
+          best. St.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -2029,22 +2028,22 @@
           <vorname>W.</vorname></dozent>, <thema>über alle Theile des
           Civilrechts</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1839w-II.B.VIII.001-004"><dozent><nachname>Schaffrath</nachname>,
-          <grad>D.</grad> <vorname>W. M.</vorname></dozent>, <thema>über
-          Civil- und Criminalproceß</thema>, <zeit>4 T. in zu best.
+          <veranstaltung xml:id="v-1839w-II.B.VIII.001-004"><dozent
+          ref="schaffrath_wm"><nachname>Schaffrath</nachname>, <grad>D.</grad>
+          <vorname>W. M.</vorname></dozent>, <thema>über Civil- und
+          Criminalproceß</thema>, <zeit>4 T. in zu best.
           St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1839w-II.B.VIII.001-005"><ders>Derselbe</ders>,
-          <thema>über Institutionen, Pandekten u. Rechtsgeschichte</thema>,
-          <zeit>6 T. in zu best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.B.VIII.001-005"><ders
+          ref="schaffrath_wm">Derselbe</ders>, <thema>über Institutionen,
+          Pandekten u. Rechtsgeschichte</thema>, <zeit>6 T. in zu best.
+          St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1839w-II.B.VIII.001-006"><ders>Derselbe</ders>,
-          <thema>über römisches, deutsches u. königl. sächsisches Privatrecht
-          (in einem Systeme) u. über Geschichte desselben</thema>, <zeit>6 T.
-          in zu best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.B.VIII.001-006"><ders
+          ref="schaffrath_wm">Derselbe</ders>, <thema>über römisches,
+          deutsches u. königl. sächsisches Privatrecht (in einem Systeme) u.
+          über Geschichte desselben</thema>, <zeit>6 T. in zu best.
+          St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1839w-II.B.VIII.002">
@@ -2103,11 +2102,11 @@
       <sachgruppe xml:id="sg-1839w-II.C.003">
         <titel>Quellenstudium.</titel>
 
-        <veranstaltung
-        xml:id="v-1839w-II.C.003-001"><dozent><nachname>Neubert</nachname>,
-        <grad>D.</grad> <vorname>K. A.</vorname></dozent>, <thema>Erläuterung
-        ausgewählter Stellen aus <antiqua>Celsus</antiqua> und andern
-        Schriftstellern, welche in der von ihm <seite>19</seite>herausgegeb.
+        <veranstaltung xml:id="v-1839w-II.C.003-001"><dozent
+        ref="neubert_c"><nachname>Neubert</nachname>, <grad>D.</grad>
+        <vorname>K. A.</vorname></dozent>, <thema>Erläuterung ausgewählter
+        Stellen aus <antiqua>Celsus</antiqua> und andern Schriftstellern,
+        welche in der von ihm <seite>19</seite>herausgegeb.
         <gesperrt>Chrestomathia medica</gesperrt> (Lpz. b. Voß, 1839.)
         abgedruckt sind</thema>, <zeit>11 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -2206,11 +2205,10 @@
         <sachgruppe xml:id="sg-1839w-II.C.I.3">
           <titel>3) Allgemeine Pathologie.</titel>
 
-          <veranstaltung
-          xml:id="v-1839w-II.C.I.3-001"><dozent><nachname>Neubert</nachname>,
-          <grad>D.</grad> <vorname>K. A.</vorname></dozent>, <thema>allgemeine
-          Pathologie und Therapie</thema>, <zeit>4 U. 5
-          T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1839w-II.C.I.3-001"><dozent
+          ref="neubert_c"><nachname>Neubert</nachname>, <grad>D.</grad>
+          <vorname>K. A.</vorname></dozent>, <thema>allgemeine Pathologie und
+          Therapie</thema>, <zeit>4 U. 5 T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1839w-II.C.I.4">
@@ -2221,9 +2219,10 @@
           <vorname>M.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>11
           U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltungsverweis><dozent><nachname>Neubert</nachname>,
-          <grad>D.</grad> <vorname>K. A.</vorname></dozent>, <siehe>s.
-          allgemeine Pathologie</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><dozent
+          ref="neubert_c"><nachname>Neubert</nachname>, <grad>D.</grad>
+          <vorname>K. A.</vorname></dozent>, <siehe>s. allgemeine
+          Pathologie</siehe>.</veranstaltungsverweis>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1839w-II.C.I.5">
@@ -2560,9 +2559,9 @@
           <vorname>M.</vorname></dozent>, <siehe>s.
           Examinir-Uebungen</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung
-          xml:id="v-1839w-II.C.III.2-001"><dozent><nachname>Neubert</nachname>,
-          <grad>D.</grad> <vorname>K. A.</vorname></dozent>, <thema><notiz
+          <veranstaltung xml:id="v-1839w-II.C.III.2-001"><dozent
+          ref="neubert_c"><nachname>Neubert</nachname>, <grad>D.</grad>
+          <vorname>K. A.</vorname></dozent>, <thema><notiz
           betreff="fortsetzung">Fortsetzung</notiz></thema>, <zeit>in den
           best. St.</zeit> <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>

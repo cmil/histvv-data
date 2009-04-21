@@ -356,8 +356,8 @@
           <sachgruppe xml:id="sg-1827w-I.I.2.b.003">
             <titel>Italienische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1827w-I.I.2.b.003-001"><dozent><nachname>Rathgeber</nachname>,
+            <veranstaltung xml:id="v-1827w-I.I.2.b.003-001"><dozent
+            ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema><notiz
             betreff="fortsetzung">Fortsetz.</notiz> des Kursus: <antiqua>La
@@ -370,8 +370,8 @@
           <sachgruppe xml:id="sg-1827w-I.I.2.b.004">
             <titel>Spranische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1827w-I.I.2.b.004-001"><dozent><nachname>Rathgeber</nachname>,
+            <veranstaltung xml:id="v-1827w-I.I.2.b.004-001"><dozent
+            ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema><notiz
             betreff="fortsetzung">Fortsetz.</notiz> des Kursus: Don Quixote de
@@ -716,9 +716,9 @@
         <vorname>C. E.</vorname>, <funktion>P. O.</funktion></dozent>,
         <siehe>s. Sächs. Recht</siehe>.</veranstaltungsverweis>
 
-        <veranstaltung
-        xml:id="v-1827w-I.IV.001-001"><dozent><nachname>Schellwitz</nachname>,
-        <grad>D.</grad> <vorname>H.</vorname></dozent>, <thema>allgemeines
+        <veranstaltung xml:id="v-1827w-I.IV.001-001"><dozent
+        ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
+        <vorname>H.</vorname></dozent>, <thema>allgemeines
         Staatsrecht</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -1816,8 +1816,8 @@
             Uebungen in der rechtlichen Geschäftsführung</thema>, <zeit>3 U. 4
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1827w-II.B.II.II.1-005"><dozent><nachname>Schellwitz</nachname>,
+            <veranstaltung xml:id="v-1827w-II.B.II.II.1-005"><dozent
+            ref="schellwitz_h"><nachname>Schellwitz</nachname>,
             <grad>D.</grad> <vorname>H.</vorname></dozent>, <thema>die Lehre
             von Sicherung und Verfolgung der Rechte</thema>, <zeit>3 U. 4
             T.</zeit></veranstaltung>
@@ -1840,29 +1840,26 @@
             <thema>Lehre der gerichtlichen Klagen, mit aus der Praxis
             genommenen Klagformeln</thema>, <zeit>3 U.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1827w-II.B.II.II.1-009"><dozent><nachname>Mertens</nachname>,
-            <grad>D.</grad> <vorname>K. G. L.</vorname></dozent>,
-            <thema>ordentl. Civilproceß, prakt. erläutert</thema>, <zeit>8 U.
+            <veranstaltung xml:id="v-1827w-II.B.II.II.1-009"><dozent
+            ref="mertens_kgl"><nachname>Mertens</nachname>, <grad>D.</grad>
+            <vorname>K. G. L.</vorname></dozent>, <thema>ordentl. Civilproceß,
+            prakt. erläutert</thema>, <zeit>8 U. 6 T.</zeit></veranstaltung>
+
+            <veranstaltung xml:id="v-1827w-II.B.II.II.1-010"><ders
+            ref="mertens_kgl">Derselbe</ders>, <thema>summarische
+            Processe</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
+
+            <veranstaltung xml:id="v-1827w-II.B.II.II.1-011"><dozent
+            ref="prasse_l"><nachname>Prasse</nachname>, <vorname>L.</vorname>,
+            <funktion>J. U. B.</funktion></dozent>, <thema>ordentl. Proceß
+            nach Anleit. s. Grundrisses (b. Reclam 1827.)</thema>, <zeit>3 U.
             6 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1827w-II.B.II.II.1-010"><ders>Derselbe</ders>,
-            <thema>summarische Processe</thema>, <zeit>2 U. 4
-            T.</zeit></veranstaltung>
-
-            <veranstaltung
-            xml:id="v-1827w-II.B.II.II.1-011"><dozent><nachname>Prasse</nachname>,
-            <vorname>L.</vorname>, <funktion>J. U. B.</funktion></dozent>,
-            <thema>ordentl. Proceß nach Anleit. s. Grundrisses (b. Reclam
-            1827.)</thema>, <zeit>3 U. 6 T.</zeit></veranstaltung>
-
-            <veranstaltung
-            xml:id="v-1827w-II.B.II.II.1-012"><ders>Derselbe</ders>,
-            <thema>summar. Processe u. Jucident-Puncte bei dem Verfahren in
-            bürgerl. Streitigkeiten, n. dem näml.
-            <gesperrt>Grundrisse</gesperrt></thema>, <zeit>2 U. 5 T. (mit
-            Ausschl. d. Sonnab.)</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1827w-II.B.II.II.1-012"><ders
+            ref="prasse_l">Derselbe</ders>, <thema>summar. Processe u.
+            Jucident-Puncte bei dem Verfahren in bürgerl. Streitigkeiten, n.
+            dem näml. <gesperrt>Grundrisse</gesperrt></thema>, <zeit>2 U. 5 T.
+            (mit Ausschl. d. Sonnab.)</zeit></veranstaltung>
 
             <sachgruppe xml:id="sg-1827w-II.B.II.II.1.x">
               <titel>*) Geschichte des gerichtlichen Processes.</titel>
@@ -1889,8 +1886,8 @@
             <sachgruppe xml:id="sg-1827w-II.B.II.II.2.x">
               <titel>*) Anleitung zur juristischen Praxis.</titel>
 
-              <veranstaltung
-              xml:id="v-1827w-II.B.II.II.2.x-001"><dozent><nachname>Schellwitz</nachname>,
+              <veranstaltung xml:id="v-1827w-II.B.II.II.2.x-001"><dozent
+              ref="schellwitz_h"><nachname>Schellwitz</nachname>,
               <grad>D.</grad> <vorname>H.</vorname></dozent>,
               <thema>juristisches Uebungs-Collegium</thema>, <zeit>4 U. 2
               T.</zeit></veranstaltung>
@@ -1950,11 +1947,11 @@
             ganze Recht u. alle Theile desselben</thema>, <zeit>in d. best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1827w-II.B.II.III.1-009"><dozent><nachname>Mertens</nachname>,
-            <grad>D.</grad> <vorname>K. G. W.</vorname></dozent>, <thema>über
-            das ganze Recht od. einzelne Theile desselben</thema>, <zeit>in zu
-            best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1827w-II.B.II.III.1-009"><dozent
+            ref="mertens_kgl"><nachname>Mertens</nachname>, <grad>D.</grad>
+            <vorname>K. G. W.</vorname></dozent>, <thema>über das ganze Recht
+            od. einzelne Theile desselben</thema>, <zeit>in zu best.
+            St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1827w-II.B.II.III.1-010"><dozent
             ref="schmidt_aw"><nachname>Schmidt</nachname>, <grad>M.</grad>
@@ -2316,12 +2313,12 @@
           <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
           Chemie</siehe>.</veranstaltungsverweis>
 
-          <veranstaltung
-          xml:id="v-1827w-II.C.II.2-004"><dozent><nachname>Meurer</nachname>,
-          <grad>D.</grad> <vorname>F.</vorname></dozent>, <thema>über die
-          gewöhnlichen Heilmittel in Hinsicht der Art, sie zu bereiten und zu
-          verordnen, unter Anleitung der sächs.
-          <antiqua>Pharmacop.</antiqua></thema>, <zeit>3 U. 4 T.</zeit>
+          <veranstaltung xml:id="v-1827w-II.C.II.2-004"><dozent
+          ref="meurer_f"><nachname>Meurer</nachname>, <grad>D.</grad>
+          <vorname>F.</vorname></dozent>, <thema>über die gewöhnlichen
+          Heilmittel in Hinsicht der Art, sie zu bereiten und zu verordnen,
+          unter Anleitung der sächs. <antiqua>Pharmacop.</antiqua></thema>,
+          <zeit>3 U. 4 T.</zeit>
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <sachgruppe xml:id="sg-1827w-II.C.II.2.x">
@@ -2545,10 +2542,10 @@
           <thema>über Pharmacie, Zoologie und Botanik</thema>, <zeit>in zu
           best. St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1827w-II.C.III.001-005"><dozent><nachname>Meurer</nachname>,
-          <grad>D.</grad> <vorname>F.</vorname></dozent>, <thema>über Chemie,
-          Pharmacie u. Arzneimittellehre</thema>, <zeit>in zu best.
+          <veranstaltung xml:id="v-1827w-II.C.III.001-005"><dozent
+          ref="meurer_f"><nachname>Meurer</nachname>, <grad>D.</grad>
+          <vorname>F.</vorname></dozent>, <thema>über Chemie, Pharmacie u.
+          Arzneimittellehre</thema>, <zeit>in zu best.
           St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1827w-II.C.III.001-006"><dozent

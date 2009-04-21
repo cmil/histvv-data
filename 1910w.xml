@@ -929,10 +929,10 @@
       für Mediziner und Pharmazeuten</thema>: <dozent ref="wiener_oh"><grad>D.
       ph., nat. et med.</grad> <nachname>Wiener</nachname>, <funktion>P.
       O.</funktion></dozent>, <dozent ref="scholl_h">mit <grad>D. ph.</grad>
-      <nachname>Scholl</nachname></dozent> u. <dozent><grad>D. ph.</grad>
-      <nachname>Jaffé</nachname></dozent>, <zeit>Sonnab. 9-12 U.</zeit>,
-      <modus>privatim</modus>, <ort>im Physikalischen Institut, Linnéstr.
-      5</ort>.</veranstaltung>
+      <nachname>Scholl</nachname></dozent> u. <dozent ref="jaffe_g"><grad>D.
+      ph.</grad> <nachname>Jaffé</nachname></dozent>, <zeit>Sonnab. 9-12
+      U.</zeit>, <modus>privatim</modus>, <ort>im Physikalischen Institut,
+      Linnéstr. 5</ort>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1029,10 +1029,10 @@
       für Pharmazeuten und Mediziner</thema>: <dozent ref="wiener_oh"><grad>D.
       ph. nat. et med.</grad> <nachname>Wiener</nachname>, <funktion>P.
       O.</funktion></dozent>, <dozent ref="scholl_h">mit <grad>D. ph.</grad>
-      <nachname>Scholl</nachname></dozent> u. <dozent><grad>D. ph.</grad>
-      <nachname>Jaffé</nachname></dozent>, <zeit>Sonnab. 9-12 U.</zeit>,
-      <modus>privatim</modus>, <ort>im Physikal. Institut, Linnéstr.
-      5</ort>.</veranstaltung>
+      <nachname>Scholl</nachname></dozent> u. <dozent ref="jaffe_g"><grad>D.
+      ph.</grad> <nachname>Jaffé</nachname></dozent>, <zeit>Sonnab. 9-12
+      U.</zeit>, <modus>privatim</modus>, <ort>im Physikal. Institut,
+      Linnéstr. 5</ort>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1694,7 +1694,7 @@
           Besprechungen</thema>, <zeit>Freit. 5-6 U.</zeit>,
           <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
 
-          <veranstaltungsgruppe><dozent><grad>D. med.</grad>
+          <veranstaltungsgruppe><dozent ref="quensel_f"><grad>D. med.</grad>
           <nachname>Quensel</nachname></dozent>: <ort>In der Privatpoliklinik
           für Nervenkrankheiten (Königsstr. 14. I.)</ort>: <veranstaltung
           xml:id="v-1910w-III.001.a-003"><thema>Demonstrationen und Übungen in
@@ -2042,8 +2042,8 @@
         <veranstaltungsgruppe><thema>Psychologisches Laboratorium</thema>
         (<ort>Paulinum III</ort>): <veranstaltung xml:id="v-1910w-IV.A-020">a)
         <thema>Einführungskursus zur experimentellen Psychologie (nur für
-        Mitglieder des Instituts)</thema>:
-        <dozent><funktion>Assistent</funktion> <grad>D. ph.</grad>
+        Mitglieder des Instituts)</thema>: <dozent
+        ref="salow_p"><funktion>Assistent</funktion> <grad>D. ph.</grad>
         <nachname>Salow</nachname> (im Auftrag des Direktors)</dozent>,
         <zeit>Sonnab. 11-1 U.</zeit></veranstaltung>; <veranstaltung
         xml:id="v-1910w-IV.A-021">b) <thema>Spezielle Arbeiten und Übungen der
@@ -2545,9 +2545,9 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1910w-IV.B.c-016"><thema>Geschichte des
-          deutschen Humanismus</thema>: <dozent><grad>D. ph. et jur.</grad>
-          <nachname>Merker</nachname></dozent>, <zeit>Mont. u. Donnerst. 6-7
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          deutschen Humanismus</thema>: <dozent ref="merker_p"><grad>D. ph. et
+          jur.</grad> <nachname>Merker</nachname></dozent>, <zeit>Mont. u.
+          Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <trennlinie/>
 
@@ -2600,9 +2600,10 @@
           <zeit>Mittw. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1910w-IV.B.c-025"><thema>Übungen zur
-          Geschichte der Deutschen Lyrik</thema>: <dozent><grad>D. ph. et
-          jur.</grad> <nachname>Merker</nachname></dozent>, <zeit>Freit. 6-7
-          U.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
+          Geschichte der Deutschen Lyrik</thema>: <dozent
+          ref="merker_p"><grad>D. ph. et jur.</grad>
+          <nachname>Merker</nachname></dozent>, <zeit>Freit. 6-7 U.</zeit>,
+          <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1910w-IV.B.c-026"><thema>Übungen im
           deutschen Stil (für Fortgeschrittenere, besonders für
@@ -3467,7 +3468,7 @@
 
             <veranstaltung xml:id="v-1910w-IV.D.002.001-003"><thema>Passion
             und Oratorium in ihrer geschichtlichen Entwicklung</thema>:
-            <dozent><grad>D. ph.</grad>
+            <dozent ref="schering_a"><grad>D. ph.</grad>
             <nachname>Schering</nachname></dozent>, <zeit>Dienst. u. Freit.
             4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3521,9 +3522,10 @@
             xml:id="v-1910w-IV.D.002.002-004"><thema>Historische
             Kammermusikübungen</thema>: <dozent ref="riemann_h"><grad>D. ph.
             et mus.</grad> <nachname>Riemann</nachname>, <funktion>P.
-            E.</funktion></dozent> (<dozent>unter Mitleitung von <grad>D.
-            ph.</grad> <nachname>Schering</nachname></dozent>), <zeit>Mittw.
-            8-10 U. Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
+            E.</funktion></dozent> (<dozent ref="schering_a">unter Mitleitung
+            von <grad>D. ph.</grad> <nachname>Schering</nachname></dozent>),
+            <zeit>Mittw. 8-10 U. Ab.</zeit>,
+            <modus>publice</modus>.</veranstaltung>
 
             <trennlinie/>
 
@@ -3537,8 +3539,8 @@
             Eg. r.</ort>).</veranstaltung>
 
             <veranstaltung xml:id="v-1910w-IV.D.002.002-006"><thema>Übungen in
-            der Stilkritik (Händels Opern und Oratorien)</thema>:
-            <dozent><grad>D. ph.</grad>
+            der Stilkritik (Händels Opern und Oratorien)</thema>: <dozent
+            ref="schering_a"><grad>D. ph.</grad>
             <nachname>Schering</nachname></dozent>, <zeit>Mont. 3½-5
             U.</zeit>, <modus>privatissime</modus>, <gebühr>gratis</gebühr>,
             <ort>im Auditorium des Collegium musicum (Universitätsstr. 13.
@@ -3855,8 +3857,8 @@
             <thema>Versicherungstechnische und versicherungsrechtliche
             Übungen</thema>, <zeit>Mittw. 7-9 U. Ab.</zeit></veranstaltung>
 
-            <veranstaltung xml:id="v-1910w-IV.E.001.001-007">5)
-            <dozent><funktion>Handelslehrer</funktion>
+            <veranstaltung xml:id="v-1910w-IV.E.001.001-007">5) <dozent
+            ref="pape_e"><funktion>Handelslehrer</funktion>
             <nachname>Pape</nachname></dozent>: <thema>Einführung in das
             Verständnis der systematischen Buchhaltung</thema>, <zeit>Freit.
             7-9 U. Ab.</zeit></veranstaltung>
@@ -4175,7 +4177,7 @@
         5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1910w-IV.G-010"><thema>Kinetische
-        Gastheorie</thema>: <dozent><grad>D. ph.</grad>
+        Gastheorie</thema>: <dozent ref="jaffe_g"><grad>D. ph.</grad>
         <nachname>Jaffé</nachname></dozent>, <zeit>Mont. u. Freit. 4-5
         U.</zeit>, <modus>privatim</modus>, <ort>im Physikal. Institut,
         Linnéstr. 5</ort>.</veranstaltung>
@@ -4241,7 +4243,7 @@
 
         <veranstaltung xml:id="v-1910w-IV.G-019"><thema>Die Anwendung
         spektroskopischer Methoden auf chemische Probleme (mit
-        Demonstrationen)</thema>: <dozent><grad>D. ph.</grad>
+        Demonstrationen)</thema>: <dozent ref="schaefer_k"><grad>D. ph.</grad>
         <nachname>Schaefer</nachname></dozent>, <zeit>in 1 noch zu best.
         Stunde</zeit>, <modus>privatim</modus>, <ort>im Chemischen
         Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
@@ -4276,7 +4278,7 @@
         Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1910w-IV.G-024"><thema>Die Wandlungen des
-        Atombegriffs</thema>: <dozent><grad>D. ph.</grad>
+        Atombegriffs</thema>: <dozent ref="schaefer_k"><grad>D. ph.</grad>
         <nachname>Schaefer</nachname></dozent>, <zeit>in 1 noch zu best.
         Stunde</zeit>, <modus>publice</modus>, <ort>im Chemischen
         Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
@@ -4295,10 +4297,11 @@
         <ort>im Chemischen Laboratorium, Liebigstr. 18</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1910w-IV.G-027"><thema>Technik des
-        organisch-chemischen Arbeitens</thema>: <dozent><grad>D. ph.</grad>
-        <seite>45</seite><nachname>Scheiber</nachname></dozent>, <zeit>Mittw.
-        11-1 U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für
-        angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
+        organisch-chemischen Arbeitens</thema>: <dozent
+        ref="scheiber_j"><grad>D. ph.</grad> <seite>45</seite><nachname>Scheiber</nachname></dozent>,
+        <zeit>Mittw. 11-1 U.</zeit>, <modus>privatim</modus>, <ort>im
+        Laboratorium für angewandte Chemie, Brüderstr.
+        34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1910w-IV.G-028"><thema>Über Fermente</thema>:
         <dozent ref="waentig_p"><grad>D. ph.</grad>
@@ -4502,9 +4505,9 @@
         Praktikum</thema>: <dozent ref="wiener_oh"><grad>D. ph. nat. et
         med.</grad> <nachname>Wiener</nachname>, <funktion>P.
         O.</funktion></dozent>, <dozent ref="scholl_h">mit <grad>D. ph.</grad>
-        <nachname>Scholl</nachname></dozent> u. <dozent><grad>D. ph.</grad>
-        <nachname>Jaffé</nachname></dozent>, <zeit>an einem, zwei oder drei
-        Halbtagen, Dienst., Mittw. u. Donnerst. 2-5 U.</zeit>,
+        <nachname>Scholl</nachname></dozent> u. <dozent ref="jaffe_g"><grad>D.
+        ph.</grad> <nachname>Jaffé</nachname></dozent>, <zeit>an einem, zwei
+        oder drei Halbtagen, Dienst., Mittw. u. Donnerst. 2-5 U.</zeit>,
         <modus>privatim</modus>, <ort>im Physikalischen Institut, Linnéstr.
         5</ort>.</veranstaltung>
 
@@ -4513,10 +4516,10 @@
         ref="wiener_oh"><grad>D. ph. nat. et med.</grad>
         <nachname>Wiener</nachname>, <funktion>P. O.</funktion></dozent>,
         <dozent ref="scholl_h">mit <grad>D. ph.</grad>
-        <nachname>Scholl</nachname></dozent> <dozent>u. <grad>D. ph.</grad>
-        <nachname>Jaffé</nachname></dozent>, <zeit>Sonnab. 9-12 U.</zeit>,
-        <modus>privatim</modus>, <ort>im Physikal.Institut, Linnéstr.
-        5</ort>.</veranstaltung>
+        <nachname>Scholl</nachname></dozent> <dozent ref="jaffe_g">u. <grad>D.
+        ph.</grad> <nachname>Jaffé</nachname></dozent>, <zeit>Sonnab. 9-12
+        U.</zeit>, <modus>privatim</modus>, <ort>im Physikal.Institut,
+        Linnéstr. 5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1910w-IV.G-057"><thema>Physikalisches
         Kolloquium</thema>: <dozent ref="wiener_oh"><grad>D. ph. nat. et
@@ -4608,8 +4611,9 @@
         <nachname>Beckmann</nachname>, <funktion>P. O.</funktion></dozent>,
         <dozent ref="heller_g">mit <grad>D. ph.</grad>
         <nachname>Heller</nachname></dozent>, <dozent ref="deussen_e"><grad>D.
-        ph.</grad> <nachname>Deußen</nachname></dozent>, <dozent><grad>D.
-        ph.</grad> <nachname>Scheiber</nachname></dozent>, <dozent
+        ph.</grad> <nachname>Deußen</nachname></dozent>, <dozent
+        ref="scheiber_j"><grad>D. ph.</grad>
+        <nachname>Scheiber</nachname></dozent>, <dozent
         ref="sieverts_a"><grad>D. ph.</grad>
         <nachname>Sieverts</nachname></dozent> <dozent ref="waentig_p">u.
         <grad>D. ph.</grad> <nachname>Waentig</nachname></dozent>,
@@ -4856,12 +4860,12 @@
       <seite>51</seite>
 
       <veranstaltung xml:id="v-1910w-001-007"><thema>Fechtunterricht</thema>:
-      <dozent><funktion>Universitäts-Fechtmeister</funktion>
+      <dozent ref="roux_p"><funktion>Universitäts-Fechtmeister</funktion>
       <nachname>Roux</nachname></dozent>. (<ort>Universitäts-Fechtboden
       Ritterstr. 12 II.</ort>)</veranstaltung>
 
       <veranstaltung xml:id="v-1910w-001-008"><thema>Reitunterricht</thema>:
-      <dozent><funktion>Universitäts-Stallmeister</funktion>
+      <dozent ref="sack_e"><funktion>Universitäts-Stallmeister</funktion>
       <nachname>Sack</nachname></dozent>, <ort>Kramerstr. 5
       I.</ort></veranstaltung>
     </sachgruppe>

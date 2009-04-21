@@ -293,8 +293,8 @@
           <sachgruppe xml:id="sg-1831s-I.I.2.b.004">
             <titel>Italienische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1831s-I.I.2.b.004-001"><dozent><nachname>Rathgeber</nachname>,
+            <veranstaltung xml:id="v-1831s-I.I.2.b.004-001"><dozent
+            ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>Anfangsgründe nach <gesperrt>D.
             Arnold's theoret. prakt. Grammatik</gesperrt> (Lpz. b. Hinrichs
@@ -307,8 +307,8 @@
           <sachgruppe xml:id="sg-1831s-I.I.2.b.005">
             <titel>Spanische Sprache.</titel>
 
-            <veranstaltung
-            xml:id="v-1831s-I.I.2.b.005-001"><dozent><nachname>Rathgeber</nachname>,
+            <veranstaltung xml:id="v-1831s-I.I.2.b.005-001"><dozent
+            ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>Anfangsgründe nach <gesperrt>C.
             Lüdger's theoretisch-praktischem Lehrgebäude der span.
@@ -629,12 +629,12 @@
       <sachgruppe xml:id="sg-1831s-I.IV.002">
         <titel>Kursus der gesammten Staatswissenschaften.</titel>
 
-        <veranstaltung
-        xml:id="v-1831s-I.IV.002-001"><dozent><nachname>Schellwitz</nachname>,
-        <grad>D.</grad> <vorname>H.</vorname></dozent>, <thema>Schluß des
-        Kursus, Statistik, positives europäisches Staatsrecht und praktisches
-        europäisches Völkerrecht, in Verbindung mit der Gesandtschaftskunde,
-        nach <gesperrt>Pölitz</gesperrt></thema>, <zeit>3 U. 6
+        <veranstaltung xml:id="v-1831s-I.IV.002-001"><dozent
+        ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
+        <vorname>H.</vorname></dozent>, <thema>Schluß des Kursus, Statistik,
+        positives europäisches Staatsrecht und praktisches europäisches
+        Völkerrecht, in Verbindung mit der Gesandtschaftskunde, nach
+        <gesperrt>Pölitz</gesperrt></thema>, <zeit>3 U. 6
         T.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -1857,11 +1857,11 @@
               ausgearbeiteter Tabellen</thema>, <zeit>8 U. 4
               T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1831s-II.B.II.I.002.3-004"><dozent><nachname>Petschke</nachname>,
-              <grad>D.</grad> <vorname>H. T.</vorname></dozent>, <thema>das
-              gemeine u. sächsische Lehnrecht, nach s. Sätzen</thema>,
-              <zeit>11 U. 6 T.</zeit></veranstaltung>
+              <veranstaltung xml:id="v-1831s-II.B.II.I.002.3-004"><dozent
+              ref="petschke_ht"><nachname>Petschke</nachname>, <grad>D.</grad>
+              <vorname>H. T.</vorname></dozent>, <thema>das gemeine u.
+              sächsische Lehnrecht, nach s. Sätzen</thema>, <zeit>11 U. 6
+              T.</zeit></veranstaltung>
 
               <veranstaltung xml:id="v-1831s-II.B.II.I.002.3-005"><dozent
               ref="planitz_kgv"><nachname>Planitz</nachname>, <vorname>K. G.
@@ -1947,16 +1947,14 @@
 
             <seite>17</seite>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.II.1-004"><dozent><nachname>Mertens</nachname>,
-            <grad>D.</grad> <vorname>K. G. L.</vorname></dozent>,
-            <thema>ordentl. Civilproceß , prakt. erläutert</thema>, <zeit>2 U.
-            6 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1831s-II.B.II.II.1-004"><dozent
+            ref="mertens_kgl"><nachname>Mertens</nachname>, <grad>D.</grad>
+            <vorname>K. G. L.</vorname></dozent>, <thema>ordentl. Civilproceß
+            , prakt. erläutert</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.II.1-005"><ders>Derselbe</ders>,
-            <thema>summarische Processe</thema>, <zeit>3 U. 5
-            T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1831s-II.B.II.II.1-005"><ders
+            ref="mertens_kgl">Derselbe</ders>, <thema>summarische
+            Processe</thema>, <zeit>3 U. 5 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1831s-II.B.II.II.1-006"><dozent
             ref="held_gf"><nachname>Held</nachname>, <grad>D.</grad>
@@ -2042,11 +2040,11 @@
             Theile der Rechtswissenschaft</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.III.1-003"><dozent><nachname>Mertens</nachname>,
-            <grad>D.</grad> <vorname>K. G. L.</vorname></dozent>, <thema>über
-            das ganze Recht od. einzelne Theile desselben</thema>, <zeit>in zu
-            best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1831s-II.B.II.III.1-003"><dozent
+            ref="mertens_kgl"><nachname>Mertens</nachname>, <grad>D.</grad>
+            <vorname>K. G. L.</vorname></dozent>, <thema>über das ganze Recht
+            od. einzelne Theile desselben</thema>, <zeit>in zu best.
+            St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1831s-II.B.II.III.1-004"><dozent
             ref="berger_a"><nachname>Berger</nachname>, <grad>D.</grad>
@@ -2076,10 +2074,10 @@
             <vorname>A. O.</vorname></dozent>, <thema>über beliebige Theile
             des Rechts</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.III.1-009"><dozent><nachname>Petschke</nachname>,
-            <grad>D.</grad> <vorname>H. T.</vorname></dozent>, <thema>über
-            alle Theile des Rechts</thema>, <zeit>in d. best. u. zu best.
+            <veranstaltung xml:id="v-1831s-II.B.II.III.1-009"><dozent
+            ref="petschke_ht"><nachname>Petschke</nachname>, <grad>D.</grad>
+            <vorname>H. T.</vorname></dozent>, <thema>über alle Theile des
+            Rechts</thema>, <zeit>in d. best. u. zu best.
             St.</zeit></veranstaltung>
 
             <seite>18</seite>
@@ -2191,10 +2189,10 @@
             B.</funktion></dozent>, <thema>über alle Theile des
             Rechts</thema>, <zeit>in zu best. St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1831s-II.B.II.III.1-028"><dozent><nachname>Oeser</nachname>,
-            <vorname>H. E.</vorname>, <funktion>J. U. B.</funktion></dozent>,
-            <thema>über Pandekten u. Proceß</thema>, <zeit>in zu best.
+            <veranstaltung xml:id="v-1831s-II.B.II.III.1-028"><dozent
+            ref="oeser_he"><nachname>Oeser</nachname>, <vorname>H.
+            E.</vorname>, <funktion>J. U. B.</funktion></dozent>, <thema>über
+            Pandekten u. Proceß</thema>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1831s-II.B.II.III.1-029"><dozent

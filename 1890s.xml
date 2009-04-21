@@ -3010,9 +3010,9 @@ vgl. nächste VA)-->, <modus>privatim</modus>.</veranstaltung>
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890s-IV.G-012"><thema>Photochemie</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Nernst</nachname></dozent>,
-        <zeit>zweistündig, in noch zu best. Stunden</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="nernst_w"><grad>D. ph.</grad>
+        <nachname>Nernst</nachname></dozent>, <zeit>zweistündig, in noch zu
+        best. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890s-IV.G-013"><thema>Grundzüge einer
         allgemeinen Geschichte der Chemie</thema>: <dozent
@@ -3201,7 +3201,8 @@ so richtig?)-->): <dozent ref="simroth_h"><grad>D. ph.</grad>
 
         <veranstaltung xml:id="v-1890s-IV.G-041"><thema>Physikalisches
         Colloquium</thema>: <dozent ref="koenig_w"><grad>D. ph.</grad>
-        <nachname>König</nachname></dozent> und <dozent><grad>D. ph.</grad>
+        <nachname>König</nachname></dozent> und <dozent
+        ref="nernst_w"><grad>D. ph.</grad>
         <nachname>Nernst</nachname></dozent>, <zeit>einstündig, in noch zu
         best. Zeit</zeit>, <modus>privatissime</modus> und
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3355,8 +3356,8 @@ so richtig?)-->): <dozent ref="simroth_h"><grad>D. ph.</grad>
 
     <trennlinie/>
 
-    <absatz>Für Fechtunterricht: Der
-    <dozent><funktion>Univ.-Fechtmeister</funktion>
+    <absatz>Für Fechtunterricht: Der <dozent
+    ref="roux_lc"><funktion>Univ.-Fechtmeister</funktion>
     <nachname>Roux</nachname></dozent>.</absatz>
 
     <absatz>Für Tanzunterricht: Der <dozent

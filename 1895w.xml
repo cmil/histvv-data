@@ -3051,9 +3051,9 @@
 
         <veranstaltung xml:id="v-1895w-IV.E-015"><thema>Zuckerfabrikation und
         Spiritusbrennerei als landwirthschaftliche Nebengewerbe</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Hucho</nachname></dozent>,
-        <zeit>Dienst., Donnerst. u. Freit. 4-5 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="hucho_h"><grad>D. ph.</grad>
+        <nachname>Hucho</nachname></dozent>, <zeit>Dienst., Donnerst. u.
+        Freit. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895w-IV.E-016"><thema>Landwirthschaftliche
         Maschinenkunde</thema>: <dozent ref="strecker_w"><grad>D. ph.</grad>
@@ -3068,7 +3068,7 @@
         11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895w-IV.E-018"><thema>Milch- und
-        Milchverwerthung</thema>: <dozent><grad>D. ph.</grad>
+        Milchverwerthung</thema>: <dozent ref="hucho_h"><grad>D. ph.</grad>
         <nachname>Hucho</nachname></dozent>, <zeit>Dienst. u. Freit. 3-4
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3281,19 +3281,21 @@
         Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895w-IV.F-011"><thema>Einleitung in die
-        Theorie der linearen Differentialgleichungen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Scheffers</nachname></dozent>, <zeit>Mont. u.
-        Sonnab. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Theorie der linearen Differentialgleichungen</thema>: <dozent
+        ref="scheffers_gw"><grad>D. ph.</grad>
+        <nachname>Scheffers</nachname></dozent>, <zeit>Mont. u. Sonnab. 9-10
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895w-IV.F-012"><thema>Darstellende Geometrie
-        mit gleichzeitigen Uebungen</thema>: <dozent><grad>D. ph.</grad>
+        mit gleichzeitigen Uebungen</thema>: <dozent
+        ref="scheffers_gw"><grad>D. ph.</grad>
         <nachname>Scheffers</nachname></dozent>, <zeit>in drei noch zu best.
         Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895w-IV.F-013"><thema>Kinematik (Lehre von
-        den Mechanismen)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Scheffers</nachname></dozent>, <zeit>in zwei noch zu best.
-        Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
+        den Mechanismen)</thema>: <dozent ref="scheffers_gw"><grad>D.
+        ph.</grad> <nachname>Scheffers</nachname></dozent>, <zeit>in zwei noch
+        zu best. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -3554,7 +3556,7 @@
         A.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Kinematik (Lehre von den
-        Mechanismen)</thema>: <dozent><grad>D. ph.</grad>
+        Mechanismen)</thema>: <dozent ref="scheffers_gw"><grad>D. ph.</grad>
         <nachname>Scheffers</nachname></dozent>. <siehe>Siehe Abschnitt
         F.</siehe></veranstaltungsverweis>
 
@@ -3722,10 +3724,10 @@
 
     <trennlinie/>
 
-    <absatz>Für Fechtunterricht: <dozent><funktion>Der
+    <absatz>Für Fechtunterricht: <dozent ref="roux_lc"><funktion>Der
     Univ.-Fechtmeister</funktion> <nachname>Roux</nachname></dozent>.</absatz>
 
-    <absatz>Für Reitunterricht: <dozent><funktion>Der
+    <absatz>Für Reitunterricht: <dozent ref="sack_e"><funktion>Der
     Univ.-Stallmeister</funktion> <nachname>Sack</nachname></dozent>.</absatz>
 
     <trennlinie/>

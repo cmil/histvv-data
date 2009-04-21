@@ -785,9 +785,9 @@
 
       <veranstaltung xml:id="v-1885s-III-022"><thema>Praktischer Cursus der
       qualitativen und quantitativen Harnanalyse</thema>
-      (<zeit>sechswöchentlich</zeit>): <dozent><grad>D. med.</grad>
-      <nachname>Scheube</nachname></dozent>, <zeit>an 2 zu best. Tagen 2-4
-      oder 3-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      (<zeit>sechswöchentlich</zeit>): <dozent ref="scheube_hb"><grad>D.
+      med.</grad> <nachname>Scheube</nachname></dozent>, <zeit>an 2 zu best.
+      Tagen 2-4 oder 3-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -878,7 +878,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-III-035"><thema>Ueber
-      Geschwülste</thema>: <dozent><grad>D. med.</grad>
+      Geschwülste</thema>: <dozent ref="huber_c"><grad>D. med.</grad>
       <nachname>Huber</nachname></dozent>, <zeit>Mont. u. Donnerst. 7-8 U.
       früh</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1158,7 +1158,7 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1885s-III-080"><thema>Klinische
-      Propädeutik</thema>: <dozent><grad>D. med.</grad>
+      Propädeutik</thema>: <dozent ref="scheube_hb"><grad>D. med.</grad>
       <nachname>Scheube</nachname></dozent>, <zeit>Mittw. u. Sonnab. 7-8 U.
       früh</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1239,7 +1239,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-III-093"><thema>Orthopädische
-      Poliklinik</thema>: <dozent><grad>D. med.</grad>
+      Poliklinik</thema>: <dozent ref="schildbach_kh"><grad>D. med.</grad>
       <nachname>Schildbach</nachname></dozent>, <zeit>Mittw. u. Sonnab. 11-12
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -2069,9 +2069,10 @@ formal korrekt als Absatz erfasst werden): -->in welchen auch klinischer oder
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1885s-IV.C-004"><thema>Innere Geschichte Roms
-        während des ciceronianischen Zeitalters</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Holzapfel</nachname></dozent>, <zeit>Mittw. u.
-        Sonnab. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        während des ciceronianischen Zeitalters</thema>: <dozent
+        ref="holzapfel_l"><grad>D. ph.</grad>
+        <nachname>Holzapfel</nachname></dozent>, <zeit>Mittw. u. Sonnab. 11-12
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1885s-IV.C-005"><thema>Quellenkunde zur alten
         Geschichte</thema>: <dozent ref="meyer_eduard"><grad>D. ph.</grad>
@@ -2220,9 +2221,10 @@ formal korrekt als Absatz erfasst werden): -->in welchen auch klinischer oder
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1885s-IV.C-026"><thema>Uebungen über die
-        ersten Jahre des 2. punischen Krieges</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Holzapfel</nachname></dozent>, <zeit>Donnerst.
-        7-9 U. Ab.</zeit>, <modus>privatissime</modus>, aber
+        ersten Jahre des 2. punischen Krieges</thema>: <dozent
+        ref="holzapfel_l"><grad>D. ph.</grad>
+        <nachname>Holzapfel</nachname></dozent>, <zeit>Donnerst. 7-9 U.
+        Ab.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1885s-IV.C-027"><thema>Geographisches
@@ -3047,8 +3049,8 @@ formal korrekt als Absatz erfasst werden): -->in welchen auch klinischer oder
 
     <trennlinie/>
 
-    <absatz>Für Fechtunterricht: Der
-    <dozent><funktion>Univ.-Fechtmeister</funktion>
+    <absatz>Für Fechtunterricht: Der <dozent
+    ref="roux_lc"><funktion>Univ.-Fechtmeister</funktion>
     <nachname>Roux</nachname></dozent>.</absatz>
 
     <absatz>Für Tanzunterricht: Der <dozent

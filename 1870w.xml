@@ -195,13 +195,14 @@
           <veranstaltung xml:id="v-1870w-I.I.2.002-008"><thema>Die
           architektonischen Style und Stylarten in geschichtlicher Folge
           dargestellt und an den wichtigeren Denkmälern erläutert</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Riegel</nachname></dozent>,
-          <zeit>4 U. Sonn.</zeit> <gebühr>unentgeltl.</gebühr></veranstaltung>
+          <dozent ref="riegel_h"><grad>D. ph.</grad>
+          <nachname>Riegel</nachname></dozent>, <zeit>4 U. Sonn.</zeit>
+          <gebühr>unentgeltl.</gebühr></veranstaltung>
 
           <veranstaltung
           xml:id="v-1870w-I.I.2.002-009"><thema>Kunstgeschichtliche
-          Uebungen</thema>: <ders>Derselbe</ders>, <zeit>in 2 zu verabred.
-          St.</zeit> <modus>privatissime</modus> aber
+          Uebungen</thema>: <ders ref="riegel_h">Derselbe</ders>, <zeit>in 2
+          zu verabred. St.</zeit> <modus>privatissime</modus> aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
 
@@ -1432,9 +1433,9 @@
         <titel>I. Exegetische Theologie.</titel>
 
         <veranstaltung xml:id="v-1870w-II.A.I-001"><thema>Beschreibung des
-        heiligen Landes</thema>: <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
-        <nachname>Mühlau</nachname></dozent>, <zeit>10 U. 2 T.</zeit>
-        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        heiligen Landes</thema>: <dozent ref="muehlau_hf"><grad>Lic.</grad>
+        <grad>D. ph.</grad> <nachname>Mühlau</nachname></dozent>, <zeit>10 U.
+        2 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <trennlinie/>
 
@@ -1449,9 +1450,9 @@
         <zeit>11 U. 4 Tage</zeit>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Erklärung ausgewählter
-        Proverbien</thema>: <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
-        <nachname>Mühlau</nachname></dozent>, <siehe>s. exeget.
-        Uebb.</siehe></veranstaltungsverweis>
+        Proverbien</thema>: <dozent ref="muehlau_hf"><grad>Lic.</grad>
+        <grad>D. ph.</grad> <nachname>Mühlau</nachname></dozent>, <siehe>s.
+        exeget. Uebb.</siehe></veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1870w-II.A.I-004"><thema>Erklärung des Buches
         Hiob</thema>: <dozent ref="baur_g"><grad>D.</grad>
@@ -1464,8 +1465,9 @@
         <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1870w-II.A.I-006"><thema>Erklärung der
-        nachexilischen Propheten</thema>: <dozent><grad>Lic.</grad> <grad>D.
-        ph.</grad> <nachname>Mühlau</nachname></dozent>, <zeit>5 U. Ab. 4
+        nachexilischen Propheten</thema>: <dozent
+        ref="muehlau_hf"><grad>Lic.</grad> <grad>D. ph.</grad>
+        <nachname>Mühlau</nachname></dozent>, <zeit>5 U. Ab. 4
         T.</zeit></veranstaltung>
 
         <trennlinie/>
@@ -1499,8 +1501,8 @@
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Erklärung des Briefes an die
-        Philipper</thema>: <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
-        <nachname>Mühlau</nachname></dozent>, <siehe>s. exeg.
+        Philipper</thema>: <dozent ref="muehlau_hf"><grad>Lic.</grad> <grad>D.
+        ph.</grad> <nachname>Mühlau</nachname></dozent>, <siehe>s. exeg.
         Uebb.</siehe></veranstaltungsverweis>
 
         <seite>17</seite>
@@ -1552,7 +1554,7 @@
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
           <veranstaltungsgruppe><thema>Exegetische Gesellschaft</thema>:
-          <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
+          <dozent ref="muehlau_hf"><grad>Lic.</grad> <grad>D. ph.</grad>
           <nachname>Mühlau</nachname></dozent>, <veranstaltung
           xml:id="v-1870w-II.A.I.001-004"><thema>alttestamentliche Abtheilung:
           Erklärung ausgewählter Proverbien</thema>: <zeit>Sonn. 5
@@ -2252,7 +2254,7 @@
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1870w-II.C.III-004"><thema>Physiologische
-        Chemie</thema>: <dozent><grad>D.</grad>
+        Chemie</thema>: <dozent ref="huefner_g"><grad>D.</grad>
         <nachname>Hüfner</nachname></dozent>, <zeit>in 2 zu best.
         St.</zeit></veranstaltung>
 
@@ -2287,7 +2289,7 @@
 
           <veranstaltung
           xml:id="v-1870w-II.C.III.001-005"><thema>Physiologisch-chemisches
-          Prakticum</thema>: <dozent><grad>D.</grad>
+          Prakticum</thema>: <dozent ref="huefner_g"><grad>D.</grad>
           <nachname>Hüfner</nachname></dozent>, <zeit>9-5 U. 6
           T.</zeit></veranstaltung>
         </sachgruppe>
@@ -2717,7 +2719,7 @@
   Tanzmeister <gesperrt>G. Friedel</gesperrt>, auf Verlangen, gehörigen
   Unterricht ertheilen. Auch können sich die Studirenden des Unterrichts der
   bei hiesiger Zeichnungs-, Maler- und Architektur-Akademie angestellten
-  Lehrer bedienen. </absatz>
+  Lehrer bedienen.</absatz>
 
   <absatz>Die <gesperrt>Universitätsbibliothek</gesperrt> wird täglich 2
   Stunden geöffnet, nämlich Mont., Mittw., Donn. und Sonnab. von 11 bis 1 Uhr,
@@ -2726,7 +2728,7 @@
   die von einem Docenten der Universität unterzeichnet werden muss. Die
   <gesperrt>Stadtbibliothek</gesperrt> und die mit derselben verbundene
   <gesperrt>Pölitz'sche</gesperrt> Bibliothek ist Mont., Mittw. u. Sonnab. von
-  2 bis 4 Uhr geöffnet. </absatz>
+  2 bis 4 Uhr geöffnet.</absatz>
 
   <absatz>Das <gesperrt>zoologische</gesperrt> Museum ist Mittw. u. Sonnab.
   von 10 bis 12 Uhr, das <gesperrt>Universitäts-Herbarium</gesperrt> Dienst.

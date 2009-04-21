@@ -674,7 +674,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
       A.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Allgemeine und spezielle
-      Erkenntnistheorie</thema>: <dozent><grad>D. ph.</grad>
+      Erkenntnistheorie</thema>: <dozent ref="mentz_p"><grad>D. ph.</grad>
       <nachname>Mentz</nachname></dozent>. <siehe>Siehe Philosophische
       Fakultät A.</siehe></veranstaltungsverweis>
 
@@ -729,7 +729,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
       <siehe>Siehe Philosophische Fakultät D.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Geschichte der Passion und des
-      Oratoriums</thema>: <dozent><grad>D. ph.</grad>
+      Oratoriums</thema>: <dozent ref="schering_a"><grad>D. ph.</grad>
       <nachname>Schering</nachname></dozent>. <siehe>Siehe Philosophische
       Fakultät D.</siehe></veranstaltungsverweis>
 
@@ -774,7 +774,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-II-002"><thema>Das juristische
-      Denken</thema>: <dozent><grad>D. jur. et ph.</grad>
+      Denken</thema>: <dozent ref="reichel_h"><grad>D. jur. et ph.</grad>
       <nachname>Reichel</nachname></dozent>, <zeit>Dienst. 11-12 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -1530,16 +1530,16 @@ lässt sich nicht gleichzeitig auszeichnen-->
       26</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-043"><thema>Über die
-      Geschwülste</thema>: <dozent><grad>D. med.</grad>
+      Geschwülste</thema>: <dozent ref="risel_w"><grad>D. med.</grad>
       <nachname>Risel</nachname></dozent>, <zeit>Sonnab. 11 bis 12 U.</zeit>,
       <modus>privatim</modus>, <ort>im Pathologischen Institut, Liebigstr.
       26</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-044"><thema>Übungen in der
-      mikroskopischen Diagnostik der Geschwülste</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Risel</nachname></dozent>, <zeit>Sonnab. 3-4½
-      U.</zeit>, <modus>privatim</modus>, <ort>im Pathologischen Institut,
-      Liebigstr. 26</ort>.</veranstaltung>
+      mikroskopischen Diagnostik der Geschwülste</thema>: <dozent
+      ref="risel_w"><grad>D. med.</grad> <nachname>Risel</nachname></dozent>,
+      <zeit>Sonnab. 3-4½ U.</zeit>, <modus>privatim</modus>, <ort>im
+      Pathologischen Institut, Liebigstr. 26</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-045"><thema>Praktischer Kurs der
       pathologischen Geweblehre</thema>: <dozent ref="marchand_f"><grad>D.
@@ -1552,10 +1552,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Demonstrations- und Sektionskurs</thema>: <dozent
       ref="marchand_f"><grad>D. med. et ph.</grad>
       <nachname>Marchand</nachname>, <funktion>P. O.</funktion></dozent>,
-      <dozent>mit <grad>D. med.</grad> <nachname>Risel</nachname></dozent>,
-      <zeit>Mittw., Donnerst. u. Sonnab. 8-½10 U. Vorm.</zeit>,
-      <modus>privatim</modus>, <ort>im Pathologischen Institut, Liebigstr.
-      26</ort>.</veranstaltung>
+      <dozent ref="risel_w">mit <grad>D. med.</grad>
+      <nachname>Risel</nachname></dozent>, <zeit>Mittw., Donnerst. u. Sonnab.
+      8-½10 U. Vorm.</zeit>, <modus>privatim</modus>, <ort>im Pathologischen
+      Institut, Liebigstr. 26</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-047"><thema>Arbeiten <ort>im
       Pathologischen Institut (Liebigstr. 26)</ort> für Geübtere</thema>:
@@ -1720,7 +1720,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
       <trennlinie/>
 
       <veranstaltung xml:id="v-1907s-III-070"><thema>Spezielle Pathologie und
-      Therapie der Geisteskrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Therapie der Geisteskrankheiten</thema>: <dozent
+      ref="quensel_f"><grad>D. med.</grad>
       <nachname>Quensel</nachname></dozent>, <zeit>Dienst. u. Freit. 4-5 U.
       (od. in noch zu besprech. Stunde)</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1769,7 +1770,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
       55</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-077"><thema>Allgemeine
-      Chirurgie</thema>: <dozent><grad>D. med.</grad>
+      Chirurgie</thema>: <dozent ref="petersen_w"><grad>D. med.</grad>
       <nachname>Petersen</nachname></dozent>, <zeit>zweist., zu noch zu best.
       Zeit</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2470,9 +2471,9 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.A-005"><thema>Allgemeine und
-        spezielle Erkenntnistheorie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Mentz</nachname></dozent>, <zeit>Mont. u. Donnerst. 11-12
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        spezielle Erkenntnistheorie</thema>: <dozent ref="mentz_p"><grad>D.
+        ph.</grad> <nachname>Mentz</nachname></dozent>, <zeit>Mont. u.
+        Donnerst. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.A-006"><thema>Die Hauptergebnisse
         der Naturwissenschaft</thema>: <dozent ref="brahn_m"><grad>D.
@@ -4161,7 +4162,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <siehe>Siehe Abschnitt D.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geschichte der Passion und des
-        Oratoriums</thema>: <dozent><grad>D. ph.</grad>
+        Oratoriums</thema>: <dozent ref="schering_a"><grad>D. ph.</grad>
         <nachname>Schering</nachname></dozent>. <siehe>Siehe Abschnitt
         D.</siehe></veranstaltungsverweis>
 
@@ -4614,7 +4615,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
           Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907s-IV.D.003-005"><thema>Geschichte der
-          Passion und des Oratoriums</thema>: <dozent><grad>D. ph.</grad>
+          Passion und des Oratoriums</thema>: <dozent
+          ref="schering_a"><grad>D. ph.</grad>
           <nachname>Schering</nachname></dozent>, <zeit>Mont. u. Donnerst. 4-5
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -4674,7 +4676,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
           <veranstaltung
           xml:id="v-1907s-IV.D.003-012"><thema>Musikwissenschaftliche Übungen:
           Theorie des dramatischen Rezitativs im 17. und 18
-          Jahrhundert</thema>: <dozent><grad>D. ph.</grad>
+          Jahrhundert</thema>: <dozent ref="schering_a"><grad>D. ph.</grad>
           <nachname>Schering</nachname></dozent>, <zeit>zu noch zu best.
           Zeit</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -4968,8 +4970,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
         Fakultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Das juristische Denken</thema>:
-        <dozent><grad>D. jur. et ph.</grad>
+        <veranstaltungsverweis><thema>Das juristische Denken</thema>: <dozent
+        ref="reichel_h"><grad>D. jur. et ph.</grad>
         <nachname>Reichel</nachname></dozent>. <siehe>Siehe Juristische
         Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -5786,10 +5788,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.G-038"><thema>Maßanalyse</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Scheiber</nachname></dozent>,
-        <zeit>zweistünd., zu noch zu best. Zeit</zeit>,
-        <modus>privatim</modus>, <ort>im Laboratorium für angewandte Chemie,
-        Brüderstr. 34</ort>.</veranstaltung>
+        <dozent ref="scheiber_j"><grad>D. ph.</grad>
+        <nachname>Scheiber</nachname></dozent>, <zeit>zweistünd., zu noch zu
+        best. Zeit</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für
+        angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.G-039"><thema>Harnanalyse</thema>:
         <dozent ref="deussen_e"><grad>D. ph.</grad>
@@ -6377,12 +6379,12 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
     <sachgruppe xml:id="sg-1907s-001">
       <veranstaltung xml:id="v-1907s-001-001"><thema>Fechtunterricht</thema>:
-      <dozent><funktion>Universitäts-Fechtmeister</funktion>
+      <dozent ref="roux_p"><funktion>Universitäts-Fechtmeister</funktion>
       <nachname>Roux</nachname></dozent>. (<ort>Universitäts-Fechtboden
       Ritterstr. 12. II.</ort>)</veranstaltung>
 
       <veranstaltung xml:id="v-1907s-001-002"><thema>Reitunterricht</thema>:
-      <dozent><funktion>Universitäts-Stallmeister</funktion>
+      <dozent ref="sack_e"><funktion>Universitäts-Stallmeister</funktion>
       <nachname>Sack</nachname></dozent>, <ort>Kramerstr. 5.
       I</ort>.</veranstaltung>
 

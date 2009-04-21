@@ -220,9 +220,9 @@
           E.</vorname>, <funktion>P. E.</funktion></dozent>, <zeit>5 U.
           Dienst. u. Freit.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1820w-I.1.b.003-006"><dozent><nachname>Rose</nachname>,
-          <grad>M.</grad> <vorname>J. G. K.</vorname></dozent>,
+          <veranstaltung xml:id="v-1820w-I.1.b.003-006"><dozent
+          ref="rose_jgk"><nachname>Rose</nachname>, <grad>M.</grad>
+          <vorname>J. G. K.</vorname></dozent>,
           <thema>Disputirübungen</thema>, <zeit>in zu best. T. u.
           St.</zeit></veranstaltung>
 
@@ -784,11 +784,11 @@
           <thema><notiz betreff="fortsetzung">Forts.</notiz> des exegetischen
           Cursus über das N. T.</thema>).</veranstaltungsgruppe>
 
-          <veranstaltung
-          xml:id="v-1820w-II.A.1.003-006"><dozent><nachname>Rose</nachname>,
-          <grad>M.</grad> <vorname>J. G. K.</vorname></dozent>, <thema>über
-          die kleinern Briefe Pauli</thema>, <zeit>2 U. Dienst. u.
-          Freit.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1820w-II.A.1.003-006"><dozent
+          ref="rose_jgk"><nachname>Rose</nachname>, <grad>M.</grad>
+          <vorname>J. G. K.</vorname></dozent>, <thema>über die kleinern
+          Briefe Pauli</thema>, <zeit>2 U. Dienst. u. Freit.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1820w-II.A.1.x">
@@ -1054,9 +1054,9 @@
               <gesperrt>Haubold</gesperrt> u. <antiqua>Gajus</antiqua> in lat.
               Sprache</thema>, <zeit>4 U. 6 T.</zeit></veranstaltung>
 
-              <veranstaltung
-              xml:id="v-1820w-II.B.001.1.001.002-003"><dozent><nachname>Reichel</nachname>,
-              <grad>M.</grad> <vorname>V. F.</vorname>, <funktion>I. V.
+              <veranstaltung xml:id="v-1820w-II.B.001.1.001.002-003"><dozent
+              ref="reichel_vf"><nachname>Reichel</nachname>, <grad>M.</grad>
+              <vorname>V. F.</vorname>, <funktion>I. V.
               B.</funktion></dozent>, <thema>nach
               <gesperrt>Heineccius</gesperrt></thema>, <zeit>9 U. 6
               T.</zeit></veranstaltung>
@@ -1179,11 +1179,11 @@
           <sachgruppe xml:id="sg-1820w-II.B.001.1.005">
             <titel>Wechselrecht.</titel>
 
-            <veranstaltung
-            xml:id="v-1820w-II.B.001.1.005-001"><dozent><nachname>Reichel</nachname>,
-            <grad>M.</grad> <vorname>V. F.</vorname>, <funktion>I. V.
-            B.</funktion></dozent>, <thema>nebst Wechselprozeß, nach s.
-            Sätzen</thema>, <zeit>4 U. 2 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1820w-II.B.001.1.005-001"><dozent
+            ref="reichel_vf"><nachname>Reichel</nachname>, <grad>M.</grad>
+            <vorname>V. F.</vorname>, <funktion>I. V. B.</funktion></dozent>,
+            <thema>nebst Wechselprozeß, nach s. Sätzen</thema>, <zeit>4 U. 2
+            T.</zeit></veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -1306,17 +1306,17 @@
           <thema>ord. Civilproceß, nach s. vollst. Eräut. des ord.
           Processes</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1820w-II.B.001.6-008"><dozent><nachname>Reichel</nachname>,
-          <grad>M.</grad> <vorname>V. F.</vorname>, <funktion>I. V.
-          B.</funktion></dozent>, <thema>gemeinen u. sächs. Proceß, n. s.
-          Sätzen</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1820w-II.B.001.6-008"><dozent
+          ref="reichel_vf"><nachname>Reichel</nachname>, <grad>M.</grad>
+          <vorname>V. F.</vorname>, <funktion>I. V. B.</funktion></dozent>,
+          <thema>gemeinen u. sächs. Proceß, n. s. Sätzen</thema>, <zeit>2 U. 6
+          T.</zeit></veranstaltung>
 
           <sachgruppe xml:id="sg-1820w-II.B.001.6.x">
             <titel>*) Ueber Eheproceß.</titel>
 
-            <veranstaltung
-            xml:id="v-1820w-II.B.001.6.x-001"><dozent><nachname>Schellwitz</nachname>,
+            <veranstaltung xml:id="v-1820w-II.B.001.6.x-001"><dozent
+            ref="schellwitz_h"><nachname>Schellwitz</nachname>,
             <vorname>H.</vorname>, <funktion>I. V. B.</funktion></dozent>,
             <thema>über Eheproceß</thema>, <zeit>2 U. 2 T.</zeit>
             <modus>unentgeltlich</modus>.</veranstaltung>
@@ -1415,8 +1415,8 @@
             <vorname>C. E.</vorname></dozent>, <zeit>in zu best.
             St.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1820w-II.B.001.9.001-005"><dozent><nachname>Schellwitz</nachname>,
+            <veranstaltung xml:id="v-1820w-II.B.001.9.001-005"><dozent
+            ref="schellwitz_h"><nachname>Schellwitz</nachname>,
             <vorname>H.</vorname>, <funktion>I. V. B.</funktion></dozent>,
             <zeit>in bel. St.</zeit></veranstaltung>
           </sachgruppe>
@@ -1542,9 +1542,9 @@
           <vorname>S. G.</vorname>, <funktion>I. V.
           B.</funktion></dozent></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1820w-II.B.001.11-004"><dozent><nachname>Reichel</nachname>,
-          <grad>M.</grad> <vorname>V. F.</vorname>, <funktion>I. V.
+          <veranstaltung xml:id="v-1820w-II.B.001.11-004"><dozent
+          ref="reichel_vf"><nachname>Reichel</nachname>, <grad>M.</grad>
+          <vorname>V. F.</vorname>, <funktion>I. V.
           B.</funktion></dozent></veranstaltung>
         </sachgruppe>
       </sachgruppe>
@@ -1576,11 +1576,11 @@
         xml:id="v-1820w-II.C.1-004"><thema>Unterricht im Seciren</thema>,
         <zeit>2 U. 6 T.</zeit></veranstaltung></veranstaltungsgruppe>
 
-        <veranstaltung
-        xml:id="v-1820w-II.C.1-005"><dozent><nachname>Hoppe</nachname>,
-        <grad>M.</grad> <vorname>J. G.</vorname>, <funktion>Med.
-        Bacc.</funktion></dozent>, <thema>Osteologie</thema> <zeit>2 T. in zu
-        best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+        <veranstaltung xml:id="v-1820w-II.C.1-005"><dozent
+        ref="hoppe_jg"><nachname>Hoppe</nachname>, <grad>M.</grad> <vorname>J.
+        G.</vorname>, <funktion>Med. Bacc.</funktion></dozent>,
+        <thema>Osteologie</thema> <zeit>2 T. in zu best. St.</zeit>
+        <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
         <sachgruppe xml:id="sg-1820w-II.C.1.x">
           <titel>*) Pathologische Anatomie.</titel>

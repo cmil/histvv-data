@@ -747,10 +747,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1884w-III-020"><thema>Praktischer Cursus der
-      qualitativen und quantitativen Harnanalyse</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Scheube</nachname></dozent>,
-      <zeit>(sechswöchentlich) Mittw. u. Freit. 2-4 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      qualitativen und quantitativen Harnanalyse</thema>: <dozent
+      ref="scheube_hb"><grad>D. med.</grad>
+      <nachname>Scheube</nachname></dozent>, <zeit>(sechswöchentlich) Mittw.
+      u. Freit. 2-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -851,7 +851,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1884w-III-035"><thema>Ueber
-      Geschwülste</thema>: <dozent><grad>D. med.</grad>
+      Geschwülste</thema>: <dozent ref="huber_c"><grad>D. med.</grad>
       <nachname>Huber</nachname></dozent>, <zeit>Mont. u. Donnerst. 8-9 U.
       früh</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1126,7 +1126,7 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1884w-III-079"><thema>Klinische
-      Propädeutik</thema>: <dozent><grad>D. med.</grad>
+      Propädeutik</thema>: <dozent ref="scheube_hb"><grad>D. med.</grad>
       <nachname>Scheube</nachname></dozent>, <zeit>Dienst. u. Freit. 8-9 U.
       früh</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1184,7 +1184,7 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1884w-III-089"><thema>Orthopädische
-      Poliklinik</thema>: <dozent><grad>D. med.</grad>
+      Poliklinik</thema>: <dozent ref="schildbach_kh"><grad>D. med.</grad>
       <nachname>Schildbach</nachname></dozent>, <zeit>Mittw. u. Sonnab. 11-12
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -2032,9 +2032,10 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
         Geographie.</titel>
 
         <veranstaltung xml:id="v-1884w-IV.C-001"><thema>Geschichte
-        Griechenlands bis auf Alexander den Grossen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Holzapfel</nachname></dozent>, <zeit>Mont.,
-        Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
+        Griechenlands bis auf Alexander den Grossen</thema>: <dozent
+        ref="holzapfel_l"><grad>D. ph.</grad>
+        <nachname>Holzapfel</nachname></dozent>, <zeit>Mont., Dienst.,
+        Donnerst. u. Freit. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884w-IV.C-002"><thema>Griechische
@@ -2171,7 +2172,8 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884w-IV.C-022"><thema>Uebungen auf dem
-        Gebiete der römischen Geschichte</thema>: <dozent><grad>D. ph.</grad>
+        Gebiete der römischen Geschichte</thema>: <dozent
+        ref="holzapfel_l"><grad>D. ph.</grad>
         <nachname>Holzapfel</nachname></dozent>, <zeit>Freit. 7-9 U.
         Ab.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2497,8 +2499,8 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
         <zeit>Sonnab. 2-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1884w-IV.E-023"><thema>Mikroskopischer Cursus
-        und Arbeiten im Laboratorium des Veterinärinstitutes</thema>
-        (<dozent>in Gemeinschaft mit <grad>D.</grad>
+        und Arbeiten im Laboratorium des Veterinärinstitutes</thema> (<dozent
+        ref="plaut_hk">in Gemeinschaft mit <grad>D.</grad>
         <nachname>Plaut</nachname></dozent>): <dozent ref="zuern_fa"><grad>D.
         med.</grad> <nachname>Zürn</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>täglich in noch zu best. Stunden</zeit>,
@@ -2914,8 +2916,8 @@ Wird da evtl. automatisch der Dozent aus der 1. Veranstaltung
 
     <sachgruppe xml:id="sg-1884w-001">
       <veranstaltung xml:id="v-1884w-001-001">Für
-      <thema>Fechtunterricht</thema>: Der
-      <dozent><funktion>Univ.-Fechtmeister</funktion>
+      <thema>Fechtunterricht</thema>: Der <dozent
+      ref="roux_lc"><funktion>Univ.-Fechtmeister</funktion>
       <nachname>Roux</nachname></dozent>.</veranstaltung>
 
       <veranstaltung xml:id="v-1884w-001-002">Für

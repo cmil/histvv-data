@@ -403,8 +403,8 @@
             <sachgruppe xml:id="sg-1840s-I.I.2.b.001.007">
               <titel>Italienische Sprache.</titel>
 
-              <veranstaltung
-              xml:id="v-1840s-I.I.2.b.001.007-001"><dozent><nachname>Rathgeber</nachname>,
+              <veranstaltung xml:id="v-1840s-I.I.2.b.001.007-001"><dozent
+              ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
               <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
               publ.</funktion></dozent>, <thema><scil
               text="der italienischen Sprache">Anfangsgründe</scil> nach
@@ -418,8 +418,8 @@
             <sachgruppe xml:id="sg-1840s-I.I.2.b.001.008">
               <titel>Spanische Sprache.</titel>
 
-              <veranstaltung
-              xml:id="v-1840s-I.I.2.b.001.008-001"><dozent><nachname>Rathgeber</nachname>,
+              <veranstaltung xml:id="v-1840s-I.I.2.b.001.008-001"><dozent
+              ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
               <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
               publ.</funktion></dozent>, <thema><scil
               text="der spanischen Sprache">Anfangsgründe</scil> nach Prof. D.
@@ -808,11 +808,10 @@
       <sachgruppe xml:id="sg-1840s-I.IV.002">
         <titel>Politik.</titel>
 
-        <veranstaltung
-        xml:id="v-1840s-I.IV.002-001"><dozent><nachname>Schellwitz</nachname>,
-        <grad>D.</grad> <vorname>H.</vorname></dozent>, <thema
-        kontext="sachgruppe">nach <gesperrt>Dahlmann</gesperrt></thema>,
-        <zeit>2 T. in zu best.
+        <veranstaltung xml:id="v-1840s-I.IV.002-001"><dozent
+        ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
+        <vorname>H.</vorname></dozent>, <thema kontext="sachgruppe">nach
+        <gesperrt>Dahlmann</gesperrt></thema>, <zeit>2 T. in zu best.
         St<korrektur>.</korrektur></zeit></veranstaltung>
       </sachgruppe>
 
@@ -827,8 +826,9 @@
         Ordin.</funktion></dozent>, <siehe>s.
         Rechtswissenschaft</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><dozent><nachname>Schellwitz</nachname>,
-        <grad>D.</grad> <vorname>H.</vorname></dozent>, <siehe>s.
+        <veranstaltungsverweis><dozent
+        ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
+        <vorname>H.</vorname></dozent>, <siehe>s.
         Rechtswissenschaft</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1840s-I.IV.003-001"><dozent
@@ -1228,9 +1228,9 @@
             <thema>Erklärung ausgewählter Psalmen</thema>, <zeit>9 U. 2
             T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1840s-II.A.I.1.003-005"><dozent><nachname>Hänsel</nachname>,
-            <grad>M.</grad> <vorname>F. M. A.</vorname>, <funktion>Theol.
+            <veranstaltung xml:id="v-1840s-II.A.I.1.003-005"><dozent
+            ref="haensel_fma"><nachname>Hänsel</nachname>, <grad>M.</grad>
+            <vorname>F. M. A.</vorname>, <funktion>Theol.
             Lic.</funktion></dozent>, <thema>praktische Erklärung auserlesener
             Psalmen</thema>, <zeit>8 U. Dienst. u. Freit.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1539,9 +1539,9 @@
           <sachgruppe xml:id="sg-1840s-II.A.I.3.007">
             <titel>Symbolik.</titel>
 
-            <veranstaltung
-            xml:id="v-1840s-II.A.I.3.007-001"><dozent><nachname>Hänsel</nachname>,
-            <grad>M.</grad> <vorname>F. M. A.</vorname>, <funktion>Theol.
+            <veranstaltung xml:id="v-1840s-II.A.I.3.007-001"><dozent
+            ref="haensel_fma"><nachname>Hänsel</nachname>, <grad>M.</grad>
+            <vorname>F. M. A.</vorname>, <funktion>Theol.
             Lic.</funktion></dozent>, <thema>historisch-theologische
             Einleitung in die Augsburgsche Confession und Erklärung
             derselben</thema>, <zeit>8 U. Mont. u.
@@ -1650,9 +1650,9 @@
             Uebungen</thema>, <zeit>5-7 U. Mont.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1840s-II.A.II.004.001-006"><dozent><nachname>Hänsel</nachname>,
-            <grad>M.</grad> <vorname>F. M. A.</vorname>, <funktion>Theol.
+            <veranstaltung xml:id="v-1840s-II.A.II.004.001-006"><dozent
+            ref="haensel_fma"><nachname>Hänsel</nachname>, <grad>M.</grad>
+            <vorname>F. M. A.</vorname>, <funktion>Theol.
             Lic.</funktion></dozent>, <thema>homiletische Uebungen</thema>,
             <zeit>in den best. St.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
@@ -1731,11 +1731,10 @@
           Vergleichung mit den vorzüglichsten positiven Rechten</thema>,
           <zeit>11 U. 2 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1840s-II.B.I.002-002"><dozent><nachname>Schaffrath</nachname>,
-          <grad>D.</grad> <vorname>W. M.</vorname></dozent>,
-          <thema>Naturrecht</thema>, <zeit>3 T. in zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1840s-II.B.I.002-002"><dozent
+          ref="schaffrath_wm"><nachname>Schaffrath</nachname>, <grad>D.</grad>
+          <vorname>W. M.</vorname></dozent>, <thema>Naturrecht</thema>,
+          <zeit>3 T. in zu best. St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1840s-II.B.I.002-003"><dozent
           ref="schletter_h"><nachname>Schletter</nachname>, <grad>D.</grad>
@@ -2007,16 +2006,15 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
 
           <seite>18</seite>
 
-          <veranstaltung
-          xml:id="v-1840s-II.B.IV.002-003"><dozent><nachname>Schaffrath</nachname>,
-          <grad>D.</grad> <vorname>W. M.</vorname></dozent>,
-          <thema>Civilproceß</thema>, <zeit>in 12 zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1840s-II.B.IV.002-003"><dozent
+          ref="schaffrath_wm"><nachname>Schaffrath</nachname>, <grad>D.</grad>
+          <vorname>W. M.</vorname></dozent>, <thema>Civilproceß</thema>,
+          <zeit>in 12 zu best. St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1840s-II.B.IV.002-004"><ders>Derselbe</ders>,
-          <thema>Grundwissenschaft des Processes</thema>, <zeit>4 T. in zu
-          best. St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1840s-II.B.IV.002-004"><ders
+          ref="schaffrath_wm">Derselbe</ders>, <thema>Grundwissenschaft des
+          Processes</thema>, <zeit>4 T. in zu best. St.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1840s-II.B.IV.003">
@@ -2044,9 +2042,9 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
         Ordin.</funktion></dozent>, <thema>allgemeines Staatsrecht</thema>,
         <zeit>9 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1840s-II.B.V-002"><dozent><nachname>Schellwitz</nachname>,
-        <grad>D.</grad> <vorname>H.</vorname></dozent>, <thema>sächsisches
+        <veranstaltung xml:id="v-1840s-II.B.V-002"><dozent
+        ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
+        <vorname>H.</vorname></dozent>, <thema>sächsisches
         Staatsrecht</thema>, <zeit>2 T. in zu best. St.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -2164,12 +2162,12 @@ Subskribenten mit den übrigen zusammen.)--></veranstaltungsgruppe>
       <sachgruppe xml:id="sg-1840s-II.C.003">
         <titel>Quellenstudium.</titel>
 
-        <veranstaltung
-        xml:id="v-1840s-II.C.003-001"><dozent><nachname>Neubert</nachname>,
-        <grad>D.</grad> <vorname>K. A.</vorname></dozent>, <thema>Erläuterung
-        ausgewählter Kapitel aus Celsus und andern Schriftstellern nach der
-        von ihm herausgeg. <antiqua>"Chrestomathia medica I."</antiqua>
-        (Leipz. 1839. b. Voß)</thema>, <zeit>11 U. 2 T.</zeit>
+        <veranstaltung xml:id="v-1840s-II.C.003-001"><dozent
+        ref="neubert_c"><nachname>Neubert</nachname>, <grad>D.</grad>
+        <vorname>K. A.</vorname></dozent>, <thema>Erläuterung ausgewählter
+        Kapitel aus Celsus und andern Schriftstellern nach der von ihm
+        herausgeg. <antiqua>"Chrestomathia medica I."</antiqua> (Leipz. 1839.
+        b. Voß)</thema>, <zeit>11 U. 2 T.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -2708,10 +2706,10 @@ doppelte Zählung verhindern?)--></veranstaltung>
           <vorname>D. G. M.</vorname></dozent>, <zeit>in zu best.
           St.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1840s-II.C.III.3-002"><dozent><nachname>Neubert</nachname>,
-          <grad>D.</grad> <vorname>K. A.</vorname></dozent>, <zeit>in den
-          best. St.</zeit> <gebühr>unentgeltlich</gebühr>, aber
+          <veranstaltung xml:id="v-1840s-II.C.III.3-002"><dozent
+          ref="neubert_c"><nachname>Neubert</nachname>, <grad>D.</grad>
+          <vorname>K. A.</vorname></dozent>, <zeit>in den best. St.</zeit>
+          <gebühr>unentgeltlich</gebühr>, aber
           <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>

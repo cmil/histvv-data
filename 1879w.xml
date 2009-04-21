@@ -600,7 +600,7 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1879w-III-002"><thema>Geschichte der
-      Medicin</thema>: <dozent><grad>D. med.</grad>
+      Medicin</thema>: <dozent ref="puschmann_t"><grad>D. med.</grad>
       <nachname>Puschmann</nachname></dozent>, <zeit>Mittw. u. Sonnab., 5-6
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -792,7 +792,7 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1879w-III-032"><thema>Pathologische Anatomie
-      der Hautkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      der Hautkrankheiten</thema>: <dozent ref="huber_c"><grad>D. med.</grad>
       <nachname>Huber</nachname></dozent>, <zeit>Mont. u. Donnerst., 8-9
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1168,7 +1168,7 @@
       Sonnab., 3-4 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1879w-III-093"><thema>Orthopädische
-      Poliklinik</thema>: <dozent><grad>D. med.</grad>
+      Poliklinik</thema>: <dozent ref="schildbach_kh"><grad>D. med.</grad>
       <nachname>Schildbach</nachname></dozent>, <zeit>Mittw. u. Sonnab., 11-12
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -1229,13 +1229,14 @@
       G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Vergleichende
-      Entwickelungsgeschichte</thema>: <dozent><grad>D. ph.</grad>
-      <nachnamenpräfix>von</nachnamenpräfix>
+      Entwickelungsgeschichte</thema>: <dozent ref="ihering_h"><grad>D.
+      ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
       <nachname>Ihering</nachname></dozent>. <siehe>Siehe Philosophische
       Facultät G.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Anthropologie</thema>: <dozent><grad>D.
-      ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+      <veranstaltungsverweis><thema>Anthropologie</thema>: <dozent
+      ref="ihering_h"><grad>D. ph.</grad>
+      <nachnamenpräfix>von</nachnamenpräfix>
       <nachname>Ihering</nachname></dozent>. <siehe>Siehe Philosophische
       Facultät G.</siehe></veranstaltungsverweis>
 
@@ -1245,7 +1246,7 @@
       <siehe>Siehe Philosophische Facultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Naturgeschichte der Parasiten
-      etc.</thema>: <dozent><grad>D. ph.</grad>
+      etc.</thema>: <dozent ref="rolph_wh"><grad>D. ph.</grad>
       <nachname>Rolph</nachname></dozent>. <siehe>Siehe Philosophische
       Facultät G.</siehe></veranstaltungsverweis>
     </sachgruppe>
@@ -2029,9 +2030,10 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1879w-IV.C-006"><thema>Quellenkunde zur
-        griechischen Geschichte</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Holzapfel</nachname></dozent>, <zeit>Mont., Dienst. u.
-        Donnerst., 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        griechischen Geschichte</thema>: <dozent ref="holzapfel_l"><grad>D.
+        ph.</grad> <nachname>Holzapfel</nachname></dozent>, <zeit>Mont.,
+        Dienst. u. Donnerst., 9-10 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1879w-IV.C-007"><thema>Ethnographie und
         älteste Geschichte der slavischen Völker</thema>: <dozent
@@ -2187,7 +2189,7 @@
 
         <veranstaltung xml:id="v-1879w-IV.C-030"><thema>Uebungen über die
         innere Geschichte Roms während der letzten Decennien der
-        Republik</thema>: <dozent><grad>D. ph.</grad>
+        Republik</thema>: <dozent ref="holzapfel_l"><grad>D. ph.</grad>
         <nachname>Holzapfel</nachname></dozent>, <zeit>Mittw. u. Sonnab., 9-10
         U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2546,13 +2548,13 @@
 
         <veranstaltungsverweis><thema>Naturgeschichte der Parasiten, mit
         besonderer Berücksichtigung derjenigen des Menschen und der
-        Hausthiere</thema>: <dozent><grad>D. ph.</grad>
+        Hausthiere</thema>: <dozent ref="rolph_wh"><grad>D. ph.</grad>
         <nachname>Rolph</nachname></dozent>. <siehe>Siehe Philosophische
         Facultät G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Naturgeschichte der Insecten mit
         besonderer Berücksichtigung der der Landwirthschaft schädlichen
-        Formen</thema>: <dozent><grad>D. ph.</grad>
+        Formen</thema>: <dozent ref="rolph_wh"><grad>D. ph.</grad>
         <nachname>Rolph</nachname></dozent>. <siehe>Siehe Philosophische
         Facultät G.</siehe></veranstaltungsverweis>
       </sachgruppe>
@@ -2743,8 +2745,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1879w-IV.G-013"><thema>Maassanalyse</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Ost</nachname></dozent>,
-        <zeit>Sonnab., 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="ost_h"><grad>D. ph.</grad>
+        <nachname>Ost</nachname></dozent>, <zeit>Sonnab., 8-9 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1879w-IV.G-014"><thema>Allgemeine Mineralogie
         nebst repetitorischen Uebungen</thema>: <dozent
@@ -2787,13 +2790,14 @@
         u. Freit., 7-8 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1879w-IV.G-021"><thema>Vergleichende
-        Entwickelungsgeschichte</thema>: <dozent><grad>D. ph.</grad>
-        <nachnamenpräfix>von</nachnamenpräfix>
+        Entwickelungsgeschichte</thema>: <dozent ref="ihering_h"><grad>D.
+        ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Ihering</nachname></dozent>, <zeit>Dienst. u. Freit., 5-6
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1879w-IV.G-022"><thema>Anthropologie</thema>:
-        <dozent><grad>D. ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
+        <dozent ref="ihering_h"><grad>D. ph.</grad>
+        <nachnamenpräfix>von</nachnamenpräfix>
         <nachname>Ihering</nachname></dozent>, <zeit>Mittw., 5-6 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
@@ -2833,13 +2837,13 @@
 
         <veranstaltung xml:id="v-1879w-IV.G-028"><thema>Naturgeschichte der
         Parasiten, mit besonderer Berücksichtigung derjenigen des Menschen und
-        der Hausthiere</thema>: <dozent><grad>D. ph.</grad>
+        der Hausthiere</thema>: <dozent ref="rolph_wh"><grad>D. ph.</grad>
         <nachname>Rolph</nachname></dozent>, <zeit>Mont. u. Donnerst., 5-6
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1879w-IV.G-029"><thema>Naturgeschichte der
         Insecten, mit besonderer Berücksichtigung der der Landwirthschaft
-        schädlichen Formen</thema>: <dozent><grad>D. ph.</grad>
+        schädlichen Formen</thema>: <dozent ref="rolph_wh"><grad>D. ph.</grad>
         <nachname>Rolph</nachname></dozent>, <zeit>Mittw. u. Sonnab., 5-6
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2963,7 +2967,7 @@
 
     <trennlinie/>
 
-    <absatz>Fechtunterricht ertheilt: <dozent>Der
+    <absatz>Fechtunterricht ertheilt: <dozent ref="roux_lc">Der
     <funktion>Fechtmeister</funktion> <nachname>Roux</nachname></dozent>.
     Tanzunterricht: <dozent ref="friedel_h">Der
     <funktion>Tanzmeister</funktion>

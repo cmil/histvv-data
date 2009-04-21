@@ -527,8 +527,8 @@
       D</gesperrt>.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Uebungen im deutschen Vortrag</thema>:
-      <dozent><nachname>Horstmann</nachname></dozent>. <siehe>Siehe Seite
-      7<korrektur original="7">6</korrektur></siehe><!--(Seite nicht im transkribierten Bereich!)-->.</veranstaltungsverweis>
+      <dozent ref="horstmann_t"><nachname>Horstmann</nachname></dozent>.
+      <siehe>Siehe Seite 7<korrektur original="7">6</korrektur></siehe><!--(Seite nicht im transkribierten Bereich!)-->.</veranstaltungsverweis>
     </sachgruppe>
 
     <trennlinie/>
@@ -931,8 +931,8 @@
       E</gesperrt>.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Uebungen im deutschen Vortrag</thema>:
-      <dozent><nachname>Horstmann</nachname></dozent>. <siehe>Siehe Seite
-      7<korrektur original="7">6</korrektur>.</siehe><!--Seite nicht im transkribierten Bereich!--></veranstaltungsverweis>
+      <dozent ref="horstmann_t"><nachname>Horstmann</nachname></dozent>.
+      <siehe>Siehe Seite 7<korrektur original="7">6</korrektur>.</siehe><!--Seite nicht im transkribierten Bereich!--></veranstaltungsverweis>
     </sachgruppe>
 
     <trennlinie/>
@@ -1933,9 +1933,10 @@ in den Kontext eingebunden werden)-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900s-IV.A-003"><thema>Psychologie der
-        Willenshandlung und des Wollens</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Mentz</nachname></dozent>, <zeit>Mont. u. Dienst. 10-11
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Willenshandlung und des Wollens</thema>: <dozent
+        ref="mentz_p"><grad>D. ph.</grad> <nachname>Mentz</nachname></dozent>,
+        <zeit>Mont. u. Dienst. 10-11 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <seite>20</seite>
 
@@ -1946,9 +1947,9 @@ in den Kontext eingebunden werden)-->
         U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900s-IV.A-005"><thema>Naturcausalität und
-        psychische Causalität</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Mentz</nachname></dozent>, <zeit>Mittw. u. Sonnab. 4-5
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        psychische Causalität</thema>: <dozent ref="mentz_p"><grad>D.
+        ph.</grad> <nachname>Mentz</nachname></dozent>, <zeit>Mittw. u.
+        Sonnab. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900s-IV.A-006"><thema>Ueber einige wichtige
         Fragen der Moral- und Rechtsphilosophie</thema>: <dozent
@@ -2678,7 +2679,7 @@ in den Kontext eingebunden werden)-->
           A.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Uebungen im deutschen Vortrag</thema>:
-          <dozent><vorname>Th.</vorname>
+          <dozent ref="horstmann_t"><vorname>Th.</vorname>
           <nachname>Horstmann</nachname></dozent> <siehe>Siehe Seite
           7<korrektur original="7">6</korrektur>.</siehe><!--(VA nicht mehr im erfassten Text)--></veranstaltungsverweis>
         </sachgruppe>
@@ -4394,14 +4395,14 @@ evtl. Revision bei modus-Nachbearbeitung)-->,
 
     <sachgruppe xml:id="sg-1900s-001">
       <veranstaltung xml:id="v-1900s-001-001">Für
-      <thema>Fechtunterricht</thema>: Der
-      <dozent><funktion>Univ.-Fechtmeister</funktion>
+      <thema>Fechtunterricht</thema>: Der <dozent
+      ref="roux_lc"><funktion>Univ.-Fechtmeister</funktion>
       <nachname>Roux</nachname></dozent>. (<ort>Universitäts-Fechtboden
       Ritterstr. 12. II.</ort>)</veranstaltung>
 
       <veranstaltung xml:id="v-1900s-001-002">Für
-      <thema>Reitunterricht</thema>: Der
-      <dozent><funktion>Univ.-Stallmeister</funktion>
+      <thema>Reitunterricht</thema>: Der <dozent
+      ref="sack_e"><funktion>Univ.-Stallmeister</funktion>
       <nachname>Sack</nachname></dozent>.</veranstaltung>
     </sachgruppe>
 

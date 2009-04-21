@@ -622,9 +622,9 @@
       <sachgruppe xml:id="sg-1828w-I.IV.001">
         <titel>Kursus der gesammten Staatswissenschaften.</titel>
 
-        <veranstaltung
-        xml:id="v-1828w-I.IV.001-001"><dozent><nachname>Schellwitz</nachname>,
-        <grad>D.</grad> <vorname>H.</vorname></dozent>, <thema><notiz
+        <veranstaltung xml:id="v-1828w-I.IV.001-001"><dozent
+        ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
+        <vorname>H.</vorname></dozent>, <thema><notiz
         betreff="fortsetzung">auf 3 Semester berechnet</notiz>, u. zwar in
         diesem Halbjahre Natur- u. Völkerrecht, Staats- u. Staaten-Recht,
         Geschichte des Europ. Staatensystems, Staatskunst, Sicherheits- und
@@ -1814,16 +1814,15 @@
             Processe, n. s. Sätzen</thema>, <zeit>9 U. 2
             T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1828w-II.B.II.II.1-005"><dozent><nachname>Mertens</nachname>,
-            <grad>D.</grad> <vorname>K. G. L.</vorname></dozent>,
-            <thema>ordentl. Civilproceß, praktisch erläutert</thema>, <zeit>2
-            U. 6 T.</zeit></veranstaltung>
-
-            <veranstaltung
-            xml:id="v-1828w-II.B.II.II.1-006"><ders>Derselbe</ders>,
-            <thema>summarische Processe</thema>, <zeit>3 U. 5
+            <veranstaltung xml:id="v-1828w-II.B.II.II.1-005"><dozent
+            ref="mertens_kgl"><nachname>Mertens</nachname>, <grad>D.</grad>
+            <vorname>K. G. L.</vorname></dozent>, <thema>ordentl. Civilproceß,
+            praktisch erläutert</thema>, <zeit>2 U. 6
             T.</zeit></veranstaltung>
+
+            <veranstaltung xml:id="v-1828w-II.B.II.II.1-006"><ders
+            ref="mertens_kgl">Derselbe</ders>, <thema>summarische
+            Processe</thema>, <zeit>3 U. 5 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1828w-II.B.II.II.1-007"><dozent
             ref="held_gf"><nachname>Held</nachname>, <grad>D.</grad>
@@ -1897,11 +1896,11 @@
             ref="diedemann_jfa">Derselbe</ders>, <thema>über den
             Proceß</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1828w-II.B.II.III.1-006"><dozent><nachname>Mertens</nachname>,
-            <grad>D.</grad> <vorname>K. G. L.</vorname></dozent>, <thema>über
-            das ganze Recht oder einzelne Theile desselben</thema>, <zeit>in
-            zu best. St.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1828w-II.B.II.III.1-006"><dozent
+            ref="mertens_kgl"><nachname>Mertens</nachname>, <grad>D.</grad>
+            <vorname>K. G. L.</vorname></dozent>, <thema>über das ganze Recht
+            oder einzelne Theile desselben</thema>, <zeit>in zu best.
+            St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1828w-II.B.II.III.1-007"><dozent
             ref="stieber_fkg"><nachname>Stieber</nachname>, <grad>D.</grad>
@@ -2268,10 +2267,10 @@
             <thema><notiz betreff="fortsetzung">Fortsetzung des Kursus</notiz>
             der Therapie</thema>, <zeit>4 U. 6 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1828w-II.C.II.3.001-002"><dozent><nachname>Ochs</nachname>,
-            <grad>D.</grad> <vorname>F. M. A.</vorname></dozent>, <zeit>10 U.
-            4 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+            <veranstaltung xml:id="v-1828w-II.C.II.3.001-002"><dozent
+            ref="ochs_fma"><nachname>Ochs</nachname>, <grad>D.</grad>
+            <vorname>F. M. A.</vorname></dozent>, <zeit>10 U. 4 T.</zeit>
+            <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
             <sachgruppe xml:id="sg-1828w-II.C.II.3.001.x">
               <titel>*) Homöopathie.</titel>
@@ -2472,11 +2471,11 @@
           <vorname>K. C.</vorname></dozent>, <thema>über versch. Fächer der
           Heilkunst</thema>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1828w-II.C.III.001-009"><dozent><nachname>Ochs</nachname>,
-          <grad>D.</grad> <vorname>F. M. A.</vorname></dozent>, <thema>über
-          belieb. Gegenstände der theoret. u. prakt. Medicin</thema>, <zeit>in
-          zu best. St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1828w-II.C.III.001-009"><dozent
+          ref="ochs_fma"><nachname>Ochs</nachname>, <grad>D.</grad>
+          <vorname>F. M. A.</vorname></dozent>, <thema>über belieb.
+          Gegenstände der theoret. u. prakt. Medicin</thema>, <zeit>in zu
+          best. St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1828w-II.C.III.002">

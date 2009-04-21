@@ -936,7 +936,7 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-049"><thema>Ueber
-      Geschwülste</thema>: <dozent><grad>D. med.</grad>
+      Geschwülste</thema>: <dozent ref="huber_c"><grad>D. med.</grad>
       <nachname>Huber</nachname></dozent>, <zeit>Mont. u. Donnerst. 7-8
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1148,7 +1148,7 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1883s-III-081"><thema>Klinische
-      Propädeutik</thema>: <dozent><grad>D. med.</grad>
+      Propädeutik</thema>: <dozent ref="scheube_hb"><grad>D. med.</grad>
       <nachname>Scheube</nachname></dozent>, <zeit>zweimal wöchentlich,
       wahrscheinlich Dienst. u. Freit. 7-8 U. früh</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1214,7 +1214,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1883s-III-092"><thema>Orthopädische
-      Poliklinik</thema>: <dozent><grad>D. med.</grad>
+      Poliklinik</thema>: <dozent ref="schildbach_kh"><grad>D. med.</grad>
       <nachname>Schildbach</nachname></dozent>, <zeit>Mittw. u. Sonnab. 11-12
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -1643,9 +1643,9 @@
           U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1883s-IV.B.a-012"><thema>Römische
-          Staatsalterthümer</thema>: <dozent><grad>D. ph.</grad>
-          <nachname>Holzapfel</nachname></dozent>, <zeit>Mont., Dienst.,
-          Donnerst. u. Freit. 12-1 U.</zeit>,
+          Staatsalterthümer</thema>: <dozent ref="holzapfel_l"><grad>D.
+          ph.</grad> <nachname>Holzapfel</nachname></dozent>, <zeit>Mont.,
+          Dienst., Donnerst. u. Freit. 12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Griechische Paläographie und
@@ -2181,7 +2181,7 @@
 
         <veranstaltung xml:id="v-1883s-IV.C-024"><thema>Uebungen über
         ausgewählte Fragen aus der griechischen und römischen
-        Geschichte</thema>: <dozent><grad>D. ph.</grad>
+        Geschichte</thema>: <dozent ref="holzapfel_l"><grad>D. ph.</grad>
         <nachname>Holzapfel</nachname></dozent>, <zeit>Dienst. 7-9 U.
         Ab.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -2229,8 +2229,9 @@
         a</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Römische Staatsalterthümer</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Holzapfel</nachname></dozent>.
-        <siehe>Siehe Abschnitt B a</siehe>.</veranstaltungsverweis>
+        <dozent ref="holzapfel_l"><grad>D. ph.</grad>
+        <nachname>Holzapfel</nachname></dozent>. <siehe>Siehe Abschnitt B
+        a</siehe>.</veranstaltungsverweis>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1883s-IV.D">
@@ -2729,9 +2730,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1883s-IV.G-008"><thema>Historische Einführung
-        in die organische Chemie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Ost</nachname></dozent>, <zeit>Dienst. 12-1 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        in die organische Chemie</thema>: <dozent ref="ost_h"><grad>D.
+        ph.</grad> <nachname>Ost</nachname></dozent>, <zeit>Dienst. 12-1
+        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1883s-IV.G-009"><thema>Theoretische Chemie
         der Kohlenstoffverbindungen</thema>: <dozent ref="hantzsch_a"><grad>D.
@@ -2785,8 +2786,9 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1883s-IV.G-017"><thema>Maassanalyse</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Ost</nachname></dozent>,
-        <zeit>Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="ost_h"><grad>D. ph.</grad>
+        <nachname>Ost</nachname></dozent>, <zeit>Sonnab. 12-1 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1883s-IV.G-018"><thema>Paläontologie</thema>:
         <dozent ref="credner_khg"><grad>D. ph.</grad>
@@ -3051,7 +3053,8 @@
 
     <trennlinie/>
 
-    <absatz>Für Fechtunterricht: Der <dozent><funktion>Fechtmeister</funktion>
+    <absatz>Für Fechtunterricht: Der <dozent
+    ref="roux_lc"><funktion>Fechtmeister</funktion>
     <nachname>Roux</nachname></dozent>.</absatz>
 
     <absatz>Für Tanzunterricht: Der <dozent

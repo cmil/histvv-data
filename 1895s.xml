@@ -2930,7 +2930,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.E-009"><thema>Allgemeiner Acker- und
-        Pflanzenbau</thema>: <dozent><grad>D. ph.</grad>
+        Pflanzenbau</thema>: <dozent ref="hucho_h"><grad>D. ph.</grad>
         <nachname>Hucho</nachname></dozent>, <zeit>Mont., Donnerst. u. Freit.
         5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2942,7 +2942,7 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.E-011"><thema>Wiesen- und
-        Moorcultur</thema>: <dozent><grad>D. ph.</grad>
+        Moorcultur</thema>: <dozent ref="hucho_h"><grad>D. ph.</grad>
         <nachname>Hucho</nachname></dozent>, <zeit>Dienst. u. Freit. 9-10
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3174,24 +3174,25 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.F-012"><thema>Einleitung in die
-        analytische Geometrie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Scheffers</nachname></dozent>, <zeit>Dienst., Mittw.,
-        Donnerst. u. Freit. 12-1 U.</zeit>,
+        analytische Geometrie</thema>: <dozent ref="scheffers_gw"><grad>D.
+        ph.</grad> <nachname>Scheffers</nachname></dozent>, <zeit>Dienst.,
+        Mittw., Donnerst. u. Freit. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1895s-IV.F-013"><thema>Uebungen <notiz
         betreff="Einleitung in die analytischen Geometrie">hierzu</notiz></thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Scheffers</nachname></dozent>,
-        <zeit>einstünd., zu noch zu best. Zeit</zeit>,
-        <modus>privatissime</modus>, aber
+        <dozent ref="scheffers_gw"><grad>D. ph.</grad>
+        <nachname>Scheffers</nachname></dozent>, <zeit>einstünd., zu noch zu
+        best. Zeit</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <!--´hierzu´ als notiz getaggt, va bezieht sich auf obere va-->
 
         <veranstaltung xml:id="v-1895s-IV.F-014"><thema>Einleitung in die
-        Theorie der linearen Differentialgleichungen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Scheffers</nachname></dozent>, <zeit>Mont. 3-5
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Theorie der linearen Differentialgleichungen</thema>: <dozent
+        ref="scheffers_gw"><grad>D. ph.</grad>
+        <nachname>Scheffers</nachname></dozent>, <zeit>Mont. 3-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Mathematische Grundlehren der
         Meteorologie</thema>: <dozent ref="oettingen_aj"><grad>D. ph.</grad>
@@ -3700,13 +3701,13 @@
 
     <trennlinie/>
 
-    <absatz>Für Fechtunterricht: <dozent><funktion>Der
+    <absatz>Für Fechtunterricht: <dozent ref="roux_lc"><funktion>Der
     Univ.-Fechtmeister</funktion> <nachname>Roux</nachname></dozent>.</absatz>
 
     <absatz>Für Tanzunterricht: <dozent><funktion>Der
     Univ.-Tanzmeister</funktion></dozent>.</absatz>
 
-    <absatz>Für Reitunterricht: <dozent><funktion>Der
+    <absatz>Für Reitunterricht: <dozent ref="sack_e"><funktion>Der
     Univ.-Stallmeister</funktion> <nachname>Sack</nachname></dozent>.</absatz>
 
     <trennlinie/>
