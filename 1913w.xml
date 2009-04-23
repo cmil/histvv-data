@@ -682,8 +682,8 @@
       <zeit>Di. u. Fr. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-021"><thema>Patentrecht</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Meister</nachname></dozent>,
-      <zeit>Di. u. Fr. 12-1 U.</zeit>,
+      <dozent ref="meister_e"><grad>D. jur.</grad>
+      <nachname>Meister</nachname></dozent>, <zeit>Di. u. Fr. 12-1 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-022"><thema>Zivilprozeßrecht (nach
@@ -863,7 +863,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1913w-II-050"><thema>Übungen zur deutschen
-      Rechtsgeschichte</thema>: <dozent><grad>D. jur.</grad>
+      Rechtsgeschichte</thema>: <dozent ref="meister_e"><grad>D. jur.</grad>
       <nachname>Meister</nachname></dozent>, <zeit>Mo. 4-5 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
@@ -3354,12 +3354,14 @@
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913w-IV.B.d-014"><thema>Einführung ins
-          Italienische</thema>: <dozent><funktion>Lektor</funktion>
+          Italienische</thema>: <dozent
+          ref="marano_f"><funktion>Lektor</funktion>
           <nachname>Marano</nachname></dozent>, <zeit>Mo. u. Do. 4-5
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1913w-IV.B.d-015"><thema>La lirica italiana
-          nel sec. XIX</thema>: <dozent><funktion>Lektor</funktion>
+          nel sec. XIX</thema>: <dozent
+          ref="marano_f"><funktion>Lektor</funktion>
           <nachname>Marano</nachname></dozent>, <zeit>Di. u. Fr. 4-5
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3463,7 +3465,7 @@
           <gebühr>gratis</gebühr>.</veranstaltungsgruppe> - <veranstaltung
           xml:id="v-1913w-IV.B.d-032"><thema>III. Abteilung: Praktische
           Übungen in der italienischen Sprache</thema> unter Leitung des
-          Assistenten <dozent><funktion>Lektors</funktion>
+          Assistenten <dozent ref="marano_f"><funktion>Lektors</funktion>
           <nachname>Marano</nachname></dozent>, <zeit>Mo. u. Do. 3-4
           U.</zeit>, <modus>privatissime</modus>, sed
           <gebühr>gratis</gebühr>.</veranstaltung></veranstaltungsgruppe>
