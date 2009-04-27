@@ -26,6 +26,12 @@
 
     <status komplett="ja">
       <transkribent>Beatrice</transkribent>
+
+      <korrigiert>
+        <durch>Florian</durch>
+
+        <am>27.4.09</am>
+      </korrigiert>
     </status>
   </kopf>
 
@@ -2111,7 +2117,7 @@
         <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. 9-11 U.</zeit>
         <gebühr>gratis</gebühr>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1875s-IV.C-021"><thema>Germanstische
+        <veranstaltung xml:id="v-1875s-IV.C-021"><thema>Germanistische
         Gesellschaft, Geschichte und Staatsalterthümer der Germanen in der
         Merovingerzeit</thema>: <dozent ref="brandes_hbc"><grad>D. ph.</grad>
         <nachname>Brandes</nachname>, <funktion>P. E.</funktion></dozent>,
@@ -2198,7 +2204,7 @@
         Vereinbarungen</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.D-008"><thema>Liturgische
-        Gesangsübungen in verschiedenen Abthl.</thema>: <ders>Derselbe</ders>,
+        Gesangübungen in verschiedenen Abthl.</thema>: <ders>Derselbe</ders>,
         <zeit>Mont., Mittw. u. Freit. 6-7 U.</zeit>
         <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -2326,7 +2332,7 @@
         Laboratorium des landw.-physiol. Institutes</thema>: <dozent
         ref="stohmann_f"><grad>D. ph.</grad> <nachname>Stohmann</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>täglich <korrektur
-        original="8-6">6-8</korrektur> U.</zeit>
+        original="8-6">6-8</korrektur> U.</zeit><!--stimmt die Korrektur der Zeit?-->
         <modus>privatissime</modus>.</veranstaltung>
       </sachgruppe>
 
@@ -2339,7 +2345,7 @@
         <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 3-5 U.</zeit>
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1875s-IV.F-002"><thema>Synhtetische Geometrie
+        <veranstaltung xml:id="v-1875s-IV.F-002"><thema>Synthetische Geometrie
         der Kegelschnitte</thema>: <dozent ref="neumann_c"><grad>D. ph.</grad>
         <nachname>Neumann</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Donnerst. u. Freit. 12-1 U.</zeit>
@@ -2358,8 +2364,9 @@
         U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.F-005"><thema>Ueber
-        Kettenbrüche</thema>: <ders ref="scheibner_w">Derselbe, P. O.</ders>,
-        <zeit>Sonnab. 9-11 U.</zeit> <modus>publice</modus>.</veranstaltung>
+        Kettenbrüche</thema>: <ders ref="scheibner_w">Derselbe, P.
+        O.</ders><!--Tagging von "Derselbe, P.O." richtig?-->, <zeit>Sonnab.
+        9-11 U.</zeit> <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1875s-IV.F-006"><thema>Ausgewählte Capitel
         aus der höheren Mathematik</thema>: <dozent ref="mayer_a"><grad>D.
@@ -2570,9 +2577,8 @@
         E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 9-10 U.</zeit>
         <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1875s-IV.G-027"><thema>Entwickelungsgeschichte der
-        Wirbelthiere</thema>: <ders ref="carus_jv">Derselbe</ders>,
+        <veranstaltung xml:id="v-1875s-IV.G-027"><thema>Entwicklungsgeschichte
+        der Wirbelthiere</thema>: <ders ref="carus_jv">Derselbe</ders>,
         <zeit>Mittw. u. Sonnab. 10-11 U.</zeit>
         <modus>privatim</modus>.</veranstaltung>
 
@@ -2693,22 +2699,28 @@
     geöffnet, Mont., Mittw., Donnerst. u. Sonnab. früh von 10 bis 1 Uhr,
     Dienst. u. Freit. von 2 bis 5 Uhr. Anträge auf Anschaffung von Büchern
     werden jederzeit von dem der betreffenden Facultät angehörenden Mitgliede
-    der Bibliothek-Commission entgegen genommen. Die <gesperrt>akademische
-    Lesehalle</gesperrt>, Universitätsstrasse Nr. 18, I, ist Wochentags von 10
-    U. früh bis 9 U. Abends, Sonntags von 11 bis 7 U. geöffnet. Die
-    <gesperrt>Stadtbibliothek</gesperrt> und die mit derselben verbundene
-    <gesperrt>Pölitz'sche</gesperrt> Bibliothek ist geöffnet Mont., Mittw. und
-    Sonnab. von 2 bis 4 Uhr. Das <gesperrt>zoologische</gesperrt> Museum ist
-    Mittw. und Sonnab. von 10 bis 12 Uhr, das
-    <gesperrt>Universitäts-Herbarium</gesperrt> Dienst. u. Freit. früh von 9
-    bis 12 Uhr, das <gesperrt>mineralogische</gesperrt> Museum Sonnab. von
-    10-12 Uhr, das <gesperrt>pharmakognostische</gesperrt> Museum Sonnab. von
-    1 bis 3 Uhr geöffnet.</absatz>
+    der Bibliothek-Commission entgegen genommen.</absatz>
+
+    <absatz>Die <gesperrt>akademische Lesehalle</gesperrt>,
+    Universitätsstrasse Nr. 18, I, ist Wochentags von 10 U. früh bis 9 U.
+    Abends, Sonntags von 11 bis 7 U. geöffnet.</absatz>
+
+    <absatz>Die <gesperrt>Stadtbibliothek</gesperrt> und die mit derselben
+    verbundene <gesperrt>Pölitz'sche</gesperrt> Bibliothek ist geöffnet Mont.,
+    Mittw. und Sonnab. von 2 bis 4 Uhr.</absatz>
+
+    <absatz>Das <gesperrt>zoologische</gesperrt> Museum ist Mittw. und Sonnab.
+    von 10 bis 12 Uhr, das <gesperrt>Universitäts-Herbarium</gesperrt> Dienst.
+    u. Freit. früh von 9 bis 12 Uhr, das <gesperrt>mineralogische</gesperrt>
+    Museum Sonnab. von 10-12 Uhr, das <gesperrt>pharmakognostische</gesperrt>
+    Museum Sonnab. von 1 bis 3 Uhr geöffnet.</absatz>
 
     <trennlinie/>
 
     <absatz>Fechtunterricht ertheilt: Der Fechtmeister
-    <gesperrt>Roux</gesperrt>. Tanzunterricht: Der Tanzmeister
+    <gesperrt>Roux</gesperrt>.</absatz>
+
+    <absatz>Tanzunterricht: Der Tanzmeister
     <gesperrt>Friedel</gesperrt>.</absatz>
 
     <trennlinie/>
