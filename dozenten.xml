@@ -28949,9 +28949,6 @@ und die Berufsbezeichnung!--></pnd>
 
     <pnd>118745441</pnd>
 
-    <!--Tippfehler: WS 1873, S. 7 "&." der Punkt hinter dem
-"und-Zeichen" ist zuviel. -->
-
     <absatz>klassischer Philologe</absatz>
 
     <adb>
@@ -29050,7 +29047,7 @@ http://books.google.de/books?id=IG3Rp8NAO8EC&pg=PA451&dq=ritterich-->
     <absatz>Arzt, Übersetzer</absatz>
   </dozent>
 
-  <dozent xml:id="rohde_e">
+  <dozent eindeutig="ja" xml:id="rohde_e">
     <name>
       <nachname>Rohde</nachname>
 
@@ -29081,16 +29078,32 @@ http://books.google.de/books?id=IG3Rp8NAO8EC&pg=PA451&dq=ritterich-->
 
     <absatz>Altphilologe</absatz>
 
+    <adb>
+      <band>53</band>
+
+      <seite>426-440</seite>
+
+      <url>http://mdz10.bib-bvb.de/~db/bsb00008411/images/index.html?seite=428</url>
+    </adb>
+
+    <ndb>
+      <band>21</band>
+
+      <seite>761-762</seite>
+
+      <url>http://mdz10.bib-bvb.de/~db/0001/bsb00016339/images/index.html?seite=777</url>
+    </ndb>
+
     <url>http://de.wikipedia.org/wiki/Erwin_Rohde</url>
 
-    <url>http://de.wikisource.org/wiki/ADB:Rohde,_Erwin</url>
+    <url>http://www.bautz.de/bbkl/r/rohde_e.shtml</url>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="rohland_w">
     <name>
       <nachname>Rohland</nachname>
 
-      <vorname>Woldemar</vorname>
+      <vorname><rufname>Woldemar</rufname> Eduard</vorname>
 
       <nachnamenpräfix>von</nachnamenpräfix>
     </name>
@@ -29101,7 +29114,11 @@ http://books.google.de/books?id=IG3Rp8NAO8EC&pg=PA451&dq=ritterich-->
       <monat>6</monat>
 
       <tag>18</tag>
+
+      <ort>Riga</ort>
     </geboren>
+
+    <!--im WBIS sind zwei andere Geburtstage angegeben (Jahr ist gleich)-->
 
     <gestorben>
       <jahr>1936</jahr>
@@ -29109,13 +29126,15 @@ http://books.google.de/books?id=IG3Rp8NAO8EC&pg=PA451&dq=ritterich-->
       <monat>12</monat>
 
       <tag>18</tag>
+
+      <ort>Freiburg i. Br.</ort>
     </gestorben>
 
     <pnd>116597585</pnd>
 
     <beruf>Jurist</beruf>
 
-    <url>http://books.google.com/books?id=GQ70dx7swcoC&amp;pg=PA43&amp;dq=Rohland,+Woldemar+von+1936&amp;lr=&amp;client=opera&amp;hl=de</url>
+    <url>http://books.google.com/books?id=GQ70dx7swcoC&amp;pg=PA43&amp;dq=rohland</url>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="rohn_k">
@@ -29194,10 +29213,6 @@ http://books.google.de/books?id=IG3Rp8NAO8EC&pg=PA451&dq=ritterich-->
     <absatz>Mediziner</absatz>
 
     <url>http://www.uni-leipzig.de/unigeschichte/professorenkatalog/leipzig/Rolly_186.html</url>
-
-    <url>http://books.google.de/books?id=OMAwAAAAIAAJ&amp;q=Friedrich+Rolly%22+1874&amp;lr=&amp;pgis=1</url>
-
-    <url>http://books.google.de/books?lr=&amp;id=OMAwAAAAIAAJ&amp;dq=1930&amp;q=%2212.+M%C3%A4rz+1930%22&amp;pgis=1#search_anchor</url>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="rolph_wh">
@@ -29229,9 +29244,11 @@ http://books.google.de/books?id=IG3Rp8NAO8EC&pg=PA451&dq=ritterich-->
 
     <beruf>Naturwissenschaftler</beruf>
 
-    <url>http://books.google.com/books?lr=&amp;client=opera&amp;hl=de&amp;id=PS1WAAAAMAAJ&amp;q=1847&amp;pgis=1#search_anchor</url>
+    <url>http://de.wikipedia.org/wiki/William_Henry_Rolph</url>
 
-    <url>http://books.google.com/books?lr=&amp;client=opera&amp;hl=de&amp;id=PS1WAAAAMAAJ&amp;q=%22Sommer+1883%22&amp;pgis=1#search_anchor</url>
+    <url>http://books.google.com/books?hl=de&amp;id=PS1WAAAAMAAJ&amp;q=1847&amp;pgis=1</url>
+
+    <url>http://books.google.com/books?hl=de&amp;id=PS1WAAAAMAAJ&amp;q=%22sommer+1883%22</url>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="romberg_e">
@@ -29369,7 +29386,8 @@ http://books.google.de/books?id=IG3Rp8NAO8EC&pg=PA451&dq=ritterich-->
       <vorname>Johann Gotthilf Karl</vorname>
 
       <!--Die Vornamen sind dem lateinischen Lektionskatalogen
-nachempfunden. Dort steht Io. Gotth. Car.!-->
+nachempfunden. Dort steht Io. Gotth. Car.!
+laut Quelle starb er im Alter von 36,5 Jahren-->
     </name>
 
     <geboren>
@@ -29388,11 +29406,7 @@ nachempfunden. Dort steht Io. Gotth. Car.!-->
 
     <beruf>Theologe</beruf>
 
-    <url>http://books.google.com/books?id=NfwEAAAAQAAJ&amp;pg=RA3-PA477&amp;dq=Johann+Gotthilf+Rose+1788&amp;lr=&amp;client=opera&amp;hl=de</url>
-
-    <anmerkungen>
-      <absatz>In der Quelle ist er 36,5 Jahre alt.</absatz>
-    </anmerkungen>
+    <url>http://books.google.com/books?id=NfwEAAAAQAAJ&amp;pg=RA3-PA477&amp;dq=johann+gotthilf+rose</url>
   </dozent>
 
   <dozent xml:id="rosenmueller_efk">
@@ -29434,7 +29448,7 @@ nachempfunden. Dort steht Io. Gotth. Car.!-->
       <url>http://mdz10.bib-bvb.de/~db/bsb00008387/images/index.html?seite=217</url>
     </adb>
 
-    <url>http://de.wikipedia.org/wiki/Ernst_Karl_Rosenmüller</url>
+    <url>http://de.wikipedia.org/wiki/Ernst_Friedrich_Karl_Rosenmüller</url>
 
     <url>http://www.bautz.de/bbkl/r/rosenmueller_e_f_k.shtml</url>
   </dozent>
@@ -29461,7 +29475,9 @@ nachempfunden. Dort steht Io. Gotth. Car.!-->
 
       <monat>2</monat>
 
-      <tag>29</tag>
+      <tag>28</tag>
+
+      <ort>Leipzig</ort>
 
       <!--in der Nacht vom 28. zum 29. Februar!-->
     </gestorben>
@@ -29477,6 +29493,8 @@ nachempfunden. Dort steht Io. Gotth. Car.!-->
 
       <url>http://mdz10.bib-bvb.de/~db/bsb00008387/images/index.html?seite=223</url>
     </adb>
+
+    <url>http://books.google.de/books?id=IG3Rp8NAO8EC&amp;pg=PA542&amp;dq=rosenm%C3%BCller-Johann</url>
   </dozent>
 
   <dozent xml:id="rosenmueller_jg">
@@ -29527,7 +29545,7 @@ nachempfunden. Dort steht Io. Gotth. Car.!-->
     <name>
       <nachname>Rosenstock</nachname>
 
-      <vorname>Eugen</vorname>
+      <vorname><rufname>Eugen</rufname> Friedrich Moritz</vorname>
 
       <!--ab 1926 Rosenstock-Huessy-->
     </name>
@@ -29565,6 +29583,8 @@ nachempfunden. Dort steht Io. Gotth. Car.!-->
     </ndb>
 
     <url>http://de.wikipedia.org/wiki/Eugen_Rosenstock-Huessy</url>
+
+    <url>http://www.bautz.de/bbkl/r/rosenstock_huessy.shtml</url>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="rost_fwe">
@@ -29615,15 +29635,35 @@ nachempfunden. Dort steht Io. Gotth. Car.!-->
 
       <vorname>Ludwig Cäsar</vorname>
 
-      <!--Die Personalverzeichnisse verzeichnen 2 Roux!
-Im Link steht, dass er Fechtmeister ausbildete,
-von denen einer auch in Leipzig blieb.
-http://books.google.de/books?lr=&id=IvybAAAAMAAJ&dq=Ludwig+C%C3%A4sar+Roux+Paul+Fechtmeister&q=%22Aus+seiner+++Schule+gingen+drei+bekannte+akademische+Fechtmeister+hervor%22&pgis=1#search_anchor -->
+      <!--Gibt sein Amt 1902 an den Sohn Paul ab!
+-->
     </name>
+
+    <geboren>
+      <jahr>1843</jahr>
+
+      <monat>6</monat>
+
+      <tag>27</tag>
+
+      <ort>Jena</ort>
+    </geboren>
+
+    <gestorben>
+      <jahr>1913</jahr>
+
+      <monat>5</monat>
+
+      <tag>20</tag>
+
+      <ort>Leipzig</ort>
+    </gestorben>
 
     <pnd>112688411</pnd>
 
     <beruf>Fechtmeister der Universität</beruf>
+
+    <url>http://www.ahnen.roux.de/pafg08.htm</url>
   </dozent>
 
   <dozent bis="1914s" eindeutig="ja" von="1902w" xml:id="roux_p">
@@ -29633,9 +29673,27 @@ http://books.google.de/books?lr=&id=IvybAAAAMAAJ&dq=Ludwig+C%C3%A4sar+Roux+Paul+
       <vorname>Paul</vorname>
     </name>
 
+    <!--ältester Sohn von Ludwig Cäsar-->
+
+    <geboren>
+      <jahr>1870</jahr>
+
+      <monat>5</monat>
+
+      <tag>26</tag>
+
+      <ort>Leipzig</ort>
+    </geboren>
+
+    <gestorben>
+      <jahr>1935</jahr>
+    </gestorben>
+
     <pnd>101972679</pnd>
 
     <beruf>Fechtmeister der Universität</beruf>
+
+    <url>http://www.ahnen.roux.de/pafg08.htm</url>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="ruehl_f">
@@ -29652,7 +29710,7 @@ http://books.google.de/books?lr=&id=IvybAAAAMAAJ&dq=Ludwig+C%C3%A4sar+Roux+Paul+
 
       <tag>26</tag>
 
-      <ort>Hanau (Hessen)</ort>
+      <ort>Hanau</ort>
     </geboren>
 
     <gestorben>
@@ -29661,18 +29719,17 @@ http://books.google.de/books?lr=&id=IvybAAAAMAAJ&dq=Ludwig+C%C3%A4sar+Roux+Paul+
       <monat>7</monat>
 
       <tag>3</tag>
+
+      <ort>Jena</ort>
     </gestorben>
+
+    <!--oft auch 1916 als Todesjahr angegeben-->
 
     <pnd>116675586<!--dort sind keine Publikationen!
 101435851 ein paar Publikationen passen!
 110971124 ein paar Publikationen passen!--></pnd>
 
     <beruf>Historiker</beruf>
-
-    <quelle>Biographisches Jahrbuch für die Altertumswissenschaften / Hrsg. v.
-    Conrad Bursian. - Jg. 24-70. - Berlin [et al.] , 1901-1944 [Jg. 56ff:
-    Jahresbericht über die Fortschritte der klassischen
-    Altertumswissenschaften]</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="rueling_ca">
@@ -29764,7 +29821,7 @@ http://books.google.de/books?lr=&id=qUlmAAAAMAAJ&dq=Karl+Adolph+R%C3%BCling%22+1
 
     <absatz>Jurist</absatz>
 
-    <url>http://books.google.de/books?id=HesEAAAAQAAJ&amp;pg=PA125&amp;dq=r%C3%BCffer&amp;as_brr=3</url>
+    <url>http://books.google.de/books?id=HesEAAAAQAAJ&amp;pg=PA125&amp;dq=r%C3%BCffer</url>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="ryssel_v">
@@ -29809,7 +29866,7 @@ http://books.google.de/books?lr=&id=qUlmAAAAMAAJ&dq=Karl+Adolph+R%C3%BCling%22+1
     <name>
       <nachname>Sachsse</nachname>
 
-      <vorname>Robert</vorname>
+      <vorname>Georg <rufname>Robert</rufname></vorname>
     </name>
 
     <geboren>
@@ -29829,10 +29886,8 @@ http://books.google.de/books?lr=&id=qUlmAAAAMAAJ&dq=Karl+Adolph+R%C3%BCling%22+1
 
       <tag>25</tag>
 
-      <ort>Leipzig</ort>
+      <ort>Leutzsch bei Leipzig</ort>
     </gestorben>
-
-    <pnd>116741716</pnd>
 
     <!--Er erscheint im HistVV nur als "Sachsse", 
 aber wird im Prof.-katalog "Sachße geschrieben"!-->
