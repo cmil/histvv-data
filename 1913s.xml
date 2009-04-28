@@ -300,9 +300,9 @@
       Bücher Exodus und Leviticus nach Kittel, Biblia Hebraica, unter
       grammatischem Gesichtspunkt</thema>: <dozent ref="kittel_r"><grad>D. th.
       et ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
-      O.</funktion></dozent>, mit <dozent><grad>Lic. th.</grad> <grad>D.
-      ph.</grad> <nachname>Kramer</nachname></dozent>, <zeit>Mo. 7¾-9¼ U.
-      ab.</zeit>, <modus>privatissime</modus>, sed
+      O.</funktion></dozent>, mit <dozent ref="kramer_o"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>, <zeit>Mo.
+      7¾-9¼ U. ab.</zeit>, <modus>privatissime</modus>, sed
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltungsgruppe><thema>Alttestamentliches Seminar</thema>
@@ -313,8 +313,8 @@
       Vorgeschrittenere: Spezielle Fragen aus der Theologie des Alten
       Testaments</thema>, <zeit>Fr. 5½-7 U.</zeit></veranstaltung>;
       <veranstaltung xml:id="v-1913s-I-035">b) <thema>Abteilung für
-      Anfänger</thema> <dozent>unter Leitung von <grad>Lic. th.</grad>
-      <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>:
+      Anfänger</thema> <dozent ref="kramer_o">unter Leitung von <grad>Lic.
+      th.</grad> <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>:
       <thema>Hebräische Elementargrammatik als Vorbereitung aufs
       Hebraicum</thema>, <zeit>in noch zu best. Zeit</zeit></veranstaltung>;
       <veranstaltungsgruppe>c) <thema>Abteilung für spätjüdische
@@ -1623,14 +1623,15 @@
 
         <veranstaltung xml:id="v-1913s-III.007-013"><thema>Chirurgischer
         Verbandkursus mit besonderer Berücksichtigung der Knochenbrüche und
-        der Verrenkungen</thema> (<zeit>sechswöchig</zeit>): <dozent><grad>D.
-        med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-        <nachname>Lesser</nachname></dozent>, <zeit>Mo. u. Fr. 5-6 U.</zeit>,
-        <modus>privatim</modus>, <ort>in der Privatpoliklinik f. chirurg.
-        Kranke, Albertstr. 13. I.</ort></veranstaltung>
+        der Verrenkungen</thema> (<zeit>sechswöchig</zeit>): <dozent
+        ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+        von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>, <zeit>Mo.
+        u. Fr. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>in der
+        Privatpoliklinik f. chirurg. Kranke, Albertstr. 13.
+        I.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.007-014"><thema>Abriß der
-        Kriegschirurgie</thema>: <dozent><grad>D. med.</grad>
+        Kriegschirurgie</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
         <nachnamenpräfix>Frhr. von</nachnamenpräfix>
         <nachname>Lesser</nachname></dozent>, <zeit>Mi. 5-6 U.</zeit>,
         <modus>publice</modus>, <ort>in der Privatpoliklinik für chirurgisch
@@ -1690,14 +1691,16 @@
         Institut, Nürnberger Str. 55</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.008-004"><thema>Geburtshilfliche
-        Operationslehre mit Übungen am Phantom</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Lichtenstein</nachname></dozent>, <zeit>Mo.,
-        Di., Do. u. Fr. 4-5 U.</zeit>, <modus>privatim</modus>, <ort>in der
+        Operationslehre mit Übungen am Phantom</thema>: <dozent
+        ref="lichtenstein_f"><grad>D. med.</grad>
+        <nachname>Lichtenstein</nachname></dozent>, <zeit>Mo., Di., Do. u. Fr.
+        4-5 U.</zeit>, <modus>privatim</modus>, <ort>in der
         Universitäts-Frauenklinik, Stephanstr. 7</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.008-005"><thema>Gynäkologische
         Propädeutik und Akiurgie: Einführung in die Gynäkologie u.
-        gynäkologische Operationslehre</thema>: <dozent><grad>D. med.</grad>
+        gynäkologische Operationslehre</thema>: <dozent
+        ref="lichtenstein_f"><grad>D. med.</grad>
         <nachname>Lichtenstein</nachname></dozent>, <zeit>Mo. u. Fr. 5-6
         U.</zeit>, <modus>privatim</modus>, <ort>in der
         Universitäts-Frauenklinik, Stephanstr. 7</ort>.</veranstaltung>
@@ -2010,18 +2013,19 @@
         Privatpoliklinik, Königstr. 14. I.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.013-004"><thema>Einführung in die
-        Oto-, Rhino-, Laryngologie mit Untersuchungsübungen</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Knick</nachname></dozent>,
-        <zeit>3mal wöchentl. 12-1 U.</zeit>, <modus>privatim</modus>, <ort>in
-        der Universitäts-Klinik für Ohren-, Nasen- und Halskrankheiten,
-        Liebigstr. 18a</ort>.</veranstaltung>
+        Oto-, Rhino-, Laryngologie mit Untersuchungsübungen</thema>: <dozent
+        ref="knick_a"><grad>D. med.</grad>
+        <nachname>Knick</nachname></dozent>, <zeit>3mal wöchentl. 12-1
+        U.</zeit>, <modus>privatim</modus>, <ort>in der Universitäts-Klinik
+        für Ohren-, Nasen- und Halskrankheiten, Liebigstr.
+        18a</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-III.013-005"><thema>Die Komplikationen
-        bei eitrigen Mittelohrentzündungen</thema>: <seite>21</seite><dozent><grad>D.
-        med.</grad> <nachname>Knick</nachname></dozent>, <zeit>Di. 6-7
-        U.</zeit>, <modus>privatim</modus>, <ort>in der Univers.-Klinik f.
-        Ohren-, Nasen- u. Halskrankheiten, Liebigstr. 18
-        a</ort>.</veranstaltung>
+        bei eitrigen Mittelohrentzündungen</thema>: <seite>21</seite><dozent
+        ref="knick_a"><grad>D. med.</grad>
+        <nachname>Knick</nachname></dozent>, <zeit>Di. 6-7 U.</zeit>,
+        <modus>privatim</modus>, <ort>in der Univers.-Klinik f. Ohren-, Nasen-
+        u. Halskrankheiten, Liebigstr. 18 a</ort>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Stimmbildung, etc.</thema>: <siehe>S.
         43.</siehe></veranstaltungsverweis>
@@ -2168,12 +2172,12 @@
         <sachgruppe xml:id="sg-1913s-III.017.b">
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung xml:id="v-1913s-III.017.b-001"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>: <thema>Privatpoliklinik für
-          chirurgisch Kranke</thema> (<ort>Albertstr. 13. I.</ort>),
-          <zeit>Mo., Mi. u. Fr. 12-1 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1913s-III.017.b-001"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>:
+          <thema>Privatpoliklinik für chirurgisch Kranke</thema>
+          (<ort>Albertstr. 13. I.</ort>), <zeit>Mo., Mi. u. Fr. 12-1
+          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1913s-III.017.c">
@@ -2197,9 +2201,10 @@
           I.)</ort>: <thema>Leistungsprüfung der Augen (mit Übungen)</thema>,
           <zeit>Do. 9-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1913s-III.017.d-002"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>: <ort>In der
-          Privatpoliklinik für Augenkranke (Universitätsstr. 24. II.)</ort>:
+          <veranstaltung xml:id="v-1913s-III.017.d-002"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>: <ort>In der Privatpoliklinik
+          für Augenkranke (Universitätsstr. 24. II.)</ort>:
           <thema>Augenärztliches Praktikum</thema>, <zeit>3-4 mal wöch., nach
           Verabredung, 11-12 U.</zeit>,
           <modus>privatissime</modus>.</veranstaltung>
@@ -3891,7 +3896,8 @@
             <titel>1. Einführende Kurse.</titel>
 
             <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1913s-IV.C.002.1-001">1) <dozent><grad>D. ph.</grad>
+            xml:id="v-1913s-IV.C.002.1-001">1) <dozent
+            ref="koehler_cg"><grad>D. ph.</grad>
             <nachname>Köhler</nachname></dozent>: <thema>Einführung in die
             Bücherkunde der Geschichtswissenschaft und deren
             Grenzwissenschaften. Für Anfänger, insbesondere jüngere Teilnehmer
@@ -4942,10 +4948,10 @@
         5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-007"><thema>Technik der
-        Gasverflüssigung</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Lilienfeld</nachname></dozent>, <zeit>Do. 5-6 U.</zeit>,
-        <modus>publice</modus>, <ort>im Physikal. Institut, Linnéstr.
-        5</ort>.</veranstaltung>
+        Gasverflüssigung</thema>: <dozent ref="lilienfeld_je"><grad>D.
+        ph.</grad> <nachname>Lilienfeld</nachname></dozent>, <zeit>Do. 5-6
+        U.</zeit>, <modus>publice</modus>, <ort>im Physikal. Institut,
+        Linnéstr. 5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-008"><thema>Elektrizität und
         Magnetismus (Maxwell'sche Theorie)</thema>: <dozent
@@ -5190,7 +5196,7 @@
 
         <veranstaltung xml:id="v-1913s-IV.G-042"><thema>Biologie und
         Stammesgeschichte der fossilen Wirbeltiere. Mit einem Überblick über
-        ihre Systematik</thema>: <dozent><grad>D. ph.</grad>
+        ihre Systematik</thema>: <dozent ref="krenkel_e"><grad>D. ph.</grad>
         <nachname>Krenkel</nachname></dozent>, <zeit>Do. 5-7 U.</zeit>,
         <modus>privatim</modus>, <ort>im Mineralog. Hörsaal, Talstr. 35.
         I.</ort></veranstaltung>
@@ -5635,14 +5641,14 @@
         <veranstaltung xml:id="v-1913s-IV.G-089"><thema>Geologische
         Exkursionen und Untersuchungen im Felde</thema>: <dozent
         ref="stille_h"><grad>D. ph.</grad> <nachname>Stille</nachname>,
-        <funktion>P. O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
-        <nachname>Krenkel</nachname></dozent>, <zeit>in zu verabred.
-        Zeiten</zeit>, <modus>privatissime</modus>, sed
+        <funktion>P. O.</funktion></dozent>, <dozent ref="krenkel_e">mit
+        <grad>D. ph.</grad> <nachname>Krenkel</nachname></dozent>, <zeit>in zu
+        verabred. Zeiten</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>, <ort>im Geolog.- paläontolog. Institut,
         Talstr. 35. II.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1913s-IV.G-090"><thema>Paläontologisches
-        Repetitorium</thema>: <dozent><grad>D. ph.</grad>
+        Repetitorium</thema>: <dozent ref="krenkel_e"><grad>D. ph.</grad>
         <nachname>Krenkel</nachname></dozent>, <zeit>Mi. 5-7 U.</zeit>,
         <modus>privatim</modus>, <ort>im Geolog.-paläontolog. Institut,
         Talstr. 35. II.</ort></veranstaltung>
@@ -5764,9 +5770,9 @@
         Pfingstferien</zeit> abgehalten; Näheres s. Anschlag am Schwarzen
         Brett, "Offizielle Mitteilungen" u. "Ordnung für den A. T. A. an der
         Universität Leipzig"</veranstaltung>. <zeit>Sonnabend 5-6</zeit>
-        <gebühr>gratis</gebühr>. <dozent>Leiter: <funktion>Universitäts- und
-        Oberturnlehrer</funktion> <grad>D. ph.</grad>
-        <nachname>Kuhr</nachname></dozent>.</veranstaltungsgruppe>
+        <gebühr>gratis</gebühr>. <dozent ref="kuhr_h">Leiter:
+        <funktion>Universitäts- und Oberturnlehrer</funktion> <grad>D.
+        ph.</grad> <nachname>Kuhr</nachname></dozent>.</veranstaltungsgruppe>
       </sachgruppe>
 
       <seite>58</seite>

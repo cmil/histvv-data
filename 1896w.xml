@@ -659,13 +659,13 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1896w-II-031"><thema>Allgemeines
-      Staatsrecht</thema>: <dozent><grad>D. jur.</grad>
+      Staatsrecht</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
       <nachname>Kloeppel</nachname></dozent>, <zeit>Mont. u. Donnerst. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1896w-II-032"><thema>Geschichte der allgemeinen
       Rechts- und Staatslehre (mit dem allgemeinen Staatsrecht
-      verbunden)</thema>: <dozent><grad>D. jur.</grad>
+      verbunden)</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
       <nachname>Kloeppel</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1196,7 +1196,7 @@ beiden einzelnen Zeitangaben gemeinsamen Teil, der dann
 
       <veranstaltung xml:id="v-1896w-III-060"><thema>Chirurgischer
       Verbandcursus mit besonderer Berücksichtigung der Knochenbrüche und
-      Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+      Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1214,8 +1214,8 @@ beiden einzelnen Zeitangaben gemeinsamen Teil, der dann
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1896w-III-063"><thema>Chirurgische Hilfen bei
-      lebensgefährlichen Zuständen</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
+      lebensgefährlichen Zuständen</thema>: <dozent ref="lesser_l"><grad>D.
+      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
@@ -1242,11 +1242,11 @@ beiden einzelnen Zeitangaben gemeinsamen Teil, der dann
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1896w-III-067"><thema>Augenärztliche
-      Propädeutik einschliesslich Augenspiegelübungen</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Küster</nachname></dozent>,
-      <zeit>Mittw. u. Sonnab. 2-3 U.</zeit>, nebst <thema>zwei
-      Augenspiegel-Uebungen</thema> <zeit>in den Abendstunden</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Propädeutik einschliesslich Augenspiegelübungen</thema>: <dozent
+      ref="kuester_f"><grad>D. med.</grad>
+      <nachname>Küster</nachname></dozent>, <zeit>Mittw. u. Sonnab. 2-3
+      U.</zeit>, nebst <thema>zwei Augenspiegel-Uebungen</thema> <zeit>in den
+      Abendstunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <!--(Aufteilung noch nicht korrekt; 
 "nebst" nicht erfasst wegen Pleonasmus in der Formulierung)-->
@@ -1574,10 +1574,11 @@ ist hinsichtlich der folgenden VA unwahrscheinlich)--></veranstaltung>
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1896w-III.002.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          12-1 U.</zeit>, <modus>privatim</modus>. (<ort>Windmühlenstrasse
+          <veranstaltung xml:id="v-1896w-III.002.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Windmühlenstrasse
           35</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1896w-III.002.b-003"><dozent
@@ -1610,9 +1611,10 @@ ist hinsichtlich der folgenden VA unwahrscheinlich)--></veranstaltung>
           <nachname>Schoen</nachname></dozent>. (<ort>Emilienstr.
           1</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1896w-III.002.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <zeit>drei- bis
-          viermal wöchentl. an näher zu best. Tagen 11-12 oder 12-1 U.</zeit>,
+          <veranstaltung xml:id="v-1896w-III.002.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <zeit>drei- bis viermal
+          wöchentl. an näher zu best. Tagen 11-12 oder 12-1 U.</zeit>,
           <modus>privatissime</modus>. (<ort>Universitätsstr. 35.
           II.</ort>)</veranstaltung>
 
@@ -3360,9 +3362,10 @@ weil "ordentliche Mitglieder" ohnehin Seminarbeitragbeitrag zahlen.
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Allgemeines
         Staatsrecht</thema>.</veranstaltungsverweis> -
         <veranstaltungsverweis><thema>Geschichte der allgemeinen Rechts- und
-        Staatslehre</thema></veranstaltungsverweis>: <dozent><grad>D.
-        jur.</grad> <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe
-        Juristische Facultät.</siehe></veranstaltungsgruppe>
+        Staatslehre</thema></veranstaltungsverweis>: <dozent
+        ref="kloeppel_p"><grad>D. jur.</grad>
+        <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
+        Facultät.</siehe></veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Geschichte der Staatsanschauung und der
         Staatstheorien von der Renaissance bis zum 19. Jahrhundert</thema>:

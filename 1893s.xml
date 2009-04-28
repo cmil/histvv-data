@@ -369,10 +369,11 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung><thema>Katechetische Uebungen der Lausitzer
-      Predigergesellschaft</thema>: <dozent><grad>D. th.</grad>
-      <nachname>Rietschel</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>an zu best. Tagen und Stunden</zeit>, <modus>privatissime</modus>,
-      aber <gebühr>gratis</gebühr>.</veranstaltung>
+      Predigergesellschaft</thema>: <dozent ref="rietschel_g"><grad>D.
+      th.</grad> <nachname>Rietschel</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>an zu best. Tagen und Stunden</zeit>,
+      <modus>privatissime</modus>, aber
+      <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1893s-I-049"><thema>Wissenschaftliche Uebungen
       des theologischen Studentenvereins</thema>: <dozent
@@ -534,7 +535,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Pandekten (Sachenrecht,
-      Obligationenrecht)</thema>: <dozent><grad>D. jur.</grad>
+      Obligationenrecht)</thema>: <dozent ref="kuntze_je"><grad>D. jur.</grad>
       <nachname>Kuntze</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>täglich 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -650,7 +651,7 @@
       <zeit>tägl. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1893s-II-027"><thema>Internationales Staats- u.
-      Strafrecht</thema>: <dozent><grad>D. jur.</grad>
+      Strafrecht</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
       <nachname>Kloeppel</nachname></dozent>, <zeit>ein- bis
       zweistünd.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1089,8 +1090,8 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1893s-III-044"><thema>Chirurgischer
-      Verbandcursus (sechswöchig)</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
+      Verbandcursus (sechswöchig)</thema>: <dozent ref="lesser_l"><grad>D.
+      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1101,7 +1102,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1893s-III-046"><thema>Abriss der
-      Kriegs-Chirurgie</thema>: <dozent><grad>D. med.</grad>
+      Kriegs-Chirurgie</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -1138,9 +1139,10 @@
       <veranstaltungsgruppe><veranstaltung
       xml:id="v-1893s-III-051"><thema>Augenärztliche Propädeutik (äussere
       Untersuchung, Augenspiegel-Untersuchung und Funktions-Prüfung des
-      Auges)</thema></veranstaltung>: <dozent><grad>D. med.</grad>
-      <nachname>Küster</nachname></dozent>, <zeit>Mittw. u. Sonnab. 2-3
-      U.</zeit>, <veranstaltung xml:id="v-1893s-III-052"><thema>nebst zwei
+      Auges)</thema></veranstaltung>: <dozent ref="kuester_f"><grad>D.
+      med.</grad> <nachname>Küster</nachname></dozent>, <zeit>Mittw. u.
+      Sonnab. 2-3 U.</zeit>, <veranstaltung
+      xml:id="v-1893s-III-052"><thema>nebst zwei
       Augenspiegel-Uebungen</thema>, <zeit>6-7 oder 7-8 U.
       Ab.</zeit></veranstaltung>,
       <modus>privatim</modus>.</veranstaltungsgruppe>
@@ -1473,11 +1475,11 @@
             </korrektur>u. Freit. 5-6 U.</zeit>, <modus>privatim</modus>.
             <ort>(Grimm. Str. 27.)</ort></veranstaltung>
 
-            <veranstaltung xml:id="v-1893s-III.001.001.b-004"><dozent><grad>D.
-            med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-            <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u.
-            Freit. 9-10 oder 11-12 U.</zeit>, <modus>privatim</modus>.
-            <ort>(Windmühlenstrasse 46.)</ort><!--Frhr.?--></veranstaltung>
+            <veranstaltung xml:id="v-1893s-III.001.001.b-004"><dozent
+            ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+            von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+            <zeit>Mont., Mittw. u. Freit. 9-10 oder 11-12 U.</zeit>,
+            <modus>privatim</modus>. <ort>(Windmühlenstrasse 46.)</ort><!--Frhr.?--></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1893s-III.001.001.c">
@@ -1494,11 +1496,12 @@
             Donnerst. u. Sonnab. 12 bis 1 U.</zeit>, <modus>privatim</modus>.
             <ort>(Emilienstr. 1)</ort></veranstaltung>
 
-            <veranstaltung xml:id="v-1893s-III.001.001.c-003"><dozent><grad>D.
-            med.</grad> <nachname>Küster</nachname></dozent>, <thema>(für
-            Herren, welche die Technik des Augenspiegelns erlernt
-            haben)</thema>, <zeit>drei- bis viermal wöchentl. 11-12 U. oder
-            12-1 U.</zeit>, <modus>privatissime</modus>. <ort>(Nicolaistr. 4,
+            <veranstaltung xml:id="v-1893s-III.001.001.c-003"><dozent
+            ref="kuester_f"><grad>D. med.</grad>
+            <nachname>Küster</nachname></dozent>, <thema>(für Herren, welche
+            die Technik des Augenspiegelns erlernt haben)</thema>, <zeit>drei-
+            bis viermal wöchentl. 11-12 U. oder 12-1 U.</zeit>,
+            <modus>privatissime</modus>. <ort>(Nicolaistr. 4,
             I.)</ort></veranstaltung>
 
             <veranstaltung xml:id="v-1893s-III.001.001.c-004"><dozent
@@ -1763,9 +1766,10 @@
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung><thema>Uebungen des Königlichen pädagogischen Seminars
-        nebst Vorträgen über Methodik</thema>:<dozent><grad>D. ph.</grad>
-        <nachname>Masius</nachname>, <funktion>P. O.</funktion></dozent>,
-        <zeit>Mittw. 2-4 U.</zeit>, <modus>privatissime</modus>, aber
+        nebst Vorträgen über Methodik</thema>:<dozent ref="masius_h"><grad>D.
+        ph.</grad> <nachname>Masius</nachname>, <funktion>P.
+        O.</funktion></dozent>, <zeit>Mittw. 2-4 U.</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1893s-IV.A-016"><thema>Uebungen des
@@ -1961,8 +1965,9 @@
           aber <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung><thema>Sprachwissenschaftliche Uebungen</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Hirt</nachname></dozent>,
-          <zeit>Mittw. 5-6 U.</zeit>, <modus>privatissime</modus>, aber
+          <dozent ref="hirt_h"><grad>D. ph.</grad>
+          <nachname>Hirt</nachname></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
+          <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltungsverweis><thema>Archaeologische Uebungen</thema>:
@@ -3005,7 +3010,7 @@
         <siehe>Siehe Abschnitt A.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Internationales Staats- und
-        Strafrecht</thema>: <dozent><grad>D. jur.</grad>
+        Strafrecht</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
         <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
         Facultät</siehe>.</veranstaltungsverweis>
 

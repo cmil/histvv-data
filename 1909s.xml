@@ -289,9 +289,9 @@
       ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
       O.</funktion></dozent>, <veranstaltung xml:id="v-1909s-I-035">a)
       <thema>Abteilung für Anfänger: Hebräische Elementargrammatik als
-      Vorbereitung auf das Hebraicum</thema>, <dozent>unter Leitung von
-      <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>, <zeit>in noch
-      zu best. Zeit</zeit></veranstaltung>; <veranstaltung
+      Vorbereitung auf das Hebraicum</thema>, <dozent ref="kramer_o">unter
+      Leitung von <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>,
+      <zeit>in noch zu best. Zeit</zeit></veranstaltung>; <veranstaltung
       xml:id="v-1909s-I-036">b) <thema>Abteilung für Vorgeschrittenere
       (Gegenstand noch vorbehalten)</thema>, <zeit>Mittw. 9 bis 10½ U.
       Vorm.</zeit></veranstaltung></veranstaltungsgruppe>
@@ -1839,15 +1839,15 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
 
       <veranstaltung xml:id="v-1909s-III-082"><thema>Chirurgischer
       Verbandkursus mit besonderer Berücksichtigung der Knochenbrüche und der
-      Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+      Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 4-5
       U.</zeit>, <modus>privatim</modus>, <ort>in der Privatpoliklinik f.
       chirurg. Kranke, Bayersche Str. 12. I.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1909s-III-083"><thema>Chirurgische Hilfen bei
-      plötzlicher Lebensgefahr</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
+      plötzlicher Lebensgefahr</thema>: <dozent ref="lesser_l"><grad>D.
+      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
       <modus>publice</modus>, <ort>in der Privatpoliklinik für chirurg.
       Kranke, Bayersche Str. 12. I.</ort></veranstaltung>
@@ -1865,9 +1865,9 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
 
       <veranstaltung xml:id="v-1909s-III-085"><thema>Geburtshilfliche
       Propädeutik: Physiologie und Pathologie der Schwangerschaft und Geburt,
-      mit Demonstrationen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Lichtenstein</nachname></dozent>, <zeit>Dienst. u. Donnerst.
-      5-6 U.</zeit>, <modus>privatim</modus>, <ort>in der
+      mit Demonstrationen</thema>: <dozent ref="lichtenstein_f"><grad>D.
+      med.</grad> <nachname>Lichtenstein</nachname></dozent>, <zeit>Dienst. u.
+      Donnerst. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>in der
       Universitätsfrauenklinik, Stephanstr. 7</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1909s-III-086"><thema>Geburtshilfliche
@@ -1878,9 +1878,10 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
       Universitätsfrauenklinik, Stephanstr. 7</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1909s-III-087"><thema>Kurs geburtshilflicher
-      Operationen am Phantom für Anfänger</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Lichtenstein</nachname></dozent>, <zeit>Mittw. u.
-      Freit. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>in der
+      Operationen am Phantom für Anfänger</thema>: <dozent
+      ref="lichtenstein_f"><grad>D. med.</grad>
+      <nachname>Lichtenstein</nachname></dozent>, <zeit>Mittw. u. Freit. 5-6
+      U.</zeit>, <modus>privatim</modus>, <ort>in der
       Universitätsfrauenklinik, Stephanstr. 7</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1909s-III-088"><thema>Kurs geburtshiltlicher
@@ -1898,7 +1899,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
 
       <veranstaltung xml:id="v-1909s-III-090"><thema>Gynäkologische
       Propädeutik und Akiurgie, mit Vorstellung und Behandlung von
-      Kranken</thema>: <dozent><grad>D. med.</grad>
+      Kranken</thema>: <dozent ref="lichtenstein_f"><grad>D. med.</grad>
       <nachname>Lichtenstein</nachname></dozent>, <zeit>Mont. 5-7 U.</zeit>,
       <modus>privatim</modus>, <ort>in der Universitätsfrauenklinik,
       Stephanstr. 7</ort>.</veranstaltung>
@@ -2214,12 +2215,12 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
         <sachgruppe xml:id="sg-1909s-III.001.b">
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung xml:id="v-1909s-III.001.b-001"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>: <thema>Privatpoliklinik für
-          chirurgisch Kranke</thema> (<ort>Bayersche Str. 12. I.</ort>),
-          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1909s-III.001.b-001"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>:
+          <thema>Privatpoliklinik für chirurgisch Kranke</thema>
+          (<ort>Bayersche Str. 12. I.</ort>), <zeit>Mont., Mittw. u. Freit.
+          12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
         </sachgruppe>
 
         <seite>24</seite>
@@ -2235,9 +2236,10 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
           <zeit>Mont. u. Freit. ½9-½10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1909s-III.001.c-002"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>: <ort>In der
-          Privatheilanstalt für Augenkranke (Universitätsstr. 24. II.)</ort>:
+          <veranstaltung xml:id="v-1909s-III.001.c-002"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>: <ort>In der Privatheilanstalt
+          für Augenkranke (Universitätsstr. 24. II.)</ort>:
           <thema>Augenärztliches Praktikum</thema>, <zeit>nach Vereinbarung
           drei- bis viermal wöchentl. 11-12 U.</zeit>,
           <modus>privatissime</modus>.</veranstaltung>
@@ -4455,10 +4457,11 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
           Sozialgeschichte des 19. Jahrhunderts, vornehmlich zur Geschichte
           der deutschen Arbeiterbewegung</thema>, <zeit>Donnerst. 7½-9 U.
           Ab.</zeit></veranstaltung> - <veranstaltung
-          xml:id="v-1909s-IV.C.002-004">3) <dozent><grad>D. ph.</grad>
-          <nachname>Koehler</nachname></dozent>: <thema>Elementare Übungen im
-          Gebiete der deutschen Kulturgeschichte</thema>, <zeit>Sonnab. 8½-10
-          U. Vorm.</zeit></veranstaltung></veranstaltungsgruppe>
+          xml:id="v-1909s-IV.C.002-004">3) <dozent ref="koehler_a"><grad>D.
+          ph.</grad> <nachname>Koehler</nachname></dozent>: <thema>Elementare
+          Übungen im Gebiete der deutschen Kulturgeschichte</thema>,
+          <zeit>Sonnab. 8½-10 U.
+          Vorm.</zeit></veranstaltung></veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Spezielle Kurse</thema>.
           <veranstaltungsgruppe>A. <thema>Psychogenese</thema> <veranstaltung
@@ -6705,7 +6708,7 @@ innerhalb der Veranstaltung keinen Sinn mehr ergeben!
 
         <veranstaltung xml:id="v-1909s-IV.G-090"><thema>Allgemeiner
         Akademischer Turnabend: Turnen an Geräten, volkstümliche Übungen,
-        Gemeinturnen, Turnspiele.</thema> <dozent>Leiter:
+        Gemeinturnen, Turnspiele.</thema> <dozent ref="kuhr_h">Leiter:
         <funktion>Universitäts- und Oberturnlehrer</funktion> <grad>D.
         ph.</grad> <nachname>Kuhr</nachname></dozent>, <zeit>Mittw. u. Sonnab.
         ¾6-¾8 U. Ab.</zeit> <ort>in der Turnhalle Dorotheenstr.

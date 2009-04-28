@@ -608,9 +608,9 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1895s-II-020"><thema>Ueber Rechtsstaat und
-      parlamentarische Verfassung</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Kloeppel</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
-      <gebühr>gratis</gebühr>.</veranstaltung>
+      parlamentarische Verfassung</thema>: <dozent ref="kloeppel_p"><grad>D.
+      jur.</grad> <nachname>Kloeppel</nachname></dozent>, <zeit>Mittw. 6-7
+      U.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1895s-II-021"><thema>Das im Königreich Sachsen
       geltende Verwaltungsrecht; Verwaltung des Innern, <notiz
@@ -1138,8 +1138,8 @@
 
       <veranstaltung xml:id="v-1895s-III-053"><thema>Chirurgischer
       Verbandcursus mit besonderer Berücksichtigung der Knochenbrüche und
-      Verrenkungen (sechswöchig)</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
+      Verrenkungen (sechswöchig)</thema>: <dozent ref="lesser_l"><grad>D.
+      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1161,7 +1161,7 @@
       Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1895s-III-057"><thema>Abriss der
-      Kriegs-Chirurgie</thema>: <dozent><grad>D. med.</grad>
+      Kriegs-Chirurgie</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -1196,9 +1196,10 @@
       <trennlinie/>
 
       <veranstaltung xml:id="v-1895s-III-062"><thema>Augenärztliche
-      Propädeutik und Augenspiegel-Untersuchungen</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Küster</nachname></dozent>, <zeit>Mittw. u.
-      Sonnab. 2-3 U.</zeit>, <thema>nebst zwei Augenspiegel-Uebungen in den
+      Propädeutik und Augenspiegel-Untersuchungen</thema>: <dozent
+      ref="kuester_f"><grad>D. med.</grad>
+      <nachname>Küster</nachname></dozent>, <zeit>Mittw. u. Sonnab. 2-3
+      U.</zeit>, <thema>nebst zwei Augenspiegel-Uebungen in den
       Abendstunden</thema>, <modus>privatissime</modus>.</veranstaltung>
 
       <!--zwei va?-->
@@ -1507,10 +1508,11 @@
           <modus>privatim</modus>. (<ort>Universitätsstr.
           13</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1895s-III.001.b-003"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          12-1 U.</zeit>, <modus>privatim</modus>. (<ort>Windmühlenstrasse
+          <veranstaltung xml:id="v-1895s-III.001.b-003"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Windmühlenstrasse
           46</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1895s-III.001.b-004"><dozent
@@ -1533,11 +1535,11 @@
           <nachname>Schoen</nachname></dozent>. (<ort>Emilienstr.
           1</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1895s-III.001.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <zeit>drei- bis
-          viermal wöchentl. 11-12 oder 12-1 U.</zeit>,
-          <modus>privatissime</modus>. (<ort>Nicolaistr. 4,
-          I.</ort>)</veranstaltung>
+          <veranstaltung xml:id="v-1895s-III.001.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <zeit>drei- bis viermal
+          wöchentl. 11-12 oder 12-1 U.</zeit>, <modus>privatissime</modus>.
+          (<ort>Nicolaistr. 4, I.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1895s-III.001.c-004"><dozent
           ref="schwarz_o"><grad>D. med.</grad>
@@ -2994,7 +2996,7 @@
         Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Ueber Rechtsstaat und parlamentarische
-        Verfassung</thema>: <dozent><grad>D. jur.</grad>
+        Verfassung</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
         <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
         Facultät</siehe>.</veranstaltungsverweis>
 

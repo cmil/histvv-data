@@ -619,9 +619,9 @@
 
       <veranstaltung xml:id="v-1892s-II-024"><thema>Völkerrecht,
       einschliesslich des internationalen Privat- und Strafrechts</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Kloeppel</nachname></dozent>,
-      <zeit>Dienst., Mittw. und Donnerst. 8-9 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="kloeppel_p"><grad>D. jur.</grad>
+      <nachname>Kloeppel</nachname></dozent>, <zeit>Dienst., Mittw. und
+      Donnerst. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1049,9 +1049,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1892s-III-043"><thema>Hautkrankheiten und
-      Syphilis (mit Krankendemonstrationen)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Lesser</nachname></dozent>, <zeit>Mont., Donnerst.
-      und Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Syphilis (mit Krankendemonstrationen)</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>Mont., Donnerst. und Sonnab.
+      12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1892s-III-044"><thema>Curs der Krankheiten von
       Harnröhre und Blase, einschliesslich der functionellen Störungen am
@@ -1126,7 +1127,7 @@
       <!--Dozent leitet seminar in vetretung vom Director-->
 
       <veranstaltung xml:id="v-1892s-III-054"><thema>Chirurgischer
-      Verbandcursus</thema>: <dozent><grad>D. med.</grad>
+      Verbandcursus</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1139,7 +1140,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1892s-III-056"><thema>Abriss der
-      Kiegs-Chirurgie</thema>: <dozent><grad>D. med.</grad>
+      Kiegs-Chirurgie</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -1172,11 +1173,11 @@
       <veranstaltungsgruppe><veranstaltung
       xml:id="v-1892s-III-061"><thema>Augenärztliche Propädeutik (umfasst die
       äussere Untersuchung, Augenspiegel-Untersuchung und Funktions-Prüfung
-      des Auges</thema>)</veranstaltung>: <dozent><grad>D. med.</grad>
-      <nachname>Küster</nachname></dozent>, <zeit>Mittw. u. Sonnab. 2-3
-      U.</zeit>, <veranstaltung xml:id="v-1892s-III-062"><thema>nebst zwei
-      Augenspiegel-Uebungen</thema> <zeit>in den
-      Abendstunden</zeit></veranstaltung>,
+      des Auges</thema>)</veranstaltung>: <dozent ref="kuester_f"><grad>D.
+      med.</grad> <nachname>Küster</nachname></dozent>, <zeit>Mittw. u.
+      Sonnab. 2-3 U.</zeit>, <veranstaltung
+      xml:id="v-1892s-III-062"><thema>nebst zwei Augenspiegel-Uebungen</thema>
+      <zeit>in den Abendstunden</zeit></veranstaltung>,
       <modus>privatissime</modus>.</veranstaltungsgruppe>
 
       <veranstaltung xml:id="v-1892s-III-063"><thema>Augenärztliche
@@ -1517,11 +1518,11 @@
         Sonnab. 5-6 U.</zeit>, <modus>privatim</modus>. <ort>(Grimm. Str.
         27.)</ort></veranstaltung>
 
-        <veranstaltung xml:id="v-1892s-III.b-004"><dozent><grad>D. med.</grad>
-        <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-        <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-        2-3 U.</zeit>, <modus>privatim</modus>. <ort>(Emilienstr.
-        23.)</ort></veranstaltung>
+        <veranstaltung xml:id="v-1892s-III.b-004"><dozent
+        ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+        von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+        <zeit>Mont., Mittw. u. Freit. 2-3 U.</zeit>, <modus>privatim</modus>.
+        <ort>(Emilienstr. 23.)</ort></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1892s-III.c">
@@ -1540,7 +1541,8 @@
 
         <seite>17</seite>
 
-        <veranstaltung xml:id="v-1892s-III.c-003"><dozent><grad>D. med.</grad>
+        <veranstaltung xml:id="v-1892s-III.c-003"><dozent
+        ref="kuester_f"><grad>D. med.</grad>
         <nachname>Küster</nachname></dozent>, <thema>(für solche Herren,
         welche die Technik des Augenspiegelns beherrschen)</thema>,
         <zeit>drei- bis viermal wöchentl., zu näher festzustellenden
@@ -3014,9 +3016,10 @@
         <nachname>Settegast</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Dienst. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent><grad>D.
-        jur.</grad> <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe
-        Juristische Facultät</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent
+        ref="kloeppel_p"><grad>D. jur.</grad>
+        <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsches Reichs- und
         Landesstaatsrecht</thema>: <dozent ref="friedberg_e"><grad>D.

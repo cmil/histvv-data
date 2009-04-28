@@ -702,7 +702,7 @@
       Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1901w-II-022"><thema>Allgemeines
-      Staatsrecht</thema>: <dozent><grad>D. jur.</grad>
+      Staatsrecht</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
       <nachname>Kloeppel</nachname></dozent>, <zeit>Mont. u. Donnerst. 4-5
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1330,7 +1330,7 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1901w-III-058"><thema>Chirugische
-      Operationslehre</thema>: <dozent><grad>D. med.</grad>
+      Operationslehre</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -1349,7 +1349,7 @@
 
       <veranstaltung xml:id="v-1901w-III-061"><thema>Chirurgischer
       Verbandcursus mit besonderer Berücksichtigung der Knochenbrüche und der
-      Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+      Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1713,10 +1713,11 @@
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1901w-III.002.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          12-1 U.</zeit>, <modus>privatim</modus>. (<ort>Turnerstr. 12.
+          <veranstaltung xml:id="v-1901w-III.002.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Turnerstr. 12.
           Erdg.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1901w-III.002.b-003"><dozent
@@ -1738,11 +1739,12 @@
           <funktion>P. E.</funktion></dozent> (<ort>Grimm. Steinweg 9.
           I.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1901w-III.002.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>,
-          <thema>Praktikum</thema>, <zeit>drei- bis viermal wöchentlich nach
-          Uebereinkunft 11-12 U.</zeit>, <modus>privatissime</modus>.
-          (<ort>Universitätsstr. 24. II.</ort>)</veranstaltung>
+          <veranstaltung xml:id="v-1901w-III.002.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <thema>Praktikum</thema>,
+          <zeit>drei- bis viermal wöchentlich nach Uebereinkunft 11-12
+          U.</zeit>, <modus>privatissime</modus>. (<ort>Universitätsstr. 24.
+          II.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1901w-III.002.c-004"><dozent
           ref="schwarz_o"><grad>D. med.</grad> <nachname>Schwarz</nachname>,
@@ -2706,7 +2708,7 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1901w-IV.B.d-004"><thema>Tennyson Life and
-          Works</thema>: <dozent><funktion>Lector</funktion>
+          Works</thema>: <dozent ref="lake_b"><funktion>Lector</funktion>
           <nachname>Lake</nachname></dozent>, <zeit>Mittw. 6 bis 7 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -2804,8 +2806,8 @@
           U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltungsgruppe><thema>Englisches Proseminar</thema>
-          (<dozent>unter Leitung des <funktion>Assistenten</funktion>
+          <veranstaltungsgruppe><thema>Englisches Proseminar</thema> (<dozent
+          ref="lake_b">unter Leitung des <funktion>Assistenten</funktion>
           <nachname>Lake</nachname></dozent>), <veranstaltung
           xml:id="v-1901w-IV.B.d-019"><thema>1. Abtheilung für
           Vorgeschrittenere: Ausgewählte Gedichte Tennysons (nach Tauchnitz,
@@ -2838,7 +2840,7 @@
           <gebühr>gratis</gebühr></veranstaltung></veranstaltungsgruppe>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1901w-IV.B.d-024"><thema>Englisches
-          Praktikum</thema>: <dozent><funktion>Lector</funktion>
+          Praktikum</thema>: <dozent ref="lake_b"><funktion>Lector</funktion>
           <nachname>Lake</nachname></dozent>, <zeit>Mont. u. Donnerst. 4-5
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3652,9 +3654,10 @@
         <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
         Facultät.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Allgemeines Staatsrecht</thema>:
-        <dozent><grad>D. jur.</grad> <nachname>Kloeppel</nachname></dozent>.
-        <siehe>Siehe Juristische Facultät.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Allgemeines Staatsrecht</thema>: <dozent
+        ref="kloeppel_p"><grad>D. jur.</grad>
+        <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
+        Facultät.</siehe></veranstaltungsverweis>
 
         <seite>37</seite>
 
@@ -3871,15 +3874,16 @@
         U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1901w-IV.F-010"><thema>Functionentheorie
-        (nach Weierstrass)</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Kowalewski</nachname></dozent>, <zeit>Dienst., Mittw.,
-        Donnerst. u. Freit. 12-1 U.</zeit>,
+        (nach Weierstrass)</thema>: <dozent ref="kowalewski_g"><grad>D.
+        ph.</grad> <nachname>Kowalewski</nachname></dozent>, <zeit>Dienst.,
+        Mittw., Donnerst. u. Freit. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1901w-IV.F-011"><thema>Einleitung in die
-        Theorie der Transformationsgruppen</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Kowalewski</nachname></dozent>, <zeit>Dienst. 3-5
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Theorie der Transformationsgruppen</thema>: <dozent
+        ref="kowalewski_g"><grad>D. ph.</grad>
+        <nachname>Kowalewski</nachname></dozent>, <zeit>Dienst. 3-5 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1901w-IV.F-012"><thema>Analytische Geometrie
         des Raumes</thema>: <dozent ref="liebmann_h"><grad>D. ph.</grad>
@@ -3932,15 +3936,16 @@
         <veranstaltung xml:id="v-1901w-IV.F-020"><thema>Uebungen in
         Differentialinvarianten und Gruppentheorie</thema>: <dozent
         ref="engel_f"><grad>D. ph.</grad> <nachname>Engel</nachname>,
-        <funktion>P. O. Hon.</funktion></dozent> und <dozent><grad>D.
-        ph.</grad> <nachname>Kowalewski</nachname></dozent>, <zeit>Freit. 4-5
-        U.</zeit>, <modus>privatissime</modus>, aber
+        <funktion>P. O. Hon.</funktion></dozent> und <dozent
+        ref="kowalewski_g"><grad>D. ph.</grad>
+        <nachname>Kowalewski</nachname></dozent>, <zeit>Freit. 4-5 U.</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1901w-IV.F-021"><thema>Uebungen zur
-        Functionstheorie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Kowalewski</nachname></dozent>, <zeit>Mont. 10-11 U.</zeit>,
-        <modus>privatissime</modus>, aber
+        Functionstheorie</thema>: <dozent ref="kowalewski_g"><grad>D.
+        ph.</grad> <nachname>Kowalewski</nachname></dozent>, <zeit>Mont. 10-11
+        U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1901w-IV.F-022"><thema>Uebungen zur

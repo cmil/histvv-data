@@ -599,9 +599,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-II-031"><thema>Völkerrecht</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Kloeppel</nachname></dozent>,
-      <zeit>Mont., Mittw. und Donnerst. 6-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="kloeppel_p"><grad>D. jur.</grad>
+      <nachname>Kloeppel</nachname></dozent>, <zeit>Mont., Mittw. und
+      Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -953,14 +953,16 @@
       Sonnab. 2-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-III-037"><thema>Hautkrankheiten und
-      Syphilis (mit Krankendemonstrationen)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Lesser</nachname></dozent>, <zeit>Mont., Donnerst.
-      und Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Syphilis (mit Krankendemonstrationen)</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>Mont., Donnerst. und Sonnab.
+      12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung
-      xml:id="v-1889w-III-038"><thema>Geschlechtskrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lesser</nachname></dozent>,
-      <zeit>Freit. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      xml:id="v-1889w-III-038"><thema>Geschlechtskrankheiten</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>Freit. 12-1 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-III-039"><thema>Allgemeine Therapie und
       Hydrotherapie</thema>: <dozent ref="naumann_o"><grad>D. med.</grad>
@@ -998,10 +1000,11 @@
       <seite>12</seite>
 
       <veranstaltung xml:id="v-1889w-III-044"><thema>Chirurgischer
-      Verbandcursus mit Instrumentenlehre</thema>: <dozent><grad>D.
-      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-      <nachname>Lesser</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Verbandcursus mit Instrumentenlehre</thema>: <dozent
+      ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+      von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+      <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889w-III-045"><thema>Verbandkursus mit
       Operations- u. Instrumentenlehre</thema>: <dozent
@@ -1011,7 +1014,7 @@
 
       <veranstaltung xml:id="v-1889w-III-046"><thema>Ueber die chirurgische
       Hilfe bei Lebensgefahr (Verblutungen, Erstickungen u. s. w.)</thema>:
-      <dozent><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+      <dozent ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
       von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>, <zeit>Mittw.
       6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -1059,7 +1062,8 @@
 
       <veranstaltung xml:id="v-1889w-III-054"><thema>Augenärztliche
       Propädeutik (umfasst die äussere Untersuchung, Augenspiegel-Untersuchung
-      und Funktions-Prüfung des Auges)</thema>: <dozent><grad>D. med.</grad>
+      und Funktions-Prüfung des Auges)</thema>: <dozent
+      ref="kuester_f"><grad>D. med.</grad>
       <nachname>Küster</nachname></dozent>, <zeit>Mittw. u. Sonnab. 2-3 U.,
       nebst zwei Augenspiegelübungen in den Abendstunden</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1322,10 +1326,11 @@
           und klinische Demonstrationen</thema>, <zeit>Sonnab. 4-6 U.</zeit>,
           <modus>privatim</modus>. (<ort>Kreuzstr. 6</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1889w-III.001.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          1½-2½ U.</zeit>, <modus>privatim</modus>, (<ort>Jablonowskystr.
+          <veranstaltung xml:id="v-1889w-III.001.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 1½-2½ U.</zeit>,
+          <modus>privatim</modus>, (<ort>Jablonowskystr.
           1</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1889w-III.001.b-003"><dozent
@@ -1373,12 +1378,13 @@
           u. Stunden</zeit>, <modus>privatim</modus>. (<ort>Windm.-Str.
           32</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1889w-III.001.d-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <thema>Praktikum
-          (für Herren, welche die Technik des Augenspiegelns
-          beherrschen)</thema> <zeit>drei- bis viermal wöchentlich, an zu
-          best. Tagen, 12-1 U.</zeit>, <modus>privatim</modus>. (<ort>Grimm.
-          Str. 17</ort>.)</veranstaltung>
+          <veranstaltung xml:id="v-1889w-III.001.d-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <thema>Praktikum (für Herren,
+          welche die Technik des Augenspiegelns beherrschen)</thema>
+          <zeit>drei- bis viermal wöchentlich, an zu best. Tagen, 12-1
+          U.</zeit>, <modus>privatim</modus>. (<ort>Grimm. Str.
+          17</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1889w-III.001.d-004"><dozent
           ref="schwarz_o"><grad>D. med.</grad>
@@ -2688,9 +2694,10 @@
         <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
         Facultät.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent><grad>D.
-        jur.</grad> <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe
-        Juristische Facultät.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent
+        ref="kloeppel_p"><grad>D. jur.</grad>
+        <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
+        Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsches Reichs- und
         Landesstaatsrecht</thema>: <dozent ref="binding_kll"><grad>D.

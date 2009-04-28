@@ -629,9 +629,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1893w-II-031"><thema>Völkerrecht</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Kloeppel</nachname></dozent>,
-      <zeit>Mont., Mittw. u. Donnerst. 4-5 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="kloeppel_p"><grad>D. jur.</grad>
+      <nachname>Kloeppel</nachname></dozent>, <zeit>Mont., Mittw. u. Donnerst.
+      4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1085,8 +1085,8 @@
       <modus>privatim</modus>.</veranstaltungsgruppe>
 
       <veranstaltung xml:id="v-1893w-III-051"><thema>Chirurgischer
-      Verbandcursus (sechswöchig)</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
+      Verbandcursus (sechswöchig)</thema>: <dozent ref="lesser_l"><grad>D.
+      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1105,10 +1105,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1893w-III-054"><thema>Die chirurgischen Hilfen
-      bei lebensgefährlichen Zuständen</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-      <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      bei lebensgefährlichen Zuständen</thema>: <dozent
+      ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+      von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>, <zeit>Mittw.
+      6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1893w-III-055"><thema>Operative
       Zahnheilkunde</thema>: <dozent ref="hesse_f"><grad>D. med.</grad>
@@ -1132,11 +1132,11 @@
 
       <veranstaltungsgruppe><veranstaltung
       xml:id="v-1893w-III-058"><thema>Augenärztliche Propädeutik
-      einschliesslich Augenspiegel-Uebungen</thema></veranstaltung>:
-      <dozent><grad>D. med.</grad> <nachname>Küster</nachname></dozent>,
-      <zeit>Mittw. u. Sonnab. 2-3 U.</zeit>, <veranstaltung
-      xml:id="v-1893w-III-059"><thema>nebst zwei Augenspiegel-Uebungen</thema>
-      <zeit>in den Abendstund.</zeit>,
+      einschliesslich Augenspiegel-Uebungen</thema></veranstaltung>: <dozent
+      ref="kuester_f"><grad>D. med.</grad>
+      <nachname>Küster</nachname></dozent>, <zeit>Mittw. u. Sonnab. 2-3
+      U.</zeit>, <veranstaltung xml:id="v-1893w-III-059"><thema>nebst zwei
+      Augenspiegel-Uebungen</thema> <zeit>in den Abendstund.</zeit>,
       <modus>privatissime</modus></veranstaltung>.</veranstaltungsgruppe>
 
       <veranstaltung xml:id="v-1893w-III-060"><thema>Augenärztliche
@@ -1469,11 +1469,12 @@
             U.</zeit>, <modus>privatim</modus>. <ort>(Grimm. Str.
             27.)</ort></veranstaltung>
 
-            <veranstaltung xml:id="v-1893w-III.001.001.b-004"><dozent><grad>D.
-            med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-            <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u.
-            Freit. 11-12 U.</zeit>, <modus>privatim</modus>.
-            <ort>(Windmühlenstrasse 46.)</ort></veranstaltung>
+            <veranstaltung xml:id="v-1893w-III.001.001.b-004"><dozent
+            ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+            von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+            <zeit>Mont., Mittw. u. Freit. 11-12 U.</zeit>,
+            <modus>privatim</modus>. <ort>(Windmühlenstrasse
+            46.)</ort></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1893w-III.001.001.c">
@@ -1490,10 +1491,11 @@
             12-1 U.</zeit>, <modus>privatim</modus>. <ort>(Emilienstr.
             1.)</ort></veranstaltung>
 
-            <veranstaltung xml:id="v-1893w-III.001.001.c-003"><dozent><grad>D.
-            med.</grad> <nachname>Küster</nachname></dozent>, <thema>(für
-            solche Herren, welche der Technik des Augenspiegelns mächtig
-            sind)</thema>, <zeit>drei- bis viermal wöchentl. 11-12 U.</zeit>,
+            <veranstaltung xml:id="v-1893w-III.001.001.c-003"><dozent
+            ref="kuester_f"><grad>D. med.</grad>
+            <nachname>Küster</nachname></dozent>, <thema>(für solche Herren,
+            welche der Technik des Augenspiegelns mächtig sind)</thema>,
+            <zeit>drei- bis viermal wöchentl. 11-12 U.</zeit>,
             <modus>privatissime</modus>. <ort>(Nicolaistr. 4,
             I.)</ort></veranstaltung>
 
@@ -2984,9 +2986,10 @@ Da aber die Typographie eindeutig ist, muss sie drin stehenbleiben.--></veransta
         <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
         Facultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent><grad>D.
-        jur.</grad> <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe
-        Juristische Facultät</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent
+        ref="kloeppel_p"><grad>D. jur.</grad>
+        <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsgruppe><veranstaltungsverweis><thema>Geschichte des
         Völkerrechts seit dem Zeitalter der

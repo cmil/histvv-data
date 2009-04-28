@@ -1622,10 +1622,11 @@
 
       <veranstaltung xml:id="v-1905w-III-066"><thema>Chirurgischer
       Verbandkursus mit besonderer Berücksichtigung der Frakturen und
-      Lusxationen</thema>: <dozent><grad>D. med.</grad> <nachnamenpräfix>Frhr.
-      von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>, <zeit>Mont.
-      u. Freit. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der Poliklinik
-      für chirurgisch Kranke, Bayersche Str. 12. I.</ort></veranstaltung>
+      Lusxationen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
+      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
+      <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
+      U.</zeit>, <modus>privatim</modus>, <ort>in der Poliklinik für
+      chirurgisch Kranke, Bayersche Str. 12. I.</ort></veranstaltung>
 
       <seite>18</seite>
 
@@ -1644,7 +1645,7 @@
       Chirurgie, Universitätsstr. 13. pt.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1905w-III-069"><thema>Chirurgische Hilfen bei
-      Lebensgefahr</thema>: <dozent><grad>D. med.</grad>
+      Lebensgefahr</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>, <ort>in der Poliklinik für chirurgisch Kranke,
@@ -1938,10 +1939,11 @@
       11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905w-III-110"><thema>Chirurgische
-      Poliklinik</thema> (<ort>Bayersche Str. 12. I.</ort>): <dozent><grad>D.
-      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-      <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit. 12-1
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Poliklinik</thema> (<ort>Bayersche Str. 12. I.</ort>): <dozent
+      ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+      von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>, <zeit>Mont.,
+      Mittw. u. Freit. 12-1 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905w-III-111"><thema>Poliklinik der
       orthopädischen Chirurgie</thema> (<ort>Universitätsstr. 13. pt.</ort>):
@@ -1967,7 +1969,7 @@
       14</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1905w-III-114"><thema>Augenärztliches Praktikum
-      (Poliklinik)</thema>: <dozent><grad>D. med.</grad>
+      (Poliklinik)</thema>: <dozent ref="kuester_f"><grad>D. med.</grad>
       <nachname>Küster</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
       11-12 U.</zeit>, <modus>privatissime</modus>, <ort>in der
       Privatheilanstalt f. Augenkranke, Universitätsstr. 24.
@@ -2067,10 +2069,11 @@
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1905w-III.002.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          12-1 U.</zeit>, <modus>privatim</modus>. (<ort>Bayersche Str. 12.
+          <veranstaltung xml:id="v-1905w-III.002.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Bayersche Str. 12.
           I.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1905w-III.002.b-003"><dozent
@@ -2094,11 +2097,12 @@
 
           <seite>23</seite>
 
-          <veranstaltung xml:id="v-1905w-III.002.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>,
-          <thema>Augenärztliches Praktikum</thema>, <zeit>Mont., Mittw. u.
-          Freit. 11-12 U.</zeit>, <modus>privatissime</modus>.
-          (<ort>Universitätsstr. 24. II.</ort>).</veranstaltung>
+          <veranstaltung xml:id="v-1905w-III.002.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <thema>Augenärztliches
+          Praktikum</thema>, <zeit>Mont., Mittw. u. Freit. 11-12 U.</zeit>,
+          <modus>privatissime</modus>. (<ort>Universitätsstr. 24.
+          II.</ort>).</veranstaltung>
 
           <veranstaltung xml:id="v-1905w-III.002.c-004"><dozent
           ref="schwarz_o"><grad>D. med.</grad> <nachname>Schwarz</nachname>,
@@ -2184,9 +2188,9 @@
           G.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Toxikologische Analyse</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Lockemann</nachname></dozent>.
-          <siehe>Siehe Philosophische Fakultät
-          G.</siehe></veranstaltungsverweis>
+          <dozent ref="lockemann_g"><grad>D. ph.</grad>
+          <nachname>Lockemann</nachname></dozent>. <siehe>Siehe Philosophische
+          Fakultät G.</siehe></veranstaltungsverweis>
 
           <veranstaltungsgruppe><veranstaltungsverweis><thema>Anorganische
           Chemie</thema></veranstaltungsverweis>. -
@@ -5110,12 +5114,13 @@ Ankündigung von von zwei weiteren Veranstaltungen-->).</veranstaltungsgruppe>
         Liebigstr. 18</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905w-IV.G-017"><thema>Massanalyse</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Lockemann</nachname></dozent>,
-        <zeit>Donnerst. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>im
-        Laborat. f. angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
+        <dozent ref="lockemann_g"><grad>D. ph.</grad>
+        <nachname>Lockemann</nachname></dozent>, <zeit>Donnerst. 5-6
+        U.</zeit>, <modus>privatim</modus>, <ort>im Laborat. f. angewandte
+        Chemie, Brüderstr. 34</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1905w-IV.G-018"><thema>Toxikologische
-        Analyse</thema>: <dozent><grad>D. ph.</grad>
+        Analyse</thema>: <dozent ref="lockemann_g"><grad>D. ph.</grad>
         <nachname>Lockemann</nachname></dozent>, <zeit>Mont. u. Mittw. 5-6
         U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für
         angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
@@ -5465,9 +5470,10 @@ Ankündigung von von zwei weiteren Veranstaltungen-->).</veranstaltungsgruppe>
         Vollpraktikum für Vorgerücktere</thema>: <dozent
         ref="beckmann_e"><grad>D. ph.</grad> <nachname>Beckmann</nachname>,
         <funktion>P. O.</funktion></dozent>, <dozent ref="beck_k">gemeinsam
-        mit <grad>D. ph.</grad> <nachname>Beck</nachname></dozent>,
-        <dozent><grad>D. ph.</grad> <nachname>Lockemann</nachname></dozent>,
-        <dozent ref="heller_g"><grad>D. ph.</grad>
+        mit <grad>D. ph.</grad> <nachname>Beck</nachname></dozent>, <dozent
+        ref="lockemann_g"><grad>D. ph.</grad>
+        <nachname>Lockemann</nachname></dozent>, <dozent
+        ref="heller_g"><grad>D. ph.</grad>
         <nachname>Heller</nachname></dozent> u. <dozent
         ref="deussen_e"><grad>D. ph.</grad>
         <nachname>Deussen</nachname></dozent>, <zeit>täglich 8-12 U. u.

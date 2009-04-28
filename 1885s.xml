@@ -932,12 +932,13 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-III-044"><thema>Hautkrankheiten und
-      Syphilis (mit Krankendemonstrationen)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Lesser</nachname></dozent>, <zeit>dreimal
-      wöchentlich, 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Syphilis (mit Krankendemonstrationen)</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>dreimal wöchentlich, 12-1
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-III-045"><thema>Allgemeine Therapie der
-      Hautkrankheiten</thema>: <dozent><grad>D. med.</grad>
+      Hautkrankheiten</thema>: <dozent ref="lesser_e"><grad>D. med.</grad>
       <nachname>Lesser</nachname></dozent>, <zeit>einmal wöchentlich in noch
       zu best. Zeit</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -990,13 +991,13 @@
       <seite>12</seite>
 
       <veranstaltung xml:id="v-1885s-III-054"><thema>Chirurgischer
-      Verbandcursus</thema>: <dozent><grad>D. med.</grad>
+      Verbandcursus</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>an 2 zu best. Wochentagen
       6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-III-055"><thema>Kurzer Abriss der
-      Kriegschirurgie</thema>: <dozent><grad>D. med.</grad>
+      Kriegschirurgie</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 3-4 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -1019,9 +1020,9 @@
       <veranstaltung xml:id="v-1885s-III-058"><thema>Augenärztliche
       Propädeutik (umfassend die äussere Untersuchung,
       Augenspiegel-Untersuchung u. Funktionsprüfung des Auges)</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Küster</nachname></dozent>,
-      <zeit>Mittw. u. Sonnab. 2-3 U., nebst <notiz
-      betreff="thema">Augenspiegel-Uebungen</notiz> in den
+      <dozent ref="kuester_f"><grad>D. med.</grad>
+      <nachname>Küster</nachname></dozent>, <zeit>Mittw. u. Sonnab. 2-3 U.,
+      nebst <notiz betreff="thema">Augenspiegel-Uebungen</notiz> in den
       Abendstunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1885s-III-059"><thema>Specielle Pathologie des
@@ -1290,12 +1291,12 @@ formal korrekt als Absatz erfasst werden): -->in welchen auch klinischer oder
         <sachgruppe xml:id="sg-1885s-III.001.a">
           <titel>a) Chirurgie.</titel>
 
-          <veranstaltung xml:id="v-1885s-III.001.a-001"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Freiherr von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          1-2 U.</zeit>, <modus>privatim</modus>.(<thema
-          kontext="sachgruppe">Nebst klinischen Besprechungen für
-          Anfänger</thema>.)</veranstaltung>
+          <veranstaltung xml:id="v-1885s-III.001.a-001"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Freiherr
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 1-2 U.</zeit>,
+          <modus>privatim</modus>.(<thema kontext="sachgruppe">Nebst
+          klinischen Besprechungen für Anfänger</thema>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1885s-III.001.a-002"><dozent
           ref="koelliker_t"><grad>D. med.</grad>
@@ -1317,9 +1318,10 @@ formal korrekt als Absatz erfasst werden): -->in welchen auch klinischer oder
           <nachname>Schröter</nachname></dozent>, <zeit>Dienst., Donnerst. u.
           Sonnab. 9-10 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1885s-III.001.b-002"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <zeit>drei- bis
-          viermal wöchentlich an zu best. Tagen, 12-1 U.</zeit>,
+          <veranstaltung xml:id="v-1885s-III.001.b-002"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <zeit>drei- bis viermal
+          wöchentlich an zu best. Tagen, 12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
         </sachgruppe>
 
@@ -2344,10 +2346,10 @@ formal korrekt als Absatz erfasst werden): -->in welchen auch klinischer oder
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1885s-IV.D-012"><thema>Harmonielehre, mit
-        Berücksichtigung des Choralsatzes</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Langer</nachname>, <funktion>P.</funktion></dozent>,
-        <zeit>Mittw. u. Sonnab. 3-4 U.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        Berücksichtigung des Choralsatzes</thema>: <dozent
+        ref="langer_h"><grad>D. ph.</grad> <nachname>Langer</nachname>,
+        <funktion>P.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 3-4
+        U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <trennlinie/>
 
@@ -2374,20 +2376,21 @@ formal korrekt als Absatz erfasst werden): -->in welchen auch klinischer oder
         <trennlinie/>
 
         <veranstaltung xml:id="v-1885s-IV.D-016"><thema>Orgelcursus</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Langer</nachname>,
-        <funktion>P.</funktion></dozent>, <zeit>in zu best. <notiz
-        betreff="Thema">Abtheilungen</notiz> u. Stunden </zeit>, <gebühr>gegen
+        <dozent ref="langer_h"><grad>D. ph.</grad>
+        <nachname>Langer</nachname>, <funktion>P.</funktion></dozent>,
+        <zeit>in zu best. <notiz betreff="Thema">Abtheilungen</notiz> u.
+        Stunden </zeit>, <gebühr>gegen
         Bälgetreterlöhne</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1885s-IV.D-017"><thema>Liturgische
-        Gesangsübungen (in verschied. Abthlgn.)</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Langer</nachname>,
+        Gesangsübungen (in verschied. Abthlgn.)</thema>: <dozent
+        ref="langer_h"><grad>D. ph.</grad> <nachname>Langer</nachname>,
         <funktion>P.</funktion></dozent>, <zeit>Mont., Mittw., Freit. 6-7
         U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1885s-IV.D-018"><thema>Uebungen des
-        Universitäts-Sängervereins der Pauliner</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Langer</nachname>,
+        Universitäts-Sängervereins der Pauliner</thema>: <dozent
+        ref="langer_h"><grad>D. ph.</grad> <nachname>Langer</nachname>,
         <funktion>P.</funktion></dozent>, <zeit>Mittw. u. Sonnab. ½8-9 U.
         Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
       </sachgruppe>

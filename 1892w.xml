@@ -607,9 +607,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1892w-II-029"><thema>Rechtsphilosophie</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Kloeppel</nachname></dozent>,
-      <zeit>Mont., Dienst., Donnerst. u. Freit. 4-5 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="kloeppel_p"><grad>D. jur.</grad>
+      <nachname>Kloeppel</nachname></dozent>, <zeit>Mont., Dienst., Donnerst.
+      u. Freit. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -988,9 +988,10 @@
       Tagen u. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1892w-III-039"><thema>Hautkrankheiten und
-      Syphilis (mit Krankendemonstrationen)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Lesser</nachname></dozent>, <zeit>Mont., Donnerst.
-      und Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Syphilis (mit Krankendemonstrationen)</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>Mont., Donnerst. und Sonnab.
+      12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1892w-III-040"><thema>Curs der Krankheiten von
       Harnröhre und Blase, einschliesslich der functionellen Störungen am
@@ -1069,8 +1070,8 @@
       <modus>privatim</modus>.</veranstaltungsgruppe>
 
       <veranstaltung xml:id="v-1892w-III-051"><thema>Chirurgischer
-      Verbandcursus (sechswöchig)</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
+      Verbandcursus (sechswöchig)</thema>: <dozent ref="lesser_l"><grad>D.
+      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1090,7 +1091,7 @@
 
       <veranstaltung xml:id="v-1892w-III-054"><thema>Ueber chirurgische Hilfen
       bei lebensgefährlichen Zuständen (lebensrettende Operationen)</thema>:
-      <dozent><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+      <dozent ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
       von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>, <zeit>Mittw.
       6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -1114,9 +1115,10 @@
       <seite>13</seite>
 
       <veranstaltung xml:id="v-1892w-III-057"><thema>Augenärztliche
-      Propädeutik incl. Augenspiegel-Cursus</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Küster</nachname></dozent>, <zeit>Mittw. u.
-      Sonnab. 2-3 U.</zeit>, <thema>nebst zwei Augenspiegel-Uebungen in den
+      Propädeutik incl. Augenspiegel-Cursus</thema>: <dozent
+      ref="kuester_f"><grad>D. med.</grad>
+      <nachname>Küster</nachname></dozent>, <zeit>Mittw. u. Sonnab. 2-3
+      U.</zeit>, <thema>nebst zwei Augenspiegel-Uebungen in den
       Abendstunden</thema>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1892w-III-058"><thema>Augenärztliche
@@ -1434,11 +1436,11 @@
         u. Sonnab. 5-6 U.</zeit>, <modus>privatim</modus>. <ort>(Grimm. Str.
         27)</ort></veranstaltung>
 
-        <veranstaltung xml:id="v-1892w-III.b-004"><dozent><grad>D. med.</grad>
-        <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-        <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-        11-12 U.</zeit>, <modus>privatim</modus>. <ort>(Windmühlenstrasse
-        44.)</ort><!--was ist mit Frhr.?--></veranstaltung>
+        <veranstaltung xml:id="v-1892w-III.b-004"><dozent
+        ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+        von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+        <zeit>Mont., Mittw. u. Freit. 11-12 U.</zeit>,
+        <modus>privatim</modus>. <ort>(Windmühlenstrasse 44.)</ort><!--was ist mit Frhr.?--></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1892w-III.c">
@@ -1455,7 +1457,8 @@
         u. Sonnab. 12 bis 1 U.</zeit>, <modus>privatim</modus>.
         <ort>(Emilienstr. 1.)</ort></veranstaltung>
 
-        <veranstaltung xml:id="v-1892w-III.c-003"><dozent><grad>D. med.</grad>
+        <veranstaltung xml:id="v-1892w-III.c-003"><dozent
+        ref="kuester_f"><grad>D. med.</grad>
         <nachname>Küster</nachname></dozent>, <thema>(für solche Herren,
         welche die Technik des Augenspiegelns beherrschen)</thema>,
         <zeit>drei- bis viermal wöchentl. 12-1 U. oder in einer zu best.
@@ -1703,9 +1706,10 @@
         <nachname>Fricke</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Theologische Facultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Rechtsphilosophie</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Kloeppel</nachname></dozent>.
-        <siehe>Siehe Juristische Facultät</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Rechtsphilosophie</thema>: <dozent
+        ref="kloeppel_p"><grad>D. med.</grad>
+        <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Rechtsphilosophie</thema>: <dozent
         ref="fricker_cv"><grad>D. ph., jur. et oecon. publ.</grad>

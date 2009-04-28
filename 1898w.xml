@@ -593,7 +593,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1898w-II-015"><thema>Allgemeines
-      Staatsrecht</thema>: <dozent><grad>D. jur.</grad>
+      Staatsrecht</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
       <nachname>Kloeppel</nachname></dozent>, <zeit>Mont. u. Donnerst. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1185,8 +1185,8 @@
       U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1898w-III-053"><thema>Die Lehre von den
-      chirurgischen Operationen</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
+      chirurgischen Operationen</thema>: <dozent ref="lesser_l"><grad>D.
+      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. u. Sonnab. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1204,7 +1204,7 @@
 
       <veranstaltung xml:id="v-1898w-III-056"><thema>Chirurgischer
       Verbandcursus mit besonderer Berücksichtigung der Knochenbrüche und
-      Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+      Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1587,10 +1587,11 @@
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1898w-III.002.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          12-1 U.</zeit>, <modus>privatim</modus>. (<ort>Windmühlenstrasse
+          <veranstaltung xml:id="v-1898w-III.002.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Windmühlenstrasse
           35</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1898w-III.002.b-003"><dozent
@@ -1613,9 +1614,10 @@
           <funktion>P. E.</funktion></dozent> (<ort>Nürnberger Str. 22.
           I.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1898w-III.002.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <thema>Praktikum
-          für diejenigen Herren, welche die Technik des Augenspiegelns sich zu
+          <veranstaltung xml:id="v-1898w-III.002.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <thema>Praktikum für
+          diejenigen Herren, welche die Technik des Augenspiegelns sich zu
           eigen gemacht haben</thema>, <zeit>Mont., Dienst., Donnerst. u.
           Freit. 11-12 U.</zeit>, <modus>privatissime</modus>.
           (<ort>Universitätstr. 24. II.</ort>)</veranstaltung>
@@ -3373,9 +3375,9 @@ geführt, das aber erst ab nächstem Semester (und unter wechselndem Namen) an d
         <veranstaltung xml:id="v-1898w-IV.E-011"><thema>Grundsätze der
         Buchhaltung mit specieller Anwendung auf die Bilanzen der
         Aktiengesellschaften (im Staatswissenschaftlichen Seminar)</thema>:
-        <dozent><vorname>R.</vorname> <nachname>Lambert</nachname></dozent>,
-        (im Auftrag von D. ph. Bücher, P. O.), <zeit>zu noch zu best.
-        Zeit</zeit>.</veranstaltung>
+        <dozent ref="lambert_r"><vorname>R.</vorname>
+        <nachname>Lambert</nachname></dozent>, (im Auftrag von D. ph. Bücher,
+        P. O.), <zeit>zu noch zu best. Zeit</zeit>.</veranstaltung>
 
         <trennlinie/>
 
@@ -3464,9 +3466,10 @@ geführt, das aber erst ab nächstem Semester (und unter wechselndem Namen) an d
         <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
         Facultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Allgemeines Staatsrecht</thema>:
-        <dozent><grad>D. jur.</grad> <nachname>Kloeppel</nachname></dozent>.
-        <siehe>Siehe Juristische Facultät</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Allgemeines Staatsrecht</thema>: <dozent
+        ref="kloeppel_p"><grad>D. jur.</grad>
+        <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsches Reichs- und
         Landeststaatsrecht</thema>: <dozent ref="binding_kll"><grad>D.

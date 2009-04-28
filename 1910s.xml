@@ -328,9 +328,10 @@
       Ergänzung der Vorlesung)</thema>, <zeit>Freit. 5½-7
       U.</zeit></veranstaltung>; <veranstaltung xml:id="v-1910s-I-034">b)
       <thema>Hebräische Grammatik für Anfänger, besonders als Vorbereitung auf
-      das Hebraicum</thema>, <dozent>unter Leitung von <grad>Lic. th.</grad>
-      <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>, <zeit>in noch
-      zu best. Stunden</zeit></veranstaltung>.</veranstaltungsgruppe>
+      das Hebraicum</thema>, <dozent ref="kramer_o">unter Leitung von
+      <grad>Lic. th.</grad> <grad>D. ph.</grad>
+      <nachname>Kramer</nachname></dozent>, <zeit>in noch zu best.
+      Stunden</zeit></veranstaltung>.</veranstaltungsgruppe>
 
       <veranstaltung xml:id="v-1910s-I-035"><thema>Alttestamentliche
       Gesellschaft: Hiob (ausgewählte Abschnitte und schriftliche
@@ -1850,7 +1851,7 @@
       Liebigstr. 26</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1910s-III-083"><thema>Chirurgische
-      Operationslehre</thema>: <dozent><grad>D. med.</grad>
+      Operationslehre</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Donnerst. 5-6 U.</zeit>,
       <modus>publice</modus>, <ort>in der Privatpoliklinik für chirurgisch
@@ -1880,8 +1881,8 @@
 
       <veranstaltung xml:id="v-1910s-III-087"><thema>Chirurgischer
       Verbandkursus mit besonderer Berücksichtigung der Knochenbrüche und der
-      Verrenkungen (sechswöchig)</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
+      Verrenkungen (sechswöchig)</thema>: <dozent ref="lesser_l"><grad>D.
+      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Dienst. u. Sonnab. 5 bis 6
       U.</zeit>, <modus>privatim</modus>, <ort>in der Privatpoliklinik f.
       chirurg. Kranke, Bayersche Str. 12. I.</ort></veranstaltung>
@@ -1897,17 +1898,17 @@
 
       <veranstaltung xml:id="v-1910s-III-089"><thema>Geburtshilfliche
       Propädeutik: Physiologie und Pathologie der Schwangerschaft und Geburt,
-      mit Demonstrationen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Lichtenstein</nachname></dozent>, <zeit>Dienst. u. Donnerst.
-      5-6 U.</zeit>, <modus>privatim</modus>, <ort>in der
+      mit Demonstrationen</thema>: <dozent ref="lichtenstein_f"><grad>D.
+      med.</grad> <nachname>Lichtenstein</nachname></dozent>, <zeit>Dienst. u.
+      Donnerst. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>in der
       Universitätsfrauenklinik, Stephanstr. 7</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1910s-III-090"><thema>Geburtshilfliche
-      Operationslehre mit Übungen am Phantom</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Lichtenstein</nachname></dozent>, <zeit>Mont.,
-      Dienst., Donnerst. u. Freit. 4-5 U.</zeit>, <modus>privatim</modus>,
-      <ort>in der Universitätsfrauenklinik, Stephanstr.
-      7</ort>.</veranstaltung>
+      Operationslehre mit Übungen am Phantom</thema>: <dozent
+      ref="lichtenstein_f"><grad>D. med.</grad>
+      <nachname>Lichtenstein</nachname></dozent>, <zeit>Mont., Dienst.,
+      Donnerst. u. Freit. 4-5 U.</zeit>, <modus>privatim</modus>, <ort>in der
+      Universitätsfrauenklinik, Stephanstr. 7</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1910s-III-091"><thema>Kurs geburtshilflicher
       Operationen</thema>: <dozent ref="skutsch_f"><grad>D. med.</grad>
@@ -2253,11 +2254,11 @@
         <sachgruppe xml:id="sg-1910s-III.001.b">
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung xml:id="v-1910s-III.001.b-001"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>: <ort>Privatpoliklinik für
-          chirurgische Kranke (Bayersche Str. 12. I.)</ort>, <zeit>Dienst.,
-          Donnerst. u. Sonnab. 12-1 U.</zeit>
+          <veranstaltung xml:id="v-1910s-III.001.b-001"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>:
+          <ort>Privatpoliklinik für chirurgische Kranke (Bayersche Str. 12.
+          I.)</ort>, <zeit>Dienst., Donnerst. u. Sonnab. 12-1 U.</zeit>
           <modus>privatim</modus>.</veranstaltung>
         </sachgruppe>
 
@@ -2271,9 +2272,10 @@
           I.)</ort>: <thema>Augenärztliche Untersuchung</thema>, <zeit>Mont.
           u. Freit. 8½-9½ U.</zeit> <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1910s-III.001.c-002"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>: <ort>In der
-          Privatheilanstalt für Augenkranke (Universitätsstr. 24. II.)</ort>:
+          <veranstaltung xml:id="v-1910s-III.001.c-002"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>: <ort>In der Privatheilanstalt
+          für Augenkranke (Universitätsstr. 24. II.)</ort>:
           <thema>Augenärztliches Praktikum</thema>, <zeit>nach Vereinbarung
           drei- bis viermal wöchentl. 11 bis 12 U.</zeit>,
           <modus>privatissime</modus>.</veranstaltung>
@@ -4371,15 +4373,15 @@ an Veranstaltung 1) an. Die Informationen "privatissime et gratis"
 müssen noch mit den nachfolgenden Veranstaltungen verknüpft
 werden!!!-->
 
-            <veranstaltung xml:id="v-1910s-IV.C.002.I-002">2) <dozent><grad>D.
-            ph.</grad> <nachname>Koehler</nachname></dozent>:
-            <thema>Elementare Übungen zur deutschen Kulturgeschichte:
-            Einführung in die Kulturgeschichts<seite>41</seite>schreibung des
-            18. und 19. Jahrh. (Lektüre einiger kulturgeschichtlicher
-            Darstellungen) und in die kulturgeschichtliche Quellenkunde
-            (Lektüre und Interpretation einiger wichtiger Quellen des 15., 16.
-            u. 17. Jahrh.)</thema>, <zeit>Sonnab. 9½-11 U.
-            Vorm.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1910s-IV.C.002.I-002">2) <dozent
+            ref="koehler_a"><grad>D. ph.</grad>
+            <nachname>Koehler</nachname></dozent>: <thema>Elementare Übungen
+            zur deutschen Kulturgeschichte: Einführung in die
+            Kulturgeschichts<seite>41</seite>schreibung des 18. und 19. Jahrh.
+            (Lektüre einiger kulturgeschichtlicher Darstellungen) und in die
+            kulturgeschichtliche Quellenkunde (Lektüre und Interpretation
+            einiger wichtiger Quellen des 15., 16. u. 17. Jahrh.)</thema>,
+            <zeit>Sonnab. 9½-11 U. Vorm.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1910s-IV.C.002.I-003">3) <dozent
             ref="koetzschke_r"><grad>D. ph.</grad>
@@ -6618,7 +6620,7 @@ Veranstaltungen bezogen werden!-->
       Ab.</zeit></veranstaltung> Die Einteilung der Riegen- und
       Spielmannschaften erfolgt nach der Fertigkeit. Nähere Auskunft gibt die
       Ordnung für den Allg. Akad. Turnabend an der Universität Leipzig oder
-      mündlich der Leiter: <dozent><funktion>Universitäts- und
+      mündlich der Leiter: <dozent ref="kuhr_h"><funktion>Universitäts- und
       Oberturnlehrer</funktion> <grad>D. ph.</grad>
       <nachname>Kuhr</nachname></dozent>, Rosentalgasse 5.
       II.</veranstaltungsgruppe>

@@ -284,10 +284,10 @@
       <veranstaltung xml:id="v-1907w-I-034"><thema>Hebräische Übungen für
       jüngere Semester: Kursorische Lektüre des I. Buches Samuelis</thema>:
       <dozent ref="kittel_r"><grad>D. th. et ph.</grad>
-      <nachname>Kittel</nachname>, <funktion>P. O.</funktion></dozent>
-      <dozent>mit <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>,
-      <zeit>Mont. 7¾-9¼ U. Ab.</zeit>, <modus>privatissime</modus> et
-      <gebühr>gratis</gebühr>.</veranstaltung>
+      <nachname>Kittel</nachname>, <funktion>P. O.</funktion></dozent> <dozent
+      ref="kramer_o">mit <grad>D. ph.</grad>
+      <nachname>Kramer</nachname></dozent>, <zeit>Mont. 7¾-9¼ U. Ab.</zeit>,
+      <modus>privatissime</modus> et <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1907w-I-035"><thema>Hebraikum der Lausitzer
       Predigergesellschaft</thema>: <dozent ref="guthe_h"><grad>D. th.</grad>
@@ -301,8 +301,8 @@
       ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
       O.</funktion></dozent>, <veranstaltung xml:id="v-1907w-I-036">a)
       <thema>Proseminar: Hebräische Elementargrammatik für Anfänger als
-      Vorbereitung auf das Hebraicum</thema>
-      (<dozent><funktion>Leiter</funktion>: <grad>D. ph.</grad>
+      Vorbereitung auf das Hebraicum</thema> (<dozent
+      ref="kramer_o"><funktion>Leiter</funktion>: <grad>D. ph.</grad>
       <nachname>Kramer</nachname>,</dozent>) <zeit>in noch zu best.
       Stunden</zeit></veranstaltung>; <veranstaltung xml:id="v-1907w-I-037">b)
       <thema>Seminar für Vorgeschrittenere: Ausgewählte prophetische
@@ -1735,7 +1735,7 @@
 
       <veranstaltung xml:id="v-1907w-III-068"><thema>Chirurgischer
       Verbandkursus mit besonderer Berücksichtigung der Knochenbrüche und
-      Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+      Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>, <ort>in der Privatpoliklinik f.
@@ -1756,7 +1756,7 @@
       Universitätsstr. 13. pt.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1907w-III-071"><thema>Chirurgische Hilfen bei
-      Lebensgefahr</thema>: <dozent><grad>D. med.</grad>
+      Lebensgefahr</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>, <ort>in der Privatpoliklinik für chirurgische
@@ -2166,11 +2166,11 @@
         <sachgruppe xml:id="sg-1907w-III.001.b">
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung xml:id="v-1907w-III.001.b-001"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>: <thema>Privatpoliklinik für
-          chirurgisch Kranke (Bayersche Str. 12. I.)</thema>, <zeit>Mont.,
-          Mittw. u. Freit. 12-1 U.</zeit>,
+          <veranstaltung xml:id="v-1907w-III.001.b-001"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>:
+          <thema>Privatpoliklinik für chirurgisch Kranke (Bayersche Str. 12.
+          I.)</thema>, <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
         </sachgruppe>
 
@@ -2184,9 +2184,10 @@
           I.)</ort>: <zeit>Dienst., Mittw. u. Freit. 9-10 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1907w-III.001.c-002"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>: <ort>In der
-          Privatheilanstalt für Augenkranke (Universitätsstr. 24. II.)</ort>:
+          <veranstaltung xml:id="v-1907w-III.001.c-002"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>: <ort>In der Privatheilanstalt
+          für Augenkranke (Universitätsstr. 24. II.)</ort>:
           <thema>Augenärztliches Praktikum (Poliklinik)</thema>, <zeit>drei-
           bis viermal wöchentl. 11-12 U.</zeit>,
           <modus>privatissime</modus>.</veranstaltung>
@@ -2356,9 +2357,9 @@
         Fakultät G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Die Chemie der Gegenwart</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Lockemann</nachname></dozent>.
-        <siehe>Siehe Philosophische Fakultät
-        G.</siehe></veranstaltungsverweis>
+        <dozent ref="lockemann_g"><grad>D. ph.</grad>
+        <nachname>Lockemann</nachname></dozent>. <siehe>Siehe Philosophische
+        Fakultät G.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Elektrotechnik</thema>: <dozent
         ref="scholl_h"><grad>D. ph.</grad>
@@ -5150,8 +5151,9 @@
           G.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Die Chemie der Gegenwart</thema>:
-          <dozent><grad>D. ph.</grad> <nachname>Lockemann</nachname></dozent>.
-          <siehe>Siehe Abschnitt G.</siehe></veranstaltungsverweis>
+          <dozent ref="lockemann_g"><grad>D. ph.</grad>
+          <nachname>Lockemann</nachname></dozent>. <siehe>Siehe Abschnitt
+          G.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Chemische Technologie</thema>:
           <thema>organische Betriebe</thema>: <dozent ref="rassow_b"><grad>D.
@@ -5668,7 +5670,7 @@
           Liebigstr. 18</ort>.</veranstaltung>
 
           <veranstaltung xml:id="v-1907w-IV.C.G-021"><thema>Die Chemie der
-          Gegenwart</thema>: <dozent><grad>D. ph.</grad>
+          Gegenwart</thema>: <dozent ref="lockemann_g"><grad>D. ph.</grad>
           <nachname>Lockemann</nachname></dozent>, <zeit>Dienst. u. Freit.
           12-1 U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für
           angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
@@ -6086,8 +6088,8 @@
           <veranstaltung xml:id="v-1907w-IV.C.G-061"><thema>Chemisches
           Vollpraktikum für Vorgerücktere</thema>: <dozent
           ref="beckmann_e"><grad>D. ph.</grad> <nachname>Beckmann</nachname>,
-          <funktion>P. O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
-          <nachname>Lockemann</nachname></dozent>, <dozent
+          <funktion>P. O.</funktion></dozent>, <dozent ref="lockemann_g">mit
+          <grad>D. ph.</grad> <nachname>Lockemann</nachname></dozent>, <dozent
           ref="heller_g"><grad>D. ph.</grad>
           <nachname>Heller</nachname></dozent>, <dozent
           ref="deussen_e"><grad>D. ph.</grad>

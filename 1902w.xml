@@ -1310,9 +1310,10 @@
 
       <veranstaltung xml:id="v-1902w-III-061"><thema>Ueber die chirurgischen
       Hilfen bei dringender Lebensgefahr (Blutungen, Erstickungen u. s.
-      f.)</thema>: <dozent><grad>D. med.</grad> <nachnamenpräfix>Frhr.
-      v.</nachnamenpräfix> <nachname>Lesser</nachname></dozent>, <zeit>Mittw.
-      6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      f.)</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
+      <nachnamenpräfix>Frhr. v.</nachnamenpräfix>
+      <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1902w-III-062"><thema>Chirurgische Diagnostik
       und Operationslehre mit topographischer Anatomie am Lebenden</thema>:
@@ -1329,7 +1330,7 @@
 
       <veranstaltung xml:id="v-1902w-III-064"><thema>Chirurgischer
       Verbandcursus mit besonderer Berücksichtigung der Knochenbrüche und der
-      Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+      Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1717,10 +1718,11 @@
 
           <seite>19</seite>
 
-          <veranstaltung xml:id="v-1902w-III.002.b-003"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          12-1 U.</zeit>, <modus>privatim</modus>. (<ort>Bayersche Str. 12.
+          <veranstaltung xml:id="v-1902w-III.002.b-003"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Bayersche Str. 12.
           I.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1902w-III.002.b-004"><dozent
@@ -1742,11 +1744,12 @@
           <funktion>P. E.</funktion></dozent> (<ort>Grimm. Steinweg 9.
           I.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1902w-III.002.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>,
-          <thema>Praktikum</thema>, <zeit>drei- bis viermal wöchentl. nach
-          Verabredung 11-12 U.</zeit>, <modus>privatissime</modus>.
-          (<ort>Universitätsstrasse 24. II.</ort>)</veranstaltung>
+          <veranstaltung xml:id="v-1902w-III.002.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <thema>Praktikum</thema>,
+          <zeit>drei- bis viermal wöchentl. nach Verabredung 11-12 U.</zeit>,
+          <modus>privatissime</modus>. (<ort>Universitätsstrasse 24.
+          II.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1902w-III.002.c-004"><dozent
           ref="schwarz_o"><grad>D. med.</grad> <nachname>Schwarz</nachname>,
@@ -2666,7 +2669,7 @@
           11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1902w-IV.B.d-004"><thema>Victorian
-          Novelists</thema>: <dozent><funktion>Lector</funktion>
+          Novelists</thema>: <dozent ref="lake_b"><funktion>Lector</funktion>
           <nachname>Lake</nachname></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
@@ -2742,8 +2745,8 @@
           <zeit>Mont. 6-8 U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltungsgruppe><thema>Englisches Proseminar</thema>
-          (<dozent>unter Leitung des <funktion>Assistenten</funktion>
+          <veranstaltungsgruppe><thema>Englisches Proseminar</thema> (<dozent
+          ref="lake_b">unter Leitung des <funktion>Assistenten</funktion>
           <nachname>Lake</nachname></dozent>), <veranstaltung
           xml:id="v-1902w-IV.B.d-016"><thema>1. Abtheilung: für
           Vorgeschrittenere</thema>: <zeit>Dienst. 6-8 U.</zeit>,
@@ -2785,7 +2788,7 @@ nicht wie den Ausdruck auszeichnen soll!
           <seite>28</seite>
 
           <veranstaltung xml:id="v-1902w-IV.B.d-022"><thema>Englisches
-          Praktikum</thema>: <dozent><funktion>Lector</funktion>
+          Praktikum</thema>: <dozent ref="lake_b"><funktion>Lector</funktion>
           <nachname>Lake</nachname></dozent>, <zeit>Mont. u. Donnerst. 3-4
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 

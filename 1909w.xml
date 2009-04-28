@@ -257,9 +257,9 @@
       <thema>Seminar für Vorgeschrittenere: Biblisch-theologische
       Fragen</thema>, <zeit>Mittw. 9-10½ U.</zeit></veranstaltung>,
       <veranstaltung xml:id="v-1909w-I-030">b) <thema>Hebräische Grammatik für
-      Anfänger als Vorbereitung auf das Hebraicum</thema>, <dozent>unter
-      Leitung von <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>,
-      <zeit>in noch zu best.
+      Anfänger als Vorbereitung auf das Hebraicum</thema>, <dozent
+      ref="kramer_o">unter Leitung von <grad>D. ph.</grad>
+      <nachname>Kramer</nachname></dozent>, <zeit>in noch zu best.
       Stunden</zeit></veranstaltung>.</veranstaltungsgruppe>
 
       <veranstaltung xml:id="v-1909w-I-031"><thema>Alttestamentliche
@@ -1234,9 +1234,9 @@
       Fakultät D.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-      <dozent><funktion>Lektor</funktion> <nachname>Monod</nachname></dozent>.
-      <siehe>Siehe Philosophische Fakultät B.
-      d.</siehe></veranstaltungsverweis>
+      <dozent ref="monod_g"><funktion>Lektor</funktion>
+      <nachname>Monod</nachname></dozent>. <siehe>Siehe Philosophische
+      Fakultät B. d.</siehe></veranstaltungsverweis>
     </sachgruppe>
 
     <trennlinie/>
@@ -1804,7 +1804,7 @@ gerissen.--></veranstaltung>
       26</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-078"><thema>Chirurgische
-      Operationslehre</thema>: <dozent><grad>D. med.</grad>
+      Operationslehre</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Donnerst. 5-6 U.</zeit>,
       <modus>publice</modus>, <ort>in der Privatpoliklinik für chirurgisch
@@ -1826,7 +1826,7 @@ gerissen.--></veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-081"><thema>Chirurgischer
       Verbandkursus mit besonderer Berücksichtigung der Knochenbrüche und
-      Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+      Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Dienst. u. Sonnab. 5-6
       U.</zeit>, <modus>privatim</modus>, <ort>in der Privatpoliklinik f.
@@ -1849,9 +1849,9 @@ gerissen.--></veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-084"><thema>Geburtshilfliche
       Propädeutik: Physiologie und Pathologie der Schwangerschaft und Geburt,
-      mit Demonstrationen</thema>: <dozent><grad>D. med.</grad>
-      <nachname>Lichtenstein</nachname></dozent>, <zeit>Dienst. u. Donnerst.
-      6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der
+      mit Demonstrationen</thema>: <dozent ref="lichtenstein_f"><grad>D.
+      med.</grad> <nachname>Lichtenstein</nachname></dozent>, <zeit>Dienst. u.
+      Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der
       Universitätsfrauenklinik, Stephanstr. 7</ort>.</veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-085"><thema>Geburtshilfliche
@@ -1876,7 +1876,7 @@ gerissen.--></veranstaltung>
 
       <veranstaltung xml:id="v-1909w-III-088"><thema>Gynäkologische
       Propädeutik und Akiurgie, mit Vorstellung und Behandlung von
-      Kranken</thema>: <dozent><grad>D. med.</grad>
+      Kranken</thema>: <dozent ref="lichtenstein_f"><grad>D. med.</grad>
       <nachname>Lichtenstein</nachname></dozent>, <zeit>Mittw. 4-6 U.</zeit>,
       <modus>privatim</modus>, <ort>in der Universitätsfrauenklinik,
       Stephanstr. 7</ort>.</veranstaltung>
@@ -2242,12 +2242,12 @@ gerissen.--></veranstaltung>
         <sachgruppe xml:id="sg-1909w-III.001.b">
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung xml:id="v-1909w-III.001.b-001"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>: <thema>Privatpoliklinik für
-          chirurgisch Kranke</thema> (<ort>Bayersche Str. 12. I.</ort>),
-          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1909w-III.001.b-001"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>:
+          <thema>Privatpoliklinik für chirurgisch Kranke</thema>
+          (<ort>Bayersche Str. 12. I.</ort>), <zeit>Mont., Mittw. u. Freit.
+          12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1909w-III.001.c">
@@ -2260,9 +2260,10 @@ gerissen.--></veranstaltung>
           I.)</ort>: <thema>Augenärztliche Untersuchung</thema>, <zeit>Mont.
           u. Freit. 9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1909w-III.001.c-002"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>: <ort>In der
-          Privatheilanstalt für Augenkranke (Universitätsstr. 24. II.)</ort>:
+          <veranstaltung xml:id="v-1909w-III.001.c-002"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>: <ort>In der Privatheilanstalt
+          für Augenkranke (Universitätsstr. 24. II.)</ort>:
           <thema>Augenärztliches Praktikum, (Poliklinik)</thema>, <zeit>drei-
           bis viermal wöchentl. nach Verabredung 11-12 U.</zeit>,
           <modus>privatissime</modus>.</veranstaltung>
@@ -2388,18 +2389,19 @@ gerissen.--></veranstaltung>
         Goethestr. 5. I.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1909w-III.002-012"><thema>Kursus der
-        zahnärztlichen Prothese und der Regulierungsarbeiten</thema>:
-        <dozent><nachname>Pfaff</nachname>, <funktion>P.
+        zahnärztlichen Prothese und der Regulierungsarbeiten</thema>: <dozent
+        ref="pfaff_w"><nachname>Pfaff</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>tägl. 9-12½ u. (außer Sonnab.) 2-5½
         U.</zeit>, <modus>privatim</modus>, <ort>im Zahnärztl. Institut,
         Goethestr. 5. I.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1909w-III.002-013"><thema>Klinischer
         Unterricht im Zahn- und Kieferersatz und in der Orthodontie (nur für
-        Fortgeschrittene)</thema>: <dozent><nachname>Pfaff</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>tägl. 9-12 u. (außer
-        Sonnab.) 3-4 U.</zeit>, <modus>privatim</modus>, <ort>im Zahnärztl.
-        Institut, Goethestr. 5. I.</ort></veranstaltung>
+        Fortgeschrittene)</thema>: <dozent
+        ref="pfaff_w"><nachname>Pfaff</nachname>, <funktion>P.
+        E.</funktion></dozent>, <zeit>tägl. 9-12 u. (außer Sonnab.) 3-4
+        U.</zeit>, <modus>privatim</modus>, <ort>im Zahnärztl. Institut,
+        Goethestr. 5. I.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1909w-III.002-014"><thema>Chirurgische
         Poliklinik</thema> (<ort>Nürnberger Str. 55</ort>): <dozent
@@ -4402,7 +4404,8 @@ gerissen.--></veranstaltung>
             <gebühr>gratis</gebühr>.</veranstaltung> - Ferner in seinem
             Auftrage, sämtlich <modus>privatissime</modus> et
             <gebühr>gratis</gebühr>: <!--Absatz--><veranstaltung
-            xml:id="v-1909w-IV.C.002.001-002">2) <dozent><grad>D. ph.</grad>
+            xml:id="v-1909w-IV.C.002.001-002">2) <dozent
+            ref="koehler_a"><grad>D. ph.</grad>
             <nachname>Koehler</nachname></dozent>: <thema>Elementare Übungen
             zur deutschen Kulturgeschichte: Einführung in die
             Kulturgeschichtsschreibung des 18. und 19. Jahrh. (Lektüre einiger
@@ -6546,7 +6549,7 @@ gerissen.--></veranstaltung>
         <seite>60</seite>
 
         <veranstaltungsverweis><thema>Exercices pratiques de français</thema>:
-        <dozent><funktion>Lektor</funktion>
+        <dozent ref="monod_g"><funktion>Lektor</funktion>
         <nachname>Monod</nachname></dozent>. <siehe>Siehe Abschnitt B.
         d.</siehe></veranstaltungsverweis>
 
@@ -6572,7 +6575,7 @@ gerissen.--></veranstaltung>
 
         <veranstaltung xml:id="v-1909w-IV.G-086"><thema>Allgemeiner
         Akademischer Turnabend: Turnen an Geräten, volkstümliche Übungen,
-        Gemeinturnen, Turnspiele.</thema> <dozent>Leiter:
+        Gemeinturnen, Turnspiele.</thema> <dozent ref="kuhr_h">Leiter:
         <funktion>Universitäts- und Oberturnlehrer</funktion> <grad>D.
         ph.</grad> <nachname>Kuhr</nachname></dozent>, <zeit>Mittw. u. Sonnab.
         5¾-7¾ U. Ab.</zeit> <ort>in der Turnhalle Dorotheenstr.

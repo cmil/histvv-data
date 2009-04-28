@@ -541,9 +541,9 @@
       <nachname>Duchesne</nachname></dozent>. <siehe>Siehe Philosophische
       Facultät B. d.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Englische Sprechübungen</thema>:
-      <dozent><nachname>Lake</nachname></dozent>. <siehe>Siehe Philosophische
-      Facultät B. d.</siehe></veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Englische Sprechübungen</thema>: <dozent
+      ref="lake_b"><nachname>Lake</nachname></dozent>. <siehe>Siehe
+      Philosophische Facultät B. d.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Liturgische Uebungen mit den Mitgliedern
       des homiletischen Seminars</thema>: <dozent ref="kretzschmar_h"><grad>D.
@@ -736,7 +736,7 @@
       Freit. 10-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899s-II-030"><thema>Staats- und Rechtslehre
-      des Alterthums</thema>: <dozent><grad>D. jur.</grad>
+      des Alterthums</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
       <nachname>Kloeppel</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1246,7 +1246,7 @@
 
       <veranstaltung xml:id="v-1899s-III-058"><thema>Chirurgischer
       Verbandcursus mit besonderer Berücksichtigung der Knochenbrüche und
-      Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+      Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 7-8 U.
       Ab.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1280,7 +1280,7 @@
       <seite>15</seite>
 
       <veranstaltung xml:id="v-1899s-III-064"><thema>Abriss der
-      Kriegschirurgie</thema>: <dozent><grad>D. med.</grad>
+      Kriegschirurgie</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 7-8 U. Ab.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -1659,10 +1659,11 @@
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1899s-III.002.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          12-1 U.</zeit>, <modus>privatim</modus>. (<ort>Turnerstr. 12.
+          <veranstaltung xml:id="v-1899s-III.002.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Turnerstr. 12.
           Erdg.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1899s-III.002.b-003"><dozent
@@ -1688,8 +1689,9 @@
           12-1 U.</zeit>, <modus>privatissime</modus>. (<ort>Nürnberger Str.
           22. I.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1899s-III.002.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <thema
+          <veranstaltung xml:id="v-1899s-III.002.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <thema
           kontext="sachgruppe">für solche Herren, welche die Technik des
           Augenspiegelns besitzen</thema>, <zeit>drei- bis viermal wöchentlich
           11-12 U.</zeit>, <modus>privatissime</modus>. (<ort>Universitätsstr.
@@ -1856,8 +1858,9 @@
           Facultät B. d.</siehe></veranstaltungsverweis>
 
           <veranstaltungsverweis><thema>Englische Sprechübungen</thema>:
-          <dozent><nachname>Lake</nachname></dozent>. <siehe>Siehe
-          Philosophische Facultät B. d.</siehe></veranstaltungsverweis>
+          <dozent ref="lake_b"><nachname>Lake</nachname></dozent>.
+          <siehe>Siehe Philosophische Facultät B.
+          d.</siehe></veranstaltungsverweis>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
@@ -2651,7 +2654,7 @@
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899s-IV.B.d-004"><thema>Thackeray's Vanity
-          Fair</thema>: <dozent><funktion>Lector</funktion>
+          Fair</thema>: <dozent ref="lake_b"><funktion>Lector</funktion>
           <nachname>Lake</nachname></dozent>, <zeit>Mittw. und Sonnab. 4-5
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2757,7 +2760,8 @@
           <gebühr>unentgeltlich</gebühr></veranstaltung>.</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1899s-IV.B.d-020"><thema>Englische
-          Sprechübungen</thema>: <dozent><funktion>Lector</funktion>
+          Sprechübungen</thema>: <dozent
+          ref="lake_b"><funktion>Lector</funktion>
           <nachname>Lake</nachname></dozent>, <zeit>Mont. u. Donnerst. 5-6
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3538,7 +3542,7 @@ abgetrennt sind, die aber definitiv nicht dazugehören, wurde auch diese VA aus 
         Stunde</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Staats- und Rechtslehre des
-        Alterthums</thema>: <dozent><grad>D. jur.</grad>
+        Alterthums</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
         <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
         Facultät</siehe>.</veranstaltungsverweis>
 
@@ -3606,9 +3610,10 @@ abgetrennt sind, die aber definitiv nicht dazugehören, wurde auch diese VA aus 
         <modus>privatissime</modus> sed
         <gebühr>gratis</gebühr></veranstaltung></veranstaltungsgruppe>. -
         <veranstaltung xml:id="v-1899s-IV.E-026">In seinem Auftrag durch
-        <dozent><vorname>R.</vorname> <nachname>Lambert</nachname></dozent>:
-        <thema>Technik der Bank- und Börsengeschäfte</thema>, <zeit>zu noch zu
-        best. Zeit</zeit>, <modus>privatissime</modus>, aber
+        <dozent ref="lambert_r"><vorname>R.</vorname>
+        <nachname>Lambert</nachname></dozent>: <thema>Technik der Bank- und
+        Börsengeschäfte</thema>, <zeit>zu noch zu best. Zeit</zeit>,
+        <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung>. - <veranstaltung
         xml:id="v-1899s-IV.E-027">2) <dozent ref="stieda_w"><grad>D. ph. et
         oec. publ.</grad> <nachname>Stieda</nachname>, <funktion>P.

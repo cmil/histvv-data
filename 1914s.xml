@@ -303,9 +303,9 @@
       Bücher Josua und Richter nach Kittel, Biblia Hebraica, unter
       grammatischem Gesichtspunkt</thema>: <dozent ref="kittel_r"><grad>D. th.
       et ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
-      O.</funktion></dozent>, mit <dozent><grad>Lic. th.</grad> <grad>D.
-      ph.</grad> <nachname>Kramer</nachname></dozent>, <zeit>Mo. 7¾-9¼ U.
-      ab.</zeit>, <modus>privatissime</modus>, sed
+      O.</funktion></dozent>, mit <dozent ref="kramer_o"><grad>Lic. th.</grad>
+      <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>, <zeit>Mo.
+      7¾-9¼ U. ab.</zeit>, <modus>privatissime</modus>, sed
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltungsgruppe><thema>Alttestamentliches Seminar</thema>
@@ -316,8 +316,8 @@
       <thema>Abteilung für Vorgeschrittenere: Wellhausen und das
       Pentateuchproblem</thema>, <zeit>Fr. 5½-7 U.</zeit></veranstaltung>;
       <veranstaltung xml:id="v-1914s-I-036">b) <thema>Abteilung für
-      Anfänger</thema> unter Leitung von <dozent><grad>Lic. th.</grad>
-      <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>:
+      Anfänger</thema> unter Leitung von <dozent ref="kramer_o"><grad>Lic.
+      th.</grad> <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>:
       <thema>Hebräische Elementargrammatik als Vorbereitung aufs
       Hebraicum</thema>, <zeit>in noch zu best. Zeit</zeit></veranstaltung>;
       <veranstaltungsgruppe>c) <thema>Abteilung für spätjüdische
@@ -1512,7 +1512,7 @@
 
         <veranstaltung xml:id="v-1914s-III.007-014"><thema>Chirurgische
         Operationslehre (<notiz betreff="fortsetzung">II.
-        Teil</notiz>)</thema>: <dozent><grad>D. med.</grad>
+        Teil</notiz>)</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
         <nachnamenpräfix>Frhr. von</nachnamenpräfix>
         <nachname>Lesser</nachname></dozent>, <zeit>Mi. 5-6 U.</zeit>,
         <modus>publice</modus>, <ort>in der Privatpoliklinik für chirurgisch
@@ -1520,7 +1520,7 @@
 
         <veranstaltung xml:id="v-1914s-III.007-015"><thema>Chirurgischer
         Verbandkursus mit besonderer Berücksichtigung der Knochenbrüche und
-        der Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+        der Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
         <nachnamenpräfix>Frhr. von</nachnamenpräfix>
         <nachname>Lesser</nachname></dozent>, <zeit>Mo. u. Fr. 4-5 U.</zeit>,
         <modus>privatim</modus>, <ort>in der Privatpoliklinik f. chirurg.
@@ -1583,14 +1583,16 @@
         Institut, Nürnberger Str. 55</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.008-004"><thema>Geburtshilfliche
-        Operationslehre mit Übungen am Phantom</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Lichtenstein</nachname></dozent>, <zeit>Mo.,
-        Di., Do. u. Fr. 4-5 U.</zeit>, <modus>privatim</modus>, <ort>in der
+        Operationslehre mit Übungen am Phantom</thema>: <dozent
+        ref="lichtenstein_f"><grad>D. med.</grad>
+        <nachname>Lichtenstein</nachname></dozent>, <zeit>Mo., Di., Do. u. Fr.
+        4-5 U.</zeit>, <modus>privatim</modus>, <ort>in der
         Universitäts-Frauenklinik, Stephanstr. 7</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.008-005"><thema>Gynäkologische
         Propädeutik und Akiurgie: Einführung in die Gynäkologie u.
-        gynäkologische Operationslehre</thema>: <dozent><grad>D. med.</grad>
+        gynäkologische Operationslehre</thema>: <dozent
+        ref="lichtenstein_f"><grad>D. med.</grad>
         <nachname>Lichtenstein</nachname></dozent>, <zeit>Mo. u. Fr. 5-6 u.
         So. 3-4 U. (letztere Stunde verlegbar nach Vereinbarung)</zeit>,
         <modus>privatim</modus>, <ort>in der Universitäts-Frauenklinik,
@@ -1928,25 +1930,26 @@
         Privatpoliklinik, Königstr. 14. I.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.013-004"><thema>Einführung in die
-        Oto-, Rhino-, Laryngologie mit Untersuchungsübungen</thema>:
-        <dozent><grad>D. med.</grad> <nachname>Knick</nachname></dozent>,
-        <zeit>3mal wöchentl. 11-12 od. 12-1 U.</zeit>,
-        <modus>privatim</modus>, <ort>in der Universitäts-Klinik für Ohren-,
-        Nasen- und Halskrankheiten, Liebigstr. 18a</ort>.</veranstaltung>
+        Oto-, Rhino-, Laryngologie mit Untersuchungsübungen</thema>: <dozent
+        ref="knick_a"><grad>D. med.</grad>
+        <nachname>Knick</nachname></dozent>, <zeit>3mal wöchentl. 11-12 od.
+        12-1 U.</zeit>, <modus>privatim</modus>, <ort>in der
+        Universitäts-Klinik für Ohren-, Nasen- und Halskrankheiten, Liebigstr.
+        18a</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.013-005"><thema>Die Komplikationen
-        bei eitrigen Mittelohrentzündungen</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Knick</nachname></dozent>, <zeit>Do. 6-7
-        U.</zeit>, <modus>privatim</modus>, <ort>in der Univers.-Klinik f.
-        Ohren-, Nasen- u. Halskrankheiten, Liebigstr.
-        18a</ort>.</veranstaltung>
+        bei eitrigen Mittelohrentzündungen</thema>: <dozent
+        ref="knick_a"><grad>D. med.</grad>
+        <nachname>Knick</nachname></dozent>, <zeit>Do. 6-7 U.</zeit>,
+        <modus>privatim</modus>, <ort>in der Univers.-Klinik f. Ohren-, Nasen-
+        u. Halskrankheiten, Liebigstr. 18a</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-III.013-006"><thema>Kleine Chirurgie
-        des Ohres, der Nase und des Halses</thema>: <dozent><grad>D.
-        med.</grad> <nachname>Knick</nachname></dozent>, <zeit>Do. 12-1
-        U.</zeit>, <modus>privatim</modus>, <ort>in der Univers.-Klinik f.
-        Ohren-, Nasen- u. Halskrankheiten, Liebigstr.
-        18a</ort>.</veranstaltung>
+        des Ohres, der Nase und des Halses</thema>: <dozent
+        ref="knick_a"><grad>D. med.</grad>
+        <nachname>Knick</nachname></dozent>, <zeit>Do. 12-1 U.</zeit>,
+        <modus>privatim</modus>, <ort>in der Univers.-Klinik f. Ohren-, Nasen-
+        u. Halskrankheiten, Liebigstr. 18a</ort>.</veranstaltung>
 
         <veranstaltungsverweis><thema>Stimmbildung, etc.</thema>: <siehe>S.
         43</siehe>.</veranstaltungsverweis>
@@ -2103,11 +2106,12 @@
         <sachgruppe xml:id="sg-1914s-III.017.a">
           <titel>a) Chirurgie.</titel>
 
-          <veranstaltung xml:id="v-1914s-III.017.a-001"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>: <ort>Privatpoliklinik für
-          chirurgisch Kranke (Albertstr. 13. I.)</ort>, <zeit>Mo., Mi. u. Fr.
-          12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1914s-III.017.a-001"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>:
+          <ort>Privatpoliklinik für chirurgisch Kranke (Albertstr. 13.
+          I.)</ort>, <zeit>Mo., Mi. u. Fr. 12-1 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
         </sachgruppe>
 
         <seite>23</seite>
@@ -2133,9 +2137,10 @@
           5)</ort>: <thema>Leistungsprüfung der Augen (mit Übungen)</thema>,
           <zeit>Do. 9-11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1914s-III.017.c-002"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>: <ort>In der
-          Privatpoliklinik für Augenkranke (Universitätsstr. 24. II.)</ort>:
+          <veranstaltung xml:id="v-1914s-III.017.c-002"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>: <ort>In der Privatpoliklinik
+          für Augenkranke (Universitätsstr. 24. II.)</ort>:
           <thema>Augenärztliches Praktikum</thema>, <zeit>dreimal wöchentlich,
           nach Verabredung, 11-12 U.</zeit>,
           <modus>privatissime</modus>.</veranstaltung>
@@ -3808,9 +3813,10 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
           <sachgruppe xml:id="sg-1914s-IV.C.002.I">
             <titel>I. Einführende Kurse.</titel>
 
-            <veranstaltung xml:id="v-1914s-IV.C.002.I-001">1) <dozent><grad>D.
-            ph.</grad> <nachname>Köhler</nachname></dozent>: <thema>Einführung
-            in die Bücherkunde der Geschichtswissenschaft und deren
+            <veranstaltung xml:id="v-1914s-IV.C.002.I-001">1) <dozent
+            ref="koehler_cg"><grad>D. ph.</grad>
+            <nachname>Köhler</nachname></dozent>: <thema>Einführung in die
+            Bücherkunde der Geschichtswissenschaft und deren
             Grenzwissenschaften. Für Anfänger, insbesondere jüngere Teilnehmer
             des Vorkurses</thema>, <zeit>So. 8½-10 U.
             vorm.</zeit></veranstaltung>
@@ -4980,7 +4986,7 @@ durch die student. Hilfskraft???-->
 
         <veranstaltung xml:id="v-1914s-IV.G-011"><thema>Roentgenröhren und
         Hochspannungserzeuger für ihren Betrieb vom physikalischen Standpunkte
-        betrachtet</thema>: <dozent><grad>D. ph.</grad>
+        betrachtet</thema>: <dozent ref="lilienfeld_je"><grad>D. ph.</grad>
         <nachname>Lilienfeld</nachname></dozent>, <zeit>Mo. 5-6 U.</zeit>,
         <modus>publice</modus>, <ort>im Physikal. Institut, Linnéstr.
         5</ort>.</veranstaltung>
@@ -5200,15 +5206,16 @@ durch die student. Hilfskraft???-->
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-043"><thema>Der geologische Aufbau
-        der Alpen</thema>: <dozent><grad>D. jur. et ph.</grad>
+        der Alpen</thema>: <dozent ref="krenkel_e"><grad>D. jur. et ph.</grad>
         <nachname>Krenkel</nachname></dozent>, <zeit>Mi. 5-7 U.</zeit>,
         <modus>privatim</modus>, <ort>im Mineral. Hörsaal, Talstr. 35,
         I.</ort></veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-044"><thema>Die deutschen Kolonien
-        in Afrika. Allgemeine Übersicht</thema>: <dozent><grad>D. jur. et
-        ph.</grad> <nachname>Krenkel</nachname></dozent>, <zeit>Fr. 5-7
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        in Afrika. Allgemeine Übersicht</thema>: <dozent
+        ref="krenkel_e"><grad>D. jur. et ph.</grad>
+        <nachname>Krenkel</nachname></dozent>, <zeit>Fr. 5-7 U.</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1914s-IV.G-045"><thema>Allgemeine
         Botanik</thema>: <dozent ref="pfeffer_w"><grad>D. ph., rer. nat., med.
@@ -5871,7 +5878,7 @@ durch die student. Hilfskraft???-->
       Turnlehrervereinigung</thema>, <zeit>Mi. u. So. 4-6 U. nachm.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
-      <absatz>Leiter: <dozent><funktion>Universitäts- und
+      <absatz>Leiter: <dozent ref="kuhr_h"><funktion>Universitäts- und
       Oberturnlehrer</funktion> <grad>D. ph.</grad>
       <nachname>Kuhr</nachname></dozent>.</absatz>
 

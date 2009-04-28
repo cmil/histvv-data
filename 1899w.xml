@@ -674,12 +674,12 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-II-034"><thema>Völkerrecht</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Kloeppel</nachname></dozent>,
-      <zeit>Mont. u. Donnerst. 6-7 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="kloeppel_p"><grad>D. jur.</grad>
+      <nachname>Kloeppel</nachname></dozent>, <zeit>Mont. u. Donnerst. 6-7
+      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-II-035"><thema>Geschichte der
-      Naturrechtslehre</thema>: <dozent><grad>D. jur.</grad>
+      Naturrechtslehre</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
       <nachname>Kloeppel</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1190,8 +1190,8 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1899w-III-054"><thema>Die Lehre von den
-      chirurgischen Operationen</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
+      chirurgischen Operationen</thema>: <dozent ref="lesser_l"><grad>D.
+      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
@@ -1210,7 +1210,7 @@
 
       <veranstaltung xml:id="v-1899w-III-057"><thema>Chirurgischer
       Verbandcursus mit besonderer Berücksichtigung der Knochenbrüche und
-      Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+      Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1584,10 +1584,11 @@
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1899w-III.002.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          12-1 U.</zeit>, <modus>privatim</modus>. (<ort>Turnerstr. 12.
+          <veranstaltung xml:id="v-1899w-III.002.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Turnerstr. 12.
           Erdg.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1899w-III.002.b-003"><dozent
@@ -1611,9 +1612,10 @@
           12-1 U.</zeit>, <modus>privatissime</modus>. (<ort>Nürnberger Str.
           22. I.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1899w-III.002.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <thema>Praktikum
-          für diejenigen Herren, welche die Technik des Augenspiegels inne
+          <veranstaltung xml:id="v-1899w-III.002.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <thema>Praktikum für
+          diejenigen Herren, welche die Technik des Augenspiegels inne
           haben</thema>, <zeit>drei- bis viermal wöchentl. nach Uebereinkunft
           11-12 U.</zeit>, <modus>privatissime</modus>. (<ort>Universitätsstr.
           24. II.</ort>)</veranstaltung>
@@ -2507,13 +2509,13 @@
           u. Freit. 11-12 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899w-IV.B.d-004"><thema>Tennyson, Life and
-          Works</thema>: <dozent><funktion>Lector</funktion>
+          Works</thema>: <dozent ref="lake_b"><funktion>Lector</funktion>
           <nachname>Lake</nachname></dozent>, <zeit>Mittw. und Sonnab. 4-5
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1899w-IV.B.d-005"><thema>Georege Eliot
-          "Romola" (für Studirende aller Facultäten)</thema>:
-          <dozent><funktion>Lektor</funktion>
+          "Romola" (für Studirende aller Facultäten)</thema>: <dozent
+          ref="lake_b"><funktion>Lektor</funktion>
           <nachname>Lake</nachname></dozent>, <zeit>Dienst. u. Donnerst. 6-7
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -2622,8 +2624,8 @@
           Shakespeare's Macbeth (hg. von Wagner, Halle Niemeyer)</thema>,
           <zeit>Mont. 6-8 U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr></veranstaltung>. - <veranstaltung
-          xml:id="v-1899w-IV.B.d-022">II. Abtheilung bei
-          <dozent><funktion>Lektor</funktion>
+          xml:id="v-1899w-IV.B.d-022">II. Abtheilung bei <dozent
+          ref="lake_b"><funktion>Lektor</funktion>
           <nachname>Lake</nachname></dozent>: <thema>Addison's Contributions
           to Spectator (Arnold's Ediction) und englische
           Sprechübungen</thema>, <zeit>Mont. u. Donnerst. 5-6 U., Mittw. u.
@@ -3386,9 +3388,10 @@
         <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
         Facultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent><grad>D.
-        jur.</grad> <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe
-        Juristische Facultät</siehe>.</veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent
+        ref="kloeppel_p"><grad>D. jur.</grad>
+        <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Social- und Verfassungsgeschichte des
         deutschen Volkes</thema>: <dozent ref="seeliger_g"><grad>D. ph.</grad>
@@ -3457,10 +3460,11 @@
         Anfänger)</thema>, <zeit>Donnerst. 3-5 U.</zeit></veranstaltung>,
         <veranstaltung xml:id="v-1899w-IV.E-026">b) <thema>Kursus für
         Vorgeschrittene</thema>, <zeit>Mittw. 5-7 U.</zeit></veranstaltung>,
-        <veranstaltung xml:id="v-1899w-IV.E-027">c)
-        <dozent><vorname>R.</vorname> <nachname>Lambert</nachname></dozent>,
-        (im Auftrage des Directors): <thema>Industrielle Kalkulation</thema>,
-        <zeit>in noch zu best. Zeit</zeit>, <modus>privatissime</modus>, aber
+        <veranstaltung xml:id="v-1899w-IV.E-027">c) <dozent
+        ref="lambert_r"><vorname>R.</vorname>
+        <nachname>Lambert</nachname></dozent>, (im Auftrage des Directors):
+        <thema>Industrielle Kalkulation</thema>, <zeit>in noch zu best.
+        Zeit</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung></veranstaltungsgruppe>. -
         <veranstaltung xml:id="v-1899w-IV.E-028">2) <dozent
         ref="stieda_w"><grad>D. ph. et oec. publ.</grad>
@@ -3595,9 +3599,10 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1899w-IV.F-009"><thema>Algebraische
-        Invariantentheorie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Kowalewski</nachname></dozent>, <zeit>dreistünd. in noch zu
-        best. Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
+        Invariantentheorie</thema>: <dozent ref="kowalewski_g"><grad>D.
+        ph.</grad> <nachname>Kowalewski</nachname></dozent>, <zeit>dreistünd.
+        in noch zu best. Stunden</zeit>,
+        <modus>privatim</modus>.</veranstaltung>
 
         <trennlinie/>
 

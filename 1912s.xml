@@ -311,8 +311,8 @@
       <thema>Abteilung für Vorgeschrittenere: Kanon und Text des Alten
       Testaments</thema>, <zeit>Fr. 5½-7 U.</zeit></veranstaltung>;
       <veranstaltung xml:id="v-1912s-I-036">b) <thema>Abteilung für
-      Anfänger</thema> <dozent>unter Leitung von <grad>Lic. th.</grad>
-      <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>:
+      Anfänger</thema> <dozent ref="kramer_o">unter Leitung von <grad>Lic.
+      th.</grad> <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>:
       <thema>Hebräische Elementargrammatik als Vorbereitung aufs
       Hebraicum</thema>, <zeit>in noch zu best. Zeit</zeit></veranstaltung>;
       <veranstaltungsgruppe>c) <thema>Abteilung für spätjüdische
@@ -1392,7 +1392,7 @@
 
           <veranstaltung xml:id="v-1912s-III.001.006-011"><thema>Chirurgische
           Operationslehre (<notiz betreff="fortsetzung">II.
-          Teil</notiz>)</thema>: <dozent><grad>D. med.</grad>
+          Teil</notiz>)</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
           <nachnamenpräfix>Frhr. von</nachnamenpräfix>
           <nachname>Lesser</nachname></dozent>, <zeit>Mi. 5-6 U.</zeit>,
           <modus>publice</modus>, <ort>in der Privatpoliklinik für chirurgisch
@@ -1400,8 +1400,8 @@
 
           <veranstaltung xml:id="v-1912s-III.001.006-012"><thema>Chirurgischer
           Verbandkursus mit besonderer Berücksichtigung der Knochenbrüche und
-          der Verrenkungen</thema> (<zeit>sechswöchig</zeit>):
-          <dozent><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          der Verrenkungen</thema> (<zeit>sechswöchig</zeit>): <dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
           von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
           <zeit>Mo. u. Fr. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>in der
           Privatpoliklinik f. chirurg. Kranke, Albertstr. 13.
@@ -1484,17 +1484,18 @@
           <veranstaltung
           xml:id="v-1912s-III.001.007-004"><thema>Geburtshilfliche
           Propädeutik: Einführung in die Physiologie und Pathologie der
-          Schwangerschaft und Geburt, mit Demonstrationen</thema>:
-          <dozent><grad>D. med.</grad>
+          Schwangerschaft und Geburt, mit Demonstrationen</thema>: <dozent
+          ref="lichtenstein_f"><grad>D. med.</grad>
           <nachname>Lichtenstein</nachname></dozent>, <zeit>Di., Do. u. Fr.
           5-6 U.</zeit>, <modus>privatim</modus>, <ort>in der
           Universitäts-Frauenklinik, Stephanstr. 7</ort>.</veranstaltung>
 
           <veranstaltung
           xml:id="v-1912s-III.001.007-005"><thema>Geburtshilfliche
-          Operationslehre mit Übungen am Phantom</thema>: <dozent><grad>D.
-          med.</grad> <nachname>Lichtenstein</nachname></dozent>, <zeit>Mo.,
-          Di., Do. u. Fr. 4-5 U.</zeit>, <modus>privatim</modus>, <ort>in der
+          Operationslehre mit Übungen am Phantom</thema>: <dozent
+          ref="lichtenstein_f"><grad>D. med.</grad>
+          <nachname>Lichtenstein</nachname></dozent>, <zeit>Mo., Di., Do. u.
+          Fr. 4-5 U.</zeit>, <modus>privatim</modus>, <ort>in der
           Universitäts-Frauenklinik, Stephanstr. 7</ort>.</veranstaltung>
         </sachgruppe>
 
@@ -1983,11 +1984,12 @@
         <sachgruppe xml:id="sg-1912s-III.002.b">
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung xml:id="v-1912s-III.002.b-001"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>: <ort>Privatpoliklinik für
-          chirurgisch Kranke (Albertstr. 13. I.)</ort>, <zeit>Mo., Mi. u. Fr.
-          12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1912s-III.002.b-001"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>:
+          <ort>Privatpoliklinik für chirurgisch Kranke (Albertstr. 13.
+          I.)</ort>, <zeit>Mo., Mi. u. Fr. 12-1 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1912s-III.002.c">
@@ -2011,9 +2013,10 @@
           14.1.)</ort>: <thema>Funktionsprüfung der Augen</thema>, <zeit>Mo.
           u. Fr. 8½-9½ U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1912s-III.002.d-002"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>: <ort>In der
-          Privatheilanstalt für Augenkranke (Universitätsstr. 24. II.)</ort>:
+          <veranstaltung xml:id="v-1912s-III.002.d-002"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>: <ort>In der Privatheilanstalt
+          für Augenkranke (Universitätsstr. 24. II.)</ort>:
           <thema>Augenärztliches Praktikum</thema>, <zeit>Di., Do. u. So.
           11-12 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
@@ -3584,7 +3587,8 @@
             <titel>I. Einführende Kurse.</titel>
 
             <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1912s-IV.C.002.I-001">1) <dozent><grad>D. ph.</grad>
+            xml:id="v-1912s-IV.C.002.I-001">1) <dozent
+            ref="koehler_a"><grad>D. ph.</grad>
             <nachname>Koehler</nachname></dozent>: <thema>Einführung in die
             Bücherkunde der Geschichtswissenschaft und deren
             Grenzwissenschaften, gemeinschaftliche Lektüre ausgewählter Stücke
@@ -4646,10 +4650,10 @@
         5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-005"><thema>Praxis der
-        Kälteerzeugung</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Lilienfeld</nachname></dozent>, <zeit>Do. 6 bis 7 U.</zeit>,
-        <modus>publice</modus>, <ort>im Physikal. Institut, Linnéstr.
-        5</ort>.</veranstaltung>
+        Kälteerzeugung</thema>: <dozent ref="lilienfeld_je"><grad>D.
+        ph.</grad> <nachname>Lilienfeld</nachname></dozent>, <zeit>Do. 6 bis 7
+        U.</zeit>, <modus>publice</modus>, <ort>im Physikal. Institut,
+        Linnéstr. 5</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1912s-IV.G-006"><thema>Ausgewählte Kapitel
         der Optik (Interferenzmethoden, Interferentialrefraktor, elliptische
@@ -5388,8 +5392,9 @@ VA-Gruppe also noch rückgängig machen)--></veranstaltungsgruppe>
       abgehalten; Näheres siehe: Anschlag am Schwarzen Brett, "Offizielle
       Mitteilungen" u. "Ordnung für den A. T. A. an der Universität
       Leipzig"</thema>. <zeit>Sonnabend 5-6</zeit> <gebühr>gratis</gebühr>.
-      Leiter: <dozent><funktion>Universitäts- und Oberturnlehrer</funktion>
-      <grad>D. ph.</grad> <nachname>Kuhr</nachname></dozent>.</veranstaltung>
+      Leiter: <dozent ref="kuhr_h"><funktion>Universitäts- und
+      Oberturnlehrer</funktion> <grad>D. ph.</grad>
+      <nachname>Kuhr</nachname></dozent>.</veranstaltung>
 
       <veranstaltung xml:id="v-1912s-001-004"><thema>Turnen an Geräten und
       Freiübungen in mehreren nach Fertigkeit geteilten Riegen</thema> <dozent

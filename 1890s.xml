@@ -514,14 +514,14 @@ der genannten Gesellschaft abgehalten werden. --></veranstaltungsgruppe>
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890s-II-019"><thema>Rechtsphilosophie</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Kloeppel</nachname></dozent>,
-      <zeit>Dienst., Mittw. u. Donnerst. 7-8 U. Vorm.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="kloeppel_p"><grad>D. jur.</grad>
+      <nachname>Kloeppel</nachname></dozent>, <zeit>Dienst., Mittw. u.
+      Donnerst. 7-8 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890s-II-020"><thema>Völkerrecht</thema>:
-      <dozent><grad>D. jur.</grad> <nachname>Kloeppel</nachname></dozent>,
-      <zeit>Dienst., Mittw. und Donnerst. 8-9 U. Vorm.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="kloeppel_p"><grad>D. jur.</grad>
+      <nachname>Kloeppel</nachname></dozent>, <zeit>Dienst., Mittw. und
+      Donnerst. 8-9 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890s-II-021"><thema>Deutsches Reichs- und
       Landesstaatsrecht</thema>: <dozent ref="friedberg_e"><grad>D.
@@ -972,14 +972,16 @@ der genannten Gesellschaft abgehalten werden. --></veranstaltungsgruppe>
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890s-III-044"><thema>Hautkrankheiten und
-      Syphilis (mit Krankendemonstrationen)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Lesser</nachname></dozent>, <zeit>Mont., Donnerst.
-      u. Sonnab., 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Syphilis (mit Krankendemonstrationen)</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>Mont., Donnerst. u. Sonnab.,
+      12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890s-III-045"><thema>Geschlecht<korrektur
-      original="s k">sk</korrektur>rankheiten</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Lesser</nachname></dozent>, <zeit>Freit. 12-1
-      U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      original="s k">sk</korrektur>rankheiten</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>Freit. 12-1 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890s-III-046"><thema>Allgemeine <korrektur
       original="T h e">The</korrektur>rapie und Hydrotherapie</thema>: <dozent
@@ -1026,10 +1028,11 @@ der genannten Gesellschaft abgehalten werden. --></veranstaltungsgruppe>
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890s-III-052"><thema>Chirurgischer
-      Verbandcursus mit Uebungen und Demonstrationen</thema>: <dozent><grad>D.
-      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-      <nachname>Lesser</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Verbandcursus mit Uebungen und Demonstrationen</thema>: <dozent
+      ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+      von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+      <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890s-III-053"><thema>Allgemeine
       Chirurgie</thema>: <dozent ref="tillmanns_rh"><grad>D. med.</grad>
@@ -1038,7 +1041,7 @@ der genannten Gesellschaft abgehalten werden. --></veranstaltungsgruppe>
       Donnerst. 5-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1890s-III-054"><thema>Abriss der
-      Kriegs-Chirurgie</thema>: <dozent><grad>D. med.</grad>
+      Kriegs-Chirurgie</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
@@ -1065,7 +1068,7 @@ der genannten Gesellschaft abgehalten werden. --></veranstaltungsgruppe>
 
       <veranstaltungsgruppe><thema>Augenärztliche Propädeutik (umfasst die
       äussere Untersuchung, Augenspiegel-Untersuchung und Funktions-Prüfung
-      des Auges)</thema>: <dozent><grad>D. med.</grad>
+      des Auges)</thema>: <dozent ref="kuester_f"><grad>D. med.</grad>
       <nachname>Küster</nachname></dozent>, <veranstaltung
       xml:id="v-1890s-III-058"><zeit>Mittw. u. Sonnab. 2-3
       U.</zeit></veranstaltung>, <veranstaltung xml:id="v-1890s-III-059">nebst
@@ -1358,10 +1361,11 @@ bemerkung in VA #1 ratsam gewesen.--></veranstaltungsgruppe>
           Demonstrationen</thema>, <zeit>Mittw. 4-6 U.</zeit>,
           <modus>privatim</modus>. (<ort>Kreuzstr. 6</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1890s-III.001.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          1½-2½ U.</zeit>, <modus>privatim</modus>. (<ort>Jablonowskystr
+          <veranstaltung xml:id="v-1890s-III.001.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 1½-2½ U.</zeit>,
+          <modus>privatim</modus>. (<ort>Jablonowskystr
           1</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1890s-III.001.b-003"><dozent
@@ -1398,9 +1402,10 @@ bemerkung in VA #1 ratsam gewesen.--></veranstaltungsgruppe>
           <modus>privatim</modus>. (<ort>Windm.-Str.
           32</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1890s-III.001.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <zeit>drei- bis
-          viermal wöchentlich, 12-1 oder 4-5 U., nach Uebereinkunft</zeit>,
+          <veranstaltung xml:id="v-1890s-III.001.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <zeit>drei- bis viermal
+          wöchentlich, 12-1 oder 4-5 U., nach Uebereinkunft</zeit>,
           <modus>privatim</modus>. (<ort>Grimm. Str.
           17</ort>.)</veranstaltung>
 
@@ -2680,9 +2685,9 @@ auf dem Scan. Ist aber zur Autopsie notiert.)-->
         <zeit>Mittw. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890s-IV.E-013"><thema>Die
-        Währungsfrage</thema>: <dozent><grad>D. rer. polit.</grad>
-        <nachname>Lotz</nachname></dozent>, <zeit>Donnerst. u. Freit. 4-5
-        U.</zeit>, <modus>publice</modus>.</veranstaltung>
+        Währungsfrage</thema>: <dozent ref="lotz_w"><grad>D. rer.
+        polit.</grad> <nachname>Lotz</nachname></dozent>, <zeit>Donnerst. u.
+        Freit. 4-5 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1890s-IV.E-014"><thema>Allgemeine
         Landwirthschaftslehre</thema>: <dozent ref="jacobi_v"><grad>D.
@@ -2734,8 +2739,9 @@ auf dem Scan. Ist aber zur Autopsie notiert.)-->
         E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent><grad>D.
-        jur.</grad> <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe
+        <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent
+        ref="kloeppel_p"><grad>D. jur.</grad>
+        <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe
         <gesperrt>Juristische
         Facultät</gesperrt></siehe>.</veranstaltungsverweis>
 
@@ -2785,8 +2791,8 @@ auf dem Scan. Ist aber zur Autopsie notiert.)-->
 
         <veranstaltung
         xml:id="v-1890s-IV.E-022"><thema>Staatswissenschaftliches
-        Seminar</thema>, unter Assistenz des <dozent><grad>D. rer.
-        polit.</grad> <nachname>Lotz</nachname></dozent>: <dozent
+        Seminar</thema>, unter Assistenz des <dozent ref="lotz_w"><grad>D.
+        rer. polit.</grad> <nachname>Lotz</nachname></dozent>: <dozent
         ref="brentano_l"><grad>D. ph. &amp; jur.</grad>
         <nachname>Brentano</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Mittw. 6-8 U. Ab.</zeit>, <modus>privatissime</modus>, aber

@@ -637,7 +637,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1897w-II-025"><thema>Internationales Privat-
-      und Strafrecht</thema>: <dozent><grad>D. jur.</grad>
+      und Strafrecht</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
       <nachname>Kloeppel</nachname></dozent>, <zeit>Mittw. u. Sonnab. 8-9
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -662,9 +662,9 @@
       <seite>9</seite>
 
       <veranstaltung xml:id="v-1897w-II-029"><thema>Ueber Rechtsstaat und
-      parlamentarische Verfassung</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Klöppel</nachname></dozent>, <zeit>Mont. 6-7 U.</zeit>,
-      <gebühr>gratis</gebühr>.</veranstaltung>
+      parlamentarische Verfassung</thema>: <dozent ref="kloeppel_p"><grad>D.
+      jur.</grad> <nachname>Klöppel</nachname></dozent>, <zeit>Mont. 6-7
+      U.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1897w-II-030"><thema>Völkerrecht</thema>:
       <dozent ref="friedberg_e"><grad>D. jur.</grad>
@@ -1220,7 +1220,7 @@
 
       <veranstaltung xml:id="v-1897w-III-063"><thema>Chirurgischer
       Verbandcursus mit besonderer Verücksichtigung der Knochenbrüche und
-      Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+      Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1253,10 +1253,10 @@
       <seite>15</seite>
 
       <veranstaltung xml:id="v-1897w-III-068"><thema>Chirurgische Eingriffe
-      bei lebensgefährlichen Zuständen</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-      <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      bei lebensgefährlichen Zuständen</thema>: <dozent
+      ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+      von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>, <zeit>Mittw.
+      6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1897w-III-069"><thema>Ueber
       Nierenchirurgie</thema>: <dozent ref="wagner_p"><grad>D. med.</grad>
@@ -1274,11 +1274,11 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1897w-III-071"><thema>Augenärztliche
-      Propädeutik einschliesslich Augenspiegelcursus</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Küster</nachname></dozent>, <zeit>Mittw. u.
-      Sonnab. 2-3 U.</zeit>, nebst zwei <thema>Augenspiegel-Uebungen</thema>
-      <zeit>in den Abendstunden</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Propädeutik einschliesslich Augenspiegelcursus</thema>: <dozent
+      ref="kuester_f"><grad>D. med.</grad>
+      <nachname>Küster</nachname></dozent>, <zeit>Mittw. u. Sonnab. 2-3
+      U.</zeit>, nebst zwei <thema>Augenspiegel-Uebungen</thema> <zeit>in den
+      Abendstunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1897w-III-072"><thema>Funktionsprüfungen des
       Auges mit praktischen Uebungen</thema>: <dozent ref="sattler_h"><grad>D.
@@ -1633,10 +1633,11 @@
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1897w-III.002.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          12-1 U.</zeit>, <modus>privatim</modus>. (<ort>Windmühlenstrasse
+          <veranstaltung xml:id="v-1897w-III.002.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Windmühlenstrasse
           35.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1897w-III.002.b-003"><dozent
@@ -1671,8 +1672,9 @@
           12-1 U.</zeit>, <modus>privatissime</modus>. (<ort>Nürnberger Str.
           22. I.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1897w-III.002.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <thema
+          <veranstaltung xml:id="v-1897w-III.002.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <thema
           kontext="sachgruppe">für diejenigen Herren, welche die Technik des
           Augenspiegels besitzen</thema>, <zeit>drei- bis viermal wöchentl. an
           näher zu best. Tagen 11-12 oder 12 bis 1 U.</zeit>,
@@ -3317,7 +3319,7 @@
 
         <veranstaltung xml:id="v-1897w-IV.E-008"><thema>Grundzüge der
         doppelten Buchführung und deren Anwendung auf einen industriellen
-        Grossbetrieb</thema>: <dozent><vorname>R.</vorname>
+        Grossbetrieb</thema>: <dozent ref="lambert_r"><vorname>R.</vorname>
         <nachname>Lambert</nachname>, <funktion>Lehrer an der öffentl.
         Handelslehranstalt</funktion></dozent> (im Auftrag von D. ph. Bücher,
         P. O.), <zeit>zu noch zu best. Zeit</zeit> (nur für die Mitglieder des
@@ -3419,7 +3421,7 @@
         Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Rechtsstaat und parlamentarische
-        Verfassung</thema>: <dozent><grad>D. jur.</grad>
+        Verfassung</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
         <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
         Facultät</siehe>.</veranstaltungsverweis>
 

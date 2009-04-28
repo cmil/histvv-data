@@ -512,9 +512,10 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1888w-II-021"><thema>Allgemeine Rechtslehre
-      (Rechtsphilosophie)</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Kloeppel</nachname></dozent>, <zeit>Mont., Dienst., Donnerst.
-      u. Freit. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      (Rechtsphilosophie)</thema>: <dozent ref="kloeppel_p"><grad>D.
+      jur.</grad> <nachname>Kloeppel</nachname></dozent>, <zeit>Mont.,
+      Dienst., Donnerst. u. Freit. 6-7 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1888w-II-022"><thema>Kirchenrecht mit
       Einschluss des Eherechts auf Grundlage seines Lehrbuches des
@@ -900,14 +901,16 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1888w-III-036"><thema>Hautkrankheiten und
-      Syphilis (mit Krankendemonstrationen)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Lesser</nachname></dozent>, <zeit>Mont., Donnerst.
-      und Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Syphilis (mit Krankendemonstrationen)</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>Mont., Donnerst. und Sonnab.
+      12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung
-      xml:id="v-1888w-III-037"><thema>Geschlechtskrankkeiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lesser</nachname></dozent>,
-      <zeit>Freit. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      xml:id="v-1888w-III-037"><thema>Geschlechtskrankkeiten</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>Freit. 12-1 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1888w-III-038"><thema>Allgemeine Therapie und
       Hydrotherapie</thema>: <dozent ref="naumann_o"><grad>D. med.</grad>
@@ -940,12 +943,12 @@
 
       <veranstaltung xml:id="v-1888w-III-043"><thema>Ueber lebensrettende
       Operationen (Behandlung von Blutungen, Erstickungen u. s. w.)</thema>:
-      <dozent><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+      <dozent ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
       von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>, <zeit>Mittw.
       6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1888w-III-044"><thema>Chirurgische Verbandlehre
-      und Operationslehre</thema>: <dozent><grad>D. med.</grad>
+      und Operationslehre</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -991,7 +994,8 @@
       <veranstaltungsgruppe><veranstaltung
       xml:id="v-1888w-III-051"><thema>Augenärztliche Propädeutik (umfassend
       die äussere Untersuchung, Augenspiegel-Untersuchung und
-      Funktions-Prüfung)</thema></veranstaltung>: <dozent><grad>D. med.</grad>
+      Funktions-Prüfung)</thema></veranstaltung>: <dozent
+      ref="kuester_f"><grad>D. med.</grad>
       <nachname>Küster</nachname></dozent>, <zeit>Mittw. u. Sonnab. 2-3
       U.</zeit>, nebst <veranstaltung xml:id="v-1888w-III-052"><thema>zwei
       Augenspiegel-Uebungen</thema> <zeit>in den
@@ -1221,11 +1225,11 @@
           und klinische Demonstrationen</thema>, <zeit>Sonnab. 4-6 U.</zeit>,
           <modus>privatim</modus>. (<ort>Kreuzstr. 6</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1888w-III.001.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Freiherr von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw u. Freit.
-          2-3 U.</zeit>, <modus>privatim</modus>. (<ort>Leplaystr.
-          2</ort>.)</veranstaltung>
+          <veranstaltung xml:id="v-1888w-III.001.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Freiherr
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw u. Freit. 2-3 U.</zeit>, <modus>privatim</modus>.
+          (<ort>Leplaystr. 2</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1888w-III.001.b-003"><dozent
           ref="koelliker_t"><grad>D. med.</grad>
@@ -1257,9 +1261,10 @@
           Stunden</zeit>, <modus>privatim</modus>. (<ort>Windm.-Str.
           32</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1888w-III.001.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <zeit>drei- bis
-          viermal wöchentlich, an zu best. Tagen, 12-1 U.</zeit>,
+          <veranstaltung xml:id="v-1888w-III.001.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <zeit>drei- bis viermal
+          wöchentlich, an zu best. Tagen, 12-1 U.</zeit>,
           <modus>privatim</modus>. (<ort>Grimm. Str.
           22</ort>.)</veranstaltung>
         </sachgruppe>
@@ -2467,9 +2472,9 @@ die sonst nicht gekennzeichnet wird)--></ort></thema>: <dozent
         <siehe>Siehe Juristische Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Allgemeine Rechtslehre
-        (Rechtsphilosophie)</thema>: <dozent><grad>D. jur.</grad>
-        <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
-        Facultät.</siehe></veranstaltungsverweis>
+        (Rechtsphilosophie)</thema>: <dozent ref="kloeppel_p"><grad>D.
+        jur.</grad> <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe
+        Juristische Facultät.</siehe></veranstaltungsverweis>
 
         <trennlinie/>
 

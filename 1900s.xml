@@ -757,9 +757,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900s-II-035"><thema>Ueber Rechtsstaat und
-      parlamentarische Verfassung</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Kloeppel</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
-      <gebühr>gratis</gebühr>.</veranstaltung>
+      parlamentarische Verfassung</thema>: <dozent ref="kloeppel_p"><grad>D.
+      jur.</grad> <nachname>Kloeppel</nachname></dozent>, <zeit>Mittw. 6-7
+      U.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900s-II-036"><thema>Völkerrecht</thema>:
       <dozent ref="triepel_h"><grad>D. jur.</grad>
@@ -1311,7 +1311,7 @@ Gruppen abgehalten werden kann; vgl. "oder")--></veranstaltung>
 
       <veranstaltung xml:id="v-1900s-III-057"><thema>Chirurgischer
       Verbandcursus mit besonderer Berücksichtigung der Knochenbrüche und
-      Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+      Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 7-8 U.
       Ab.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1337,7 +1337,7 @@ Gruppen abgehalten werden kann; vgl. "oder")--></veranstaltung>
       <zeit>Donnerst. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900s-III-062"><thema>Abriss der
-      Kriegschirurgie</thema>: <dozent><grad>D. med.</grad>
+      Kriegschirurgie</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 7-8 U. Ab.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -1706,10 +1706,11 @@ in den Kontext eingebunden werden)-->
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           (<ort>Marienstr. 10.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1900s-III.002.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          12-1 U.</zeit>, <modus>privatim</modus>. (<ort>Turnerstr. 12.
+          <veranstaltung xml:id="v-1900s-III.002.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Turnerstr. 12.
           Erdg.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1900s-III.002.b-003"><dozent
@@ -1732,8 +1733,9 @@ in den Kontext eingebunden werden)-->
           12-1 U.</zeit>, <modus>privatissime</modus>. (<ort>Nürnberger Str.
           22. I.</ort>)</veranstaltung>
 
-          <veranstaltung xml:id="v-1900s-III.002.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <thema
+          <veranstaltung xml:id="v-1900s-III.002.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <thema
           kontext="sachgruppe">für solche Herren, welche die Technik des
           Augenspiegelns beherrschen</thema>, <zeit>drei- bis viermal
           wöchentlich 11-12 U.</zeit>, <modus>privatissime</modus>.
@@ -2701,7 +2703,8 @@ in den Kontext eingebunden werden)-->
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1900s-IV.B.d-003"><thema>William Wordsworth
-          Poet Laureate</thema>: <dozent><funktion>Lector</funktion>
+          Poet Laureate</thema>: <dozent
+          ref="lake_b"><funktion>Lector</funktion>
           <nachname>Lake</nachname></dozent>, <zeit>Mittw. 4-5 U.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
@@ -2799,8 +2802,8 @@ in den Kontext eingebunden werden)-->
           O.</funktion></dozent><korrektur>,</korrektur> <zeit>Mont. 6-8
           U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>unentgeltlich</gebühr>.</veranstaltung> -
-          <veranstaltungsgruppe><thema>Englisches Proseminar</thema>
-          (<dozent>unter Leitung des <funktion>Lector</funktion>
+          <veranstaltungsgruppe><thema>Englisches Proseminar</thema> (<dozent
+          ref="lake_b">unter Leitung des <funktion>Lector</funktion>
           <nachname>Lake</nachname></dozent>): <veranstaltung
           xml:id="v-1900s-IV.B.d-018"><thema>Macaulay's ausgewählte
           Essays</thema>, <zeit>Freit. 11-1 U.</zeit></veranstaltung> -
@@ -3635,7 +3638,7 @@ in den Kontext eingebunden werden)-->
         Facultät</gesperrt>.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Ueber Rechtsstaat und parlamentarische
-        Verfassung</thema>: <dozent><grad>D. jur.</grad>
+        Verfassung</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
         <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe
         <gesperrt>Juristische
         Facultät</gesperrt>.</siehe></veranstaltungsverweis>
@@ -3691,8 +3694,8 @@ in den Kontext eingebunden werden)-->
         ref="eulenburg_f"><grad>D. ph.</grad>
         <nachname>Eulenburg</nachname></dozent>: <thema>Vorbereitungskursus
         für Anfänger</thema></veranstaltung>, <veranstaltung
-        xml:id="v-1900s-IV.E-028">b) durch
-        <dozent><funktion>Oberlehrer</funktion> <vorname>R.</vorname>
+        xml:id="v-1900s-IV.E-028">b) durch <dozent
+        ref="lambert_r"><funktion>Oberlehrer</funktion> <vorname>R.</vorname>
         <nachname>Lambert</nachname></dozent>: <thema>Grundsätze der
         Buchhaltung</thema></veranstaltung>, <zeit>zu noch zu best.
         Zeit</zeit>, <veranstaltung xml:id="v-1900s-IV.E-029">c) durch <dozent
@@ -3870,18 +3873,18 @@ in den Kontext eingebunden werden)-->
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900s-IV.F-011"><thema>Analytische Geometrie
-        der Ebene und des Raumes</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Kowalewski</nachname></dozent>, <zeit>Dienst., Mittw.,
-        Donnerst. u. Freit. 12-1 U.</zeit>,
+        der Ebene und des Raumes</thema>: <dozent ref="kowalewski_g"><grad>D.
+        ph.</grad> <nachname>Kowalewski</nachname></dozent>, <zeit>Dienst.,
+        Mittw., Donnerst. u. Freit. 12-1 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900s-IV.F-012"><thema>Uebungen zur
-        analytischen Geometrie</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Kowalewski</nachname></dozent>, <zeit>Freit. 10-11
-        U.</zeit>, <modus>publice</modus>.</veranstaltung>
+        analytischen Geometrie</thema>: <dozent ref="kowalewski_g"><grad>D.
+        ph.</grad> <nachname>Kowalewski</nachname></dozent>, <zeit>Freit.
+        10-11 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900s-IV.F-013"><thema>Ueber die Quadratur
-        des Kreises</thema>: <dozent><grad>D. ph.</grad>
+        des Kreises</thema>: <dozent ref="kowalewski_g"><grad>D. ph.</grad>
         <nachname>Kowalewski</nachname></dozent>, <zeit>Donnerst. u. Freit.
         9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 

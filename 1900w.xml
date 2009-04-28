@@ -678,7 +678,7 @@
       Stunden</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-II-024"><thema>Allgemeines
-      Staatsrecht</thema>: <dozent><grad>D. jur.</grad>
+      Staatsrecht</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
       <nachname>Kloeppel</nachname></dozent>, <zeit>Mont. u. Donnerst. 5-6
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -784,9 +784,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-II-041"><thema>Allgemeine Rechtslehre
-      (Rechtsphilosophie)</thema>: <dozent><grad>D. jur.</grad>
-      <nachname>Kloeppel</nachname></dozent>, <zeit>Mont., Dienst. u.
-      Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      (Rechtsphilosophie)</thema>: <dozent ref="kloeppel_p"><grad>D.
+      jur.</grad> <nachname>Kloeppel</nachname></dozent>, <zeit>Mont., Dienst.
+      u. Donnerst. 6-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <trennlinie/>
 
@@ -1328,8 +1328,8 @@ weil er für diese Veranstaltung kein Dozent ist.
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-056"><thema>Die Lehre von den
-      chirurgischen Operationen</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
+      chirurgischen Operationen</thema>: <dozent ref="lesser_l"><grad>D.
+      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
@@ -1348,7 +1348,7 @@ weil er für diese Veranstaltung kein Dozent ist.
 
       <veranstaltung xml:id="v-1900w-III-059"><thema>Chirurgischer
       Verbandcursus mit besonderer Berücksichtigung der Knochenbrüche und
-      Verrenkungen</thema>: <dozent><grad>D. med.</grad>
+      Verrenkungen</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1735,10 +1735,11 @@ weil er für diese Veranstaltung kein Dozent ist.
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
           <ort>(Marienstr. 10.)</ort></veranstaltung>
 
-          <veranstaltung xml:id="v-1900w-III.002.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          12-1 U.</zeit>, <modus>privatim</modus>. <ort>(Turnerstr. 12.
+          <veranstaltung xml:id="v-1900w-III.002.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
+          <modus>privatim</modus>. <ort>(Turnerstr. 12.
           Erdg.)</ort></veranstaltung>
 
           <veranstaltung xml:id="v-1900w-III.002.b-003"><dozent
@@ -1761,9 +1762,10 @@ weil er für diese Veranstaltung kein Dozent ist.
           <funktion>P. E.</funktion></dozent> <ort>(Grimm. Steinweg 9.
           I.)</ort></veranstaltung>
 
-          <veranstaltung xml:id="v-1900w-III.002.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <thema>Praktikum
-          für diejenigen Herren, welche die Technik des Augenspiegelns sich
+          <veranstaltung xml:id="v-1900w-III.002.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <thema>Praktikum für
+          diejenigen Herren, welche die Technik des Augenspiegelns sich
           angeeignet haben</thema>, <zeit>dreimal wöchentl. nach Uebereinkunft
           11-12 U.</zeit>, <modus>privatissime</modus>. <ort>(Universitätsstr.
           24. II.)</ort></veranstaltung>
@@ -2005,9 +2007,10 @@ weil er für diese Veranstaltung kein Dozent ist.
         <nachname>Fricker</nachname>, <funktion>P. O.</funktion></dozent>
         <siehe>Siehe Abschnitt E.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Rechtsphilosophie</thema>:
-        <dozent><grad>D. jur.</grad> <nachname>Kloeppel</nachname></dozent>.
-        <siehe>Siehe Juristische Facultät.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Rechtsphilosophie</thema>: <dozent
+        ref="kloeppel_p"><grad>D. jur.</grad>
+        <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
+        Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Pädagogik und Geschichte
         derselben</thema>: <dozent ref="hofmann_r"><grad>D. th. et ph.</grad>
@@ -2828,7 +2831,7 @@ weil er für diese Veranstaltung kein Dozent ist.
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-IV.B.d-021"><thema>Englisches
-          Praktikum</thema>: <dozent><funktion>Lector</funktion>
+          Praktikum</thema>: <dozent ref="lake_b"><funktion>Lector</funktion>
           <nachname>Lake</nachname></dozent>, <zeit>Mont. u. Donnerst. 4-5
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -3656,9 +3659,10 @@ weil er für diese Veranstaltung kein Dozent ist.
         <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
         Facultät.</siehe></veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Allgemeines Staatsrecht</thema>:
-        <dozent><grad>D. jur.</grad> <nachname>Kloeppel</nachname></dozent>.
-        <siehe>Siehe Juristische Facultät.</siehe></veranstaltungsverweis>
+        <veranstaltungsverweis><thema>Allgemeines Staatsrecht</thema>: <dozent
+        ref="kloeppel_p"><grad>D. jur.</grad>
+        <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
+        Facultät.</siehe></veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsches Reichs- und
         Landesstaatsrecht</thema>: <dozent ref="binding_kll"><grad>D.
@@ -3717,10 +3721,11 @@ weil er für diese Veranstaltung kein Dozent ist.
         ref="eulenburg_f"><grad>D. ph.</grad>
         <nachname>Eulenburg</nachname></dozent></veranstaltung>, <thema>Kursus
         für Anfänger</thema>, <zeit>Sonnab. 9 bis 11
-        U.</zeit></veranstaltungsgruppe>, <thema>c)</thema> <dozent>Oberlehrer
-        <vorname>R.</vorname> <nachname>Lambert</nachname></dozent>:
-        <thema>Technik des Effectengeschäftes der Banken</thema>, <zeit>in
-        noch zu best. Zeit</zeit>, <modus>privatissime</modus>, aber
+        U.</zeit></veranstaltungsgruppe>, <thema>c)</thema> <dozent
+        ref="lambert_r">Oberlehrer <vorname>R.</vorname>
+        <nachname>Lambert</nachname></dozent>: <thema>Technik des
+        Effectengeschäftes der Banken</thema>, <zeit>in noch zu best.
+        Zeit</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltungsgruppe>. - <veranstaltung
         xml:id="v-1900w-IV.E-030"><thema>2)</thema> <dozent
         ref="fricker_cv"><grad>D. ph., jur. et oec. publ.</grad>
@@ -3862,15 +3867,15 @@ weil er für diese Veranstaltung kein Dozent ist.
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.F-010"><thema>Theorie und Anwendung
-        der Determinanten</thema>: <dozent><grad>D. ph.</grad>
-        <nachname>Kowalewski</nachname></dozent>, <zeit>Dienst. u. Mittw. 8-9
-        U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+        der Determinanten</thema>: <dozent ref="kowalewski_g"><grad>D.
+        ph.</grad> <nachname>Kowalewski</nachname></dozent>, <zeit>Dienst. u.
+        Mittw. 8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.F-011"><thema>Theorie der partiellen
         Differentialgleichungen (für Mathematiker und Naturforscher)</thema>:
-        <dozent><grad>D. ph.</grad> <nachname>Kowalewski</nachname></dozent>,
-        <zeit>Dienst. u. Donnerst. 9-10 U.</zeit>,
-        <modus>privatim</modus>.</veranstaltung>
+        <dozent ref="kowalewski_g"><grad>D. ph.</grad>
+        <nachname>Kowalewski</nachname></dozent>, <zeit>Dienst. u. Donnerst.
+        9-10 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.F-012"><thema>Elementare
         Zahlentheorie</thema>: <dozent ref="liebmann_h"><grad>D. ph.</grad>
@@ -3928,9 +3933,9 @@ weil er für diese Veranstaltung kein Dozent ist.
         <veranstaltung xml:id="v-1900w-IV.F-020"><thema>Uebungen über
         Differentialinvarinaten</thema>: <dozent ref="engel_f"><grad>D.
         ph.</grad> <nachname>Engel</nachname>, <funktion>P. O.
-        Hon.</funktion></dozent> und <dozent><grad>D. ph.</grad>
-        <nachname>Kowalewski</nachname></dozent>, <zeit>Dienst. 4-5 U.</zeit>,
-        <modus>privatissime</modus>, aber
+        Hon.</funktion></dozent> und <dozent ref="kowalewski_g"><grad>D.
+        ph.</grad> <nachname>Kowalewski</nachname></dozent>, <zeit>Dienst. 4-5
+        U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
       </sachgruppe>
 

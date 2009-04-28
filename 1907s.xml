@@ -285,9 +285,9 @@
       th. et ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
       O.</funktion></dozent>, <veranstaltung xml:id="v-1907s-I-035">a)
       <thema>Abteilung für Anfänger: Hebräische Elementargrammatik als
-      Vorbereitung aufs Hebraicum</thema>, <dozent>unter Leitung von <grad>D.
-      ph.</grad> <nachname>Kramer</nachname></dozent>, <zeit>in noch zu best.
-      Zeit</zeit>, <modus>privatissime</modus> et
+      Vorbereitung aufs Hebraicum</thema>, <dozent ref="kramer_o">unter
+      Leitung von <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>,
+      <zeit>in noch zu best. Zeit</zeit>, <modus>privatissime</modus> et
       <gebühr>gratis</gebühr></veranstaltung>; <veranstaltung
       xml:id="v-1907s-I-036">b) <thema>Proseminar: Abteilung für jüngere (auch
       erste) Semester: Kursorische Lektüre des Richterbuches</thema>,
@@ -1793,11 +1793,12 @@ lässt sich nicht gleichzeitig auszeichnen-->
 
       <veranstaltung xml:id="v-1907s-III-081"><thema>Chirurgischer
       Verbandkursus mit besonderer Berücksichtigung der Knochenbrüche und der
-      Verrenkungen</thema> (<zeit>sechswöchig</zeit>): <dozent><grad>D.
-      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-      <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 5-6
-      U.</zeit>, <modus>privatim</modus>, <ort>in der Privatpoliklinik für
-      chirurg. Kranke, Bayersche Str. 12. I.</ort></veranstaltung>
+      Verrenkungen</thema> (<zeit>sechswöchig</zeit>): <dozent
+      ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+      von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>, <zeit>Mont.
+      u. Freit. 5-6 U.</zeit>, <modus>privatim</modus>, <ort>in der
+      Privatpoliklinik für chirurg. Kranke, Bayersche Str. 12.
+      I.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-082"><thema>Kriegschirurgie und
       Feldsanitätsdienst</thema>: <dozent ref="koelliker_t"><grad>D.
@@ -1807,7 +1808,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
       Universitätsstr. 13. Erdg.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1907s-III-083"><thema>Abriß der
-      Kriegschirurgie</thema>: <dozent><grad>D. med.</grad>
+      Kriegschirurgie</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 5-6 U.</zeit>,
       <modus>publice</modus>, <ort>in der Poliklinik für chirurgisch Kranke,
@@ -2143,12 +2144,12 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <sachgruppe xml:id="sg-1907s-III.001.b">
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung xml:id="v-1907s-III.001.b-001"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <thema>Privatpoliklinik für
-          chirurgisch Kranke</thema> (<ort>Bayersche Str. 12. I.</ort>),
-          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1907s-III.001.b-001"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <thema>Privatpoliklinik für chirurgisch Kranke</thema>
+          (<ort>Bayersche Str. 12. I.</ort>), <zeit>Mont., Mittw. u. Freit.
+          12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1907s-III.001.c">
@@ -2162,9 +2163,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
           Funktionsprüfungen)</thema>, <zeit>Mont. u. Donnerst. ½9-½10
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1907s-III.001.c-002"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>: <ort>In der
-          Privatheilanstalt für Augenkranke (Universitätsstr. 24. II.)</ort>:
+          <veranstaltung xml:id="v-1907s-III.001.c-002"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>: <ort>In der Privatheilanstalt
+          für Augenkranke (Universitätsstr. 24. II.)</ort>:
           <thema>Augenärztliches Praktikum</thema>, <zeit>drei- bis viermal
           wöchentl. 11-12 U.</zeit>,
           <modus>privatissime</modus>.</veranstaltung>
@@ -2313,9 +2315,10 @@ lässt sich nicht gleichzeitig auszeichnen-->
       E.</funktion></dozent> <siehe>Siehe Philosophische Fakultät
       G.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Analytische Chemie</thema>:
-      <dozent><grad>D. ph.</grad> <nachname>Lockemann</nachname></dozent>.
-      <siehe>Siehe Philosophische Fakultät G.</siehe></veranstaltungsverweis>
+      <veranstaltungsverweis><thema>Analytische Chemie</thema>: <dozent
+      ref="lockemann_g"><grad>D. ph.</grad>
+      <nachname>Lockemann</nachname></dozent>. <siehe>Siehe Philosophische
+      Fakultät G.</siehe></veranstaltungsverweis>
 
       <veranstaltungsgruppe><veranstaltungsverweis><thema>Technik der
       Experimentalchemie</thema></veranstaltungsverweis>. -
@@ -5612,7 +5615,7 @@ lässt sich nicht gleichzeitig auszeichnen-->
         Physikal.-chemischen Institut, Linnéstr. 2</ort>.</veranstaltung>
 
         <veranstaltung xml:id="v-1907s-IV.G-014"><thema>Analytische
-        Chemie</thema>: <dozent><grad>D. ph.</grad>
+        Chemie</thema>: <dozent ref="lockemann_g"><grad>D. ph.</grad>
         <nachname>Lockemann</nachname></dozent>, <zeit>Dienst. u. Freit. 11-12
         U.</zeit>, <modus>privatim</modus>, <ort>im Laboratorium für
         angewandte Chemie, Brüderstr. 34</ort>.</veranstaltung>
@@ -6113,8 +6116,8 @@ lässt sich nicht gleichzeitig auszeichnen-->
         <veranstaltung xml:id="v-1907s-IV.G-064"><thema>Chemisches
         Vollpraktikum für Vorgerücktere</thema>: <dozent
         ref="beckmann_e"><grad>D. ph.</grad> <nachname>Beckmann</nachname>,
-        <funktion>P. O.</funktion></dozent>, <dozent>mit <grad>D. ph.</grad>
-        <nachname>Lockemann</nachname></dozent>, <dozent
+        <funktion>P. O.</funktion></dozent>, <dozent ref="lockemann_g">mit
+        <grad>D. ph.</grad> <nachname>Lockemann</nachname></dozent>, <dozent
         ref="heller_g"><grad>D. ph.</grad>
         <nachname>Heller</nachname></dozent> u. <dozent
         ref="deussen_e"><grad>D. ph.</grad>

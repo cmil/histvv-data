@@ -936,18 +936,18 @@
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886w-III-038"><thema>Hautkrankheiten und
-      Syphilis (mit Krankendemonstrationen)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Lesser</nachname></dozent>, <zeit>dreimal
-      wöchentlich, an zu best. Tagen, 12-1 U.</zeit>,
-      <modus>privatim</modus>.</veranstaltung>
+      Syphilis (mit Krankendemonstrationen)</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>dreimal wöchentlich, an zu
+      best. Tagen, 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <seite>12</seite>
 
       <veranstaltung
-      xml:id="v-1886w-III-039"><thema>Geschlechtskrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lesser</nachname></dozent>,
-      <zeit>einmal wöchentlich an zu best. Tage, 12-1 U.</zeit>,
-      <modus>publice</modus>.</veranstaltung>
+      xml:id="v-1886w-III-039"><thema>Geschlechtskrankheiten</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>einmal wöchentlich an zu
+      best. Tage, 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886w-III-040"><thema>Hydrotherapie und
       allgemeine Pharmakodynamik</thema>: <dozent ref="naumann_o"><grad>D.
@@ -987,13 +987,13 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886w-III-046"><thema>Die lebensrettenden
-      Operationen bei Lebensgefahr</thema>: <dozent><grad>D. med.</grad>
-      <nachnamenpräfix>Frhr. von</nachnamenpräfix>
+      Operationen bei Lebensgefahr</thema>: <dozent ref="lesser_l"><grad>D.
+      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1886w-III-047"><thema>Chirurgischer
-      Verbandcursus</thema>: <dozent><grad>D. med.</grad>
+      Verbandcursus</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -1032,7 +1032,7 @@
       <veranstaltungsgruppe><veranstaltung
       xml:id="v-1886w-III-053"><thema>Augenärztliche Propädeutik (umfassend
       die äussere Untersuchung, Augenspiegel-Untersuchung und Funktionsprüfung
-      des Auges)</thema>: <dozent><grad>D. med.</grad>
+      des Auges)</thema>: <dozent ref="kuester_f"><grad>D. med.</grad>
       <nachname>Küster</nachname></dozent>, <zeit>Mittw. u. Sonnab. 2-3
       U.</zeit></veranstaltung>, nebst <veranstaltung
       xml:id="v-1886w-III-054"><thema>Augenspiegel-Uebungen</thema><!--(Dozent nachtragen!)-->
@@ -1260,11 +1260,11 @@
         <sachgruppe xml:id="sg-1886w-III.001.a">
           <titel>a) Chirurgie.</titel>
 
-          <veranstaltung xml:id="v-1886w-III.001.a-001"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Freiherr von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          2-3 U.</zeit>, <modus>privatim</modus>. (<ort>Leplaystr.
-          2</ort>.)</veranstaltung>
+          <veranstaltung xml:id="v-1886w-III.001.a-001"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Freiherr
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 2-3 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Leplaystr. 2</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1886w-III.001.a-002"><dozent
           ref="koelliker_t"><grad>D. med.</grad>
@@ -1296,9 +1296,10 @@
           Tagen 12-1 U.</zeit>, <modus>privatim</modus> (<ort>Windm.-Str.
           32</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1886w-III.001.b-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, <zeit>drei- bis
-          viermal wöchentlich an zu best. Tagen, 12-1 U.</zeit>,
+          <veranstaltung xml:id="v-1886w-III.001.b-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, <zeit>drei- bis viermal
+          wöchentlich an zu best. Tagen, 12-1 U.</zeit>,
           <modus>privatim</modus>. (<ort>Grimm. Str.
           22</ort>.)</veranstaltung>
         </sachgruppe>
@@ -2313,13 +2314,13 @@
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1886w-IV.D-010"><thema>Musikalische
-        Formenlehre</thema>: <dozent><grad>D. ph.</grad>
+        Formenlehre</thema>: <dozent ref="langer_h"><grad>D. ph.</grad>
         <nachname>Langer</nachname>, <funktion>P.</funktion></dozent>,
         <zeit>Dienst. u. Freit. 3-4 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1886w-IV.D-011"><thema>Allgemeine
-        Musiklehre</thema>: <dozent><grad>D. ph.</grad>
+        Musiklehre</thema>: <dozent ref="langer_h"><grad>D. ph.</grad>
         <nachname>Langer</nachname>, <funktion>P.</funktion></dozent>,
         <zeit>Mittw. u. Sonnab. 3-4 U.</zeit>,
         <modus>publice</modus>.</veranstaltung>
@@ -2357,14 +2358,14 @@
         <trennlinie/>
 
         <veranstaltung xml:id="v-1886w-IV.D-016"><thema>Liturgische
-        Gesangsübungen (in mehreren Abtheilungen)</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Langer</nachname>,
+        Gesangsübungen (in mehreren Abtheilungen)</thema>: <dozent
+        ref="langer_h"><grad>D. ph.</grad> <nachname>Langer</nachname>,
         <funktion>P.</funktion></dozent>, <zeit>Mont., Mittw., Freit. 6-7
         U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1886w-IV.D-017"><thema>Uebungen des
-        Universitäts-Sängervereins der Pauliner</thema>: <dozent><grad>D.
-        ph.</grad> <nachname>Langer</nachname>,
+        Universitäts-Sängervereins der Pauliner</thema>: <dozent
+        ref="langer_h"><grad>D. ph.</grad> <nachname>Langer</nachname>,
         <funktion>P.</funktion></dozent>, <zeit>Dienst. u. Freit. ½8-9 U.
         Ab.</zeit>, <modus>publice</modus>.</veranstaltung>
       </sachgruppe>

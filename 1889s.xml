@@ -153,13 +153,13 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung><thema>Biblische Theologie des Neuen Testaments</thema>:
-      <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
+      <dozent ref="ewald_p"><grad>Lic.</grad> <grad>D. ph.</grad>
       <nachname>Ewald</nachname>, <funktion>P. E.</funktion></dozent>,
       <zeit>Mont. bis Freit. 8-9 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung><thema>Auslegung des Johannesevangeliums</thema>:
-      <dozent><grad>Lic.</grad> <grad>D. ph.</grad>
+      <veranstaltung><thema>Auslegung des Johannesevangeliums</thema>: <dozent
+      ref="gregory_cr"><grad>Lic.</grad> <grad>D. ph.</grad>
       <nachname>Gregory</nachname></dozent>, <zeit>Mont., Dienst., Donnerst.
       u. Freit. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -559,12 +559,13 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889s-II-021"><thema>Rechtsphilosophische
-      Erörterung der Grundbegriffe des Privatrechts</thema>: <dozent><grad>D.
-      jur.</grad> <nachname>Kloeppel</nachname></dozent>, <zeit>Dienst. u.
-      Freit. 7-8 U. Vorm.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
+      Erörterung der Grundbegriffe des Privatrechts</thema>: <dozent
+      ref="kloeppel_p"><grad>D. jur.</grad>
+      <nachname>Kloeppel</nachname></dozent>, <zeit>Dienst. u. Freit. 7-8 U.
+      Vorm.</zeit>, <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889s-II-022"><thema>Allgemeines
-      Staatsrecht</thema>: <dozent><grad>D. jur.</grad>
+      Staatsrecht</thema>: <dozent ref="kloeppel_p"><grad>D. jur.</grad>
       <nachname>Kloeppel</nachname></dozent>, <zeit>Mont., Mittw. u. Donnerst.
       7-8 U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -996,14 +997,16 @@
       <seite>12</seite>
 
       <veranstaltung xml:id="v-1889s-III-041"><thema>Hautkrankheiten und
-      Syphilis (mit Krankendemonstrationen)</thema>: <dozent><grad>D.
-      med.</grad> <nachname>Lesser</nachname></dozent>, <zeit>Mont., Donnerst.
-      und Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Syphilis (mit Krankendemonstrationen)</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>Mont., Donnerst. und Sonnab.
+      12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung
-      xml:id="v-1889s-III-042"><thema>Geschlechtskrankheiten</thema>:
-      <dozent><grad>D. med.</grad> <nachname>Lesser</nachname></dozent>,
-      <zeit>Freit. 12-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
+      xml:id="v-1889s-III-042"><thema>Geschlechtskrankheiten</thema>: <dozent
+      ref="lesser_e"><grad>D. med.</grad>
+      <nachname>Lesser</nachname></dozent>, <zeit>Freit. 12-1 U.</zeit>,
+      <modus>publice</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889s-III-043"><thema>Allgemeine Therapie und
       Hydrotherapie</thema>: <dozent ref="naumann_o"><grad>D. med.</grad>
@@ -1043,10 +1046,11 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889s-III-049"><thema>Chirurgischer
-      Verbandcursus nebst Operationslehre</thema>: <dozent><grad>D.
-      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-      <nachname>Lesser</nachname></dozent>, <zeit>Dienst. u. Freit. 6-7
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      Verbandcursus nebst Operationslehre</thema>: <dozent
+      ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+      von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+      <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889s-III-050"><thema>Allgemeine Chirurgie und
       chirurgische Pathologie</thema>: <dozent ref="tillmanns_rh"><grad>D.
@@ -1055,7 +1059,7 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1889s-III-051"><thema>Abriss der
-      Kriegschirurgie</thema>: <dozent><grad>D. med.</grad>
+      Kriegschirurgie</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -1076,7 +1080,7 @@
 
       <veranstaltungsgruppe><thema>Augenärztliche Propädeutik (umfassend die
       äusere Untersuchung, Augenspiegel-Untersuchung und Funktions-Prüfung des
-      Auges)</thema>: <dozent><grad>D. med.</grad>
+      Auges)</thema>: <dozent ref="kuester_f"><grad>D. med.</grad>
       <nachname>Küster</nachname></dozent>, <veranstaltung
       xml:id="v-1889s-III-054"><zeit>Mittw. u. Sonnab. 2-3
       U.</zeit></veranstaltung>, <veranstaltung xml:id="v-1889s-III-055">nebst
@@ -1341,10 +1345,11 @@
           und klinische Demonstrationen</thema>, <zeit>Sonnab. 4-6 U.</zeit>,
           <modus>privatim</modus>. (<ort>Kreuzstr. 6</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1889s-III.001.b-002"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>, <zeit>Mont., Mittw. u. Freit.
-          1½-2½ U.</zeit>, <modus>privatim</modus>. (<ort>Jablonowskystr.
+          <veranstaltung xml:id="v-1889s-III.001.b-002"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
+          <zeit>Mont., Mittw. u. Freit. 1½-2½ U.</zeit>,
+          <modus>privatim</modus>. (<ort>Jablonowskystr.
           1</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1889s-III.001.b-003"><dozent
@@ -1383,8 +1388,9 @@
           Stunden</zeit>, <modus>privatim</modus>. (<ort>Windm.-Str.
           32</ort>.)</veranstaltung>
 
-          <veranstaltung xml:id="v-1889s-III.001.c-003"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>, (<thema
+          <veranstaltung xml:id="v-1889s-III.001.c-003"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>, (<thema
           kontext="sachgruppe">für Herren, welche die Technik des
           Augenspiegelns beherrschen</thema>) <zeit>drei- bis viermal
           wöchentlich, 12-1 U.</zeit>, <modus>privatissime</modus>.

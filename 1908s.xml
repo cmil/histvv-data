@@ -247,12 +247,12 @@
       ph.</grad> <nachname>Kittel</nachname>, <funktion>P.
       O.</funktion></dozent>, <veranstaltung xml:id="v-1908s-I-029">a)
       <thema>Abteilung für Anfänger: Hebräische Elementargrammatik als
-      Vorbereitung aufs Hebraicum</thema>, <dozent>unter Leitung von <grad>D.
-      ph.</grad> <nachname>Kramer</nachname></dozent>, <zeit>in noch zu best.
-      Zeit</zeit></veranstaltung>; <veranstaltung xml:id="v-1908s-I-030">b)
-      <thema>Seminar für Vorgeschrittenere (mit schriftlichen Arbeiten):
-      Althebräische Lieder</thema>, <zeit>Mittw. 9-10½ U.
-      Vorm.</zeit></veranstaltung></veranstaltungsgruppe>
+      Vorbereitung aufs Hebraicum</thema>, <dozent ref="kramer_o">unter
+      Leitung von <grad>D. ph.</grad> <nachname>Kramer</nachname></dozent>,
+      <zeit>in noch zu best. Zeit</zeit></veranstaltung>; <veranstaltung
+      xml:id="v-1908s-I-030">b) <thema>Seminar für Vorgeschrittenere (mit
+      schriftlichen Arbeiten): Althebräische Lieder</thema>, <zeit>Mittw.
+      9-10½ U. Vorm.</zeit></veranstaltung></veranstaltungsgruppe>
 
       <veranstaltung xml:id="v-1908s-I-031"><thema>Hebräische Übungen für
       jüngere (besonders auch erste) Semester: Kursorische Lektüre des Buches
@@ -1817,11 +1817,12 @@ Seite weiter!!!
 
       <veranstaltung xml:id="v-1908s-III-081"><thema>Chirurgischer
       Verbandkursus mit besonderer Berücksichtigung der Knochenbrüche und der
-      Verrenkungen</thema> (<zeit>sechswöchig</zeit>): <dozent><grad>D.
-      med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-      <nachname>Lesser</nachname></dozent>, <zeit>Mont. u. Freit. 6-7
-      U.</zeit>, <modus>privatim</modus>, <ort>in der Privatpoliklinik für
-      chirurg. Kranke, Bayersche Str. 12. I.</ort></veranstaltung>
+      Verrenkungen</thema> (<zeit>sechswöchig</zeit>): <dozent
+      ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+      von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>, <zeit>Mont.
+      u. Freit. 6-7 U.</zeit>, <modus>privatim</modus>, <ort>in der
+      Privatpoliklinik für chirurg. Kranke, Bayersche Str. 12.
+      I.</ort></veranstaltung>
 
       <veranstaltung xml:id="v-1908s-III-082"><thema>Kriegschirurgie und
       Feldsanitätsdienst</thema>: <dozent ref="koelliker_t"><grad>D.
@@ -1833,7 +1834,7 @@ Seite weiter!!!
       <seite>20</seite>
 
       <veranstaltung xml:id="v-1908s-III-083"><thema>Abriß der
-      Kriegschirurgie</thema>: <dozent><grad>D. med.</grad>
+      Kriegschirurgie</thema>: <dozent ref="lesser_l"><grad>D. med.</grad>
       <nachnamenpräfix>Frhr. von</nachnamenpräfix>
       <nachname>Lesser</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>, <ort>in der Poliklinik für chirurgisch Kranke,
@@ -2157,12 +2158,12 @@ Seite weiter!!!
         <sachgruppe xml:id="sg-1908s-III.001.b">
           <titel>b) Chirurgie.</titel>
 
-          <veranstaltung xml:id="v-1908s-III.001.b-001"><dozent><grad>D.
-          med.</grad> <nachnamenpräfix>Frhr. von</nachnamenpräfix>
-          <nachname>Lesser</nachname></dozent>: <thema>Privatpoliklinik für
-          chirurgisch Kranke</thema> (<ort>Bayersche Str. 12. I.</ort>),
-          <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung xml:id="v-1908s-III.001.b-001"><dozent
+          ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
+          von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>:
+          <thema>Privatpoliklinik für chirurgisch Kranke</thema>
+          (<ort>Bayersche Str. 12. I.</ort>), <zeit>Mont., Mittw. u. Freit.
+          12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1908s-III.001.c">
@@ -2176,8 +2177,9 @@ Seite weiter!!!
           (mit Funktionsprüfungen)</thema>, <zeit>Mont. u. Freit. ½9-½10
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1908s-III.001.c-002"><dozent><grad>D.
-          med.</grad> <nachname>Küster</nachname></dozent>: <thema>In der
+          <veranstaltung xml:id="v-1908s-III.001.c-002"><dozent
+          ref="kuester_f"><grad>D. med.</grad>
+          <nachname>Küster</nachname></dozent>: <thema>In der
           Privatheilanstalt für Augenkranke</thema> (<ort>Universitätsstr. 24.
           II.</ort>): <thema>Augenärztliches Praktikum</thema> <zeit>nach
           Verabredung drei- bis viermal wöchentl. 11 bis 12 U.</zeit>,
@@ -6878,8 +6880,8 @@ Seite weiter!!!
         Die Übungen finden <veranstaltung
         xml:id="v-1908s-IV.G-085"><zeit>Mont. ¾8-¾11 U. Ab.</zeit> im
         <ort>König-Albertgymnasium (Parthenstr. 1.)</ort> unter Leitung von
-        <dozent><funktion>Oberturnlehrer</funktion> <grad>D. ph.</grad>
-        <seite>64</seite><nachname>Kuhr</nachname></dozent></veranstaltung>
+        <dozent ref="kuhr_h"><funktion>Oberturnlehrer</funktion> <grad>D.
+        ph.</grad> <seite>64</seite><nachname>Kuhr</nachname></dozent></veranstaltung>
         und <veranstaltung xml:id="v-1908s-IV.G-086"><zeit>Donnerst. ¾8-¾11 U.
         Ab.</zeit> <ort>im Kgl. Lehrerseminar in L.-Connewitz</ort> unter
         Leitung von <dozent
@@ -6904,8 +6906,8 @@ Seite weiter!!!
         6.</ort></veranstaltung>, <veranstaltung
         xml:id="v-1908s-IV.G-089"><zeit>Mont. u. Donnerst. (voraussichtlich):
         6-8 U. Ab.</zeit>: <ort>Spielwiese auf der Ranstädter Viehweide am
-        Palmengarten</ort></veranstaltung>. Leiter:
-        <dozent><funktion>Oberturnlehrer</funktion> <grad>D. ph.</grad>
+        Palmengarten</ort></veranstaltung>. Leiter: <dozent
+        ref="kuhr_h"><funktion>Oberturnlehrer</funktion> <grad>D. ph.</grad>
         <nachname>Kuhr</nachname></dozent>, <ort>Humboldstr.
         9</ort>.</veranstaltungsgruppe>
 
