@@ -130,9 +130,9 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906w-I-011"><thema>Erklärung des
-      Johannesevangeliums</thema>: <dozent><grad>D. th. et ph.</grad>
-      <nachname>Kirn</nachname>, <funktion>P. O.</funktion></dozent>,
-      <zeit>tägl. (außer Mittw.) 10-11 U.</zeit>,
+      Johannesevangeliums</thema>: <dozent ref="kirn_o"><grad>D. th. et
+      ph.</grad> <nachname>Kirn</nachname>, <funktion>P.
+      O.</funktion></dozent>, <zeit>tägl. (außer Mittw.) 10-11 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906w-I-012"><thema>Erklärung des
@@ -243,9 +243,10 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906w-I-030"><thema>Theologische Ethik</thema>:
-      <dozent><grad>D. th. et ph.</grad> <nachname>Kirn</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>tägl. (außer Mittw.) 11-12
-      U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      <dozent ref="kirn_o"><grad>D. th. et ph.</grad>
+      <nachname>Kirn</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl. (außer Mittw.) 11-12 U.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1906w-I-031"><thema>Grundzüge des christlichen
       Verhaltens (für Studierende aller Fakultäten)</thema>: <dozent
@@ -353,7 +354,7 @@
 
       <veranstaltung xml:id="v-1906w-I-047"><thema>Seminar I für systematische
       Theologie (<ort>Paulinum Treppe B. II</ort>): Grundfragen der
-      Ethik</thema>: <dozent><grad>D. th. et ph.</grad>
+      Ethik</thema>: <dozent ref="kirn_o"><grad>D. th. et ph.</grad>
       <nachname>Kirn</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Freit. 5-7 U.</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
@@ -488,9 +489,9 @@
       <!--Veranstaltung plus Ankündigung einer eventuellen Übungsstunde-->
 
       <veranstaltung xml:id="v-1906w-I-067"><thema>Wissenschaftliche Übungen
-      des Theologischen Studentenvereins</thema>: <dozent><grad>D. th. et
-      ph.</grad> <nachname>Kirn</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>Dienst. ¾8-9 U. Ab.</zeit>,
+      des Theologischen Studentenvereins</thema>: <dozent
+      ref="kirn_o"><grad>D. th. et ph.</grad> <nachname>Kirn</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>Dienst. ¾8-9 U. Ab.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -2570,8 +2571,8 @@
         <nachname>Volkelt</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Dienst. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltungsverweis><thema>Theologische Ethik</thema>:
-        <dozent><grad>D. th. et ph.</grad> <nachname>Kirn</nachname>,
+        <veranstaltungsverweis><thema>Theologische Ethik</thema>: <dozent
+        ref="kirn_o"><grad>D. th. et ph.</grad> <nachname>Kirn</nachname>,
         <funktion>P. O.</funktion></dozent> <siehe>Siehe Theologische
         Fakultät</siehe>.</veranstaltungsverweis>
 
@@ -2692,12 +2693,13 @@
         <veranstaltungsgruppe><thema>Psychologisches Laboratorium</thema>
         (<ort>Paulinim III</ort>): <veranstaltung xml:id="v-1906w-IV.A-016">a)
         <thema>Einführungskursus zur experimentellen Psychologie</thema> (nur
-        für Mitglieder des Instituts): <dozent><funktion>Assistent</funktion>
-        <grad>D. ph.</grad> <nachname>Klemm</nachname></dozent> (im Auftrag
-        des Direktors), <zeit>Sonnab. 11-1 U.</zeit></veranstaltung>;
-        <veranstaltung xml:id="v-1906w-IV.A-017">b) <thema>Spezielle Arbeiten
-        und Übungen der Teilnehmer</thema>: <dozent ref="wundt_w"><grad>D.
-        ph., jur. et med.</grad> <nachname>Wundt</nachname>, <funktion>P.
+        für Mitglieder des Instituts): <dozent
+        ref="klemm_o"><funktion>Assistent</funktion> <grad>D. ph.</grad>
+        <nachname>Klemm</nachname></dozent> (im Auftrag des Direktors),
+        <zeit>Sonnab. 11-1 U.</zeit></veranstaltung>; <veranstaltung
+        xml:id="v-1906w-IV.A-017">b) <thema>Spezielle Arbeiten und Übungen der
+        Teilnehmer</thema>: <dozent ref="wundt_w"><grad>D. ph., jur. et
+        med.</grad> <nachname>Wundt</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>Mont. bis Freit. 2-7 U. u. Sonnab. 2-4
         U.</zeit>, <modus>privatissime</modus>, aber <gebühr>gratis
         (ausschließl.
@@ -2747,9 +2749,9 @@
 
         <veranstaltungsverweis><thema><notiz betreff="fortsetzung">Seminar
         I</notiz> für systematische Theologie: Grundfragen der Ethik</thema>:
-        <dozent><grad>D. th. et ph.</grad> <nachname>Kirn</nachname>,
-        <funktion>P. O.</funktion></dozent> <siehe>Siehe Theologische
-        Fakultät</siehe>.</veranstaltungsverweis>
+        <dozent ref="kirn_o"><grad>D. th. et ph.</grad>
+        <nachname>Kirn</nachname>, <funktion>P. O.</funktion></dozent>
+        <siehe>Siehe Theologische Fakultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema><notiz betreff="fortsetzung">Seminar
         II</notiz> für systematische Theologie: Die letzten Gründe

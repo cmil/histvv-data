@@ -846,11 +846,10 @@
         Substanzen</thema>, <zeit>3 U. 4 T.</zeit>
         <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1827s-I.VI.003-004"><dozent><nachname>Kleinert</nachname>,
-        <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <thema>medicinische
-        Chemie, durch Experimente erläutert</thema>, <zeit>11 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1827s-I.VI.003-004"><dozent
+        ref="kleinert_kf"><nachname>Kleinert</nachname>, <grad>D.</grad>
+        <vorname>K. F.</vorname></dozent>, <thema>medicinische Chemie, durch
+        Experimente erläutert</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1827s-I.VI.003-005"><dozent
         ref="erdmann_ol"><nachname>Erdmann</nachname>, <grad>M.</grad>
@@ -2426,10 +2425,10 @@
           <sachgruppe xml:id="sg-1827s-II.C.II.2.x">
             <titel>*) Receptirkunst.</titel>
 
-            <veranstaltung
-            xml:id="v-1827s-II.C.II.2.x-001"><dozent><nachname>Kleinert</nachname>,
-            <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <zeit>3 U. 2
-            T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+            <veranstaltung xml:id="v-1827s-II.C.II.2.x-001"><dozent
+            ref="kleinert_kf"><nachname>Kleinert</nachname>, <grad>D.</grad>
+            <vorname>K. F.</vorname></dozent>, <zeit>3 U. 2 T.</zeit>
+            <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -2638,8 +2637,8 @@
 
   <absatz>Uebrigens wird der <dozent
   ref="richter_gbt"><funktion>Stallmeister</funktion>
-  <nachname>Richter</nachname></dozent>, der
-  <dozent><funktion>Tanzmeister</funktion>
+  <nachname>Richter</nachname></dozent>, der <dozent
+  ref="klemm_gl"><funktion>Tanzmeister</funktion>
   <nachname>Klemm</nachname></dozent>, und der <dozent
   ref="schroeter_jf"><funktion>Universitäts-Zeichenmeister, wie auch Zeichner
   anatomischer und pathologischer Gegenstände</funktion>, <vorname>Joh.

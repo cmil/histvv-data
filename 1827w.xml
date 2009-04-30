@@ -902,11 +902,10 @@
         Experimente</thema>, <zeit>9 U. 2 T.</zeit> ebenfalls
         <modus>öffentlich</modus></veranstaltung>.</veranstaltungsgruppe>
 
-        <veranstaltung
-        xml:id="v-1827w-I.VI.003-003"><dozent><nachname>Kleinert</nachname>,
-        <grad>D.</grad> <vorname>K. F.</vorname></dozent>,
-        <thema>pharmaceutische Chemie</thema>, <zeit>11 U. 3
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1827w-I.VI.003-003"><dozent
+        ref="kleinert_kf"><nachname>Kleinert</nachname>, <grad>D.</grad>
+        <vorname>K. F.</vorname></dozent>, <thema>pharmaceutische
+        Chemie</thema>, <zeit>11 U. 3 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1827w-I.VI.003-004"><dozent
         ref="erdmann_ol"><nachname>Erdmann</nachname>, <grad>M.</grad>
@@ -2311,15 +2310,15 @@
           A. von ihm herausgeg. Lpz. b. Barth 1827.)</thema> <zeit>3 U. 2
           T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1827w-II.C.II.2-003"><dozent><nachname>Kleinert</nachname>,
-          <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <thema>über die
-          vorzüglichern zusammengesetzten Heilmittel, unter Anleit des 2. Th.
-          der sächs. <antiqua>Pharmacop.</antiqua></thema>, <zeit>3 U. 2
-          T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <veranstaltung xml:id="v-1827w-II.C.II.2-003"><dozent
+          ref="kleinert_kf"><nachname>Kleinert</nachname>, <grad>D.</grad>
+          <vorname>K. F.</vorname></dozent>, <thema>über die vorzüglichern
+          zusammengesetzten Heilmittel, unter Anleit des 2. Th. der sächs.
+          <antiqua>Pharmacop.</antiqua></thema>, <zeit>3 U. 2 T.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
 
-          <veranstaltungsverweis><ders>Derselbe</ders>, <siehe>s.
-          Chemie</siehe>.</veranstaltungsverweis>
+          <veranstaltungsverweis><ders ref="kleinert_kf">Derselbe</ders>,
+          <siehe>s. Chemie</siehe>.</veranstaltungsverweis>
 
           <veranstaltung xml:id="v-1827w-II.C.II.2-004"><dozent
           ref="meurer_f"><nachname>Meurer</nachname>, <grad>D.</grad>
@@ -2600,8 +2599,8 @@
   ref="richter_gbt"><funktion>Stallmeister</funktion>
   <nachname>Richter</nachname></dozent>, der <dozent
   ref="berndt_g"><funktion>Vorfechter</funktion>
-  <nachname>Berndt</nachname></dozent>, der
-  <dozent><funktion>Tanzmeister</funktion>
+  <nachname>Berndt</nachname></dozent>, der <dozent
+  ref="klemm_gl"><funktion>Tanzmeister</funktion>
   <nachname>Klemm</nachname></dozent>, und der <dozent
   ref="schroeter_jf"><funktion>Universitäts-Zeichenmeister, wie auch Zeichner
   anatomischer und pathologischer Gegenstände</funktion>, <vorname>Johann

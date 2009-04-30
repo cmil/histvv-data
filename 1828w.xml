@@ -846,11 +846,10 @@
         stehen, durch Experimente erläutert</thema>, <zeit>8 U. 6
         T.</zeit></veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1828w-I.VI.003-005"><dozent><nachname>Kleinert</nachname>,
-        <grad>D.</grad> <vorname>K. F.</vorname></dozent>,
-        <thema>pharmaceutische Chemie</thema>, <zeit>in zu b.
-        St.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1828w-I.VI.003-005"><dozent
+        ref="kleinert_kf"><nachname>Kleinert</nachname>, <grad>D.</grad>
+        <vorname>K. F.</vorname></dozent>, <thema>pharmaceutische
+        Chemie</thema>, <zeit>in zu b. St.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1828w-I.VI.003-006"><dozent
         ref="kuehn_ob"><nachname>Kühn</nachname>, <grad>D.</grad> <vorname>O.
@@ -2234,11 +2233,10 @@
           <thema>über Arzneigewächse u. ihre Anwendung in der Medicin</thema>,
           <zeit>8 U. 4 T.</zeit></veranstaltung>
 
-          <veranstaltung
-          xml:id="v-1828w-II.C.II.1-003"><dozent><nachname>Kleinert</nachname>,
-          <grad>D.</grad> <vorname>K. F.</vorname></dozent>,
-          <thema>Toxikologie</thema>, <zeit>in zu best.
-          St.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1828w-II.C.II.1-003"><dozent
+          ref="kleinert_kf"><nachname>Kleinert</nachname>, <grad>D.</grad>
+          <vorname>K. F.</vorname></dozent>, <thema>Toxikologie</thema>,
+          <zeit>in zu best. St.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1828w-II.C.II.2">
@@ -2250,8 +2248,9 @@
           <thema>Experimental-Pharmacie</thema>, <zeit>3 U. 4
           T.</zeit></veranstaltung>
 
-          <veranstaltungsverweis><dozent><nachname>Kleinert</nachname>,
-          <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <siehe>s.
+          <veranstaltungsverweis><dozent
+          ref="kleinert_kf"><nachname>Kleinert</nachname>, <grad>D.</grad>
+          <vorname>K. F.</vorname></dozent>, <siehe>s.
           Chemie</siehe>.</veranstaltungsverweis>
 
           <seite>20</seite>
@@ -2264,10 +2263,10 @@
             <grad>D.</grad> <vorname>C. G.</vorname>, <funktion>P.
             O.</funktion></dozent>, <zeit>4 U. 4 T.</zeit></veranstaltung>
 
-            <veranstaltung
-            xml:id="v-1828w-II.C.II.2.x-002"><dozent><nachname>Kleinert</nachname>,
-            <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <zeit>2 U. 2
-            T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+            <veranstaltung xml:id="v-1828w-II.C.II.2.x-002"><dozent
+            ref="kleinert_kf"><nachname>Kleinert</nachname>, <grad>D.</grad>
+            <vorname>K. F.</vorname></dozent>, <zeit>2 U. 2 T.</zeit>
+            <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
         </sachgruppe>
 
@@ -2530,8 +2529,8 @@
   ref="richter_gbt"><funktion>Stallmeister</funktion>
   <nachname>Richter</nachname></dozent>, der <dozent
   ref="berndt_g"><funktion>Vorfechter</funktion>
-  <nachname>Berndt</nachname></dozent>, der
-  <dozent><funktion>Tanzmeister</funktion>
+  <nachname>Berndt</nachname></dozent>, der <dozent
+  ref="klemm_gl"><funktion>Tanzmeister</funktion>
   <nachname>Klemm</nachname></dozent>, und der <dozent
   ref="schroeter_jf"><funktion>Universitäts-Zeichenmeister</funktion>, wie
   auch <funktion>Zeichner anatomischer und pathologischer

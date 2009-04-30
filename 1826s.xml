@@ -893,11 +893,10 @@
         <thema>über die vorzüglichsten Gesundbrunnen Deutschlands</thema>,
         <zeit>9 U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
-        <veranstaltung
-        xml:id="v-1826s-I.IV_2.003-004"><dozent><nachname>Kleinert</nachname>,
-        <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <thema>Elemente der
-        Chemie, durch Versuche erläutert</thema>, <zeit>11 U. 4
-        T.</zeit></veranstaltung>
+        <veranstaltung xml:id="v-1826s-I.IV_2.003-004"><dozent
+        ref="kleinert_kf"><nachname>Kleinert</nachname>, <grad>D.</grad>
+        <vorname>K. F.</vorname></dozent>, <thema>Elemente der Chemie, durch
+        Versuche erläutert</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
       </sachgruppe>
     </sachgruppe>
 
@@ -2226,12 +2225,12 @@
           xml:id="v-1826s-II.C.II.1-003"><zeit>11 U. 6 T.</zeit>
           <modus>privatim</modus></veranstaltung>.</veranstaltungsgruppe>
 
-          <veranstaltung
-          xml:id="v-1826s-II.C.II.1-004"><dozent><nachname>Kleinert</nachname>,
-          <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <thema>über die
-          Bereitungs- u. Prüfungs-Methoden der im 2. Th. der
-          <antiqua>Pharmacop. Saxon.</antiqua> enthaltenen zusammengesetzten
-          Heilmittel</thema>, <zeit>3 U. 4 T.</zeit></veranstaltung>
+          <veranstaltung xml:id="v-1826s-II.C.II.1-004"><dozent
+          ref="kleinert_kf"><nachname>Kleinert</nachname>, <grad>D.</grad>
+          <vorname>K. F.</vorname></dozent>, <thema>über die Bereitungs- u.
+          Prüfungs-Methoden der im 2. Th. der <antiqua>Pharmacop.
+          Saxon.</antiqua> enthaltenen zusammengesetzten Heilmittel</thema>,
+          <zeit>3 U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1826s-II.C.II.1-005"><dozent
           ref="meurer_f"><nachname>Meurer</nachname>, <grad>D.</grad>
@@ -2248,11 +2247,11 @@
           <sachgruppe xml:id="sg-1826s-II.C.II.1.x">
             <titel>*) Receptirkunst.</titel>
 
-            <veranstaltung
-            xml:id="v-1826s-II.C.II.1.x-001"><dozent><nachname>Kleinert</nachname>,
-            <grad>D.</grad> <vorname>K. F.</vorname></dozent>, <thema
-            kontext="sachgruppe">mit praktischen Uebungen in der
-            Apotheke</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>
+            <veranstaltung xml:id="v-1826s-II.C.II.1.x-001"><dozent
+            ref="kleinert_kf"><nachname>Kleinert</nachname>, <grad>D.</grad>
+            <vorname>K. F.</vorname></dozent>, <thema kontext="sachgruppe">mit
+            praktischen Uebungen in der Apotheke</thema>, <zeit>3 U. 2
+            T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1826s-II.C.II.1.xx">
@@ -2447,8 +2446,8 @@
   ref="richter_gbt"><funktion>Stallmeister</funktion>
   <nachname>Richter</nachname></dozent>, der <dozent
   ref="werner_jal"><funktion>Fechtmeister</funktion>
-  <nachname>Werner</nachname></dozent>, der
-  <dozent><funktion>Tanzmeister</funktion>
+  <nachname>Werner</nachname></dozent>, der <dozent
+  ref="klemm_gl"><funktion>Tanzmeister</funktion>
   <nachname>Klemm</nachname></dozent>, und der <dozent
   ref="schroeter_jf"><funktion>Universitäts-Zeichenmeister</funktion>, wie
   auch <funktion>Zeichner anatomischer und pathologischer
