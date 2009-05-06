@@ -1428,14 +1428,33 @@ Der Link books.google.de (Becks Kurzbiographien) gibt das Sterbedatum
     <url>http://www.catalogus-professorum-halensis.de/benekerudolf.html</url>
   </dozent>
 
-  <dozent bis="1845s" von="1827s" xml:id="berger_a">
+  <dozent eindeutig="ja" xml:id="berger_a">
     <name>
       <nachname>Berger</nachname>
 
-      <vorname>Albert</vorname>
+      <vorname>Karl <rufname>Albert</rufname> Ferdinand</vorname>
     </name>
 
-    <absatz>Jurist</absatz>
+    <geboren>
+      <jahr>1800</jahr>
+
+      <ort>Zeitz</ort>
+    </geboren>
+
+    <gestorben>
+      <jahr>1945</jahr>
+
+      <ort>Leipzig</ort>
+    </gestorben>
+
+    <beruf>Jurist</beruf>
+
+    <quelle>StadtAL PoA Nr. 73, Bd. 3.</quelle>
+
+    <anmerkungen>
+      <absatz>In der Quelle steht, dass er am 23. August 1845 begraben
+      wurde.</absatz>
+    </anmerkungen>
   </dozent>
 
   <dozent xml:id="berger_eh">
@@ -1594,14 +1613,28 @@ Der Link books.google.de (Becks Kurzbiographien) gibt das Sterbedatum
     <url>http://www.ua.tu-dresden.de/Detail_prof_CD.asp?Code=Bauingenieurwesen&amp;ID=97</url>
   </dozent>
 
-  <dozent eindeutig="ja" xml:id="bernardelli_l">
+  <dozent eindeutig="ja" xml:id="bernardelli_alj">
     <name>
       <nachname>Bernardelli</nachname>
 
-      <vorname>Louis</vorname>
+      <vorname>Alphons <rufname>Louis</rufname> Joseph</vorname>
     </name>
 
-    <absatz>Universitätstanzmeister</absatz>
+    <geboren>
+      <jahr>1819</jahr>
+
+      <monat>1</monat>
+
+      <tag>24</tag>
+
+      <ort>Warschau</ort>
+
+      <!--er ist Mecklenburger und Schutzverwandter...-->
+    </geboren>
+
+    <beruf>Universitätstanzmeister, Balletmeister</beruf>
+
+    <quelle>StadtAL, PoA Nr. 129, Bl. 41.</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="bernays_m">
@@ -11292,6 +11325,16 @@ aber das dort verknüpfte Werk schon.-->
     <url>http://de.wikipedia.org/wiki/Carl_Graebe</url>
   </dozent>
 
+  <dozent eindeutig="ja" xml:id="graefe_frb">
+    <name>
+      <nachname>Gräfe</nachname>
+
+      <vorname>Franz Rudolph Bernhard</vorname>
+    </name>
+
+    <beruf>Mediziner, Assistent der chirurg. Klinik</beruf>
+  </dozent>
+
   <dozent eindeutig="ja" xml:id="gregor_a">
     <name>
       <nachname>Gregor</nachname>
@@ -16624,6 +16667,18 @@ eine andere passt nicht weil er da mit "ä" geschrieben wird!--></pnd>
     biographisch-bibliographisches Lexikon 1933 (484) [WBIS]</quelle>
   </dozent>
 
+  <dozent eindeutig="ja" xml:id="janssen_vg">
+    <name>
+      <nachname>Janssen</nachname>
+
+      <vorname>Vincent Georg</vorname>
+
+      <!--"Vinc. Grg." stand im Adressbuch-->
+    </name>
+
+    <quelle>Adressbuch Stadt Leipzig, 1890.</quelle>
+  </dozent>
+
   <dozent eindeutig="ja" xml:id="jellinek_w">
     <name>
       <nachname>Jellinek</nachname>
@@ -17129,6 +17184,21 @@ Leider bisher nur polnische Wikipedia. -->
     <beruf>Geologe</beruf>
 
     <url>http://books.google.de/books?id=U9MrAAAAIAAJ&amp;q=Kalkowsky,+Ernst+September+1851&amp;lr=&amp;pgis=1</url>
+  </dozent>
+
+  <dozent eindeutig="ja" xml:id="kampf_rjo">
+    <name>
+      <nachname>Kampf</nachname>
+
+      <vorname>Richard Julius Otto</vorname>
+
+      <!--in der Quelle steht als Abkürzung für Otto "O."!
+Im Index der bleibenden Einwohner von Leipzig nicht gefunden! -->
+    </name>
+
+    <beruf>Mediziner, Assistent der chirurgischen Klinik</beruf>
+
+    <quelle>Adressbuch der Stadt Leipzig 1886.</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="karg_h">
@@ -20672,16 +20742,6 @@ Quelle: WBI-->
     <url>http://de.wikipedia.org/wiki/Langenn</url>
   </dozent>
 
-  <dozent>
-    <name>
-      <nachname>Langer</nachname>
-
-      <!--Hielt nur eine Veranstaltung 1885.-->
-    </name>
-
-    <beruf>Mediziner, Assistent der chirurgischen Klinik</beruf>
-  </dozent>
-
   <dozent xml:id="langer_h">
     <name>
       <nachname>Langer</nachname>
@@ -20715,6 +20775,18 @@ Quelle: WBI-->
 
     <quelle>Illustriertes Musik-Lexikon / herausgegeben von Hermann Abert. -
     Stuttgart : Engelhorn, 1927 (laut WBIS)</quelle>
+  </dozent>
+
+  <dozent bis="1885w" eindeutig="ja" von="1885w" xml:id="langer_pe">
+    <name>
+      <nachname>Langer</nachname>
+
+      <vorname>Paul Emanuel</vorname>
+
+      <!--In der Quelle steht "P. Eman." für die Vornamen.-->
+    </name>
+
+    <beruf>Mediziner, Assistent der chirurgischen Klinik</beruf>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="lauhn_e">
@@ -22696,6 +22768,33 @@ julianischen Kalender!-->
     <beruf>Veterinärmediziner</beruf>
 
     <url>http://books.google.de/books?id=-r7N05iFFKoC&amp;pg=PA91&amp;dq=Lux,+Johann+Joseph+Wilhelm</url>
+  </dozent>
+
+  <dozent eindeutig="ja" xml:id="mangoldt_hhf">
+    <name>
+      <nachname>Mangoldt</nachname>
+
+      <vorname>Hans Hermann Friedrich</vorname>
+
+      <nachnamenpräfix>von</nachnamenpräfix>
+    </name>
+
+    <geboren>
+      <jahr>1859</jahr>
+
+      <monat>8</monat>
+
+      <tag>27</tag>
+
+      <ort>Göttingen</ort>
+    </geboren>
+
+    <beruf>Mediziner, Assistent der chirurgischen Klinik</beruf>
+
+    <!--Wird in den Adressbuch 1887 sowie in den Meldebüchern mit "t" im Vornamen geschrieben.
+Nur im VV steht er als "Mangold".-->
+
+    <quelle>StadtAL, PoA Nr. 191, Bl. 136b.</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="marano_f">
