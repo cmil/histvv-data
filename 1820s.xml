@@ -170,7 +170,7 @@
         <titel>3) Neue europäische Sprachen.</titel>
 
         <sachgruppe xml:id="sg-1820s-I.A.3.001">
-          <titel>Deutsche.</titel>
+          <titel kontext="sachgruppe">Deutsche.</titel>
 
           <veranstaltung xml:id="v-1820s-I.A.3.001-001"><dozent
           ref="poelitz_kh"><nachname>Pölitz</nachname>, <vorname>K. H.
@@ -191,7 +191,7 @@
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1820s-I.A.3.002">
-          <titel>Englische.</titel>
+          <titel kontext="sachgruppe">Englische.</titel>
 
           <veranstaltungsgruppe><dozent
           ref="yung_p"><nachname>Yung</nachname>, <grad>M.</grad>
@@ -205,7 +205,7 @@
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1820s-I.A.3.003">
-          <titel>Französische.</titel>
+          <titel kontext="sachgruppe">Französische.</titel>
 
           <veranstaltung xml:id="v-1820s-I.A.3.003-001"><dozent
           ref="dumas_jla"><nachname>Dumas</nachname>, <vorname>J. L.
@@ -220,7 +220,7 @@
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1820s-I.A.3.004">
-          <titel>Russische und Neugriechische.</titel>
+          <titel kontext="sachgruppe">Russische und Neugriechische.</titel>
 
           <veranstaltung xml:id="v-1820s-I.A.3.004-001"><dozent
           ref="schmidt_jae"><nachname>Schmidt</nachname>, <vorname>J. A.
@@ -447,7 +447,7 @@ Medicin, "Heinroth, Seelengesundheitskunde" identisch
           <gebühr>unentgeltlich</gebühr></veranstaltung>.</veranstaltungsgruppe>
         </sachgruppe>
 
-        <!--Hierarchie ist unklar, Chemie und NAturgeschichte sind zwar von 
+        <!--Hierarchie ist unklar, Chemie und Naturgeschichte sind zwar von 
 "3)" abhängig, aber nicht von Physik-->
       </sachgruppe>
 
@@ -851,16 +851,17 @@ Fortsetzung-->
 
           <veranstaltung xml:id="v-1820s-II.A.3.001-001"><dozent
           ref="beck_cd"><nachname>Beck</nachname>, <vorname>C. D.</vorname>,
-          <funktion>P. O.</funktion></dozent>, <thema><notiz
-          betreff="fortsetzung">die zweyte Hälfte</notiz>, von Karl dem
-          Grossen bis auf die jetzige Zeit, nach
+          <funktion>P. O.</funktion></dozent>, <thema
+          kontext="sachgruppe"><notiz betreff="fortsetzung">die zweyte
+          Hälfte</notiz>, von Karl dem Grossen bis auf die jetzige Zeit, nach
           Schröckh</thema>.</veranstaltung>
 
           <veranstaltung xml:id="v-1820s-II.A.3.001-002"><dozent
           ref="illgen_cf"><nachname>Illgen</nachname>, <vorname>C.
           F.</vorname>, <funktion>Phil. P. E. des.</funktion>, <grad>Theol.
-          Bacc.</grad></dozent>, <thema><notiz betreff="fortsetzung">auf ein
-          Jahr</notiz> nach Schröckh</thema>.</veranstaltung>
+          Bacc.</grad></dozent>, <thema kontext="sachgruppe"><notiz
+          betreff="fortsetzung">auf ein Jahr</notiz> nach
+          Schröckh</thema>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1820s-II.A.3.002">
@@ -1004,7 +1005,7 @@ Fortsetzung-->
         <titel>1) Civilrecht.</titel>
 
         <sachgruppe xml:id="sg-1820s-II.B.1.001">
-          <titel>Römisches.</titel>
+          <titel kontext="sachgruppe">Römisches.</titel>
 
           <sachgruppe xml:id="sg-1820s-II.B.1.001.001">
             <titel>Geschichte des römischen Rechts.</titel>
@@ -1043,7 +1044,7 @@ Fortsetzung-->
 
             <veranstaltung xml:id="v-1820s-II.B.1.001.002-002"><dozent
             ref="haenel_g"><nachname>Hänel</nachname>, <grad>Dr.</grad>
-            <vorname>G.</vorname></dozent>, <thema><notiz
+            <vorname>G.</vorname></dozent>, <thema kontext="sachgruppe"><notiz
             betreff="fortsetzung">Forts</notiz>.</thema></veranstaltung>
 
             <veranstaltung xml:id="v-1820s-II.B.1.001.002-003"><dozent
@@ -1053,11 +1054,11 @@ Fortsetzung-->
 
             <veranstaltung xml:id="v-1820s-II.B.1.001.002-004"><dozent
             ref="otto_ke"><nachname>Otto</nachname>, <grad>M.</grad>
-            <vorname>C. E.</vorname>, <grad>J. U. B.</grad></dozent>,
-            <thema><notiz betreff="fortsetzung">Beschluss</notiz> der im
-            vorigen Semester begonnenen Vorträge, dann die Lehre de
-            obligationibus et actionibus in lat.
-            Sprache</thema>.</veranstaltung>
+            <vorname>C. E.</vorname>, <grad>J. U. B.</grad></dozent>, <thema
+            kontext="sachgruppe"><notiz
+            betreff="fortsetzung">Beschluss</notiz> der im vorigen Semester
+            begonnenen Vorträge, dann die Lehre de obligationibus et
+            actionibus in lat. Sprache</thema>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1820s-II.B.1.001.003">
@@ -1102,18 +1103,18 @@ Fortsetzung-->
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1820s-II.B.1.002">
-          <titel>Deutsches.</titel>
+          <titel kontext="sachgruppe">Deutsches.</titel>
 
           <veranstaltung xml:id="v-1820s-II.B.1.002-001"><dozent
           ref="weisse_ce"><nachname>Weisse</nachname>, <grad>Dr.</grad>
           <vorname>C. E.</vorname>, <funktion>P. O.</funktion></dozent>,
           <thema kontext="sachgruppe">nach s. Einleitung in das gemeine
-          <sic>teutsche</sic> Privatrecht (Leipz. bey. Fleischer d.
+          teutsche Privatrecht (Leipz. bey. Fleischer d.
           j.)</thema>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1820s-II.B.1.003">
-          <titel>Sächsisches.</titel>
+          <titel kontext="sachgruppe">Sächsisches.</titel>
 
           <veranstaltung xml:id="v-1820s-II.B.1.003-001"><dozent
           ref="haubold_cg"><nachname>Haubold</nachname>, <grad>Dr.</grad>
@@ -1473,8 +1474,8 @@ Fortsetzung-->
           <veranstaltung xml:id="v-1820s-II.C.1.xx-001"><dozent
           ref="weber_eh"><nachname>Weber</nachname>, <grad>Dr.</grad>
           <vorname>E. H.</vorname>, <funktion>P. E. des.</funktion></dozent>,
-          <thema><notiz betreff="fortsetzung">erster Theil</notiz></thema>,
-          <modus>öffentlich</modus>.</veranstaltung>
+          <thema kontext="sachgruppe"><notiz betreff="fortsetzung">erster
+          Theil</notiz></thema>, <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
