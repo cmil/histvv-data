@@ -96,12 +96,12 @@
 
           <veranstaltung xml:id="v-1816w-I.A.2.a-005"><dozent
           ref="rose_jgk"><grad>M.</grad> <nachname>Rose</nachname></dozent>,
-          <thema>über das g. Buch des Mark Aurel Antonin</thema>, <zeit>1 U. 2
+          <thema>über das 9. Buch des Mark Aurel Antonin</thema>, <zeit>1 U. 2
           T.</zeit> <gebühr>unentg.</gebühr></veranstaltung>
 
           <veranstaltung xml:id="v-1816w-I.A.2.a-006"><dozent
           ref="beier_k"><grad>M.</grad> <nachname>Beier</nachname></dozent>,
-          <thema>über Diogenes aus Laerte 7 s. B. von den Stoikern</thema>,
+          <thema>über Diogenes aus Laerte 7s B. von den Stoikern</thema>,
           <zeit>in zu best. St.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1816w-I.A.2.a-007"><dozent
@@ -187,7 +187,7 @@
         <titel>3) Neuere Sprachen.</titel>
 
         <sachgruppe xml:id="sg-1816w-I.A.3.a">
-          <titel>a) Deutsche,</titel>
+          <titel kontext="sachgruppe">a) Deutsche,</titel>
 
           <veranstaltung xml:id="v-1816w-I.A.3.a-001">ausser <dozent
           ref="poelitz_kh"><funktion>P. O.</funktion>
@@ -211,7 +211,7 @@ Was bedeutet das "ausser"?-->
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1816w-I.A.3.b">
-          <titel>b) Englische.</titel>
+          <titel kontext="sachgruppe">b) Englische.</titel>
 
           <veranstaltung xml:id="v-1816w-I.A.3.b-001"><dozent
           ref="michaelis_cf"><grad>M.</grad>
@@ -226,7 +226,7 @@ Was bedeutet das "ausser"?-->
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1816w-I.A.3.c">
-          <titel>c) Italienische.</titel>
+          <titel kontext="sachgruppe">c) Italienische.</titel>
 
           <veranstaltung xml:id="v-1816w-I.A.3.c-001"><dozent><grad>M.</grad>
           <nachnamenpräfix>Michaelis</nachnamenpräfix></dozent>, <thema
@@ -239,7 +239,7 @@ Was bedeutet das "ausser"?-->
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1816w-I.A.3.d">
-          <titel>d) Französische.</titel>
+          <titel kontext="sachgruppe">d) Französische.</titel>
 
           <veranstaltungsgruppe><dozent
           ref="dumas_jla"><funktion>Lect.</funktion> u.
@@ -512,12 +512,13 @@ Was bedeutet das "ausser"?-->
         Karsten</thema>, <zeit>3 U. 6 T.</zeit></veranstaltung>
         lehren.</veranstaltungsgruppe>
 
-        <veranstaltung xml:id="v-1816w-I.B.III-004">Der <dozent
-        ref="moebius_af"><funktion>P. E.</funktion> der Astronomie,
-        <nachname>Möbius</nachname></dozent>, wird nach seiner Rückkunft die
-        Vorlesungen am gewöhnlichen Orte anzeigen.</veranstaltung>
+        <veranstaltung thema="Astronomische Vorlesungen"
+        xml:id="v-1816w-I.B.III-004">Der <dozent ref="moebius_af"><funktion>P.
+        E.</funktion> der Astronomie, <nachname>Möbius</nachname></dozent>,
+        wird nach seiner Rückkunft die Vorlesungen am gewöhnlichen Orte
+        anzeigen.</veranstaltung>
 
-        <!--Auszeichnung Thema "Astronomie" nicht möglich-->
+        <!--Auszeichnung Thema "Astronomie" nicht möglich (als Attribut eingetragen!)-->
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1816w-I.B.IV">
@@ -660,8 +661,8 @@ in der die Sachgruppentitel das Thema seien-->
             Berlin, 1800.</thema>), <zeit>zu bel. St. 4 T.</zeit>
             <modus>privatiss.</modus></veranstaltung> <veranstaltung
             xml:id="v-1816w-I.B.IV.2.b-005"><thema>die Schafzucht unserer
-            Zeit</thema>, <zeit>4 U. 4
-            T.</zeit></veranstaltung>vor.</veranstaltungsgruppe>
+            Zeit</thema>, <zeit>4 U. 4 T.</zeit></veranstaltung>
+            vor.</veranstaltungsgruppe>
 
             <veranstaltung xml:id="v-1816w-I.B.IV.2.b-006"><thema>Ueber die
             Seuchen der Hausthiere</thema> kündigt <dozent
@@ -780,8 +781,10 @@ in der die Sachgruppentitel das Thema seien-->
             <veranstaltung xml:id="v-1816w-I.B.VI.1.b-005"><dozent
             ref="stenzel_gah"><grad>M.</grad>
             <nachname>Stenzel</nachname></dozent>, <thema
-            kontext="sachgruppe"><notiz betreff="scil">nach dems. Buche bis zu
-            ders. Epoche</notiz></thema>, <zeit>5 U. 4 T.</zeit>
+            kontext="sachgruppe">nach <scil
+            text="&quot;Das deutsche Volk und Reich&quot;">dems. Buche</scil>
+            bis <scil text="zum Wiener Congresse">zu ders.
+            Epoche</scil></thema>, <zeit>5 U. 4 T.</zeit>
             <gebühr>unentg.</gebühr></veranstaltung>
 
             <veranstaltung xml:id="v-1816w-I.B.VI.1.b-006"><ders
@@ -925,8 +928,7 @@ in der die Sachgruppentitel das Thema seien-->
               Pauli an die Korinthier</thema>, <zeit>2 U. Dienst. u.
               Freyt.</zeit> <modus>öff.</modus></veranstaltung>
 
-              <!--"Korinthier" vielleicht Druckfehler? 
-Müsste doch eigentlich Korinther heißen...-->
+              <!--"Korinthier" kein Druckfehler, ist eine zeitgenössische Variante!-->
 
               <veranstaltung xml:id="v-1816w-II.A.I.1.b.beta-004"><dozent
               ref="beck_cd"><funktion>Hofr.</funktion> u. <funktion>P.
@@ -1017,10 +1019,10 @@ Müsste doch eigentlich Korinther heißen...-->
 
             <veranstaltung xml:id="v-1816w-II.A.I.2.b-002"><dozent
             ref="beck_cd"><funktion>Hofr.</funktion> u. <funktion>P.
-            O.</funktion> <nachname>Beck</nachname></dozent>, <thema><notiz
-            betreff="fortsetzung">Forts.</notiz> u. Beschl. von Gregor d. Gr.
-            bis jetzt, nach Schröckh</thema>, <zeit>10 U. 6
-            T.</zeit></veranstaltung>
+            O.</funktion> <nachname>Beck</nachname></dozent>, <thema
+            kontext="sachgruppe"><notiz betreff="fortsetzung">Forts.</notiz>
+            u. Beschl. von Gregor d. Gr. bis jetzt, nach Schröckh</thema>,
+            <zeit>10 U. 6 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1816w-II.A.I.2.b-003"><thema>Die
             christliche Dogmengeschichte</thema> lehrt <dozent
@@ -1069,9 +1071,9 @@ Müsste doch eigentlich Korinther heißen...-->
               <veranstaltung xml:id="v-1816w-II.A.I.3.a.bb-002"><dozent
               ref="tittmann_jah"><funktion>Domh.</funktion> <funktion>P.
               O.</funktion> <seite>2021</seite><grad>D.</grad>
-              <nachname>Tittmann</nachname></dozent>, <thema><notiz
-              betreff="fortsetzung">Forts.</notiz> und Beschl.</thema>,
-              <zeit>11 U. 4 T.</zeit></veranstaltung>
+              <nachname>Tittmann</nachname></dozent>, <thema
+              kontext="sachgruppe"><notiz betreff="fortsetzung">Forts.</notiz>
+              und Beschl.</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1816w-II.A.I.3.a.001">
@@ -1158,9 +1160,10 @@ Müsste doch eigentlich Korinther heißen...-->
 
           <veranstaltung xml:id="v-1816w-II.A.II.2-001"><dozent
           ref="tzschirner_hg"><funktion>P. O.</funktion> <grad>D.</grad>
-          <nachname>Tzschirner</nachname></dozent>, <thema><notiz
-          betreff="fortsetzung">Forts.</notiz> u. Beschluss</thema>, <zeit>9
-          U. 4 T.</zeit> <modus>öff.</modus></veranstaltung>
+          <nachname>Tzschirner</nachname></dozent>, <thema
+          kontext="sachgruppe"><notiz betreff="fortsetzung">Forts.</notiz> u.
+          Beschluss</thema>, <zeit>9 U. 4 T.</zeit>
+          <modus>öff.</modus></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1816w-II.A.II.001">
@@ -1275,7 +1278,8 @@ Müsste doch eigentlich Korinther heißen...-->
                 ref="mueller_jg"><funktion>OHGR.</funktion> <grad>D.</grad> u.
                 <funktion>P. E.</funktion>
                 <nachname>Müller</nachname></dozent>, <zeit>9 U. 6
-                T.</zeit></veranstaltung>, beyde <thema>nach
+                T.</zeit></veranstaltung>, beyde <thema
+                kontext="sachgruppe">nach
                 Heineccius</thema>.</veranstaltungsgruppe>
 
                 <veranstaltung
@@ -1316,8 +1320,9 @@ Müsste doch eigentlich Korinther heißen...-->
                 xml:id="v-1816w-II.B.I.1.a.cc.alpha-010"><dozent
                 ref="reichel_vf"><grad>M.</grad>
                 <nachname>Reichel</nachname></dozent>, <zeit>10 U. 6
-                T.</zeit></veranstaltung> sämmtl. <thema>nach
-                Heineccius</thema>, u.</veranstaltungsgruppe>
+                T.</zeit></veranstaltung> sämmtl. <thema
+                kontext="sachgruppe">nach Heineccius</thema>,
+                u.</veranstaltungsgruppe>
 
                 <veranstaltung
                 xml:id="v-1816w-II.B.I.1.a.cc.alpha-011"><dozent
@@ -1470,7 +1475,7 @@ Müsste doch eigentlich Korinther heißen...-->
           <veranstaltung xml:id="v-1816w-II.B.I.5-003"><dozent
           ref="mueller_jg"><funktion>OHGR.</funktion> <funktion>P.
           E.</funktion> <grad>D.</grad> <nachname>Müller</nachname></dozent>,
-          <zeit>8 U. 6 T.</zeit><seite>2022</seite> <thema
+          <zeit>8 U. 6 T.</zeit> <seite>2022</seite> <thema
           kontext="sachgruppe">nach Böhmer</thema>.</veranstaltung>
         </sachgruppe>
 
@@ -1594,7 +1599,7 @@ Müsste doch eigentlich Korinther heißen...-->
           <thema>Referir-Kunst</thema>,
           <modus>privatiss.</modus></veranstaltung>
 
-          <!--fehlt hier ein "O"? OHGR? Oder gibt es auch ein HGR?-->
+          <!--fehlt hier ein "O"? OHGR? Oder gibt es auch einen HGR?-->
 
           <veranstaltung xml:id="v-1816w-II.B.II.2-002"><dozent
           ref="kees_jf"><funktion>OHGR.</funktion> <grad>D.</grad>
@@ -1724,7 +1729,8 @@ Müsste doch eigentlich Korinther heißen...-->
                 <veranstaltung
                 xml:id="v-1816w-II.B.II.002.b.aa.alpha-002"><dozent
                 ref="wenck_kfc"><funktion>P. E.</funktion> <grad>D.</grad>
-                <nachname>Wenck</nachname></dozent>, <thema><notiz
+                <nachname>Wenck</nachname></dozent>, <thema
+                kontext="sachgruppe"><notiz
                 betreff="fortsetzung">Forts.</notiz></thema>, <zeit>in zu
                 best. St.</zeit></veranstaltung>
 
@@ -1757,7 +1763,8 @@ Müsste doch eigentlich Korinther heißen...-->
                 xml:id="v-1816w-II.B.II.002.b.aa.beta-002"><dozent
                 ref="wenck_kfc"><funktion>OHGR.</funktion> <funktion>P.
                 E.</funktion> <grad>D.</grad>
-                <nachname>Wenck</nachname></dozent>, <thema><notiz
+                <nachname>Wenck</nachname></dozent>, <thema
+                kontext="sachgruppe"><notiz
                 betreff="fortsetzung">Forts.</notiz></thema></veranstaltung>
 
                 <veranstaltung
@@ -1775,7 +1782,8 @@ Müsste doch eigentlich Korinther heißen...-->
                 <veranstaltung
                 xml:id="v-1816w-II.B.II.002.b.aa.beta-005"><dozent
                 ref="hahmann_cce"><grad>D.</grad>
-                <nachname>Hahmann</nachname></dozent>, <thema><notiz
+                <nachname>Hahmann</nachname></dozent>, <thema
+                kontext="sachgruppe"><notiz
                 betreff="fortsetzung">Forts</notiz>.</thema>, <zeit>3 U. 4
                 T.</zeit></veranstaltung>
 
@@ -1863,7 +1871,7 @@ Müsste doch eigentlich Korinther heißen...-->
           <veranstaltung xml:id="v-1816w-II.C.I.001-001"><dozent
           ref="hahnemann_s"><grad>D.</grad>
           <nachname>Hahnemann</nachname></dozent>, <thema>Einleitung in die
-          homöopathische Heilkunde, nach s. "Organaon der rationellen
+          homöopathische Heilkunde, nach s. "Organon der rationellen
           Heilkunde,"</thema> <zeit>2 U. 2 T.</zeit>
           <gebühr>unentg.</gebühr></veranstaltung>
         </sachgruppe>
@@ -1882,8 +1890,6 @@ Müsste doch eigentlich Korinther heißen...-->
               O.</funktion> <grad>D.</grad> <nachname>Rosenmüller</nachname>,
               d. Z. <funktion>Rect. Magnif.</funktion></dozent>, <zeit>10 U. 4
               T.</zeit> <modus>öff.</modus></veranstaltung>
-
-              <!--"Rect." lässt sich nicht als Funktion auszeichnen!-->
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1816w-II.C.I.1.a.bb">
@@ -1926,8 +1932,7 @@ Müsste doch eigentlich Korinther heißen...-->
             <titel>b) Physiologie.</titel>
 
             <sachgruppe xml:id="sg-1816w-II.C.I.1.b.aa">
-              <titel>aa) <scil
-              text="Physiologie überhaupt">überhaupt</scil>.</titel>
+              <titel kontext="sachgruppe">aa) überhaupt.</titel>
 
               <veranstaltung xml:id="v-1816w-II.C.I.1.b.aa-001"><dozent
               ref="platner_e"><funktion>Hofr.</funktion> <funktion>Prof.
@@ -1997,7 +2002,8 @@ Müsste doch eigentlich Korinther heißen...-->
               <veranstaltung xml:id="v-1816w-II.C.I.1.d.aa-001"><dozent
               ref="platner_e"><funktion>Hofr.</funktion> <funktion>P.
               Prim.</funktion> <grad>D.</grad>
-              <nachname>Platner</nachname></dozent>, <thema><notiz
+              <nachname>Platner</nachname></dozent>, <thema
+              kontext="sachgruppe"><notiz
               betreff="fortsetzung">Forts</notiz>.</thema>, <zeit>5 U. Dienst.
               u. Freyt.</zeit> <modus>öff.</modus></veranstaltung>
 
@@ -2254,13 +2260,15 @@ Müsste doch eigentlich Korinther heißen...-->
 
             <veranstaltung xml:id="v-1816w-II.C.I.2.e-004"><dozent
             ref="mueller_mw"><grad>D.</grad>
-            <nachname>Müller</nachname></dozent>, <thema>die
-            Hauptlehren</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+            <nachname>Müller</nachname></dozent>, <thema
+            kontext="sachgruppe">die Hauptlehren</thema>, <zeit>11 U. 4
+            T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1816w-II.C.I.2.e-005"><dozent
             ref="robbi_jh"><grad>D.</grad>
-            <nachname>Robbi</nachname></dozent>, <thema>ausgewählte
-            Abschnitte</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
+            <nachname>Robbi</nachname></dozent>, <thema
+            kontext="sachgruppe">ausgewählte Abschnitte</thema>, <zeit>2 U. 4
+            T.</zeit></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1816w-II.C.I.2.f">
@@ -2283,8 +2291,8 @@ Müsste doch eigentlich Korinther heißen...-->
 
             <veranstaltungsgruppe><dozent ref="siegel_gf"><grad>D.</grad>
             <nachname>Siegel</nachname></dozent>, <veranstaltung
-            xml:id="v-1816w-II.C.I.2.g-002"><thema>Cursus auf <notiz
-            betreff="fortsetzung">ein ganzes Jahr</notiz>, nach s.
+            xml:id="v-1816w-II.C.I.2.g-002"><thema kontext="sachgruppe">Cursus
+            auf <notiz betreff="fortsetzung">ein ganzes Jahr</notiz>, nach s.
             Heften</thema>, <zeit>9 U. 6 T.</zeit></veranstaltung>; ingl.
             <veranstaltung
             xml:id="v-1816w-II.C.I.2.g-003"><thema>Verbandlehre</thema>,
@@ -2293,7 +2301,7 @@ Müsste doch eigentlich Korinther heißen...-->
             <veranstaltung xml:id="v-1816w-II.C.I.2.g-004"><dozent
             ref="robbi_jh"><grad>D.</grad>
             <nachname>Robbi</nachname></dozent>, <thema
-            kontext="sachgruppe">nach Legouas nouveaux proncipes de chirurgie,
+            kontext="sachgruppe">nach Legouas nouveaux principes de chirurgie,
             Par. 1815.</thema>, <zeit>4 U. 2 T.</zeit></veranstaltung>
 
             <sachgruppe xml:id="sg-1816w-II.C.I.2.g.001">
@@ -2302,11 +2310,11 @@ Müsste doch eigentlich Korinther heißen...-->
               <veranstaltungsgruppe><dozent ref="kuhl_ka"><grad>D.</grad>
               <nachname>Kuhl</nachname>, <funktion>Demonstr.
               chirurg.</funktion></dozent>, <veranstaltung
-              xml:id="v-1816w-II.C.I.2.g.001-001"><thema>wird chirurgische
-              Anweisungen an den Krankenbetten <ort>im Jacobs-Spitale</ort>
-              geben</thema>, <zeit>3 U. 2 T.</zeit></veranstaltung>; ingl.
-              <veranstaltung
-              xml:id="v-1816w-II.C.I.2.g.001-002"><thema>chrirugische
+              xml:id="v-1816w-II.C.I.2.g.001-001">wird <thema>chirurgische
+              Anweisungen an den Krankenbetten <ort>im
+              Jacobs-Spitale</ort></thema> geben, <zeit>3 U. 2
+              T.</zeit></veranstaltung>; ingl. <veranstaltung
+              xml:id="v-1816w-II.C.I.2.g.001-002"><thema>chirurgische
               Operationen an Cadavern</thema> zeigen, <zeit>11 U. 4
               T.</zeit></veranstaltung></veranstaltungsgruppe>
 
