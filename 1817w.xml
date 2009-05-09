@@ -428,8 +428,9 @@
             <veranstaltung xml:id="v-1817w-I.B.I.5.b-001"><dozent
             ref="platner_e"><funktion>Hofr.</funktion> <funktion>P.
             O.</funktion> <grad>D.</grad>
-            <nachname>Platner</nachname></dozent>, <thema>n. dem 2. Theile s.
-            philos. Aphorismen</thema>, <zeit>11 U. 2 <korrektur
+            <nachname>Platner</nachname></dozent>, <thema
+            kontext="sachgruppe">n. dem 2. Theile s. philos.
+            Aphorismen</thema>, <zeit>11 U. 2 <korrektur
             original="U">T</korrektur>.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1817w-I.B.I.5.b-002"><dozent
@@ -995,7 +996,7 @@
             <veranstaltung xml:id="v-1817w-II.A.I.1.c-001"><dozent
             ref="illgen_cf"><grad>M.</grad>
             <nachname>Illgen</nachname></dozent>, <thema>über zwey Homilien
-            des Chrysostomns von Hiob's im Glück und Unglück bewiesener
+            des Chrysostomus von Hiob's im Glück und Unglück bewiesener
             Tugend, und gegen die Vernachlässigung des Gottesdienstes wegen
             des Besuchs der Schauspiele (ed. Matthaei
             1792.)</thema>.</veranstaltung>
@@ -1059,9 +1060,9 @@
             <veranstaltung xml:id="v-1817w-II.A.I.3.a-002"><dozent
             ref="tittmann_jah"><funktion>Domh.</funktion> <funktion>P.
             O.</funktion> <grad>D.</grad>
-            <nachname>Tittmann</nachname></dozent>, <thema><notiz
-            betreff="fortsetzung">Forts.</notiz> und Beschl.</thema>, <zeit>11
-            U. 4 T.</zeit></veranstaltung>
+            <nachname>Tittmann</nachname></dozent>, <thema
+            kontext="sachgruppe"><notiz betreff="fortsetzung">Forts.</notiz>
+            und Beschl.</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1817w-II.A.I.3.a-003"><dozent
             ref="tzschirner_hg"><funktion>P. O.</funktion> <grad>D.</grad>
@@ -1070,9 +1071,10 @@
 
             <veranstaltungsgruppe><dozent ref="hoepfner_jgc"><funktion>P.
             E.</funktion> <grad>D.</grad>
-            <nachname>Höpfner</nachname></dozent>, <thema>nach s. Epitome
-            Theologiae Christianae, eb. Reinhardi acroasibus</thema>,
-            <veranstaltung xml:id="v-1817w-II.A.I.3.a-004"><zeit>10 U. 4
+            <nachname>Höpfner</nachname></dozent>, <thema
+            kontext="sachgruppe">nach s. Epitome Theologiae Christianae, eb.
+            Reinhardi acroasibus</thema>, <veranstaltung
+            xml:id="v-1817w-II.A.I.3.a-004"><zeit>10 U. 4
             T.</zeit></veranstaltung> (<veranstaltung
             xml:id="v-1817w-II.A.I.3.a-005"><zeit>2 T.</zeit>
             <modus>öff.</modus></veranstaltung>)</veranstaltungsgruppe>
@@ -1217,27 +1219,24 @@
                 <sachgruppe xml:id="sg-1817w-II.B.I.001.1.a.bb.alpha">
                   <titel>α) Institutionen.</titel>
 
-                  <veranstaltung
+                  <veranstaltungsgruppe><veranstaltung
                   xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-001"><dozent
                   ref="rau_c"><funktion>Domh.</funktion> <funktion>P.
                   O.</funktion> <grad>D.</grad>
                   <nachname>Rau</nachname></dozent>, <zeit>10 U. 4 T.</zeit>
-                  <modus>öffentl.</modus></veranstaltung>
-
-                  <veranstaltung
+                  <modus>öffentl.</modus></veranstaltung> <veranstaltung
                   xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-002"><dozent
                   ref="stockmann_ac"><funktion>Domh.</funktion> <funktion>P.
                   O.</funktion> <grad>D.</grad>
                   <nachname>Stockmann</nachname></dozent>, <zeit>3 U. 4
-                  T.</zeit> <modus>öff.</modus></veranstaltung>
-
-                  <veranstaltung
+                  T.</zeit> <modus>öff.</modus></veranstaltung> <veranstaltung
                   xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-003"><dozent
                   ref="mueller_jg"><funktion>OHGR.</funktion> <funktion>P.
                   E.</funktion> <grad>D.</grad>
                   <nachname>Müller</nachname></dozent>, <zeit>9 U. 6
-                  T.</zeit>; <thema>sämmtlich nach
-                  Heineccius</thema>.</veranstaltung>
+                  T.</zeit></veranstaltung>; sämmtlich <thema
+                  kontext="sachgruppe">nach
+                  Heineccius</thema>.</veranstaltungsgruppe>
 
                   <veranstaltung
                   xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-004"><dozent
@@ -1264,7 +1263,8 @@
                   xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-007"><dozent
                   ref="reichel_vf"><grad>M.</grad>
                   <nachname>Reichel</nachname></dozent>, <zeit>9 U. 6
-                  T.</zeit>, <thema>n. Heineccius</thema>.</veranstaltung>
+                  T.</zeit>, <thema kontext="sachgruppe">n.
+                  Heineccius</thema>.</veranstaltung>
 
                   <veranstaltung
                   xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-008"><dozent
@@ -1278,8 +1278,9 @@
                   <veranstaltung
                   xml:id="v-1817w-II.B.I.001.1.a.bb.alpha-009"><dozent
                   ref="biedermann_cw"><grad>Bacc.</grad>
-                  <nachname>Biedermann</nachname></dozent>, <thema>n.
-                  Heinecc.</thema>, <zeit>11 U. 6 T.</zeit></veranstaltung>
+                  <nachname>Biedermann</nachname></dozent>, <thema
+                  kontext="sachgruppe">n. Heinecc.</thema>, <zeit>11 U. 6
+                  T.</zeit></veranstaltung>
                 </sachgruppe>
 
                 <sachgruppe xml:id="sg-1817w-II.B.I.001.1.a.bb.beta">
@@ -1484,8 +1485,8 @@
             <veranstaltung xml:id="v-1817w-II.B.II.1.b-007"><dozent
             ref="liekefett_sg"><grad>Bacc.</grad>
             <nachname>Liekefett</nachname></dozent>, <thema>alle summarischen
-            Processarten, nach s. "Vollständigen Erläuterungen u.s.w. (Lpz. b.
-            Böhme),"</thema> <zeit>3 U. 4 T.</zeit></veranstaltung>
+            Processarten, nach s. "Vollständigen Erläuterungen u. s. w. (Lpz.
+            b. Böhme),"</thema> <zeit>3 U. 4 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1817w-II.B.II.1.b-008"><dozent
             ref="reichel_vf"><grad>M.</grad>
@@ -1538,14 +1539,15 @@
 
           <veranstaltung xml:id="v-1817w-II.B.II.2-005"><dozent
           ref="beck_jlw"><grad>D.</grad> <nachname>Beck</nachname>,
-          <funktion>Beysitzer des Schöppenstuhls</funktion></dozent>,
-          <thema>n. eignen Sätzen</thema>, <zeit>8 U. Dienst., Donn. u.
-          Sonnab.</zeit></veranstaltung>
+          <funktion>Beysitzer des Schöppenstuhls</funktion></dozent>, <thema
+          kontext="sachgruppe">n. eignen Sätzen</thema>, <zeit>8 U. Dienst.,
+          Donn. u. Sonnab.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1817w-II.B.II.2-006"><dozent
           ref="liekefett_sg"><grad>Bacc.</grad>
-          <nachname>Liekefett</nachname></dozent>, <thema>n. Püttmann</thema>,
-          <zeit>4 U. 6 T.</zeit></veranstaltung>
+          <nachname>Liekefett</nachname></dozent>, <thema
+          kontext="sachgruppe">n. Püttmann</thema>, <zeit>4 U. 6
+          T.</zeit></veranstaltung>
 
           <sachgruppe xml:id="sg-1817w-II.B.II.2.x">
             <titel>*) Uebungen in der rechtlichen Geschäftsführung</titel>
@@ -1868,8 +1870,9 @@
 
                 <veranstaltung xml:id="v-1817w-II.C.II.1.a.001.bb-004"><dozent
                 ref="robbi_jh"><grad>D.</grad>
-                <nachname>Robbi</nachname></dozent>, <thema>aus s.
-                Heften</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
+                <nachname>Robbi</nachname></dozent>, <thema
+                kontext="sachgruppe">aus s. Heften</thema>, <zeit>11 U. 4
+                T.</zeit></veranstaltung>
 
                 <veranstaltung xml:id="v-1817w-II.C.II.1.a.001.bb-005"><dozent
                 ref="weber_eh"><grad>D.</grad>
@@ -1910,7 +1913,7 @@
                 <titel>ee) Pathologie.</titel>
 
                 <sachgruppe xml:id="sg-1817w-II.C.II.1.a.001.ee.alpha">
-                  <titel>α) Allgemeine.</titel>
+                  <titel kontext="sachgruppe">α) Allgemeine.</titel>
 
                   <veranstaltung
                   xml:id="v-1817w-II.C.II.1.a.001.ee.alpha-001"><dozent
@@ -1941,13 +1944,13 @@
                   <veranstaltung
                   xml:id="v-1817w-II.C.II.1.a.001.ee.alpha-005"><dozent
                   ref="robbi_jh"><grad>D.</grad>
-                  <nachname>Robbi</nachname></dozent>, <thema>(nebst der
-                  allgemeinen Therapie) Latein.</thema>, <zeit>2 U. 4
-                  T.</zeit></veranstaltung>
+                  <nachname>Robbi</nachname></dozent>, <thema
+                  kontext="sachgruppe">(nebst der allgemeinen Therapie)
+                  Latein.</thema>, <zeit>2 U. 4 T.</zeit></veranstaltung>
                 </sachgruppe>
 
                 <sachgruppe xml:id="sg-1817w-II.C.II.1.a.001.ee.beta">
-                  <titel>β) Besondere.</titel>
+                  <titel kontext="sachgruppe">β) Besondere.</titel>
 
                   <veranstaltung
                   xml:id="v-1817w-II.C.II.1.a.001.ee.beta-001"><dozent
@@ -2103,10 +2106,9 @@
 
               <veranstaltung xml:id="v-1817w-II.C.II.1.b.bb-001"><dozent
               ref="knoblauch_jw"><grad>D.</grad>
-              <nachname>Knoblauch</nachname></dozent>, <thema>über die
-              Gesetzte und physisch-arzneylichen Kräfte der
-              Lufterscheinungen</thema>, <zeit>2 U. 4
-              T.</zeit></veranstaltung>
+              <nachname>Knoblauch</nachname></dozent>, <thema>über die Gesetze
+              und physisch-arzneylichen Kräfte der Lufterscheinungen</thema>,
+              <zeit>2 U. 4 T.</zeit></veranstaltung>
 
               <veranstaltung xml:id="v-1817w-II.C.II.1.b.bb-002"><dozent
               ref="voigt_gcg"><grad>D.</grad>
@@ -2136,7 +2138,7 @@
               <titel>ee) Therapie.</titel>
 
               <sachgruppe xml:id="sg-1817w-II.C.II.1.b.ee.alpha">
-                <titel>α) Allgemeine.</titel>
+                <titel kontext="sachgruppe">α) Allgemeine.</titel>
 
                 <veranstaltung
                 xml:id="v-1817w-II.C.II.1.b.ee.alpha-001"><dozent
@@ -2154,7 +2156,7 @@
               </sachgruppe>
 
               <sachgruppe xml:id="sg-1817w-II.C.II.1.b.ee.beta">
-                <titel>β) Besondere.</titel>
+                <titel kontext="sachgruppe">β) Besondere.</titel>
 
                 <veranstaltung
                 xml:id="v-1817w-II.C.II.1.b.ee.beta-001"><dozent
@@ -2184,8 +2186,9 @@
 
               <veranstaltung xml:id="v-1817w-II.C.II.1.b.ff-001"><dozent
               ref="heinroth_jca"><funktion>P. E.</funktion> <grad>D.</grad>
-              <nachname>Heinroth</nachname></dozent>, <thema>Theorie und
-              Praxis, nach s. noch ungedruckten Lehrb.</thema>, <zeit>8 U. 6
+              <nachname>Heinroth</nachname></dozent>, <thema
+              kontext="sachgruppe">Theorie und Praxis, nach s. noch
+              ungedruckten Lehrb.</thema>, <zeit>8 U. 6
               T.</zeit></veranstaltung>
             </sachgruppe>
 
@@ -2246,9 +2249,9 @@
               <nachname>Jörg</nachname></dozent>, <veranstaltung
               xml:id="v-1817w-II.C.II.1.b.hh-001"><zeit>11 U. 4
               T.</zeit></veranstaltung>, u. <veranstaltung
-              xml:id="v-1817w-II.C.II.1.b.hh-002"><thema>praktische Anweisung
-              <ort>in der Trierschen Anstalt</ort></thema>, <zeit>8 U. 6
-              T.</zeit>
+              xml:id="v-1817w-II.C.II.1.b.hh-002"><thema
+              kontext="sachgruppe">praktische Anweisung <ort>in der Trierschen
+              Anstalt</ort></thema>, <zeit>8 U. 6 T.</zeit>
               <modus>öff.</modus></veranstaltung></veranstaltungsgruppe>
 
               <veranstaltung xml:id="v-1817w-II.C.II.1.b.hh-003"><dozent
@@ -2291,8 +2294,9 @@
 
               <veranstaltung xml:id="v-1817w-II.C.II.1.b.kk-001"><dozent
               ref="cerutti_fpl"><grad>D.</grad>
-              <nachname>Cerutti</nachname></dozent>, <thema>n. eignen
-              Sätzen</thema>, <zeit>8 U. Dienst. und Freyt.</zeit>
+              <nachname>Cerutti</nachname></dozent>, <thema
+              kontext="sachgruppe">n. eignen Sätzen</thema>, <zeit>8 U.
+              Dienst. und Freyt.</zeit>
               <gebühr>unentg.</gebühr></veranstaltung>
             </sachgruppe>
           </sachgruppe>
