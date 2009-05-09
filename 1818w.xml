@@ -53,7 +53,7 @@
         <titel>1) Morgenländische Sprachen.</titel>
 
         <sachgruppe xml:id="sg-1818w-I.A.1.a">
-          <titel>a) Hebräische.</titel>
+          <titel kontext="sachgruppe">a) Hebräische.</titel>
 
           <veranstaltung xml:id="v-1818w-I.A.1.a-001"><dozent
           ref="winer_gb"><nachname>Winer</nachname>, <grad>M.</grad>
@@ -72,7 +72,7 @@
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1818w-I.A.1.b">
-          <titel>b) Chaldäische.</titel>
+          <titel kontext="sachgruppe">b) Chaldäische.</titel>
 
           <veranstaltung xml:id="v-1818w-I.A.1.b-001"><ders
           ref="winer_gb">Derselbe</ders>, <thema kontext="sachgruppe">nach
@@ -82,7 +82,7 @@
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1818w-I.A.1.c">
-          <titel>c) Arabische.</titel>
+          <titel kontext="sachgruppe">c) Arabische.</titel>
 
           <veranstaltung xml:id="v-1818w-I.A.1.c-001"><dozent
           ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
@@ -256,7 +256,7 @@
         <titel>3) Neuere Sprachen.</titel>
 
         <sachgruppe xml:id="sg-1818w-I.A.3.a">
-          <titel>a) Deutsche.</titel>
+          <titel kontext="sachgruppe">a) Deutsche.</titel>
 
           <veranstaltung xml:id="v-1818w-I.A.3.a-001"><dozent
           ref="kerndoerffer_ha"><nachname>Kerndörffer</nachname>,
@@ -266,7 +266,7 @@
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1818w-I.A.3.b">
-          <titel>b) Französische.</titel>
+          <titel kontext="sachgruppe">b) Französische.</titel>
 
           <veranstaltungsgruppe><dozent
           ref="dumas_jla"><nachname>Dumas</nachname>, <vorname>J. L.
@@ -282,12 +282,12 @@
           <nachname>Villers</nachname></dozent> wird seinen
           <thema><antiqua>Cours de Litérature française</antiqua> und
           <antiqua>de diplomatie pratique</antiqua> in franz. Sprache</thema>
-          fortsetzen</veranstaltung>.<!--Die Rolle von Bouc ist unklar; vorerst keiner Veranstaltung
+          <notiz betreff="fortsetzung">fortsetzen</notiz></veranstaltung>.<!--Die Rolle von Bouc ist unklar; vorerst keiner Veranstaltung
 zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1818w-I.A.3.c">
-          <titel>c) Englische.</titel>
+          <titel kontext="sachgruppe">c) Englische.</titel>
 
           <veranstaltung xml:id="v-1818w-I.A.3.c-001"><dozent
           ref="michaelis_cf"><nachname>Michaelis</nachname>, <grad>M.</grad>
@@ -309,7 +309,7 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1818w-I.A.3.d">
-          <titel>d) Italienische.</titel>
+          <titel kontext="sachgruppe">d) Italienische.</titel>
 
           <veranstaltung xml:id="v-1818w-I.A.3.d-001"><dozent
           ref="michaelis_cf"><nachname>Michaelis</nachname>, <grad>M.</grad>
@@ -598,8 +598,8 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
               <veranstaltung xml:id="v-1818w-I.B.III.1.a.x-001"><dozent
               ref="knoblauch_jw"><nachname>Knoblauch</nachname>,
               <grad>D.</grad> <vorname>J. W.</vorname>, <funktion>P. Med. E.
-              des.</funktion></dozent>, <thema>n. eignen Entdeckungen</thema>,
-              <zeit>3 U. 2 T.</zeit>
+              des.</funktion></dozent>, <thema kontext="sachgruppe">n. eignen
+              Entdeckungen</thema>, <zeit>3 U. 2 T.</zeit>
               <modus>öffentlich</modus>.</veranstaltung>
             </sachgruppe>
 
@@ -1004,8 +1004,9 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
             <veranstaltung xml:id="v-1818w-II.A.I.3.b-003"><dozent
             ref="beck_cd"><nachname>Beck</nachname>, <vorname>C. D.</vorname>,
             <funktion>P. O.</funktion></dozent>, <thema>über die Briefe an die
-            Korinther, Galater, Epheser, Kolosser, Fortsetz. des
-            Cursus</thema>, <zeit>2 U. 6 T.</zeit></veranstaltung>
+            Korinther, Galater, Epheser, Kolosser, <notiz
+            betreff="fortsetzung">Fortsetz.</notiz> des Cursus</thema>,
+            <zeit>2 U. 6 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1818w-II.A.I.3.b-004"><dozent
             ref="hoepfner_jgc"><nachname>Höpfner</nachname>, <grad>D.</grad>
@@ -1074,14 +1075,16 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
           <veranstaltung xml:id="v-1818w-II.A.II.1-001"><dozent
           ref="tittmann_jah"><nachname>Tittmann</nachname>, <grad>D.</grad>
           <vorname>J. A. H.</vorname>, <funktion>Theol. P.
-          Prim.</funktion></dozent>, <thema>Forts.</thema> <zeit>11 U. 4
+          Prim.</funktion></dozent>, <thema kontext="sachgruppe"><notiz
+          betreff="fortsetzung">Forts.</notiz></thema> <zeit>11 U. 4
           T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1818w-II.A.II.1-002"><dozent
           ref="tzschirner_hg"><nachname>Tzschirner</nachname>, <grad>D.</grad>
           <vorname>H. G.</vorname>, <funktion>P. O.</funktion> u. d. Z.
-          <funktion>Dec.</funktion></dozent>, <thema>Forts. und
-          Beschluß</thema>, <zeit>10 U. 6 T.</zeit></veranstaltung>
+          <funktion>Dec.</funktion></dozent>, <thema
+          kontext="sachgruppe"><notiz betreff="fortsetzung">Forts. und
+          Beschluß</notiz></thema>, <zeit>10 U. 6 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1818w-II.A.II.1-003"><dozent
           ref="hoepfner_jgc"><nachname>Höpfner</nachname>, <grad>D.</grad>
@@ -1201,8 +1204,9 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
           <veranstaltung xml:id="v-1818w-II.A.IV.001-001"><dozent
           ref="hoepfner_jgc"><nachname>Höpfner</nachname>, <grad>D.</grad>
           <vorname>J. G. C.</vorname>, <funktion>Phil. P. E.
-          des.</funktion></dozent>, <thema>Forts. u. Beschluß</thema>, <zeit>2
-          U. 2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+          des.</funktion></dozent>, <thema kontext="sachgruppe"><notiz
+          betreff="fortsetzung">Forts. u. Beschluß</notiz></thema>, <zeit>2 U.
+          2 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1818w-II.A.IV.001-002"><dozent
           ref="goldhorn_jd"><nachname>Goldhorn</nachname>, <grad>D.</grad>
@@ -1358,8 +1362,8 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
                 xml:id="v-1818w-II.B.I.1.a.cc.alpha-005"><dozent
                 ref="schilling_fa"><nachname>Schilling</nachname>,
                 <grad>M.</grad> <vorname>F. A.</vorname>, <grad>I. V.
-                B.</grad></dozent>, <thema>verbunden mit der innern Geschichte
-                des röm. Rechts, nach Hrn. DHGK.
+                B.</grad></dozent>, <thema kontext="sachgruppe">verbunden mit
+                der innern Geschichte des röm. Rechts, nach Hrn. DHGK.
                 <gesperrt>Haubold's</gesperrt> <antiqua>Lineamenta
                 institutionum iur. Rom. priv. histor.
                 dogmat.</antiqua></thema> <zeit>3 U. 6 <korrektur
@@ -1424,8 +1428,9 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
             ref="haubold_cg"><nachname>Haubold</nachname>, <grad>D.</grad>
             <vorname>C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
             <thema kontext="sachgruppe">nach s. Sätzen</thema>, <zeit>9 U. 4
-            T.</zeit> <modus>öffentlich</modus>. <thema>Fortsetzung u.
-            Beschluß</thema>.</veranstaltung>
+            T.</zeit> <modus>öffentlich</modus>. <thema><notiz
+            betreff="fortsetzung">Fortsetzung u.
+            Beschluß</notiz></thema>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1818w-II.B.I.1.d">
@@ -1498,8 +1503,8 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
           <veranstaltung xml:id="v-1818w-II.B.I.5-001"><dozent
           ref="mueller_jg"><nachname>Müller</nachname>, <grad>D.</grad>
           <vorname>J. G.</vorname>, <funktion>P. O. des.</funktion></dozent>,
-          <thema>n. <gesperrt>Böhmer</gesperrt></thema>, <zeit>9 U. 6
-          T.</zeit></veranstaltung>
+          <thema kontext="sachgruppe">n. <gesperrt>Böhmer</gesperrt></thema>,
+          <zeit>9 U. 6 T.</zeit></veranstaltung>
         </sachgruppe>
       </sachgruppe>
 
@@ -1592,9 +1597,9 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1818w-II.B.II.2-001"><dozent
           ref="klien_c"><nachname>Klien</nachname>, <grad>D.</grad>
-          <vorname>K.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>verbunden mit Ausarbeitungen</thema>, <zeit>11 U. 4
-          T.</zeit></veranstaltung>
+          <vorname>K.</vorname>, <funktion>P. O.</funktion></dozent>, <thema
+          kontext="sachgruppe">verbunden mit Ausarbeitungen</thema>, <zeit>11
+          U. 4 T.</zeit></veranstaltung>
 
           <veranstaltung xml:id="v-1818w-II.B.II.2-002"><dozent
           ref="kees_jf"><nachname>Kees</nachname>, <grad>D.</grad> <vorname>J.
@@ -1703,10 +1708,11 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
 
                 <veranstaltung xml:id="v-1818w-II.B.II.2.xx.b.aa-002"><dozent
                 ref="liekefett_sg"><nachname>Liekefett</nachname>, <vorname>S.
-                G.</vorname>, <grad>I. V. B.</grad></dozent>, <thema>n.
-                <antiqua>Ordin.</antiqua> <gesperrt>Biener's</gesperrt> 2r
-                Ausg. des <gesperrt>Heineccius</gesperrt></thema>, <zeit>4 U.
-                6 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+                G.</vorname>, <grad>I. V. B.</grad></dozent>, <thema
+                kontext="sachgruppe">n. <antiqua>Ordin.</antiqua>
+                <gesperrt>Biener's</gesperrt> 2r Ausg. des
+                <gesperrt>Heineccius</gesperrt></thema>, <zeit>4 U. 6
+                T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
               </sachgruppe>
 
               <sachgruppe xml:id="sg-1818w-II.B.II.2.xx.b.bb">
@@ -1720,8 +1726,9 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
 
                 <veranstaltung xml:id="v-1818w-II.B.II.2.xx.b.bb-002"><dozent
                 ref="haenel_f"><nachname>Hänel</nachname>, <grad>D.</grad>
-                <vorname>F.</vorname></dozent>, <thema>n.
-                <gesperrt>Hellfeld</gesperrt>, Forts.</thema> <zeit>2 U. 4
+                <vorname>F.</vorname></dozent>, <thema kontext="sachgruppe">n.
+                <gesperrt>Hellfeld</gesperrt>, <notiz
+                betreff="fortsetzung">Forts.</notiz></thema> <zeit>2 U. 4
                 T.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
               </sachgruppe>
 
@@ -1860,7 +1867,8 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
               <veranstaltung xml:id="v-1818w-II.C.I.1.c.aa-001"><dozent
               ref="kuehn_cg"><nachname>Kühn</nachname>, <grad>D.</grad>
               <vorname>K. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-              <thema>n. <gesperrt>Hildebrandt</gesperrt></thema>, <zeit>8 U. 4
+              <thema kontext="sachgruppe">n.
+              <gesperrt>Hildebrandt</gesperrt></thema>, <zeit>8 U. 4
               T.</zeit></veranstaltung>
 
               <veranstaltung xml:id="v-1818w-II.C.I.1.c.aa-002"><dozent
@@ -2010,7 +2018,7 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
             <titel>d) Therapie.</titel>
 
             <sachgruppe xml:id="sg-1818w-II.C.I.2.d.aa">
-              <titel>aa) Allgemeine.</titel>
+              <titel kontext="sachgruppe">aa) Allgemeine.</titel>
 
               <veranstaltung xml:id="v-1818w-II.C.I.2.d.aa-001"><dozent
               ref="hahnemann_s"><nachname>Hahnemann</nachname>,
@@ -2026,7 +2034,7 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1818w-II.C.I.2.d.bb">
-              <titel>bb) specielle.</titel>
+              <titel kontext="sachgruppe">bb) specielle.</titel>
 
               <veranstaltung xml:id="v-1818w-II.C.I.2.d.bb-001"><dozent
               ref="haase_wa"><nachname>Haase</nachname>, <grad>D.</grad>
@@ -2037,7 +2045,8 @@ zugeordnet. Vgl. WS 1814, S. 9.--></veranstaltungsgruppe>
               <veranstaltung xml:id="v-1818w-II.C.I.2.d.bb-002"><dozent
               ref="puchelt_fab"><nachname>Puchelt</nachname>, <grad>D.</grad>
               <vorname>F. A. B.</vorname>, <funktion>P.
-              E.</funktion></dozent>, <thema>Forts. u. Beschluß</thema>,
+              E.</funktion></dozent>, <thema kontext="sachgruppe"><notiz
+              betreff="fortsetzung">Forts. u. Beschluß</notiz></thema>,
               <zeit>6 T. in den festgesetzten St.</zeit></veranstaltung>
 
               <veranstaltung xml:id="v-1818w-II.C.I.2.d.bb-003"><dozent
