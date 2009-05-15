@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dozentenliste xml:lang="de" xmlns="http://histvv.uni-leipzig.de/ns/2007"
-               xmlns:ns="http://histvv.uni-leipzig.de/ns/2007">
+<?xml version="1.0" encoding="UTF-8"?><dozentenliste xmlns="http://histvv.uni-leipzig.de/ns/2007" xmlns:ns="http://histvv.uni-leipzig.de/ns/2007" xml:lang="de">
   <universität>Leipzig</universität>
 
   <dozent eindeutig="ja" xml:id="ahlfeld_jf">
@@ -1229,9 +1227,19 @@ Der Link books.google.de (Becks Kurzbiographien) gibt das Sterbedatum
       <vorname>Albert</vorname>
     </name>
 
+    <geboren>
+      <jahr>1852</jahr>
+
+      <monat>4</monat>
+
+      <tag>24</tag>
+
+      <ort>Hamburg</ort>
+    </geboren>
+
     <beruf>Assistent an der chirurgischen Klinik</beruf>
 
-    <url>http://books.google.de/books?id=qaoEAAAAQAAJ&amp;q=%22Albert+Beger%22&amp;pgis=1</url>
+    <quelle>StadtAL, PoA Nr. 324, Bl. 131.</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="behrend_r">
@@ -4183,12 +4191,20 @@ Schreibweise "Brugman" (siehe NDB)-->
       <vorname>Karl <rufname>Eduard</rufname></vorname>
     </name>
 
+    <geboren>
+      <jahr>1810</jahr>
+
+      <monat>1</monat>
+
+      <tag>12</tag>
+    </geboren>
+
     <pnd>133277526</pnd>
 
-    <!--In den VV als "K. E. Burckhardt", gängiger Vorname aber nur "Eduard".
-ACHTUNG: Der "Burkhardt" im SS 1833 gehört mit dazu!-->
+    <beruf>Historiker<!--In den VV als "K. E. Burckhardt", gängiger Vorname aber nur "Eduard".
+ACHTUNG: Der "Burkhardt" im SS 1833 gehört mit dazu!--></beruf>
 
-    <beruf>Historiker</beruf>
+    <quelle>StadtAL, PoA Nr. 49, Bl. 330b.</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="buresch_k">
@@ -4815,21 +4831,43 @@ ACHTUNG: Der "Burkhardt" im SS 1833 gehört mit dazu!-->
       <vorname>Gottlieb Friedrich</vorname>
     </name>
 
-    <!--Vornamen aus lateinischen VV eruiert, dort "Theophil. Frid."-->
+    <geboren>
+      <jahr>1803</jahr>
+
+      <ort>Dresden</ort>
+    </geboren>
 
     <beruf>Jurist</beruf>
+
+    <quelle>StadtAL, PoA Nr. 50, Bl. 37b.</quelle>
   </dozent>
 
-  <dozent xml:id="claudius_ht">
+  <dozent eindeutig="ja" xml:id="claudius_ht">
     <name>
       <nachname>Claudius</nachname>
 
       <vorname>Heinrich Traugott</vorname>
     </name>
 
-    <!--Vornamen aus lateinischen VV eruiert, dort "Henr. Travgott"-->
+    <geboren>
+      <jahr>1805</jahr>
 
-    <beruf>Jurist</beruf>
+      <ort>Dresden</ort>
+    </geboren>
+
+    <gestorben>
+      <jahr>1848</jahr>
+
+      <monat>8</monat>
+
+      <tag>18</tag>
+
+      <ort>Colditz<!-- in der Irrenanstalt--></ort>
+    </gestorben>
+
+    <beruf>Jurist, Advokat</beruf>
+
+    <quelle>StadtAL, PoA Nr. 50, Bl. 37.</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="clodius_cah">
@@ -6904,13 +6942,21 @@ Auskunft per Mail (24.3.2009) von Teresa Gray, Vanderbilt University (Nashville,
     <name>
       <nachname>Dümas</nachname>
 
-      <vorname>Theod.</vorname>
-
-      <!--"Theod." ist die Angabe aus den lateinischen VV, sonst nichts zu ihm gefunden. 
-Die umlautlosen Namensvarianten von WS 1824 und WS 1825 gehören mit zu ihm!-->
+      <vorname>Theodor</vorname>
     </name>
 
+    <geboren>
+      <jahr>1790</jahr>
+
+      <ort>Dresden</ort>
+    </geboren>
+
+    <!--"Theod." ist die Angabe aus den lateinischen VV, sonst nichts zu ihm gefunden. 
+Die umlautlosen Namensvarianten von WS 1824 und WS 1825 gehören mit zu ihm!-->
+
     <beruf>Lektor für französische Sprache und Literatur</beruf>
+
+    <quelle>StadtAL, PoA Nr. 38, Bl. 175b.</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="dupont_j">
@@ -8209,9 +8255,32 @@ Im Personalverz. war er nicht zu finden!-->
       <vorname>Karl August</vorname>
     </name>
 
+    <geboren>
+      <jahr>1784</jahr>
+
+      <ort>Dessau</ort>
+    </geboren>
+
+    <gestorben>
+      <jahr>1850</jahr>
+
+      <monat>12</monat>
+
+      <tag>3</tag>
+
+      <ort>Dresden</ort>
+    </gestorben>
+
     <pnd>135975409</pnd>
 
     <beruf>Jurist</beruf>
+
+    <quelle>StadtAL, PoA Nr. 39, Bl. 68., Nr. 53, Bl. 14b.</quelle>
+
+    <anmerkungen>
+      <absatz>In der Quelle gibt es widersprüchliche Angaben zum Geburtsjahr:
+      zuerst heißt es "1784", in einem späteren Eintrag "1788"</absatz>
+    </anmerkungen>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="fehr_h">
@@ -9276,11 +9345,11 @@ Im WBIS ist fälscherlicherweise von einem "Flathe, Hermann" die Rede-->
     <beruf>Jurist</beruf>
   </dozent>
 
-  <dozent bis="1825w" eindeutig="ja" von="1825w" xml:id="freiesleben_kf">
+  <dozent eindeutig="ja" xml:id="freiesleben_ca">
     <name>
       <nachname>Freiesleben</nachname>
 
-      <vorname>Karl Friedrich</vorname>
+      <vorname>Carl Friedrich</vorname>
     </name>
 
     <geboren>
@@ -9296,6 +9365,16 @@ Im WBIS ist fälscherlicherweise von einem "Flathe, Hermann" die Rede-->
     <pnd>122222091</pnd>
 
     <beruf>Jurist</beruf>
+
+    <!--Stadtarchiv Berufsbezeichnung: "Doct. d. Rechte, Assessor d. Juristenfacultät"-->
+
+    <quelle>Hamberger, Georg Christoph; Meusel, Johann Georg: Das gelehrte
+    Teutschland : oder Lexikon der jetzt lebenden teutschen Schriftsteller /
+    angefangen von Georg Christoph Hamberger; fortgesetzt von Johann Georg
+    Meusel. - 5. durchaus verm. u. verbess. Aufl. - Lemgo : Meyer, 1796-1834.
+    - 23 Bde (laut WBIS)</quelle>
+
+    <quelle>StadtAL, PoA Nr. 53, Bl. 105.</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="frenzel_ko">
@@ -9814,16 +9893,28 @@ Allerdings sind die dazu aufgeführten Publikationen nicht schlüssig.-->
     <url>http://www.zeno.org/Pagel-1901/A/Friedrich,+Paul+Leopold</url>
   </dozent>
 
-  <dozent bis="1830w" von="1829w" xml:id="friedrich_w">
+  <dozent bis="1830w" eindeutig="ja" von="1829w" xml:id="friedrich_wg">
     <name>
       <nachname>Friedrich</nachname>
 
-      <vorname>Wilhelm</vorname>
+      <vorname>Wilhelm Gottlob</vorname>
     </name>
 
-    <!--in den lat. Lektionskatalogen wird er "Gvil(ielmus)" genannt, daher Vorname Wilhelm-->
+    <geboren>
+      <jahr>1800</jahr>
+
+      <monat>9</monat>
+
+      <tag>22</tag>
+
+      <ort>Sietzsch bei Landsberg</ort>
+    </geboren>
+
+    <pnd>120036622</pnd>
 
     <beruf>Mediziner</beruf>
+
+    <quelle>StadtAL, PoA Nr. 53, Bl. 116b.</quelle>
   </dozent>
 
   <dozent bis="1828s" eindeutig="ja" von="1826s" xml:id="fritzsche_fv">
@@ -10092,17 +10183,23 @@ Allerdings sind die dazu aufgeführten Publikationen nicht schlüssig.-->
     <name>
       <nachname>Funke</nachname>
 
-      <vorname>Gottlob Leberecht</vorname>
+      <vorname>Gottlob Leberecht<!-- Auch der "Funcke" im SS 1818 ist damit gemeint!--></vorname>
     </name>
 
-    <!--Auch der "Funcke" im SS 1818 ist damit gemeint!-->
+    <geboren>
+      <jahr>1793</jahr>
 
-    <pnd>116874201</pnd>
+      <ort>Schenkenberg bei Delitzsch</ort>
+    </geboren>
 
-    <!--Wirkungsdaten in der PND scheinen nicht zu stimmen (1888!), 
-aber das dort verknüpfte Werk schon.-->
+    <pnd>116874201<!--Wirkungsdaten in der PND scheinen nicht zu stimmen (1888!), 
+aber das dort verknüpfte Werk schon.--></pnd>
 
     <beruf>Jurist</beruf>
+
+    <!--Er ist im Mai 1920 nach Chemnitz gegangen!-->
+
+    <quelle>StadtAL, PoA Nr. 39, Bl. 169b.</quelle>
   </dozent>
 
   <dozent bis="1836s" eindeutig="ja" von="1832w" xml:id="funke_kfw">
@@ -10736,7 +10833,15 @@ aber das dort verknüpfte Werk schon.-->
       <vorname>Giovanni Battista</vorname>
     </name>
 
-    <beruf>Sprachlehrer</beruf>
+    <geboren>
+      <jahr>1786</jahr>
+
+      <ort>Verona</ort>
+    </geboren>
+
+    <beruf>Sprachlehrer für Italienisch</beruf>
+
+    <quelle>StadtAL, PoA, Nr. 54, Bl. 30b.</quelle>
   </dozent>
 
   <dozent bis="1823w" eindeutig="ja" von="1814w" xml:id="gilbert_lw">
@@ -10846,9 +10951,19 @@ aber das dort verknüpfte Werk schon.-->
       <vorname>Carl Wilhelm</vorname>
     </name>
 
+    <geboren>
+      <jahr>1777</jahr>
+
+      <ort>Zwickau</ort>
+    </geboren>
+
     <beruf>Historiker</beruf>
 
+    <!--In der Quelle steht: "Magister und pension. Lehrer, Academicus"-->
+
     <url>http://books.google.de/books?id=z8YPAAAAYAAJ&amp;pg=PA47&amp;dq=glaeser</url>
+
+    <quelle>StadtAL, PoA Nr. 39, Bl. 243.</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="glitsch_h">
@@ -11391,7 +11506,32 @@ aber das dort verknüpfte Werk schon.-->
       <vorname>Franz Rudolph Bernhard</vorname>
     </name>
 
+    <geboren>
+      <jahr>1857</jahr>
+
+      <monat>7</monat>
+
+      <tag>22</tag>
+
+      <ort>Leipzig</ort>
+    </geboren>
+
+    <gestorben>
+      <jahr>1923</jahr>
+
+      <monat>3</monat>
+
+      <tag>22</tag>
+    </gestorben>
+
     <beruf>Mediziner, Assistent der chirurg. Klinik</beruf>
+
+    <quelle>StadtAL, PoA Nr. 156, Bl. 1.</quelle>
+
+    <anmerkungen>
+      <absatz>In der Quelle wurde das Sterbedatum korrigiert, der 23. März
+      wurde durchgestrichen.</absatz>
+    </anmerkungen>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="gregor_a">
@@ -12224,9 +12364,19 @@ in den lat. Lektionskatalogen auch ihm zugeordnet!-->
       <nachname>Hahmann</nachname>
 
       <vorname>Carl Christian Ernst</vorname>
+
+      <!--in der Quelle, wird er so geschrieben: "Hamann, Karl Ernst Christian"-->
     </name>
 
+    <geboren>
+      <jahr>1785</jahr>
+
+      <ort>Dresden</ort>
+    </geboren>
+
     <beruf>Jurist</beruf>
+
+    <quelle>StadtAL, PoA Nr. 40, Bl. 16.</quelle>
   </dozent>
 
   <dozent bis="1833s" eindeutig="ja" von="1826w" xml:id="hahn_a">
@@ -12752,14 +12902,22 @@ in den lat. Lektionskatalogen auch ihm zugeordnet!-->
     <url>http://www.uni-leipzig.de/unigeschichte/professorenkatalog/leipzig/Hantzsch_51.html</url>
   </dozent>
 
-  <dozent eindeutig="ja" xml:id="haentzschel_f">
+  <dozent eindeutig="ja" xml:id="haentzschel_fe">
     <name>
       <nachname>Häntzschel</nachname>
 
-      <vorname>Friedrich</vorname>
+      <vorname>Friedrich Esaias</vorname>
     </name>
 
-    <beruf>Jurist</beruf>
+    <geboren>
+      <jahr>1800</jahr>
+
+      <ort>Königstein</ort>
+    </geboren>
+
+    <beruf>Jurist, Advokat</beruf>
+
+    <quelle>StadtAL, PoA, Nr. 40, Bl. 62b.</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="haepe_g">
@@ -14906,11 +15064,17 @@ Geschichte der böhmischen Länder zu sein--></vorname>
       <vorname>Karl Heinrich</vorname>
     </name>
 
-    <!--Auf ihn geht wohl sowohl die Veranstaltung im WS 1827 als auch 
-die aus den 1850er-Jahren zurück - nicht zu verwechseln mit dem 
-anderen "Karl Heinrich Heydenreich" (1732-1823)!-->
+    <geboren>
+      <jahr>1801</jahr>
 
-    <beruf>Jurist</beruf>
+      <ort>Dresden</ort>
+    </geboren>
+
+    <beruf>Jurist, Justizrat, Advokat<!--Auf ihn geht wohl sowohl die Veranstaltung im WS 1827 als auch 
+die aus den 1850er-Jahren zurück - nicht zu verwechseln mit dem 
+anderen "Karl Heinrich Heydenreich" (1732-1823)!--></beruf>
+
+    <quelle>StadtAL, PoA Nr. 55</quelle>
   </dozent>
 
   <dozent eindeutig="ja" xml:id="heymann_r">
@@ -37589,8 +37753,7 @@ http://books.google.de/books?id=ZgOgGwAACAAJ&dq=%22Armin+Tr%C3%BCbiger%22&lr=-->
     <url>http://books.google.de/books?id=NnxdMVHFFTcC&amp;pg=PA215&amp;vq=villers</url>
   </dozent>
 
-  <dozent bis="1911w" eindeutig="ja" von="1907w"
-          xml:id="vitzthumvoneckstaedt_g">
+  <dozent bis="1911w" eindeutig="ja" von="1907w" xml:id="vitzthumvoneckstaedt_g">
     <name>
       <nachname>Vitzthum von Eckstädt</nachname>
 
