@@ -71,11 +71,11 @@
           <veranstaltung xml:id="v-1830s-I.I.1.002-001"><dozent
           ref="seyffarth_g"><nachname>Seyffarth</nachname>,
           <vorname>G.</vorname>, <funktion>Philos. P. E.</funktion></dozent>,
-          <thema>so daß nach Beendigung des grammat. Unterrichtes verschiedene
-          Stücke aus gedruckten und ungedruckten Koptischen Schriften sowohl
-          im Memphitischen, als Sahidischen und Basmurischen Dialekt erklärt
-          werden sollen</thema>, <zeit>5 U. 2 T.</zeit>
-          <modus>öffentlich</modus>.</veranstaltung>
+          <thema kontext="sachgruppe">so daß nach Beendigung des grammat.
+          Unterrichtes verschiedene Stücke aus gedruckten und ungedruckten
+          Koptischen Schriften sowohl im Memphitischen, als Sahidischen und
+          Basmurischen Dialekt erklärt werden sollen</thema>, <zeit>5 U. 2
+          T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1830s-I.I.1.003">
@@ -83,10 +83,10 @@
 
           <veranstaltung xml:id="v-1830s-I.I.1.003-001"><dozent
           ref="seyffarth_g"><nachname>Seyffarth</nachname>,
-          <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
-          <thema>oder die Kunst, die hieroglyphischen Schriften der alten
-          Aegypter zu entziffern</thema>, <zeit>in zu best. St.</zeit>
-          <modus>privatissime</modus>.</veranstaltung>
+          <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>, <thema
+          kontext="sachgruppe">oder die Kunst, die hieroglyphischen Schriften
+          der alten Aegypter zu entziffern</thema>, <zeit>in zu best.
+          St.</zeit> <modus>privatissime</modus>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1830s-I.I.1.004">
@@ -194,7 +194,8 @@
             xml:id="v-1830s-I.I.2.a.003-001"><thema>philologisch-kritische
             Uebungen <ort>im königl. philolog. Seminarium</ort></thema>,
             <zeit>3 U. 2 T.</zeit></veranstaltung>, <veranstaltung
-            xml:id="v-1830s-I.I.2.a.003-002"><thema>didaktische</thema>,
+            xml:id="v-1830s-I.I.2.a.003-002"><thema><scil
+            text="didaktische Uebungen im königl. philolog. Seminarium">didaktische</scil></thema>,
             <zeit>4 U. 2 T.</zeit></veranstaltung>
             <modus>öffentlich</modus>.</veranstaltungsgruppe>
 
@@ -319,11 +320,11 @@
             ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <zeit>an zu best. T. u. St.</zeit>
-            <thema>Anfangsgründe nach <schrift><autor>J. G. Keil</autor>'s
-            Grammatik (Erfurt b. Kayser 1821.)</schrift>, verbunden mit der
-            Erkl. <schrift>klassischer Lustspiele aus dem <titel>Teatro
-            classico italiano antico e moderno</titel>. Lipsia 1829 presso
-            Ernesto Fleischer</schrift></thema>,
+            <thema kontext="sachgruppe">Anfangsgründe nach <schrift><autor>J.
+            G. Keil</autor>'s Grammatik (Erfurt b. Kayser 1821.)</schrift>,
+            verbunden mit der Erkl. <schrift>klassischer Lustspiele aus dem
+            <titel>Teatro classico italiano antico e moderno</titel>. Lipsia
+            1829 presso Ernesto Fleischer</schrift></thema>,
             <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
@@ -334,9 +335,9 @@
             ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <zeit>an zu best. T. u. St.</zeit>
-            <thema>Anfangsgründe nach <schrift><autor>C. Lüdger</autor>'s
-            theoretisch-praktischem Lehrgebäude der span. Sprache</schrift>,
-            verbunden mit der Erklärung des
+            <thema kontext="sachgruppe">Anfangsgründe nach <schrift><autor>C.
+            Lüdger</autor>'s theoretisch-praktischem Lehrgebäude der span.
+            Sprache</schrift>, verbunden mit der Erklärung des
             <schrift><autor>Calderon</autor>'schen Lustspiels <titel>La vida
             es sueño</titel></schrift>. (<schrift><titel>Las comedias de
             Calderon</titel> por <autor>J. J. Keil</autor>, Lpz. b. Ernst
@@ -481,8 +482,8 @@
 
         <veranstaltung xml:id="v-1830s-I.II.3-001"><dozent
         ref="gruner_hc"><nachname>Gruner</nachname>, <grad>M.</grad>
-        <vorname>H. C.</vorname></dozent>, <thema>oder Geschichte der
-        Menschheit</thema>, <zeit>2 T. in zu best. St.</zeit>
+        <vorname>H. C.</vorname></dozent>, <thema kontext="sachgruppe">oder
+        Geschichte der Menschheit</thema>, <zeit>2 T. in zu best. St.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -720,7 +721,7 @@
 
         <veranstaltung xml:id="v-1830s-I.IV.001-001"><dozent
         ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
-        <vorname>H.</vorname></dozent>, <thema><notiz
+        <vorname>H.</vorname></dozent>, <thema kontext="sachgruppe"><notiz
         betreff="fortsetzung">auf drei Semester berechnet</notiz>, und zwar in
         diesem Halbjahre Natur- u. Völkerrecht, Staats- und Staatenrecht,
         Geschichte des europäischen Staatensystems, Staatskunst, Sicherheits-
@@ -1050,9 +1051,9 @@
         <veranstaltung xml:id="v-1830s-I.VII.002-001"><dozent
         ref="pohl_f"><nachname>Pohl</nachname>, <vorname>H. F.</vorname>,
         <funktion>P. O.</funktion></dozent>, <thema
-        kontext="sachgruppe"><schrift>erster Theil, nach
-        <autor>Burger</autor>'s Lehrbuche</schrift></thema>, <zeit>9 U. 4
-        T.</zeit></veranstaltung>
+        kontext="sachgruppe"><notiz betreff="fortsetzung">erster
+        Theil</notiz>, <schrift>nach <autor>Burger</autor>'s
+        Lehrbuche</schrift></thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1830s-I.VII.003">
@@ -1335,8 +1336,8 @@
             ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
             <vorname>C. F.</vorname>, <funktion>P. O.</funktion> u. d. Z.
             <funktion>Dechant</funktion></dozent>, <thema
-            kontext="sachgruppe"><schrift><notiz betreff="fortsetzung">den
-            ersten Theil</notiz> von Christus an bis auf Gregor VII., nach
+            kontext="sachgruppe"><notiz betreff="fortsetzung">den ersten
+            Theil</notiz> von Christus an bis auf Gregor VII., <schrift>nach
             <autor>Schmidt</autor>'s Lehrb. (3. Aufl. Gießen
             1827.)</schrift></thema>, <zeit>9 U. 6 T. u. 11 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
@@ -1430,10 +1431,11 @@
             <veranstaltung xml:id="v-1830s-II.A.I.3.002-001"><dozent
             ref="hahn_a"><nachname>Hahn</nachname>, <grad>D.</grad>
             <vorname>A<korrektur>.</korrektur></vorname>, <funktion>P.
-            O.</funktion></dozent>, <thema><notiz betreff="fortsetzung">den
-            andern Theil</notiz> nebst Dogmengeschichte, <schrift>nach s.
-            Lehrb. des christl. Glaubens, (Leipz. b. Vogel
-            1828.)</schrift></thema> <zeit>8 U. 6 T.</zeit></veranstaltung>
+            O.</funktion></dozent>, <thema kontext="sachgruppe"><notiz
+            betreff="fortsetzung">den andern Theil</notiz> nebst
+            Dogmengeschichte, <schrift>nach s. Lehrb. des christl. Glaubens,
+            (Leipz. b. Vogel 1828.)</schrift></thema> <zeit>8 U. 6
+            T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1830s-II.A.I.3.002-002"><dozent
             ref="theile_cgw"><nachname>Theile</nachname>, <grad>D.</grad>
@@ -3006,14 +3008,20 @@
 
   <trennlinie/>
 
-  <absatz>Uebrigens wird der Stallmeister <gesperrt>Richter</gesperrt>, der
-  Fechtmeister <gesperrt>Berndt</gesperrt>, der Tanzmeister
-  <gesperrt>Klemm</gesperrt> und der Universitäts-Zeichenmeister, wie auch
-  Zeichner anatom. und pathol. Gegenstände, <gesperrt>Joh. Fr.
-  Schröter</gesperrt>, auf Verlangen Unterricht ertheilen. Auch können sich
-  die Studirenden des Unterrichts der bei hiesiger Zeichnungs-, Maler- und
-  Architektur-Akademie angestellten Lehrer bedienen. Wöchentlich zwei Mal,
-  Mittwochs und Sonnabends, werden die öffentlichen Bibliotheken, als die
+  <absatz>Uebrigens wird der <dozent
+  ref="richter_gbt"><funktion>Stallmeister</funktion>
+  <nachname>Richter</nachname></dozent>, der <dozent
+  ref="berndt_g"><funktion>Fechtmeister</funktion>
+  <nachname>Berndt</nachname></dozent>, der <dozent
+  ref="klemm_gl"><funktion>Tanzmeister</funktion>
+  <nachname>Klemm</nachname></dozent> und der <dozent
+  ref="schroeter_jf"><funktion>Universitäts-Zeichenmeister</funktion>, wie
+  auch <funktion>Zeichner anatom. und pathol. Gegenstände</funktion>,
+  <vorname>Joh. Fr.</vorname> <nachname>Schöter</nachname></dozent>, auf
+  Verlangen Unterricht ertheilen. Auch können sich die Studirenden des
+  Unterrichts der bei hiesiger Zeichnungs-, Maler- und Architektur-Akademie
+  angestellten Lehrer bedienen. Wöchentlich zwei Mal, Mittwochs und
+  Sonnabends, werden die öffentlichen Bibliotheken, als die
   <gesperrt>Universitätsbibliothek</gesperrt> von 10 bis 12 Uhr, und die
   <gesperrt>Rathsbibliothek</gesperrt> von 2 bis 4 Uhr, erstere in der Messe
   auch alle Tage, geöffnet.</absatz>
