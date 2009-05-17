@@ -72,9 +72,10 @@
           <veranstaltung xml:id="v-1832w-I.I.1.002-001"><dozent
           ref="rosenmueller_efk"><nachname>Rosenmüller</nachname>,
           <grad>D.</grad> <vorname>E. F. K.</vorname>, <funktion>P.
-          O.</funktion></dozent>, <thema>die Anfangsgründe, nach s.
-          <antiqua>Institt. ad fundamenta ling. arab.</antiqua> (Leipzig bei
-          Barth 1818.)</thema>, <zeit>1 U. 2 T.</zeit></veranstaltung>
+          O.</funktion></dozent>, <thema kontext="sachgruppe">die
+          Anfangsgründe, nach s. <antiqua>Institt. ad fundamenta ling.
+          arab.</antiqua> (Leipzig bei Barth 1818.)</thema>, <zeit>1 U. 2
+          T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1832w-I.I.1.003">
@@ -82,10 +83,11 @@
 
           <veranstaltung xml:id="v-1832w-I.I.1.003-001"><dozent
           ref="seyffarth_g"><nachname>Seyffarth</nachname>,
-          <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>,
-          <thema>so, daß nach Beendigung der Formenlehre Stücke aus
-          memphitischen, sahidischen und basmurischen Schriften erklärt werden
-          sollen</thema>, <zeit>2 T. in zu best. St.</zeit></veranstaltung>
+          <vorname>G.</vorname>, <funktion>P. E.</funktion></dozent>, <thema
+          kontext="sachgruppe">so, daß nach Beendigung der Formenlehre Stücke
+          aus memphitischen, sahidischen und basmurischen Schriften erklärt
+          werden sollen</thema>, <zeit>2 T. in zu best.
+          St.</zeit></veranstaltung>
         </sachgruppe>
 
         <seite>2</seite>
@@ -216,12 +218,12 @@
             xml:id="v-1832w-I.I.2.a.003-002"><thema>philologisch-kritische
             Uebungen im königl. philolog. Seminarium</thema>, <zeit>3 U. 2
             T.</zeit></veranstaltung>, <veranstaltung
-            xml:id="v-1832w-I.I.2.a.003-003"><thema>didaktische</thema>,
+            xml:id="v-1832w-I.I.2.a.003-003"><thema><scil
+            text="didaktische Uebungen im königl. philolog. Seminarium">didaktische</scil></thema>,
             <zeit>4 U. 2 T.</zeit>
             <modus>öffentlich</modus></veranstaltung>.</veranstaltungsgruppe>
 
-            <!--gilt "öffentlich" für beide veranstaltungen?
-muss "didaktische" noch ergänzt werden ("... Uebungen")-->
+            <!--gilt "öffentlich" für beide veranstaltungen?-->
 
             <veranstaltung xml:id="v-1832w-I.I.2.a.003-004"><dozent
             ref="weiske_bg"><nachname>Weiske</nachname>, <vorname>B.
@@ -276,19 +278,16 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
               <modus>öffentlich</modus>.</veranstaltung>
 
               <veranstaltungsgruppe><ders
-              ref="kerndoerffer_ha">Derselbe</ders>, <veranstaltung
-              xml:id="v-1832w-I.I.2.b.001.001-002"><thema>Anleitung zu
-              declamatorischen Uebungen, für Religionslehrer, nach seinem
-              <gesperrt>Handbuche</gesperrt> für den geregelten mündlichen
-              Vortrag geistlicher Reden, mit einer erläuternden
+              ref="kerndoerffer_ha">Derselbe</ders>, <thema>Anleitung zu
+              declamatorischen Uebungen</thema>, <veranstaltung
+              xml:id="v-1832w-I.I.2.b.001.001-002"><thema>für Religionslehrer,
+              nach seinem <gesperrt>Handbuche</gesperrt> für den geregelten
+              mündlichen Vortrag geistlicher Reden, mit einer erläuternden
               Beispielsammlung (Lpz. 1832 b. Cnobloch)</thema>, <zeit>in zu
               best. T. u. St.</zeit></veranstaltung>, eben so <veranstaltung
               xml:id="v-1832w-I.I.2.b.001.001-003"><zeit>in zu best. T. u.
-              St.</zeit>, <thema kontext="sachgruppe">für Studirende aus
-              andern
+              St.</zeit>, <thema>für Studirende aus andern
               Fakultäten</thema></veranstaltung>.</veranstaltungsgruppe>
-
-              <!--sind das nun zwei Veranstaltungen oder nicht?-->
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1832w-I.I.2.b.001.002">
@@ -615,9 +614,10 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
 
         <veranstaltung xml:id="v-1832w-I.III.002-001"><dozent
         ref="krug_wt"><nachname>Krug</nachname>, <grad>D.</grad> <vorname>W.
-        T.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>zweite
-        Abtheilung, Aesthetik, Natur-, Staats- und Völkerrecht, Moral und
-        Religionsphilosophie, n. s. Handb.</thema>, <zeit>9 U. 6
+        T.</vorname>, <funktion>P. O.</funktion></dozent>, <thema
+        kontext="sachgruppe"><notiz betreff="fortsetzung">zweite
+        Abtheilung</notiz>, Aesthetik, Natur-, Staats- und Völkerrecht, Moral
+        und Religionsphilosophie, n. s. Handb.</thema>, <zeit>9 U. 6
         T.</zeit></veranstaltung>
       </sachgruppe>
 
@@ -823,7 +823,7 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
 
         <veranstaltung xml:id="v-1832w-I.IV.002-001"><dozent
         ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
-        <vorname>H.</vorname></dozent>, <thema><notiz
+        <vorname>H.</vorname></dozent>, <thema kontext="sachgruppe"><notiz
         betreff="fortsetzung">Fortsetzung</notiz>, in diesem Halbjahre Volks-
         und Staatswirthschaft, Finanzwissenschaft u. Kultur- u.
         Wohlfahrts-Polizei</thema>, <zeit>8 U. Vorm. 6
@@ -1326,9 +1326,9 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
             <veranstaltung xml:id="v-1832w-II.A.I.2.001-001"><dozent
             ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
             <vorname>C. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-            <thema><notiz betreff="fortsetzung">den zweiten Theil</notiz>, von
-            Gregor VII. bis auf die neuesten Zeiten nach
-            <gesperrt>Schmidt's</gesperrt> Lehrb. (3. Aufl. Gießen
+            <thema kontext="sachgruppe"><notiz betreff="fortsetzung">den
+            zweiten Theil</notiz>, von Gregor VII. bis auf die neuesten Zeiten
+            nach <gesperrt>Schmidt's</gesperrt> Lehrb. (3. Aufl. Gießen
             1827.)</thema>, <zeit>9 U. 6 T. u. 11 U. 4
             T.</zeit></veranstaltung>
 
@@ -2937,13 +2937,20 @@ muss "didaktische" noch ergänzt werden ("... Uebungen")-->
 
   <seite>28</seite>
 
-  <absatz>Uebrigens wird der Stallmeister <gesperrt>Richter</gesperrt>, der
-  Fechtmeister <gesperrt>Berndt</gesperrt>, der Tanzmeister
-  <gesperrt>John</gesperrt> und der Universitäts-Zeichnenmeister, wie auch
-  Zeichner anatomischer und pathologischer Gegenstände, <gesperrt>Joh. Fr.
-  Schröter</gesperrt>, auf Verlangen gehörigen Unterricht ertheilen. Auch
-  können sich die Studirenden des Unterrichtes der bei hiesiger Zeichnungs-,
-  Maler- und Architektur-Akademie angestellten Lehrer bedienen.</absatz>
+  <absatz>Uebrigens wird der <dozent
+  ref="richter_gbt"><funktion>Stallmeister</funktion>
+  <nachname>Richter</nachname></dozent>, der <dozent
+  ref="berndt_g"><funktion>Fechtmeister</funktion>
+  <nachname>Berndt</nachname></dozent>, der <dozent
+  ref="john_jfw"><funktion>Tanzmeister</funktion>
+  <nachname>John</nachname></dozent> und der <dozent
+  ref="schroeter_jf"><funktion>Universitäts-Zeichenmeister</funktion>, wie
+  auch <funktion>Zeichner anatomischer und pathologischer
+  Gegenstände</funktion>, <vorname>Joh. Fr.</vorname>
+  <nachname>Schröter</nachname></dozent>, auf Verlangen gehörigen Unterricht
+  ertheilen. Auch können sich die Studirenden des Unterrichtes der bei
+  hiesiger Zeichnungs-, Maler- und Architektur-Akademie angestellten Lehrer
+  bedienen.</absatz>
 
   <absatz>Die <gesperrt>Universitätsbibliothek</gesperrt> wird täglich zwei
   Stunden geöffnet, nämlich Mittw. u. Sonn. von 10 bis 12 Uhr, und an den
