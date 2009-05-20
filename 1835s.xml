@@ -538,14 +538,15 @@
 
         <veranstaltung xml:id="v-1835s-I.III.003-001"><dozent
         ref="krug_wt"><nachname>Krug</nachname>, <grad>D.</grad> <vorname>W.
-        T.</vorname>, <funktion>P. Hon.</funktion></dozent>, <thema><notiz
-        betreff="fortsetzung">erster Theil</notiz>: Fundamentalphilosophie,
-        Logik u. Metaphysik, <schrift>nach s. Handb.</schrift></thema>,
-        <zeit>9 U. 6 T.</zeit></veranstaltung>
+        T.</vorname>, <funktion>P. Hon.</funktion></dozent>, <thema
+        kontext="sachgruppe"><notiz betreff="fortsetzung">erster
+        Theil</notiz>: Fundamentalphilosophie, Logik u. Metaphysik,
+        <schrift>nach s. Handb.</schrift></thema>, <zeit>9 U. 6
+        T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1835s-I.III.003-002"><dozent
         ref="marbach_go"><nachname>Marbach</nachname>, <grad>M.</grad>
-        <vorname>G. O.</vorname></dozent>, <thema><notiz
+        <vorname>G. O.</vorname></dozent>, <thema kontext="sachgruppe"><notiz
         betreff="fortsetzung">erster Theil</notiz>: Fundamentalphilosophie und
         Logik</thema>, <zeit>9 U. 4 T.</zeit></veranstaltung>
       </sachgruppe>
@@ -1624,10 +1625,9 @@ Welche Tage sind mit "2 T." gemeint?-->
             <zeit>7 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung xml:id="v-1835s-II.B.II.I.3-002"><ders
-            ref="steinacker_wf">Derselbe</ders>, <thema
-            kontext="sachgruppe">Obligationen- und Erbrecht (<kursiv>Part. I.
-            lib. III. et IV. §. 268-358</kursiv>)</thema>, <zeit>7 U. 2
-            T.</zeit></veranstaltung>
+            ref="steinacker_wf">Derselbe</ders>, <thema>Obligationen- und
+            Erbrecht (<kursiv>Part. I. lib. III. et IV. §.
+            268-358</kursiv>)</thema>, <zeit>7 U. 2 T.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1835s-II.B.II.I.3-003"><dozent
             ref="berger_a"><nachname>Berger</nachname>, <grad>D.</grad>
@@ -2440,13 +2440,20 @@ http://histvv.uni-leipzig.de/scans/1873-ss/002.png.--></veranstaltung>
 
   <trennlinie/>
 
-  <absatz>Uebrigens wird der Stallmeister <gesperrt>Richter</gesperrt>, der
-  Fechtmeister <gesperrt>Berndt</gesperrt>, der Tanzmeister
-  <gesperrt>John</gesperrt> und der Universitäts-Zeichenmeister, wie auch
-  Zeichner anatomischer und pathologischer Gegenstände, <gesperrt>Joh. Fr.
-  Schröter</gesperrt>, auf Verlangen gehörigen Unterricht ertheilen. Auch
-  können sich die Studirenden des Unterrichts der bei hiesiger Zeichnungs-,
-  Maler- und Architektur-Akademie angestellten Lehrer bedienen.</absatz>
+  <absatz>Uebrigens wird der <dozent
+  ref="richter_gbt"><funktion>Stallmeister</funktion>
+  <nachname>Richter</nachname></dozent>, der <dozent
+  ref="berndt_g"><funktion>Fechtmeister</funktion>
+  <nachname>Berndt</nachname></dozent>, der <dozent
+  ref="john_jfw"><funktion>Tanzmeister</funktion>
+  <nachname>John</nachname></dozent> und der <dozent
+  ref="schroeter_jf"><funktion>Universitäts-Zeichenmeister</funktion>, wie
+  auch <funktion>Zeichner anatomischer und pathologischer
+  Gegenstände</funktion>, <vorname>Joh. Fr.</vorname>
+  <nachname>Schröter</nachname></dozent>, auf Verlangen gehörigen Unterricht
+  ertheilen. Auch können sich die Studirenden des Unterrichts der bei hiesiger
+  Zeichnungs-, Maler- und Architektur-Akademie angestellten Lehrer
+  bedienen.</absatz>
 
   <absatz>Die <gesperrt>Universitätsbibliothek</gesperrt> wird täglich zwei
   Stunden geöffnet, nämlich Mittw. u. Sonn. von 10 bis 12 Uhr, und an den
