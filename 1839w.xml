@@ -407,13 +407,14 @@
             <veranstaltung xml:id="v-1839w-I.I.2.b.007-001"><dozent
             ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
-            publ.</funktion></dozent>, <thema>Anfangsgründe nach
-            <gesperrt>Ife's ital. Lesebuche</gesperrt>, mit Grammatik und
-            Wörterbuch (Lpz. 1825. b. Köhler) nebst Auswahl vorzüglicher
-            Stellen aus Prof. <gesperrt>D.</gesperrt>
-            <gesperrt>Possart's</gesperrt> <antiqua>Antologia italiana
-            moderna</antiqua> (Lpz. 1837. b. Köhler)</thema>, <zeit>Mittw. 3
-            U.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            publ.</funktion></dozent>, <thema
+            kontext="sachgruppe">Anfangsgründe nach <gesperrt>Ife's ital.
+            Lesebuche</gesperrt>, mit Grammatik und Wörterbuch (Lpz. 1825. b.
+            Köhler) nebst Auswahl vorzüglicher Stellen aus Prof.
+            <gesperrt>D.</gesperrt> <gesperrt>Possart's</gesperrt>
+            <antiqua>Antologia italiana moderna</antiqua> (Lpz. 1837. b.
+            Köhler)</thema>, <zeit>Mittw. 3 U.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1839w-I.I.2.b.008">
@@ -422,12 +423,13 @@
             <veranstaltung xml:id="v-1839w-I.I.2.b.008-001"><dozent
             ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
-            publ.</funktion></dozent>, <thema>Anfangsgründe nach
-            <antiqua>Dr.</antiqua> <gesperrt>J. G. Keil's Grammatik</gesperrt>
-            (2. Aufl. Lpz. 1837. b. Leich), in Verbindung mit Prof.
-            <antiqua>D.</antiqua> <gesperrt>Franceson's</gesperrt>
-            <antiqua>Tesoro de la lengua y literatura castellana</antiqua>
-            (Lpz. 1839. b. Fleischer)</thema>, <zeit>Sonnab. 3 U.</zeit>
+            publ.</funktion></dozent>, <thema
+            kontext="sachgruppe">Anfangsgründe nach <antiqua>Dr.</antiqua>
+            <gesperrt>J. G. Keil's Grammatik</gesperrt> (2. Aufl. Lpz. 1837.
+            b. Leich), in Verbindung mit Prof. <antiqua>D.</antiqua>
+            <gesperrt>Franceson's</gesperrt> <antiqua>Tesoro de la lengua y
+            literatura castellana</antiqua> (Lpz. 1839. b. Fleischer)</thema>,
+            <zeit>Sonnab. 3 U.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
@@ -2426,8 +2428,8 @@
           <veranstaltung xml:id="v-1839w-II.C.II.7-001"><dozent
           ref="joerg_jcg"><nachname>Jörg</nachname>, <grad>D.</grad>
           <vorname>J. C. G.</vorname>, <funktion>P. O.</funktion></dozent>,
-          <thema>n. s. Compendium</thema>, <zeit>9 U. 4 T.</zeit>
-          <modus>öffentlich</modus> und <zeit>9 U. 2 T.</zeit>
+          <thema kontext="sachgruppe">n. s. Compendium</thema>, <zeit>9 U. 4
+          T.</zeit> <modus>öffentlich</modus> und <zeit>9 U. 2 T.</zeit>
           <modus>privatim</modus>.</veranstaltung>
 
           <veranstaltung xml:id="v-1839w-II.C.II.7-002"><ders
@@ -2586,19 +2588,25 @@
 
     <trennlinie/>
 
-    <absatz>Uebrigens wird der Stallmeister <gesperrt>Richter</gesperrt>, der
-    Fechtmeister <gesperrt>Berndt</gesperrt>, der Tanzmeister
-    <gesperrt>John</gesperrt> und der Universitäts-Zeichner naturhistorischer
-    und anatomischer Gegenstände, <gesperrt>Karl Gottlob Aulich</gesperrt>,
-    auf Verlangen gehörigen Unterricht ertheilen. Auch können sich die
-    Studirenden des Unterrichtes der bei hiesiger Zeichnungs-, Maler- und
-    Architektur-Akademie angestellten Lehrer bedienen. <seite>23</seite>Die
-    <gesperrt>Universitätsbibliothek</gesperrt> wird täglich zwei Stunden
-    geöffnet, nämlich Mittw. und Sonnab. von 10 bis 12 Uhr und an den übrigen
-    Tagen von 2 bis 4 Uhr, die <gesperrt>Rathsbibliothek</gesperrt> aber
-    Montags, Mittwochs und Sonnabends von 2 bis 4 Uhr. Zu der
-    <gesperrt>naturhistorischen Sammlung</gesperrt> der Universität findet
-    Mittwochs und Sonnab. von 10 bis 12 Uhr freier Zutritt Statt.</absatz>
+    <absatz>Uebrigens wird der <dozent
+    ref="richter_gbt"><funktion>Stallmeister</funktion>
+    <nachname>Richter</nachname></dozent>, der <dozent
+    ref="berndt_g"><funktion>Fechtmeister</funktion>
+    <nachname>Berndt</nachname></dozent>, der <dozent
+    ref="john_jfw"><funktion>Tanzmeister</funktion>
+    <nachname>John</nachname></dozent> und der <dozent
+    ref="aulich_kg"><funktion>Universitäts-Zeichner naturhistorischer und
+    anatomischer Gegenstände</funktion>, <vorname>Karl Gottlob</vorname>
+    <nachname>Aulich</nachname></dozent>, auf Verlangen gehörigen Unterricht
+    ertheilen. Auch können sich die Studirenden des Unterrichtes der bei
+    hiesiger Zeichnungs-, Maler- und Architektur-Akademie angestellten Lehrer
+    bedienen. <seite>23</seite>Die <gesperrt>Universitätsbibliothek</gesperrt>
+    wird täglich zwei Stunden geöffnet, nämlich Mittw. und Sonnab. von 10 bis
+    12 Uhr und an den übrigen Tagen von 2 bis 4 Uhr, die
+    <gesperrt>Rathsbibliothek</gesperrt> aber Montags, Mittwochs und
+    Sonnabends von 2 bis 4 Uhr. Zu der <gesperrt>naturhistorischen
+    Sammlung</gesperrt> der Universität findet Mittwochs und Sonnab. von 10
+    bis 12 Uhr freier Zutritt Statt.</absatz>
 
     <trennlinie/>
 
