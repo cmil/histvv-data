@@ -52,7 +52,7 @@
           <veranstaltung xml:id="v-1836w-I.I.1.001-001"><dozent
           ref="beer_eff"><nachname>Beer</nachname>, <grad>M.</grad>
           <vorname>E. F. F.</vorname></dozent>, <thema>Elemente <scil
-          text="Sanskrita-Sprache">derselben</scil> nach
+          text="der Sanskrita-Sprache">derselben</scil> nach
           <gesperrt>Bopp's</gesperrt> Kritischer Grammatik der
           Sanskrita-Sprache in kürzerer Fassung (Berlin 1834), <notiz
           betreff="fortsetzung">Fortsetzung und Beschluß</notiz></thema>,
@@ -346,9 +346,10 @@
             <veranstaltung xml:id="v-1836w-I.I.2.b.004-001"><dozent
             ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
-            publ.</funktion></dozent>, <thema>Anfangsgründe nach Franceson's
-            span. Grammatik (Berlin 1822 b. Voß)</thema>, <zeit>11 U. 2
-            T.</zeit> <modus>öffentl.</modus></veranstaltung>
+            publ.</funktion></dozent>, <thema
+            kontext="sachgruppe">Anfangsgründe nach Franceson's span.
+            Grammatik (Berlin 1822 b. Voß)</thema>, <zeit>11 U. 2 T.</zeit>
+            <modus>öffentl.</modus></veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1836w-I.I.2.b.005">
@@ -370,7 +371,7 @@
             ref="schmidt_jae"><nachname>Schmidt</nachname>, <grad>M.</grad>
             <vorname>J. A. E.</vorname>, <funktion>Lect.
             publ.</funktion></dozent>, <thema>die Anfangsgründe<scil
-            text="russischen und neugriechischen Sprache">
+            text="der russischen und neugriechischen Sprache">
             derselben</scil></thema>, <zeit>2 U. 2 T.</zeit>
             <modus>öffentl.</modus></veranstaltung>
           </sachgruppe>
@@ -494,7 +495,7 @@
         <veranstaltung xml:id="v-1836w-I.III.001-001"><dozent
         ref="niedner_cw"><nachname>Niedner</nachname>, <vorname>C.
         W.</vorname>, <funktion>P. O. des.</funktion></dozent>,
-        <thema>Geschichte neueren Philosophie, namentlich der von Kant,
+        <thema>Geschichte der neuern Philosophie, namentlich der von Kant,
         Fichte, Jacobi, Schelling, Hegel, Herbart, nach s. Grundriß</thema>,
         <zeit>2 U. 4 T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
@@ -707,7 +708,7 @@
 
         <veranstaltung xml:id="v-1836w-I.IV.002-001"><dozent
         ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
-        <vorname>H.</vorname></dozent>, <thema><notiz
+        <vorname>H.</vorname></dozent>, <thema kontext="sachgruppe"><notiz
         betreff="fortsetzung">Anfang eines auf 3 Semester berechneten
         Kursus</notiz>, in diesem Halbjahre Natur- und Völkerrecht,
         Staatsrecht, Geschichte des europäischen Staatensystems, Staatskunst,
@@ -1233,8 +1234,8 @@ verknüpft werden.--></veranstaltung>
             <vorname>C. G. L.</vorname>, <funktion>P. O.</funktion></dozent>,
             <thema><notiz betreff="fortsetzung">Beschluß</notiz> der
             Vorlesungen über <scil
-            text="jüdische Philosophie">dieselbe</scil></thema>, <zeit>in den
-            ersten Wochen des Semesters in zu best. St.</zeit>
+            text="die jüdische Philosophie">dieselbe</scil></thema>, <zeit>in
+            den ersten Wochen des Semesters in zu best. St.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
@@ -2585,11 +2586,15 @@ verknüpft werden.--></veranstaltung>
 
     <trennlinie/>
 
-    <absatz>Uebrigens wird der Stallmeister <gesperrt>Richter</gesperrt>, der
-    Fechtmeister <gesperrt>Berndt</gesperrt> und der Tanzmeister
-    <gesperrt>John</gesperrt> auf Verlangen gehörigen Unterricht ertheilen.
-    Auch können sich die Studirenden des Unterrichts der bei hiesiger
-    Zeichnungs-, Maler-, und Architektur-Akademie angestellten Lehrer
+    <absatz>Uebrigens wird der <dozent
+    ref="richter_gbt"><funktion>Stallmeister</funktion>
+    <nachname>Richter</nachname></dozent>, der <dozent
+    ref="berndt_g"><funktion>Fechtmeister</funktion>
+    <nachname>Berndt</nachname></dozent> und der <dozent
+    ref="john_jfw"><funktion>Tanzmeister</funktion>
+    <nachname>John</nachname></dozent> auf Verlangen gehörigen Unterricht
+    ertheilen. Auch können sich die Studirenden des Unterrichts der bei
+    hiesiger Zeichnungs-, Maler-, und Architektur-Akademie angestellten Lehrer
     bedienen.</absatz>
 
     <absatz>Die <gesperrt>Universitätsbibliothek</gesperrt> wird täglich zwei

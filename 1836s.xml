@@ -57,10 +57,11 @@
 
           <veranstaltung xml:id="v-1836s-I.I.1.001-001"><dozent
           ref="beer_eff"><nachname>Beer</nachname>, <grad>M.</grad>
-          <vorname>E. F. F.</vorname></dozent>, <thema>Anfangsgründe, nach
-          <antiqua>Bopp's Grammatica critica linguae sanscritae. Fasc.
-          prior.</antiqua> (Berlin, 1829)</thema>, <zeit>2 T. in zu best.
-          St.</zeit> <gebühr>unentgeltlich</gebühr>.</veranstaltung>
+          <vorname>E. F. F.</vorname></dozent>, <thema
+          kontext="sachgruppe">Anfangsgründe, nach <antiqua>Bopp's Grammatica
+          critica linguae sanscritae. Fasc. prior.</antiqua> (Berlin,
+          1829)</thema>, <zeit>2 T. in zu best. St.</zeit>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1836s-I.I.1.002">
@@ -68,8 +69,9 @@
 
           <veranstaltung xml:id="v-1836s-I.I.1.002-001"><dozent
           ref="fleischer_hl"><nachname>Fleischer</nachname>, <vorname>H.
-          L.</vorname>, <funktion>P. O. des.</funktion></dozent>,
-          <thema>Anfangsgründe</thema>, <zeit>1 U. 2 T.</zeit></veranstaltung>
+          L.</vorname>, <funktion>P. O. des.</funktion></dozent>, <thema
+          kontext="sachgruppe">Anfangsgründe</thema>, <zeit>1 U. 2
+          T.</zeit></veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1836s-I.I.1.003">
@@ -155,7 +157,8 @@
           <sachgruppe xml:id="sg-1836s-I.I.2.a.004">
             <titel>Philologische Uebungen.</titel>
 
-            <veranstaltung xml:id="v-1836s-I.I.2.a.004-001"><dozent
+            <veranstaltung modus="Zutritt frei"
+            xml:id="v-1836s-I.I.2.a.004-001"><dozent
             ref="hermann_g"><nachname>Hermann</nachname>, <grad>D.</grad>
             <vorname>G.</vorname>, <funktion>P. O.</funktion>, <funktion>Reg.
             Semin. philol. Dir.</funktion></dozent>, <thema>Uebungen der
@@ -291,10 +294,11 @@ Veranstaltung bezogen werden!!-->
             <veranstaltung xml:id="v-1836s-I.I.2.b.003-001"><dozent
             ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
-            publ.</funktion></dozent>, <thema>Anfangsgründe nach
-            <gesperrt>Ife's italien. Lesebuche</gesperrt>, mit Grammatik und
-            Wörterbuche (Leipzig 1823. bei Köhler)</thema>, <zeit>10 U. 2
-            T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
+            publ.</funktion></dozent>, <thema
+            kontext="sachgruppe">Anfangsgründe nach <gesperrt>Ife's italien.
+            Lesebuche</gesperrt>, mit Grammatik und Wörterbuche (Leipzig 1823.
+            bei Köhler)</thema>, <zeit>10 U. 2 T.</zeit>
+            <modus>öffentlich</modus>.</veranstaltung>
           </sachgruppe>
 
           <sachgruppe xml:id="sg-1836s-I.I.2.b.004">
@@ -303,7 +307,8 @@ Veranstaltung bezogen werden!!-->
             <veranstaltung xml:id="v-1836s-I.I.2.b.004-001"><dozent
             ref="rathgeber_fac"><nachname>Rathgeber</nachname>,
             <grad>M.</grad> <vorname>F. A. C.</vorname>, <funktion>Lect.
-            publ.</funktion></dozent>, <thema>Anfangsgründe nach
+            publ.</funktion></dozent>, <thema
+            kontext="sachgruppe">Anfangsgründe nach
             <gesperrt>Franceson's</gesperrt> span. Grammatik (Berlin 1822. b.
             Voß)</thema>, <zeit>11 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
@@ -436,8 +441,9 @@ Veranstaltung bezogen werden!!-->
         <veranstaltung xml:id="v-1836s-I.II.5-001"><dozent
         ref="westermann_a"><nachname>Westermann</nachname>,
         <vorname>A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>Geschichte der griechischen Historiographie, zweite Abtheilung
-        (von Polybius bis auf die Byzantiner)</thema>, <zeit>9 U. Dienst. u.
+        <thema>Geschichte der griechischen Historiographie, <notiz
+        betreff="fortsetzung">zweite Abtheilung</notiz> (von Polybius bis auf
+        die Byzantiner)</thema>, <zeit>9 U. Dienst. u.
         Freit.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1836s-I.II.5-002"><dozent
@@ -460,8 +466,9 @@ Veranstaltung bezogen werden!!-->
 
         <veranstaltung xml:id="v-1836s-I.III.001-001"><dozent
         ref="biedermann_k"><nachname>Biedermann</nachname>, <grad>M.</grad>
-        <vorname>F. K.</vorname></dozent>, <thema>besonders in der
-        Gegenwart</thema>, <zeit>8 U. Dienst. u. Freit.</zeit>
+        <vorname>F. K.</vorname></dozent>, <thema
+        kontext="sachgruppe">besonders in der Gegenwart</thema>, <zeit>8 U.
+        Dienst. u. Freit.</zeit>
         <gebühr>unentgeltlich</gebühr>.</veranstaltung>
       </sachgruppe>
 
@@ -643,7 +650,7 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
 
         <veranstaltung xml:id="v-1836s-I.IV.001-001"><dozent
         ref="schellwitz_h"><nachname>Schellwitz</nachname>, <grad>D.</grad>
-        <vorname>H.</vorname></dozent>, <thema><notiz
+        <vorname>H.</vorname></dozent>, <thema kontext="sachgruppe"><notiz
         betreff="fortsetzung">Schluß</notiz> des Cursus, Statistik, positives
         europäisches Staatsrecht, und praktisches europäisches Völkerrecht in
         Verbindung mit der Gesandschaftskunde</thema>, <zeit>8 U. 6
@@ -769,9 +776,9 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
         <veranstaltung xml:id="v-1836s-I.VI.001-001"><dozent
         ref="schwaegrichen_cf"><nachname>Schwägrichen</nachname>,
         <grad>D.</grad> <vorname>C. F.</vorname>, <funktion>P.
-        O.</funktion></dozent>, <thema>Naturgeschichte, der zweite
-        Theil</thema>, <zeit>6 U. 4 T.</zeit>
-        <modus>öffentlich</modus>.</veranstaltung>
+        O.</funktion></dozent>, <thema>Naturgeschichte, <notiz
+        betreff="fortsetzung">der zweite Theil</notiz></thema>, <zeit>6 U. 4
+        T.</zeit> <modus>öffentlich</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1836s-I.VI.001-002"><ders
         ref="schwaegrichen_cf">Derselbe</ders>, <thema>theoretische
@@ -833,9 +840,9 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
 
         <veranstaltung xml:id="v-1836s-I.VI.002-001"><dozent
         ref="fechner_gt"><nachname>Fechner</nachname>, <vorname>G.
-        T.</vorname>, <funktion>P. O.</funktion></dozent>, <thema>den ersten
-        Theil der Experimental-Physik</thema>, <zeit>11 U. 4
-        T.</zeit></veranstaltung>
+        T.</vorname>, <funktion>P. O.</funktion></dozent>, <thema><notiz
+        betreff="fortsetzung">den ersten Theil</notiz> der
+        Experimental-Physik</thema>, <zeit>11 U. 4 T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1836s-I.VI.002-002"><ders
         ref="fechner_gt">Derselbe</ders>, <thema>Akustik</thema>, <zeit>11 U.
@@ -1349,8 +1356,9 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
             <veranstaltung xml:id="v-1836s-II.A.II.002.002-001"><dozent
             ref="lindner_fw"><nachname>Lindner</nachname>, <grad>D.</grad>
             <vorname>F. W.</vorname>, <funktion>P. E.</funktion></dozent>,
-            <ort>in der Bürgerschule</ort>, <zeit>Dienst. u. Freit. 4-6
-            U.</zeit> <modus>privatissime</modus>.</veranstaltung>
+            <thema kontext="sachgruppe"><ort>in der
+            Bürgerschule</ort></thema>, <zeit>Dienst. u. Freit. 4-6 U.</zeit>
+            <modus>privatissime</modus>.</veranstaltung>
 
             <veranstaltung xml:id="v-1836s-II.A.II.002.002-002"><dozent
             ref="plato_gjkl"><nachname>Plato</nachname>, <vorname>G. J. K.
@@ -2417,13 +2425,20 @@ bei der zweiten Veranstaltung als Attribut nachgetragen.--></veranstaltungsgrupp
 
   <trennlinie/>
 
-  <absatz>Uebrigens wird der Stallmeister <gesperrt>Richter</gesperrt>, der
-  Fechtmeister <gesperrt>Berndt</gesperrt>, der Tanzmeister
-  <gesperrt>John</gesperrt>, und der Universitäts-Zeichenmeister, wie auch
-  Zeichner anatomischer und pathologischer Gegenstände, <gesperrt>Joh. Fr.
-  Schröter</gesperrt>, auf Verlangen gehörigen Unterricht ertheilen. Auch
-  können sich die Studirenden des Unterrichts der bei hiesiger Zeichnungs-,
-  Maler und Architektur-Akademie angestellten Lehrer bedienen.</absatz>
+  <absatz>Uebrigens wird der <dozent
+  ref="richter_gbt"><funktion>Stallmeister</funktion>
+  <nachname>Richter</nachname></dozent>, der <dozent
+  ref="berndt_g"><funktion>Fechtmeister</funktion>
+  <nachname>Berndt</nachname></dozent>, der <dozent
+  ref="john_jfw"><funktion>Tanzmeister</funktion>
+  <nachname>John</nachname></dozent>, und der <dozent
+  ref="schroeter_jf"><funktion>Universitäts-Zeichenmeister</funktion>, wie
+  auch <funktion>Zeichner anatomischer und pathologischer
+  Gegenstände</funktion>, <vorname>Joh. Fr.</vorname>
+  <nachname>Schröter</nachname></dozent>, auf Verlangen gehörigen Unterricht
+  ertheilen. Auch können sich die Studirenden des Unterrichts der bei hiesiger
+  Zeichnungs-, Maler und Architektur-Akademie angestellten Lehrer
+  bedienen.</absatz>
 
   <absatz>Die <gesperrt>Universitätsbibliothek</gesperrt> wird täglich zwei
   Stunden geöffnet, nämlich Mittw. und Sonn. von 10 bis 12 Uhr, und an den
