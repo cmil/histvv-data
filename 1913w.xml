@@ -514,8 +514,12 @@
       Theologen</thema>: <dozent ref="seydel_m"><funktion>Prof.</funktion>
       <grad>D. ph.</grad> <nachname>Seydel</nachname></dozent>, <zeit>So. 8-9
       U. vorm.</zeit>, <modus>privatim</modus> (<ort>im Musikübungssaal
-      Ritterstr. 12. Erdg. I.</ort>; <thema>mit einer fakultativen und
-      unentgeltlichen Übungsstunde</thema>).</veranstaltung>
+      Ritterstr. 12. Erdg. I.</ort>; <thema>mit einer <notiz
+      betreff="fakultativ">fakultativen</notiz> und <notiz
+      betreff="gebühr">unentgeltlichen</notiz>
+      Übungsstunde</thema>).</veranstaltung>
+
+      <!--fakultative Übungsstunde-->
 
       <trennlinie/>
 
@@ -4271,28 +4275,28 @@
 
           <trennlinie/>
 
-          <veranstaltung xml:id="v-1913w-IV.D.005-006"><thema>Hauptkursus in
-          rednerischer Stimmbildung und Vortragskunst</thema>: <dozent
-          ref="seydel_m"><funktion>Prof.</funktion> <grad>D. ph.</grad>
-          <nachname>Seydel</nachname></dozent>, <zeit>Di. u. Fr. 6-7
-          U.</zeit>, <modus>privatim</modus>.</veranstaltung>
+          <veranstaltungsgruppe><veranstaltung><thema>Hauptkursus in
+          rednerischer Stimmbildung und Vortragskunst</thema></veranstaltung>:
+          <dozent ref="seydel_m"><funktion>Prof.</funktion> <grad>D.
+          ph.</grad> <nachname>Seydel</nachname></dozent>, <zeit>Di. u. Fr.
+          6-7 U.</zeit>, <modus>privatim</modus>. -
+          <veranstaltung><thema>Vortragsübungen für Vorgeschrittene</thema>,
+          <zeit>Do. 4-5 U.</zeit>,
+          <modus>privatim</modus>.</veranstaltung></veranstaltungsgruppe>
 
-          <veranstaltung xml:id="v-1913w-IV.D.005-007"><thema>Vortragsübungen
-          für Vorgeschrittene</thema>, <zeit>Do. 4-5 U.</zeit>,
-          <modus>privatim</modus>.</veranstaltung>
+          <veranstaltung><thema>Praktische Übung für pädagogisch-technische
+          Korrektur von Sprachfehlern, Sprachgebrechen und besonderen
+          Schwächen der Atmung</thema>: <dozent><funktion>Prof.</funktion>
+          <grad>D. ph.</grad> <nachname>Seydel</nachname></dozent>, <zeit>Mo.
+          5 bis 6 U.</zeit>, <modus>privatim</modus>. (<thema>Zu den 3
+          vorgen.<!--(noch attribuieren!)--> Kursen werden <notiz
+          betreff="zeit">zu noch zu best.</notiz> Zeit <notiz
+          betreff="fakultativ">fakultative</notiz> und <notiz
+          betreff="notiz">unentgeltliche</notiz> Übungsstunden durch eine
+          <notiz betreff="dozent">studentische Hilfskraft</notiz>
+          abgehalten</thema>).</veranstaltung>
 
-          <absatz><veranstaltung
-          xml:id="v-1913w-IV.D.005-008"><thema>Praktische Übung für
-          pädagogisch-technische Korrektur von Sprachfehlern, Sprachgebrechen
-          und besonderen Schwächen der Atmung</thema>: <dozent
-          ref="seydel_m"><funktion>Prof.</funktion> <grad>D. ph.</grad>
-          <nachname>Seydel</nachname></dozent>, <zeit>Mo. 5 bis 6 U.</zeit>,
-          <modus>privatim</modus>. </veranstaltung><veranstaltung
-          xml:id="v-1913w-IV.D.005-009">(Zu den 3 vorgen.<!--(noch attribuieren!)-->
-          Kursen werden zu noch zu best. Zeit fakultative und
-          <gebühr>unentgeltliche</gebühr> <thema>Übungsstunden</thema> durch
-          eine <dozent><funktion>studentische Hilfskraft</funktion></dozent>
-          abgehalten).</veranstaltung></absatz>
+          <!--fakultative Übungsstunde-->
 
           <veranstaltung xml:id="v-1913w-IV.D.005-010"><thema>Übungen in
           deutscher Rede (Vorträge, freies Sprechen, Disputation und

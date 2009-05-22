@@ -478,14 +478,16 @@
       <modus>privatissime</modus>, sed
       <gebühr>gratis</gebühr>.</veranstaltung>
 
-      <veranstaltungsgruppe><thema>Liturgische Übungen für Theologen</thema>:
-      <dozent ref="seydel_m"><funktion>Prof.</funktion> <grad>D. ph.</grad>
-      <nachname>Seydel</nachname></dozent>, <veranstaltung
-      xml:id="v-1912w-I-059"><zeit>So. 8-9 U. Vorm.</zeit></veranstaltung>,
+      <veranstaltung><thema>Liturgische Übungen für Theologen</thema>: <dozent
+      ref="seydel_m"><funktion>Prof.</funktion> <grad>D. ph.</grad>
+      <nachname>Seydel</nachname></dozent>, <zeit>So. 8-9 U. Vorm.</zeit>,
       <modus>privatim</modus> (<ort>im Musikübungssaal Ritterstr. 12. Erdg.
-      I.</ort>; <veranstaltung xml:id="v-1912w-I-060">mit einer fakultativen
-      und <gebühr>unentgeltlich</gebühr>en
-      <thema>Übungsstunde</thema></veranstaltung>).</veranstaltungsgruppe>
+      I.</ort>; <thema>mit einer <notiz
+      betreff="fakultativ">fakultativen</notiz> und <notiz
+      betreff="gebühr">unentgeltlichen</notiz>
+      Übungsstunde</thema>).</veranstaltung>
+
+      <!--fakultative Übungsstunde-->
 
       <trennlinie/>
 
@@ -4201,13 +4203,12 @@ Entsprechend wurden Attribute vergeben; ggf. Attribute erweitern.)-->.
           <nachname>Seydel</nachname></dozent>, <veranstaltung
           xml:id="v-1912w-IV.D.005-007"><zeit>Di. u. Fr. 6-7 U.</zeit>,
           <modus>privatim</modus></veranstaltung>. - <veranstaltung
-          xml:id="v-1912w-IV.D.005-008">Hierzu ein
-          <thema>Parallelkursus</thema>, <zeit>Mo. u. Do. 5-6 U.</zeit>,
-          <modus>privatim</modus></veranstaltung> <veranstaltung
-          xml:id="v-1912w-IV.D.005-009">(für beide Kurse wird <zeit>zu noch zu
-          best. Zeit</zeit> je eine fakultative und
-          <gebühr>unentgeltlich</gebühr>e <thema>Übungsstunde<!--(hier VA-Zeit-Attribut "einstündig" zur Explizierung der in "thema" enthaltenen Zeit-Information?)--></thema>
-          abgehalten)</veranstaltung>.</veranstaltungsgruppe>
+          xml:id="v-1912w-IV.D.005-008">Hierzu ein Parallelkursus, <zeit>Mo.
+          u. Do. 5-6 U.</zeit>, <modus>privatim</modus></veranstaltung>
+          (<thema>für beide Kurse wird zu noch <notiz betreff="zeit">zu best.
+          Zeit</notiz> je eine <notiz betreff="fakultativ">fakultative</notiz>
+          und <notiz betreff="gebühr">unentgeltliche</notiz> Übungsstunde<!--(hier VA-Zeit-Attribut "einstündig" zur Explizierung der in "thema" enthaltenen Zeit-Information?)-->
+          abgehalten</thema><!--fakultative Übungsstunde-->).</veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1912w-IV.D.005-010"><thema>Praktische Übung
           für pädagogisch-technische Korrektur von Sprachfehlern,
