@@ -4243,9 +4243,9 @@
           <sachgruppe xml:id="sg-1906w-IV.C.001.001">
             <titel>Vorkus für die Abteilungen B. bis D.</titel>
 
-            <veranstaltung><thema>Lektüre ausgewählter Geschichtsquellen des
-            Mittelalters</thema>. (Alles Nähere <dozent>wird später bekannt
-            gegeben<!--(N.N.)--></dozent>.)</veranstaltung>
+            <veranstaltung xml:id="v-1906w-IV.C.001.001-001"><thema>Lektüre
+            ausgewählter Geschichtsquellen des Mittelalters</thema>. (Alles
+            Nähere <dozent>wird später bekannt gegeben<!--(N.N.)--></dozent>.)</veranstaltung>
           </sachgruppe>
 
           <trennlinie/>
@@ -4294,29 +4294,29 @@
 
           <trennlinie/>
 
-          <veranstaltung xml:id="v-1906w-IV.C.001.D-003"><thema>Übungen auf
-          dem Gebiete der altorientalischen Geschichte</thema>: <dozent
+          <veranstaltung xml:id="v-1906w-IV.C.001-001"><thema>Übungen auf dem
+          Gebiete der altorientalischen Geschichte</thema>: <dozent
           ref="weissbach_fh"><grad>D. ph.</grad>
           <nachname>Weißbach</nachname>, <funktion>P. E.</funktion></dozent>,
           <zeit>zweistünd., zu noch zu best. Zeit</zeit>,
           <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1906w-IV.C.001.D-004"><thema>Lektüre
+          <veranstaltung xml:id="v-1906w-IV.C.001-002"><thema>Lektüre
           historischer Urkunden der 18. Dynastie (Ägyptologisches Seminar<!--[VA ist dort nicht eigens erwähnt]-->)</thema>:
           <dozent ref="steindorff_g"><grad>D. ph.</grad>
           <nachname>Steindorff</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>einstünd., zu noch zu best.
           Zeit</zeit>, <modus>publice</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1906w-IV.C.001.D-005"><thema>Übungen im
+          <veranstaltung xml:id="v-1906w-IV.C.001-003"><thema>Übungen im
           Interpretieren griechischer Papyrusurkunden, unter Benutzung der
           Leipziger Papyrussammlung</thema>: <dozent ref="wilcken_u"><grad>D.
           ph. et jur.</grad> <nachname>Wilcken</nachname>, <funktion>P.
           O.</funktion></dozent>, <zeit>Sonnab. 9-11 U.</zeit>,
           <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1906w-IV.C.001.D-006"><thema>Übungen zur
+          <veranstaltung xml:id="v-1906w-IV.C.001-004"><thema>Übungen zur
           Geschichte der mittelalterlichen Weltanschauung und der Entwicklung
           der politischen und sozialen Ideen</thema>: <dozent
           ref="scholz_r"><grad>D. ph.</grad>
@@ -4324,14 +4324,14 @@
           Zeit</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1906w-IV.C.001.D-007"><thema>Übungen zur
+          <veranstaltung xml:id="v-1906w-IV.C.001-005"><thema>Übungen zur
           Geschichte der politischen Anschauungen Bismarcks</thema>: <dozent
           ref="buchholz_g"><grad>D. ph.</grad> <nachname>Buchholz</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>Dienst. 8-10 U.
           Ab.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1906w-IV.C.001.D-008"><thema>Übungen zur
+          <veranstaltung xml:id="v-1906w-IV.C.001-006"><thema>Übungen zur
           Geschichte des politischen Parteiwesens</thema>: <dozent
           ref="salomon_f"><grad>D. ph.</grad> <nachname>Salomon</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>zu noch zu best.
@@ -4350,10 +4350,12 @@
           b.</siehe></veranstaltungsverweis>
 
           <veranstaltungsgruppe><thema>Aegyptologisches Seminar</thema>:
-          <veranstaltung><dozent ref="steindorff_g"><grad>D. ph.</grad>
+          <veranstaltung xml:id="v-1906w-IV.C.001-007"><dozent
+          ref="steindorff_g"><grad>D. ph.</grad>
           <nachname>Steindorff</nachname>, <funktion>P.
-          O.</funktion></dozent></veranstaltung> und <veranstaltung><dozent
-          ref="leipoldt_j"><grad>Lic. th.</grad> <grad>D. ph.</grad>
+          O.</funktion></dozent></veranstaltung> und <veranstaltung
+          xml:id="v-1906w-IV.C.001-008"><dozent ref="leipoldt_j"><grad>Lic.
+          th.</grad> <grad>D. ph.</grad>
           <nachname>Leipoldt</nachname></dozent></veranstaltung>. <siehe>Siehe
           Abschnitt B. b. u. D.</siehe></veranstaltungsgruppe>
 
@@ -4537,7 +4539,8 @@
           <titel>Ägyptologisches Seminar (<ort>Albertinum
           Erdg.</ort>).</titel>
 
-          <veranstaltung><dozent ref="steindorff_g"><grad>D. ph.</grad>
+          <veranstaltung xml:id="v-1906w-IV.D.001-001"><dozent
+          ref="steindorff_g"><grad>D. ph.</grad>
           <nachname>Steindorff</nachname>, <funktion>P.
           O.</funktion></dozent>: <thema>Erklärung ausgewählter Denkmäler der
           ägyptologischen Sammlung (auch für Archäologen und
@@ -5127,11 +5130,11 @@
         <trennlinie/>
 
         <veranstaltungsgruppe><thema>Vereinigte Staatswissenschaftliche
-        Seminare</thema> (<ort>Paulinum III</ort>): <veranstaltung><dozent
-        ref="buecher_k"><grad>D. ph.</grad> <nachname>Bücher</nachname>,
-        <funktion>P. O.</funktion></dozent>, <thema>Kursus für
-        Vorgeschrittene</thema>, <zeit>Dienst. 6-8 U.</zeit>,
-        <modus>privatissime</modus>, aber
+        Seminare</thema> (<ort>Paulinum III</ort>): <veranstaltung
+        xml:id="v-1906w-IV.E-030"><dozent ref="buecher_k"><grad>D. ph.</grad>
+        <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>,
+        <thema>Kursus für Vorgeschrittene</thema>, <zeit>Dienst. 6-8
+        U.</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr></veranstaltung>. -
         <veranstaltungsgruppe>Außerdem in seinem Auftrage et
         <gebühr>gratis</gebühr>): <veranstaltung xml:id="v-1906w-IV.E-031">1)
@@ -5176,21 +5179,21 @@
 
         <trennlinie/>
 
-        <veranstaltung><thema>Landwirtschaftliches Laboratorium</thema>
-        (<ort>Johannisallee 21</ort>): <dozent ref="kirchner_w"><grad>D.
-        ph.</grad> <nachname>Kirchner</nachname>, <funktion>P.
-        O.</funktion></dozent>: <zeit>A. Großes Praktikum, Mont. bis Freit.
-        8-5 U.: B. Kleines Praktikum, Mont. bis Freit. 8-1 U. oder 2-5
-        U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1906w-IV.E-039"><thema>Landwirtschaftliches
+        Laboratorium</thema> (<ort>Johannisallee 21</ort>): <dozent
+        ref="kirchner_w"><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
+        <funktion>P. O.</funktion></dozent>: <zeit>A. Großes Praktikum, Mont.
+        bis Freit. 8-5 U.: B. Kleines Praktikum, Mont. bis Freit. 8-1 U. oder
+        2-5 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1906w-IV.E-041"><thema>Demonstrationen
+        <veranstaltung xml:id="v-1906w-IV.E-040"><thema>Demonstrationen
         <ort>in der Versuchswirtschaft des Landwirtschaftlichen Instituts
         (Johannisallee 19)</ort></thema>: <dozent ref="kirchner_w"><grad>D.
         ph.</grad> <nachname>Kirchner</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>Sonnab. Nachm.</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1906w-IV.E-042"><thema>Demonstrationen für
+        <veranstaltung xml:id="v-1906w-IV.E-041"><thema>Demonstrationen für
         Landwirte</thema>: <dozent ref="eber_a"><grad>D. ph.</grad>
         <nachname>Eber</nachname>, <funktion>P. E.</funktion></dozent>
         (<dozent ref="blasse_a">gemeinsam mit dem
@@ -5200,40 +5203,41 @@
         11</ort>.</veranstaltung>
 
         <veranstaltung
-        xml:id="v-1906w-IV.E-043"><thema>Veterinärwissenschaftliches Praktikum
+        xml:id="v-1906w-IV.E-042"><thema>Veterinärwissenschaftliches Praktikum
         (für Tierärzte)</thema>: <dozent ref="eber_a"><grad>D. ph.</grad>
         <nachname>Eber</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>tägl. 10-12 U. und Mont., Dienst., Donnerst. u. Freit. 3-5
         U.</zeit>, <modus>privatissime</modus>, <ort>im Veterinärinstitut,
         Linnéstr. 11</ort>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1906w-IV.E-044"><thema>Übungen im Seminar für
+        <veranstaltung xml:id="v-1906w-IV.E-043"><thema>Übungen im Seminar für
         angewandte Tierzuchtlehre</thema>: <dozent ref="falke_f"><grad>D.
         ph.</grad> <nachname>Falke</nachname>, <funktion>P.
         E.</funktion></dozent>, <zeit>Mont. 5-7 U.</zeit>,
         <modus>privatissime</modus>, aber <gebühr>gratis</gebühr>, <ort>im
         Landw. Institut, Johannisallee 21</ort>.</veranstaltung>
 
-        <veranstaltung><thema>Übungen für Pflanzenzüchter</thema>: <dozent
-        ref="falke_f"><grad>D. ph.</grad> <nachname>Falke</nachname>,
-        <funktion>P. E.</funktion></dozent>, <zeit>a) für Anfänger, Dienst. u.
-        Donnerst. 4-6 U.</zeit>, privatim; <zeit>b) für Vorgeschrittene, tägl.
-        (außer Sonnab.) 8-6 U.</zeit>, <modus>privatim</modus>, <ort>im Landw.
-        Institut, Johannisallee 21</ort>.</veranstaltung>
+        <veranstaltung xml:id="v-1906w-IV.E-044"><thema>Übungen für
+        Pflanzenzüchter</thema>: <dozent ref="falke_f"><grad>D. ph.</grad>
+        <nachname>Falke</nachname>, <funktion>P. E.</funktion></dozent>,
+        <zeit>a) für Anfänger, Dienst. u. Donnerst. 4-6 U.</zeit>, privatim;
+        <zeit>b) für Vorgeschrittene, tägl. (außer Sonnab.) 8-6 U.</zeit>,
+        <modus>privatim</modus>, <ort>im Landw. Institut, Johannisallee
+        21</ort>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1906w-IV.E-047"><thema>Kulturtechnisches
+        <veranstaltung xml:id="v-1906w-IV.E-045"><thema>Kulturtechnisches
         Praktikum</thema>: <dozent ref="strecker_w"><grad>D. ph.</grad>
         <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>in zu best. Zeit</zeit>, <modus>privatim</modus>, <ort>im Landw.
         Institut, Johannisallee 21</ort>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1906w-IV.E-048"><thema>Technische
+        <veranstaltung xml:id="v-1906w-IV.E-046"><thema>Technische
         Exkursionen</thema>: <dozent ref="strecker_w"><grad>D. ph.</grad>
         <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>an noch zu best. Tagen</zeit>,
         <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1906w-IV.E-049"><thema>Landwirtschaftliche
+        <veranstaltung xml:id="v-1906w-IV.E-047"><thema>Landwirtschaftliche
         Exkursionen</thema>: <dozent ref="falke_f"><grad>D. ph.</grad>
         <nachname>Falke</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>an jedesmal zu best. Tagen</zeit>,

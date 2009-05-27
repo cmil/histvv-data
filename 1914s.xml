@@ -3857,7 +3857,7 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
             verbunden.</veranstaltungsgruppe>
 
             <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1914s-IV.C.002.I-005">4) <dozent
+            xml:id="v-1914s-IV.C.002.I-004">4) <dozent
             ref="koetzschke_r"><grad>D. ph.</grad>
             <nachname>Kötzschke</nachname>, <funktion>P.
             E.</funktion></dozent>: <thema>Einführung in die Behandlung
@@ -3865,7 +3865,7 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
             11½-1 U.</zeit></veranstaltung>
 
             <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1914s-IV.C.002.I-006">5) <dozent
+            xml:id="v-1914s-IV.C.002.I-005">5) <dozent
             ref="holldack_f"><grad>D. jur. et ph.</grad>
             <nachname>Holldack</nachname></dozent>: <thema>Übungen zur
             deutschen Rechts- und Verfassungsgeschichte</thema>, <zeit>Fr.
@@ -3874,7 +3874,7 @@ zu keiner eigenen Veranstaltung zu gehören. (?)-->
             <seite>40</seite>
 
             <veranstaltung gebühr="gratis" modus="privatissime"
-            xml:id="v-1914s-IV.C.002.I-007">6) <dozent
+            xml:id="v-1914s-IV.C.002.I-006">6) <dozent
             ref="meister_e"><grad>D. jur.</grad>
             <nachname>Meister</nachname></dozent>: <thema>Übungen zur
             deutschen Rechtsgeschichte</thema>, <zeit>Mi. 10½-12 U.
@@ -4266,10 +4266,11 @@ müssen wir noch irgendwie einheitlich erfassen.-->
           <nachname>Seydel</nachname></dozent>, <zeit>Mo. u. Do. 5-6
           U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung><thema>Vortragsübungen für Vorgeschrittene</thema>:
-          <dozent ref="seydel_m"><funktion>Prof.</funktion> <grad>D.
-          ph.</grad> <nachname>Seydel</nachname></dozent>, <zeit>Fr. 6-7
-          U.</zeit>, <modus>privatim</modus>. (<thema>Für beide Kurse<!--(noch attribuieren!)-->
+          <veranstaltung xml:id="v-1914s-IV.D.004-007"><thema>Vortragsübungen
+          für Vorgeschrittene</thema>: <dozent
+          ref="seydel_m"><funktion>Prof.</funktion> <grad>D. ph.</grad>
+          <nachname>Seydel</nachname></dozent>, <zeit>Fr. 6-7 U.</zeit>,
+          <modus>privatim</modus>. (<thema>Für beide Kurse<!--(noch attribuieren!)-->
           wird zu <notiz betreff="zeit">noch zu best. Zeit</notiz> je eine
           <notiz betreff="fakultativ">fakultative</notiz> und <notiz
           betreff="gebühr">unentgeltliche</notiz> Übungsstunde durch eine
@@ -4279,14 +4280,14 @@ müssen wir noch irgendwie einheitlich erfassen.-->
           <!--Was ist mit den die beiden Übungsstunden
 durch die student. Hilfskraft???-->
 
-          <veranstaltung xml:id="v-1914s-IV.D.004-009"><thema>Gesangübungen
+          <veranstaltung xml:id="v-1914s-IV.D.004-008"><thema>Gesangübungen
           (Stimmbildung, Lieder, Arien)</thema>: <dozent
           ref="seydel_m"><funktion>Prof.</funktion> <seite>44</seite><grad>D.
           ph.</grad> <nachname>Seydel</nachname></dozent>, <zeit>Mi. 8-9 U.
           vorm.</zeit>, <modus>privatim</modus>, <ort>im Musikübungssaal,
           Ritterstr. 12. Eg. l</ort>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1914s-IV.D.004-010"><thema>Übungen in
+          <veranstaltung xml:id="v-1914s-IV.D.004-009"><thema>Übungen in
           deutscher Rede (Vorträge, freies Sprechen, Disputation und
           Debatte)</thema>: <dozent ref="seydel_m"><funktion>Prof.</funktion>
           <grad>D. ph.</grad> <nachname>Seydel</nachname></dozent>, <zeit>Mo.
@@ -4675,15 +4676,17 @@ durch die student. Hilfskraft???-->
 
             <trennlinie/>
 
-            <veranstaltung><thema>Landwirtschaftliches Laboratorium</thema>:
-            <dozent ref="kirchner_w"><grad>D. ph.</grad>
+            <veranstaltung
+            xml:id="v-1914s-IV.E.001.003-026"><thema>Landwirtschaftliches
+            Laboratorium</thema>: <dozent ref="kirchner_w"><grad>D. ph.</grad>
             <nachname>Kirchner</nachname>, <funktion>P.
             O.</funktion></dozent>: <zeit>A. Großes Praktikum, Mo. bis Fr. 8-1
             u. 2-5 U.; B. Kleines Praktikum, Mo. bis Fr. 8-12 oder 2-5
             U.</zeit>, <modus>privatissime</modus>, <ort>im Landw. Institut,
             Johannisallee 21</ort>.</veranstaltung>
 
-            <veranstaltung><thema>Landwirtschaftlich-bakteriologisches
+            <veranstaltung
+            xml:id="v-1914s-IV.E.001.003-027"><thema>Landwirtschaftlich-bakteriologisches
             Laboratorium</thema>: <dozent ref="loehnis_f"><grad>D. ph.</grad>
             <nachname>Löhnis</nachname>, <funktion>P. E.</funktion></dozent>:
             <zeit>A. Großes Praktikum, Mo. bis Fr. 9 bis 5 U.; B. Kleines
@@ -4692,36 +4695,37 @@ durch die student. Hilfskraft???-->
             Johannisallee 21</ort>.</veranstaltung>
 
             <veranstaltung
-            xml:id="v-1914s-IV.E.001.003-030"><thema>Kulturtechnisches
+            xml:id="v-1914s-IV.E.001.003-028"><thema>Kulturtechnisches
             Praktikum</thema>: <dozent ref="strecker_w"><grad>D. ph.</grad>
             <nachname>Strecker</nachname>, <funktion>P.
             E.</funktion></dozent>, <zeit>in noch zu best. Zeit</zeit>,
             <modus>privatim</modus>.</veranstaltung>
 
             <veranstaltung
-            xml:id="v-1914s-IV.E.001.003-031"><thema>Demonstrationen <ort>auf
+            xml:id="v-1914s-IV.E.001.003-029"><thema>Demonstrationen <ort>auf
             dem Versuchsfelde des Landwirtschaftlichen Instituts in
             Oberholz</ort></thema>: <dozent ref="kirchner_w"><grad>D.
             ph.</grad> <nachname>Kirchner</nachname>, <funktion>P.
             O.</funktion></dozent>, <zeit>an noch zu best. So. nachm.</zeit>,
             <modus>publice</modus>.</veranstaltung>
 
-            <veranstaltung><thema>Übungen für Pflanzenzüchter</thema>: <dozent
-            ref="falke_f"><grad>D. ph.</grad> <nachname>Falke</nachname>,
-            <funktion>P. E.</funktion></dozent>, <zeit>a) für Anfänger, Mi. u.
-            Fr. 5-7 U.</zeit>, privatim; <zeit>b) für Vorgeschrittene, tägl.
-            (außer So.) 9-1 u. 3-6 U.</zeit>, <modus>privatim</modus>, <ort>im
-            Landw. Institut, Johannisallee 21</ort>.</veranstaltung>
+            <veranstaltung xml:id="v-1914s-IV.E.001.003-030"><thema>Übungen
+            für Pflanzenzüchter</thema>: <dozent ref="falke_f"><grad>D.
+            ph.</grad> <nachname>Falke</nachname>, <funktion>P.
+            E.</funktion></dozent>, <zeit>a) für Anfänger, Mi. u. Fr. 5-7
+            U.</zeit>, privatim; <zeit>b) für Vorgeschrittene, tägl. (außer
+            So.) 9-1 u. 3-6 U.</zeit>, <modus>privatim</modus>, <ort>im Landw.
+            Institut, Johannisallee 21</ort>.</veranstaltung>
 
             <seite>48</seite>
 
-            <veranstaltung xml:id="v-1914s-IV.E.001.003-034"><thema>Übungen im
+            <veranstaltung xml:id="v-1914s-IV.E.001.003-031"><thema>Übungen im
             Seminar für angewandte Tierzuchtlehre</thema> (<ort>Johannisallee
             21</ort>): <dozent ref="falke_f"><grad>D. ph.</grad>
             <nachname>Falke</nachname>, <funktion>P. E.</funktion></dozent>,
             <zeit>Mo. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-            <veranstaltung xml:id="v-1914s-IV.E.001.003-035"><thema>Praktische
+            <veranstaltung xml:id="v-1914s-IV.E.001.003-032"><thema>Praktische
             Übungen für Tierzüchter</thema>: <dozent ref="falke_f"><grad>D.
             ph.</grad> <nachname>Falke</nachname>, <funktion>P.
             E.</funktion></dozent>, <zeit>an noch zu best. Zeit</zeit>,
@@ -4729,14 +4733,14 @@ durch die student. Hilfskraft???-->
             <gebühr>gratis</gebühr>.</veranstaltung>
 
             <veranstaltung
-            xml:id="v-1914s-IV.E.001.003-036"><thema>Kolonial-landwirtschaftliches
+            xml:id="v-1914s-IV.E.001.003-033"><thema>Kolonial-landwirtschaftliches
             Kolloquium</thema>: <dozent ref="golf_a"><grad>D. ph.</grad>
             <nachname>Golf</nachname>, <funktion>P. E.</funktion></dozent>,
             <zeit>Fr. 6-7 U.</zeit>, <modus>privatissime</modus>, sed
             <gebühr>gratis</gebühr>.</veranstaltung>
 
             <veranstaltung
-            xml:id="v-1914s-IV.E.001.003-037"><thema>Demonstrationen für
+            xml:id="v-1914s-IV.E.001.003-034"><thema>Demonstrationen für
             Landwirte (unter besonderer Berücksichtigung der bei
             Unglücksfällen und plötzlichen Erkrankungen erforderlichen ersten
             Hilfeleistung)</thema>: <dozent ref="eber_a"><grad>D. ph.</grad>
@@ -4745,7 +4749,7 @@ durch die student. Hilfskraft???-->
             Veterinärinstitut, Linnéstr. 11</ort>.</veranstaltung>
 
             <veranstaltung
-            xml:id="v-1914s-IV.E.001.003-038"><thema>Betriebswissenschaftliche
+            xml:id="v-1914s-IV.E.001.003-035"><thema>Betriebswissenschaftliche
             Übungen (Wirtschaftseinrichtung und Taxation)</thema>: <dozent
             ref="falke_f"><grad>D. ph.</grad> <nachname>Falke</nachname>,
             <funktion>P. E.</funktion></dozent>, <zeit>Di. 5-7 U.</zeit>,
@@ -4753,9 +4757,9 @@ durch die student. Hilfskraft???-->
 
             <veranstaltungsgruppe><thema>Praktikum für landwirtschaftliche
             Buchführung</thema>, <veranstaltung
-            xml:id="v-1914s-IV.E.001.003-039">a) <thema>I.
+            xml:id="v-1914s-IV.E.001.003-036">a) <thema>I.
             Teil</thema></veranstaltung>, <veranstaltung
-            xml:id="v-1914s-IV.E.001.003-040">b) <thema>II.
+            xml:id="v-1914s-IV.E.001.003-037">b) <thema>II.
             Teil</thema></veranstaltung>: <dozent ref="howard_wh"><grad>D.
             ph.</grad> <nachname>Howard</nachname>, <funktion>P.
             E.</funktion></dozent>, <zeit>an noch zu vereinbar. Tagen</zeit>,
@@ -4767,26 +4771,26 @@ durch die student. Hilfskraft???-->
             Seminar, Brüderstr. 34. II</ort>: <dozent
             ref="john_g"><funktion>Prof.</funktion> <grad>D. ph.</grad>
             <nachname>John</nachname></dozent>: <veranstaltung
-            xml:id="v-1914s-IV.E.001.003-041"><thema>Theoretische
+            xml:id="v-1914s-IV.E.001.003-038"><thema>Theoretische
             Seminarübungen</thema>, <zeit>Di. u. Fr. 10-11
             U.</zeit></veranstaltung> - <veranstaltung
-            xml:id="v-1914s-IV.E.001.003-042"><thema>Experimentelle
+            xml:id="v-1914s-IV.E.001.003-039"><thema>Experimentelle
             Vorbereitungen für den Unterricht</thema>, <zeit>Di. u. Fr. 11-12
             U.</zeit></veranstaltung> - <veranstaltung
-            xml:id="v-1914s-IV.E.001.003-043"><thema>Unterrichtserteilung</thema>,
+            xml:id="v-1914s-IV.E.001.003-040"><thema>Unterrichtserteilung</thema>,
             <zeit>Mo., Di., Do. u. Fr. 4-7, sowie Mi. u. So. 8-11 U.</zeit>
             <ort>in der Übungsschule zu wenigstens 2 Stunden wöchentlich nach
             Maßgabe des
             Stundenplanes</ort>.</veranstaltung></veranstaltungsgruppe>
 
-            <veranstaltung xml:id="v-1914s-IV.E.001.003-044"><thema>Technische
+            <veranstaltung xml:id="v-1914s-IV.E.001.003-041"><thema>Technische
             Exkursionen</thema>: <dozent ref="strecker_w"><grad>D. ph.</grad>
             <nachname>Strecker</nachname>, <funktion>P.
             E.</funktion></dozent>, <zeit>an besonders zu best. Tagen</zeit>,
             <modus>publice</modus>.</veranstaltung>
 
             <veranstaltung
-            xml:id="v-1914s-IV.E.001.003-045"><thema>Landwirtschaftliche
+            xml:id="v-1914s-IV.E.001.003-042"><thema>Landwirtschaftliche
             Exkursionen</thema>: <dozent ref="falke_f"><grad>D. ph.</grad>
             <nachname>Falke</nachname>, <funktion>P. E.</funktion></dozent>,
             <zeit>an noch zu best. Tagen</zeit>,
@@ -5800,15 +5804,15 @@ durch die student. Hilfskraft???-->
         Verabredung</zeit>, <modus>privatissime</modus>, sed
         <gebühr>gratis</gebühr>.</veranstaltung>
 
-        <veranstaltung><thema>Praktische Übungen <ort>im Zoologischen
-        Laboratorium (Talstr. 33.)</ort></thema>: <dozent
+        <veranstaltung xml:id="v-1914s-IV.G-109"><thema>Praktische Übungen
+        <ort>im Zoologischen Laboratorium (Talstr. 33.)</ort></thema>: <dozent
         ref="chun_c"><grad>D. ph. et med.</grad> <nachname>Chun</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>sechstägig, resp.
         dreitägig, tägl. 9-1 U.</zeit>, <modus>privatim</modus>: <thema>a)
         Makroskopischer Kurs für Anfänger, b) Mikroskopischer Kurs für
         Fortgeschrittene</thema>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1914s-IV.G-111"><thema>Biologische
+        <veranstaltung xml:id="v-1914s-IV.G-110"><thema>Biologische
         Besprechungen</thema>: <dozent ref="woltereck_r"><grad>D. ph.</grad>
         <nachname>Woltereck</nachname>, <grad>P. E.</grad></dozent>, mit
         <dozent ref="hempelmann_f"><grad>D. ph.</grad>
@@ -5821,7 +5825,7 @@ durch die student. Hilfskraft???-->
         <trennlinie/>
 
         <veranstaltung
-        xml:id="v-1914s-IV.G-112"><thema>Handfertigkeitsunterricht <ort>in der
+        xml:id="v-1914s-IV.G-111"><thema>Handfertigkeitsunterricht <ort>in der
         Werkstätte des Physikalischen Instituts (Linnéstr. 5)</ort></thema>:
         Im Auftrage des Institutsdirektors durch <dozent
         ref="donner_g"><funktion>Universitätsmechaniker</funktion>
@@ -5830,14 +5834,14 @@ durch die student. Hilfskraft???-->
 
         <trennlinie/>
 
-        <veranstaltung xml:id="v-1914s-IV.G-113"><thema>Die Gabelsbergersche
+        <veranstaltung xml:id="v-1914s-IV.G-112"><thema>Die Gabelsbergersche
         Stenographie im Ausland (zugleich als Vorbereitung auf die staatliche
         Prüfung für Stenographielehrer)</thema>: <dozent
         ref="weinmeister_r"><funktion>Lektor für Stenographie</funktion>
         <vorname>R.</vorname> <nachname>Weinmeister</nachname></dozent>,
         <zeit>Fr. 6-7 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1914s-IV.G-114"><thema>Gabelsbergersche
+        <veranstaltung xml:id="v-1914s-IV.G-113"><thema>Gabelsbergersche
         Satzkürzung mit praktischen Übungen in höherer Geschwindigkeit (für
         Hörer aller Fakultäten)</thema>: <dozent
         ref="weinmeister_r"><funktion>Lektor für Stenographie</funktion>
