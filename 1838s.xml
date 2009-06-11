@@ -22,6 +22,12 @@
 
     <status komplett="ja">
       <transkribent>florian</transkribent>
+
+      <korrigiert>
+        <durch>Beatrice</durch>
+
+        <am>11.6.2009</am>
+      </korrigiert>
     </status>
   </kopf>
 
@@ -1166,9 +1172,9 @@
             ref="anger_r"><nachname>Anger</nachname>, <grad>M.</grad>
             <vorname>R.</vorname>, <grad>Theol. Lic.</grad></dozent>,
             <thema>Erklärung der Brr. Pauli an die Galat., Ephes., Philipp. u.
-            Koloss.</thema>, <zeit>11 U. 4 T.</zeit> <modus>2 T.
+            Koloss.</thema>, <zeit>11 U. 4 T.</zeit> (<modus>2 T.
             privatim</modus>, <gebühr>2 T.
-            unentgeltlich</gebühr>.</veranstaltung>
+            unentgeltlich</gebühr>).</veranstaltung>
 
             <!--Opposition von "modus" und "gebühr". Hier wird die Synonymie von "privatim" und "kostenpflichtig"
 deutlich, u. U. sogar die von "unentgeltlich" und "öffentlich".-->
@@ -1184,7 +1190,7 @@ deutlich, u. U. sogar die von "unentgeltlich" und "öffentlich".-->
             ref="gilbert_ro"><nachname>Gilbert</nachname>, <grad>M.</grad>
             <vorname>R. O.</vorname>, <grad>Theol. Lic.</grad></dozent>,
             <thema>Erklärung der sogenannten Pastoralbriefe (der 2 Brr. Pauli
-            an Timetheus, des einen an Titus)</thema>, <zeit>11 U. 2 T.</zeit>
+            an Timotheus, des einen an Titus)</thema>, <zeit>11 U. 2 T.</zeit>
             <gebühr>unentgeltlich</gebühr>.</veranstaltung>
           </sachgruppe>
 
@@ -1355,7 +1361,7 @@ deutlich, u. U. sogar die von "unentgeltlich" und "öffentlich".-->
             ref="illgen_cf"><nachname>Illgen</nachname>, <grad>D.</grad>
             <vorname>C. F.</vorname>, <funktion>P. O.</funktion></dozent>,
             <thema>Darstellung des Lebens, der Lehre und der Schriften der
-            Kirchenväter des 2. Jahrhuderts</thema>, <zeit>3 U. 2 T.</zeit>
+            Kirchenväter des 2. Jahrhunderts</thema>, <zeit>3 U. 2 T.</zeit>
             <modus>öffentlich</modus>.</veranstaltung>
 
             <veranstaltung xml:id="v-1838s-II.A.I.2.006-002"><ders
@@ -1516,7 +1522,7 @@ deutlich, u. U. sogar die von "unentgeltlich" und "öffentlich".-->
             <veranstaltung xml:id="v-1838s-II.A.II.004.001-002"><dozent
             ref="wolf_fa"><nachname>Wolf</nachname>, <grad>D.</grad>
             <vorname>F. A.</vorname></dozent>, <thema>homiletische Uebungen
-            der Lausitzer Prediger-Gesellschaft</thema>, <zeit>in zu best. T.
+            der Lausitzer Prediger-Gesellschaft</thema>, <zeit>in den best. T.
             u. St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1838s-II.A.II.004.001-003"><ders
@@ -1546,7 +1552,7 @@ deutlich, u. U. sogar die von "unentgeltlich" und "öffentlich".-->
             ref="gilbert_ro"><nachname>Gilbert</nachname>, <grad>M.</grad>
             <vorname>R. O.</vorname>, <grad>Theol. Lic.</grad></dozent>,
             <thema>katechetische Uebungen mit vorausgeschickten Vorlesungen
-            über die katechtische Disciplin und Kunst</thema>, <zeit>2 T. in
+            über die katechetische Disciplin und Kunst</thema>, <zeit>2 T. in
             zu best. St.</zeit></veranstaltung>
 
             <veranstaltung xml:id="v-1838s-II.A.II.004.002-004"><ders
@@ -1608,7 +1614,7 @@ deutlich, u. U. sogar die von "unentgeltlich" und "öffentlich".-->
         <veranstaltung xml:id="v-1838s-II.B.003-002"><dozent
         ref="puchta_gf"><nachname>Puchta</nachname>, <grad>D.</grad>
         <vorname>G. F.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <thema>Geschichte des röm. Rechts</thema>, <zeit>10 U. 5
+        <thema>Geschichte des römischen Rechts</thema>, <zeit>10 U. 5
         T.</zeit></veranstaltung>
 
         <veranstaltung xml:id="v-1838s-II.B.003-003"><dozent
@@ -1691,7 +1697,7 @@ deutlich, u. U. sogar die von "unentgeltlich" und "öffentlich".-->
               <veranstaltung xml:id="v-1838s-II.B.II.I.1.001-005">verbunden
               mit einem <gebühr>unentgeltlich</gebühr>en
               <thema>Repetitorium</thema>, <zeit>2 U. 2
-              T.</zeit></veranstaltung></veranstaltungsgruppe>
+              T.</zeit></veranstaltung><!--Wirklich V-Gruppe?--></veranstaltungsgruppe>
             </sachgruppe>
 
             <sachgruppe xml:id="sg-1838s-II.B.II.I.1.002">
@@ -1783,6 +1789,8 @@ deutlich, u. U. sogar die von "unentgeltlich" und "öffentlich".-->
             xml:id="v-1838s-II.B.II.I.3-004">verbunden mit einem
             <gebühr>unentgeltlich</gebühr>en <thema>Repetitorium</thema>,
             <zeit>2 T.</zeit></veranstaltung></veranstaltungsgruppe>
+
+            <!--wirklich V-Gruppe-->
           </sachgruppe>
 
           <seite>16</seite>
@@ -1995,10 +2003,11 @@ deutlich, u. U. sogar die von "unentgeltlich" und "öffentlich".-->
 
             <veranstaltung xml:id="v-1838s-II.B.II.II.3-002"><dozent
             ref="hoepfner_l"><nachname>Höpfner</nachname>, <grad>D.</grad>
-            <vorname>L.</vorname></dozent>, <thema>Referir- und Decretirkunst,
-            nach s. Leitfaden zu Vorlesungen über Referir- und Decretirkunst
-            (Lpz. b. Güntz 1836.), mit Bezug auf s. Schemen: Zwölf Relationen
-            etc. (2. Ausg. Lpz. b. Güntz 1836.) und unter Mittheilung von
+            <vorname>L.</vorname></dozent>, <thema>Referir- und
+            Decretirk<korrektur original="n">u</korrektur>nst, nach s.
+            Leitfaden zu Vorlesungen über Referir- und Decretirkunst (Lpz. b.
+            Güntz 1836.), mit Bezug auf s. Schemen: Zwölf Relationen etc. (2.
+            Ausg. Lpz. b. Güntz 1836.) und unter Mittheilung von
             Acten</thema>, <zeit>11 U. 3 T.</zeit></veranstaltung>
           </sachgruppe>
 
@@ -2136,7 +2145,7 @@ deutlich, u. U. sogar die von "unentgeltlich" und "öffentlich".-->
         <veranstaltungsverweis><dozent
         ref="heinroth_jca"><nachname>Heinroth</nachname>, <grad>D.</grad>
         <vorname>J. C. A.</vorname>, <funktion>P. O.</funktion></dozent>,
-        <siehe>s. psychische Heilwissenschaft</siehe>.</veranstaltungsverweis>
+        <siehe>s. Psychische Heilwissenschaft</siehe>.</veranstaltungsverweis>
 
         <veranstaltung xml:id="v-1838s-II.C.003-001"><dozent
         ref="neubert_c"><nachname>Neubert</nachname>, <grad>D.</grad>
@@ -2328,7 +2337,7 @@ deutlich, u. U. sogar die von "unentgeltlich" und "öffentlich".-->
           ref="schwartze_gw"><nachname>Schwartze</nachname>, <grad>D.</grad>
           <vorname>G. W.</vorname>, <funktion>P. E.</funktion></dozent>,
           <thema>Pharmakognosie oder pharmaceutische Waarenkunde, nach
-          <gesperrt>Ebermeier</gesperrt> (5. Auflage von ihm herausgegeben,
+          <gesperrt>Ebermaier</gesperrt> (5. Auflage von ihm herausgegeben,
           Lpz. b. Barth 1827.)</thema>, <zeit>3 U. 2 T.</zeit>
           <modus>öffentlich</modus>.</veranstaltung>
         </sachgruppe>
@@ -2617,7 +2626,7 @@ gleiche Zeitangabe-->
       </sachgruppe>
 
       <sachgruppe xml:id="sg-1838s-II.C.III">
-        <titel>III. Verschieden Uebungen.</titel>
+        <titel>III. Verschiedene Uebungen.</titel>
 
         <sachgruppe xml:id="sg-1838s-II.C.III.1">
           <titel>1) Examinir-Uebungen.</titel>
