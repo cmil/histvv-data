@@ -26,6 +26,12 @@
 
     <status komplett="ja">
       <transkribent>Beatrice</transkribent>
+
+      <korrigiert>
+        <durch>Florian</durch>
+
+        <am>15.6.09</am>
+      </korrigiert>
     </status>
   </kopf>
 
@@ -902,10 +908,12 @@
       <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe Philosophische Facultät E.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Specielle Volkswirthschaftslehre -
-      Finanzwissenschaft</thema>: <dozent ref="buecher_k"><grad>D. ph.</grad>
-      <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>
-      <siehe>Siehe Philosophische Facultät E.</siehe></veranstaltungsverweis>
+      <veranstaltungsgruppe><veranstaltungsverweis><thema>Specielle
+      Volkswirthschaftslehre</thema></veranstaltungsverweis> -
+      <veranstaltungsverweis><thema>Finanzwissenschaft</thema></veranstaltungsverweis>:
+      <dozent ref="buecher_k"><grad>D. ph.</grad> <nachname>Bücher</nachname>,
+      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      E.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Handelsgeschichte</thema>: <dozent
       ref="stieda_w"><grad>D. ph. et oec. publ.</grad>
@@ -928,12 +936,12 @@
       <nachname>Eulenburg</nachname></dozent>. <siehe>Siehe Philosophische
       Facultät E.</siehe></veranstaltungsgruppe>
 
-      <veranstaltungsverweis><thema>Vereinigte Staatswissenschaftliche
-      Seminare</thema>: <dozent ref="fricker_cv"><grad>D. ph., jur. et oecon.
-      publ.</grad> <nachname>Fricker</nachname>, <funktion>P.
-      O.</funktion></dozent> u. <dozent ref="buecher_k"><grad>D. ph.</grad>
-      <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>
-      <siehe>Siehe Philosophische Facultät E.</siehe></veranstaltungsverweis>
+      <absatz>Vereinigte Staatswissenschaftliche Seminare: <dozent
+      ref="fricker_cv"><grad>D. ph., jur. et oecon. publ.</grad>
+      <nachname>Fricker</nachname>, <funktion>P. O.</funktion></dozent> u.
+      <dozent ref="buecher_k"><grad>D. ph.</grad> <nachname>Bücher</nachname>,
+      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      E.</siehe></absatz>
 
       <veranstaltungsverweis><thema>Staatswissenschaftliche Uebungen</thema>:
       <dozent ref="stieda_w"><grad>D. ph. et oec. publ.</grad>
@@ -955,18 +963,18 @@
       <veranstaltungsverweis><thema>Forensische Psychiatrie</thema>: <dozent
       ref="flechsig_p"><grad>D. med.</grad> <nachname>Flechsig</nachname>,
       <funktion>P. O.</funktion></dozent> <siehe>Siehe Medicinische
-      Facultät.</siehe></veranstaltungsverweis>
+      Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Vorlesung über Gerichtliche
       Medicin</thema>: <dozent ref="kockel_r"><grad>D. med.</grad>
       <nachname>Kockel</nachname>, <funktion>P. E.</funktion></dozent>
-      <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
+      <siehe>Siehe Medicinische Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Das Christenthum und die heutige
       Gesellschaft</thema>: <dozent ref="gregory_cr"><grad>D. th., jur. et
       ph.</grad> <nachname>Gregory</nachname>, <funktion>P. O.
       Hon.</funktion></dozent> <siehe>Siehe Theologische
-      Facultät.</siehe></veranstaltungsverweis>
+      Facultät</siehe>.</veranstaltungsverweis>
     </sachgruppe>
 
     <trennlinie/>
@@ -1042,11 +1050,11 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-011"><thema>Physiologie des Gehörs,
-      der Stimme und Sprache (im Anschluss an die Vorlesung über Physiologie
-      des Nerven- und Muskelsystems von <notiz betreff="dozent">D. med. et ph.
-      Hering, P. O.</notiz>)</thema>: <dozent ref="fischer_o"><grad>D. med. et
-      ph.</grad> <vorname>O.</vorname> <nachname>Fischer</nachname>,
-      <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 9-10 U.</zeit>,
+      der Stimme und Sprache</thema> (im Anschluss an die Vorlesung über
+      Physiologie des Nerven- und Muskelsystems von D. med. et ph. Hering, P.
+      O.): <dozent ref="fischer_o"><grad>D. med. et ph.</grad>
+      <vorname>O.</vorname> <nachname>Fischer</nachname>, <funktion>P.
+      E.</funktion></dozent>, <zeit>Sonnab. 9-10 U.</zeit>,
       <modus>privatim</modus>.<!--Soll der Dozent Hering ausgezeichnet werden oder nicht,
 weil er für diese Veranstaltung kein Dozent ist.
 --></veranstaltung>
@@ -1090,14 +1098,13 @@ weil er für diese Veranstaltung kein Dozent ist.
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-018"><thema>Physiologisch-chemisches
-      Praktikum, <notiz betreff="zeit">ganz- oder halbtägig</notiz></thema>:
-      <dozent ref="siegfried_m"><grad>D. ph.</grad>
-      <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>,
-      <zeit>tägl. 9-1 u. (ausser Sonnab.) 2-6 U.</zeit>,
-      <modus>privatissime</modus>.</veranstaltung>
+      Praktikum</thema>, <zeit>ganz- oder halbtägig</zeit>: <dozent
+      ref="siegfried_m"><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
+      <funktion>P. E.</funktion></dozent>, <zeit>tägl. 9-1 u. (ausser Sonnab.)
+      2-6 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-019"><thema>Chemisches Praktikum für
-      Mediciner, <notiz betreff="zeit">halbtäg.</notiz></thema>: <dozent
+      Mediciner</thema>, <zeit>halbtäg.</zeit>: <dozent
       ref="siegfried_m"><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
       <funktion>P. E.</funktion></dozent>, <zeit>tägl. 9-1 oder (ausser
       Sonnab.) 2-6 U.</zeit>, <modus>privatissime</modus>.</veranstaltung>
@@ -1117,10 +1124,10 @@ weil er für diese Veranstaltung kein Dozent ist.
       <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Freit. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung xml:id="v-1900w-III-022"><thema>Arbeiten im hygienischen
-      Institute für Geübtere</thema>: <dozent ref="hofmann_f"><grad>D.
-      med.</grad> <nachname>Hofmann</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>täglich 9-1 U.</zeit>,
+      <veranstaltung xml:id="v-1900w-III-022"><thema>Arbeiten <ort>im
+      hygienischen Institute</ort> für Geübtere</thema>: <dozent
+      ref="hofmann_f"><grad>D. med.</grad> <nachname>Hofmann</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>täglich 9-1 U.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1138,7 +1145,7 @@ weil er für diese Veranstaltung kein Dozent ist.
 
       <veranstaltung xml:id="v-1900w-III-025"><thema>Gewerbe- und
       Arbeiterhygiene einschl. Arbeiterschutzgesetze (Krankenkassen,
-      Unfallversicherung u. s. w.)</thema>: <dozent ref="ficker_m"><grad>D.
+      Unfallversicherung u.s.w.)</thema>: <dozent ref="ficker_m"><grad>D.
       med.</grad> <nachname>Ficker</nachname></dozent>, <zeit>Donnerst. 5-6
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
@@ -1162,10 +1169,10 @@ weil er für diese Veranstaltung kein Dozent ist.
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-029"><thema>Experimentelle Arbeiten
-      im pharmakologischen Institute für Fortgeschrittenere</thema>: <dozent
-      ref="boehm_r"><grad>D. med.</grad> <nachname>Boehm</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>tägl., ganztägig</zeit>,
-      <modus>privatissime</modus>, aber
+      <ort>im pharmakologischen Institute</ort> für
+      Fortgeschrittenere</thema>: <dozent ref="boehm_r"><grad>D. med.</grad>
+      <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl., ganztägig</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <trennlinie/>
@@ -1206,8 +1213,8 @@ weil er für diese Veranstaltung kein Dozent ist.
       <nachname>Seiffert</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung xml:id="v-1900w-III-036"><thema>Arbeiten im
-      pathologischen Institut für Geübtere</thema>: <dozent
+      <veranstaltung xml:id="v-1900w-III-036"><thema>Arbeiten <ort>im
+      pathologischen Institut</ort> für Geübtere</thema>: <dozent
       ref="marchand_f"><grad>D. med.</grad> <nachname>Marchand</nachname>,
       <funktion>P. O.</funktion></dozent>, <zeit>tägl. 8-1 und 2-5 U.</zeit>,
       <modus>privatissime</modus>, aber
@@ -1272,7 +1279,7 @@ weil er für diese Veranstaltung kein Dozent ist.
 
       <veranstaltung xml:id="v-1900w-III-046"><thema>Curs der Krankheiten der
       Harn- und männlichen Geschlechtsorgane mit Uebungen im Gebrauch von
-      Sonde, Katheter, Urethroskop, Kystoskop u. s. w.</thema>: <dozent
+      Sonde, Katheter, Urethroskop, Kystoskop u.s.w.</thema>: <dozent
       ref="kollmann_a"><grad>D. med.</grad>
       <nachname>Kollmann</nachname></dozent>, <zeit>(II. Hälfte des
       Semesters), Mittw. 6-7 U.</zeit>,
@@ -1589,8 +1596,8 @@ weil er für diese Veranstaltung kein Dozent ist.
       <zeit>tägl. 4-5 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1900w-III-096"><thema>Chirurgie des
-      Kindesalters; klinische und poliklinische Demonstrationen im
-      Kinderkrankenhause</thema>: <dozent ref="tillmanns_rh"><grad>D.
+      Kindesalters; klinische und poliklinische Demonstrationen <ort>im
+      Kinderkrankenhause</ort></thema>: <dozent ref="tillmanns_rh"><grad>D.
       med.</grad> <nachname>Tillmanns</nachname>, <funktion>P.
       E.</funktion></dozent>, <zeit>Mittw. u. Sonnab. 5-6 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -1632,8 +1639,8 @@ weil er für diese Veranstaltung kein Dozent ist.
       E.</funktion></dozent>, <zeit>Dienst., Donnerst. u. Sonnab. 12-1
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-      <veranstaltung xml:id="v-1900w-III-103"><thema>Arbeiten im Institut für
-      Ohren-, Nasen- und Kehlkopfkrankheiten</thema>: <dozent
+      <veranstaltung xml:id="v-1900w-III-103"><thema>Arbeiten <ort>im Institut
+      für Ohren-, Nasen- und Kehlkopfkrankheiten</ort></thema>: <dozent
       ref="barth_a"><grad>D. med.</grad> <nachname>Barth</nachname>,
       <funktion>P. E.</funktion></dozent>, <zeit>Zeit nach
       Uebereinkunft</zeit>, <modus>publice</modus>.</veranstaltung>
@@ -1719,17 +1726,17 @@ weil er für diese Veranstaltung kein Dozent ist.
 
           <veranstaltung xml:id="v-1900w-III.002.a-001"><dozent
           ref="schuetz_h"><grad>D. med.</grad>
-          <nachname>Schütz</nachname></dozent> <thema>(für
-          Nervenkrankheiten)</thema>, <zeit>Mont. u. Mittw. 4-5 U.</zeit>,
-          <modus>privatim</modus>. <ort>(Nürnberger Str. 22.
-          I.)</ort></veranstaltung>
+          <nachname>Schütz</nachname></dozent> (<thema>für
+          Nervenkrankheiten</thema>), <zeit>Mont. u. Mittw. 4-5 U.</zeit>,
+          <modus>privatim</modus>. (<ort>Nürnberger Str. 22.
+          I.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-III.002.a-002"><dozent
           ref="windscheid_f"><grad>D. med.</grad>
-          <nachname>Windscheid</nachname></dozent> <thema>(für
-          Nervenkrankheiten)</thema>, <zeit>Mont., Mittw. u. Freit. 2-3
-          U.</zeit>, <modus>privatim</modus>. <ort>(Grimm. Steinweg 9.
-          I.)</ort></veranstaltung>
+          <nachname>Windscheid</nachname></dozent> (<thema>für
+          Nervenkrankheiten</thema>), <zeit>Mont., Mittw. u. Freit. 2-3
+          U.</zeit>, <modus>privatim</modus>. (<ort>Grimm. Steinweg 9.
+          I.</ort>)</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1900w-III.002.b">
@@ -1738,20 +1745,20 @@ weil er für diese Veranstaltung kein Dozent ist.
           <veranstaltung xml:id="v-1900w-III.002.b-001"><dozent
           ref="koelliker_t"><grad>D. med.</grad>
           <nachname>Kölliker</nachname>, <funktion>P. E.</funktion></dozent>
-          <ort>(Marienstr. 10.)</ort></veranstaltung>
+          (<ort>Marienstr. 10</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-III.002.b-002"><dozent
           ref="lesser_l"><grad>D. med.</grad> <nachnamenpräfix>Frhr.
           von</nachnamenpräfix> <nachname>Lesser</nachname></dozent>,
           <zeit>Mont., Mittw. u. Freit. 12-1 U.</zeit>,
-          <modus>privatim</modus>. <ort>(Turnerstr. 12.
-          Erdg.)</ort></veranstaltung>
+          <modus>privatim</modus>. (<ort>Turnerstr. 12.
+          Erdg.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-III.002.b-003"><dozent
           ref="braun_h"><grad>D. med.</grad>
           <nachname>Braun</nachname></dozent>, <zeit>Mont. u. Donnerst. 4-5
-          U.</zeit>, <modus>privatim</modus>. <ort>(Windmühlenstr. 39.
-          I.)</ort></veranstaltung>
+          U.</zeit>, <modus>privatim</modus>. (<ort>Windmühlenstr. 39.
+          I.</ort>)</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1900w-III.002.c">
@@ -1760,25 +1767,25 @@ weil er für diese Veranstaltung kein Dozent ist.
           <veranstaltung xml:id="v-1900w-III.002.c-001"><dozent
           ref="schroeter_pj"><grad>D. med.</grad>
           <nachname>Schroeter</nachname>, <funktion>P. E.</funktion></dozent>
-          <ort>(Lange Str. 25.)</ort></veranstaltung>
+          (<ort>Lange Str. 25</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-III.002.c-002"><dozent
           ref="schoen_w"><grad>D. med.</grad> <nachname>Schoen</nachname>,
-          <funktion>P. E.</funktion></dozent> <ort>(Grimm. Steinweg 9.
-          I.)</ort></veranstaltung>
+          <funktion>P. E.</funktion></dozent> (<ort>Grimm. Steinweg 9.
+          I.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-III.002.c-003"><dozent
           ref="kuester_f"><grad>D. med.</grad>
           <nachname>Küster</nachname></dozent>, <thema>Praktikum für
           diejenigen Herren, welche die Technik des Augenspiegelns sich
           angeeignet haben</thema>, <zeit>dreimal wöchentl. nach Uebereinkunft
-          11-12 U.</zeit>, <modus>privatissime</modus>. <ort>(Universitätsstr.
-          24. II.)</ort></veranstaltung>
+          11-12 U.</zeit>, <modus>privatissime</modus>. (<ort>Universitätsstr.
+          24. II.</ort>)</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-III.002.c-004"><dozent
           ref="schwarz_o"><grad>D. med.</grad> <nachname>Schwarz</nachname>,
-          <funktion>P. E. des.</funktion></dozent> <ort>(Grimm. Steinweg 9.
-          I.)</ort></veranstaltung>
+          <funktion>P. E. des.</funktion></dozent> (<ort>Grimm. Steinweg 9.
+          I.</ort>)</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1900w-III.002.d">
@@ -1788,8 +1795,8 @@ weil er für diese Veranstaltung kein Dozent ist.
           ref="heymann_r"><grad>D. med.</grad>
           <nachname>Heymann</nachname></dozent>, <thema>Diagnostische und
           therapeutische Uebungen</thema>, <zeit>tägl. 8-9½ U.</zeit>,
-          <modus>privatissime</modus>. <ort>(Grimm. Steinweg 9.
-          I.)</ort></veranstaltung>
+          <modus>privatissime</modus>. (<ort>Grimm. Steinweg 9.
+          I.</ort>)</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1900w-III.002.e">
@@ -1799,8 +1806,8 @@ weil er für diese Veranstaltung kein Dozent ist.
           <veranstaltung xml:id="v-1900w-III.002.e-001"><dozent
           ref="kollmann_a"><grad>D. med.</grad>
           <nachname>Kollmann</nachname></dozent> <zeit>(das ganze Semester),
-          Mont. u. Freit. 6-7 U.</zeit>, <modus>privatim</modus>. <ort>(Grimm.
-          Steinweg 9. I.)</ort></veranstaltung>
+          Mont. u. Freit. 6-7 U.</zeit>, <modus>privatim</modus>. (<ort>Grimm.
+          Steinweg 9. I.</ort>)</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1900w-III.002.f">
@@ -1808,15 +1815,15 @@ weil er für diese Veranstaltung kein Dozent ist.
 
           <veranstaltung xml:id="v-1900w-III.002.f-001"><dozent
           ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
-          <funktion>P. E.</funktion></dozent> <ort>(Carolinenstr.
-          31.)</ort></veranstaltung>
+          <funktion>P. E.</funktion></dozent> (<ort>Carolinenstr.
+          31</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-III.002.f-002"><dozent
           ref="lange_h"><grad>D. med.</grad>
           <nachname>Lange</nachname></dozent>, <thema>Untersuchungscurs an
           Kindern</thema>, <zeit>Mont. bis Freit. 2-3 U.</zeit>,
-          <modus>privatim</modus>. <ort>(Grimm. Steinweg 9.
-          I.)</ort></veranstaltung>
+          <modus>privatim</modus>. (<ort>Grimm. Steinweg 9.
+          I.</ort>)</veranstaltung>
         </sachgruppe>
 
         <sachgruppe xml:id="sg-1900w-III.002.g">
@@ -1824,8 +1831,8 @@ weil er für diese Veranstaltung kein Dozent ist.
 
           <veranstaltung xml:id="v-1900w-III.002.g-001"><dozent
           ref="hennig_c"><grad>D. med.</grad> <nachname>Hennig</nachname>,
-          <funktion>P. E.</funktion></dozent> <ort>(Carolinenstr.
-          31.)</ort></veranstaltung>
+          <funktion>P. E.</funktion></dozent> (<ort>Carolinenstr.
+          31</ort>.)</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-III.002.g-002"><dozent
           ref="menge_c"><grad>D. med.</grad>
@@ -1833,8 +1840,8 @@ weil er für diese Veranstaltung kein Dozent ist.
           ref="kroenig_b"><grad>D. med.</grad>
           <nachname>Krönig</nachname></dozent>, <thema>Gynaekologische
           Untersuchungsübungen</thema>, <zeit>Dienst., Mittw., Donnerst. u.
-          Freit. ½3-½4 U.</zeit>, <modus>privatissime</modus>. <ort>(Grimm.
-          Steinweg 9. I.)</ort></veranstaltung>
+          Freit. ½3-½4 U.</zeit>, <modus>privatissime</modus>. (<ort>Grimm.
+          Steinweg 9. I.</ort>)</veranstaltung>
 
           <seite>20</seite>
 
@@ -1885,12 +1892,14 @@ weil er für diese Veranstaltung kein Dozent ist.
           O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
           G.</siehe></veranstaltungsverweis>
 
-          <veranstaltungsverweis><thema>Bakterien - Uebungen im
-          mikroskopischen Untersuchen von Nahrungsmitteln aus dem
-          Pflanzenreich</thema>: <dozent ref="fischer_alfred"><grad>D.
-          ph.</grad> <vorname>A.</vorname> <nachname>Fischer</nachname>,
-          <funktion>P. E.</funktion></dozent> <siehe>Siehe Philosophische
-          Facultät G.</siehe></veranstaltungsverweis>
+          <veranstaltungsgruppe><veranstaltungsverweis><thema>Bakterien</thema></veranstaltungsverweis>
+          - <veranstaltungsverweis><thema>Uebungen im mikroskopischen
+          Untersuchen von Nahrungsmitteln aus dem
+          Pflanzenreich</thema></veranstaltungsverweis>: <dozent
+          ref="fischer_alfred"><grad>D. ph.</grad> <vorname>A.</vorname>
+          <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>
+          <siehe>Siehe Philosophische Facultät
+          G.</siehe></veranstaltungsgruppe>
 
           <veranstaltungsverweis><thema>Die für Menschen wichtigen thierischen
           Parasiten und übertragbaren Thierkrankheiten mit Demonstrationen
@@ -1903,7 +1912,7 @@ weil er für diese Veranstaltung kein Dozent ist.
           Gesellschaft</thema>: <dozent ref="gregory_cr"><grad>D. th., jur. et
           ph.</grad> <nachname>Gregory</nachname>, <funktion>P. O.
           Hon.</funktion></dozent> <siehe>Siehe Theologische
-          Facultät.</siehe></veranstaltungsverweis>
+          Facultät</siehe>.</veranstaltungsverweis>
         </sachgruppe>
       </sachgruppe>
     </sachgruppe>
@@ -2014,34 +2023,34 @@ weil er für diese Veranstaltung kein Dozent ist.
         <veranstaltungsverweis><thema>Rechtsphilosophie</thema>: <dozent
         ref="kloeppel_p"><grad>D. jur.</grad>
         <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
-        Facultät.</siehe></veranstaltungsverweis>
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Pädagogik und Geschichte
         derselben</thema>: <dozent ref="hofmann_r"><grad>D. th. et ph.</grad>
         <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Theologische Facultät.</siehe></veranstaltungsverweis>
+        <siehe>Siehe Theologische Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Schulhygiene</thema>: <dozent
         ref="lange_h"><grad>D. med.</grad>
         <nachname>Lange</nachname></dozent>. <siehe>Siehe Medicinische
-        Facultät.</siehe></veranstaltungsverweis>
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Gesundheitspflege des Auges</thema>:
         <dozent ref="schwarz_o"><grad>D. med.</grad>
         <nachname>Schwarz</nachname>, <funktion>P. E. des.</funktion></dozent>
-        <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
+        <siehe>Siehe Medicinische Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Ueber die wissenschaftlichen Grundlagen
         des Glaubens an die persönliche Unsterblichkeit</thema>: <dozent
         ref="fricke_ga"><grad>D. th. et ph.</grad>
         <nachname>Fricke</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Theologische Facultät.</siehe></veranstaltungsverweis>
+        <siehe>Siehe Theologische Facultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Das Christemthum und die heutige
+        <veranstaltungsverweis><thema>Das Christenthum und die heutige
         Gesellschaft</thema>: <dozent ref="gregory_cr"><grad>D. th., jur. et
         ph.</grad> <nachname>Gregory</nachname>, <funktion>P. O.
         Hon.</funktion></dozent> <siehe>Siehe Theologische
-        Facultät.</siehe></veranstaltungsverweis>
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <trennlinie/>
 
@@ -2065,13 +2074,13 @@ weil er für diese Veranstaltung kein Dozent ist.
         Spinozas Ethik. Schriftliche Arbeiten</thema>: <dozent
         ref="heinze_m"><grad>D. ph.</grad> <nachname>Heinze</nachname>,
         <funktion>P. O.</funktion></dozent>, <zeit>Mittw. 8-10 U.
-        Vorm.</zeit>, <modus>publice</modus></veranstaltung>. - <veranstaltung
+        Vorm.</zeit>, <modus>publice</modus>.</veranstaltung> - <veranstaltung
         xml:id="v-1900w-IV.A-019">2) <thema>Erklärung der Metaphysik der
         Sitten von Kant, mit schriftlichen Arbeiten</thema>: <dozent
         ref="barth_p"><grad>D. ph.</grad> <nachname>Barth</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Dienst. 7½-9 U. Ab.</zeit>,
         <modus>privatissime</modus>, aber
-        <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
+        <gebühr>gratis</gebühr>.</veranstaltung></veranstaltungsgruppe>
 
         <seite>22</seite>
 
@@ -2111,7 +2120,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         <veranstaltungsverweis><thema>Pädagogisches Seminar</thema>: <dozent
         ref="hofmann_r"><grad>D. th. &amp; ph.</grad>
         <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Theologische Facultät.</siehe></veranstaltungsverweis>
+        <siehe>Siehe Theologische Facultät</siehe>.</veranstaltungsverweis>
       </sachgruppe>
 
       <trennlinie/>
@@ -2131,7 +2140,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         Sprache</thema>: <dozent ref="fischer_o"><grad>D. med. et ph.</grad>
         <vorname>O.</vorname> <nachname>Fischer</nachname>, <funktion>P.
         E.</funktion></dozent> <siehe>Siehe Medicinische
-        Facultät.</siehe></veranstaltungsverweis>
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <sachgruppe xml:id="sg-1900w-IV.B.a">
           <titel>a) Altclassische Philologie.</titel>
@@ -2150,7 +2159,7 @@ weil er für diese Veranstaltung kein Dozent ist.
           O.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit.
           8-9 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1900w-IV.B.a-003"><thema>Die griechische
+          <veranstaltung xml:id="v-1900w-IV.B.a-003"><thema>Die griechischen
           Dialekte (Einleitung und Grammatik)</thema>: <dozent
           ref="hirt_h"><grad>D. ph.</grad> <nachname>Hirt</nachname>,
           <funktion>P. E.</funktion></dozent>, <zeit>Dienst. u. Freit. 3-4
@@ -2255,7 +2264,7 @@ weil er für diese Veranstaltung kein Dozent ist.
 
           <veranstaltung
           xml:id="v-1900w-IV.B.a-015"><thema>Sprachwissenschaftliche Uebungen
-          im Indogermanischen Institut (Erklärung griechischer oder
+          <ort>im Indogermanischen Institut</ort> (Erklärung griechischer oder
           lateinischer Inschriften und Vorträge)</thema>: <dozent
           ref="brugmann_k"><grad>D. ph.</grad> <nachname>Brugmann</nachname>,
           <funktion>P. O.</funktion></dozent>, <zeit>Donnerst. 7-9 U.
@@ -2535,7 +2544,7 @@ weil er für diese Veranstaltung kein Dozent ist.
           betreff="fortsetzung">II. Theil</notiz></thema>: <dozent
           ref="seesemann_o"><grad>Lic. th.</grad> <grad>D. ph.</grad>
           <nachname>Seesemann</nachname></dozent>. <siehe>Siehe Theologische
-          Facultät.</siehe></veranstaltungsverweis>
+          Facultät</siehe>.</veranstaltungsverweis>
 
           <seite>26</seite>
 
@@ -2549,9 +2558,9 @@ weil er für diese Veranstaltung kein Dozent ist.
           Persiens im Alterthum</thema>: <dozent ref="weissbach_fh"><grad>D.
           ph.</grad> <nachname>Weissbach</nachname></dozent>. <siehe>Siehe
           Abschnitt C.</siehe></veranstaltungsverweis>
-
-          <trennlinie/>
         </sachgruppe>
+
+        <trennlinie/>
 
         <sachgruppe xml:id="sg-1900w-IV.B.c">
           <titel>c) Deutsche Philologie.</titel>
@@ -2638,34 +2647,34 @@ weil er für diese Veranstaltung kein Dozent ist.
           <funktion>P. O.</funktion></dozent>: <veranstaltung
           xml:id="v-1900w-IV.B.c-012">a) <thema>des Seminars (ältere
           Abtheilung)</thema>, <zeit>Mittw. 11-1 U.</zeit>,
-          <modus>publice</modus></veranstaltung>. - <veranstaltung
+          <modus>publice</modus>.</veranstaltung> - <veranstaltung
           xml:id="v-1900w-IV.B.c-013">b) <thema>des Proseminars
           (althochdeutsche Abtheilung): Erklärung poetischer Denkmäler nach
           Braune's althochdeutschem Lesebuch</thema>, <zeit>Sonnab. 11-1
           U.</zeit>,
-          <modus>publice</modus></veranstaltung></veranstaltungsgruppe>. -
+          <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe> -
           <veranstaltung xml:id="v-1900w-IV.B.c-014">2) <dozent
           ref="koester_a"><grad>D. ph.</grad> <nachname>Köster</nachname>,
           <funktion>P. O.</funktion></dozent>, <thema>des Seminars (neuere
           <seite>27</seite>Abtheilung)</thema>, <zeit>Mont. 8-½10 U.
-          Ab.</zeit>, <modus>publice</modus></veranstaltung>. - <veranstaltung
+          Ab.</zeit>, <modus>publice</modus>.</veranstaltung> - <veranstaltung
           xml:id="v-1900w-IV.B.c-015">3) <dozent ref="bahder_k"><grad>D.
           ph.</grad> <nachnamenpräfix>von</nachnamenpräfix>
           <nachname>Bahder</nachname>, <funktion>P. E.</funktion></dozent>,
           <thema>des Proseminars (mittelhochdeutsche Abtheilung): Lektüre des
           Parzival</thema>, <zeit>Mittw. 5½-7 U. Ab.</zeit>,
-          <modus>publice</modus></veranstaltung>. - <veranstaltung
+          <modus>publice</modus>.</veranstaltung> - <veranstaltung
           xml:id="v-1900w-IV.B.c-016">4) <dozent ref="elster_e"><grad>D.
           ph.</grad> <nachname>Elster</nachname>, <funktion>P.
           E.</funktion></dozent>, <thema>des Proseminars: (neuhochdeutsche
           Abtheilung): Schillers "Wallenstein"</thema>, <zeit>Dienst. 5 bis 7
-          U.</zeit>, <modus>publice</modus></veranstaltung>. - <veranstaltung
+          U.</zeit>, <modus>publice</modus>.</veranstaltung> - <veranstaltung
           xml:id="v-1900w-IV.B.c-017">5) <dozent ref="mogk_e"><grad>D.
           ph.</grad> <nachname>Mogk</nachname>, <funktion>P.
           E.</funktion></dozent>, <thema>des Proseminars (nordische
-          Abtheilung): Lektüre der Þiðrekssaga</thema>, <zeit>Mittw. 4-5
+          Abtheilung): Lektüre der Þiðrekssaga</thema>, <zeit>Mittw. ½8-9
           U.</zeit>,
-          <modus>publice</modus></veranstaltung>.</veranstaltungsgruppe>
+          <modus>publice</modus>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltung xml:id="v-1900w-IV.B.c-018"><thema>Althochdeutsche
           Uebungen</thema>: <dozent ref="holz_g"><grad>D. ph.</grad>
@@ -2801,12 +2810,13 @@ weil er für diese Veranstaltung kein Dozent ist.
           xml:id="v-1900w-IV.B.d-015"><thema>I. Abtheilung: Angelsächsische
           Uebungen</thema>, <zeit>Mont. 6-8 U.</zeit>,
           <modus>privatissime</modus>, aber
-          <gebühr>unentgeltlich</gebühr></veranstaltung>. - <veranstaltung
-          xml:id="v-1900w-IV.B.d-016"><thema>II. Abtheilung unter Leitung des
-          <notiz betreff="dozent">Lector Lake</notiz>: Neuenglische
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung> - <veranstaltung
+          xml:id="v-1900w-IV.B.d-016"><thema>II. Abtheilung</thema>
+          <dozent>unter Leitung des <funktion>Lector</funktion>
+          <nachname>Lake</nachname></dozent>: <thema>Neuenglische
           Uebungen</thema>, <zeit>in noch zu best. Stunden</zeit>,
           <modus>privatissime</modus>, aber
-          <gebühr>unentgeltlich</gebühr></veranstaltung>.</veranstaltungsgruppe>
+          <gebühr>unentgeltlich</gebühr>.</veranstaltung></veranstaltungsgruppe>
 
           <veranstaltungsgruppe><thema>Romanisches Seminar</thema>: <dozent
           ref="birch-hirschfeld_ga"><grad>D. ph.</grad> <vorname>Ad.</vorname>
@@ -2821,8 +2831,8 @@ weil er für diese Veranstaltung kein Dozent ist.
           modernen Französisch</thema> <dozent ref="duchesne_a">unter Leitung
           des <grad>D. ph.</grad> <nachname>Duchesne</nachname></dozent>,
           <veranstaltung xml:id="v-1900w-IV.B.d-018"><thema>1. Section</thema>
-          <zeit>Mittw. ½9-10 U. und Donnerst. 4-5 U.</zeit> <thema>(Lektüre
-          einer noch zu bestimmenden Komödie)</thema></veranstaltung>,
+          <zeit>Mittw. ½9-10 U. und Donnerst. 4-5 U.</zeit> (<thema>Lektüre
+          einer noch zu bestimmenden Komödie</thema>)</veranstaltung>,
           <veranstaltung xml:id="v-1900w-IV.B.d-019"><thema>2. Section</thema>
           <zeit>Dienst. u. Freit. 3-4 U.</zeit>, <modus>privatissime</modus>,
           aber
@@ -2862,8 +2872,8 @@ weil er für diese Veranstaltung kein Dozent ist.
           <gebühr>gratis</gebühr>.</veranstaltung>
 
           <veranstaltung xml:id="v-1900w-IV.B.d-025"><thema>Uebungen im Lesen
-          altslavischer Texte (im Indogerma<seite>29</seite>nischen
-          Institut)</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
+          altslavischer Texte (<ort>im Indogerma<seite>29</seite>nischen
+          Institut</ort>)</thema>: <dozent ref="leskien_a"><grad>D. ph.</grad>
           <nachname>Leskien</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Mittw. 11-1 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
@@ -3028,7 +3038,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.C-023"><thema>Einleitung in das
-        Studium und den Unterricht der Geograpie; Methodik und Geschichte der
+        Studium und den Unterricht der Geographie; Methodik und Geschichte der
         neueren Erdkunde</thema>: <dozent ref="ratzel_f"><grad>D. ph.</grad>
         <nachname>Ratzel</nachname>, <funktion>P. O.</funktion></dozent>,
         <zeit>Dienst. u. Freit. 6-7 U.</zeit>,
@@ -3041,7 +3051,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         U.</zeit>, <thema>in Verbindung mit Besprechungen</thema>,
         <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1900w-IV.C-025"><thema>Besprechung über die
+        <veranstaltung xml:id="v-1900w-IV.C-025"><thema>Besprechungen über die
         Geographie von Deutschland (Politisch- und wirthschaftsgeographische
         Abtheilung)</thema>: <dozent ref="ratzel_f"><grad>D. ph.</grad>
         <nachname>Ratzel</nachname>, <funktion>P. O.</funktion></dozent>,
@@ -3064,7 +3074,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         Zeitalters</thema>: <dozent ref="heinrici_g"><grad>D. th. et
         ph.</grad> <nachname>Heinrici</nachname>, <funktion>P.
         O.</funktion></dozent> <siehe>Siehe Theologische
-        Facultät.</siehe></veranstaltungsverweis>
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geschichte und Encyklopädie der
         klassischen Alterthumswissenschaft</thema>: <dozent
@@ -3075,17 +3085,17 @@ weil er für diese Veranstaltung kein Dozent ist.
         <veranstaltungsverweis><thema>Kirchengeschichte des
         Mittelalters</thema>: <dozent ref="hauck_a"><grad>D. th. et ph.</grad>
         <nachname>Hauck</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Theologische Facultät.</siehe></veranstaltungsverweis>
+        <siehe>Siehe Theologische Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Neueste Kirchengeschichte seit
         1750</thema>: <dozent ref="brieger_t"><grad>D. th. et ph.</grad>
         <nachname>Brieger</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Theologische Facultät.</siehe></veranstaltungsverweis>
+        <siehe>Siehe Theologische Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Geschichte des Jesuitenordens von den
         Anfängen bis zur Gegenwart</thema>: <dozent ref="boehmer_h"><grad>Lic.
         th.</grad> <grad>D. ph.</grad> <nachname>Böhmer</nachname></dozent>.
-        <siehe>Siehe Theologische Facultät.</siehe></veranstaltungsverweis>
+        <siehe>Siehe Theologische Facultät</siehe>.</veranstaltungsverweis>
 
         <seite>31</seite>
 
@@ -3102,16 +3112,16 @@ weil er für diese Veranstaltung kein Dozent ist.
           <sachgruppe xml:id="sg-1900w-IV.C.001.A">
             <titel>A. Abtheilung für Alte Geschichte.</titel>
 
-            <veranstaltung xml:id="v-1900w-IV.C.001.A-001"><thema>a) Uebungen
+            <veranstaltung xml:id="v-1900w-IV.C.001.A-001">a) <thema>Uebungen
             über Caesars Feldzüge und selbständige Arbeiten</thema>: <dozent
             ref="wachsmuth_c"><grad>D. ph.</grad>
             <nachname>Wachsmuth</nachname>, <funktion>P.
             O.</funktion></dozent>, <zeit>Dienst. 6-8 U.</zeit>,
             <modus>publice</modus>.</veranstaltung>
 
-            <veranstaltung xml:id="v-1900w-IV.C.001.A-002"><thema>b)
-            Historische Uebungen im Anschluss an Xenophons Anabasis</thema>:
-            <dozent ref="cichorius_c"><grad>D. ph.</grad>
+            <veranstaltung xml:id="v-1900w-IV.C.001.A-002">b)
+            <thema>Historische Uebungen im Anschluss an Xenophons
+            Anabasis</thema>: <dozent ref="cichorius_c"><grad>D. ph.</grad>
             <nachname>Cichorius</nachname>, <funktion>P. E.
             des.</funktion></dozent>, <zeit>einmal wöchentl.,
             zweistündig</zeit>, <modus>publice</modus>.</veranstaltung>
@@ -3172,11 +3182,11 @@ weil er für diese Veranstaltung kein Dozent ist.
             xml:id="v-1900w-IV.C.001.C-001">1)
             <thema>Palaeographisch-diplomatische Uebungen</thema>,
             <zeit>Mittw. 9-10 U. Vorm.</zeit>, <modus>privatissime</modus>,
-            aber <gebühr>gratis</gebühr></veranstaltung>. - <veranstaltung
+            aber <gebühr>gratis</gebühr>.</veranstaltung> - <veranstaltung
             xml:id="v-1900w-IV.C.001.C-002">2)
             <thema>Verfassungsgeschichtliche Uebungen</thema>, <zeit>Mittw. 7¾
             bis 9½ U. Ab.</zeit>, <modus>privatissime</modus>, aber
-            <gebühr>gratis</gebühr></veranstaltung>.</veranstaltungsgruppe>
+            <gebühr>gratis</gebühr>.</veranstaltung></veranstaltungsgruppe>
 
             <trennlinie/>
 
@@ -3260,7 +3270,7 @@ weil er für diese Veranstaltung kein Dozent ist.
           Directors: <funktion>Assistent</funktion> <grad>D. ph.</grad>
           <nachname>Friedrich</nachname></dozent>: <veranstaltung
           xml:id="v-1900w-IV.C.003-002"><thema>Uebung im Herstellen des
-          Reliefs zu der Karte der Umgebung des Heimathortes</thema>,
+          Reliefs zu der Karte der Umgebung des Heimathsortes</thema>,
           <zeit>Mittw. 5-7 U.</zeit>, <modus>privatissime</modus>, aber
           <gebühr>gratis</gebühr>.</veranstaltung> - <veranstaltung
           xml:id="v-1900w-IV.C.003-003"><thema>Uebung im Gebrauch des Globus,
@@ -3274,8 +3284,8 @@ weil er für diese Veranstaltung kein Dozent ist.
         <trennlinie/>
 
         <veranstaltung xml:id="v-1900w-IV.C-030"><thema>Leitung praktischer
-        und wissenschaftlicher Arbeiten im Museum für Völkerkunde</thema>:
-        <dozent ref="weule_k"><grad>D. ph.</grad>
+        und wissenschaftlicher Arbeiten <ort>im Museum für
+        Völkerkunde</ort></thema>: <dozent ref="weule_k"><grad>D. ph.</grad>
         <nachname>Weule</nachname></dozent>, <zeit>wochentägl. in beliebigen
         Stunden (zwischen 8 u. 5 U.)</zeit>, <modus>privatissime</modus>, aber
         <gebühr>gratis</gebühr>.</veranstaltung>
@@ -3386,7 +3396,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         Sprache</thema>: <dozent ref="fischer_o"><grad>Dr. med. et ph.</grad>
         <vorname>O.</vorname> <nachname>Fischer</nachname>, <funktion>P.
         E.</funktion></dozent> <siehe>Siehe Medicinische
-        Facultät.</siehe></veranstaltungsverweis>
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <trennlinie/>
 
@@ -3409,14 +3419,14 @@ weil er für diese Veranstaltung kein Dozent ist.
         <sachgruppe xml:id="sg-1900w-IV.D.002">
           <titel>Kunsthistorisches Seminar.</titel>
 
-          <veranstaltung xml:id="v-1900w-IV.D.002-001"><thema>1) Kritische
+          <veranstaltung xml:id="v-1900w-IV.D.002-001">1) <thema>Kritische
           Uebungen über Rubens und Rembrandt</thema>: <dozent
           ref="schmarsow_a"><grad>D. ph.</grad>
           <nachname>Schmarsow</nachname>, <funktion>P. O.</funktion></dozent>,
           <zeit>Donnerst. 7-9 U. Ab.</zeit>,
           <modus>publice</modus>.</veranstaltung>
 
-          <veranstaltung xml:id="v-1900w-IV.D.002-002"><thema>2) Historische
+          <veranstaltung xml:id="v-1900w-IV.D.002-002">2) <thema>Historische
           Untersuchungen über Baukunst des Mittelalters</thema>: <dozent
           ref="kautzsch_r"><grad>D. ph.</grad>
           <nachname>Kautzsch</nachname></dozent> (im Auftrage des Direktors),
@@ -3597,7 +3607,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         <zeit>Mittw. 3-4 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.E-018"><thema>Kulturtechnik (Ent-
-        und Bewässerungen, Regulirungen u. s. w.)</thema>: <dozent
+        und Bewässerungen, Regulirungen u.s.w.)</thema>: <dozent
         ref="strecker_w"><grad>D. ph.</grad> <nachname>Strecker</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Donnerst. u. Freit. 10 bis
         11 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -3608,7 +3618,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         <nachname>Strecker</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont. 5-7 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1900w-IV.E-020"><thema>Allgemeinen
+        <veranstaltung xml:id="v-1900w-IV.E-020"><thema>Allgemeine
         Maschinenlehre für Studirende aller Richtungen, mit Demonstrationen an
         Lichtbildern und Modellen sowie technischen Exkursionen</thema>:
         <dozent ref="strecker_w"><grad>D. ph.</grad>
@@ -3662,47 +3672,51 @@ weil er für diese Veranstaltung kein Dozent ist.
         <veranstaltungsverweis><thema>Völkerrecht</thema>: <dozent
         ref="friedberg_e"><grad>D. jur.</grad> <nachname>Friedberg</nachname>,
         <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
-        Facultät.</siehe></veranstaltungsverweis>
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Allgemeines Staatsrecht</thema>: <dozent
         ref="kloeppel_p"><grad>D. jur.</grad>
         <nachname>Kloeppel</nachname></dozent>. <siehe>Siehe Juristische
-        Facultät.</siehe></veranstaltungsverweis>
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Deutsches Reichs- und
         Landesstaatsrecht</thema>: <dozent ref="binding_k"><grad>D.
         jur.</grad> <nachname>Binding</nachname>, <funktion>P.
         O.</funktion></dozent> <siehe>Siehe Juristische
-        Facultät.</siehe></veranstaltungsverweis>
+        Facultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Deutsches Reichs- und Landesstaatsrecht
-        - Deutsches Verwaltungsrecht</thema>: <dozent ref="triepel_h"><grad>D.
-        jur.</grad> <nachname>Triepel</nachname>, <funktion>P. E.
-        des.</funktion></dozent> <siehe>Siehe Juristische
-        Facultät.</siehe></veranstaltungsverweis>
+        <veranstaltungsgruppe><veranstaltungsverweis><thema>Deutsches Reichs-
+        und Landesstaatsrecht</thema></veranstaltungsverweis> -
+        <veranstaltungsverweis><thema>Deutsches
+        Verwaltungsrecht</thema></veranstaltungsverweis>: <dozent
+        ref="triepel_h"><grad>D. jur.</grad> <nachname>Triepel</nachname>,
+        <funktion>P. E. des.</funktion></dozent> <siehe>Siehe Juristische
+        Facultät</siehe>.</veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Handels-, Wechsel- und Seerecht</thema>:
         <dozent ref="sohm_r"><grad>D. jur., th. et ph.</grad>
         <nachname>Sohm</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Juristische Facultät.</siehe></veranstaltungsverweis>
+        <siehe>Siehe Juristische Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Wechselrecht</thema>: <dozent
         ref="goetz_o"><grad>D. jur.</grad> <nachname>Götz</nachname>,
         <funktion>P. E.</funktion></dozent> <siehe>Siehe Juristische
-        Facultät.</siehe></veranstaltungsverweis>
+        Facultät</siehe>.</veranstaltungsverweis>
 
-        <veranstaltungsverweis><thema>Das im Königreich Sachsen geltende
-        Verwaltungsrecht <notiz betreff="fortsetzung">II. Theil</notiz> -
-        Gewerberecht - Das Recht der Kranken-, Unfall- und
-        Invaliditäts-Versicherung</thema>: <dozent ref="haepe_g"><grad>D.
-        jur.</grad> <nachname>Häpe</nachname>, <funktion>P.
-        E.</funktion></dozent> <siehe>Siehe Juristische
-        Facultät.</siehe></veranstaltungsverweis>
+        <veranstaltungsgruppe><veranstaltungsverweis><thema>Das im Königreich
+        Sachsen geltende Verwaltungsrecht <notiz betreff="fortsetzung">II.
+        Theil</notiz></thema></veranstaltungsverweis> -
+        <veranstaltungsverweis><thema>Gewerberecht</thema></veranstaltungsverweis>
+        - <veranstaltungsverweis><thema>Das Recht der Kranken-, Unfall- und
+        Invaliditäts-Versicherung</thema></veranstaltungsverweis>: <dozent
+        ref="haepe_g"><grad>D. jur.</grad> <nachname>Häpe</nachname>,
+        <funktion>P. E.</funktion></dozent> <siehe>Siehe Juristische
+        Facultät</siehe>.</veranstaltungsgruppe>
 
         <veranstaltungsverweis><thema>Gewerbe- und Arbeiterhygiene</thema>:
         <dozent ref="ficker_m"><grad>D. med.</grad>
         <nachname>Ficker</nachname></dozent>. <siehe>Siehe Medicinische
-        Facultät.</siehe></veranstaltungsverweis>
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Politische Parteien</thema>: <dozent
         ref="salomon_f"><grad>D. ph.</grad>
@@ -3755,11 +3769,11 @@ weil er für diese Veranstaltung kein Dozent ist.
         Praktikum, Mont. bis Freit. 8-1 U. Vorm. oder 2 bis 5 U.
         Nachm.</zeit>, <modus>privatissime</modus>.</veranstaltung>
 
-        <veranstaltung xml:id="v-1900w-IV.E-034"><thema>Demonstrationen im
-        Rassenstalle des landwirthschaftlichen Instituts</thema>: <dozent
-        ref="kirchner_w"><grad>D. ph.</grad> <nachname>Kirchner</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Sonnab. Nachm.</zeit>,
-        <modus>publice</modus>.</veranstaltung>
+        <veranstaltung xml:id="v-1900w-IV.E-034"><thema>Demonstrationen
+        <ort>im Rassenstalle des landwirthschaftlichen
+        Instituts</ort></thema>: <dozent ref="kirchner_w"><grad>D. ph.</grad>
+        <nachname>Kirchner</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Sonnab. Nachm.</zeit>, <modus>publice</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.E-035"><thema>Demonstrationen in der
         Veterinärklinik</thema>: <dozent ref="eber_a"><grad>D. ph.</grad>
@@ -3774,7 +3788,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.E-037"><thema>Praktikum (bei
-        genügender Betheilung) für landwirthschaftliche doppelte
+        genügender Betheiligung) für landwirthschaftliche doppelte
         Buchhaltung</thema>: <dozent ref="howard_wh"><grad>D. ph.</grad>
         <nachname>Howard</nachname>, <funktion>P. E.</funktion></dozent>,
         <zeit>Mont., Dienst., Donnerst. u. Freit. 3-6 U.</zeit>,
@@ -3794,7 +3808,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         <veranstaltungsverweis><thema>Praktikum des Handels-, Wechsel- und
         Seerecht</thema>: <dozent ref="friedberg_e"><grad>D. jur.</grad>
         <nachname>Friedberg</nachname>, <funktion>P. O.</funktion></dozent>
-        <siehe>Siehe Juristische Facultät.</siehe></veranstaltungsverweis>
+        <siehe>Siehe Juristische Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Verfassungsgeschichtliche Uebungen (im
         Historischen Seminar)</thema>: <dozent ref="seeliger_g"><grad>D.
@@ -4024,7 +4038,7 @@ weil er für diese Veranstaltung kein Dozent ist.
 
         <veranstaltung xml:id="v-1900w-IV.G-014"><thema>Mehrkernige
         aromatische Verbindungen (Gruppe des Diphenyls der Polyphenylmethane
-        des Naphtalins, Anthracens u. s. w.) und die hydroaromatischen
+        des Naphtalins, Anthracens u.s.w.) und die hydroaromatischen
         Substanzen</thema>: <dozent ref="stobbe_h"><grad>D. ph.</grad>
         <nachname>Stobbe</nachname>, <funktion>P. E. des.</funktion></dozent>,
         <zeit>Sonnab. 12-1 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
@@ -4160,12 +4174,12 @@ weil er für diese Veranstaltung kein Dozent ist.
         Stimme und Sprache</thema>: <dozent ref="fischer_o"><grad>D.
         med<korrektur>.</korrektur> et ph.</grad> <vorname>O.</vorname>
         <nachname>Fischer</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
+        <siehe>Siehe Medicinische Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Physiologische Chemie</thema>: <dozent
         ref="siegfried_m"><grad>D. ph.</grad> <nachname>Siegfried</nachname>,
         <funktion>P. E.</funktion></dozent> <siehe>Siehe Medicinische
-        Facultät.</siehe></veranstaltungsverweis>
+        Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Allgemeine Maschinenlehre</thema>:
         <dozent ref="strecker_w"><grad>D. ph.</grad>
@@ -4262,11 +4276,11 @@ weil er für diese Veranstaltung kein Dozent ist.
         Sonnab.) 2-6 U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.G-049"><thema>Mineralogische und
-        geologische Arbeiten und Untersuchungen im Institut</thema>: <dozent
-        ref="zirkel_f"><grad>D. ph.</grad> <nachname>Zirkel</nachname>,
-        <funktion>P. O.</funktion></dozent>, <zeit>Mont. bis Freit. 9-1
-        U.</zeit>, <modus>privatissime</modus>, aber
-        <gebühr>gratis</gebühr>.</veranstaltung>
+        geologische Arbeiten und Untersuchungen <ort>im
+        Institut</ort></thema>: <dozent ref="zirkel_f"><grad>D. ph.</grad>
+        <nachname>Zirkel</nachname>, <funktion>P. O.</funktion></dozent>,
+        <zeit>Mont. bis Freit. 9-1 U.</zeit>, <modus>privatissime</modus>,
+        aber <gebühr>gratis</gebühr>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.G-050"><thema>Geologisches und
         palaeontologisches Colloquium und Praktikum</thema>: <dozent
@@ -4289,14 +4303,14 @@ weil er für diese Veranstaltung kein Dozent ist.
 
         <seite>42</seite>
 
-        <veranstaltung xml:id="v-1900w-IV.G-053"><thema>Mikrokopische Uebungen
-        für Anfänger</thema>: <dozent ref="pfeffer_w"><grad>D. ph., rer. nat.
-        et med.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
+        <veranstaltung xml:id="v-1900w-IV.G-053"><thema>Mikroskopische
+        Uebungen für Anfänger</thema>: <dozent ref="pfeffer_w"><grad>D. ph.,
+        rer. nat. et med.</grad> <nachname>Pfeffer</nachname>, <funktion>P.
         O.</funktion></dozent>, <zeit>Dienst. u. Freit. 10-12 U.</zeit>,
         <modus>privatim</modus>.</veranstaltung>
 
         <veranstaltung xml:id="v-1900w-IV.G-054"><thema>Uebungen im
-        mikroskopische Untersuchen von Nahrungsmitteln aus dem
+        mikroskopischen Untersuchen von Nahrungsmitteln aus dem
         Pflanzenreich</thema>: <dozent ref="fischer_alfred"><grad>D.
         ph.</grad> <vorname>Alfr.</vorname> <nachname>Fischer</nachname>,
         <funktion>P. E.</funktion></dozent>, <zeit>Sonnab. 9-11 U.</zeit>,
@@ -4311,7 +4325,7 @@ weil er für diese Veranstaltung kein Dozent ist.
         <veranstaltungsverweis><thema>Physiologisch-chemisches
         Praktikum</thema>: <dozent ref="siegfried_m"><grad>D. ph.</grad>
         <nachname>Siegfried</nachname>, <funktion>P. E.</funktion></dozent>
-        <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
+        <siehe>Siehe Medicinische Facultät</siehe>.</veranstaltungsverweis>
 
         <veranstaltungsverweis><thema>Seminar für wissenschaftliches
         Rechnen</thema>: <dozent ref="bruns_h"><grad>D. ph.</grad>
@@ -4340,19 +4354,27 @@ weil er für diese Veranstaltung kein Dozent ist.
     3-5 Uhr, der <gesperrt>Lesesaal</gesperrt> derselben: täglich von 9-1 U.
     u. (mit Ausnahme des Sonnabends) von 3-6 Uhr, die Bücher-Ausgabe und
     -Annahme: täglich von 11-1 und (mit Ausnahme des Sonnabend) von 3-5 Uhr.
-    Anträge auf Anschaffung von Büchern werden jederzeit von dem der
+    </absatz>
+
+    <absatz>Anträge auf Anschaffung von Büchern werden jederzeit von dem der
     betreffenden Facultät angehörenden Mitgliede der Bibliothek-Commission
-    entgegen genommen. Die <gesperrt>Akademische Lesehalle</gesperrt>
+    entgegen genommen. </absatz>
+
+    <absatz>Die <gesperrt>Akademische Lesehalle</gesperrt>
     (Universitätsstrasse Nr. 7/9) ist Wochentags von 8 Uhr früh bis 8 Uhr
-    Abends, Sonntags von 11 bis 3 Uhr geöffnet. Die
-    <gesperrt>Stadtbibliothek</gesperrt> und die mit derselben verbundene
-    <gesperrt>Pölitz</gesperrt>'sche Bibliothek ist geöffnet Mont. u.
-    Donnerst. 11-1 U., sonst 3-5 Uhr. Die <gesperrt>Theologische
-    Studentenbibliothek</gesperrt>, Paulinum II. Geschoss (Beguinenhaus), ist
-    wöchentlich zweimal, Dienst. u. Freit. ¾2-¾3 Uhr, geöffnet. Das
-    <gesperrt>Antiken-Museum</gesperrt> (Eingang Albertinum Nr. 1) ist
-    Sonntags 11-1 dem Publikum, an einem später zu bestimmenden Wochentage nur
-    für Studirende, die <gesperrt>kirchlich-archaeologische</gesperrt>
+    Abends, Sonntags von 11 bis 3 Uhr geöffnet. </absatz>
+
+    <absatz>Die <gesperrt>Stadtbibliothek</gesperrt> und die mit derselben
+    verbundene <gesperrt>Pölitz</gesperrt>'sche Bibliothek ist geöffnet Mont.
+    u. Donnerst. 11-1 U., sonst 3-5 Uhr. </absatz>
+
+    <absatz>Die <gesperrt>Theologische Studentenbibliothek</gesperrt>,
+    Paulinum II. Geschoss (Beguinenhaus), ist wöchentlich zweimal, Dienst. u.
+    Freit. ¾2-¾3 Uhr, geöffnet. </absatz>
+
+    <absatz>Das <gesperrt>Antiken-Museum</gesperrt> (Eingang Albertinum Nr. 1)
+    ist Sonntags 11-1 dem Publikum, an einem später zu bestimmenden Wochentage
+    nur für Studirende, die <gesperrt>kirchlich-archaeologische</gesperrt>
     Sammlung ist Mittw. 12-1 Uhr, das <gesperrt>zoologische</gesperrt> Museum
     Mittw. 2-4 Uhr, das <gesperrt>Universitäts-Herbarium</gesperrt> täglich
     früh 9-12 Uhr, das <gesperrt>mineralogische</gesperrt> Museum Sonnab. 11-1
