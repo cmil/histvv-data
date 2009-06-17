@@ -103,9 +103,10 @@
 
       <veranstaltung xml:id="v-1901w-I-008"><thema>Einleitung in das Neue
       Testament</thema>: <dozent ref="gregory_cr"><grad>D. th., D. D., D. jur.
-      et ph.</grad> <nachname>Gregory</nachname>, <funktion>P. O.
-      Hon.</funktion></dozent>, <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9
-      U. Vorm.</zeit>, <modus>privatim</modus>.</veranstaltung>
+      et ph.</grad><!--Gregory wird hier mit Grad: "D.th., D. D., D. jur et ph." angegeben, ist nur in diesem VV so!-->
+      <nachname>Gregory</nachname>, <funktion>P. O. Hon.</funktion></dozent>,
+      <zeit>Mont., Dienst., Donnerst. u. Freit. 8-9 U. Vorm.</zeit>,
+      <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1901w-I-009"><thema>Neutestamentliche
       Theologie</thema>: <dozent ref="kirn_o"><grad>D. th. et ph.</grad>
@@ -359,7 +360,7 @@
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1901w-I-048"><thema>Kirchengeschichtliche
-      Uebungen (Lektüre von Luthers Schriften: an der christlichen Adel, de
+      Uebungen (Lektüre von Luthers Schriften: an den christlichen Adel, de
       captivitate Babylonica, von der Freiheit eines
       Christenmenschen)</thema>: <dozent ref="boehmer_h"><grad>Lic. th.</grad>
       <grad>D. ph.</grad> <nachname>Böhmer</nachname></dozent>, <zeit>Dienst.
@@ -492,13 +493,13 @@
       Kirchenrecht mit Einschluss des Eherechts</thema>: <dozent
       ref="friedberg_e"><grad>D. jur.</grad> <nachname>Friedberg</nachname>,
       <funktion>P. O.</funktion></dozent> <siehe>Siehe Juristische
-      Facultät.</siehe></veranstaltungsverweis>
+      Facultät</siehe>.</veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Staats und Kirche in geschichtlicher
+      <veranstaltungsverweis><thema>Staat und Kirche in geschichtlicher
       Entwicklung</thema>: <dozent ref="rieker_k"><grad>D. jur.</grad> et
       <grad>Lic. th.</grad> <nachname>Rieker</nachname>, <funktion>P.
       E.</funktion></dozent> <siehe>Siehe Juristische
-      Facultät.</siehe></veranstaltungsverweis>
+      Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Allgemeine Didaktik mit psychologischer
       Begründung</thema>: <dozent ref="schiller_h"><grad>D. ph.</grad>
@@ -539,7 +540,7 @@
       Facultät A.</siehe></veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Geschichte der alten Philosophie und ihrer
-      Beziehung zum Christenthum</thema>: <dozent ref="barth_p"><grad>D.
+      Beziehungen zum Christenthum</thema>: <dozent ref="barth_p"><grad>D.
       ph.</grad> <nachname>Barth</nachname>, <funktion>P.
       E.</funktion></dozent> <siehe>Siehe Philosophische Facultät
       A.</siehe></veranstaltungsverweis>
@@ -841,7 +842,8 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung modus="privatissime"
-      xml:id="v-1901w-II-044"><thema>Civilrechtliches Privatissimum (bez.
+      xml:id="v-1901w-II-044"><thema>Civilrechtliches <notiz
+      betreff="fortsetzung">Privatissimum</notiz> (bez.
       Pandekten-Examinatorium)</thema>: <dozent ref="goetz_o"><grad>D.
       jur.</grad> <nachname>Götz</nachname>, <funktion>P.
       E.</funktion></dozent>, <zeit>in zu best.
@@ -888,10 +890,12 @@
       <nachname>Stieda</nachname>, <funktion>P. O.</funktion></dozent>
       <siehe>Siehe Philosophische Facultät E.</siehe></veranstaltungsverweis>
 
-      <veranstaltungsverweis><thema>Specielle Volkswirthschaftslehre -
-      Finanzwissenschaft</thema>: <dozent ref="buecher_k"><grad>D. ph.</grad>
-      <nachname>Bücher</nachname>, <funktion>P. O.</funktion></dozent>
-      <siehe>Siehe Philosophische Facultät E.</siehe></veranstaltungsverweis>
+      <veranstaltungsgruppe><veranstaltungsverweis><thema>Specielle
+      Volkswirthschaftslehre</thema></veranstaltungsverweis> -
+      <veranstaltungsverweis><thema>Finanzwissenschaft</thema></veranstaltungsverweis>:
+      <dozent ref="buecher_k"><grad>D. ph.</grad> <nachname>Bücher</nachname>,
+      <funktion>P. O.</funktion></dozent> <siehe>Siehe Philosophische Facultät
+      E.</siehe></veranstaltungsgruppe>
 
       <veranstaltungsverweis><thema>Allgemeine Handels- (und Wirthschafts)
       geschichte vom 15. Jahrhundert bis zur Gegenwart</thema>: <dozent
@@ -942,17 +946,17 @@
       <veranstaltungsverweis><thema>Forensische Psychiatrie</thema>: <dozent
       ref="flechsig_p"><grad>D. med.</grad> <nachname>Flechsig</nachname>,
       <funktion>P. O.</funktion></dozent> <siehe>Siehe Medicinische
-      Facultät.</siehe></veranstaltungsverweis>
+      Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Vorlesung über gerichtliche
       Medicin</thema>: <dozent ref="kockel_r"><grad>D. med.</grad>
       <nachname>Kockel</nachname>, <funktion>P. E.</funktion></dozent>
-      <siehe>Siehe Medicinische Facultät.</siehe></veranstaltungsverweis>
+      <siehe>Siehe Medicinische Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Auslegung des "Vater Unsers"</thema>:
       <dozent ref="gregory_cr"><grad>D. th., D. D., D. jur. et ph.</grad>
       <nachname>Gregory</nachname>, <funktion>P. O. Hon.</funktion></dozent>
-      <siehe>Siehe Theologische Facultät.</siehe></veranstaltungsverweis>
+      <siehe>Siehe Theologische Facultät</siehe>.</veranstaltungsverweis>
 
       <veranstaltungsverweis><thema>Stimmbildung, Vortrags- und
       Redeübungen</thema>: <dozent ref="seydel_m"><grad>D. ph.</grad>
@@ -1124,10 +1128,10 @@
       <nachname>Hofmann</nachname>, <funktion>P. O.</funktion></dozent>,
       <zeit>Freit. 5-6 U.</zeit>, <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung xml:id="v-1901w-III-025"><thema>Arbeiten im hygienischen
-      Institute für Geübtere</thema>: <dozent ref="hofmann_f"><grad>D.
-      med.</grad> <nachname>Hofmann</nachname>, <funktion>P.
-      O.</funktion></dozent>, <zeit>täglich 9-1 U.</zeit>,
+      <veranstaltung xml:id="v-1901w-III-025"><thema>Arbeiten <ort>im
+      hygienischen Institute</ort> für Geübtere</thema>: <dozent
+      ref="hofmann_f"><grad>D. med.</grad> <nachname>Hofmann</nachname>,
+      <funktion>P. O.</funktion></dozent>, <zeit>täglich 9-1 U.</zeit>,
       <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
@@ -1138,18 +1142,18 @@
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1901w-III-027"><thema>Bakteriologie mit
-      Demonstrationen einschl. Immunität, Serumtherapie u. s. w.</thema>:
+      Demonstrationen einschl. Immunität, Serumtherapie u.s.w.</thema>:
       <dozent ref="ficker_m"><grad>D. med.</grad>
       <nachname>Ficker</nachname></dozent>, <zeit>Dienst. 6-7 U.</zeit>,
       <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1901w-III-028"><thema>Einführung in die
-      ärztliche Gesetzeskunde (Medicinalgesetze, Krankenkassen u. s.
-      w.)</thema>: <dozent ref="ficker_m"><grad>D. med.</grad>
+      ärztliche Gesetzeskunde (Medicinalgesetze, Krankenkassen
+      u.s.w.)</thema>: <dozent ref="ficker_m"><grad>D. med.</grad>
       <nachname>Ficker</nachname></dozent>, <zeit>Mont. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
 
-      <veranstaltung xml:id="v-1901w-III-029"><thema>Schulhgiene</thema>:
+      <veranstaltung xml:id="v-1901w-III-029"><thema>Schulhygiene</thema>:
       <dozent ref="lange_h"><grad>D. med.</grad>
       <nachname>Lange</nachname></dozent>, <zeit>Mittw. 6-7 U.</zeit>,
       <modus>publice</modus>.</veranstaltung>
@@ -1174,10 +1178,10 @@
       U.</zeit>, <modus>privatim</modus>.</veranstaltung>
 
       <veranstaltung xml:id="v-1901w-III-033"><thema>Experimentelle Arbeiten
-      im pharmakologischen Institute für Fortgeschrittenere</thema>: <dozent
-      ref="boehm_r"><grad>D. med.</grad> <nachname>Boehm</nachname>,
-      <funktion>P. O.</funktion></dozent>, <zeit>tägl., ganztägig</zeit>,
-      <modus>privatissime</modus>, aber
+      <ort>im pharmakologischen Institute</ort> für
+      Fortgeschrittenere</thema>: <dozent ref="boehm_r"><grad>D. med.</grad>
+      <nachname>Boehm</nachname>, <funktion>P. O.</funktion></dozent>,
+      <zeit>tägl., ganztägig</zeit>, <modus>privatissime</modus>, aber
       <gebühr>gratis</gebühr>.</veranstaltung>
 
       <veranstaltung xml:id="v-1901w-III-034"><thema>Cursus der Verordnung und
