@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="de" xml:lang="de" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Technische Erläuterung</title>
+  </head>
+
+  <body>
+    <h1>Technische Erläuterung</h1>
+
+    <p>Ein wesentliches Resultat der Projektarbeit ist die Entwicklung eines
+    XML-Schemas, das prinzipiell auch auf die Vorlesungsverzeichnisse anderer
+    Universitäten und Zeiträume angewendet werden kann.</p>
+
+    <h2 id="dokumentenbasiert">Dokumentenbasierte Erfassung</h2>
+
+    <p>Das Erfassungsinstrumentarium ist kein fixes Datenbankschema. Die
+    Verzeichnisse werden eingabetechnisch nicht zerrissen, sondern
+    ganzheitlich erfasst und mit Hilfe der eXtensible Markup Language (XML)
+    semantisch getaggt, und wandern erst danach in eine (XML-fähige)
+    Datenbank. Ein wichtiges Kriterium bei dem Entwurf des XML-Schemas war,
+    dass die Textgestalt nicht verändert und die semantisch bedeutsamen Teile
+    nicht isoliert werden müssen, sondern im ursprünglichen Zusammenhang
+    darstellbar sind. Das Schema ist deshalb in der Lage, die deutlich
+    variierende Gestalt der Vorlesungsverzeichnisse des 19. Jahrhunderts zu
+    verarbeiten. Mit dem HistVV-Schema wurde eine grundsätzliche Form
+    geschaffen, Vorlesungsverzeichnisse des 19. Jahrhunderts digital verfügbar
+    und auswertbar zu machen, die den Besonderheiten der
+    Vorlesungsverzeichnisse anderer Universitäten leicht angepasst werden
+    kann.</p>
+
+    <h2 id="architektur">Software-Architektur, Arbeitsorganisation und
+    Dateneingabe</h2>
+
+    <p>Von der Dateneingabe via XML-Editor bis zur Datenausgabe via
+    Browserfenster ist das Projekt wie folgt organisiert:</p>
+
+    <p><img alt="Software-Architektur" src="architektur.png"
+    title="Software-Architektur" /></p>
+
+    <p>Jeder Arbeitsschritt wird über eine Versionsverwaltung gesichert, damit
+    jeder Stand der Bearbeitung reproduzierbar ist, egal ob es sich um
+    Programmcode oder Daten handelt. Da die Vorlesungsverzeichnisse zunächst
+    in XML-Dokumenten erfasst werden, müssen diese danach noch auf eine
+    XML-fähige Datenbank (in unserem Fall: Berkeley DB) abgebildet werden.
+    Über eine Abfragesprache finden dann die Daten über den Webserver zum
+    Benutzer.</p>
+
+    <p>Für die Dateneingabe haben wir den Editor XMLmind benutzt, der als
+    Personal Edition kostenfrei ist.</p>
+
+    <p>[Grafik: Screenshot des XML-Editors]</p>
+
+    <p>Für die technische Umsetzung wurde bevorzugt auf Open-Source-Software
+    (Apache-Webserver, Berkeley DB XML, Trac) und offene Standards (XML, RELAX
+    NG, XQuery) zurückgegriffen. Mit der von Google weiterentwickelten
+    OCR-Software Tesseract wurden bei der Digitalisierung eines Teils der
+    Vorlesungsverzeichnisse gute Ergebnisse erzielt, vor allem ab dem
+    Sommersemester 1856, als die Verzeichnisse nicht mehr durchgängig in
+    Fraktur gesetzt wurden.</p>
+
+    <h2 id="edition">Zur Edition der Vorlesungsverzeichnisse</h2>
+
+    <p>Da es sich bei unseren Quellen um Gebrauchstexte handelt, sollte es
+    nicht darum gehen, eine historisch-kritische Ausgabe zu erstellen. Im
+    Mittelpunkt stand die semantische Auszeichnung der einzelnen Passagen, um
+    diese maschinenlesbar abzubilden. Gesperrt gedruckte Professorennamen
+    wurden also lediglich semantisch getaggt, die Sperrung wurde im Normalfall
+    nicht mit übernommen und wird daher auch bei einer HTML-Ausgabe der VV
+    nicht reproduziert. Innerhalb von Vorlesungstiteln wurden Sperrungen und
+    Antiqua-Passagen (als <i>Kursivierungen</i>) jedoch normalerweise mit in
+    die Abschrift übernommen. Durch den jederzeit möglichen Einblick in die
+    gescannten Originaldokumente ist aber stets auch der typografische
+    Ursprungszustand einsehbar.</p>
+
+    <p>Bis mindestens 1901, dem Jahr der II. Orthographischen Konferenz, gab
+    es keine genormte deutsche Rechtschreibung. In den
+    Vorlesungsverzeichnissen des 19. Jahrhunderts wechseln also verschiedene
+    Schreibungen einander ab ("Medicin" steht neben "Medizin", "Litteratur"
+    neben "Literatur", "Göthe" neben "Goethe" usw.). Es wurden keinerlei
+    Vereinheitlichungen vorgenommen. Offensichtliche Setzfehler wurden jedoch
+    korrigiert und auch als solche kenntlich gemacht. Darüber hinaus gibt es
+    bei einigen unkorrigierten Fällen [sic!]-Vermerke.</p>
+  </body>
+</html>
