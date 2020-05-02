@@ -7,6 +7,20 @@ These resources can be served by the
 [histvv-server](https://github.com/ubleipzig/histvv) for which purpose a
 [custom Stylesheet](./custom.xsl) is provided to adjust its basic HTML output.
 
+## Docker
+
+The histvv database and web application can be run locally from this repo with
+a multi-container [Docker Compose](https://docs.docker.com/compose/) setup.
+
+```bash
+git clone https://github.com/ubleipzig/histvv-data
+cd histvv-data
+docker-compose build
+docker-compose up
+```
+
+The web app can then be accessed at http://localhost:3003/.
+
 ## License
 
 Copyright (C) 2018 Leipzig University Library <info@ub.uni-leipzig.de>

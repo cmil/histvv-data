@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  web:
+    build: https://github.com/cmil/histvv.git
+    volumes:
+      - type: bind
+        source: .
+        target: /histvv-data
+    ports:
+      - "3003:3000"
+    depends_on:
+      - db
+    command: ["wait-for-it.sh", "db:1984", "--", "node", "/usr/src/histvv/bin/www", "--dbhost", "db", "--static", "/histvv-data/public", "--xsl", "/histvv-data/custom.xsl"]
+  db:
+    build: .
