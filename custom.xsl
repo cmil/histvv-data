@@ -50,7 +50,7 @@
   <xsl:template match="h:div[@id='footer']">
     <div id="footer">
       <p>
-        © 2008-2012
+        © 2008-2020
         <a href="http://www.ub.uni-leipzig.de/">
           Universitätsbibliothek Leipzig
         </a>

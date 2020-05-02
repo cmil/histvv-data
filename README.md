@@ -23,7 +23,7 @@ The web app can then be accessed at http://localhost:3003/.
 
 ## License
 
-Copyright (C) 2018 Leipzig University Library <info@ub.uni-leipzig.de>
+Copyright (C) 2018-2020 Leipzig University Library <info@ub.uni-leipzig.de>
 
 The histvv database is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by the Free
