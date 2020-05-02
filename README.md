@@ -1,6 +1,11 @@
 # Histvv data for Leipzig University
 
-This is the repository of the XML data for http://histvv.uni-leipzig.de.
+This repository hosts both the [XML data](./xml) and the
+[static HTML and image resources](./public) for http://histvv.uni-leipzig.de.
+
+These resources can be served by the
+[histvv-server](https://github.com/ubleipzig/histvv) for which purpose a
+[custom Stylesheet](./custom.xsl) is provided to adjust its basic HTML output.
 
 ## License
 
