@@ -21,6 +21,16 @@ docker-compose up
 
 The web app can then be accessed at http://localhost:3003/.
 
+To only start the BaseX database with the Leipzig HistVV data run
+
+```bash
+docker build -t histvv/db .
+docker run -ti -p 1984:1984 -p 8984:8984 --name histvv-db-leipzig histvv/db
+```
+
+You can then access the [REST interface](https://docs.basex.org/wiki/REST) under
+http://admin:admin@localhost:8984/rest/histvv.
+
 ## License
 
 Copyright (C) 2018-2020 Leipzig University Library <info@ub.uni-leipzig.de>
